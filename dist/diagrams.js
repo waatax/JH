@@ -1590,6 +1590,448 @@ const diagrams = {
       <text x="270" y="177" font-size="12" font-weight="700" fill="${c.forest}" text-anchor="middle">方位動態：Walk THROUGH the forest (穿透立體)  vs  Walk ACROSS the street (橫跨平面)</text>
     `)
   }
+  ,'physics-2': {
+    title: '橫波與縱波幾何模型及波速公式',
+    subtitle: '波速 v ＝ 頻率 f × 波長 λ ＝ 波長 λ / 週期 T',
+    caption: '橫波介質振動方向與波前進方向垂直（如繩波、水波）；縱波振動方向與前進方向平行（如聲波、彈簧疏密波）。',
+    render: () => frame('波的特性與波速', `
+      <!-- Wave Line (Transverse) -->
+      <path d="M 60 110 Q 110 40 160 110 T 260 110 T 360 110 T 460 110" fill="none" stroke="${c.blue}" stroke-width="3"/>
+      <!-- Baseline -->
+      <line x1="40" y1="110" x2="480" y2="110" stroke="${c.border}" stroke-width="1.5" stroke-dasharray="4,4"/>
+      <!-- Wavelength Lambda -->
+      <line x1="110" y1="35" x2="210" y2="35" stroke="${c.red}" stroke-width="2"/>
+      <polygon points="110,35 118,31 118,39" fill="${c.red}"/>
+      <polygon points="210,35 202,31 202,39" fill="${c.red}"/>
+      <text x="160" y="28" font-size="13" font-weight="800" fill="${c.red}" text-anchor="middle">波長 λ (相鄰波峰間距)</text>
+      <!-- Amplitude A -->
+      <line x1="110" y1="110" x2="110" y2="40" stroke="${c.forest}" stroke-width="2"/>
+      <polygon points="110,40 106,48 114,48" fill="${c.forest}"/>
+      <text x="125" y="75" font-size="12" font-weight="700" fill="${c.forest}">振幅 A</text>
+      <!-- Peak and Trough -->
+      <circle cx="110" cy="40" r="4" fill="${c.red}"/>
+      <text x="110" y="55" font-size="11" font-weight="700" fill="${c.dark}" text-anchor="middle">波峰</text>
+      <circle cx="210" cy="180" r="4" fill="${c.blue}"/>
+      <text x="210" y="195" font-size="11" font-weight="700" fill="${c.dark}" text-anchor="middle">波谷</text>
+      <!-- Formula Callout -->
+      <rect x="290" y="45" width="180" height="50" rx="6" fill="${c.lightGold}" stroke="${c.gold}"/>
+      <text x="380" y="68" font-size="14" font-weight="800" fill="${c.gold}" text-anchor="middle">v ＝ f × λ</text>
+      <text x="380" y="86" font-size="11" fill="${c.muted}" text-anchor="middle">波速 ＝ 頻率 × 波長</text>
+    `)
+  },
+  'physics-6': {
+    title: '簡單機械與機械利益：動滑輪與斜面模型',
+    subtitle: '功的原理：理想機械絕不省功（W＝F×s），省力必費時、省時必費力',
+    caption: '動滑輪省力 1/2（施力為物重一半），但拉繩距離為物體上升高度的 2 倍；斜面施力 F＝物重 W × (高度 h / 長度 L)。',
+    render: () => frame('簡單機械與功的原理', `
+      <!-- Left: Pulley -->
+      <g transform="translate(50, 20)">
+        <rect x="0" y="0" width="200" height="165" rx="8" fill="${c.white}" stroke="${c.border}"/>
+        <text x="100" y="25" font-size="13" font-weight="800" fill="${c.forest}" text-anchor="middle">動滑輪 (Movable Pulley)</text>
+        <circle cx="95" cy="75" r="22" fill="${c.lightGreen}" stroke="${c.forest}" stroke-width="2"/>
+        <rect x="80" y="105" width="30" height="25" rx="3" fill="${c.lightGold}" stroke="${c.gold}"/>
+        <text x="95" y="122" font-size="11" font-weight="700" fill="${c.gold}" text-anchor="middle">W</text>
+        <line x1="95" y1="97" x2="95" y2="105" stroke="${c.forest}" stroke-width="1.8"/>
+        <!-- Rope -->
+        <line x1="73" y1="35" x2="73" y2="75" stroke="${c.muted}" stroke-width="2"/>
+        <path d="M 73 75 A 22 22 0 0 0 117 75" fill="none" stroke="${c.muted}" stroke-width="2"/>
+        <line x1="117" y1="75" x2="117" y2="40" stroke="${c.muted}" stroke-width="2"/>
+        <polygon points="117,35 113,43 121,43" fill="${c.red}"/>
+        <text x="140" y="42" font-size="11" font-weight="800" fill="${c.red}">F ＝ ½ W</text>
+        <text x="100" y="150" font-size="11" font-weight="700" fill="${c.forest}" text-anchor="middle">省力 50%，拉繩長度加倍 2h</text>
+      </g>
+      <!-- Right: Inclined Plane -->
+      <g transform="translate(280, 20)">
+        <rect x="0" y="0" width="210" height="165" rx="8" fill="${c.white}" stroke="${c.border}"/>
+        <text x="105" y="25" font-size="13" font-weight="800" fill="${c.blue}" text-anchor="middle">斜面 (Inclined Plane)</text>
+        <polygon points="30,120 180,120 180,50" fill="${c.lightBlue}" stroke="${c.blue}" stroke-width="2"/>
+        <!-- Box on slope -->
+        <rect x="85" y="70" width="25" height="20" rx="2" transform="rotate(-25 97 80)" fill="${c.lightGold}" stroke="${c.gold}" stroke-width="1.5"/>
+        <text x="105" y="138" font-size="11" font-weight="700" fill="${c.dark}" text-anchor="middle">斜面長 L ； 垂直高 h</text>
+        <text x="105" y="155" font-size="11" font-weight="800" fill="${c.blue}" text-anchor="middle">拉力 F ＝ W × (h / L)</text>
+      </g>
+    `)
+  },
+  'physics-10': {
+    title: '摩擦力特性與外力受力分析圖線',
+    subtitle: '靜摩擦力等於外力（fs＝F）；最大靜摩擦力 fs(max) 啟動瞬間；動摩擦力 fk 保持定值',
+    caption: '正向力愈大、接觸面愈粗糙，最大靜摩擦力愈大；物體開始滑動後，動摩擦力小於最大靜摩擦力，且與推力大小無關。',
+    render: () => frame('摩擦力與外力關係', `
+      <!-- Axes -->
+      <line x1="80" y1="160" x2="460" y2="160" stroke="${c.border}" stroke-width="2"/>
+      <line x1="80" y1="160" x2="80" y2="30" stroke="${c.border}" stroke-width="2"/>
+      <text x="465" y="165" font-size="12" font-weight="700" fill="${c.muted}">外力 F (推力)</text>
+      <text x="75" y="24" font-size="12" font-weight="700" fill="${c.muted}">摩擦力 f</text>
+      <!-- Static Friction 45 deg line -->
+      <line x1="80" y1="160" x2="240" y2="60" stroke="${c.forest}" stroke-width="3"/>
+      <!-- Drop to Kinetic friction -->
+      <line x1="240" y1="60" x2="260" y2="85" stroke="${c.red}" stroke-width="2.5" stroke-dasharray="3,3"/>
+      <!-- Kinetic Friction horizontal line -->
+      <line x1="260" y1="85" x2="440" y2="85" stroke="${c.blue}" stroke-width="3"/>
+      <!-- Peak Point -->
+      <circle cx="240" cy="60" r="5" fill="${c.red}"/>
+      <text x="240" y="45" font-size="12" font-weight="800" fill="${c.red}" text-anchor="middle">最大靜摩擦力 fs(max)</text>
+      <!-- Annotations -->
+      <text x="140" y="125" font-size="12" font-weight="700" fill="${c.forest}">靜摩擦區：f_s ＝ F</text>
+      <text x="350" y="75" font-size="12" font-weight="700" fill="${c.blue}">動摩擦區：f_k (定值)</text>
+      <text x="270" y="195" font-size="12" font-weight="700" fill="${c.forest}" text-anchor="middle">啟動後 fk ＜ fs(max)，推動瞬間最吃力，滑動後阻力變小</text>
+    `)
+  },
+  'physics-12': {
+    title: '電流磁效應與安培右手定則幾何模型',
+    subtitle: '長直導線同心圓磁場；螺線管四指順電流彎曲，大拇指所指即為 N 極',
+    caption: '厄斯特發現電流周圍產生磁場；安培定則：導線大拇指為電流，四指為同心圓磁場；線圈四指為電流，大拇指為內部磁場 (N極)。',
+    render: () => frame('安培右手定則', `
+      <!-- Left: Straight wire -->
+      <g transform="translate(60, 25)">
+        <rect x="0" y="0" width="180" height="150" rx="8" fill="${c.white}" stroke="${c.border}"/>
+        <text x="90" y="24" font-size="12" font-weight="800" fill="${c.forest}" text-anchor="middle">載流長直導線</text>
+        <line x1="90" y1="130" x2="90" y2="40" stroke="${c.red}" stroke-width="4"/>
+        <polygon points="90,35 84,45 96,45" fill="${c.red}"/>
+        <text x="90" y="145" font-size="11" font-weight="700" fill="${c.red}" text-anchor="middle">電流 I 向上</text>
+        <!-- Magnetic field concentric ellipses -->
+        <ellipse cx="90" cy="85" rx="55" ry="18" fill="none" stroke="${c.blue}" stroke-width="1.8"/>
+        <text x="145" y="82" font-size="10" font-weight="700" fill="${c.blue}">B (磁場)</text>
+        <text x="90" y="115" font-size="10" fill="${c.muted}" text-anchor="middle">拇指電流 ➔ 四指磁場</text>
+      </g>
+      <!-- Right: Solenoid -->
+      <g transform="translate(290, 25)">
+        <rect x="0" y="0" width="190" height="150" rx="8" fill="${c.white}" stroke="${c.border}"/>
+        <text x="95" y="24" font-size="12" font-weight="800" fill="${c.blue}" text-anchor="middle">螺線管 (電磁鐵)</text>
+        <ellipse cx="40" cy="85" rx="15" ry="30" fill="none" stroke="${c.gold}" stroke-width="3"/>
+        <ellipse cx="75" cy="85" rx="15" ry="30" fill="none" stroke="${c.gold}" stroke-width="3"/>
+        <ellipse cx="110" cy="85" rx="15" ry="30" fill="none" stroke="${c.gold}" stroke-width="3"/>
+        <ellipse cx="145" cy="85" rx="15" ry="30" fill="none" stroke="${c.gold}" stroke-width="3"/>
+        <!-- Polarity -->
+        <rect x="15" y="70" width="22" height="30" rx="4" fill="${c.red}"/>
+        <text x="26" y="90" font-size="13" font-weight="800" fill="${c.white}" text-anchor="middle">N</text>
+        <rect x="150" y="70" width="22" height="30" rx="4" fill="${c.blue}"/>
+        <text x="161" y="90" font-size="13" font-weight="800" fill="${c.white}" text-anchor="middle">S</text>
+        <text x="95" y="138" font-size="10" font-weight="700" fill="${c.forest}" text-anchor="middle">四指順電流 ➔ 拇指指 N 極</text>
+      </g>
+    `)
+  },
+  'chemistry-4': {
+    title: '電解質水溶液解離與離子導電微觀模型',
+    subtitle: 'NaCl 溶於水完全解離為自由移動的 Na⁺ 陽離子與 Cl⁻ 陰離子',
+    caption: '通電時，帶正電陽離子移向負極，帶負電陰離子移向正極，陰陽離子定向移動形成電流，使外電路燈泡發光。',
+    render: () => frame('電解質解離導電', `
+      <!-- Beaker -->
+      <rect x="130" y="60" width="280" height="120" rx="6" fill="none" stroke="${c.blue}" stroke-width="2.5"/>
+      <rect x="132" y="85" width="276" height="93" fill="${c.lightBlue}" fill-opacity="0.5"/>
+      <!-- Electrodes -->
+      <rect x="190" y="40" width="16" height="110" fill="${c.dark}"/>
+      <text x="198" y="32" font-size="12" font-weight="800" fill="${c.red}" text-anchor="middle">正極 (+)</text>
+      <rect x="330" y="40" width="16" height="110" fill="${c.dark}"/>
+      <text x="338" y="32" font-size="12" font-weight="800" fill="${c.blue}" text-anchor="middle">負極 (−)</text>
+      <!-- Ions -->
+      <circle cx="280" cy="115" r="14" fill="${c.lightRed}" stroke="${c.red}" stroke-width="1.8"/>
+      <text x="280" y="120" font-size="11" font-weight="800" fill="${c.red}" text-anchor="middle">Na⁺</text>
+      <path d="M 296 115 L 320 115" stroke="${c.red}" stroke-width="2"/>
+      <polygon points="320,115 313,111 313,119" fill="${c.red}"/>
+      <circle cx="250" cy="145" r="16" fill="${c.lightGreen}" stroke="${c.green}" stroke-width="1.8"/>
+      <text x="250" y="150" font-size="11" font-weight="800" fill="${c.forest}" text-anchor="middle">Cl⁻</text>
+      <path d="M 232 145 L 210 145" stroke="${c.green}" stroke-width="2"/>
+      <polygon points="210,145 217,141 217,149" fill="${c.green}"/>
+      <text x="270" y="198" font-size="12" font-weight="700" fill="${c.forest}" text-anchor="middle">解離關鍵：陰陽離子「總電量相等」，溶液整體恆維持電中性</text>
+    `)
+  },
+  'chemistry-6': {
+    title: '氧化還原反應微觀電子轉移與得失氧模型',
+    subtitle: '氧化（得氧／失電子）與還原（失氧／得電子）必同時發生',
+    caption: 'CuO ＋ C ➔ Cu ＋ CO₂：碳搶奪氧（活性大，為還原劑被氧化）；氧化銅失去氧（為氧化劑被還原成銅單質）。',
+    render: () => frame('氧化還原反應', `
+      <!-- Reactants -->
+      <g transform="translate(60, 40)">
+        <rect x="0" y="0" width="160" height="90" rx="8" fill="${c.white}" stroke="${c.border}"/>
+        <text x="80" y="26" font-size="13" font-weight="800" fill="${c.dark}" text-anchor="middle">反應物 (Reactants)</text>
+        <text x="40" y="60" font-size="15" font-weight="800" fill="${c.dark}">2CuO</text>
+        <text x="95" y="60" font-size="15" font-weight="700" fill="${c.muted}">＋</text>
+        <text x="130" y="60" font-size="15" font-weight="800" fill="${c.forest}">C</text>
+      </g>
+      <!-- Arrow -->
+      <g transform="translate(230, 85)">
+        <line x1="0" y1="0" x2="60" y2="0" stroke="${c.forest}" stroke-width="3"/>
+        <polygon points="60,0 52,-5 52,5" fill="${c.forest}"/>
+        <text x="30" y="-8" font-size="11" font-weight="700" fill="${c.forest}" text-anchor="middle">加熱 Δ</text>
+      </g>
+      <!-- Products -->
+      <g transform="translate(305, 40)">
+        <rect x="0" y="0" width="160" height="90" rx="8" fill="${c.white}" stroke="${c.border}"/>
+        <text x="80" y="26" font-size="13" font-weight="800" fill="${c.dark}" text-anchor="middle">生成物 (Products)</text>
+        <text x="45" y="60" font-size="15" font-weight="800" fill="${c.gold}">2Cu</text>
+        <text x="95" y="60" font-size="15" font-weight="700" fill="${c.muted}">＋</text>
+        <text x="135" y="60" font-size="14" font-weight="800" fill="${c.blue}">CO₂</text>
+      </g>
+      <!-- Oxidation Arc -->
+      <path d="M 190 75 Q 260 20 380 75" fill="none" stroke="${c.red}" stroke-width="2"/>
+      <text x="285" y="32" font-size="12" font-weight="800" fill="${c.red}" text-anchor="middle">C 得氧被「氧化」 (還原劑)</text>
+      <!-- Reduction Arc -->
+      <path d="M 110 100 Q 220 160 340 100" fill="none" stroke="${c.blue}" stroke-width="2"/>
+      <text x="225" y="155" font-size="12" font-weight="800" fill="${c.blue}" text-anchor="middle">CuO 失氧被「還原」 (氧化劑)</text>
+    `)
+  },
+  'chemistry-9': {
+    title: '有機化合物碳鏈骨架與常見官能基結構',
+    subtitle: '烴類（只含碳氫）、醇類（含羥基 −OH）、有機酸（含羧基 −COOH）',
+    caption: '碳原子具 4 個價鍵可串成長鏈或環狀；乙醇與乙酸在濃硫酸催化下發生「酯化反應」生成具果香之乙酸乙酯。',
+    render: () => frame('有機化合物骨架', `
+      <!-- Alkane -->
+      <g transform="translate(30, 25)">
+        <rect x="0" y="0" width="145" height="155" rx="8" fill="${c.white}" stroke="${c.border}"/>
+        <text x="72" y="25" font-size="12" font-weight="800" fill="${c.forest}" text-anchor="middle">烷類 (烴類)</text>
+        <text x="72" y="45" font-size="10" fill="${c.muted}" text-anchor="middle">只含碳與氫元素</text>
+        <circle cx="72" cy="85" r="16" fill="${c.dark}"/>
+        <text x="72" y="90" font-size="14" font-weight="800" fill="${c.white}" text-anchor="middle">C</text>
+        <text x="72" y="130" font-size="12" font-weight="700" fill="${c.dark}" text-anchor="middle">甲烷 CH₄ / 乙烷 C₂H₆</text>
+        <text x="72" y="148" font-size="10" fill="${c.muted}" text-anchor="middle">難溶於水、作燃料</text>
+      </g>
+      <!-- Alcohol -->
+      <g transform="translate(195, 25)">
+        <rect x="0" y="0" width="145" height="155" rx="8" fill="${c.white}" stroke="${c.border}"/>
+        <text x="72" y="25" font-size="12" font-weight="800" fill="${c.blue}" text-anchor="middle">醇類 (具 −OH 羥基)</text>
+        <text x="72" y="45" font-size="10" fill="${c.muted}" text-anchor="middle">乙醇 C₂H₅OH</text>
+        <rect x="42" y="70" width="60" height="30" rx="6" fill="${c.lightBlue}" stroke="${c.blue}"/>
+        <text x="72" y="90" font-size="13" font-weight="800" fill="${c.blue}" text-anchor="middle">−OH</text>
+        <text x="72" y="130" font-size="12" font-weight="700" fill="${c.dark}" text-anchor="middle">酒精 · 易溶於水</text>
+        <text x="72" y="148" font-size="10" fill="${c.muted}" text-anchor="middle">水溶液呈中性</text>
+      </g>
+      <!-- Acid -->
+      <g transform="translate(360, 25)">
+        <rect x="0" y="0" width="145" height="155" rx="8" fill="${c.white}" stroke="${c.border}"/>
+        <text x="72" y="25" font-size="12" font-weight="800" fill="${c.red}" text-anchor="middle">有機酸 (具 −COOH)</text>
+        <text x="72" y="45" font-size="10" fill="${c.muted}" text-anchor="middle">乙酸 CH₃COOH (醋酸)</text>
+        <rect x="35" y="70" width="75" height="30" rx="6" fill="${c.lightRed}" stroke="${c.red}"/>
+        <text x="72" y="90" font-size="13" font-weight="800" fill="${c.red}" text-anchor="middle">−COOH</text>
+        <text x="72" y="130" font-size="12" font-weight="700" fill="${c.dark}" text-anchor="middle">食用醋 · 具酸味</text>
+        <text x="72" y="148" font-size="10" fill="${c.red}" text-anchor="middle">水溶液呈弱酸性</text>
+      </g>
+    `)
+  },
+  'biology-2': {
+    title: '光合作用光反應與碳反應能量流轉模型',
+    subtitle: '光反應（葉綠體囊狀膜分解水釋放 O₂）➔ 碳反應（基質酵素合成葡萄糖 C₆H₁₂O₆）',
+    caption: '光反應需要光能，將水分解放出氧氣並轉化能量；碳反應不直接需光，利用能量與二氧化碳在酵素催化下生成葡萄糖與水。',
+    render: () => frame('光合作用歷程', `
+      <!-- Chloroplast Outer Membrane -->
+      <rect x="50" y="30" width="440" height="150" rx="16" fill="${c.lightGreen}" stroke="${c.forest}" stroke-width="2.5"/>
+      <text x="80" y="52" font-size="12" font-weight="800" fill="${c.forest}">葉綠體 (Chloroplast)</text>
+      <!-- Light Reaction -->
+      <g transform="translate(70, 65)">
+        <rect x="0" y="0" width="150" height="95" rx="8" fill="${c.white}" stroke="${c.green}" stroke-width="1.8"/>
+        <text x="75" y="24" font-size="12" font-weight="800" fill="${c.forest}" text-anchor="middle">光反應 (需光)</text>
+        <text x="75" y="44" font-size="11" fill="${c.blue}" text-anchor="middle">原料：水 (H₂O) ＋ 光</text>
+        <text x="75" y="66" font-size="12" font-weight="800" fill="${c.red}" text-anchor="middle">產物：氧氣 (O₂) ↑</text>
+        <text x="75" y="84" font-size="10" fill="${c.gold}" text-anchor="middle">產生 ATP 能量</text>
+      </g>
+      <!-- Energy Transfer Arrow -->
+      <g transform="translate(225, 105)">
+        <line x1="0" y1="0" x2="80" y2="0" stroke="${c.gold}" stroke-width="3"/>
+        <polygon points="80,0 72,-5 72,5" fill="${c.gold}"/>
+        <text x="40" y="-8" font-size="11" font-weight="800" fill="${c.gold}" text-anchor="middle">能量轉移</text>
+      </g>
+      <!-- Dark Reaction -->
+      <g transform="translate(310, 65)">
+        <rect x="0" y="0" width="160" height="95" rx="8" fill="${c.white}" stroke="${c.forest}" stroke-width="1.8"/>
+        <text x="80" y="24" font-size="12" font-weight="800" fill="${c.forest}" text-anchor="middle">碳反應 (不需光)</text>
+        <text x="80" y="44" font-size="11" fill="${c.dark}" text-anchor="middle">原料：二氧化碳 (CO₂)</text>
+        <text x="80" y="66" font-size="12" font-weight="800" fill="${c.forest}" text-anchor="middle">產物：葡萄糖 ＋ 水</text>
+        <text x="80" y="84" font-size="10" fill="${c.muted}" text-anchor="middle">儲存為澱粉</text>
+      </g>
+      <text x="270" y="198" font-size="12" font-weight="700" fill="${c.forest}" text-anchor="middle">總反應式：水 ＋ 二氧化碳 ➔ (光能/葉綠體) ➔ 葡萄糖 ＋ 氧氣 ＋ 水</text>
+    `)
+  },
+  'biology-6': {
+    title: '心臟腔室構造與瓣膜單向防逆流剖面',
+    subtitle: '心房心室瓣膜與半月瓣確保血液單向流動：心房 ➔ 心室 ➔ 動脈',
+    caption: '左心室肌肉壁最厚（負責將充氧血強力打入主動脈供應全身組織）；瓣膜開閉維持單向循環，逆流會造成心雜音或心臟肥大。',
+    render: () => frame('心臟腔室與瓣膜', `
+      <!-- Outer Heart Box -->
+      <rect x="150" y="30" width="240" height="150" rx="12" fill="${c.white}" stroke="${c.dark}" stroke-width="2.5"/>
+      <line x1="270" y1="30" x2="270" y2="180" stroke="${c.dark}" stroke-width="3"/>
+      <line x1="150" y1="95" x2="390" y2="95" stroke="${c.border}" stroke-width="2"/>
+      <!-- Right Side -->
+      <rect x="152" y="32" width="116" height="61" fill="${c.lightBlue}" fill-opacity="0.6"/>
+      <text x="210" y="65" font-size="13" font-weight="800" fill="${c.blue}" text-anchor="middle">右心房</text>
+      <rect x="152" y="97" width="116" height="81" fill="${c.lightBlue}" fill-opacity="0.6"/>
+      <text x="210" y="140" font-size="13" font-weight="800" fill="${c.blue}" text-anchor="middle">右心室</text>
+      <!-- Left Side -->
+      <rect x="272" y="32" width="116" height="61" fill="${c.lightRed}" fill-opacity="0.6"/>
+      <text x="330" y="65" font-size="13" font-weight="800" fill="${c.red}" text-anchor="middle">左心房</text>
+      <rect x="272" y="97" width="116" height="81" fill="${c.lightRed}" fill-opacity="0.6"/>
+      <rect x="370" y="97" width="18" height="81" fill="${c.red}" fill-opacity="0.4"/>
+      <text x="325" y="140" font-size="13" font-weight="800" fill="${c.red}" text-anchor="middle">左心室 ★</text>
+      <text x="330" y="158" font-size="9" fill="${c.red}" text-anchor="middle">(肌肉壁最厚)</text>
+      <!-- Valves -->
+      <line x1="190" y1="95" x2="230" y2="95" stroke="${c.gold}" stroke-width="4"/>
+      <line x1="310" y1="95" x2="350" y2="95" stroke="${c.gold}" stroke-width="4"/>
+      <text x="80" y="98" font-size="11" font-weight="700" fill="${c.gold}">房室瓣 (防逆流) ➔</text>
+      <text x="270" y="198" font-size="12" font-weight="700" fill="${c.forest}" text-anchor="middle">血流方向：靜脈 ➔ 心房 ➔ (房室瓣開) ➔ 心室 ➔ (半月瓣開) ➔ 動脈</text>
+    `)
+  },
+  'biology-7': {
+    title: '植物維管束排列：雙子葉植物 vs 單子葉植物莖部對比',
+    subtitle: '雙子葉環狀排列具形成層（會加粗/年輪） vs 單子葉散生排列無形成層（不加粗）',
+    caption: '木質部在內側運送水分與礦物質（由下而上單向流動）；韌皮部在外面運送光合作用有機養分（可上下雙向流動）。',
+    render: () => frame('植物維管束對比', `
+      <!-- Left: Dicot -->
+      <g transform="translate(60, 20)">
+        <rect x="0" y="0" width="190" height="165" rx="8" fill="${c.white}" stroke="${c.border}"/>
+        <text x="95" y="24" font-size="13" font-weight="800" fill="${c.forest}" text-anchor="middle">雙子葉植物 (如向日葵)</text>
+        <circle cx="95" cy="85" r="45" fill="none" stroke="${c.forest}" stroke-width="2"/>
+        <circle cx="95" cy="85" r="30" fill="none" stroke="${c.gold}" stroke-width="1.8" stroke-dasharray="3,2"/>
+        <text x="95" y="80" font-size="11" font-weight="800" fill="${c.gold}" text-anchor="middle">形成層</text>
+        <text x="95" y="95" font-size="9" fill="${c.muted}" text-anchor="middle">向內木質/向外韌皮</text>
+        <text x="95" y="145" font-size="11" font-weight="700" fill="${c.forest}" text-anchor="middle">環狀排列 · 莖能持續加粗</text>
+        <text x="95" y="158" font-size="9" fill="${c.muted}" text-anchor="middle">多年生木本具顯著年輪</text>
+      </g>
+      <!-- Right: Monocot -->
+      <g transform="translate(290, 20)">
+        <rect x="0" y="0" width="190" height="165" rx="8" fill="${c.white}" stroke="${c.border}"/>
+        <text x="95" y="24" font-size="13" font-weight="800" fill="${c.blue}" text-anchor="middle">單子葉植物 (如玉米/竹子)</text>
+        <circle cx="95" cy="85" r="45" fill="none" stroke="${c.blue}" stroke-width="2"/>
+        ${[ [80,60], [110,65], [75,90], [105,95], [85,115], [115,110] ].map(p => `<circle cx="${p[0]}" cy="${p[1]}" r="4" fill="${c.blue}"/>`).join('')}
+        <text x="95" y="145" font-size="11" font-weight="700" fill="${c.blue}" text-anchor="middle">散生排列 · 無形成層</text>
+        <text x="95" y="158" font-size="9" fill="${c.muted}" text-anchor="middle">莖粗度有限，無年輪構造</text>
+      </g>
+    `)
+  },
+  'earth-1': {
+    title: '地球大氣垂直分層結構與溫度變化曲線',
+    subtitle: '對流層（氣溫遞減/天氣現象）、平流層（臭氧吸UV逆溫）、中氣層、熱氣層',
+    caption: '對流層厚度約 10 公里，集中大氣 80% 質量與幾乎所有水氣；平流層上熱下冷極為穩定，為噴射客機理想巡航高度。',
+    render: () => frame('大氣垂直分層', `
+      <!-- Altitude Axis -->
+      <line x1="80" y1="170" x2="80" y2="25" stroke="${c.border}" stroke-width="2"/>
+      <text x="75" y="20" font-size="11" font-weight="700" fill="${c.muted}" text-anchor="middle">高度 (km)</text>
+      <!-- Layers -->
+      <rect x="90" y="140" width="380" height="30" fill="${c.lightBlue}" fill-opacity="0.4"/>
+      <text x="140" y="160" font-size="12" font-weight="800" fill="${c.blue}">對流層 (0~10 km)</text>
+      <text x="320" y="160" font-size="11" fill="${c.muted}">每升 1km 降 6.5℃ · 天氣現象</text>
+      <rect x="90" y="100" width="380" height="38" fill="${c.lightGreen}" fill-opacity="0.4"/>
+      <text x="140" y="123" font-size="12" font-weight="800" fill="${c.forest}">平流層 (10~50 km)</text>
+      <text x="320" y="123" font-size="11" fill="${c.forest}">臭氧層吸收 UV 逆溫 · 客機巡航</text>
+      <rect x="90" y="65" width="380" height="33" fill="${c.lightGold}" fill-opacity="0.4"/>
+      <text x="140" y="86" font-size="12" font-weight="800" fill="${c.gold}">中氣層 (50~85 km)</text>
+      <text x="320" y="86" font-size="11" fill="${c.muted}">大氣最冷處 (−90℃)</text>
+      <rect x="90" y="28" width="380" height="35" fill="${c.lightPurple}" fill-opacity="0.4"/>
+      <text x="140" y="50" font-size="12" font-weight="800" fill="${c.purple}">熱氣層 (85 km 以上)</text>
+      <text x="320" y="50" font-size="11" fill="${c.purple}">氣溫高達 1000℃ · 極光/人造衛星</text>
+      <!-- Temperature curve -->
+      <path d="M 280 170 L 220 140 L 260 100 L 190 65 L 260 30" fill="none" stroke="${c.red}" stroke-width="2.5"/>
+      <text x="270" y="198" font-size="11" font-weight="700" fill="${c.red}" text-anchor="middle">紅線代表溫度變化曲線：對流層降 ➔ 平流層升 ➔ 中氣層降 ➔ 熱氣層升</text>
+    `)
+  },
+  'earth-6': {
+    title: '水循環與地下水文地質剖面：受壓自流井模型',
+    subtitle: '降水、地表逕流、土壤入滲；受壓含水層夾於不透水層之間',
+    caption: '當井口海拔「低於受壓地下水面（水頭高度）」時，水在水壓推動下會自動噴湧而出，形成珍貴的「自流井」。',
+    render: () => frame('水循環與地下水', `
+      <!-- Geological layers -->
+      <path d="M 40 100 Q 150 70 250 85 T 500 110 L 500 190 L 40 190 Z" fill="${c.lightGreen}" fill-opacity="0.3"/>
+      <path d="M 40 120 Q 250 105 500 130" stroke="${c.dark}" stroke-width="3" fill="none"/>
+      <text x="440" y="125" font-size="10" fill="${c.dark}">不透水層 (頁岩)</text>
+      <path d="M 40 125 Q 250 110 500 135 L 500 160 Q 250 135 40 150 Z" fill="${c.lightBlue}" fill-opacity="0.7"/>
+      <text x="140" y="142" font-size="11" font-weight="800" fill="${c.blue}">受壓含水層 (砂礫岩)</text>
+      <path d="M 40 150 Q 250 135 500 160" stroke="${c.dark}" stroke-width="3" fill="none"/>
+      <text x="440" y="155" font-size="10" fill="${c.dark}">不透水層 (基盤)</text>
+      <!-- Artesian Well -->
+      <line x1="320" y1="70" x2="320" y2="135" stroke="${c.blue}" stroke-width="3.5"/>
+      <path d="M 320 70 Q 315 50 310 60" fill="none" stroke="${c.blue}" stroke-width="2.5"/>
+      <text x="320" y="45" font-size="12" font-weight="800" fill="${c.blue}" text-anchor="middle">自流井 (噴泉)</text>
+      <line x1="120" y1="65" x2="420" y2="65" stroke="${c.red}" stroke-width="1.8" stroke-dasharray="4,3"/>
+      <text x="120" y="58" font-size="11" font-weight="700" fill="${c.red}">受壓地下水面 (水頭)</text>
+      <text x="270" y="195" font-size="12" font-weight="700" fill="${c.forest}" text-anchor="middle">成井條件：井口海拔低於受壓水面即可自動出水</text>
+    `)
+  },
+  'geography-3': {
+    title: '人口金字塔三大類型與臺灣少子高齡化轉型',
+    subtitle: '幼年型（高出生高死亡）➔ 靜止型（低出生低死亡）➔ 縮減型（倒金字塔高齡社會）',
+    caption: '臺灣目前邁入「縮減型」人口結構：扶養比負擔加重，面臨少子化與高齡化雙重挑戰，推動長期照護與托育政策刻不容緩。',
+    render: () => frame('人口金字塔轉型', `
+      <!-- 1: Expansive -->
+      <g transform="translate(40, 20)">
+        <rect x="0" y="0" width="135" height="155" rx="6" fill="${c.white}" stroke="${c.border}"/>
+        <text x="67" y="24" font-size="11" font-weight="800" fill="${c.forest}" text-anchor="middle">幼年型 (高金字塔)</text>
+        <polygon points="67,40 18,125 116,125" fill="${c.lightGreen}" stroke="${c.green}" stroke-width="1.5"/>
+        <text x="67" y="142" font-size="10" fill="${c.muted}" text-anchor="middle">高出生率 · 發展中國家</text>
+      </g>
+      <!-- 2: Stationary -->
+      <g transform="translate(200, 20)">
+        <rect x="0" y="0" width="135" height="155" rx="6" fill="${c.white}" stroke="${c.border}"/>
+        <text x="67" y="24" font-size="11" font-weight="800" fill="${c.blue}" text-anchor="middle">靜止型 (彈頭型)</text>
+        <path d="M 67 40 L 105 60 L 105 125 L 30 125 L 30 60 Z" fill="${c.lightBlue}" stroke="${c.blue}" stroke-width="1.5"/>
+        <text x="67" y="142" font-size="10" fill="${c.muted}" text-anchor="middle">各年齡層分佈平穩</text>
+      </g>
+      <!-- 3: Constrictive -->
+      <g transform="translate(360, 20)">
+        <rect x="0" y="0" width="140" height="155" rx="6" fill="${c.lightRed}" stroke="${c.red}" stroke-width="1.8"/>
+        <text x="70" y="24" font-size="11" font-weight="800" fill="${c.red}" text-anchor="middle">縮減型 (罈型) ★臺灣</text>
+        <polygon points="35,50 105,50 115,85 90,125 50,125 25,85" fill="${c.white}" stroke="${c.red}" stroke-width="1.5"/>
+        <text x="70" y="142" font-size="10" font-weight="700" fill="${c.red}" text-anchor="middle">少子化 ＋ 高齡化加劇</text>
+      </g>
+      <text x="270" y="195" font-size="12" font-weight="700" fill="${c.forest}" text-anchor="middle">扶養比升高：青壯年撫養幼年與老年人口負擔日益沉重</text>
+    `)
+  },
+  'chinese-1': {
+    title: '漢字字形演變歷史軸線與結構特徵',
+    subtitle: '甲骨文 ➔ 金文 ➔ 小篆 ➔ 隸書（古今文字分水嶺）➔ 楷書（現代標準）',
+    caption: '隸書「破圓為方、化繁為簡（隸變）」，徹底擺脫圖畫線條邁入符號化；楷書字形方正，為今日印刷與書寫之通用典範。',
+    render: () => frame('漢字演變歷史軸', `
+      <!-- Timeline line -->
+      <line x1="50" y1="100" x2="490" y2="100" stroke="${c.forest}" stroke-width="3"/>
+      ${[
+        { name: '甲骨文', era: '殷商', desc: '圖畫象形/刻龜甲', x: 80, color: c.dark },
+        { name: '金文', era: '商周', desc: '鐘鼎銘文/筆畫圓厚', x: 170, color: c.dark },
+        { name: '小篆', era: '秦代', desc: '書同文/線條圓轉勻稱', x: 260, color: c.forest },
+        { name: '隸書 ★', era: '漢代', desc: '化圓為方/蠶頭燕尾', x: 355, color: c.red },
+        { name: '楷書', era: '魏晉唐', desc: '方正端莊/現代範本', x: 445, color: c.blue }
+      ].map(s => `
+        <circle cx="${s.x}" cy="100" r="7" fill="${s.color}"/>
+        <rect x="${s.x - 38}" y="42" width="76" height="42" rx="5" fill="${c.white}" stroke="${s.color}" stroke-width="1.5"/>
+        <text x="${s.x}" y="58" font-size="12" font-weight="800" fill="${s.color}" text-anchor="middle">${s.name}</text>
+        <text x="${s.x}" y="74" font-size="10" fill="${c.muted}" text-anchor="middle">${s.era}</text>
+        <text x="${s.x}" y="125" font-size="9" fill="${c.dark}" text-anchor="middle">${s.desc.split('/')[0]}</text>
+        <text x="${s.x}" y="139" font-size="9" fill="${c.muted}" text-anchor="middle">${s.desc.split('/')[1]}</text>
+      `).join('')}
+      <rect x="70" y="165" width="400" height="30" rx="6" fill="${c.lightGold}" stroke="${c.gold}"/>
+      <text x="270" y="184" font-size="11" font-weight="800" fill="${c.gold}" text-anchor="middle">關鍵考點：隸書為「古文字（象形描摹）」與「今文字（方塊筆畫）」之分水嶺</text>
+    `)
+  },
+  'english-6': {
+    title: '被動語態句型幾何結構轉化模型',
+    subtitle: '主動 (S ＋ V ＋ O) ➔ 被動 (O變主詞 ＋ be動詞 ＋ 過去分詞 p.p. ＋ by S)',
+    caption: '動詞時態依 be 動詞展現：現在式 is/are + p.p.；過去式 was/were + p.p.；未來式 will be + p.p.；完成式 has/have been + p.p.。',
+    render: () => frame('被動語態結構', `
+      <!-- Active sentence box -->
+      <g transform="translate(60, 25)">
+        <rect x="0" y="0" width="420" height="55" rx="8" fill="${c.lightGreen}" stroke="${c.green}" stroke-width="1.5"/>
+        <text x="20" y="24" font-size="11" font-weight="800" fill="${c.forest}">主動語態 (Active Voice)</text>
+        <text x="20" y="44" font-size="13" fill="${c.dark}">
+          <tspan font-weight="700" fill="${c.blue}">Tom</tspan> (S)
+          <tspan font-weight="700" fill="${c.forest}">wrote</tspan> (V)
+          <tspan font-weight="700" fill="${c.gold}">the letter</tspan> (O).
+        </text>
+      </g>
+      <!-- Transformation Arrows -->
+      <path d="M 380 80 Q 270 95 140 110" fill="none" stroke="${c.gold}" stroke-width="2"/>
+      <polygon points="140,110 148,105 148,115" fill="${c.gold}"/>
+      <path d="M 100 80 Q 220 95 360 110" fill="none" stroke="${c.blue}" stroke-width="2"/>
+      <polygon points="360,110 352,105 352,115" fill="${c.blue}"/>
+      <!-- Passive sentence box -->
+      <g transform="translate(60, 115)">
+        <rect x="0" y="0" width="420" height="55" rx="8" fill="${c.white}" stroke="${c.forest}" stroke-width="2"/>
+        <text x="20" y="24" font-size="11" font-weight="800" fill="${c.purple}">被動語態 (Passive Voice)</text>
+        <text x="20" y="44" font-size="13" fill="${c.dark}">
+          <tspan font-weight="800" fill="${c.gold}">The letter</tspan> (新主詞)
+          <tspan font-weight="800" fill="${c.red}">was written</tspan> (be+p.p.)
+          by <tspan font-weight="700" fill="${c.blue}">Tom</tspan>.
+        </text>
+      </g>
+      <text x="270" y="195" font-size="11" font-weight="700" fill="${c.forest}" text-anchor="middle">公式口訣：受詞變主詞，動詞變 be+p.p.，原主詞變 by 後受格</text>
+    `)
+  }
+
 };
 
 // Generic subject fallback visual schematics to ensure all 188 units have clean graphics
