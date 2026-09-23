@@ -4,71 +4,71 @@
       "id": "chinese",
       "name": "國語文",
       "domain": "語文",
-      "units": 12,
-      "questions": 52
+      "units": 16,
+      "questions": 60
     },
     {
       "id": "english",
       "name": "英語文",
       "domain": "語文",
-      "units": 12,
-      "questions": 72
+      "units": 16,
+      "questions": 80
     },
     {
       "id": "math",
       "name": "數學",
       "domain": "數學",
-      "units": 20,
-      "questions": 40
+      "units": 27,
+      "questions": 54
     },
     {
       "id": "biology",
       "name": "生物",
       "domain": "自然科學",
-      "units": 12,
-      "questions": 24
+      "units": 14,
+      "questions": 28
     },
     {
       "id": "physics",
       "name": "理化・物理",
       "domain": "自然科學",
-      "units": 13,
-      "questions": 26
+      "units": 15,
+      "questions": 30
     },
     {
       "id": "chemistry",
       "name": "理化・化學",
       "domain": "自然科學",
-      "units": 12,
-      "questions": 24
+      "units": 14,
+      "questions": 28
     },
     {
       "id": "earth",
       "name": "地球科學",
       "domain": "自然科學",
-      "units": 10,
-      "questions": 20
+      "units": 12,
+      "questions": 24
     },
     {
       "id": "history",
       "name": "歷史",
       "domain": "社會",
-      "units": 12,
-      "questions": 24
+      "units": 15,
+      "questions": 30
     },
     {
       "id": "geography",
       "name": "地理",
       "domain": "社會",
-      "units": 10,
-      "questions": 24
+      "units": 13,
+      "questions": 30
     },
     {
       "id": "civics",
       "name": "公民與社會",
       "domain": "社會",
-      "units": 9,
-      "questions": 22
+      "units": 12,
+      "questions": 28
     },
     {
       "id": "visual",
@@ -459,6 +459,111 @@
       "title": "附加問句、名詞子句與間接問句"
     },
     {
+      "id": "math-21",
+      "subject": "math",
+      "grade": 7,
+      "term": 2,
+      "title": "連比與比例式的應用"
+    },
+    {
+      "id": "math-22",
+      "subject": "math",
+      "grade": 8,
+      "term": 2,
+      "title": "等差級數與求和公式"
+    },
+    {
+      "id": "math-23",
+      "subject": "math",
+      "grade": 8,
+      "term": 2,
+      "title": "多邊形的內角和與外角和"
+    },
+    {
+      "id": "math-24",
+      "subject": "math",
+      "grade": 8,
+      "term": 2,
+      "title": "特殊四邊形與對角線幾何性質"
+    },
+    {
+      "id": "math-25",
+      "subject": "math",
+      "grade": 9,
+      "term": 1,
+      "title": "弦切角、圓內角與圓外角定理"
+    },
+    {
+      "id": "math-26",
+      "subject": "math",
+      "grade": 9,
+      "term": 2,
+      "title": "立體圖形、三視圖與表面積體積"
+    },
+    {
+      "id": "math-27",
+      "subject": "math",
+      "grade": 9,
+      "term": 2,
+      "title": "盒狀圖、四分位距與累積次數分配"
+    },
+    {
+      "id": "chinese-13",
+      "subject": "chinese",
+      "grade": 8,
+      "term": 1,
+      "title": "先秦諸子寓言與哲理散文"
+    },
+    {
+      "id": "chinese-14",
+      "subject": "chinese",
+      "grade": 8,
+      "term": 2,
+      "title": "現代記敘抒情散文與意象營造"
+    },
+    {
+      "id": "chinese-15",
+      "subject": "chinese",
+      "grade": 9,
+      "term": 1,
+      "title": "臺灣自然生態、海洋與在地文學"
+    },
+    {
+      "id": "chinese-16",
+      "subject": "chinese",
+      "grade": 9,
+      "term": 2,
+      "title": "會考寫作審題、立意與層次開展"
+    },
+    {
+      "id": "english-13",
+      "subject": "english",
+      "grade": 7,
+      "term": 2,
+      "title": "介系詞與時空方位精準表達"
+    },
+    {
+      "id": "english-14",
+      "subject": "english",
+      "grade": 8,
+      "term": 1,
+      "title": "條件副詞子句與情態假設語氣"
+    },
+    {
+      "id": "english-15",
+      "subject": "english",
+      "grade": 9,
+      "term": 1,
+      "title": "關係代名詞受格省略與介系詞搭配"
+    },
+    {
+      "id": "english-16",
+      "subject": "english",
+      "grade": 9,
+      "term": 2,
+      "title": "跨文本圖表閱讀與素養克漏字"
+    },
+    {
       "id": "biology-1",
       "subject": "biology",
       "grade": 7,
@@ -788,6 +893,62 @@
       "title": "天體引力、潮汐現象與月相變化"
     },
     {
+      "id": "biology-13",
+      "subject": "biology",
+      "grade": 7,
+      "term": 2,
+      "title": "人體神經系統與腦部構造分工"
+    },
+    {
+      "id": "biology-14",
+      "subject": "biology",
+      "grade": 7,
+      "term": 1,
+      "title": "人體消化器官與各類消化酵素專一性作用"
+    },
+    {
+      "id": "physics-14",
+      "subject": "physics",
+      "grade": 8,
+      "term": 1,
+      "title": "光的折射定律與透鏡成像規律"
+    },
+    {
+      "id": "physics-15",
+      "subject": "physics",
+      "grade": 9,
+      "term": 1,
+      "title": "動能、重力位能與力學能守恆定律"
+    },
+    {
+      "id": "chemistry-13",
+      "subject": "chemistry",
+      "grade": 8,
+      "term": 1,
+      "title": "空氣成分與常見氣體實驗室製備"
+    },
+    {
+      "id": "chemistry-14",
+      "subject": "chemistry",
+      "grade": 8,
+      "term": 2,
+      "title": "莫耳數概念與化學反應計量"
+    },
+    {
+      "id": "earth-11",
+      "subject": "earth",
+      "grade": 9,
+      "term": 1,
+      "title": "地震波傳播特性與臺灣活動斷層防震防災"
+    },
+    {
+      "id": "earth-12",
+      "subject": "earth",
+      "grade": 9,
+      "term": 2,
+      "title": "日食、月食天象成因與太陽系天體探索"
+    },
+    {
       "id": "history-1",
       "subject": "history",
       "grade": 7,
@@ -1003,6 +1164,69 @@
       "grade": 9,
       "term": 1,
       "title": "市場競爭、外部效果與政府管制"
+    },
+    {
+      "id": "history-13",
+      "subject": "history",
+      "grade": 7,
+      "term": 2,
+      "title": "清領開港通商與臺灣近代化建設"
+    },
+    {
+      "id": "history-14",
+      "subject": "history",
+      "grade": 8,
+      "term": 2,
+      "title": "辛亥革命與中華民國建立到對日抗戰"
+    },
+    {
+      "id": "history-15",
+      "subject": "history",
+      "grade": 9,
+      "term": 2,
+      "title": "二次大戰後冷戰對峙與全球解殖潮"
+    },
+    {
+      "id": "geography-11",
+      "subject": "geography",
+      "grade": 7,
+      "term": 2,
+      "title": "臺灣交通網絡與城鄉區域均衡發展"
+    },
+    {
+      "id": "geography-12",
+      "subject": "geography",
+      "grade": 8,
+      "term": 2,
+      "title": "西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治"
+    },
+    {
+      "id": "geography-13",
+      "subject": "geography",
+      "grade": 9,
+      "term": 1,
+      "title": "澳洲、紐西蘭與大洋洲島嶼地理環境"
+    },
+    {
+      "id": "civics-10",
+      "subject": "civics",
+      "grade": 7,
+      "term": 2,
+      "title": "地方自治、社區參與與地方創生"
+    },
+    {
+      "id": "civics-11",
+      "subject": "civics",
+      "grade": 8,
+      "term": 1,
+      "title": "中央政府體制與五院職權分工制衡"
+    },
+    {
+      "id": "civics-12",
+      "subject": "civics",
+      "grade": 9,
+      "term": 1,
+      "title": "國際貿易、比較利益法則與全球分工"
     },
     {
       "id": "visual-1",
@@ -1243,8 +1467,8 @@
       "title": "語言記錄與文化行動"
     }
   ],
-  "questions": 396,
-  "lessonQuestions": 312,
+  "questions": 460,
+  "lessonQuestions": 376,
   "extraQuestions": 64,
   "listening": 20,
   "constructed": 2
