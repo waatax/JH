@@ -1,0 +1,1 @@
+{"name":"zhixing-junior-academy","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"node scripts/serve.mjs","test":"node --test scripts/engine.test.mjs","validate":"node scripts/validate.mjs","build":"node scripts/validate.mjs"}}

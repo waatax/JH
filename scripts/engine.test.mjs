@@ -1,0 +1,10 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {makeSession,gradeSession,nextRecord,remainingSeconds,DAY} from '../dist/engine.js';
+const pool=[{id:'a',answer:2},{id:'b',answer:0},{id:'c',answer:3}];const bank=Object.fromEntries(pool.map(q=>[q.id,q]));
+test('sampling never pads short pools and option shuffles remain permutations',()=>{const s=makeSession(pool,{title:'sample',count:20});assert.equal(s.ids.length,3);assert.equal(new Set(s.ids).size,3);for(const order of Object.values(s.orders))assert.deepEqual([...order].sort(),[0,1,2,3])});
+test('grading distinguishes unanswered, wrong, independent correct and hinted correct',()=>{const s=makeSession(pool,{title:'grade',count:3});s.answers={a:2,b:1};s.hints={a:true};const result=gradeSession(s,bank);assert.equal(result.correct,1);assert.equal(result.independent,0);assert.equal(result.answered,2);assert.equal(result.percent,33);assert.equal(result.rows.find(r=>r.id==='c').answer,null)});
+test('deadline remains absolute after reload serialization',()=>{const s=makeSession(pool,{title:'timer',mode:'exam',minutes:1},1000);const restored=JSON.parse(JSON.stringify(s));assert.equal(remainingSeconds(restored,31000),30);assert.equal(remainingSeconds(restored,61000),0);assert.equal(remainingSeconds(restored,100000),0)});
+test('practice mode has no deadline',()=>{assert.equal(remainingSeconds(makeSession(pool,{title:'practice'})),null)});
+test('spaced review advances across days, not repeated same-day clicks',()=>{const t=new Date('2026-09-23T12:00:00+08:00').getTime();let r=nextRecord(undefined,true,false,t);assert.equal(r.streak,1);r=nextRecord(r,true,false,t+10000);assert.equal(r.streak,1);r=nextRecord(r,true,false,t+DAY);assert.equal(r.streak,2);assert.equal(r.due,t+4*DAY);r=nextRecord(r,false,false,t+2*DAY);assert.equal(r.streak,0);assert.equal(r.latestCorrect,false);assert.equal(r.due,t+3*DAY)});
+test('hints never mark independent correctness',()=>{const r=nextRecord(undefined,true,true,1000);assert.equal(r.latestCorrect,false);assert.equal(r.correctCount,1);assert.equal(r.streak,0)});

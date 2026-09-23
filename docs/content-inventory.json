@@ -1,0 +1,1251 @@
+{
+  "subjects": [
+    {
+      "id": "chinese",
+      "name": "國語文",
+      "domain": "語文",
+      "units": 12,
+      "questions": 52
+    },
+    {
+      "id": "english",
+      "name": "英語文",
+      "domain": "語文",
+      "units": 12,
+      "questions": 72
+    },
+    {
+      "id": "math",
+      "name": "數學",
+      "domain": "數學",
+      "units": 20,
+      "questions": 40
+    },
+    {
+      "id": "biology",
+      "name": "生物",
+      "domain": "自然科學",
+      "units": 12,
+      "questions": 24
+    },
+    {
+      "id": "physics",
+      "name": "理化・物理",
+      "domain": "自然科學",
+      "units": 13,
+      "questions": 26
+    },
+    {
+      "id": "chemistry",
+      "name": "理化・化學",
+      "domain": "自然科學",
+      "units": 12,
+      "questions": 24
+    },
+    {
+      "id": "earth",
+      "name": "地球科學",
+      "domain": "自然科學",
+      "units": 10,
+      "questions": 20
+    },
+    {
+      "id": "history",
+      "name": "歷史",
+      "domain": "社會",
+      "units": 12,
+      "questions": 24
+    },
+    {
+      "id": "geography",
+      "name": "地理",
+      "domain": "社會",
+      "units": 10,
+      "questions": 24
+    },
+    {
+      "id": "civics",
+      "name": "公民與社會",
+      "domain": "社會",
+      "units": 9,
+      "questions": 22
+    },
+    {
+      "id": "visual",
+      "name": "視覺藝術",
+      "domain": "藝術",
+      "units": 3,
+      "questions": 6
+    },
+    {
+      "id": "music",
+      "name": "音樂",
+      "domain": "藝術",
+      "units": 3,
+      "questions": 6
+    },
+    {
+      "id": "performing",
+      "name": "表演藝術",
+      "domain": "藝術",
+      "units": 3,
+      "questions": 6
+    },
+    {
+      "id": "computing",
+      "name": "資訊科技",
+      "domain": "科技",
+      "units": 3,
+      "questions": 6
+    },
+    {
+      "id": "technology",
+      "name": "生活科技",
+      "domain": "科技",
+      "units": 3,
+      "questions": 6
+    },
+    {
+      "id": "health",
+      "name": "健康教育",
+      "domain": "健康與體育",
+      "units": 3,
+      "questions": 6
+    },
+    {
+      "id": "pe",
+      "name": "體育",
+      "domain": "健康與體育",
+      "units": 3,
+      "questions": 6
+    },
+    {
+      "id": "home",
+      "name": "家政",
+      "domain": "綜合活動",
+      "units": 3,
+      "questions": 6
+    },
+    {
+      "id": "scout",
+      "name": "童軍",
+      "domain": "綜合活動",
+      "units": 3,
+      "questions": 6
+    },
+    {
+      "id": "guidance",
+      "name": "輔導",
+      "domain": "綜合活動",
+      "units": 3,
+      "questions": 6
+    },
+    {
+      "id": "local",
+      "name": "本土語文／臺灣手語",
+      "domain": "語文",
+      "units": 4,
+      "questions": 8
+    }
+  ],
+  "domains": 8,
+  "units": [
+    {
+      "id": "math-1",
+      "subject": "math",
+      "grade": 7,
+      "term": 1,
+      "title": "正負數與絕對值"
+    },
+    {
+      "id": "math-2",
+      "subject": "math",
+      "grade": 7,
+      "term": 1,
+      "title": "因數、倍數與質因數分解"
+    },
+    {
+      "id": "math-3",
+      "subject": "math",
+      "grade": 7,
+      "term": 1,
+      "title": "分數運算與科學記號"
+    },
+    {
+      "id": "math-4",
+      "subject": "math",
+      "grade": 7,
+      "term": 1,
+      "title": "一元一次方程式"
+    },
+    {
+      "id": "math-5",
+      "subject": "math",
+      "grade": 7,
+      "term": 2,
+      "title": "二元一次聯立方程式"
+    },
+    {
+      "id": "math-6",
+      "subject": "math",
+      "grade": 7,
+      "term": 2,
+      "title": "比例、正比與反比"
+    },
+    {
+      "id": "math-7",
+      "subject": "math",
+      "grade": 7,
+      "term": 2,
+      "title": "一元一次不等式"
+    },
+    {
+      "id": "math-8",
+      "subject": "math",
+      "grade": 7,
+      "term": 2,
+      "title": "坐標與資料圖表"
+    },
+    {
+      "id": "math-9",
+      "subject": "math",
+      "grade": 8,
+      "term": 1,
+      "title": "乘法公式與多項式"
+    },
+    {
+      "id": "math-10",
+      "subject": "math",
+      "grade": 8,
+      "term": 1,
+      "title": "平方根與畢氏定理"
+    },
+    {
+      "id": "math-11",
+      "subject": "math",
+      "grade": 8,
+      "term": 1,
+      "title": "因式分解"
+    },
+    {
+      "id": "math-12",
+      "subject": "math",
+      "grade": 8,
+      "term": 1,
+      "title": "一元二次方程式"
+    },
+    {
+      "id": "math-13",
+      "subject": "math",
+      "grade": 8,
+      "term": 2,
+      "title": "等差數列與一次函數"
+    },
+    {
+      "id": "math-14",
+      "subject": "math",
+      "grade": 8,
+      "term": 2,
+      "title": "三角形全等與幾何推理"
+    },
+    {
+      "id": "math-15",
+      "subject": "math",
+      "grade": 8,
+      "term": 2,
+      "title": "平行線、四邊形與尺規"
+    },
+    {
+      "id": "math-16",
+      "subject": "math",
+      "grade": 9,
+      "term": 1,
+      "title": "相似形與比例推理"
+    },
+    {
+      "id": "math-17",
+      "subject": "math",
+      "grade": 9,
+      "term": 1,
+      "title": "圓、切線與圓周角"
+    },
+    {
+      "id": "math-18",
+      "subject": "math",
+      "grade": 9,
+      "term": 2,
+      "title": "二次函數與極值"
+    },
+    {
+      "id": "math-19",
+      "subject": "math",
+      "grade": 9,
+      "term": 2,
+      "title": "統計、機率與空間圖形"
+    },
+    {
+      "id": "chinese-1",
+      "subject": "chinese",
+      "grade": 7,
+      "term": 1,
+      "title": "字詞、語境與修辭"
+    },
+    {
+      "id": "chinese-2",
+      "subject": "chinese",
+      "grade": 7,
+      "term": 2,
+      "title": "敘事閱讀與人物推論"
+    },
+    {
+      "id": "chinese-3",
+      "subject": "chinese",
+      "grade": 8,
+      "term": 1,
+      "title": "文言文的省略與虛字"
+    },
+    {
+      "id": "chinese-4",
+      "subject": "chinese",
+      "grade": 8,
+      "term": 2,
+      "title": "說明文、圖表與資訊整合"
+    },
+    {
+      "id": "chinese-5",
+      "subject": "chinese",
+      "grade": 9,
+      "term": 1,
+      "title": "議論、論據與批判閱讀"
+    },
+    {
+      "id": "chinese-6",
+      "subject": "chinese",
+      "grade": 9,
+      "term": 2,
+      "title": "詩歌賞析與寫作組織"
+    },
+    {
+      "id": "english-1",
+      "subject": "english",
+      "grade": 7,
+      "term": 1,
+      "title": "句子骨架與現在式"
+    },
+    {
+      "id": "english-2",
+      "subject": "english",
+      "grade": 7,
+      "term": 2,
+      "title": "現在進行式與時間表達"
+    },
+    {
+      "id": "english-3",
+      "subject": "english",
+      "grade": 8,
+      "term": 1,
+      "title": "過去式、未來與敘事順序"
+    },
+    {
+      "id": "english-4",
+      "subject": "english",
+      "grade": 8,
+      "term": 2,
+      "title": "比較級、不定詞與動名詞"
+    },
+    {
+      "id": "english-5",
+      "subject": "english",
+      "grade": 9,
+      "term": 1,
+      "title": "完成式、被動與關係子句"
+    },
+    {
+      "id": "english-6",
+      "subject": "english",
+      "grade": 9,
+      "term": 2,
+      "title": "閱讀策略與情境溝通"
+    },
+    {
+      "id": "math-20",
+      "subject": "math",
+      "grade": 9,
+      "term": 1,
+      "title": "三角形的外心、內心與重心"
+    },
+    {
+      "id": "chinese-7",
+      "subject": "chinese",
+      "grade": 7,
+      "term": 1,
+      "title": "六書原則與漢字形義流變"
+    },
+    {
+      "id": "chinese-8",
+      "subject": "chinese",
+      "grade": 7,
+      "term": 2,
+      "title": "標點符號、句型結構與語法邏輯"
+    },
+    {
+      "id": "chinese-9",
+      "subject": "chinese",
+      "grade": 8,
+      "term": 1,
+      "title": "古典近體詩：絕句與律詩格律賞析"
+    },
+    {
+      "id": "chinese-10",
+      "subject": "chinese",
+      "grade": 8,
+      "term": 2,
+      "title": "詞曲賞析與古代生活文化"
+    },
+    {
+      "id": "chinese-11",
+      "subject": "chinese",
+      "grade": 9,
+      "term": 1,
+      "title": "古典小說選讀與人性刻畫"
+    },
+    {
+      "id": "chinese-12",
+      "subject": "chinese",
+      "grade": 9,
+      "term": 2,
+      "title": "應用文全覽：書信、題辭、對聯與柬帖規範"
+    },
+    {
+      "id": "english-7",
+      "subject": "english",
+      "grade": 7,
+      "term": 1,
+      "title": "名詞單複數、指示代名詞與祈使句"
+    },
+    {
+      "id": "english-8",
+      "subject": "english",
+      "grade": 7,
+      "term": 2,
+      "title": "頻率副詞、情態助動詞 can 與存在句"
+    },
+    {
+      "id": "english-9",
+      "subject": "english",
+      "grade": 8,
+      "term": 1,
+      "title": "過去進行式、時間連接詞與數量詞"
+    },
+    {
+      "id": "english-10",
+      "subject": "english",
+      "grade": 8,
+      "term": 2,
+      "title": "連綴動詞、感官動詞與最高級比較"
+    },
+    {
+      "id": "english-11",
+      "subject": "english",
+      "grade": 9,
+      "term": 1,
+      "title": "授予動詞、使役動詞與現在完成式進階"
+    },
+    {
+      "id": "english-12",
+      "subject": "english",
+      "grade": 9,
+      "term": 2,
+      "title": "附加問句、名詞子句與間接問句"
+    },
+    {
+      "id": "biology-1",
+      "subject": "biology",
+      "grade": 7,
+      "term": 1,
+      "title": "細胞與顯微鏡"
+    },
+    {
+      "id": "biology-2",
+      "subject": "biology",
+      "grade": 7,
+      "term": 1,
+      "title": "養分、光合作用與呼吸作用"
+    },
+    {
+      "id": "biology-3",
+      "subject": "biology",
+      "grade": 7,
+      "term": 1,
+      "title": "運輸、消化與恆定"
+    },
+    {
+      "id": "biology-4",
+      "subject": "biology",
+      "grade": 7,
+      "term": 2,
+      "title": "神經、內分泌與反應"
+    },
+    {
+      "id": "biology-5",
+      "subject": "biology",
+      "grade": 7,
+      "term": 2,
+      "title": "生殖、遺傳與演化"
+    },
+    {
+      "id": "biology-6",
+      "subject": "biology",
+      "grade": 7,
+      "term": 2,
+      "title": "分類、生態系與能量流動"
+    },
+    {
+      "id": "physics-1",
+      "subject": "physics",
+      "grade": 8,
+      "term": 1,
+      "title": "測量、密度與實驗變因"
+    },
+    {
+      "id": "physics-2",
+      "subject": "physics",
+      "grade": 8,
+      "term": 1,
+      "title": "聲音與波動"
+    },
+    {
+      "id": "physics-3",
+      "subject": "physics",
+      "grade": 8,
+      "term": 1,
+      "title": "光的反射、折射與成像"
+    },
+    {
+      "id": "physics-4",
+      "subject": "physics",
+      "grade": 8,
+      "term": 2,
+      "title": "溫度、熱量與熱傳播"
+    },
+    {
+      "id": "physics-5",
+      "subject": "physics",
+      "grade": 9,
+      "term": 1,
+      "title": "運動、力與牛頓定律"
+    },
+    {
+      "id": "physics-6",
+      "subject": "physics",
+      "grade": 9,
+      "term": 1,
+      "title": "功、能量與簡單機械"
+    },
+    {
+      "id": "physics-7",
+      "subject": "physics",
+      "grade": 9,
+      "term": 2,
+      "title": "電路、電功率與磁作用"
+    },
+    {
+      "id": "chemistry-1",
+      "subject": "chemistry",
+      "grade": 8,
+      "term": 1,
+      "title": "物質分類與粒子模型"
+    },
+    {
+      "id": "chemistry-2",
+      "subject": "chemistry",
+      "grade": 8,
+      "term": 1,
+      "title": "原子結構與週期表"
+    },
+    {
+      "id": "chemistry-3",
+      "subject": "chemistry",
+      "grade": 8,
+      "term": 2,
+      "title": "反應式與質量守恆"
+    },
+    {
+      "id": "chemistry-4",
+      "subject": "chemistry",
+      "grade": 8,
+      "term": 2,
+      "title": "溶液、濃度與溶解度"
+    },
+    {
+      "id": "chemistry-5",
+      "subject": "chemistry",
+      "grade": 8,
+      "term": 2,
+      "title": "酸鹼、鹽類與中和"
+    },
+    {
+      "id": "chemistry-6",
+      "subject": "chemistry",
+      "grade": 9,
+      "term": 2,
+      "title": "氧化還原、有機物與材料"
+    },
+    {
+      "id": "earth-1",
+      "subject": "earth",
+      "grade": 9,
+      "term": 1,
+      "title": "岩石、板塊與地震"
+    },
+    {
+      "id": "earth-2",
+      "subject": "earth",
+      "grade": 9,
+      "term": 1,
+      "title": "水循環、海洋與地形"
+    },
+    {
+      "id": "earth-3",
+      "subject": "earth",
+      "grade": 9,
+      "term": 1,
+      "title": "天氣、鋒面與臺灣季風"
+    },
+    {
+      "id": "earth-4",
+      "subject": "earth",
+      "grade": 9,
+      "term": 2,
+      "title": "地球運動、四季與月相"
+    },
+    {
+      "id": "earth-5",
+      "subject": "earth",
+      "grade": 9,
+      "term": 2,
+      "title": "太陽系、星空與尺度"
+    },
+    {
+      "id": "earth-6",
+      "subject": "earth",
+      "grade": 9,
+      "term": 2,
+      "title": "氣候變遷與永續探究"
+    },
+    {
+      "id": "biology-7",
+      "subject": "biology",
+      "grade": 7,
+      "term": 1,
+      "title": "物質進出細胞與酵素催化作用"
+    },
+    {
+      "id": "biology-8",
+      "subject": "biology",
+      "grade": 7,
+      "term": 1,
+      "title": "植物的體內運輸與水分恆定"
+    },
+    {
+      "id": "biology-9",
+      "subject": "biology",
+      "grade": 7,
+      "term": 2,
+      "title": "動物呼吸系統與排泄泌尿作用"
+    },
+    {
+      "id": "biology-10",
+      "subject": "biology",
+      "grade": 7,
+      "term": 2,
+      "title": "細胞分裂、減數分裂與生殖"
+    },
+    {
+      "id": "biology-11",
+      "subject": "biology",
+      "grade": 7,
+      "term": 2,
+      "title": "孟德爾遺傳法則與性別性聯遺傳"
+    },
+    {
+      "id": "biology-12",
+      "subject": "biology",
+      "grade": 7,
+      "term": 2,
+      "title": "生物多樣性、保育與環境永續"
+    },
+    {
+      "id": "physics-8",
+      "subject": "physics",
+      "grade": 8,
+      "term": 1,
+      "title": "浮力與阿基米德原理"
+    },
+    {
+      "id": "physics-9",
+      "subject": "physics",
+      "grade": 8,
+      "term": 1,
+      "title": "液體壓力與大氣壓力"
+    },
+    {
+      "id": "physics-10",
+      "subject": "physics",
+      "grade": 8,
+      "term": 2,
+      "title": "摩擦力、正向力與牛頓第一運動定律深化"
+    },
+    {
+      "id": "physics-11",
+      "subject": "physics",
+      "grade": 9,
+      "term": 2,
+      "title": "靜電現象與庫侖定律"
+    },
+    {
+      "id": "physics-12",
+      "subject": "physics",
+      "grade": 9,
+      "term": 2,
+      "title": "電流的磁效應與電磁鐵"
+    },
+    {
+      "id": "physics-13",
+      "subject": "physics",
+      "grade": 9,
+      "term": 2,
+      "title": "電磁感應與發電機"
+    },
+    {
+      "id": "chemistry-7",
+      "subject": "chemistry",
+      "grade": 8,
+      "term": 2,
+      "title": "反應速率與影響因素"
+    },
+    {
+      "id": "chemistry-8",
+      "subject": "chemistry",
+      "grade": 8,
+      "term": 2,
+      "title": "化學平衡與勒沙特列原理"
+    },
+    {
+      "id": "chemistry-9",
+      "subject": "chemistry",
+      "grade": 8,
+      "term": 2,
+      "title": "電解質與阿瑞尼斯解離說"
+    },
+    {
+      "id": "chemistry-10",
+      "subject": "chemistry",
+      "grade": 8,
+      "term": 2,
+      "title": "酸鹼滴定與常見生活鹽類"
+    },
+    {
+      "id": "chemistry-11",
+      "subject": "chemistry",
+      "grade": 9,
+      "term": 2,
+      "title": "常見有機化合物與石化燃料"
+    },
+    {
+      "id": "chemistry-12",
+      "subject": "chemistry",
+      "grade": 9,
+      "term": 2,
+      "title": "聚合物與生活材料安全"
+    },
+    {
+      "id": "earth-7",
+      "subject": "earth",
+      "grade": 9,
+      "term": 1,
+      "title": "地層順序與地質歷史判讀"
+    },
+    {
+      "id": "earth-8",
+      "subject": "earth",
+      "grade": 9,
+      "term": 1,
+      "title": "板塊構造學說與臺灣造山運動"
+    },
+    {
+      "id": "earth-9",
+      "subject": "earth",
+      "grade": 9,
+      "term": 1,
+      "title": "大氣氣團、鋒面系統與天氣災害"
+    },
+    {
+      "id": "earth-10",
+      "subject": "earth",
+      "grade": 9,
+      "term": 2,
+      "title": "天體引力、潮汐現象與月相變化"
+    },
+    {
+      "id": "history-1",
+      "subject": "history",
+      "grade": 7,
+      "term": 1,
+      "title": "史料判讀與早期臺灣"
+    },
+    {
+      "id": "history-2",
+      "subject": "history",
+      "grade": 7,
+      "term": 1,
+      "title": "海洋交流、荷西與鄭氏"
+    },
+    {
+      "id": "history-3",
+      "subject": "history",
+      "grade": 7,
+      "term": 2,
+      "title": "清領與日治時期的變遷"
+    },
+    {
+      "id": "history-4",
+      "subject": "history",
+      "grade": 7,
+      "term": 2,
+      "title": "戰後臺灣與民主化"
+    },
+    {
+      "id": "history-5",
+      "subject": "history",
+      "grade": 8,
+      "term": 1,
+      "title": "中國與東亞：制度及文化交流"
+    },
+    {
+      "id": "history-6",
+      "subject": "history",
+      "grade": 8,
+      "term": 2,
+      "title": "近代東亞與帝國主義"
+    },
+    {
+      "id": "history-7",
+      "subject": "history",
+      "grade": 9,
+      "term": 1,
+      "title": "古代文明到近代歐洲"
+    },
+    {
+      "id": "history-8",
+      "subject": "history",
+      "grade": 9,
+      "term": 2,
+      "title": "工業革命、世界大戰與全球化"
+    },
+    {
+      "id": "geography-1",
+      "subject": "geography",
+      "grade": 7,
+      "term": 1,
+      "title": "地圖、比例尺與經緯度"
+    },
+    {
+      "id": "geography-2",
+      "subject": "geography",
+      "grade": 7,
+      "term": 1,
+      "title": "臺灣地形、氣候與災害"
+    },
+    {
+      "id": "geography-3",
+      "subject": "geography",
+      "grade": 7,
+      "term": 2,
+      "title": "臺灣人口、產業與都市"
+    },
+    {
+      "id": "geography-4",
+      "subject": "geography",
+      "grade": 8,
+      "term": 1,
+      "title": "東亞與區域差異"
+    },
+    {
+      "id": "geography-5",
+      "subject": "geography",
+      "grade": 8,
+      "term": 2,
+      "title": "亞洲、非洲與文化地景"
+    },
+    {
+      "id": "geography-6",
+      "subject": "geography",
+      "grade": 9,
+      "term": 1,
+      "title": "歐洲、美洲與大洋洲"
+    },
+    {
+      "id": "geography-7",
+      "subject": "geography",
+      "grade": 9,
+      "term": 2,
+      "title": "全球連結與環境議題"
+    },
+    {
+      "id": "civics-1",
+      "subject": "civics",
+      "grade": 7,
+      "term": 1,
+      "title": "自我、群體與多元文化"
+    },
+    {
+      "id": "civics-2",
+      "subject": "civics",
+      "grade": 7,
+      "term": 2,
+      "title": "家庭、學校與公共參與"
+    },
+    {
+      "id": "civics-3",
+      "subject": "civics",
+      "grade": 8,
+      "term": 1,
+      "title": "民主政治與權力分立"
+    },
+    {
+      "id": "civics-4",
+      "subject": "civics",
+      "grade": 8,
+      "term": 2,
+      "title": "人權、法治與正當程序"
+    },
+    {
+      "id": "civics-5",
+      "subject": "civics",
+      "grade": 9,
+      "term": 1,
+      "title": "選擇、機會成本與市場"
+    },
+    {
+      "id": "civics-6",
+      "subject": "civics",
+      "grade": 9,
+      "term": 2,
+      "title": "媒體素養、全球化與永續消費"
+    },
+    {
+      "id": "history-9",
+      "subject": "history",
+      "grade": 7,
+      "term": 1,
+      "title": "臺灣南島語族與多元原住民族文化"
+    },
+    {
+      "id": "history-10",
+      "subject": "history",
+      "grade": 8,
+      "term": 1,
+      "title": "中國古代國家形成與封建帝制"
+    },
+    {
+      "id": "history-11",
+      "subject": "history",
+      "grade": 8,
+      "term": 2,
+      "title": "明清社會變遷與西力東漸"
+    },
+    {
+      "id": "history-12",
+      "subject": "history",
+      "grade": 9,
+      "term": 1,
+      "title": "古希臘羅馬古典文明與民主法律"
+    },
+    {
+      "id": "geography-8",
+      "subject": "geography",
+      "grade": 7,
+      "term": 1,
+      "title": "等高線地形圖判讀與臺灣水文環境"
+    },
+    {
+      "id": "geography-9",
+      "subject": "geography",
+      "grade": 8,
+      "term": 1,
+      "title": "季風亞洲與世界文明搖籃"
+    },
+    {
+      "id": "geography-10",
+      "subject": "geography",
+      "grade": 9,
+      "term": 1,
+      "title": "美國與北美洲區域發展特色"
+    },
+    {
+      "id": "civics-7",
+      "subject": "civics",
+      "grade": 7,
+      "term": 1,
+      "title": "少年法律保護與權益維護"
+    },
+    {
+      "id": "civics-8",
+      "subject": "civics",
+      "grade": 8,
+      "term": 2,
+      "title": "現代法治體系：民法、刑法與行政法"
+    },
+    {
+      "id": "civics-9",
+      "subject": "civics",
+      "grade": 9,
+      "term": 1,
+      "title": "市場競爭、外部效果與政府管制"
+    },
+    {
+      "id": "visual-1",
+      "subject": "visual",
+      "grade": 7,
+      "term": 1,
+      "title": "色彩、構圖與視覺重點"
+    },
+    {
+      "id": "visual-2",
+      "subject": "visual",
+      "grade": 8,
+      "term": 1,
+      "title": "透視、媒材與創作過程"
+    },
+    {
+      "id": "visual-3",
+      "subject": "visual",
+      "grade": 9,
+      "term": 2,
+      "title": "藝術賞析、文化與策展"
+    },
+    {
+      "id": "music-1",
+      "subject": "music",
+      "grade": 7,
+      "term": 1,
+      "title": "節奏、拍號與旋律"
+    },
+    {
+      "id": "music-2",
+      "subject": "music",
+      "grade": 8,
+      "term": 1,
+      "title": "音色、合奏與聆聽"
+    },
+    {
+      "id": "music-3",
+      "subject": "music",
+      "grade": 9,
+      "term": 2,
+      "title": "音樂文化與創作"
+    },
+    {
+      "id": "performing-1",
+      "subject": "performing",
+      "grade": 7,
+      "term": 1,
+      "title": "身體、聲音與舞臺空間"
+    },
+    {
+      "id": "performing-2",
+      "subject": "performing",
+      "grade": 8,
+      "term": 1,
+      "title": "角色、衝突與即興"
+    },
+    {
+      "id": "performing-3",
+      "subject": "performing",
+      "grade": 9,
+      "term": 2,
+      "title": "展演製作與回饋"
+    },
+    {
+      "id": "computing-1",
+      "subject": "computing",
+      "grade": 7,
+      "term": 1,
+      "title": "演算法與問題拆解"
+    },
+    {
+      "id": "computing-2",
+      "subject": "computing",
+      "grade": 8,
+      "term": 1,
+      "title": "變數、條件與迴圈"
+    },
+    {
+      "id": "computing-3",
+      "subject": "computing",
+      "grade": 9,
+      "term": 2,
+      "title": "資料、網路與資訊安全"
+    },
+    {
+      "id": "technology-1",
+      "subject": "technology",
+      "grade": 7,
+      "term": 1,
+      "title": "設計需求與工程流程"
+    },
+    {
+      "id": "technology-2",
+      "subject": "technology",
+      "grade": 8,
+      "term": 1,
+      "title": "結構、機構與材料"
+    },
+    {
+      "id": "technology-3",
+      "subject": "technology",
+      "grade": 9,
+      "term": 2,
+      "title": "能源、製造與永續產品"
+    },
+    {
+      "id": "health-1",
+      "subject": "health",
+      "grade": 7,
+      "term": 1,
+      "title": "青春期、自我認識與身體界線"
+    },
+    {
+      "id": "health-2",
+      "subject": "health",
+      "grade": 8,
+      "term": 1,
+      "title": "飲食資訊與健康選擇"
+    },
+    {
+      "id": "health-3",
+      "subject": "health",
+      "grade": 9,
+      "term": 2,
+      "title": "健康資訊、風險與求助"
+    },
+    {
+      "id": "pe-1",
+      "subject": "pe",
+      "grade": 7,
+      "term": 1,
+      "title": "動作學習與自我監測"
+    },
+    {
+      "id": "pe-2",
+      "subject": "pe",
+      "grade": 8,
+      "term": 1,
+      "title": "球類策略與團隊合作"
+    },
+    {
+      "id": "pe-3",
+      "subject": "pe",
+      "grade": 9,
+      "term": 2,
+      "title": "運動計畫與公平競賽"
+    },
+    {
+      "id": "home-1",
+      "subject": "home",
+      "grade": 7,
+      "term": 1,
+      "title": "家庭合作與生活管理"
+    },
+    {
+      "id": "home-2",
+      "subject": "home",
+      "grade": 8,
+      "term": 1,
+      "title": "飲食製備與衣物照護"
+    },
+    {
+      "id": "home-3",
+      "subject": "home",
+      "grade": 9,
+      "term": 2,
+      "title": "消費規劃與資源管理"
+    },
+    {
+      "id": "scout-1",
+      "subject": "scout",
+      "grade": 7,
+      "term": 1,
+      "title": "團隊分工與戶外準備"
+    },
+    {
+      "id": "scout-2",
+      "subject": "scout",
+      "grade": 8,
+      "term": 1,
+      "title": "定向、地圖與環境觀察"
+    },
+    {
+      "id": "scout-3",
+      "subject": "scout",
+      "grade": 9,
+      "term": 2,
+      "title": "環境倫理與服務行動"
+    },
+    {
+      "id": "guidance-1",
+      "subject": "guidance",
+      "grade": 7,
+      "term": 1,
+      "title": "認識自我與情緒表達"
+    },
+    {
+      "id": "guidance-2",
+      "subject": "guidance",
+      "grade": 8,
+      "term": 1,
+      "title": "學習策略與時間規劃"
+    },
+    {
+      "id": "guidance-3",
+      "subject": "guidance",
+      "grade": 9,
+      "term": 2,
+      "title": "生涯探索與決策"
+    },
+    {
+      "id": "local-1",
+      "subject": "local",
+      "grade": 7,
+      "term": 1,
+      "title": "語別選擇與聆聽觀察"
+    },
+    {
+      "id": "local-2",
+      "subject": "local",
+      "grade": 7,
+      "term": 2,
+      "title": "生活對話與在地文化"
+    },
+    {
+      "id": "local-3",
+      "subject": "local",
+      "grade": 8,
+      "term": 1,
+      "title": "臺灣手語與視覺溝通"
+    },
+    {
+      "id": "local-4",
+      "subject": "local",
+      "grade": 8,
+      "term": 2,
+      "title": "語言記錄與文化行動"
+    }
+  ],
+  "questions": 396,
+  "lessonQuestions": 312,
+  "extraQuestions": 64,
+  "listening": 20,
+  "constructed": 2
+}
