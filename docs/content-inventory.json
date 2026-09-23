@@ -1471,5 +1471,8 @@
   "lessonQuestions": 376,
   "extraQuestions": 64,
   "listening": 20,
-  "constructed": 2
+  "constructed": 2,
+  "teachingTables": 188,
+  "teachingRows": 755,
+  "specializedDiagrams": 65
 }

@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const content = `// dist/diagrams.js - Native Vector SVG Conceptual Diagrams & Visual Schemas
-// Crafted for 108 Curriculum & Junyi Academy learning model
+// Original study illustrations; not affiliated with any learning platform
 
 const c = {
   dark: '#1e3831',
@@ -2151,7 +2151,8 @@ function defaultSubjectDiagram(u) {
 
 export function getDiagram(u) {
   if (!u) return '';
-  const d = diagrams[u.id] || defaultSubjectDiagram(u);
+  const d = diagrams[u.id];
+  if (!d) return ""; // Unit comparison tables replace generic decorative diagrams.
   const svg = d.render();
   return \`
     <div class="diagram-box">

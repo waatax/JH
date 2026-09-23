@@ -10,7 +10,7 @@ export function nextRecord(old={},correct,hinted,now=Date.now()){
  const clean=correct&&!hinted;
  const previousDay=old.lastIndependent?new Date(old.lastIndependent).toDateString():null;
  const newDay=previousDay!==new Date(now).toDateString();
- const streak=clean?(old.streak||0)+(newDay?1:0):0;
+ const streak=clean?Math.max(1,(old.streak||0)+(newDay?1:0)):0;
  const interval=clean?([1,3,7,14][Math.min(Math.max(streak-1,0),3)]):1;
  return {attempts:(old.attempts||0)+1,correctCount:(old.correctCount||0)+(correct?1:0),latestCorrect:clean,last:now,lastIndependent:clean?now:old.lastIndependent||null,streak,due:now+interval*DAY};
 }
