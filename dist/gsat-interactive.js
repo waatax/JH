@@ -1,5 +1,6 @@
+import {evaluateExamSession} from './gsat-grading.js';
 // gsat-interactive.js - 學測歷屆各科模擬考與互動練習引擎
-// 涵蓋 108~115 學年度全考科、2,216 題官方題庫、計時模擬、多選題評分、非選自評與逐題解析
+// 涵蓋 108~115 學年度全考科、2,216 題官方題庫、計時模擬、多選題評分、非選自評與逐題答案核對
 
 let cachedDatabase = null;
 const GSAT_STORAGE_KEY = 'gsat-practice-session-v1';
@@ -46,7 +47,7 @@ export async function gsatLandingPage(container) {
   container.innerHTML = `
     <div class="eyebrow">GSAT SIMULATION & PRACTICE</div>
     <h1>學測歷屆全科模擬考與互動題庫</h1>
-    <p class="muted">收錄 108 至 115 學年度（涵蓋過去七年與新舊課綱）共 53 場考科、2,216 道官方試題與標準答案。支援全真計時模擬考與逐題即時練習。</p>
+    <p class="muted">收錄 108 至 115 學年度（共八個年度，包含新舊課綱）共 53 場考科、2,216 道官方試題與標準答案。支援計時練習模擬考與逐題即時練習。</p>
     <div class="panel" style="text-align:center;padding:40px 20px;">載入題庫索引中...</div>
   `;
 
@@ -67,17 +68,17 @@ export async function gsatLandingPage(container) {
       container.innerHTML = `
         <div class="eyebrow">GSAT SIMULATION & PRACTICE</div>
         <h1>學測歷屆全科模擬考與互動題庫</h1>
-        <p class="muted">收錄 108 至 115 學年度共 8 個年度、53 場考科、2,216 道完整官方題目與標準答案。全真計時、官方多選題計分規則、非選自評與詳細解析。</p>
+        <p class="muted">收錄 108 至 115 學年度共 8 個年度、53 場考科、2,216 道官方試題轉錄與答案資料。計時練習、多選題答案核對、非選人工核對與評分資料。</p>
         
         <div class="stats">
           <div class="stat"><label>收錄學年度</label><strong>8 年</strong><small>108 ~ 115 學年度</small></div>
           <div class="stat"><label>考科試卷數</label><strong>53 卷</strong><small>國綜、國寫、英、數A/B、社、自</small></div>
-          <div class="stat"><label>題庫題目總數</label><strong>${db.total_questions} 題</strong><small>全部校正公式與特殊符號</small></div>
+          <div class="stat"><label>題庫題目總數</label><strong>${db.total_questions} 題</strong><small>圖表、公式請以原卷 PDF 核對</small></div>
           <div class="stat"><label>官方 PDF 存檔</label><strong>174 份</strong><small>題目、答案、評分原則、答題卷</small></div>
         </div>
 
         <section class="panel">
-          <h2>考科與學年度篩選</h2>
+          <p class="notice">本站顯示 PDF 轉錄資料，部分公式、圖片、題型與題目邊界仍須對照原卷。練習回饋不等於官方原始總分；非選題需人工評閱，也不以得分率推估級分。</p><h2>考科與學年度篩選</h2>
           <div class="filters">
             <label>考科 
               <select id="gsat-filter-subject">
@@ -119,7 +120,7 @@ export async function gsatLandingPage(container) {
                   <p class="muted" style="font-size:0.84rem;margin:0 0 14px;">題數：${ex.total_questions} 題 · 官方原卷 PDF 與解答已就緒</p>
                   
                   <div class="actions" style="margin:0 0 12px;gap:6px;">
-                    <a class="button small" href="#/gsat-exam/${ex.exam_id}?mode=exam">⏱️ 全真模考</a>
+                    <a class="button small" href="#/gsat-exam/${ex.exam_id}?mode=exam">⏱️ 計時練習</a>
                     <a class="button small secondary" href="#/gsat-exam/${ex.exam_id}?mode=practice">✏️ 逐題練習</a>
                   </div>
 
@@ -199,7 +200,7 @@ export async function gsatExamPage(container, examId) {
   clearInterval(examTimerInterval);
   if (session.mode === 'exam') {
     examTimerInterval = setInterval(() => {
-      session.secondsRemaining--;
+      session.secondsRemaining = Math.max(0, Math.ceil((session.startTime + cfg.minutes * 60000 - Date.now()) / 1000));
       const timerEl = document.getElementById('gsat-timer-display');
       if (timerEl) {
         timerEl.textContent = formatTime(Math.max(0, session.secondsRemaining));
@@ -243,7 +244,7 @@ export async function gsatExamPage(container, examId) {
 
         <div class="quiz-head" style="background:white;padding:16px 20px;border-radius:12px;border:1px solid #e1e7e6;margin-bottom:18px;">
           <div>
-            <span class="tag accent">${session.mode === 'exam' ? '⏱️ 全真計時模擬考' : '✏️ 逐題即時練習'}</span>
+            <span class="tag accent">${session.mode === 'exam' ? '⏱️ 計時練習模擬考' : '✏️ 逐題即時練習'}</span>
             <span class="tag">${exam.curriculum}</span>
             <h1 style="font-size:1.35rem;margin:6px 0 0;">${esc(session.examTitle)}</h1>
           </div>
@@ -516,136 +517,13 @@ export async function gsatExamPage(container, examId) {
 // ----------------------------------------------------
 // 3. Exam Grading Algorithm (CEEC Standards)
 // ----------------------------------------------------
-function evaluateExamSession(session, questions, exam, isExpired) {
-  let earnedScore = 0;
-  let totalMaxScore = 0;
-  let correctCount = 0;
-  const gradedRows = [];
-
-  for (const q of questions) {
-    const qnum = q.question_number;
-    const userAns = session.answers[qnum];
-    const officialAns = q.answer || '';
-    const qType = q.question_type;
-
-    let points = 2; // default
-    if (q.score) {
-      const m = q.score.match(/(\d+)/);
-      if (m) points = Number(m[1]);
-    }
-    totalMaxScore += points;
-
-    let qEarned = 0;
-    let isCorrect = false;
-
-    if (qType === '單選題') {
-      // Single choice: compare letter (e.g. "(A)" or "A" or "1")
-      const uClean = String(userAns || '').replace(/[\(\)]/g, '').trim().toUpperCase();
-      const oClean = String(officialAns).replace(/[\(\)]/g, '').trim().toUpperCase();
-      if (uClean && uClean === oClean) {
-        qEarned = points;
-        isCorrect = true;
-        correctCount++;
-      }
-    } else if (qType === '多選題') {
-      // CEEC multi-choice formula: S * (n - 2k)/n
-      const userSelected = (Array.isArray(userAns) ? userAns : [userAns])
-        .map(x => String(x || '').replace(/[\(\)]/g, '').trim().toUpperCase())
-        .filter(Boolean);
-      
-      const officialSelected = officialAns.replace(/[\(\),\s]/g, '').toUpperCase().split('');
-      const allChoices = ['A', 'B', 'C', 'D', 'E']; // standard 5 choices
-      const n = 5;
-
-      let falsePositives = 0; // selected but not official
-      let falseNegatives = 0; // official but not selected
-
-      for (const opt of allChoices) {
-        const inUser = userSelected.includes(opt);
-        const inOff = officialSelected.includes(opt);
-        if (inUser && !inOff) falsePositives++;
-        if (!inUser && inOff) falseNegatives++;
-      }
-
-      const k = falsePositives + falseNegatives;
-      if (k === 0) {
-        qEarned = points;
-        isCorrect = true;
-        correctCount++;
-      } else if (k === 1) {
-        qEarned = points * ((n - 2 * k) / n);
-      } else if (k === 2) {
-        qEarned = points * ((n - 2 * k) / n);
-      } else {
-        qEarned = 0;
-      }
-      qEarned = Math.max(0, Math.round(qEarned * 10) / 10);
-    } else if (qType === '選填題' || qType === '選填格/子題') {
-      const uStr = String(userAns || '').replace(/\s/g, '');
-      const oStr = String(officialAns || '').replace(/\s/g, '');
-      if (uStr && uStr === oStr) {
-        qEarned = points;
-        isCorrect = true;
-        correctCount++;
-      }
-    } else {
-      // Non-choice / Constructed response / Writing
-      // Set to self-scored or pending self-assessment
-      const userText = String(userAns || '').trim();
-      qEarned = userText ? points * 0.7 : 0; // default estimated, user can adjust in review
-      isCorrect = Boolean(userText);
-    }
-
-    earnedScore += qEarned;
-
-    gradedRows.push({
-      question_id: q.question_id,
-      question_number: qnum,
-      question_type: qType,
-      section_name: q.section_name,
-      question_text: q.question_text,
-      passage_text: q.passage_text,
-      options: q.options,
-      userAnswer: userAns,
-      officialAnswer: officialAns,
-      points,
-      earnedScore: qEarned,
-      isCorrect,
-      rubric_text: q.rubric_text
-    });
-  }
-
-  // Calculate 15-scale rank reference
-  const percent = totalMaxScore > 0 ? (earnedScore / totalMaxScore) * 100 : 0;
-  let estimatedLevel = Math.min(15, Math.max(1, Math.round((percent / 100) * 15)));
-  if (percent >= 88) estimatedLevel = 15;
-
-  return {
-    id: `result-${Date.now()}`,
-    examId: exam.exam_id,
-    examTitle: session.examTitle,
-    mode: session.mode,
-    timestamp: Date.now(),
-    durationSeconds: Math.floor((Date.now() - session.startTime) / 1000),
-    isExpired,
-    earnedScore: Math.round(earnedScore * 10) / 10,
-    totalMaxScore,
-    percent: Math.round(percent * 10) / 10,
-    estimatedLevel,
-    correctCount,
-    totalQuestions: questions.length,
-    rows: gradedRows
-  };
-}
-
-// ----------------------------------------------------
 // 4. Exam Result & Detailed Review Page (#/gsat-result/:id)
 // ----------------------------------------------------
 export function gsatResultPage(container, resultId) {
   let result = null;
   try {
     const history = JSON.parse(localStorage.getItem(GSAT_RESULTS_KEY) || '[]');
-    result = history.find(r => r.id === resultId) || history[0];
+    result = history.find(r => r.id === resultId);
   } catch (e) {}
 
   if (!result) {
@@ -658,13 +536,14 @@ export function gsatResultPage(container, resultId) {
     return;
   }
 
-  let filterTab = 'all'; // 'all', 'wrong', 'correct', 'nonchoice'
+  if(result.scoringVersion!==2){container.innerHTML='<section class="panel"><h2>舊版評分紀錄</h2><p>先前版本的配分與級分推估未經完整校驗，因此不再顯示不可靠成績。原作答紀錄仍保留在此裝置。</p><a class="button" href="#/gsat">使用修正版重新練習</a></section>';return;}
+  let filterTab = 'all';
 
   const renderResult = () => {
     const filteredRows = result.rows.filter(r => {
-      if (filterTab === 'wrong') return !r.isCorrect;
+      if (filterTab === 'wrong') return !r.pendingReview && !r.isCorrect;
       if (filterTab === 'correct') return r.isCorrect;
-      if (filterTab === 'nonchoice') return r.question_type.includes('非選') || r.question_type.includes('混合') || r.question_type.includes('寫作');
+      if (filterTab === 'nonchoice') return r.pendingReview;
       return true;
     });
 
@@ -684,17 +563,17 @@ export function gsatResultPage(container, resultId) {
         <div class="panel" style="background:white;padding:28px;margin-bottom:24px;">
           <div class="row" style="align-items:center;border-bottom:1px solid #edf1ee;padding-bottom:20px;margin-bottom:20px;">
             <div>
-              <div style="font-size:0.82rem;color:#6d8276;">測驗總得分 / 總配分</div>
+              <div style="font-size:0.82rem;color:#6d8276;">可核對題目折算值（每題 1，非官方配分）</div>
               <div style="display:flex;align-items:baseline;gap:10px;">
                 <span class="result-score">${result.earnedScore}</span>
-                <span style="font-size:1.4rem;color:#788c81;">/ ${result.totalMaxScore} 分</span>
-                <span class="tag accent" style="font-size:0.9rem;padding:6px 12px;">得分率 ${result.percent}%</span>
+                <span style="font-size:1.4rem;color:#788c81;">/ ${result.totalMaxScore} 題</span>
+                <span class="tag accent" style="font-size:0.9rem;padding:6px 12px;">核對率 ${result.percent}%</span>
               </div>
             </div>
             
             <div style="text-align:right;">
               <span class="tag" style="font-size:0.85rem;padding:6px 14px;background:#eef6ea;color:#235436;font-weight:700;">
-                推估學測級分：約 ${result.estimatedLevel} 級分
+                不換算學測級分
               </span>
               <p class="subtle" style="margin-top:6px;">作答時間：${formatTime(result.durationSeconds)} · ${result.isExpired ? '時間到自動交卷' : '正常交卷'}</p>
             </div>
@@ -703,11 +582,11 @@ export function gsatResultPage(container, resultId) {
           <div class="stats" style="margin:0 0 16px;">
             <div class="stat"><label>總作答題數</label><strong>${result.totalQuestions} 題</strong><small>全卷題目</small></div>
             <div class="stat"><label>客觀題全對</label><strong>${result.correctCount} 題</strong><small>滿分題數</small></div>
-            <div class="stat"><label>待補強與錯題</label><strong>${result.totalQuestions - result.correctCount} 題</strong><small>需詳讀解析</small></div>
-            <div class="stat"><label>級分參考梯隊</label><strong>${result.estimatedLevel >= 13 ? '頂標前標' : result.estimatedLevel >= 9 ? '均標水平' : '後標待衝刺'}</strong><small>官方級距推估</small></div>
+            <div class="stat"><label>待補強與錯題</label><strong>${result.totalMaxScore - result.correctCount} 題</strong><small>需詳讀解析</small></div>
+            <div class="stat"><label>待人工核對</label><strong>${result.pendingCount} 題</strong><small>非選題或資料不足</small></div>
           </div>
           
-          <p class="notice">💡 級分換算乃根據全真卷得分率與大考中心常模估計，正式成績請以大考中心官方級距與當年度等第換算為準。</p>
+          <p class="notice">此處僅以可核對題目提供練習回饋，每題採 1 單位、多選依完整五選項紀錄折算；未驗證官方逐題配分，不是原始總分或級分。非選題與資料不足題目待人工依原卷評分，不因輸入文字自動給分。</p>
         </div>
 
         <!-- Filter Tabs -->
@@ -715,9 +594,9 @@ export function gsatResultPage(container, resultId) {
           <h2>逐題檢討與官方評閱指引</h2>
           <div class="filters" style="margin:0;">
             <button class="chip ${filterTab === 'all' ? 'active' : ''}" id="tab-all">全部題目 (${result.rows.length})</button>
-            <button class="chip ${filterTab === 'wrong' ? 'active' : ''}" id="tab-wrong">❌ 錯題與部分得分 (${result.rows.filter(r => !r.isCorrect).length})</button>
+            <button class="chip ${filterTab === 'wrong' ? 'active' : ''}" id="tab-wrong">❌ 錯題與部分得分 (${result.rows.filter(r => !r.pendingReview && !r.isCorrect).length})</button>
             <button class="chip ${filterTab === 'correct' ? 'active' : ''}" id="tab-correct">✓ 完全答對 (${result.rows.filter(r => r.isCorrect).length})</button>
-            <button class="chip ${filterTab === 'nonchoice' ? 'active' : ''}" id="tab-nonchoice">📝 混合與非選 (${result.rows.filter(r => r.question_type.includes('非選') || r.question_type.includes('混合') || r.question_type.includes('寫作')).length})</button>
+            <button class="chip ${filterTab === 'nonchoice' ? 'active' : ''}" id="tab-nonchoice">📝 待人工核對 (${result.pendingCount})</button>
           </div>
         </div>
 
@@ -726,13 +605,13 @@ export function gsatResultPage(container, resultId) {
           ${filteredRows.map((r, i) => {
             const hasPassage = Boolean(r.passage_text && r.passage_text.trim());
             return `
-              <div class="panel" style="border-left: 5px solid ${r.isCorrect ? '#5da149' : '#c95442'};">
+              <div class="panel" style="border-left: 5px solid ${r.pendingReview ? '#ba8d3d' : r.isCorrect ? '#5da149' : '#c95442'};">
                 <div class="row" style="margin-bottom:8px;">
                   <span class="tag" style="font-weight:700;">
-                    第 ${r.question_number} 題 · ${r.question_type} (${r.points} 分)
+                    第 ${r.question_number} 題 · ${r.question_type}
                   </span>
                   <span class="tag" style="${r.isCorrect ? 'background:#e3f5e1;color:#2b6e36;' : 'background:#fde8e5;color:#9e3223;'} font-weight:700;">
-                    ${r.isCorrect ? `✓ 得 ${r.earnedScore} 分` : `得 ${r.earnedScore} / ${r.points} 分`}
+                    ${r.pendingReview ? `待人工核對（不計入）` : r.isCorrect ? `✓ 答案符合` : `核對值 ${r.earnedScore} / 1`}
                   </span>
                 </div>
 
