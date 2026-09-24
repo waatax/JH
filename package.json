@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/serve.mjs",
-    "test": "node --test scripts/engine.test.mjs scripts/gsat-grading.test.mjs scripts/gsat-session.test.mjs && node scripts/test_all_pages.mjs",
+    "test": "node --test scripts/engine.test.mjs scripts/gsat-grading.test.mjs scripts/gsat-session.test.mjs scripts/quick-quiz.test.mjs && node scripts/test_all_pages.mjs",
     "test:pages": "node scripts/test_all_pages.mjs",
     "validate": "node scripts/validate.mjs",
     "build": "node scripts/validate.mjs && node scripts/check-expansion.mjs && node scripts/test_all_pages.mjs",
