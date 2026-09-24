@@ -1,0 +1,1885 @@
+{
+  "generatedAt": "2026-09-24",
+  "files": [
+    {
+      "unitId": "math-1",
+      "title": "正負數與絕對值",
+      "grade": 7,
+      "term": 1,
+      "subject": "math",
+      "path": "downloads/handouts/math-1.pdf",
+      "bytes": 301002,
+      "pages": 3
+    },
+    {
+      "unitId": "math-2",
+      "title": "因數、倍數與質因數分解",
+      "grade": 7,
+      "term": 1,
+      "subject": "math",
+      "path": "downloads/handouts/math-2.pdf",
+      "bytes": 267619,
+      "pages": 3
+    },
+    {
+      "unitId": "math-3",
+      "title": "分數運算與科學記號",
+      "grade": 7,
+      "term": 1,
+      "subject": "math",
+      "path": "downloads/handouts/math-3.pdf",
+      "bytes": 240244,
+      "pages": 3
+    },
+    {
+      "unitId": "math-4",
+      "title": "一元一次方程式",
+      "grade": 7,
+      "term": 1,
+      "subject": "math",
+      "path": "downloads/handouts/math-4.pdf",
+      "bytes": 294772,
+      "pages": 3
+    },
+    {
+      "unitId": "math-5",
+      "title": "二元一次聯立方程式",
+      "grade": 7,
+      "term": 2,
+      "subject": "math",
+      "path": "downloads/handouts/math-5.pdf",
+      "bytes": 222507,
+      "pages": 3
+    },
+    {
+      "unitId": "math-6",
+      "title": "比例、正比與反比",
+      "grade": 7,
+      "term": 2,
+      "subject": "math",
+      "path": "downloads/handouts/math-6.pdf",
+      "bytes": 209633,
+      "pages": 3
+    },
+    {
+      "unitId": "math-7",
+      "title": "一元一次不等式",
+      "grade": 7,
+      "term": 2,
+      "subject": "math",
+      "path": "downloads/handouts/math-7.pdf",
+      "bytes": 226091,
+      "pages": 3
+    },
+    {
+      "unitId": "math-8",
+      "title": "坐標與資料圖表",
+      "grade": 7,
+      "term": 2,
+      "subject": "math",
+      "path": "downloads/handouts/math-8.pdf",
+      "bytes": 280919,
+      "pages": 3
+    },
+    {
+      "unitId": "math-9",
+      "title": "乘法公式與多項式",
+      "grade": 8,
+      "term": 1,
+      "subject": "math",
+      "path": "downloads/handouts/math-9.pdf",
+      "bytes": 273814,
+      "pages": 3
+    },
+    {
+      "unitId": "math-10",
+      "title": "平方根與畢氏定理",
+      "grade": 8,
+      "term": 1,
+      "subject": "math",
+      "path": "downloads/handouts/math-10.pdf",
+      "bytes": 278669,
+      "pages": 3
+    },
+    {
+      "unitId": "math-11",
+      "title": "因式分解",
+      "grade": 8,
+      "term": 1,
+      "subject": "math",
+      "path": "downloads/handouts/math-11.pdf",
+      "bytes": 282571,
+      "pages": 3
+    },
+    {
+      "unitId": "math-12",
+      "title": "一元二次方程式",
+      "grade": 8,
+      "term": 1,
+      "subject": "math",
+      "path": "downloads/handouts/math-12.pdf",
+      "bytes": 287130,
+      "pages": 3
+    },
+    {
+      "unitId": "math-13",
+      "title": "等差數列與一次函數",
+      "grade": 8,
+      "term": 2,
+      "subject": "math",
+      "path": "downloads/handouts/math-13.pdf",
+      "bytes": 310276,
+      "pages": 3
+    },
+    {
+      "unitId": "math-14",
+      "title": "三角形全等與幾何推理",
+      "grade": 8,
+      "term": 2,
+      "subject": "math",
+      "path": "downloads/handouts/math-14.pdf",
+      "bytes": 223331,
+      "pages": 3
+    },
+    {
+      "unitId": "math-15",
+      "title": "平行線、四邊形與尺規",
+      "grade": 8,
+      "term": 2,
+      "subject": "math",
+      "path": "downloads/handouts/math-15.pdf",
+      "bytes": 286461,
+      "pages": 3
+    },
+    {
+      "unitId": "math-16",
+      "title": "相似形與比例推理",
+      "grade": 9,
+      "term": 1,
+      "subject": "math",
+      "path": "downloads/handouts/math-16.pdf",
+      "bytes": 296242,
+      "pages": 3
+    },
+    {
+      "unitId": "math-17",
+      "title": "圓、切線與圓周角",
+      "grade": 9,
+      "term": 1,
+      "subject": "math",
+      "path": "downloads/handouts/math-17.pdf",
+      "bytes": 264145,
+      "pages": 3
+    },
+    {
+      "unitId": "math-18",
+      "title": "二次函數與極值",
+      "grade": 9,
+      "term": 2,
+      "subject": "math",
+      "path": "downloads/handouts/math-18.pdf",
+      "bytes": 222872,
+      "pages": 3
+    },
+    {
+      "unitId": "math-19",
+      "title": "統計、機率與空間圖形",
+      "grade": 9,
+      "term": 2,
+      "subject": "math",
+      "path": "downloads/handouts/math-19.pdf",
+      "bytes": 258279,
+      "pages": 3
+    },
+    {
+      "unitId": "chinese-1",
+      "title": "字詞、語境與修辭",
+      "grade": 7,
+      "term": 1,
+      "subject": "chinese",
+      "path": "downloads/handouts/chinese-1.pdf",
+      "bytes": 391708,
+      "pages": 3
+    },
+    {
+      "unitId": "chinese-2",
+      "title": "敘事閱讀與人物推論",
+      "grade": 7,
+      "term": 2,
+      "subject": "chinese",
+      "path": "downloads/handouts/chinese-2.pdf",
+      "bytes": 272298,
+      "pages": 3
+    },
+    {
+      "unitId": "chinese-3",
+      "title": "文言文的省略與虛字",
+      "grade": 8,
+      "term": 1,
+      "subject": "chinese",
+      "path": "downloads/handouts/chinese-3.pdf",
+      "bytes": 243383,
+      "pages": 3
+    },
+    {
+      "unitId": "chinese-4",
+      "title": "說明文、圖表與資訊整合",
+      "grade": 8,
+      "term": 2,
+      "subject": "chinese",
+      "path": "downloads/handouts/chinese-4.pdf",
+      "bytes": 251101,
+      "pages": 3
+    },
+    {
+      "unitId": "chinese-5",
+      "title": "議論、論據與批判閱讀",
+      "grade": 9,
+      "term": 1,
+      "subject": "chinese",
+      "path": "downloads/handouts/chinese-5.pdf",
+      "bytes": 268512,
+      "pages": 3
+    },
+    {
+      "unitId": "chinese-6",
+      "title": "詩歌賞析與寫作組織",
+      "grade": 9,
+      "term": 2,
+      "subject": "chinese",
+      "path": "downloads/handouts/chinese-6.pdf",
+      "bytes": 280861,
+      "pages": 3
+    },
+    {
+      "unitId": "english-1",
+      "title": "句子骨架與現在式",
+      "grade": 7,
+      "term": 1,
+      "subject": "english",
+      "path": "downloads/handouts/english-1.pdf",
+      "bytes": 284938,
+      "pages": 3
+    },
+    {
+      "unitId": "english-2",
+      "title": "現在進行式與時間表達",
+      "grade": 7,
+      "term": 2,
+      "subject": "english",
+      "path": "downloads/handouts/english-2.pdf",
+      "bytes": 223569,
+      "pages": 3
+    },
+    {
+      "unitId": "english-3",
+      "title": "過去式、未來與敘事順序",
+      "grade": 8,
+      "term": 1,
+      "subject": "english",
+      "path": "downloads/handouts/english-3.pdf",
+      "bytes": 220700,
+      "pages": 3
+    },
+    {
+      "unitId": "english-4",
+      "title": "比較級、不定詞與動名詞",
+      "grade": 8,
+      "term": 2,
+      "subject": "english",
+      "path": "downloads/handouts/english-4.pdf",
+      "bytes": 213566,
+      "pages": 3
+    },
+    {
+      "unitId": "english-5",
+      "title": "完成式、被動與關係子句",
+      "grade": 9,
+      "term": 1,
+      "subject": "english",
+      "path": "downloads/handouts/english-5.pdf",
+      "bytes": 299562,
+      "pages": 3
+    },
+    {
+      "unitId": "english-6",
+      "title": "閱讀策略與情境溝通",
+      "grade": 9,
+      "term": 2,
+      "subject": "english",
+      "path": "downloads/handouts/english-6.pdf",
+      "bytes": 316641,
+      "pages": 3
+    },
+    {
+      "unitId": "math-20",
+      "title": "三角形的外心、內心與重心",
+      "grade": 9,
+      "term": 1,
+      "subject": "math",
+      "path": "downloads/handouts/math-20.pdf",
+      "bytes": 202935,
+      "pages": 3
+    },
+    {
+      "unitId": "chinese-7",
+      "title": "六書原則與漢字形義流變",
+      "grade": 7,
+      "term": 1,
+      "subject": "chinese",
+      "path": "downloads/handouts/chinese-7.pdf",
+      "bytes": 319242,
+      "pages": 3
+    },
+    {
+      "unitId": "chinese-8",
+      "title": "標點符號、句型結構與語法邏輯",
+      "grade": 7,
+      "term": 2,
+      "subject": "chinese",
+      "path": "downloads/handouts/chinese-8.pdf",
+      "bytes": 357572,
+      "pages": 3
+    },
+    {
+      "unitId": "chinese-9",
+      "title": "古典近體詩：絕句與律詩格律賞析",
+      "grade": 8,
+      "term": 1,
+      "subject": "chinese",
+      "path": "downloads/handouts/chinese-9.pdf",
+      "bytes": 331804,
+      "pages": 3
+    },
+    {
+      "unitId": "chinese-10",
+      "title": "詞曲賞析與古代生活文化",
+      "grade": 8,
+      "term": 2,
+      "subject": "chinese",
+      "path": "downloads/handouts/chinese-10.pdf",
+      "bytes": 298472,
+      "pages": 3
+    },
+    {
+      "unitId": "chinese-11",
+      "title": "古典小說選讀與人性刻畫",
+      "grade": 9,
+      "term": 1,
+      "subject": "chinese",
+      "path": "downloads/handouts/chinese-11.pdf",
+      "bytes": 317370,
+      "pages": 3
+    },
+    {
+      "unitId": "chinese-12",
+      "title": "應用文全覽：書信、題辭、對聯與柬帖規範",
+      "grade": 9,
+      "term": 2,
+      "subject": "chinese",
+      "path": "downloads/handouts/chinese-12.pdf",
+      "bytes": 362664,
+      "pages": 3
+    },
+    {
+      "unitId": "english-7",
+      "title": "名詞單複數、指示代名詞與祈使句",
+      "grade": 7,
+      "term": 1,
+      "subject": "english",
+      "path": "downloads/handouts/english-7.pdf",
+      "bytes": 210224,
+      "pages": 3
+    },
+    {
+      "unitId": "english-8",
+      "title": "頻率副詞、情態助動詞 can 與存在句",
+      "grade": 7,
+      "term": 2,
+      "subject": "english",
+      "path": "downloads/handouts/english-8.pdf",
+      "bytes": 212276,
+      "pages": 3
+    },
+    {
+      "unitId": "english-9",
+      "title": "過去進行式、時間連接詞與數量詞",
+      "grade": 8,
+      "term": 1,
+      "subject": "english",
+      "path": "downloads/handouts/english-9.pdf",
+      "bytes": 225139,
+      "pages": 3
+    },
+    {
+      "unitId": "english-10",
+      "title": "連綴動詞、感官動詞與最高級比較",
+      "grade": 8,
+      "term": 2,
+      "subject": "english",
+      "path": "downloads/handouts/english-10.pdf",
+      "bytes": 217943,
+      "pages": 3
+    },
+    {
+      "unitId": "english-11",
+      "title": "授予動詞、使役動詞與現在完成式進階",
+      "grade": 9,
+      "term": 1,
+      "subject": "english",
+      "path": "downloads/handouts/english-11.pdf",
+      "bytes": 222301,
+      "pages": 3
+    },
+    {
+      "unitId": "english-12",
+      "title": "附加問句、名詞子句與間接問句",
+      "grade": 9,
+      "term": 2,
+      "subject": "english",
+      "path": "downloads/handouts/english-12.pdf",
+      "bytes": 206757,
+      "pages": 3
+    },
+    {
+      "unitId": "math-21",
+      "title": "連比與比例式的應用",
+      "grade": 7,
+      "term": 2,
+      "subject": "math",
+      "path": "downloads/handouts/math-21.pdf",
+      "bytes": 208744,
+      "pages": 3
+    },
+    {
+      "unitId": "math-22",
+      "title": "等差級數與求和公式",
+      "grade": 8,
+      "term": 2,
+      "subject": "math",
+      "path": "downloads/handouts/math-22.pdf",
+      "bytes": 241888,
+      "pages": 3
+    },
+    {
+      "unitId": "math-23",
+      "title": "多邊形的內角和與外角和",
+      "grade": 8,
+      "term": 2,
+      "subject": "math",
+      "path": "downloads/handouts/math-23.pdf",
+      "bytes": 222330,
+      "pages": 3
+    },
+    {
+      "unitId": "math-24",
+      "title": "特殊四邊形與對角線幾何性質",
+      "grade": 8,
+      "term": 2,
+      "subject": "math",
+      "path": "downloads/handouts/math-24.pdf",
+      "bytes": 215187,
+      "pages": 3
+    },
+    {
+      "unitId": "math-25",
+      "title": "弦切角、圓內角與圓外角定理",
+      "grade": 9,
+      "term": 1,
+      "subject": "math",
+      "path": "downloads/handouts/math-25.pdf",
+      "bytes": 297502,
+      "pages": 3
+    },
+    {
+      "unitId": "math-26",
+      "title": "立體圖形、三視圖與表面積體積",
+      "grade": 9,
+      "term": 2,
+      "subject": "math",
+      "path": "downloads/handouts/math-26.pdf",
+      "bytes": 252451,
+      "pages": 3
+    },
+    {
+      "unitId": "math-27",
+      "title": "盒狀圖、四分位距與累積次數分配",
+      "grade": 9,
+      "term": 2,
+      "subject": "math",
+      "path": "downloads/handouts/math-27.pdf",
+      "bytes": 304021,
+      "pages": 3
+    },
+    {
+      "unitId": "chinese-13",
+      "title": "先秦諸子寓言與哲理散文",
+      "grade": 8,
+      "term": 1,
+      "subject": "chinese",
+      "path": "downloads/handouts/chinese-13.pdf",
+      "bytes": 322033,
+      "pages": 3
+    },
+    {
+      "unitId": "chinese-14",
+      "title": "現代記敘抒情散文與意象營造",
+      "grade": 8,
+      "term": 2,
+      "subject": "chinese",
+      "path": "downloads/handouts/chinese-14.pdf",
+      "bytes": 334582,
+      "pages": 3
+    },
+    {
+      "unitId": "chinese-15",
+      "title": "臺灣自然生態、海洋與在地文學",
+      "grade": 9,
+      "term": 1,
+      "subject": "chinese",
+      "path": "downloads/handouts/chinese-15.pdf",
+      "bytes": 339411,
+      "pages": 3
+    },
+    {
+      "unitId": "chinese-16",
+      "title": "會考寫作審題、立意與層次開展",
+      "grade": 9,
+      "term": 2,
+      "subject": "chinese",
+      "path": "downloads/handouts/chinese-16.pdf",
+      "bytes": 310540,
+      "pages": 3
+    },
+    {
+      "unitId": "english-13",
+      "title": "介系詞與時空方位精準表達",
+      "grade": 7,
+      "term": 2,
+      "subject": "english",
+      "path": "downloads/handouts/english-13.pdf",
+      "bytes": 288220,
+      "pages": 3
+    },
+    {
+      "unitId": "english-14",
+      "title": "條件副詞子句與情態假設語氣",
+      "grade": 8,
+      "term": 1,
+      "subject": "english",
+      "path": "downloads/handouts/english-14.pdf",
+      "bytes": 222016,
+      "pages": 3
+    },
+    {
+      "unitId": "english-15",
+      "title": "關係代名詞受格省略與介系詞搭配",
+      "grade": 9,
+      "term": 1,
+      "subject": "english",
+      "path": "downloads/handouts/english-15.pdf",
+      "bytes": 213571,
+      "pages": 3
+    },
+    {
+      "unitId": "english-16",
+      "title": "跨文本圖表閱讀與素養克漏字",
+      "grade": 9,
+      "term": 2,
+      "subject": "english",
+      "path": "downloads/handouts/english-16.pdf",
+      "bytes": 251124,
+      "pages": 3
+    },
+    {
+      "unitId": "biology-1",
+      "title": "細胞與顯微鏡",
+      "grade": 7,
+      "term": 1,
+      "subject": "biology",
+      "path": "downloads/handouts/biology-1.pdf",
+      "bytes": 310221,
+      "pages": 3
+    },
+    {
+      "unitId": "biology-2",
+      "title": "養分、光合作用與呼吸作用",
+      "grade": 7,
+      "term": 1,
+      "subject": "biology",
+      "path": "downloads/handouts/biology-2.pdf",
+      "bytes": 343865,
+      "pages": 3
+    },
+    {
+      "unitId": "biology-3",
+      "title": "運輸、消化與恆定",
+      "grade": 7,
+      "term": 1,
+      "subject": "biology",
+      "path": "downloads/handouts/biology-3.pdf",
+      "bytes": 326165,
+      "pages": 3
+    },
+    {
+      "unitId": "biology-4",
+      "title": "神經、內分泌與反應",
+      "grade": 7,
+      "term": 2,
+      "subject": "biology",
+      "path": "downloads/handouts/biology-4.pdf",
+      "bytes": 337688,
+      "pages": 3
+    },
+    {
+      "unitId": "biology-5",
+      "title": "生殖、遺傳與演化",
+      "grade": 7,
+      "term": 2,
+      "subject": "biology",
+      "path": "downloads/handouts/biology-5.pdf",
+      "bytes": 321033,
+      "pages": 3
+    },
+    {
+      "unitId": "biology-6",
+      "title": "分類、生態系與能量流動",
+      "grade": 7,
+      "term": 2,
+      "subject": "biology",
+      "path": "downloads/handouts/biology-6.pdf",
+      "bytes": 342964,
+      "pages": 3
+    },
+    {
+      "unitId": "physics-1",
+      "title": "測量、密度與實驗變因",
+      "grade": 8,
+      "term": 1,
+      "subject": "physics",
+      "path": "downloads/handouts/physics-1.pdf",
+      "bytes": 242992,
+      "pages": 3
+    },
+    {
+      "unitId": "physics-2",
+      "title": "聲音與波動",
+      "grade": 8,
+      "term": 1,
+      "subject": "physics",
+      "path": "downloads/handouts/physics-2.pdf",
+      "bytes": 306710,
+      "pages": 3
+    },
+    {
+      "unitId": "physics-3",
+      "title": "光的反射、折射與成像",
+      "grade": 8,
+      "term": 1,
+      "subject": "physics",
+      "path": "downloads/handouts/physics-3.pdf",
+      "bytes": 283969,
+      "pages": 3
+    },
+    {
+      "unitId": "physics-4",
+      "title": "溫度、熱量與熱傳播",
+      "grade": 8,
+      "term": 2,
+      "subject": "physics",
+      "path": "downloads/handouts/physics-4.pdf",
+      "bytes": 225717,
+      "pages": 3
+    },
+    {
+      "unitId": "physics-5",
+      "title": "運動、力與牛頓定律",
+      "grade": 9,
+      "term": 1,
+      "subject": "physics",
+      "path": "downloads/handouts/physics-5.pdf",
+      "bytes": 311328,
+      "pages": 3
+    },
+    {
+      "unitId": "physics-6",
+      "title": "功、能量與簡單機械",
+      "grade": 9,
+      "term": 1,
+      "subject": "physics",
+      "path": "downloads/handouts/physics-6.pdf",
+      "bytes": 304738,
+      "pages": 3
+    },
+    {
+      "unitId": "physics-7",
+      "title": "電路、電功率與磁作用",
+      "grade": 9,
+      "term": 2,
+      "subject": "physics",
+      "path": "downloads/handouts/physics-7.pdf",
+      "bytes": 288948,
+      "pages": 3
+    },
+    {
+      "unitId": "chemistry-1",
+      "title": "物質分類與粒子模型",
+      "grade": 8,
+      "term": 1,
+      "subject": "chemistry",
+      "path": "downloads/handouts/chemistry-1.pdf",
+      "bytes": 243569,
+      "pages": 3
+    },
+    {
+      "unitId": "chemistry-2",
+      "title": "原子結構與週期表",
+      "grade": 8,
+      "term": 1,
+      "subject": "chemistry",
+      "path": "downloads/handouts/chemistry-2.pdf",
+      "bytes": 306156,
+      "pages": 3
+    },
+    {
+      "unitId": "chemistry-3",
+      "title": "反應式與質量守恆",
+      "grade": 8,
+      "term": 2,
+      "subject": "chemistry",
+      "path": "downloads/handouts/chemistry-3.pdf",
+      "bytes": 292191,
+      "pages": 3
+    },
+    {
+      "unitId": "chemistry-4",
+      "title": "溶液、濃度與溶解度",
+      "grade": 8,
+      "term": 2,
+      "subject": "chemistry",
+      "path": "downloads/handouts/chemistry-4.pdf",
+      "bytes": 320050,
+      "pages": 3
+    },
+    {
+      "unitId": "chemistry-5",
+      "title": "酸鹼、鹽類與中和",
+      "grade": 8,
+      "term": 2,
+      "subject": "chemistry",
+      "path": "downloads/handouts/chemistry-5.pdf",
+      "bytes": 310476,
+      "pages": 3
+    },
+    {
+      "unitId": "chemistry-6",
+      "title": "氧化還原、有機物與材料",
+      "grade": 9,
+      "term": 2,
+      "subject": "chemistry",
+      "path": "downloads/handouts/chemistry-6.pdf",
+      "bytes": 356973,
+      "pages": 3
+    },
+    {
+      "unitId": "earth-1",
+      "title": "岩石、板塊與地震",
+      "grade": 9,
+      "term": 1,
+      "subject": "earth",
+      "path": "downloads/handouts/earth-1.pdf",
+      "bytes": 344753,
+      "pages": 3
+    },
+    {
+      "unitId": "earth-2",
+      "title": "水循環、海洋與地形",
+      "grade": 9,
+      "term": 1,
+      "subject": "earth",
+      "path": "downloads/handouts/earth-2.pdf",
+      "bytes": 272051,
+      "pages": 3
+    },
+    {
+      "unitId": "earth-3",
+      "title": "天氣、鋒面與臺灣季風",
+      "grade": 9,
+      "term": 1,
+      "subject": "earth",
+      "path": "downloads/handouts/earth-3.pdf",
+      "bytes": 260612,
+      "pages": 3
+    },
+    {
+      "unitId": "earth-4",
+      "title": "地球運動、四季與月相",
+      "grade": 9,
+      "term": 2,
+      "subject": "earth",
+      "path": "downloads/handouts/earth-4.pdf",
+      "bytes": 237336,
+      "pages": 3
+    },
+    {
+      "unitId": "earth-5",
+      "title": "太陽系、星空與尺度",
+      "grade": 9,
+      "term": 2,
+      "subject": "earth",
+      "path": "downloads/handouts/earth-5.pdf",
+      "bytes": 236641,
+      "pages": 3
+    },
+    {
+      "unitId": "earth-6",
+      "title": "氣候變遷與永續探究",
+      "grade": 9,
+      "term": 2,
+      "subject": "earth",
+      "path": "downloads/handouts/earth-6.pdf",
+      "bytes": 371374,
+      "pages": 3
+    },
+    {
+      "unitId": "biology-7",
+      "title": "物質進出細胞與酵素催化作用",
+      "grade": 7,
+      "term": 1,
+      "subject": "biology",
+      "path": "downloads/handouts/biology-7.pdf",
+      "bytes": 370253,
+      "pages": 3
+    },
+    {
+      "unitId": "biology-8",
+      "title": "植物的體內運輸與水分恆定",
+      "grade": 7,
+      "term": 1,
+      "subject": "biology",
+      "path": "downloads/handouts/biology-8.pdf",
+      "bytes": 299452,
+      "pages": 3
+    },
+    {
+      "unitId": "biology-9",
+      "title": "動物呼吸系統與排泄泌尿作用",
+      "grade": 7,
+      "term": 2,
+      "subject": "biology",
+      "path": "downloads/handouts/biology-9.pdf",
+      "bytes": 301283,
+      "pages": 3
+    },
+    {
+      "unitId": "biology-10",
+      "title": "細胞分裂、減數分裂與生殖",
+      "grade": 7,
+      "term": 2,
+      "subject": "biology",
+      "path": "downloads/handouts/biology-10.pdf",
+      "bytes": 237986,
+      "pages": 3
+    },
+    {
+      "unitId": "biology-11",
+      "title": "孟德爾遺傳法則與性別性聯遺傳",
+      "grade": 7,
+      "term": 2,
+      "subject": "biology",
+      "path": "downloads/handouts/biology-11.pdf",
+      "bytes": 291290,
+      "pages": 3
+    },
+    {
+      "unitId": "biology-12",
+      "title": "生物多樣性、保育與環境永續",
+      "grade": 7,
+      "term": 2,
+      "subject": "biology",
+      "path": "downloads/handouts/biology-12.pdf",
+      "bytes": 312572,
+      "pages": 3
+    },
+    {
+      "unitId": "physics-8",
+      "title": "浮力與阿基米德原理",
+      "grade": 8,
+      "term": 1,
+      "subject": "physics",
+      "path": "downloads/handouts/physics-8.pdf",
+      "bytes": 315944,
+      "pages": 3
+    },
+    {
+      "unitId": "physics-9",
+      "title": "液體壓力與大氣壓力",
+      "grade": 8,
+      "term": 1,
+      "subject": "physics",
+      "path": "downloads/handouts/physics-9.pdf",
+      "bytes": 326831,
+      "pages": 3
+    },
+    {
+      "unitId": "physics-10",
+      "title": "摩擦力、正向力與牛頓第一運動定律深化",
+      "grade": 8,
+      "term": 2,
+      "subject": "physics",
+      "path": "downloads/handouts/physics-10.pdf",
+      "bytes": 327315,
+      "pages": 3
+    },
+    {
+      "unitId": "physics-11",
+      "title": "靜電現象與庫侖定律",
+      "grade": 9,
+      "term": 2,
+      "subject": "physics",
+      "path": "downloads/handouts/physics-11.pdf",
+      "bytes": 284793,
+      "pages": 3
+    },
+    {
+      "unitId": "physics-12",
+      "title": "電流的磁效應與電磁鐵",
+      "grade": 9,
+      "term": 2,
+      "subject": "physics",
+      "path": "downloads/handouts/physics-12.pdf",
+      "bytes": 363278,
+      "pages": 3
+    },
+    {
+      "unitId": "physics-13",
+      "title": "電磁感應與發電機",
+      "grade": 9,
+      "term": 2,
+      "subject": "physics",
+      "path": "downloads/handouts/physics-13.pdf",
+      "bytes": 257734,
+      "pages": 3
+    },
+    {
+      "unitId": "chemistry-7",
+      "title": "反應速率與影響因素",
+      "grade": 8,
+      "term": 2,
+      "subject": "chemistry",
+      "path": "downloads/handouts/chemistry-7.pdf",
+      "bytes": 290569,
+      "pages": 3
+    },
+    {
+      "unitId": "chemistry-8",
+      "title": "化學平衡與勒沙特列原理",
+      "grade": 8,
+      "term": 2,
+      "subject": "chemistry",
+      "path": "downloads/handouts/chemistry-8.pdf",
+      "bytes": 378501,
+      "pages": 3
+    },
+    {
+      "unitId": "chemistry-9",
+      "title": "電解質與阿瑞尼斯解離說",
+      "grade": 8,
+      "term": 2,
+      "subject": "chemistry",
+      "path": "downloads/handouts/chemistry-9.pdf",
+      "bytes": 373575,
+      "pages": 3
+    },
+    {
+      "unitId": "chemistry-10",
+      "title": "酸鹼滴定與常見生活鹽類",
+      "grade": 8,
+      "term": 2,
+      "subject": "chemistry",
+      "path": "downloads/handouts/chemistry-10.pdf",
+      "bytes": 298652,
+      "pages": 3
+    },
+    {
+      "unitId": "chemistry-11",
+      "title": "常見有機化合物與石化燃料",
+      "grade": 9,
+      "term": 2,
+      "subject": "chemistry",
+      "path": "downloads/handouts/chemistry-11.pdf",
+      "bytes": 278567,
+      "pages": 3
+    },
+    {
+      "unitId": "chemistry-12",
+      "title": "聚合物與生活材料安全",
+      "grade": 9,
+      "term": 2,
+      "subject": "chemistry",
+      "path": "downloads/handouts/chemistry-12.pdf",
+      "bytes": 312144,
+      "pages": 3
+    },
+    {
+      "unitId": "earth-7",
+      "title": "地層順序與地質歷史判讀",
+      "grade": 9,
+      "term": 1,
+      "subject": "earth",
+      "path": "downloads/handouts/earth-7.pdf",
+      "bytes": 287914,
+      "pages": 3
+    },
+    {
+      "unitId": "earth-8",
+      "title": "板塊構造學說與臺灣造山運動",
+      "grade": 9,
+      "term": 1,
+      "subject": "earth",
+      "path": "downloads/handouts/earth-8.pdf",
+      "bytes": 354394,
+      "pages": 3
+    },
+    {
+      "unitId": "earth-9",
+      "title": "大氣氣團、鋒面系統與天氣災害",
+      "grade": 9,
+      "term": 1,
+      "subject": "earth",
+      "path": "downloads/handouts/earth-9.pdf",
+      "bytes": 370864,
+      "pages": 3
+    },
+    {
+      "unitId": "earth-10",
+      "title": "天體引力、潮汐現象與月相變化",
+      "grade": 9,
+      "term": 2,
+      "subject": "earth",
+      "path": "downloads/handouts/earth-10.pdf",
+      "bytes": 347270,
+      "pages": 3
+    },
+    {
+      "unitId": "biology-13",
+      "title": "人體神經系統與腦部構造分工",
+      "grade": 7,
+      "term": 2,
+      "subject": "biology",
+      "path": "downloads/handouts/biology-13.pdf",
+      "bytes": 347569,
+      "pages": 3
+    },
+    {
+      "unitId": "biology-14",
+      "title": "人體消化器官與各類消化酵素專一性作用",
+      "grade": 7,
+      "term": 1,
+      "subject": "biology",
+      "path": "downloads/handouts/biology-14.pdf",
+      "bytes": 286213,
+      "pages": 3
+    },
+    {
+      "unitId": "physics-14",
+      "title": "光的折射定律與透鏡成像規律",
+      "grade": 8,
+      "term": 1,
+      "subject": "physics",
+      "path": "downloads/handouts/physics-14.pdf",
+      "bytes": 318505,
+      "pages": 3
+    },
+    {
+      "unitId": "physics-15",
+      "title": "動能、重力位能與力學能守恆定律",
+      "grade": 9,
+      "term": 1,
+      "subject": "physics",
+      "path": "downloads/handouts/physics-15.pdf",
+      "bytes": 307428,
+      "pages": 3
+    },
+    {
+      "unitId": "chemistry-13",
+      "title": "空氣成分與常見氣體實驗室製備",
+      "grade": 8,
+      "term": 1,
+      "subject": "chemistry",
+      "path": "downloads/handouts/chemistry-13.pdf",
+      "bytes": 293763,
+      "pages": 3
+    },
+    {
+      "unitId": "chemistry-14",
+      "title": "莫耳數概念與化學反應計量",
+      "grade": 8,
+      "term": 2,
+      "subject": "chemistry",
+      "path": "downloads/handouts/chemistry-14.pdf",
+      "bytes": 304489,
+      "pages": 3
+    },
+    {
+      "unitId": "earth-11",
+      "title": "地震波傳播特性與臺灣活動斷層防震防災",
+      "grade": 9,
+      "term": 1,
+      "subject": "earth",
+      "path": "downloads/handouts/earth-11.pdf",
+      "bytes": 363612,
+      "pages": 3
+    },
+    {
+      "unitId": "earth-12",
+      "title": "日食、月食天象成因與太陽系天體探索",
+      "grade": 9,
+      "term": 2,
+      "subject": "earth",
+      "path": "downloads/handouts/earth-12.pdf",
+      "bytes": 328074,
+      "pages": 3
+    },
+    {
+      "unitId": "history-1",
+      "title": "史料判讀與早期臺灣",
+      "grade": 7,
+      "term": 1,
+      "subject": "history",
+      "path": "downloads/handouts/history-1.pdf",
+      "bytes": 274903,
+      "pages": 3
+    },
+    {
+      "unitId": "history-2",
+      "title": "海洋交流、荷西與鄭氏",
+      "grade": 7,
+      "term": 1,
+      "subject": "history",
+      "path": "downloads/handouts/history-2.pdf",
+      "bytes": 278882,
+      "pages": 3
+    },
+    {
+      "unitId": "history-3",
+      "title": "清領與日治時期的變遷",
+      "grade": 7,
+      "term": 2,
+      "subject": "history",
+      "path": "downloads/handouts/history-3.pdf",
+      "bytes": 277397,
+      "pages": 3
+    },
+    {
+      "unitId": "history-4",
+      "title": "戰後臺灣與民主化",
+      "grade": 7,
+      "term": 2,
+      "subject": "history",
+      "path": "downloads/handouts/history-4.pdf",
+      "bytes": 262739,
+      "pages": 3
+    },
+    {
+      "unitId": "history-5",
+      "title": "中國與東亞：制度及文化交流",
+      "grade": 8,
+      "term": 1,
+      "subject": "history",
+      "path": "downloads/handouts/history-5.pdf",
+      "bytes": 272675,
+      "pages": 3
+    },
+    {
+      "unitId": "history-6",
+      "title": "近代東亞與帝國主義",
+      "grade": 8,
+      "term": 2,
+      "subject": "history",
+      "path": "downloads/handouts/history-6.pdf",
+      "bytes": 271901,
+      "pages": 3
+    },
+    {
+      "unitId": "history-7",
+      "title": "古代文明到近代歐洲",
+      "grade": 9,
+      "term": 1,
+      "subject": "history",
+      "path": "downloads/handouts/history-7.pdf",
+      "bytes": 269158,
+      "pages": 3
+    },
+    {
+      "unitId": "history-8",
+      "title": "工業革命、世界大戰與全球化",
+      "grade": 9,
+      "term": 2,
+      "subject": "history",
+      "path": "downloads/handouts/history-8.pdf",
+      "bytes": 276451,
+      "pages": 3
+    },
+    {
+      "unitId": "geography-1",
+      "title": "地圖、比例尺與經緯度",
+      "grade": 7,
+      "term": 1,
+      "subject": "geography",
+      "path": "downloads/handouts/geography-1.pdf",
+      "bytes": 303184,
+      "pages": 3
+    },
+    {
+      "unitId": "geography-2",
+      "title": "臺灣地形、氣候與災害",
+      "grade": 7,
+      "term": 1,
+      "subject": "geography",
+      "path": "downloads/handouts/geography-2.pdf",
+      "bytes": 341577,
+      "pages": 3
+    },
+    {
+      "unitId": "geography-3",
+      "title": "臺灣人口、產業與都市",
+      "grade": 7,
+      "term": 2,
+      "subject": "geography",
+      "path": "downloads/handouts/geography-3.pdf",
+      "bytes": 337505,
+      "pages": 3
+    },
+    {
+      "unitId": "geography-4",
+      "title": "東亞與區域差異",
+      "grade": 8,
+      "term": 1,
+      "subject": "geography",
+      "path": "downloads/handouts/geography-4.pdf",
+      "bytes": 265899,
+      "pages": 3
+    },
+    {
+      "unitId": "geography-5",
+      "title": "亞洲、非洲與文化地景",
+      "grade": 8,
+      "term": 2,
+      "subject": "geography",
+      "path": "downloads/handouts/geography-5.pdf",
+      "bytes": 252548,
+      "pages": 3
+    },
+    {
+      "unitId": "geography-6",
+      "title": "歐洲、美洲與大洋洲",
+      "grade": 9,
+      "term": 1,
+      "subject": "geography",
+      "path": "downloads/handouts/geography-6.pdf",
+      "bytes": 256576,
+      "pages": 3
+    },
+    {
+      "unitId": "geography-7",
+      "title": "全球連結與環境議題",
+      "grade": 9,
+      "term": 2,
+      "subject": "geography",
+      "path": "downloads/handouts/geography-7.pdf",
+      "bytes": 275451,
+      "pages": 3
+    },
+    {
+      "unitId": "civics-1",
+      "title": "自我、群體與多元文化",
+      "grade": 7,
+      "term": 1,
+      "subject": "civics",
+      "path": "downloads/handouts/civics-1.pdf",
+      "bytes": 262619,
+      "pages": 3
+    },
+    {
+      "unitId": "civics-2",
+      "title": "家庭、學校與公共參與",
+      "grade": 7,
+      "term": 2,
+      "subject": "civics",
+      "path": "downloads/handouts/civics-2.pdf",
+      "bytes": 261109,
+      "pages": 3
+    },
+    {
+      "unitId": "civics-3",
+      "title": "民主政治與權力分立",
+      "grade": 8,
+      "term": 1,
+      "subject": "civics",
+      "path": "downloads/handouts/civics-3.pdf",
+      "bytes": 241038,
+      "pages": 3
+    },
+    {
+      "unitId": "civics-4",
+      "title": "人權、法治與正當程序",
+      "grade": 8,
+      "term": 2,
+      "subject": "civics",
+      "path": "downloads/handouts/civics-4.pdf",
+      "bytes": 266830,
+      "pages": 3
+    },
+    {
+      "unitId": "civics-5",
+      "title": "選擇、機會成本與市場",
+      "grade": 9,
+      "term": 1,
+      "subject": "civics",
+      "path": "downloads/handouts/civics-5.pdf",
+      "bytes": 329896,
+      "pages": 3
+    },
+    {
+      "unitId": "civics-6",
+      "title": "媒體素養、全球化與永續消費",
+      "grade": 9,
+      "term": 2,
+      "subject": "civics",
+      "path": "downloads/handouts/civics-6.pdf",
+      "bytes": 278527,
+      "pages": 3
+    },
+    {
+      "unitId": "history-9",
+      "title": "臺灣南島語族與多元原住民族文化",
+      "grade": 7,
+      "term": 1,
+      "subject": "history",
+      "path": "downloads/handouts/history-9.pdf",
+      "bytes": 332043,
+      "pages": 3
+    },
+    {
+      "unitId": "history-10",
+      "title": "中國古代國家形成與封建帝制",
+      "grade": 8,
+      "term": 1,
+      "subject": "history",
+      "path": "downloads/handouts/history-10.pdf",
+      "bytes": 398498,
+      "pages": 3
+    },
+    {
+      "unitId": "history-11",
+      "title": "明清社會變遷與西力東漸",
+      "grade": 8,
+      "term": 2,
+      "subject": "history",
+      "path": "downloads/handouts/history-11.pdf",
+      "bytes": 326205,
+      "pages": 3
+    },
+    {
+      "unitId": "history-12",
+      "title": "古希臘羅馬古典文明與民主法律",
+      "grade": 9,
+      "term": 1,
+      "subject": "history",
+      "path": "downloads/handouts/history-12.pdf",
+      "bytes": 300875,
+      "pages": 3
+    },
+    {
+      "unitId": "geography-8",
+      "title": "等高線地形圖判讀與臺灣水文環境",
+      "grade": 7,
+      "term": 1,
+      "subject": "geography",
+      "path": "downloads/handouts/geography-8.pdf",
+      "bytes": 302884,
+      "pages": 3
+    },
+    {
+      "unitId": "geography-9",
+      "title": "季風亞洲與世界文明搖籃",
+      "grade": 8,
+      "term": 1,
+      "subject": "geography",
+      "path": "downloads/handouts/geography-9.pdf",
+      "bytes": 308035,
+      "pages": 3
+    },
+    {
+      "unitId": "geography-10",
+      "title": "美國與北美洲區域發展特色",
+      "grade": 9,
+      "term": 1,
+      "subject": "geography",
+      "path": "downloads/handouts/geography-10.pdf",
+      "bytes": 333310,
+      "pages": 3
+    },
+    {
+      "unitId": "civics-7",
+      "title": "少年法律保護與權益維護",
+      "grade": 7,
+      "term": 1,
+      "subject": "civics",
+      "path": "downloads/handouts/civics-7.pdf",
+      "bytes": 307501,
+      "pages": 3
+    },
+    {
+      "unitId": "civics-8",
+      "title": "現代法治體系：民法、刑法與行政法",
+      "grade": 8,
+      "term": 2,
+      "subject": "civics",
+      "path": "downloads/handouts/civics-8.pdf",
+      "bytes": 288516,
+      "pages": 3
+    },
+    {
+      "unitId": "civics-9",
+      "title": "市場競爭、外部效果與政府管制",
+      "grade": 9,
+      "term": 1,
+      "subject": "civics",
+      "path": "downloads/handouts/civics-9.pdf",
+      "bytes": 313304,
+      "pages": 3
+    },
+    {
+      "unitId": "history-13",
+      "title": "清領開港通商與臺灣近代化建設",
+      "grade": 7,
+      "term": 2,
+      "subject": "history",
+      "path": "downloads/handouts/history-13.pdf",
+      "bytes": 407163,
+      "pages": 3
+    },
+    {
+      "unitId": "history-14",
+      "title": "辛亥革命與中華民國建立到對日抗戰",
+      "grade": 8,
+      "term": 2,
+      "subject": "history",
+      "path": "downloads/handouts/history-14.pdf",
+      "bytes": 322771,
+      "pages": 3
+    },
+    {
+      "unitId": "history-15",
+      "title": "二次大戰後冷戰對峙與全球解殖潮",
+      "grade": 9,
+      "term": 2,
+      "subject": "history",
+      "path": "downloads/handouts/history-15.pdf",
+      "bytes": 335641,
+      "pages": 3
+    },
+    {
+      "unitId": "geography-11",
+      "title": "臺灣交通網絡與城鄉區域均衡發展",
+      "grade": 7,
+      "term": 2,
+      "subject": "geography",
+      "path": "downloads/handouts/geography-11.pdf",
+      "bytes": 332162,
+      "pages": 3
+    },
+    {
+      "unitId": "geography-12",
+      "title": "西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治",
+      "grade": 8,
+      "term": 2,
+      "subject": "geography",
+      "path": "downloads/handouts/geography-12.pdf",
+      "bytes": 341136,
+      "pages": 3
+    },
+    {
+      "unitId": "geography-13",
+      "title": "澳洲、紐西蘭與大洋洲島嶼地理環境",
+      "grade": 9,
+      "term": 1,
+      "subject": "geography",
+      "path": "downloads/handouts/geography-13.pdf",
+      "bytes": 343552,
+      "pages": 3
+    },
+    {
+      "unitId": "civics-10",
+      "title": "地方自治、社區參與與地方創生",
+      "grade": 7,
+      "term": 2,
+      "subject": "civics",
+      "path": "downloads/handouts/civics-10.pdf",
+      "bytes": 306394,
+      "pages": 3
+    },
+    {
+      "unitId": "civics-11",
+      "title": "中央政府體制與五院職權分工制衡",
+      "grade": 8,
+      "term": 1,
+      "subject": "civics",
+      "path": "downloads/handouts/civics-11.pdf",
+      "bytes": 345265,
+      "pages": 3
+    },
+    {
+      "unitId": "civics-12",
+      "title": "國際貿易、比較利益法則與全球分工",
+      "grade": 9,
+      "term": 1,
+      "subject": "civics",
+      "path": "downloads/handouts/civics-12.pdf",
+      "bytes": 370804,
+      "pages": 3
+    },
+    {
+      "unitId": "visual-1",
+      "title": "色彩、構圖與視覺重點",
+      "grade": 7,
+      "term": 1,
+      "subject": "visual",
+      "path": "downloads/handouts/visual-1.pdf",
+      "bytes": 261977,
+      "pages": 3
+    },
+    {
+      "unitId": "visual-2",
+      "title": "透視、媒材與創作過程",
+      "grade": 8,
+      "term": 1,
+      "subject": "visual",
+      "path": "downloads/handouts/visual-2.pdf",
+      "bytes": 263541,
+      "pages": 3
+    },
+    {
+      "unitId": "visual-3",
+      "title": "藝術賞析、文化與策展",
+      "grade": 9,
+      "term": 2,
+      "subject": "visual",
+      "path": "downloads/handouts/visual-3.pdf",
+      "bytes": 265986,
+      "pages": 3
+    },
+    {
+      "unitId": "music-1",
+      "title": "節奏、拍號與旋律",
+      "grade": 7,
+      "term": 1,
+      "subject": "music",
+      "path": "downloads/handouts/music-1.pdf",
+      "bytes": 225248,
+      "pages": 3
+    },
+    {
+      "unitId": "music-2",
+      "title": "音色、合奏與聆聽",
+      "grade": 8,
+      "term": 1,
+      "subject": "music",
+      "path": "downloads/handouts/music-2.pdf",
+      "bytes": 248785,
+      "pages": 3
+    },
+    {
+      "unitId": "music-3",
+      "title": "音樂文化與創作",
+      "grade": 9,
+      "term": 2,
+      "subject": "music",
+      "path": "downloads/handouts/music-3.pdf",
+      "bytes": 251990,
+      "pages": 3
+    },
+    {
+      "unitId": "performing-1",
+      "title": "身體、聲音與舞臺空間",
+      "grade": 7,
+      "term": 1,
+      "subject": "performing",
+      "path": "downloads/handouts/performing-1.pdf",
+      "bytes": 277285,
+      "pages": 3
+    },
+    {
+      "unitId": "performing-2",
+      "title": "角色、衝突與即興",
+      "grade": 8,
+      "term": 1,
+      "subject": "performing",
+      "path": "downloads/handouts/performing-2.pdf",
+      "bytes": 266155,
+      "pages": 3
+    },
+    {
+      "unitId": "performing-3",
+      "title": "展演製作與回饋",
+      "grade": 9,
+      "term": 2,
+      "subject": "performing",
+      "path": "downloads/handouts/performing-3.pdf",
+      "bytes": 271023,
+      "pages": 3
+    },
+    {
+      "unitId": "computing-1",
+      "title": "演算法與問題拆解",
+      "grade": 7,
+      "term": 1,
+      "subject": "computing",
+      "path": "downloads/handouts/computing-1.pdf",
+      "bytes": 238287,
+      "pages": 3
+    },
+    {
+      "unitId": "computing-2",
+      "title": "變數、條件與迴圈",
+      "grade": 8,
+      "term": 1,
+      "subject": "computing",
+      "path": "downloads/handouts/computing-2.pdf",
+      "bytes": 242504,
+      "pages": 3
+    },
+    {
+      "unitId": "computing-3",
+      "title": "資料、網路與資訊安全",
+      "grade": 9,
+      "term": 2,
+      "subject": "computing",
+      "path": "downloads/handouts/computing-3.pdf",
+      "bytes": 261190,
+      "pages": 3
+    },
+    {
+      "unitId": "technology-1",
+      "title": "設計需求與工程流程",
+      "grade": 7,
+      "term": 1,
+      "subject": "technology",
+      "path": "downloads/handouts/technology-1.pdf",
+      "bytes": 255057,
+      "pages": 3
+    },
+    {
+      "unitId": "technology-2",
+      "title": "結構、機構與材料",
+      "grade": 8,
+      "term": 1,
+      "subject": "technology",
+      "path": "downloads/handouts/technology-2.pdf",
+      "bytes": 261256,
+      "pages": 3
+    },
+    {
+      "unitId": "technology-3",
+      "title": "能源、製造與永續產品",
+      "grade": 9,
+      "term": 2,
+      "subject": "technology",
+      "path": "downloads/handouts/technology-3.pdf",
+      "bytes": 269707,
+      "pages": 3
+    },
+    {
+      "unitId": "health-1",
+      "title": "青春期、自我認識與身體界線",
+      "grade": 7,
+      "term": 1,
+      "subject": "health",
+      "path": "downloads/handouts/health-1.pdf",
+      "bytes": 270461,
+      "pages": 3
+    },
+    {
+      "unitId": "health-2",
+      "title": "飲食資訊與健康選擇",
+      "grade": 8,
+      "term": 1,
+      "subject": "health",
+      "path": "downloads/handouts/health-2.pdf",
+      "bytes": 255705,
+      "pages": 3
+    },
+    {
+      "unitId": "health-3",
+      "title": "健康資訊、風險與求助",
+      "grade": 9,
+      "term": 2,
+      "subject": "health",
+      "path": "downloads/handouts/health-3.pdf",
+      "bytes": 274555,
+      "pages": 3
+    },
+    {
+      "unitId": "pe-1",
+      "title": "動作學習與自我監測",
+      "grade": 7,
+      "term": 1,
+      "subject": "pe",
+      "path": "downloads/handouts/pe-1.pdf",
+      "bytes": 256669,
+      "pages": 3
+    },
+    {
+      "unitId": "pe-2",
+      "title": "球類策略與團隊合作",
+      "grade": 8,
+      "term": 1,
+      "subject": "pe",
+      "path": "downloads/handouts/pe-2.pdf",
+      "bytes": 259138,
+      "pages": 3
+    },
+    {
+      "unitId": "pe-3",
+      "title": "運動計畫與公平競賽",
+      "grade": 9,
+      "term": 2,
+      "subject": "pe",
+      "path": "downloads/handouts/pe-3.pdf",
+      "bytes": 261690,
+      "pages": 3
+    },
+    {
+      "unitId": "home-1",
+      "title": "家庭合作與生活管理",
+      "grade": 7,
+      "term": 1,
+      "subject": "home",
+      "path": "downloads/handouts/home-1.pdf",
+      "bytes": 255162,
+      "pages": 3
+    },
+    {
+      "unitId": "home-2",
+      "title": "飲食製備與衣物照護",
+      "grade": 8,
+      "term": 1,
+      "subject": "home",
+      "path": "downloads/handouts/home-2.pdf",
+      "bytes": 260122,
+      "pages": 3
+    },
+    {
+      "unitId": "home-3",
+      "title": "消費規劃與資源管理",
+      "grade": 9,
+      "term": 2,
+      "subject": "home",
+      "path": "downloads/handouts/home-3.pdf",
+      "bytes": 246607,
+      "pages": 3
+    },
+    {
+      "unitId": "scout-1",
+      "title": "團隊分工與戶外準備",
+      "grade": 7,
+      "term": 1,
+      "subject": "scout",
+      "path": "downloads/handouts/scout-1.pdf",
+      "bytes": 259393,
+      "pages": 3
+    },
+    {
+      "unitId": "scout-2",
+      "title": "定向、地圖與環境觀察",
+      "grade": 8,
+      "term": 1,
+      "subject": "scout",
+      "path": "downloads/handouts/scout-2.pdf",
+      "bytes": 273811,
+      "pages": 3
+    },
+    {
+      "unitId": "scout-3",
+      "title": "環境倫理與服務行動",
+      "grade": 9,
+      "term": 2,
+      "subject": "scout",
+      "path": "downloads/handouts/scout-3.pdf",
+      "bytes": 271304,
+      "pages": 3
+    },
+    {
+      "unitId": "guidance-1",
+      "title": "認識自我與情緒表達",
+      "grade": 7,
+      "term": 1,
+      "subject": "guidance",
+      "path": "downloads/handouts/guidance-1.pdf",
+      "bytes": 256209,
+      "pages": 3
+    },
+    {
+      "unitId": "guidance-2",
+      "title": "學習策略與時間規劃",
+      "grade": 8,
+      "term": 1,
+      "subject": "guidance",
+      "path": "downloads/handouts/guidance-2.pdf",
+      "bytes": 259591,
+      "pages": 3
+    },
+    {
+      "unitId": "guidance-3",
+      "title": "生涯探索與決策",
+      "grade": 9,
+      "term": 2,
+      "subject": "guidance",
+      "path": "downloads/handouts/guidance-3.pdf",
+      "bytes": 265053,
+      "pages": 3
+    },
+    {
+      "unitId": "local-1",
+      "title": "語別選擇與聆聽觀察",
+      "grade": 7,
+      "term": 1,
+      "subject": "local",
+      "path": "downloads/handouts/local-1.pdf",
+      "bytes": 248865,
+      "pages": 3
+    },
+    {
+      "unitId": "local-2",
+      "title": "生活對話與在地文化",
+      "grade": 7,
+      "term": 2,
+      "subject": "local",
+      "path": "downloads/handouts/local-2.pdf",
+      "bytes": 258959,
+      "pages": 3
+    },
+    {
+      "unitId": "local-3",
+      "title": "臺灣手語與視覺溝通",
+      "grade": 8,
+      "term": 1,
+      "subject": "local",
+      "path": "downloads/handouts/local-3.pdf",
+      "bytes": 252871,
+      "pages": 3
+    },
+    {
+      "unitId": "local-4",
+      "title": "語言記錄與文化行動",
+      "grade": 8,
+      "term": 2,
+      "subject": "local",
+      "path": "downloads/handouts/local-4.pdf",
+      "bytes": 268733,
+      "pages": 3
+    }
+  ]
+}

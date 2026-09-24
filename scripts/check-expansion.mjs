@@ -1,0 +1,33 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {units} from '../dist/curriculum.js';
+import {teachingFor} from '../dist/teaching.js';
+import {workedCases,renderWorkedCase} from '../dist/worked-cases.js';
+
+const baseline=JSON.parse(fs.readFileSync('docs/expansion-baseline.json','utf8'));
+const count=text=>[...text.replace(/\s/g,'')].length;
+assert.equal(Object.keys(workedCases).length,units.length,'Each unit needs exactly one original example');
+const beforeById=Object.fromEntries(baseline.units.map(u=>[u.id,u]));
+const originalTeaching=new Set(),newTeaching=new Set();
+const rows=units.map(u=>{
+ const c=workedCases[u.id],before=beforeById[u.id];
+ assert(c&&before,`Missing example or baseline: ${u.id}`);
+ assert(c.teaching.length>=50,`Teaching too short: ${u.id}`);
+ assert(c.problem.length>=20,`Missing meaningful problem: ${u.id}`);
+ assert(c.steps.length>=3,`Missing reasoning steps: ${u.id}`);
+ assert(c.steps.every(s=>s.length>=12),`Empty reasoning step: ${u.id}`);
+ assert(c.check.length>=20,`Missing scope check: ${u.id}`);
+ const existing=[u.concept,u.example,u.pitfall,u.task,...teachingFor(u).rows.flat(),...u.questions.flatMap(q=>[q.prompt,...q.options,q.explanation,q.hint])];
+ const additions=[c.teaching,c.problem,...c.steps,c.check];
+ existing.forEach(t=>originalTeaching.add(t));additions.forEach(t=>newTeaching.add(t));
+ const current=count([...existing,...additions].join('')),added=current-before.chars;
+ assert(current>=before.chars*1.2,`${u.id}: less than 20% growth`);
+ assert(renderWorkedCase(u).includes('case-solution'),`Example not rendered: ${u.id}`);
+ return {id:u.id,title:u.title,before:before.chars,after:current,added,growthPercent:Number((added/before.chars*100).toFixed(2))};
+});
+assert.equal(new Set(units.map(u=>workedCases[u.id].problem)).size,units.length,'Do not repeat example prompts across units');
+const after=rows.reduce((n,u)=>n+u.after,0),added=after-baseline.total;
+const uniqueNewCharacters=[...newTeaching].filter(s=>!originalTeaching.has(s)).reduce((n,s)=>n+count(s),0);
+const report={baselineCommit:baseline.commit,method:baseline.method,baselineCharacters:baseline.total,afterCharacters:after,addedCharacters:added,growthPercent:Number((added/baseline.total*100).toFixed(2)),minimumUnitGrowthPercent:Math.min(...rows.map(u=>u.growthPercent)),unitsWithAddedTeaching:rows.length,newWorkedExamples:rows.length,newReasoningSteps:units.reduce((n,u)=>n+workedCases[u.id].steps.length,0),uniqueNewCharacters,units:rows};
+fs.writeFileSync('docs/expansion-report.json',JSON.stringify(report,null,2));
+console.log(JSON.stringify({...report,units:undefined},null,2));

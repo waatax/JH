@@ -1,0 +1,320 @@
+{
+  "total_exams": 53,
+  "total_questions": 2216,
+  "total_pdf_files": 174,
+  "years": {
+    "108": {
+      "exams": 6,
+      "questions": 267,
+      "subjects": [
+        {
+          "code": "chinese_comp",
+          "name": "國語文綜合能力測驗",
+          "questions": 42
+        },
+        {
+          "code": "english",
+          "name": "英文",
+          "questions": 50
+        },
+        {
+          "code": "math",
+          "name": "數學",
+          "questions": 29
+        },
+        {
+          "code": "science",
+          "name": "自然",
+          "questions": 71
+        },
+        {
+          "code": "social",
+          "name": "社會",
+          "questions": 72
+        },
+        {
+          "code": "writing",
+          "name": "國語文寫作能力測驗",
+          "questions": 3
+        }
+      ]
+    },
+    "109": {
+      "exams": 6,
+      "questions": 271,
+      "subjects": [
+        {
+          "code": "chinese_comp",
+          "name": "國語文綜合能力測驗",
+          "questions": 41
+        },
+        {
+          "code": "english",
+          "name": "英文",
+          "questions": 50
+        },
+        {
+          "code": "math",
+          "name": "數學",
+          "questions": 29
+        },
+        {
+          "code": "science",
+          "name": "自然",
+          "questions": 72
+        },
+        {
+          "code": "social",
+          "name": "社會",
+          "questions": 76
+        },
+        {
+          "code": "writing",
+          "name": "國語文寫作能力測驗",
+          "questions": 3
+        }
+      ]
+    },
+    "110": {
+      "exams": 6,
+      "questions": 262,
+      "subjects": [
+        {
+          "code": "chinese_comp",
+          "name": "國語文綜合能力測驗",
+          "questions": 42
+        },
+        {
+          "code": "english",
+          "name": "英文",
+          "questions": 51
+        },
+        {
+          "code": "math",
+          "name": "數學",
+          "questions": 29
+        },
+        {
+          "code": "science",
+          "name": "自然",
+          "questions": 67
+        },
+        {
+          "code": "social",
+          "name": "社會",
+          "questions": 70
+        },
+        {
+          "code": "writing",
+          "name": "國語文寫作能力測驗",
+          "questions": 3
+        }
+      ]
+    },
+    "111": {
+      "exams": 7,
+      "questions": 287,
+      "subjects": [
+        {
+          "code": "chinese_comp",
+          "name": "國語文綜合能力測驗",
+          "questions": 37
+        },
+        {
+          "code": "english",
+          "name": "英文",
+          "questions": 37
+        },
+        {
+          "code": "math_a",
+          "name": "數學A",
+          "questions": 40
+        },
+        {
+          "code": "math_b",
+          "name": "數學B",
+          "questions": 41
+        },
+        {
+          "code": "science",
+          "name": "自然",
+          "questions": 61
+        },
+        {
+          "code": "social",
+          "name": "社會",
+          "questions": 68
+        },
+        {
+          "code": "writing",
+          "name": "國語文寫作能力測驗",
+          "questions": 3
+        }
+      ]
+    },
+    "112": {
+      "exams": 7,
+      "questions": 280,
+      "subjects": [
+        {
+          "code": "chinese_comp",
+          "name": "國語文綜合能力測驗",
+          "questions": 37
+        },
+        {
+          "code": "english",
+          "name": "英文",
+          "questions": 36
+        },
+        {
+          "code": "math_a",
+          "name": "數學A",
+          "questions": 37
+        },
+        {
+          "code": "math_b",
+          "name": "數學B",
+          "questions": 40
+        },
+        {
+          "code": "science",
+          "name": "自然",
+          "questions": 62
+        },
+        {
+          "code": "social",
+          "name": "社會",
+          "questions": 65
+        },
+        {
+          "code": "writing",
+          "name": "國語文寫作能力測驗",
+          "questions": 3
+        }
+      ]
+    },
+    "113": {
+      "exams": 7,
+      "questions": 278,
+      "subjects": [
+        {
+          "code": "chinese_comp",
+          "name": "國語文綜合能力測驗",
+          "questions": 36
+        },
+        {
+          "code": "english",
+          "name": "英文",
+          "questions": 36
+        },
+        {
+          "code": "math_a",
+          "name": "數學A",
+          "questions": 40
+        },
+        {
+          "code": "math_b",
+          "name": "數學B",
+          "questions": 35
+        },
+        {
+          "code": "science",
+          "name": "自然",
+          "questions": 60
+        },
+        {
+          "code": "social",
+          "name": "社會",
+          "questions": 68
+        },
+        {
+          "code": "writing",
+          "name": "國語文寫作能力測驗",
+          "questions": 3
+        }
+      ]
+    },
+    "114": {
+      "exams": 7,
+      "questions": 287,
+      "subjects": [
+        {
+          "code": "chinese_comp",
+          "name": "國語文綜合能力測驗",
+          "questions": 36
+        },
+        {
+          "code": "english",
+          "name": "英文",
+          "questions": 43
+        },
+        {
+          "code": "math_a",
+          "name": "數學A",
+          "questions": 39
+        },
+        {
+          "code": "math_b",
+          "name": "數學B",
+          "questions": 36
+        },
+        {
+          "code": "science",
+          "name": "自然",
+          "questions": 60
+        },
+        {
+          "code": "social",
+          "name": "社會",
+          "questions": 70
+        },
+        {
+          "code": "writing",
+          "name": "國語文寫作能力測驗",
+          "questions": 3
+        }
+      ]
+    },
+    "115": {
+      "exams": 7,
+      "questions": 284,
+      "subjects": [
+        {
+          "code": "chinese_comp",
+          "name": "國語文綜合能力測驗",
+          "questions": 35
+        },
+        {
+          "code": "english",
+          "name": "英文",
+          "questions": 42
+        },
+        {
+          "code": "math_a",
+          "name": "數學A",
+          "questions": 40
+        },
+        {
+          "code": "math_b",
+          "name": "數學B",
+          "questions": 41
+        },
+        {
+          "code": "science",
+          "name": "自然",
+          "questions": 58
+        },
+        {
+          "code": "social",
+          "name": "社會",
+          "questions": 65
+        },
+        {
+          "code": "writing",
+          "name": "國語文寫作能力測驗",
+          "questions": 3
+        }
+      ]
+    }
+  }
+}
