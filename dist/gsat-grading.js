@@ -1,4 +1,5 @@
 // Answer comparison only: extracted scores and question boundaries need PDF review.
+import {questionKey} from './gsat-session.js';
 const normalize=value=>String(value??'').normalize('NFKC').replace(/[()\s]/g,'').toUpperCase();
 export function compareGsatAnswer(q,userAnswer){
  const answer=normalize(q.answer),options=Object.keys(q.options||{}).map(normalize);
@@ -27,7 +28,7 @@ export function compareGsatAnswer(q,userAnswer){
  return pending;
 }
 export function evaluateExamSession(session,questions,exam,isExpired,now=Date.now()){
- const rows=questions.map(q=>({question_id:q.question_id,question_number:q.question_number,question_type:q.question_type,section_name:q.section_name,question_text:q.question_text,passage_text:q.passage_text,options:q.options||{},userAnswer:session.answers[q.question_number],officialAnswer:q.answer,points:1,rubric_text:q.rubric_text,...compareGsatAnswer(q,session.answers[q.question_number])}));
+ const rows=questions.map(q=>({question_id:q.question_id,question_number:q.question_number,question_type:q.question_type,section_name:q.section_name,question_text:q.question_text,passage_text:q.passage_text,options:q.options||{},userAnswer:session.answers[questionKey(q)],officialAnswer:q.answer,points:1,rubric_text:q.rubric_text,...compareGsatAnswer(q,session.answers[questionKey(q)])}));
  const graded=rows.filter(r=>!r.pendingReview),earned=graded.reduce((n,r)=>n+r.earnedScore,0);
  return {scoringVersion:2,id:`result-${now}`,examId:exam.exam_id,examTitle:session.examTitle,mode:session.mode,timestamp:now,durationSeconds:Math.max(0,Math.floor((now-session.startTime)/1000)),isExpired,earnedScore:Math.round(earned*10)/10,totalMaxScore:graded.length,percent:graded.length?Math.round(earned/graded.length*1000)/10:0,correctCount:graded.filter(r=>r.isCorrect).length,pendingCount:rows.length-graded.length,totalQuestions:rows.length,rows};
 }

@@ -1,9 +1,12 @@
+import {questionKey,hasAnswer,answeredCount as countGsatAnswered,sessionKey,secondsLeft,createSession,restoreSession} from './gsat-session.js';
 import {evaluateExamSession} from './gsat-grading.js';
 // gsat-interactive.js - 學測歷屆各科模擬考與互動練習引擎
 // 涵蓋 108~115 學年度全考科、2,216 題官方題庫、計時模擬、多選題評分、非選自評與逐題答案核對
 
 let cachedDatabase = null;
-const GSAT_STORAGE_KEY = 'gsat-practice-session-v1';
+let viewEpoch=0;
+const recentResults=new Map();
+export function stopGsatView(){viewEpoch++;clearInterval(examTimerInterval);}
 const GSAT_RESULTS_KEY = 'gsat-practice-history-v1';
 
 const SUBJECT_CONFIG = {
@@ -44,6 +47,7 @@ export async function loadGsatDatabase() {
 // 1. GSAT Landing & Hub Page (#/gsat)
 // ----------------------------------------------------
 export async function gsatLandingPage(container) {
+  const epoch=viewEpoch;
   container.innerHTML = `
     <div class="eyebrow">GSAT SIMULATION & PRACTICE</div>
     <h1>學測歷屆全科模擬考與互動題庫</h1>
@@ -53,6 +57,7 @@ export async function gsatLandingPage(container) {
 
   try {
     const db = await loadGsatDatabase();
+    if(epoch!==viewEpoch)return;
     let currentSubject = 'all';
     let currentYear = 'all';
     let searchQuery = '';
@@ -145,6 +150,7 @@ export async function gsatLandingPage(container) {
 
     renderHub();
   } catch (err) {
+    if(epoch!==viewEpoch)return;
     container.innerHTML = `<div class="panel"><h2>題庫載入失敗</h2><p>${esc(err.message)}</p></div>`;
   }
 }
@@ -156,8 +162,9 @@ let activeExamSession = null;
 let examTimerInterval = null;
 
 export async function gsatExamPage(container, examId) {
+  const epoch=viewEpoch;
   const urlParams = new URLSearchParams(location.hash.split('?')[1] || '');
-  const mode = urlParams.get('mode') || 'exam'; // 'exam' or 'practice'
+  const mode = urlParams.get('mode') === 'practice' ? 'practice' : 'exam'; // 'exam' or 'practice'
 
   container.innerHTML = `
     <div class="panel" style="text-align:center;padding:50px 20px;">
@@ -166,7 +173,12 @@ export async function gsatExamPage(container, examId) {
     </div>
   `;
 
-  const db = await loadGsatDatabase();
+  let db;
+  try{db=await loadGsatDatabase();}catch{
+    if(epoch===viewEpoch)container.innerHTML='<section class="panel"><h2>題庫載入失敗</h2><p>請重新整理後續答。已儲存的作答仍保留在此裝置。</p></section>';
+    return;
+  }
+  if(epoch!==viewEpoch)return;
   const exam = db.exams.find(e => e.exam_id === examId);
   if (!exam) {
     container.innerHTML = `<div class="panel"><h2>找不到指定的學測試卷</h2><p>試卷代碼：${esc(examId)}</p><a class="button" href="#/gsat">返回學測模考目錄</a></div>`;
@@ -176,31 +188,31 @@ export async function gsatExamPage(container, examId) {
   const questions = db.questions.filter(q => q.exam_id === examId);
   const cfg = SUBJECT_CONFIG[exam.subject_code] || { name: exam.subject_name, minutes: 100, color: '#333' };
 
-  // Initialize or restore session
-  if (!activeExamSession || activeExamSession.examId !== examId || activeExamSession.mode !== mode) {
-    activeExamSession = {
-      examId,
-      examTitle: `${exam.year} 學年度 ${exam.subject_name}`,
-      mode,
-      durationMinutes: cfg.minutes,
-      secondsRemaining: mode === 'exam' ? cfg.minutes * 60 : 0,
-      startTime: Date.now(),
-      cursor: 0,
-      answers: {},        // { q_num: "A" or ["A", "C"] or text }
-      flagged: {},        // { q_num: true }
-      checked: {},        // practice mode immediate checks: { q_num: true }
-      selfScores: {},     // non-choice self evaluation
-      fontSize: 18        // reading font size
-    };
+  if(!questions.length){container.innerHTML='<p>此試卷尚無可用題目。</p>';return;}
+  const storageKey=sessionKey(examId,mode);
+  if(!activeExamSession||activeExamSession.examId!==examId||activeExamSession.mode!==mode||activeExamSession.submitted){
+    let saved=null;
+    try{saved=restoreSession(localStorage.getItem(storageKey),examId,mode,questions);}catch{}
+    activeExamSession=saved||createSession(exam,questions,mode,cfg.minutes);
   }
-
-  const session = activeExamSession;
+  const session=activeExamSession;
+  session.secondsRemaining=secondsLeft(session);
+  let storageOK=true;
+  const persist=()=>{
+    try{localStorage.setItem(storageKey,JSON.stringify(session));storageOK=true;}catch{storageOK=false;}
+    const status=container.querySelector('#gsat-save-status');
+    if(status)status.textContent=storageOK?'已自動儲存於此裝置，可離開後續答。計時練習離開後仍持續計時。':'此裝置無法儲存作答，請保持本頁開啟直到交卷。';
+    const progress=container.querySelector('#gsat-answer-count');
+    if(progress)progress.textContent=countGsatAnswered(session,questions)+' / '+questions.length;
+    container.querySelectorAll('[data-nav-q]').forEach(button=>button.classList.toggle('answered',hasAnswer(session.answers[questionKey(questions[Number(button.dataset.navQ)])])));
+  };
 
   // Timer logic
   clearInterval(examTimerInterval);
   if (session.mode === 'exam') {
     examTimerInterval = setInterval(() => {
-      session.secondsRemaining = Math.max(0, Math.ceil((session.startTime + cfg.minutes * 60000 - Date.now()) / 1000));
+      if(epoch!==viewEpoch||session.submitted)return;
+      session.secondsRemaining = secondsLeft(session);
       const timerEl = document.getElementById('gsat-timer-display');
       if (timerEl) {
         timerEl.textContent = formatTime(Math.max(0, session.secondsRemaining));
@@ -221,10 +233,10 @@ export async function gsatExamPage(container, examId) {
     const q = questions[session.cursor];
     if (!q) return;
 
-    const answeredCount = Object.keys(session.answers).length;
-    const isFlagged = session.flagged[q.question_number];
-    const isChecked = session.checked[q.question_number];
-    const userAnswer = session.answers[q.question_number];
+    const answeredCount = countGsatAnswered(session,questions);
+    const isFlagged = session.flagged[questionKey(q)];
+    const isChecked = session.checked[questionKey(q)];
+    const userAnswer = session.answers[questionKey(q)];
 
     const hasPassage = Boolean(q.passage_text && q.passage_text.trim());
     const isWriting = exam.subject_code === 'writing';
@@ -258,10 +270,11 @@ export async function gsatExamPage(container, examId) {
           </div>
         </div>
 
+        <p id="gsat-save-status" class="notice" role="status"></p>
         <!-- Question Navigation Grid -->
         <div class="panel" style="padding:14px 18px;margin-bottom:16px;">
           <div class="row" style="margin-bottom:8px;font-size:0.8rem;">
-            <span>作答進度：<strong>${answeredCount} / ${questions.length}</strong> 題</span>
+            <span>作答進度：<strong id="gsat-answer-count">${answeredCount} / ${questions.length}</strong> 題</span>
             <span style="display:flex;gap:12px;align-items:center;">
               <span style="display:inline-flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;background:#325941;border-radius:2px;"></span> 目前</span>
               <span style="display:inline-flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;background:#b9d89f;border-radius:2px;"></span> 已答</span>
@@ -270,8 +283,8 @@ export async function gsatExamPage(container, examId) {
           </div>
           <div class="quiz-nav" style="margin:0;max-height:100px;overflow-y:auto;">
             ${questions.map((item, idx) => {
-              const ansed = session.answers[item.question_number] !== undefined && session.answers[item.question_number] !== '';
-              const flg = session.flagged[item.question_number];
+              const ansed = hasAnswer(session.answers[questionKey(item)]);
+              const flg = session.flagged[questionKey(item)];
               const cur = idx === session.cursor;
               let cls = cur ? 'current ' : '';
               if (ansed) cls += 'answered ';
@@ -411,6 +424,7 @@ export async function gsatExamPage(container, examId) {
       </div>
     `;
 
+    persist();
     // Bind event handlers
     // 1. Navigation buttons
     const prevBtn = container.querySelector('#btn-prev');
@@ -425,14 +439,14 @@ export async function gsatExamPage(container, examId) {
     // 2. Flagging
     const flagBtn = container.querySelector('#flag-btn');
     if (flagBtn) flagBtn.onclick = () => {
-      session.flagged[q.question_number] = !session.flagged[q.question_number];
+      session.flagged[questionKey(q)] = !session.flagged[questionKey(q)];
       renderQuestionUI();
     };
 
     // 3. Single Choice
     const singleOpts = container.querySelectorAll('[data-single-opt]');
     singleOpts.forEach(b => b.onclick = () => {
-      session.answers[q.question_number] = b.dataset.singleOpt;
+      session.answers[questionKey(q)] = b.dataset.singleOpt;
       renderQuestionUI();
     });
 
@@ -440,14 +454,17 @@ export async function gsatExamPage(container, examId) {
     const multiChecks = container.querySelectorAll('input[name="multi-opt"]');
     multiChecks.forEach(cb => cb.onchange = () => {
       const selected = [...container.querySelectorAll('input[name="multi-opt"]:checked')].map(c => c.value);
-      session.answers[q.question_number] = selected;
+      session.answers[questionKey(q)] = selected;
+      multiChecks.forEach(c=>c.closest("label").classList.toggle("selected",c.checked));
+      persist();
     });
 
     // 5. Fill-in
     const fillinInput = container.querySelector('#fillin-input');
     if (fillinInput) {
       fillinInput.oninput = e => {
-        session.answers[q.question_number] = e.target.value.trim();
+        session.answers[questionKey(q)] = e.target.value.trim();
+        persist();
       };
     }
 
@@ -455,7 +472,8 @@ export async function gsatExamPage(container, examId) {
     const textarea = container.querySelector('#nonchoice-textarea');
     if (textarea) {
       textarea.oninput = e => {
-        session.answers[q.question_number] = e.target.value;
+        session.answers[questionKey(q)] = e.target.value;
+        persist();
         const countEl = container.querySelector('#char-count');
         if (countEl) countEl.textContent = `${e.target.value.replace(/\s/g, '').length} 字元`;
       };
@@ -465,7 +483,7 @@ export async function gsatExamPage(container, examId) {
     const showAnsBtn = container.querySelector('#show-answer-btn');
     if (showAnsBtn) {
       showAnsBtn.onclick = () => {
-        session.checked[q.question_number] = !session.checked[q.question_number];
+        session.checked[questionKey(q)] = !session.checked[questionKey(q)];
         renderQuestionUI();
       };
     }
@@ -484,7 +502,7 @@ export async function gsatExamPage(container, examId) {
   };
 
   const confirmSubmit = () => {
-    const answeredCount = Object.keys(session.answers).length;
+    const answeredCount = countGsatAnswered(session,questions);
     const unanswered = questions.length - answeredCount;
     if (unanswered > 0) {
       if (!confirm(`尚有 ${unanswered} 題未作答，確定要現在交卷結算成績嗎？`)) return;
@@ -495,12 +513,17 @@ export async function gsatExamPage(container, examId) {
   };
 
   const submitExam = (isExpired) => {
+    if(session.submitted)return;
+    session.submitted=true;
+    persist();
     clearInterval(examTimerInterval);
     const result = evaluateExamSession(session, questions, exam, isExpired);
     
+    recentResults.set(result.id,result);
     // Save to history in localStorage
     try {
-      const history = JSON.parse(localStorage.getItem(GSAT_RESULTS_KEY) || '[]');
+      const stored = JSON.parse(localStorage.getItem(GSAT_RESULTS_KEY) || '[]');
+      const history=Array.isArray(stored)?stored:[];
       history.unshift(result);
       localStorage.setItem(GSAT_RESULTS_KEY, JSON.stringify(history.slice(0, 50)));
     } catch (e) {
@@ -511,7 +534,8 @@ export async function gsatExamPage(container, examId) {
     location.hash = `#/gsat-result/${result.id}`;
   };
 
-  renderQuestionUI();
+  if(mode==='exam'&&secondsLeft(session)===0)submitExam(true);
+  else renderQuestionUI();
 }
 
 // ----------------------------------------------------
@@ -520,10 +544,10 @@ export async function gsatExamPage(container, examId) {
 // 4. Exam Result & Detailed Review Page (#/gsat-result/:id)
 // ----------------------------------------------------
 export function gsatResultPage(container, resultId) {
-  let result = null;
+  let result = recentResults.get(resultId)||null;
   try {
     const history = JSON.parse(localStorage.getItem(GSAT_RESULTS_KEY) || '[]');
-    result = history.find(r => r.id === resultId);
+    result = (Array.isArray(history)?history.find(r => r.id === resultId):null)||result;
   } catch (e) {}
 
   if (!result) {

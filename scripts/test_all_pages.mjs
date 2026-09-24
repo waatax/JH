@@ -20,6 +20,10 @@ if (!fs.existsSync(dbPath)) throw new Error('gsat-database.json missing');
 const db = JSON.parse(fs.readFileSync(dbPath, 'utf-8'));
 if (db.exams.length !== 53) throw new Error(`Expected 53 exams, got ${db.exams.length}`);
 if (db.questions.length !== 2216) throw new Error(`Expected 2216 questions, got ${db.questions.length}`);
+const questionIds = db.questions.map(q => q.question_id);
+if (questionIds.some(id => typeof id !== 'string' || !id.trim()) || new Set(questionIds).size !== questionIds.length) {
+  throw new Error('Every GSAT question must have a unique nonempty question_id for saved answers');
+}
 console.log(`✔ GSAT database verified: ${db.exams.length} exams, ${db.questions.length} questions.`);
 
 console.log('--- 3. Testing GSAT PDF Files Existence on Disk ---');
