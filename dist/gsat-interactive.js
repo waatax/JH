@@ -1,5 +1,6 @@
 import {questionKey,hasAnswer,answeredCount as countGsatAnswered,sessionKey,secondsLeft,createSession,restoreSession} from './gsat-session.js';
 import {evaluateExamSession} from './gsat-grading.js';
+import {renderGsatStrategy} from './pedagogy-visuals.js';
 // gsat-interactive.js - 學測歷屆各科模擬考與互動練習引擎
 // 涵蓋 108~115 學年度全考科、2,216 題官方題庫、計時模擬、多選題評分、非選自評與逐題答案核對
 
@@ -141,6 +142,7 @@ export async function gsatLandingPage(container) {
           </div>
           ${!filteredExams.length ? `<div class="empty"><h2>沒有找到符合的試卷</h2><p>請嘗試切換考科或年度篩選。</p></div>` : ''}
         </section>
+        ${renderGsatStrategy()}
       `;
 
       container.querySelector('#gsat-filter-subject').onchange = e => { currentSubject = e.target.value; renderHub(); };
