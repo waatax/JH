@@ -108,7 +108,116 @@ export function renderLabs(main, speak) {
         <button id="tense-audio" class="button secondary">▷ 聽朗讀語音</button>
         <a class="button ghost" href="#/lesson/english-1">回到五大基本句型 →</a>
       </section>
+
+      <!-- 8. Moon Phase Astronomical Geometry -->
+      <section class="panel">
+        <span class="tag">地科 · 月相盈虧</span>
+        <h2 style="margin-top:15px">日地月相對位置與月相變化</h2>
+        <p class="muted">月球公轉軌道幾何位置，決定地球上觀測者看見的明亮面積與月相名稱。</p>
+        ${range('moon-day', '農曆天數（0~29.5 日）', 0, 29.5, 7.5, 0.5)}
+        <div id="moon-plot"></div>
+        <div class="lab-output" id="moon-output" aria-live="polite"></div>
+        <a class="source-link" href="#/lesson/earth-4">回到地球運動、四季與月相課程 →</a>
+      </section>
+
+      <!-- 9. Mendelian Punnett Square -->
+      <section class="panel">
+        <span class="tag">生物 · 孟德爾遺傳</span>
+        <h2 style="margin-top:15px">基因分離律與棋盤方格模擬</h2>
+        <p class="muted">選擇雙親基因型，即時計算子代基因型比例 (TT:Tt:tt) 與表現型比例 (高莖:矮莖)。</p>
+        <div class="form-row">
+          <label for="punnett-p1">父本基因型</label>
+          <select id="punnett-p1">
+            <option value="Tt" selected>Tt (雜合高莖)</option>
+            <option value="TT">TT (純合高莖)</option>
+            <option value="tt">tt (隱性矮莖)</option>
+          </select>
+          <label for="punnett-p2">母本基因型</label>
+          <select id="punnett-p2">
+            <option value="Tt" selected>Tt (雜合高莖)</option>
+            <option value="TT">TT (純合高莖)</option>
+            <option value="tt">tt (隱性矮莖)</option>
+          </select>
+        </div>
+        <div id="punnett-plot"></div>
+        <div class="lab-output" id="punnett-output" aria-live="polite"></div>
+        <a class="source-link" href="#/lesson/biology-11">回到孟德爾遺傳法則課程 →</a>
+      </section>
     </div>
+
+    <!-- Virtual Labs Principles and Formulas Reference Matrix -->
+    <section class="panel" style="margin-top:28px">
+      <h2>虛擬實驗室原理與公式對照總表</h2>
+      <p class="muted">將操作變因、數學規律與會考情境題型完整對齊，理解公式背後的幾何與物理本質。</p>
+      <div class="table-wrap">
+        <table class="teaching-table">
+          <thead>
+            <tr>
+              <th scope="col">實驗名稱</th>
+              <th scope="col">操縱／控制變因</th>
+              <th scope="col">數學與物理模型公式</th>
+              <th scope="col">生活應用與大考題眼</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">二次函數平移與極值</th>
+              <td>a (開口方向/大小), h (水平平移), k (垂直平移)</td>
+              <td>y ＝ a(x−h)² ＋ k（頂點 (h, k)，對稱軸 x＝h）</td>
+              <td>拋物線彈道軌跡、橋樑拱橋、最大利潤最佳化問題</td>
+            </tr>
+            <tr>
+              <th scope="row">電路與歐姆定律</th>
+              <td>操縱電阻 R，控制電壓 V，觀察電流 I</td>
+              <td>V ＝ I · R；電功率 P ＝ V · I ＝ I²R ＝ V²/R</td>
+              <td>家電串聯與並聯差異、家庭用電安全、保險絲熔斷原理</td>
+            </tr>
+            <tr>
+              <th scope="row">槓桿原理與力矩平衡</th>
+              <td>左/右側施力 (F) 與力臂 (d)</td>
+              <td>L ＝ F · d；合力矩為零：L_逆 ＝ L_順</td>
+              <td>天平秤量、剪刀/開瓶器/鑷子省力與費力槓桿判別</td>
+            </tr>
+            <tr>
+              <th scope="row">凸透鏡幾何光路成像</th>
+              <td>物距 p（相對 2f 與 f 焦距之位置）</td>
+              <td>1/p ＋ 1/q ＝ 1/f；放大率 m ＝ q/p</td>
+              <td>照相機 (p>2f 倒縮實)、放大鏡 (p&lt;f 正放虛)、投影機 (f&lt;p&lt;2f)</td>
+            </tr>
+            <tr>
+              <th scope="row">酸鹼中和與滴定曲線</th>
+              <td>滴入 0.1M NaOH 鹼液體積</td>
+              <td>H⁺ ＋ OH⁻ ➔ H₂O；pH ＝ −log[H⁺]</td>
+              <td>胃酸過多胃藥制酸、農田土壤酸鹼改良、酚酞變色敏銳點</td>
+            </tr>
+            <tr>
+              <th scope="row">阿基米德浮力與密度</th>
+              <td>物體密度 D_物 與液體密度 D_液</td>
+              <td>B ＝ V_排 · D_液；浮體 B＝W，沉體 B＜W</td>
+              <td>船隻吃水線、死海漂浮、熱氣球升空與潛水艇沉浮艙</td>
+            </tr>
+            <tr>
+              <th scope="row">英語時態與時間副詞</th>
+              <td>時間維度 (現在、過去、進行、未來)</td>
+              <td>時態一致性：主詞 ＋ 相應動詞形式 ＋ 時間副詞</td>
+              <td>英文閱讀克漏字時態一致、敘事視角轉換、日常口語表達</td>
+            </tr>
+            <tr>
+              <th scope="row">月相盈虧與日地月幾何</th>
+              <td>月球公轉農曆天數 (0~29.5 日)</td>
+              <td>幾何夾角 θ ＝ (天數 / 29.5) × 360°</td>
+              <td>大潮與小潮引潮力週期、中秋賞月、日食與月食發生條件</td>
+            </tr>
+            <tr>
+              <th scope="row">孟德爾遺傳與棋盤方格</th>
+              <td>雙親等位基因型 (TT, Tt, tt)</td>
+              <td>分離律與自由配合律；配子結合機率乘法原理</td>
+              <td>家族遺傳譜系圖分析、ABO 血型遺傳機率、優生保健篩檢</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
   `;
 
   main.querySelectorAll('input[type=range]').forEach(i => {
@@ -121,6 +230,8 @@ export function renderLabs(main, speak) {
 
   $('#tense-person').onchange = update;
   $('#tense-time').onchange = update;
+  if ($('#punnett-p1')) $('#punnett-p1').onchange = update;
+  if ($('#punnett-p2')) $('#punnett-p2').onchange = update;
   $('#tense-audio').onclick = () => speak($('#tense-output').textContent);
   update();
 }
@@ -361,4 +472,106 @@ function update() {
     past: '描述過去確定時間點發生的事實；規則動詞字尾加 -ed。',
     future: '描述未來將要發生的計畫；助動詞 will 後方恆接「原形動詞」。'
   }[time];
+
+  // 8. Moon Phases Plot
+  if ($('#moon-day')) {
+    const mDay = num('moon-day');
+    const theta = (mDay / 29.5) * 2 * Math.PI;
+    const mRadius = 70;
+    const mx = 200 - mRadius * Math.sin(theta);
+    const my = 100 - mRadius * Math.cos(theta);
+    let phaseName = '新月 (朔)';
+    let illuPct = 0;
+    if (mDay < 1.5 || mDay > 28.0) {
+      phaseName = '新月 (朔 · 初一)';
+      illuPct = 0;
+    } else if (mDay < 6.5) {
+      phaseName = '眉月 (初二～初六)';
+      illuPct = Math.round((mDay / 14.75) * 100);
+    } else if (mDay < 8.5) {
+      phaseName = '上弦月 (初七～初八)';
+      illuPct = 50;
+    } else if (mDay < 13.5) {
+      phaseName = '盈凸月 (初九～十四)';
+      illuPct = Math.round((mDay / 14.75) * 100);
+    } else if (mDay < 16.5) {
+      phaseName = '滿月 (望 · 十五～十六)';
+      illuPct = 100;
+    } else if (mDay < 21.5) {
+      phaseName = '虧凸月 (十七～廿一)';
+      illuPct = Math.round(((29.5 - mDay) / 14.75) * 100);
+    } else if (mDay < 23.5) {
+      phaseName = '下弦月 (廿二～廿三)';
+      illuPct = 50;
+    } else {
+      phaseName = '殘月 (廿四～廿九)';
+      illuPct = Math.round(((29.5 - mDay) / 14.75) * 100);
+    }
+    if ($('#moon-output')) {
+      $('#moon-output').textContent = `農曆第 ${mDay.toFixed(1)} 天 · ${phaseName} · 可見光照度約 ${illuPct}%`;
+    }
+    if ($('#moon-plot')) {
+      $('#moon-plot').innerHTML = `<svg class="lab-svg" viewBox="0 0 400 200" role="img" aria-label="月相模擬">
+        <circle cx="200" cy="100" r="${mRadius}" fill="none" stroke="#d6dfd9" stroke-width="1.5" stroke-dasharray="3,3"/>
+        <circle cx="200" cy="100" r="16" fill="#e8f3fa" stroke="#3b789e" stroke-width="2"/>
+        <text x="200" y="104" font-size="9" font-weight="800" fill="#3b789e" text-anchor="middle">地球</text>
+        <g transform="translate(390, 100)">
+          <line x1="0" y1="-40" x2="-25" y2="-40" stroke="#c4821a" stroke-width="1.8"/>
+          <line x1="0" y1="0" x2="-35" y2="0" stroke="#c4821a" stroke-width="2.2"/>
+          <line x1="0" y1="40" x2="-25" y2="40" stroke="#c4821a" stroke-width="1.8"/>
+          <text x="-40" y="4" font-size="9" font-weight="800" fill="#c4821a" text-anchor="end">陽光 ➔</text>
+        </g>
+        <circle cx="${mx.toFixed(1)}" cy="${my.toFixed(1)}" r="9" fill="#1e3831" stroke="#d6dfd9"/>
+        <path d="M ${mx.toFixed(1)} ${(my - 9).toFixed(1)} A 9 9 0 0 1 ${mx.toFixed(1)} ${(my + 9).toFixed(1)} Z" fill="#fdf4e3"/>
+        <g transform="translate(15, 125)">
+          <rect x="0" y="0" width="105" height="65" rx="6" fill="#ffffff" stroke="#d6dfd9"/>
+          <text x="52" y="16" font-size="9" font-weight="700" fill="#687b74" text-anchor="middle">地球視角觀測</text>
+          <circle cx="52" cy="38" r="14" fill="#1e3831"/>
+          ${illuPct > 0 ? (illuPct === 100 ? `<circle cx="52" cy="38" r="14" fill="#c4821a"/>` : `<path d="M 52 24 A 14 14 0 0 ${mDay < 15 ? '1' : '0'} 52 52 Z" fill="#c4821a"/>`) : ''}
+          <text x="52" y="60" font-size="8" font-weight="700" fill="#c4821a" text-anchor="middle">${phaseName.split(' ')[0]}</text>
+        </g>
+      </svg>`;
+    }
+  }
+
+  // 9. Punnett Square Plot
+  if ($('#punnett-p1')) {
+    const p1 = $('#punnett-p1').value || 'Tt';
+    const p2 = $('#punnett-p2').value || 'Tt';
+    const g1 = [p1[0], p1[1]], g2 = [p2[0], p2[1]];
+    const offspring = [
+      g1[0] + g2[0], g1[1] + g2[0],
+      g1[0] + g2[1], g1[1] + g2[1]
+    ].map(o => o === 'tT' ? 'Tt' : o);
+
+    const counts = { TT: 0, Tt: 0, tt: 0 };
+    offspring.forEach(g => { counts[g] = (counts[g] || 0) + 1; });
+    const dominantCount = counts.TT + counts.Tt;
+    const recessiveCount = counts.tt;
+
+    if ($('#punnett-output')) {
+      $('#punnett-output').textContent = `基因型比 (TT:Tt:tt) ＝ ${counts.TT}:${counts.Tt}:${counts.tt} · 表現型比 (顯性:隱性) ＝ ${dominantCount}:${recessiveCount} (高莖 ${(dominantCount/4*100).toFixed(0)}%, 矮莖 ${(recessiveCount/4*100).toFixed(0)}%)`;
+    }
+    if ($('#punnett-plot')) {
+      $('#punnett-plot').innerHTML = `<svg class="lab-svg" viewBox="0 0 400 160" role="img" aria-label="孟德爾棋盤方格">
+        <g transform="translate(60, 20)">
+          <text x="100" y="15" font-size="10" font-weight="700" fill="#3b789e" text-anchor="middle">父本配子：${g1[0]} / ${g1[1]}</text>
+          <text x="0" y="70" font-size="10" font-weight="700" fill="#c4821a" text-anchor="end">母本配子：${g2[0]} / ${g2[1]}</text>
+          <rect x="25" y="25" width="150" height="90" fill="#ffffff" stroke="#d6dfd9" stroke-width="2"/>
+          <line x1="100" y1="25" x2="100" y2="115" stroke="#d6dfd9" stroke-width="1.5"/>
+          <line x1="25" y1="70" x2="175" y2="70" stroke="#d6dfd9" stroke-width="1.5"/>
+          <text x="62" y="55" font-size="14" font-weight="800" fill="${offspring[0]==='tt'?'#b84735':'#2d5c48'}" text-anchor="middle">${offspring[0]}</text>
+          <text x="137" y="55" font-size="14" font-weight="800" fill="${offspring[1]==='tt'?'#b84735':'#2d5c48'}" text-anchor="middle">${offspring[1]}</text>
+          <text x="62" y="100" font-size="14" font-weight="800" fill="${offspring[2]==='tt'?'#b84735':'#2d5c48'}" text-anchor="middle">${offspring[2]}</text>
+          <text x="137" y="100" font-size="14" font-weight="800" fill="${offspring[3]==='tt'?'#b84735':'#2d5c48'}" text-anchor="middle">${offspring[3]}</text>
+        </g>
+        <g transform="translate(265, 30)">
+          <rect x="0" y="0" width="125" height="90" rx="8" fill="#e6f3eb" stroke="#45825b"/>
+          <text x="62" y="24" font-size="10" font-weight="800" fill="#2d5c48" text-anchor="middle">子代遺傳機率</text>
+          <text x="15" y="48" font-size="10" fill="#223832">顯性高莖：${(dominantCount/4*100).toFixed(0)}%</text>
+          <text x="15" y="68" font-size="10" fill="#b84735">隱性矮莖：${(recessiveCount/4*100).toFixed(0)}%</text>
+        </g>
+      </svg>`;
+    }
+  }
 }
