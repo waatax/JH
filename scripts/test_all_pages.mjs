@@ -71,6 +71,7 @@ await import('../dist/worked-cases.js');
 await import('../dist/supplements.js');
 await import('../dist/study-library.js');
 await import('../dist/gsat-interactive.js');
+await import('../dist/engagement.js');
 console.log('✔ All ESM modules load and evaluate cleanly.');
 
 console.log('\n========================================');

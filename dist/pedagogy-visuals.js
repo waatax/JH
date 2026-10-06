@@ -1,5 +1,6 @@
 // dist/pedagogy-visuals.js - Instructional Infographics, Charts & Pedagogical Tables
 // Built for Zhixing Junior Academy (108 Curriculum Comprehensive Study & Exam Prep)
+import {calculateXP, getLevelInfo, getStreakInfo, getDailyGoal, getBadgesStatus, getCapPredictedScores, getDailyQuestion} from './engagement.js';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -1721,4 +1722,325 @@ export function renderPastpapersTrendGuide() {
     </section>
   `;
 }
+
+// ============================================================================
+// 13. HABIT DASHBOARD: Daily Streak, Level XP, Daily Goal & CAP 5-Subject Meter
+// ============================================================================
+export function renderHabitDashboard(state, units, allQuestions) {
+  const xp = calculateXP(state);
+  const lvl = getLevelInfo(xp);
+  const streak = getStreakInfo(state);
+  const goal = getDailyGoal(state);
+  const capScores = getCapPredictedScores(state, units, allQuestions);
+
+  return `
+    <section class="panel habit-dashboard-panel" aria-label="學習狀態與會考戰力看板">
+      <div class="habit-dashboard-header">
+        <div class="habit-hero-block">
+          <div class="streak-badge-card ${streak.activeToday ? 'active' : ''}">
+            <div class="streak-icon-wrap">
+              <span class="streak-flame">🔥</span>
+              <span class="streak-count">${streak.streak}</span>
+            </div>
+            <div class="streak-text-wrap">
+              <strong>連續學習天數</strong>
+              <small>${streak.activeToday ? '今日已打卡，知識在生長！' : '今天尚未打卡，完成1課點亮！'}</small>
+            </div>
+          </div>
+
+          <div class="level-badge-card">
+            <div class="level-avatar">${lvl.icon}</div>
+            <div class="level-info">
+              <div class="row" style="margin-bottom:4px;gap:8px;">
+                <span class="tag accent">Lv.${lvl.level} ${lvl.title}</span>
+                <span class="subtle">${lvl.currentXP} XP</span>
+              </div>
+              <div class="xp-bar-wrap" title="升級進度: ${lvl.progressPercent}%">
+                <div class="xp-bar-fill" style="width:${lvl.progressPercent}%;"></div>
+              </div>
+              <small class="subtle">距離下一等級還需 ${lvl.xpToNext} XP</small>
+            </div>
+          </div>
+
+          <div class="daily-goal-card ${goal.isCompleted ? 'completed' : ''}">
+            <div class="goal-icon">${goal.isCompleted ? '✅' : '🎯'}</div>
+            <div class="goal-info">
+              <strong>今日學習目標</strong>
+              <small>${goal.message}</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CAP 5-Subject Predicted Score Radar / Bars -->
+      <div class="cap-radar-section">
+        <div class="section-title-row">
+          <div>
+            <span class="tag" style="background:#eaf0eb;color:#2d5c48;font-weight:700;">會考戰力即時預估 · 落點等第</span>
+            <h3 style="margin:6px 0 2px;font-size:1.15rem;">五大考科會考準備度與模擬等級評估</h3>
+          </div>
+          <span class="subtle">依章節覆蓋、答對率與間隔複習成熟度動態試算</span>
+        </div>
+
+        <div class="cap-subject-bars-grid">
+          ${capScores.map(cs => `
+            <div class="cap-subject-bar-card">
+              <div class="cap-card-head">
+                <div class="cap-card-name">
+                  <span class="cap-subject-icon">${cs.icon}</span>
+                  <strong>${cs.name}</strong>
+                </div>
+                <div class="cap-grade-pill" style="border-color:${cs.gradeColor};color:${cs.gradeColor};">
+                  <span class="cap-grade-letter">${cs.grade}</span>
+                  <small>${cs.gradeLabel}</small>
+                </div>
+              </div>
+              <div class="cap-metric-progress">
+                <div class="cap-bar-track">
+                  <div class="cap-bar-fill" style="width:${cs.power}%;background:${cs.gradeColor};"></div>
+                </div>
+                <div class="cap-bar-labels">
+                  <span>戰力指數: <strong>${cs.power}</strong> / 100</span>
+                  <span class="subtle">${cs.unitsRead}/${cs.unitCount} 單元 · 答對 ${cs.correctCount} 題</span>
+                </div>
+              </div>
+              <div class="cap-advice-box">
+                <span class="advice-icon">💡</span>
+                <span class="advice-text">${cs.advice}</span>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    </section>
+  `;
+}
+
+// ============================================================================
+// 14. DAILY CAP CHALLENGE: Question of the Day Card
+// ============================================================================
+export function renderDailyChallengeCard(state, allQuestions) {
+  const q = getDailyQuestion(allQuestions);
+  if (!q) return '';
+
+  return `
+    <section class="panel daily-challenge-card" id="daily-challenge-section">
+      <div class="row" style="align-items:center;margin-bottom:8px;">
+        <span class="tag accent" style="background:#e6f3eb;color:#2d5c48;font-weight:800;">⚡ 每日會考核心挑戰題</span>
+        <span class="subtle">全站每日精選 · 一題點亮連續學習天數 (+20 XP)</span>
+      </div>
+      <h3 style="margin:4px 0 10px;font-size:1.15rem;">【今日題眼】挑戰你的解題直覺</h3>
+      <div class="daily-challenge-prompt">
+        <p class="evidence" style="font-size:1.05rem;line-height:1.65;margin:0 0 12px;">${esc(q.prompt)}</p>
+      </div>
+      <div class="daily-challenge-options" id="daily-q-options" data-qid="${q.id}">
+        ${q.options.map((opt, i) => `
+          <button type="button" class="option daily-opt-btn" data-opt-idx="${i}">
+            <span>${'ABCD'[i]}</span>
+            <span>${esc(opt)}</span>
+          </button>
+        `).join('')}
+      </div>
+      <div id="daily-q-feedback" class="daily-q-feedback" style="display:none;margin-top:14px;"></div>
+    </section>
+  `;
+}
+
+// ============================================================================
+// 15. ACHIEVEMENT BADGES: Hall of Fame Showcase
+// ============================================================================
+export function renderBadgesShowcase(state, units) {
+  const badges = getBadgesStatus(state, units);
+  const unlockedCount = badges.filter(b => b.unlocked).length;
+
+  return `
+    <section class="panel badges-showcase-panel" aria-label="學習成就榮譽榜">
+      <div class="row" style="align-items:center;margin-bottom:12px;">
+        <span class="tag accent">成就勳章 · 認知里程碑</span>
+        <span class="subtle">已解鎖 ${unlockedCount} / ${badges.length} 項成就</span>
+      </div>
+      <h2 style="margin-top:0;">我的學習榮譽殿堂</h2>
+      <p class="muted">每一次主動回想、每一回獨立答對與跨日複習，都在為你的思維能力鑄造勛章。</p>
+      <div class="badges-grid">
+        ${badges.map(b => `
+          <div class="badge-item-card ${b.unlocked ? 'unlocked' : 'locked'}">
+            <div class="badge-icon-frame">${b.icon}</div>
+            <div class="badge-item-content">
+              <strong>${esc(b.name)}</strong>
+              <small>${esc(b.desc)}</small>
+              <span class="badge-status-tag">${b.unlocked ? '✓ 已解鎖' : '🔒 努力達成中'}</span>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </section>
+  `;
+}
+
+// ============================================================================
+// 16. CAP READINESS: Full Subject A++ Strategy & Margin of Error Matrix
+// ============================================================================
+export function renderCapReadinessGuide() {
+  return `
+    <section class="panel pedagogy-cap-readiness-panel" aria-labelledby="cap-readiness-title">
+      <div class="row" style="align-items:center;margin-bottom:12px;">
+        <span class="tag accent">大考攻略 · 衝刺密碼</span>
+        <span class="subtle">國中教育會考全科 A++ 頂標規格與備戰金律</span>
+      </div>
+      <h2 id="cap-readiness-title" style="margin-top:0;">國中教育會考全科 A++ 奪標衝刺攻略與容錯門檻</h2>
+      <p class="muted">會考採「標準參照」評量，成績分為精熟 (A)、基礎 (B)、待加強 (C) 三等第。掌握各科作答節奏與容錯率，考場自信奪高分。</p>
+
+      <!-- CAP 4-Phase Countdown Progression SVG -->
+      <div class="pedagogy-flowchart-wrap" style="margin-bottom:18px;">
+        <div class="diagram-header">
+          <span class="diagram-icon">🎯</span>
+          <div class="diagram-title-group">
+            <strong>會考四階段倒數螺旋備戰時程地圖</strong>
+            <span class="subtle">從觀念掃描、弱點回填、題組整合到全真模考衝刺</span>
+          </div>
+        </div>
+        <div class="diagram-svg-wrap">
+          <svg class="concept-svg" viewBox="0 0 720 155" width="100%" height="auto" role="img" aria-label="會考四階段備戰時程圖">
+            <rect width="720" height="155" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
+            <!-- Phase 1: 倒數 90 天 -->
+            <g transform="translate(20, 20)">
+              <rect width="150" height="115" rx="8" fill="#e8f3fa" stroke="#3b789e" stroke-width="1.6"/>
+              <rect width="150" height="24" rx="8" fill="#3b789e"/>
+              <text x="75" y="16" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">考前 90~60 天：觀念全掃描</text>
+              <text x="75" y="44" font-size="12" font-weight="800" fill="#3b789e" text-anchor="middle">地毯式清查盲點</text>
+              <text x="75" y="66" font-size="9" fill="#223832" text-anchor="middle">研讀全站 188 課核心定義</text>
+              <text x="75" y="82" font-size="9" fill="#223832" text-anchor="middle">做完 5 階認知梯子自評</text>
+              <text x="75" y="102" font-size="9" font-weight="700" fill="#2d5c48" text-anchor="middle">抓出每科 5~8 個薄弱章節</text>
+            </g>
+            <path d="M 175 77 L 195 77" stroke="#3b789e" stroke-width="2.5"/><polygon points="195,77 189,73 189,81" fill="#3b789e"/>
+
+            <!-- Phase 2: 倒數 60~30 天 -->
+            <g transform="translate(198, 20)">
+              <rect width="150" height="115" rx="8" fill="#e6f3eb" stroke="#45825b" stroke-width="1.6"/>
+              <rect width="150" height="24" rx="8" fill="#45825b"/>
+              <text x="75" y="16" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">考前 60~30 天：題組與實驗</text>
+              <text x="75" y="44" font-size="12" font-weight="800" fill="#45825b" text-anchor="middle">跨領域與長文演練</text>
+              <text x="75" y="66" font-size="9" fill="#223832" text-anchor="middle">理化/生物實驗變因分析</text>
+              <text x="75" y="82" font-size="9" fill="#223832" text-anchor="middle">多模態圖表與雙文本閱讀</text>
+              <text x="75" y="102" font-size="9" font-weight="700" fill="#2d5c48" text-anchor="middle">訓練 1 分鐘抓出題幹條件</text>
+            </g>
+            <path d="M 353 77 L 373 77" stroke="#45825b" stroke-width="2.5"/><polygon points="373,77 367,73 367,81" fill="#45825b"/>
+
+            <!-- Phase 3: 倒數 30~14 天 -->
+            <g transform="translate(376, 20)">
+              <rect width="150" height="115" rx="8" fill="#fdf4e3" stroke="#c4821a" stroke-width="1.6"/>
+              <rect width="150" height="24" rx="8" fill="#c4821a"/>
+              <text x="75" y="16" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">考前 30~14 天：真題全真模考</text>
+              <text x="75" y="44" font-size="12" font-weight="800" fill="#c4821a" text-anchor="middle">嚴格配時與錯題歸納</text>
+              <text x="75" y="66" font-size="9" fill="#223832" text-anchor="middle">近 7 年會考官方題本刷題</text>
+              <text x="75" y="82" font-size="9" fill="#223832" text-anchor="middle">萊特納間隔記憶卡清空錯題</text>
+              <text x="75" y="102" font-size="9" font-weight="700" fill="#c4821a" text-anchor="middle">建立錯題專屬防呆手記</text>
+            </g>
+            <path d="M 531 77 L 551 77" stroke="#c4821a" stroke-width="2.5"/><polygon points="551,77 545,73 545,81" fill="#c4821a"/>
+
+            <!-- Phase 4: 考前 7 天 -->
+            <g transform="translate(554, 20)">
+              <rect width="145" height="115" rx="8" fill="#fdedeb" stroke="#b84735" stroke-width="1.6"/>
+              <rect width="145" height="24" rx="8" fill="#b84735"/>
+              <text x="72.5" y="16" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">考前 7 天：心態與防呆錨定</text>
+              <text x="72.5" y="44" font-size="12" font-weight="800" fill="#b84735" text-anchor="middle">回歸本質 · 穩拿穩贏</text>
+              <text x="72.5" y="66" font-size="9" fill="#223832" text-anchor="middle">不刷生冷怪題，只看筆記</text>
+              <text x="72.5" y="82" font-size="9" fill="#223832" text-anchor="middle">依考試作息調整生理時鐘</text>
+              <text x="72.5" y="102" font-size="9" font-weight="700" fill="#b84735" text-anchor="middle">考場 100% 穩定發揮 A++</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <!-- CAP Exam Spec & Accuracy Threshold Matrix -->
+      <div class="table-wrap">
+        <table class="teaching-table">
+          <caption>國中教育會考五科題數、作答節奏、A++ 容錯門檻與衝刺金律</caption>
+          <thead>
+            <tr>
+              <th scope="col" style="width:12%;">考科</th>
+              <th scope="col" style="width:16%;">官方規格 / 時間</th>
+              <th scope="col" style="width:16%;">A++ 容錯題數估計</th>
+              <th scope="col" style="width:20%;">每題作答節奏控管</th>
+              <th scope="col" style="width:36%;">考場奪分關鍵心法</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" style="color:#5867a2;">國文科</th>
+              <td>40~42 題 · 70 分鐘</td>
+              <td><strong>約 2~3 題</strong></td>
+              <td>約 1.2 分鐘 / 題（留 10 分鐘檢查）</td>
+              <td>長篇文言文先看題目問什麼，再回文找論點；雙文本題注意「作者觀點差異與立場」。</td>
+            </tr>
+            <tr>
+              <th scope="row" style="color:#4879a5;">英語科</th>
+              <td>閱讀 40~43 題 · 60 分<br>聽力 20~21 題 · 25 分</td>
+              <td>閱讀 <strong>約 1~2 題</strong><br>英聽 <strong>約 0~1 題</strong></td>
+              <td>閱讀 1 分鐘 / 題（留 15 分鐘讀題組）</td>
+              <td>閱讀題組先看表格標題與圖例；英聽題目空檔務必「搶先預讀題目選項關鍵字」。</td>
+            </tr>
+            <tr>
+              <th scope="row" style="color:#668c36;">數學科</th>
+              <td>選擇 25 題＋非選 2 題<br>80 分鐘</td>
+              <td>選擇 <strong>約 1~2 題</strong><br>非選 <strong>拿 5~6 分 (滿分6)</strong></td>
+              <td>選擇 2 分鐘 / 題（45分鐘）<br>非選 25 分鐘（各12分）</td>
+              <td>非選題務必寫出「設未知數、依據定理、推導算式、最終結論」，即使答案有誤仍可得部分步驟分！</td>
+            </tr>
+            <tr>
+              <th scope="row" style="color:#3f8768;">自然科</th>
+              <td>50 題 · 70 分鐘<br>(生、理、化、地)</td>
+              <td><strong>約 2~3 題</strong></td>
+              <td>約 1.1 分鐘 / 題（留 15 分鐘覆核）</td>
+              <td>實驗題迅速圈出「控制變因」與「操作變因」；化學計算先寫平衡方程式與莫耳數換算。</td>
+            </tr>
+            <tr>
+              <th scope="row" style="color:#a97b36;">社會科</th>
+              <td>54 題 · 70 分鐘<br>(史、地、公)</td>
+              <td><strong>約 2~3 題</strong></td>
+              <td>約 1 分鐘 / 題（留 15 分鐘檢查）</td>
+              <td>歷史重視時代分期與因果脈絡；地理先判讀等高線/等溫線圖例；公民先區分憲法、法律、命令位階。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  `;
+}
+
+// ============================================================================
+// 17. LESSON QUICK CHECK: Interactive 10-Second Concept Flash Check
+// ============================================================================
+export function renderConceptQuickCheck(u) {
+  const questionPrompt = `【10秒觀念速檢】關於「${u.title}」，下列何者觀念完全正確？`;
+  const correctOpt = u.concept.split('。')[0] + '。';
+  const wrongOpt1 = u.pitfall.split('。')[0] + '。';
+  const wrongOpt2 = '只要死背公式代入即可，不需要理解物理意義與生活情境。';
+
+  return `
+    <div class="concept-quick-check-card" id="quick-check-wrap-${u.id}">
+      <div class="quick-check-header">
+        <span class="quick-check-badge">⚡ 10秒觀念秒答挑戰</span>
+        <span class="subtle">動手選選看，立即檢測思維錨定</span>
+      </div>
+      <p class="quick-check-prompt">${esc(questionPrompt)}</p>
+      <div class="quick-check-options">
+        <button type="button" class="quick-check-btn" data-qc-result="correct" data-unit="${u.id}">
+          <span class="qc-bullet">A</span>
+          <span>${esc(correctOpt)}</span>
+        </button>
+        <button type="button" class="quick-check-btn" data-qc-result="wrong" data-unit="${u.id}">
+          <span class="qc-bullet">B</span>
+          <span>${esc(wrongOpt1)}（常被誤認為正確）</span>
+        </button>
+        <button type="button" class="quick-check-btn" data-qc-result="wrong" data-unit="${u.id}">
+          <span class="qc-bullet">C</span>
+          <span>${esc(wrongOpt2)}</span>
+        </button>
+      </div>
+      <div class="quick-check-feedback" id="qc-feedback-${u.id}" style="display:none;"></div>
+    </div>
+  `;
+}
+
 
