@@ -3376,3 +3376,255 @@ summary {
   color: #3b789e;
   background: #e8f3fa;
 }
+
+/* ==========================================================================
+   會考戰略定位與認知指標雷達卡 (Exam Radar Intel Card)
+   ========================================================================== */
+.exam-radar-card {
+  margin: 18px 0;
+  padding: 16px 20px;
+  background: var(--surface-alt);
+  border: 1.5px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+.exam-radar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.exam-radar-badge-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.exam-radar-pill {
+  font-size: .82rem;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 20px;
+  letter-spacing: .02em;
+}
+.radar-tag-hot {
+  background: #faece8;
+  color: #b84735;
+  border: 1px solid rgba(184, 71, 53, 0.3);
+}
+.radar-tag-core {
+  background: #e6f3eb;
+  color: #2d5c48;
+  border: 1px solid rgba(45, 92, 72, 0.3);
+}
+.radar-tag-base {
+  background: #e8f3fa;
+  color: #3b789e;
+  border: 1px solid rgba(59, 120, 158, 0.3);
+}
+.exam-radar-stars {
+  color: #c4821a;
+  font-size: .95rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+}
+.exam-radar-speed {
+  font-size: .84rem;
+}
+.exam-radar-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.exam-radar-profiles {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.radar-label {
+  font-size: .84rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.radar-tags-wrap {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.radar-profile-chip {
+  font-size: .78rem;
+  padding: 3px 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+}
+.exam-radar-cognitive-flow {
+  background: var(--surface);
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  overflow-x: auto;
+}
+.cognitive-flow-track {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  font-size: .8rem;
+}
+.flow-step {
+  color: var(--muted);
+}
+.flow-step.active {
+  color: var(--brand);
+  font-weight: 800;
+}
+.flow-arrow {
+  color: var(--border);
+}
+.exam-radar-risk-tip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .85rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+.risk-icon {
+  font-size: 1.1rem;
+}
+
+/* ==========================================================================
+   解題思維決策路徑流程圖 (Thinking Process Pipeline Flowchart)
+   ========================================================================== */
+.thinking-flowchart-card {
+  margin: 20px 0 24px;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 14px;
+  padding: 18px 20px;
+  box-shadow: var(--card-shadow);
+}
+.flowchart-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.flowchart-icon {
+  font-size: 1.3rem;
+}
+.flowchart-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.flowchart-svg-wrap {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 8px;
+}
+.flowchart-footer {
+  margin-top: 12px;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border);
+  font-size: .84rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+/* ==========================================================================
+   雙軌易錯避坑與深度思考校正表格 (Misconception Defense Table)
+   ========================================================================== */
+.misconception-defense-wrap {
+  margin: 20px 0;
+}
+.misconception-defense-table {
+  width: 100%;
+}
+.misconception-defense-table td {
+  padding: 14px 16px;
+}
+
+/* ==========================================================================
+   費曼認知閉環圖示 (Feynman Cycle Card)
+   ========================================================================== */
+.feynman-cycle-card {
+  margin: 18px 0;
+  background: var(--surface-alt);
+  border: 1.5px solid var(--border);
+  border-radius: 14px;
+  padding: 16px 20px;
+}
+.feynman-cycle-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.feynman-cycle-icon {
+  font-size: 1.3rem;
+}
+.feynman-cycle-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.feynman-cycle-steps {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
+  align-items: center;
+  gap: 8px;
+}
+.cycle-step-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--surface);
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+.cycle-num {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--brand);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .75rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+.cycle-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.cycle-content strong {
+  font-size: .84rem;
+  color: var(--text);
+}
+.cycle-arrow {
+  color: var(--muted);
+  font-size: .9rem;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .feynman-cycle-steps {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .cycle-arrow {
+    display: none;
+  }
+}
+

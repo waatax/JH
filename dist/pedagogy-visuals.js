@@ -1,6 +1,7 @@
 // dist/pedagogy-visuals.js - Instructional Infographics, Charts & Pedagogical Tables
 // Built for Zhixing Junior Academy (108 Curriculum Comprehensive Study & Exam Prep)
 import {calculateXP, getLevelInfo, getStreakInfo, getDailyGoal, getBadgesStatus, getCapPredictedScores, getDailyQuestion} from './engagement.js';
+import {workedCases} from './worked-cases.js';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -2042,5 +2043,325 @@ export function renderConceptQuickCheck(u) {
     </div>
   `;
 }
+
+// ============================================================================
+// 18. LESSON STAGE 01: Exam Radar Intel & Cognitive Profile
+// ============================================================================
+export function renderExamRadarIntel(u) {
+  if (!u) return '';
+  const highFreqIds = new Set([
+    'math-1','math-2','math-4','math-5','math-7','math-9','math-10','math-13','math-14','math-17','math-18','math-21','math-25',
+    'physics-1','physics-4','physics-5','physics-7','physics-8','physics-10','physics-11','physics-12',
+    'chemistry-1','chemistry-4','chemistry-5','chemistry-6','chemistry-8','chemistry-10',
+    'biology-1','biology-3','biology-4','biology-5','biology-7','biology-8','biology-11',
+    'earth-1','earth-2','earth-4','earth-6','earth-7','earth-8',
+    'chinese-1','chinese-3','chinese-4','chinese-6','chinese-7','chinese-9','chinese-10','chinese-12',
+    'english-1','english-3','english-5','english-6','english-8','english-9','english-11','english-12',
+    'history-1','history-3','history-5','history-7','history-8','history-11','history-13',
+    'geography-1','geography-3','geography-4','geography-6','geography-7','geography-9','geography-10',
+    'civics-1','civics-3','civics-4','civics-6','civics-7','civics-9','civics-10'
+  ]);
+
+  const isHighFreq = highFreqIds.has(u.id);
+  const isCapCore = ['math','physics','chemistry','biology','earth','chinese','english','history','geography','civics'].includes(u.subject);
+  
+  const stars = isHighFreq ? '★★★★★' : (isCapCore ? '★★★★☆' : '★★★☆☆');
+  const levelText = isHighFreq ? '🔥 會考 A++ 決勝特級考點' : (isCapCore ? '🎯 會考核心常考重點' : '📌 素養扎根關鍵概念');
+  const levelClass = isHighFreq ? 'radar-tag-hot' : (isCapCore ? 'radar-tag-core' : 'radar-tag-base');
+
+  let profileTags = [];
+  if (u.subject === 'math') {
+    profileTags = ['🔢 符號代數建模', '📐 幾何推論分析', '📊 數量關係轉換'];
+  } else if (u.subject === 'physics' || u.subject === 'chemistry') {
+    profileTags = ['🧪 實驗變因探究', '📊 數據圖表判讀', '⚙️ 原理情境轉換'];
+  } else if (u.subject === 'biology' || u.subject === 'earth') {
+    profileTags = ['🌍 跨單元自然系統', '🔬 微觀與宏觀連結', '📊 觀測圖表判讀'];
+  } else if (u.subject === 'chinese' || u.subject === 'local') {
+    profileTags = ['📖 語境脈絡推論', '🔍 詞義文法辨析', '✍️ 篇章架構梳理'];
+  } else if (u.subject === 'english') {
+    profileTags = ['🌐 句型時態整合', '📖 長篇克漏字判讀', '🗣️ 生活情境應對'];
+  } else if (['history', 'geography', 'civics'].includes(u.subject)) {
+    profileTags = ['📜 文本史料比對', '🗺️ 地圖空間解讀', '⚖️ 公民制度思辨'];
+  } else {
+    profileTags = ['💡 生活素養實踐', '⚙️ 動手探究設計', '🤝 溝通表達反思'];
+  }
+
+  const timingText = isHighFreq ? '建議審題作答：45~60 秒／題 · 務必抓準題眼' : '建議審題作答：30~50 秒／題 · 穩紮穩打';
+  const riskText = isHighFreq ? '⚠️ 高頻失分陷阱：容易落入直覺誤導選項，務必檢驗限制條件與反例。' : '💡 注意要點：細讀題目已知條件，避免粗心與跳步計算。';
+
+  return `
+    <div class="exam-radar-card" role="region" aria-label="會考命題定位與戰略分析">
+      <div class="exam-radar-header">
+        <div class="exam-radar-badge-group">
+          <span class="exam-radar-pill ${levelClass}">${esc(levelText)}</span>
+          <span class="exam-radar-stars" title="命題熱度評等">${stars}</span>
+        </div>
+        <span class="exam-radar-speed subtle">⏱️ ${esc(timingText)}</span>
+      </div>
+      <div class="exam-radar-body">
+        <div class="exam-radar-profiles">
+          <span class="radar-label">🎯 題型特徵：</span>
+          <div class="radar-tags-wrap">
+            ${profileTags.map(tag => `<span class="radar-profile-chip">${esc(tag)}</span>`).join('')}
+          </div>
+        </div>
+        <div class="exam-radar-cognitive-flow">
+          <div class="cognitive-flow-track">
+            <span class="flow-step">① 生活經驗感知</span>
+            <span class="flow-arrow">➔</span>
+            <span class="flow-step">② 抽象符號建模</span>
+            <span class="flow-arrow">➔</span>
+            <span class="flow-step">③ 邏輯演繹求解</span>
+            <span class="flow-arrow">➔</span>
+            <span class="flow-step active">④ 批判驗證防呆</span>
+          </div>
+        </div>
+        <div class="exam-radar-risk-tip">
+          <span class="risk-icon">🛡️</span>
+          <span class="risk-text"><strong>考場避坑防線：</strong>${esc(riskText)}</span>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+// ============================================================================
+// 19. LESSON STAGE 03: Visual Thinking Process Pipeline Flowchart SVG
+// ============================================================================
+export function renderThinkingFlowChart(u) {
+  if (!u) return '';
+  let flow = {
+    n1: '抓題眼與已知', s1: '圈關鍵字·標限制',
+    n2: '調用定理建模', s2: '對接本課心智法',
+    n3: '循序邏輯演算', s3: '步步有據得精確解',
+    n4: '邊界合理性檢核', s4: '排除正負號與單位誤',
+    advice: '先圈已知與限制（1 步），再聯想定理模型（2 步），寫出算式/因果推導（3 步），最後核算單位與極端值（4 步）。'
+  };
+
+  if (u.subject === 'math') {
+    flow = {
+      n1: '圈未知數與已知量', s1: '標記條件·排除干擾',
+      n2: '列式推演·幾何建模', s2: '公式定理·圖形輔助',
+      n3: '代數化簡·邏輯求解', s3: '步步有據·精確計算',
+      n4: '代回驗算·正負界線', s4: '檢核合理性·不漏解',
+      advice: '數學破題心法：審題圈出已知量與單位（第 1 步），聯想本課公式或畫圖（第 2 步），嚴謹移項計算（第 3 步），務必代回原式確認正負與合理性（第 4 步）。'
+    };
+  } else if (['physics', 'chemistry', 'biology', 'earth'].includes(u.subject)) {
+    flow = {
+      n1: '抓控制與操縱變因', s1: '鎖定已知數據與現象',
+      n2: '對接自然原理定律', s2: '微觀粒子·能量守恆',
+      n3: '因果推論·圖表判讀', s3: '由因導果·分析趨勢',
+      n4: '單位換算·除直覺誤', s4: '確認極端值·防呆驗算',
+      advice: '自然破題心法：先分清操縱與控制變因（第 1 步），連結物理化學定律或生物系統機制（第 2 步），沿著因果鏈推導（第 3 步），檢查單位與生活常理邊界（第 4 步）。'
+    };
+  } else if (['chinese', 'english', 'local'].includes(u.subject)) {
+    flow = {
+      n1: '掃讀題眼與語境詞', s1: '圈出轉折·鎖定標記',
+      n2: '對照文法·修辭架構', s2: '時態主謂·文章脈絡',
+      n3: '前後文推論·提煉意涵', s3: '從文意線索破題',
+      n4: '代回語境·除斷章義', s4: '檢核通順·確認題旨',
+      advice: '語文破題心法：先抓題眼關鍵詞（第 1 步），回文定位上下文句意（第 2 步），理清作者論述架構與邏輯（第 3 步），代回原句確認語意通暢無曲解（第 4 步）。'
+    };
+  } else if (['history', 'geography', 'civics'].includes(u.subject)) {
+    flow = {
+      n1: '鎖定時空與制度線索', s1: '辨識年代·地圖·情境',
+      n2: '比對史地脈絡·法理', s2: '因果網絡·空間要素',
+      n3: '多角度權衡與推演', s3: '綜合線索推得正解',
+      n4: '防時代錯置·除偏概全', s4: '扣緊題幹核心問項',
+      advice: '社會破題心法：先在地圖或題幹抓出時空坐標（第 1 步），比對因果脈絡與法政原則（第 2 步），綜合推論排除干擾選項（第 3 步），避開時代錯置與過度推論（第 4 步）。'
+    };
+  }
+
+  return `
+    <div class="thinking-flowchart-card" role="region" aria-label="解題思維決策路徑流程圖">
+      <div class="flowchart-header">
+        <span class="flowchart-icon">🗺️</span>
+        <div class="flowchart-title-group">
+          <strong>解題思維決策路徑流程圖 · 4 階破局架構</strong>
+          <span class="subtle">依循邏輯因果神經迴路 · 將直覺昇華為穩健推導</span>
+        </div>
+      </div>
+      <div class="flowchart-svg-wrap">
+        <svg class="concept-svg" viewBox="0 0 560 115" width="100%" height="auto" role="img" aria-label="解題思維決策流程圖">
+          <rect width="560" height="115" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
+          
+          <!-- Node 1: 審題定位 -->
+          <g transform="translate(15, 15)">
+            <rect width="112" height="85" rx="8" fill="#e8f3fa" stroke="#3b789e" stroke-width="1.8"/>
+            <circle cx="56" cy="20" r="11" fill="#3b789e"/>
+            <text x="56" y="24" font-size="10" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+            <text x="56" y="46" font-size="11.5" font-weight="800" fill="#3b789e" text-anchor="middle">🔍 審題定位</text>
+            <text x="56" y="63" font-size="8.8" font-weight="700" fill="#223832" text-anchor="middle">${esc(flow.n1)}</text>
+            <text x="56" y="76" font-size="8" fill="#687b74" text-anchor="middle">${esc(flow.s1)}</text>
+          </g>
+
+          <!-- Arrow 1 -> 2 -->
+          <path d="M 132 57 L 152 57" stroke="#45825b" stroke-width="2.2"/>
+          <polygon points="152,57 146,53 146,61" fill="#45825b"/>
+
+          <!-- Node 2: 策略轉化 -->
+          <g transform="translate(155, 15)">
+            <rect width="112" height="85" rx="8" fill="#e6f3eb" stroke="#45825b" stroke-width="1.8"/>
+            <circle cx="56" cy="20" r="11" fill="#45825b"/>
+            <text x="56" y="24" font-size="10" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+            <text x="56" y="46" font-size="11.5" font-weight="800" fill="#45825b" text-anchor="middle">⚙️ 策略轉化</text>
+            <text x="56" y="63" font-size="8.8" font-weight="700" fill="#223832" text-anchor="middle">${esc(flow.n2)}</text>
+            <text x="56" y="76" font-size="8" fill="#687b74" text-anchor="middle">${esc(flow.s2)}</text>
+          </g>
+
+          <!-- Arrow 2 -> 3 -->
+          <path d="M 272 57 L 292 57" stroke="#c4821a" stroke-width="2.2"/>
+          <polygon points="292,57 286,53 286,61" fill="#c4821a"/>
+
+          <!-- Node 3: 破題求解 -->
+          <g transform="translate(295, 15)">
+            <rect width="112" height="85" rx="8" fill="#fdf4e3" stroke="#c4821a" stroke-width="1.8"/>
+            <circle cx="56" cy="20" r="11" fill="#c4821a"/>
+            <text x="56" y="24" font-size="10" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+            <text x="56" y="46" font-size="11.5" font-weight="800" fill="#c4821a" text-anchor="middle">✏️ 破題求解</text>
+            <text x="56" y="63" font-size="8.8" font-weight="700" fill="#223832" text-anchor="middle">${esc(flow.n3)}</text>
+            <text x="56" y="76" font-size="8" fill="#687b74" text-anchor="middle">${esc(flow.s3)}</text>
+          </g>
+
+          <!-- Arrow 3 -> 4 -->
+          <path d="M 412 57 L 432 57" stroke="#2d5c48" stroke-width="2.2"/>
+          <polygon points="432,57 426,53 426,61" fill="#2d5c48"/>
+
+          <!-- Node 4: 防呆檢驗 -->
+          <g transform="translate(435, 15)">
+            <rect width="110" height="85" rx="8" fill="#eef6f2" stroke="#2d5c48" stroke-width="1.8"/>
+            <circle cx="55" cy="20" r="11" fill="#2d5c48"/>
+            <text x="55" y="24" font-size="10" font-weight="800" fill="#ffffff" text-anchor="middle">4</text>
+            <text x="55" y="46" font-size="11.5" font-weight="800" fill="#2d5c48" text-anchor="middle">🛡️ 防呆檢驗</text>
+            <text x="55" y="63" font-size="8.8" font-weight="700" fill="#223832" text-anchor="middle">${esc(flow.n4)}</text>
+            <text x="55" y="76" font-size="8" fill="#687b74" text-anchor="middle">${esc(flow.s4)}</text>
+          </g>
+        </svg>
+      </div>
+      <div class="flowchart-footer">
+        <span class="tip-icon">💡</span>
+        <span class="tip-text"><strong>破題思維心法：</strong>${esc(flow.advice)}</span>
+      </div>
+    </div>
+  `;
+}
+
+// ============================================================================
+// 20. LESSON STAGE 04: Dual-Track Misconception vs Defense Comparison Table
+// ============================================================================
+export function renderMisconceptionDefenseTable(u) {
+  if (!u) return '';
+  const wc = workedCases[u.id];
+  const pitfallRaw = u.pitfall || '';
+  const checkRaw = wc ? wc.check : '';
+  const conceptLead = (u.concept || '').split('。')[0];
+
+  // 1. 直覺迷思 (Trap)
+  let trap = pitfallRaw.split('；')[0] || pitfallRaw.split('。')[0] || '直覺斷言，忽略題目隱含條件。';
+  if (!trap.endsWith('。') && !trap.endsWith('！')) trap += '。';
+
+  // 2. 深度剖析 (Diagnosis & Deep Correction)
+  let diagnosis = '';
+  if (pitfallRaw.includes('；')) {
+    diagnosis = pitfallRaw.split('；').slice(1).join('；');
+  } else if (pitfallRaw.includes('，例如')) {
+    diagnosis = '混淆了表面特徵與核心定義。' + pitfallRaw.split('，例如')[1];
+  } else {
+    diagnosis = '受限於日常直覺思維，忽視了「' + conceptLead + '」的嚴格限制條件與適用邊界。';
+  }
+  if (!diagnosis.endsWith('。')) diagnosis += '。';
+
+  // 3. 防呆破局心法 (Defense Action)
+  let defense = checkRaw || '審題時圈出已知與關鍵字，計算後檢查邊界條件與單位合理性。';
+  if (!defense.endsWith('。')) defense += '。';
+
+  return `
+    <div class="table-wrap misconception-defense-wrap" style="margin-top:16px;">
+      <table class="teaching-table misconception-defense-table">
+        <caption>考場易錯盲點 vs 深度思維校正防禦對照表</caption>
+        <thead>
+          <tr>
+            <th scope="col" style="width:28%;background:#faece8;color:#b84735;">🚨 常見直覺迷思（易踩陷阱）</th>
+            <th scope="col" style="width:40%;background:#f0ebf7;color:#6d528f;">🧠 盲點深度剖析（研究校正）</th>
+            <th scope="col" style="width:32%;background:#e6f3eb;color:#2d5c48;">🛡️ 會考防呆破局心法（保分規準）</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="color:#b84735;font-weight:600;vertical-align:top;">
+              <div style="display:flex;align-items:flex-start;gap:6px;">
+                <span>❌</span>
+                <span>${esc(trap)}</span>
+              </div>
+            </td>
+            <td style="color:#223832;line-height:1.75;vertical-align:top;">
+              <div style="display:flex;align-items:flex-start;gap:6px;">
+                <span>🔬</span>
+                <span>${esc(diagnosis)}</span>
+              </div>
+            </td>
+            <td style="color:#2d5c48;font-weight:600;line-height:1.75;vertical-align:top;">
+              <div style="display:flex;align-items:flex-start;gap:6px;">
+                <span>✓</span>
+                <span>${esc(defense)}</span>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+// ============================================================================
+// 21. LESSON STAGE 05: 4-Stage Feynman Cognitive Consolidation Cycle
+// ============================================================================
+export function renderFeynmanCycleChart(u) {
+  return `
+    <div class="feynman-cycle-card" role="region" aria-label="費曼主動輸出四階循環圖">
+      <div class="feynman-cycle-header">
+        <span class="feynman-cycle-icon">🧠</span>
+        <div class="feynman-cycle-title-group">
+          <strong>費曼學習法 · 4 階大腦長期記憶鞏固循環</strong>
+          <span class="subtle">用白話輸出檢驗理解盲區 · 把短暫記憶轉化為考場實戰戰力</span>
+        </div>
+      </div>
+      <div class="feynman-cycle-steps">
+        <div class="cycle-step-item">
+          <span class="cycle-num">1</span>
+          <div class="cycle-content">
+            <strong>主動提取</strong>
+            <span class="subtle">不看講義在大腦檢索心智模型</span>
+          </div>
+        </div>
+        <div class="cycle-arrow">➔</div>
+        <div class="cycle-step-item">
+          <span class="cycle-num">2</span>
+          <div class="cycle-content">
+            <strong>白話重述</strong>
+            <span class="subtle">用國小生聽得懂的話向自己解釋</span>
+          </div>
+        </div>
+        <div class="cycle-arrow">➔</div>
+        <div class="cycle-step-item">
+          <span class="cycle-num">3</span>
+          <div class="cycle-content">
+            <strong>診斷卡點</strong>
+            <span class="subtle">發現說不清或卡住立刻查漏補缺</span>
+          </div>
+        </div>
+        <div class="cycle-arrow">➔</div>
+        <div class="cycle-step-item">
+          <span class="cycle-num">4</span>
+          <div class="cycle-content">
+            <strong>精簡固化</strong>
+            <span class="subtle">提煉關鍵避坑筆記牢記心中</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
 
 
