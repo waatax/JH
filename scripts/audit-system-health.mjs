@@ -96,6 +96,26 @@ check('Search dialog has aria-modal="true"', html.includes('id="search-modal"') 
 check('Shortcuts dialog has aria-modal="true"', html.includes('id="shortcuts-modal"') && html.includes('aria-modal="true"'));
 check('Mobile bottom nav has aria-label', html.includes('class="mobile-bottom-nav"') && html.includes('aria-label='));
 
+// 5. CAP Exam Bank & 108 Curriculum Alignment Health
+console.log('\n--- 5. CAP Exam Bank & 108 Curriculum Alignment ---');
+const capBankPath = fileURLToPath(new URL('../dist/cap-bank.json', import.meta.url));
+const capBankExists = fs.existsSync(capBankPath);
+check('cap-bank.json exists in dist/', capBankExists);
+if (capBankExists) {
+  const capData = JSON.parse(fs.readFileSync(capBankPath, 'utf8'));
+  check('CAP question bank contains 1,674 questions', capData.questions.length === 1674, `Got: ${capData.questions.length}`);
+  check('CAP question bank contains 173 stimulus groups', capData.groups.length === 173, `Got: ${capData.groups.length}`);
+  
+  const unlinked = capData.questions.filter(q => !q.unitIds || q.unitIds.length === 0);
+  check('All 1,674 CAP questions are linked to 108 curriculum units', unlinked.length === 0, `Unlinked: ${unlinked.length}`);
+  
+  const invalidUnitLinks = capData.questions.filter(q => (q.unitIds || []).some(uid => !unitIds.has(uid)));
+  check('All CAP unitIds map to valid 108 curriculum units', invalidUnitLinks.length === 0, `Invalid: ${invalidUnitLinks.length}`);
+  
+  const unexplained = capData.questions.filter(q => !q.explanation || !q.explanation.keyIdea || !q.explanation.steps);
+  check('All 1,674 CAP questions have structured pedagogical explanations', unexplained.length === 0, `Unexplained: ${unexplained.length}`);
+}
+
 console.log('\n====================================================');
 console.log(`SUMMARY: ${passCount} Passed, ${errCount} Failed.`);
 console.log('====================================================\n');

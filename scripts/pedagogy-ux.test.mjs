@@ -73,8 +73,8 @@ test('3. Feynman Scaffolding Templates provide structured metacognitive prompts'
 });
 
 test('4. Learning Journey Anchor Targets map seamlessly to lesson sections', () => {
-  const anchors = ['step-understand', 'step-diagram', 'step-solve', 'step-pitfall', 'step-practice'];
-  assert.equal(anchors.length, 5, 'Should have 5 distinct learning ladder anchors');
+  const anchors = ['step-understand', 'step-diagram', 'step-solve', 'step-pitfall', 'step-practice', 'step-knowledge-mesh'];
+  assert.equal(anchors.length, 6, 'Should have 6 distinct learning ladder anchors including knowledge mesh');
   for (const a of anchors) {
     assert(a.startsWith('step-'), `Anchor ${a} must start with step-`);
   }
@@ -161,5 +161,52 @@ test('7. Reading Progress Bar, Back-To-Top, Shortcuts Modal & Flashcard Active R
   assert(js.includes('fc-flip'), 'app.js missing fc-flip handler');
   assert(js.includes('reading-progress'), 'app.js missing reading progress scroll handler');
 });
+
+test('8. Cross-Disciplinary Knowledge Mesh, Habit Loop UX & Metacognitive Mastery Checklist', async () => {
+  const {knowledgeNetwork, renderKnowledgeMesh, getKnowledgeNode} = await import('../dist/knowledge-network.js');
+  const css = fs.readFileSync(new URL('../dist/style.css', import.meta.url), 'utf8');
+  const html = fs.readFileSync(new URL('../dist/index.html', import.meta.url), 'utf8');
+  const js = fs.readFileSync(new URL('../dist/app.js', import.meta.url), 'utf8');
+
+  // Knowledge Network coverage
+  assert.equal(Object.keys(knowledgeNetwork).length, 188, 'Every unit must have knowledge network entry');
+  for (const u of units) {
+    const kn = knowledgeNetwork[u.id];
+    assert(kn, `Unit ${u.id} missing in knowledge network`);
+    assert(Array.isArray(kn.prerequisites), `Unit ${u.id} prerequisites must be array`);
+    assert(Array.isArray(kn.crossLinks) && kn.crossLinks.length >= 1, `Unit ${u.id} must have cross-discipline links`);
+    for (const cl of kn.crossLinks) {
+      assert(cl.unitId && unitById[cl.unitId], `Unit ${u.id} cross link target ${cl.unitId} must exist`);
+      assert(cl.reason && cl.badge, `Unit ${u.id} cross link missing reason or badge`);
+    }
+    assert(Array.isArray(kn.tags) && kn.tags.length >= 1, `Unit ${u.id} must have concept tags`);
+    assert(typeof kn.senior === 'string' && kn.senior.length >= 10, `Unit ${u.id} must have senior high horizon bridge`);
+
+    const meshHtml = renderKnowledgeMesh(u);
+    assert(meshHtml.includes('id="step-knowledge-mesh"'), `Unit ${u.id} mesh missing step-knowledge-mesh ID`);
+    assert(meshHtml.includes('<svg'), `Unit ${u.id} mesh missing concept SVG map`);
+  }
+
+  // HTML Topbar Habit & Level Badges + Habit Modal
+  assert(html.includes('id="streak-topbar-btn"'), 'index.html missing streak-topbar-btn');
+  assert(html.includes('id="level-topbar-btn"'), 'index.html missing level-topbar-btn');
+  assert(html.includes('id="habit-modal"'), 'index.html missing habit-modal');
+  assert(html.includes('id="habit-modal-body"'), 'index.html missing habit-modal-body');
+
+  // CSS Styles for habit modal, knowledge mesh, mastery checklist
+  assert(css.includes('.streak-topbar-pill'), 'style.css missing .streak-topbar-pill');
+  assert(css.includes('.level-topbar-pill'), 'style.css missing .level-topbar-pill');
+  assert(css.includes('.habit-modal'), 'style.css missing .habit-modal');
+  assert(css.includes('.knowledge-mesh-section'), 'style.css missing .knowledge-mesh-section');
+  assert(css.includes('.mastery-checklist-card'), 'style.css missing .mastery-checklist-card');
+
+  // App.js wiring
+  assert(js.includes('updateTopbarHabits'), 'app.js missing updateTopbarHabits');
+  assert(js.includes('openHabitModal'), 'app.js missing openHabitModal');
+  assert(js.includes('closeHabitModal'), 'app.js missing closeHabitModal');
+  assert(js.includes('renderConceptMasteryChecklist'), 'app.js missing renderConceptMasteryChecklist');
+  assert(js.includes('renderKnowledgeMesh'), 'app.js missing renderKnowledgeMesh');
+});
+
 
 

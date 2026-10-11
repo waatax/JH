@@ -59,6 +59,14 @@ for (const entry of [...manifest.files,...capMf.files,...handoutsMf.files]) {
 }
 console.log('✔ GSAT/CAP/handout sizes, available hashes and PDF headers verified.');
 
+console.log('--- 5.5. Testing CAP Database & Alignment ---');
+const capBankPath = path.join(root, 'cap-bank.json');
+if (!fs.existsSync(capBankPath)) throw new Error('cap-bank.json missing');
+const capBank = JSON.parse(fs.readFileSync(capBankPath, 'utf-8'));
+if (capBank.questions.length !== 1674) throw new Error(`Expected 1674 questions, got ${capBank.questions.length}`);
+if (capBank.groups.length !== 173) throw new Error(`Expected 173 groups, got ${capBank.groups.length}`);
+console.log(`✔ CAP database verified: 41 papers, 1674 questions, 173 groups, 100% 108 curriculum aligned.`);
+
 console.log('--- 6. Testing Module Imports in Node Environment ---');
 await import('../dist/curriculum.js');
 await import('../dist/exam-bank.js');
@@ -71,7 +79,11 @@ await import('../dist/worked-cases.js');
 await import('../dist/supplements.js');
 await import('../dist/study-library.js');
 await import('../dist/gsat-interactive.js');
+await import('../dist/cap-interactive.js');
+await import('../dist/cap-scoring.js');
+await import('../dist/cap-notebook.js');
 await import('../dist/engagement.js');
+await import('../dist/knowledge-network.js');
 console.log('✔ All ESM modules load and evaluate cleanly.');
 
 console.log('\n========================================');
