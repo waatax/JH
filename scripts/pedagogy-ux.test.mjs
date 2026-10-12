@@ -208,5 +208,61 @@ test('8. Cross-Disciplinary Knowledge Mesh, Habit Loop UX & Metacognitive Master
   assert(js.includes('renderKnowledgeMesh'), 'app.js missing renderKnowledgeMesh');
 });
 
+test('9. Junyi-style Landscape Fullscreen Studio & Deep Exegesis Blackboard Materials', async () => {
+  const {exegesisData, getExegesis, renderExegesisBoard} = await import('../dist/exegesis-data.js');
+  const css = fs.readFileSync(new URL('../dist/style.css', import.meta.url), 'utf8');
+  const html = fs.readFileSync(new URL('../dist/index.html', import.meta.url), 'utf8');
+  const js = fs.readFileSync(new URL('../dist/app.js', import.meta.url), 'utf8');
+
+  // 1. Exegesis Data Coverage
+  assert.equal(Object.keys(exegesisData).length, 188, 'All 188 units must have deep exegesis data');
+  for (const u of units) {
+    const ex = exegesisData[u.id];
+    assert(ex, `Unit ${u.id} missing in exegesisData`);
+    assert(ex.genesis && ex.genesis.problemToSolve && ex.genesis.realWorldAnchor && ex.genesis.historicalSpark, `Unit ${u.id} missing genesis fields`);
+    assert(Array.isArray(ex.definitions) && ex.definitions.length >= 2, `Unit ${u.id} must have at least 2 formal definitions`);
+    for (const d of ex.definitions) {
+      assert(d.term && d.meaning && d.condition, `Unit ${u.id} definition missing term, meaning, or condition`);
+    }
+    assert(ex.blackboard && ex.blackboard.title && Array.isArray(ex.blackboard.heuristicSteps), `Unit ${u.id} missing blackboard structure`);
+    assert(ex.blackboard.heuristicSteps.length >= 3, `Unit ${u.id} blackboard must have at least 3 steps`);
+    assert(ex.blackboard.coreTakeawayFormula, `Unit ${u.id} blackboard missing coreTakeawayFormula`);
+    assert(ex.masteryLevels && ex.masteryLevels.level1 && ex.masteryLevels.level2 && ex.masteryLevels.level3, `Unit ${u.id} missing 3 mastery levels`);
+    assert(ex.examEye && ex.examEye.triggerClue && ex.examEye.pitfallTrap && ex.examEye.defenseCheck, `Unit ${u.id} missing examEye fields`);
+
+    const boardHtml = renderExegesisBoard(u);
+    assert(boardHtml.includes('class="exegesis-origin-card"'), `Unit ${u.id} board missing origin card`);
+    assert(boardHtml.includes('class="exegesis-definitions-card"'), `Unit ${u.id} board missing definitions card`);
+    assert(boardHtml.includes('class="exegesis-blackboard-card"'), `Unit ${u.id} board missing blackboard card`);
+    assert(boardHtml.includes('class="exegesis-rubrics-card"'), `Unit ${u.id} board missing rubrics card`);
+    assert(boardHtml.includes('class="exegesis-radar-card"'), `Unit ${u.id} board missing radar card`);
+  }
+
+  // 2. HTML Studio Elements
+  assert(html.includes('id="landscape-studio"'), 'index.html missing landscape-studio container');
+  assert(html.includes('id="studio-canvas"'), 'index.html missing studio-canvas scratchpad');
+  assert(html.includes('id="studio-sidebar"'), 'index.html missing studio-sidebar');
+  assert(html.includes('id="studio-lecture"'), 'index.html missing studio-lecture pane');
+  assert(html.includes('id="studio-tree-list"'), 'index.html missing studio-tree-list');
+  assert(html.includes('id="studio-close-btn"'), 'index.html missing studio-close-btn');
+
+  // 3. CSS Studio Rules
+  assert(css.includes('.landscape-studio'), 'style.css missing .landscape-studio rule');
+  assert(css.includes('.studio-workspace'), 'style.css missing .studio-workspace rule');
+  assert(css.includes('.studio-sidebar'), 'style.css missing .studio-sidebar rule');
+  assert(css.includes('.studio-lecture'), 'style.css missing .studio-lecture rule');
+  assert(css.includes('.studio-tool-pane'), 'style.css missing .studio-tool-pane rule');
+  assert(css.includes('.studio-canvas'), 'style.css missing .studio-canvas rule');
+  assert(css.includes('.exegesis-blackboard-card'), 'style.css missing .exegesis-blackboard-card rule');
+
+  // 4. JS Engine Methods
+  assert(js.includes('openLandscapeStudio'), 'app.js missing openLandscapeStudio');
+  assert(js.includes('closeLandscapeStudio'), 'app.js missing closeLandscapeStudio');
+  assert(js.includes('initStudioScratchpad'), 'app.js missing initStudioScratchpad');
+  assert(js.includes('renderStudioPractice'), 'app.js missing renderStudioPractice');
+  assert(js.includes('renderExegesisBoard'), 'app.js missing renderExegesisBoard');
+});
+
+
 
 

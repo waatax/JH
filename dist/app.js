@@ -98,6 +98,7 @@ function wireDailyChallenge(){
 import {renderHomeRoadmap,renderCurriculumOverview,renderSubjectGuide,renderWritingGuide,renderReviewScience,renderProgressRadar,renderExamStrategy,renderUnitStageTables,renderHabitDashboard,renderDailyChallengeCard,renderBadgesShowcase,renderCapReadinessGuide,renderConceptQuickCheck,renderExamRadarIntel,renderThinkingFlowChart,renderMisconceptionDefenseTable,renderFeynmanCycleChart} from './pedagogy-visuals.js';
 import {playChimeTone,readConceptAloud,calculateXP,getLevelInfo,getStreakInfo,getDailyGoal,getBadgesStatus} from './engagement.js';
 import {renderKnowledgeMesh} from './knowledge-network.js';
+import {exegesisData, getExegesis, renderExegesisBoard} from './exegesis-data.js';
 import {renderQuickQuiz} from './quick-quiz.js';
 import {libraryPage,alignmentPage,pastpapersPage,lessonResources} from './study-library.js';
 import {renderSupplement} from './supplements.js';
@@ -182,7 +183,370 @@ const feynmanTemplates = {
   steps: `【📐 解題思維路徑筆記】\n1. 題目的核心關鍵字（題眼）是：\n2. 看到題眼，聯想到的定理/公式是：\n3. 解題步驟三部曲：\n   ① 審題與設未知數：\n   ② 列式或推導：\n   ③ 單位與合理性檢核：\n`,
   pitfall: `【🛡️ 我的考場避坑手記】\n1. 最容易粗心或被題目拐彎的地方是：\n2. 為什麼這個錯誤會發生？\n3. 解題時我要提醒自己的檢查步驟：\n`
 };
-function lesson(id){const u=unitById[id];if(!u)return notFound();const s=subjectById[u.subject],source=sourceFor(s.id),practical=['藝術','綜合活動','科技','健康與體育'].includes(s.domain)||s.id==='local',evidence=state.portfolio[id]||{};const subjectUnits=units.filter(x=>x.subject===u.subject);const currIdx=subjectUnits.findIndex(x=>x.id===u.id);const prevUnit=currIdx>0?subjectUnits[currIdx-1]:null;const nextUnit=currIdx<subjectUnits.length-1?subjectUnits[currIdx+1]:null;const isRead=state.read.includes(id);const mChecks=state.masteryChecklist[id]||[false,false,false,false,false];const mCount=mChecks.filter(Boolean).length;const isMastered=u.questions.every(q=>state.records[q.id]?.latestCorrect)||mCount===5;const isStarred=state.bookmarks.includes(id);const hashParams=new URLSearchParams(location.hash.split('?')[1]||'');const returnCap=hashParams.get('return')==='cap';const capPaper=hashParams.get('paper');const capQ=hashParams.get('q');const returnBannerHtml=returnCap&&capPaper?`<div class="cap-return-banner"><div class="cap-return-banner-text"><span class="cap-return-badge">歷屆會考真題研讀模式</span><p>您正從 <strong>${escape(capPaper)} 第 ${escape(capQ||'1')} 題</strong> 進入本課加強觀念。弄懂題眼與解題鏈後，隨時返回繼續挑戰！</p></div><a class="button small" href="#/cap-exam/${escape(capPaper)}?mode=practice&q=${escape(capQ||'1')}">🔙 返回會考第 ${escape(capQ||'1')} 題作答 →</a></div>`:'';$('#main').innerHTML=`<article class="lesson">${returnBannerHtml}<div class="lesson-header-nav"><a class="breadcrumb" href="#/subject/${s.id}">← ${s.name}學習路徑</a><div class="lesson-seq-nav"><button id="bookmark-btn" class="button small ghost star-btn ${isStarred?'starred':''}" title="收藏此單元">${isStarred?'★ 已收藏':'☆ 收藏單元'}</button>${prevUnit?`<a class="button small ghost" href="#/lesson/${prevUnit.id}" title="${escape(prevUnit.title)}">← 上一課</a>`:`<span class="button small ghost disabled">← 上一課</span>`}<span class="lesson-progress-badge">第 ${currIdx+1} / ${subjectUnits.length} 課</span>${nextUnit?`<a class="button small ghost" href="#/lesson/${nextUnit.id}" title="${escape(nextUnit.title)}">下一課 →</a>`:`<span class="button small ghost disabled">下一課 →</span>`}</div></div><div class="row"><span class="tag accent">${u.grade} 年級・${u.term===1?'上':'下'}學期建議主題</span>${isMastered?'<span class="tag success">✓ 本課已精熟 (滿星/答對)</span>':(isRead?'<span class="tag">✓ 已閱讀</span>':'<span class="subtle">未學習</span>')}<span class="mastery-score-pill" style="margin-left:auto;">⭐ 精熟指標 ${mCount}/5</span></div><h1>${u.title}</h1><p class="intro muted">${u.concept.split('。')[0]}。</p><div class="lesson-mastery-bar-wrap" title="本課掌握度"><div class="lesson-mastery-bar-fill" style="width:${Math.max(isMastered?100:(state.notes[id]?.trim()?70:(isRead?35:5)), mCount*20)}%;"></div></div><div class="row"><span class="subtle">約 ${u.minutes} 分鐘 · 觀念解析＋解題思維鏈＋2 題驗收＋跨科圖譜</span><button class="button small secondary" id="speak-concept-btn" title="語音朗讀核心觀念與破題要訣">🔊 朗讀觀念</button><button class="button small secondary" id="print-lesson">列印筆記</button></div><nav class="lesson-journey-nav" aria-label="學習階梯快速導覽"><a href="#step-understand" class="journey-chip active" data-anchor="step-understand"><span>01</span> 觀念錨定</a><a href="#step-diagram" class="journey-chip" data-anchor="step-diagram"><span>02</span> 圖解與對照</a><a href="#step-solve" class="journey-chip" data-anchor="step-solve"><span>03</span> 示範與解題鏈</a><a href="#step-pitfall" class="journey-chip" data-anchor="step-pitfall"><span>04</span> 易錯避坑</a><a href="#step-practice" class="journey-chip" data-anchor="step-practice"><span>05</span> 費曼輸出與驗收</a><a href="#step-knowledge-mesh" class="journey-chip" data-anchor="step-knowledge-mesh"><span>🌐</span> 跨科網絡圖譜</a></nav><section class="lesson-step" id="step-understand"><div class="step-label">STAGE 01 / UNDERSTAND</div><h2>觀念精講與核心直覺</h2><div class="concept-anchor-box"><div class="concept-anchor-header"><span class="anchor-badge">🎯 核心概念錨定</span><span class="subtle">建立本質直覺 · 拒絕死記公式</span></div><p class="concept">${escape(u.concept)}</p><div class="lesson-takeaway-card"><div class="takeaway-header"><span class="takeaway-icon">⚡</span><strong>核心考點速記金句 · 記憶錨定</strong></div><p class="takeaway-concept"><strong>🎯 破題題眼：</strong>${escape(u.concept.split('。')[0])}。</p>${u.pitfall?`<p class="takeaway-pitfall"><strong>⚠️ 避坑防呆：</strong>${escape(u.pitfall.split('。')[0])}。</p>`:''}</div>${renderExamRadarIntel(u)}${renderUnitStageTables(u)}<div class="concept-anchor-footer"><span class="tip-icon">💡</span><div class="tip-text"><strong>理解心法：</strong>試著用腦海中的圖像或日常生活體驗來體會這段話的意義。</div></div></div></section><section class="lesson-step" id="step-diagram"><div class="step-label">STAGE 02 / SCHEMAS &amp; CONTRAST</div><h2>結構圖解與對照辨析</h2>${getDiagram(u)}${renderTeaching(u)}${renderSupplement(u)}</section><section class="lesson-step" id="step-solve"><div class="step-label">STAGE 03 / WORKED EXAMPLE &amp; THINKING CHAIN</div><h2>典範例題與解題思維鏈</h2><p class="muted">學會「看穿題眼」，把抽象觀念落地為一步步解題思維。</p><div class="example-card"><div class="example-card-header"><span class="example-badge">【經典題型破題直擊】</span><span class="subtle">快速示範思路</span></div><div class="example-content">${escape(u.example)}</div></div>${renderThinkingFlowChart(u)}${renderWorkedCase(u)}</section><section class="lesson-step" id="step-pitfall"><div class="step-label">STAGE 04 / MISCONCEPTIONS &amp; PITFALLS</div><h2>易錯迷思避坑指南</h2><div class="misconception-card"><div class="misconception-header"><span class="misconception-icon">⚠️</span><strong>考場易錯盲點（避坑雷達）</strong></div><div class="misconception-body">${escape(u.pitfall)}</div><div class="misconception-tip"><strong>🛡️ 防禦思維：</strong>審題時看到關鍵字，務必提醒自己確認限制條件，不跳步妄下斷語。</div></div>${renderMisconceptionDefenseTable(u)}</section><section class="lesson-step" id="step-practice"><div class="step-label">STAGE 05 / ACTIVE RECALL &amp; PRACTICE</div><h2>${practical?'動手做，留下學習證據':'費曼輸出：換你解釋給自己聽'}</h2>${renderConceptQuickCheck(u)}<div class="task-prompt">${escape(u.task)}</div>${renderFeynmanCycleChart(u)}${renderConceptMasteryChecklist(u,mChecks)}<div class="feynman-toolbar"><div class="feynman-title"><span>🧠 費曼筆記鷹架（點擊範本快速導入思考架構）：</span></div><div class="feynman-templates" role="group" aria-label="費曼筆記範本"><button type="button" class="feynman-btn" data-feynman="plain">🍎 白話說觀念</button><button type="button" class="feynman-btn" data-feynman="steps">📐 解題思維路徑</button><button type="button" class="feynman-btn" data-feynman="pitfall">🛡️ 專屬避坑手記</button><button type="button" class="feynman-btn ghost" data-feynman="clear" title="清空筆記重寫">↺ 重設</button><button type="button" class="feynman-btn ghost" id="copy-note-btn" title="複製筆記到剪貼簿">📋 複製筆記</button></div></div><label for="lesson-note">我的推理、作品說明或自學筆記</label><textarea id="lesson-note" placeholder="用自己的話寫下方法、理由與發現。點選上方範本可帶入引導問題。內容自動儲存於本機。">${escape(state.notes[id]||'')}</textarea><div class="note-meta-row"><span class="subtle" id="note-status">輸入後自動儲存於本機。</span><span class="subtle" id="note-count">${(state.notes[id]||'').length} 字</span></div><h3>學習自評檢核（主動回想指標）</h3>${(practical?['我完成了實作任務，並能清楚說明操作與觀察過程。','我能以具體數據、圖形或作品支持自己的論點。','我根據反饋或檢驗結果做了至少一項具體修正。']:['我能不看講義，用自己的話向他人說明這個核心概念。','我能掌握解題推導步驟，並主動避開常見易錯迷思。','我能舉出一個生活中的應用情境或例證進行檢驗。']).map((text,i)=>`<label class="check"><input type="checkbox" data-rubric="${i}" ${evidence[i]?'checked':''}><span>${text}</span></label>`).join('')}<p class="notice">${practical?'請邀請教師或同儕給予具體回饋。勾選是自我紀錄，並非技能認證。':'主動回想能活化大腦長期記憶，完成檢核後即可進行觀念驗收。'}</p><div class="actions"><button id="mark-read" class="button secondary">${isRead?'✓ 已標記閱讀':'標記已閱讀'}</button><button id="lesson-practice" class="button">觀念驗收 · 2 題立即作答 →</button></div></section>${renderKnowledgeMesh(u)}${lessonResources(u)}<section class="lesson-step"><div class="step-label">STAGE 06 / CURRICULUM &amp; NEXT</div><h2>延伸探索與下個主題</h2><p class="notice">學習方向參照 <a class="source-link" href="${source.url}" target="_blank" rel="noopener">${source.name} ↗</a>。本站以主題重組核心概念；兩題驗收不代表完整掌握。本土語文、口說、藝術、體育與實作仍須搭配教師回饋，並非逐條課綱指標的完整教材。</p>${s.id==='math'?'<p><a class="button ghost" href="#/labs">前往互動實驗室：觀察數量與圖形 →</a></p>':''}<div class="lesson-bottom-nav">${prevUnit?`<a class="button secondary" href="#/lesson/${prevUnit.id}">← 上一單元：${escape(prevUnit.title)}</a>`:'<span></span>'}${nextUnit?`<a class="button" href="#/lesson/${nextUnit.id}">下一單元：${escape(nextUnit.title)} →</a>`:`<a class="button" href="#/subject/${s.id}">返回 ${s.name} 章節總覽 →</a>`}</div></section></article>`;$('#print-lesson').onclick=()=>window.print();
+
+let currentStudioUnitId = null;
+let spColor = '#2d3748';
+let spSize = 2;
+let spIsDrawing = false;
+let spLastX = 0;
+let spLastY = 0;
+let spHistory = [];
+let spIsEraser = false;
+
+function initStudioScratchpad() {
+  const canvas = document.getElementById('studio-canvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+
+  function resizeCanvas() {
+    const parent = canvas.parentElement;
+    if (parent && parent.clientWidth && parent.clientHeight) {
+      const dpr = window.devicePixelRatio || 1;
+      const w = parent.clientWidth;
+      const h = Math.max(parent.clientHeight - 30, 480);
+      if (canvas.width !== Math.floor(w * dpr) || canvas.height !== Math.floor(h * dpr)) {
+        canvas.width = Math.floor(w * dpr);
+        canvas.height = Math.floor(h * dpr);
+        ctx.scale(dpr, dpr);
+        ctx.lineCap = 'round';
+        ctx.lineJoin = 'round';
+      }
+    }
+  }
+  resizeCanvas();
+
+  $$('.color-dot').forEach(dot => {
+    dot.onclick = () => {
+      $$('.color-dot').forEach(d => d.classList.remove('active'));
+      dot.classList.add('active');
+      spColor = dot.dataset.color;
+      spIsEraser = false;
+      $('#sp-eraser-btn')?.classList.remove('active');
+    };
+  });
+
+  $$('.stroke-btn').forEach(btn => {
+    btn.onclick = () => {
+      $$('.stroke-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      spSize = Number(btn.dataset.size);
+    };
+  });
+
+  const eraserBtn = $('#sp-eraser-btn');
+  if (eraserBtn) {
+    eraserBtn.onclick = () => {
+      spIsEraser = !spIsEraser;
+      eraserBtn.classList.toggle('active', spIsEraser);
+    };
+  }
+
+  const clearBtn = $('#sp-clear-btn');
+  if (clearBtn) {
+    clearBtn.onclick = () => {
+      if (confirm('確定清空隨堂草稿白板？')) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        spHistory = [];
+      }
+    };
+  }
+
+  const undoBtn = $('#sp-undo-btn');
+  if (undoBtn) {
+    undoBtn.onclick = () => {
+      if (spHistory.length > 0) {
+        spHistory.pop();
+        if (spHistory.length > 0) {
+          ctx.putImageData(spHistory[spHistory.length - 1], 0, 0);
+        } else {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+      }
+    };
+  }
+
+  function saveSnapshot() {
+    if (spHistory.length >= 25) spHistory.shift();
+    spHistory.push(ctx.getImageData(0, 0, canvas.width, canvas.height));
+  }
+
+  function getPos(e) {
+    const rect = canvas.getBoundingClientRect();
+    return {
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top
+    };
+  }
+
+  canvas.onpointerdown = (e) => {
+    e.preventDefault();
+    canvas.setPointerCapture(e.pointerId);
+    spIsDrawing = true;
+    const pos = getPos(e);
+    spLastX = pos.x;
+    spLastY = pos.y;
+    saveSnapshot();
+  };
+
+  canvas.onpointermove = (e) => {
+    if (!spIsDrawing) return;
+    e.preventDefault();
+    const pos = getPos(e);
+    ctx.beginPath();
+    ctx.moveTo(spLastX, spLastY);
+    ctx.lineTo(pos.x, pos.y);
+    if (spIsEraser) {
+      ctx.globalCompositeOperation = 'destination-out';
+      ctx.lineWidth = spSize * 5;
+    } else {
+      ctx.globalCompositeOperation = 'source-over';
+      ctx.strokeStyle = spColor;
+      ctx.lineWidth = spSize;
+    }
+    ctx.stroke();
+    spLastX = pos.x;
+    spLastY = pos.y;
+  };
+
+  canvas.onpointerup = (e) => {
+    if (spIsDrawing) {
+      spIsDrawing = false;
+      try { canvas.releasePointerCapture(e.pointerId); } catch (_) {}
+    }
+  };
+  canvas.onpointercancel = canvas.onpointerup;
+}
+
+function renderStudioPractice(u) {
+  const pEl = $('#studio-practice-content');
+  if (!pEl) return;
+  const answeredCount = u.questions.filter(q => state.records[q.id]?.latestCorrect).length;
+  if ($('#studio-q-status')) $('#studio-q-status').textContent = `${answeredCount}/${u.questions.length}`;
+
+  pEl.innerHTML = `
+    <div style="margin-bottom: 12px;">
+      <h4>🎯 均一式微步技能檢定</h4>
+      <p class="subtle">依序回答以下 2 題觀念驗收，確認核心直覺是否已扎實建立。</p>
+    </div>
+    ${u.questions.map((q, qIdx) => {
+      const rec = state.records[q.id];
+      const isCorr = rec?.latestCorrect;
+      return `
+        <div class="panel" style="margin-bottom: 16px; border-left: 4px solid ${isCorr ? '#378b4a' : 'var(--border)'};">
+          <div class="row" style="margin-bottom: 8px;">
+            <span class="tag ${isCorr ? 'success' : 'accent'}">第 ${qIdx + 1} 題 · ${q.difficulty}</span>
+            <small class="muted">${isCorr ? '✓ 獨立答對' : '待挑戰'}</small>
+          </div>
+          <p style="font-weight: 600; font-size: .95rem; margin-bottom: 12px;">${escape(q.prompt)}</p>
+          <div class="studio-q-options" style="display:flex;flex-direction:column;gap:8px;">
+            ${q.options.map((opt, optIdx) => `
+              <button type="button" class="option studio-opt-btn" data-sq-idx="${qIdx}" data-sopt-idx="${optIdx}" style="text-align:left;padding:8px 12px;">
+                <span>${'ABCD'[optIdx]}.</span> <span>${escape(opt)}</span>
+              </button>
+            `).join('')}
+          </div>
+          <div id="studio-q-feedback-${qIdx}" class="callout" style="display:none;margin-top:12px;"></div>
+        </div>
+      `;
+    }).join('')}
+  `;
+
+  $$('.studio-opt-btn').forEach(btn => {
+    btn.onclick = () => {
+      const qIdx = Number(btn.dataset.sqIdx);
+      const optIdx = Number(btn.dataset.soptIdx);
+      const q = u.questions[qIdx];
+      const fb = $(`#studio-q-feedback-${qIdx}`);
+      if (!fb) return;
+
+      const isCorr = optIdx === q.answer;
+      state.records[q.id] = nextRecord(state.records[q.id], isCorr, false);
+      activity(); save(); updateTopbarHabits();
+
+      fb.style.display = 'block';
+      fb.className = 'callout ' + (isCorr ? 'success' : 'warning');
+      fb.innerHTML = isCorr
+        ? `<strong>✓ 答對了！+10 XP</strong><br>${escape(q.explanation)}`
+        : `<strong>○ 觀念稍微偏差，再想想看：</strong><br>${escape(q.hint)}<br><small class="muted">${escape(q.explanation)}</small>`;
+
+      if (isCorr) {
+        playChimeTone('success');
+        btn.style.background = '#eef8ee';
+        btn.style.borderColor = '#378b4a';
+      } else {
+        btn.style.background = '#fff3f0';
+        btn.style.borderColor = '#c94c34';
+      }
+
+      const updatedCount = u.questions.filter(x => state.records[x.id]?.latestCorrect).length;
+      if ($('#studio-q-status')) $('#studio-q-status').textContent = `${updatedCount}/${u.questions.length}`;
+      if ($('#studio-mastery-badge')) {
+        const mChecks = state.masteryChecklist[u.id] || [];
+        $('#studio-mastery-badge').textContent = `⭐ 精熟度 ${mChecks.filter(Boolean).length}/5 星`;
+      }
+    };
+  });
+}
+
+function openLandscapeStudio(id) {
+  const u = unitById[id];
+  if (!u) return;
+  currentStudioUnitId = id;
+  const studio = $('#landscape-studio');
+  if (!studio) return;
+  studio.removeAttribute('hidden');
+
+  try {
+    if (document.documentElement.requestFullscreen && !document.fullscreenElement) {
+      document.documentElement.requestFullscreen().catch(() => {});
+    }
+  } catch (_) {}
+
+  const s = subjectById[u.subject];
+  const mChecks = state.masteryChecklist[id] || [false, false, false, false, false];
+  const mCount = mChecks.filter(Boolean).length;
+  const streakInfo = getStreakInfo(state);
+  const xp = calculateXP(state);
+  const lvl = getLevelInfo(xp);
+
+  // Topbar
+  if ($('#studio-unit-title')) $('#studio-unit-title').textContent = u.title;
+  if ($('#studio-subject-badge')) $('#studio-subject-badge').textContent = `${s?.name || ''} · ${u.grade}年級${u.term === 1 ? '上' : '下'}`;
+  if ($('#studio-mastery-badge')) $('#studio-mastery-badge').textContent = `⭐ 精熟度 ${mCount}/5 星`;
+  if ($('#studio-streak-text')) $('#studio-streak-text').textContent = `${streakInfo.streak} 天`;
+  if ($('#studio-level-icon')) $('#studio-level-icon').textContent = lvl.icon;
+  if ($('#studio-level-text')) $('#studio-level-text').textContent = `Lv.${lvl.level} (${lvl.currentXP} XP)`;
+
+  // Left Sidebar Tree
+  const treeEl = $('#studio-tree-list');
+  if (treeEl) {
+    const subjectUnits = units.filter(x => x.subject === u.subject);
+    treeEl.innerHTML = subjectUnits.map((item, idx) => {
+      const read = state.read.includes(item.id);
+      const correct = item.questions.every(q => state.records[q.id]?.latestCorrect);
+      const checks = (state.masteryChecklist[item.id] || []).filter(Boolean).length;
+      const full = checks === 5 || correct;
+      const statusIcon = full ? '🌟' : (correct ? '🟢' : (read ? '📖' : '⚪'));
+      const statusText = full ? '五星精熟' : (correct ? '已驗收' : (read ? '研讀中' : '未學習'));
+      return `<div class="studio-tree-item ${item.id === id ? 'active' : ''}" data-studio-jump="${item.id}">
+        <div><strong>${idx + 1}. ${escape(item.title)}</strong><br><small class="muted">${item.grade}年級 · ${item.minutes}分鐘</small></div>
+        <span class="studio-tree-status-dot" title="${statusText}">${statusIcon}</span>
+      </div>`;
+    }).join('');
+
+    $$('[data-studio-jump]').forEach(el => {
+      el.onclick = () => {
+        openLandscapeStudio(el.dataset.studioJump);
+      };
+    });
+  }
+
+  // Center Lecture Content
+  const lectureEl = $('#studio-lecture-content');
+  if (lectureEl) {
+    lectureEl.innerHTML = `
+      ${renderExegesisBoard(u)}
+      <section class="lesson-step" id="studio-diagram"><div class="step-label">SCHEMAS &amp; DIAGRAM</div><h2>結構圖解與對照辨析</h2>${getDiagram(u)}${renderTeaching(u)}${renderSupplement(u)}</section>
+      <section class="lesson-step" id="studio-thinking"><div class="step-label">THINKING CHAIN</div><h2>典範例題與解題思維鏈</h2>${renderThinkingFlowChart(u)}${renderWorkedCase(u)}</section>
+      <section class="lesson-step" id="studio-defense"><div class="step-label">MISCONCEPTIONS</div><h2>易錯迷思避坑指南</h2>${renderMisconceptionDefenseTable(u)}</section>
+      ${renderKnowledgeMesh(u)}
+    `;
+  }
+
+  // Wire Studio Navigation Anchor Chips
+  $$('.studio-nav-chip').forEach(chip => {
+    chip.onclick = (e) => {
+      e.preventDefault();
+      const targetId = chip.dataset.studioAnchor;
+      const targetEl = document.getElementById(targetId);
+      if (targetEl) {
+        targetEl.scrollIntoView({ behavior: 'smooth' });
+        $$('.studio-nav-chip').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+      }
+    };
+  });
+
+  // Right Pane: Practice Tab
+  renderStudioPractice(u);
+
+  // Right Pane: Mastery Tab
+  const masteryEl = $('#studio-mastery-content');
+  if (masteryEl) {
+    masteryEl.innerHTML = renderConceptMasteryChecklist(u, mChecks);
+    masteryEl.querySelectorAll('[data-mastery-check]').forEach(cb => {
+      cb.onchange = () => {
+        const idx = Number(cb.dataset.masteryCheck);
+        if (!state.masteryChecklist[id]) state.masteryChecklist[id] = [false, false, false, false, false];
+        state.masteryChecklist[id][idx] = cb.checked;
+        activity(); save(); updateTopbarHabits();
+        if (cb.checked) { playChimeTone('success'); toast(`⭐「${escape(u.title)}」精熟指標 +1！獲得 +5 XP！`); }
+        openLandscapeStudio(id);
+      };
+    });
+  }
+
+  // Right Pane: Feynman Tab
+  const feynmanNote = $('#studio-feynman-note');
+  if (feynmanNote) {
+    feynmanNote.value = state.notes[id] || '';
+    $('#studio-note-count').textContent = feynmanNote.value.length + ' 字';
+    feynmanNote.oninput = (e) => {
+      state.notes[id] = e.target.value;
+      save();
+      $('#studio-note-count').textContent = e.target.value.length + ' 字';
+    };
+  }
+
+  $$('[data-studio-feynman]').forEach(btn => {
+    btn.onclick = () => {
+      const type = btn.dataset.studioFeynman;
+      const tpl = feynmanTemplates[type];
+      if (tpl && feynmanNote) {
+        feynmanNote.value = (feynmanNote.value.trim() ? feynmanNote.value.trim() + '\n\n' : '') + tpl;
+        state.notes[id] = feynmanNote.value;
+        activity(); save();
+        $('#studio-note-count').textContent = feynmanNote.value.length + ' 字';
+        feynmanNote.focus();
+      }
+    };
+  });
+
+  // Tool Pane Tabs
+  $$('.studio-tab-btn').forEach(btn => {
+    btn.onclick = () => {
+      const tab = btn.dataset.studioTab;
+      $$('.studio-tab-btn').forEach(b => {
+        b.classList.toggle('active', b === btn);
+        b.setAttribute('aria-selected', String(b === btn));
+      });
+      $$('.studio-tab-panel').forEach(p => p.hidden = true);
+      const activePanel = $(`#studio-tab-${tab}`);
+      if (activePanel) activePanel.hidden = false;
+      if (tab === 'scratchpad') {
+        setTimeout(initStudioScratchpad, 50);
+      }
+    };
+  });
+
+  // Initialize Canvas Scratchpad
+  setTimeout(initStudioScratchpad, 50);
+}
+
+function closeLandscapeStudio() {
+  const studio = $('#landscape-studio');
+  if (studio) studio.setAttribute('hidden', '');
+  try {
+    if (document.fullscreenElement && document.exitFullscreen) {
+      document.exitFullscreen().catch(() => {});
+    }
+  } catch (_) {}
+  if (currentStudioUnitId) {
+    lesson(currentStudioUnitId);
+  }
+}
+
+function lesson(id){const u=unitById[id];if(!u)return notFound();const s=subjectById[u.subject],source=sourceFor(s.id),practical=['藝術','綜合活動','科技','健康與體育'].includes(s.domain)||s.id==='local',evidence=state.portfolio[id]||{};const subjectUnits=units.filter(x=>x.subject===u.subject);const currIdx=subjectUnits.findIndex(x=>x.id===u.id);const prevUnit=currIdx>0?subjectUnits[currIdx-1]:null;const nextUnit=currIdx<subjectUnits.length-1?subjectUnits[currIdx+1]:null;const isRead=state.read.includes(id);const mChecks=state.masteryChecklist[id]||[false,false,false,false,false];const mCount=mChecks.filter(Boolean).length;const isMastered=u.questions.every(q=>state.records[q.id]?.latestCorrect)||mCount===5;const isStarred=state.bookmarks.includes(id);const hashParams=new URLSearchParams(location.hash.split('?')[1]||'');const returnCap=hashParams.get('return')==='cap';const capPaper=hashParams.get('paper');const capQ=hashParams.get('q');const returnBannerHtml=returnCap&&capPaper?`<div class="cap-return-banner"><div class="cap-return-banner-text"><span class="cap-return-badge">歷屆會考真題研讀模式</span><p>您正從 <strong>${escape(capPaper)} 第 ${escape(capQ||'1')} 題</strong> 進入本課加強觀念。弄懂題眼與解題鏈後，隨時返回繼續挑戰！</p></div><a class="button small" href="#/cap-exam/${escape(capPaper)}?mode=practice&q=${escape(capQ||'1')}">🔙 返回會考第 ${escape(capQ||'1')} 題作答 →</a></div>`:'';$('#main').innerHTML=`<article class="lesson">${returnBannerHtml}<div class="landscape-studio-entry-banner"><div class="studio-entry-info"><span class="studio-badge">🖥️ 均一式寬螢幕沉浸學習</span><strong>橫式全螢幕研經工作台</strong><p class="muted">展開大螢幕三欄工作台：左側主題技能樹 · 中央研經黑板講義 · 右側隨堂草稿演算紙與即時驗收</p></div><button class="button studio-launch-btn" id="launch-studio-btn" type="button" title="進入橫式全螢幕工作台 (快捷鍵: F)">⛶ 展開橫式全螢幕研經觀看 <kbd>F</kbd></button></div><div class="lesson-header-nav"><a class="breadcrumb" href="#/subject/${s.id}">← ${s.name}學習路徑</a><div class="lesson-seq-nav"><button id="bookmark-btn" class="button small ghost star-btn ${isStarred?'starred':''}" title="收藏此單元">${isStarred?'★ 已收藏':'☆ 收藏單元'}</button>${prevUnit?`<a class="button small ghost" href="#/lesson/${prevUnit.id}" title="${escape(prevUnit.title)}">← 上一課</a>`:`<span class="button small ghost disabled">← 上一課</span>`}<span class="lesson-progress-badge">第 ${currIdx+1} / ${subjectUnits.length} 課</span>${nextUnit?`<a class="button small ghost" href="#/lesson/${nextUnit.id}" title="${escape(nextUnit.title)}">下一課 →</a>`:`<span class="button small ghost disabled">下一課 →</span>`}</div></div><div class="row"><span class="tag accent">${u.grade} 年級・${u.term===1?'上':'下'}學期建議主題</span>${isMastered?'<span class="tag success">✓ 本課已精熟 (滿星/答對)</span>':(isRead?'<span class="tag">✓ 已閱讀</span>':'<span class="subtle">未學習</span>')}<span class="mastery-score-pill" style="margin-left:auto;">⭐ 精熟指標 ${mCount}/5</span></div><h1>${u.title}</h1><p class="intro muted">${u.concept.split('。')[0]}。</p><div class="lesson-mastery-bar-wrap" title="本課掌握度"><div class="lesson-mastery-bar-fill" style="width:${Math.max(isMastered?100:(state.notes[id]?.trim()?70:(isRead?35:5)), mCount*20)}%;"></div></div><div class="row"><span class="subtle">約 ${u.minutes} 分鐘 · 觀念解析＋解題思維鏈＋2 題驗收＋跨科圖譜</span><button class="button small secondary" id="speak-concept-btn" title="語音朗讀核心觀念與破題要訣">🔊 朗讀觀念</button><button class="button small secondary" id="print-lesson">列印筆記</button></div><nav class="lesson-journey-nav" aria-label="學習階梯快速導覽"><a href="#step-understand" class="journey-chip active" data-anchor="step-understand"><span>01</span> 觀念錨定</a><a href="#step-exegesis" class="journey-chip" data-anchor="step-exegesis"><span>📋</span> 研經板書</a><a href="#step-diagram" class="journey-chip" data-anchor="step-diagram"><span>02</span> 圖解與對照</a><a href="#step-solve" class="journey-chip" data-anchor="step-solve"><span>03</span> 示範與解題鏈</a><a href="#step-pitfall" class="journey-chip" data-anchor="step-pitfall"><span>04</span> 易錯避坑</a><a href="#step-practice" class="journey-chip" data-anchor="step-practice"><span>05</span> 費曼輸出與驗收</a><a href="#step-knowledge-mesh" class="journey-chip" data-anchor="step-knowledge-mesh"><span>🌐</span> 跨科網絡圖譜</a></nav><section class="lesson-step" id="step-understand"><div class="step-label">STAGE 01 / UNDERSTAND</div><h2>觀念精講與核心直覺</h2><div class="concept-anchor-box"><div class="concept-anchor-header"><span class="anchor-badge">🎯 核心概念錨定</span><span class="subtle">建立本質直覺 · 拒絕死記公式</span></div><p class="concept">${escape(u.concept)}</p><div class="lesson-takeaway-card"><div class="takeaway-header"><span class="takeaway-icon">⚡</span><strong>核心考點速記金句 · 記憶錨定</strong></div><p class="takeaway-concept"><strong>🎯 破題題眼：</strong>${escape(u.concept.split('。')[0])}。</p>${u.pitfall?`<p class="takeaway-pitfall"><strong>⚠️ 避坑防呆：</strong>${escape(u.pitfall.split('。')[0])}。</p>`:''}</div>${renderExamRadarIntel(u)}${renderUnitStageTables(u)}<div class="concept-anchor-footer"><span class="tip-icon">💡</span><div class="tip-text"><strong>理解心法：</strong>試著用腦海中的圖像或日常生活體驗來體會這段話的意義。</div></div></div></section>${renderExegesisBoard(u)}<section class="lesson-step" id="step-diagram"><div class="step-label">STAGE 02 / SCHEMAS &amp; CONTRAST</div><h2>結構圖解與對照辨析</h2>${getDiagram(u)}${renderTeaching(u)}${renderSupplement(u)}</section><section class="lesson-step" id="step-solve"><div class="step-label">STAGE 03 / WORKED EXAMPLE &amp; THINKING CHAIN</div><h2>典範例題與解題思維鏈</h2><p class="muted">學會「看穿題眼」，把抽象觀念落地為一步步解題思維。</p><div class="example-card"><div class="example-card-header"><span class="example-badge">【經典題型破題直擊】</span><span class="subtle">快速示範思路</span></div><div class="example-content">${escape(u.example)}</div></div>${renderThinkingFlowChart(u)}${renderWorkedCase(u)}</section><section class="lesson-step" id="step-pitfall"><div class="step-label">STAGE 04 / MISCONCEPTIONS &amp; PITFALLS</div><h2>易錯迷思避坑指南</h2><div class="misconception-card"><div class="misconception-header"><span class="misconception-icon">⚠️</span><strong>考場易錯盲點（避坑雷達）</strong></div><div class="misconception-body">${escape(u.pitfall)}</div><div class="misconception-tip"><strong>🛡️ 防禦思維：</strong>審題時看到關鍵字，務必提醒自己確認限制條件，不跳步妄下斷語。</div></div>${renderMisconceptionDefenseTable(u)}</section><section class="lesson-step" id="step-practice"><div class="step-label">STAGE 05 / ACTIVE RECALL &amp; PRACTICE</div><h2>${practical?'動手做，留下學習證據':'費曼輸出：換你解釋給自己聽'}</h2>${renderConceptQuickCheck(u)}<div class="task-prompt">${escape(u.task)}</div>${renderFeynmanCycleChart(u)}${renderConceptMasteryChecklist(u,mChecks)}<div class="feynman-toolbar"><div class="feynman-title"><span>🧠 費曼筆記鷹架（點擊範本快速導入思考架構）：</span></div><div class="feynman-templates" role="group" aria-label="費曼筆記範本"><button type="button" class="feynman-btn" data-feynman="plain">🍎 白話說觀念</button><button type="button" class="feynman-btn" data-feynman="steps">📐 解題思維路徑</button><button type="button" class="feynman-btn" data-feynman="pitfall">🛡️ 專屬避坑手記</button><button type="button" class="feynman-btn ghost" data-feynman="clear" title="清空筆記重寫">↺ 重設</button><button type="button" class="feynman-btn ghost" id="copy-note-btn" title="複製筆記到剪貼簿">📋 複製筆記</button></div></div><label for="lesson-note">我的推理、作品說明或自學筆記</label><textarea id="lesson-note" placeholder="用自己的話寫下方法、理由與發現。點選上方範本可帶入引導問題。內容自動儲存於本機。">${escape(state.notes[id]||'')}</textarea><div class="note-meta-row"><span class="subtle" id="note-status">輸入後自動儲存於本機。</span><span class="subtle" id="note-count">${(state.notes[id]||'').length} 字</span></div><h3>學習自評檢核（主動回想指標）</h3>${(practical?['我完成了實作任務，並能清楚說明操作與觀察過程。','我能以具體數據、圖形或作品支持自己的論點。','我根據反饋或檢驗結果做了至少一項具體修正。']:['我能不看講義，用自己的話向他人說明這個核心概念。','我能掌握解題推導步驟，並主動避開常見易錯迷思。','我能舉出一個生活中的應用情境或例證進行檢驗。']).map((text,i)=>`<label class="check"><input type="checkbox" data-rubric="${i}" ${evidence[i]?'checked':''}><span>${text}</span></label>`).join('')}<p class="notice">${practical?'請邀請教師或同儕給予具體回饋。勾選是自我紀錄，並非技能認證。':'主動回想能活化大腦長期記憶，完成檢核後即可進行觀念驗收。'}</p><div class="actions"><button id="mark-read" class="button secondary">${isRead?'✓ 已標記閱讀':'標記已閱讀'}</button><button id="lesson-practice" class="button">觀念驗收 · 2 題立即作答 →</button></div></section>${renderKnowledgeMesh(u)}${lessonResources(u)}<section class="lesson-step"><div class="step-label">STAGE 06 / CURRICULUM &amp; NEXT</div><h2>延伸探索與下個主題</h2><p class="notice">學習方向參照 <a class="source-link" href="${source.url}" target="_blank" rel="noopener">${source.name} ↗</a>。本站以主題重組核心概念；兩題驗收不代表完整掌握。本土語文、口說、藝術、體育與實作仍須搭配教師回饋，並非逐條課綱指標的完整教材。</p>${s.id==='math'?'<p><a class="button ghost" href="#/labs">前往互動實驗室：觀察數量與圖形 →</a></p>':''}<div class="lesson-bottom-nav">${prevUnit?`<a class="button secondary" href="#/lesson/${prevUnit.id}">← 上一單元：${escape(prevUnit.title)}</a>`:'<span></span>'}${nextUnit?`<a class="button" href="#/lesson/${nextUnit.id}">下一單元：${escape(nextUnit.title)} →</a>`:`<a class="button" href="#/subject/${s.id}">返回 ${s.name} 章節總覽 →</a>`}</div></section></article>`;$('#print-lesson').onclick=()=>window.print();if($('#launch-studio-btn'))$('#launch-studio-btn').onclick=()=>openLandscapeStudio(id);
   if($('#speak-concept-btn'))$('#speak-concept-btn').onclick=()=>readConceptAloud(u.title+'。核心概念：'+u.concept+'。典範思路：'+u.example,'zh-TW');
   if($('#copy-note-btn'))$('#copy-note-btn').onclick=()=>{
     const txt=$('#lesson-note')?.value||'';
@@ -230,7 +594,7 @@ function lesson(id){const u=unitById[id];if(!u)return notFound();const s=subject
         }
       });
     },{rootMargin:'-15% 0px -65% 0px',threshold:0});
-    ['step-understand','step-diagram','step-solve','step-pitfall','step-practice','step-knowledge-mesh'].forEach(sid=>{
+    ['step-understand','step-exegesis','step-diagram','step-solve','step-pitfall','step-practice','step-knowledge-mesh'].forEach(sid=>{
       const el=document.getElementById(sid);
       if(el)spyObs.observe(el);
     });
@@ -260,11 +624,22 @@ if($('#streak-topbar-btn'))$('#streak-topbar-btn').onclick=openHabitModal;
 if($('#level-topbar-btn'))$('#level-topbar-btn').onclick=openHabitModal;
 if($('#habit-close'))$('#habit-close').onclick=closeHabitModal;
 if($('#habit-backdrop'))$('#habit-backdrop').onclick=closeHabitModal;
+if($('#studio-close-btn'))$('#studio-close-btn').onclick=closeLandscapeStudio;
+if($('#studio-collapse-btn'))$('#studio-collapse-btn').onclick=()=>{const sb=$('#studio-sidebar');if(sb){sb.classList.toggle('collapsed');$('#studio-collapse-btn').textContent=sb.classList.contains('collapsed')?'▶':'◀';}};
+if($('#studio-speak-btn'))$('#studio-speak-btn').onclick=()=>{if(currentStudioUnitId&&unitById[currentStudioUnitId]){const u=unitById[currentStudioUnitId];readConceptAloud(u.title+'。核心觀念：'+u.concept+'。解題思維：'+u.example,'zh-TW');}};
+if($('#studio-theme-btn'))$('#studio-theme-btn').onclick=cycleTheme;
+if($('#studio-streak-btn'))$('#studio-streak-btn').onclick=openHabitModal;
+if($('#studio-level-btn'))$('#studio-level-btn').onclick=openHabitModal;
+
 if($('#back-to-top-btn'))$('#back-to-top-btn').onclick=()=>window.scrollTo({top:0,behavior:'smooth'});window.addEventListener('scroll',()=>{const s=document.documentElement.scrollTop||document.body.scrollTop,h=(document.documentElement.scrollHeight||document.body.scrollHeight)-document.documentElement.clientHeight,p=h>0?(s/h)*100:0,b=$('#reading-progress'),t=$('#back-to-top-btn');if(b)b.style.width=Math.min(100,Math.max(0,p))+'%';if(t)t.classList.toggle('visible',s>320)},{passive:true});if('serviceWorker' in navigator&&location.protocol.startsWith('http')){window.addEventListener('load',()=>{navigator.serviceWorker.register('./sw.js').catch(()=>{})})};
 window.addEventListener('keydown',e=>{const isInput=['input','textarea','select'].includes(document.activeElement?.tagName?.toLowerCase());if(e.key==='Escape'){const sm=$('#shortcuts-modal');if(sm&&!sm.hasAttribute('hidden')){e.preventDefault();closeShortcuts();return}const modal=$('#search-modal');if(modal&&!modal.hasAttribute('hidden')){e.preventDefault();closeSearch();return}const pm=$('#pomodoro-modal');
 if(pm&&!pm.hasAttribute('hidden')){e.preventDefault();closePomodoroModal();return;}
 const hm=$('#habit-modal');if(hm&&!hm.hasAttribute('hidden')){e.preventDefault();closeHabitModal();return;}
-if($('.sidebar')?.classList.contains('drawer-open')){e.preventDefault();closeMobileDrawer();return}}const modal=$('#search-modal'),isSearchOpen=modal&&!modal.hasAttribute('hidden');if(!isSearchOpen&&!isInput&&(e.key==='/'||((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'))){e.preventDefault();openSearch();return}if(isSearchOpen){if(e.key==='ArrowDown'){e.preventDefault();if(currentSearchResults.length>0){searchSelectedIdx=(searchSelectedIdx+1)%currentSearchResults.length;updateSearchSelection()}return}if(e.key==='ArrowUp'){e.preventDefault();if(currentSearchResults.length>0){searchSelectedIdx=(searchSelectedIdx-1+currentSearchResults.length)%currentSearchResults.length;updateSearchSelection()}return}if(e.key==='Enter'){if(currentSearchResults[searchSelectedIdx]){e.preventDefault();const target=currentSearchResults[searchSelectedIdx].target;closeSearch();location.hash=target;if(lastRoute===target.slice(1))render()}return}return}const shortcutsModal=$('#shortcuts-modal');if(shortcutsModal&&!shortcutsModal.hasAttribute('hidden')){if(e.key==='Enter'||e.key===' '){e.preventDefault();closeShortcuts();return}return}if(!isInput&&e.key==='?'){e.preventDefault();toggleShortcuts();return}if(!isInput){const route=(location.hash.slice(1)||'/home').split('?')[0].split('/').filter(Boolean),path=route[0];if(path==='quiz'&&state.active){const s=state.active,id=s.ids[s.cursor],ordered=s.orders[id],optMap={'1':0,'2':1,'3':2,'4':3,'a':0,'b':1,'c':2,'d':3,'A':0,'B':1,'C':2,'D':3};if(optMap[e.key]!==undefined&&ordered&&ordered[optMap[e.key]]!==undefined){if(!(s.revealed[id]&&s.mode==='practice')){e.preventDefault();s.answers[id]=ordered[optMap[e.key]];save();quiz();return}}if(e.key==='Enter'||e.key===' '){const chk=$('#check');if(chk&&!chk.disabled){e.preventDefault();s.revealed[id]=true;save();quiz();return}const nxt=$('#next-q');if(nxt&&!nxt.disabled){e.preventDefault();stopAudio();s.cursor++;save();quiz();return}}if(e.key.toLowerCase()==='h'){const hnt=$('#hint');if(hnt&&!hnt.disabled){e.preventDefault();s.hints[id]=true;save();quiz();return}}if(e.key==='ArrowLeft'&&s.cursor>0){e.preventDefault();stopAudio();s.cursor--;save();quiz();return}if(e.key==='ArrowRight'&&s.cursor<s.ids.length-1){e.preventDefault();stopAudio();s.cursor++;save();quiz();return}}if(path==='lesson'){const stages={'1':'step-understand','2':'step-diagram','3':'step-solve','4':'step-pitfall','5':'step-practice','6':'step-knowledge-mesh'};if(stages[e.key]){const el=document.getElementById(stages[e.key]);if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth'});$$('.journey-chip').forEach(c=>c.classList.toggle('active',c.dataset.anchor===stages[e.key]));return}}if(e.key==='['){$('.lesson-seq-nav a[title*="上一課"]')?.click()}if(e.key===']'){$('.lesson-seq-nav a[title*="下一課"]')?.click()}}if(path==='review'&&reviewMode==='flashcard'){if(e.key===' '||e.key==='Enter'){const fl=$('#fc-flip');if(fl){e.preventDefault();fl.click();return}}}if(path==='cap-exam'){const capOptMap={'1':'A','2':'B','3':'C','4':'D','a':'A','b':'B','c':'C','d':'D','A':'A','B':'B','C':'C','D':'D'};if(capOptMap[e.key]){const btn=$(`.cap-opt-btn[data-letter="${capOptMap[e.key]}"]`);if(btn){e.preventDefault();btn.click();return}}if(e.key==='ArrowLeft'){const prev=$('#cap-prev-btn');if(prev&&!prev.disabled){e.preventDefault();prev.click();return}}if(e.key==='ArrowRight'){const next=$('#cap-next-btn');if(next&&!next.disabled){e.preventDefault();next.click();return}}if(e.key==='Enter'){const chk=$('#check-single-answer-btn');if(chk&&!chk.disabled){e.preventDefault();chk.click();return}const next=$('#cap-next-btn');if(next&&!next.disabled){e.preventDefault();next.click();return}}if(e.key.toLowerCase()==='m'){const mark=$('#mark-question-btn');if(mark){e.preventDefault();mark.click();return}}if(e.key.toLowerCase()==='z'){const modal=$('#img-modal-backdrop');if(modal&&modal.style.display==='flex'){e.preventDefault();modal.click();return}const img=$('.zoomable-img');if(img){e.preventDefault();img.click();return}}}}});
+if($('.sidebar')?.classList.contains('drawer-open')){e.preventDefault();closeMobileDrawer();return}}const modal=$('#search-modal'),isSearchOpen=modal&&!modal.hasAttribute('hidden');if(!isSearchOpen&&!isInput&&(e.key==='/'||((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'))){e.preventDefault();openSearch();return}if(isSearchOpen){if(e.key==='ArrowDown'){e.preventDefault();if(currentSearchResults.length>0){searchSelectedIdx=(searchSelectedIdx+1)%currentSearchResults.length;updateSearchSelection()}return}if(e.key==='ArrowUp'){e.preventDefault();if(currentSearchResults.length>0){searchSelectedIdx=(searchSelectedIdx-1+currentSearchResults.length)%currentSearchResults.length;updateSearchSelection()}return}if(e.key==='Enter'){if(currentSearchResults[searchSelectedIdx]){e.preventDefault();const target=currentSearchResults[searchSelectedIdx].target;closeSearch();location.hash=target;if(lastRoute===target.slice(1))render()}return}return}const shortcutsModal=$('#shortcuts-modal');if(shortcutsModal&&!shortcutsModal.hasAttribute('hidden')){if(e.key==='Enter'||e.key===' '){e.preventDefault();closeShortcuts();return}return}if(!isInput&&e.key==='?'){e.preventDefault();toggleShortcuts();return}
+if(!isInput&&(e.key==='f'||e.key==='F')){const route=(location.hash.slice(1)||'/home').split('?')[0].split('/').filter(Boolean);if(route[0]==='lesson'&&route[1]){e.preventDefault();const studio=$('#landscape-studio');if(studio&&!studio.hasAttribute('hidden'))closeLandscapeStudio();else openLandscapeStudio(route[1]);return;}}
+if(!isInput){const route=(location.hash.slice(1)||'/home').split('?')[0].split('/').filter(Boolean),path=route[0];if(path==='quiz'&&state.active){const s=state.active,id=s.ids[s.cursor],ordered=s.orders[id],optMap={'1':0,'2':1,'3':2,'4':3,'a':0,'b':1,'c':2,'d':3,'A':0,'B':1,'C':2,'D':3};if(optMap[e.key]!==undefined&&ordered&&ordered[optMap[e.key]]!==undefined){if(!(s.revealed[id]&&s.mode==='practice')){e.preventDefault();s.answers[id]=ordered[optMap[e.key]];save();quiz();return}}if(e.key==='Enter'||e.key===' '){const chk=$('#check');if(chk&&!chk.disabled){e.preventDefault();s.revealed[id]=true;save();quiz();return}const nxt=$('#next-q');if(nxt&&!nxt.disabled){e.preventDefault();stopAudio();s.cursor++;save();quiz();return}}if(e.key.toLowerCase()==='h'){const hnt=$('#hint');if(hnt&&!hnt.disabled){e.preventDefault();s.hints[id]=true;save();quiz();return}}if(e.key==='ArrowLeft'&&s.cursor>0){e.preventDefault();stopAudio();s.cursor--;save();quiz();return}if(e.key==='ArrowRight'&&s.cursor<s.ids.length-1){e.preventDefault();stopAudio();s.cursor++;save();quiz();return}}
+if(path==='lesson'){const studio=$('#landscape-studio');if(studio&&!studio.hasAttribute('hidden')){if(e.key==='['){const subjectUnits=units.filter(x=>x.subject===unitById[currentStudioUnitId]?.subject);const currIdx=subjectUnits.findIndex(x=>x.id===currentStudioUnitId);if(currIdx>0)openLandscapeStudio(subjectUnits[currIdx-1].id);return;}if(e.key===']'){const subjectUnits=units.filter(x=>x.subject===unitById[currentStudioUnitId]?.subject);const currIdx=subjectUnits.findIndex(x=>x.id===currentStudioUnitId);if(currIdx<subjectUnits.length-1)openLandscapeStudio(subjectUnits[currIdx+1].id);return;}}}
+if(path==='lesson'){const stages={'1':'step-understand','2':'step-diagram','3':'step-solve','4':'step-pitfall','5':'step-practice','6':'step-knowledge-mesh'};if(stages[e.key]){const el=document.getElementById(stages[e.key]);if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth'});$$('.journey-chip').forEach(c=>c.classList.toggle('active',c.dataset.anchor===stages[e.key]));return}}if(e.key==='['){$('.lesson-seq-nav a[title*="上一課"]')?.click()}if(e.key===']'){$('.lesson-seq-nav a[title*="下一課"]')?.click()}}if(path==='review'&&reviewMode==='flashcard'){if(e.key===' '||e.key==='Enter'){const fl=$('#fc-flip');if(fl){e.preventDefault();fl.click();return}}}if(path==='cap-exam'){const capOptMap={'1':'A','2':'B','3':'C','4':'D','a':'A','b':'B','c':'C','d':'D','A':'A','B':'B','C':'C','D':'D'};if(capOptMap[e.key]){const btn=$(`.cap-opt-btn[data-letter="${capOptMap[e.key]}"]`);if(btn){e.preventDefault();btn.click();return}}if(e.key==='ArrowLeft'){const prev=$('#cap-prev-btn');if(prev&&!prev.disabled){e.preventDefault();prev.click();return}}if(e.key==='ArrowRight'){const next=$('#cap-next-btn');if(next&&!next.disabled){e.preventDefault();next.click();return}}if(e.key==='Enter'){const chk=$('#check-single-answer-btn');if(chk&&!chk.disabled){e.preventDefault();chk.click();return}const next=$('#cap-next-btn');if(next&&!next.disabled){e.preventDefault();next.click();return}}if(e.key.toLowerCase()==='m'){const mark=$('#mark-question-btn');if(mark){e.preventDefault();mark.click();return}}if(e.key.toLowerCase()==='z'){const modal=$('#img-modal-backdrop');if(modal&&modal.style.display==='flex'){e.preventDefault();modal.click();return}const img=$('.zoomable-img');if(img){e.preventDefault();img.click();return}}}}});
 window.addEventListener('hashchange',()=>{render();$('#main').focus({preventScroll:true})});
 window.addEventListener('pagehide',stopAudio);
 applySettings();render();
