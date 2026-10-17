@@ -18,7 +18,7 @@ export const knowledgeNetwork = {
       },
       {
         "unitId": "history-1",
-        "reason": "西元紀年以西元元年為基準，公元前後對應數線正負",
+        "reason": "公元前後可輔助理解時間先後；傳統西元紀年沒有 0 年，跨公元計算不能直接照搬整數數線",
         "badge": "歷史時序"
       }
     ],

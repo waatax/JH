@@ -5,6 +5,7 @@ import {units, subjects} from '../dist/curriculum.js';
 import {renderLearningGuide, learningGuideFor} from '../dist/learning-guide.js';
 import {subjectStrategies} from '../dist/subject-strategies.js';
 import {lessonAlignment} from '../dist/lesson-alignment.js';
+import {renderUnitStageTables} from '../dist/pedagogy-visuals.js';
 const escape = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 test('round 1: all lessons and subjects have usable learning objectives',()=>{
@@ -18,7 +19,7 @@ test('round 3: recall answers and explanations match original question records',
  for(const u of units){const html=renderLearningGuide(u);for(const q of u.questions){assert(q.answer>=0&&q.answer<q.options.length);assert(html.includes(`答案：${String.fromCharCode(65+q.answer)}．${escape(q.options[q.answer])}`));assert(html.includes(escape(q.explanation)));}assert.equal((html.match(/展開答案與修正依據/g)||[]).length,u.questions.length);}
 });
 test('round 4: remediation references a worked example for every lesson',()=>{
- for(const u of units){const g=learningGuideFor(u);assert(g.worked.teaching.length>40);assert(g.worked.check.length>15);assert(renderLearningGuide(u).includes('隔天不看答案'));}
+ for(const u of units){const g=learningGuideFor(u);assert(g.worked.teaching.length>40);assert(g.worked.check.length>15);assert(renderLearningGuide(u).includes('隔天不看答案'));const html=renderUnitStageTables(u);assert(!html.includes('undefined'),u.id);assert(html.includes(escape(g.worked.problem)),u.id);}
 });
 test('round 5: accessible structure, escaping and mobile styles',()=>{
  const probe={...units[0],title:'<img src=x onerror=alert(1)>',task:'<script>bad()</script>'};

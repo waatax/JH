@@ -1308,7 +1308,7 @@ export function renderUnitStageTables(u) {
   const wc = workedCases[u.id];
   const takeaways = [
     ['核心破題概念', u.concept.split('。')[0] + '。', `審題時迅速聯想「${u.title}」心智模型與定義`],
-    ['實戰審題焦點', wc ? `${wc.title}（${wc.focus}）` : u.title, wc ? wc.steps[0] : '先圈出題幹已知條件與所求目標'],
+    ['實戰審題焦點', wc ? wc.problem : u.title, wc ? wc.steps[0] : '先圈出題幹已知條件與所求目標'],
     ['關鍵解題規準', u.example.split('。')[0] + '。', '依循已知條件、定理依據逐步推進推導'],
     ['防呆驗算邊界', u.pitfall.split('。')[0] + '。', wc ? wc.check : '留意極端值、負數變號或圖形假象']
   ];
