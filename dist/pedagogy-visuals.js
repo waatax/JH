@@ -2093,41 +2093,16 @@ export function renderCapReadinessGuide() {
 // 17. LESSON QUICK CHECK: Interactive 10-Second Concept Flash Check
 // ============================================================================
 export function renderConceptQuickCheck(u) {
-  const questionPrompt = `【10秒觀念速檢】關於「${u.title}」，下列敘述何者最符合核心概念與判準？`;
-  const correctOpt = u.concept.split('。')[0] + '。';
-  // Convert pitfall warning into a plausible misconception statement without giveaway text
-  const rawPitfall = u.pitfall.split('。')[0]
-    .replace(/^切忌將/, '可直接將')
-    .replace(/^不可將/, '可直接將')
-    .replace(/^不要把/, '可以直接把')
-    .replace(/^不能只憑/, '只要憑藉')
-    .replace(/^不能把/, '可以直接把')
-    .replace(/^勿把/, '可以直接把')
-    .replace(/^注意/, '');
-  const wrongOpt1 = rawPitfall.endsWith('。') ? rawPitfall : rawPitfall + '。';
-  const q0 = u.questions?.[0];
-  const wrongOpt2 = q0
-    ? `判斷「${u.title}」時，不必考慮題目給定的前提條件與單位限制，直接套用單一公式即可。`
-    : '只要死背名詞定義代入即可，不需要檢驗適用條件與反例邊界。';
-
-  const unitNum = parseInt((u.id.split('-')[1] || '1'), 10) || 1;
-  const baseItems = [
-    { result: 'correct', text: correctOpt },
-    { result: 'wrong', text: wrongOpt1 },
-    { result: 'wrong', text: wrongOpt2 }
-  ];
-  const shift = unitNum % 3;
-  const rotated = [
-    baseItems[(0 + shift) % 3],
-    baseItems[(1 + shift) % 3],
-    baseItems[(2 + shift) % 3]
-  ];
-  const bullets = ['A', 'B', 'C'];
+  const q = u.questions?.[0];
+  if (!q) return '';
+  const questionPrompt = `【觀念速檢】${q.prompt}`;
+  const rotated = q.options.map((text,index)=>({text,result:index===q.answer?'correct':'wrong'}));
+  const bullets = ['A','B','C','D','E'];
 
   return `
     <div class="concept-quick-check-card" id="quick-check-wrap-${u.id}">
       <div class="quick-check-header">
-        <span class="quick-check-badge">⚡ 10秒觀念秒答挑戰</span>
+        <span class="quick-check-badge">⚡ 觀念練習：先想理由再作答</span>
         <span class="subtle">動手選選看，立即檢測「${esc(u.title)}」思維錨定</span>
       </div>
       <p class="quick-check-prompt">${esc(questionPrompt)}</p>
@@ -2245,7 +2220,7 @@ export function renderThinkingFlowChart(u) {
       n2: '列式推演·幾何建模', s2: '公式定理·圖形輔助',
       n3: '代數化簡·邏輯求解', s3: '步步有據·精確計算',
       n4: '代回驗算·正負界線', s4: '檢核合理性·不漏解',
-      advice: `【${u.title}】審題先鎖定「${wc ? wc.focus : u.title}」（第 1 步），再依定義列式或畫圖（第 2 步），嚴謹推演（第 3 步），最後務必執行防呆檢核：${wc ? wc.check : u.pitfall}`
+      advice: `【${u.title}】審題先鎖定「${wc ? wc.steps[0] : u.title}」（第 1 步），再依定義列式或畫圖（第 2 步），嚴謹推演（第 3 步），最後務必執行防呆檢核：${wc ? wc.check : u.pitfall}`
     };
   } else if (['physics', 'chemistry', 'biology', 'earth'].includes(u.subject)) {
     flow = {
@@ -2253,7 +2228,7 @@ export function renderThinkingFlowChart(u) {
       n2: '對接自然原理定律', s2: '微觀粒子·能量守恆',
       n3: '因果推論·圖表判讀', s3: '由因導果·分析趨勢',
       n4: '單位換算·除直覺誤', s4: '確認極端值·防呆驗算',
-      advice: `【${u.title}】先分清操縱與控制變因並鎖定「${wc ? wc.focus : u.title}」（第 1 步），連結科學定律（第 2 步），沿因果鏈推導（第 3 步），最後檢核：${wc ? wc.check : u.pitfall}`
+      advice: `【${u.title}】先分清操縱與控制變因並鎖定「${wc ? wc.steps[0] : u.title}」（第 1 步），連結科學定律（第 2 步），沿因果鏈推導（第 3 步），最後檢核：${wc ? wc.check : u.pitfall}`
     };
   } else if (['chinese', 'english', 'local'].includes(u.subject)) {
     flow = {
@@ -2261,7 +2236,7 @@ export function renderThinkingFlowChart(u) {
       n2: '對照文法·修辭架構', s2: '時態主謂·文章脈絡',
       n3: '前後文推論·提煉意涵', s3: '從文意線索破題',
       n4: '代回語境·除斷章義', s4: '檢核通順·確認題旨',
-      advice: `【${u.title}】先抓題眼關鍵詞「${wc ? wc.focus : u.title}」（第 1 步），回文定位上下文句意（第 2 步），理清論述架構（第 3 步），最後檢核：${wc ? wc.check : u.pitfall}`
+      advice: `【${u.title}】先抓題眼關鍵詞「${wc ? wc.steps[0] : u.title}」（第 1 步），回文定位上下文句意（第 2 步），理清論述架構（第 3 步），最後檢核：${wc ? wc.check : u.pitfall}`
     };
   } else if (['history', 'geography', 'civics'].includes(u.subject)) {
     flow = {
@@ -2269,10 +2244,10 @@ export function renderThinkingFlowChart(u) {
       n2: '比對史地脈絡·法理', s2: '因果網絡·空間要素',
       n3: '多角度權衡與推演', s3: '綜合線索推得正解',
       n4: '防時代錯置·除偏概全', s4: '扣緊題幹核心問項',
-      advice: `【${u.title}】先在題幹抓出時空與制度線索「${wc ? wc.focus : u.title}」（第 1 步），比對因果脈絡與法政原則（第 2 步），綜合推論（第 3 步），最後檢核：${wc ? wc.check : u.pitfall}`
+      advice: `【${u.title}】先在題幹抓出時空與制度線索「${wc ? wc.steps[0] : u.title}」（第 1 步），比對因果脈絡與法政原則（第 2 步），綜合推論（第 3 步），最後檢核：${wc ? wc.check : u.pitfall}`
     };
   } else {
-    flow.advice = `【${u.title}】先鎖定任務條件「${wc ? wc.focus : u.title}」（第 1 步），連結核心原則（第 2 步），逐步實作分析（第 3 步），最後檢核：${wc ? wc.check : u.pitfall}`;
+    flow.advice = `【${u.title}】先鎖定任務條件「${wc ? wc.steps[0] : u.title}」（第 1 步），連結核心原則（第 2 步），逐步實作分析（第 3 步），最後檢核：${wc ? wc.check : u.pitfall}`;
   }
 
   return `
@@ -2280,7 +2255,7 @@ export function renderThinkingFlowChart(u) {
       <div class="flowchart-header">
         <span class="flowchart-icon">🗺️</span>
         <div class="flowchart-title-group">
-          <strong>${esc(u.title)} · 解題思維決策路徑流程圖（${esc(wc ? wc.focus : '4 階破局架構')}）</strong>
+          <strong>${esc(u.title)} · 解題思維決策路徑流程圖（${esc(wc ? wc.steps[0] : '4 階破局架構')}）</strong>
           <span class="subtle">依循邏輯因果神經迴路 · 將直覺昇華為穩健推導</span>
         </div>
       </div>

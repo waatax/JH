@@ -31,11 +31,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】正負數與絕對值：undefined",
+      "title": "【板書推演】正負數與絕對值：潛水員位於海平面下 12 公尺，先上升 7 公尺，再下降 4 公尺。最後位置與總移動距離各是多少？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（把海平面設為 0，上方為正，所以起點為 −12。）",
           "mathExpression": "相反數 ➔ 改變方向，大小不變",
           "explanation": "把海平面設為 0，上方為正，所以起點為 −12。"
         },
@@ -61,7 +61,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「相反數、絕對值」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「相反數、絕對值」之規則完成「潛水員位於海平面下 12 公尺，先上升 7 公尺，再下降 4 公尺。最後位置與總移動距離各是多少？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -69,7 +69,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「正負數與絕對值、undefined、相反數、絕對值、兩點距離」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「正負數與絕對值、把海平面設為 0，上方為正，所以起點為 −12。、相反數、絕對值、兩點距離」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】−(−3) 是 3；但 −|−3| 是 −3，括號外的負號不能消失。",
       "defenseCheck": "【考場防呆】答案要同時寫數值、單位及意義；11 公尺路程不等於上升 11 公尺。"
     }
@@ -103,11 +103,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】因數、倍數與質因數分解：undefined",
+      "title": "【板書推演】因數、倍數與質因數分解：有 48 枝鉛筆、60 個橡皮擦，分成內容完全相同的禮包且沒有剩餘，最多可分幾包？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（48＝2⁴×3，60＝2²×3×5。）",
           "mathExpression": "最大公因數 ➔ 共同質因數，取較小次方",
           "explanation": "48＝2⁴×3，60＝2²×3×5。"
         },
@@ -133,7 +133,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「最大公因數、最小公倍數」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「最大公因數、最小公倍數」之規則完成「有 48 枝鉛筆、60 個橡皮擦，分成內容完全相同的禮包且沒有剩餘，最多可分幾包？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -141,7 +141,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「因數、倍數與質因數分解、undefined、最大公因數、最小公倍數、互質」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「因數、倍數與質因數分解、48＝2⁴×3，60＝2²×3×5。、最大公因數、最小公倍數、互質」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】1 不是質數；互質不代表兩個數各自都是質數，例如 8 與 9。",
       "defenseCheck": "【考場防呆】12 必須同時整除兩種數量；只用 48＋60 再平均，不能保證每包內容相同。"
     }
@@ -175,11 +175,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】分數運算與科學記號：undefined",
+      "title": "【板書推演】分數運算與科學記號：一瓶有 3/4 公升果汁，喝掉原有量的 2/3 後剩多少？將 0.000075 寫成科學記號。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（喝掉的是 3/4×2/3＝1/2 公升，不是直接減 2/3 公升。）",
           "mathExpression": "加減 ➔ 通分後，只加減分子",
           "explanation": "喝掉的是 3/4×2/3＝1/2 公升，不是直接減 2/3 公升。"
         },
@@ -205,7 +205,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「加減、乘除」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「加減、乘除」之規則完成「一瓶有 3/4 公升果汁，喝掉原有量的 2/3 後剩多少？將 0.000075 寫成科學記號。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -213,7 +213,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「分數運算與科學記號、undefined、加減、乘除、科學記號」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「分數運算與科學記號、喝掉的是 3/4×2/3＝1/2 公升，不是直接減 2/3 公升。、加減、乘除、科學記號」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】小數點左移使係數變小時，10 的次方要補償變大，總值才不變。",
       "defenseCheck": "【考場防呆】「原有量的幾分之幾」描述比例；帶公升的量才可直接相加減。"
     }
@@ -247,11 +247,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】一元一次方程式：undefined",
+      "title": "【板書推演】一元一次方程式：三張相同門票加 30 元手續費，付 500 元找回 110 元，每張票多少元？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（實付金額為 500−110＝390 元，設每張票 x 元。）",
           "mathExpression": "設未知數 ➔ 寫出變數的意義與單位",
           "explanation": "實付金額為 500−110＝390 元，設每張票 x 元。"
         },
@@ -277,7 +277,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「設未知數、列關係」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「設未知數、列關係」之規則完成「三張相同門票加 30 元手續費，付 500 元找回 110 元，每張票多少元？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -285,7 +285,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「一元一次方程式、undefined、設未知數、列關係、消去」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「一元一次方程式、實付金額為 500−110＝390 元，設每張票 x 元。、設未知數、列關係、消去」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】移項變號是兩側同做加減的結果，不是只改變一邊。",
       "defenseCheck": "【考場防呆】找零不是另一項費用；若列成 3x＋30＝500，就忽略了退回的金額。"
     }
@@ -319,11 +319,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】二元一次聯立方程式：undefined",
+      "title": "【板書推演】二元一次聯立方程式：買成人票 80 元、學生票 50 元共 9 張，總共 600 元，兩種票各幾張？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（設成人票 x 張、學生票 y 張：x＋y＝9，80x＋50y＝600。）",
           "mathExpression": "設未知數 ➔ 寫出變數的意義與單位",
           "explanation": "設成人票 x 張、學生票 y 張：x＋y＝9，80x＋50y＝600。"
         },
@@ -349,7 +349,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「設未知數、列關係」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「設未知數、列關係」之規則完成「買成人票 80 元、學生票 50 元共 9 張，總共 600 元，兩種票各幾張？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -357,7 +357,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「二元一次聯立方程式、undefined、設未知數、列關係、消去」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「二元一次聯立方程式、設成人票 x 張、學生票 y 張：x＋y＝9，80x＋50y＝600。、設未知數、列關係、消去」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】找到一式的解還不夠，必須代回兩式。",
       "defenseCheck": "【考場防呆】總張數與總價各提供一個條件；票數必須為非負整數。"
     }
@@ -391,11 +391,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】比例、正比與反比：undefined",
+      "title": "【板書推演】比例、正比與反比：甲方案每次收 20 元，再按使用時間每分鐘 3 元；乙方案每分鐘 5 元。各用 10 分鐘是否同價？哪個是正比？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（設使用 x 分鐘，甲 y＝20＋3x，乙 y＝5x。）",
           "mathExpression": "正比 ➔ y/x＝k（x≠0）",
           "explanation": "設使用 x 分鐘，甲 y＝20＋3x，乙 y＝5x。"
         },
@@ -421,7 +421,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「正比、反比」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「正比、反比」之規則完成「甲方案每次收 20 元，再按使用時間每分鐘 3 元；乙方案每分鐘 5 元。各用 10 分鐘是否同價？哪個是正比？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -429,7 +429,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「比例、正比與反比、undefined、正比、反比、含基本費」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「比例、正比與反比、設使用 x 分鐘，甲 y＝20＋3x，乙 y＝5x。、正比、反比、含基本費」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】費用含基本費時常是一次關係，但不一定是正比。",
       "defenseCheck": "【考場防呆】一次價格相同不能推出兩種計費方式相同；可再代入 20 分鐘比較。"
     }
@@ -463,11 +463,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】一元一次不等式：undefined",
+      "title": "【板書推演】一元一次不等式：有 200 元，先支付 35 元運費，再買每本 18 元的筆記本，最多可買幾本？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（設買 x 本，18x＋35≤200，且 x 是非負整數。）",
           "mathExpression": "兩邊同加減 ➔ 方向不變",
           "explanation": "設買 x 本，18x＋35≤200，且 x 是非負整數。"
         },
@@ -493,7 +493,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「兩邊同加減、同乘除正數」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「兩邊同加減、同乘除正數」之規則完成「有 200 元，先支付 35 元運費，再買每本 18 元的筆記本，最多可買幾本？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -501,7 +501,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「一元一次不等式、undefined、兩邊同加減、同乘除正數、同乘除負數」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「一元一次不等式、設買 x 本，18x＋35≤200，且 x 是非負整數。、兩邊同加減、同乘除正數、同乘除負數」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】把 < 誤讀成 ≤ 會多包含邊界值。",
       "defenseCheck": "【考場防呆】因為不能買分數本，最大可行整數是向下取整，不是四捨五入決定。"
     }
@@ -535,11 +535,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】坐標與資料圖表：undefined",
+      "title": "【板書推演】坐標與資料圖表：A(−3,2) 水平向右移 5 格，再向下移 4 格到 B，每格代表一單位，求 B 及 A、B 的中點。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（水平移動只改 x：−3＋5＝2；向下使 y 減少：2−4＝−2。）",
           "mathExpression": "坐標順序 ➔ (x,y)：先水平、再鉛直",
           "explanation": "水平移動只改 x：−3＋5＝2；向下使 y 減少：2−4＝−2。"
         },
@@ -565,7 +565,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「坐標順序、象限」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「坐標順序、象限」之規則完成「A(−3,2) 水平向右移 5 格，再向下移 4 格到 B，每格代表一單位，求 B 及 A、B 的中點。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -573,7 +573,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「坐標與資料圖表、undefined、坐標順序、象限、坐標軸」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「坐標與資料圖表、水平移動只改 x：−3＋5＝2；向下使 y 減少：2−4＝−2。、坐標順序、象限、坐標軸」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】圖表縱軸若不是從 0 起算，視覺差距可能被放大。",
       "defenseCheck": "【考場防呆】中點落在 x 軸上，不屬於任何象限；用畫圖可檢查它是否在兩點中間。"
     }
@@ -607,11 +607,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】乘法公式與多項式：undefined",
+      "title": "【板書推演】乘法公式與多項式：不用直式，計算 102²，並說明為何不能算成 100²＋2²。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（將 102 寫成 100＋2，套用 (a＋b)²＝a²＋2ab＋b²。）",
           "mathExpression": "平方公式 ➔ (a＋b)²＝a²＋2ab＋b²",
           "explanation": "將 102 寫成 100＋2，套用 (a＋b)²＝a²＋2ab＋b²。"
         },
@@ -637,7 +637,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「平方公式、平方差」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「平方公式、平方差」之規則完成「不用直式，計算 102²，並說明為何不能算成 100²＋2²。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -645,7 +645,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「乘法公式與多項式、undefined、平方公式、平方差、零乘積」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「乘法公式與多項式、將 102 寫成 100＋2，套用 (a＋b)²＝a²＋2ab＋b²。、平方公式、平方差、零乘積」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】(a＋b)² 不等於 a²＋b²，中間的兩個 ab 不能漏掉。",
       "defenseCheck": "【考場防呆】可以估算答案應略大於 10000，再用展開式逐項核對，不能省略中間項。"
     }
@@ -679,11 +679,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】平方根與畢氏定理：undefined",
+      "title": "【板書推演】平方根與畢氏定理：梯子長 13 公尺，底端距垂直牆面 5 公尺，頂端離地多高？假設地面水平且梯子筆直。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（牆、地面與梯子構成直角三角形，13 是斜邊而非其中一股。）",
           "mathExpression": "算術平方根 ➔ √a 表示非負平方根",
           "explanation": "牆、地面與梯子構成直角三角形，13 是斜邊而非其中一股。"
         },
@@ -709,7 +709,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「算術平方根、根式」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「算術平方根、根式」之規則完成「梯子長 13 公尺，底端距垂直牆面 5 公尺，頂端離地多高？假設地面水平且梯子筆直。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -717,7 +717,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「平方根與畢氏定理、undefined、算術平方根、根式、畢氏定理」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「平方根與畢氏定理、牆、地面與梯子構成直角三角形，13 是斜邊而非其中一股。、算術平方根、根式、畢氏定理」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】使用畢氏定理前要確認直角；斜邊一定在直角對面。",
       "defenseCheck": "【考場防呆】若牆與地面不垂直，不能直接用此直角模型；圖中的直角條件必須先確認。"
     }
@@ -751,11 +751,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】因式分解：undefined",
+      "title": "【板書推演】因式分解：分解 3x²−27，再求 3x²−27＝0 的解。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先提出共同因數 3：3(x²−9)。）",
           "mathExpression": "平方公式 ➔ (a＋b)²＝a²＋2ab＋b²",
           "explanation": "先提出共同因數 3：3(x²−9)。"
         },
@@ -781,7 +781,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「平方公式、平方差」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「平方公式、平方差」之規則完成「分解 3x²−27，再求 3x²−27＝0 的解。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -789,7 +789,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「因式分解、undefined、平方公式、平方差、零乘積」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「因式分解、先提出共同因數 3：3(x²−9)。、平方公式、平方差、零乘積」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】公因式要提乾淨，且每一項都要除以公因式。",
       "defenseCheck": "【考場防呆】分解式本身不是「答案為 3」；求解要先有等於零的方程式條件。"
     }
@@ -823,11 +823,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】一元二次方程式：undefined",
+      "title": "【板書推演】一元二次方程式：長方形長比寬多 3 公分，面積為 40 平方公分，求長寬。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（設寬 x，長 x＋3，列 x(x＋3)＝40。）",
           "mathExpression": "平方公式 ➔ (a＋b)²＝a²＋2ab＋b²",
           "explanation": "設寬 x，長 x＋3，列 x(x＋3)＝40。"
         },
@@ -853,7 +853,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「平方公式、平方差」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「平方公式、平方差」之規則完成「長方形長比寬多 3 公分，面積為 40 平方公分，求長寬。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -861,7 +861,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「一元二次方程式、undefined、平方公式、平方差、零乘積」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「一元二次方程式、設寬 x，長 x＋3，列 x(x＋3)＝40。、平方公式、平方差、零乘積」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】x(x−3)＝0 不可直接除以 x，否則會遺失 x＝0。",
       "defenseCheck": "【考場防呆】檢查 5×8＝40 且 8−5＝3；代數有兩根，但情境只有一組可行長寬。"
     }
@@ -895,11 +895,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】等差數列與一次函數：undefined",
+      "title": "【板書推演】等差數列與一次函數：數列 7、11、15、19…的第 20 項是多少？把第 n 項表示成一次式。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（公差為 11−7＝4，第 20 項比第 1 項多 19 次公差。）",
           "mathExpression": "公差 d ➔ 相鄰後項減前項",
           "explanation": "公差為 11−7＝4，第 20 項比第 1 項多 19 次公差。"
         },
@@ -925,7 +925,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「公差 d、第 n 項」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「公差 d、第 n 項」之規則完成「數列 7、11、15、19…的第 20 項是多少？把第 n 項表示成一次式。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -933,7 +933,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「等差數列與一次函數、undefined、公差 d、第 n 項、前 n 項和」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「等差數列與一次函數、公差為 11−7＝4，第 20 項比第 1 項多 19 次公差。、公差 d、第 n 項、前 n 項和」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】第 n 項只走了 n−1 次公差；截距不是斜率。",
       "defenseCheck": "【考場防呆】截距 3 不是首項，因為首項對應 n＝1；連續函數與離散數列的定義域不同。"
     }
@@ -967,11 +967,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】三角形全等與幾何推理：undefined",
+      "title": "【板書推演】三角形全等與幾何推理：AB＝AD、BC＝DC，連接 AC，證明 △ABC 與 △ADC 全等，並比較 ∠BAC 與 ∠CAD。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（已知 AB＝AD、BC＝DC，另有共用邊 AC＝AC。）",
           "mathExpression": "全等 ➔ 形狀與大小都相同",
           "explanation": "已知 AB＝AD、BC＝DC，另有共用邊 AC＝AC。"
         },
@@ -997,7 +997,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「全等、相似」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「全等、相似」之規則完成「AB＝AD、BC＝DC，連接 AC，證明 △ABC 與 △ADC 全等，並比較 ∠BAC 與 ∠CAD。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1005,7 +1005,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「三角形全等與幾何推理、undefined、全等、相似、對應次序」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「三角形全等與幾何推理、已知 AB＝AD、BC＝DC，另有共用邊 AC＝AC。、全等、相似、對應次序」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】AAA 只保證相似，不保證大小一樣；SSA 一般不能判定全等。",
       "defenseCheck": "【考場防呆】如果只給兩邊相等，還不足以完成 SSS；第三個條件必須明確說出。"
     }
@@ -1039,11 +1039,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】平行線、四邊形與尺規：undefined",
+      "title": "【板書推演】平行線、四邊形與尺規：兩條平行線被截線切過，一個內角為 65°，求與它同側的另一內角，並說明依據。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先把所求角與已知角標在兩平行線之間，確認位於截線同側。）",
           "mathExpression": "平行四邊形 ➔ 對邊平行且等長，對角相等",
           "explanation": "先把所求角與已知角標在兩平行線之間，確認位於截線同側。"
         },
@@ -1069,7 +1069,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「平行四邊形、長方形」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「平行四邊形、長方形」之規則完成「兩條平行線被截線切過，一個內角為 65°，求與它同側的另一內角，並說明依據。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1077,7 +1077,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「平行線、四邊形與尺規、undefined、平行四邊形、長方形、菱形」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「平行線、四邊形與尺規、先把所求角與已知角標在兩平行線之間，確認位於截線同側。、平行四邊形、長方形、菱形」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】對角線等長不代表一定是正方形，矩形也成立。",
       "defenseCheck": "【考場防呆】圖形可旋轉，角的類別取決於相對位置；不要只記「上面」或「下面」。"
     }
@@ -1111,11 +1111,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】相似形與比例推理：undefined",
+      "title": "【板書推演】相似形與比例推理：同一時刻，1.5 公尺標竿影長 2 公尺，旗杆影長 8 公尺，求旗杆高度。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（在太陽光近似平行、兩物直立且地面水平條件下，兩直角三角形相似。）",
           "mathExpression": "全等 ➔ 形狀與大小都相同",
           "explanation": "在太陽光近似平行、兩物直立且地面水平條件下，兩直角三角形相似。"
         },
@@ -1141,7 +1141,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「全等、相似」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「全等、相似」之規則完成「同一時刻，1.5 公尺標竿影長 2 公尺，旗杆影長 8 公尺，求旗杆高度。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1149,7 +1149,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「相似形與比例推理、undefined、全等、相似、對應次序」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「相似形與比例推理、在太陽光近似平行、兩物直立且地面水平條件下，兩直角三角形相似。、全等、相似、對應次序」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】先找對應邊，不能把任意兩邊直接列成比例。",
       "defenseCheck": "【考場防呆】不可把面積倍率 16 倍套在高度；若地面坡度不同，需要重新檢查相似條件。"
     }
@@ -1183,11 +1183,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】圓、切線與圓周角：undefined",
+      "title": "【板書推演】圓、切線與圓周角：同一圓中，小弧 AB 為 100°，C 在不含小弧 AB 的另一側圓周上，求 ∠ACB。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（∠ACB 的頂點 C 在圓周上，因此是圓周角。）",
           "mathExpression": "圓周角 ➔ 同弧的圓周角＝圓心角的一半",
           "explanation": "∠ACB 的頂點 C 在圓周上，因此是圓周角。"
         },
@@ -1213,7 +1213,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「圓周角、切線」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「圓周角、切線」之規則完成「同一圓中，小弧 AB 為 100°，C 在不含小弧 AB 的另一側圓周上，求 ∠ACB。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1221,7 +1221,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「圓、切線與圓周角、undefined、圓周角、切線、弦切角」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「圓、切線與圓周角、∠ACB 的頂點 C 在圓周上，因此是圓周角。、圓周角、切線、弦切角」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】圓周角的頂點在圓上，圓心角的頂點在圓心。",
       "defenseCheck": "【考場防呆】若 C 改在小弧 AB 上，所對的是 260° 大弧，角會變成 130°；位置不能省略。"
     }
@@ -1255,11 +1255,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】二次函數與極值：undefined",
+      "title": "【板書推演】二次函數與極值：長方形周長 20 公分，設一邊長 x，求最大面積及當時的邊長。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（另一邊為 10−x，且 0＜x＜10。面積 A＝x(10−x)。）",
           "mathExpression": "頂點式 ➔ y＝a(x−h)²＋k，a≠0",
           "explanation": "另一邊為 10−x，且 0＜x＜10。面積 A＝x(10−x)。"
         },
@@ -1285,7 +1285,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「頂點式、開口」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「頂點式、開口」之規則完成「長方形周長 20 公分，設一邊長 x，求最大面積及當時的邊長。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1293,7 +1293,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「二次函數與極值、undefined、頂點式、開口、平移」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「二次函數與極值、另一邊為 10−x，且 0＜x＜10。面積 A＝x(10−x)。、頂點式、開口、平移」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】(x＋2)² 的對稱軸是 x＝−2，不是 2。",
       "defenseCheck": "【考場防呆】只算頂點不夠，須確認邊長為正；面積答案應用平方單位。"
     }
@@ -1327,11 +1327,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】統計、機率與空間圖形：undefined",
+      "title": "【板書推演】統計、機率與空間圖形：五次得分是 2、4、4、5、20。求平均數、中位數，並說明哪個較能描述多數得分。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（總和 35，平均數為 35÷5＝7。）",
           "mathExpression": "平均數 ➔ 總和除以筆數，易受極端值影響",
           "explanation": "總和 35，平均數為 35÷5＝7。"
         },
@@ -1357,7 +1357,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「平均數、中位數」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「平均數、中位數」之規則完成「五次得分是 2、4、4、5、20。求平均數、中位數，並說明哪個較能描述多數得分。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1365,7 +1365,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「統計、機率與空間圖形、undefined、平均數、中位數、全距」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「統計、機率與空間圖形、總和 35，平均數為 35÷5＝7。、平均數、中位數、全距」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】抽樣次數少時，實際頻率不一定等於理論機率；無放回抽取會改變後續條件。",
       "defenseCheck": "【考場防呆】不能說平均數「算錯」；要說明描述目的與極端值如何影響它。"
     }
@@ -1399,11 +1399,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】字詞、語境與修辭：undefined",
+      "title": "【板書推演】字詞、語境與修辭：原創句：「考卷上的紅圈像一盞盞路燈，照出我還沒走熟的路。」分析比喻如何呈現作者看待錯誤的態度。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（本體是考卷紅圈，喻體是路燈，共同特徵是指出位置、引導方向。）",
           "mathExpression": "譬喻 ➔ 本體與喻體有可比較的特徵",
           "explanation": "本體是考卷紅圈，喻體是路燈，共同特徵是指出位置、引導方向。"
         },
@@ -1429,7 +1429,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「譬喻、擬人」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「譬喻、擬人」之規則完成「原創句：「考卷上的紅圈像一盞盞路燈，照出我還沒走熟的路。」分析比喻如何呈現作者看待錯誤的態度。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1437,7 +1437,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「字詞、語境與修辭、undefined、譬喻、擬人、對比」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「字詞、語境與修辭、本體是考卷紅圈，喻體是路燈，共同特徵是指出位置、引導方向。、譬喻、擬人、對比」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】看見「像」不一定是譬喻；「他像哥哥一樣高」也可能只是實際比較。",
       "defenseCheck": "【考場防呆】答案需引用「照出」「還沒走熟」等線索；僅寫「用了譬喻，很生動」缺少效果分析。"
     }
@@ -1471,11 +1471,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】敘事閱讀與人物推論：undefined",
+      "title": "【板書推演】敘事閱讀與人物推論：原創段落：「阿哲嘴上說不想管，卻在同學離開後留下補好海報；隔天他把功勞推給大家。」可以推論什麼？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（找出言行差異：口頭拒絕，行動卻投入修補。）",
           "mathExpression": "明示 ➔ 文本直接寫出的訊息",
           "explanation": "找出言行差異：口頭拒絕，行動卻投入修補。"
         },
@@ -1501,7 +1501,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「明示、推論」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「明示、推論」之規則完成「原創段落：「阿哲嘴上說不想管，卻在同學離開後留下補好海報；隔天他把功勞推給大家。」可以推論什麼？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1509,7 +1509,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「敘事閱讀與人物推論、undefined、明示、推論、評價」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「敘事閱讀與人物推論、找出言行差異：口頭拒絕，行動卻投入修補。、明示、推論、評價」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】合理推論不是自由想像；答案不能超出文本支持的範圍。",
       "defenseCheck": "【考場防呆】不能推論他永遠不在乎稱讚；這段只提供一次情境中的證據。"
     }
@@ -1543,11 +1543,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】文言文的省略與虛字：undefined",
+      "title": "【板書推演】文言文的省略與虛字：仿文言例句：「友借書，既讀之，乃歸之。」兩個「之」指什麼？省略了哪些資訊？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先確認動作序列：借書、讀、歸還；借閱者是句中延續的主詞「友」。）",
           "mathExpression": "明示 ➔ 文本直接寫出的訊息",
           "explanation": "先確認動作序列：借書、讀、歸還；借閱者是句中延續的主詞「友」。"
         },
@@ -1573,7 +1573,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「明示、推論」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「明示、推論」之規則完成「仿文言例句：「友借書，既讀之，乃歸之。」兩個「之」指什麼？省略了哪些資訊？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1581,7 +1581,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「文言文的省略與虛字、undefined、明示、推論、評價」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「文言文的省略與虛字、先確認動作序列：借書、讀、歸還；借閱者是句中延續的主詞「友」。、明示、推論、評價」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】逐字固定翻譯容易誤判，應先讀完整句再回頭對照。",
       "defenseCheck": "【考場防呆】不能把此處每個「之」都翻成「的」；也不要憑空補出書的主人姓名。"
     }
@@ -1615,11 +1615,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】說明文、圖表與資訊整合：undefined",
+      "title": "【板書推演】說明文、圖表與資訊整合：甲班 30 人中 18 人步行上學；乙班 40 人中 20 人步行。有人說「乙班步行人數較多，因此步行比例也較高」，是否合理？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（人數比較：乙 20 人大於甲 18 人，前半句成立。）",
           "mathExpression": "定位 ➔ 先看題目，再找對應段落或欄位",
           "explanation": "人數比較：乙 20 人大於甲 18 人，前半句成立。"
         },
@@ -1645,7 +1645,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「定位、整合」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「定位、整合」之規則完成「甲班 30 人中 18 人步行上學；乙班 40 人中 20 人步行。有人說「乙班步行人數較多，因此步行比例也較高」，是否合理？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1653,7 +1653,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「說明文、圖表與資訊整合、undefined、定位、整合、推論」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「說明文、圖表與資訊整合、人數比較：乙 20 人大於甲 18 人，前半句成立。、定位、整合、推論」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】相關不必然是因果；只看標題或單一數字容易過度推論。",
       "defenseCheck": "【考場防呆】閱讀整合題常在分母偷換；答案應附計算或清楚說出比較基準。"
     }
@@ -1687,11 +1687,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】議論、論據與批判閱讀：undefined",
+      "title": "【板書推演】議論、論據與批判閱讀：「小明每天聽音樂讀書，這次考得好，所以全校都應播放音樂來提高成績。」推論有何缺口？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（論點是全校播放音樂能提高成績，論據只有小明的一次經驗。）",
           "mathExpression": "明示 ➔ 文本直接寫出的訊息",
           "explanation": "論點是全校播放音樂能提高成績，論據只有小明的一次經驗。"
         },
@@ -1717,7 +1717,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「明示、推論」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「明示、推論」之規則完成「「小明每天聽音樂讀書，這次考得好，所以全校都應播放音樂來提高成績。」推論有何缺口？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1725,7 +1725,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「議論、論據與批判閱讀、undefined、明示、推論、評價」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「議論、論據與批判閱讀、論點是全校播放音樂能提高成績，論據只有小明的一次經驗。、明示、推論、評價」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】名人說過不等於證據充分；攻擊說話者也不等於反駁論點。",
       "defenseCheck": "【考場防呆】反駁不是斷言音樂一定有害；目前只能說資料不足以支持普遍因果結論。"
     }
@@ -1759,11 +1759,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】詩歌賞析與寫作組織：undefined",
+      "title": "【板書推演】詩歌賞析與寫作組織：原創短詩：「空椅留在窗邊／夕陽坐了一會兒／又走了。」如何解釋其中的孤寂感？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（空椅建立無人陪伴的場景，窗邊讓光線變化可被看見。）",
           "mathExpression": "譬喻 ➔ 本體與喻體有可比較的特徵",
           "explanation": "空椅建立無人陪伴的場景，窗邊讓光線變化可被看見。"
         },
@@ -1789,7 +1789,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「譬喻、擬人」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「譬喻、擬人」之規則完成「原創短詩：「空椅留在窗邊／夕陽坐了一會兒／又走了。」如何解釋其中的孤寂感？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1797,7 +1797,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「詩歌賞析與寫作組織、undefined、譬喻、擬人、對比」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「詩歌賞析與寫作組織、空椅建立無人陪伴的場景，窗邊讓光線變化可被看見。、譬喻、擬人、對比」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】意象並沒有唯一固定情緒；也不要只堆成語而沒有具體經驗。",
       "defenseCheck": "【考場防呆】這是可由字句支持的一種解讀；不能把作者未寫出的喪親經歷當成既定事實。"
     }
@@ -1831,11 +1831,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】句子骨架與現在式：undefined",
+      "title": "【板書推演】句子骨架與現在式：把「Mia walks to school every day.」改為否定句與一般問句，並回答「她週末搭公車」。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（主詞 Mia 是第三人稱單數，所以原肯定句使用 walks；every day 提示日常習慣。）",
           "mathExpression": "現在簡單式 ➔ 習慣或一般事實",
           "explanation": "主詞 Mia 是第三人稱單數，所以原肯定句使用 walks；every day 提示日常習慣。"
         },
@@ -1861,7 +1861,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「把「Mia walks to school every day.」改為否定句與一般問句，並回答「她週末搭公車」。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1869,7 +1869,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「句子骨架與現在式、undefined、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「句子骨架與現在式、主詞 Mia 是第三人稱單數，所以原肯定句使用 walks；every day 提示日常習慣。、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】does 後面的主要動詞回原形，不寫 does not plays。",
       "defenseCheck": "【考場防呆】對照 She is a student. → Is she a student?，此處主要動詞是 be，不能寫 Does she is a student?。再把 Mia 換成 Mia and Leo，應改為 walk、do not walk 與 Do，確認主詞數量會影響形式。"
     }
@@ -1903,11 +1903,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】現在進行式與時間表達：undefined",
+      "title": "【板書推演】現在進行式與時間表達：看情境填句：「Ben usually ___ at home, but today he ___ at the library.」兩格都用 study，並改寫第二部分為問句。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（usually 描述習慣，主詞 Ben 是單數，第一格用 studies；字尾子音加 y 的 study 改成 studies。）",
           "mathExpression": "現在簡單式 ➔ 習慣或一般事實",
           "explanation": "usually 描述習慣，主詞 Ben 是單數，第一格用 studies；字尾子音加 y 的 study 改成 studies。"
         },
@@ -1933,7 +1933,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「看情境填句：「Ben usually ___ at home, but today he ___ at the library.」兩格都用 study，並改寫第二部分為問句。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1941,7 +1941,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「現在進行式與時間表達、undefined、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「現在進行式與時間表達、usually 描述習慣，主詞 Ben 是單數，第一格用 studies；字尾子音加 y 的 study 改成 studies。、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子。",
       "defenseCheck": "【考場防呆】完整句為 Ben usually studies at home, but today he is studying at the library.。不能只看到 today 就保證用進行式，仍需看句意是否在描述正在進行的動作；時間詞是線索，不是唯一規則。"
     }
@@ -1975,11 +1975,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】過去式、未來與敘事順序：undefined",
+      "title": "【板書推演】過去式、未來與敘事順序：讀句：「After Nora finished her homework, she called Sam. They are going to visit the museum tomorrow.」誰先完成什麼？如何問她昨天是否打電話？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（after 引導的子句表示較早完成的事，因此先完成作業，再打給 Sam。）",
           "mathExpression": "現在簡單式 ➔ 習慣或一般事實",
           "explanation": "after 引導的子句表示較早完成的事，因此先完成作業，再打給 Sam。"
         },
@@ -2005,7 +2005,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「讀句：「After Nora finished her homework, she called Sam. They are going to visit the museum tomorrow.」誰先完成什麼？如何問她昨天是否打電話？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2013,7 +2013,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「過去式、未來與敘事順序、undefined、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「過去式、未來與敘事順序、after 引導的子句表示較早完成的事，因此先完成作業，再打給 Sam。、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記。",
       "defenseCheck": "【考場防呆】可改述 First, Nora finished her homework. Then she called Sam.。若寫 She didn’t called Sam，便重複標記過去；應為 She didn’t call Sam。判斷時間時，把句型與事件順序一起核對。"
     }
@@ -2047,11 +2047,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】比較級、不定詞與動名詞：undefined",
+      "title": "【板書推演】比較級、不定詞與動名詞：完成句子：「Amy enjoys ___ (read). She wants ___ (buy) a book that is ___ (easy) than this one.」",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（enjoy 後接動名詞，第一格填 reading。）",
           "mathExpression": "同等比較 ➔ as＋原級＋as",
           "explanation": "enjoy 後接動名詞，第一格填 reading。"
         },
@@ -2077,7 +2077,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「同等比較、比較級」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「同等比較、比較級」之規則完成「完成句子：「Amy enjoys ___ (read). She wants ___ (buy) a book that is ___ (easy) than this one.」」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2085,7 +2085,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「比較級、不定詞與動名詞、undefined、同等比較、比較級、最高級」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「比較級、不定詞與動名詞、enjoy 後接動名詞，第一格填 reading。、同等比較、比較級、最高級」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】不是每個動詞後都加 to；也不要寫 more taller。",
       "defenseCheck": "【考場防呆】不能寫 enjoys to read 或 more easier；easier 已帶比較級意義。延伸比較 This book is more useful than that one.，較長形容詞常用 more；仍要查常見不規則形式，如 good → better。"
     }
@@ -2119,11 +2119,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】完成式、被動與關係子句：undefined",
+      "title": "【板書推演】完成式、被動與關係子句：合併「The bridge was repaired last year.」「The bridge connects the two towns.」並比較「Workers have repaired the bridge.」的意思。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（兩句共同名詞是 the bridge，可合併 The bridge which/that connects the two towns was repaired last year.。）",
           "mathExpression": "現在簡單式 ➔ 習慣或一般事實",
           "explanation": "兩句共同名詞是 the bridge，可合併 The bridge which/that connects the two towns was repaired last year.。"
         },
@@ -2149,7 +2149,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「合併「The bridge was repaired last year.」「The bridge connects the two towns.」並比較「Workers have repaired the bridge.」的意思。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2157,7 +2157,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「完成式、被動與關係子句、undefined、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「完成式、被動與關係子句、兩句共同名詞是 the bridge，可合併 The bridge which/that connects the two towns was repaired last year.。、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】現在完成式通常不和明確結束的過去時間 yesterday 搭配。",
       "defenseCheck": "【考場防呆】不能把 last year 直接接在表示此完成用法的 have repaired 後；若要指出明確過去年份，改用 repaired。關係代名詞在 connects 前作主詞，不可任意省掉。"
     }
@@ -2191,11 +2191,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】閱讀策略與情境溝通：undefined",
+      "title": "【板書推演】閱讀策略與情境溝通：原創公告：「The library closes at 5 p.m. on Friday. Books can be returned through the outdoor box after closing, but DVDs must be returned at the desk.」週五六點可否還 DVD？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先定位時間：六點已超過五點，館內櫃檯關閉。）",
           "mathExpression": "主旨 ➔ 先找段落重複概念與目的",
           "explanation": "先定位時間：六點已超過五點，館內櫃檯關閉。"
         },
@@ -2221,7 +2221,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「主旨、指涉」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「主旨、指涉」之規則完成「原創公告：「The library closes at 5 p.m. on Friday. Books can be returned through the outdoor box after closing, but DVDs must be returned at the desk.」週五六點可否還 DVD？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2229,7 +2229,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「閱讀策略與情境溝通、undefined、主旨、指涉、猜字」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「閱讀策略與情境溝通、先定位時間：六點已超過五點，館內櫃檯關閉。、主旨、指涉、猜字」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制。",
       "defenseCheck": "【考場防呆】可用英文回答 No. DVDs must be returned at the desk, which is closed at six on Friday.。不要把「有還書箱」推成所有媒體都能投入，也不要自行推定逾期費或下一次開館日期。"
     }
@@ -2263,11 +2263,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】三角形的外心、內心與重心：undefined",
+      "title": "【板書推演】三角形的外心、內心與重心：三角形中線 AD 長 15 公分，G 為重心，若三角形面積 48 平方公分，求 AG、GD 及 △ABG 面積。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（重心到頂點占整條中線 2/3，所以 AG＝15×2/3＝10 公分。）",
           "mathExpression": "外心 ➔ 三邊中垂線交點，到三頂點等距",
           "explanation": "重心到頂點占整條中線 2/3，所以 AG＝15×2/3＝10 公分。"
         },
@@ -2293,7 +2293,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「外心、內心」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「外心、內心」之規則完成「三角形中線 AD 長 15 公分，G 為重心，若三角形面積 48 平方公分，求 AG、GD 及 △ABG 面積。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2301,7 +2301,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「三角形的外心、內心與重心、undefined、外心、內心、重心」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「三角形的外心、內心與重心、重心到頂點占整條中線 2/3，所以 AG＝15×2/3＝10 公分。、外心、內心、重心」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】外心不一定在三角形內部（鈍角三角形外心在外部）；重心到頂點的距離是到對邊中點距離的 2 倍，不是相反。",
       "defenseCheck": "【考場防呆】「六個等面積小三角形」須畫出三條完整中線；只連三個頂點得到三塊。"
     }
@@ -2335,11 +2335,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】六書原則與漢字形義流變：undefined",
+      "title": "【板書推演】六書原則與漢字形義流變：比較「清、晴、情」的形旁與聲旁，說明為何不能把三字混用。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（三字皆含「青」，可作聲音線索；氵、日、忄分別提示水、日光、心理等意義範圍。）",
           "mathExpression": "象形／指事 ➔ 描形／以符號指示概念",
           "explanation": "三字皆含「青」，可作聲音線索；氵、日、忄分別提示水、日光、心理等意義範圍。"
         },
@@ -2365,7 +2365,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「象形／指事、會意／形聲」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「象形／指事、會意／形聲」之規則完成「比較「清、晴、情」的形旁與聲旁，說明為何不能把三字混用。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2373,7 +2373,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「六書原則與漢字形義流變、undefined、象形／指事、會意／形聲、轉注／假借」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「六書原則與漢字形義流變、三字皆含「青」，可作聲音線索；氵、日、忄分別提示水、日光、心理等意義範圍。、象形／指事、會意／形聲、轉注／假借」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】形聲字占漢字八成以上；形聲字聲旁因古今語音演變，不一定與今日讀音完全一致。指事字通常含有抽象符號或在象形基礎上加指事符號，非純粹具體物象。",
       "defenseCheck": "【考場防呆】形旁只是提示，不能替代查字典；六書分析也不等於把每個零件編成現代故事。"
     }
@@ -2407,11 +2407,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】標點符號、句型結構與語法邏輯：undefined",
+      "title": "【板書推演】標點符號、句型結構與語法邏輯：修改「因為雨停了，所以操場仍然濕滑。」使句子的邏輯與用詞更恰當。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（前句雨停與後句仍濕滑之間有預期落差，較適合讓步轉折。）",
           "mathExpression": "標點 ➔ 依語意關係分句、停頓或引述",
           "explanation": "前句雨停與後句仍濕滑之間有預期落差，較適合讓步轉折。"
         },
@@ -2437,7 +2437,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「標點、引述」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「標點、引述」之規則完成「修改「因為雨停了，所以操場仍然濕滑。」使句子的邏輯與用詞更恰當。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2445,7 +2445,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「標點符號、句型結構與語法邏輯、undefined、標點、引述、稱謂／敬語」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「標點符號、句型結構與語法邏輯、前句雨停與後句仍濕滑之間有預期落差，較適合讓步轉折。、標點、引述、稱謂／敬語」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】「是」在古代常作代詞「這」（如「是可忍，孰不可忍」），不一定是現代語法中的繫詞。表態句的中心是形容詞，沒有一般及物動詞。",
       "defenseCheck": "【考場防呆】兩種改法意思略有差別，應先決定要強調轉折還是濕滑的原因，而不是機械換連詞。"
     }
@@ -2479,11 +2479,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】古典近體詩：絕句與律詩格律賞析：undefined",
+      "title": "【板書推演】古典近體詩：絕句與律詩格律賞析：某首詩共有八句，每句七字；中間兩聯分別描寫山與水、遠景與近景。可先作何種形式判讀？還要確認什麼？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（八句、每句七字，與七言律詩的外部形式相符。）",
           "mathExpression": "絕句 ➔ 近體詩常見四句，五言或七言",
           "explanation": "八句、每句七字，與七言律詩的外部形式相符。"
         },
@@ -2509,7 +2509,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「絕句、律詩」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「絕句、律詩」之規則完成「某首詩共有八句，每句七字；中間兩聯分別描寫山與水、遠景與近景。可先作何種形式判讀？還要確認什麼？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2517,7 +2517,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「古典近體詩：絕句與律詩格律賞析、undefined、絕句、律詩、詞」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「古典近體詩：絕句與律詩格律賞析、八句、每句七字，與七言律詩的外部形式相符。、絕句、律詩、詞」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】絕句不要求對仗，若有對仗屬作者巧思；律詩首尾兩聯（首聯、尾聯）通常不對仗，只有中間兩聯必須對仗。近體詩通常不可換韻。",
       "defenseCheck": "【考場防呆】格律判讀與情感詮釋分開說明；形式符合不代表可以直接推定作者心情愉快。"
     }
@@ -2551,11 +2551,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】詞曲賞析與古代生活文化：undefined",
+      "title": "【板書推演】詞曲賞析與古代生活文化：兩首作品都使用同一詞牌，一首寫春遊，一首寫思鄉。能否因此說它們主旨相同？應如何比較？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先區分詞牌名稱與作品實際內容：同牌只提供形式上的共同線索。）",
           "mathExpression": "絕句 ➔ 近體詩常見四句，五言或七言",
           "explanation": "先區分詞牌名稱與作品實際內容：同牌只提供形式上的共同線索。"
         },
@@ -2581,7 +2581,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「絕句、律詩」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「絕句、律詩」之規則完成「兩首作品都使用同一詞牌，一首寫春遊，一首寫思鄉。能否因此說它們主旨相同？應如何比較？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2589,7 +2589,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「詞曲賞析與古代生活文化、undefined、絕句、律詩、詞」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「詞曲賞析與古代生活文化、先區分詞牌名稱與作品實際內容：同牌只提供形式上的共同線索。、絕句、律詩、詞」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】詞牌名（如〈念奴嬌〉、〈破陣子〉）是音樂曲調，與詞的內容題目不一定有直接關聯；題目通常另附於詞牌之後。",
       "defenseCheck": "【考場防呆】不能把詞牌字面意思硬套到每首詞；主旨需由作品本身的字句支持。"
     }
@@ -2623,11 +2623,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】古典小說選讀與人性刻畫：undefined",
+      "title": "【板書推演】古典小說選讀與人性刻畫：原創故事片段：「掌櫃說一視同仁，卻先招呼衣著華麗的客人，讓粗衣少年等到天黑。」如何分析人物？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（人物口頭宣稱平等，行動卻依外表改變接待順序，形成反差。）",
           "mathExpression": "明示 ➔ 文本直接寫出的訊息",
           "explanation": "人物口頭宣稱平等，行動卻依外表改變接待順序，形成反差。"
         },
@@ -2653,7 +2653,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「明示、推論」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「明示、推論」之規則完成「原創故事片段：「掌櫃說一視同仁，卻先招呼衣著華麗的客人，讓粗衣少年等到天黑。」如何分析人物？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2661,7 +2661,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「古典小說選讀與人性刻畫、undefined、明示、推論、評價」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「古典小說選讀與人性刻畫、人物口頭宣稱平等，行動卻依外表改變接待順序，形成反差。、明示、推論、評價」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】章回小說的情節經過作者藝術加工，不等同於真實歷史事實（如《三國演義》七實三虛，草船借箭在正史中並非諸葛亮所為）。",
       "defenseCheck": "【考場防呆】分析要分清「掌櫃如何看人」與「少年實際身分」，不要重複人物自身的偏見。"
     }
@@ -2695,11 +2695,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】應用文全覽：書信、題辭、對聯與柬帖規範：undefined",
+      "title": "【板書推演】應用文全覽：書信、題辭、對聯與柬帖規範：為校內讀書會寫一則邀請通知：週五下午四點在圖書館討論自選書，請同學帶書參加。還需補什麼？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先加入完整日期，避免不同星期五的歧義，並確認活動結束時間。）",
           "mathExpression": "標點 ➔ 依語意關係分句、停頓或引述",
           "explanation": "先加入完整日期，避免不同星期五的歧義，並確認活動結束時間。"
         },
@@ -2725,7 +2725,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「標點、引述」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「標點、引述」之規則完成「為校內讀書會寫一則邀請通知：週五下午四點在圖書館討論自選書，請同學帶書參加。還需補什麼？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2733,7 +2733,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「應用文全覽：書信、題辭、對聯與柬帖規範、undefined、標點、引述、稱謂／敬語」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「應用文全覽：書信、題辭、對聯與柬帖規範、先加入完整日期，避免不同星期五的歧義，並確認活動結束時間。、標點、引述、稱謂／敬語」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】信封上的啟封詞是給送信人看的「請收信人拆開」之詞，寫「敬啟」等於要收件人恭敬拆開，極為失禮。「桃李春風」用於教育界，不可用於醫療開業。",
       "defenseCheck": "【考場防呆】通知發出前，讓沒參與籌辦的人試讀，檢查能否單靠文字準時到場並知道要做什麼。"
     }
@@ -2767,11 +2767,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】名詞單複數、指示代名詞與祈使句：undefined",
+      "title": "【板書推演】名詞單複數、指示代名詞與祈使句：修正「This are three box of milk. Doesn’t put them here.」，並解釋代名詞 them 指什麼。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（three 要接複數 boxes；milk 在此以液體看待，由 boxes 表示三盒，不寫 three milks。）",
           "mathExpression": "可數名詞 ➔ 單數需適當限定詞；複數注意變化",
           "explanation": "three 要接複數 boxes；milk 在此以液體看待，由 boxes 表示三盒，不寫 three milks。"
         },
@@ -2797,7 +2797,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「可數名詞、存在句」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「可數名詞、存在句」之規則完成「修正「This are three box of milk. Doesn’t put them here.」，並解釋代名詞 them 指什麼。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2805,7 +2805,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「名詞單複數、指示代名詞與祈使句、undefined、可數名詞、存在句、can」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「名詞單複數、指示代名詞與祈使句、three 要接複數 boxes；milk 在此以液體看待，由 boxes 表示三盒，不寫 three milks。、可數名詞、存在句、can」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】Do not use plural verbs with this/that. In negative imperatives, use \"Don’t\" + base verb, never \"Not\" or \"No\" (say \"Don’t touch\", not \"No touch\").",
       "defenseCheck": "【考場防呆】完整更正為 These are three boxes of milk. Don’t put them here.。對照 This is a box of milk.：一盒時 this、is、a box 都為單數。box 的複數是 boxes；不能只改 are 而忘記指示詞或名詞。"
     }
@@ -2839,11 +2839,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】頻率副詞、情態助動詞 can 與存在句：undefined",
+      "title": "【板書推演】頻率副詞、情態助動詞 can 與存在句：整理三句：「Lily / usually / is / early」「she / can / plays / chess」「there / two clubs / are / at school」，並說明順序。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（第一句為 Lily is usually early.，be 動詞 is 在 usually 前；若換一般動詞，可說 Lily usually arrives early.。）",
           "mathExpression": "可數名詞 ➔ 單數需適當限定詞；複數注意變化",
           "explanation": "第一句為 Lily is usually early.，be 動詞 is 在 usually 前；若換一般動詞，可說 Lily usually arrives early.。"
         },
@@ -2869,7 +2869,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「可數名詞、存在句」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「可數名詞、存在句」之規則完成「整理三句：「Lily / usually / is / early」「she / can / plays / chess」「there / two clubs / are / at school」，並說明順序。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2877,7 +2877,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「頻率副詞、情態助動詞 can 與存在句、undefined、可數名詞、存在句、can」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「頻率副詞、情態助動詞 can 與存在句、第一句為 Lily is usually early.，be 動詞 is 在 usually 前；若換一般動詞，可說 Lily usually arrives early.。、可數名詞、存在句、can」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】Do not put frequency adverbs before be-verbs (say \"He is always kind\", not \"He always is kind\"). In There is/are sentences, verb agreement depends on the noun that immediately follows.",
       "defenseCheck": "【考場防呆】比較 Lily has two chess sets.：此句在說 Lily 擁有棋具，不能用 There has 代替。若寫 She never plays chess，never 表示從不；與 can play 的能力描述不矛盾，會下棋不代表常下棋。"
     }
@@ -2911,11 +2911,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】過去進行式、時間連接詞與數量詞：undefined",
+      "title": "【板書推演】過去進行式、時間連接詞與數量詞：完成「While Leo ___ (cook), the phone ___ (ring). There was ___ rice left, so he made only a small meal.」第三格選 a little 或 a few。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（背景動作是當時正在煮飯，填 was cooking；電話響是一次發生的事件，填 rang。）",
           "mathExpression": "現在簡單式 ➔ 習慣或一般事實",
           "explanation": "背景動作是當時正在煮飯，填 was cooking；電話響是一次發生的事件，填 rang。"
         },
@@ -2941,7 +2941,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「完成「While Leo ___ (cook), the phone ___ (ring). There was ___ rice left, so he made only a small meal.」第三格選 a little 或 a few。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2949,7 +2949,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「過去進行式、時間連接詞與數量詞、undefined、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「過去進行式、時間連接詞與數量詞、背景動作是當時正在煮飯，填 was cooking；電話響是一次發生的事件，填 rang。、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】Do not confuse \"a few\" (positive: some) with \"few\" (negative: almost none), or \"a little\" (some) with \"little\" (almost none). Remember \"were\" is used for you/we/they in past continuous.",
       "defenseCheck": "【考場防呆】a little 表示有少量；little 常偏向幾乎沒有，語氣不同。可將第一句改為 Leo was cooking when the phone rang.，事件關係保持不變；並非看到 when 就一定把它後面所有動詞變成進行式。"
     }
@@ -2983,11 +2983,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】連綴動詞、感官動詞與最高級比較：undefined",
+      "title": "【板書推演】連綴動詞、感官動詞與最高級比較：修正「The soup tastes well. I saw Ken crossed the street. He is tallest of the three boys.」，並說明原因。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（soup 的味道用形容詞 good 描述，改為 The soup tastes good.；well 通常作副詞，不能在此表湯味好。）",
           "mathExpression": "同等比較 ➔ as＋原級＋as",
           "explanation": "soup 的味道用形容詞 good 描述，改為 The soup tastes good.；well 通常作副詞，不能在此表湯味好。"
         },
@@ -3013,7 +3013,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「同等比較、比較級」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「同等比較、比較級」之規則完成「修正「The soup tastes well. I saw Ken crossed the street. He is tallest of the three boys.」，並說明原因。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3021,7 +3021,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「連綴動詞、感官動詞與最高級比較、undefined、同等比較、比較級、最高級」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「連綴動詞、感官動詞與最高級比較、soup 的味道用形容詞 good 描述，改為 The soup tastes good.；well 通常作副詞，不能在此表湯味好。、同等比較、比較級、最高級」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】Do not use adverbs after linking verbs (say \"The flower smells sweet\", not \"sweetly\"). Do not forget the definite article \"the\" before superlatives.",
       "defenseCheck": "【考場防呆】三句分別考主詞補語、感官動詞後結構、最高級，不能用「全部改原形」處理。若說 Ken looks well，well 可表示身體健康，需注意單字依語境可能有不同詞性與意思。"
     }
@@ -3055,11 +3055,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】授予動詞、使役動詞與現在完成式進階：undefined",
+      "title": "【板書推演】授予動詞、使役動詞與現在完成式進階：改寫「Dad bought me a bike.」並完成「He let me ___ (ride) it. I have had it ___ 2023.」，再說明為何最後不用 have bought。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（雙受詞改為 Dad bought a bike for me.，buy 在此搭配 for，不能機械套所有動詞都用 to。）",
           "mathExpression": "現在簡單式 ➔ 習慣或一般事實",
           "explanation": "雙受詞改為 Dad bought a bike for me.，buy 在此搭配 for，不能機械套所有動詞都用 to。"
         },
@@ -3085,7 +3085,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「改寫「Dad bought me a bike.」並完成「He let me ___ (ride) it. I have had it ___ 2023.」，再說明為何最後不用 have bought。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3093,7 +3093,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「授予動詞、使役動詞與現在完成式進階、undefined、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「授予動詞、使役動詞與現在完成式進階、雙受詞改為 Dad bought a bike for me.，buy 在此搭配 for，不能機械套所有動詞都用 to。、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】Do not use \"to V\" after causative verbs (say \"Mom let me go\", not \"Mom let me to go\"). \"Since\" takes a specific starting point; \"for\" takes a duration of time.",
       "defenseCheck": "【考場防呆】buy 是購買事件，have 在此是持有狀態；若表示持續擁有，have had 比 have bought since 更符合意思。對照 He gave a bike to me.，give 使用 to。for three years 與 since 2023 的資訊形式不同，也不能在未知道當年日期時說兩者一定等義。"
     }
@@ -3127,11 +3127,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】附加問句、名詞子句與間接問句：undefined",
+      "title": "【板書推演】附加問句、名詞子句與間接問句：合併「Can you tell me?」「Where does Eva live?」，並在「Eva lives near the station, ___?」加附加問句。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（原直接問句的 does 是為了倒裝提問；嵌入後改成 where Eva lives，主詞 Eva 在動詞前。）",
           "mathExpression": "直接問句 ➔ 疑問詞＋倒裝結構",
           "explanation": "原直接問句的 does 是為了倒裝提問；嵌入後改成 where Eva lives，主詞 Eva 在動詞前。"
         },
@@ -3157,7 +3157,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「直接問句、間接問句」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「直接問句、間接問句」之規則完成「合併「Can you tell me?」「Where does Eva live?」，並在「Eva lives near the station, ___?」加附加問句。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3165,7 +3165,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「附加問句、名詞子句與間接問句、undefined、直接問句、間接問句、是否」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「附加問句、名詞子句與間接問句、原直接問句的 does 是為了倒裝提問；嵌入後改成 where Eva lives，主詞 Eva 在動詞前。、直接問句、間接問句、是否」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】In indirect questions, do not keep inversion or auxiliary do/does/did (say \"Can you tell me where he lives?\", not \"where does he live?\").",
       "defenseCheck": "【考場防呆】不能寫 where does Eva live 放在 tell me 後，也不能寫 doesn’t Eva 重複姓名取代常見代名詞。再比較 I wonder where Eva lives.，同樣的嵌入子句放在陳述主句後，整句通常用句號，標點須看整句功能。"
     }
@@ -3199,11 +3199,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】連比與比例式的應用：undefined",
+      "title": "【板書推演】連比與比例式的應用：甲：乙＝2：3，乙：丙＝4：5，三人共有 350 元，求各有多少。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（把乙的份數化為 12：甲乙比乘 4 得 8：12，乙丙比乘 3 得 12：15。）",
           "mathExpression": "正比 ➔ y/x＝k（x≠0）",
           "explanation": "把乙的份數化為 12：甲乙比乘 4 得 8：12，乙丙比乘 3 得 12：15。"
         },
@@ -3229,7 +3229,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「正比、反比」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「正比、反比」之規則完成「甲：乙＝2：3，乙：丙＝4：5，三人共有 350 元，求各有多少。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3237,7 +3237,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「連比與比例式的應用、undefined、正比、反比、含基本費」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「連比與比例式的應用、把乙的份數化為 12：甲乙比乘 4 得 8：12，乙丙比乘 3 得 12：15。、正比、反比、含基本費」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】不能將 a:b＝2:3 與 b:c＝4:5 直接合併為 2:3:5，必須先將共有的項通分為相同數值；a:b:c＝2:3:4 並不等於 a×2＝b×3＝c×4。",
       "defenseCheck": "【考場防呆】驗算 80/120＝2/3、120/150＝4/5；不能直接接成 2：3：5。"
     }
@@ -3271,11 +3271,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】等差級數與求和公式：undefined",
+      "title": "【板書推演】等差級數與求和公式：劇場第一排 12 席，每後一排增加 2 席，共 15 排，總共有幾席？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（第 15 排＝12＋14×2＝40 席。）",
           "mathExpression": "公差 d ➔ 相鄰後項減前項",
           "explanation": "第 15 排＝12＋14×2＝40 席。"
         },
@@ -3301,7 +3301,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「公差 d、第 n 項」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「公差 d、第 n 項」之規則完成「劇場第一排 12 席，每後一排增加 2 席，共 15 排，總共有幾席？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3309,7 +3309,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「等差級數與求和公式、undefined、公差 d、第 n 項、前 n 項和」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「等差級數與求和公式、第 15 排＝12＋14×2＝40 席。、公差 d、第 n 項、前 n 項和」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】計算項數時容易忘記加 1（項數 n＝(末項−首項)/公差 ＋ 1）；公式中的分母是除以 2，不可漏掉。",
       "defenseCheck": "【考場防呆】排與排之間只有 14 次增加；把 15×2 加到首排會多算一段公差。"
     }
@@ -3343,11 +3343,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】多邊形的內角和與外角和：undefined",
+      "title": "【板書推演】多邊形的內角和與外角和：一個正多邊形每個外角為 24°，求邊數、每個內角與內角和。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（同向外角繞一圈共 360°，邊數 n＝360÷24＝15。）",
           "mathExpression": "內角和 ➔ 簡單 n 邊形內角和＝(n−2)×180°",
           "explanation": "同向外角繞一圈共 360°，邊數 n＝360÷24＝15。"
         },
@@ -3373,7 +3373,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「內角和、外角和」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「內角和、外角和」之規則完成「一個正多邊形每個外角為 24°，求邊數、每個內角與內角和。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3381,7 +3381,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「多邊形的內角和與外角和、undefined、內角和、外角和、正多邊形」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「多邊形的內角和與外角和、同向外角繞一圈共 360°，邊數 n＝360÷24＝15。、內角和、外角和、正多邊形」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】外角和永遠是 360°，與邊數 n 完全無關，不要將外角和誤算為隨邊數增加；多邊形每一個頂點的內角與其外角互補（相加等於 180°）。",
       "defenseCheck": "【考場防呆】若不是正多邊形，單一外角不能決定邊數，題目中的「正」是必要條件。"
     }
@@ -3415,11 +3415,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】特殊四邊形與對角線幾何性質：undefined",
+      "title": "【板書推演】特殊四邊形與對角線幾何性質：菱形兩條對角線長 6 與 8 公分，求邊長及面積。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（菱形對角線互相垂直平分，半長為 3 與 4，形成直角三角形。）",
           "mathExpression": "平行四邊形 ➔ 對邊平行且等長，對角相等",
           "explanation": "菱形對角線互相垂直平分，半長為 3 與 4，形成直角三角形。"
         },
@@ -3445,7 +3445,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「平行四邊形、長方形」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「平行四邊形、長方形」之規則完成「菱形兩條對角線長 6 與 8 公分，求邊長及面積。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3453,7 +3453,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「特殊四邊形與對角線幾何性質、undefined、平行四邊形、長方形、菱形」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「特殊四邊形與對角線幾何性質、菱形對角線互相垂直平分，半長為 3 與 4，形成直角三角形。、平行四邊形、長方形、菱形」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】對角線互相垂直的四邊形不一定是菱形（如鳶形）；對角線等長的四邊形不一定是矩形（如等腰梯形）。必須檢驗平分或垂直條件是否齊全。",
       "defenseCheck": "【考場防呆】對角線不等長，所以不是正方形；不要把 6 或 8 當成菱形的邊長。"
     }
@@ -3487,11 +3487,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】弦切角、圓內角與圓外角定理：undefined",
+      "title": "【板書推演】弦切角、圓內角與圓外角定理：兩弦在圓內相交，一角及其對頂角所對弧分別為 80°、140°，求該角與鄰角。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（交點在圓內，所以該角＝(80＋140)÷2＝110°。）",
           "mathExpression": "圓周角 ➔ 同弧的圓周角＝圓心角的一半",
           "explanation": "交點在圓內，所以該角＝(80＋140)÷2＝110°。"
         },
@@ -3517,7 +3517,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「圓周角、切線」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「圓周角、切線」之規則完成「兩弦在圓內相交，一角及其對頂角所對弧分別為 80°、140°，求該角與鄰角。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3525,7 +3525,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「弦切角、圓內角與圓外角定理、undefined、圓周角、切線、弦切角」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「弦切角、圓內角與圓外角定理、交點在圓內，所以該角＝(80＋140)÷2＝110°。、圓周角、切線、弦切角」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】弦切角等於所夾弧所對的「圓周角」，而非圓心角；圓內角是「弧度相加除以 2」，圓外角是「大弧減小弧除以 2」，兩者正負號勿混淆。",
       "defenseCheck": "【考場防呆】圓內不能用弧差：若算 (140−80)/2＝30°，就是把圓外公式誤用。"
     }
@@ -3559,11 +3559,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】立體圖形、三視圖與表面積體積：undefined",
+      "title": "【板書推演】立體圖形、三視圖與表面積體積：長 8、寬 5、高 3 公分的無蓋長方體盒，忽略厚度，求內部容積與製作所需表面積。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（容積＝8×5×3＝120 立方公分。）",
           "mathExpression": "柱體體積 ➔ 底面積×高",
           "explanation": "容積＝8×5×3＝120 立方公分。"
         },
@@ -3589,7 +3589,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「柱體體積、直柱側面積」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「柱體體積、直柱側面積」之規則完成「長 8、寬 5、高 3 公分的無蓋長方體盒，忽略厚度，求內部容積與製作所需表面積。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3597,7 +3597,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「立體圖形、三視圖與表面積體積、undefined、柱體體積、直柱側面積、總表面積」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「立體圖形、三視圖與表面積體積、容積＝8×5×3＝120 立方公分。、柱體體積、直柱側面積、總表面積」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】圓錐的「母線長」是側面展開扇形的半徑，不是圓錐的垂直高；錐體體積有 1/3 的係數，不可當成柱體計算。三視圖的實線代表可見邊緣，虛線代表隱藏輪廓。",
       "defenseCheck": "【考場防呆】封閉盒需再加 40 平方公分的頂面；讀題要把「無蓋」轉成少一面。"
     }
@@ -3631,11 +3631,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】盒狀圖、四分位距與累積次數分配：undefined",
+      "title": "【板書推演】盒狀圖、四分位距與累積次數分配：甲組五數摘要為 40、55、65、75、100；乙組為 45、60、65、70、95。比較兩組中位數、全距與四分位距。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（兩組中位數皆 65，不能因此說整體分布相同。）",
           "mathExpression": "平均數 ➔ 總和除以筆數，易受極端值影響",
           "explanation": "兩組中位數皆 65，不能因此說整體分布相同。"
         },
@@ -3661,7 +3661,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「平均數、中位數」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「平均數、中位數」之規則完成「甲組五數摘要為 40、55、65、75、100；乙組為 45、60、65、70、95。比較兩組中位數、全距與四分位距。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3669,7 +3669,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「盒狀圖、四分位距與累積次數分配、undefined、平均數、中位數、全距」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「盒狀圖、四分位距與累積次數分配、兩組中位數皆 65，不能因此說整體分布相同。、平均數、中位數、全距」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】盒狀圖盒子較長的一側表示「資料較分散」，不代表該區間內的「資料個數比較多」；每一段區間包含的資料數量大約皆為總資料數的四分之一（25%）。",
       "defenseCheck": "【考場防呆】盒圖不呈現每一筆原始數據，不能直接由這五個數算出真正的平均數。"
     }
@@ -3703,11 +3703,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】先秦諸子寓言與哲理散文：undefined",
+      "title": "【板書推演】先秦諸子寓言與哲理散文：原創寓言：「有人見鄰田豐收，只學他每天敲三下木桶，卻不澆水施肥，秋天仍無收成。」可歸納什麼道理？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（目的在增加收成，卻只模仿顯眼而未證實有效的敲桶行為。）",
           "mathExpression": "明示 ➔ 文本直接寫出的訊息",
           "explanation": "目的在增加收成，卻只模仿顯眼而未證實有效的敲桶行為。"
         },
@@ -3733,7 +3733,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「明示、推論」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「明示、推論」之規則完成「原創寓言：「有人見鄰田豐收，只學他每天敲三下木桶，卻不澆水施肥，秋天仍無收成。」可歸納什麼道理？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3741,7 +3741,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「先秦諸子寓言與哲理散文、undefined、明示、推論、評價」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「先秦諸子寓言與哲理散文、目的在增加收成，卻只模仿顯眼而未證實有效的敲桶行為。、明示、推論、評價」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】讀寓言不能只停留在故事表層的情節趣味，必須提煉出作者寄託在背後的抽象哲理與論辯主旨；寓言人物常具象徵性，非紀實歷史。",
       "defenseCheck": "【考場防呆】不要過度推成「模仿一定沒有用」；有根據地模仿有效步驟仍可能幫助學習。"
     }
@@ -3775,11 +3775,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】現代記敘抒情散文與意象營造：undefined",
+      "title": "【板書推演】現代記敘抒情散文與意象營造：將「我很想念搬家的朋友」改寫成一個有場景的短段落，並說明寫法。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（選一個與朋友相關的物件，例如以前兩人輪流使用的跳繩。）",
           "mathExpression": "譬喻 ➔ 本體與喻體有可比較的特徵",
           "explanation": "選一個與朋友相關的物件，例如以前兩人輪流使用的跳繩。"
         },
@@ -3805,7 +3805,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「譬喻、擬人」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「譬喻、擬人」之規則完成「將「我很想念搬家的朋友」改寫成一個有場景的短段落，並說明寫法。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3813,7 +3813,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「現代記敘抒情散文與意象營造、undefined、譬喻、擬人、對比」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「現代記敘抒情散文與意象營造、選一個與朋友相關的物件，例如以前兩人輪流使用的跳繩。、譬喻、擬人、對比」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】抒情散文忌諱無病呻吟或堆砌抽象情緒詞彙（如「我非常難過」）；必須依託具體生活細節、動作與感官摹寫，讓讀者在情境中自然體會情感。",
       "defenseCheck": "【考場防呆】細節要服務主旨；加入大量無關景物不會自動使文章更有感情。"
     }
@@ -3847,11 +3847,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】臺灣自然生態、海洋與在地文學：undefined",
+      "title": "【板書推演】臺灣自然生態、海洋與在地文學：原創句：「堤岸鋪平後，阿公走路方便了，卻再也找不到從前捉蟹的小水溝。」如何呈現人與環境的關係？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（前半句指出工程帶來的通行便利，後半句呈現棲地與生活記憶的改變。）",
           "mathExpression": "觀察 ➔ 找出地景、生物、季節與感官細節",
           "explanation": "前半句指出工程帶來的通行便利，後半句呈現棲地與生活記憶的改變。"
         },
@@ -3877,7 +3877,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「觀察、觀點」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「觀察、觀點」之規則完成「原創句：「堤岸鋪平後，阿公走路方便了，卻再也找不到從前捉蟹的小水溝。」如何呈現人與環境的關係？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3885,7 +3885,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「臺灣自然生態、海洋與在地文學、undefined、觀察、觀點、表達」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「臺灣自然生態、海洋與在地文學、前半句指出工程帶來的通行便利，後半句呈現棲地與生活記憶的改變。、觀察、觀點、表達」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】自然寫作不等於枯燥的動植物百科說明，必須包含作者在現場的感官體驗、生命省思與生態倫理關懷；海洋文學亦非純浪漫想像，需扎根於真實海事經驗。",
       "defenseCheck": "【考場防呆】好的閱讀答案可承認便利與失落同時存在，不必把文本硬分成完全支持或完全反對。"
     }
@@ -3919,11 +3919,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】會考寫作審題、立意與層次開展：undefined",
+      "title": "【板書推演】會考寫作審題、立意與層次開展：以「一次改變想法的經驗」為題，素材是與安靜同學合作科展，如何建立四段提綱？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（開頭寫原本把安靜誤認為不願合作，交代自己的預設。）",
           "mathExpression": "審題 ➔ 圈出對象、事件與限制",
           "explanation": "開頭寫原本把安靜誤認為不願合作，交代自己的預設。"
         },
@@ -3949,7 +3949,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「審題、取材」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「審題、取材」之規則完成「以「一次改變想法的經驗」為題，素材是與安靜同學合作科展，如何建立四段提綱？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3957,7 +3957,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「會考寫作審題、立意與層次開展、undefined、審題、取材、組織」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「會考寫作審題、立意與層次開展、開頭寫原本把安靜誤認為不願合作，交代自己的預設。、審題、取材、組織」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】審題偏離關鍵限制（如要求寫「一次經驗」卻泛泛寫許多次）；結尾不能只是喊空泛口號，反思必須緊密扣合文章前半部所發生的真實事件細節。",
       "defenseCheck": "【考場防呆】不要只寫合作成功；題目重點是「想法如何改變」，須明確呈現原先看法、證據與後來調整。"
     }
@@ -3991,11 +3991,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】介系詞與時空方位精準表達：undefined",
+      "title": "【板書推演】介系詞與時空方位精準表達：填入適當介系詞：「We meet ___ 8:30 ___ Saturday morning ___ July. Walk ___ the bridge; the café is ___ the bank and the bookstore.」",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（8:30 是時間點，用 at；Saturday morning 是特定星期的早晨，用 on；July 是月份，用 in。）",
           "mathExpression": "at ➔ 時間點、特定位置點",
           "explanation": "8:30 是時間點，用 at；Saturday morning 是特定星期的早晨，用 on；July 是月份，用 in。"
         },
@@ -4021,7 +4021,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「at、on」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「at、on」之規則完成「填入適當介系詞：「We meet ___ 8:30 ___ Saturday morning ___ July. Walk ___ the bridge; the café is ___ the bank and the bookstore.」」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -4029,7 +4029,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「介系詞與時空方位精準表達、undefined、at、on、in」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「介系詞與時空方位精準表達、8:30 是時間點，用 at；Saturday morning 是特定星期的早晨，用 on；July 是月份，用 in。、at、on、in」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】Do not say \"on 2024\" or \"in Sunday\". Remember you walk \"through\" a forest/tunnel (3D space), but walk \"across\" a street/bridge (flat surface).",
       "defenseCheck": "【考場防呆】完整句為 We meet at 8:30 on Saturday morning in July. Walk across the bridge; the café is between the bank and the bookstore.。注意題目未給年份，不能推論確切日期；英文介系詞與中文「在」不一對一。另比較 in the morning 和 at night，記錄完整搭配比只背單字有用。"
     }
@@ -4063,11 +4063,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】條件副詞子句與情態假設語氣：undefined",
+      "title": "【板書推演】條件副詞子句與情態假設語氣：完成「If it ___ (rain) tomorrow, we ___ (stay) home.」，再比較「If I had a car, I would drive you there.」。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（第一句描述明天可能發生的條件，if 子句填 rains，主句填 will stay。）",
           "mathExpression": "可能發生 ➔ If＋現在式，主句 will/can＋原形",
           "explanation": "第一句描述明天可能發生的條件，if 子句填 rains，主句填 will stay。"
         },
@@ -4093,7 +4093,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「可能發生、一般規律」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「可能發生、一般規律」之規則完成「完成「If it ___ (rain) tomorrow, we ___ (stay) home.」，再比較「If I had a car, I would drive you there.」。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -4101,7 +4101,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「條件副詞子句與情態假設語氣、undefined、可能發生、一般規律、與現在事實相反（延伸）」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「條件副詞子句與情態假設語氣、第一句描述明天可能發生的條件，if 子句填 rains，主句填 will stay。、可能發生、一般規律、與現在事實相反（延伸）」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】Do not put \"will\" inside the if-clause when expressing a future condition (say \"If tomorrow is sunny\", not \"If tomorrow will be sunny\").",
       "defenseCheck": "【考場防呆】不要把兩句拼成 If it will rains，也不要忽略 it 的第三人稱單數 s。延伸判斷 If you heat ice enough, it melts. 是一般規律，兩邊可用現在式；三種情境的差別在事件真實性與時間關係，而非只是選不同助動詞。"
     }
@@ -4135,11 +4135,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】關係代名詞受格省略與介系詞搭配：undefined",
+      "title": "【板書推演】關係代名詞受格省略與介系詞搭配：比較「The girl who helped me is Amy.」與「The girl whom I helped is Amy.」，何者的關係代名詞可省？並改寫「the chair which I sat on」。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（第一句還原為 The girl helped me.，girl 是 helped 的主詞，所以 who 不可省略。）",
           "mathExpression": "主格 ➔ 關係代名詞在子句中當主詞，通常不可省略",
           "explanation": "第一句還原為 The girl helped me.，girl 是 helped 的主詞，所以 who 不可省略。"
         },
@@ -4165,7 +4165,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「主格、受格」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「主格、受格」之規則完成「比較「The girl who helped me is Amy.」與「The girl whom I helped is Amy.」，何者的關係代名詞可省？並改寫「the chair which I sat on」。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -4173,7 +4173,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「關係代名詞受格省略與介系詞搭配、undefined、主格、受格、介系詞」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「關係代名詞受格省略與介系詞搭配、第一句還原為 The girl helped me.，girl 是 helped 的主詞，所以 who 不可省略。、主格、受格、介系詞」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】Never place \"that\" or \"who\" directly after a preposition (write \"the house in which\", never \"the house in that\"). You cannot omit the relative pronoun when it serves as the subject.",
       "defenseCheck": "【考場防呆】兩個女孩句子的助人方向相反，不能只看相同單字而認為意思一樣。修飾範圍也要清楚：先行詞是 girl，不是句末 Amy 之後再接一串不明子句。介系詞的選擇由 sit on the chair 這個原本搭配決定。"
     }
@@ -4207,11 +4207,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】跨文本圖表閱讀與素養克漏字：undefined",
+      "title": "【板書推演】跨文本圖表閱讀與素養克漏字：原創資料：A 館週一至週六 09:00–17:00，學生票 80 元；B 館每天 12:00–20:00，學生票 100 元。郵件說：「We can go only after 6 p.m. on Sunday, and each of us has $120.」應選哪館？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先整理限制：星期日、晚上六點後、每人不超過 120 元；三個條件都要滿足。）",
           "mathExpression": "定位 ➔ 先看題目，再找對應段落或欄位",
           "explanation": "先整理限制：星期日、晚上六點後、每人不超過 120 元；三個條件都要滿足。"
         },
@@ -4237,7 +4237,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「定位、整合」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「定位、整合」之規則完成「原創資料：A 館週一至週六 09:00–17:00，學生票 80 元；B 館每天 12:00–20:00，學生票 100 元。郵件說：「We can go only after 6 p.m. on Sunday, and each of us has $120.」應選哪館？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -4245,7 +4245,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「跨文本圖表閱讀與素養克漏字、undefined、定位、整合、推論」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「跨文本圖表閱讀與素養克漏字、先整理限制：星期日、晚上六點後、每人不超過 120 元；三個條件都要滿足。、定位、整合、推論」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】Do not assume information not present in the text; always verify eligibility conditions, time limits, and discounts carefully before answering.",
       "defenseCheck": "【考場防呆】不能把較低票價當成唯一條件；題目也沒有說交通費，因此若要規劃真實行程，仍須另外確認交通與最後入館時間。克漏字若接「A is cheaper, ___ it is closed on Sunday」，空格應表轉折，如 but，而非表示結果的 so。回讀全段可避免文法局部正確、整體理由卻矛盾。"
     }
@@ -4279,11 +4279,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】細胞與顯微鏡：undefined",
+      "title": "【板書推演】細胞與顯微鏡：同一玻片在 10 倍目鏡、10 倍物鏡下看到許多細胞，換 40 倍物鏡後，有人說會看到四倍多細胞，對嗎？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（原總倍率為 100 倍，換鏡後為 400 倍，影像的線性尺寸放大。）",
           "mathExpression": "細胞膜 ➔ 控制物質進出，具選擇性",
           "explanation": "原總倍率為 100 倍，換鏡後為 400 倍，影像的線性尺寸放大。"
         },
@@ -4309,7 +4309,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「細胞膜、細胞壁」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「細胞膜、細胞壁」之規則完成「同一玻片在 10 倍目鏡、10 倍物鏡下看到許多細胞，換 40 倍物鏡後，有人說會看到四倍多細胞，對嗎？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -4317,7 +4317,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「細胞與顯微鏡、undefined、細胞膜、細胞壁、葉綠體」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「細胞與顯微鏡、原總倍率為 100 倍，換鏡後為 400 倍，影像的線性尺寸放大。、細胞膜、細胞壁、葉綠體」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】植物細胞不一定有葉綠體，例如多數根部細胞；動物細胞沒有細胞壁。",
       "defenseCheck": "【考場防呆】不要把放大倍率與細胞數量混為一談；物鏡也不應碰觸玻片。"
     }
@@ -4351,11 +4351,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】養分、光合作用與呼吸作用：undefined",
+      "title": "【板書推演】養分、光合作用與呼吸作用：密閉透明箱中的植物在充足光照下使 CO₂ 濃度下降，移到黑暗後卻上升，如何解釋？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（有光時光合作用消耗 CO₂，呼吸作用產生 CO₂；下降表示消耗速率大於產生速率。）",
           "mathExpression": "光合作用 ➔ 利用光能，把二氧化碳與水轉為有機物並釋氧",
           "explanation": "有光時光合作用消耗 CO₂，呼吸作用產生 CO₂；下降表示消耗速率大於產生速率。"
         },
@@ -4381,7 +4381,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「光合作用、有氧呼吸」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「光合作用、有氧呼吸」之規則完成「密閉透明箱中的植物在充足光照下使 CO₂ 濃度下降，移到黑暗後卻上升，如何解釋？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -4389,7 +4389,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「養分、光合作用與呼吸作用、undefined、光合作用、有氧呼吸、日夜差異」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「養分、光合作用與呼吸作用、有光時光合作用消耗 CO₂，呼吸作用產生 CO₂；下降表示消耗速率大於產生速率。、光合作用、有氧呼吸、日夜差異」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】植物不是只有晚上才呼吸；肥料供應礦物質，不是植物有機養分的唯一來源。",
       "defenseCheck": "【考場防呆】植物白天仍呼吸；不能把下降解釋為呼吸作用完全停止。"
     }
@@ -4423,11 +4423,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】運輸、消化與恆定：undefined",
+      "title": "【板書推演】運輸、消化與恆定：跑步後心跳、呼吸變快且流汗，是否表示身體失去恆定？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（肌肉活動增加能量需求，需更多氧及養分，也產生較多 CO₂ 和熱。）",
           "mathExpression": "消化 ➔ 大分子分解後才能有效吸收",
           "explanation": "肌肉活動增加能量需求，需更多氧及養分，也產生較多 CO₂ 和熱。"
         },
@@ -4453,7 +4453,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「消化、循環」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「消化、循環」之規則完成「跑步後心跳、呼吸變快且流汗，是否表示身體失去恆定？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -4461,7 +4461,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「運輸、消化與恆定、undefined、消化、循環、呼吸」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「運輸、消化與恆定、肌肉活動增加能量需求，需更多氧及養分，也產生較多 CO₂ 和熱。、消化、循環、呼吸」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】動脈是離開心臟的血管，不必然運送充氧血；肺動脈是重要例外。",
       "defenseCheck": "【考場防呆】汗水蒸發才能有效帶走熱；若明顯不適，應停止活動並向教師或專業人員求助。"
     }
@@ -4495,11 +4495,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】神經、內分泌與反應：undefined",
+      "title": "【板書推演】神經、內分泌與反應：碰到燙杯迅速縮手後才說「好燙」，以訊息路徑解釋。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（皮膚受器偵測刺激，感覺神經把訊息送往中樞。）",
           "mathExpression": "神經系統 ➔ 訊息傳遞通常快速、作用較局部",
           "explanation": "皮膚受器偵測刺激，感覺神經把訊息送往中樞。"
         },
@@ -4525,7 +4525,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「神經系統、內分泌」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「神經系統、內分泌」之規則完成「碰到燙杯迅速縮手後才說「好燙」，以訊息路徑解釋。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -4533,7 +4533,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「神經、內分泌與反應、undefined、神經系統、內分泌、中樞分工」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「神經、內分泌與反應、皮膚受器偵測刺激，感覺神經把訊息送往中樞。、神經系統、內分泌、中樞分工」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】反射不代表完全沒有神經控制，也不代表大腦永遠不接收訊息。",
       "defenseCheck": "【考場防呆】縮手不是完全不經中樞；也不能把所有反射都說成只由脊髓控制。"
     }
@@ -4567,11 +4567,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】生殖、遺傳與演化：undefined",
+      "title": "【板書推演】生殖、遺傳與演化：島上有不同喙形鳥，乾旱後較硬種子比例增加，粗喙鳥留下更多後代，可如何解釋？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（族群原本存在喙形差異，並非乾旱讓每隻鳥立刻變粗喙。）",
           "mathExpression": "有絲分裂 ➔ 一般產生染色體數相同的子細胞",
           "explanation": "族群原本存在喙形差異，並非乾旱讓每隻鳥立刻變粗喙。"
         },
@@ -4597,7 +4597,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「有絲分裂、減數分裂」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「有絲分裂、減數分裂」之規則完成「島上有不同喙形鳥，乾旱後較硬種子比例增加，粗喙鳥留下更多後代，可如何解釋？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -4605,7 +4605,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「生殖、遺傳與演化、undefined、有絲分裂、減數分裂、基因型與表現型」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「生殖、遺傳與演化、族群原本存在喙形差異，並非乾旱讓每隻鳥立刻變粗喙。、有絲分裂、減數分裂、基因型與表現型」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】顯性不代表更優秀、更常見或一定被遺傳；演化不是個體想改變就能改變。",
       "defenseCheck": "【考場防呆】環境改變可能使優勢反轉；「適應」不是永遠最強或最進步的排名。"
     }
@@ -4639,11 +4639,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】分類、生態系與能量流動：undefined",
+      "title": "【板書推演】分類、生態系與能量流動：草→蚱蜢→蛙→蛇，若蚱蜢突然減少，蛙與草可能如何變化？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（蛙的食物減少，其他條件相近時蛙的生存可能受影響。）",
           "mathExpression": "族群／群集 ➔ 同地同種個體／同地不同種族群",
           "explanation": "蛙的食物減少，其他條件相近時蛙的生存可能受影響。"
         },
@@ -4669,7 +4669,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「族群／群集、能量」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「族群／群集、能量」之規則完成「草→蚱蜢→蛙→蛇，若蚱蜢突然減少，蛙與草可能如何變化？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -4677,7 +4677,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「分類、生態系與能量流動、undefined、族群／群集、能量、多樣性」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「分類、生態系與能量流動、蛙的食物減少，其他條件相近時蛙的生存可能受影響。、族群／群集、能量、多樣性」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】能量流動與物質循環不同；能量不會無限完整循環回生產者。",
       "defenseCheck": "【考場防呆】箭頭不是畫誰追誰；也不能只靠一條食物鏈保證生態系的所有變化。"
     }
@@ -4711,11 +4711,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】測量、密度與實驗變因：undefined",
+      "title": "【板書推演】測量、密度與實驗變因：金屬塊質量 81 g，放入量筒後水位由 30 mL 升到 60 mL，求密度。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（物體體積是水位差 60−30＝30 mL＝30 cm³，不是最後讀值 60。）",
           "mathExpression": "操縱變因 ➔ 刻意改變的因素",
           "explanation": "物體體積是水位差 60−30＝30 mL＝30 cm³，不是最後讀值 60。"
         },
@@ -4741,7 +4741,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「操縱變因、應變變因」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「操縱變因、應變變因」之規則完成「金屬塊質量 81 g，放入量筒後水位由 30 mL 升到 60 mL，求密度。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -4749,7 +4749,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「測量、密度與實驗變因、undefined、操縱變因、應變變因、控制變因」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「測量、密度與實驗變因、物體體積是水位差 60−30＝30 mL＝30 cm³，不是最後讀值 60。、操縱變因、應變變因、控制變因」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】重不代表密度大，還要比較體積；重複測量可減少隨機誤差影響。",
       "defenseCheck": "【考場防呆】大塊物體較重，不表示密度較大；密度比較需質量與體積一起看。"
     }
@@ -4783,11 +4783,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】聲音與波動：undefined",
+      "title": "【板書推演】聲音與波動：聲速以 340 m/s 計，喊叫後 0.6 秒聽到牆面回聲，牆距多遠？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（聲音先從人到牆，再由牆反射回來，因此總路程是牆距的兩倍。）",
           "mathExpression": "音調 ➔ 主要對應頻率",
           "explanation": "聲音先從人到牆，再由牆反射回來，因此總路程是牆距的兩倍。"
         },
@@ -4813,7 +4813,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「音調、響度」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「音調、響度」之規則完成「聲速以 340 m/s 計，喊叫後 0.6 秒聽到牆面回聲，牆距多遠？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -4821,7 +4821,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「聲音與波動、undefined、音調、響度、音色」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「聲音與波動、聲音先從人到牆，再由牆反射回來，因此總路程是牆距的兩倍。、音調、響度、音色」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】聲音不能在真空中傳遞；越大聲不代表頻率越高。",
       "defenseCheck": "【考場防呆】若直接答 204 m 就把來回距離當單程；實際聲速還會隨介質與溫度改變。"
     }
@@ -4855,11 +4855,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】光的反射、折射與成像：undefined",
+      "title": "【板書推演】光的反射、折射與成像：人離平面鏡 2 m，向鏡子走近 0.5 m，物像距離減少多少？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（起初人與像各離鏡面 2 m，所以物像距離 4 m。）",
           "mathExpression": "物距＞2f ➔ 倒立、縮小、實像",
           "explanation": "起初人與像各離鏡面 2 m，所以物像距離 4 m。"
         },
@@ -4885,7 +4885,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「物距＞2f、物距＝2f」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「物距＞2f、物距＝2f」之規則完成「人離平面鏡 2 m，向鏡子走近 0.5 m，物像距離減少多少？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -4893,7 +4893,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「光的反射、折射與成像、undefined、物距＞2f、物距＝2f、f＜物距＜2f」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「光的反射、折射與成像、起初人與像各離鏡面 2 m，所以物像距離 4 m。、物距＞2f、物距＝2f、f＜物距＜2f」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】把鏡面當角度基準會算錯；凸透鏡不一定只會形成放大的像。",
       "defenseCheck": "【考場防呆】鏡像沒有真正在鏡後走動；這是光線幾何形成的對稱位置。"
     }
@@ -4927,11 +4927,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】溫度、熱量與熱傳播：undefined",
+      "title": "【板書推演】溫度、熱量與熱傳播：200 g 的水升溫 10°C，取比熱 1 cal/(g·°C)，忽略熱散失，需要多少熱量？若水量加倍呢？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（原需 Q＝200×1×10＝2000 cal。）",
           "mathExpression": "溫度 ➔ 描述冷熱狀態",
           "explanation": "原需 Q＝200×1×10＝2000 cal。"
         },
@@ -4957,7 +4957,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「溫度、熱量」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「溫度、熱量」之規則完成「200 g 的水升溫 10°C，取比熱 1 cal/(g·°C)，忽略熱散失，需要多少熱量？若水量加倍呢？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -4965,7 +4965,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「溫度、熱量與熱傳播、undefined、溫度、熱量、比熱」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「溫度、熱量與熱傳播、原需 Q＝200×1×10＝2000 cal。、溫度、熱量、比熱」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】溫度較高不代表總內能一定較多；熱量與溫度不是同一單位。",
       "defenseCheck": "【考場防呆】溫差 10°C 可在式中使用；不可把攝氏終溫直接代成 ΔT。"
     }
@@ -4999,11 +4999,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】運動、力與牛頓定律：undefined",
+      "title": "【板書推演】運動、力與牛頓定律：2 kg 小車受向右 10 N 拉力及向左 4 N 阻力，求加速度。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（選右為正，合力＝10−4＝6 N，方向向右。）",
           "mathExpression": "合力為零 ➔ 速度保持不變，可能靜止也可能等速直線運動",
           "explanation": "選右為正，合力＝10−4＝6 N，方向向右。"
         },
@@ -5029,7 +5029,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「合力為零、合力不為零」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「合力為零、合力不為零」之規則完成「2 kg 小車受向右 10 N 拉力及向左 4 N 阻力，求加速度。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -5037,7 +5037,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「運動、力與牛頓定律、undefined、合力為零、合力不為零、作用與反作用」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「運動、力與牛頓定律、選右為正，合力＝10−4＝6 N，方向向右。、合力為零、合力不為零、作用與反作用」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】作用力與反作用力作用在不同物體上，不能當成同一物體的平衡力。",
       "defenseCheck": "【考場防呆】若不知道初速和經過時間，不能只憑加速度推算當下速度。"
     }
@@ -5071,11 +5071,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】功、能量與簡單機械：undefined",
+      "title": "【板書推演】功、能量與簡單機械：水平槓桿右側 20 N 重物距支點 0.3 m，左側施向下力距支點 0.6 m，平衡需多少力？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（右側力矩＝20×0.3＝6 N·m。）",
           "mathExpression": "功 ➔ 力在位移方向上的分量×位移",
           "explanation": "右側力矩＝20×0.3＝6 N·m。"
         },
@@ -5101,7 +5101,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「功、動能」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「功、動能」之規則完成「水平槓桿右側 20 N 重物距支點 0.3 m，左側施向下力距支點 0.6 m，平衡需多少力？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -5109,7 +5109,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「功、能量與簡單機械、undefined、功、動能、重力位能變化」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「功、能量與簡單機械、右側力矩＝20×0.3＝6 N·m。、功、動能、重力位能變化」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】力臂不是任意量到施力點的長度；靜止提著物品時物品沒有位移，不對它做機械功。",
       "defenseCheck": "【考場防呆】前提是兩力皆垂直槓桿且忽略桿重；若改斜拉，力臂需重新判定。"
     }
@@ -5143,11 +5143,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】電路、電功率與磁作用：undefined",
+      "title": "【板書推演】電路、電功率與磁作用：6 Ω 電阻接 12 V 理想電源，求電流、功率及使用 5 分鐘的電能。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（I＝V/R＝12/6＝2 A。）",
           "mathExpression": "串聯電流 ➔ 各元件電流相同",
           "explanation": "I＝V/R＝12/6＝2 A。"
         },
@@ -5173,7 +5173,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「串聯電流、串聯電壓／電阻」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「串聯電流、串聯電壓／電阻」之規則完成「6 Ω 電阻接 12 V 理想電源，求電流、功率及使用 5 分鐘的電能。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -5181,7 +5181,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「電路、電功率與磁作用、undefined、串聯電流、串聯電壓／電阻、並聯電壓」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「電路、電功率與磁作用、I＝V/R＝12/6＝2 A。、串聯電流、串聯電壓／電阻、並聯電壓」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】電流不是流過電阻就被消耗掉；消耗或轉換的是電能。",
       "defenseCheck": "【考場防呆】瓦特不是焦耳；若用度電，須先換 kW 與小時，不可直接拿分鐘相乘。"
     }
@@ -5215,11 +5215,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】物質分類與粒子模型：undefined",
+      "title": "【板書推演】物質分類與粒子模型：冰融化、糖溶於水、鐵生鏽三種現象，如何分類並解釋？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（冰融化主要是水的狀態改變，仍為水，可判為物理變化。）",
           "mathExpression": "純物質 ➔ 固定組成，包含元素與化合物",
           "explanation": "冰融化主要是水的狀態改變，仍為水，可判為物理變化。"
         },
@@ -5245,7 +5245,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「純物質、混合物」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「純物質、混合物」之規則完成「冰融化、糖溶於水、鐵生鏽三種現象，如何分類並解釋？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -5253,7 +5253,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「物質分類與粒子模型、undefined、純物質、混合物、過濾」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「物質分類與粒子模型、冰融化主要是水的狀態改變，仍為水，可判為物理變化。、純物質、混合物、過濾」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】分子不一定是化合物，例如 O₂；化合物不是用過濾就能分成元素。",
       "defenseCheck": "【考場防呆】可逆與否不是唯一標準；玻璃摔碎不易還原，仍不能因此說是化學變化。"
     }
@@ -5287,11 +5287,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】原子結構與週期表：undefined",
+      "title": "【板書推演】原子結構與週期表：某粒子有 11 個質子、12 個中子、10 個電子，求質量數與電荷。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（質量數＝11＋12＝23。）",
           "mathExpression": "原子序 ➔ 等於質子數，決定元素種類",
           "explanation": "質量數＝11＋12＝23。"
         },
@@ -5317,7 +5317,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「原子序、質量數」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「原子序、質量數」之規則完成「某粒子有 11 個質子、12 個中子、10 個電子，求質量數與電荷。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -5325,7 +5325,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「原子結構與週期表、undefined、原子序、質量數、離子」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「原子結構與週期表、質量數＝11＋12＝23。、原子序、質量數、離子」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】帶正電通常是失去電子，不是多出質子；改變質子數會改變元素種類。",
       "defenseCheck": "【考場防呆】若中子改變而質子不變，是同元素的不同同位素；若質子改變才改變元素種類。"
     }
@@ -5359,11 +5359,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】反應式與質量守恆：undefined",
+      "title": "【板書推演】反應式與質量守恆：某物質受熱分解，原有 10 g 固體，最後殘留 6 g 固體並放出氣體，若無其他物質進出，氣體質量多少？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（把殘留固體與逸出氣體都納入反應產物。）",
           "mathExpression": "先配平 ➔ 只改係數，不能改化學式下標",
           "explanation": "把殘留固體與逸出氣體都納入反應產物。"
         },
@@ -5389,7 +5389,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「先配平、看粒子／莫耳比」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「先配平、看粒子／莫耳比」之規則完成「某物質受熱分解，原有 10 g 固體，最後殘留 6 g 固體並放出氣體，若無其他物質進出，氣體質量多少？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -5397,7 +5397,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「反應式與質量守恆、undefined、先配平、看粒子／莫耳比、換質量」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「反應式與質量守恆、把殘留固體與逸出氣體都納入反應產物。、先配平、看粒子／莫耳比、換質量」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】開放容器產生氣體逸出會使秤得質量減少，但不代表物質憑空消失。",
       "defenseCheck": "【考場防呆】前提是沒有噴濺、未反應物逸出或外界氣體參與；現象須配合系統條件判讀。"
     }
@@ -5431,11 +5431,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】溶液、濃度與溶解度：undefined",
+      "title": "【板書推演】溶液、濃度與溶解度：將 20 g 鹽加入 180 g 水並完全溶解，再加 100 g 水，前後濃度各多少？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（初始溶液質量為 20＋180＝200 g，濃度＝20/200×100%＝10%。）",
           "mathExpression": "純物質 ➔ 固定組成，包含元素與化合物",
           "explanation": "初始溶液質量為 20＋180＝200 g，濃度＝20/200×100%＝10%。"
         },
@@ -5461,7 +5461,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「純物質、混合物」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「純物質、混合物」之規則完成「將 20 g 鹽加入 180 g 水並完全溶解，再加 100 g 水，前後濃度各多少？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -5469,7 +5469,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「溶液、濃度與溶解度、undefined、純物質、混合物、過濾」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「溶液、濃度與溶解度、初始溶液質量為 20＋180＝200 g，濃度＝20/200×100%＝10%。、純物質、混合物、過濾」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】濃度分母不是只有水的質量；攪拌加快溶解，不必然提高平衡溶解度。",
       "defenseCheck": "【考場防呆】不能把 20/180 當原濃度；題目須確認完全溶解且沒有灑漏。"
     }
@@ -5503,11 +5503,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】酸鹼、鹽類與中和：undefined",
+      "title": "【板書推演】酸鹼、鹽類與中和：等體積的酸與鹼混合後一定 pH＝7 嗎？以每 mL 可中和量不同的情況解釋。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（假設酸每 mL 提供的可反應量是鹼的兩倍，混合相同體積仍有酸性成分過量。）",
           "mathExpression": "酸性水溶液 ➔ 常溫約 25°C 時 pH＜7",
           "explanation": "假設酸每 mL 提供的可反應量是鹼的兩倍，混合相同體積仍有酸性成分過量。"
         },
@@ -5533,7 +5533,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「酸性水溶液、鹼性水溶液」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「酸性水溶液、鹼性水溶液」之規則完成「等體積的酸與鹼混合後一定 pH＝7 嗎？以每 mL 可中和量不同的情況解釋。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -5541,7 +5541,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「酸鹼、鹽類與中和、undefined、酸性水溶液、鹼性水溶液、中和」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「酸鹼、鹽類與中和、假設酸每 mL 提供的可反應量是鹼的兩倍，混合相同體積仍有酸性成分過量。、酸性水溶液、鹼性水溶液、中和」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】酸和鹼混合不保證剛好中性；若酸過量可能仍呈酸性。",
       "defenseCheck": "【考場防呆】課堂數值題常另假設強酸強鹼與適當溫度；不可把這些特例推成所有中和反應。"
     }
@@ -5575,11 +5575,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】氧化還原、有機物與材料：undefined",
+      "title": "【板書推演】氧化還原、有機物與材料：鐵釘分別放在乾燥空氣與潮濕空氣中，為何鏽蝕情形可能不同？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（鐵生鏽與氧、水等環境條件有關，潮濕提供有利反應環境。）",
           "mathExpression": "碳氫化合物 ➔ 由碳與氫組成",
           "explanation": "鐵生鏽與氧、水等環境條件有關，潮濕提供有利反應環境。"
         },
@@ -5605,7 +5605,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「碳氫化合物、不完全燃燒」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「碳氫化合物、不完全燃燒」之規則完成「鐵釘分別放在乾燥空氣與潮濕空氣中，為何鏽蝕情形可能不同？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -5613,7 +5613,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「氧化還原、有機物與材料、undefined、碳氫化合物、不完全燃燒、聚合物」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「氧化還原、有機物與材料、鐵生鏽與氧、水等環境條件有關，潮濕提供有利反應環境。、碳氫化合物、不完全燃燒、聚合物」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】不是所有含碳化合物都分類為有機物；如二氧化碳通常列為無機物。",
       "defenseCheck": "【考場防呆】鏽蝕是緩慢變化，不必出現火焰；塗層保護作用也須考慮是否完整。"
     }
@@ -5647,11 +5647,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】岩石、板塊與地震：undefined",
+      "title": "【板書推演】岩石、板塊與地震：看到有層理且含化石的岩石，較支持哪種形成環境？能否只憑一張照片斷定年代？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（層理和化石常支持沉積岩來源，可由沉積、堆積及成岩過程解釋。）",
           "mathExpression": "地層上下 ➔ 未翻轉的沉積層一般下老上新",
           "explanation": "層理和化石常支持沉積岩來源，可由沉積、堆積及成岩過程解釋。"
         },
@@ -5677,7 +5677,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「地層上下、切割關係」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「地層上下、切割關係」之規則完成「看到有層理且含化石的岩石，較支持哪種形成環境？能否只憑一張照片斷定年代？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -5685,7 +5685,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「岩石、板塊與地震、undefined、地層上下、切割關係、板塊邊界」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「岩石、板塊與地震、層理和化石常支持沉積岩來源，可由沉積、堆積及成岩過程解釋。、地層上下、切割關係、板塊邊界」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】變質不是一定先熔化；震度描述各地搖晃程度，與地震規模概念不同。",
       "defenseCheck": "【考場防呆】岩石分類是形成史的推論，觀察線索可能需要多項互相支持。"
     }
@@ -5719,11 +5719,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】水循環、海洋與地形：undefined",
+      "title": "【板書推演】水循環、海洋與地形：同樣降雨落在草地與大面積柏油地，哪裡可能較快出現大量逕流？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（草地土壤通常提供入滲及暫存空間，但仍受土壤含水量影響。）",
           "mathExpression": "水循環 ➔ 蒸發、凝結、降水、入滲與逕流",
           "explanation": "草地土壤通常提供入滲及暫存空間，但仍受土壤含水量影響。"
         },
@@ -5749,7 +5749,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「水循環、侵蝕／搬運／沉積」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「水循環、侵蝕／搬運／沉積」之規則完成「同樣降雨落在草地與大面積柏油地，哪裡可能較快出現大量逕流？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -5757,7 +5757,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「水循環、海洋與地形、undefined、水循環、侵蝕／搬運／沉積、天氣／氣候」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「水循環、海洋與地形、草地土壤通常提供入滲及暫存空間，但仍受土壤含水量影響。、水循環、侵蝕／搬運／沉積、天氣／氣候」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】地下水不是取之不盡；過量抽取可能導致地層下陷。",
       "defenseCheck": "【考場防呆】不能說草地永不淹水；飽和土壤及極端降雨仍可能產生大量逕流。"
     }
@@ -5791,11 +5791,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】天氣、鋒面與臺灣季風：undefined",
+      "title": "【板書推演】天氣、鋒面與臺灣季風：冬季東北季風盛行時，為何臺灣東北部常比西南部更易降雨？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（東北季風可從海上帶來水氣，首先影響東北側。）",
           "mathExpression": "冷鋒 ➔ 冷空氣推進，暖空氣被迫抬升",
           "explanation": "東北季風可從海上帶來水氣，首先影響東北側。"
         },
@@ -5821,7 +5821,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「冷鋒、暖鋒」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「冷鋒、暖鋒」之規則完成「冬季東北季風盛行時，為何臺灣東北部常比西南部更易降雨？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -5829,7 +5829,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「天氣、鋒面與臺灣季風、undefined、冷鋒、暖鋒、滯留鋒」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「天氣、鋒面與臺灣季風、東北季風可從海上帶來水氣，首先影響東北側。、冷鋒、暖鋒、滯留鋒」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】不能以某一天很冷就否定長期氣候變化；迎背風面依風向而變。",
       "defenseCheck": "【考場防呆】這是常見型態而非每日保證；仍須參考當時鋒面、風場與水氣。"
     }
@@ -5863,11 +5863,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】地球運動、四季與月相：undefined",
+      "title": "【板書推演】地球運動、四季與月相：北半球夏季時南半球為何通常是冬季？請由地軸傾斜與日照條件解釋。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（地軸保持近似固定指向，北半球傾向太陽時，太陽高度較高、白晝較長。）",
           "mathExpression": "月相 ➔ 看見月球受光半球的比例改變",
           "explanation": "地軸保持近似固定指向，北半球傾向太陽時，太陽高度較高、白晝較長。"
         },
@@ -5893,7 +5893,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「月相、日食」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「月相、日食」之規則完成「北半球夏季時南半球為何通常是冬季？請由地軸傾斜與日照條件解釋。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -5901,7 +5901,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「地球運動、四季與月相、undefined、月相、日食、月食」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「地球運動、四季與月相、地軸保持近似固定指向，北半球傾向太陽時，太陽高度較高、白晝較長。、月相、日食、月食」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】四季主要不是因地球離太陽遠近；月相也不是每月被地球影子遮住。",
       "defenseCheck": "【考場防呆】不能把太陽高度較高寫成太陽實際升到地球更近的位置。"
     }
@@ -5935,11 +5935,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】太陽系、星空與尺度：undefined",
+      "title": "【板書推演】太陽系、星空與尺度：某恆星距離約 20 光年，今天看到的光大約何時離開它？可否說到那裡只需 20 年？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（光年是光在真空一年行進的距離，所以觀測到的光約 20 年前出發。）",
           "mathExpression": "自轉 ➔ 地球約一天轉一圈",
           "explanation": "光年是光在真空一年行進的距離，所以觀測到的光約 20 年前出發。"
         },
@@ -5965,7 +5965,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「自轉、公轉與地軸」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「自轉、公轉與地軸」之規則完成「某恆星距離約 20 光年，今天看到的光大約何時離開它？可否說到那裡只需 20 年？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -5973,7 +5973,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「太陽系、星空與尺度、undefined、自轉、公轉與地軸、天文單位」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「太陽系、星空與尺度、光年是光在真空一年行進的距離，所以觀測到的光約 20 年前出發。、自轉、公轉與地軸、天文單位」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】亮度不只與距離有關，也與天體本身發光能力等因素有關。",
       "defenseCheck": "【考場防呆】這是以距離近似固定的簡化估算；不要把光年當成恆星年齡單位。"
     }
@@ -6007,11 +6007,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】氣候變遷與永續探究：undefined",
+      "title": "【板書推演】氣候變遷與永續探究：校園加裝遮陽棚與降低用電，分別偏向調適還是減緩？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（遮陽棚降低高溫曝曬影響，主要偏向調適。）",
           "mathExpression": "水循環 ➔ 蒸發、凝結、降水、入滲與逕流",
           "explanation": "遮陽棚降低高溫曝曬影響，主要偏向調適。"
         },
@@ -6037,7 +6037,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「水循環、侵蝕／搬運／沉積」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「水循環、侵蝕／搬運／沉積」之規則完成「校園加裝遮陽棚與降低用電，分別偏向調適還是減緩？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6045,7 +6045,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「氣候變遷與永續探究、undefined、水循環、侵蝕／搬運／沉積、天氣／氣候」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「氣候變遷與永續探究、遮陽棚降低高溫曝曬影響，主要偏向調適。、水循環、侵蝕／搬運／沉積、天氣／氣候」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】臭氧洞與全球暖化不是相同現象；不要把所有災害都歸因於單一因素。",
       "defenseCheck": "【考場防呆】分類不是互斥標籤；要說清楚措施透過什麼機制發揮作用。"
     }
@@ -6079,11 +6079,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】物質進出細胞與酵素催化作用：undefined",
+      "title": "【板書推演】物質進出細胞與酵素催化作用：同量澱粉與唾液在適溫及煮沸後冷卻兩組中反應，哪組較易分解澱粉？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（唾液中有能作用於澱粉的酵素，適溫組通常能保有活性。）",
           "mathExpression": "細胞膜 ➔ 控制物質進出，具選擇性",
           "explanation": "唾液中有能作用於澱粉的酵素，適溫組通常能保有活性。"
         },
@@ -6109,7 +6109,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「細胞膜、細胞壁」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「細胞膜、細胞壁」之規則完成「同量澱粉與唾液在適溫及煮沸後冷卻兩組中反應，哪組較易分解澱粉？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6117,7 +6117,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「物質進出細胞與酵素催化作用、undefined、細胞膜、細胞壁、葉綠體」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「物質進出細胞與酵素催化作用、唾液中有能作用於澱粉的酵素，適溫組通常能保有活性。、細胞膜、細胞壁、葉綠體」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】植物細胞置於純水不會破裂，因細胞壁提供機械支持抗膨壓；煮沸會使酵素蛋白質變性失去活性，降溫後無法恢復催化功能。",
       "defenseCheck": "【考場防呆】不能說所有低溫都會永久破壞酵素；冷與熱的影響機制不同。"
     }
@@ -6151,11 +6151,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】植物的體內運輸與水分恆定：undefined",
+      "title": "【板書推演】植物的體內運輸與水分恆定：一枝帶葉芹菜插入有色水，數小時後葉脈染色。此結果支持什麼？不足以證明什麼？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（色水沿部分輸導組織向上到葉，支持莖內存在水的運輸通路。）",
           "mathExpression": "消化 ➔ 大分子分解後才能有效吸收",
           "explanation": "色水沿部分輸導組織向上到葉，支持莖內存在水的運輸通路。"
         },
@@ -6181,7 +6181,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「消化、循環」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「消化、循環」之規則完成「一枝帶葉芹菜插入有色水，數小時後葉脈染色。此結果支持什麼？不足以證明什麼？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6189,7 +6189,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「植物的體內運輸與水分恆定、undefined、消化、循環、呼吸」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「植物的體內運輸與水分恆定、色水沿部分輸導組織向上到葉，支持莖內存在水的運輸通路。、消化、循環、呼吸」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】保衛細胞吸水膨脹時氣孔才會打開（內壁較厚外壁較薄）；木質部運輸不需要消耗細胞 ATP 能量，為物理拉力驅動。",
       "defenseCheck": "【考場防呆】實驗示範須把觀察與推論分開；染色不等於整個細胞內的所有物質都向上流。"
     }
@@ -6223,11 +6223,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】動物呼吸系統與排泄泌尿作用：undefined",
+      "title": "【板書推演】動物呼吸系統與排泄泌尿作用：有人說「肺把食物直接變成能量，腎把所有過濾物都排掉」，應如何修正？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（肺泡主要進行氧與 CO₂ 的交換，氧由循環送往細胞。）",
           "mathExpression": "消化 ➔ 大分子分解後才能有效吸收",
           "explanation": "肺泡主要進行氧與 CO₂ 的交換，氧由循環送往細胞。"
         },
@@ -6253,7 +6253,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「消化、循環」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「消化、循環」之規則完成「有人說「肺把食物直接變成能量，腎把所有過濾物都排掉」，應如何修正？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6261,7 +6261,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「動物呼吸系統與排泄泌尿作用、undefined、消化、循環、呼吸」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「動物呼吸系統與排泄泌尿作用、肺泡主要進行氧與 CO₂ 的交換，氧由循環送往細胞。、消化、循環、呼吸」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】呼吸運動受血液中「二氧化碳濃度」主導調控，非缺氧為主；排泄（排尿）指排出代謝廢物，與排遺（排便，排出未消化食物殘渣）是不同生理途徑。",
       "defenseCheck": "【考場防呆】器官分工要配合流程理解；尿量也不能單獨代表腎功能好壞。"
     }
@@ -6295,11 +6295,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】細胞分裂、減數分裂與生殖：undefined",
+      "title": "【板書推演】細胞分裂、減數分裂與生殖：某動物一般體細胞有 12 條染色體，正常配子及受精卵各有多少？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（減數分裂使配子染色體數減半，所以每個配子為 6 條。）",
           "mathExpression": "有絲分裂 ➔ 一般產生染色體數相同的子細胞",
           "explanation": "減數分裂使配子染色體數減半，所以每個配子為 6 條。"
         },
@@ -6325,7 +6325,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「有絲分裂、減數分裂」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「有絲分裂、減數分裂」之規則完成「某動物一般體細胞有 12 條染色體，正常配子及受精卵各有多少？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6333,7 +6333,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「細胞分裂、減數分裂與生殖、undefined、有絲分裂、減數分裂、基因型與表現型」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「細胞分裂、減數分裂與生殖、減數分裂使配子染色體數減半，所以每個配子為 6 條。、有絲分裂、減數分裂、基因型與表現型」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】減數分裂中「同源染色體分離」發生在第一次分裂，「複製的姊妹染色分體分離」發生在第二次分裂；無性生殖通常不涉及減數分裂與受精作用。",
       "defenseCheck": "【考場防呆】這裡假設正常分裂且題目描述一般二倍體生殖週期；不是所有生物階段都可一律照套。"
     }
@@ -6367,11 +6367,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】孟德爾遺傳法則與性別性聯遺傳：undefined",
+      "title": "【板書推演】孟德爾遺傳法則與性別性聯遺傳：完全顯性模型中，Aa 與 aa 配對，子代出現隱性性狀的機率是多少？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（Aa 可產生 A、a 配子，各機率 1/2；aa 只能提供 a。）",
           "mathExpression": "有絲分裂 ➔ 一般產生染色體數相同的子細胞",
           "explanation": "Aa 可產生 A、a 配子，各機率 1/2；aa 只能提供 a。"
         },
@@ -6397,7 +6397,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「有絲分裂、減數分裂」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「有絲分裂、減數分裂」之規則完成「完全顯性模型中，Aa 與 aa 配對，子代出現隱性性狀的機率是多少？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6405,7 +6405,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「孟德爾遺傳法則與性別性聯遺傳、undefined、有絲分裂、減數分裂、基因型與表現型」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「孟德爾遺傳法則與性別性聯遺傳、Aa 可產生 A、a 配子，各機率 1/2；aa 只能提供 a。、有絲分裂、減數分裂、基因型與表現型」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】表現型相同者基因型不一定相同（TT 與 Tt 皆為高莖）；生男生女機率在每次受孕均為獨立事件，各為 1/2，不受前面幾胎性別影響。",
       "defenseCheck": "【考場防呆】第一個子代為 Aa 不會使下一個必為 aa；各次事件不能用「補足比例」推論。"
     }
@@ -6439,11 +6439,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】生物多樣性、保育與環境永續：undefined",
+      "title": "【板書推演】生物多樣性、保育與環境永續：某保育計畫只大量繁殖同一對親代的後代，再野放到棲地已破碎的地區，可能有哪些限制？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（個體數增加不代表遺傳多樣性足夠，同源後代可能缺乏某些變異。）",
           "mathExpression": "族群／群集 ➔ 同地同種個體／同地不同種族群",
           "explanation": "個體數增加不代表遺傳多樣性足夠，同源後代可能缺乏某些變異。"
         },
@@ -6469,7 +6469,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「族群／群集、能量」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「族群／群集、能量」之規則完成「某保育計畫只大量繁殖同一對親代的後代，再野放到棲地已破碎的地區，可能有哪些限制？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6477,7 +6477,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「生物多樣性、保育與環境永續、undefined、族群／群集、能量、多樣性」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「生物多樣性、保育與環境永續、個體數增加不代表遺傳多樣性足夠，同源後代可能缺乏某些變異。、族群／群集、能量、多樣性」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】物種多樣性高不只看物種種類多寡，還要看各物種個體數分布的均勻度；外來種不一定都會造成危害，只有大量繁殖並危害本土生態者才稱為「入侵種」。",
       "defenseCheck": "【考場防呆】保育要比較行動前後的存活與繁殖證據，而不是只看活動當日照片。"
     }
@@ -6511,11 +6511,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】浮力與阿基米德原理：undefined",
+      "title": "【板書推演】浮力與阿基米德原理：重 6 N 木塊漂在水面，求浮力；壓到完全浸沒時浮力可能仍是 6 N 嗎？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（自由漂浮且靜止時，鉛直方向力平衡，浮力＝6 N。）",
           "mathExpression": "液體壓力差 ➔ 同液體中深度差越大，壓力差越大",
           "explanation": "自由漂浮且靜止時，鉛直方向力平衡，浮力＝6 N。"
         },
@@ -6541,7 +6541,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「液體壓力差、浮力」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「液體壓力差、浮力」之規則完成「重 6 N 木塊漂在水面，求浮力；壓到完全浸沒時浮力可能仍是 6 N 嗎？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6549,7 +6549,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「浮力與阿基米德原理、undefined、液體壓力差、浮力、漂浮平衡」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「浮力與阿基米德原理、自由漂浮且靜止時，鉛直方向力平衡，浮力＝6 N。、液體壓力差、浮力、漂浮平衡」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】浮體所受的浮力等於「物體本身重量」，不是排開全部物體體積的液體重；沈體沉入水底越深，若液體密度不變且未觸底壓緊，所受浮力維持不變。",
       "defenseCheck": "【考場防呆】「浮力等於物重」只適用於沒有其他鉛直力的平衡情境，不是任何浸水物體都成立。"
     }
@@ -6583,11 +6583,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】液體壓力與大氣壓力：undefined",
+      "title": "【板書推演】液體壓力與大氣壓力：水中兩點深度差 0.5 m，取水密度 1000 kg/m³、g＝10 m/s²，兩點壓力差多少？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（深度差 Δh＝0.5 m，公式 Δp＝ρgΔh。）",
           "mathExpression": "液體壓力差 ➔ 同液體中深度差越大，壓力差越大",
           "explanation": "深度差 Δh＝0.5 m，公式 Δp＝ρgΔh。"
         },
@@ -6613,7 +6613,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「液體壓力差、浮力」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「液體壓力差、浮力」之規則完成「水中兩點深度差 0.5 m，取水密度 1000 kg/m³、g＝10 m/s²，兩點壓力差多少？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6621,7 +6621,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「液體壓力與大氣壓力、undefined、液體壓力差、浮力、漂浮平衡」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「液體壓力與大氣壓力、深度差 Δh＝0.5 m，公式 Δp＝ρgΔh。、液體壓力差、浮力、漂浮平衡」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】液體壓力大小與容器形狀、粗細無關，只與「深度」及「液體密度」有關；托里切利管傾斜時，管內外水銀面的「垂直高度差」仍維持 76 cm 不變。",
       "defenseCheck": "【考場防呆】容器外形未進入公式，是在相同靜止液體與近似固定重力條件下的結果。"
     }
@@ -6655,11 +6655,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】摩擦力、正向力與牛頓第一運動定律深化：undefined",
+      "title": "【板書推演】摩擦力、正向力與牛頓第一運動定律深化：箱子在水平地面受 5 N 水平推力仍不動，已知沒有其他水平外力，摩擦力是多少？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（箱子靜止代表水平方向合力為零。）",
           "mathExpression": "合力為零 ➔ 速度保持不變，可能靜止也可能等速直線運動",
           "explanation": "箱子靜止代表水平方向合力為零。"
         },
@@ -6685,7 +6685,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「合力為零、合力不為零」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「合力為零、合力不為零」之規則完成「箱子在水平地面受 5 N 水平推力仍不動，已知沒有其他水平外力，摩擦力是多少？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6693,7 +6693,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「摩擦力、正向力與牛頓第一運動定律深化、undefined、合力為零、合力不為零、作用與反作用」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「摩擦力、正向力與牛頓第一運動定律深化、箱子靜止代表水平方向合力為零。、合力為零、合力不為零、作用與反作用」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】物體未被推動時，靜摩擦力大小等於當時的「推力」，不等於最大靜摩擦力；滑動摩擦力與接觸面積大小通常無關。",
       "defenseCheck": "【考場防呆】物體不動不表示沒有受力；不同力可以彼此平衡。"
     }
@@ -6727,11 +6727,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】靜電現象與庫侖定律：undefined",
+      "title": "【板書推演】靜電現象與庫侖定律：帶負電塑膠尺吸起原本中性的小紙片，紙片是否一定先帶正電？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（中性紙片的正負電總量原本相等，但帶電尺可使電荷分布偏移。）",
           "mathExpression": "電荷 ➔ 同號相斥、異號相吸",
           "explanation": "中性紙片的正負電總量原本相等，但帶電尺可使電荷分布偏移。"
         },
@@ -6757,7 +6757,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「電荷、電流磁效應」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「電荷、電流磁效應」之規則完成「帶負電塑膠尺吸起原本中性的小紙片，紙片是否一定先帶正電？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6765,7 +6765,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「靜電現象與庫侖定律、undefined、電荷、電流磁效應、電動機原理」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「靜電現象與庫侖定律、中性紙片的正負電總量原本相等，但帶電尺可使電荷分布偏移。、電荷、電流磁效應、電動機原理」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】摩擦起電並未創造新電荷，只是「負電荷（電子）」的轉移，原子核質子不會被摩擦脫離；帶電體能吸引不帶電輕小物體是由於「靜電感應」。",
       "defenseCheck": "【考場防呆】定量庫侖平方反比可作延伸；先掌握電荷守恆、感應及吸引不能唯一判電性的核心觀念。"
     }
@@ -6799,11 +6799,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】電流的磁效應與電磁鐵：undefined",
+      "title": "【板書推演】電流的磁效應與電磁鐵：甲乙電磁鐵鐵芯相同、電流相同，甲 50 匝、乙 100 匝，如何公平比較磁效應？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先保持鐵芯、電流、線圈位置與測試距離一致，只改匝數。）",
           "mathExpression": "電荷 ➔ 同號相斥、異號相吸",
           "explanation": "先保持鐵芯、電流、線圈位置與測試距離一致，只改匝數。"
         },
@@ -6829,7 +6829,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「電荷、電流磁效應」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「電荷、電流磁效應」之規則完成「甲乙電磁鐵鐵芯相同、電流相同，甲 50 匝、乙 100 匝，如何公平比較磁效應？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6837,7 +6837,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「電流的磁效應與電磁鐵、undefined、電荷、電流磁效應、電動機原理」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「電流的磁效應與電磁鐵、先保持鐵芯、電流、線圈位置與測試距離一致，只改匝數。、電荷、電流磁效應、電動機原理」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】安培定則中使用「右手」而非左手；長直導線周圍磁場強度隨與導線距離增加而遞減，不是均勻磁場。",
       "defenseCheck": "【考場防呆】不可長時間短路電池或讓導線過熱；實驗需適當限流與教師指導。"
     }
@@ -6871,11 +6871,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】電磁感應與發電機：undefined",
+      "title": "【板書推演】電磁感應與發電機：磁鐵先靜止在線圈旁，再推入閉合線圈，最後停在線圈內，電流如何變化？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（靜止且磁場條件不變時，通常沒有由此產生的持續感應電流。）",
           "mathExpression": "電荷 ➔ 同號相斥、異號相吸",
           "explanation": "靜止且磁場條件不變時，通常沒有由此產生的持續感應電流。"
         },
@@ -6901,7 +6901,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「電荷、電流磁效應」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「電荷、電流磁效應」之規則完成「磁鐵先靜止在線圈旁，再推入閉合線圈，最後停在線圈內，電流如何變化？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6909,7 +6909,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「電磁感應與發電機、undefined、電荷、電流磁效應、電動機原理」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「電磁感應與發電機、靜止且磁場條件不變時，通常沒有由此產生的持續感應電流。、電荷、電流磁效應、電動機原理」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】只有在磁場「發生變化（運動或變動）」的瞬間才會產生感應電流；磁鐵靜止在線圈中無論磁性多強都不會產生感應電流。",
       "defenseCheck": "【考場防呆】發電需機械能等來源，不能把磁鐵靜放就視為可永久供電。"
     }
@@ -6943,11 +6943,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】反應速率與影響因素：undefined",
+      "title": "【板書推演】反應速率與影響因素：同質量碳酸鈣粉末與大顆粒分別加入足量、同濃度酸中，粉末較快產氣，是否代表最後氣體一定更多？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（粉末表面積較大，與酸接觸機會多，因此通常產氣速率較快。）",
           "mathExpression": "溫度提高 ➔ 通常加快速率",
           "explanation": "粉末表面積較大，與酸接觸機會多，因此通常產氣速率較快。"
         },
@@ -6973,7 +6973,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「溫度提高、濃度／表面積」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「溫度提高、濃度／表面積」之規則完成「同質量碳酸鈣粉末與大顆粒分別加入足量、同濃度酸中，粉末較快產氣，是否代表最後氣體一定更多？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6981,7 +6981,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「反應速率與影響因素、undefined、溫度提高、濃度／表面積、催化劑」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「反應速率與影響因素、粉末表面積較大，與酸接觸機會多，因此通常產氣速率較快。、溫度提高、濃度／表面積、催化劑」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】催化劑（如二氧化錳催化雙氧水分解）能改變反應途徑降低活化能以加速反應，但反應前後其質量與化學性質不變，且不改變生成物的最大產量。",
       "defenseCheck": "【考場防呆】應畫氣體體積對時間圖：斜率表示速率，最後平台高度表示總量。"
     }
@@ -7015,11 +7015,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】化學平衡與勒沙特列原理：undefined",
+      "title": "【板書推演】化學平衡與勒沙特列原理：密閉系統 A⇌B 已達平衡，有人說 A、B 的分子數必相同，而且反應停止，對嗎？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（平衡要求每單位時間 A 轉 B 與 B 轉 A 的量相等，不要求兩者原有數量相同。）",
           "mathExpression": "溫度提高 ➔ 通常加快速率",
           "explanation": "平衡要求每單位時間 A 轉 B 與 B 轉 A 的量相等，不要求兩者原有數量相同。"
         },
@@ -7045,7 +7045,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「溫度提高、濃度／表面積」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「溫度提高、濃度／表面積」之規則完成「密閉系統 A⇌B 已達平衡，有人說 A、B 的分子數必相同，而且反應停止，對嗎？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7053,7 +7053,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「化學平衡與勒沙特列原理、undefined、溫度提高、濃度／表面積、催化劑」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「化學平衡與勒沙特列原理、平衡要求每單位時間 A 轉 B 與 B 轉 A 的量相等，不要求兩者原有數量相同。、溫度提高、濃度／表面積、催化劑」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】化學平衡是「動態」平衡，正逆反應依然在進行，只是速率相等；平衡時各反應物與生成物的濃度保持固定，但兩者濃度不一定相等。",
       "defenseCheck": "【考場防呆】先確認系統封閉及條件固定；「看起來不變」不是粒子靜止。"
     }
@@ -7087,11 +7087,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】電解質與阿瑞尼斯解離說：undefined",
+      "title": "【板書推演】電解質與阿瑞尼斯解離說：同濃度食鹽水與糖水，哪種通常較能讓導電測試燈發亮？為什麼不能僅用透明與否判斷？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（食鹽溶水後提供可移動的正負離子，通常能導電。）",
           "mathExpression": "酸性水溶液 ➔ 常溫約 25°C 時 pH＜7",
           "explanation": "食鹽溶水後提供可移動的正負離子，通常能導電。"
         },
@@ -7117,7 +7117,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「酸性水溶液、鹼性水溶液」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「酸性水溶液、鹼性水溶液」之規則完成「同濃度食鹽水與糖水，哪種通常較能讓導電測試燈發亮？為什麼不能僅用透明與否判斷？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7125,7 +7125,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「電解質與阿瑞尼斯解離說、undefined、酸性水溶液、鹼性水溶液、中和」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「電解質與阿瑞尼斯解離說、食鹽溶水後提供可移動的正負離子，通常能導電。、酸性水溶液、鹼性水溶液、中和」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】金屬（如銅線）能導電但不是電解質（電解質必須是化合物且在水溶液中或熔融態導電）；電解質水溶液中陽離子數與陰離子數不一定相等（如 CaCl₂ 陽陰離子比為 1:2），但正負「總電量」必然相等。",
       "defenseCheck": "【考場防呆】測試需用安全低電壓設備，不可把家庭插座電線插入水中。"
     }
@@ -7159,11 +7159,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】酸鹼滴定與常見生活鹽類：undefined",
+      "title": "【板書推演】酸鹼滴定與常見生活鹽類：在簡化一比一反應模型中，10 mL 某酸需 20 mL 標準鹼恰好反應；改取 15 mL 同酸需多少鹼？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（同一酸樣品濃度相同，酸量與體積成正比。）",
           "mathExpression": "酸性水溶液 ➔ 常溫約 25°C 時 pH＜7",
           "explanation": "同一酸樣品濃度相同，酸量與體積成正比。"
         },
@@ -7189,7 +7189,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「酸性水溶液、鹼性水溶液」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「酸性水溶液、鹼性水溶液」之規則完成「在簡化一比一反應模型中，10 mL 某酸需 20 mL 標準鹼恰好反應；改取 15 mL 同酸需多少鹼？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7197,7 +7197,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「酸鹼滴定與常見生活鹽類、undefined、酸性水溶液、鹼性水溶液、中和」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「酸鹼滴定與常見生活鹽類、同一酸樣品濃度相同，酸量與體積成正比。、酸性水溶液、鹼性水溶液、中和」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】酸鹼中和必放熱，溶液溫度會上升；中和生成的鹽類水溶液不一定為中性（如碳酸氫鈉水溶液呈弱鹼性，氯化銨呈弱酸性）。",
       "defenseCheck": "【考場防呆】不能跨不同濃度樣品直接用體積比；真實操作須使用防護並依教師指導。"
     }
@@ -7231,11 +7231,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】常見有機化合物與石化燃料：undefined",
+      "title": "【板書推演】常見有機化合物與石化燃料：甲烷完全燃燒的式子如何配平？為何不能在通風不良處使用燃燒設備？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先寫 CH₄＋O₂→CO₂＋H₂O，碳已各一個。）",
           "mathExpression": "碳氫化合物 ➔ 由碳與氫組成",
           "explanation": "先寫 CH₄＋O₂→CO₂＋H₂O，碳已各一個。"
         },
@@ -7261,7 +7261,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「碳氫化合物、不完全燃燒」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「碳氫化合物、不完全燃燒」之規則完成「甲烷完全燃燒的式子如何配平？為何不能在通風不良處使用燃燒設備？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7269,7 +7269,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「常見有機化合物與石化燃料、undefined、碳氫化合物、不完全燃燒、聚合物」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「常見有機化合物與石化燃料、先寫 CH₄＋O₂→CO₂＋H₂O，碳已各一個。、碳氫化合物、不完全燃燒、聚合物」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】濃硫酸在酯化反應中擔任「催化劑」與「脫水劑」，非反應物；含碳的化合物不全是有機物，一氧化碳、二氧化碳與大理石（CaCO₃）歸為無機化合物。",
       "defenseCheck": "【考場防呆】配平改係數而非下標；不要用實際點火在密閉空間驗證此現象。"
     }
@@ -7303,11 +7303,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】聚合物與生活材料安全：undefined",
+      "title": "【板書推演】聚合物與生活材料安全：看到塑膠容器有回收編號，就認為可以裝滾水並微波，這個判斷缺少什麼？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（回收編號主要協助材質分類，不能單獨證明特定成品的耐熱與用途。）",
           "mathExpression": "碳氫化合物 ➔ 由碳與氫組成",
           "explanation": "回收編號主要協助材質分類，不能單獨證明特定成品的耐熱與用途。"
         },
@@ -7333,7 +7333,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「碳氫化合物、不完全燃燒」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「碳氫化合物、不完全燃燒」之規則完成「看到塑膠容器有回收編號，就認為可以裝滾水並微波，這個判斷缺少什麼？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7341,7 +7341,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「聚合物與生活材料安全、undefined、碳氫化合物、不完全燃燒、聚合物」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「聚合物與生活材料安全、回收編號主要協助材質分類，不能單獨證明特定成品的耐熱與用途。、碳氫化合物、不完全燃燒、聚合物」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】澱粉與纖維素的單體皆為葡萄糖，但因幾何連接方式不同，人體酵素能消化澱粉卻無法分解纖維素；塑膠燃燒可能產生戴奧辛等有毒氣體，需落實源頭減量與分類回收。",
       "defenseCheck": "【考場防呆】「天然」和「合成」也不是安全與危險的直接分界，需看物質及實際暴露條件。"
     }
@@ -7375,11 +7375,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】地層順序與地質歷史判讀：undefined",
+      "title": "【板書推演】地層順序與地質歷史判讀：由下而上 A、B、C 三層沉積岩，被岩脈 D 切過，最上方又覆蓋未被切穿的 E，排出形成順序。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（若未翻轉，沉積順序先 A，再 B，再 C。）",
           "mathExpression": "地層上下 ➔ 未翻轉的沉積層一般下老上新",
           "explanation": "若未翻轉，沉積順序先 A，再 B，再 C。"
         },
@@ -7405,7 +7405,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「地層上下、切割關係」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「地層上下、切割關係」之規則完成「由下而上 A、B、C 三層沉積岩，被岩脈 D 切過，最上方又覆蓋未被切穿的 E，排出形成順序。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7413,7 +7413,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「地層順序與地質歷史判讀、undefined、地層上下、切割關係、板塊邊界」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「地層順序與地質歷史判讀、若未翻轉，沉積順序先 A，再 B，再 C。、地層上下、切割關係、板塊邊界」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】地層若經歷強烈造山運動發生地層倒轉，則疊置定律必須配合沉積構造（如交錯層、波痕）校正；指相化石（如珊瑚代表溫暖清澈淺海）反映環境，與定年用的標準化石功能不同。",
       "defenseCheck": "【考場防呆】此題只能判斷相對先後；沒有定年資料，不能把每次事件相隔時間當作相等。"
     }
@@ -7447,11 +7447,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】板塊構造學說與臺灣造山運動：undefined",
+      "title": "【板書推演】板塊構造學說與臺灣造山運動：山區同時有抬升與河流侵蝕，是否矛盾？若抬升較快會怎樣？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（抬升是地殼構造運動使地表提高，侵蝕則移走物質，兩者可同時發生。）",
           "mathExpression": "地層上下 ➔ 未翻轉的沉積層一般下老上新",
           "explanation": "抬升是地殼構造運動使地表提高，侵蝕則移走物質，兩者可同時發生。"
         },
@@ -7477,7 +7477,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「地層上下、切割關係」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「地層上下、切割關係」之規則完成「山區同時有抬升與河流侵蝕，是否矛盾？若抬升較快會怎樣？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7485,7 +7485,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「板塊構造學說與臺灣造山運動、undefined、地層上下、切割關係、板塊邊界」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「板塊構造學說與臺灣造山運動、抬升是地殼構造運動使地表提高，侵蝕則移走物質，兩者可同時發生。、地層上下、切割關係、板塊邊界」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】板塊不等於大洲或地殼，板塊厚度包含地殼與固態上地函頂部（岩石圈）；花東縱谷兩側分別屬於不同板塊，西側中央山脈屬歐亞板塊，東側海岸山脈屬菲律賓海板塊。",
       "defenseCheck": "【考場防呆】不要把「板塊擠壓」畫成只有一次瞬間碰撞；需考慮長時間尺度。"
     }
@@ -7519,11 +7519,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】大氣氣團、鋒面系統與天氣災害：undefined",
+      "title": "【板書推演】大氣氣團、鋒面系統與天氣災害：某地冷鋒通過前後，溫度下降、風向改變並有短時強雨，如何串成解釋？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（冷空氣推進使原有暖空氣抬升，若水氣足夠便可能凝結降雨。）",
           "mathExpression": "冷鋒 ➔ 冷空氣推進，暖空氣被迫抬升",
           "explanation": "冷空氣推進使原有暖空氣抬升，若水氣足夠便可能凝結降雨。"
         },
@@ -7549,7 +7549,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「冷鋒、暖鋒」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「冷鋒、暖鋒」之規則完成「某地冷鋒通過前後，溫度下降、風向改變並有短時強雨，如何串成解釋？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7557,7 +7557,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「大氣氣團、鋒面系統與天氣災害、undefined、冷鋒、暖鋒、滯留鋒」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「大氣氣團、鋒面系統與天氣災害、冷空氣推進使原有暖空氣抬升，若水氣足夠便可能凝結降雨。、冷鋒、暖鋒、滯留鋒」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】冷氣團密度較大貼近地面，暖氣團密度較小必被抬升到冷空氣上方；鋒面降雨雲系通常出現在鋒面後方（冷鋒）或前方（暖鋒）的冷空氣一側。",
       "defenseCheck": "【考場防呆】不是每個冷鋒都下大雨；若缺水氣，降雨可能不明顯。"
     }
@@ -7591,11 +7591,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】天體引力、潮汐現象與月相變化：undefined",
+      "title": "【板書推演】天體引力、潮汐現象與月相變化：滿月附近一定在正午滿潮嗎？為何大潮也不等於颱風造成的暴潮？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（滿月提供日地月幾何關係，可推測處於大潮附近，但各地海岸與海盆影響潮時。）",
           "mathExpression": "月相 ➔ 看見月球受光半球的比例改變",
           "explanation": "滿月提供日地月幾何關係，可推測處於大潮附近，但各地海岸與海盆影響潮時。"
         },
@@ -7621,7 +7621,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「月相、日食」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「月相、日食」之規則完成「滿月附近一定在正午滿潮嗎？為何大潮也不等於颱風造成的暴潮？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7629,7 +7629,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「天體引力、潮汐現象與月相變化、undefined、月相、日食、月食」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「天體引力、潮汐現象與月相變化、滿月提供日地月幾何關係，可推測處於大潮附近，但各地海岸與海盆影響潮時。、月相、日食、月食」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】潮汐週期不是剛好 12 小時，因為月球繞地球公轉，每天滿潮時間會延遲約 50 分鐘；大潮是潮差最大（滿潮最高、乾潮最低），非單純海水永遠最多。",
       "defenseCheck": "【考場防呆】大潮指潮差較大，不代表任何時刻水位都最高，也不表示海邊一定安全。"
     }
@@ -7663,11 +7663,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】人體神經系統與腦部構造分工：undefined",
+      "title": "【板書推演】人體神經系統與腦部構造分工：學生說「寫字只用大腦，走路只用小腦」，為何過度簡化？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（寫字涉及語言、計畫、視覺與手部動作，不同神經區域及感覺回饋共同參與。）",
           "mathExpression": "神經系統 ➔ 訊息傳遞通常快速、作用較局部",
           "explanation": "寫字涉及語言、計畫、視覺與手部動作，不同神經區域及感覺回饋共同參與。"
         },
@@ -7693,7 +7693,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「神經系統、內分泌」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「神經系統、內分泌」之規則完成「學生說「寫字只用大腦，走路只用小腦」，為何過度簡化？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7701,7 +7701,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「人體神經系統與腦部構造分工、undefined、神經系統、內分泌、中樞分工」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「人體神經系統與腦部構造分工、寫字涉及語言、計畫、視覺與手部動作，不同神經區域及感覺回饋共同參與。、神經系統、內分泌、中樞分工」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】「植物人」通常是「大腦」受損失去意識，但「腦幹」功能健全仍可自主呼吸與維持心跳；而「腦死」是「腦幹」壞死無法自主維持生命，兩者不同。",
       "defenseCheck": "【考場防呆】課本功能標籤用來理解分工，不是宣稱一個功能只存在於一個腦區。"
     }
@@ -7735,11 +7735,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】人體消化器官與各類消化酵素專一性作用：undefined",
+      "title": "【板書推演】人體消化器官與各類消化酵素專一性作用：將「膽汁把脂肪直接分解成小分子，所以膽汁是一種酵素」改正。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（膽汁可把較大的脂肪滴分散成較小滴，增加與脂肪酵素接觸的表面。）",
           "mathExpression": "消化 ➔ 大分子分解後才能有效吸收",
           "explanation": "膽汁可把較大的脂肪滴分散成較小滴，增加與脂肪酵素接觸的表面。"
         },
@@ -7765,7 +7765,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「消化、循環」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「消化、循環」之規則完成「將「膽汁把脂肪直接分解成小分子，所以膽汁是一種酵素」改正。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7773,7 +7773,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「人體消化器官與各類消化酵素專一性作用、undefined、消化、循環、呼吸」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「人體消化器官與各類消化酵素專一性作用、膽汁可把較大的脂肪滴分散成較小滴，增加與脂肪酵素接觸的表面。、消化、循環、呼吸」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】膽汁是由「肝臟」製造而非膽囊（膽囊只是儲存和濃縮膽汁）；膽汁「不含有任何消化酵素」，其功能是物理性乳化脂質而非化學水解。",
       "defenseCheck": "【考場防呆】分清「脂肪滴變小」和「脂肪分子被分解」這兩種不同層次的變化。"
     }
@@ -7807,11 +7807,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】光的折射定律與透鏡成像規律：undefined",
+      "title": "【板書推演】光的折射定律與透鏡成像規律：焦距 10 cm 的凸透鏡，物體分別放在 30 cm、15 cm、5 cm，判斷像的性質。",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（30＞2f，所以像倒立、縮小、為實像，可在透鏡另一側承接。）",
           "mathExpression": "物距＞2f ➔ 倒立、縮小、實像",
           "explanation": "30＞2f，所以像倒立、縮小、為實像，可在透鏡另一側承接。"
         },
@@ -7837,7 +7837,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「物距＞2f、物距＝2f」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「物距＞2f、物距＝2f」之規則完成「焦距 10 cm 的凸透鏡，物體分別放在 30 cm、15 cm、5 cm，判斷像的性質。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7845,7 +7845,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「光的折射定律與透鏡成像規律、undefined、物距＞2f、物距＝2f、f＜物距＜2f」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「光的折射定律與透鏡成像規律、30＞2f，所以像倒立、縮小、為實像，可在透鏡另一側承接。、物距＞2f、物距＝2f、f＜物距＜2f」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】實像是由「實際光線會聚」而成，可在紙屏上成像且必定倒立；虛像是「光線反向延長線相交」而成，無法投影在紙屏上且必定正立。凹透鏡永遠無法形成實像。",
       "defenseCheck": "【考場防呆】不能把「放大」與「虛像」當成同義；中間位置會產生放大的實像。"
     }
@@ -7879,11 +7879,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】動能、重力位能與力學能守恆定律：undefined",
+      "title": "【板書推演】動能、重力位能與力學能守恆定律：1 kg 物體從 5 m 高處由靜止落下，忽略空氣阻力，g＝10 m/s²，落地前速度多少？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（以地面為位能零點，初始位能 mgh＝1×10×5＝50 J。）",
           "mathExpression": "功 ➔ 力在位移方向上的分量×位移",
           "explanation": "以地面為位能零點，初始位能 mgh＝1×10×5＝50 J。"
         },
@@ -7909,7 +7909,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「功、動能」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「功、動能」之規則完成「1 kg 物體從 5 m 高處由靜止落下，忽略空氣阻力，g＝10 m/s²，落地前速度多少？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7917,7 +7917,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「動能、重力位能與力學能守恆定律、undefined、功、動能、重力位能變化」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「動能、重力位能與力學能守恆定律、以地面為位能零點，初始位能 mgh＝1×10×5＝50 J。、功、動能、重力位能變化」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】速率加倍時，動能會變為「四倍」（因 Ek 與 v 的平方成正比），不是兩倍；力學能守恆的前提是「沒有摩擦力或空氣阻力作功」，有阻力時部分力學能會轉換為熱能。",
       "defenseCheck": "【考場防呆】若有明顯空氣阻力，落地動能小於 50 J，不能仍套完全轉換。"
     }
@@ -7951,11 +7951,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】空氣成分與常見氣體實驗室製備：undefined",
+      "title": "【板書推演】空氣成分與常見氣體實驗室製備：某氣體不易溶於水且不與水明顯反應，為何常可用排水集氣？會有哪些誤差？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（氣體進入倒置盛水容器，逐漸把水排出，收集到氣體。）",
           "mathExpression": "空氣 ➔ 乾燥空氣主要是氮與氧",
           "explanation": "氣體進入倒置盛水容器，逐漸把水排出，收集到氣體。"
         },
@@ -7981,7 +7981,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「空氣、排水集氣」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「空氣、排水集氣」之規則完成「某氣體不易溶於水且不與水明顯反應，為何常可用排水集氣？會有哪些誤差？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7989,7 +7989,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「空氣成分與常見氣體實驗室製備、undefined、空氣、排水集氣、排空氣集氣」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「空氣成分與常見氣體實驗室製備、氣體進入倒置盛水容器，逐漸把水排出，收集到氣體。、空氣、排水集氣、排空氣集氣」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】二氧化碳微溶於水且密度比空氣大，實驗室收集通常採用「向上排空氣法」；氧氣難溶於水，收集純氧以「排水集氣法」最佳。二氧化錳是催化劑，本身不產生氧氣。",
       "defenseCheck": "【考場防呆】不能對易溶於水的氣體硬套排水法，也不可把未知氣體拿來嗅聞辨別。"
     }
@@ -8023,11 +8023,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】莫耳數概念與化學反應計量：undefined",
+      "title": "【板書推演】莫耳數概念與化學反應計量：2H₂＋O₂→2H₂O，給 2 mol H₂ 與 2 mol O₂，最多生成多少 mol 水，剩下什麼？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（每 2 mol H₂ 只需要 1 mol O₂，所以氫先耗盡，是限制反應物。）",
           "mathExpression": "先配平 ➔ 只改係數，不能改化學式下標",
           "explanation": "每 2 mol H₂ 只需要 1 mol O₂，所以氫先耗盡，是限制反應物。"
         },
@@ -8053,7 +8053,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「先配平、看粒子／莫耳比」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「先配平、看粒子／莫耳比」之規則完成「2H₂＋O₂→2H₂O，給 2 mol H₂ 與 2 mol O₂，最多生成多少 mol 水，剩下什麼？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -8061,7 +8061,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「莫耳數概念與化學反應計量、undefined、先配平、看粒子／莫耳比、換質量」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「莫耳數概念與化學反應計量、每 2 mol H₂ 只需要 1 mol O₂，所以氫先耗盡，是限制反應物。、先配平、看粒子／莫耳比、換質量」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】化學反應式係數比「絕不等於質量比」；例如 2H₂＋O₂→2H₂O 中，4 公克氫氣與 32 公克氧氣反應生成 36 公克水，質量比為 4:32:36＝1:8:9，非 2:1:2。",
       "defenseCheck": "【考場防呆】這是計量延伸練習；若換成克數，必須先除以各自莫耳質量再比較。"
     }
@@ -8095,11 +8095,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】地震波傳播特性與臺灣活動斷層防震防災：undefined",
+      "title": "【板書推演】地震波傳播特性與臺灣活動斷層防震防災：同一次地震，甲站 P、S 波到時差 4 秒，乙站 10 秒，簡化同介質模型下哪站較遠？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（P 波通常較快，S 波較慢，離震源越遠，兩者傳播時間差通常越大。）",
           "mathExpression": "地層上下 ➔ 未翻轉的沉積層一般下老上新",
           "explanation": "P 波通常較快，S 波較慢，離震源越遠，兩者傳播時間差通常越大。"
         },
@@ -8125,7 +8125,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「地層上下、切割關係」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「地層上下、切割關係」之規則完成「同一次地震，甲站 P、S 波到時差 4 秒，乙站 10 秒，簡化同介質模型下哪站較遠？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -8133,7 +8133,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「地震波傳播特性與臺灣活動斷層防震防災、undefined、地層上下、切割關係、板塊邊界」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「地震波傳播特性與臺灣活動斷層防震防災、P 波通常較快，S 波較慢，離震源越遠，兩者傳播時間差通常越大。、地層上下、切割關係、板塊邊界」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】地震規模（如芮氏規模 6.5）代表地震釋放的能量大小，單一次地震只有「一個數值」；地震震度（如 4 級、5 弱）代表各地搖晃劇烈程度，隨距震央遠近與地質而各地不同。",
       "defenseCheck": "【考場防呆】單站距離不能唯一定位震央；需要多站資料與合適模型。"
     }
@@ -8167,11 +8167,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】日食、月食天象成因與太陽系天體探索：undefined",
+      "title": "【板書推演】日食、月食天象成因與太陽系天體探索：新月時一定日食、滿月時一定月食，這兩句哪裡錯？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（日食需月球位於日地之間且影子落到地球，常在朔附近，但還需位置對齊。）",
           "mathExpression": "月相 ➔ 看見月球受光半球的比例改變",
           "explanation": "日食需月球位於日地之間且影子落到地球，常在朔附近，但還需位置對齊。"
         },
@@ -8197,7 +8197,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「月相、日食」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「月相、日食」之規則完成「新月時一定日食、滿月時一定月食，這兩句哪裡錯？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -8205,7 +8205,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「日食、月食天象成因與太陽系天體探索、undefined、月相、日食、月食」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「日食、月食天象成因與太陽系天體探索、日食需月球位於日地之間且影子落到地球，常在朔附近，但還需位置對齊。、月相、日食、月食」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】日食發生在「白天」且必在農曆初一；月食發生在「夜晚」且必在農曆十五；月相的盈虧主要是觀察月球受光面的角度不同，不是月食遮蔽造成的。",
       "defenseCheck": "【考場防呆】日食觀察不可直接看太陽；必須採用符合安全要求的觀測方法與專業指導。"
     }
@@ -8239,11 +8239,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】史料判讀與早期臺灣：undefined",
+      "title": "【板書推演】史料判讀與早期臺灣：某地出土陶片與動物骨骼，可否直接斷定居民只靠狩獵生活？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（骨骼提供人與動物關係的線索，但可能與食物、祭儀或自然堆積等有關。）",
           "mathExpression": "史前三大文化演進 ➔ 長濱（舊石器敲打）→ 大坌坑/卑南（新石器磨製陶器農耕）→ 十三行（鐵器煉鐵外貿）",
           "explanation": "骨骼提供人與動物關係的線索，但可能與食物、祭儀或自然堆積等有關。"
         },
@@ -8269,7 +8269,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「史前三大文化演進、出處」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「史前三大文化演進、出處」之規則完成「某地出土陶片與動物骨骼，可否直接斷定居民只靠狩獵生活？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -8277,7 +8277,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「史料判讀與早期臺灣、undefined、史前三大文化演進、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「史料判讀與早期臺灣、骨骼提供人與動物關係的線索，但可能與食物、祭儀或自然堆積等有關。、史前三大文化演進、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】早期臺灣不是沒有歷史；沒有文字的社會仍可透過考古與口傳研究。",
       "defenseCheck": "【考場防呆】「沒有發現」不一定等於「從未存在」，保存條件與發掘範圍會影響證據。"
     }
@@ -8311,11 +8311,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】海洋交流、荷西與鄭氏：undefined",
+      "title": "【板書推演】海洋交流、荷西與鄭氏：一段資料提到臺灣鹿皮、糖經港口輸出，並有外來商人與移民。能推論哪些交流？哪些不能？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（商品輸出支持臺灣與海外市場連結，港口是交流節點。）",
           "mathExpression": "荷西與明鄭據點對照 ➔ 荷蘭據大員（安平熱蘭遮城）；西班牙據雞籠與淡水（紅毛城）；鄭氏設承天府屯田",
           "explanation": "商品輸出支持臺灣與海外市場連結，港口是交流節點。"
         },
@@ -8341,7 +8341,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「荷西與明鄭據點對照、出處」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「荷西與明鄭據點對照、出處」之規則完成「一段資料提到臺灣鹿皮、糖經港口輸出，並有外來商人與移民。能推論哪些交流？哪些不能？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -8349,7 +8349,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「海洋交流、荷西與鄭氏、undefined、荷西與明鄭據點對照、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「海洋交流、荷西與鄭氏、商品輸出支持臺灣與海外市場連結，港口是交流節點。、荷西與明鄭據點對照、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】政權轉變不代表所有居民生活瞬間完全改變；要比較制度與延續。",
       "defenseCheck": "【考場防呆】經濟交流與政治支配可同時存在；答題要把不同群體經驗分開。"
     }
@@ -8383,11 +8383,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】清領與日治時期的變遷：undefined",
+      "title": "【板書推演】清領與日治時期的變遷：比較兩時期的交通建設，應蒐集什麼資料，才能避免只用鐵路長度判斷全部影響？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先確認路線、年代、運輸對象及連接哪些產區與港口。）",
           "mathExpression": "清領開港與日治三階段 ➔ 1860 開港（茶、糖、樟腦外銷，重心北移）；日治分漸進、內地延長、皇民化三時期",
           "explanation": "先確認路線、年代、運輸對象及連接哪些產區與港口。"
         },
@@ -8413,7 +8413,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「清領開港與日治三階段、出處」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「清領開港與日治三階段、出處」之規則完成「比較兩時期的交通建設，應蒐集什麼資料，才能避免只用鐵路長度判斷全部影響？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -8421,7 +8421,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「清領與日治時期的變遷、undefined、清領開港與日治三階段、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「清領與日治時期的變遷、先確認路線、年代、運輸對象及連接哪些產區與港口。、清領開港與日治三階段、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】有建設不等於沒有壓迫；只用好或壞兩個詞難以解釋複雜史實。",
       "defenseCheck": "【考場防呆】同一設施可改善交通也強化統治或資源運輸，歷史解釋需容納多重作用。"
     }
@@ -8455,11 +8455,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】戰後臺灣與民主化：undefined",
+      "title": "【板書推演】戰後臺灣與民主化：把解嚴、媒體開放、選舉改革與公民團體活動都放進民主化時間線，有何幫助？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（不同事件呈現自由、代表性及參與管道的不同面向。）",
           "mathExpression": "戰後臺灣民主與經濟轉型 ➔ 戒嚴威權 → 1987 解嚴 → 國會改選與總統直選；進口替代 → 出口導向 → 科技產業",
           "explanation": "不同事件呈現自由、代表性及參與管道的不同面向。"
         },
@@ -8485,7 +8485,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「戰後臺灣民主與經濟轉型、出處」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「戰後臺灣民主與經濟轉型、出處」之規則完成「把解嚴、媒體開放、選舉改革與公民團體活動都放進民主化時間線，有何幫助？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -8493,7 +8493,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「戰後臺灣與民主化、undefined、戰後臺灣民主與經濟轉型、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「戰後臺灣與民主化、不同事件呈現自由、代表性及參與管道的不同面向。、戰後臺灣民主與經濟轉型、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】民主化不是某一天突然全部完成；經濟成長也不代表所有群體同樣受益。",
       "defenseCheck": "【考場防呆】事件發生在前不等於單獨造成後事；需提出具體連結與證據。"
     }
@@ -8527,11 +8527,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】中國與東亞：制度及文化交流：undefined",
+      "title": "【板書推演】中國與東亞：制度及文化交流：某國引入外來律令與文字後，又保留本地貴族及習俗，可否說它「完全失去自身文化」？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（制度與文字的引入顯示交流，但不代表所有生活層面同時被替換。）",
           "mathExpression": "中國選才制度與唐宋變革 ➔ 封建世襲（商周）→ 察舉孝廉（漢）→ 九品官人法（魏晉世族）→ 科舉取士（隋唐宋）",
           "explanation": "制度與文字的引入顯示交流，但不代表所有生活層面同時被替換。"
         },
@@ -8557,7 +8557,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「中國選才制度與唐宋變革、出處」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「中國選才制度與唐宋變革、出處」之規則完成「某國引入外來律令與文字後，又保留本地貴族及習俗，可否說它「完全失去自身文化」？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -8565,7 +8565,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「中國與東亞：制度及文化交流、undefined、中國選才制度與唐宋變革、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「中國與東亞：制度及文化交流、制度與文字的引入顯示交流，但不代表所有生活層面同時被替換。、中國選才制度與唐宋變革、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】朝代順序只是工具，還要能解釋制度為何變、對誰有影響。",
       "defenseCheck": "【考場防呆】文化交流不只有單向傳播；不要把相似制度直接當成完全相同的社會。"
     }
@@ -8599,11 +8599,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】近代東亞與帝國主義：undefined",
+      "title": "【板書推演】近代東亞與帝國主義：資料顯示某國戰敗後開港、失去部分關稅自主，如何分析影響？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先辨識條約改變哪些權限，而非只記條約名稱。）",
           "mathExpression": "清末改革三層次與明治維新 ➔ 器物（自強運動）→ 制度（戊戌變法/立憲/辛亥）→ 思想（新文化/五四）；日本全面維新",
           "explanation": "先辨識條約改變哪些權限，而非只記條約名稱。"
         },
@@ -8629,7 +8629,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「清末改革三層次與明治維新、出處」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「清末改革三層次與明治維新、出處」之規則完成「資料顯示某國戰敗後開港、失去部分關稅自主，如何分析影響？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -8637,7 +8637,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「近代東亞與帝國主義、undefined、清末改革三層次與明治維新、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「近代東亞與帝國主義、先辨識條約改變哪些權限，而非只記條約名稱。、清末改革三層次與明治維新、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】不能把不同時期改革混成同一事件，也不能用結果倒推當時只有一條路。",
       "defenseCheck": "【考場防呆】開港不等於所有貿易都自由平等；須確認談判權力及條約條件。"
     }
@@ -8671,11 +8671,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】古代文明到近代歐洲：undefined",
+      "title": "【板書推演】古代文明到近代歐洲：某作品同時描繪宗教主題與寫實人體，是否與文藝復興互相矛盾？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（宗教主題可延續既有委託與信仰需求，不能因有宗教就排除時代特徵。）",
           "mathExpression": "近代歐洲思想演進四階段 ➔ 文藝復興（人文主義）→ 宗教改革 → 科學革命（理性實證）→ 啟蒙運動（天賦人權/三權分立）",
           "explanation": "宗教主題可延續既有委託與信仰需求，不能因有宗教就排除時代特徵。"
         },
@@ -8701,7 +8701,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「近代歐洲思想演進四階段、出處」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「近代歐洲思想演進四階段、出處」之規則完成「某作品同時描繪宗教主題與寫實人體，是否與文藝復興互相矛盾？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -8709,7 +8709,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「古代文明到近代歐洲、undefined、近代歐洲思想演進四階段、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「古代文明到近代歐洲、宗教主題可延續既有委託與信仰需求，不能因有宗教就排除時代特徵。、近代歐洲思想演進四階段、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】避免將現代國家界線直接套進古代世界。",
       "defenseCheck": "【考場防呆】思想變遷通常包含延續與改造，不是舊文化在某年全部消失。"
     }
@@ -8743,11 +8743,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】工業革命、世界大戰與全球化：undefined",
+      "title": "【板書推演】工業革命、世界大戰與全球化：工廠大量使用機械後，產量增加但工人居住擁擠，如何用同一過程解釋兩現象？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（機械與工廠集中生產可提高產出，並創造集中勞動需求。）",
           "mathExpression": "工業革命與兩次世界大戰 ➔ 蒸汽機與鐵路 → 新帝國主義瓜分亞非 → 一戰（國際聯盟）→ 二戰（聯合國與冷戰）",
           "explanation": "機械與工廠集中生產可提高產出，並創造集中勞動需求。"
         },
@@ -8773,7 +8773,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「工業革命與兩次世界大戰、出處」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「工業革命與兩次世界大戰、出處」之規則完成「工廠大量使用機械後，產量增加但工人居住擁擠，如何用同一過程解釋兩現象？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -8781,7 +8781,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「工業革命、世界大戰與全球化、undefined、工業革命與兩次世界大戰、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「工業革命、世界大戰與全球化、機械與工廠集中生產可提高產出，並創造集中勞動需求。、工業革命與兩次世界大戰、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】歷史事件通常有多重原因，導火線不等於全部根本原因。",
       "defenseCheck": "【考場防呆】不能只用總產值代表工人處境，還需工時、工資與居住資料。"
     }
@@ -8815,11 +8815,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】地圖、比例尺與經緯度：undefined",
+      "title": "【板書推演】地圖、比例尺與經緯度：比例尺 1：25,000，兩地圖上直線距離 4 cm，實際直線距離多少？能否當成步行距離？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（同單位換算：4×25,000＝100,000 cm＝1000 m＝1 km。）",
           "mathExpression": "比例尺 ➔ 圖距與實距使用相同單位",
           "explanation": "同單位換算：4×25,000＝100,000 cm＝1000 m＝1 km。"
         },
@@ -8845,7 +8845,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「比例尺、等高距」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「比例尺、等高距」之規則完成「比例尺 1：25,000，兩地圖上直線距離 4 cm，實際直線距離多少？能否當成步行距離？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -8853,7 +8853,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「地圖、比例尺與經緯度、undefined、比例尺、等高距、坡度」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「地圖、比例尺與經緯度、同單位換算：4×25,000＝100,000 cm＝1000 m＝1 km。、比例尺、等高距、坡度」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】比例尺分母越小，比例尺越大；相同紙面通常可呈現更細的局部。",
       "defenseCheck": "【考場防呆】1：25,000 比 1：100,000 比例尺大，分母大小與比例尺大小相反。"
     }
@@ -8887,11 +8887,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】臺灣地形、氣候與災害：undefined",
+      "title": "【板書推演】臺灣地形、氣候與災害：同樣豪雨落在未開發山坡和密集聚落上方的陡坡，為何損失可能不同？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先比較坡度、地質與排水，確認自然危害本身是否相近。）",
           "mathExpression": "地形 ➔ 山地多集中中央與東部，西部有較廣平原",
           "explanation": "先比較坡度、地質與排水，確認自然危害本身是否相近。"
         },
@@ -8917,7 +8917,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「地形、氣候」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「地形、氣候」之規則完成「同樣豪雨落在未開發山坡和密集聚落上方的陡坡，為何損失可能不同？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -8925,7 +8925,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「臺灣地形、氣候與災害、undefined、地形、氣候、產業與城鄉」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「臺灣地形、氣候與災害、先比較坡度、地質與排水，確認自然危害本身是否相近。、地形、氣候、產業與城鄉」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】不能只靠「雨大」解釋全部淹水，也要檢查地勢、排水與使用方式。",
       "defenseCheck": "【考場防呆】不能只用雨量排名推定損失，也不能把災害原因全部歸咎居民個人。"
     }
@@ -8959,11 +8959,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】臺灣人口、產業與都市：undefined",
+      "title": "【板書推演】臺灣人口、產業與都市：甲市人口由 20 萬增至 22 萬，乙市由 100 萬增至 105 萬，哪市成長率較高？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（甲增加 2 萬，成長率＝2/20＝10%。）",
           "mathExpression": "地形 ➔ 山地多集中中央與東部，西部有較廣平原",
           "explanation": "甲增加 2 萬，成長率＝2/20＝10%。"
         },
@@ -8989,7 +8989,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「地形、氣候」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「地形、氣候」之規則完成「甲市人口由 20 萬增至 22 萬，乙市由 100 萬增至 105 萬，哪市成長率較高？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -8997,7 +8997,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「臺灣人口、產業與都市、undefined、地形、氣候、產業與城鄉」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「臺灣人口、產業與都市、甲增加 2 萬，成長率＝2/20＝10%。、地形、氣候、產業與城鄉」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】人口密度是人口÷面積，不等於人口總數；服務業不一定是低技術。",
       "defenseCheck": "【考場防呆】成長率不能直接說明人口密度，還須知道行政區面積。"
     }
@@ -9031,11 +9031,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】東亞與區域差異：undefined",
+      "title": "【板書推演】東亞與區域差異：兩國平均所得不同，能否推論其中每個城市都比另一國所有地方富裕？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（國家平均值把不同地區與群體合併，不能代表每個個體或城市。）",
           "mathExpression": "季風亞洲 ➔ 季節風向改變影響雨量與農業",
           "explanation": "國家平均值把不同地區與群體合併，不能代表每個個體或城市。"
         },
@@ -9061,7 +9061,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「季風亞洲、乾燥區」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「季風亞洲、乾燥區」之規則完成「兩國平均所得不同，能否推論其中每個城市都比另一國所有地方富裕？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9069,7 +9069,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「東亞與區域差異、undefined、季風亞洲、乾燥區、文化與宗教」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「東亞與區域差異、國家平均值把不同地區與群體合併，不能代表每個個體或城市。、季風亞洲、乾燥區、文化與宗教」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】區域不是每一處都一樣，也不宜以單一氣候決定所有人的生活。",
       "defenseCheck": "【考場防呆】避免以國家標籤推斷所有居民生活；地理分析需保留內部差異。"
     }
@@ -9103,11 +9103,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】亞洲、非洲與文化地景：undefined",
+      "title": "【板書推演】亞洲、非洲與文化地景：同屬低緯度的兩地，一地雨林、一地乾燥，是否表示緯度與氣候無關？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（緯度影響接受太陽能的條件，但降雨還受環流、海陸位置及地形影響。）",
           "mathExpression": "季風亞洲 ➔ 季節風向改變影響雨量與農業",
           "explanation": "緯度影響接受太陽能的條件，但降雨還受環流、海陸位置及地形影響。"
         },
@@ -9133,7 +9133,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「季風亞洲、乾燥區」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「季風亞洲、乾燥區」之規則完成「同屬低緯度的兩地，一地雨林、一地乾燥，是否表示緯度與氣候無關？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9141,7 +9141,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「亞洲、非洲與文化地景、undefined、季風亞洲、乾燥區、文化與宗教」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「亞洲、非洲與文化地景、緯度影響接受太陽能的條件，但降雨還受環流、海陸位置及地形影響。、季風亞洲、乾燥區、文化與宗教」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】宗教與國家不能一一畫等號；同一區域內存在多樣生活方式。",
       "defenseCheck": "【考場防呆】不能用一個反例取消整個因素，也不能反過來只靠緯度決定所有氣候特徵。"
     }
@@ -9175,11 +9175,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】歐洲、美洲與大洋洲：undefined",
+      "title": "【板書推演】歐洲、美洲與大洋洲：一個沿海城市冬季較同緯度內陸城市溫和，可提出哪些地理解釋？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（海水熱容量大，海洋調節使沿海氣溫變化可能較小。）",
           "mathExpression": "位置與氣候 ➔ 緯度、海陸位置、洋流、地形一起分析",
           "explanation": "海水熱容量大，海洋調節使沿海氣溫變化可能較小。"
         },
@@ -9205,7 +9205,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「位置與氣候、農業與產業」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「位置與氣候、農業與產業」之規則完成「一個沿海城市冬季較同緯度內陸城市溫和，可提出哪些地理解釋？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9213,7 +9213,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「歐洲、美洲與大洋洲、undefined、位置與氣候、農業與產業、人口與都市」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「歐洲、美洲與大洋洲、海水熱容量大，海洋調節使沿海氣溫變化可能較小。、位置與氣候、農業與產業、人口與都市」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】洲與國家不同，不能把美洲等同於美國。",
       "defenseCheck": "【考場防呆】不能看到沿海就保證溫暖；不同洋流與風向可能造成不同結果。"
     }
@@ -9247,11 +9247,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】全球連結與環境議題：undefined",
+      "title": "【板書推演】全球連結與環境議題：一件衣服棉花來自甲地、紡織在乙地、縫製在丙地，如何評估它的環境足跡？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（逐段記錄用水、能源、化學品與運輸方式，不能只看包裝上的產地。）",
           "mathExpression": "供應鏈 ➔ 追蹤原料、生產、運輸、消費與廢棄",
           "explanation": "逐段記錄用水、能源、化學品與運輸方式，不能只看包裝上的產地。"
         },
@@ -9277,7 +9277,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「供應鏈、資訊來源」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「供應鏈、資訊來源」之規則完成「一件衣服棉花來自甲地、紡織在乙地、縫製在丙地，如何評估它的環境足跡？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9285,7 +9285,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「全球連結與環境議題、undefined、供應鏈、資訊來源、利益與成本」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「全球連結與環境議題、逐段記錄用水、能源、化學品與運輸方式，不能只看包裝上的產地。、供應鏈、資訊來源、利益與成本」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】永續不是只看單一指標，也不是任何開發都必定好或壞。",
       "defenseCheck": "【考場防呆】運輸距離較短不必然總排放較低，仍須看生產效率與運輸工具。"
     }
@@ -9319,11 +9319,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】自我、群體與多元文化：undefined",
+      "title": "【板書推演】自我、群體與多元文化：班上分組時說「女生都擅長美工、男生都負責搬東西」，應如何改進？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（這是由性別推定能力，忽略個人的技能、興趣與身體狀況。）",
           "mathExpression": "尊重差異 ➔ 區分個人偏好、刻板印象與歧視",
           "explanation": "這是由性別推定能力，忽略個人的技能、興趣與身體狀況。"
         },
@@ -9349,7 +9349,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「尊重差異、界定問題」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「尊重差異、界定問題」之規則完成「班上分組時說「女生都擅長美工、男生都負責搬東西」，應如何改進？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9357,7 +9357,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「自我、群體與多元文化、undefined、尊重差異、界定問題、協商方案」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「自我、群體與多元文化、這是由性別推定能力，忽略個人的技能、興趣與身體狀況。、尊重差異、界定問題、協商方案」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】尊重文化差異不代表放棄對人權傷害的討論。",
       "defenseCheck": "【考場防呆】尊重差異不是替群體固定貼標籤，而是讓個人有表達和參與的機會。"
     }
@@ -9391,11 +9391,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】家庭、學校與公共參與：undefined",
+      "title": "【板書推演】家庭、學校與公共參與：班會決定音樂播放方式，多數人想大聲播放，少數同學需要安靜讀書，如何協商？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先釐清使用時段、空間與音量，避免把問題只變成喜不喜歡音樂。）",
           "mathExpression": "尊重差異 ➔ 區分個人偏好、刻板印象與歧視",
           "explanation": "先釐清使用時段、空間與音量，避免把問題只變成喜不喜歡音樂。"
         },
@@ -9421,7 +9421,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「尊重差異、界定問題」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「尊重差異、界定問題」之規則完成「班會決定音樂播放方式，多數人想大聲播放，少數同學需要安靜讀書，如何協商？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9429,7 +9429,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「家庭、學校與公共參與、undefined、尊重差異、界定問題、協商方案」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「家庭、學校與公共參與、先釐清使用時段、空間與音量，避免把問題只變成喜不喜歡音樂。、尊重差異、界定問題、協商方案」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】多數決不代表可以侵害少數者基本權利。",
       "defenseCheck": "【考場防呆】投票前應提供討論與表達機會；「少數服從多數」不是忽略所有少數權益的理由。"
     }
@@ -9463,11 +9463,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】民主政治與權力分立：undefined",
+      "title": "【板書推演】民主政治與權力分立：某機關說「我們經選舉取得授權，因此不必接受任何監督」，此說法有何問題？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（選舉提供一定民主正當性，但權力仍受到法律與憲政規範限制。）",
           "mathExpression": "分工 ➔ 哪個機關依法負責此事項？",
           "explanation": "選舉提供一定民主正當性，但權力仍受到法律與憲政規範限制。"
         },
@@ -9493,7 +9493,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「分工、制衡」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「分工、制衡」之規則完成「某機關說「我們經選舉取得授權，因此不必接受任何監督」，此說法有何問題？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9501,7 +9501,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「民主政治與權力分立、undefined、分工、制衡、責任」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「民主政治與權力分立、選舉提供一定民主正當性，但權力仍受到法律與憲政規範限制。、分工、制衡、責任」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】有選舉不表示其他民主條件自動具備；不能用選票取消所有權利保障。",
       "defenseCheck": "【考場防呆】民主授權與法治限制互相配合；不能用支持度代替合法性判斷。"
     }
@@ -9535,11 +9535,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】人權、法治與正當程序：undefined",
+      "title": "【板書推演】人權、法治與正當程序：網路貼文指控同學偷竊，大家要求立即公布住址與處罰，較適當的處理為何？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先保留相關證據並向教師或適當管道反映，不把指控當作已證實。）",
           "mathExpression": "事實 ➔ 先分清主張、證據與已確認事實",
           "explanation": "先保留相關證據並向教師或適當管道反映，不把指控當作已證實。"
         },
@@ -9565,7 +9565,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「事實、關係」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「事實、關係」之規則完成「網路貼文指控同學偷竊，大家要求立即公布住址與處罰，較適當的處理為何？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9573,7 +9573,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「人權、法治與正當程序、undefined、事實、關係、程序」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「人權、法治與正當程序、先保留相關證據並向教師或適當管道反映，不把指控當作已證實。、事實、關係、程序」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】有規則不代表一定正當；規則內容與執行方式都要接受檢驗。",
       "defenseCheck": "【考場防呆】要求查明與保障程序不等於縱容行為；也不應由同學自行執行懲罰。"
     }
@@ -9607,11 +9607,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】選擇、機會成本與市場：undefined",
+      "title": "【板書推演】選擇、機會成本與市場：週末只能選讀書、打工或打球，個人評價分別為 90、70、60，若選讀書，機會成本如何表達？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（在題設評價下，未選方案中最好的是打工，價值 70。）",
           "mathExpression": "機會成本 ➔ 放棄的選項中，價值最高者",
           "explanation": "在題設評價下，未選方案中最好的是打工，價值 70。"
         },
@@ -9637,7 +9637,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「機會成本、比較利益」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「機會成本、比較利益」之規則完成「週末只能選讀書、打工或打球，個人評價分別為 90、70、60，若選讀書，機會成本如何表達？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9645,7 +9645,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「選擇、機會成本與市場、undefined、機會成本、比較利益、外部效果」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「選擇、機會成本與市場、在題設評價下，未選方案中最好的是打工，價值 70。、機會成本、比較利益、外部效果」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】需求量與需求變動不同；價格改變通常是沿既有需求關係變動。",
       "defenseCheck": "【考場防呆】不能直接把抽象評分當成金額；只有題目給貨幣價值時才以元表達。"
     }
@@ -9679,11 +9679,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】媒體素養、全球化與永續消費：undefined",
+      "title": "【板書推演】媒體素養、全球化與永續消費：一則「某產品讓成績提高一倍」貼文只有網紅見證與購買連結，應檢查什麼？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先看提高一倍指的是什麼指標，是否有前後基準及比較組。）",
           "mathExpression": "供應鏈 ➔ 追蹤原料、生產、運輸、消費與廢棄",
           "explanation": "先看提高一倍指的是什麼指標，是否有前後基準及比較組。"
         },
@@ -9709,7 +9709,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「供應鏈、資訊來源」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「供應鏈、資訊來源」之規則完成「一則「某產品讓成績提高一倍」貼文只有網紅見證與購買連結，應檢查什麼？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9717,7 +9717,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「媒體素養、全球化與永續消費、undefined、供應鏈、資訊來源、利益與成本」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「媒體素養、全球化與永續消費、先看提高一倍指的是什麼指標，是否有前後基準及比較組。、供應鏈、資訊來源、利益與成本」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】截圖可能缺乏上下文；搜尋到多篇相同文章，也可能都抄同一錯誤來源。",
       "defenseCheck": "【考場防呆】質疑證據不等於斷言產品必定無效；要把確知、未知與推測分開。"
     }
@@ -9751,11 +9751,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】臺灣南島語族與多元原住民族文化：undefined",
+      "title": "【板書推演】臺灣南島語族與多元原住民族文化：兩個部落的建築與祭儀不同，是否能據此否定其語言間可能有親緣關係？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（語言親緣與建築、祭儀屬不同類型的比較，不能一項差異直接推翻另一項證據。）",
           "mathExpression": "臺灣南島語族與原住民族 ➔ 臺灣為南島語系最北端原鄉；平埔族（熟番）與高山族（生番）依清代服從納稅劃分",
           "explanation": "語言親緣與建築、祭儀屬不同類型的比較，不能一項差異直接推翻另一項證據。"
         },
@@ -9781,7 +9781,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「臺灣南島語族與原住民族、出處」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「臺灣南島語族與原住民族、出處」之規則完成「兩個部落的建築與祭儀不同，是否能據此否定其語言間可能有親緣關係？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9789,7 +9789,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「臺灣南島語族與多元原住民族文化、undefined、臺灣南島語族與原住民族、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「臺灣南島語族與多元原住民族文化、語言親緣與建築、祭儀屬不同類型的比較，不能一項差異直接推翻另一項證據。、臺灣南島語族與原住民族、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】南島語族原住民各族擁有不同語言、宗教祭儀與社會制度，不可視為單一均質群體；平埔族群依然具有鮮明文化傳承與在地認同，並非自然消失。",
       "defenseCheck": "【考場防呆】不把所有族群合稱成單一生活方式，表述時尊重族名與自我認同。"
     }
@@ -9823,11 +9823,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】中國古代國家形成與封建帝制：undefined",
+      "title": "【板書推演】中國古代國家形成與封建帝制：某制度由中央任命地方官、調動及考核；另一制度以宗族封授並世襲。主要差別是什麼？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（前者強調地方官職權來自中央任命，較接近郡縣治理邏輯。）",
           "mathExpression": "清代臺灣水圳與日治糖業 ➔ 清領前期施世榜八堡圳、郭錫瑠瑠公圳、曹謹曹公圳；日治八田與一興建嘉南大圳",
           "explanation": "前者強調地方官職權來自中央任命，較接近郡縣治理邏輯。"
         },
@@ -9853,7 +9853,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「清代臺灣水圳與日治糖業、出處」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「清代臺灣水圳與日治糖業、出處」之規則完成「某制度由中央任命地方官、調動及考核；另一制度以宗族封授並世襲。主要差別是什麼？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9861,7 +9861,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「中國古代國家形成與封建帝制、undefined、清代臺灣水圳與日治糖業、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「中國古代國家形成與封建帝制、前者強調地方官職權來自中央任命，較接近郡縣治理邏輯。、清代臺灣水圳與日治糖業、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】西周的「封建」是血緣家族親疏的政治分封，與歐洲中古封建領主農奴制內涵不同；諸子百家（儒、道、法、墨）是因應戰國社會大變動所提出的救世方案，非純空想學說。",
       "defenseCheck": "【考場防呆】這是類型比較；具體朝代仍需依史料確認，避免把理想制度當成全部現實。"
     }
@@ -9895,11 +9895,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】明清社會變遷與西力東漸：undefined",
+      "title": "【板書推演】明清社會變遷與西力東漸：某地以經濟作物換取白銀，再購買糧食，這與自給農業有何不同？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（生產不只供家庭直接食用，也面向市場交換。）",
           "mathExpression": "明清白銀經濟與中西交流 ➔ 鄭和下西洋（朝貢貿易）→ 新航路白銀流入（一條鞭法/攤丁入畝）→ 耶穌會利瑪竇東來",
           "explanation": "生產不只供家庭直接食用，也面向市場交換。"
         },
@@ -9925,7 +9925,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「明清白銀經濟與中西交流、出處」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「明清白銀經濟與中西交流、出處」之規則完成「某地以經濟作物換取白銀，再購買糧食，這與自給農業有何不同？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9933,7 +9933,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「明清社會變遷與西力東漸、undefined、明清白銀經濟與中西交流、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「明清社會變遷與西力東漸、生產不只供家庭直接食用，也面向市場交換。、明清白銀經濟與中西交流、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】明清市鎮雖然商貿繁華，但官方長期實施海禁或朝貢貿易政策，阻礙了自發性海外擴張；傳教士帶來的科學知識主要停留在朝廷欽天監，並未全面普及於民間社會。",
       "defenseCheck": "【考場防呆】市場發展不代表自給活動立刻消失；兩者可在同一地區並存。"
     }
@@ -9967,11 +9967,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】古希臘羅馬古典文明與民主法律：undefined",
+      "title": "【板書推演】古希臘羅馬古典文明與民主法律：「雅典有公民大會，所以所有居民都有平等政治權利」哪裡不完整？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（公民大會確實提供部分公民直接參與的制度。）",
           "mathExpression": "古希臘城邦與古羅馬法制 ➔ 雅典（商業直接民主）vs 斯巴達（尚武軍國）；羅馬經歷王政 → 共和 → 帝國三階段",
           "explanation": "公民大會確實提供部分公民直接參與的制度。"
         },
@@ -9997,7 +9997,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「古希臘城邦與古羅馬法制、出處」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「古希臘城邦與古羅馬法制、出處」之規則完成「「雅典有公民大會，所以所有居民都有平等政治權利」哪裡不完整？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10005,7 +10005,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「古希臘羅馬古典文明與民主法律、undefined、古希臘城邦與古羅馬法制、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「古希臘羅馬古典文明與民主法律、公民大會確實提供部分公民直接參與的制度。、古希臘城邦與古羅馬法制、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】雅典直接民主制度中婦女、奴隸與外邦人皆無公民投票權；羅馬帝國由屋大維（奧古斯都）開啟元首制，元老院權力實質被架空，已非共和體制。",
       "defenseCheck": "【考場防呆】指出限制不是否認制度的重要性，而是讓比較符合當時的實際範圍。"
     }
@@ -10039,11 +10039,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】等高線地形圖判讀與臺灣水文環境：undefined",
+      "title": "【板書推演】等高線地形圖判讀與臺灣水文環境：一條河依次穿過 300、250、200 公尺等高線，流向如何？若某段線更密代表什麼？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（河水由較高的 300 公尺側流向 200 公尺側，與紙面上下無必然關係。）",
           "mathExpression": "比例尺 ➔ 圖距與實距使用相同單位",
           "explanation": "河水由較高的 300 公尺側流向 200 公尺側，與紙面上下無必然關係。"
         },
@@ -10069,7 +10069,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「比例尺、等高距」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「比例尺、等高距」之規則完成「一條河依次穿過 300、250、200 公尺等高線，流向如何？若某段線更密代表什麼？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10077,7 +10077,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「等高線地形圖判讀與臺灣水文環境、undefined、比例尺、等高距、坡度」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「等高線地形圖判讀與臺灣水文環境、河水由較高的 300 公尺側流向 200 公尺側，與紙面上下無必然關係。、比例尺、等高距、坡度」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】等高線向高處凸出的是「山谷」而非山脊（水往低處流，故河流必在山谷中）；臺灣年平均降雨量達 2500 毫米（約全球平均 3 倍），但因河短坡陡、降雨時空不均，仍屬相對缺水地區。",
       "defenseCheck": "【考場防呆】不同圖若比例尺或等高距不同，不能直接比較線密度就斷定哪裡更陡。"
     }
@@ -10111,11 +10111,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】季風亞洲與世界文明搖籃：undefined",
+      "title": "【板書推演】季風亞洲與世界文明搖籃：季風農業區若雨季延遲，可能如何影響稻作與用水規劃？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（播種與插秧常依水分條件安排，雨季延遲可能迫使調整農時。）",
           "mathExpression": "季風亞洲 ➔ 季節風向改變影響雨量與農業",
           "explanation": "播種與插秧常依水分條件安排，雨季延遲可能迫使調整農時。"
         },
@@ -10141,7 +10141,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「季風亞洲、乾燥區」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「季風亞洲、乾燥區」之規則完成「季風農業區若雨季延遲，可能如何影響稻作與用水規劃？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10149,7 +10149,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「季風亞洲與世界文明搖籃、undefined、季風亞洲、乾燥區、文化與宗教」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「季風亞洲與世界文明搖籃、播種與插秧常依水分條件安排，雨季延遲可能迫使調整農時。、季風亞洲、乾燥區、文化與宗教」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】季風氣候雖降水豐沛，但季風具有年際不穩定性（強弱早晚不一），容易造成水旱災交替；東南亞赤道附近（如印尼、馬來群島）主要屬熱帶雨林氣候，終年高溫多雨，非典型季風氣候。",
       "defenseCheck": "【考場防呆】氣候的季節性、年際差異及水利設施能力要分開分析。"
     }
@@ -10183,11 +10183,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】美國與北美洲區域發展特色：undefined",
+      "title": "【板書推演】美國與北美洲區域發展特色：某傳統工業城市因工廠外移而人口下降，能否只解釋成當地居民不努力？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（工廠選址可能受成本、技術、貿易與企業策略改變，不是個人努力單一因素。）",
           "mathExpression": "位置與氣候 ➔ 緯度、海陸位置、洋流、地形一起分析",
           "explanation": "工廠選址可能受成本、技術、貿易與企業策略改變，不是個人努力單一因素。"
         },
@@ -10213,7 +10213,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「位置與氣候、農業與產業」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「位置與氣候、農業與產業」之規則完成「某傳統工業城市因工廠外移而人口下降，能否只解釋成當地居民不努力？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10221,7 +10221,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「美國與北美洲區域發展特色、undefined、位置與氣候、農業與產業、人口與都市」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「美國與北美洲區域發展特色、工廠選址可能受成本、技術、貿易與企業策略改變，不是個人努力單一因素。、位置與氣候、農業與產業、人口與都市」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】大規模專業化商業農業雖然生產效率極高，但單一作物種植容易造成土壤地力消耗、過度依賴化肥農藥與地下水超抽，具生態永續風險。",
       "defenseCheck": "【考場防呆】區域統計說明結構趨勢，不代表每個居民經歷完全相同。"
     }
@@ -10255,11 +10255,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】少年法律保護與權益維護：undefined",
+      "title": "【板書推演】少年法律保護與權益維護：同學遇到網路威脅卻怕被責怪而不敢求助，旁人可以如何支持？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先關心安全與感受，避免逼問或公開事件細節。）",
           "mathExpression": "事實 ➔ 先分清主張、證據與已確認事實",
           "explanation": "先關心安全與感受，避免逼問或公開事件細節。"
         },
@@ -10285,7 +10285,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「事實、關係」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「事實、關係」之規則完成「同學遇到網路威脅卻怕被責怪而不敢求助，旁人可以如何支持？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10293,7 +10293,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「少年法律保護與權益維護、undefined、事實、關係、程序」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「少年法律保護與權益維護、先關心安全與感受，避免逼問或公開事件細節。、事實、關係、程序」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】未成年人觸法並非完全「免罰」或「不會有事」，少年保護處分依然具有法定拘束力與管束限制；任何人不得公開報導或揭露少年事件當事人姓名與身分資訊。",
       "defenseCheck": "【考場防呆】保護少年與釐清責任可以並行；此情境練習不替代個案法律判斷。"
     }
@@ -10327,11 +10327,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】現代法治體系：民法、刑法與行政法：undefined",
+      "title": "【板書推演】現代法治體系：民法、刑法與行政法：交通事故造成他人受傷，為何可能同時談賠償、刑事責任與交通裁罰？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（受害者損害可能涉及民事賠償。）",
           "mathExpression": "事實 ➔ 先分清主張、證據與已確認事實",
           "explanation": "受害者損害可能涉及民事賠償。"
         },
@@ -10357,7 +10357,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「事實、關係」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「事實、關係」之規則完成「交通事故造成他人受傷，為何可能同時談賠償、刑事責任與交通裁罰？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10365,7 +10365,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「現代法治體系：民法、刑法與行政法、undefined、事實、關係、程序」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「現代法治體系：民法、刑法與行政法、受害者損害可能涉及民事賠償。、事實、關係、程序」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】民事賠償是由被害人向法院提起民事訴訟，非檢察官公訴；刑事責任講求「罪刑法定」，法律無明文規定處罰者不得定罪。民事、刑事與行政責任可能因同一個違法行為同時發生（如酒駕肇事）。",
       "defenseCheck": "【考場防呆】本例是責任類型示意，具體案件是否成立及金額須查現行法與事實。"
     }
@@ -10399,11 +10399,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】市場競爭、外部效果與政府管制：undefined",
+      "title": "【板書推演】市場競爭、外部效果與政府管制：工廠產品便宜，但廢水使下游居民增加淨水支出，為何市場價格可能未反映全部成本？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（生產者與購買者付出的價格未必包含下游居民承受的水質損害。）",
           "mathExpression": "機會成本 ➔ 放棄的選項中，價值最高者",
           "explanation": "生產者與購買者付出的價格未必包含下游居民承受的水質損害。"
         },
@@ -10429,7 +10429,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「機會成本、比較利益」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「機會成本、比較利益」之規則完成「工廠產品便宜，但廢水使下游居民增加淨水支出，為何市場價格可能未反映全部成本？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10437,7 +10437,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「市場競爭、外部效果與政府管制、undefined、機會成本、比較利益、外部效果」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「市場競爭、外部效果與政府管制、生產者與購買者付出的價格未必包含下游居民承受的水質損害。、機會成本、比較利益、外部效果」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】外部成本與外部效益並非指商品本身的優缺點，而是指對「交易雙方以外的第三人」產生的未計價影響；市場機能無法自動解決外部效果時，即發生「市場失靈」。",
       "defenseCheck": "【考場防呆】提高價格不保證污染自動消失；政策設計須追蹤實際排放與行為改變。"
     }
@@ -10471,11 +10471,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】清領開港通商與臺灣近代化建設：undefined",
+      "title": "【板書推演】清領開港通商與臺灣近代化建設：出口茶業發展，為何可能帶動北部港口、商業與交通需求？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（茶需從產區運到加工或交易地，再經港口出口，形成運輸鏈。）",
           "mathExpression": "三大一神教與中世紀歐洲 ➔ 猶太教（舊約）→ 基督教（新約，4世紀成羅馬國教）→ 伊斯蘭教（古蘭經，政教合一）",
           "explanation": "茶需從產區運到加工或交易地，再經港口出口，形成運輸鏈。"
         },
@@ -10501,7 +10501,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「三大一神教與中世紀歐洲、出處」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「三大一神教與中世紀歐洲、出處」之規則完成「出口茶業發展，為何可能帶動北部港口、商業與交通需求？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10509,7 +10509,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「清領開港通商與臺灣近代化建設、undefined、三大一神教與中世紀歐洲、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「清領開港通商與臺灣近代化建設、茶需從產區運到加工或交易地，再經港口出口，形成運輸鏈。、三大一神教與中世紀歐洲、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】開港通商是受西方列強條約逼迫開放，非清廷主動開明；劉銘傳推動現代化改革面臨財政困難、守舊反對與原住民衝突，鐵路在他離臺時僅完成基隆到臺北。",
       "defenseCheck": "【考場防呆】不能把同時期每項建設都單獨歸因於茶業，其他政策和產業亦可能參與。"
     }
@@ -10543,11 +10543,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】辛亥革命與中華民國建立到對日抗戰：undefined",
+      "title": "【板書推演】辛亥革命與中華民國建立到對日抗戰：有人說「建立共和後，政治便立刻穩定且所有人獲得同等參與」，如何用歷史思考檢查？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先把制度名稱與實際權力運作分開，建立共和只是分析起點。）",
           "mathExpression": "民國建立、五四至八年抗戰 ➔ 1911 辛亥建國 → 1919 五四運動 → 1928 北伐統一與十年建設 → 1937~1945 對日抗戰",
           "explanation": "先把制度名稱與實際權力運作分開，建立共和只是分析起點。"
         },
@@ -10573,7 +10573,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「民國建立、五四至八年抗戰、出處」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「民國建立、五四至八年抗戰、出處」之規則完成「有人說「建立共和後，政治便立刻穩定且所有人獲得同等參與」，如何用歷史思考檢查？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10581,7 +10581,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「辛亥革命與中華民國建立到對日抗戰、undefined、民國建立、五四至八年抗戰、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「辛亥革命與中華民國建立到對日抗戰、先把制度名稱與實際權力運作分開，建立共和只是分析起點。、民國建立、五四至八年抗戰、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】武昌起義成功時孫中山人在海外，革命是各省革命黨人、新軍與立憲派力量匯聚的成果；新文化運動注重思想與文化批判，五四運動則是 1919 年因巴黎和會山東問題爆發的學生愛國群眾運動。",
       "defenseCheck": "【考場防呆】回答應指出所需證據與時段，不宜只用「成功」或「失敗」兩字概括複雜歷程。"
     }
@@ -10615,11 +10615,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】二次大戰後冷戰對峙與全球解殖潮：undefined",
+      "title": "【板書推演】二次大戰後冷戰對峙與全球解殖潮：某新獨立國家接受外援卻不願加入軍事同盟，可如何理解其選擇？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（政治自主與經濟發展可能同時是目標，接受援助不必然等於全面認同援助國政策。）",
           "mathExpression": "美蘇冷戰對峙與亞非解殖 ➔ 美國資本陣營（馬歇爾計畫、北約）vs 蘇聯共產陣營（華沙公約）；1991 蘇聯解體冷戰結束",
           "explanation": "政治自主與經濟發展可能同時是目標，接受援助不必然等於全面認同援助國政策。"
         },
@@ -10645,7 +10645,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「美蘇冷戰對峙與亞非解殖、出處」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「美蘇冷戰對峙與亞非解殖、出處」之規則完成「某新獨立國家接受外援卻不願加入軍事同盟，可如何理解其選擇？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10653,7 +10653,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「二次大戰後冷戰對峙與全球解殖潮、undefined、美蘇冷戰對峙與亞非解殖、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「二次大戰後冷戰對峙與全球解殖潮、政治自主與經濟發展可能同時是目標，接受援助不必然等於全面認同援助國政策。、美蘇冷戰對峙與亞非解殖、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】「冷戰」並非完全沒有戰爭，而是在美蘇兩大超級強權本土地區未爆發直接衝突，但各區域的代理人戰爭（韓戰、越戰、阿富汗戰爭）死傷極為慘重；冷戰期間也有不願結盟的「不結盟運動」第三世界國家。",
       "defenseCheck": "【考場防呆】勿把所有國家硬分為毫無差異的兩類；小國也有自身利益與決策。"
     }
@@ -10687,11 +10687,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】臺灣交通網絡與城鄉區域均衡發展：undefined",
+      "title": "【板書推演】臺灣交通網絡與城鄉區域均衡發展：新快速道路開通後，城鎮到大城市更快，是否保證本地商店營收增加？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（可達性提高可能帶來外地客人，也可能讓居民更容易到大城市消費。）",
           "mathExpression": "地形 ➔ 山地多集中中央與東部，西部有較廣平原",
           "explanation": "可達性提高可能帶來外地客人，也可能讓居民更容易到大城市消費。"
         },
@@ -10717,7 +10717,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「地形、氣候」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「地形、氣候」之規則完成「新快速道路開通後，城鎮到大城市更快，是否保證本地商店營收增加？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10725,7 +10725,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「臺灣交通網絡與城鄉區域均衡發展、undefined、地形、氣候、產業與城鄉」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「臺灣交通網絡與城鄉區域均衡發展、可達性提高可能帶來外地客人，也可能讓居民更容易到大城市消費。、地形、氣候、產業與城鄉」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】興建快速交通雖然縮短通勤時間，但也可能引發「吸管效應（隧道效應）」，反將沿線小市鎮的資源快速吸納至大都市；改善偏鄉生活需要結合在地特色產業與公共服務網絡。",
       "defenseCheck": "【考場防呆】交通建設有雙向流動效果，不能把通車直接等同所有地方受益。"
     }
@@ -10759,11 +10759,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治：undefined",
+      "title": "【板書推演】西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治：某乾燥地區石油收入高，卻仍重視海水淡化與節水，兩者矛盾嗎？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（石油與淡水是不同資源，有能源收入不等於有充足天然淡水。）",
           "mathExpression": "季風亞洲 ➔ 季節風向改變影響雨量與農業",
           "explanation": "石油與淡水是不同資源，有能源收入不等於有充足天然淡水。"
         },
@@ -10789,7 +10789,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「季風亞洲、乾燥區」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「季風亞洲、乾燥區」之規則完成「某乾燥地區石油收入高，卻仍重視海水淡化與節水，兩者矛盾嗎？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10797,7 +10797,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治、undefined、季風亞洲、乾燥區、文化與宗教」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治、石油與淡水是不同資源，有能源收入不等於有充足天然淡水。、季風亞洲、乾燥區、文化與宗教」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】「中東/西亞居民全是阿拉伯人」是迷思；伊朗人主要是波斯人（講波斯語），土耳其人是突厥人後裔（講土耳其語），以色列人主要為猶太人（信仰猶太教）。",
       "defenseCheck": "【考場防呆】不要把整個區域都視為石油富國；必須查明各地資源與人口條件。"
     }
@@ -10831,11 +10831,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】澳洲、紐西蘭與大洋洲島嶼地理環境：undefined",
+      "title": "【板書推演】澳洲、紐西蘭與大洋洲島嶼地理環境：澳洲面積很大，是否表示大部分居民住在內陸，且各地人口密度相近？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（土地面積不能直接推人口分布，還須看降水、供水、交通及就業。）",
           "mathExpression": "位置與氣候 ➔ 緯度、海陸位置、洋流、地形一起分析",
           "explanation": "土地面積不能直接推人口分布，還須看降水、供水、交通及就業。"
         },
@@ -10861,7 +10861,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「位置與氣候、農業與產業」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「位置與氣候、農業與產業」之規則完成「澳洲面積很大，是否表示大部分居民住在內陸，且各地人口密度相近？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10869,7 +10869,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「澳洲、紐西蘭與大洋洲島嶼地理環境、undefined、位置與氣候、農業與產業、人口與都市」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「澳洲、紐西蘭與大洋洲島嶼地理環境、土地面積不能直接推人口分布，還須看降水、供水、交通及就業。、位置與氣候、農業與產業、人口與都市」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】澳洲大自流盆地的地下水含鹽度較高，多屬於「微鹹水」，不能直接用於農作物灌溉，主要用於牧牛牧羊之飲水；紐西蘭南島以冰河峽灣著稱，北島以火山地熱為主。",
       "defenseCheck": "【考場防呆】國土面積與人口數是不同變項，平均密度會掩蓋局部擁擠與稀疏。"
     }
@@ -10903,11 +10903,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】地方自治、社區參與與地方創生：undefined",
+      "title": "【板書推演】地方自治、社區參與與地方創生：社區想改善公園照明，如何把抱怨轉成可處理的公共提案？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（記錄位置、時段、照明狀態與使用者需求，不只說「公園很暗」。）",
           "mathExpression": "尊重差異 ➔ 區分個人偏好、刻板印象與歧視",
           "explanation": "記錄位置、時段、照明狀態與使用者需求，不只說「公園很暗」。"
         },
@@ -10933,7 +10933,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「尊重差異、界定問題」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「尊重差異、界定問題」之規則完成「社區想改善公園照明，如何把抱怨轉成可處理的公共提案？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10941,7 +10941,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「地方自治、社區參與與地方創生、undefined、尊重差異、界定問題、協商方案」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「地方自治、社區參與與地方創生、記錄位置、時段、照明狀態與使用者需求，不只說「公園很暗」。、尊重差異、界定問題、協商方案」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】直轄市底下的「區公所」除原住民區外屬於市政府的派出行政機關，區長由市長指派，並無「區民代表會」；只有縣轄市、鄉、鎮才設有民選的鄉鎮市長與鄉鎮市民代表會。",
       "defenseCheck": "【考場防呆】參與不是保證方案全被採納，而是讓問題、理由與決策更可檢視。"
     }
@@ -10975,11 +10975,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】中央政府體制與五院職權分工制衡：undefined",
+      "title": "【板書推演】中央政府體制與五院職權分工制衡：看到行政機關提出政策、立法機關審議法律與預算，能否說行政部門可以自行決定所有法律？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（政策提出與執行屬行政運作的重要部分，但立法與預算需依憲政程序處理。）",
           "mathExpression": "分工 ➔ 哪個機關依法負責此事項？",
           "explanation": "政策提出與執行屬行政運作的重要部分，但立法與預算需依憲政程序處理。"
         },
@@ -11005,7 +11005,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「分工、制衡」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「分工、制衡」之規則完成「看到行政機關提出政策、立法機關審議法律與預算，能否說行政部門可以自行決定所有法律？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -11013,7 +11013,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「中央政府體制與五院職權分工制衡、undefined、分工、制衡、責任」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「中央政府體制與五院職權分工制衡、政策提出與執行屬行政運作的重要部分，但立法與預算需依憲政程序處理。、分工、制衡、責任」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】「彈劾總統」是由「立法院」提出提案後，聲請「司法院憲法法庭」審理判決，而非監察院職權；監察院負責彈劾違法失職的中央與地方公務人員（不含民選民意代表與總統副總統）。",
       "defenseCheck": "【考場防呆】分工不等於完全互不接觸；具體權限以現行憲法、增修條文及法律為準。"
     }
@@ -11047,11 +11047,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】國際貿易、比較利益法則與全球分工：undefined",
+      "title": "【板書推演】國際貿易、比較利益法則與全球分工：甲一天可做 10 件衣或 5 雙鞋，乙可做 6 件衣或 2 雙鞋，誰較有做鞋的比較利益？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（甲做 1 雙鞋需放棄 10/5＝2 件衣；乙做 1 雙鞋需放棄 6/2＝3 件衣。）",
           "mathExpression": "機會成本 ➔ 放棄的選項中，價值最高者",
           "explanation": "甲做 1 雙鞋需放棄 10/5＝2 件衣；乙做 1 雙鞋需放棄 6/2＝3 件衣。"
         },
@@ -11077,7 +11077,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「機會成本、比較利益」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「機會成本、比較利益」之規則完成「甲一天可做 10 件衣或 5 雙鞋，乙可做 6 件衣或 2 雙鞋，誰較有做鞋的比較利益？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -11085,7 +11085,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「國際貿易、比較利益法則與全球分工、undefined、機會成本、比較利益、外部效果」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「國際貿易、比較利益法則與全球分工、甲做 1 雙鞋需放棄 10/5＝2 件衣；乙做 1 雙鞋需放棄 6/2＝3 件衣。、機會成本、比較利益、外部效果」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】一個國家即使在所有產品的生產效率上都超越他國（具絕對利益），雙方依然能透過「比較利益（比誰的機會成本更低）」進行分工貿易，並從中共同獲益；貿易創造總體福利增加，但不代表國內每一個群體皆同等受惠。",
       "defenseCheck": "【考場防呆】這是簡化全投入二選一模型；真實貿易還有運輸、分配及轉業成本，不能由總利益推成人人受益。"
     }
@@ -11119,11 +11119,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】色彩、構圖與視覺重點：undefined",
+      "title": "【板書推演】色彩、構圖與視覺重點：社團海報標題、日期、地點全用同樣大小彩色字，觀眾找不到重點，如何修改並驗證？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先決定主要訊息，將活動名稱設為最大層級，日期地點次之。）",
           "mathExpression": "形式 ➔ 線條、色彩、明暗、材質、空間",
           "explanation": "先決定主要訊息，將活動名稱設為最大層級，日期地點次之。"
         },
@@ -11149,7 +11149,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「形式、構圖」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「形式、構圖」之規則完成「社團海報標題、日期、地點全用同樣大小彩色字，觀眾找不到重點，如何修改並驗證？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -11157,7 +11157,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「色彩、構圖與視覺重點、undefined、形式、構圖、脈絡」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「色彩、構圖與視覺重點、先決定主要訊息，將活動名稱設為最大層級，日期地點次之。、形式、構圖、脈絡」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】顏色越多不代表越清楚；低對比文字可能難以閱讀。",
       "defenseCheck": "【考場防呆】評量不是「顏色夠不夠多」，而是目標觀眾能否快速讀到必要資訊。"
     }
@@ -11191,11 +11191,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】透視、媒材與創作過程：undefined",
+      "title": "【板書推演】透視、媒材與創作過程：畫一條朝遠方延伸的道路，為何兩邊線在畫面上靠近？如何檢查圖是否一致？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先畫視平線並選消失點，將道路兩側朝同一點延伸。）",
           "mathExpression": "形式 ➔ 線條、色彩、明暗、材質、空間",
           "explanation": "先畫視平線並選消失點，將道路兩側朝同一點延伸。"
         },
@@ -11221,7 +11221,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「形式、構圖」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「形式、構圖」之規則完成「畫一條朝遠方延伸的道路，為何兩邊線在畫面上靠近？如何檢查圖是否一致？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -11229,7 +11229,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「透視、媒材與創作過程、undefined、形式、構圖、脈絡」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「透視、媒材與創作過程、先畫視平線並選消失點，將道路兩側朝同一點延伸。、形式、構圖、脈絡」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】透視是呈現空間的方法之一，不是所有藝術都必須遵守同一寫實規則。",
       "defenseCheck": "【考場防呆】透視是表現空間的一種工具；若刻意變形，應能說明它如何服務創作意圖。"
     }
@@ -11263,11 +11263,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】藝術賞析、文化與策展：undefined",
+      "title": "【板書推演】藝術賞析、文化與策展：要策劃三件不同媒材的「家」主題展，如何選件與寫說明？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先界定主題是建築空間、家庭記憶或身分歸屬，避免只因都畫房子就放一起。）",
           "mathExpression": "形式 ➔ 線條、色彩、明暗、材質、空間",
           "explanation": "先界定主題是建築空間、家庭記憶或身分歸屬，避免只因都畫房子就放一起。"
         },
@@ -11293,7 +11293,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「形式、構圖」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「形式、構圖」之規則完成「要策劃三件不同媒材的「家」主題展，如何選件與寫說明？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -11301,7 +11301,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「藝術賞析、文化與策展、undefined、形式、構圖、脈絡」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「藝術賞析、文化與策展、先界定主題是建築空間、家庭記憶或身分歸屬，避免只因都畫房子就放一起。、形式、構圖、脈絡」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】「我不喜歡」是感受，但還不是完整分析；不要把單一文化標準當唯一尺度。",
       "defenseCheck": "【考場防呆】「令人感動」不足以支持策展論點；讓觀眾知道該看哪個細節及為何重要。"
     }
@@ -11335,11 +11335,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】節奏、拍號與旋律：undefined",
+      "title": "【板書推演】節奏、拍號與旋律：在 4/4 拍寫「四分音符、兩個八分音符、四分休止符、四分音符」，是否剛好一小節？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（依序拍數為 1、1/2＋1/2、1、1。）",
           "mathExpression": "節拍 ➔ 規律的強弱組織",
           "explanation": "依序拍數為 1、1/2＋1/2、1、1。"
         },
@@ -11365,7 +11365,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「節拍、節奏」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「節拍、節奏」之規則完成「在 4/4 拍寫「四分音符、兩個八分音符、四分休止符、四分音符」，是否剛好一小節？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -11373,7 +11373,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「節奏、拍號與旋律、undefined、節拍、節奏、旋律」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「節奏、拍號與旋律、依序拍數為 1、1/2＋1/2、1、1。、節拍、節奏、旋律」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】速度快慢不同於節拍數；4/4 不表示每秒四拍。",
       "defenseCheck": "【考場防呆】休止不是時間消失；速度加快只縮短每拍時間，不會把一小節變成不同拍數。"
     }
@@ -11407,11 +11407,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】音色、合奏與聆聽：undefined",
+      "title": "【板書推演】音色、合奏與聆聽：節奏合奏中伴奏太大聲蓋住旋律，如何調整而不只是要求所有人小聲？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先辨識此段主旋律在哪個聲部，其餘聲部扮演支撐或回應。）",
           "mathExpression": "節拍 ➔ 規律的強弱組織",
           "explanation": "先辨識此段主旋律在哪個聲部，其餘聲部扮演支撐或回應。"
         },
@@ -11437,7 +11437,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「節拍、節奏」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「節拍、節奏」之規則完成「節奏合奏中伴奏太大聲蓋住旋律，如何調整而不只是要求所有人小聲？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -11445,7 +11445,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「音色、合奏與聆聽、undefined、節拍、節奏、旋律」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「音色、合奏與聆聽、先辨識此段主旋律在哪個聲部，其餘聲部扮演支撐或回應。、節拍、節奏、旋律」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】合奏不是每個人都盡量大聲；音高、音量、音色是不同面向。",
       "defenseCheck": "【考場防呆】合奏品質不是各人音量相加越大越好，而是共同呈現音樂結構。"
     }
@@ -11479,11 +11479,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】音樂文化與創作：undefined",
+      "title": "【板書推演】音樂文化與創作：用四拍動機創作八小節節奏，如何讓它有結構而不是八次隨機敲擊？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先寫一個清楚的四拍動機，前兩小節重複讓聽者辨識。）",
           "mathExpression": "節拍 ➔ 規律的強弱組織",
           "explanation": "先寫一個清楚的四拍動機，前兩小節重複讓聽者辨識。"
         },
@@ -11509,7 +11509,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「節拍、節奏」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「節拍、節奏」之規則完成「用四拍動機創作八小節節奏，如何讓它有結構而不是八次隨機敲擊？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -11517,7 +11517,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「音樂文化與創作、undefined、節拍、節奏、旋律」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「音樂文化與創作、先寫一個清楚的四拍動機，前兩小節重複讓聽者辨識。、節拍、節奏、旋律」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】不應把非西方音樂視為較低等，也不以單一曲目代表整個文化。",
       "defenseCheck": "【考場防呆】說明每次改動的目的，再讓同伴聆聽回饋；創作不只看音符數量。"
     }
@@ -11551,11 +11551,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】身體、聲音與舞臺空間：undefined",
+      "title": "【板書推演】身體、聲音與舞臺空間：同一句「你來了」，分別演成期待與警戒，如何用可觀察的方式區分？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（期待可用向前靠近、較開放姿勢及明亮語調，並配合情境。）",
           "mathExpression": "角色目標 ➔ 角色此刻想達成什麼？",
           "explanation": "期待可用向前靠近、較開放姿勢及明亮語調，並配合情境。"
         },
@@ -11581,7 +11581,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「角色目標、阻礙」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「角色目標、阻礙」之規則完成「同一句「你來了」，分別演成期待與警戒，如何用可觀察的方式區分？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -11589,7 +11589,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「身體、聲音與舞臺空間、undefined、角色目標、阻礙、行動」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「身體、聲音與舞臺空間、期待可用向前靠近、較開放姿勢及明亮語調，並配合情境。、角色目標、阻礙、行動」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】大聲不等於有情感；肢體與聲音需要配合情境。",
       "defenseCheck": "【考場防呆】情緒沒有唯一動作答案；表演選擇須與角色及情境一致，也不應以刻板印象代替觀察。"
     }
@@ -11623,11 +11623,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】角色、衝突與即興：undefined",
+      "title": "【板書推演】角色、衝突與即興：兩名角色都想使用同一間教室，一人要排練、一人要安靜讀書，如何形成短場景？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先設定各自目標與截止時間，讓需求具體而有理由。）",
           "mathExpression": "角色目標 ➔ 角色此刻想達成什麼？",
           "explanation": "先設定各自目標與截止時間，讓需求具體而有理由。"
         },
@@ -11653,7 +11653,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「角色目標、阻礙」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「角色目標、阻礙」之規則完成「兩名角色都想使用同一間教室，一人要排練、一人要安靜讀書，如何形成短場景？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -11661,7 +11661,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「角色、衝突與即興、undefined、角色目標、阻礙、行動」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「角色、衝突與即興、先設定各自目標與截止時間，讓需求具體而有理由。、角色目標、阻礙、行動」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】衝突不一定是吵架，也可以是內心抉擇或環境阻礙。",
       "defenseCheck": "【考場防呆】不要只重複喊「我要用」；觀眾需要看到策略改變及其結果。"
     }
@@ -11695,11 +11695,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】展演製作與回饋：undefined",
+      "title": "【板書推演】展演製作與回饋：排練時換景太久使觀眾失去注意，如何提出可執行的修正？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（記錄換景實際秒數與卡住的步驟，不只說「太慢」。）",
           "mathExpression": "角色目標 ➔ 角色此刻想達成什麼？",
           "explanation": "記錄換景實際秒數與卡住的步驟，不只說「太慢」。"
         },
@@ -11725,7 +11725,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「角色目標、阻礙」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「角色目標、阻礙」之規則完成「排練時換景太久使觀眾失去注意，如何提出可執行的修正？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -11733,7 +11733,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「展演製作與回饋、undefined、角色目標、阻礙、行動」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「展演製作與回饋、記錄換景實際秒數與卡住的步驟，不只說「太慢」。、角色目標、阻礙、行動」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】完成演出不代表不需檢討；技術效果也不能取代故事與合作。",
       "defenseCheck": "【考場防呆】不能為縮短時間犧牲安全；回饋應針對流程，而非以人身批評責怪同伴。"
     }
@@ -11767,11 +11767,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】演算法與問題拆解：undefined",
+      "title": "【板書推演】演算法與問題拆解：設計從三個分數找最大值的流程，為何不能只比較前兩個？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先把第一個分數設為目前最大值。）",
           "mathExpression": "輸入與輸出 ➔ 先說清楚資料與預期結果",
           "explanation": "先把第一個分數設為目前最大值。"
         },
@@ -11797,7 +11797,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「輸入與輸出、條件」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「輸入與輸出、條件」之規則完成「設計從三個分數找最大值的流程，為何不能只比較前兩個？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -11805,7 +11805,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「演算法與問題拆解、undefined、輸入與輸出、條件、迴圈」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「演算法與問題拆解、先把第一個分數設為目前最大值。、輸入與輸出、條件、迴圈」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】「做得更好」不夠明確，電腦需要可判斷的規則。",
       "defenseCheck": "【考場防呆】再測 95、80、99 與三數相等情況，確認每個輸入都曾參與比較。"
     }
@@ -11839,11 +11839,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】變數、條件與迴圈：undefined",
+      "title": "【板書推演】變數、條件與迴圈：累加 1 到 5：sum＝0，i＝1；當 i≤5 時執行 sum＝sum＋i、i＝i＋1，最後 sum 為何？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（依次追蹤 sum：1、3、6、10、15，i 每輪增加一。）",
           "mathExpression": "輸入與輸出 ➔ 先說清楚資料與預期結果",
           "explanation": "依次追蹤 sum：1、3、6、10、15，i 每輪增加一。"
         },
@@ -11869,7 +11869,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「輸入與輸出、條件」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「輸入與輸出、條件」之規則完成「累加 1 到 5：sum＝0，i＝1；當 i≤5 時執行 sum＝sum＋i、i＝i＋1，最後 sum 為何？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -11877,7 +11877,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「變數、條件與迴圈、undefined、輸入與輸出、條件、迴圈」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「變數、條件與迴圈、依次追蹤 sum：1、3、6、10、15，i 每輪增加一。、輸入與輸出、條件、迴圈」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】賦值不是數學等式；x＝x＋1 在程式中表示把舊值加一再存回。",
       "defenseCheck": "【考場防呆】如果忘記 i 更新，條件可能永遠成立；追蹤表要同時記錄 sum 與 i。"
     }
@@ -11911,11 +11911,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】資料、網路與資訊安全：undefined",
+      "title": "【板書推演】資料、網路與資訊安全：收到「學校帳號即將停用，點連結輸入密碼」的訊息，如何處理？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先不點不明連結，查看寄件來源與內容是否有異常催促。）",
           "mathExpression": "輸入與輸出 ➔ 先說清楚資料與預期結果",
           "explanation": "先不點不明連結，查看寄件來源與內容是否有異常催促。"
         },
@@ -11941,7 +11941,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「輸入與輸出、條件」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「輸入與輸出、條件」之規則完成「收到「學校帳號即將停用，點連結輸入密碼」的訊息，如何處理？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -11949,7 +11949,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「資料、網路與資訊安全、undefined、輸入與輸出、條件、迴圈」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「資料、網路與資訊安全、先不點不明連結，查看寄件來源與內容是否有異常催促。、輸入與輸出、條件、迴圈」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】https 代表傳輸加密，不保證網站經營者值得信任。",
       "defenseCheck": "【考場防呆】熟悉校徽或顯示名稱不保證真實；判斷要看可驗證的來源與授權。"
     }
@@ -11983,11 +11983,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】設計需求與工程流程：undefined",
+      "title": "【板書推演】設計需求與工程流程：要做可放手機的紙架，如何把「穩」變成能測試的規格？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（設定手機大小與重量、放置角度及桌面條件，避免測試物每次不同。）",
           "mathExpression": "需求 ➔ 誰在什麼情境遇到什麼困難？",
           "explanation": "設定手機大小與重量、放置角度及桌面條件，避免測試物每次不同。"
         },
@@ -12013,7 +12013,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「需求、限制」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「需求、限制」之規則完成「要做可放手機的紙架，如何把「穩」變成能測試的規格？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -12021,7 +12021,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「設計需求與工程流程、undefined、需求、限制、原型」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「設計需求與工程流程、設定手機大小與重量、放置角度及桌面條件，避免測試物每次不同。、需求、限制、原型」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】第一個想法不一定最好；測試失敗是修改的資訊。",
       "defenseCheck": "【考場防呆】不能只測最輕手機便宣稱適合所有機型；規格需標明適用範圍。"
     }
@@ -12055,11 +12055,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】結構、機構與材料：undefined",
+      "title": "【板書推演】結構、機構與材料：用吸管做四邊框架與加斜撐框架，如何比較抗變形能力？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（保持材料、外框尺寸、接點方式及施力位置一致。）",
           "mathExpression": "需求 ➔ 誰在什麼情境遇到什麼困難？",
           "explanation": "保持材料、外框尺寸、接點方式及施力位置一致。"
         },
@@ -12085,7 +12085,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「需求、限制」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「需求、限制」之規則完成「用吸管做四邊框架與加斜撐框架，如何比較抗變形能力？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -12093,7 +12093,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「結構、機構與材料、undefined、需求、限制、原型」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「結構、機構與材料、保持材料、外框尺寸、接點方式及施力位置一致。、需求、限制、原型」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】材料越硬不代表在所有情況越好，還需看韌性、重量與用途。",
       "defenseCheck": "【考場防呆】不能把較多材料造成的強度增加全歸給形狀；公平比較需記錄材料用量。"
     }
@@ -12127,11 +12127,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】能源、製造與永續產品：undefined",
+      "title": "【板書推演】能源、製造與永續產品：兩盞燈提供相近照明，甲 10 W、乙 20 W，各用 100 小時，耗電差多少？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（甲用電 0.01 kW×100 h＝1 kWh，乙為 0.02×100＝2 kWh。）",
           "mathExpression": "需求 ➔ 誰在什麼情境遇到什麼困難？",
           "explanation": "甲用電 0.01 kW×100 h＝1 kWh，乙為 0.02×100＝2 kWh。"
         },
@@ -12157,7 +12157,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「需求、限制」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「需求、限制」之規則完成「兩盞燈提供相近照明，甲 10 W、乙 20 W，各用 100 小時，耗電差多少？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -12165,7 +12165,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「能源、製造與永續產品、undefined、需求、限制、原型」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「能源、製造與永續產品、甲用電 0.01 kW×100 h＝1 kWh，乙為 0.02×100＝2 kWh。、需求、限制、原型」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】再生能源不是完全沒有環境影響；必須比較實際條件。",
       "defenseCheck": "【考場防呆】瓦數低不保證亮度足夠；比較前需確定提供相近服務。"
     }
@@ -12199,11 +12199,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】青春期、自我認識與身體界線：undefined",
+      "title": "【板書推演】青春期、自我認識與身體界線：朋友說「大家都拍了，你不拍就是不合群」，要求拍攝私密身體照片，該如何回應？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（辨識這是以群體壓力促使同意，不必為了維持友誼接受。）",
           "mathExpression": "辨識資訊 ➔ 查作者、日期、證據及商業目的",
           "explanation": "辨識這是以群體壓力促使同意，不必為了維持友誼接受。"
         },
@@ -12229,7 +12229,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「辨識資訊、尊重界線」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「辨識資訊、尊重界線」之規則完成「朋友說「大家都拍了，你不拍就是不合群」，要求拍攝私密身體照片，該如何回應？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -12237,7 +12237,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「青春期、自我認識與身體界線、undefined、辨識資訊、尊重界線、比較選擇」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「青春期、自我認識與身體界線、辨識這是以群體壓力促使同意，不必為了維持友誼接受。、辨識資訊、尊重界線、比較選擇」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】沒有反抗不等於同意；身體發展速度不同不表示價值不同。",
       "defenseCheck": "【考場防呆】被施壓者不應被責怪；尊重界線是關係中的基本要求，不是需要交換的獎勵。"
     }
@@ -12271,11 +12271,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】飲食資訊與健康選擇：undefined",
+      "title": "【板書推演】飲食資訊與健康選擇：飲料每份 250 mL、每份糖 18 g，一瓶 500 mL，喝完整瓶攝取多少糖？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（一瓶共有 500/250＝2 份。）",
           "mathExpression": "辨識資訊 ➔ 查作者、日期、證據及商業目的",
           "explanation": "一瓶共有 500/250＝2 份。"
         },
@@ -12301,7 +12301,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「辨識資訊、尊重界線」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「辨識資訊、尊重界線」之規則完成「飲料每份 250 mL、每份糖 18 g，一瓶 500 mL，喝完整瓶攝取多少糖？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -12309,7 +12309,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「飲食資訊與健康選擇、undefined、辨識資訊、尊重界線、比較選擇」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「飲食資訊與健康選擇、一瓶共有 500/250＝2 份。、辨識資訊、尊重界線、比較選擇」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】單一食品不能代表整體飲食；「天然」不保證任何情況都合適。",
       "defenseCheck": "【考場防呆】計算是讀標示能力練習，不是以一瓶飲料診斷健康或建議極端節食。"
     }
@@ -12343,11 +12343,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】健康資訊、風險與求助：undefined",
+      "title": "【板書推演】健康資訊、風險與求助：短影片說某補充品讓所有人不再疲倦，且要求立即購買，如何評估？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先確認是否有可靠研究、具體對象及效果指標，而不是只看前後照片。）",
           "mathExpression": "辨識資訊 ➔ 查作者、日期、證據及商業目的",
           "explanation": "先確認是否有可靠研究、具體對象及效果指標，而不是只看前後照片。"
         },
@@ -12373,7 +12373,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「辨識資訊、尊重界線」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「辨識資訊、尊重界線」之規則完成「短影片說某補充品讓所有人不再疲倦，且要求立即購買，如何評估？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -12381,7 +12381,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「健康資訊、風險與求助、undefined、辨識資訊、尊重界線、比較選擇」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「健康資訊、風險與求助、先確認是否有可靠研究、具體對象及效果指標，而不是只看前後照片。、辨識資訊、尊重界線、比較選擇」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】別把同學經驗當每個人的診斷，也不要憑網路測驗自行認定疾病。",
       "defenseCheck": "【考場防呆】資訊查證不等於自行診斷；也不應擅自停用原有醫療處置。"
     }
@@ -12415,11 +12415,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】動作學習與自我監測：undefined",
+      "title": "【板書推演】動作學習與自我監測：練習投擲時方向不穩，如何用紀錄找出改善點？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先固定安全距離與目標，記錄數次落點而非只看最好一次。）",
           "mathExpression": "目標 ➔ 選可觀察的動作或合作指標",
           "explanation": "先固定安全距離與目標，記錄數次落點而非只看最好一次。"
         },
@@ -12445,7 +12445,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「目標、負荷」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「目標、負荷」之規則完成「練習投擲時方向不穩，如何用紀錄找出改善點？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -12453,7 +12453,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「動作學習與自我監測、undefined、目標、負荷、回饋」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「動作學習與自我監測、先固定安全距離與目標，記錄數次落點而非只看最好一次。、目標、負荷、回饋」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】練得越累不一定越有效；疼痛不是進步的必要條件。",
       "defenseCheck": "【考場防呆】疼痛、暈眩或明顯不適時停止並求助，不能為了資料完整勉強完成。"
     }
@@ -12487,11 +12487,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】球類策略與團隊合作：undefined",
+      "title": "【板書推演】球類策略與團隊合作：三對三活動中，持球者一直被包夾，隊友站著等球，如何改善？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（無球隊友先移向空檔並與持球者形成可見傳球路線。）",
           "mathExpression": "目標 ➔ 選可觀察的動作或合作指標",
           "explanation": "無球隊友先移向空檔並與持球者形成可見傳球路線。"
         },
@@ -12517,7 +12517,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「目標、負荷」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「目標、負荷」之規則完成「三對三活動中，持球者一直被包夾，隊友站著等球，如何改善？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -12525,7 +12525,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「球類策略與團隊合作、undefined、目標、負荷、回饋」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「球類策略與團隊合作、無球隊友先移向空檔並與持球者形成可見傳球路線。、目標、負荷、回饋」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】持球越久不代表貢獻越大；失誤可分析原因而非責怪個人。",
       "defenseCheck": "【考場防呆】移動不是越快越好；要保持視線、避免碰撞並遵守活動規則。"
     }
@@ -12559,11 +12559,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】運動計畫與公平競賽：undefined",
+      "title": "【板書推演】運動計畫與公平競賽：想改善持續活動能力，如何規劃並檢查一週的練習？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先記錄現有能力與可用時間，與教師討論合適活動及安全強度。）",
           "mathExpression": "目標 ➔ 選可觀察的動作或合作指標",
           "explanation": "先記錄現有能力與可用時間，與教師討論合適活動及安全強度。"
         },
@@ -12589,7 +12589,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「目標、負荷」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「目標、負荷」之規則完成「想改善持續活動能力，如何規劃並檢查一週的練習？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -12597,7 +12597,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「運動計畫與公平競賽、undefined、目標、負荷、回饋」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「運動計畫與公平競賽、先記錄現有能力與可用時間，與教師討論合適活動及安全強度。、目標、負荷、回饋」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】運動表現不等於人的價值；包容與安全參與比羞辱式排名重要。",
       "defenseCheck": "【考場防呆】計畫是可修訂的工具；身體不適時調整不是失敗，不能只追求每天增加數字。"
     }
@@ -12631,11 +12631,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】家庭合作與生活管理：undefined",
+      "title": "【板書推演】家庭合作與生活管理：家人抱怨晚餐準備總由同一人負責，如何重分工作？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先列出採買、備料、烹調、擺桌及清潔，不只計算站在爐前時間。）",
           "mathExpression": "盤點 ➔ 時間、金錢、食材、工具與人力",
           "explanation": "先列出採買、備料、烹調、擺桌及清潔，不只計算站在爐前時間。"
         },
@@ -12661,7 +12661,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「盤點、分工」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「盤點、分工」之規則完成「家人抱怨晚餐準備總由同一人負責，如何重分工作？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -12669,7 +12669,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「家庭合作與生活管理、undefined、盤點、分工、執行」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「家庭合作與生活管理、先列出採買、備料、烹調、擺桌及清潔，不只計算站在爐前時間。、盤點、分工、執行」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】「幫忙」不應掩蓋共同責任；不同家庭型態都值得尊重。",
       "defenseCheck": "【考場防呆】公平不一定每項任務完全相同，而是分工透明、可協商且負擔合理。"
     }
@@ -12703,11 +12703,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】飲食製備與衣物照護：undefined",
+      "title": "【板書推演】飲食製備與衣物照護：切生肉後要處理即食水果，應如何調整工具與流程？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先辨識水果不再經加熱，若接觸生肉用過的刀板可能發生交叉污染。）",
           "mathExpression": "盤點 ➔ 時間、金錢、食材、工具與人力",
           "explanation": "先辨識水果不再經加熱，若接觸生肉用過的刀板可能發生交叉污染。"
         },
@@ -12733,7 +12733,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「盤點、分工」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「盤點、分工」之規則完成「切生肉後要處理即食水果，應如何調整工具與流程？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -12741,7 +12741,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「飲食製備與衣物照護、undefined、盤點、分工、執行」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「飲食製備與衣物照護、先辨識水果不再經加熱，若接觸生肉用過的刀板可能發生交叉污染。、盤點、分工、執行」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】昂貴工具不能代替正確流程；衣物處理方式不只看外觀。",
       "defenseCheck": "【考場防呆】看起來乾淨不等於沒有污染；不能只把刀隨便擦一下就當作完成清潔。"
     }
@@ -12775,11 +12775,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】消費規劃與資源管理：undefined",
+      "title": "【板書推演】消費規劃與資源管理：有 600 元預算，必要交通 180 元、材料 250 元，想買 220 元小物，是否可行？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（必要支出合計 180＋250＝430 元，餘額 170 元。）",
           "mathExpression": "盤點 ➔ 時間、金錢、食材、工具與人力",
           "explanation": "必要支出合計 180＋250＝430 元，餘額 170 元。"
         },
@@ -12805,7 +12805,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「盤點、分工」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「盤點、分工」之規則完成「有 600 元預算，必要交通 180 元、材料 250 元，想買 220 元小物，是否可行？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -12813,7 +12813,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「消費規劃與資源管理、undefined、盤點、分工、執行」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「消費規劃與資源管理、必要支出合計 180＋250＝430 元，餘額 170 元。、盤點、分工、執行」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】打折不表示一定有需要；不能只比較標價而忽略耗材。",
       "defenseCheck": "【考場防呆】預算不是只列清單，還要計算總額及留下合理緩衝，避免因促銷超支。"
     }
@@ -12847,11 +12847,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】團隊分工與戶外準備：undefined",
+      "title": "【板書推演】團隊分工與戶外準備：行程中天色變差，一名隊員疲倦，但距終點只剩一段路，如何決策？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先停在適當安全處確認天候、時間、位置及隊員狀態。）",
           "mathExpression": "行前 ➔ 路線、天氣、裝備與聯絡計畫",
           "explanation": "先停在適當安全處確認天候、時間、位置及隊員狀態。"
         },
@@ -12877,7 +12877,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「行前、途中」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「行前、途中」之規則完成「行程中天色變差，一名隊員疲倦，但距終點只剩一段路，如何決策？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -12885,7 +12885,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「團隊分工與戶外準備、undefined、行前、途中、決策」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「團隊分工與戶外準備、先停在適當安全處確認天候、時間、位置及隊員狀態。、行前、途中、決策」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】看別人成功不代表自己有同樣能力和條件。",
       "defenseCheck": "【考場防呆】「已經走很遠」不是繼續冒險的充分理由，安全決策要看接下來的條件。"
     }
@@ -12919,11 +12919,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】定向、地圖與環境觀察：undefined",
+      "title": "【板書推演】定向、地圖與環境觀察：地圖上目的地在東方，但兩地之間有溪谷，是否直接向東走即可？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（方向只回答大致方位，尚未回答安全可通行路線。）",
           "mathExpression": "行前 ➔ 路線、天氣、裝備與聯絡計畫",
           "explanation": "方向只回答大致方位，尚未回答安全可通行路線。"
         },
@@ -12949,7 +12949,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「行前、途中」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「行前、途中」之規則完成「地圖上目的地在東方，但兩地之間有溪谷，是否直接向東走即可？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -12957,7 +12957,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「定向、地圖與環境觀察、undefined、行前、途中、決策」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「定向、地圖與環境觀察、方向只回答大致方位，尚未回答安全可通行路線。、行前、途中、決策」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】只盯工具、不看環境容易迷失；電子設備也可能沒電或失去訊號。",
       "defenseCheck": "【考場防呆】最短直線未必最短可走路程，更不保證最安全。"
     }
@@ -12991,11 +12991,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】環境倫理與服務行動：undefined",
+      "title": "【板書推演】環境倫理與服務行動：班級想淨溪，是否帶垃圾袋就可直接下水撿拾？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先與管理單位或有經驗帶領者確認需求、場域限制及安全條件。）",
           "mathExpression": "行前 ➔ 路線、天氣、裝備與聯絡計畫",
           "explanation": "先與管理單位或有經驗帶領者確認需求、場域限制及安全條件。"
         },
@@ -13021,7 +13021,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「行前、途中」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「行前、途中」之規則完成「班級想淨溪，是否帶垃圾袋就可直接下水撿拾？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -13029,7 +13029,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「環境倫理與服務行動、undefined、行前、途中、決策」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「環境倫理與服務行動、先與管理單位或有經驗帶領者確認需求、場域限制及安全條件。、行前、途中、決策」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】不是看到自然物就能帶走；服務對象應有發聲和決定的空間。",
       "defenseCheck": "【考場防呆】服務不能以自身或他人安全為代價；水域活動尤其須依專業規劃。"
     }
@@ -13063,11 +13063,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】認識自我與情緒表達：undefined",
+      "title": "【板書推演】認識自我與情緒表達：朋友沒回訊息，心想「他一定討厭我」，如何重新整理？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（事實是目前未收到回覆，「討厭我」是尚未證實的解釋。）",
           "mathExpression": "觀察 ➔ 記錄情境、想法、感受與行動",
           "explanation": "事實是目前未收到回覆，「討厭我」是尚未證實的解釋。"
         },
@@ -13093,7 +13093,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「觀察、拆解」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「觀察、拆解」之規則完成「朋友沒回訊息，心想「他一定討厭我」，如何重新整理？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -13101,7 +13101,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「認識自我與情緒表達、undefined、觀察、拆解、嘗試」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「認識自我與情緒表達、事實是目前未收到回覆，「討厭我」是尚未證實的解釋。、觀察、拆解、嘗試」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】有情緒不代表可以傷害別人；他人的一次評價也不是自我全部。",
       "defenseCheck": "【考場防呆】重新理解不代表否定感受；是讓行動根據更多資訊，而非只跟著第一個猜測。"
     }
@@ -13135,11 +13135,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】學習策略與時間規劃：undefined",
+      "title": "【板書推演】學習策略與時間規劃：讀完一課覺得都懂了，合上書卻說不出重點，下一步怎麼做？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先不看書寫出三個關鍵概念及一個例子，標記卡住的地方。）",
           "mathExpression": "觀察 ➔ 記錄情境、想法、感受與行動",
           "explanation": "先不看書寫出三個關鍵概念及一個例子，標記卡住的地方。"
         },
@@ -13165,7 +13165,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「觀察、拆解」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「觀察、拆解」之規則完成「讀完一課覺得都懂了，合上書卻說不出重點，下一步怎麼做？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -13173,7 +13173,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「學習策略與時間規劃、undefined、觀察、拆解、嘗試」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「學習策略與時間規劃、先不看書寫出三個關鍵概念及一個例子，標記卡住的地方。、觀察、拆解、嘗試」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】閱讀時覺得熟悉不等於能獨立使用；看詳解後答對也不能當成首次掌握。",
       "defenseCheck": "【考場防呆】錯題要分辨是概念、讀題或計算問題；只重抄答案不能確認原因已改善。"
     }
@@ -13207,11 +13207,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】生涯探索與決策：undefined",
+      "title": "【板書推演】生涯探索與決策：喜歡畫畫就一定只能選藝術職業嗎？如何擴充探索？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先拆解喜歡的是觀察、敘事、設計、手作還是與人分享，興趣可能連到多種工作。）",
           "mathExpression": "觀察 ➔ 記錄情境、想法、感受與行動",
           "explanation": "先拆解喜歡的是觀察、敘事、設計、手作還是與人分享，興趣可能連到多種工作。"
         },
@@ -13237,7 +13237,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「觀察、拆解」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「觀察、拆解」之規則完成「喜歡畫畫就一定只能選藝術職業嗎？如何擴充探索？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -13245,7 +13245,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「生涯探索與決策、undefined、觀察、拆解、嘗試」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「生涯探索與決策、先拆解喜歡的是觀察、敘事、設計、手作還是與人分享，興趣可能連到多種工作。、觀察、拆解、嘗試」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】成績或測驗不能完整決定一個人未來，也不要用性別限制選擇。",
       "defenseCheck": "【考場防呆】測驗結果是討論線索，不是身分標籤；也不要用單次成績封閉所有可能。"
     }
@@ -13279,11 +13279,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】語別選擇與聆聽觀察：undefined",
+      "title": "【板書推演】語別選擇與聆聽觀察：同一句問候在兩位長輩口中發音不同，應如何記錄而不直接判誰錯？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先詢問兩位使用的語言與腔調，確認是否存在區域或世代差異。）",
           "mathExpression": "語別與社群 ➔ 確認學習的語言、腔調或手語社群",
           "explanation": "先詢問兩位使用的語言與腔調，確認是否存在區域或世代差異。"
         },
@@ -13309,7 +13309,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「語別與社群、情境」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「語別與社群、情境」之規則完成「同一句問候在兩位長輩口中發音不同，應如何記錄而不直接判誰錯？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -13317,7 +13317,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「語別選擇與聆聽觀察、undefined、語別與社群、情境、驗證」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「語別選擇與聆聽觀察、先詢問兩位使用的語言與腔調，確認是否存在區域或世代差異。、語別與社群、情境、驗證」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】本單元是共通學習方法，不是閩南語、客語、各原住民族語或手語的完整替代教材。",
       "defenseCheck": "【考場防呆】差異可能是語言變體，不等於錯誤；本站方法練習不能替代各語別的完整發音教材。"
     }
@@ -13351,11 +13351,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】生活對話與在地文化：undefined",
+      "title": "【板書推演】生活對話與在地文化：想用學習中的本土語言向長輩詢問傳統食物做法，應如何準備？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（先確認合適稱謂與問候，向教師練習詢問及表達感謝的句型。）",
           "mathExpression": "語別與社群 ➔ 確認學習的語言、腔調或手語社群",
           "explanation": "先確認合適稱謂與問候，向教師練習詢問及表達感謝的句型。"
         },
@@ -13381,7 +13381,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「語別與社群、情境」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「語別與社群、情境」之規則完成「想用學習中的本土語言向長輩詢問傳統食物做法，應如何準備？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -13389,7 +13389,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「生活對話與在地文化、undefined、語別與社群、情境、驗證」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「生活對話與在地文化、先確認合適稱謂與問候，向教師練習詢問及表達感謝的句型。、語別與社群、情境、驗證」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】會背詞表不等於能自然互動；也不應未經同意公開他人聲音或影像。",
       "defenseCheck": "【考場防呆】不要把華語逐字翻成另一語言就當自然表達；社群回饋是學習的重要部分。"
     }
@@ -13423,11 +13423,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】臺灣手語與視覺溝通：undefined",
+      "title": "【板書推演】臺灣手語與視覺溝通：觀看手語示範時只模仿手形，忽略動作位置和表情，可能漏掉什麼？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（同手形在不同位置、方向或動作下可能表達不同意思。）",
           "mathExpression": "語別與社群 ➔ 確認學習的語言、腔調或手語社群",
           "explanation": "同手形在不同位置、方向或動作下可能表達不同意思。"
         },
@@ -13453,7 +13453,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「語別與社群、情境」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「語別與社群、情境」之規則完成「觀看手語示範時只模仿手形，忽略動作位置和表情，可能漏掉什麼？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -13461,7 +13461,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「臺灣手語與視覺溝通、undefined、語別與社群、情境、驗證」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「臺灣手語與視覺溝通、同手形在不同位置、方向或動作下可能表達不同意思。、語別與社群、情境、驗證」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】手語不是全球統一，也不是逐字把華語換成手勢。本站沒有以文字冒充動作示範。",
       "defenseCheck": "【考場防呆】手語不是世界共通的一套手勢，也不是把華語每個字依序比出來。"
     }
@@ -13495,11 +13495,11 @@ export const exegesisData = {
       }
     ],
     "blackboard": {
-      "title": "【板書推演】語言記錄與文化行動：undefined",
+      "title": "【板書推演】語言記錄與文化行動：要把長輩訪談剪成校展影片，公開前需要做哪些確認？",
       "heuristicSteps": [
         {
           "stepNumber": 1,
-          "lead": "審題定位與條件拆解（undefined）",
+          "lead": "審題定位與條件拆解（說明用途與播放範圍，取得適當同意，敏感片段另行確認。）",
           "mathExpression": "語別與社群 ➔ 確認學習的語言、腔調或手語社群",
           "explanation": "說明用途與播放範圍，取得適當同意，敏感片段另行確認。"
         },
@@ -13525,7 +13525,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「語別與社群、情境」之規則完成「undefined」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「語別與社群、情境」之規則完成「要把長輩訪談剪成校展影片，公開前需要做哪些確認？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -13533,7 +13533,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「語言記錄與文化行動、undefined、語別與社群、情境、驗證」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「語言記錄與文化行動、說明用途與播放範圍，取得適當同意，敏感片段另行確認。、語別與社群、情境、驗證」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】同音不等於同源；資料不足時要標示待查，不編造歷史。",
       "defenseCheck": "【考場防呆】文化尊重包含當事人的選擇權；作品完成不是凌駕同意的理由。"
     }

@@ -569,8 +569,8 @@ function lesson(id){const u=unitById[id];if(!u)return notFound();const s=subject
       fb.style.display='block';
       fb.className='quick-check-feedback '+(isCorr?'correct':'wrong');
       fb.innerHTML=isCorr?
-        '<strong>✓ 觀念命中！+10 XP</strong> 核心直覺已建立！接下來透過經典例題與思維鏈深化推導。':
-        '<strong>⚠️ 觀念稍微偏差：</strong> 請特別留意防呆陷阱，確認邊界條件後再推進計算。';
+        '<strong>✓ 本題答對。</strong> '+escape(u.questions[0].explanation):
+        '<strong>請核對推理：</strong> '+escape(u.questions[0].explanation);
       if(isCorr)playChimeTone('success');
     };
   });

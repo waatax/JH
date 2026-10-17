@@ -48,7 +48,7 @@ for (const u of units) {
 
   // Build 3 unit-specific blackboard steps grounded in workedCases[u.id]
   const stepLeads = [
-    `審題定位與條件拆解（${wc.focus}）`,
+    `審題定位與條件拆解（${wc.steps[0]}）`,
     `核心定理與關係式推演（${u.title}）`,
     `邊界檢核與情境合理性驗算`
   ];
@@ -72,7 +72,7 @@ for (const u of units) {
     },
     definitions,
     blackboard: {
-      title: `【板書推演】${u.title}：${wc.title}`,
+      title: `【板書推演】${u.title}：${wc.problem}`,
       heuristicSteps,
       coreTakeawayFormula: `【${u.title}黃金結論】${pts[0]}。防呆檢核：${wc.check}`
     },
@@ -83,7 +83,7 @@ for (const u of units) {
       },
       level2: {
         title: '標準建模與步驟推演',
-        criteria: `能熟練運用「${t.rows.slice(0, 2).map(r => r[0]).join('、')}」之規則完成「${wc.title}」三步推導，並獨立答對課堂驗收題。`
+        criteria: `能熟練運用「${t.rows.slice(0, 2).map(r => r[0]).join('、')}」之規則完成「${wc.problem}」三步推導，並獨立答對課堂驗收題。`
       },
       level3: {
         title: '會考素養遷移與陷阱防禦',
@@ -91,7 +91,7 @@ for (const u of units) {
       }
     },
     examEye: {
-      triggerClue: `當題幹出現「${u.title}、${wc.focus}、${t.rows.slice(0, 3).map(r => r[0]).join('、')}」等關鍵條件或圖表特徵時立即啟動本課模型。`,
+      triggerClue: `當題幹出現「${u.title}、${wc.steps[0]}、${t.rows.slice(0, 3).map(r => r[0]).join('、')}」等關鍵條件或圖表特徵時立即啟動本課模型。`,
       pitfallTrap: `【高頻盲點】${u.pitfall}`,
       defenseCheck: `【考場防呆】${wc.check}`
     }

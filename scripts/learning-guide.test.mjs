@@ -5,7 +5,8 @@ import {units, subjects} from '../dist/curriculum.js';
 import {renderLearningGuide, learningGuideFor} from '../dist/learning-guide.js';
 import {subjectStrategies} from '../dist/subject-strategies.js';
 import {lessonAlignment} from '../dist/lesson-alignment.js';
-import {renderUnitStageTables} from '../dist/pedagogy-visuals.js';
+import {renderUnitStageTables,renderThinkingFlowChart,renderConceptQuickCheck} from '../dist/pedagogy-visuals.js';
+import {exegesisData} from '../dist/exegesis-data.js';
 const escape = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 test('round 1: all lessons and subjects have usable learning objectives',()=>{
@@ -33,4 +34,14 @@ test('round 6: normal lessons and studio both integrate the guide',()=>{
 test('round 7: offline update includes both new modules and a new cache version',()=>{
  const sw=fs.readFileSync('dist/sw.js','utf8');assert(sw.includes('zhixing-cache-v10'));
  for(const file of ['learning-guide.js','subject-strategies.js','lesson-alignment.js']){assert(sw.includes(`'./${file}'`));assert(fs.existsSync(`dist/${file}`));}
+});
+test('all lesson boards and quick checks use real authored fields and answers',()=>{
+ for(const u of units){
+  assert(!JSON.stringify(exegesisData[u.id]).includes('undefined'),u.id);
+  assert(!renderThinkingFlowChart(u).includes('undefined'),u.id);
+  const html=renderConceptQuickCheck(u),q=u.questions[0];
+  assert(html.includes(escape(q.prompt)),u.id);
+  assert.equal((html.match(/data-qc-result="correct"/g)||[]).length,1,u.id);
+  for(const option of q.options)assert(html.includes(escape(option)),u.id);
+ }
 });
