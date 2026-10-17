@@ -3,6 +3,7 @@
 import { units, subjects, subjectById, unitById } from './curriculum.js';
 import { calculateCapGrade, getCapGradeSummaryCardHtml } from './cap-scoring.js';
 import { recordCapQuestionResult, toggleCapBookmark, isCapBookmarked, getCapWrongQuestions, renderCapNotebookSummaryHtml } from './cap-notebook.js';
+import { renderPastpapersTrendGuide } from './pedagogy-visuals.js';
 
 let cachedBank = null;
 let currentSession = null;
@@ -215,6 +216,8 @@ export async function capLandingPage(container) {
             `;
           }).join('')}
         </div>
+
+        ${renderPastpapersTrendGuide()}
 
         <!-- 108 課綱歷屆出題重點與趨勢熱力表 -->
         <section class="panel" style="margin-top:32px;">

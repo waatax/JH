@@ -10,6 +10,102 @@ export function renderLabs(main, speak) {
     <div class="eyebrow">PREDICT · EXPLORE · EXPLAIN</div>
     <h1>先猜一猜，再動手驗證。</h1>
     <p class="muted">改變變因，觀察即時回饋，將抽象公式轉化為直觀物理與幾何意象。</p>
+
+    <section class="panel" style="margin-bottom:24px;">
+      <div class="row" style="align-items:center;margin-bottom:10px;">
+        <span class="tag accent">科學探究方法論 · POE 學習環</span>
+        <span class="subtle">108 課綱自然與數學探究實作核心架構</span>
+      </div>
+      <h2>POE 科學探究三部曲與實驗變因控制指南</h2>
+      <div class="diagram-box" style="margin:12px 0 18px;">
+        <div class="diagram-header">
+          <span class="diagram-icon">🔬</span>
+          <div class="diagram-title-group">
+            <strong>POE 探究學習環（Predict 預測 ➔ Observe 觀察 ➔ Explain 解釋）與變因控制架構圖</strong>
+            <span class="subtle">每次只改變一個「操縱變因」，固定所有「控制變因」，量測並記錄「應變變因」</span>
+          </div>
+        </div>
+        <div class="diagram-svg-wrap">
+          <svg viewBox="0 0 640 120" style="width:100%;max-width:640px;display:block;margin:0 auto;" role="img" aria-label="POE科學探究與變因控制架構圖">
+            <rect x="6" y="6" width="628" height="108" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
+            <g transform="translate(18, 16)">
+              <rect width="180" height="88" rx="8" fill="#e8f3ee" stroke="#2f5e4e" stroke-width="1.6"/>
+              <text x="90" y="24" font-size="11.5" font-weight="800" fill="#1e3c30" text-anchor="middle">① Predict 預測假設</text>
+              <text x="90" y="46" font-size="9" font-weight="700" fill="#223832" text-anchor="middle">設定單一「操縱變因」</text>
+              <text x="90" y="66" font-size="8.2" fill="#5a6d64" text-anchor="middle">先依定理推論可能走勢與極值</text>
+            </g>
+            <path d="M 202 60 L 226 60" stroke="#2f5e4e" stroke-width="2.2"/>
+            <polygon points="228,60 221,56 221,64" fill="#2f5e4e"/>
+            <g transform="translate(230, 16)">
+              <rect width="180" height="88" rx="8" fill="#e6f0f9" stroke="#2b5b84" stroke-width="1.6"/>
+              <text x="90" y="24" font-size="11.5" font-weight="800" fill="#2b5b84" text-anchor="middle">② Observe 動態觀察</text>
+              <text x="90" y="46" font-size="9" font-weight="700" fill="#223832" text-anchor="middle">固定「控制變因」拉動滑桿</text>
+              <text x="90" y="66" font-size="8.2" fill="#5a6d64" text-anchor="middle">觀察圖形、光路與數值即時變化</text>
+            </g>
+            <path d="M 414 60 L 438 60" stroke="#2b5b84" stroke-width="2.2"/>
+            <polygon points="440,60 433,56 433,64" fill="#2b5b84"/>
+            <g transform="translate(442, 16)">
+              <rect width="180" height="88" rx="8" fill="#fdf6e2" stroke="#b07d2b" stroke-width="1.6"/>
+              <text x="90" y="24" font-size="11.5" font-weight="800" fill="#b07d2b" text-anchor="middle">③ Explain 理論印證</text>
+              <text x="90" y="46" font-size="9" font-weight="700" fill="#223832" text-anchor="middle">分析「應變變因」因果關係</text>
+              <text x="90" y="66" font-size="8.2" fill="#5a6d64" text-anchor="middle">比對預測差異，修正心智模型</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="teaching-table">
+          <caption>互動實驗室 · 七大模擬模組之操縱變因、控制變因與應變變因對照表</caption>
+          <thead>
+            <tr>
+              <th scope="col">實驗模擬主題</th>
+              <th scope="col">操縱變因（滑桿自變數）</th>
+              <th scope="col">應變變因（觀測依變數）</th>
+              <th scope="col">核心定量定律與會考關鍵</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">二次函數圖形</th>
+              <td>係數 a（開口）、頂點座標 (h, k)</td>
+              <td>拋物線開口方向、寬窄與極值位置</td>
+              <td>y＝a(x−h)²＋k；|a| 越大開口越窄，x＝h 為對稱軸</td>
+            </tr>
+            <tr>
+              <th scope="row">歐姆定律與電路</th>
+              <td>電壓 V（伏特）、電阻 R（歐姆）</td>
+              <td>電路電流 I（安培）與電功率 P</td>
+              <td>I＝V/R；定電壓下電阻加倍則電流減半</td>
+            </tr>
+            <tr>
+              <th scope="row">槓桿力矩平衡</th>
+              <td>左右兩側施力 F 與力臂長 d</td>
+              <td>逆時針力矩 vs 順時針力矩、平衡狀態</td>
+              <td>τ＝F×d⊥；合力矩為 0 時達成轉動平衡</td>
+            </tr>
+            <tr>
+              <th scope="row">凸透鏡幾何光路</th>
+              <td>物距 p（相對於 f＝20cm 與 2f）</td>
+              <td>像距 q、正倒立、放大縮小、實虛像</td>
+              <td>物在 2f 外成縮小倒立實像；物在 f 內成放大正立虛像</td>
+            </tr>
+            <tr>
+              <th scope="row">酸鹼滴定與 pH</th>
+              <td>滴入 0.1M NaOH 鹼液體積（mL）</td>
+              <td>混合溶液 pH 值與指示劑顏色變化</td>
+              <td>n(H⁺)＝n(OH⁻) 達當量點（20mL 時 pH＝7 突躍）</td>
+            </tr>
+            <tr>
+              <th scope="row">浮力與阿基米德</th>
+              <td>物體密度 D_物、液體密度 D_液</td>
+              <td>排開液體體積 V_排、浮力 B 與視重</td>
+              <td>B＝V_排×D_液；浮體 B＝W，沉體 B＝V_物×D_液</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
     <div class="unit-grid">
       <!-- 1. Quadratic Function -->
       <section class="panel">
@@ -21,7 +117,7 @@ export function renderLabs(main, speak) {
         ${range('quad-k', 'k：垂直平移 (上加下減)', -4, 4, 0, 1)}
         <div id="quad-plot"></div>
         <div class="lab-output" id="quad-output" aria-live="polite"></div>
-        <a class="source-link" href="#/lesson/math-15">回到二次函數幾何課程 →</a>
+        <a class="source-link" href="#/lesson/math-18">回到二次函數幾何課程 →</a>
       </section>
 
       <!-- 2. Electric Circuit -->

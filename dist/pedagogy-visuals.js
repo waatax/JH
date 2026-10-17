@@ -528,11 +528,52 @@ export function renderSubjectGuide(s) {
         <span class="tag accent">會考趨勢 · 高分攻略</span>
         <span class="subtle">依大考中心評量目標與近七年題型大數據分析</span>
       </div>
-      <h2>${esc(s.name)}：會考命題趨勢、高頻題型與破題策略</h2>
-      <p class="muted">${esc(s.name)}在 108 課綱下強調生活情境化與素養導向題組。以下歸納核心命題向度與應考策略：</p>
+      <h2>${esc(s.name)}：會考命題趨勢、三年螺旋架構圖與高分破題策略</h2>
+      <p class="muted">${esc(s.name)}（${esc(s.domain)}領域）在 108 課綱下強調生活情境化與跨單元素養題組。以下為本學科三年螺旋進階架構圖與核心應考策略：</p>
+
+      <div class="diagram-box" style="margin:16px 0 20px;">
+        <div class="diagram-header">
+          <span class="diagram-icon">🗺️</span>
+          <div class="diagram-title-group">
+            <strong>${esc(s.name)} · 三年螺旋進階與素養解題架構圖</strong>
+            <span class="subtle">七年級基礎概念錨定 ➔ 八年級原理推演與圖表判讀 ➔ 九年級跨單元整合與會考實戰</span>
+          </div>
+        </div>
+        <div class="diagram-svg-wrap">
+          <svg viewBox="0 0 640 130" style="width:100%;max-width:640px;display:block;margin:0 auto;" role="img" aria-label="${esc(s.name)} 三年螺旋學習架構圖">
+            <rect x="6" y="8" width="628" height="114" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
+            <g transform="translate(18, 20)">
+              <rect width="175" height="90" rx="8" fill="#e8f3ee" stroke="#2f5e4e" stroke-width="1.6"/>
+              <text x="87" y="24" font-size="11.5" font-weight="800" fill="#1e3c30" text-anchor="middle">七年級 · 基礎概念建立</text>
+              <line x1="14" y1="32" x2="161" y2="32" stroke="#2f5e4e" stroke-width="0.8" stroke-dasharray="2,2"/>
+              <text x="87" y="52" font-size="9.5" font-weight="700" fill="#223832" text-anchor="middle">${esc(meta.trends[0]?.[0] || '核心定義與基本規則')}</text>
+              <text x="87" y="72" font-size="8.5" fill="#5a6d64" text-anchor="middle">建立精準術語、符號與直覺模型</text>
+            </g>
+            <path d="M 198 65 L 222 65" stroke="#2f5e4e" stroke-width="2.2"/>
+            <polygon points="224,65 217,61 217,69" fill="#2f5e4e"/>
+            <g transform="translate(228, 20)">
+              <rect width="184" height="90" rx="8" fill="#e6f0f9" stroke="#2b5b84" stroke-width="1.6"/>
+              <text x="92" y="24" font-size="11.5" font-weight="800" fill="#2b5b84" text-anchor="middle">八年級 · 結構推演深化</text>
+              <line x1="14" y1="32" x2="170" y2="32" stroke="#2b5b84" stroke-width="0.8" stroke-dasharray="2,2"/>
+              <text x="92" y="52" font-size="9.5" font-weight="700" fill="#223832" text-anchor="middle">${esc(meta.trends[1]?.[0] || '圖表判讀與多步推論')}</text>
+              <text x="92" y="72" font-size="8.5" fill="#5a6d64" text-anchor="middle">掌握變因控制、比較表與定理證明</text>
+            </g>
+            <path d="M 417 65 L 441 65" stroke="#2b5b84" stroke-width="2.2"/>
+            <polygon points="443,65 436,61 436,69" fill="#2b5b84"/>
+            <g transform="translate(447, 20)">
+              <rect width="175" height="90" rx="8" fill="#fdf6e2" stroke="#b07d2b" stroke-width="1.6"/>
+              <text x="87" y="24" font-size="11.5" font-weight="800" fill="#b07d2b" text-anchor="middle">九年級 · 素養跨域統合</text>
+              <line x1="14" y1="32" x2="161" y2="32" stroke="#b07d2b" stroke-width="0.8" stroke-dasharray="2,2"/>
+              <text x="87" y="52" font-size="9.5" font-weight="700" fill="#223832" text-anchor="middle">${esc(meta.trends[2]?.[0] || '長文題組與會考破局')}</text>
+              <text x="87" y="72" font-size="8.5" fill="#5a6d64" text-anchor="middle">破解易錯陷阱、遷移真實生活情境</text>
+            </g>
+          </svg>
+        </div>
+      </div>
       
       <div class="table-wrap">
         <table class="teaching-table">
+          <caption>${esc(s.name)} · 核心命題向度與高分破題對照表</caption>
           <thead>
             <tr>
               <th scope="col" style="width:18%;">核心主題範疇</th>
@@ -1141,8 +1182,45 @@ export function renderGsatStrategy() {
         <span class="tag accent">升學導引 · 學測全真</span>
         <span class="subtle">大學多元入學 · 108 課綱考招新制解析</span>
       </div>
-      <h2>大考中心學測選考制度、數A/數B策略與 18 學群採計導引</h2>
-      <p class="muted">學測（學科能力測驗）為高中升大學核心評量。掌握考科特色與目標學群門檻，才能精準擬定高三衝刺策略。</p>
+      <h2>大考中心學測選考制度、15 級分五標分布圖與 18 學群採計導引</h2>
+      <p class="muted">學測（學科能力測驗）為高中升大學核心評量。掌握考科特色、15 級分制換算與五標百分位數門檻，才能精準擬定升學策略。</p>
+
+      <div class="diagram-box" style="margin:16px 0 22px;">
+        <div class="diagram-header">
+          <span class="diagram-icon">📊</span>
+          <div class="diagram-title-group">
+            <strong>大考中心學測 15 級分制換算與「五標」百分位數分布圖</strong>
+            <span class="subtle">級距＝前 1% 考生平均原得總分 ÷ 15；五標依全體到考考生第 88、75、50、25、12 百分位數訂定</span>
+          </div>
+        </div>
+        <div class="diagram-svg-wrap">
+          <svg viewBox="0 0 640 165" style="width:100%;max-width:640px;display:block;margin:0 auto;" role="img" aria-label="學測15級分與五標百分位數分布圖">
+            <rect x="6" y="6" width="628" height="153" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
+            <!-- Bell Curve / Percentile Bar -->
+            <path d="M 45 118 Q 140 112 220 68 Q 320 14 420 68 Q 500 112 595 118 L 595 122 L 45 122 Z" fill="#e8f3ee" stroke="#2f5e4e" stroke-width="2"/>
+            <!-- 5 Markers -->
+            <line x1="125" y1="95" x2="125" y2="125" stroke="#b84735" stroke-width="2" stroke-dasharray="3,2"/>
+            <text x="125" y="88" font-size="9.5" font-weight="800" fill="#b84735" text-anchor="middle">底標 (P12)</text>
+            <text x="125" y="138" font-size="8.5" fill="#687b74" text-anchor="middle">後 12% 警戒線</text>
+
+            <line x1="215" y1="68" x2="215" y2="125" stroke="#3b789e" stroke-width="2" stroke-dasharray="3,2"/>
+            <text x="215" y="60" font-size="9.5" font-weight="800" fill="#3b789e" text-anchor="middle">後標 (P25)</text>
+            <text x="215" y="138" font-size="8.5" fill="#687b74" text-anchor="middle">前 75% 門檻</text>
+
+            <line x1="320" y1="38" x2="320" y2="125" stroke="#c4821a" stroke-width="2.2"/>
+            <text x="320" y="30" font-size="10" font-weight="800" fill="#c4821a" text-anchor="middle">均標 (P50 · 中位數)</text>
+            <text x="320" y="138" font-size="8.5" font-weight="700" fill="#c4821a" text-anchor="middle">前 50% 公私立核心線</text>
+
+            <line x1="425" y1="68" x2="425" y2="125" stroke="#45825b" stroke-width="2" stroke-dasharray="3,2"/>
+            <text x="425" y="60" font-size="9.5" font-weight="800" fill="#45825b" text-anchor="middle">前標 (P75)</text>
+            <text x="425" y="138" font-size="8.5" fill="#45825b" text-anchor="middle">前 25% 國立中字輩</text>
+
+            <line x1="515" y1="95" x2="515" y2="125" stroke="#1e3c30" stroke-width="2.2"/>
+            <text x="515" y="88" font-size="10" font-weight="800" fill="#1e3c30" text-anchor="middle">頂標 (P88)</text>
+            <text x="515" y="138" font-size="8.5" font-weight="800" fill="#1e3c30" text-anchor="middle">前 12% 頂大醫牙門檻</text>
+          </svg>
+        </div>
+      </div>
       
       <!-- Math A vs B Comparison Table -->
       <div class="table-wrap">
@@ -1227,21 +1305,23 @@ export function renderGsatStrategy() {
 // 9. LESSON STAGE 01 & 04 ENHANCEMENT TABLES
 // ============================================================================
 export function renderUnitStageTables(u) {
+  const wc = workedCases[u.id];
   const takeaways = [
-    ['核心破題概念', u.concept.split('。')[0] + '。', '審題時迅速聯想心智模型與核心定義'],
-    ['關鍵解題規準', u.example.split('。')[0] + '。', '依循已知條件、定理依據逐步推進計算'],
-    ['防呆驗算邊界', u.pitfall.split('。')[0] + '。', '留意極端值、負數變號或幾何圖形假象']
+    ['核心破題概念', u.concept.split('。')[0] + '。', `審題時迅速聯想「${u.title}」心智模型與定義`],
+    ['實戰審題焦點', wc ? `${wc.title}（${wc.focus}）` : u.title, wc ? wc.steps[0] : '先圈出題幹已知條件與所求目標'],
+    ['關鍵解題規準', u.example.split('。')[0] + '。', '依循已知條件、定理依據逐步推進推導'],
+    ['防呆驗算邊界', u.pitfall.split('。')[0] + '。', wc ? wc.check : '留意極端值、負數變號或圖形假象']
   ];
 
   return `
     <div class="table-wrap unit-takeaway-table-wrap" style="margin-top:14px;">
       <table class="teaching-table">
-        <caption>本單元核心考點與防呆速查對照</caption>
+        <caption>${esc(u.title)} · 核心考點與防呆速查對照矩陣</caption>
         <thead>
           <tr>
             <th scope="col" style="width:20%;">維度項目</th>
-            <th scope="col" style="width:50%;">本課核心內容要訣</th>
-            <th scope="col" style="width:30%;">考場防呆心法</th>
+            <th scope="col" style="width:45%;">本課核心內容要訣</th>
+            <th scope="col" style="width:35%;">考場防呆與推演心法</th>
           </tr>
         </thead>
         <tbody>
@@ -2013,31 +2093,51 @@ export function renderCapReadinessGuide() {
 // 17. LESSON QUICK CHECK: Interactive 10-Second Concept Flash Check
 // ============================================================================
 export function renderConceptQuickCheck(u) {
-  const questionPrompt = `【10秒觀念速檢】關於「${u.title}」，下列何者觀念完全正確？`;
+  const questionPrompt = `【10秒觀念速檢】關於「${u.title}」，下列敘述何者最符合核心概念與判準？`;
   const correctOpt = u.concept.split('。')[0] + '。';
-  const wrongOpt1 = u.pitfall.split('。')[0] + '。';
-  const wrongOpt2 = '只要死背公式代入即可，不需要理解物理意義與生活情境。';
+  // Convert pitfall warning into a plausible misconception statement without giveaway text
+  const rawPitfall = u.pitfall.split('。')[0]
+    .replace(/^切忌將/, '可直接將')
+    .replace(/^不可將/, '可直接將')
+    .replace(/^不要把/, '可以直接把')
+    .replace(/^不能只憑/, '只要憑藉')
+    .replace(/^不能把/, '可以直接把')
+    .replace(/^勿把/, '可以直接把')
+    .replace(/^注意/, '');
+  const wrongOpt1 = rawPitfall.endsWith('。') ? rawPitfall : rawPitfall + '。';
+  const q0 = u.questions?.[0];
+  const wrongOpt2 = q0
+    ? `判斷「${u.title}」時，不必考慮題目給定的前提條件與單位限制，直接套用單一公式即可。`
+    : '只要死背名詞定義代入即可，不需要檢驗適用條件與反例邊界。';
+
+  const unitNum = parseInt((u.id.split('-')[1] || '1'), 10) || 1;
+  const baseItems = [
+    { result: 'correct', text: correctOpt },
+    { result: 'wrong', text: wrongOpt1 },
+    { result: 'wrong', text: wrongOpt2 }
+  ];
+  const shift = unitNum % 3;
+  const rotated = [
+    baseItems[(0 + shift) % 3],
+    baseItems[(1 + shift) % 3],
+    baseItems[(2 + shift) % 3]
+  ];
+  const bullets = ['A', 'B', 'C'];
 
   return `
     <div class="concept-quick-check-card" id="quick-check-wrap-${u.id}">
       <div class="quick-check-header">
         <span class="quick-check-badge">⚡ 10秒觀念秒答挑戰</span>
-        <span class="subtle">動手選選看，立即檢測思維錨定</span>
+        <span class="subtle">動手選選看，立即檢測「${esc(u.title)}」思維錨定</span>
       </div>
       <p class="quick-check-prompt">${esc(questionPrompt)}</p>
       <div class="quick-check-options">
-        <button type="button" class="quick-check-btn" data-qc-result="correct" data-unit="${u.id}">
-          <span class="qc-bullet">A</span>
-          <span>${esc(correctOpt)}</span>
-        </button>
-        <button type="button" class="quick-check-btn" data-qc-result="wrong" data-unit="${u.id}">
-          <span class="qc-bullet">B</span>
-          <span>${esc(wrongOpt1)}（常被誤認為正確）</span>
-        </button>
-        <button type="button" class="quick-check-btn" data-qc-result="wrong" data-unit="${u.id}">
-          <span class="qc-bullet">C</span>
-          <span>${esc(wrongOpt2)}</span>
-        </button>
+        ${rotated.map((item, idx) => `
+          <button type="button" class="quick-check-btn" data-qc-result="${item.result}" data-unit="${u.id}">
+            <span class="qc-bullet">${bullets[idx]}</span>
+            <span>${esc(item.text)}</span>
+          </button>
+        `).join('')}
       </div>
       <div class="quick-check-feedback" id="qc-feedback-${u.id}" style="display:none;"></div>
     </div>
@@ -2130,6 +2230,7 @@ export function renderExamRadarIntel(u) {
 // ============================================================================
 export function renderThinkingFlowChart(u) {
   if (!u) return '';
+  const wc = workedCases[u.id];
   let flow = {
     n1: '抓題眼與已知', s1: '圈關鍵字·標限制',
     n2: '調用定理建模', s2: '對接本課心智法',
@@ -2144,7 +2245,7 @@ export function renderThinkingFlowChart(u) {
       n2: '列式推演·幾何建模', s2: '公式定理·圖形輔助',
       n3: '代數化簡·邏輯求解', s3: '步步有據·精確計算',
       n4: '代回驗算·正負界線', s4: '檢核合理性·不漏解',
-      advice: '數學破題心法：審題圈出已知量與單位（第 1 步），聯想本課公式或畫圖（第 2 步），嚴謹移項計算（第 3 步），務必代回原式確認正負與合理性（第 4 步）。'
+      advice: `【${u.title}】審題先鎖定「${wc ? wc.focus : u.title}」（第 1 步），再依定義列式或畫圖（第 2 步），嚴謹推演（第 3 步），最後務必執行防呆檢核：${wc ? wc.check : u.pitfall}`
     };
   } else if (['physics', 'chemistry', 'biology', 'earth'].includes(u.subject)) {
     flow = {
@@ -2152,7 +2253,7 @@ export function renderThinkingFlowChart(u) {
       n2: '對接自然原理定律', s2: '微觀粒子·能量守恆',
       n3: '因果推論·圖表判讀', s3: '由因導果·分析趨勢',
       n4: '單位換算·除直覺誤', s4: '確認極端值·防呆驗算',
-      advice: '自然破題心法：先分清操縱與控制變因（第 1 步），連結物理化學定律或生物系統機制（第 2 步），沿著因果鏈推導（第 3 步），檢查單位與生活常理邊界（第 4 步）。'
+      advice: `【${u.title}】先分清操縱與控制變因並鎖定「${wc ? wc.focus : u.title}」（第 1 步），連結科學定律（第 2 步），沿因果鏈推導（第 3 步），最後檢核：${wc ? wc.check : u.pitfall}`
     };
   } else if (['chinese', 'english', 'local'].includes(u.subject)) {
     flow = {
@@ -2160,7 +2261,7 @@ export function renderThinkingFlowChart(u) {
       n2: '對照文法·修辭架構', s2: '時態主謂·文章脈絡',
       n3: '前後文推論·提煉意涵', s3: '從文意線索破題',
       n4: '代回語境·除斷章義', s4: '檢核通順·確認題旨',
-      advice: '語文破題心法：先抓題眼關鍵詞（第 1 步），回文定位上下文句意（第 2 步），理清作者論述架構與邏輯（第 3 步），代回原句確認語意通暢無曲解（第 4 步）。'
+      advice: `【${u.title}】先抓題眼關鍵詞「${wc ? wc.focus : u.title}」（第 1 步），回文定位上下文句意（第 2 步），理清論述架構（第 3 步），最後檢核：${wc ? wc.check : u.pitfall}`
     };
   } else if (['history', 'geography', 'civics'].includes(u.subject)) {
     flow = {
@@ -2168,8 +2269,10 @@ export function renderThinkingFlowChart(u) {
       n2: '比對史地脈絡·法理', s2: '因果網絡·空間要素',
       n3: '多角度權衡與推演', s3: '綜合線索推得正解',
       n4: '防時代錯置·除偏概全', s4: '扣緊題幹核心問項',
-      advice: '社會破題心法：先在地圖或題幹抓出時空坐標（第 1 步），比對因果脈絡與法政原則（第 2 步），綜合推論排除干擾選項（第 3 步），避開時代錯置與過度推論（第 4 步）。'
+      advice: `【${u.title}】先在題幹抓出時空與制度線索「${wc ? wc.focus : u.title}」（第 1 步），比對因果脈絡與法政原則（第 2 步），綜合推論（第 3 步），最後檢核：${wc ? wc.check : u.pitfall}`
     };
+  } else {
+    flow.advice = `【${u.title}】先鎖定任務條件「${wc ? wc.focus : u.title}」（第 1 步），連結核心原則（第 2 步），逐步實作分析（第 3 步），最後檢核：${wc ? wc.check : u.pitfall}`;
   }
 
   return `
@@ -2177,7 +2280,7 @@ export function renderThinkingFlowChart(u) {
       <div class="flowchart-header">
         <span class="flowchart-icon">🗺️</span>
         <div class="flowchart-title-group">
-          <strong>解題思維決策路徑流程圖 · 4 階破局架構</strong>
+          <strong>${esc(u.title)} · 解題思維決策路徑流程圖（${esc(wc ? wc.focus : '4 階破局架構')}）</strong>
           <span class="subtle">依循邏輯因果神經迴路 · 將直覺昇華為穩健推導</span>
         </div>
       </div>
@@ -2255,12 +2358,12 @@ export function renderMisconceptionDefenseTable(u) {
   const pitfallRaw = u.pitfall || '';
   const checkRaw = wc ? wc.check : '';
   const conceptLead = (u.concept || '').split('。')[0];
+  const q0 = u.questions?.[0];
 
-  // 1. 直覺迷思 (Trap)
+  // Row 1: 直覺迷思 (Trap)
   let trap = pitfallRaw.split('；')[0] || pitfallRaw.split('。')[0] || '直覺斷言，忽略題目隱含條件。';
   if (!trap.endsWith('。') && !trap.endsWith('！')) trap += '。';
 
-  // 2. 深度剖析 (Diagnosis & Deep Correction)
   let diagnosis = '';
   if (pitfallRaw.includes('；')) {
     diagnosis = pitfallRaw.split('；').slice(1).join('；');
@@ -2271,14 +2374,20 @@ export function renderMisconceptionDefenseTable(u) {
   }
   if (!diagnosis.endsWith('。')) diagnosis += '。';
 
-  // 3. 防呆破局心法 (Defense Action)
   let defense = checkRaw || '審題時圈出已知與關鍵字，計算後檢查邊界條件與單位合理性。';
   if (!defense.endsWith('。')) defense += '。';
+
+  // Row 2: 實戰審題與選項誘答防禦
+  const trap2 = q0
+    ? `看到題目「${q0.prompt.slice(0, 26)}…」時，未核對前提條件便憑直覺秒選表面相似的誘答選項。`
+    : `將「${u.title}」的公式或規則直接套用於不滿足前提假設的情境。`;
+  const diag2 = q0 ? q0.explanation : (wc ? wc.teaching : u.concept);
+  const def2 = q0 ? `【審題提示】${q0.hint} 完成遷移檢核：${u.task}` : `完成遷移檢核：${u.task}`;
 
   return `
     <div class="table-wrap misconception-defense-wrap" style="margin-top:16px;">
       <table class="teaching-table misconception-defense-table">
-        <caption>考場易錯盲點 vs 深度思維校正防禦對照表</caption>
+        <caption>${esc(u.title)} · 考場易錯盲點 vs 深度思維校正防禦對照表</caption>
         <thead>
           <tr>
             <th scope="col" style="width:28%;background:#faece8;color:#b84735;">🚨 常見直覺迷思（易踩陷阱）</th>
@@ -2304,6 +2413,26 @@ export function renderMisconceptionDefenseTable(u) {
               <div style="display:flex;align-items:flex-start;gap:6px;">
                 <span>✓</span>
                 <span>${esc(defense)}</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="color:#b84735;font-weight:600;vertical-align:top;">
+              <div style="display:flex;align-items:flex-start;gap:6px;">
+                <span>❌</span>
+                <span>${esc(trap2)}</span>
+              </div>
+            </td>
+            <td style="color:#223832;line-height:1.75;vertical-align:top;">
+              <div style="display:flex;align-items:flex-start;gap:6px;">
+                <span>🔬</span>
+                <span>${esc(diag2)}</span>
+              </div>
+            </td>
+            <td style="color:#2d5c48;font-weight:600;line-height:1.75;vertical-align:top;">
+              <div style="display:flex;align-items:flex-start;gap:6px;">
+                <span>✓</span>
+                <span>${esc(def2)}</span>
               </div>
             </td>
           </tr>
