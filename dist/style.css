@@ -5113,3 +5113,14 @@ summary {
     min-height: 320px;
   }
 }
+/* Knowledge guide: content determines height, including on narrow screens. */
+.learning-guide{margin-block:2rem;padding:clamp(1rem,3vw,2rem);border:1px solid #a8bdb4;border-radius:16px;background:var(--surface,#f6f9f7);line-height:1.8;overflow-wrap:anywhere}
+.guide-map{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-block:1rem}
+.guide-map>div{border:1px solid #a8bdb4;border-radius:12px;padding:1rem;min-width:0}
+.guide-map>div+div{border-top:4px solid #55816f}
+.guide-map p{margin-bottom:0}.learning-guide details{padding:1rem 0;border-bottom:1px solid #a8bdb4}
+.learning-guide summary{cursor:pointer;font-weight:700}.learning-guide summary:focus-visible{outline:3px solid #477c68;outline-offset:4px}
+.learning-guide dt{font-weight:700;margin-top:1rem}.learning-guide dd{margin-inline-start:1rem}
+.guide-cycle li{padding-block:.35rem}
+@media(max-width:700px){.guide-map{grid-template-columns:1fr}.learning-guide{padding:1rem}.learning-guide th,.learning-guide td{min-width:9rem}}
+@media print{.guide-map{grid-template-columns:1fr}.learning-guide{break-before:page;background:white;color:black}.learning-guide details{break-inside:avoid}}
