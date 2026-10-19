@@ -36,11 +36,18 @@ test('all 188 units have curriculum-aligned quantitative and comparative chart d
   const c=chartData[u.id];
   assert(c, 'Missing chart data for '+u.id);
   assert(c.caption&&c.caption.length>=4, u.id+' invalid caption');
+  if(c.kind==='process'){
+   assert(c.steps.length>=3,u.id+' requires reasoning steps');
+   assert(c.steps.every(step=>typeof step==='string'&&step.length>0));
+   assert(!c.rows,u.id+' qualitative concepts must not have artificial quantities');
+   continue;
+  }
+  assert.equal(c.kind,'quantity');
   assert(c.unit&&c.unit.length>=1, u.id+' invalid unit');
   assert(Array.isArray(c.rows)&&c.rows.length>=2, u.id+' must have at least 2 rows');
   for(const [label,val] of c.rows){
    assert(typeof label==='string'&&label.length>0, u.id+' row label invalid');
-   assert(typeof val==='number', u.id+' row val must be number');
+   assert(Number.isFinite(val)&&val>=0, u.id+' bars require finite nonnegative values');
   }
   assert(c.note&&c.note.length>=10, u.id+' invalid note');
  }
@@ -54,6 +61,6 @@ test('contrast charts are labelled, responsive and included in the offline cache
   assert(html.includes('<figcaption>'));
   assert(html.includes('<summary>核對答案'));
   assert(html.includes('scope="row"'));
-  assert(html.includes('class="knowledge-bar-chart"'), 'Must include knowledge-bar-chart for '+u.id);
+  assert(html.includes(chartData[u.id].kind==='quantity'?'class="knowledge-bar-chart"':'class="knowledge-process-chart"'), 'Must include appropriate chart for '+u.id);
  }
 });

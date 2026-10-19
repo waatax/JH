@@ -19,6 +19,7 @@ export function renderOfficialAlignment(u){
 export const chartData = deepeningCharts;
 function renderQuantitativeChart(id){
  const c=chartData[id];if(!c)return '';
+ if(c.kind==='process')return `<figure class="knowledge-process-chart"><figcaption>${esc(c.caption)}</figcaption><ol class="knowledge-process-steps">${c.steps.map(step=>`<li>${esc(step)}</li>`).join('')}</ol><p><strong>核對：</strong>${esc(c.note)}</p></figure>`;
  const max=Math.max(...c.rows.map(r=>r[1]));
  return `<figure class="knowledge-bar-chart"><figcaption>${esc(c.caption)}</figcaption><p class="subtle">量尺：${esc(c.unit)}</p><ul>${c.rows.map(([label,value])=>`<li><span>${esc(label)}</span><span class="knowledge-bar-track" aria-hidden="true"><span style="width:${value/max*100}%"></span></span><strong>${value}</strong></li>`).join('')}</ul><p>${esc(c.note)}</p></figure>`;
 }

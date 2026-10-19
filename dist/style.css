@@ -5126,6 +5126,7 @@ summary {
 @media print{.guide-map{grid-template-columns:1fr}.learning-guide{break-before:page;background:white;color:black}.learning-guide details{break-inside:avoid}}
 .lesson-deepening{margin-block:2rem;padding:clamp(1rem,3vw,2rem);border:1px solid #a8bdb4;border-radius:16px;line-height:1.8;overflow-wrap:anywhere}
 .lesson-deepening figure{margin:1.5rem 0}.lesson-deepening figcaption{font-weight:750;margin-bottom:.75rem}
+.knowledge-process-steps{padding-inline-start:1.8rem}.knowledge-process-steps li{padding:.7rem;border-inline-start:3px solid #477c68;margin-block:.6rem;overflow-wrap:anywhere}.knowledge-process-steps li::marker{font-weight:700}
 .contrast-panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
 .contrast-panels>section{padding:1rem;border:1px solid #a8bdb4;border-top:4px solid #477c68;border-radius:10px;min-width:0}
 .contrast-panels>section:nth-child(2){border-top-color:#9b6728}.contrast-panels h4{margin:0 0 .5rem}

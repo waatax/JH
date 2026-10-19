@@ -32,7 +32,7 @@ test('round 6: normal lessons and studio both integrate the guide',()=>{
  for(const u of units){const html=renderLearningGuide(u);assert(html.includes('不是官方逐條指標認證'));assert(Array.isArray(lessonAlignment[u.id]));assert(html.includes(lessonAlignment[u.id].length?'本課對應待審':'尚無已建檔的逐章對照'));}
 });
 test('round 7: offline update includes both new modules and a new cache version',()=>{
- const sw=fs.readFileSync('dist/sw.js','utf8');assert(sw.includes('zhixing-cache-v11'));
+ const sw=fs.readFileSync('dist/sw.js','utf8');assert(sw.includes('zhixing-cache-v12'));
  for(const file of ['learning-guide.js','subject-strategies.js','lesson-alignment.js']){assert(sw.includes(`'./${file}'`));assert(fs.existsSync(`dist/${file}`));}
 });
 test('all lesson boards and quick checks use real authored fields and answers',()=>{
