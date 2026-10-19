@@ -16,12 +16,16 @@ export function renderOfficialAlignment(u){
  const a=officialAlignment[u.id],s=officialSources[a.sourceId];
  return `<section class="official-curriculum" aria-label="本課課綱依據"><h4>📖 課綱定位與學習證據</h4><p>下列是本課相關的學習內容與表現；代碼已核對官方文件。頁碼是 PDF 檔案頁次，可能與紙本頁碼不同。</p><ul class="curriculum-codes">${a.refs.map(r=>`<li><a href="${esc(s.url)}#page=${r.page}" target="_blank" rel="noopener">${r.kind} ${esc(r.code)} <small>PDF 第 ${r.page} 頁</small></a></li>`).join('')}</ul><p class="subtle">來源：${esc(s.label)}。本站整理的教學對應不代表官方認證；單一課程也未必涵蓋該指標全部要求。</p>${a.scope?`<p class="scope-note"><strong>學習範圍：</strong>${esc(a.scope)}</p>`:''}<p><strong>本課可留下的證據：</strong>${esc(u.task)}</p></section>`;
 }
+export function renderLessonBoundary(u){
+ const scope=officialAlignment[u.id]?.scope;
+ return scope?`<aside class="scope-note" aria-label="核心與延伸學習範圍"><strong>🧭 先確認學習範圍</strong><p>${esc(scope)}</p></aside>`:'';
+}
 export const chartData = deepeningCharts;
 function renderQuantitativeChart(id){
  const c=chartData[id];if(!c)return '';
  if(c.kind==='process')return `<figure class="knowledge-process-chart"><figcaption><span class="chart-badge">🔄 概念推演流程圖</span> ${esc(c.caption)}</figcaption><ol class="knowledge-process-steps">${c.steps.map((step,idx)=>`<li data-step="${idx+1}"><span class="step-num-pill">${idx+1}</span><div class="step-content">${esc(step)}</div></li>`).join('')}</ol><div class="chart-note-box"><span class="note-icon" aria-hidden="true">💡</span><div class="note-content"><strong>研讀核對：</strong>${esc(c.note)}</div></div></figure>`;
  const max=Math.max(...c.rows.map(r=>r[1]));
- return `<figure class="knowledge-bar-chart"><figcaption><span class="chart-badge">📊 學科量化指標圖</span> ${esc(c.caption)}</figcaption><div class="chart-metric-row"><span class="chart-metric-pill">📏 物理／計量單位：<strong>${esc(c.unit)}</strong></span></div><ul>${c.rows.map(([label,value],idx)=>`<li><span class="bar-label"><span class="bar-idx">${idx+1}</span>${esc(label)}</span><span class="knowledge-bar-track" aria-hidden="true"><span style="width:${max>0?Math.min(100,Math.max(4,value/max*100)):0}%"></span></span><strong class="bar-value">${value} <small>${esc(c.unit)}</small></strong></li>`).join('')}</ul><div class="chart-note-box"><span class="note-icon" aria-hidden="true">🔍</span><div class="note-content"><strong>限制與詮釋：</strong>${esc(c.note)}</div></div></figure>`;
+ return `<figure class="knowledge-bar-chart"><figcaption><span class="chart-badge">📊 教學數量比較圖</span> ${esc(c.caption)}</figcaption><div class="chart-metric-row"><span class="chart-metric-pill">📏 比較單位：<strong>${esc(c.unit)}</strong></span></div><ul>${c.rows.map(([label,value],idx)=>`<li><span class="bar-label"><span class="bar-idx">${idx+1}</span>${esc(label)}</span><span class="knowledge-bar-track" aria-hidden="true"><span style="width:${max>0?Math.min(100,Math.max(0,value/max*100)):0}%"></span></span><strong class="bar-value">${value} <small>${esc(c.unit)}</small></strong></li>`).join('')}</ul><div class="chart-note-box"><span class="note-icon" aria-hidden="true">🔍</span><div class="note-content"><strong>限制與詮釋：</strong>${esc(c.note)}</div></div></figure>`;
 }
 export function renderLessonDeepening(u){
  const d=lessonDeepening[u.id];

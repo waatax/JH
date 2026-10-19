@@ -5195,6 +5195,10 @@ summary {
 .point-cards { list-style: none; padding: 0; display: grid; gap: 1rem; }
 .point-cards li { padding: 1rem 1.25rem; border-radius: 12px; border: 1px solid var(--border); background: var(--surface-alt); display: flex; flex-direction: column; gap: 0.6rem; transition: box-shadow 0.2s; }
 .point-cards li:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+.point-cards li[hidden]{display:none}
+.point-practice summary:focus-visible,.point-practice select:focus-visible,.point-filter input:focus-visible,.subject-challenge summary:focus-visible{outline:3px solid var(--accent,#477c68);outline-offset:4px}
+.point-status-row label{max-width:100%;min-width:0}.point-status-row select{max-width:100%}
+.point-cards li{min-width:0;overflow-wrap:anywhere}
 .point-card-header { display: flex; align-items: center; gap: 0.5rem; }
 .point-index-pill { display: inline-grid; place-items: center; padding: 0.15rem 0.5rem; border-radius: 6px; background: #55816f; color: #fff; font-size: 0.78rem; font-weight: 700; }
 .point-card-header h4 { margin: 0; font-size: 1.05rem; }

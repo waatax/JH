@@ -3,18 +3,22 @@ import {unitById} from './curriculum.js';
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const reviewStorageKey='zhixing-point-review-v1';
 const states=['new','review','explained'];
-let fallback={};
+const pendingByStorage=new WeakMap();
+const unavailableStorage={};
+const storageIdentity=storage=>storage&&(typeof storage==='object'||typeof storage==='function')?storage:unavailableStorage;
+const pendingFor=storage=>pendingByStorage.get(storageIdentity(storage))||{};
 const fingerprint=s=>{let h=2166136261;for(const char of s){h^=char.codePointAt(0);h=Math.imul(h,16777619);}return (h>>>0).toString(36);};
 export function practicePointsFor(u){
  return teachingFor(u).rows.filter(row=>!['本課核心判準','本課易錯防線'].includes(row[0])).map(([label,rule,example])=>({id:u.id+'-'+fingerprint([label,rule,example].join('\n')),label,rule,example}));
 }
 export function readPointReview(storage){
- try{const raw=JSON.parse(storage.getItem(reviewStorageKey)||'{}');if(!raw||Array.isArray(raw)||typeof raw!=='object')return {...fallback};return {...fallback,...Object.fromEntries(Object.entries(raw).filter(([key,value])=>/^[a-z]+-\d+-[a-z0-9]+$/.test(key)&&states.includes(value)))};}catch{return {...fallback};}
+ const pending=pendingFor(storage);
+ try{const raw=JSON.parse(storage.getItem(reviewStorageKey)||'{}');if(!raw||Array.isArray(raw)||typeof raw!=='object')return {...pending};return {...Object.fromEntries(Object.entries(raw).filter(([key,value])=>/^[a-z]+-\d+-[a-z0-9]+$/.test(key)&&states.includes(value))),...pending};}catch{return {...pending};}
 }
 export function savePointReview(storage,pointId,status){
  if(!states.includes(status)||!/^[a-z]+-\d+-[a-z0-9]+$/.test(pointId))throw new Error('Invalid knowledge review record');
- const data={...readPointReview(storage),[pointId]:status};fallback=data;
- try{storage.setItem(reviewStorageKey,JSON.stringify(data));return true;}catch{return false;}
+ const data={...readPointReview(storage),[pointId]:status};
+ try{storage.setItem(reviewStorageKey,JSON.stringify(data));pendingByStorage.delete(storageIdentity(storage));return true;}catch{pendingByStorage.set(storageIdentity(storage),{...pendingFor(storage),[pointId]:status});return false;}
 }
 export function pointReviewSummary(points,data){const explained=points.filter(p=>data[p.id]==='explained').length;const review=points.filter(p=>data[p.id]==='review').length;return `共 ${points.length} 點｜能說明（自評）${explained} 點｜需複習 ${review} 點｜尚未自評 ${points.length-explained-review} 點`;}
 function storageForBrowser(){try{return globalThis.localStorage;}catch{return null;}}
