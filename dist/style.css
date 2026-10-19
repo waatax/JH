@@ -351,7 +351,8 @@ nav b {
   transition: margin-left 0.25s ease;
 }
 .topbar {
-  height: 72px;
+  min-height: 72px;
+  height: auto;
   border-bottom: 1px solid var(--border);
   background: var(--header-bg);
   backdrop-filter: blur(12px);
@@ -359,7 +360,7 @@ nav b {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 36px;
+  padding: 10px 36px;
   font-size: .84rem;
   gap: 16px;
   position: sticky;
@@ -387,7 +388,12 @@ nav b {
   display: flex;
   align-items: center;
   gap: 10px;
+  min-width: 0;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
+.top-actions .search-trigger{white-space:nowrap}
 .top-actions label {
   color: var(--text-muted);
   font-size: .82rem;
