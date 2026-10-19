@@ -1,5 +1,5 @@
 // Service Worker for Zhixing Junior Academy (知行學院)
-const CACHE_NAME = 'zhixing-cache-v12';
+const CACHE_NAME = 'zhixing-cache-v13';
 
 const STATIC_ASSETS = [
   './',
@@ -40,7 +40,7 @@ const STATIC_ASSETS = [
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME).then(cache => {
-      return cache.addAll(STATIC_ASSETS);
+      return cache.addAll(STATIC_ASSETS.map(path => new Request(path, {cache:'reload'})));
     }).then(() => self.skipWaiting())
   );
 });
@@ -49,7 +49,7 @@ self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys().then(keys => {
       return Promise.all(
-        keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))
+        keys.filter(k => k.startsWith('zhixing-cache-') && k !== CACHE_NAME).map(k => caches.delete(k))
       );
     }).then(() => self.clients.claim())
   );
@@ -63,6 +63,25 @@ self.addEventListener('fetch', event => {
 
   // Do not intercept non-http/https (e.g. data:, blob:)
   if (!url.protocol.startsWith('http')) return;
+
+  // Revalidate lesson modules on navigation/reload, with an offline fallback.
+  // Otherwise a new worker can copy stale HTTP-cache responses into its new cache.
+  if (url.origin === self.location.origin && (event.request.mode === 'navigate' || /\.(?:js|css)$/.test(url.pathname))) {
+    event.respondWith((async () => {
+      const cache = await caches.open(CACHE_NAME);
+      try {
+        const response = await fetch(event.request, {cache:'no-cache'});
+        if (response.ok) { await cache.put(event.request, response.clone()); return response; }
+        const fallback = await cache.match(event.request);
+        return fallback || response;
+      } catch (error) {
+        const fallback = await cache.match(event.request) || (event.request.mode === 'navigate' ? await cache.match('./index.html') : null);
+        if (fallback) return fallback;
+        throw error;
+      }
+    })());
+    return;
+  }
 
   // Stale-while-revalidate or Cache-first strategy
   event.respondWith(

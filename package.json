@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/serve.mjs",
-    "test": "node --test scripts/deepening.test.mjs scripts/learning-guide.test.mjs scripts/engine.test.mjs scripts/gsat-grading.test.mjs scripts/gsat-session.test.mjs scripts/quick-quiz.test.mjs scripts/pedagogy-ux.test.mjs scripts/cap-interactive.test.mjs scripts/cap-scoring.test.mjs scripts/cap-notebook.test.mjs && node scripts/test_all_pages.mjs && node scripts/audit-system-health.mjs",
+    "test": "node --test scripts/offline-update.test.mjs scripts/deepening.test.mjs scripts/learning-guide.test.mjs scripts/engine.test.mjs scripts/gsat-grading.test.mjs scripts/gsat-session.test.mjs scripts/quick-quiz.test.mjs scripts/pedagogy-ux.test.mjs scripts/cap-interactive.test.mjs scripts/cap-scoring.test.mjs scripts/cap-notebook.test.mjs && node scripts/test_all_pages.mjs && node scripts/audit-system-health.mjs",
     "test:pages": "node scripts/test_all_pages.mjs",
     "audit": "node scripts/audit-system-health.mjs",
     "validate": "node scripts/validate.mjs",
