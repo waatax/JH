@@ -23,7 +23,7 @@ export function supplementFor(u) {
       `【適用邊界與易錯防線】${u.pitfall} ${wc ? wc.check : ''}`
     ],
     rows: [
-      ['審題焦點', wc ? wc.focus : u.title, wc && wc.steps[0] ? wc.steps[0] : u.example],
+      ['審題焦點', wc ? wc.problem : u.title, wc && wc.steps[0] ? wc.steps[0] : u.example],
       ['核心推演', wc && wc.steps[1] ? wc.steps[1] : u.concept, wc && wc.steps[2] ? wc.steps[2] : '逐步核對已知條件與未知目標'],
       ['邊界檢核', wc ? wc.check : u.pitfall, `完成遷移：${u.task}`]
     ],

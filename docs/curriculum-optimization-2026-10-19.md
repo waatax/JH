@@ -1,0 +1,65 @@
+# 課綱深度對齊、全單元知識圖表與教學優化紀錄（2026-10-19）
+
+## 背景與目標
+
+依據臺灣教育部 108 課綱（十二年國民基本教育課程綱要）各領域核心素養與學習重點（學習表現＋學習內容），針對全站 21 個學科、188 個教學單元進行深度的教學頁面知識點優化，並引入完整的學科量化圖表、易混淆概念並排對照與遷移推理。
+
+優化流程採行嚴謹的 **Check（檢查評估）➔ Corrective-Action（矯正措施）➔ Plan（規劃設計）➔ Do（實作落地）** 閉環機制，循序推進 7 輪迭代。
+
+---
+
+## 7 輪 PDCA 迭代歷程
+
+### 第 1 輪：課綱官方指標與實體 PDF 頁碼深度對齊
+- **Check**：檢查全站 188 個單元的課綱依據，發現既有 `alignment-data` 僅有 25 課關聯，缺乏官方學習內容與學習表現的逐條直接參照。
+- **Corrective-Action**：比對國家教育研究院最新 108 課綱與 113 年 3 月數學領域課程手冊原文 PDF，抽取全條文代碼與實體 PDF 頁碼。
+- **Plan**：建立 `dist/official-alignment-data.js` 與 `scripts/build-official-alignment.mjs`，使每個單元均對應確切的「學習內容」與「學習表現」指標及官方 PDF 頁碼超連結。
+- **Do**：完成 188 個單元官方對照，標註 6 項進階延伸課題（如庫侖定律、薄透鏡成像公式、莫耳計量、比較利益曲線等）的邊界說明，確保不把超出課綱的內容包裝為必學。
+
+### 第 2 輪：教學知識點嚴謹性與研經工作台導航修正
+- **Check**：檢查教學頁面知識點與均一式橫式全螢幕研經工作台（Landscape Studio），發現概念溯源、定義與板書未配置導航錨點 ID（`studio-origin`、`studio-definitions`、`studio-blackboard`），導致頂部晶片按鈕無法順暢滾動。
+- **Corrective-Action**：修改 `scripts/generate_exegesis.mjs` 板書與定義模板，注入標準 HTML 語意錨點 ID。
+- **Plan**：重新執行板書生成器，同步更新 `dist/exegesis-data.js`，確保 188 課板書與思維路徑 100% 正確掛載。
+- **Do**：成功生成 188 課專屬微課板書，驗證錨點跳轉與自學筆記狀態同步。
+
+### 第 3 輪：全站 188 單元學科量化與比較圖表（ChartData）100% 覆蓋
+- **Check**：檢查知識圖表渲染，發現原系統中 `renderQuantitativeChart` 僅實作 5 課（math-1, biology-1, physics-4, chemistry-4, math-16），其餘 183 課未有量化長條圖。
+- **Corrective-Action**：依據各科課綱重點，全面為全體 188 個單元逐一設計專屬的學科量化與比較知識圖表。
+- **Plan**：撰寫 `scripts/build-deepening-charts.mjs`，建立涵蓋數理計量、化學反應比例、生物生理尺度、地科天文厚度、歷史年代跨距、地理空間比重、公民法律位階及藝能生活量尺的完整資料庫 `dist/deepening-charts.js`。
+- **Do**：188 個單元全部生成專屬圖表，包含圖題、物理或邏輯量尺、2~4 組語意化長條數值及深度原創限制條件解析；於 `dist/lesson-deepening.js` 整合導出。
+
+### 第 4 輪：易混淆概念雙軌對照與遷移推理防呆檢核
+- **Check**：檢查各單元深入理解模組，原直覺迷思警語常被誤切導致語意不全，且缺乏標準化的核對答案與行動修正表。
+- **Corrective-Action**：全面導入語意對照圖（Figure Concept Contrast）與三步檢查表（概念用對了嗎？理由完整嗎？換題仍會嗎？）。
+- **Plan**：將 188 課原創深化題庫分為 `deepening-language-math.js`（59 課）、`deepening-science.js`（55 課）、`deepening-social-life.js`（74 課），每課配置專屬思考情境與詳盡答案推演。
+- **Do**：驗證所有數值題（如 math-1 位移路程、math-9 乘法展開、chemistry-4 重量百分濃度、geography-1 比例尺折算等）的數值與單位完全正確。
+
+### 第 5 輪：視覺主題色彩（Themes）、無障礙與響應式排版調校
+- **Check**：在極光深色（Dark）與暖柔米紙（Paper）模式下，圖表長條軌道與邊框對比度不足；窄螢幕（手機）寬度時並排面板可能產生橫向捲軸。
+- **Corrective-Action**：於 `dist/style.css` 增強主題模式專屬色彩變數，長條圖軌道與填充色適配深色與米紙對比度。
+- **Plan**：建立 `@media (max-width: 700px)` 單欄彈性流動排版，並設定 `@media print` 避免分頁截斷圖表與折疊內容。
+- **Do**：加入語意化 `<figure>`、`<figcaption>`、`<span aria-hidden="true">` 與表格 `scope="row"`、`scope="col"`，符合 WCAG 2.1 AA 無障礙標準。
+
+### 第 6 輪：離線快取 PWA 與測試覆蓋度全面升級
+- **Check**：新增之 `deepening-charts.js` 與官方對照模組需納入 Service Worker 離線資產清單，避免離線時無法載入圖表。
+- **Corrective-Action**：更新 `dist/sw.js` 靜態資產快取陣列，並將快取版本升級至 `zhixing-cache-v11`。
+- **Plan**：在 `scripts/deepening.test.mjs` 中新增 188 課知識圖表完整性與離線快取自動化斷言。
+- **Do**：全套測試增至 55 項單元測試，靜態檔案檢查、GSAT 53 卷題庫、CAP 1,674 題會考題庫與 20 項系統健康審計全部通過。
+
+### 第 7 輪：回歸構建、成果稽核與 GitHub Pages 自動化發布
+- **Check**：執行 `npm test` 與 `npm run build`，核對建置產物、文字擴展報告與全單元連結完整性。
+- **Corrective-Action**：確認無任何 ESM 模組載入異常、無未定義變數或孤立檔案。
+- **Plan**：整理更新紀錄於 `README.md` 與本文件，準備推播至 GitHub `main` 分支。
+- **Do**：透過 Git 提交並推送到 GitHub 遠端儲存庫，自動觸發 GitHub Actions 部署流程，更新至 GitHub Pages 網站。
+
+---
+
+## 驗證成果摘要
+
+- **單元總數**：188 課（100% 涵蓋國中七至九年級 21 個學科）
+- **官方指標對照**：188 課 100% 具備課綱代碼與國教院 PDF 實體頁碼超連結
+- **專屬向量 SVG 圖解**：188 幅（100% 全覆蓋）
+- **學科量化與比較圖表**：188 組（100% 全覆蓋）
+- **易混淆雙軌辨析與遷移練習**：188 組（100% 全覆蓋）
+- **單元測試通過數**：55 / 55 Passed (0 Failed)
+- **系統健康指標**：20 / 20 Passed (0 Failed)

@@ -4,6 +4,7 @@ import {knowledgePoints, teachingFor} from './teaching.js';
 import {workedCases} from './worked-cases.js';
 import {subjectById} from './curriculum.js';
 import {sources} from './sources.js';
+import {renderLessonDeepening} from './lesson-deepening.js';
 const sourceFor = id => sources.find(s => s.id === ({'社會':'social','自然科學':'science','藝術':'arts','綜合活動':'integrative','科技':'technology','健康與體育':'health'}[subjectById[id].domain] || (['chinese','english','math'].includes(id)?id:'index')));
 
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -25,7 +26,7 @@ export function learningGuideFor(u) {
 
 export function renderLearningGuide(u) {
  const g=learningGuideFor(u);
- return `<section class="learning-guide" aria-label="知識掌握與修正指南"><h3>🧭 本課學習地圖：${esc(u.title)}</h3>
+ return `${renderLessonDeepening(u)}<section class="learning-guide" aria-label="知識掌握與修正指南"><h3>🧭 本課學習地圖：${esc(u.title)}</h3>
  <p class="subtle">依領域課綱方向整理的本站學習目標；不是官方逐條指標認證。</p>
  <div class="guide-map" role="list" aria-label="概念到應用的關係圖">
  ${[['🎯','理解概念',g.points.join('；')],['🔎','辨識條件',u.pitfall],['✍️','應用驗證',u.task]].map(([icon,title,text])=>`<div role="listitem"><strong><span aria-hidden="true">${icon}</span> ${title}</strong><p>${esc(text)}</p></div>`).join('')}</div>

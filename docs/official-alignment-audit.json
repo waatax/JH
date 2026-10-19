@@ -1,0 +1,3786 @@
+{
+  "date": "2026-10-18",
+  "unitCount": 188,
+  "mappedUnits": 188,
+  "meaning": "本站單元與官方指標的主題及學習證據對應；不等於完整覆蓋領綱所有指標，也不等於能力認證。",
+  "units": {
+    "math-1": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "N-7-3",
+          "kind": "學習內容",
+          "page": 363
+        },
+        {
+          "code": "N-7-5",
+          "kind": "學習內容",
+          "page": 261
+        },
+        {
+          "code": "n-IV-2",
+          "kind": "學習表現",
+          "page": 408
+        }
+      ],
+      "scope": ""
+    },
+    "math-2": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "N-7-1",
+          "kind": "學習內容",
+          "page": 358
+        },
+        {
+          "code": "N-7-2",
+          "kind": "學習內容",
+          "page": 358
+        },
+        {
+          "code": "n-IV-1",
+          "kind": "學習表現",
+          "page": 405
+        }
+      ],
+      "scope": ""
+    },
+    "math-3": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "N-7-3",
+          "kind": "學習內容",
+          "page": 363
+        },
+        {
+          "code": "N-7-8",
+          "kind": "學習內容",
+          "page": 305
+        },
+        {
+          "code": "n-IV-3",
+          "kind": "學習表現",
+          "page": 411
+        }
+      ],
+      "scope": ""
+    },
+    "math-4": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "A-7-2",
+          "kind": "學習內容",
+          "page": 383
+        },
+        {
+          "code": "A-7-3",
+          "kind": "學習內容",
+          "page": 423
+        },
+        {
+          "code": "a-IV-2",
+          "kind": "學習表現",
+          "page": 423
+        }
+      ],
+      "scope": ""
+    },
+    "math-5": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "A-7-4",
+          "kind": "學習內容",
+          "page": 383
+        },
+        {
+          "code": "A-7-5",
+          "kind": "學習內容",
+          "page": 423
+        },
+        {
+          "code": "a-IV-4",
+          "kind": "學習表現",
+          "page": 426
+        }
+      ],
+      "scope": ""
+    },
+    "math-6": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "N-7-9",
+          "kind": "學習內容",
+          "page": 374
+        },
+        {
+          "code": "n-IV-4",
+          "kind": "學習表現",
+          "page": 415
+        }
+      ],
+      "scope": ""
+    },
+    "math-7": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "A-7-7",
+          "kind": "學習內容",
+          "page": 423
+        },
+        {
+          "code": "A-7-8",
+          "kind": "學習內容",
+          "page": 425
+        },
+        {
+          "code": "a-IV-3",
+          "kind": "學習表現",
+          "page": 431
+        }
+      ],
+      "scope": ""
+    },
+    "math-8": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "A-7-6",
+          "kind": "學習內容",
+          "page": 421
+        },
+        {
+          "code": "D-7-1",
+          "kind": "學習內容",
+          "page": 303
+        },
+        {
+          "code": "d-IV-1",
+          "kind": "學習表現",
+          "page": 434
+        }
+      ],
+      "scope": ""
+    },
+    "math-9": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "A-8-1",
+          "kind": "學習內容",
+          "page": 422
+        },
+        {
+          "code": "A-8-3",
+          "kind": "學習內容",
+          "page": 466
+        },
+        {
+          "code": "a-IV-5",
+          "kind": "學習表現",
+          "page": 463
+        }
+      ],
+      "scope": ""
+    },
+    "math-10": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "N-8-1",
+          "kind": "學習內容",
+          "page": 407
+        },
+        {
+          "code": "S-8-6",
+          "kind": "學習內容",
+          "page": 35
+        },
+        {
+          "code": "s-IV-7",
+          "kind": "學習表現",
+          "page": 35
+        }
+      ],
+      "scope": ""
+    },
+    "math-11": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "A-8-4",
+          "kind": "學習內容",
+          "page": 466
+        },
+        {
+          "code": "A-8-5",
+          "kind": "學習內容",
+          "page": 463
+        },
+        {
+          "code": "a-IV-5",
+          "kind": "學習表現",
+          "page": 463
+        }
+      ],
+      "scope": ""
+    },
+    "math-12": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "A-8-6",
+          "kind": "學習內容",
+          "page": 466
+        },
+        {
+          "code": "A-8-7",
+          "kind": "學習內容",
+          "page": 425
+        },
+        {
+          "code": "a-IV-6",
+          "kind": "學習表現",
+          "page": 470
+        }
+      ],
+      "scope": ""
+    },
+    "math-13": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "N-8-4",
+          "kind": "學習內容",
+          "page": 440
+        },
+        {
+          "code": "F-8-1",
+          "kind": "學習內容",
+          "page": 423
+        },
+        {
+          "code": "f-IV-1",
+          "kind": "學習表現",
+          "page": 476
+        }
+      ],
+      "scope": ""
+    },
+    "math-14": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "S-8-4",
+          "kind": "學習內容",
+          "page": 34
+        },
+        {
+          "code": "S-8-5",
+          "kind": "學習內容",
+          "page": 449
+        },
+        {
+          "code": "s-IV-9",
+          "kind": "學習表現",
+          "page": 450
+        }
+      ],
+      "scope": ""
+    },
+    "math-15": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "S-8-3",
+          "kind": "學習內容",
+          "page": 419
+        },
+        {
+          "code": "S-8-9",
+          "kind": "學習內容",
+          "page": 448
+        },
+        {
+          "code": "S-8-12",
+          "kind": "學習內容",
+          "page": 420
+        },
+        {
+          "code": "s-IV-3",
+          "kind": "學習表現",
+          "page": 419
+        }
+      ],
+      "scope": ""
+    },
+    "math-16": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "S-9-1",
+          "kind": "學習內容",
+          "page": 387
+        },
+        {
+          "code": "S-9-2",
+          "kind": "學習內容",
+          "page": 445
+        },
+        {
+          "code": "s-IV-10",
+          "kind": "學習表現",
+          "page": 485
+        }
+      ],
+      "scope": ""
+    },
+    "math-17": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "S-9-6",
+          "kind": "學習內容",
+          "page": 391
+        },
+        {
+          "code": "S-9-7",
+          "kind": "學習內容",
+          "page": 391
+        },
+        {
+          "code": "s-IV-14",
+          "kind": "學習表現",
+          "page": 489
+        }
+      ],
+      "scope": ""
+    },
+    "math-18": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "F-9-1",
+          "kind": "學習內容",
+          "page": 472
+        },
+        {
+          "code": "F-9-2",
+          "kind": "學習內容",
+          "page": 462
+        },
+        {
+          "code": "f-IV-2",
+          "kind": "學習表現",
+          "page": 500
+        }
+      ],
+      "scope": ""
+    },
+    "math-19": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "D-9-2",
+          "kind": "學習內容",
+          "page": 401
+        },
+        {
+          "code": "S-9-13",
+          "kind": "學習內容",
+          "page": 350
+        },
+        {
+          "code": "d-IV-2",
+          "kind": "學習表現",
+          "page": 504
+        }
+      ],
+      "scope": ""
+    },
+    "chinese-1": {
+      "sourceId": "chinese",
+      "refs": [
+        {
+          "code": "Ab-IV-1",
+          "kind": "學習內容",
+          "page": 16
+        },
+        {
+          "code": "Ab-IV-5",
+          "kind": "學習內容",
+          "page": 16
+        },
+        {
+          "code": "5-IV-2",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "chinese-2": {
+      "sourceId": "chinese",
+      "refs": [
+        {
+          "code": "Ba-IV-1",
+          "kind": "學習內容",
+          "page": 18
+        },
+        {
+          "code": "Ad-IV-1",
+          "kind": "學習內容",
+          "page": 17
+        },
+        {
+          "code": "5-IV-2",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "chinese-3": {
+      "sourceId": "chinese",
+      "refs": [
+        {
+          "code": "Ab-IV-6",
+          "kind": "學習內容",
+          "page": 16
+        },
+        {
+          "code": "Ab-IV-7",
+          "kind": "學習內容",
+          "page": 16
+        },
+        {
+          "code": "5-IV-4",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "chinese-4": {
+      "sourceId": "chinese",
+      "refs": [
+        {
+          "code": "Bc-IV-2",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "Bc-IV-3",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "5-IV-4",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "chinese-5": {
+      "sourceId": "chinese",
+      "refs": [
+        {
+          "code": "Bd-IV-1",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "Bd-IV-2",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "5-IV-4",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "chinese-6": {
+      "sourceId": "chinese",
+      "refs": [
+        {
+          "code": "Ad-IV-2",
+          "kind": "學習內容",
+          "page": 17
+        },
+        {
+          "code": "Ad-IV-3",
+          "kind": "學習內容",
+          "page": 17
+        },
+        {
+          "code": "6-IV-2",
+          "kind": "學習表現",
+          "page": 14
+        }
+      ],
+      "scope": ""
+    },
+    "english-1": {
+      "sourceId": "english",
+      "refs": [
+        {
+          "code": "Ad-IV-1",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "3-IV-6",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "english-2": {
+      "sourceId": "english",
+      "refs": [
+        {
+          "code": "Ad-IV-1",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "3-IV-6",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "english-3": {
+      "sourceId": "english",
+      "refs": [
+        {
+          "code": "Ad-IV-1",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "3-IV-6",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "english-4": {
+      "sourceId": "english",
+      "refs": [
+        {
+          "code": "Ad-IV-1",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "3-IV-6",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "english-5": {
+      "sourceId": "english",
+      "refs": [
+        {
+          "code": "Ad-IV-1",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "3-IV-6",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "english-6": {
+      "sourceId": "english",
+      "refs": [
+        {
+          "code": "B-IV-2",
+          "kind": "學習內容",
+          "page": 20
+        },
+        {
+          "code": "D-IV-1",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "3-IV-8",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "math-20": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "S-9-8",
+          "kind": "學習內容",
+          "page": 493
+        },
+        {
+          "code": "S-9-9",
+          "kind": "學習內容",
+          "page": 494
+        },
+        {
+          "code": "S-9-10",
+          "kind": "學習內容",
+          "page": 493
+        },
+        {
+          "code": "s-IV-11",
+          "kind": "學習表現",
+          "page": 493
+        }
+      ],
+      "scope": ""
+    },
+    "chinese-7": {
+      "sourceId": "chinese",
+      "refs": [
+        {
+          "code": "Ab-IV-3",
+          "kind": "學習內容",
+          "page": 16
+        },
+        {
+          "code": "4-IV-2",
+          "kind": "學習表現",
+          "page": 11
+        }
+      ],
+      "scope": ""
+    },
+    "chinese-8": {
+      "sourceId": "chinese",
+      "refs": [
+        {
+          "code": "Ac-IV-1",
+          "kind": "學習內容",
+          "page": 17
+        },
+        {
+          "code": "Ac-IV-2",
+          "kind": "學習內容",
+          "page": 17
+        },
+        {
+          "code": "6-IV-1",
+          "kind": "學習表現",
+          "page": 14
+        }
+      ],
+      "scope": ""
+    },
+    "chinese-9": {
+      "sourceId": "chinese",
+      "refs": [
+        {
+          "code": "Ad-IV-3",
+          "kind": "學習內容",
+          "page": 17
+        },
+        {
+          "code": "5-IV-2",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "chinese-10": {
+      "sourceId": "chinese",
+      "refs": [
+        {
+          "code": "Ad-IV-3",
+          "kind": "學習內容",
+          "page": 17
+        },
+        {
+          "code": "Ca-IV-1",
+          "kind": "學習內容",
+          "page": 20
+        },
+        {
+          "code": "5-IV-2",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "chinese-11": {
+      "sourceId": "chinese",
+      "refs": [
+        {
+          "code": "Ad-IV-4",
+          "kind": "學習內容",
+          "page": 17
+        },
+        {
+          "code": "5-IV-2",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "chinese-12": {
+      "sourceId": "chinese",
+      "refs": [
+        {
+          "code": "Be-IV-2",
+          "kind": "學習內容",
+          "page": 20
+        },
+        {
+          "code": "6-IV-2",
+          "kind": "學習表現",
+          "page": 14
+        }
+      ],
+      "scope": ""
+    },
+    "english-7": {
+      "sourceId": "english",
+      "refs": [
+        {
+          "code": "Ad-IV-1",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "3-IV-6",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "english-8": {
+      "sourceId": "english",
+      "refs": [
+        {
+          "code": "Ad-IV-1",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "3-IV-6",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "english-9": {
+      "sourceId": "english",
+      "refs": [
+        {
+          "code": "Ad-IV-1",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "3-IV-6",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "english-10": {
+      "sourceId": "english",
+      "refs": [
+        {
+          "code": "Ad-IV-1",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "3-IV-6",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "english-11": {
+      "sourceId": "english",
+      "refs": [
+        {
+          "code": "Ad-IV-1",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "3-IV-6",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "english-12": {
+      "sourceId": "english",
+      "refs": [
+        {
+          "code": "Ad-IV-1",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "3-IV-6",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "math-21": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "N-9-1",
+          "kind": "學習內容",
+          "page": 482
+        },
+        {
+          "code": "n-IV-4",
+          "kind": "學習表現",
+          "page": 415
+        }
+      ],
+      "scope": ""
+    },
+    "math-22": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "N-8-5",
+          "kind": "學習內容",
+          "page": 442
+        },
+        {
+          "code": "n-IV-8",
+          "kind": "學習表現",
+          "page": 443
+        }
+      ],
+      "scope": ""
+    },
+    "math-23": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "S-8-2",
+          "kind": "學習內容",
+          "page": 445
+        },
+        {
+          "code": "s-IV-2",
+          "kind": "學習表現",
+          "page": 445
+        }
+      ],
+      "scope": ""
+    },
+    "math-24": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "S-8-10",
+          "kind": "學習內容",
+          "page": 448
+        },
+        {
+          "code": "S-8-11",
+          "kind": "學習內容",
+          "page": 448
+        },
+        {
+          "code": "s-IV-8",
+          "kind": "學習表現",
+          "page": 454
+        }
+      ],
+      "scope": ""
+    },
+    "math-25": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "S-9-6",
+          "kind": "學習內容",
+          "page": 391
+        },
+        {
+          "code": "S-9-7",
+          "kind": "學習內容",
+          "page": 391
+        },
+        {
+          "code": "s-IV-14",
+          "kind": "學習表現",
+          "page": 489
+        }
+      ],
+      "scope": "先掌握圓周角與切線性質；圓內外角的組合公式列為延伸推導，不以背誦公式取代幾何理由。"
+    },
+    "math-26": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "S-7-2",
+          "kind": "學習內容",
+          "page": 418
+        },
+        {
+          "code": "S-9-13",
+          "kind": "學習內容",
+          "page": 350
+        },
+        {
+          "code": "s-IV-16",
+          "kind": "學習表現",
+          "page": 418
+        }
+      ],
+      "scope": ""
+    },
+    "math-27": {
+      "sourceId": "math",
+      "refs": [
+        {
+          "code": "D-9-1",
+          "kind": "學習內容",
+          "page": 478
+        },
+        {
+          "code": "D-8-1",
+          "kind": "學習內容",
+          "page": 434
+        },
+        {
+          "code": "d-IV-1",
+          "kind": "學習表現",
+          "page": 434
+        }
+      ],
+      "scope": ""
+    },
+    "chinese-13": {
+      "sourceId": "chinese",
+      "refs": [
+        {
+          "code": "Ad-IV-4",
+          "kind": "學習內容",
+          "page": 17
+        },
+        {
+          "code": "Cc-IV-1",
+          "kind": "學習內容",
+          "page": 21
+        },
+        {
+          "code": "5-IV-2",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "chinese-14": {
+      "sourceId": "chinese",
+      "refs": [
+        {
+          "code": "Bb-IV-1",
+          "kind": "學習內容",
+          "page": 18
+        },
+        {
+          "code": "Bb-IV-5",
+          "kind": "學習內容",
+          "page": 18
+        },
+        {
+          "code": "6-IV-2",
+          "kind": "學習表現",
+          "page": 14
+        }
+      ],
+      "scope": ""
+    },
+    "chinese-15": {
+      "sourceId": "chinese",
+      "refs": [
+        {
+          "code": "Bb-IV-3",
+          "kind": "學習內容",
+          "page": 18
+        },
+        {
+          "code": "Ca-IV-2",
+          "kind": "學習內容",
+          "page": 20
+        },
+        {
+          "code": "5-IV-2",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "chinese-16": {
+      "sourceId": "chinese",
+      "refs": [
+        {
+          "code": "Ad-IV-1",
+          "kind": "學習內容",
+          "page": 17
+        },
+        {
+          "code": "Ba-IV-2",
+          "kind": "學習內容",
+          "page": 18
+        },
+        {
+          "code": "6-IV-3",
+          "kind": "學習表現",
+          "page": 14
+        }
+      ],
+      "scope": ""
+    },
+    "english-13": {
+      "sourceId": "english",
+      "refs": [
+        {
+          "code": "B-IV-5",
+          "kind": "學習內容",
+          "page": 21
+        },
+        {
+          "code": "4-IV-5",
+          "kind": "學習表現",
+          "page": 14
+        }
+      ],
+      "scope": ""
+    },
+    "english-14": {
+      "sourceId": "english",
+      "refs": [
+        {
+          "code": "Ad-IV-1",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "3-IV-6",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": "先練習有可能發生的 if 條件句；與事實相反的假設句列為延伸，Ad-IV-1 不表示所有文法細項均為必學。"
+    },
+    "english-15": {
+      "sourceId": "english",
+      "refs": [
+        {
+          "code": "Ad-IV-1",
+          "kind": "學習內容",
+          "page": 19
+        },
+        {
+          "code": "3-IV-6",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "english-16": {
+      "sourceId": "english",
+      "refs": [
+        {
+          "code": "Ae-IV-2",
+          "kind": "學習內容",
+          "page": 20
+        },
+        {
+          "code": "D-IV-2",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "3-IV-4",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "biology-1": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Da-IV-1",
+          "kind": "學習內容",
+          "page": 28
+        },
+        {
+          "code": "Da-IV-2",
+          "kind": "學習內容",
+          "page": 28
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "biology-2": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Bc-IV-2",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "Bc-IV-3",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "biology-3": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Db-IV-1",
+          "kind": "學習內容",
+          "page": 28
+        },
+        {
+          "code": "Db-IV-2",
+          "kind": "學習內容",
+          "page": 28
+        },
+        {
+          "code": "Dc-IV-4",
+          "kind": "學習內容",
+          "page": 28
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "biology-4": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Dc-IV-1",
+          "kind": "學習內容",
+          "page": 28
+        },
+        {
+          "code": "Dc-IV-2",
+          "kind": "學習內容",
+          "page": 28
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "biology-5": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ga-IV-1",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "Ga-IV-6",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "Gb-IV-1",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "biology-6": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Gc-IV-1",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "Bd-IV-3",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "physics-1": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ea-IV-1",
+          "kind": "學習內容",
+          "page": 28
+        },
+        {
+          "code": "Ea-IV-2",
+          "kind": "學習內容",
+          "page": 28
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "physics-2": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ka-IV-1",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "Ka-IV-5",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "physics-3": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ka-IV-8",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "Ka-IV-9",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "physics-4": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Bb-IV-1",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "Bb-IV-3",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "Bb-IV-4",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "physics-5": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Eb-IV-8",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "Eb-IV-10",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "Eb-IV-11",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "physics-6": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ba-IV-5",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "Ba-IV-7",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "Eb-IV-7",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "physics-7": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Kc-IV-7",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "Kc-IV-8",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "Kc-IV-4",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "chemistry-1": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ab-IV-1",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "Ab-IV-4",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "chemistry-2": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Aa-IV-1",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "Aa-IV-4",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "chemistry-3": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ja-IV-1",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "Ja-IV-4",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "chemistry-4": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Jb-IV-4",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "chemistry-5": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Jd-IV-2",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "Jd-IV-6",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "chemistry-6": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Jc-IV-1",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "Jf-IV-2",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "earth-1": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Fa-IV-2",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "Ia-IV-2",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "Ia-IV-4",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "earth-2": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ia-IV-1",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "Ic-IV-1",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "earth-3": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ib-IV-1",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "Ib-IV-4",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "Ib-IV-6",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "earth-4": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Id-IV-3",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "Fb-IV-4",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "earth-5": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ed-IV-1",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "Fb-IV-1",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "earth-6": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Lb-IV-2",
+          "kind": "學習內容",
+          "page": 33
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "biology-7": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Bc-IV-1",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "biology-8": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Db-IV-6",
+          "kind": "學習內容",
+          "page": 28
+        },
+        {
+          "code": "Db-IV-8",
+          "kind": "學習內容",
+          "page": 28
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "biology-9": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Db-IV-3",
+          "kind": "學習內容",
+          "page": 28
+        },
+        {
+          "code": "Dc-IV-4",
+          "kind": "學習內容",
+          "page": 28
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "biology-10": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Da-IV-4",
+          "kind": "學習內容",
+          "page": 28
+        },
+        {
+          "code": "Ga-IV-1",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "biology-11": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ga-IV-2",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "Ga-IV-6",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": "以孟德爾遺傳及性染色體為核心；複雜性聯遺傳族譜推算列為延伸。"
+    },
+    "biology-12": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Gc-IV-2",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "Lb-IV-3",
+          "kind": "學習內容",
+          "page": 33
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "physics-8": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Eb-IV-6",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "physics-9": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Eb-IV-5",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "Ec-IV-1",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "physics-10": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Eb-IV-4",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "Eb-IV-10",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "physics-11": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Kc-IV-1",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "Kc-IV-2",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": "核心為靜電與電荷吸引排斥；庫侖定律的定量平方反比計算列為延伸。"
+    },
+    "physics-12": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Kc-IV-4",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "physics-13": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Kc-IV-6",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "chemistry-7": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Je-IV-1",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "chemistry-8": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Je-IV-2",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "Je-IV-3",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "chemistry-9": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Jb-IV-1",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "Jb-IV-2",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "chemistry-10": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Jd-IV-3",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "Jd-IV-6",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "chemistry-11": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Jf-IV-1",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "Jf-IV-2",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "chemistry-12": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Jf-IV-4",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "earth-7": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Hb-IV-1",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "Hb-IV-2",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "earth-8": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ia-IV-2",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "Ia-IV-3",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "earth-9": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ib-IV-1",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "Ib-IV-4",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "Ib-IV-5",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "earth-10": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ic-IV-4",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "Fb-IV-4",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "biology-13": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Dc-IV-1",
+          "kind": "學習內容",
+          "page": 28
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "biology-14": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Db-IV-1",
+          "kind": "學習內容",
+          "page": 28
+        },
+        {
+          "code": "Bc-IV-1",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "physics-14": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ka-IV-8",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "Ka-IV-9",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": "核心為折射與透鏡成像觀察；折射率、正弦定律與薄透鏡公式的定量計算列為延伸。"
+    },
+    "physics-15": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ba-IV-7",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "chemistry-13": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Fa-IV-3",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "Ca-IV-2",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "chemistry-14": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Aa-IV-2",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "Ja-IV-4",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": "以原子量、分子量與反應式的粒子個數比為核心；莫耳與阿伏加德羅常數的計量列為延伸。"
+    },
+    "earth-11": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Ia-IV-4",
+          "kind": "學習內容",
+          "page": 30
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "earth-12": {
+      "sourceId": "science",
+      "refs": [
+        {
+          "code": "Fb-IV-1",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "Fb-IV-3",
+          "kind": "學習內容",
+          "page": 29
+        },
+        {
+          "code": "tr-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "history-1": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "歷Ba-IV-1",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "歷1b-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "history-2": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "歷Bb-IV-1",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "歷Bb-IV-2",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "歷1b-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "history-3": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "歷Ca-IV-1",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "歷Ea-IV-1",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "歷1b-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "history-4": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "歷Fa-IV-1",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "歷Fa-IV-2",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "歷1b-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "history-5": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "歷Ha-IV-1",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "歷Ha-IV-2",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "歷1b-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "history-6": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "歷Ib-IV-1",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "歷Ib-IV-2",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "歷1b-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "history-7": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "歷Na-IV-1",
+          "kind": "學習內容",
+          "page": 23
+        },
+        {
+          "code": "歷Na-IV-2",
+          "kind": "學習內容",
+          "page": 23
+        },
+        {
+          "code": "歷Oa-IV-1",
+          "kind": "學習內容",
+          "page": 23
+        },
+        {
+          "code": "歷1b-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "history-8": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "歷Qa-IV-2",
+          "kind": "學習內容",
+          "page": 23
+        },
+        {
+          "code": "歷Qc-IV-2",
+          "kind": "學習內容",
+          "page": 23
+        },
+        {
+          "code": "歷Qc-IV-3",
+          "kind": "學習內容",
+          "page": 23
+        },
+        {
+          "code": "歷1b-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "geography-1": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "地Aa-IV-1",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "地1a-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "geography-2": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "地Ab-IV-2",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "地Ac-IV-2",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "地Ac-IV-4",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "地1a-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "geography-3": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "地Ad-IV-1",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "地Ae-IV-2",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "地Af-IV-2",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "地1a-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "geography-4": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "地Bd-IV-1",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "地Bd-IV-3",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "地1a-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "geography-5": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "地Be-IV-2",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "地Bf-IV-2",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "地Bg-IV-2",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "地1a-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "geography-6": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "地Bh-IV-1",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "地Bi-IV-1",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "地Bc-IV-1",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "地1a-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "geography-7": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "地Cb-IV-2",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "地Bi-IV-4",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "地1a-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "civics-1": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "公Bb-IV-1",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "公Dc-IV-1",
+          "kind": "學習內容",
+          "page": 39
+        },
+        {
+          "code": "公1a-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "civics-2": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "公Ba-IV-1",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "公Ca-IV-3",
+          "kind": "學習內容",
+          "page": 37
+        },
+        {
+          "code": "公1a-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "civics-3": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "公Be-IV-2",
+          "kind": "學習內容",
+          "page": 33
+        },
+        {
+          "code": "公1a-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "civics-4": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "公Ad-IV-1",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "公Bi-IV-3",
+          "kind": "學習內容",
+          "page": 34
+        },
+        {
+          "code": "公1a-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "civics-5": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "公Bl-IV-1",
+          "kind": "學習內容",
+          "page": 35
+        },
+        {
+          "code": "公Bl-IV-2",
+          "kind": "學習內容",
+          "page": 35
+        },
+        {
+          "code": "公Bl-IV-4",
+          "kind": "學習內容",
+          "page": 36
+        },
+        {
+          "code": "公1a-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "civics-6": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "公Cb-IV-2",
+          "kind": "學習內容",
+          "page": 37
+        },
+        {
+          "code": "公Dd-IV-2",
+          "kind": "學習內容",
+          "page": 40
+        },
+        {
+          "code": "公1a-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "history-9": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "歷Ba-IV-2",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "歷1b-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "history-10": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "歷Ha-IV-1",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "歷1b-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "history-11": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "歷Ia-IV-1",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "歷Ib-IV-1",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "歷1b-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "history-12": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "歷Na-IV-2",
+          "kind": "學習內容",
+          "page": 23
+        },
+        {
+          "code": "歷1b-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "geography-8": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "地Ab-IV-1",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "地Ac-IV-3",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "地1a-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "geography-9": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "地Be-IV-1",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "地Bf-IV-1",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "地1a-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "geography-10": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "地Bi-IV-2",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "地Bi-IV-3",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "地1a-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "civics-7": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "公Bk-IV-1",
+          "kind": "學習內容",
+          "page": 35
+        },
+        {
+          "code": "公1a-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "civics-8": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "公Bj-IV-1",
+          "kind": "學習內容",
+          "page": 35
+        },
+        {
+          "code": "公Bi-IV-1",
+          "kind": "學習內容",
+          "page": 34
+        },
+        {
+          "code": "公Bh-IV-1",
+          "kind": "學習內容",
+          "page": 34
+        },
+        {
+          "code": "公1a-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "civics-9": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "公Cf-IV-1",
+          "kind": "學習內容",
+          "page": 38
+        },
+        {
+          "code": "公Cf-IV-3",
+          "kind": "學習內容",
+          "page": 38
+        },
+        {
+          "code": "公1a-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "history-13": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "歷Ca-IV-2",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "歷1b-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "history-14": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "歷Ka-IV-1",
+          "kind": "學習內容",
+          "page": 23
+        },
+        {
+          "code": "歷Kb-IV-2",
+          "kind": "學習內容",
+          "page": 23
+        },
+        {
+          "code": "歷1b-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "history-15": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "歷Qc-IV-3",
+          "kind": "學習內容",
+          "page": 23
+        },
+        {
+          "code": "歷Lb-IV-1",
+          "kind": "學習內容",
+          "page": 23
+        },
+        {
+          "code": "歷1b-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "geography-11": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "地Af-IV-1",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "地Af-IV-3",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "地1a-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "geography-12": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "地Bf-IV-1",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "地Bf-IV-2",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "地Bf-IV-3",
+          "kind": "學習內容",
+          "page": 27
+        },
+        {
+          "code": "地1a-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "geography-13": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "地Bc-IV-1",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "地Bc-IV-2",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "地Bc-IV-3",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "地1a-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "civics-10": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "公Be-IV-3",
+          "kind": "學習內容",
+          "page": 33
+        },
+        {
+          "code": "公Ca-IV-2",
+          "kind": "學習內容",
+          "page": 37
+        },
+        {
+          "code": "公1a-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "civics-11": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "公Be-IV-2",
+          "kind": "學習內容",
+          "page": 33
+        },
+        {
+          "code": "公Be-IV-3",
+          "kind": "學習內容",
+          "page": 33
+        },
+        {
+          "code": "公1a-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": ""
+    },
+    "civics-12": {
+      "sourceId": "social",
+      "refs": [
+        {
+          "code": "公Dd-IV-1",
+          "kind": "學習內容",
+          "page": 39
+        },
+        {
+          "code": "公Bl-IV-3",
+          "kind": "學習內容",
+          "page": 35
+        },
+        {
+          "code": "公1a-IV-1",
+          "kind": "學習表現",
+          "page": 13
+        }
+      ],
+      "scope": "以全球分工、選擇與機會成本為核心；比較利益的定量生產可能分析列為延伸。"
+    },
+    "visual-1": {
+      "sourceId": "arts",
+      "refs": [
+        {
+          "code": "視E-IV-1",
+          "kind": "學習內容",
+          "page": 15
+        },
+        {
+          "code": "視1-IV-1",
+          "kind": "學習表現",
+          "page": 15
+        }
+      ],
+      "scope": ""
+    },
+    "visual-2": {
+      "sourceId": "arts",
+      "refs": [
+        {
+          "code": "視E-IV-2",
+          "kind": "學習內容",
+          "page": 15
+        },
+        {
+          "code": "視1-IV-2",
+          "kind": "學習表現",
+          "page": 15
+        }
+      ],
+      "scope": ""
+    },
+    "visual-3": {
+      "sourceId": "arts",
+      "refs": [
+        {
+          "code": "視P-IV-2",
+          "kind": "學習內容",
+          "page": 15
+        },
+        {
+          "code": "視3-IV-2",
+          "kind": "學習表現",
+          "page": 15
+        }
+      ],
+      "scope": ""
+    },
+    "music-1": {
+      "sourceId": "arts",
+      "refs": [
+        {
+          "code": "音E-IV-3",
+          "kind": "學習內容",
+          "page": 14
+        },
+        {
+          "code": "音1-IV-1",
+          "kind": "學習表現",
+          "page": 14
+        }
+      ],
+      "scope": ""
+    },
+    "music-2": {
+      "sourceId": "arts",
+      "refs": [
+        {
+          "code": "音E-IV-2",
+          "kind": "學習內容",
+          "page": 14
+        },
+        {
+          "code": "音E-IV-4",
+          "kind": "學習內容",
+          "page": 14
+        },
+        {
+          "code": "音2-IV-1",
+          "kind": "學習表現",
+          "page": 14
+        }
+      ],
+      "scope": ""
+    },
+    "music-3": {
+      "sourceId": "arts",
+      "refs": [
+        {
+          "code": "音A-IV-1",
+          "kind": "學習內容",
+          "page": 14
+        },
+        {
+          "code": "音E-IV-3",
+          "kind": "學習內容",
+          "page": 14
+        },
+        {
+          "code": "音1-IV-2",
+          "kind": "學習表現",
+          "page": 14
+        }
+      ],
+      "scope": ""
+    },
+    "performing-1": {
+      "sourceId": "arts",
+      "refs": [
+        {
+          "code": "表E-IV-1",
+          "kind": "學習內容",
+          "page": 16
+        },
+        {
+          "code": "表1-IV-1",
+          "kind": "學習表現",
+          "page": 16
+        }
+      ],
+      "scope": ""
+    },
+    "performing-2": {
+      "sourceId": "arts",
+      "refs": [
+        {
+          "code": "表E-IV-2",
+          "kind": "學習內容",
+          "page": 16
+        },
+        {
+          "code": "表1-IV-2",
+          "kind": "學習表現",
+          "page": 16
+        }
+      ],
+      "scope": ""
+    },
+    "performing-3": {
+      "sourceId": "arts",
+      "refs": [
+        {
+          "code": "表E-IV-3",
+          "kind": "學習內容",
+          "page": 16
+        },
+        {
+          "code": "表2-IV-3",
+          "kind": "學習表現",
+          "page": 16
+        }
+      ],
+      "scope": ""
+    },
+    "computing-1": {
+      "sourceId": "technology",
+      "refs": [
+        {
+          "code": "資A-IV-1",
+          "kind": "學習內容",
+          "page": 14
+        },
+        {
+          "code": "運t-IV-4",
+          "kind": "學習表現",
+          "page": 11
+        }
+      ],
+      "scope": ""
+    },
+    "computing-2": {
+      "sourceId": "technology",
+      "refs": [
+        {
+          "code": "資P-IV-2",
+          "kind": "學習內容",
+          "page": 14
+        },
+        {
+          "code": "運t-IV-4",
+          "kind": "學習表現",
+          "page": 11
+        }
+      ],
+      "scope": ""
+    },
+    "computing-3": {
+      "sourceId": "technology",
+      "refs": [
+        {
+          "code": "資S-IV-3",
+          "kind": "學習內容",
+          "page": 14
+        },
+        {
+          "code": "資H-IV-1",
+          "kind": "學習內容",
+          "page": 15
+        },
+        {
+          "code": "資H-IV-3",
+          "kind": "學習內容",
+          "page": 15
+        },
+        {
+          "code": "運t-IV-4",
+          "kind": "學習表現",
+          "page": 11
+        }
+      ],
+      "scope": ""
+    },
+    "technology-1": {
+      "sourceId": "technology",
+      "refs": [
+        {
+          "code": "生P-IV-4",
+          "kind": "學習內容",
+          "page": 16
+        },
+        {
+          "code": "設c-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "technology-2": {
+      "sourceId": "technology",
+      "refs": [
+        {
+          "code": "生A-IV-2",
+          "kind": "學習內容",
+          "page": 17
+        },
+        {
+          "code": "生P-IV-5",
+          "kind": "學習內容",
+          "page": 16
+        },
+        {
+          "code": "設c-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "technology-3": {
+      "sourceId": "technology",
+      "refs": [
+        {
+          "code": "生A-IV-4",
+          "kind": "學習內容",
+          "page": 17
+        },
+        {
+          "code": "設c-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "health-1": {
+      "sourceId": "health",
+      "refs": [
+        {
+          "code": "Db-IV-2",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "Db-IV-5",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "1a-IV-1",
+          "kind": "學習表現",
+          "page": 30
+        }
+      ],
+      "scope": ""
+    },
+    "health-2": {
+      "sourceId": "health",
+      "refs": [
+        {
+          "code": "Ea-IV-1",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "Ea-IV-3",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "1a-IV-1",
+          "kind": "學習表現",
+          "page": 30
+        }
+      ],
+      "scope": ""
+    },
+    "health-3": {
+      "sourceId": "health",
+      "refs": [
+        {
+          "code": "Eb-IV-1",
+          "kind": "學習內容",
+          "page": 33
+        },
+        {
+          "code": "Fb-IV-5",
+          "kind": "學習內容",
+          "page": 33
+        },
+        {
+          "code": "1a-IV-1",
+          "kind": "學習表現",
+          "page": 30
+        }
+      ],
+      "scope": ""
+    },
+    "pe-1": {
+      "sourceId": "health",
+      "refs": [
+        {
+          "code": "Ab-IV-1",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "Bc-IV-1",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "4c-IV-3",
+          "kind": "學習表現",
+          "page": 31
+        }
+      ],
+      "scope": ""
+    },
+    "pe-2": {
+      "sourceId": "health",
+      "refs": [
+        {
+          "code": "Cb-IV-1",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "4c-IV-3",
+          "kind": "學習表現",
+          "page": 31
+        }
+      ],
+      "scope": ""
+    },
+    "pe-3": {
+      "sourceId": "health",
+      "refs": [
+        {
+          "code": "Ab-IV-2",
+          "kind": "學習內容",
+          "page": 31
+        },
+        {
+          "code": "Cb-IV-1",
+          "kind": "學習內容",
+          "page": 32
+        },
+        {
+          "code": "4c-IV-3",
+          "kind": "學習表現",
+          "page": 31
+        }
+      ],
+      "scope": ""
+    },
+    "home-1": {
+      "sourceId": "integrative",
+      "refs": [
+        {
+          "code": "家Da-IV-1",
+          "kind": "學習內容",
+          "page": 23
+        },
+        {
+          "code": "家Da-IV-2",
+          "kind": "學習內容",
+          "page": 23
+        },
+        {
+          "code": "2c-IV-1",
+          "kind": "學習表現",
+          "page": 24
+        }
+      ],
+      "scope": ""
+    },
+    "home-2": {
+      "sourceId": "integrative",
+      "refs": [
+        {
+          "code": "家Ab-IV-2",
+          "kind": "學習內容",
+          "page": 21
+        },
+        {
+          "code": "家Ba-IV-1",
+          "kind": "學習內容",
+          "page": 24
+        },
+        {
+          "code": "2c-IV-1",
+          "kind": "學習表現",
+          "page": 24
+        }
+      ],
+      "scope": ""
+    },
+    "home-3": {
+      "sourceId": "integrative",
+      "refs": [
+        {
+          "code": "家Ca-IV-1",
+          "kind": "學習內容",
+          "page": 21
+        },
+        {
+          "code": "家Ca-IV-2",
+          "kind": "學習內容",
+          "page": 24
+        },
+        {
+          "code": "2c-IV-1",
+          "kind": "學習表現",
+          "page": 24
+        }
+      ],
+      "scope": ""
+    },
+    "scout-1": {
+      "sourceId": "integrative",
+      "refs": [
+        {
+          "code": "童Aa-IV-2",
+          "kind": "學習內容",
+          "page": 21
+        },
+        {
+          "code": "童Cc-IV-1",
+          "kind": "學習內容",
+          "page": 21
+        },
+        {
+          "code": "3a-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "scout-2": {
+      "sourceId": "integrative",
+      "refs": [
+        {
+          "code": "童Ca-IV-1",
+          "kind": "學習內容",
+          "page": 25
+        },
+        {
+          "code": "童Ca-IV-2",
+          "kind": "學習內容",
+          "page": 26
+        },
+        {
+          "code": "3a-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "scout-3": {
+      "sourceId": "integrative",
+      "refs": [
+        {
+          "code": "童Da-IV-2",
+          "kind": "學習內容",
+          "page": 24
+        },
+        {
+          "code": "童Bb-IV-2",
+          "kind": "學習內容",
+          "page": 24
+        },
+        {
+          "code": "3a-IV-1",
+          "kind": "學習表現",
+          "page": 25
+        }
+      ],
+      "scope": ""
+    },
+    "guidance-1": {
+      "sourceId": "integrative",
+      "refs": [
+        {
+          "code": "輔Aa-IV-1",
+          "kind": "學習內容",
+          "page": 21
+        },
+        {
+          "code": "輔Da-IV-2",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "1a-IV-1",
+          "kind": "學習表現",
+          "page": 12
+        }
+      ],
+      "scope": ""
+    },
+    "guidance-2": {
+      "sourceId": "integrative",
+      "refs": [
+        {
+          "code": "輔Ba-IV-2",
+          "kind": "學習內容",
+          "page": 21
+        },
+        {
+          "code": "輔Bb-IV-2",
+          "kind": "學習內容",
+          "page": 24
+        },
+        {
+          "code": "1b-IV-1",
+          "kind": "學習表現",
+          "page": 21
+        }
+      ],
+      "scope": ""
+    },
+    "guidance-3": {
+      "sourceId": "integrative",
+      "refs": [
+        {
+          "code": "輔Ca-IV-1",
+          "kind": "學習內容",
+          "page": 21
+        },
+        {
+          "code": "輔Cc-IV-2",
+          "kind": "學習內容",
+          "page": 22
+        },
+        {
+          "code": "1c-IV-1",
+          "kind": "學習表現",
+          "page": 21
+        }
+      ],
+      "scope": ""
+    },
+    "local-1": {
+      "sourceId": "mindong",
+      "refs": [
+        {
+          "code": "Aa-IV-1",
+          "kind": "學習內容",
+          "page": 11
+        },
+        {
+          "code": "1-IV-1",
+          "kind": "學習表現",
+          "page": 10
+        }
+      ],
+      "scope": "此處以閩東語領綱作語言學習示例；須依學生實際選修語別另核對領綱、詞彙與發音，不能當作所有本土語別的完整教材。"
+    },
+    "local-2": {
+      "sourceId": "mindong",
+      "refs": [
+        {
+          "code": "Ba-IV-1",
+          "kind": "學習內容",
+          "page": 12
+        },
+        {
+          "code": "2-IV-2",
+          "kind": "學習表現",
+          "page": 10
+        }
+      ],
+      "scope": "此處以閩東語領綱作語言學習示例；須依學生實際選修語別另核對領綱、詞彙與發音，不能當作所有本土語別的完整教材。"
+    },
+    "local-3": {
+      "sourceId": "sign",
+      "refs": [
+        {
+          "code": "A-IV-1",
+          "kind": "學習內容",
+          "page": 13
+        },
+        {
+          "code": "Ba-IV-2",
+          "kind": "學習內容",
+          "page": 13
+        },
+        {
+          "code": "2-IV-1",
+          "kind": "學習表現",
+          "page": 11
+        }
+      ],
+      "scope": ""
+    },
+    "local-4": {
+      "sourceId": "mindong",
+      "refs": [
+        {
+          "code": "Ba-IV-1",
+          "kind": "學習內容",
+          "page": 12
+        },
+        {
+          "code": "4-IV-2",
+          "kind": "學習表現",
+          "page": 11
+        }
+      ],
+      "scope": "此處以閩東語領綱作語言學習示例；須依學生實際選修語別另核對領綱、詞彙與發音，不能當作所有本土語別的完整教材。"
+    }
+  }
+}

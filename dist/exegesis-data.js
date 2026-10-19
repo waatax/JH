@@ -11,7 +11,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 正負數與絕對值】正負數先選定基準，再分辨「所在位置」與「改變量」。從負的位置往正方向移動，不表示最後一定在正的位置；必須比較移動量是否超過到原點的距離。距離永遠非負，位移則保留方向。",
       "realWorldAnchor": "真實情境應用：氣溫從 −3°C 上升 8°C：−3＋8＝5°C。數線上從 −3 向右走 8 格。 延伸實例：潛水員位於海平面下 12 公尺，先上升 7 公尺，再下降 4 公尺。最後位置與總移動距離各是多少？",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「正負號描述相對於基準的方向」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「正負號描述相對於基準的方向」。"
     },
     "definitions": [
       {
@@ -83,7 +83,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 因數、倍數與質因數分解】「最多分幾份且都用完」尋找公因數；「多久再同時發生」尋找公倍數。質因數分解是把整數拆成質數相乘，並不是任意拆成兩個因數就結束。先判斷情境，再選最大公因數或最小公倍數。",
       "realWorldAnchor": "真實情境應用：18＝2×3²，24＝2³×3。最大公因數＝2×3＝6；最小公倍數＝2³×3²＝72。 延伸實例：有 48 枝鉛筆、60 個橡皮擦，分成內容完全相同的禮包且沒有剩餘，最多可分幾包？",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「質數只有 1 與自己兩個正因數」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「質數只有 1 與自己兩個正因數」。"
     },
     "definitions": [
       {
@@ -155,7 +155,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 分數運算與科學記號】分數運算先確認括號及先乘除後加減；通分只能改寫成等值分數，不能只放大分母。科學記號把數值拆成介於 1 與 10 的有效係數及十的整數次方，適合比較極大或極小數。",
       "realWorldAnchor": "真實情境應用：3/4−1/6＝9/12−2/12＝7/12。0.00052＝5.2×10⁻⁴。 延伸實例：一瓶有 3/4 公升果汁，喝掉原有量的 2/3 後剩多少？將 0.000075 寫成科學記號。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「分數加減先通分，乘法分子分母各自相乘，除以非零分數等於乘以倒數」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「分數加減先通分，乘法分子分母各自相乘，除以非零分數等於乘以倒數」。"
     },
     "definitions": [
       {
@@ -227,7 +227,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 一元一次方程式】等式像平衡的天平，兩側同做合法運算才保留解。去括號時須把乘數分配到每一項；解出未知數後，要代回原始題目，不只代回整理過的式子。情境中的整數或非負限制也屬於答案條件。",
       "realWorldAnchor": "真實情境應用：3x＋5＝20 → 3x＝15 → x＝5。代回 3×5＋5＝20 驗算。 延伸實例：三張相同門票加 30 元手續費，付 500 元找回 110 元，每張票多少元？",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「等量公理：等式兩側加減同一數、乘同一數或除以同一非零數，仍然相等」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「等量公理：等式兩側加減同一數、乘同一數或除以同一非零數，仍然相等」。"
     },
     "definitions": [
       {
@@ -299,7 +299,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 二元一次聯立方程式】聯立方程式的解要同時符合兩條關係。消去法利用相同未知數係數相減，代入法則將一個未知數用另一個表示。方法可不同，但驗算都要檢查兩式，而不能只看總價。",
       "realWorldAnchor": "真實情境應用：x＋y＝10，2x＋y＝14。第二式減第一式得 x＝4，再代回 y＝6。 延伸實例：買成人票 80 元、學生票 50 元共 9 張，總共 600 元，兩種票各幾張？",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「一條二元一次方程式通常有許多組解，聯立要求同時滿足兩式」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「一條二元一次方程式通常有許多組解，聯立要求同時滿足兩式」。"
     },
     "definitions": [
       {
@@ -371,7 +371,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 比例、正比與反比】判斷比例關係要看比值或乘積是否固定，不能只看兩個量是否同時增加。含固定費用的價格通常不是正比；反比還需要其他條件固定，例如同一段路程、工作量或容積。",
       "realWorldAnchor": "真實情境應用：固定速率 60 km/h，路程 y＝60t。固定路程 120 km，時間 t＝120/v。 延伸實例：甲方案每次收 20 元，再按使用時間每分鐘 3 元；乙方案每分鐘 5 元。各用 10 分鐘是否同價？哪個是正比？",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「正比關係 y＝kx 的比值固定，圖形通過原點」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「正比關係 y＝kx 的比值固定，圖形通過原點」。"
     },
     "definitions": [
       {
@@ -443,7 +443,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 一元一次不等式】不等式解通常是一段範圍，最後要解讀成情境允許的數。乘除負數會反轉大小順序；若題目要求整數，代數邊界與實際最大或最小值可能不同。不要一算完小數就直接當成件數。",
       "realWorldAnchor": "真實情境應用：−2x<6，兩側除以 −2 得 x>−3。以 x＝0 檢查：0<6 成立。 延伸實例：有 200 元，先支付 35 元運費，再買每本 18 元的筆記本，最多可買幾本？",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「不等式表示一段範圍」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「不等式表示一段範圍」。"
     },
     "definitions": [
       {
@@ -515,7 +515,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 坐標與資料圖表】坐標的第一個數控制水平方向，第二個數控制鉛直方向。讀圖時先看每格代表多少，再讀點的位置；折線圖的斜升表示增加，但斜率不能在不同刻度的圖之間直接比較。",
       "realWorldAnchor": "真實情境應用：資料 2、3、3、4、18 的平均數是 6，中位數是 3，眾數是 3。 延伸實例：A(−3,2) 水平向右移 5 格，再向下移 4 格到 B，每格代表一單位，求 B 及 A、B 的中點。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「平面坐標先讀 x 再讀 y」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「平面坐標先讀 x 再讀 y」。"
     },
     "definitions": [
       {
@@ -587,7 +587,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 乘法公式與多項式】乘法公式來自分配律，可用面積分割理解交叉項。平方和與和的平方不同，因為後者包含兩個長方形的交叉面積。多項式相加減只能合併同類項，x 與 x² 是不同類型。",
       "realWorldAnchor": "真實情境應用：(x＋3)²＝x²＋6x＋9。可畫邊長 x＋3 的正方形，把面積分成四塊。 延伸實例：不用直式，計算 102²，並說明為何不能算成 100²＋2²。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「(a＋b)²＝a²＋2ab＋b²」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「(a＋b)²＝a²＋2ab＋b²」。"
     },
     "definitions": [
       {
@@ -659,7 +659,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 平方根與畢氏定理】畢氏定理的前提是直角三角形，斜邊是直角對邊，也是最長邊。求長度時取非負平方根；不能因為 x²＝數值有正負兩解，就把負長度也寫進幾何答案。",
       "realWorldAnchor": "真實情境應用：兩股長 6、8，斜邊平方＝36＋64＝100，所以斜邊長 10。 延伸實例：梯子長 13 公尺，底端距垂直牆面 5 公尺，頂端離地多高？假設地面水平且梯子筆直。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「√a 表示非負平方根」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「√a 表示非負平方根」。"
     },
     "definitions": [
       {
@@ -731,7 +731,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 因式分解】因式分解是展開的逆運算，先找公因式常能降低難度。看到兩項平方相減可用平方差；三項式則觀察中間項能否由兩個一次因式的交叉項產生。完成後展開一次即可驗算。",
       "realWorldAnchor": "真實情境應用：x²＋5x＋6＝(x＋2)(x＋3)，因為 2＋3＝5 且 2×3＝6。 延伸實例：分解 3x²−27，再求 3x²−27＝0 的解。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「因式分解是把和式寫成乘積，可先提公因式，再看平方差、完全平方或十字交乘」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「因式分解是把和式寫成乘積，可先提公因式，再看平方差、完全平方或十字交乘」。"
     },
     "definitions": [
       {
@@ -803,7 +803,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 一元二次方程式】解二次方程式前先整理為一側等於零，再選因式分解、配方或公式。開根號要保留正負兩種可能；若未知數有長度意義，最後才依情境排除不合法的根，而非在代數過程任意丟解。",
       "realWorldAnchor": "真實情境應用：x²−5x＋6＝0 → (x−2)(x−3)＝0 → x＝2 或 3。 延伸實例：長方形長比寬多 3 公分，面積為 40 平方公分，求長寬。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「先整理為 ax²＋bx＋c＝0（a≠0），再因式分解、配方或用公式解」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「先整理為 ax²＋bx＋c＝0（a≠0），再因式分解、配方或用公式解」。"
     },
     "definitions": [
       {
@@ -875,7 +875,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 等差數列與一次函數】等差數列把項數與數值連結，每增加一項就加固定公差。一次函數 y＝ax＋b 中的 a 描述 x 每增加一單位時 y 的改變量；b 是 x＝0 的值，不一定是情境中的第一筆資料。",
       "realWorldAnchor": "真實情境應用：3、7、11…第 10 項＝3＋9×4＝39。y＝2x＋5 中，x 增 1，y 增 2。 延伸實例：數列 7、11、15、19…的第 20 項是多少？把第 n 項表示成一次式。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「等差數列每次增加固定公差 d，第 n 項 aₙ＝a₁＋(n−1)d」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「等差數列每次增加固定公差 d，第 n 項 aₙ＝a₁＋(n−1)d」。"
     },
     "definitions": [
       {
@@ -947,7 +947,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 三角形全等與幾何推理】證明全等要指出對應邊角及判定依據，不能只說兩個圖看起來一樣。共用邊可當作相等條件；有平行線時可導出內錯角。SSA 一般不能保證全等，夾角位置是重要條件。",
       "realWorldAnchor": "真實情境應用：兩三角形的兩邊及其夾角分別相等，可由 SAS 判定全等，進而得到對應第三邊相等。 延伸實例：AB＝AD、BC＝DC，連接 AC，證明 △ABC 與 △ADC 全等，並比較 ∠BAC 與 ∠CAD。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「三角形全等須具足夠條件，如 SSS、SAS、ASA、AAS 或直角三角形 RHS」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「三角形全等須具足夠條件，如 SSS、SAS、ASA、AAS 或直角三角形 RHS」。"
     },
     "definitions": [
       {
@@ -1019,7 +1019,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 平行線、四邊形與尺規】平行線被截線切過時，可用同位角或內錯角相等判斷；同側內角則互補。尺規作圖的交弧點代表到兩圓心等距，可由等距性質解釋中垂線，而不只是記住操作順序。",
       "realWorldAnchor": "真實情境應用：平行四邊形一角 65°，鄰角為 115°，因同側內角互補。 延伸實例：兩條平行線被截線切過，一個內角為 65°，求與它同側的另一內角，並說明依據。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「平行線的同位角相等、內錯角相等」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「平行線的同位角相等、內錯角相等」。"
     },
     "definitions": [
       {
@@ -1091,7 +1091,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 相似形與比例推理】相似比一定要照同一個對應順序相除。邊長放大 k 倍時，每個面積有兩個長度因子，因此面積放大 k² 倍。影長測量還需要同時、同地、地面近似水平與物體直立等模型條件。",
       "realWorldAnchor": "真實情境應用：模型長度是實物的 1/10，對應面積是 1/100，不是 1/10。 延伸實例：同一時刻，1.5 公尺標竿影長 2 公尺，旗杆影長 8 公尺，求旗杆高度。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「相似三角形對應角相等、對應邊成比例」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「相似三角形對應角相等、對應邊成比例」。"
     },
     "definitions": [
       {
@@ -1163,7 +1163,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 圓、切線與圓周角】圓周角的頂點在圓上，圓心角的頂點在圓心；同弧是指角的兩邊截到同一段弧。先標出弧，再選角度關係，能避免把不同弧所對的角誤認為相同。",
       "realWorldAnchor": "真實情境應用：對應 100° 圓心角的同弧圓周角是 50°。半圓所對的圓周角是 90°。 延伸實例：同一圓中，小弧 AB 為 100°，C 在不含小弧 AB 的另一側圓周上，求 ∠ACB。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「同弧的圓周角是圓心角的一半」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「同弧的圓周角是圓心角的一半」。"
     },
     "definitions": [
       {
@@ -1235,7 +1235,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 二次函數與極值】二次函數可用配方把對稱位置看清楚。平方項的最小值為零，因此開口向上的圖有最低點；但生活題還要檢查頂點是否落在允許範圍內，若不在，極值可能發生在邊界。",
       "realWorldAnchor": "真實情境應用：y＝(x−2)²＋3 中平方項最小是 0，所以當 x＝2 時最小值 3。 延伸實例：長方形周長 20 公分，設一邊長 x，求最大面積及當時的邊長。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「y＝a(x−h)²＋k 的頂點是 (h,k)，對稱軸 x＝h」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「y＝a(x−h)²＋k 的頂點是 (h,k)，對稱軸 x＝h」。"
     },
     "definitions": [
       {
@@ -1307,7 +1307,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 統計、機率與空間圖形】平均數描述數值的平衡位置，中位數描述排序中央，兩者反映不同特徵。機率計算則先界定等可能的基本結果；不能把不等可能的事件各算成一種結果再平均。",
       "realWorldAnchor": "真實情境應用：公平骰子出現大於 4 的結果為 5、6，機率 2/6＝1/3。邊長 3 的正方體體積 27、表面積 54。 延伸實例：五次得分是 2、4、4、5、20。求平均數、中位數，並說明哪個較能描述多數得分。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「在等可能情況下，事件機率＝有利結果數÷所有結果數」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「在等可能情況下，事件機率＝有利結果數÷所有結果數」。"
     },
     "definitions": [
       {
@@ -1379,7 +1379,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【國語文 · 字詞、語境與修辭】修辭辨識要連到語境中的作用，不是只替句子貼名稱。「像」可能用於比喻，也可能只是說兩件事相似；判斷時找出被描述的本體、拿來比較的喻體，以及共同特徵。詞語的褒貶也會隨語境改變。",
       "realWorldAnchor": "真實情境應用：「風在窗邊低語」讓風像人一樣說話，是擬人。「時間像流水」則藉流水比喻時間。 延伸實例：原創句：「考卷上的紅圈像一盞盞路燈，照出我還沒走熟的路。」分析比喻如何呈現作者看待錯誤的態度。",
-      "historicalSpark": "劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。 本課聚焦於「同一個詞會依語境改變意思」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "閱讀先圈指代詞與轉折詞，再把段落作用寫成一句話；主旨判斷要回到全文，不能只摘一句。 比較兩種解讀時，各找一句原文支持，說明哪一解讀能解釋更多細節。 本課聚焦於「同一個詞會依語境改變意思」。"
     },
     "definitions": [
       {
@@ -1451,7 +1451,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【國語文 · 敘事閱讀與人物推論】人物性格不能只由一個動作下定論，應把言語、行動、動機與情境一起比較。敘事中的轉折常揭露角色真正重視的事；若資料只支持暫時情緒，不應誇大成固定人格。",
       "realWorldAnchor": "真實情境應用：「他把傘推給我，自己跑進雨裡。」可以支持他體貼他人，不能據此判斷他的家庭收入。 延伸實例：原創段落：「阿哲嘴上說不想管，卻在同學離開後留下補好海報；隔天他把功勞推給大家。」可以推論什麼？",
-      "historicalSpark": "劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。 本課聚焦於「把事件、人物行動與心理推論分開」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "閱讀先圈指代詞與轉折詞，再把段落作用寫成一句話；主旨判斷要回到全文，不能只摘一句。 比較兩種解讀時，各找一句原文支持，說明哪一解讀能解釋更多細節。 本課聚焦於「把事件、人物行動與心理推論分開」。"
     },
     "definitions": [
       {
@@ -1523,7 +1523,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【國語文 · 文言文的省略與虛字】文言閱讀先把句中的人事物補齊，再判斷虛字的功能。「之」可能是代詞、結構助詞或動詞，須依所在位置及前後搭配判斷。翻譯以忠實傳達句意為主，不需逐字硬配一個固定意思。",
       "realWorldAnchor": "真實情境應用：「學而時習之」中的「之」指所學內容；「友人之言」中的「之」連接修飾關係。 延伸實例：仿文言例句：「友借書，既讀之，乃歸之。」兩個「之」指什麼？省略了哪些資訊？",
-      "historicalSpark": "劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。 本課聚焦於「讀文言先確認主詞、動詞與受詞，再依上下文補出省略成分」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "閱讀先圈指代詞與轉折詞，再把段落作用寫成一句話；主旨判斷要回到全文，不能只摘一句。 比較兩種解讀時，各找一句原文支持，說明哪一解讀能解釋更多細節。 本課聚焦於「讀文言先確認主詞、動詞與受詞，再依上下文補出省略成分」。"
     },
     "definitions": [
       {
@@ -1595,7 +1595,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【國語文 · 說明文、圖表與資訊整合】圖表提供的是特定範圍的資料，說明文字可能解釋原因，也可能只是作者猜測。先區分總量與比例、實測與預估，再把兩個文本的時間和對象對齊；不同母體不能直接比較百分比大小。",
       "realWorldAnchor": "真實情境應用：甲圖是「使用人數」，乙圖是「使用比例」，即使線條都上升，也不能直接比較增加了多少人。 延伸實例：甲班 30 人中 18 人步行上學；乙班 40 人中 20 人步行。有人說「乙班步行人數較多，因此步行比例也較高」，是否合理？",
-      "historicalSpark": "劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。 本課聚焦於「說明文常以定義、分類、比較、因果解釋事物」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "閱讀先圈指代詞與轉折詞，再把段落作用寫成一句話；主旨判斷要回到全文，不能只摘一句。 比較兩種解讀時，各找一句原文支持，說明哪一解讀能解釋更多細節。 本課聚焦於「說明文常以定義、分類、比較、因果解釋事物」。"
     },
     "definitions": [
       {
@@ -1667,7 +1667,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【國語文 · 議論、論據與批判閱讀】論點是作者要你接受的主張，論據是支持主張的資料，兩者之間還需要合理推理。個別成功故事可作例子，但不能自動證明對所有人有效；批判閱讀應提出缺少的證據，而非只表達贊成或反對。",
       "realWorldAnchor": "真實情境應用：「圖書館應延長開放」是主張；「晚間使用需求調查」可作為證據，還需考量成本。 延伸實例：「小明每天聽音樂讀書，這次考得好，所以全校都應播放音樂來提高成績。」推論有何缺口？",
-      "historicalSpark": "劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。 本課聚焦於「議論包含主張、理由與支持證據」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "閱讀先圈指代詞與轉折詞，再把段落作用寫成一句話；主旨判斷要回到全文，不能只摘一句。 比較兩種解讀時，各找一句原文支持，說明哪一解讀能解釋更多細節。 本課聚焦於「議論包含主張、理由與支持證據」。"
     },
     "definitions": [
       {
@@ -1739,7 +1739,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【國語文 · 詩歌賞析與寫作組織】詩歌的停頓、重複與意象安排會引導閱讀節奏。賞析應先描述文字，再提出有依據的感受；寫作時可以用具體場景承載情緒，讓讀者從細節理解，而不是反覆寫抽象的「很感動」。",
       "realWorldAnchor": "真實情境應用：「空椅上，夕陽慢慢坐下」藉空椅與夕陽形成缺席、等待的意象，仍需全文才能判定情感。 延伸實例：原創短詩：「空椅留在窗邊／夕陽坐了一會兒／又走了。」如何解釋其中的孤寂感？",
-      "historicalSpark": "劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。 本課聚焦於「詩歌以意象、節奏與語言濃縮情感」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "閱讀先圈指代詞與轉折詞，再把段落作用寫成一句話；主旨判斷要回到全文，不能只摘一句。 比較兩種解讀時，各找一句原文支持，說明哪一解讀能解釋更多細節。 本課聚焦於「詩歌以意象、節奏與語言濃縮情感」。"
     },
     "definitions": [
       {
@@ -1811,7 +1811,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【英語文 · 句子骨架與現在式】英文基本句子先找主詞與主要動詞，再決定動詞形式。現在簡單式用於習慣、一般事實或穩定狀態，第三人稱單數在肯定句通常需動詞加 s/es；否定句或問句已有 does/does not，後面的主要動詞回原形。be 動詞句和一般動詞句的問法不同，不可同時堆上 is 與 does。",
       "realWorldAnchor": "真實情境應用：She is a student. / She plays tennis every Sunday. 否定：She does not play tennis. 延伸實例：把「Mia walks to school every day.」改為否定句與一般問句，並回答「她週末搭公車」。",
-      "historicalSpark": "現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。 本課聚焦於「先找主詞與動詞」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識說話者、對象與目的，再看時態、主詞與動詞；不懂的字先由前後文推測，再查證。 把本課句型換成自己的生活情境；朗讀後檢查意思是否完整，並請同伴確認是否聽懂。 本課聚焦於「先找主詞與動詞」。"
     },
     "definitions": [
       {
@@ -1883,7 +1883,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【英語文 · 現在進行式與時間表達】現在進行式的完整結構是 am/is/are＋動詞 ing，不能漏掉 be，也不能把原形動詞直接接在 be 後面。表示此刻動作與平日習慣時，即使主詞相同也可能使用不同時態。部分表示狀態的動詞通常不以進行式表一般意思，需依語意判斷。",
       "realWorldAnchor": "真實情境應用：Look! They are playing basketball. / They usually play after school. 延伸實例：看情境填句：「Ben usually ___ at home, but today he ___ at the library.」兩格都用 study，並改寫第二部分為問句。",
-      "historicalSpark": "現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。 本課聚焦於「現在進行式 be＋V-ing，描述正在進行的動作」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識說話者、對象與目的，再看時態、主詞與動詞；不懂的字先由前後文推測，再查證。 把本課句型換成自己的生活情境；朗讀後檢查意思是否完整，並請同伴確認是否聽懂。 本課聚焦於「現在進行式 be＋V-ing，描述正在進行的動作」。"
     },
     "definitions": [
       {
@@ -1955,7 +1955,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【英語文 · 過去式、未來與敘事順序】過去簡單式用來敘述已結束的過去事件，否定或問句有 did 時主要動詞用原形。未來表達可用 will 或 be going to，但須按情境理解計畫、預測等意思。敘事中的 before、after、then 能協助排列事件，不應只按句子出現位置判定先後。",
       "realWorldAnchor": "真實情境應用：I visited Tainan yesterday. / Did you visit Tainan? / We are going to visit tomorrow. 延伸實例：讀句：「After Nora finished her homework, she called Sam. They are going to visit the museum tomorrow.」誰先完成什麼？如何問她昨天是否打電話？",
-      "historicalSpark": "現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。 本課聚焦於「過去簡單式描述過去事件，否定和問句用 did＋原形」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識說話者、對象與目的，再看時態、主詞與動詞；不懂的字先由前後文推測，再查證。 把本課句型換成自己的生活情境；朗讀後檢查意思是否完整，並請同伴確認是否聽懂。 本課聚焦於「過去簡單式描述過去事件，否定和問句用 did＋原形」。"
     },
     "definitions": [
       {
@@ -2027,7 +2027,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【英語文 · 比較級、不定詞與動名詞】比較級用來比較兩個對象，最高級則在一個明確範圍中比較。動詞後接 to V 或 V-ing 往往取決於前面的動詞搭配，不能因為中文意思相近就互換；例如 enjoy reading、want to read。比較的兩端還須是同類事物，才不會出現邏輯不對稱。",
       "realWorldAnchor": "真實情境應用：This bag is lighter than that one. / I enjoy reading, and I want to read more. 延伸實例：完成句子：「Amy enjoys ___ (read). She wants ___ (buy) a book that is ___ (easy) than this one.」",
-      "historicalSpark": "現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。 本課聚焦於「比較兩者常用比較級＋than」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識說話者、對象與目的，再看時態、主詞與動詞；不懂的字先由前後文推測，再查證。 把本課句型換成自己的生活情境；朗讀後檢查意思是否完整，並請同伴確認是否聽懂。 本課聚焦於「比較兩者常用比較級＋than」。"
     },
     "definitions": [
       {
@@ -2099,7 +2099,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【英語文 · 完成式、被動與關係子句】現在完成式連結過去與現在，被動語態改變訊息焦點，關係子句則修飾名詞，三者是不同功能。被動需 be＋過去分詞，完成式需 have/has＋過去分詞；可由助動詞與主要動詞分別判讀，不要看到過去分詞就一律當過去式。",
       "realWorldAnchor": "真實情境應用：I have lived here for three years. / The bridge was built in 2000. / The boy who wears glasses is Ben. 延伸實例：合併「The bridge was repaired last year.」「The bridge connects the two towns.」並比較「Workers have repaired the bridge.」的意思。",
-      "historicalSpark": "現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。 本課聚焦於「現在完成式 have/has＋過去分詞，連結過去與現在」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識說話者、對象與目的，再看時態、主詞與動詞；不懂的字先由前後文推測，再查證。 把本課句型換成自己的生活情境；朗讀後檢查意思是否完整，並請同伴確認是否聽懂。 本課聚焦於「現在完成式 have/has＋過去分詞，連結過去與現在」。"
     },
     "definitions": [
       {
@@ -2171,7 +2171,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【英語文 · 閱讀策略與情境溝通】閱讀問題先辨識要求主旨、細節、推論或語意，再選擇讀法。公告常把限制條件放在後半段，小字仍可能决定答案；對話回應則要符合對方目的，不是選文法正確但答非所問的句子。推論必須受文本限制。",
       "realWorldAnchor": "真實情境應用：Notice: The library closes at 5 p.m. Please return books before 4:30. 借還書截止早於關門時間。 延伸實例：原創公告：「The library closes at 5 p.m. on Friday. Books can be returned through the outdoor box after closing, but DVDs must be returned at the desk.」週五六點可否還 DVD？",
-      "historicalSpark": "現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。 本課聚焦於「閱讀先確認文本目的，再找主旨、指代和細節」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識說話者、對象與目的，再看時態、主詞與動詞；不懂的字先由前後文推測，再查證。 把本課句型換成自己的生活情境；朗讀後檢查意思是否完整，並請同伴確認是否聽懂。 本課聚焦於「閱讀先確認文本目的，再找主旨、指代和細節」。"
     },
     "definitions": [
       {
@@ -2243,7 +2243,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 三角形的外心、內心與重心】三心各由不同的線交會，等距的對象也不同。外心對頂點等距、內心對邊等距，重心則分中線為 2：1；中線不是角平分線的同義詞，只有特殊三角形才可能重合。",
       "realWorldAnchor": "真實情境應用：直角三角形外心在斜邊中點，斜邊長 10 則外接圓半徑為 5。若等腰三角形底邊 8、高 6，重心到底邊距離為 6×(1/3)＝2。 延伸實例：三角形中線 AD 長 15 公分，G 為重心，若三角形面積 48 平方公分，求 AG、GD 及 △ABG 面積。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「外心是三邊中垂線交點，到三頂點等距，為外接圓圓心」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「外心是三邊中垂線交點，到三頂點等距，為外接圓圓心」。"
     },
     "definitions": [
       {
@@ -2315,7 +2315,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【國語文 · 六書原則與漢字形義流變】漢字形體、字源與現代字義是相關但不同的層次。形聲字的形旁提示意義類別，聲旁提示歷史讀音線索；語音演變會使現代音不完全相同，因此不能只憑今天是否同音判斷是否形聲。",
       "realWorldAnchor": "真實情境應用：「日、月、水」為象形；「上、下、刃」在刀上加點標示刀刃，是指事；「休」（人倚木）、「武」（止戈）為會意；「江、河、湖」形旁水部、聲旁工可胡為形聲。 延伸實例：比較「清、晴、情」的形旁與聲旁，說明為何不能把三字混用。",
-      "historicalSpark": "劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。 本課聚焦於「六書是漢字的造字與用字法則，前四者「象形、指事、會意、形聲」為造字法，後二者「轉注、假借」為用字法」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "閱讀先圈指代詞與轉折詞，再把段落作用寫成一句話；主旨判斷要回到全文，不能只摘一句。 比較兩種解讀時，各找一句原文支持，說明哪一解讀能解釋更多細節。 本課聚焦於「六書是漢字的造字與用字法則，前四者「象形、指事、會意、形聲」為造字法，後二者「轉注、假借」為用字法」。"
     },
     "definitions": [
       {
@@ -2387,7 +2387,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【國語文 · 標點符號、句型結構與語法邏輯】標點不只控制停頓，也表現並列、轉折、補充或引用等邏輯。主詞、動詞與受詞的關係要先讀清楚，修改病句時應說出究竟是成分缺漏、搭配不當還是關係混亂。",
       "realWorldAnchor": "真實情境應用：「燕子去了，有再來的時候」為敘事句；「天下沒有白吃的午餐」為有無句；「環堵蕭然」為表態句；「菊，花之隱逸者也」為文言判斷句（相當於「菊是隱逸之花」）。 延伸實例：修改「因為雨停了，所以操場仍然濕滑。」使句子的邏輯與用詞更恰當。",
-      "historicalSpark": "劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。 本課聚焦於「漢語基本句子結構通常包含主語、謂語與賓語」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "閱讀先圈指代詞與轉折詞，再把段落作用寫成一句話；主旨判斷要回到全文，不能只摘一句。 比較兩種解讀時，各找一句原文支持，說明哪一解讀能解釋更多細節。 本課聚焦於「漢語基本句子結構通常包含主語、謂語與賓語」。"
     },
     "definitions": [
       {
@@ -2459,7 +2459,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【國語文 · 古典近體詩：絕句與律詩格律賞析】近體詩的句數、字數、押韻與對仗是形式線索；賞析還須理解意象和情感。對仗常使對應位置的詞性及語意形成關係，但不能只因兩句字數一樣就認定對仗工整。",
       "realWorldAnchor": "真實情境應用：杜甫〈蜀相〉「丞相祠堂何處尋？錦官城外柏森森。映階碧草自春色，隔葉黃鸝空好音。」頷聯中「映階碧草」對「隔葉黃鸝」，「自春色」對「空好音」，詞性工整對仗。 延伸實例：某首詩共有八句，每句七字；中間兩聯分別描寫山與水、遠景與近景。可先作何種形式判讀？還要確認什麼？",
-      "historicalSpark": "劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。 本課聚焦於「近體詩盛於唐代，分為絕句（四句）與律詩（八句），每句字數固定為五言或七言」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "閱讀先圈指代詞與轉折詞，再把段落作用寫成一句話；主旨判斷要回到全文，不能只摘一句。 比較兩種解讀時，各找一句原文支持，說明哪一解讀能解釋更多細節。 本課聚焦於「近體詩盛於唐代，分為絕句（四句）與律詩（八句），每句字數固定為五言或七言」。"
     },
     "definitions": [
       {
@@ -2531,7 +2531,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【國語文 · 詞曲賞析與古代生活文化】詞牌與曲牌主要規範音樂或格律格式，不是每篇作品的故事標題。同一牌調可以寫不同主題；賞析長短句時可注意停頓、重複、時間推移和人物口吻如何塑造情緒。",
       "realWorldAnchor": "真實情境應用：李清照〈如夢令〉「昨夜雨疏風驟，濃睡不消殘酒。試問捲簾人，卻道海棠依舊。知否？知否？應是綠肥紅瘦！」詞調長短錯落，藉紅瘦比喻落花，風格清麗婉約。 延伸實例：兩首作品都使用同一詞牌，一首寫春遊，一首寫思鄉。能否因此說它們主旨相同？應如何比較？",
-      "historicalSpark": "劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。 本課聚焦於「詞盛於宋，又稱曲子詞、詩餘或長短句，依詞牌填詞，句式參差便於歌唱，分為婉約派（晏殊、李清照）與豪放派（蘇軾、辛棄疾）」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "閱讀先圈指代詞與轉折詞，再把段落作用寫成一句話；主旨判斷要回到全文，不能只摘一句。 比較兩種解讀時，各找一句原文支持，說明哪一解讀能解釋更多細節。 本課聚焦於「詞盛於宋，又稱曲子詞、詩餘或長短句，依詞牌填詞，句式參差便於歌唱，分為婉約派（晏殊、李清照）與豪放派（蘇軾、辛棄疾）」。"
     },
     "definitions": [
       {
@@ -2603,7 +2603,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【國語文 · 古典小說選讀與人性刻畫】小說中的敘事者、人物與作者不能直接畫等號。人物可能說謊、誤解或自我辯護，讀者須比較其言語和實際後果。人物形象常透過衝突呈現，而非只靠作者直接評語。",
       "realWorldAnchor": "真實情境應用：《水滸傳》寫林沖風雪山神廟，由一再隱忍、退讓到得知真相後的憤怒反抗，人物轉變層次分明，細膩刻畫「逼上梁山」的心路歷程。 延伸實例：原創故事片段：「掌櫃說一視同仁，卻先招呼衣著華麗的客人，讓粗衣少年等到天黑。」如何分析人物？",
-      "historicalSpark": "劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。 本課聚焦於「中國古代章回小說由宋元話本發展而來，明清達到高峰」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "閱讀先圈指代詞與轉折詞，再把段落作用寫成一句話；主旨判斷要回到全文，不能只摘一句。 比較兩種解讀時，各找一句原文支持，說明哪一解讀能解釋更多細節。 本課聚焦於「中國古代章回小說由宋元話本發展而來，明清達到高峰」。"
     },
     "definitions": [
       {
@@ -2675,7 +2675,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【國語文 · 應用文全覽：書信、題辭、對聯與柬帖規範】應用文的首要任務是讓對方理解並能採取行動。稱謂和語氣須符合對象，日期、時間、地點、主辦者與聯絡方法則要完整。書信的敬語不可堆疊到失去自然，也不可把自稱謙詞拿去稱呼對方。",
       "realWorldAnchor": "真實情境應用：寫給老師信封中間受信欄應寫「某某老師 安啟」，不可寫「敬啟」（敬啟意為恭敬開啟，不可請長輩敬啟）。祝賀新婚可用「宜室宜家」、「琴瑟和鳴」；祝賀醫院診所可用「妙手回春」、「仁心仁術」。 延伸實例：為校內讀書會寫一則邀請通知：週五下午四點在圖書館討論自選書，請同學帶書參加。還需補什麼？",
-      "historicalSpark": "劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。 本課聚焦於「應用文處理人際交往與社會事務」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "閱讀先圈指代詞與轉折詞，再把段落作用寫成一句話；主旨判斷要回到全文，不能只摘一句。 比較兩種解讀時，各找一句原文支持，說明哪一解讀能解釋更多細節。 本課聚焦於「應用文處理人際交往與社會事務」。"
     },
     "definitions": [
       {
@@ -2747,7 +2747,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【英語文 · 名詞單複數、指示代名詞與祈使句】名詞先分可數與不可數，再決定限定詞和單複數。this/that 對應單數，these/those 對應複數；不可數名詞若需計數，可加容器或單位詞。祈使句常省略主詞 you，直接用原形動詞，否定以 Don’t 開頭，不用 doesn’t。",
       "realWorldAnchor": "真實情境應用：This is my apple, and those are your books. / Please open your book and turn to page ten. / Don’t run in the hallway! 延伸實例：修正「This are three box of milk. Doesn’t put them here.」，並解釋代名詞 them 指什麼。",
-      "historicalSpark": "現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。 本課聚焦於「Regular plural nouns add -s or -es; irregular plurals change internally (child/children, foot/feet, man/men). Demonstratives indicate distance and number: this/that (singular), these/those (plural). Imperative sentences begin with a base verb for commands, directions, or requests (use \"Please\" for politeness).」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識說話者、對象與目的，再看時態、主詞與動詞；不懂的字先由前後文推測，再查證。 把本課句型換成自己的生活情境；朗讀後檢查意思是否完整，並請同伴確認是否聽懂。 本課聚焦於「Regular plural nouns add -s or -es; irregular plurals change internally (child/children, foot/feet, man/men). Demonstratives indicate distance and number: this/that (singular), these/those (plural). Imperative sentences begin with a base verb for commands, directions, or requests (use \"Please\" for politeness).」。"
     },
     "definitions": [
       {
@@ -2819,7 +2819,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【英語文 · 頻率副詞、情態助動詞 can 與存在句】頻率副詞描述事件多常發生，通常在一般動詞前、be 動詞後；never 本身是否定意義，標準句型中不再加 not。can 後接原形動詞，不因主詞第三人稱而加 s。存在句說明某處有什麼，和某人擁有某物的 have 不同。",
       "realWorldAnchor": "真實情境應用：She is always on time. / He often plays baseball after school. / Can you swim? Yes, I can. / There is a cat on the roof, and there are three dogs in the yard. 延伸實例：整理三句：「Lily / usually / is / early」「she / can / plays / chess」「there / two clubs / are / at school」，並說明順序。",
-      "historicalSpark": "現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。 本課聚焦於「Adverbs of frequency (always, usually, often, sometimes, never) show how often an action happens. They come before action verbs but after be-verbs. The modal verb \"can\" expresses ability or permission and is followed by a base verb. \"There is\" and \"There are\" state existence.」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識說話者、對象與目的，再看時態、主詞與動詞；不懂的字先由前後文推測，再查證。 把本課句型換成自己的生活情境；朗讀後檢查意思是否完整，並請同伴確認是否聽懂。 本課聚焦於「Adverbs of frequency (always, usually, often, sometimes, never) show how often an action happens. They come before action verbs but after be-verbs. The modal verb \"can\" expresses ability or permission and is followed by a base verb. \"There is\" and \"There are\" state existence.」。"
     },
     "definitions": [
       {
@@ -2891,7 +2891,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【英語文 · 過去進行式、時間連接詞與數量詞】過去進行式提供某個過去時間正在發生的背景，過去簡單式可描述插入或完成的事件。when 和 while 的選擇要配合事件持續性，不宜死記一個連詞永遠搭一種時態。數量詞則依可數、不可數與語氣決定。",
       "realWorldAnchor": "真實情境應用：I was doing my homework when the phone rang. / While Dad was cooking, Mom was reading a book. / She has a few friends, but very little free time. 延伸實例：完成「While Leo ___ (cook), the phone ___ (ring). There was ___ rice left, so he made only a small meal.」第三格選 a little 或 a few。",
-      "historicalSpark": "現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。 本課聚焦於「The past continuous tense (was/were + V-ing) describes an action that was in progress at a specific moment in the past. When combined with \"when\" or \"while\", it shows an ongoing background action interrupted by another past action. Countable and uncountable nouns use distinct quantifiers (many/few vs much/little).」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識說話者、對象與目的，再看時態、主詞與動詞；不懂的字先由前後文推測，再查證。 把本課句型換成自己的生活情境；朗讀後檢查意思是否完整，並請同伴確認是否聽懂。 本課聚焦於「The past continuous tense (was/were + V-ing) describes an action that was in progress at a specific moment in the past. When combined with \"when\" or \"while\", it shows an ongoing background action interrupted by another past action. Countable and uncountable nouns use distinct quantifiers (many/few vs much/little).」。"
     },
     "definitions": [
       {
@@ -2963,7 +2963,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【英語文 · 連綴動詞、感官動詞與最高級比較】連綴動詞後常接形容詞描述主詞，如 look tired、taste sweet，不能一律使用副詞。感官動詞後接受詞＋原形動詞或 V-ing，可分別著眼完整事件或正在進行的片段。最高級須交代比較範圍，避免把不同群體混在一起。",
       "realWorldAnchor": "真實情境應用：The soup tastes delicious. / That sounds like a great idea. / I saw the bird fly into the garden. / Mount Everest is the highest mountain in the world. 延伸實例：修正「The soup tastes well. I saw Ken crossed the street. He is tallest of the three boys.」，並說明原因。",
-      "historicalSpark": "現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。 本課聚焦於「Linking verbs (look, sound, smell, taste, feel) describe sensory perception and are followed by adjectives, or \"like\" + nouns. Sensory verbs (see, hear, watch, notice) take an object followed by a base verb (entire action) or V-ing (action in progress). Superlatives compare three or more items using the + -est/most.」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識說話者、對象與目的，再看時態、主詞與動詞；不懂的字先由前後文推測，再查證。 把本課句型換成自己的生活情境；朗讀後檢查意思是否完整，並請同伴確認是否聽懂。 本課聚焦於「Linking verbs (look, sound, smell, taste, feel) describe sensory perception and are followed by adjectives, or \"like\" + nouns. Sensory verbs (see, hear, watch, notice) take an object followed by a base verb (entire action) or V-ing (action in progress). Superlatives compare three or more items using the + -est/most.」。"
     },
     "definitions": [
       {
@@ -3035,7 +3035,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【英語文 · 授予動詞、使役動詞與現在完成式進階】授予動詞可有「人＋物」或「物＋介系詞＋人」兩種結構，但介系詞依動詞而不同，如 give to、buy for。使役 let/make/have 在常見主動句型中接受詞加原形動詞。現在完成式的 for 表期間長度，since 表起點，兩者不能只按中文「已經」來猜。",
       "realWorldAnchor": "真實情境應用：She bought a gift for her brother (= She bought her brother a gift). / The teacher made us clean the classroom. / I have studied English since 2020. 延伸實例：改寫「Dad bought me a bike.」並完成「He let me ___ (ride) it. I have had it ___ 2023.」，再說明為何最後不用 have bought。",
-      "historicalSpark": "現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。 本課聚焦於「Dative verbs take two objects: direct (thing) and indirect (person). When the person follows, prepositions are required: \"to\" for transfer (give, send, show), \"for\" for benefit/effort (buy, make, cook). Causative verbs (make, have, let) take an object and a bare infinitive (base verb). Present perfect with \"since\" indicates an action starting at a specific point in time.」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識說話者、對象與目的，再看時態、主詞與動詞；不懂的字先由前後文推測，再查證。 把本課句型換成自己的生活情境；朗讀後檢查意思是否完整，並請同伴確認是否聽懂。 本課聚焦於「Dative verbs take two objects: direct (thing) and indirect (person). When the person follows, prepositions are required: \"to\" for transfer (give, send, show), \"for\" for benefit/effort (buy, make, cook). Causative verbs (make, have, let) take an object and a bare infinitive (base verb). Present perfect with \"since\" indicates an action starting at a specific point in time.」。"
     },
     "definitions": [
       {
@@ -3107,7 +3107,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【英語文 · 附加問句、名詞子句與間接問句】間接問句嵌入大句後通常回到主詞在動詞前的陳述語序；疑問詞本身作主詞時另需依句子結構判斷。附加問句一般延續主句的助動詞、時態與人稱，前肯後否、前否後肯，但仍有慣用例外，不能忽略否定詞。",
       "realWorldAnchor": "真實情境應用：You like playing soccer, don’t you? / She isn’t coming, is she? / I wonder where the post office is. / Do you know if the bus has arrived? 延伸實例：合併「Can you tell me?」「Where does Eva live?」，並在「Eva lives near the station, ___?」加附加問句。",
-      "historicalSpark": "現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。 本課聚焦於「Tag questions confirm information: affirmative statements take negative tags; negative statements take affirmative tags. Noun clauses serve as subjects or objects, introduced by \"that\", \"whether/if\", or wh-question words. Indirect questions change question word order into normal statement order (wh-word + subject + verb).」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識說話者、對象與目的，再看時態、主詞與動詞；不懂的字先由前後文推測，再查證。 把本課句型換成自己的生活情境；朗讀後檢查意思是否完整，並請同伴確認是否聽懂。 本課聚焦於「Tag questions confirm information: affirmative statements take negative tags; negative statements take affirmative tags. Noun clauses serve as subjects or objects, introduced by \"that\", \"whether/if\", or wh-question words. Indirect questions change question word order into normal statement order (wh-word + subject + verb).」。"
     },
     "definitions": [
       {
@@ -3179,7 +3179,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 連比與比例式的應用】合併連比時，共同的量必須先變成相同份數。比值只表達相對大小，不能直接當成真實數量；得到連比後，再利用總量或差量決定一份是多少。",
       "realWorldAnchor": "真實情境應用：已知 a:b＝2:3，b:c＝4:5。中間項 b 的公倍數為 12，故 a:b＝8:12，b:c＝12:15，得連比 a:b:c＝8:12:15。若三人共有 700 元按此比例分配，每份為 700÷(8+12+15)＝20 元。 延伸實例：甲：乙＝2：3，乙：丙＝4：5，三人共有 350 元，求各有多少。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「連比表示三個或三個以上同類數量的比例關係」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「連比表示三個或三個以上同類數量的比例關係」。"
     },
     "definitions": [
       {
@@ -3251,7 +3251,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 等差級數與求和公式】等差級數求和可把首尾配對，每對的和相同。n 為奇數時中間項也被兩次計入於雙列相加法，所以公式仍可用；重點是確認求的是總和而不是最後一項。",
       "realWorldAnchor": "真實情境應用：計算級數 3＋7＋11＋…＋39。公差 d＝4，末項 39＝3＋(n−1)×4 得 4(n−1)＝36，n＝10 項。總和 S₁₀＝10×(3＋39)/2＝10×42/2＝210。 延伸實例：劇場第一排 12 席，每後一排增加 2 席，共 15 排，總共有幾席？",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「等差級數是等差數列各項相加的和」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「等差級數是等差數列各項相加的和」。"
     },
     "definitions": [
       {
@@ -3323,7 +3323,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 多邊形的內角和與外角和】從凸多邊形一個頂點連對角線，可分成 n−2 個三角形，因而得到內角和公式。正多邊形才可把總和平均分給各角；一般多邊形不能假設每個角相等。",
       "realWorldAnchor": "真實情境應用：正八邊形內角和＝(8−2)×180°＝1080°，每個內角＝1080°÷8＝135°；或由外角和 360°÷8＝45°，得每一內角＝180°−45°＝135°。 延伸實例：一個正多邊形每個外角為 24°，求邊數、每個內角與內角和。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「從凸 n 邊形的一個頂點可畫出 (n−3) 條對角線，將多邊形分割成 (n−2) 個三角形，因此 n 邊形內角和＝(n−2)×180°」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「從凸 n 邊形的一個頂點可畫出 (n−3) 條對角線，將多邊形分割成 (n−2) 個三角形，因此 n 邊形內角和＝(n−2)×180°」。"
     },
     "definitions": [
       {
@@ -3395,7 +3395,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 特殊四邊形與對角線幾何性質】四邊形分類是包含關係：正方形同時是長方形與菱形。對角線等長、互相平分、互相垂直是不同性質，判斷圖形時必須確認題目給了哪一些，不能以一項性質推出所有結論。",
       "realWorldAnchor": "真實情境應用：菱形的兩條對角線長分別為 6 與 8。對角線垂直平分，將菱形分成四個兩股為 3、4 的直角三角形，斜邊長＝√(3²＋4²)＝5，周長為 20，面積＝6×8÷2＝24。 延伸實例：菱形兩條對角線長 6 與 8 公分，求邊長及面積。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「特殊四邊形具有特定的對角線幾何特徵：平行四邊形對角線互相平分」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「特殊四邊形具有特定的對角線幾何特徵：平行四邊形對角線互相平分」。"
     },
     "definitions": [
       {
@@ -3467,7 +3467,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 弦切角、圓內角與圓外角定理】圓角公式都需先辨識交點在圓內、圓上或圓外。圓內交弦角使用兩段所對弧的和，圓外兩割線角使用遠近弧的差；先圈出兩段弧比背公式更能避免套錯。",
       "realWorldAnchor": "真實情境應用：圓內兩弦交於 P 點，夾出兩對頂圓內角，若所夾兩弧分別為 40° 與 80°，則圓內角＝(40°＋80°)÷2＝60°。若切線與弦夾弦切角 65°，則該弦所夾的優弧或劣弧為 65°×2＝130°。 延伸實例：兩弦在圓內相交，一角及其對頂角所對弧分別為 80°、140°，求該角與鄰角。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「圓中角的度數與所夾弧度關係緊密：圓心角＝所對弧度」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「圓中角的度數與所夾弧度關係緊密：圓心角＝所對弧度」。"
     },
     "definitions": [
       {
@@ -3539,7 +3539,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 立體圖形、三視圖與表面積體積】展開圖把立體的表面攤平，體積則描述內部所占空間。計算容器材料時要看有沒有蓋子；同樣長寬高，封閉盒與無蓋盒的表面積不同，但能容納的幾何體積不因此改變。",
       "realWorldAnchor": "真實情境應用：圓錐底面半徑 3、高 4，由畢氏定理得母線長＝√(3²＋4²)＝5。底面積＝9π，展開側面為半徑 5 的扇形，弧長等於底面圓周 6π，側面積＝(1/2)×5×6π＝15π，表面積＝9π＋15π＝24π，體積＝(1/3)×9π×4＝12π。 延伸實例：長 8、寬 5、高 3 公分的無蓋長方體盒，忽略厚度，求內部容積與製作所需表面積。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「柱體體積＝底面積×高，表面積＝2×底面積＋側面積」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「柱體體積＝底面積×高，表面積＝2×底面積＋側面積」。"
     },
     "definitions": [
       {
@@ -3611,7 +3611,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【數學 · 盒狀圖、四分位距與累積次數分配】盒狀圖以最小值、Q1、中位數、Q3、最大值呈現分布。盒長表示數值跨度，不是人數；比較離散程度時需說明用全距還是四分位距，兩種指標可能給出不同排序。",
       "realWorldAnchor": "真實情境應用：數列 1, 2, 4, 6, 8, 9, 11, 13。中位數 Q₂＝(6+8)/2＝7；下半部 1,2,4,6 的中位數 Q₁＝(2+4)/2＝3；上半部 8,9,11,13 的中位數 Q₃＝(9+11)/2＝10。四分位距 IQR＝10−3＝7。 延伸實例：甲組五數摘要為 40、55、65、75、100；乙組為 45、60、65、70、95。比較兩組中位數、全距與四分位距。",
-      "historicalSpark": "笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。 本課聚焦於「將數據由小到大排序後分成四等份，分割點為第一四分位數 Q₁（25%）、第二四分位數 Q₂（中位數，50%）與第三四分位數 Q₃（75%）」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先畫圖或列已知量，寫清楚未知數與範圍；每一次變形都要能說明依據。 換一組簡單數字測試規則，再找零、負數或邊界情況；單一例子成立不能證明一般命題。 本課聚焦於「將數據由小到大排序後分成四等份，分割點為第一四分位數 Q₁（25%）、第二四分位數 Q₂（中位數，50%）與第三四分位數 Q₃（75%）」。"
     },
     "definitions": [
       {
@@ -3683,7 +3683,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【國語文 · 先秦諸子寓言與哲理散文】寓言用具體故事引出道理，但比喻對象與現實情境不是完全相同。理解時先整理人物的目的、做法及結果，再抽取可遷移的原則；評價時也要指出原則的適用條件。",
       "realWorldAnchor": "真實情境應用：孟子以「五十步笑百步」譏諷梁惠王移民移粟並未實質改變施政，指出本質相同者不應以程度輕微而取笑他人；莊子藉「庖丁解牛」以神遇而不以目視，闡述遊刃有餘的養生哲理。 延伸實例：原創寓言：「有人見鄰田豐收，只學他每天敲三下木桶，卻不澆水施肥，秋天仍無收成。」可歸納什麼道理？",
-      "historicalSpark": "劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。 本課聚焦於「先秦時期百家爭鳴，思想家常借寓言寄託哲理」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "閱讀先圈指代詞與轉折詞，再把段落作用寫成一句話；主旨判斷要回到全文，不能只摘一句。 比較兩種解讀時，各找一句原文支持，說明哪一解讀能解釋更多細節。 本課聚焦於「先秦時期百家爭鳴，思想家常借寓言寄託哲理」。"
     },
     "definitions": [
       {
@@ -3755,7 +3755,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【國語文 · 現代記敘抒情散文與意象營造】抒情散文可以藉物、藉景或藉事表達情感。具體細節如手勢、聲音、光線，能讓讀者推知心境；前後反覆出現的意象若有變化，常可用來組織文章轉折。",
       "realWorldAnchor": "真實情境應用：〈背影〉中父親穿著黑布大馬褂、深青布棉袍，在月台蹣跚攀爬的背影，將抽象難言的父子親情化為清晰強烈的視覺特寫，使情感真摯內斂而不流於空泛說教。 延伸實例：將「我很想念搬家的朋友」改寫成一個有場景的短段落，並說明寫法。",
-      "historicalSpark": "劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。 本課聚焦於「現代記敘抒情散文融合敘事、寫景與抒情」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "閱讀先圈指代詞與轉折詞，再把段落作用寫成一句話；主旨判斷要回到全文，不能只摘一句。 比較兩種解讀時，各找一句原文支持，說明哪一解讀能解釋更多細節。 本課聚焦於「現代記敘抒情散文融合敘事、寫景與抒情」。"
     },
     "definitions": [
       {
@@ -3827,7 +3827,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【國語文 · 臺灣自然生態、海洋與在地文學】自然書寫可結合觀察、記憶與環境反思，但科學資訊仍要查證。在地文學的地方特色可從語言、產業、地景與生活關係分析，不能只列地名就算完成文化理解。",
       "realWorldAnchor": "真實情境應用：廖鴻基筆下的花蓮東海岸，將黑潮湧動與抹香鯨出水噴氣化作生命的宏偉律動；獵捕不是掠奪，而是討海人與海洋生物在風浪中的平等搏鬥與相知相惜。 延伸實例：原創句：「堤岸鋪平後，阿公走路方便了，卻再也找不到從前捉蟹的小水溝。」如何呈現人與環境的關係？",
-      "historicalSpark": "劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。 本課聚焦於「臺灣四面環海、高山聳立，孕育出深厚的自然寫作與海洋文學」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "閱讀先圈指代詞與轉折詞，再把段落作用寫成一句話；主旨判斷要回到全文，不能只摘一句。 比較兩種解讀時，各找一句原文支持，說明哪一解讀能解釋更多細節。 本課聚焦於「臺灣四面環海、高山聳立，孕育出深厚的自然寫作與海洋文學」。"
     },
     "definitions": [
       {
@@ -3899,7 +3899,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【國語文 · 會考寫作審題、立意與層次開展】寫作的立意要能由事件支撐，轉折也要讓讀者看出原因。先擬每段功能，再挑必要細節；結尾可回應開頭的想法如何改變，不必另加與事件無關的大道理。",
       "realWorldAnchor": "真實情境應用：面對題目「面對分歧的時刻」，先敘述小組報告時意見衝突的起因與僵持細節（記敘），接著描寫換位思考後的溝通與轉折（轉折），最後昇華出「接納多元看法讓視野更寬廣」的啟發（立意深化）。 延伸實例：以「一次改變想法的經驗」為題，素材是與安靜同學合作科展，如何建立四段提綱？",
-      "historicalSpark": "劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。 本課聚焦於「國中會考寫作測驗首重「審題立意、結構組織、遣詞造句、錯別字標點」」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "閱讀先圈指代詞與轉折詞，再把段落作用寫成一句話；主旨判斷要回到全文，不能只摘一句。 比較兩種解讀時，各找一句原文支持，說明哪一解讀能解釋更多細節。 本課聚焦於「國中會考寫作測驗首重「審題立意、結構組織、遣詞造句、錯別字標點」」。"
     },
     "definitions": [
       {
@@ -3971,7 +3971,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【英語文 · 介系詞與時空方位精準表達】介系詞要與所指的時間範圍及位置關係配合，也有慣用搭配。at 常定位時間點，on 用於星期或特定日期，in 用於月份、年份和一般早晚時段；但 at night、on Monday morning 不能只以「大範圍用 in」硬套。空間中的 between、among、across、through 也各有焦點。",
       "realWorldAnchor": "真實情境應用：We walked through the dark tunnel and came across the river. / The concert will take place at 8:00 p.m. on Friday, in Taipei Arena. 延伸實例：填入適當介系詞：「We meet ___ 8:30 ___ Saturday morning ___ July. Walk ___ the bridge; the café is ___ the bank and the bookstore.」",
-      "historicalSpark": "現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。 本課聚焦於「Prepositions specify time, location, and direction. Time: \"at\" for precise times (at 7:00), \"on\" for days/dates (on Monday, on May 5th), \"in\" for months/years/longer periods (in July, in 2024). Space: \"at\" a specific point (at the door), \"on\" a surface (on the wall), \"in\" an enclosed space (in the box). Direction: \"across\" (crossing surface), \"through\" (passing inside 3D volume), \"along\" (following a line).」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識說話者、對象與目的，再看時態、主詞與動詞；不懂的字先由前後文推測，再查證。 把本課句型換成自己的生活情境；朗讀後檢查意思是否完整，並請同伴確認是否聽懂。 本課聚焦於「Prepositions specify time, location, and direction. Time: \"at\" for precise times (at 7:00), \"on\" for days/dates (on Monday, on May 5th), \"in\" for months/years/longer periods (in July, in 2024). Space: \"at\" a specific point (at the door), \"on\" a surface (on the wall), \"in\" an enclosed space (in the box). Direction: \"across\" (crossing surface), \"through\" (passing inside 3D volume), \"along\" (following a line).」。"
     },
     "definitions": [
       {
@@ -4043,7 +4043,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【英語文 · 條件副詞子句與情態假設語氣】可能成真的未來條件，if 子句通常用現在式，主句可用 will、can 或祈使句；不是整句出現 tomorrow 就每個動詞都加 will。假設與現在事實相反時，過去式可表示非真實性，不一定表示過去時間。國中先熟悉一般條件表達，再把非真實假設作延伸。",
       "realWorldAnchor": "真實情境應用：If you study hard every day, you will make great progress. / Unless you leave now, you will miss the morning train (= If you do not leave now...). 延伸實例：完成「If it ___ (rain) tomorrow, we ___ (stay) home.」，再比較「If I had a car, I would drive you there.」。",
-      "historicalSpark": "現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。 本課聚焦於「Conditional adverb clauses introduced by \"if\" or \"unless\" describe conditions. In future conditional sentences (First Conditional), the condition clause uses the simple present tense to represent the future, while the main clause uses future tense with \"will/can/may\": \"If it rains tomorrow, we will cancel the picnic.\" \"Unless\" means \"if not\".」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識說話者、對象與目的，再看時態、主詞與動詞；不懂的字先由前後文推測，再查證。 把本課句型換成自己的生活情境；朗讀後檢查意思是否完整，並請同伴確認是否聽懂。 本課聚焦於「Conditional adverb clauses introduced by \"if\" or \"unless\" describe conditions. In future conditional sentences (First Conditional), the condition clause uses the simple present tense to represent the future, while the main clause uses future tense with \"will/can/may\": \"If it rains tomorrow, we will cancel the picnic.\" \"Unless\" means \"if not\".」。"
     },
     "definitions": [
       {
@@ -4115,7 +4115,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【英語文 · 關係代名詞受格省略與介系詞搭配】關係子句先找被修飾的先行詞，再把子句還原成完整句，檢查缺的是主詞還是受詞。限定子句中受格關係代名詞常可省略，主格通常不可；介系詞置於關係代名詞前時，形式與省略限制也不同。不能只看到 who/which 就刪掉。",
       "realWorldAnchor": "真實情境應用：The novel (which/that) I borrowed from the library is exciting. / This is the quiet town in which (= where) she was born. / The man whom I spoke to yesterday is our principal. 延伸實例：比較「The girl who helped me is Amy.」與「The girl whom I helped is Amy.」，何者的關係代名詞可省？並改寫「the chair which I sat on」。",
-      "historicalSpark": "現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。 本課聚焦於「When a relative pronoun (who, whom, which, that) functions as the object in a relative clause, it can be omitted in informal English. When a verb in the relative clause requires a preposition, the preposition may appear at the end of the clause, or immediately before the formal relative pronoun (preposition + whom/which; \"that\" cannot follow a preposition).」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識說話者、對象與目的，再看時態、主詞與動詞；不懂的字先由前後文推測，再查證。 把本課句型換成自己的生活情境；朗讀後檢查意思是否完整，並請同伴確認是否聽懂。 本課聚焦於「When a relative pronoun (who, whom, which, that) functions as the object in a relative clause, it can be omitted in informal English. When a verb in the relative clause requires a preposition, the preposition may appear at the end of the clause, or immediately before the formal relative pronoun (preposition + whom/which; \"that\" cannot follow a preposition).」。"
     },
     "definitions": [
       {
@@ -4187,7 +4187,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【英語文 · 跨文本圖表閱讀與素養克漏字】跨文本閱讀需先建立共同欄位，例如日期、票價、開放時段、對象與例外。題目常要求同時滿足多個條件，應逐項排除而非看到一個相同字就選答案。克漏字則先讀前後關係，判斷轉折、因果、指涉與詞性，最後再把整句讀回去檢查。",
       "realWorldAnchor": "真實情境應用：A flyer states: \"Adults $200; Students with ID $100; Free for children under 6.\" A family with two parents and a 5-year-old child pays $400. 延伸實例：原創資料：A 館週一至週六 09:00–17:00，學生票 80 元；B 館每天 12:00–20:00，學生票 100 元。郵件說：「We can go only after 6 p.m. on Sunday, and each of us has $120.」應選哪館？",
-      "historicalSpark": "現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。 本課聚焦於「Literacy reading in CAP exams requires synthesizing multimodal texts: bus timetables, weather forecasts, product packaging, infographics, and email notices. Strategies include: skimming the title and layout for the communicative purpose, scanning for specific numbers/times/conditions, and identifying context clues (synonyms, antonyms, transition words like however/therefore) to solve cloze passages.」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識說話者、對象與目的，再看時態、主詞與動詞；不懂的字先由前後文推測，再查證。 把本課句型換成自己的生活情境；朗讀後檢查意思是否完整，並請同伴確認是否聽懂。 本課聚焦於「Literacy reading in CAP exams requires synthesizing multimodal texts: bus timetables, weather forecasts, product packaging, infographics, and email notices. Strategies include: skimming the title and layout for the communicative purpose, scanning for specific numbers/times/conditions, and identifying context clues (synonyms, antonyms, transition words like however/therefore) to solve cloze passages.」。"
     },
     "definitions": [
       {
@@ -4259,7 +4259,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生物 · 細胞與顯微鏡】顯微鏡放大的是視野中物體的影像，不是把整片玻片都等比例放進眼中。高倍鏡的可見範圍較小，應先在低倍下把目標移到中央，再換高倍並微調焦距；總倍率只表示線性放大，不等於看到的細胞數倍率。",
       "realWorldAnchor": "真實情境應用：10 倍目鏡配 40 倍物鏡，總倍率 400 倍。由低倍換高倍，視野範圍變小、可見細胞數通常減少。 延伸實例：同一玻片在 10 倍目鏡、10 倍物鏡下看到許多細胞，換 40 倍物鏡後，有人說會看到四倍多細胞，對嗎？",
-      "historicalSpark": "虎克與許旺確立細胞學說，孟德爾與達爾文揭示遺傳法則與天擇演化，現代生理學則闡明神經與內分泌恆定機制。 本課聚焦於「細胞是生物構造與功能的基本單位」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨認結構所在層次，再連結功能與環境條件；避免把個體的反應直接當成族群的演化。 畫出物質或能量流動方向，標出起點與終點；用觀察證據說明連結，而非只背名詞。 本課聚焦於「細胞是生物構造與功能的基本單位」。"
     },
     "definitions": [
       {
@@ -4331,7 +4331,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生物 · 養分、光合作用與呼吸作用】植物由光合作用製造有機物，同時活細胞仍進行呼吸作用。測到的二氧化碳變化是多個過程合成的淨結果；淨吸收為零不代表所有代謝都停止。設計實驗需控制植物量、溫度及測量時間。",
       "realWorldAnchor": "真實情境應用：白天綠色植物可能同時進行光合作用與呼吸作用。夜間無光時光合作用停止，但仍持續呼吸。 延伸實例：密閉透明箱中的植物在充足光照下使 CO₂ 濃度下降，移到黑暗後卻上升，如何解釋？",
-      "historicalSpark": "虎克與許旺確立細胞學說，孟德爾與達爾文揭示遺傳法則與天擇演化，現代生理學則闡明神經與內分泌恆定機制。 本課聚焦於「光合作用利用光能將二氧化碳與水轉為有機養分並釋出氧」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨認結構所在層次，再連結功能與環境條件；避免把個體的反應直接當成族群的演化。 畫出物質或能量流動方向，標出起點與終點；用觀察證據說明連結，而非只背名詞。 本課聚焦於「光合作用利用光能將二氧化碳與水轉為有機養分並釋出氧」。"
     },
     "definitions": [
       {
@@ -4403,7 +4403,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生物 · 運輸、消化與恆定】恆定是透過調節使內部條件維持在可運作範圍，不是所有數值永遠不變。器官系統互相配合：消化吸收提供材料，循環運輸，呼吸交換氣體，排泄處理部分代謝廢物。",
       "realWorldAnchor": "真實情境應用：運動時肌肉需要更多氧與養分，心跳與呼吸會加快；流汗與皮膚血流變化協助散熱。 延伸實例：跑步後心跳、呼吸變快且流汗，是否表示身體失去恆定？",
-      "historicalSpark": "虎克與許旺確立細胞學說，孟德爾與達爾文揭示遺傳法則與天擇演化，現代生理學則闡明神經與內分泌恆定機制。 本課聚焦於「人體消化把大分子養分分解為可吸收的小分子，小腸是主要吸收場所」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨認結構所在層次，再連結功能與環境條件；避免把個體的反應直接當成族群的演化。 畫出物質或能量流動方向，標出起點與終點；用觀察證據說明連結，而非只背名詞。 本課聚焦於「人體消化把大分子養分分解為可吸收的小分子，小腸是主要吸收場所」。"
     },
     "definitions": [
       {
@@ -4475,7 +4475,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生物 · 神經、內分泌與反應】反射仍需要神經訊息傳遞與中樞整合，只是不一定先經大腦意識判斷才動作。訊息可同時往大腦傳遞，因此先縮手、後察覺疼痛不代表手臂自己思考。激素則透過血液與受器調節特定細胞。",
       "realWorldAnchor": "真實情境應用：碰到燙物時可先縮手再清楚感到疼痛；部分反射經脊髓整合，但訊息仍可上傳大腦。 延伸實例：碰到燙杯迅速縮手後才說「好燙」，以訊息路徑解釋。",
-      "historicalSpark": "虎克與許旺確立細胞學說，孟德爾與達爾文揭示遺傳法則與天擇演化，現代生理學則闡明神經與內分泌恆定機制。 本課聚焦於「神經系統透過訊息傳遞快速協調」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨認結構所在層次，再連結功能與環境條件；避免把個體的反應直接當成族群的演化。 畫出物質或能量流動方向，標出起點與終點；用觀察證據說明連結，而非只背名詞。 本課聚焦於「神經系統透過訊息傳遞快速協調」。"
     },
     "definitions": [
       {
@@ -4547,7 +4547,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生物 · 生殖、遺傳與演化】遺傳解釋性狀如何傳遞，演化則觀察族群跨世代特徵的改變。自然選擇作用於原有差異與繁殖成功，不是生物因「需要」便定向產生新性狀；單一個體的鍛鍊改變也不直接等於族群演化。",
       "realWorldAnchor": "真實情境應用：若 A 為顯性、a 為隱性，Aa×Aa 的子代可能為 AA、Aa、aa，簡單單基因模型下比例 1:2:1。 延伸實例：島上有不同喙形鳥，乾旱後較硬種子比例增加，粗喙鳥留下更多後代，可如何解釋？",
-      "historicalSpark": "虎克與許旺確立細胞學說，孟德爾與達爾文揭示遺傳法則與天擇演化，現代生理學則闡明神經與內分泌恆定機制。 本課聚焦於「有性生殖結合配子的遺傳資訊」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨認結構所在層次，再連結功能與環境條件；避免把個體的反應直接當成族群的演化。 畫出物質或能量流動方向，標出起點與終點；用觀察證據說明連結，而非只背名詞。 本課聚焦於「有性生殖結合配子的遺傳資訊」。"
     },
     "definitions": [
       {
@@ -4619,7 +4619,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生物 · 分類、生態系與能量流動】食物網箭頭由食物來源指向取食者，表示物質與能量轉移方向。能量在各層級使用與散失，不能完整傳到下一層；分解者分解遺體和廢物，使部分物質回到環境，但不把所有能量送回生產者。",
       "realWorldAnchor": "真實情境應用：草→蚱蜢→青蛙→蛇。生產者把光能轉為化學能，各營養階層消耗部分能量於生命活動。 延伸實例：草→蚱蜢→蛙→蛇，若蚱蜢突然減少，蛙與草可能如何變化？",
-      "historicalSpark": "虎克與許旺確立細胞學說，孟德爾與達爾文揭示遺傳法則與天擇演化，現代生理學則闡明神經與內分泌恆定機制。 本課聚焦於「生物分類反映特徵與親緣關係」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨認結構所在層次，再連結功能與環境條件；避免把個體的反應直接當成族群的演化。 畫出物質或能量流動方向，標出起點與終點；用觀察證據說明連結，而非只背名詞。 本課聚焦於「生物分類反映特徵與親緣關係」。"
     },
     "definitions": [
       {
@@ -4691,7 +4691,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・物理 · 測量、密度與實驗變因】密度是質量除以體積，比較不同大小物體時能排除尺寸影響。排水測體積需物體完全浸入且不溶於水、不大量吸水，量筒讀值要平視；測量條件不合適時，套公式仍可能得到錯誤結果。",
       "realWorldAnchor": "真實情境應用：質量 54 g、體積 20 cm³，密度＝2.7 g/cm³。物體切半，質量與體積都減半，密度不變。 延伸實例：金屬塊質量 81 g，放入量筒後水位由 30 mL 升到 60 mL，求密度。",
-      "historicalSpark": "伽利略以斜面理想實驗結合數學定量描述，牛頓與法拉第則以力學定律與場線模型揭示物質運動與能量守恆。 本課聚焦於「測量需記錄數值與單位」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "畫出研究物體與系統邊界，標示方向、測量量與單位，再選用對應關係。 分開判斷「量的大小」與「變化率」；用極端情境或量綱檢查公式是否合理。 本課聚焦於「測量需記錄數值與單位」。"
     },
     "definitions": [
       {
@@ -4763,7 +4763,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・物理 · 聲音與波動】波速、頻率、波長由 v＝fλ 連結，在同一介質和條件下頻率改變通常伴隨波長改變。聲音的響度不由頻率單獨決定；回聲題的時間常包含去程與回程，須辨識量測路徑。",
       "realWorldAnchor": "真實情境應用：聽到回聲的間隔為 2 秒，聲速取 340 m/s，障礙物距離＝340×2÷2＝340 m。 延伸實例：聲速以 340 m/s 計，喊叫後 0.6 秒聽到牆面回聲，牆距多遠？",
-      "historicalSpark": "伽利略以斜面理想實驗結合數學定量描述，牛頓與法拉第則以力學定律與場線模型揭示物質運動與能量守恆。 本課聚焦於「聲音是介質中的振動傳遞」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "畫出研究物體與系統邊界，標示方向、測量量與單位，再選用對應關係。 分開判斷「量的大小」與「變化率」；用極端情境或量綱檢查公式是否合理。 本課聚焦於「聲音是介質中的振動傳遞」。"
     },
     "definitions": [
       {
@@ -4835,7 +4835,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・物理 · 光的反射、折射與成像】反射角和入射角都相對法線量，不是相對鏡面量。平面鏡像位於鏡後對稱位置，屬光線反向延長線交會的虛像；物體向鏡面移動時，物像間距的變化比單側距離大。",
       "realWorldAnchor": "真實情境應用：入射光與鏡面夾 30°，與法線夾 60°，所以反射角為 60°。 延伸實例：人離平面鏡 2 m，向鏡子走近 0.5 m，物像距離減少多少？",
-      "historicalSpark": "伽利略以斜面理想實驗結合數學定量描述，牛頓與法拉第則以力學定律與場線模型揭示物質運動與能量守恆。 本課聚焦於「反射角等於入射角，角度皆由法線量起」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "畫出研究物體與系統邊界，標示方向、測量量與單位，再選用對應關係。 分開判斷「量的大小」與「變化率」；用極端情境或量綱檢查公式是否合理。 本課聚焦於「反射角等於入射角，角度皆由法線量起」。"
     },
     "definitions": [
       {
@@ -4907,7 +4907,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・物理 · 溫度、熱量與熱傳播】熱量與溫度不同，相同溫度的不同質量物體內部能量未必相同。用 Q＝mcΔT 時通常假設無相變且比熱近似固定；若有熔化、沸騰或向外散熱，需加入其他能量項目。",
       "realWorldAnchor": "真實情境應用：同質量的水與金屬接受相同熱量，比熱較小者溫度變化較大。太陽能量可藉輻射穿過真空。 延伸實例：200 g 的水升溫 10°C，取比熱 1 cal/(g·°C)，忽略熱散失，需要多少熱量？若水量加倍呢？",
-      "historicalSpark": "伽利略以斜面理想實驗結合數學定量描述，牛頓與法拉第則以力學定律與場線模型揭示物質運動與能量守恆。 本課聚焦於「溫度描述冷熱狀態，熱量是在溫差下傳遞的能量」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "畫出研究物體與系統邊界，標示方向、測量量與單位，再選用對應關係。 分開判斷「量的大小」與「變化率」；用極端情境或量綱檢查公式是否合理。 本課聚焦於「溫度描述冷熱狀態，熱量是在溫差下傳遞的能量」。"
     },
     "definitions": [
       {
@@ -4979,7 +4979,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・物理 · 運動、力與牛頓定律】牛頓第二定律用的是合力，不是任取一個力。速度與加速度不同：物體可以向右運動但向左加速而逐漸減速。畫受力圖時，每個箭頭都應作用於同一研究物體，不能混入它施給別人的反作用力。",
       "realWorldAnchor": "真實情境應用：質量 2 kg，合力 6 N，則加速度 3 m/s²。等速度前進不需要持續增加合力。 延伸實例：2 kg 小車受向右 10 N 拉力及向左 4 N 阻力，求加速度。",
-      "historicalSpark": "伽利略以斜面理想實驗結合數學定量描述，牛頓與法拉第則以力學定律與場線模型揭示物質運動與能量守恆。 本課聚焦於「平均速率＝總路程÷總時間」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "畫出研究物體與系統邊界，標示方向、測量量與單位，再選用對應關係。 分開判斷「量的大小」與「變化率」；用極端情境或量綱檢查公式是否合理。 本課聚焦於「平均速率＝總路程÷總時間」。"
     },
     "definitions": [
       {
@@ -5051,7 +5051,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・物理 · 功、能量與簡單機械】槓桿力矩用力乘以支點到力作用線的垂直距離，並非一定使用桿上兩點的斜長。理想省力機械以移動較長距離換取較小力，沒有憑空減少需要的總功；實際機械還有摩擦等耗損。",
       "realWorldAnchor": "真實情境應用：槓桿平衡：施力×施力臂＝抗力×抗力臂。力臂是支點到力作用線的垂直距離。 延伸實例：水平槓桿右側 20 N 重物距支點 0.3 m，左側施向下力距支點 0.6 m，平衡需多少力？",
-      "historicalSpark": "伽利略以斜面理想實驗結合數學定量描述，牛頓與法拉第則以力學定律與場線模型揭示物質運動與能量守恆。 本課聚焦於「力在位移方向的分量做功，方向相同時 W＝Fs」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "畫出研究物體與系統邊界，標示方向、測量量與單位，再選用對應關係。 分開判斷「量的大小」與「變化率」；用極端情境或量綱檢查公式是否合理。 本課聚焦於「力在位移方向的分量做功，方向相同時 W＝Fs」。"
     },
     "definitions": [
       {
@@ -5123,7 +5123,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・物理 · 電路、電功率與磁作用】電路計算先辨識串並聯，再找各元件兩端電壓與通過電流。功率描述每秒轉換能量的速率，電能則還乘上使用時間；同功率設備開得越久，消耗能量越多。",
       "realWorldAnchor": "真實情境應用：6 V 電池接 3 Ω 電阻，電流 2 A，功率 12 W。實際電路應避免短路。 延伸實例：6 Ω 電阻接 12 V 理想電源，求電流、功率及使用 5 分鐘的電能。",
-      "historicalSpark": "伽利略以斜面理想實驗結合數學定量描述，牛頓與法拉第則以力學定律與場線模型揭示物質運動與能量守恆。 本課聚焦於「電流需要閉合導電路徑」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "畫出研究物體與系統邊界，標示方向、測量量與單位，再選用對應關係。 分開判斷「量的大小」與「變化率」；用極端情境或量綱檢查公式是否合理。 本課聚焦於「電流需要閉合導電路徑」。"
     },
     "definitions": [
       {
@@ -5195,7 +5195,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・化學 · 物質分類與粒子模型】物理變化通常不改變物質的化學身分，化學變化則形成新物質。氣泡、顏色或溫度變化是線索，但單一現象未必能證明化學反應，例如水沸騰也有氣泡，需要更多證據判斷。",
       "realWorldAnchor": "真實情境應用：氧氣 O₂ 是元素形成的分子；水 H₂O 是化合物；空氣是多種氣體的混合物。 延伸實例：冰融化、糖溶於水、鐵生鏽三種現象，如何分類並解釋？",
-      "historicalSpark": "拉瓦節以精密天平確立質量守恆定律，道耳吞、門得列夫與阿瑞尼士則建立原子論、週期表與解離電化學架構。 本課聚焦於「純物質包括元素與化合物，成分固定」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "並列肉眼現象、粒子模型與符號表示；模型是解釋工具，不是直接看到的粒子照片。 反應前後分別清點原子種類與數量；係數改變粒子個數，下標改變物質組成，不可互換。 本課聚焦於「純物質包括元素與化合物，成分固定」。"
     },
     "definitions": [
       {
@@ -5267,7 +5267,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・化學 · 原子結構與週期表】元素身分由質子數決定，離子形成通常改變電子數，同位素則改變中子數。質量數是質子與中子數的和，不等於週期表平均原子量一定是整數；不同層次的名詞應分開使用。",
       "realWorldAnchor": "真實情境應用：碳-12 與碳-14 都有 6 個質子，分別有 6 和 8 個中子。失去電子形成正離子。 延伸實例：某粒子有 11 個質子、12 個中子、10 個電子，求質量數與電荷。",
-      "historicalSpark": "拉瓦節以精密天平確立質量守恆定律，道耳吞、門得列夫與阿瑞尼士則建立原子論、週期表與解離電化學架構。 本課聚焦於「原子核含質子與中子，電子在核外」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "並列肉眼現象、粒子模型與符號表示；模型是解釋工具，不是直接看到的粒子照片。 反應前後分別清點原子種類與數量；係數改變粒子個數，下標改變物質組成，不可互換。 本課聚焦於「原子核含質子與中子，電子在核外」。"
     },
     "definitions": [
       {
@@ -5339,7 +5339,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・化學 · 反應式與質量守恆】配平化學式是使每種原子的左右數目相等，只能調整前面的係數。反應前後總質量守恆需把系統邊界說清楚，開口容器的秤重可能因氣體進出而改變，但不表示違反守恆。",
       "realWorldAnchor": "真實情境應用：2H₂＋O₂→2H₂O，左右氫原子皆 4 個、氧原子皆 2 個。 延伸實例：某物質受熱分解，原有 10 g 固體，最後殘留 6 g 固體並放出氣體，若無其他物質進出，氣體質量多少？",
-      "historicalSpark": "拉瓦節以精密天平確立質量守恆定律，道耳吞、門得列夫與阿瑞尼士則建立原子論、週期表與解離電化學架構。 本課聚焦於「化學反應中原子種類及各種原子總數守恆」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "並列肉眼現象、粒子模型與符號表示；模型是解釋工具，不是直接看到的粒子照片。 反應前後分別清點原子種類與數量；係數改變粒子個數，下標改變物質組成，不可互換。 本課聚焦於「化學反應中原子種類及各種原子總數守恆」。"
     },
     "definitions": [
       {
@@ -5411,7 +5411,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・化學 · 溶液、濃度與溶解度】質量百分濃度的分母是溶液總質量，不是溶劑質量。稀釋加入溶劑時溶質量通常不變，濃度下降；蒸發溶劑時則相反，但若達飽和析出固體，就需重新區分溶液與未溶物。",
       "realWorldAnchor": "真實情境應用：10 g 食鹽加 90 g 水，溶液 100 g，濃度 10%。加水後溶質質量不變，但濃度下降。 延伸實例：將 20 g 鹽加入 180 g 水並完全溶解，再加 100 g 水，前後濃度各多少？",
-      "historicalSpark": "拉瓦節以精密天平確立質量守恆定律，道耳吞、門得列夫與阿瑞尼士則建立原子論、週期表與解離電化學架構。 本課聚焦於「質量百分濃度＝溶質質量÷溶液質量×100%」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "並列肉眼現象、粒子模型與符號表示；模型是解釋工具，不是直接看到的粒子照片。 反應前後分別清點原子種類與數量；係數改變粒子個數，下標改變物質組成，不可互換。 本課聚焦於「質量百分濃度＝溶質質量÷溶液質量×100%」。"
     },
     "definitions": [
       {
@@ -5483,7 +5483,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・化學 · 酸鹼、鹽類與中和】酸鹼度描述水溶液中的條件，指示劑只能在其變色範圍內提供資訊。中和是否恰好完成取決於可反應的量，不是看混合體積相同；生成的鹽也不保證使所有溶液都呈中性。",
       "realWorldAnchor": "真實情境應用：酸性水溶液使藍色石蕊變紅，鹼性水溶液使紅色石蕊變藍。不能用味覺檢測未知藥品。 延伸實例：等體積的酸與鹼混合後一定 pH＝7 嗎？以每 mL 可中和量不同的情況解釋。",
-      "historicalSpark": "拉瓦節以精密天平確立質量守恆定律，道耳吞、門得列夫與阿瑞尼士則建立原子論、週期表與解離電化學架構。 本課聚焦於「在一般國中水溶液情境，pH 小於 7 呈酸性、大於 7 呈鹼性」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "並列肉眼現象、粒子模型與符號表示；模型是解釋工具，不是直接看到的粒子照片。 反應前後分別清點原子種類與數量；係數改變粒子個數，下標改變物質組成，不可互換。 本課聚焦於「在一般國中水溶液情境，pH 小於 7 呈酸性、大於 7 呈鹼性」。"
     },
     "definitions": [
       {
@@ -5555,7 +5555,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・化學 · 氧化還原、有機物與材料】氧化還原可從氧的得失或電子轉移理解，兩者是不同深度的描述。燃燒只是某類氧化反應，不是所有氧化都快速發光發熱。材料變化還受水、氧氣及表面保護等條件影響。",
       "realWorldAnchor": "真實情境應用：鐵在氧與水參與下容易生鏽；塗漆可隔離環境。塑膠分類與回收方式取決於材質。 延伸實例：鐵釘分別放在乾燥空氣與潮濕空氣中，為何鏽蝕情形可能不同？",
-      "historicalSpark": "拉瓦節以精密天平確立質量守恆定律，道耳吞、門得列夫與阿瑞尼士則建立原子論、週期表與解離電化學架構。 本課聚焦於「國中可先用與氧結合、失去氧理解部分氧化還原」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "並列肉眼現象、粒子模型與符號表示；模型是解釋工具，不是直接看到的粒子照片。 反應前後分別清點原子種類與數量；係數改變粒子個數，下標改變物質組成，不可互換。 本課聚焦於「國中可先用與氧結合、失去氧理解部分氧化還原」。"
     },
     "definitions": [
       {
@@ -5627,7 +5627,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地球科學 · 岩石、板塊與地震】岩石依形成過程分火成、沉積與變質，不是只憑顏色或硬度分類。板塊邊界活動會造成地震、火山或造山等現象，但三者不在所有地點同時出現；地震規模與某地震度亦不同。",
       "realWorldAnchor": "真實情境應用：岩漿冷卻凝固形成火成岩；岩層受高溫高壓但未熔融可形成變質岩。 延伸實例：看到有層理且含化石的岩石，較支持哪種形成環境？能否只憑一張照片斷定年代？",
-      "historicalSpark": "魏格納大陸漂移與板塊構造學說統合了地震火山地貌；氣象與天體力學則解開鋒面環流、月相潮汐與四季星象規律。 本課聚焦於「岩石可依形成過程分為火成岩、沉積岩與變質岩」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先定觀測位置、時間尺度與參考方向；地面觀測的視運動須和實際運動分開描述。 將圖上的方向、圖例與時間標記轉成文字，再比較相鄰時刻；示意圖未必按比例繪製。 本課聚焦於「岩石可依形成過程分為火成岩、沉積岩與變質岩」。"
     },
     "definitions": [
       {
@@ -5699,7 +5699,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地球科學 · 水循環、海洋與地形】水循環由太陽能與重力等驅動，水可暫存在海洋、冰雪、土壤及地下。地表逕流與入滲比例會受地面材質、坡度和降雨強度影響；都市不透水面增加，可能改變洪峰及地下水補注。",
       "realWorldAnchor": "真實情境應用：河流出山口流速降低，沉積物堆積可形成沖積扇；海陸升溫不同形成局部環流。 延伸實例：同樣降雨落在草地與大面積柏油地，哪裡可能較快出現大量逕流？",
-      "historicalSpark": "魏格納大陸漂移與板塊構造學說統合了地震火山地貌；氣象與天體力學則解開鋒面環流、月相潮汐與四季星象規律。 本課聚焦於「太陽能與重力驅動水循環」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先定觀測位置、時間尺度與參考方向；地面觀測的視運動須和實際運動分開描述。 將圖上的方向、圖例與時間標記轉成文字，再比較相鄰時刻；示意圖未必按比例繪製。 本課聚焦於「太陽能與重力驅動水循環」。"
     },
     "definitions": [
       {
@@ -5771,7 +5771,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地球科學 · 天氣、鋒面與臺灣季風】季風描述季節性盛行風向改變，臺灣降雨還受地形、海溫與天氣系統影響。迎風坡空氣抬升冷卻可能凝結降水，背風坡則可能較乾；因此不同季節同一山脈兩側的雨量差會改變。",
       "realWorldAnchor": "真實情境應用：冬季東北季風遇臺灣北部與東北部地形抬升，迎風區較容易降雨。 延伸實例：冬季東北季風盛行時，為何臺灣東北部常比西南部更易降雨？",
-      "historicalSpark": "魏格納大陸漂移與板塊構造學說統合了地震火山地貌；氣象與天體力學則解開鋒面環流、月相潮汐與四季星象規律。 本課聚焦於「天氣是短時間大氣狀態，氣候是長期統計特徵」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先定觀測位置、時間尺度與參考方向；地面觀測的視運動須和實際運動分開描述。 將圖上的方向、圖例與時間標記轉成文字，再比較相鄰時刻；示意圖未必按比例繪製。 本課聚焦於「天氣是短時間大氣狀態，氣候是長期統計特徵」。"
     },
     "definitions": [
       {
@@ -5843,7 +5843,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地球科學 · 地球運動、四季與月相】四季主要與地軸傾斜及公轉共同造成的日照角度、晝長變化有關，不是地球夏天必定更靠近太陽。月相則由日、地、月相對位置決定可見受光面比例，與日月食的遮蔽機制不同。",
       "realWorldAnchor": "真實情境應用：北半球夏季，北半球偏向太陽，日照較直接且白晝較長。滿月時地球大致位於太陽與月球之間。 延伸實例：北半球夏季時南半球為何通常是冬季？請由地軸傾斜與日照條件解釋。",
-      "historicalSpark": "魏格納大陸漂移與板塊構造學說統合了地震火山地貌；氣象與天體力學則解開鋒面環流、月相潮汐與四季星象規律。 本課聚焦於「地球自轉造成晝夜交替，公轉加上地軸傾斜使各地日照角度和晝長隨季節變化」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先定觀測位置、時間尺度與參考方向；地面觀測的視運動須和實際運動分開描述。 將圖上的方向、圖例與時間標記轉成文字，再比較相鄰時刻；示意圖未必按比例繪製。 本課聚焦於「地球自轉造成晝夜交替，公轉加上地軸傾斜使各地日照角度和晝長隨季節變化」。"
     },
     "definitions": [
       {
@@ -5915,7 +5915,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地球科學 · 太陽系、星空與尺度】恆星自身發光，行星主要反射恆星光；夜空亮度同時受自身性質與距離影響，不能只看亮就判斷體積大。光年是距離，觀察遙遠天體相當於接收較早發出的光。",
       "realWorldAnchor": "真實情境應用：光年用來表示遙遠天體距離，不是天體年齡。地球由西向東自轉，使星空看似由東向西移動。 延伸實例：某恆星距離約 20 光年，今天看到的光大約何時離開它？可否說到那裡只需 20 年？",
-      "historicalSpark": "魏格納大陸漂移與板塊構造學說統合了地震火山地貌；氣象與天體力學則解開鋒面環流、月相潮汐與四季星象規律。 本課聚焦於「太陽是恆星，行星主要反射恆星光」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先定觀測位置、時間尺度與參考方向；地面觀測的視運動須和實際運動分開描述。 將圖上的方向、圖例與時間標記轉成文字，再比較相鄰時刻；示意圖未必按比例繪製。 本課聚焦於「太陽是恆星，行星主要反射恆星光」。"
     },
     "definitions": [
       {
@@ -5987,7 +5987,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地球科學 · 氣候變遷與永續探究】氣候變遷的判讀需長期且具代表性的資料，不能由一天冷暖取代趨勢。減緩是降低致變原因，調適是降低衝擊；兩者可同時進行，評估政策時還需考慮成本、可行性與不同群體的承擔。",
       "realWorldAnchor": "真實情境應用：節能減排屬減緩；改善排水、準備熱浪避暑空間屬調適。單次天氣不能代表長期趨勢。 延伸實例：校園加裝遮陽棚與降低用電，分別偏向調適還是減緩？",
-      "historicalSpark": "魏格納大陸漂移與板塊構造學說統合了地震火山地貌；氣象與天體力學則解開鋒面環流、月相潮汐與四季星象規律。 本課聚焦於「氣候研究須依長時間、多地點與多類資料」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先定觀測位置、時間尺度與參考方向；地面觀測的視運動須和實際運動分開描述。 將圖上的方向、圖例與時間標記轉成文字，再比較相鄰時刻；示意圖未必按比例繪製。 本課聚焦於「氣候研究須依長時間、多地點與多類資料」。"
     },
     "definitions": [
       {
@@ -6059,7 +6059,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生物 · 物質進出細胞與酵素催化作用】擴散與滲透描述粒子或水的淨移動，平衡時微觀粒子仍在運動。酵素可降低反應所需的活化能，但具有作用條件；提高溫度不是無限制加速，過高溫度可能破壞酵素結構。",
       "realWorldAnchor": "真實情境應用：紅血球置於純水中會因水分大量滲透進入而膨脹破裂；置於高濃度濃食鹽水中則會滲透失水萎縮。唾液澱粉酶在人體 37°C 且接近中性環境下催化效率最高。 延伸實例：同量澱粉與唾液在適溫及煮沸後冷卻兩組中反應，哪組較易分解澱粉？",
-      "historicalSpark": "虎克與許旺確立細胞學說，孟德爾與達爾文揭示遺傳法則與天擇演化，現代生理學則闡明神經與內分泌恆定機制。 本課聚焦於「細胞膜具有選擇通透性」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨認結構所在層次，再連結功能與環境條件；避免把個體的反應直接當成族群的演化。 畫出物質或能量流動方向，標出起點與終點；用觀察證據說明連結，而非只背名詞。 本課聚焦於「細胞膜具有選擇通透性」。"
     },
     "definitions": [
       {
@@ -6131,7 +6131,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生物 · 植物的體內運輸與水分恆定】木質部主要運送水與礦物質，韌皮部運送光合作用產物等有機物。葉片蒸散造成的水分散失可牽動水的上升；氣孔開閉在氣體交換與保水之間調節，不是越開越好。",
       "realWorldAnchor": "真實情境應用：晴天中午陽光強烈時，蒸散作用旺盛，驅動水分從根毛快速上升至樹冠頂部；若空氣過度乾燥，保衛細胞失水萎縮導致氣孔關閉，可防止水分過度散失。 延伸實例：一枝帶葉芹菜插入有色水，數小時後葉脈染色。此結果支持什麼？不足以證明什麼？",
-      "historicalSpark": "虎克與許旺確立細胞學說，孟德爾與達爾文揭示遺傳法則與天擇演化，現代生理學則闡明神經與內分泌恆定機制。 本課聚焦於「維管束植物靠木質部與韌皮部進行運輸」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨認結構所在層次，再連結功能與環境條件；避免把個體的反應直接當成族群的演化。 畫出物質或能量流動方向，標出起點與終點；用觀察證據說明連結，而非只背名詞。 本課聚焦於「維管束植物靠木質部與韌皮部進行運輸」。"
     },
     "definitions": [
       {
@@ -6203,7 +6203,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生物 · 動物呼吸系統與排泄泌尿作用】呼吸系統負責與外界氣體交換，細胞呼吸則是細胞釋放可利用能量的代謝作用。泌尿系統過濾、再吸收及調節水鹽，形成的尿液不只是原血液直接流出；排便主要排出未吸收殘渣。",
       "realWorldAnchor": "真實情境應用：劇烈運動時血液中二氧化碳濃度升高，刺激腦幹呼吸中樞加快呼吸頻率以加速排除二氧化碳；腎臟腎絲球過濾血液，腎小管再將有用的葡萄糖與大部分水分重吸收回血液。 延伸實例：有人說「肺把食物直接變成能量，腎把所有過濾物都排掉」，應如何修正？",
-      "historicalSpark": "虎克與許旺確立細胞學說，孟德爾與達爾文揭示遺傳法則與天擇演化，現代生理學則闡明神經與內分泌恆定機制。 本課聚焦於「呼吸系統進行氣體交換：吸氣時肋骨上提、橫膈下降，胸腔體積擴大、壓力降低，外界空氣進入肺泡」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨認結構所在層次，再連結功能與環境條件；避免把個體的反應直接當成族群的演化。 畫出物質或能量流動方向，標出起點與終點；用觀察證據說明連結，而非只背名詞。 本課聚焦於「呼吸系統進行氣體交換：吸氣時肋骨上提、橫膈下降，胸腔體積擴大、壓力降低，外界空氣進入肺泡」。"
     },
     "definitions": [
       {
@@ -6275,7 +6275,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生物 · 細胞分裂、減數分裂與生殖】有絲分裂通常維持染色體數，適合生長及修補；減數分裂把染色體套數減半，與有性生殖的配子形成相關。染色體複製與細胞分裂是不同步驟，DNA 複製後不能立刻說細胞數也加倍。",
       "realWorldAnchor": "真實情境應用：人類體細胞具 23 對（46 條）染色體，經過減數分裂產生的精子或卵細胞各自具有 23 條單套染色體，受精結合後恢復為 46 條二套染色體，維持世代染色體數目恆定。 延伸實例：某動物一般體細胞有 12 條染色體，正常配子及受精卵各有多少？",
-      "historicalSpark": "虎克與許旺確立細胞學說，孟德爾與達爾文揭示遺傳法則與天擇演化，現代生理學則闡明神經與內分泌恆定機制。 本課聚焦於「細胞分裂（有絲分裂）複製染色體一次、分裂一次，產生兩個染色體套數不變（2n→2n）的體細胞，用於生長與修補」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨認結構所在層次，再連結功能與環境條件；避免把個體的反應直接當成族群的演化。 畫出物質或能量流動方向，標出起點與終點；用觀察證據說明連結，而非只背名詞。 本課聚焦於「細胞分裂（有絲分裂）複製染色體一次、分裂一次，產生兩個染色體套數不變（2n→2n）的體細胞，用於生長與修補」。"
     },
     "definitions": [
       {
@@ -6347,7 +6347,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生物 · 孟德爾遺傳法則與性別性聯遺傳】孟德爾機率是特定遺傳模型的預測，不保證少量子代恰好符合比例。顯性不代表較常見、較優良或更強；性聯遺傳需把基因所在的性染色體及親代基因型寫清楚。",
       "realWorldAnchor": "真實情境應用：高莖豌豆（Tt）自交，子代基因型比例為 TT:Tt:tt＝1:2:1，表現型高莖:矮莖＝3:1。紅綠色盲男性（XᵃY）之致病等位基因必遺傳自母親（XᴬXᵃ），並將色盲基因傳給所有女兒。 延伸實例：完全顯性模型中，Aa 與 aa 配對，子代出現隱性性狀的機率是多少？",
-      "historicalSpark": "虎克與許旺確立細胞學說，孟德爾與達爾文揭示遺傳法則與天擇演化，現代生理學則闡明神經與內分泌恆定機制。 本課聚焦於「孟德爾提出分離律與自由配合律：成對遺傳因子在形成配子時彼此分離，不同對因子獨立分配」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨認結構所在層次，再連結功能與環境條件；避免把個體的反應直接當成族群的演化。 畫出物質或能量流動方向，標出起點與終點；用觀察證據說明連結，而非只背名詞。 本課聚焦於「孟德爾提出分離律與自由配合律：成對遺傳因子在形成配子時彼此分離，不同對因子獨立分配」。"
     },
     "definitions": [
       {
@@ -6419,7 +6419,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生物 · 生物多樣性、保育與環境永續】生物多樣性包括遺傳、物種及生態系層次。保育不只增加個體數，還需考慮棲地連通、遺傳差異與長期存活；引入外地物種前也要評估對當地食物網和疾病傳播的影響。",
       "realWorldAnchor": "真實情境應用：臺灣櫻花鉤吻鮭為冰河孑遺生物，棲息於大甲溪上游七家灣溪高海拔冷水域，透過劃設野生動物保護區與水質改善維護其族群遺傳多樣性。福壽螺與小花蔓澤蘭等外來入侵種缺乏天敵，威脅本土生態。 延伸實例：某保育計畫只大量繁殖同一對親代的後代，再野放到棲地已破碎的地區，可能有哪些限制？",
-      "historicalSpark": "虎克與許旺確立細胞學說，孟德爾與達爾文揭示遺傳法則與天擇演化，現代生理學則闡明神經與內分泌恆定機制。 本課聚焦於「生物多樣性包含遺傳多樣性（同物種個體間基因差異）、物種多樣性（區域內物種豐富與均勻度）與生態系多樣性（棲地與生態功能多樣）」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨認結構所在層次，再連結功能與環境條件；避免把個體的反應直接當成族群的演化。 畫出物質或能量流動方向，標出起點與終點；用觀察證據說明連結，而非只背名詞。 本課聚焦於「生物多樣性包含遺傳多樣性（同物種個體間基因差異）、物種多樣性（區域內物種豐富與均勻度）與生態系多樣性（棲地與生態功能多樣）」。"
     },
     "definitions": [
       {
@@ -6491,7 +6491,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・物理 · 浮力與阿基米德原理】浮力由流體壓力差形成，大小等於排開流體的重量。漂浮平衡時浮力等於物重；完全浸沒而受其他支撐時，不一定相等。題目若給體積，仍需確認是全部體積或浸入部分。",
       "realWorldAnchor": "真實情境應用：體積 100 cm³、質量 80 g 的木塊投入水中，因木塊密度 0.8 g/cm³ 小於水，會浮在水面上，浮力等於物重 80 gw，排開水體積為 80 cm³。 延伸實例：重 6 N 木塊漂在水面，求浮力；壓到完全浸沒時浮力可能仍是 6 N 嗎？",
-      "historicalSpark": "伽利略以斜面理想實驗結合數學定量描述，牛頓與法拉第則以力學定律與場線模型揭示物質運動與能量守恆。 本課聚焦於「浸在流體中的物體受到向上的浮力，浮力大小等於物體所排開的流體重量（B＝V_排×D_液）」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "畫出研究物體與系統邊界，標示方向、測量量與單位，再選用對應關係。 分開判斷「量的大小」與「變化率」；用極端情境或量綱檢查公式是否合理。 本課聚焦於「浸在流體中的物體受到向上的浮力，浮力大小等於物體所排開的流體重量（B＝V_排×D_液）」。"
     },
     "definitions": [
       {
@@ -6563,7 +6563,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・物理 · 液體壓力與大氣壓力】同一靜止液體中，壓力隨深度增加；若比較不同液體，還須看密度。壓力乘受力面積才是力，因此同深度大面積承受的總力可能較大。大氣壓也作用於開放液面，表壓和總壓不可混用。",
       "realWorldAnchor": "真實情境應用：液壓起重機小活塞面積 10 cm² 施力 50 kgw，可在面積 200 cm² 的大活塞上產生 50×(200/10)＝1000 kgw 的頂升力量。 延伸實例：水中兩點深度差 0.5 m，取水密度 1000 kg/m³、g＝10 m/s²，兩點壓力差多少？",
-      "historicalSpark": "伽利略以斜面理想實驗結合數學定量描述，牛頓與法拉第則以力學定律與場線模型揭示物質運動與能量守恆。 本課聚焦於「靜止液體中任意一點的液體壓力 P＝h×D（h為液面深度，D為液體密度），壓力方向垂直於接觸面且各方向相等」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "畫出研究物體與系統邊界，標示方向、測量量與單位，再選用對應關係。 分開判斷「量的大小」與「變化率」；用極端情境或量綱檢查公式是否合理。 本課聚焦於「靜止液體中任意一點的液體壓力 P＝h×D（h為液面深度，D為液體密度），壓力方向垂直於接觸面且各方向相等」。"
     },
     "definitions": [
       {
@@ -6635,7 +6635,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・物理 · 摩擦力、正向力與牛頓第一運動定律深化】靜摩擦力會在一定範圍內隨外力調整，不是永遠等於最大值。正向力垂直接觸面，未必等於物重；如果有其他鉛直分力或斜面，就要重新做受力分析。慣性描述維持運動狀態的性質，不是一個額外的力。",
       "realWorldAnchor": "真實情境應用：推動 20 kgw 重箱子，最大靜摩擦力為 8 kgw。若水平施力 5 kgw，箱子不動，靜摩擦力即為 5 kgw；若施力 10 kgw 箱子移動，摩擦力轉為動摩擦力（如 6 kgw）。 延伸實例：箱子在水平地面受 5 N 水平推力仍不動，已知沒有其他水平外力，摩擦力是多少？",
-      "historicalSpark": "伽利略以斜面理想實驗結合數學定量描述，牛頓與法拉第則以力學定律與場線模型揭示物質運動與能量守恆。 本課聚焦於「接觸面阻礙相對運動的力稱為摩擦力」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "畫出研究物體與系統邊界，標示方向、測量量與單位，再選用對應關係。 分開判斷「量的大小」與「變化率」；用極端情境或量綱檢查公式是否合理。 本課聚焦於「接觸面阻礙相對運動的力稱為摩擦力」。"
     },
     "definitions": [
       {
@@ -6707,7 +6707,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・物理 · 靜電現象與庫侖定律】摩擦起電主要涉及電子轉移，並非憑空產生正負電荷。帶電物可透過感應吸引中性物，所以「互相吸引」不足以證明兩者帶異號電；「互相排斥」在基本靜電模型中才是同號電荷的重要證據。",
       "realWorldAnchor": "真實情境應用：以毛皮摩擦塑膠尺，電子由毛皮轉移到塑膠尺使尺帶負電；帶電尺靠近細小紙屑時，紙屑近端產生感應異性電而被吸引。 延伸實例：帶負電塑膠尺吸起原本中性的小紙片，紙片是否一定先帶正電？",
-      "historicalSpark": "伽利略以斜面理想實驗結合數學定量描述，牛頓與法拉第則以力學定律與場線模型揭示物質運動與能量守恆。 本課聚焦於「物質由帶正電質子與帶負電電子組成」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "畫出研究物體與系統邊界，標示方向、測量量與單位，再選用對應關係。 分開判斷「量的大小」與「變化率」；用極端情境或量綱檢查公式是否合理。 本課聚焦於「物質由帶正電質子與帶負電電子組成」。"
     },
     "definitions": [
       {
@@ -6779,7 +6779,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・物理 · 電流的磁效應與電磁鐵】通電導線周圍有磁場，線圈可讓不同匝的磁效應集中。比較電磁鐵強弱時，每次最好只改一項條件；若同時改匝數、電流和鐵芯，就不能分清是哪一項造成差異。",
       "realWorldAnchor": "真實情境應用：螺線管中放入軟鐵棒，通電時磁力大增能吸起大量迴紋針，切斷電流磁性隨即消失；增加螺線管圈數或增大電流皆可提高磁力強度。 延伸實例：甲乙電磁鐵鐵芯相同、電流相同，甲 50 匝、乙 100 匝，如何公平比較磁效應？",
-      "historicalSpark": "伽利略以斜面理想實驗結合數學定量描述，牛頓與法拉第則以力學定律與場線模型揭示物質運動與能量守恆。 本課聚焦於「奧斯特發現電流周圍存在磁場」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "畫出研究物體與系統邊界，標示方向、測量量與單位，再選用對應關係。 分開判斷「量的大小」與「變化率」；用極端情境或量綱檢查公式是否合理。 本課聚焦於「奧斯特發現電流周圍存在磁場」。"
     },
     "definitions": [
       {
@@ -6851,7 +6851,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・物理 · 電磁感應與發電機】電磁感應關鍵是穿過線圈的磁通量改變，不是附近只要有磁鐵就一定發電。相對移動、磁場強弱或線圈角度改變都可能造成變化；有感應電動勢也不代表開路中有持續電流。",
       "realWorldAnchor": "真實情境應用：將磁鐵 N 極快速插入線圈，線圈上端產生 N 極排斥其進入；將磁鐵靜止放在線圈內部時，磁場沒有變化，檢流計指針維持在 0 不偏轉。 延伸實例：磁鐵先靜止在線圈旁，再推入閉合線圈，最後停在線圈內，電流如何變化？",
-      "historicalSpark": "伽利略以斜面理想實驗結合數學定量描述，牛頓與法拉第則以力學定律與場線模型揭示物質運動與能量守恆。 本課聚焦於「法拉第發現通過線圈的磁力線數目發生變化時，線圈會產生感應電流，稱為電磁感應」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "畫出研究物體與系統邊界，標示方向、測量量與單位，再選用對應關係。 分開判斷「量的大小」與「變化率」；用極端情境或量綱檢查公式是否合理。 本課聚焦於「法拉第發現通過線圈的磁力線數目發生變化時，線圈會產生感應電流，稱為電磁感應」。"
     },
     "definitions": [
       {
@@ -6923,7 +6923,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・化學 · 反應速率與影響因素】反應速率看單位時間內反應物減少或產物增加的量，與最後可生成的總量不同。提高濃度、溫度或接觸面積常影響速率；比較時要有相同起始條件與可重複的量測方法。",
       "realWorldAnchor": "真實情境應用：同質量的碳酸鈣，大理石粉末與鹽酸反應產生二氧化碳的速率遠快於整塊大理石塊；夏天食物容易腐壞是因為氣溫較高使化學與微生物分解反應速率加快。 延伸實例：同質量碳酸鈣粉末與大顆粒分別加入足量、同濃度酸中，粉末較快產氣，是否代表最後氣體一定更多？",
-      "historicalSpark": "拉瓦節以精密天平確立質量守恆定律，道耳吞、門得列夫與阿瑞尼士則建立原子論、週期表與解離電化學架構。 本課聚焦於「化學反應速率衡量單位時間內反應物的消耗量或生成物的產生量」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "並列肉眼現象、粒子模型與符號表示；模型是解釋工具，不是直接看到的粒子照片。 反應前後分別清點原子種類與數量；係數改變粒子個數，下標改變物質組成，不可互換。 本課聚焦於「化學反應速率衡量單位時間內反應物的消耗量或生成物的產生量」。"
     },
     "definitions": [
       {
@@ -6995,7 +6995,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・化學 · 化學平衡與勒沙特列原理】動態平衡的特徵是正逆反應速率相同，總體濃度不再隨時間明顯改變，但微觀反應仍進行。國中先分清「速率相等」與「濃度相等」；溫度、壓力與平衡常數的深入計算屬較進階內容。",
       "realWorldAnchor": "真實情境應用：鉻酸鉀黃色水溶液（CrO₄²⁻）加酸（H⁺）時，平衡向右移動轉為紅橙色的二鉻酸根（Cr₂O₇²⁻）；若改加入氫氧化鈉鹼液中和 H⁺，平衡向左移動恢復為黃色。 延伸實例：密閉系統 A⇌B 已達平衡，有人說 A、B 的分子數必相同，而且反應停止，對嗎？",
-      "historicalSpark": "拉瓦節以精密天平確立質量守恆定律，道耳吞、門得列夫與阿瑞尼士則建立原子論、週期表與解離電化學架構。 本課聚焦於「在密閉系統中，當正反應速率等於逆反應速率時，各物質的濃度不再改變，達到動態的化學平衡」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "並列肉眼現象、粒子模型與符號表示；模型是解釋工具，不是直接看到的粒子照片。 反應前後分別清點原子種類與數量；係數改變粒子個數，下標改變物質組成，不可互換。 本課聚焦於「在密閉系統中，當正反應速率等於逆反應速率時，各物質的濃度不再改變，達到動態的化學平衡」。"
     },
     "definitions": [
       {
@@ -7067,7 +7067,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・化學 · 電解質與阿瑞尼斯解離說】電解質水溶液能導電，關鍵是可移動離子，不是溶液中只要有任何溶質。離子化合物固態時離子位置受限制，導電行為與水溶液不同；導電強弱也受濃度、溫度及設備影響。",
       "realWorldAnchor": "真實情境應用：NaCl(s) 溶於水解離為 Na⁺ 與 Cl⁻，通電時陽離子向負極移動、陰離子向正極移動形成電流。蔗糖或乙醇（酒精）溶於水以分子狀態存在不解離，為非電解質。 延伸實例：同濃度食鹽水與糖水，哪種通常較能讓導電測試燈發亮？為什麼不能僅用透明與否判斷？",
-      "historicalSpark": "拉瓦節以精密天平確立質量守恆定律，道耳吞、門得列夫與阿瑞尼士則建立原子論、週期表與解離電化學架構。 本課聚焦於「溶於水能導電的化合物稱為電解質，包括酸（如 HCl、HNO₃）、鹼（如 NaOH、KOH）與鹽類（如 NaCl、KNO₃）」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "並列肉眼現象、粒子模型與符號表示；模型是解釋工具，不是直接看到的粒子照片。 反應前後分別清點原子種類與數量；係數改變粒子個數，下標改變物質組成，不可互換。 本課聚焦於「溶於水能導電的化合物稱為電解質，包括酸（如 HCl、HNO₃）、鹼（如 NaOH、KOH）與鹽類（如 NaCl、KNO₃）」。"
     },
     "definitions": [
       {
@@ -7139,7 +7139,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・化學 · 酸鹼滴定與常見生活鹽類】滴定以已知試劑的用量推估待測物的反應量。指示劑變色是實驗終點的線索，不一定與理論當量點完全重合；接近終點應逐滴加入，並排除讀數與氣泡等誤差。",
       "realWorldAnchor": "真實情境應用：胃酸過多時服用含碳酸氫鈉（小蘇打）或氫氧化鋁的胃藥中和胃酸；烘焙蛋糕時小蘇打受熱分解：2NaHCO₃→Na₂CO₃＋H₂O＋CO₂，產生的二氧化碳氣體使蛋糕蓬鬆。 延伸實例：在簡化一比一反應模型中，10 mL 某酸需 20 mL 標準鹼恰好反應；改取 15 mL 同酸需多少鹼？",
-      "historicalSpark": "拉瓦節以精密天平確立質量守恆定律，道耳吞、門得列夫與阿瑞尼士則建立原子論、週期表與解離電化學架構。 本課聚焦於「酸鹼中和反應本質為 H⁺＋OH⁻→H₂O，必為放熱反應」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "並列肉眼現象、粒子模型與符號表示；模型是解釋工具，不是直接看到的粒子照片。 反應前後分別清點原子種類與數量；係數改變粒子個數，下標改變物質組成，不可互換。 本課聚焦於「酸鹼中和反應本質為 H⁺＋OH⁻→H₂O，必為放熱反應」。"
     },
     "definitions": [
       {
@@ -7211,7 +7211,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・化學 · 常見有機化合物與石化燃料】碳氫燃料完全燃燒會產生二氧化碳與水，不完全燃燒則可能產生一氧化碳及碳粒。是否完全燃燒與氧氣供應、混合及條件有關；有機物並不等於天然、無毒或環保。",
       "realWorldAnchor": "真實情境應用：乙酸與乙醇加入少許濃硫酸加熱：CH₃COOH＋C₂H₅OH→CH₃COOC₂H₅＋H₂O，生成的乙酸乙酯難溶於水且密度小於水，浮在表面散發芳香果香。 延伸實例：甲烷完全燃燒的式子如何配平？為何不能在通風不良處使用燃燒設備？",
-      "historicalSpark": "拉瓦節以精密天平確立質量守恆定律，道耳吞、門得列夫與阿瑞尼士則建立原子論、週期表與解離電化學架構。 本課聚焦於「含碳化合物多為有機化合物（CO、CO₂、碳酸鹽與氰化物等除外）」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "並列肉眼現象、粒子模型與符號表示；模型是解釋工具，不是直接看到的粒子照片。 反應前後分別清點原子種類與數量；係數改變粒子個數，下標改變物質組成，不可互換。 本課聚焦於「含碳化合物多為有機化合物（CO、CO₂、碳酸鹽與氰化物等除外）」。"
     },
     "definitions": [
       {
@@ -7283,7 +7283,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・化學 · 聚合物與生活材料安全】聚合物的長鏈結構、交聯程度與添加物會影響柔韌、耐熱及加工性。回收分類碼只是材質辨識資訊之一，不是所有同碼產品都可加熱或接觸食物；使用條件仍要看產品標示。",
       "realWorldAnchor": "真實情境應用：聚乙烯（PE）由乙烯（C₂H₄）單體加聚而成，為鏈狀結構熱塑性塑膠；寶特瓶回收標誌 1 號為聚乙烯對苯二甲酸酯（PET），加熱可重新拉絲製成環保衣物。 延伸實例：看到塑膠容器有回收編號，就認為可以裝滾水並微波，這個判斷缺少什麼？",
-      "historicalSpark": "拉瓦節以精密天平確立質量守恆定律，道耳吞、門得列夫與阿瑞尼士則建立原子論、週期表與解離電化學架構。 本課聚焦於「聚合物由數千個以上單體重複鍵結形成的高分子化合物」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "並列肉眼現象、粒子模型與符號表示；模型是解釋工具，不是直接看到的粒子照片。 反應前後分別清點原子種類與數量；係數改變粒子個數，下標改變物質組成，不可互換。 本課聚焦於「聚合物由數千個以上單體重複鍵結形成的高分子化合物」。"
     },
     "definitions": [
       {
@@ -7355,7 +7355,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地球科學 · 地層順序與地質歷史判讀】相對年代回答先後，絕對年代回答估計時間，兩者資料來源不同。地層上新下老須假設未翻轉；斷層、岩脈或侵蝕面提供事件順序線索，應畫出事件清單逐一核對。",
       "realWorldAnchor": "真實情境應用：若一岩層沉積後被一條岩脈貫穿，且岩脈又被一條斷層切斷，則形成順序依序為：岩層沉積最老，岩脈入侵次之，斷層錯動最年輕。 延伸實例：由下而上 A、B、C 三層沉積岩，被岩脈 D 切過，最上方又覆蓋未被切穿的 E，排出形成順序。",
-      "historicalSpark": "魏格納大陸漂移與板塊構造學說統合了地震火山地貌；氣象與天體力學則解開鋒面環流、月相潮汐與四季星象規律。 本課聚焦於「地質學家透過地層與化石推斷地球歷史」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先定觀測位置、時間尺度與參考方向；地面觀測的視運動須和實際運動分開描述。 將圖上的方向、圖例與時間標記轉成文字，再比較相鄰時刻；示意圖未必按比例繪製。 本課聚焦於「地質學家透過地層與化石推斷地球歷史」。"
     },
     "definitions": [
       {
@@ -7427,7 +7427,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地球科學 · 板塊構造學說與臺灣造山運動】板塊是岩石圈的一部分，運動包含張裂、聚合及錯動。臺灣位於複雜的板塊交界，造山可由擠壓與抬升解釋，但地表同時受侵蝕；山高是多種作用長期共同影響的結果。",
       "realWorldAnchor": "真實情境應用：花東縱谷是歐亞大陸板塊與菲律賓海板塊（海岸山脈）的縫合帶；菲律賓海板塊在臺灣東北方向下隱沒至歐亞板塊之下，形成大屯火山群與基隆火山群。 延伸實例：山區同時有抬升與河流侵蝕，是否矛盾？若抬升較快會怎樣？",
-      "historicalSpark": "魏格納大陸漂移與板塊構造學說統合了地震火山地貌；氣象與天體力學則解開鋒面環流、月相潮汐與四季星象規律。 本課聚焦於「岩石圈（地殼與地函最上部）破裂成數個板塊，在軟流圈熱對流帶動下運動」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先定觀測位置、時間尺度與參考方向；地面觀測的視運動須和實際運動分開描述。 將圖上的方向、圖例與時間標記轉成文字，再比較相鄰時刻；示意圖未必按比例繪製。 本課聚焦於「岩石圈（地殼與地函最上部）破裂成數個板塊，在軟流圈熱對流帶動下運動」。"
     },
     "definitions": [
       {
@@ -7499,7 +7499,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地球科學 · 大氣氣團、鋒面系統與天氣災害】氣團有相近的溫濕特性，鋒面是不同氣團交界附近的過渡帶。天氣圖符號描述位置與移動線索，實際降雨仍需足夠水氣及抬升；防災決策應依即時官方警報，不由單一圖示自行保證安全。",
       "realWorldAnchor": "真實情境應用：冬季西伯利亞大陸冷高壓南下帶來強烈東北季風，當冷鋒過境臺灣時，氣溫劇烈下降且迎風面北臺灣降雨明顯；夏秋之際西北太平洋生成的熱帶氣旋（颱風）帶來強風豪雨。 延伸實例：某地冷鋒通過前後，溫度下降、風向改變並有短時強雨，如何串成解釋？",
-      "historicalSpark": "魏格納大陸漂移與板塊構造學說統合了地震火山地貌；氣象與天體力學則解開鋒面環流、月相潮汐與四季星象規律。 本課聚焦於「源於廣大地區且溫度與濕度均勻的空氣塊稱為氣團」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先定觀測位置、時間尺度與參考方向；地面觀測的視運動須和實際運動分開描述。 將圖上的方向、圖例與時間標記轉成文字，再比較相鄰時刻；示意圖未必按比例繪製。 本課聚焦於「源於廣大地區且溫度與濕度均勻的空氣塊稱為氣團」。"
     },
     "definitions": [
       {
@@ -7571,7 +7571,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地球科學 · 天體引力、潮汐現象與月相變化】潮汐由引潮作用及海盆、海岸等條件共同影響。朔望時日月引潮作用大致同向，潮差通常較大；上下弦時常較小。當地潮時不能只由月相直接推定，還需要潮汐預報。",
       "realWorldAnchor": "真實情境應用：臺灣西部沿海（如臺中、彰化）因海峽地形效應潮差可達 4 公尺以上，造就廣大的泥質潮間帶生態；一天通常有兩次滿潮與兩次乾潮，相鄰兩次滿潮間隔約 12 小時 25 分。 延伸實例：滿月附近一定在正午滿潮嗎？為何大潮也不等於颱風造成的暴潮？",
-      "historicalSpark": "魏格納大陸漂移與板塊構造學說統合了地震火山地貌；氣象與天體力學則解開鋒面環流、月相潮汐與四季星象規律。 本課聚焦於「潮汐主要是月球與太陽對地球海水的引潮力（萬有引力差）引起的週期性升降」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先定觀測位置、時間尺度與參考方向；地面觀測的視運動須和實際運動分開描述。 將圖上的方向、圖例與時間標記轉成文字，再比較相鄰時刻；示意圖未必按比例繪製。 本課聚焦於「潮汐主要是月球與太陽對地球海水的引潮力（萬有引力差）引起的週期性升降」。"
     },
     "definitions": [
       {
@@ -7643,7 +7643,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生物 · 人體神經系統與腦部構造分工】腦各部位分工但會合作，不能把複雜行為完全歸因於單一區。小腦參與動作協調與平衡，腦幹與基本生命維持調節相關，大腦參與知覺、思考與自主行為；脊髓亦傳遞訊息並參與反射。",
       "realWorldAnchor": "真實情境應用：騎腳踏車需要小腦協調四肢肌肉保持平衡；背誦課文與做數學題需要大腦皮質的深度思考；即使人在深度睡眠中，腦幹依然持續發送神經衝動調控心跳與橫膈呼吸。 延伸實例：學生說「寫字只用大腦，走路只用小腦」，為何過度簡化？",
-      "historicalSpark": "虎克與許旺確立細胞學說，孟德爾與達爾文揭示遺傳法則與天擇演化，現代生理學則闡明神經與內分泌恆定機制。 本課聚焦於「中樞神經系統由腦與脊髓組成，周圍神經系統包含腦神經與脊神經」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨認結構所在層次，再連結功能與環境條件；避免把個體的反應直接當成族群的演化。 畫出物質或能量流動方向，標出起點與終點；用觀察證據說明連結，而非只背名詞。 本課聚焦於「中樞神經系統由腦與脊髓組成，周圍神經系統包含腦神經與脊神經」。"
     },
     "definitions": [
       {
@@ -7715,7 +7715,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生物 · 人體消化器官與各類消化酵素專一性作用】消化包含物理性處理與化學性分解。牙齒咀嚼增加接觸面積，酵素作用於特定化學結構；膽汁幫助脂肪乳化但不是消化酵素。小腸既接收多種消化液，也有利吸收的表面構造。",
       "realWorldAnchor": "真實情境應用：吃下一口米飯在口中細嚼變甜，是唾液澱粉酶將澱粉分解成麥芽糖；吃牛排時蛋白質在胃中經胃蛋白酶初步分解，進入小腸後由胰蛋白酶與腸胜肽酶分解為小分子胺基酸被絨毛吸收。 延伸實例：將「膽汁把脂肪直接分解成小分子，所以膽汁是一種酵素」改正。",
-      "historicalSpark": "虎克與許旺確立細胞學說，孟德爾與達爾文揭示遺傳法則與天擇演化，現代生理學則闡明神經與內分泌恆定機制。 本課聚焦於「消化道包括口腔、咽、食道、胃、小腸、大腸、肛門」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨認結構所在層次，再連結功能與環境條件；避免把個體的反應直接當成族群的演化。 畫出物質或能量流動方向，標出起點與終點；用觀察證據說明連結，而非只背名詞。 本課聚焦於「消化道包括口腔、咽、食道、胃、小腸、大腸、肛門」。"
     },
     "definitions": [
       {
@@ -7787,7 +7787,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・物理 · 光的折射定律與透鏡成像規律】凸透鏡的實像可在屏上承接，虛像則不能。成像大小和正倒取決於物距相對焦距的位置；畫光路時至少用兩條特殊光線，並區分光線實際通過處與反向延長線。",
       "realWorldAnchor": "真實情境應用：將硬幣放在碗底退至看不見處，向碗中注水，硬幣因光線由水中射入空氣發生折射偏離法線，使眼睛看見硬幣浮起的虛像；拿放大鏡近距離閱讀課本字體（物距小於焦距）看到正立放大的虛像。 延伸實例：焦距 10 cm 的凸透鏡，物體分別放在 30 cm、15 cm、5 cm，判斷像的性質。",
-      "historicalSpark": "伽利略以斜面理想實驗結合數學定量描述，牛頓與法拉第則以力學定律與場線模型揭示物質運動與能量守恆。 本課聚焦於「光由光速較快的介質斜向射入光速較慢的介質時（如空氣進入玻璃或水），折射光線偏向法線（折射角小於入射角）」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "畫出研究物體與系統邊界，標示方向、測量量與單位，再選用對應關係。 分開判斷「量的大小」與「變化率」；用極端情境或量綱檢查公式是否合理。 本課聚焦於「光由光速較快的介質斜向射入光速較慢的介質時（如空氣進入玻璃或水），折射光線偏向法線（折射角小於入射角）」。"
     },
     "definitions": [
       {
@@ -7859,7 +7859,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・物理 · 動能、重力位能與力學能守恆定律】力學能為動能加重力位能等機械能，守恆需要排除非保守力做功等影響。高度基準可自行選，但同一計算要保持一致；有摩擦時機械能減少可轉成內能，不代表總能量消失。",
       "realWorldAnchor": "真實情境應用：將質量 1 kg 的小球由 20 m 高處自由釋放（g＝9.8 m/s²），落下過程中位能逐漸轉化為動能。剛釋放時 Ep＝196 J、Ek＝0；著地瞬間 Ep＝0，全部轉換為動能 Ek＝196 J，著地速率約為 19.8 m/s。 延伸實例：1 kg 物體從 5 m 高處由靜止落下，忽略空氣阻力，g＝10 m/s²，落地前速度多少？",
-      "historicalSpark": "伽利略以斜面理想實驗結合數學定量描述，牛頓與法拉第則以力學定律與場線模型揭示物質運動與能量守恆。 本課聚焦於「物體因運動具有的能量稱為動能（Ek＝½mv²，與質量成正比、與速率平方成正比）」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "畫出研究物體與系統邊界，標示方向、測量量與單位，再選用對應關係。 分開判斷「量的大小」與「變化率」；用極端情境或量綱檢查公式是否合理。 本課聚焦於「物體因運動具有的能量稱為動能（Ek＝½mv²，與質量成正比、與速率平方成正比）」。"
     },
     "definitions": [
       {
@@ -7931,7 +7931,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・化學 · 空氣成分與常見氣體實驗室製備】集氣方法取決於氣體在水中的溶解性、與水反應情況及相對空氣密度。辨識氣體須配合特定性質，不能用氣味直接嗅聞；實驗製備還須考慮壓力、熱及副產物等風險。",
       "realWorldAnchor": "真實情境應用：檢驗氧氣：將帶火星的線香伸入集氣瓶，線香立刻「復燃劇烈燃燒」；檢驗二氧化碳：將氣體通入澄清石灰水，石灰水立刻變白色渾濁（生成難溶的碳酸鈣沉澱）。 延伸實例：某氣體不易溶於水且不與水明顯反應，為何常可用排水集氣？會有哪些誤差？",
-      "historicalSpark": "拉瓦節以精密天平確立質量守恆定律，道耳吞、門得列夫與阿瑞尼士則建立原子論、週期表與解離電化學架構。 本課聚焦於「乾燥空氣體積組成：氮氣約 78%（化學性質鈍化作食品充氮防腐）、氧氣約 21%（具助燃性、生物呼吸）、氬氣約 0.9%（鈍氣）、二氧化碳約 0.04%（光合作用原料、溫室氣體）」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "並列肉眼現象、粒子模型與符號表示；模型是解釋工具，不是直接看到的粒子照片。 反應前後分別清點原子種類與數量；係數改變粒子個數，下標改變物質組成，不可互換。 本課聚焦於「乾燥空氣體積組成：氮氣約 78%（化學性質鈍化作食品充氮防腐）、氧氣約 21%（具助燃性、生物呼吸）、氬氣約 0.9%（鈍氣）、二氧化碳約 0.04%（光合作用原料、溫室氣體）」。"
     },
     "definitions": [
       {
@@ -8003,7 +8003,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【理化・化學 · 莫耳數概念與化學反應計量】莫耳把極多粒子的數量用統一單位表示。反應係數比較的是粒子數或莫耳數，不直接是克數；需先用莫耳質量把克數轉換，並找出哪個反應物先用完。",
       "realWorldAnchor": "真實情境應用：水的分子量 H₂O＝1×2＋16＝18。36 公克水含有 36÷18＝2 莫耳水分子，共約 2×6.02×10²³＝1.204×10²⁴ 個水分子。反應式 2H₂＋O₂→2H₂O 表示 2 莫耳氫氣與 1 莫耳氧氣完全反應生成 2 莫耳水。 延伸實例：2H₂＋O₂→2H₂O，給 2 mol H₂ 與 2 mol O₂，最多生成多少 mol 水，剩下什麼？",
-      "historicalSpark": "拉瓦節以精密天平確立質量守恆定律，道耳吞、門得列夫與阿瑞尼士則建立原子論、週期表與解離電化學架構。 本課聚焦於「莫耳（mol）是計算微觀粒子數目的計量單位，1 莫耳＝6.02×10²³ 個粒子（亞佛加厥數）」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "並列肉眼現象、粒子模型與符號表示；模型是解釋工具，不是直接看到的粒子照片。 反應前後分別清點原子種類與數量；係數改變粒子個數，下標改變物質組成，不可互換。 本課聚焦於「莫耳（mol）是計算微觀粒子數目的計量單位，1 莫耳＝6.02×10²³ 個粒子（亞佛加厥數）」。"
     },
     "definitions": [
       {
@@ -8075,7 +8075,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地球科學 · 地震波傳播特性與臺灣活動斷層防震防災】P 波與 S 波速度不同，抵達時間差可提供震源距離線索。規模描述一次地震的整體釋能尺度，震度描述不同地點的搖晃程度，受距離、地盤與傳播影響；同震不同地的震度可以不同。",
       "realWorldAnchor": "真實情境應用：地震發生時，遠處測站先感受到上下輕微震動（P 波到達），數秒後強烈左右劇烈晃動（S 波到達）。氣象署強震即時警報即是在 P 波偵測後迅速推算震度並在破壞性 S 波抵達前推播警報。 延伸實例：同一次地震，甲站 P、S 波到時差 4 秒，乙站 10 秒，簡化同介質模型下哪站較遠？",
-      "historicalSpark": "魏格納大陸漂移與板塊構造學說統合了地震火山地貌；氣象與天體力學則解開鋒面環流、月相潮汐與四季星象規律。 本課聚焦於「地下岩層斷裂錯動引發地震，釋放能量以地震波向外傳播」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先定觀測位置、時間尺度與參考方向；地面觀測的視運動須和實際運動分開描述。 將圖上的方向、圖例與時間標記轉成文字，再比較相鄰時刻；示意圖未必按比例繪製。 本課聚焦於「地下岩層斷裂錯動引發地震，釋放能量以地震波向外傳播」。"
     },
     "definitions": [
       {
@@ -8147,7 +8147,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地球科學 · 日食、月食天象成因與太陽系天體探索】日食與月食要求日地月接近一線，月球軌道相對地球公轉平面傾斜，因此不會每次朔望都發生食。判斷時先確定誰的影子落在誰身上，再決定可能的月相。",
       "realWorldAnchor": "真實情境應用：月全食時，月球完全進入地球本影，但陽光穿過地球大氣層時，波長較長的紅光被大氣折射投射到月面上，使月球呈現暗紅色的「血月」現象。 延伸實例：新月時一定日食、滿月時一定月食，這兩句哪裡錯？",
-      "historicalSpark": "魏格納大陸漂移與板塊構造學說統合了地震火山地貌；氣象與天體力學則解開鋒面環流、月相潮汐與四季星象規律。 本課聚焦於「日食與月食是光直線傳播造成的陰影遮蔽現象」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先定觀測位置、時間尺度與參考方向；地面觀測的視運動須和實際運動分開描述。 將圖上的方向、圖例與時間標記轉成文字，再比較相鄰時刻；示意圖未必按比例繪製。 本課聚焦於「日食與月食是光直線傳播造成的陰影遮蔽現象」。"
     },
     "definitions": [
       {
@@ -8219,7 +8219,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【歷史 · 史料判讀與早期臺灣】史料是研究過去的證據，需辨識製作者、時間、目的與保存脈絡。同時代記錄未必完全可靠，後來研究也不必然比較差；關鍵是如何交叉比對。早期臺灣研究常需結合考古、文獻及口述傳統。",
       "realWorldAnchor": "真實情境應用：同一事件的官方紀錄與民間日記可能強調不同面向；差異可成為追問線索，而非直接選一份丟掉。 延伸實例：某地出土陶片與動物骨骼，可否直接斷定居民只靠狩獵生活？",
-      "historicalSpark": "司馬遷「究天人之際，通古今之變」與現代史學實證考據結合，從多重立場史料中重建人群互動與制度變遷。 本課聚焦於「歷史研究由問題出發，檢視史料產生的時間、作者、目的與立場」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先建立事件先後，再區分背景、直接原因與後果；後發生不等於由前一事件單獨造成。 比較不同立場的史料，記下作者、時代、目的及可證明的範圍；避免用今日價值替代歷史脈絡。 本課聚焦於「歷史研究由問題出發，檢視史料產生的時間、作者、目的與立場」。"
     },
     "definitions": [
       {
@@ -8291,7 +8291,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【歷史 · 海洋交流、荷西與鄭氏】十七世紀臺灣與東亞海上貿易、歐洲商業勢力及政治變動交織。荷蘭、西班牙與鄭氏的活動應按時間、據點與目的區分；貿易帶來流動，也伴隨統治、征收與衝突，不能只看商品交換。",
       "realWorldAnchor": "真實情境應用：荷蘭在臺灣南部、西班牙在北部建立據點；1662 年鄭成功取代荷蘭在臺勢力。 延伸實例：一段資料提到臺灣鹿皮、糖經港口輸出，並有外來商人與移民。能推論哪些交流？哪些不能？",
-      "historicalSpark": "司馬遷「究天人之際，通古今之變」與現代史學實證考據結合，從多重立場史料中重建人群互動與制度變遷。 本課聚焦於「十七世紀臺灣進入更密集的海洋貿易網絡」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先建立事件先後，再區分背景、直接原因與後果；後發生不等於由前一事件單獨造成。 比較不同立場的史料，記下作者、時代、目的及可證明的範圍；避免用今日價值替代歷史脈絡。 本課聚焦於「十七世紀臺灣進入更密集的海洋貿易網絡」。"
     },
     "definitions": [
       {
@@ -8363,7 +8363,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【歷史 · 清領與日治時期的變遷】清領與日治時期的制度及建設變化需要放進各自統治目的和社會條件。交通、教育、衛生等措施可能改變生活，同時也有資源控制與不平等；分析不能只列「進步」或「壓迫」而忽略具體機制。",
       "realWorldAnchor": "真實情境應用：1895 年《馬關條約》後進入日治時期。鐵路、衛生、學校制度的改變需與治理目的及差別待遇一起分析。 延伸實例：比較兩時期的交通建設，應蒐集什麼資料，才能避免只用鐵路長度判斷全部影響？",
-      "historicalSpark": "司馬遷「究天人之際，通古今之變」與現代史學實證考據結合，從多重立場史料中重建人群互動與制度變遷。 本課聚焦於「研究清領到日治，要比較行政、經濟、教育與基礎建設，也看見不同群體承受的影響」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先建立事件先後，再區分背景、直接原因與後果；後發生不等於由前一事件單獨造成。 比較不同立場的史料，記下作者、時代、目的及可證明的範圍；避免用今日價值替代歷史脈絡。 本課聚焦於「研究清領到日治，要比較行政、經濟、教育與基礎建設，也看見不同群體承受的影響」。"
     },
     "definitions": [
       {
@@ -8435,7 +8435,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【歷史 · 戰後臺灣與民主化】民主化是制度、社會行動與政治環境長期變化的過程，不是只有某一天突然完成。研究戰後臺灣應區分政府接收、威權統治、社會變遷與民主改革等不同階段，並關心受影響者的經驗。",
       "realWorldAnchor": "真實情境應用：1987 年解除戒嚴是重要節點；理解民主發展還需連結此前與此後的社會運動、制度改革。 延伸實例：把解嚴、媒體開放、選舉改革與公民團體活動都放進民主化時間線，有何幫助？",
-      "historicalSpark": "司馬遷「究天人之際，通古今之變」與現代史學實證考據結合，從多重立場史料中重建人群互動與制度變遷。 本課聚焦於「戰後臺灣歷經政治、人口、產業與社會變遷」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先建立事件先後，再區分背景、直接原因與後果；後發生不等於由前一事件單獨造成。 比較不同立場的史料，記下作者、時代、目的及可證明的範圍；避免用今日價值替代歷史脈絡。 本課聚焦於「戰後臺灣歷經政治、人口、產業與社會變遷」。"
     },
     "definitions": [
       {
@@ -8507,7 +8507,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【歷史 · 中國與東亞：制度及文化交流】東亞交流包含制度、宗教、文字、技術與商品的傳播，接受者常會依自身需要改造，而非完整照抄。比較帝國制度時要區分中央與地方、理想規範與實際運作，避免把不同時代混成一種樣貌。",
       "realWorldAnchor": "真實情境應用：隋唐時期的制度與文化影響東亞，佛教經交通網絡傳播到不同地區並發展在地特色。 延伸實例：某國引入外來律令與文字後，又保留本地貴族及習俗，可否說它「完全失去自身文化」？",
-      "historicalSpark": "司馬遷「究天人之際，通古今之變」與現代史學實證考據結合，從多重立場史料中重建人群互動與制度變遷。 本課聚焦於「閱讀東亞史需要時間與空間框架，追蹤政治制度、人口移動、宗教與技術的傳播」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先建立事件先後，再區分背景、直接原因與後果；後發生不等於由前一事件單獨造成。 比較不同立場的史料，記下作者、時代、目的及可證明的範圍；避免用今日價值替代歷史脈絡。 本課聚焦於「閱讀東亞史需要時間與空間框架，追蹤政治制度、人口移動、宗教與技術的傳播」。"
     },
     "definitions": [
       {
@@ -8579,7 +8579,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【歷史 · 近代東亞與帝國主義】帝國主義涉及強權擴張與對外控制，可透過軍事、條約、經濟及文化等方式實施。近代東亞各社會的回應包含改革、抵抗與外交選擇，不能把各國描述為完全相同的被動接受者。",
       "realWorldAnchor": "真實情境應用：日本明治維新推動制度與產業改革；中國晚清也出現洋務、戊戌變法等改革嘗試，其目標和深度不盡相同。 延伸實例：資料顯示某國戰敗後開港、失去部分關稅自主，如何分析影響？",
-      "historicalSpark": "司馬遷「究天人之際，通古今之變」與現代史學實證考據結合，從多重立場史料中重建人群互動與制度變遷。 本課聚焦於「十九世紀東亞面對工業化國家的軍事與貿易壓力，出現不同改革與抵抗」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先建立事件先後，再區分背景、直接原因與後果；後發生不等於由前一事件單獨造成。 比較不同立場的史料，記下作者、時代、目的及可證明的範圍；避免用今日價值替代歷史脈絡。 本課聚焦於「十九世紀東亞面對工業化國家的軍事與貿易壓力，出現不同改革與抵抗」。"
     },
     "definitions": [
       {
@@ -8651,7 +8651,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【歷史 · 古代文明到近代歐洲】古代文明與近代歐洲的變遷應透過制度、思想、經濟及宗教等線索組織。文藝復興重視古典資源及人的現世活動，不表示宗教立刻消失；宗教改革也有多種社會政治背景。",
       "realWorldAnchor": "真實情境應用：啟蒙思想重視理性思辨、權利與政治正當性；不能把所有近代思想都等同單一主張。 延伸實例：某作品同時描繪宗教主題與寫實人體，是否與文藝復興互相矛盾？",
-      "historicalSpark": "司馬遷「究天人之際，通古今之變」與現代史學實證考據結合，從多重立場史料中重建人群互動與制度變遷。 本課聚焦於「世界史可從文明發展、宗教、城市與政治制度觀察長期變遷」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先建立事件先後，再區分背景、直接原因與後果；後發生不等於由前一事件單獨造成。 比較不同立場的史料，記下作者、時代、目的及可證明的範圍；避免用今日價值替代歷史脈絡。 本課聚焦於「世界史可從文明發展、宗教、城市與政治制度觀察長期變遷」。"
     },
     "definitions": [
       {
@@ -8723,7 +8723,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【歷史 · 工業革命、世界大戰與全球化】工業革命改變生產規模、能源使用與勞動組織，也伴隨都市化和社會問題。世界大戰則有長期結構與短期導火線，分析時應分層；全球化連結各地，也使衝擊可能跨境傳播。",
       "realWorldAnchor": "真實情境應用：機械化工廠提高產量，也產生勞動條件和都市環境問題；全球貿易使產品分工跨越多國。 延伸實例：工廠大量使用機械後，產量增加但工人居住擁擠，如何用同一過程解釋兩現象？",
-      "historicalSpark": "司馬遷「究天人之際，通古今之變」與現代史學實證考據結合，從多重立場史料中重建人群互動與制度變遷。 本課聚焦於「工業革命改變生產、都市和勞動關係」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先建立事件先後，再區分背景、直接原因與後果；後發生不等於由前一事件單獨造成。 比較不同立場的史料，記下作者、時代、目的及可證明的範圍；避免用今日價值替代歷史脈絡。 本課聚焦於「工業革命改變生產、都市和勞動關係」。"
     },
     "definitions": [
       {
@@ -8795,7 +8795,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地理 · 地圖、比例尺與經緯度】比例尺越大代表同圖距對應的實距越小，通常能呈現較細範圍。經度與緯度是角度位置，不是公尺距離；量圖時應先確認比例尺及方向，電子地圖縮放後紙上測得長度也會改變。",
       "realWorldAnchor": "真實情境應用：比例尺 1:50,000，圖上 2 cm 代表實地 100,000 cm＝1 km。 延伸實例：比例尺 1：25,000，兩地圖上直線距離 4 cm，實際直線距離多少？能否當成步行距離？",
-      "historicalSpark": "洪堡德與李特尔奠定近代人地關係傳統，結合現代等高線判讀、氣候統計與空間區位分析，解析區域永續發展。 本課聚焦於「地圖先讀圖名、方向、圖例和比例尺」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "讀圖先看標題、比例尺、方向與圖例，再定位地點及分布；地圖顏色深不一定代表總量多。 同時比較自然條件與人類活動，說明尺度；地方觀察不能直接推論整個國家。 本課聚焦於「地圖先讀圖名、方向、圖例和比例尺」。"
     },
     "definitions": [
       {
@@ -8867,7 +8867,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地理 · 臺灣地形、氣候與災害】臺灣地形與氣候共同影響災害風險，坡地、河川、聚落位置及土地利用都要考慮。自然事件不一定造成災害，當人口與設施暴露其中且缺乏承受能力時，損失才可能擴大。",
       "realWorldAnchor": "真實情境應用：同樣降雨量，陡坡開發、排水條件與土地利用不同，可能產生不同災害結果。 延伸實例：同樣豪雨落在未開發山坡和密集聚落上方的陡坡，為何損失可能不同？",
-      "historicalSpark": "洪堡德與李特尔奠定近代人地關係傳統，結合現代等高線判讀、氣候統計與空間區位分析，解析區域永續發展。 本課聚焦於「臺灣地形與板塊活動、流水作用等相關」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "讀圖先看標題、比例尺、方向與圖例，再定位地點及分布；地圖顏色深不一定代表總量多。 同時比較自然條件與人類活動，說明尺度；地方觀察不能直接推論整個國家。 本課聚焦於「臺灣地形與板塊活動、流水作用等相關」。"
     },
     "definitions": [
       {
@@ -8939,7 +8939,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地理 · 臺灣人口、產業與都市】人口密度、人口成長與都市化率回答不同問題。產業轉型可能帶來新的就業與遷移，也可能使某些地區流失人口；分析時應比較年齡結構、遷入遷出及自然增減，不能只看總人數。",
       "realWorldAnchor": "真實情境應用：某地自然增加為負，但若移入多於移出，總人口仍可能增加。 延伸實例：甲市人口由 20 萬增至 22 萬，乙市由 100 萬增至 105 萬，哪市成長率較高？",
-      "historicalSpark": "洪堡德與李特尔奠定近代人地關係傳統，結合現代等高線判讀、氣候統計與空間區位分析，解析區域永續發展。 本課聚焦於「人口變化受出生、死亡與遷移影響」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "讀圖先看標題、比例尺、方向與圖例，再定位地點及分布；地圖顏色深不一定代表總量多。 同時比較自然條件與人類活動，說明尺度；地方觀察不能直接推論整個國家。 本課聚焦於「人口變化受出生、死亡與遷移影響」。"
     },
     "definitions": [
       {
@@ -9011,7 +9011,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地理 · 東亞與區域差異】東亞區域比較可從地形、氣候、人口、產業及交通連結入手，國界不是自然條件整齊分割線。沿海與內陸、都市與鄉村的差異可能大於國家平均差，因此應選相同尺度比較。",
       "realWorldAnchor": "真實情境應用：沿海地區的港口和市場可能有利貿易，但產業發展還受到政策、人才與交通影響。 延伸實例：兩國平均所得不同，能否推論其中每個城市都比另一國所有地方富裕？",
-      "historicalSpark": "洪堡德與李特尔奠定近代人地關係傳統，結合現代等高線判讀、氣候統計與空間區位分析，解析區域永續發展。 本課聚焦於「區域比較應同時看自然環境、人口、產業與歷史文化」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "讀圖先看標題、比例尺、方向與圖例，再定位地點及分布；地圖顏色深不一定代表總量多。 同時比較自然條件與人類活動，說明尺度；地方觀察不能直接推論整個國家。 本課聚焦於「區域比較應同時看自然環境、人口、產業與歷史文化」。"
     },
     "definitions": [
       {
@@ -9083,7 +9083,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地理 · 亞洲、非洲與文化地景】亞洲與非洲包含多種氣候、地形、語言及生活方式，不能以沙漠或貧困等單一印象概括整洲。自然條件會影響生產，但技術、歷史及制度亦會改變人地關係。",
       "realWorldAnchor": "真實情境應用：乾燥區水資源影響聚落與農業分布；灌溉和貿易能改變限制，但也有環境成本。 延伸實例：同屬低緯度的兩地，一地雨林、一地乾燥，是否表示緯度與氣候無關？",
-      "historicalSpark": "洪堡德與李特尔奠定近代人地關係傳統，結合現代等高線判讀、氣候統計與空間區位分析，解析區域永續發展。 本課聚焦於「不同區域的氣候、水資源、歷史與宗教形塑文化地景」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "讀圖先看標題、比例尺、方向與圖例，再定位地點及分布；地圖顏色深不一定代表總量多。 同時比較自然條件與人類活動，說明尺度；地方觀察不能直接推論整個國家。 本課聚焦於「不同區域的氣候、水資源、歷史與宗教形塑文化地景」。"
     },
     "definitions": [
       {
@@ -9155,7 +9155,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地理 · 歐洲、美洲與大洋洲】世界區域的產業與聚落分布由自然條件及人類活動共同形成。洋流、山脈和海陸位置可影響氣候，交通與市場則影響產業區位；跨洲比較應使用相同單位與時間資料。",
       "realWorldAnchor": "真實情境應用：大規模農場是否可行，與土地、機械、資本、市場和制度都有關，不是單靠地廣人稀。 延伸實例：一個沿海城市冬季較同緯度內陸城市溫和，可提出哪些地理解釋？",
-      "historicalSpark": "洪堡德與李特尔奠定近代人地關係傳統，結合現代等高線判讀、氣候統計與空間區位分析，解析區域永續發展。 本課聚焦於「區域地理以位置、自然環境、人群遷移、產業與國際連結交互分析」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "讀圖先看標題、比例尺、方向與圖例，再定位地點及分布；地圖顏色深不一定代表總量多。 同時比較自然條件與人類活動，說明尺度；地方觀察不能直接推論整個國家。 本課聚焦於「區域地理以位置、自然環境、人群遷移、產業與國際連結交互分析」。"
     },
     "definitions": [
       {
@@ -9227,7 +9227,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地理 · 全球連結與環境議題】全球化使生產、消費與環境影響分布在不同地點。供應鏈分析要追蹤原料、製造、運輸、使用和廢棄，而不是只看最後組裝地；風險也可能因依賴少數節點而擴散。",
       "realWorldAnchor": "真實情境應用：水庫供水有益生活與產業，也可能改變河川生態與社區；方案需比較替代選項及成本。 延伸實例：一件衣服棉花來自甲地、紡織在乙地、縫製在丙地，如何評估它的環境足跡？",
-      "historicalSpark": "洪堡德與李特尔奠定近代人地關係傳統，結合現代等高線判讀、氣候統計與空間區位分析，解析區域永續發展。 本課聚焦於「全球生產與消費使地方相互依賴」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "讀圖先看標題、比例尺、方向與圖例，再定位地點及分布；地圖顏色深不一定代表總量多。 同時比較自然條件與人類活動，說明尺度；地方觀察不能直接推論整個國家。 本課聚焦於「全球生產與消費使地方相互依賴」。"
     },
     "definitions": [
       {
@@ -9299,7 +9299,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【公民與社會 · 自我、群體與多元文化】自我認同可同時包含家庭、語言、興趣與社群等面向，群體差異不代表個人必然符合刻板印象。討論公平需區分相同對待與回應不同需求，並以具體障礙及權益為依據。",
       "realWorldAnchor": "真實情境應用：「某性別不適合當班長」以群體印象限制個人機會；評估應回到能力與公平程序。 延伸實例：班上分組時說「女生都擅長美工、男生都負責搬東西」，應如何改進？",
-      "historicalSpark": "啟蒙運動洛克與孟德斯鳩確立人權保障與權力分立；現代法學與經濟學則以正當程序、機會成本與公共參與深化民主。 本課聚焦於「個人同時具有多種身分，透過家庭、同儕、學校與媒體學習社會規範」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認行動者、權利義務與決策層級，再比較各選擇影響的人及公共利益。 將事實敘述與價值判斷分開；涉及法規時查官方現行條文，並保留情境中的例外條件。 本課聚焦於「個人同時具有多種身分，透過家庭、同儕、學校與媒體學習社會規範」。"
     },
     "definitions": [
       {
@@ -9371,7 +9371,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【公民與社會 · 家庭、學校與公共參與】家庭與學校中的公共問題常牽涉多方需求，討論應先形成可共同確認的問題，再比較方案。多數決是工具之一，仍需尊重基本權利與程序，不能以票數高就排除少數人的合理需求。",
       "realWorldAnchor": "真實情境應用：班級討論作業安排，可先蒐集需求、列方案、比較影響，再決定與回顧。 延伸實例：班會決定音樂播放方式，多數人想大聲播放，少數同學需要安靜讀書，如何協商？",
-      "historicalSpark": "啟蒙運動洛克與孟德斯鳩確立人權保障與權力分立；現代法學與經濟學則以正當程序、機會成本與公共參與深化民主。 本課聚焦於「家庭與學校提供照顧、學習與互動場域」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認行動者、權利義務與決策層級，再比較各選擇影響的人及公共利益。 將事實敘述與價值判斷分開；涉及法規時查官方現行條文，並保留情境中的例外條件。 本課聚焦於「家庭與學校提供照顧、學習與互動場域」。"
     },
     "definitions": [
       {
@@ -9443,7 +9443,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【公民與社會 · 民主政治與權力分立】民主政治不只選舉，也需要權利保障、資訊公開及可追究的責任。權力分立使不同機關依法分工並互相制衡，但不能把制衡理解為每個機關可任意干預其他機關的合法職權。",
       "realWorldAnchor": "真實情境應用：討論政策時，應分清提出、執行與監督的角色，並核對法定權限。 延伸實例：某機關說「我們經選舉取得授權，因此不必接受任何監督」，此說法有何問題？",
-      "historicalSpark": "啟蒙運動洛克與孟德斯鳩確立人權保障與權力分立；現代法學與經濟學則以正當程序、機會成本與公共參與深化民主。 本課聚焦於「民主需要公共參與、權力制衡與權利保障」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認行動者、權利義務與決策層級，再比較各選擇影響的人及公共利益。 將事實敘述與價值判斷分開；涉及法規時查官方現行條文，並保留情境中的例外條件。 本課聚焦於「民主需要公共參與、權力制衡與權利保障」。"
     },
     "definitions": [
       {
@@ -9515,7 +9515,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【公民與社會 · 人權、法治與正當程序】法治要求權力有法律依據並遵守程序，保障個人有陳述、辯護與救濟機會。判斷事件先分清已確認事實、指控及推測；網路輿論再強，也不能取代有權機關依證據作成判斷。",
       "realWorldAnchor": "真實情境應用：處理校園違規前先查證事實、讓當事人說明、依規範作成合比例處置，比先定罪再找理由更符合程序精神。 延伸實例：網路貼文指控同學偷竊，大家要求立即公布住址與處罰，較適當的處理為何？",
-      "historicalSpark": "啟蒙運動洛克與孟德斯鳩確立人權保障與權力分立；現代法學與經濟學則以正當程序、機會成本與公共參與深化民主。 本課聚焦於「法治強調權力依法且受限制，保障人格尊嚴、權利與救濟」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認行動者、權利義務與決策層級，再比較各選擇影響的人及公共利益。 將事實敘述與價值判斷分開；涉及法規時查官方現行條文，並保留情境中的例外條件。 本課聚焦於「法治強調權力依法且受限制，保障人格尊嚴、權利與救濟」。"
     },
     "definitions": [
       {
@@ -9587,7 +9587,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【公民與社會 · 選擇、機會成本與市場】機會成本是所放棄選項中價值最高的一項，不是把所有未選方案加起來。供需分析需區分商品自身價格變動造成的沿線移動，與所得、偏好等其他因素造成整條曲線改變。",
       "realWorldAnchor": "真實情境應用：只有一小時，選讀書就可能放棄最想做的運動；不是把所有可能休閒價值加總。 延伸實例：週末只能選讀書、打工或打球，個人評價分別為 90、70、60，若選讀書，機會成本如何表達？",
-      "historicalSpark": "啟蒙運動洛克與孟德斯鳩確立人權保障與權力分立；現代法學與經濟學則以正當程序、機會成本與公共參與深化民主。 本課聚焦於「資源有限使人需要選擇」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認行動者、權利義務與決策層級，再比較各選擇影響的人及公共利益。 將事實敘述與價值判斷分開；涉及法規時查官方現行條文，並保留情境中的例外條件。 本課聚焦於「資源有限使人需要選擇」。"
     },
     "definitions": [
       {
@@ -9659,7 +9659,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【公民與社會 · 媒體素養、全球化與永續消費】媒體內容需分辨事實、意見、廣告與推測。查證不只是找另一篇相同說法，若兩篇都抄同一來源，並未增加獨立證據。演算法常依互動推薦內容，看到很多次不等於社會所有人都同意。",
       "realWorldAnchor": "真實情境應用：看到「震驚！所有人都必須轉傳」先找原始公告與可靠資料，不以分享數判定真假。 延伸實例：一則「某產品讓成績提高一倍」貼文只有網紅見證與購買連結，應檢查什麼？",
-      "historicalSpark": "啟蒙運動洛克與孟德斯鳩確立人權保障與權力分立；現代法學與經濟學則以正當程序、機會成本與公共參與深化民主。 本課聚焦於「媒體訊息需核對來源、時間、證據與傳播目的」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認行動者、權利義務與決策層級，再比較各選擇影響的人及公共利益。 將事實敘述與價值判斷分開；涉及法規時查官方現行條文，並保留情境中的例外條件。 本課聚焦於「媒體訊息需核對來源、時間、證據與傳播目的」。"
     },
     "definitions": [
       {
@@ -9731,7 +9731,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【歷史 · 臺灣南島語族與多元原住民族文化】臺灣原住民族語言多屬南島語系，但語系關係不等於各族文化完全相同。研究遷徙與交流需結合語言、考古及其他證據；口述傳統有其社群脈絡，不宜任意改寫成單一版本的歷史。",
       "realWorldAnchor": "真實情境應用：新北市八里十三行遺址出土的大量鐵渣、玻璃珠、瑪瑙與中國唐宋銅錢，證實千年前十三行人已具備煉鐵技術並與海外人群展開頻繁貿易。 延伸實例：兩個部落的建築與祭儀不同，是否能據此否定其語言間可能有親緣關係？",
-      "historicalSpark": "司馬遷「究天人之際，通古今之變」與現代史學實證考據結合，從多重立場史料中重建人群互動與制度變遷。 本課聚焦於「臺灣是南島語族擴散的重要發源地之一」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先建立事件先後，再區分背景、直接原因與後果；後發生不等於由前一事件單獨造成。 比較不同立場的史料，記下作者、時代、目的及可證明的範圍；避免用今日價值替代歷史脈絡。 本課聚焦於「臺灣是南島語族擴散的重要發源地之一」。"
     },
     "definitions": [
       {
@@ -9803,7 +9803,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【歷史 · 中國古代國家形成與封建帝制】分封與郡縣可比較地方權力如何取得、是否世襲及與中央的關係。歷史制度的實際運作常有混合與變化，不能說一個朝代只有一種模式；中央集權也不表示中央能完全掌控所有地方事務。",
       "realWorldAnchor": "真實情境應用：西周宗法制規範「大宗」百世不遷、「小宗」五世則遷，將血緣宗族與國家政治權力緊密結合；秦代郡縣長官由朝廷直接任免、不得世襲，徹底打破貴族世襲特權。 延伸實例：某制度由中央任命地方官、調動及考核；另一制度以宗族封授並世襲。主要差別是什麼？",
-      "historicalSpark": "司馬遷「究天人之際，通古今之變」與現代史學實證考據結合，從多重立場史料中重建人群互動與制度變遷。 本課聚焦於「商代甲骨文與青銅器反映神權統治」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先建立事件先後，再區分背景、直接原因與後果；後發生不等於由前一事件單獨造成。 比較不同立場的史料，記下作者、時代、目的及可證明的範圍；避免用今日價值替代歷史脈絡。 本課聚焦於「商代甲骨文與青銅器反映神權統治」。"
     },
     "definitions": [
       {
@@ -9875,7 +9875,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【歷史 · 明清社會變遷與西力東漸】明清商業、人口與區域經濟變化，需同時看內部生產與外部貿易。白銀流動可能連結全球市場，但各地參與程度不同；面對西方勢力時，也有不同階段的政策與社會回應。",
       "realWorldAnchor": "真實情境應用：徐光啟與利瑪竇合作翻譯《幾何原本》，李時珍撰成《本草綱目》，宋應星著《天工開物》，展現明清時期實用科技與傳統格物學問的融合進展。 延伸實例：某地以經濟作物換取白銀，再購買糧食，這與自給農業有何不同？",
-      "historicalSpark": "司馬遷「究天人之際，通古今之變」與現代史學實證考據結合，從多重立場史料中重建人群互動與制度變遷。 本課聚焦於「明清時期江南市鎮經濟高度繁榮，美洲白銀大量流入促成「一條鞭法」與「攤丁入畝」賦稅改革（實物徭役改為折銀繳納）」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先建立事件先後，再區分背景、直接原因與後果；後發生不等於由前一事件單獨造成。 比較不同立場的史料，記下作者、時代、目的及可證明的範圍；避免用今日價值替代歷史脈絡。 本課聚焦於「明清時期江南市鎮經濟高度繁榮，美洲白銀大量流入促成「一條鞭法」與「攤丁入畝」賦稅改革（實物徭役改為折銀繳納）」。"
     },
     "definitions": [
       {
@@ -9947,7 +9947,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【歷史 · 古希臘羅馬古典文明與民主法律】雅典民主與現代民主的公民範圍及參與制度不同，不能只因名稱相同就認為人人平等。羅馬法律經驗對後世有影響，但法律體系也會隨政治與社會條件變動。比較歷史時要保留時代差異。",
       "realWorldAnchor": "真實情境應用：雅典公民透過抽籤與舉手表決直接參與城邦公共決策；羅馬《十二表法》將習慣法銘刻於銅表公開於廣場，保障平民免受貴族任意專斷判決。 延伸實例：「雅典有公民大會，所以所有居民都有平等政治權利」哪裡不完整？",
-      "historicalSpark": "司馬遷「究天人之際，通古今之變」與現代史學實證考據結合，從多重立場史料中重建人群互動與制度變遷。 本課聚焦於「古希臘由愛琴海多島多山環境演育出城邦政治」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先建立事件先後，再區分背景、直接原因與後果；後發生不等於由前一事件單獨造成。 比較不同立場的史料，記下作者、時代、目的及可證明的範圍；避免用今日價值替代歷史脈絡。 本課聚焦於「古希臘由愛琴海多島多山環境演育出城邦政治」。"
     },
     "definitions": [
       {
@@ -10019,7 +10019,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地理 · 等高線地形圖判讀與臺灣水文環境】等高線在同一張圖上代表固定高度，線密通常坡陡，線疏坡緩。谷地與稜線的彎曲方向要搭配標高確認；河流順重力由高向低，不能只看地圖上方下方判斷流向。",
       "realWorldAnchor": "真實情境應用：濁水溪為臺灣最長河川，高屏溪流域面積最大。由於地質脆弱且坡度陡峭，豪雨時常造成嚴重水土流失並使水庫淤積，因此需興建水庫、沉沙池與越域引水設施。 延伸實例：一條河依次穿過 300、250、200 公尺等高線，流向如何？若某段線更密代表什麼？",
-      "historicalSpark": "洪堡德與李特尔奠定近代人地關係傳統，結合現代等高線判讀、氣候統計與空間區位分析，解析區域永續發展。 本課聚焦於「等高線閉合處數值外低內高為山頂、外高內低為盆地」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "讀圖先看標題、比例尺、方向與圖例，再定位地點及分布；地圖顏色深不一定代表總量多。 同時比較自然條件與人類活動，說明尺度；地方觀察不能直接推論整個國家。 本課聚焦於「等高線閉合處數值外低內高為山頂、外高內低為盆地」。"
     },
     "definitions": [
       {
@@ -10091,7 +10091,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地理 · 季風亞洲與世界文明搖籃】季風影響降雨季節，河川與灌溉又影響農業及聚落。文明發展不能只歸因於「有河流」；洪水管理、分工、政治組織與交流也很重要，且不同流域的條件不相同。",
       "realWorldAnchor": "真實情境應用：南亞印度半島夏季吹西南季風帶來豐沛雨水，若西南季風遲來或雨量不足，常引發旱災與農作歉收；恆河平原土壤肥沃、水源充足，是世界人口最稠密農業區之一。 延伸實例：季風農業區若雨季延遲，可能如何影響稻作與用水規劃？",
-      "historicalSpark": "洪堡德與李特尔奠定近代人地關係傳統，結合現代等高線判讀、氣候統計與空間區位分析，解析區域永續發展。 本課聚焦於「東亞、南亞與東南亞受海陸比熱差異影響形成顯著的季風氣候（夏季吹向大陸帶來豐沛暖濕水氣，冬季吹向海洋寒冷乾燥）」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "讀圖先看標題、比例尺、方向與圖例，再定位地點及分布；地圖顏色深不一定代表總量多。 同時比較自然條件與人類活動，說明尺度；地方觀察不能直接推論整個國家。 本課聚焦於「東亞、南亞與東南亞受海陸比熱差異影響形成顯著的季風氣候（夏季吹向大陸帶來豐沛暖濕水氣，冬季吹向海洋寒冷乾燥）」。"
     },
     "definitions": [
       {
@@ -10163,7 +10163,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地理 · 美國與北美洲區域發展特色】北美產業區位會受資源、交通、勞動力、技術與市場影響，產業帶不是永遠不變。區域專業化可提高效率，但也使地方更暴露於特定產業的需求及技術變化。",
       "realWorldAnchor": "真實情境應用：美國中西部玉米帶地勢平坦、土壤肥沃，利用 GPS、無人機與大型聯合收割機進行精準農業，農場規模龐大但勞動力需求極少，農產品高度商業化並外銷全球。 延伸實例：某傳統工業城市因工廠外移而人口下降，能否只解釋成當地居民不努力？",
-      "historicalSpark": "洪堡德與李特尔奠定近代人地關係傳統，結合現代等高線判讀、氣候統計與空間區位分析，解析區域永續發展。 本課聚焦於「北美洲地形呈三大縱列帶：東部古老低矮阿帕拉契山脈、中部廣大平原（密西西比河流域）、西部高峻年輕落磯山脈」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "讀圖先看標題、比例尺、方向與圖例，再定位地點及分布；地圖顏色深不一定代表總量多。 同時比較自然條件與人類活動，說明尺度；地方觀察不能直接推論整個國家。 本課聚焦於「北美洲地形呈三大縱列帶：東部古老低矮阿帕拉契山脈、中部廣大平原（密西西比河流域）、西部高峻年輕落磯山脈」。"
     },
     "definitions": [
       {
@@ -10235,7 +10235,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【公民與社會 · 少年法律保護與權益維護】少年權益保護重視發展需求、支持與適當程序，不能只用「未成年所以完全不用負責」或「做錯就等同成人處罰」兩種極端理解。具體年齡、事件及法律效果須依現行規定和專業處理。",
       "realWorldAnchor": "真實情境應用：少年無照駕駛或涉入聚眾滋事，少年法院法官審酌其家庭環境與再犯風險，可裁定責付家長管教或交付少年保護官執行「保護管束」，輔導其健全成長。 延伸實例：同學遇到網路威脅卻怕被責怪而不敢求助，旁人可以如何支持？",
-      "historicalSpark": "啟蒙運動洛克與孟德斯鳩確立人權保障與權力分立；現代法學與經濟學則以正當程序、機會成本與公共參與深化民主。 本課聚焦於「法律考量少年（12 歲以上未滿 18 歲）身心發展尚未成熟，以保護優先而非純懲罰」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認行動者、權利義務與決策層級，再比較各選擇影響的人及公共利益。 將事實敘述與價值判斷分開；涉及法規時查官方現行條文，並保留情境中的例外條件。 本課聚焦於「法律考量少年（12 歲以上未滿 18 歲）身心發展尚未成熟，以保護優先而非純懲罰」。"
     },
     "definitions": [
       {
@@ -10307,7 +10307,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【公民與社會 · 現代法治體系：民法、刑法與行政法】民事、刑事與行政責任的目的及程序不同，同一事件可能涉及多種責任。賠償通常處理損害填補，刑事追訴處理犯罪疑義，行政措施則涉及公法管理；不能看到「罰」字就一律分類相同。",
       "realWorldAnchor": "真實情境應用：跟同學借筆記本不小心弄壞需負民事損害賠償責任；無故竊取他人手機涉犯刑法竊盜罪需負刑事責任；未戴安全帽被交通警察開罰單屬於行政罰，不服可循行政救濟。 延伸實例：交通事故造成他人受傷，為何可能同時談賠償、刑事責任與交通裁罰？",
-      "historicalSpark": "啟蒙運動洛克與孟德斯鳩確立人權保障與權力分立；現代法學與經濟學則以正當程序、機會成本與公共參與深化民主。 本課聚焦於「現代法治國家依法律性質劃分：民法處理私人間財產與身分關係（私法自治、契約自由、侵權行為損害賠償）」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認行動者、權利義務與決策層級，再比較各選擇影響的人及公共利益。 將事實敘述與價值判斷分開；涉及法規時查官方現行條文，並保留情境中的例外條件。 本課聚焦於「現代法治國家依法律性質劃分：民法處理私人間財產與身分關係（私法自治、契約自由、侵權行為損害賠償）」。"
     },
     "definitions": [
       {
@@ -10379,7 +10379,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【公民與社會 · 市場競爭、外部效果與政府管制】外部效果發生在交易之外的第三者受到影響，而此影響未完全反映於價格。政策可用規範、費用、補助或資訊等方式處理，但每種工具都有執行成本與分配效果，不存在不需評估的單一答案。",
       "realWorldAnchor": "真實情境應用：火力發電廠發電提供用電便利，但排放空氣汙染危害周遭居民健康，屬於外部成本；政府向排碳業者徵收碳費（排碳稅），將外部成本內部化。 延伸實例：工廠產品便宜，但廢水使下游居民增加淨水支出，為何市場價格可能未反映全部成本？",
-      "historicalSpark": "啟蒙運動洛克與孟德斯鳩確立人權保障與權力分立；現代法學與經濟學則以正當程序、機會成本與公共參與深化民主。 本課聚焦於「市場價格由買賣雙方的供給與需求共同決定」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認行動者、權利義務與決策層級，再比較各選擇影響的人及公共利益。 將事實敘述與價值判斷分開；涉及法規時查官方現行條文，並保留情境中的例外條件。 本課聚焦於「市場價格由買賣雙方的供給與需求共同決定」。"
     },
     "definitions": [
       {
@@ -10451,7 +10451,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【歷史 · 清領開港通商與臺灣近代化建設】開港後商品、資金、交通與國際需求互相牽動，臺灣區域發展也因茶、糖、樟腦等產業而改變。近代化建設須放進財政、軍事與貿易背景，不能只用設施清單替代因果分析。",
       "realWorldAnchor": "真實情境應用：樟腦與茶葉多產於北部丘陵與山區，帶動新北、桃竹苗客家族群與丘陵拓墾，淡水河口的大稻埕洋行林立，取代南部府城（台南）成為全臺最大商業集散中心。 延伸實例：出口茶業發展，為何可能帶動北部港口、商業與交通需求？",
-      "historicalSpark": "司馬遷「究天人之際，通古今之變」與現代史學實證考據結合，從多重立場史料中重建人群互動與制度變遷。 本課聚焦於「1858 年英法聯軍《天津條約》與 1860 年《北京條約》後，臺灣陸續開放安平、淡水、雞籠（基隆）、打狗（高雄）四港」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先建立事件先後，再區分背景、直接原因與後果；後發生不等於由前一事件單獨造成。 比較不同立場的史料，記下作者、時代、目的及可證明的範圍；避免用今日價值替代歷史脈絡。 本課聚焦於「1858 年英法聯軍《天津條約》與 1860 年《北京條約》後，臺灣陸續開放安平、淡水、雞籠（基隆）、打狗（高雄）四港」。"
     },
     "definitions": [
       {
@@ -10523,7 +10523,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【歷史 · 辛亥革命與中華民國建立到對日抗戰】辛亥革命後政治制度改變，但國家權力整合與社會問題並未立刻解決。分析從共和建立到戰爭的歷程，需分辨政府、地方勢力、政黨與國際環境，避免把不同階段合成一個穩定狀態。",
       "realWorldAnchor": "真實情境應用：胡適發表〈文學改良芻議〉提倡白話文、陳獨秀創辦《新青年》，推動思想啟蒙與反封建禮教；對日抗戰期間國民政府遷都重慶，歷經淞滬會戰、武漢會戰等持久抗戰消耗日軍。 延伸實例：有人說「建立共和後，政治便立刻穩定且所有人獲得同等參與」，如何用歷史思考檢查？",
-      "historicalSpark": "司馬遷「究天人之際，通古今之變」與現代史學實證考據結合，從多重立場史料中重建人群互動與制度變遷。 本課聚焦於「孫中山創立興中會、同盟會，提出三民主義（民族、民權、民生）」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先建立事件先後，再區分背景、直接原因與後果；後發生不等於由前一事件單獨造成。 比較不同立場的史料，記下作者、時代、目的及可證明的範圍；避免用今日價值替代歷史脈絡。 本課聚焦於「孫中山創立興中會、同盟會，提出三民主義（民族、民權、民生）」。"
     },
     "definitions": [
       {
@@ -10595,7 +10595,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【歷史 · 二次大戰後冷戰對峙與全球解殖潮】冷戰既有兩大陣營對抗，也有未完全依附任一方的國家與運動。解殖涉及殖民地爭取政治自主，但獨立後仍可能面對經濟依賴、邊界衝突及內部整合問題，不能把獨立日當成所有問題終點。",
       "realWorldAnchor": "真實情境應用：韓戰（1950-1953）爆發促使美國派遣第七艦隊協防臺灣海峽，將臺灣納入亞太防共島鏈防線；柏林圍牆於 1989 年倒塌，象徵冷戰鐵幕的瓦解與東西德統一的開端。 延伸實例：某新獨立國家接受外援卻不願加入軍事同盟，可如何理解其選擇？",
-      "historicalSpark": "司馬遷「究天人之際，通古今之變」與現代史學實證考據結合，從多重立場史料中重建人群互動與制度變遷。 本課聚焦於「二戰後以美國為首的資本主義民主陣營（成立北約組織 NATO）與以蘇聯為首的共產極權陣營（華沙公約組織）形成「冷戰」長期對峙」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先建立事件先後，再區分背景、直接原因與後果；後發生不等於由前一事件單獨造成。 比較不同立場的史料，記下作者、時代、目的及可證明的範圍；避免用今日價值替代歷史脈絡。 本課聚焦於「二戰後以美國為首的資本主義民主陣營（成立北約組織 NATO）與以蘇聯為首的共產極權陣營（華沙公約組織）形成「冷戰」長期對峙」。"
     },
     "definitions": [
       {
@@ -10667,7 +10667,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地理 · 臺灣交通網絡與城鄉區域均衡發展】交通改善可降低時間成本，擴大通勤、就學和就醫範圍，但也可能集中資源到大城市。區域均衡應看可達性與公共服務，不是每地蓋相同設施；評估需包含沒有車的居民。",
       "realWorldAnchor": "真實情境應用：臺灣高鐵通車後，臺北至高雄縮短至 90 分鐘，商務客當日來回，促成西部走廊一日生活圈；但也加劇非高鐵沿線偏鄉小鎮的消費與人才向都會中心移轉。 延伸實例：新快速道路開通後，城鎮到大城市更快，是否保證本地商店營收增加？",
-      "historicalSpark": "洪堡德與李特尔奠定近代人地關係傳統，結合現代等高線判讀、氣候統計與空間區位分析，解析區域永續發展。 本課聚焦於「臺灣交通網絡包括環島鐵路網、高速鐵路、國道公路系統及海空運港口」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "讀圖先看標題、比例尺、方向與圖例，再定位地點及分布；地圖顏色深不一定代表總量多。 同時比較自然條件與人類活動，說明尺度；地方觀察不能直接推論整個國家。 本課聚焦於「臺灣交通網絡包括環島鐵路網、高速鐵路、國道公路系統及海空運港口」。"
     },
     "definitions": [
       {
@@ -10739,7 +10739,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地理 · 西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治】西亞與中亞的乾燥環境並非處處相同，山地、海岸與綠洲可有不同水資源條件。石油分布也不平均，宗教與文化更不能用單一形象概括；分析衝突須同時看歷史、政治與經濟。",
       "realWorldAnchor": "真實情境應用：沙烏地阿拉伯、阿拉伯聯合大公國（杜拜）等國早期仰賴豐沛石油財富累積龐大主權基金，近年因應全球減碳積極投資海水淡化、太陽能與觀光金融多元轉型。 延伸實例：某乾燥地區石油收入高，卻仍重視海水淡化與節水，兩者矛盾嗎？",
-      "historicalSpark": "洪堡德與李特尔奠定近代人地關係傳統，結合現代等高線判讀、氣候統計與空間區位分析，解析區域永續發展。 本課聚焦於「西亞與中亞位居歐亞非三洲樞紐，受副熱帶高壓籠罩與深居內陸影響，以熱帶與溫帶沙漠、草原氣候為主，水資源極為珍貴（坎兒井、尼羅河與幼發拉底河底格里斯河灌溉）」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "讀圖先看標題、比例尺、方向與圖例，再定位地點及分布；地圖顏色深不一定代表總量多。 同時比較自然條件與人類活動，說明尺度；地方觀察不能直接推論整個國家。 本課聚焦於「西亞與中亞位居歐亞非三洲樞紐，受副熱帶高壓籠罩與深居內陸影響，以熱帶與溫帶沙漠、草原氣候為主，水資源極為珍貴（坎兒井、尼羅河與幼發拉底河底格里斯河灌溉）」。"
     },
     "definitions": [
       {
@@ -10811,7 +10811,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【地理 · 澳洲、紐西蘭與大洋洲島嶼地理環境】澳洲人口常集中於較宜居且交通經濟條件較佳的沿海地帶，內陸廣大不代表人口平均分布。大洋洲島嶼在面積、地形及發展條件上差異很大，海平面與災害風險也需按地方分析。",
       "realWorldAnchor": "真實情境應用：澳洲利用大自流盆地的自流水（含鹽分高不宜灌溉，但適合作為牲畜飲用水）發展大規模放牧業，羊毛與牛肉外銷全球，有「騎在羊背上的國家」之美譽。 延伸實例：澳洲面積很大，是否表示大部分居民住在內陸，且各地人口密度相近？",
-      "historicalSpark": "洪堡德與李特尔奠定近代人地關係傳統，結合現代等高線判讀、氣候統計與空間區位分析，解析區域永續發展。 本課聚焦於「澳洲大陸地處南半球，為古老低平侵蝕陸塊，長期與其他大陸隔離，演化出袋鼠、無尾熊等特有有袋類生物」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "讀圖先看標題、比例尺、方向與圖例，再定位地點及分布；地圖顏色深不一定代表總量多。 同時比較自然條件與人類活動，說明尺度；地方觀察不能直接推論整個國家。 本課聚焦於「澳洲大陸地處南半球，為古老低平侵蝕陸塊，長期與其他大陸隔離，演化出袋鼠、無尾熊等特有有袋類生物」。"
     },
     "definitions": [
       {
@@ -10883,7 +10883,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【公民與社會 · 地方自治、社區參與與地方創生】地方自治與社區參與處理貼近生活的公共事務，但權限、預算及程序需依法劃分。地方創生也不只是辦活動或賣特產，應從人口、就業、生活服務及文化需求設計可持續方案。",
       "realWorldAnchor": "真實情境應用：某縣市政府編列預算擬興建垃圾焚化廠，縣議會有權刪減或否決該筆預算；當地社區居民若有疑慮，亦可依法連署提出地方性公民投票，決定公共設施設置與否。 延伸實例：社區想改善公園照明，如何把抱怨轉成可處理的公共提案？",
-      "historicalSpark": "啟蒙運動洛克與孟德斯鳩確立人權保障與權力分立；現代法學與經濟學則以正當程序、機會成本與公共參與深化民主。 本課聚焦於「地方自治落實主權在民與因地制宜，由住民自主處理地方公共事務」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認行動者、權利義務與決策層級，再比較各選擇影響的人及公共利益。 將事實敘述與價值判斷分開；涉及法規時查官方現行條文，並保留情境中的例外條件。 本課聚焦於「地方自治落實主權在民與因地制宜，由住民自主處理地方公共事務」。"
     },
     "definitions": [
       {
@@ -10955,7 +10955,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【公民與社會 · 中央政府體制與五院職權分工制衡】中央政府不同機關有各自法定職權，理解五院需把名稱與功能、制衡關係對應，而非把「院」看成上下級單一路線。遇到具體爭議仍要查相關制度，不能由日常語意猜權限。",
       "realWorldAnchor": "真實情境應用：行政院若認為立法院通過的法律案或預算案窒礙難行，經總統核可後可移請立法院「覆議」；若立法院全體立法委員二分之一以上決議維持原案，行政院長即應接受該決議。 延伸實例：看到行政機關提出政策、立法機關審議法律與預算，能否說行政部門可以自行決定所有法律？",
-      "historicalSpark": "啟蒙運動洛克與孟德斯鳩確立人權保障與權力分立；現代法學與經濟學則以正當程序、機會成本與公共參與深化民主。 本課聚焦於「我國中央政府採「五權分立」架構：總統為國家元首（對外代表國家，統率三軍，公布法律，任命行政院長）」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認行動者、權利義務與決策層級，再比較各選擇影響的人及公共利益。 將事實敘述與價值判斷分開；涉及法規時查官方現行條文，並保留情境中的例外條件。 本課聚焦於「我國中央政府採「五權分立」架構：總統為國家元首（對外代表國家，統率三軍，公布法律，任命行政院長）」。"
     },
     "definitions": [
       {
@@ -11027,7 +11027,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【公民與社會 · 國際貿易、比較利益法則與全球分工】比較利益比較機會成本，絕對利益比較投入相同資源的產量，兩者不同。一方即使所有產品都做得較快，仍可能在某一項有較高機會成本；專業化能否互利還需交換比例及其他條件。",
       "realWorldAnchor": "真實情境應用：臺灣在研發製造先進半導體晶片上具有高度比較利益，專精於晶圓代工並出口全球，同時從國外進口原油、天然氣與農產品，使兩造福祉極大化。 延伸實例：甲一天可做 10 件衣或 5 雙鞋，乙可做 6 件衣或 2 雙鞋，誰較有做鞋的比較利益？",
-      "historicalSpark": "啟蒙運動洛克與孟德斯鳩確立人權保障與權力分立；現代法學與經濟學則以正當程序、機會成本與公共參與深化民主。 本課聚焦於「國際貿易使各國能跨越國界交換資源與產品」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認行動者、權利義務與決策層級，再比較各選擇影響的人及公共利益。 將事實敘述與價值判斷分開；涉及法規時查官方現行條文，並保留情境中的例外條件。 本課聚焦於「國際貿易使各國能跨越國界交換資源與產品」。"
     },
     "definitions": [
       {
@@ -11099,7 +11099,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【視覺藝術 · 色彩、構圖與視覺重點】色相、明度與彩度是不同面向，畫面辨識不只依賴顏色種類。建立視覺層級時可調整大小、對比、位置與留白；資訊設計還需考慮色覺差異，不能只用紅綠顏色區分重要狀態。",
       "realWorldAnchor": "真實情境應用：海報主題以較大的文字、高明度對比呈現，其他資訊縮小並分組，讓讀者先掌握重點。 延伸實例：社團海報標題、日期、地點全用同樣大小彩色字，觀眾找不到重點，如何修改並驗證？",
-      "historicalSpark": "包浩斯（Bauhaus）設計學院與現代視覺心理學將點線面、色彩明暗與空間構圖轉化為兼具美感與功能的視覺語言。 本課聚焦於「色相區分顏色種類，明度描述亮暗，彩度描述鮮豔程度」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先描述看見的線條、色彩、空間與材質，再解釋感受；描述和評價應有可辨識的依據。 只改一個視覺元素製作兩個版本，請觀看者比較訊息如何改變，再記錄創作選擇。 本課聚焦於「色相區分顏色種類，明度描述亮暗，彩度描述鮮豔程度」。"
     },
     "definitions": [
       {
@@ -11171,7 +11171,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【視覺藝術 · 透視、媒材與創作過程】透視的視平線對應觀察者眼睛高度，消失點與物體方向有關。創作前可先決定視角再安排結構，換媒材則需考慮透明度、覆蓋力、乾燥速度及肌理，不能期待所有工具產生相同效果。",
       "realWorldAnchor": "真實情境應用：觀察筆直道路，遠處看起來變窄，平行線在畫面中朝消失點聚合。 延伸實例：畫一條朝遠方延伸的道路，為何兩邊線在畫面上靠近？如何檢查圖是否一致？",
-      "historicalSpark": "包浩斯（Bauhaus）設計學院與現代視覺心理學將點線面、色彩明暗與空間構圖轉化為兼具美感與功能的視覺語言。 本課聚焦於「線性透視以地平線、消失點及物體大小變化表現空間」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先描述看見的線條、色彩、空間與材質，再解釋感受；描述和評價應有可辨識的依據。 只改一個視覺元素製作兩個版本，請觀看者比較訊息如何改變，再記錄創作選擇。 本課聚焦於「線性透視以地平線、消失點及物體大小變化表現空間」。"
     },
     "definitions": [
       {
@@ -11243,7 +11243,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【視覺藝術 · 藝術賞析、文化與策展】作品詮釋應從可觀察形式連到文化脈絡，而非猜測創作者私生活。策展則以主題組織作品間的關係，展標要提供必要資訊與觀看線索，並清楚標記創作者及來源。",
       "realWorldAnchor": "真實情境應用：同樣是人物肖像，不同構圖、材質與時代可能帶出不同權力、身分或情感觀點。 延伸實例：要策劃三件不同媒材的「家」主題展，如何選件與寫說明？",
-      "historicalSpark": "包浩斯（Bauhaus）設計學院與現代視覺心理學將點線面、色彩明暗與空間構圖轉化為兼具美感與功能的視覺語言。 本課聚焦於「賞析先描述看見的形式，再分析如何產生效果，連結文化脈絡後提出有證據的詮釋」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先描述看見的線條、色彩、空間與材質，再解釋感受；描述和評價應有可辨識的依據。 只改一個視覺元素製作兩個版本，請觀看者比較訊息如何改變，再記錄創作選擇。 本課聚焦於「賞析先描述看見的形式，再分析如何產生效果，連結文化脈絡後提出有證據的詮釋」。"
     },
     "definitions": [
       {
@@ -11315,7 +11315,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【音樂 · 節奏、拍號與旋律】拍號說明拍的組織，速度說明拍有多快，節奏則是音符與休止的長短安排。四分音符作一拍時，八分音符通常半拍；寫節奏須把休止也算進小節總拍數，不能只計有聲音的部分。",
       "realWorldAnchor": "真實情境應用：4/4 拍一個全音符占四拍；一個二分音符占兩拍，可與兩個四分音符組成一小節。 延伸實例：在 4/4 拍寫「四分音符、兩個八分音符、四分休止符、四分音符」，是否剛好一小節？",
-      "historicalSpark": "自古希臘畢達哥拉斯音程比例至現代音樂學，節拍、節奏、旋律與音色織度共同構築跨越時代的情感共鳴。 本課聚焦於「拍是穩定脈動，節奏是長短音的組合」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先用穩定拍點找節拍，再分辨節奏與旋律；速度快慢和音高高低是不同面向。 用拍手、哼唱或樂器呈現一小段，錄下前後版本，對照節奏與表情記號調整。 本課聚焦於「拍是穩定脈動，節奏是長短音的組合」。"
     },
     "definitions": [
       {
@@ -11387,7 +11387,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【音樂 · 音色、合奏與聆聽】合奏要聽自己的聲部，也要聽整體的主次、節拍與收尾。音色來自發聲方式與泛音等特徵，不等於音高或音量；比較樂器時應盡量控制演奏音高與強弱，才能聚焦音色差異。",
       "realWorldAnchor": "真實情境應用：主旋律出現時，伴奏可調整音量讓旋律清楚；輪到不同聲部時再改變平衡。 延伸實例：節奏合奏中伴奏太大聲蓋住旋律，如何調整而不只是要求所有人小聲？",
-      "historicalSpark": "自古希臘畢達哥拉斯音程比例至現代音樂學，節拍、節奏、旋律與音色織度共同構築跨越時代的情感共鳴。 本課聚焦於「音色使同音高的不同樂器聽起來不同」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先用穩定拍點找節拍，再分辨節奏與旋律；速度快慢和音高高低是不同面向。 用拍手、哼唱或樂器呈現一小段，錄下前後版本，對照節奏與表情記號調整。 本課聚焦於「音色使同音高的不同樂器聽起來不同」。"
     },
     "definitions": [
       {
@@ -11459,7 +11459,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【音樂 · 音樂文化與創作】音樂文化包含表演場合、功能、傳承與社群意義，不能只依樂器外觀判斷全部背景。創作可以從短動機出發，透過重複、變奏與對比形成段落，引用別人的素材需辨識來源與使用條件。",
       "realWorldAnchor": "真實情境應用：以兩小節動機 A 開始，接對比段 B，再回到 A，形成簡單 ABA 結構。 延伸實例：用四拍動機創作八小節節奏，如何讓它有結構而不是八次隨機敲擊？",
-      "historicalSpark": "自古希臘畢達哥拉斯音程比例至現代音樂學，節拍、節奏、旋律與音色織度共同構築跨越時代的情感共鳴。 本課聚焦於「不同社群透過音樂傳達記憶、儀式與生活經驗」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先用穩定拍點找節拍，再分辨節奏與旋律；速度快慢和音高高低是不同面向。 用拍手、哼唱或樂器呈現一小段，錄下前後版本，對照節奏與表情記號調整。 本課聚焦於「不同社群透過音樂傳達記憶、儀式與生活經驗」。"
     },
     "definitions": [
       {
@@ -11531,7 +11531,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【表演藝術 · 身體、聲音與舞臺空間】舞臺上的身體方向、距離、視線與停頓都能傳遞關係。聲音表達要有清楚吐字與適當呼吸，不等於持續大喊。練習時需尊重身體界線，接觸或強烈動作先協商並由教師指導。",
       "realWorldAnchor": "真實情境應用：同一句「你來了」，搭配退後、微笑或長停頓，可呈現不同關係與情緒。 延伸實例：同一句「你來了」，分別演成期待與警戒，如何用可觀察的方式區分？",
-      "historicalSpark": "史坦尼斯拉夫斯基表演體系與現代教育劇場強調「情境目標、阻礙與行動選擇」，在舞台走位與合作中實踐同理心。 本課聚焦於「表演透過身體姿態、聲音、節奏與空間傳達角色和關係」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先寫清角色想達成什麼、遇到什麼阻礙，再選擇台詞、聲音與身體動作。 同一片段分別改變語速或走位，請觀眾描述感受到的角色關係，再修正表演。 本課聚焦於「表演透過身體姿態、聲音、節奏與空間傳達角色和關係」。"
     },
     "definitions": [
       {
@@ -11603,7 +11603,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【表演藝術 · 角色、衝突與即興】戲劇衝突來自角色目標及阻礙，不必靠吵架才能成立。即興需要接受夥伴已建立的情境，再提出能推進行動的回應；「接受」不等於角色必須同意對方，而是演員共同維持場景。",
       "realWorldAnchor": "真實情境應用：角色想把遺失的書還給主人，卻只剩五分鐘，目標和時間限制形成戲劇張力。 延伸實例：兩名角色都想使用同一間教室，一人要排練、一人要安靜讀書，如何形成短場景？",
-      "historicalSpark": "史坦尼斯拉夫斯基表演體系與現代教育劇場強調「情境目標、阻礙與行動選擇」，在舞台走位與合作中實踐同理心。 本課聚焦於「角色有目標與阻礙，衝突推動情節」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先寫清角色想達成什麼、遇到什麼阻礙，再選擇台詞、聲音與身體動作。 同一片段分別改變語速或走位，請觀眾描述感受到的角色關係，再修正表演。 本課聚焦於「角色有目標與阻礙，衝突推動情節」。"
     },
     "definitions": [
       {
@@ -11675,7 +11675,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【表演藝術 · 展演製作與回饋】展演製作結合演出、舞臺、音效、燈光與行政分工，排練紀錄能讓問題具體化。回饋應先描述觀察，再說效果與建議；安全及時間管理也是作品完成度的一部分。",
       "realWorldAnchor": "真實情境應用：「第三場轉場時觀眾看不到主角，試把位置向前移」比「演得很差」更具體。 延伸實例：排練時換景太久使觀眾失去注意，如何提出可執行的修正？",
-      "historicalSpark": "史坦尼斯拉夫斯基表演體系與現代教育劇場強調「情境目標、阻礙與行動選擇」，在舞台走位與合作中實踐同理心。 本課聚焦於「展演包含文本、表演、燈光、音效、舞臺與行政協作」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先寫清角色想達成什麼、遇到什麼阻礙，再選擇台詞、聲音與身體動作。 同一片段分別改變語速或走位，請觀眾描述感受到的角色關係，再修正表演。 本課聚焦於「展演包含文本、表演、燈光、音效、舞臺與行政協作」。"
     },
     "definitions": [
       {
@@ -11747,7 +11747,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【資訊科技 · 演算法與問題拆解】演算法是可執行的有限步驟，需明確輸入、輸出及停止條件。拆解問題能把複雜任務變成可驗證的小步驟；流程圖中的判斷分支要列清楚條件，不能留下「看情況」而沒有規則。",
       "realWorldAnchor": "真實情境應用：找三數最大值：先設最大值為第一數，再依序比較其餘數，較大就更新。 延伸實例：設計從三個分數找最大值的流程，為何不能只比較前兩個？",
-      "historicalSpark": "圖靈（Alan Turing）計算模型與現代演算法思維將複雜問題拆解為輸入、條件分支、迴圈迭代與結構化資料處理。 本課聚焦於「演算法是解決問題的明確步驟，應可執行、可檢驗並在合理條件下結束」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "把問題拆成輸入、處理與輸出，先手動追蹤一個例子，再寫出步驟或程式。 用一般、空白與邊界輸入測試；記下預期和實際結果，從第一個分歧步驟定位錯誤。 本課聚焦於「演算法是解決問題的明確步驟，應可執行、可檢驗並在合理條件下結束」。"
     },
     "definitions": [
       {
@@ -11819,7 +11819,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【資訊科技 · 變數、條件與迴圈】變數保存會改變的值，條件控制是否執行，迴圈重複步驟。追蹤表可逐次記錄變數，幫助找出少算一次、無限迴圈或更新順序錯誤；測試應包含邊界，不只一般例子。",
       "realWorldAnchor": "真實情境應用：sum＝0；依序將 1、2、3 加入 sum，得到 6。先初始化再累加，避免使用未定義的值。 延伸實例：累加 1 到 5：sum＝0，i＝1；當 i≤5 時執行 sum＝sum＋i、i＝i＋1，最後 sum 為何？",
-      "historicalSpark": "圖靈（Alan Turing）計算模型與現代演算法思維將複雜問題拆解為輸入、條件分支、迴圈迭代與結構化資料處理。 本課聚焦於「變數儲存資料，條件選擇執行路徑，迴圈重複處理」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "把問題拆成輸入、處理與輸出，先手動追蹤一個例子，再寫出步驟或程式。 用一般、空白與邊界輸入測試；記下預期和實際結果，從第一個分歧步驟定位錯誤。 本課聚焦於「變數儲存資料，條件選擇執行路徑，迴圈重複處理」。"
     },
     "definitions": [
       {
@@ -11891,7 +11891,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【資訊科技 · 資料、網路與資訊安全】資訊安全需同時考慮身分驗證、資料權限、更新與備份。釣魚訊息可能模仿熟悉服務，應從可信入口自行確認；密碼不應分享，多因素驗證也不能抵銷把驗證碼交給他人的風險。",
       "realWorldAnchor": "真實情境應用：收到要求立即登入的連結，先自行開啟已知官方網站核對，而不是輸入帳號密碼。 延伸實例：收到「學校帳號即將停用，點連結輸入密碼」的訊息，如何處理？",
-      "historicalSpark": "圖靈（Alan Turing）計算模型與現代演算法思維將複雜問題拆解為輸入、條件分支、迴圈迭代與結構化資料處理。 本課聚焦於「資料表示方式影響儲存和運算」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "把問題拆成輸入、處理與輸出，先手動追蹤一個例子，再寫出步驟或程式。 用一般、空白與邊界輸入測試；記下預期和實際結果，從第一個分歧步驟定位錯誤。 本課聚焦於「資料表示方式影響儲存和運算」。"
     },
     "definitions": [
       {
@@ -11963,7 +11963,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生活科技 · 設計需求與工程流程】設計需求要能觀察及測量，限制則界定材料、時間與成本。先比較多個方案，再做原型測試，比直接製作漂亮成品更能找出問題；失敗紀錄是改進依據，不是只刪掉不理想結果。",
       "realWorldAnchor": "真實情境應用：設計書架可設定承重、尺寸、穩定與材料成本等條件，再比較方案。 延伸實例：要做可放手機的紙架，如何把「穩」變成能測試的規格？",
-      "historicalSpark": "工程設計思考（Design Thinking）結合機構力學與材料加工，透過「需求界定 → 原型測試 → 變因迭代」解決真實問題。 本課聚焦於「設計從使用者需求和限制開始，經構想、選案、製作、測試與修正」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先列使用者需求、材料、時間與安全限制；比較設計方案時要說明取捨。 製作前畫草圖與尺寸，測試時記錄承載或功能表現；一次修改一項以辨識改善原因。 本課聚焦於「設計從使用者需求和限制開始，經構想、選案、製作、測試與修正」。"
     },
     "definitions": [
       {
@@ -12035,7 +12035,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生活科技 · 結構、機構與材料】結構承受與傳遞力，機構則控制或轉換運動，兩者用途不同。材料選擇要看強度、韌性、重量與加工性；三角支撐能增加某些框架穩定性，但實際效果仍取決於接點及受力方向。",
       "realWorldAnchor": "真實情境應用：矩形框架可能變形，加上斜撐形成三角形，可改善平面內穩定。 延伸實例：用吸管做四邊框架與加斜撐框架，如何比較抗變形能力？",
-      "historicalSpark": "工程設計思考（Design Thinking）結合機構力學與材料加工，透過「需求界定 → 原型測試 → 變因迭代」解決真實問題。 本課聚焦於「結構支撐負載，機構傳遞或轉換運動」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先列使用者需求、材料、時間與安全限制；比較設計方案時要說明取捨。 製作前畫草圖與尺寸，測試時記錄承載或功能表現；一次修改一項以辨識改善原因。 本課聚焦於「結構支撐負載，機構傳遞或轉換運動」。"
     },
     "definitions": [
       {
@@ -12107,7 +12107,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【生活科技 · 能源、製造與永續產品】產品的能源與環境影響包含製造、使用、維修及廢棄階段。效率高表示同樣輸入可得到更多有用輸出，但若使用量大幅增加，總消耗仍可能上升；永續設計需看整個生命週期。",
       "realWorldAnchor": "真實情境應用：可更換零件的檯燈，故障時能修理而不必丟棄整件，減少材料浪費。 延伸實例：兩盞燈提供相近照明，甲 10 W、乙 20 W，各用 100 小時，耗電差多少？",
-      "historicalSpark": "工程設計思考（Design Thinking）結合機構力學與材料加工，透過「需求界定 → 原型測試 → 變因迭代」解決真實問題。 本課聚焦於「能源系統將能量轉成所需形式，過程有損失」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先列使用者需求、材料、時間與安全限制；比較設計方案時要說明取捨。 製作前畫草圖與尺寸，測試時記錄承載或功能表現；一次修改一項以辨識改善原因。 本課聚焦於「能源系統將能量轉成所需形式，過程有損失」。"
     },
     "definitions": [
       {
@@ -12179,7 +12179,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【健康教育 · 青春期、自我認識與身體界線】青春期發展速度有個別差異，不宜用同儕進度判斷自我價值。身體界線與同意需要清楚、自願且可撤回；關心朋友不能成為拍攝、觸碰或公開其私人資訊的理由。",
       "realWorldAnchor": "真實情境應用：同學說不想被拍照，應先停止，而不是因「大家都拍」就忽略他的感受。 延伸實例：朋友說「大家都拍了，你不拍就是不合群」，要求拍攝私密身體照片，該如何回應？",
-      "historicalSpark": "世界衛生組織（WHO）全人健康觀整合生理防護、心理界線與實證醫藥資訊判讀，建立終身自我健康管理能力。 本課聚焦於「青春期的身心變化有個別差異」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識資訊來源、情境與可求助對象，再比較行動的短期與長期影響。 用情境演練練習表達界線與求助；個人的感受應被尊重，教材不能替代專業判斷。 本課聚焦於「青春期的身心變化有個別差異」。"
     },
     "definitions": [
       {
@@ -12251,7 +12251,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【健康教育 · 飲食資訊與健康選擇】閱讀營養標示先看每份量與包裝份數，再計算實際吃進的量。健康飲食看長期模式與多樣性，不宜用單一食物判定一個人健康或不健康；廣告中的天然、零添加等用語也不能替代完整資訊。",
       "realWorldAnchor": "真實情境應用：一包飲料有兩份，每份糖 12 g，喝完整包是 24 g，不能只記每份數字。 延伸實例：飲料每份 250 mL、每份糖 18 g，一瓶 500 mL，喝完整瓶攝取多少糖？",
-      "historicalSpark": "世界衛生組織（WHO）全人健康觀整合生理防護、心理界線與實證醫藥資訊判讀，建立終身自我健康管理能力。 本課聚焦於「飲食選擇需考慮多樣性、適量與生活情境」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識資訊來源、情境與可求助對象，再比較行動的短期與長期影響。 用情境演練練習表達界線與求助；個人的感受應被尊重，教材不能替代專業判斷。 本課聚焦於「飲食選擇需考慮多樣性、適量與生活情境」。"
     },
     "definitions": [
       {
@@ -12323,7 +12323,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【健康教育 · 健康資訊、風險與求助】健康資訊應查看來源、證據、日期與適用對象，個人見證不能代替系統性評估。求助是一種處理問題的能力；若感到持續不適或風險，應向可信任成人與適當專業人員反映，而非自行依網路調整治療。",
       "realWorldAnchor": "真實情境應用：網路貼文說一種產品能治所有病，缺乏可信證據，應向合格專業人員核實。 延伸實例：短影片說某補充品讓所有人不再疲倦，且要求立即購買，如何評估？",
-      "historicalSpark": "世界衛生組織（WHO）全人健康觀整合生理防護、心理界線與實證醫藥資訊判讀，建立終身自我健康管理能力。 本課聚焦於「健康訊息應檢查發布者、更新時間與證據」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先辨識資訊來源、情境與可求助對象，再比較行動的短期與長期影響。 用情境演練練習表達界線與求助；個人的感受應被尊重，教材不能替代專業判斷。 本課聚焦於「健康訊息應檢查發布者、更新時間與證據」。"
     },
     "definitions": [
       {
@@ -12395,7 +12395,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【體育 · 動作學習與自我監測】動作學習需觀察準備、執行與收尾，回饋以少量可操作的要點較容易練習。進步可看動作一致性與自我監測，不只比速度或成績；身體狀況不同時，練習量也需調整。",
       "realWorldAnchor": "真實情境應用：學習投擲可先練站姿與揮臂，再加入步伐；記錄命中率與動作感受，而非只比較別人成績。 延伸實例：練習投擲時方向不穩，如何用紀錄找出改善點？",
-      "historicalSpark": "運動生物力學與運動生理學證實：透過漸進負荷（FITT）、動作鏈拆解與團隊空間戰術，能安全提升體適能與敏捷決策。 本課聚焦於「運動學習以適合自己的起點、漸進練習與回饋為原則」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認場地、器材與自己的身體狀態，再把動作拆成準備、執行與結束。 請教師或同伴觀察一項動作指標，調整後再試；評估進步以自己的紀錄為基準。 本課聚焦於「運動學習以適合自己的起點、漸進練習與回饋為原則」。"
     },
     "definitions": [
       {
@@ -12467,7 +12467,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【體育 · 球類策略與團隊合作】球類策略要看空間、持球者、隊友及對手的相對位置。傳球後移動可創造新的支援角度，防守也需要溝通與補位；規則與安全是戰術的一部分，不能為得分忽略他人。",
       "realWorldAnchor": "真實情境應用：傳球後移動到空位能提供新的接應點；防守時溝通分工可減少重複盯同一人。 延伸實例：三對三活動中，持球者一直被包夾，隊友站著等球，如何改善？",
-      "historicalSpark": "運動生物力學與運動生理學證實：透過漸進負荷（FITT）、動作鏈拆解與團隊空間戰術，能安全提升體適能與敏捷決策。 本課聚焦於「球類不只有個人技術，也包含空間、傳接、攻防轉換與決策」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認場地、器材與自己的身體狀態，再把動作拆成準備、執行與結束。 請教師或同伴觀察一項動作指標，調整後再試；評估進步以自己的紀錄為基準。 本課聚焦於「球類不只有個人技術，也包含空間、傳接、攻防轉換與決策」。"
     },
     "definitions": [
       {
@@ -12539,7 +12539,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【體育 · 運動計畫與公平競賽】運動計畫需有可達成目標、活動種類、強度、頻率與恢復安排。公平競賽包括尊重規則、對手及不同能力，不只是不作弊；進步應與自己過去比較，避免用羞辱或過度訓練推動參與。",
       "realWorldAnchor": "真實情境應用：把「變強」改成「兩週內完成四次適合自己的技巧練習，每次記錄一項改進」，較容易執行與反思。 延伸實例：想改善持續活動能力，如何規劃並檢查一週的練習？",
-      "historicalSpark": "運動生物力學與運動生理學證實：透過漸進負荷（FITT）、動作鏈拆解與團隊空間戰術，能安全提升體適能與敏捷決策。 本課聚焦於「計畫應考慮個人狀況、活動偏好、時間及可觀察的目標」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認場地、器材與自己的身體狀態，再把動作拆成準備、執行與結束。 請教師或同伴觀察一項動作指標，調整後再試；評估進步以自己的紀錄為基準。 本課聚焦於「計畫應考慮個人狀況、活動偏好、時間及可觀察的目標」。"
     },
     "definitions": [
       {
@@ -12611,7 +12611,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【家政 · 家庭合作與生活管理】家庭合作需要看見顯性家務及規劃、提醒等隱性工作。分工可依時間、能力和需求協商，不以性別固定分配；生活管理還需保留突發狀況與休息空間，避免把每分鐘排滿當成效率。",
       "realWorldAnchor": "真實情境應用：安排晚餐不只有烹調，還包含盤點食材、規劃、採買與清潔；分工要看見整段工作。 延伸實例：家人抱怨晚餐準備總由同一人負責，如何重分工作？",
-      "historicalSpark": "現代家庭資源管理科學結合食品營養衛生、織品材料護理與財務預算規劃，以性別平權協商打造永續生活品質。 本課聚焦於「家庭工作可依時間、能力與需求協商分配，不應固定由某性別承擔」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先盤點需求、預算、時間與可用資源，再訂出可執行的生活管理方案。 記錄預計與實際的花費或時間，說明差異來自哪個決策，再調整下一次安排。 本課聚焦於「家庭工作可依時間、能力與需求協商分配，不應固定由某性別承擔」。"
     },
     "definitions": [
       {
@@ -12683,7 +12683,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【家政 · 飲食製備與衣物照護】食物製備需分辨清潔、交叉污染與保存條件，衣物照護則先讀洗標與材質。先安排操作順序可降低重複清理及失誤；遇不確定的器具或化學用品，依標示與成人指導處理。",
       "realWorldAnchor": "真實情境應用：料理前先看步驟、備妥器具；衣物標示不可漂白時不任意加漂白劑。 延伸實例：切生肉後要處理即食水果，應如何調整工具與流程？",
-      "historicalSpark": "現代家庭資源管理科學結合食品營養衛生、織品材料護理與財務預算規劃，以性別平權協商打造永續生活品質。 本課聚焦於「生活技能需要讀懂標示、選擇工具並安排流程」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先盤點需求、預算、時間與可用資源，再訂出可執行的生活管理方案。 記錄預計與實際的花費或時間，說明差異來自哪個決策，再調整下一次安排。 本課聚焦於「生活技能需要讀懂標示、選擇工具並安排流程」。"
     },
     "definitions": [
       {
@@ -12755,7 +12755,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【家政 · 消費規劃與資源管理】預算管理先區分需求、偏好、固定支出與可調整項目，總支出不能超過可用資源。單價比較須統一容量或重量，促銷也要考慮實際需求與保存期限，買更多不必然更省。",
       "realWorldAnchor": "真實情境應用：低價但常需更換的物品，總成本可能高於耐用商品；每次使用成本可作比較之一。 延伸實例：有 600 元預算，必要交通 180 元、材料 250 元，想買 220 元小物，是否可行？",
-      "historicalSpark": "現代家庭資源管理科學結合食品營養衛生、織品材料護理與財務預算規劃，以性別平權協商打造永續生活品質。 本課聚焦於「消費前區分需要與想要，考量預算、使用頻率、維修與總成本」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先盤點需求、預算、時間與可用資源，再訂出可執行的生活管理方案。 記錄預計與實際的花費或時間，說明差異來自哪個決策，再調整下一次安排。 本課聚焦於「消費前區分需要與想要，考量預算、使用頻率、維修與總成本」。"
     },
     "definitions": [
       {
@@ -12827,7 +12827,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【童軍 · 團隊分工與戶外準備】戶外活動計畫要有路線、天氣、裝備、人員分工與聯絡方式，並事先設定折返條件。團隊安全不以走得最快的人為標準，需持續確認每人的體力、裝備與意願。",
       "realWorldAnchor": "真實情境應用：出發前確認集合點與返程時間，若條件變差就依預先約定調整，不為了完成路線勉強前進。 延伸實例：行程中天色變差，一名隊員疲倦，但距終點只剩一段路，如何決策？",
-      "historicalSpark": "貝登堡童軍戶外教育與現代風險管理結合「行前計畫、方位判讀、LNT 無痕山林與緊急折返止損」，培養野外自救領導力。 本課聚焦於「戶外活動先了解目的、路線、天氣、裝備與人員狀況，建立聯絡及備案」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "任務開始前確認路線、天候、裝備與緊急聯絡方式，並讓每位成員理解分工。 活動後核對計畫和實際情況，記下風險處置與環境影響；提出一項下次可落實的改善。 本課聚焦於「戶外活動先了解目的、路線、天氣、裝備與人員狀況，建立聯絡及備案」。"
     },
     "definitions": [
       {
@@ -12899,7 +12899,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【童軍 · 定向、地圖與環境觀察】定向需把地圖與現地對齊，辨識方向、地標、距離及地形。指北針提供方向，不會自動避開峭壁、私地或危險水域；路線選擇要結合可通行資訊及帶隊規範。",
       "realWorldAnchor": "真實情境應用：先找操場與建築等明顯地標，再讓地圖方向與實際方向一致，逐段確認位置。 延伸實例：地圖上目的地在東方，但兩地之間有溪谷，是否直接向東走即可？",
-      "historicalSpark": "貝登堡童軍戶外教育與現代風險管理結合「行前計畫、方位判讀、LNT 無痕山林與緊急折返止損」，培養野外自救領導力。 本課聚焦於「定向需要把地圖與實地對上，辨認方向、地標及距離」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "任務開始前確認路線、天候、裝備與緊急聯絡方式，並讓每位成員理解分工。 活動後核對計畫和實際情況，記下風險處置與環境影響；提出一項下次可落實的改善。 本課聚焦於「定向需要把地圖與實地對上，辨認方向、地標及距離」。"
     },
     "definitions": [
       {
@@ -12971,7 +12971,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【童軍 · 環境倫理與服務行動】服務學習應先了解社群真正需求，再規劃行動與反思，不能把完成時數當唯一目標。環境倫理需降低對棲地、野生動物及其他使用者的干擾，並尊重當地管理規則。",
       "realWorldAnchor": "真實情境應用：整理社區步道前先與管理者確認需求與可做範圍，活動後檢視成果和是否有意外影響。 延伸實例：班級想淨溪，是否帶垃圾袋就可直接下水撿拾？",
-      "historicalSpark": "貝登堡童軍戶外教育與現代風險管理結合「行前計畫、方位判讀、LNT 無痕山林與緊急折返止損」，培養野外自救領導力。 本課聚焦於「戶外活動應減少對環境與他人的影響」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "任務開始前確認路線、天候、裝備與緊急聯絡方式，並讓每位成員理解分工。 活動後核對計畫和實際情況，記下風險處置與環境影響；提出一項下次可落實的改善。 本課聚焦於「戶外活動應減少對環境與他人的影響」。"
     },
     "definitions": [
       {
@@ -13043,7 +13043,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【輔導 · 認識自我與情緒表達】情緒提供對需求與處境的訊息，不需要把所有不愉快感受立即消除。表達時可分開描述事件、感受與需要，避免把猜測當成對方動機；自我認識也可從不同情境的經驗逐步累積。",
       "realWorldAnchor": "真實情境應用：「你沒回覆分工訊息，我很擔心進度；希望今晚確認」比「你永遠很爛」更容易溝通。 延伸實例：朋友沒回訊息，心想「他一定討厭我」，如何重新整理？",
-      "historicalSpark": "認知行為理論（CBT）與生涯發展論強調覺察情緒想法、成長型思維與多元試探，將挫折轉化為具體可行的學習調整。 本課聚焦於「情緒提供需求與情境的訊息，感受本身可以被承認，行為仍需選擇」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "區分可觀察的事件、自己的感受與對他人動機的推測；表達時先說明具體情境。 把目標拆成短期行動與可觀察成果，蒐集回饋再調整；一次測驗不能決定完整能力或生涯。 本課聚焦於「情緒提供需求與情境的訊息，感受本身可以被承認，行為仍需選擇」。"
     },
     "definitions": [
       {
@@ -13115,7 +13115,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【輔導 · 學習策略與時間規劃】有效學習把理解、提取、練習與回饋連起來。重讀可能帶來熟悉感，但不保證能獨立回答；排程需分散練習並針對錯因調整，而不是只把讀書時間填滿。",
       "realWorldAnchor": "真實情境應用：學完一個概念，先合上教材解釋，再做題檢查；隔天與幾天後再次回想，確認不是只記住剛看的句子。 延伸實例：讀完一課覺得都懂了，合上書卻說不出重點，下一步怎麼做？",
-      "historicalSpark": "認知行為理論（CBT）與生涯發展論強調覺察情緒想法、成長型思維與多元試探，將挫折轉化為具體可行的學習調整。 本課聚焦於「自主學習包含設定目標、執行、監測與調整」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "區分可觀察的事件、自己的感受與對他人動機的推測；表達時先說明具體情境。 把目標拆成短期行動與可觀察成果，蒐集回饋再調整；一次測驗不能決定完整能力或生涯。 本課聚焦於「自主學習包含設定目標、執行、監測與調整」。"
     },
     "definitions": [
       {
@@ -13187,7 +13187,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【輔導 · 生涯探索與決策】生涯探索是收集自我與環境資訊、嘗試並修訂的過程，不是一次測驗替你決定未來。興趣、能力、價值觀及生活條件可能隨經驗改變，選擇時需比較不同路徑與可回頭調整的空間。",
       "realWorldAnchor": "真實情境應用：訪談某職業工作者時，詢問日常任務、訓練、困難與多種進入路徑，比只看職稱更有用。 延伸實例：喜歡畫畫就一定只能選藝術職業嗎？如何擴充探索？",
-      "historicalSpark": "認知行為理論（CBT）與生涯發展論強調覺察情緒想法、成長型思維與多元試探，將挫折轉化為具體可行的學習調整。 本課聚焦於「生涯是持續探索與調整的過程，可結合興趣、能力、價值、資源與實際資訊」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "區分可觀察的事件、自己的感受與對他人動機的推測；表達時先說明具體情境。 把目標拆成短期行動與可觀察成果，蒐集回饋再調整；一次測驗不能決定完整能力或生涯。 本課聚焦於「生涯是持續探索與調整的過程，可結合興趣、能力、價值、資源與實際資訊」。"
     },
     "definitions": [
       {
@@ -13259,7 +13259,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【本土語文／臺灣手語 · 語別選擇與聆聽觀察】本土語言學習需先確認語別、腔調及適用社群，不能把不同語言都視為華語換音。聆聽時記錄情境、語氣與回應，再向熟悉該語言的人查證，文字轉寫也要使用合適系統。",
       "realWorldAnchor": "真實情境應用：同一地名在不同語言可能有不同說法，訪談時先詢問語別與使用情境，再核對官方辭典或教學資源。 延伸實例：同一句問候在兩位長輩口中發音不同，應如何記錄而不直接判誰錯？",
-      "historicalSpark": "社會語言學與非物質文化遺產保護強調母語腔調、俗諺語境與田野訪談倫理，讓在地文化記憶在世代對話中扎根。 本課聚焦於「本土語文包含不同語別，臺灣手語亦是完整的語言」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認學習的語別、腔調或手語系統及使用情境，尊重不同社群的表達方式。 口語以合適語音示範核對；手語要以動態影音與教師回饋檢查手形、位置、方向及非手部訊息。 本課聚焦於「本土語文包含不同語別，臺灣手語亦是完整的語言」。"
     },
     "definitions": [
       {
@@ -13331,7 +13331,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【本土語文／臺灣手語 · 生活對話與在地文化】生活對話除字面意思外，還涉及稱謂、關係與禮貌慣例。在地文化介紹需由社群的實際使用與觀點出發，不把一個人的習慣當作所有人的共同規範。",
       "realWorldAnchor": "真實情境應用：訪問長輩或語言使用者前先取得同意，記錄詞語的使用情境，避免只存一串沒有說明的翻譯。 延伸實例：想用學習中的本土語言向長輩詢問傳統食物做法，應如何準備？",
-      "historicalSpark": "社會語言學與非物質文化遺產保護強調母語腔調、俗諺語境與田野訪談倫理，讓在地文化記憶在世代對話中扎根。 本課聚焦於「語言學習需在情境中理解語氣、稱謂和互動規範」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認學習的語別、腔調或手語系統及使用情境，尊重不同社群的表達方式。 口語以合適語音示範核對；手語要以動態影音與教師回饋檢查手形、位置、方向及非手部訊息。 本課聚焦於「語言學習需在情境中理解語氣、稱謂和互動規範」。"
     },
     "definitions": [
       {
@@ -13403,7 +13403,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【本土語文／臺灣手語 · 臺灣手語與視覺溝通】臺灣手語以手形、位置、動作、方向及非手部訊號等共同表意，具有自己的語法。溝通需確保彼此視線與光線，不能只看單一手勢猜整句；學習應由合格教師與聾人社群資源協助。",
       "realWorldAnchor": "真實情境應用：交流需維持視線可見，不背對對方比手語；表情可能承載語法與語意，而不只是情緒。 延伸實例：觀看手語示範時只模仿手形，忽略動作位置和表情，可能漏掉什麼？",
-      "historicalSpark": "社會語言學與非物質文化遺產保護強調母語腔調、俗諺語境與田野訪談倫理，讓在地文化記憶在世代對話中扎根。 本課聚焦於「手語透過手形、位置、動作、方向及非手部訊號組織意義，有自身語法」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認學習的語別、腔調或手語系統及使用情境，尊重不同社群的表達方式。 口語以合適語音示範核對；手語要以動態影音與教師回饋檢查手形、位置、方向及非手部訊息。 本課聚焦於「手語透過手形、位置、動作、方向及非手部訊號組織意義，有自身語法」。"
     },
     "definitions": [
       {
@@ -13475,7 +13475,7 @@ export const exegesisData = {
     "genesis": {
       "problemToSolve": "【本土語文／臺灣手語 · 語言記錄與文化行動】語言紀錄同時涉及語言正確性、社群關係與分享權限。錄到不等於可以公開，受訪者應知道用途、觀眾與保存方式；文化行動可從小規模、可回饋的成果開始，而非只為展示蒐集素材。",
       "realWorldAnchor": "真實情境應用：製作社區地名卡時，標明語別、資料來源、發音參考與受訪者同意範圍，避免自行猜測詞源。 延伸實例：要把長輩訪談剪成校展影片，公開前需要做哪些確認？",
-      "historicalSpark": "社會語言學與非物質文化遺產保護強調母語腔調、俗諺語境與田野訪談倫理，讓在地文化記憶在世代對話中扎根。 本課聚焦於「語言保存不只是收藏詞語，也包含支持使用、尊重說話者與記錄文化脈絡」，建立從直覺觀察到嚴謹推論的思維橋樑。"
+      "historicalSpark": "先確認學習的語別、腔調或手語系統及使用情境，尊重不同社群的表達方式。 口語以合適語音示範核對；手語要以動態影音與教師回饋檢查手形、位置、方向及非手部訊息。 本課聚焦於「語言保存不只是收藏詞語，也包含支持使用、尊重說話者與記錄文化脈絡」。"
     },
     "definitions": [
       {
@@ -13565,7 +13565,7 @@ export function renderExegesisBoard(u) {
 
   return `
     <section class="exegesis-board-section" aria-labelledby="exegesis-title">
-      <div class="exegesis-origin-card">
+      <div class="exegesis-origin-card" id="studio-origin">
         <div class="exegesis-card-header">
           <span class="exegesis-header-icon">🌱</span>
           <div>
@@ -13583,13 +13583,13 @@ export function renderExegesisBoard(u) {
             <p>${escapeHtml(gen.realWorldAnchor)}</p>
           </div>
           <div class="origin-item">
-            <span class="origin-label">📜 歷史思想火花：</span>
+            <span class="origin-label">📜 本科學習方法：</span>
             <p>${escapeHtml(gen.historicalSpark)}</p>
           </div>
         </div>
       </div>
 
-      <div class="exegesis-definitions-card">
+      <div class="exegesis-definitions-card" id="studio-definitions">
         <div class="exegesis-card-header">
           <span class="exegesis-header-icon">📐</span>
           <div>
@@ -13631,7 +13631,7 @@ export function renderExegesisBoard(u) {
         </div>
       </div>
 
-      <div class="exegesis-blackboard-card">
+      <div class="exegesis-blackboard-card" id="studio-blackboard">
         <div class="blackboard-frame">
           <div class="blackboard-header">
             <span class="chalk-badge">黑板微課板書推導</span>

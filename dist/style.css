@@ -5124,3 +5124,26 @@ summary {
 .guide-cycle li{padding-block:.35rem}
 @media(max-width:700px){.guide-map{grid-template-columns:1fr}.learning-guide{padding:1rem}.learning-guide th,.learning-guide td{min-width:9rem}}
 @media print{.guide-map{grid-template-columns:1fr}.learning-guide{break-before:page;background:white;color:black}.learning-guide details{break-inside:avoid}}
+.lesson-deepening{margin-block:2rem;padding:clamp(1rem,3vw,2rem);border:1px solid #a8bdb4;border-radius:16px;line-height:1.8;overflow-wrap:anywhere}
+.lesson-deepening figure{margin:1.5rem 0}.lesson-deepening figcaption{font-weight:750;margin-bottom:.75rem}
+.contrast-panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.contrast-panels>section{padding:1rem;border:1px solid #a8bdb4;border-top:4px solid #477c68;border-radius:10px;min-width:0}
+.contrast-panels>section:nth-child(2){border-top-color:#9b6728}.contrast-panels h4{margin:0 0 .5rem}
+.curriculum-codes{display:flex;flex-wrap:wrap;gap:.6rem;list-style:none;padding:0}.curriculum-codes a{display:block;border:1px solid #a8bdb4;border-radius:8px;padding:.5rem .75rem}.curriculum-codes small{display:block}
+.scope-note{border-inline-start:4px solid #9b6728;padding:.75rem 1rem;background:rgba(177,128,57,.1)}
+.lesson-deepening summary{cursor:pointer;font-weight:700;padding:.75rem 0}.lesson-deepening summary:focus-visible,.lesson-deepening a:focus-visible{outline:3px solid #477c68;outline-offset:4px}
+.knowledge-bar-chart ul{list-style:none;padding:0}.knowledge-bar-chart li{display:grid;grid-template-columns:minmax(5rem,1fr) minmax(3rem,3fr) 3rem;gap:.7rem;align-items:center;margin:.7rem 0}
+.knowledge-bar-track{height:1.1rem;background:rgba(71,124,104,.1);border-radius:4px}.knowledge-bar-track>span{display:block;height:100%;background:#477c68;border-radius:4px}
+@media(max-width:700px){.contrast-panels{grid-template-columns:1fr}.lesson-deepening{padding:1rem}.curriculum-codes li{max-width:100%}.lesson-deepening th,.lesson-deepening td{min-width:8rem}}
+@media print{.lesson-deepening{background:white;color:black}.contrast-panels{grid-template-columns:1fr}.concept-contrast{break-inside:avoid}}
+[data-theme="dark"] .lesson-deepening{border-color:#384e45;background:#18231f}
+[data-theme="dark"] .contrast-panels>section{border-color:#384e45;background:#1c2a25}
+[data-theme="dark"] .knowledge-bar-track{background:rgba(255,255,255,.08)}
+[data-theme="dark"] .knowledge-bar-track>span{background:#5ba283}
+[data-theme="dark"] .curriculum-codes a{border-color:#384e45;background:#1c2a25;color:#9ecab3}
+[data-theme="paper"] .lesson-deepening{border-color:#cfc5b4;background:#fbf8f1}
+[data-theme="paper"] .contrast-panels>section{border-color:#cfc5b4;background:#f5f0e6}
+[data-theme="paper"] .knowledge-bar-track{background:rgba(180,165,140,.2)}
+[data-theme="paper"] .knowledge-bar-track>span{background:#7a6548}
+[data-theme="paper"] .curriculum-codes a{border-color:#cfc5b4;background:#f5f0e6;color:#5c4731}
+

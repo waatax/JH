@@ -5,31 +5,8 @@
 import fs from 'node:fs';
 import { units, subjectById } from '../dist/curriculum.js';
 import { teachingFor, knowledgePoints } from '../dist/teaching.js';
+import {subjectStrategies} from '../dist/subject-strategies.js';
 import { workedCases } from '../dist/worked-cases.js';
-
-const subjectSparks = {
-  math: '笛卡爾與歐幾里得將抽象數量與幾何空間形式化；《九章算術》則以算籌建模解決工程、賦稅與測量實務。',
-  chinese: '劉勰《文心雕龍》強調「綴文者情動而辭發，觀文者披文以入情」，透過字詞句段結構還原文本深層意旨。',
-  english: '現代語言學強調語用溝通（Communicative Competence），將時態、子句與語境結構轉化為真實跨文化表達工具。',
-  physics: '伽利略以斜面理想實驗結合數學定量描述，牛頓與法拉第則以力學定律與場線模型揭示物質運動與能量守恆。',
-  chemistry: '拉瓦節以精密天平確立質量守恆定律，道耳吞、門得列夫與阿瑞尼士則建立原子論、週期表與解離電化學架構。',
-  biology: '虎克與許旺確立細胞學說，孟德爾與達爾文揭示遺傳法則與天擇演化，現代生理學則闡明神經與內分泌恆定機制。',
-  earth: '魏格納大陸漂移與板塊構造學說統合了地震火山地貌；氣象與天體力學則解開鋒面環流、月相潮汐與四季星象規律。',
-  history: '司馬遷「究天人之際，通古今之變」與現代史學實證考據結合，從多重立場史料中重建人群互動與制度變遷。',
-  geography: '洪堡德與李特尔奠定近代人地關係傳統，結合現代等高線判讀、氣候統計與空間區位分析，解析區域永續發展。',
-  civics: '啟蒙運動洛克與孟德斯鳩確立人權保障與權力分立；現代法學與經濟學則以正當程序、機會成本與公共參與深化民主。',
-  visual: '包浩斯（Bauhaus）設計學院與現代視覺心理學將點線面、色彩明暗與空間構圖轉化為兼具美感與功能的視覺語言。',
-  music: '自古希臘畢達哥拉斯音程比例至現代音樂學，節拍、節奏、旋律與音色織度共同構築跨越時代的情感共鳴。',
-  performing: '史坦尼斯拉夫斯基表演體系與現代教育劇場強調「情境目標、阻礙與行動選擇」，在舞台走位與合作中實踐同理心。',
-  computing: '圖靈（Alan Turing）計算模型與現代演算法思維將複雜問題拆解為輸入、條件分支、迴圈迭代與結構化資料處理。',
-  technology: '工程設計思考（Design Thinking）結合機構力學與材料加工，透過「需求界定 → 原型測試 → 變因迭代」解決真實問題。',
-  health: '世界衛生組織（WHO）全人健康觀整合生理防護、心理界線與實證醫藥資訊判讀，建立終身自我健康管理能力。',
-  pe: '運動生物力學與運動生理學證實：透過漸進負荷（FITT）、動作鏈拆解與團隊空間戰術，能安全提升體適能與敏捷決策。',
-  home: '現代家庭資源管理科學結合食品營養衛生、織品材料護理與財務預算規劃，以性別平權協商打造永續生活品質。',
-  scout: '貝登堡童軍戶外教育與現代風險管理結合「行前計畫、方位判讀、LNT 無痕山林與緊急折返止損」，培養野外自救領導力。',
-  guidance: '認知行為理論（CBT）與生涯發展論強調覺察情緒想法、成長型思維與多元試探，將挫折轉化為具體可行的學習調整。',
-  local: '社會語言學與非物質文化遺產保護強調母語腔調、俗諺語境與田野訪談倫理，讓在地文化記憶在世代對話中扎根。'
-};
 
 const exegesisData = {};
 
@@ -68,7 +45,7 @@ for (const u of units) {
     genesis: {
       problemToSolve: `【${sName} · ${u.title}】${wc.teaching}`,
       realWorldAnchor: `真實情境應用：${u.example} 延伸實例：${wc.problem}`,
-      historicalSpark: `${subjectSparks[u.subject] || ''} 本課聚焦於「${pts[0]}」，建立從直覺觀察到嚴謹推論的思維橋樑。`
+      historicalSpark: `${subjectStrategies[u.subject].join(' ')} 本課聚焦於「${pts[0]}」。`
     },
     definitions,
     blackboard: {
@@ -128,7 +105,7 @@ export function renderExegesisBoard(u) {
 
   return \`
     <section class="exegesis-board-section" aria-labelledby="exegesis-title">
-      <div class="exegesis-origin-card">
+      <div class="exegesis-origin-card" id="studio-origin">
         <div class="exegesis-card-header">
           <span class="exegesis-header-icon">🌱</span>
           <div>
@@ -146,13 +123,13 @@ export function renderExegesisBoard(u) {
             <p>\${escapeHtml(gen.realWorldAnchor)}</p>
           </div>
           <div class="origin-item">
-            <span class="origin-label">📜 歷史思想火花：</span>
+            <span class="origin-label">📜 本科學習方法：</span>
             <p>\${escapeHtml(gen.historicalSpark)}</p>
           </div>
         </div>
       </div>
 
-      <div class="exegesis-definitions-card">
+      <div class="exegesis-definitions-card" id="studio-definitions">
         <div class="exegesis-card-header">
           <span class="exegesis-header-icon">📐</span>
           <div>
@@ -194,7 +171,7 @@ export function renderExegesisBoard(u) {
         </div>
       </div>
 
-      <div class="exegesis-blackboard-card">
+      <div class="exegesis-blackboard-card" id="studio-blackboard">
         <div class="blackboard-frame">
           <div class="blackboard-header">
             <span class="chalk-badge">黑板微課板書推導</span>

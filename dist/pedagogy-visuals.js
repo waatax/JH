@@ -2335,19 +2335,9 @@ export function renderMisconceptionDefenseTable(u) {
   const conceptLead = (u.concept || '').split('。')[0];
   const q0 = u.questions?.[0];
 
-  // Row 1: 直覺迷思 (Trap)
-  let trap = pitfallRaw.split('；')[0] || pitfallRaw.split('。')[0] || '直覺斷言，忽略題目隱含條件。';
-  if (!trap.endsWith('。') && !trap.endsWith('！')) trap += '。';
-
-  let diagnosis = '';
-  if (pitfallRaw.includes('；')) {
-    diagnosis = pitfallRaw.split('；').slice(1).join('；');
-  } else if (pitfallRaw.includes('，例如')) {
-    diagnosis = '混淆了表面特徵與核心定義。' + pitfallRaw.split('，例如')[1];
-  } else {
-    diagnosis = '受限於日常直覺思維，忽視了「' + conceptLead + '」的嚴格限制條件與適用邊界。';
-  }
-  if (!diagnosis.endsWith('。')) diagnosis += '。';
+  // A warning is often a correct statement; never label its first clause false.
+  const trap = pitfallRaw;
+  const diagnosis = wc ? wc.teaching : u.concept;
 
   let defense = checkRaw || '審題時圈出已知與關鍵字，計算後檢查邊界條件與單位合理性。';
   if (!defense.endsWith('。')) defense += '。';
@@ -2362,19 +2352,19 @@ export function renderMisconceptionDefenseTable(u) {
   return `
     <div class="table-wrap misconception-defense-wrap" style="margin-top:16px;">
       <table class="teaching-table misconception-defense-table">
-        <caption>${esc(u.title)} · 考場易錯盲點 vs 深度思維校正防禦對照表</caption>
+        <caption>${esc(u.title)} · 易混淆概念與修正方法對照表</caption>
         <thead>
           <tr>
-            <th scope="col" style="width:28%;background:#faece8;color:#b84735;">🚨 常見直覺迷思（易踩陷阱）</th>
-            <th scope="col" style="width:40%;background:#f0ebf7;color:#6d528f;">🧠 盲點深度剖析（研究校正）</th>
-            <th scope="col" style="width:32%;background:#e6f3eb;color:#2d5c48;">🛡️ 會考防呆破局心法（保分規準）</th>
+            <th scope="col" style="width:28%;background:#faece8;color:#b84735;">🔎 易混淆處與正確提醒</th>
+            <th scope="col" style="width:40%;background:#f0ebf7;color:#6d528f;">🧠 概念與例題說明</th>
+            <th scope="col" style="width:32%;background:#e6f3eb;color:#2d5c48;">🛠️ 檢查與修正方法</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td style="color:#b84735;font-weight:600;vertical-align:top;">
               <div style="display:flex;align-items:flex-start;gap:6px;">
-                <span>❌</span>
+                <span aria-hidden="true">🔎</span>
                 <span>${esc(trap)}</span>
               </div>
             </td>

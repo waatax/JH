@@ -1,0 +1,101 @@
+[
+  {
+    "id": "chinese",
+    "url": "https://stv.naer.edu.tw/data/course_outline/pta_18510_4703638_59125.pdf",
+    "indexUrl": "https://stv.naer.edu.tw/teaching/course_outline.jsp",
+    "retrievedAt": "2026-10-18",
+    "pages": 54,
+    "sha256": "210b2bea291bbc294584a6ae5796f88e9481298e9ce82067138a0b6808dcd72c",
+    "documentKind": "課程綱要"
+  },
+  {
+    "id": "english",
+    "url": "https://stv.naer.edu.tw/data/course_outline/pta_18518_3555074_59836.pdf",
+    "indexUrl": "https://stv.naer.edu.tw/teaching/course_outline.jsp",
+    "retrievedAt": "2026-10-18",
+    "pages": 73,
+    "sha256": "83dde39b16dfd3df84e6d9b2abca4cb7e822d925c8b3d1f4cb0df01527fb0abe",
+    "documentKind": "課程綱要"
+  },
+  {
+    "id": "mindong",
+    "url": "https://stv.naer.edu.tw/data/course_outline/(111%E5%AD%B8%E5%B9%B4%E5%BA%A6%E5%AF%A6%E6%96%BD)%E5%8D%81%E4%BA%8C%E5%B9%B4%E5%9C%8B%E6%B0%91%E5%9F%BA%E6%9C%AC%E6%95%99%E8%82%B2%E8%AA%B2%E7%A8%8B%E7%B6%B1%E8%A6%81%E8%AA%9E%E6%96%87%E9%A0%98%E5%9F%9F-%E6%9C%AC%E5%9C%9F%E8%AA%9E%E6%96%87(%E9%96%A9%E6%9D%B1%E8%AA%9E%E6%96%87)-%E7%99%BC%E5%B8%83%E7%89%88.pdf",
+    "indexUrl": "https://stv.naer.edu.tw/teaching/course_outline.jsp",
+    "retrievedAt": "2026-10-18",
+    "pages": 44,
+    "sha256": "a83be622ca0b13b345dec3a8380c273b9daf512a61e9a608dd20a5fb0d3aa64a",
+    "documentKind": "課程綱要"
+  },
+  {
+    "id": "sign",
+    "url": "https://stv.naer.edu.tw/data/course_outline/(111%E5%AD%B8%E5%B9%B4%E5%BA%A6%E5%AF%A6%E6%96%BD)%E5%8D%81%E4%BA%8C%E5%B9%B4%E5%9C%8B%E6%B0%91%E5%9F%BA%E6%9C%AC%E6%95%99%E8%82%B2%E8%AA%B2%E7%A8%8B%E7%B6%B1%E8%A6%81%E8%AA%9E%E6%96%87%E9%A0%98%E5%9F%9F-%E8%87%BA%E7%81%A3%E6%89%8B%E8%AA%9E-%E7%99%BC%E5%B8%83%E7%89%88.pdf",
+    "indexUrl": "https://stv.naer.edu.tw/teaching/course_outline.jsp",
+    "retrievedAt": "2026-10-18",
+    "pages": 61,
+    "sha256": "7bd12291918de116ae3e9494d410b6fd079bccfeacf8a45ff9bf3dd596b09036",
+    "documentKind": "課程綱要"
+  },
+  {
+    "id": "math",
+    "url": "https://stv.naer.edu.tw/data/course_outline/%E6%95%B8%E5%AD%B8%E9%A0%98%E5%9F%9F%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A%EF%BC%88113%E5%B9%B43%E6%9C%88%E6%9B%B4%E6%96%B0%E7%89%88%EF%BC%89_0326.pdf",
+    "indexUrl": "https://stv.naer.edu.tw/teaching/course_outline.jsp",
+    "retrievedAt": "2026-10-18",
+    "pages": 782,
+    "sha256": "9ea486c6f8294aadd5c51c6d720b9515255a401a7dace1f5a85594d2c0fb4b22",
+    "documentKind": "課程手冊"
+  },
+  {
+    "id": "social",
+    "url": "https://stv.naer.edu.tw/data/course_outline/pta_18535_6408773_60398.pdf",
+    "indexUrl": "https://stv.naer.edu.tw/teaching/course_outline.jsp",
+    "retrievedAt": "2026-10-18",
+    "pages": 172,
+    "sha256": "5ad53d3db32505c11213c05fefca761c727753dbfc7b76aef91260cf8c0568f5",
+    "documentKind": "課程綱要"
+  },
+  {
+    "id": "science",
+    "url": "https://stv.naer.edu.tw/data/course_outline/pta_18538_240851_60502.pdf",
+    "indexUrl": "https://stv.naer.edu.tw/teaching/course_outline.jsp",
+    "retrievedAt": "2026-10-18",
+    "pages": 235,
+    "sha256": "e853ac06468b2d40fd9d3c63b97984adcada7de8ab490b76d6c347ea926132b0",
+    "documentKind": "課程綱要"
+  },
+  {
+    "id": "arts",
+    "url": "https://stv.naer.edu.tw/data/course_outline/pta_18533_2143291_60289.pdf",
+    "indexUrl": "https://stv.naer.edu.tw/teaching/course_outline.jsp",
+    "retrievedAt": "2026-10-18",
+    "pages": 67,
+    "sha256": "c10d7de533587f52641909e14650dccaef2dfee412048b8c53b42e779235325f",
+    "documentKind": "課程綱要"
+  },
+  {
+    "id": "integrative",
+    "url": "https://stv.naer.edu.tw/data/course_outline/pta_18531_5238547_60214.pdf",
+    "indexUrl": "https://stv.naer.edu.tw/teaching/course_outline.jsp",
+    "retrievedAt": "2026-10-18",
+    "pages": 105,
+    "sha256": "d2e1356e4c2d1b992fd6f0766e63b9eb954876b90b402270e4c9b57f6f94a385",
+    "documentKind": "課程綱要"
+  },
+  {
+    "id": "technology",
+    "url": "https://stv.naer.edu.tw/data/course_outline/pta_18529_8438379_60115.pdf",
+    "indexUrl": "https://stv.naer.edu.tw/teaching/course_outline.jsp",
+    "retrievedAt": "2026-10-18",
+    "pages": 54,
+    "sha256": "a346fa6c78d57bd2860b657b1cce96309c7939b6e5d9d6946d5cba344d55cc04",
+    "documentKind": "課程綱要"
+  },
+  {
+    "id": "health",
+    "url": "https://stv.naer.edu.tw/data/course_outline/pta_18522_1560772_59945.pdf",
+    "indexUrl": "https://stv.naer.edu.tw/teaching/course_outline.jsp",
+    "retrievedAt": "2026-10-18",
+    "pages": 63,
+    "sha256": "00ec8d43cb70f5a53c5fd5d879e05051e8be33cd114751fceccbe77460aa2ac4",
+    "documentKind": "課程綱要"
+  }
+]
