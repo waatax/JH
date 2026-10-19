@@ -1527,19 +1527,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "明示（文言文的省略與虛字核心 1）",
-        "meaning": "文本直接寫出的訊息。對應本課核心觀念：讀文言先確認主詞、動詞與受詞，再依上下文補出省略成分",
-        "condition": "實戰檢核與適用條件：先確認人物、動作、時間與代詞指涉"
+        "term": "之字多義（文言文的省略與虛字核心 1）",
+        "meaning": "依詞性判斷為代詞、動詞、結構助詞或助詞無義。對應本課核心觀念：讀文言先確認主詞、動詞與受詞，再依上下文補出省略成分",
+        "condition": "實戰檢核與適用條件：「送孟浩然之廣陵」為動詞往；「項為之強」為代名詞它"
       },
       {
-        "term": "推論（文言文的省略與虛字核心 2）",
-        "meaning": "用多個線索推得未直接寫出的意思。對應本課核心觀念：「之」可以是代詞、助詞或動詞，不能永遠翻成「的」",
-        "condition": "實戰檢核與適用條件：說明「哪一句」支持「哪個判斷」"
+        "term": "主語省略（文言文的省略與虛字核心 2）",
+        "meaning": "文言敘事常承前省略主語，需補出行為者。對應本課核心觀念：「之」可以是代詞、助詞或動詞，不能永遠翻成「的」",
+        "condition": "實戰檢核與適用條件：「見二蟲鬥草間，（余）觀之」；翻譯時需補齊主語"
       },
       {
-        "term": "評價（文言文的省略與虛字核心 3）",
-        "meaning": "依標準檢驗說法是否合理。對應本課核心觀念：讀文言先確認主詞、動詞與受詞，再依上下文補出省略成分",
-        "condition": "實戰檢核與適用條件：例子是否具有代表性？有沒有其他解釋？"
+        "term": "倒裝句式（文言文的省略與虛字核心 3）",
+        "meaning": "賓語前置、定語後置或狀語後置。對應本課核心觀念：讀文言先確認主詞、動詞與受詞，再依上下文補出省略成分",
+        "condition": "實戰檢核與適用條件：「何陋之有」即「有何陋」；之為賓語前置的結構標記"
       }
     ],
     "blackboard": {
@@ -1548,19 +1548,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（先確認動作序列：借書、讀、歸還；借閱者是句中延續的主詞「友」。）",
-          "mathExpression": "明示 ➔ 文本直接寫出的訊息",
+          "mathExpression": "之字多義 ➔ 依詞性判斷為代詞、動詞、結構助詞或助詞無義",
           "explanation": "先確認動作序列：借書、讀、歸還；借閱者是句中延續的主詞「友」。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（文言文的省略與虛字）",
-          "mathExpression": "推論 ➔ 用多個線索推得未直接寫出的意思",
+          "mathExpression": "主語省略 ➔ 文言敘事常承前省略主語，需補出行為者",
           "explanation": "第一個「之」作「讀」的受詞，指借來的書；第二個也指該書。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "評價 ➔ 依標準檢驗說法是否合理",
+          "mathExpression": "倒裝句式 ➔ 賓語前置、定語後置或狀語後置",
           "explanation": "可譯為「朋友借了書，讀完後才歸還它」，歸還對象需由更完整語境確認。"
         }
       ],
@@ -1573,7 +1573,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「明示、推論」之規則完成「仿文言例句：「友借書，既讀之，乃歸之。」兩個「之」指什麼？省略了哪些資訊？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「之字多義、主語省略」之規則完成「仿文言例句：「友借書，既讀之，乃歸之。」兩個「之」指什麼？省略了哪些資訊？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1581,7 +1581,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「文言文的省略與虛字、先確認動作序列：借書、讀、歸還；借閱者是句中延續的主詞「友」。、明示、推論、評價」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「文言文的省略與虛字、先確認動作序列：借書、讀、歸還；借閱者是句中延續的主詞「友」。、之字多義、主語省略、倒裝句式」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】逐字固定翻譯容易誤判，應先讀完整句再回頭對照。",
       "defenseCheck": "【考場防呆】不能把此處每個「之」都翻成「的」；也不要憑空補出書的主人姓名。"
     }
@@ -1671,19 +1671,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "明示（議論、論據與批判閱讀核心 1）",
-        "meaning": "文本直接寫出的訊息。對應本課核心觀念：議論包含主張、理由與支持證據",
-        "condition": "實戰檢核與適用條件：先確認人物、動作、時間與代詞指涉"
+        "term": "論點辨別（議論、論據與批判閱讀核心 1）",
+        "meaning": "作者的核心主張，通常在篇首破題、段首或篇末總結。對應本課核心觀念：議論包含主張、理由與支持證據",
+        "condition": "實戰檢核與適用條件：「學貴有恆」是主張；不能把客觀現象直接當作者論點"
       },
       {
-        "term": "推論（議論、論據與批判閱讀核心 2）",
-        "meaning": "用多個線索推得未直接寫出的意思。對應本課核心觀念：好的論證能處理反例與條件，區分事實描述和價值判斷",
-        "condition": "實戰檢核與適用條件：說明「哪一句」支持「哪個判斷」"
+        "term": "論據類型（議論、論據與批判閱讀核心 2）",
+        "meaning": "事實論據（事例、史實、數據）vs 理論論據（名言、公理、定律）。對應本課核心觀念：好的論證能處理反例與條件，區分事實描述和價值判斷",
+        "condition": "實戰檢核與適用條件：引司馬遷受宮刑著史為事實；引孔子「逝者如斯夫」為理論"
       },
       {
-        "term": "評價（議論、論據與批判閱讀核心 3）",
-        "meaning": "依標準檢驗說法是否合理。對應本課核心觀念：議論包含主張、理由與支持證據",
-        "condition": "實戰檢核與適用條件：例子是否具有代表性？有沒有其他解釋？"
+        "term": "論證方法（議論、論據與批判閱讀核心 3）",
+        "meaning": "舉例、正反對比、引用、喻證法。對應本課核心觀念：議論包含主張、理由與支持證據",
+        "condition": "實戰檢核與適用條件：以磨杵成針比喻持之以恆為喻證；正反論述強化說服力"
       }
     ],
     "blackboard": {
@@ -1692,19 +1692,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（論點是全校播放音樂能提高成績，論據只有小明的一次經驗。）",
-          "mathExpression": "明示 ➔ 文本直接寫出的訊息",
+          "mathExpression": "論點辨別 ➔ 作者的核心主張，通常在篇首破題、段首或篇末總結",
           "explanation": "論點是全校播放音樂能提高成績，論據只有小明的一次經驗。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（議論、論據與批判閱讀）",
-          "mathExpression": "推論 ➔ 用多個線索推得未直接寫出的意思",
+          "mathExpression": "論據類型 ➔ 事實論據（事例、史實、數據）vs 理論論據（名言、公理、定律）",
           "explanation": "未排除準備時間、題目難度、原有程度等影響，也不知道其他人的反應。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "評價 ➔ 依標準檢驗說法是否合理",
+          "mathExpression": "論證方法 ➔ 舉例、正反對比、引用、喻證法",
           "explanation": "可建議比較相近條件下多位學生的表現，再討論哪些情境適用。"
         }
       ],
@@ -1717,7 +1717,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「明示、推論」之規則完成「「小明每天聽音樂讀書，這次考得好，所以全校都應播放音樂來提高成績。」推論有何缺口？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「論點辨別、論據類型」之規則完成「「小明每天聽音樂讀書，這次考得好，所以全校都應播放音樂來提高成績。」推論有何缺口？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1725,7 +1725,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「議論、論據與批判閱讀、論點是全校播放音樂能提高成績，論據只有小明的一次經驗。、明示、推論、評價」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「議論、論據與批判閱讀、論點是全校播放音樂能提高成績，論據只有小明的一次經驗。、論點辨別、論據類型、論證方法」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】名人說過不等於證據充分；攻擊說話者也不等於反駁論點。",
       "defenseCheck": "【考場防呆】反駁不是斷言音樂一定有害；目前只能說資料不足以支持普遍因果結論。"
     }
@@ -1815,19 +1815,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "現在簡單式（句子骨架與現在式核心 1）",
-        "meaning": "習慣或一般事實。對應本課核心觀念：先找主詞與動詞",
-        "condition": "實戰檢核與適用條件：She walks to school every day.（第三人稱單數加 s）"
+        "term": "五大句型（句子骨架與現在式核心 1）",
+        "meaning": "S+V, S+V+O, S+V+C, S+V+O+O, S+V+O+C。對應本課核心觀念：先找主詞與動詞",
+        "condition": "實戰檢核與適用條件：The sun rises. (S+V)；She is a doctor. (S+V+C)"
       },
       {
-        "term": "現在進行式（句子骨架與現在式核心 2）",
-        "meaning": "be＋V-ing；現在進行中的動作。對應本課核心觀念：be 動詞描述身分、狀態",
-        "condition": "實戰檢核與適用條件：She is walking now."
+        "term": "現在簡單式（句子骨架與現在式核心 2）",
+        "meaning": "描述習慣、一般事實、真理與時刻表。對應本課核心觀念：be 動詞描述身分、狀態",
+        "condition": "實戰檢核與適用條件：Water boils at 100°C.；He plays basketball every Sunday."
       },
       {
-        "term": "過去簡單式（句子骨架與現在式核心 3）",
-        "meaning": "已結束的過去時間。對應本課核心觀念：一般動詞描述動作",
-        "condition": "實戰檢核與適用條件：She walked home yesterday."
+        "term": "三單動詞變化（句子骨架與現在式核心 3）",
+        "meaning": "主詞為第三人稱單數（he/she/it），動詞字尾加 -s/-es/-ies。對應本課核心觀念：一般動詞描述動作",
+        "condition": "實戰檢核與適用條件：watch→watches, study→studies, have→has；不可漏掉 -s"
       }
     ],
     "blackboard": {
@@ -1836,19 +1836,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（主詞 Mia 是第三人稱單數，所以原肯定句使用 walks；every day 提示日常習慣。）",
-          "mathExpression": "現在簡單式 ➔ 習慣或一般事實",
+          "mathExpression": "五大句型 ➔ S+V, S+V+O, S+V+C, S+V+O+O, S+V+O+C",
           "explanation": "主詞 Mia 是第三人稱單數，所以原肯定句使用 walks；every day 提示日常習慣。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（句子骨架與現在式）",
-          "mathExpression": "現在進行式 ➔ be＋V-ing；現在進行中的動作",
+          "mathExpression": "現在簡單式 ➔ 描述習慣、一般事實、真理與時刻表",
           "explanation": "否定句為 Mia does not walk to school every day.；問句為 Does Mia walk to school every day?，兩者 walk 都不再加 s。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "過去簡單式 ➔ 已結束的過去時間",
+          "mathExpression": "三單動詞變化 ➔ 主詞為第三人稱單數（he/she/it），動詞字尾加 -s/-es/-ies",
           "explanation": "回答可寫 She takes the bus on weekends.；若只否定每天都走路，不代表她從不走路，需注意 every day 的否定範圍。"
         }
       ],
@@ -1861,7 +1861,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「把「Mia walks to school every day.」改為否定句與一般問句，並回答「她週末搭公車」。」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「五大句型、現在簡單式」之規則完成「把「Mia walks to school every day.」改為否定句與一般問句，並回答「她週末搭公車」。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1869,7 +1869,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「句子骨架與現在式、主詞 Mia 是第三人稱單數，所以原肯定句使用 walks；every day 提示日常習慣。、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「句子骨架與現在式、主詞 Mia 是第三人稱單數，所以原肯定句使用 walks；every day 提示日常習慣。、五大句型、現在簡單式、三單動詞變化」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】does 後面的主要動詞回原形，不寫 does not plays。",
       "defenseCheck": "【考場防呆】對照 She is a student. → Is she a student?，此處主要動詞是 be，不能寫 Does she is a student?。再把 Mia 換成 Mia and Leo，應改為 walk、do not walk 與 Do，確認主詞數量會影響形式。"
     }
@@ -1887,19 +1887,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "現在簡單式（現在進行式與時間表達核心 1）",
-        "meaning": "習慣或一般事實。對應本課核心觀念：現在進行式 be＋V-ing，描述正在進行的動作",
-        "condition": "實戰檢核與適用條件：She walks to school every day.（第三人稱單數加 s）"
+        "term": "肯定句（現在進行式與時間表達核心 1）",
+        "meaning": "主詞+am/is/are+V-ing。對應本課核心觀念：現在進行式 be＋V-ing，描述正在進行的動作",
+        "condition": "實戰檢核與適用條件：They are studying now.；不可漏掉 are"
       },
       {
-        "term": "現在進行式（現在進行式與時間表達核心 2）",
-        "meaning": "be＋V-ing；現在進行中的動作。對應本課核心觀念：頻率副詞 often、usually 多和習慣現在式使用",
-        "condition": "實戰檢核與適用條件：She is walking now."
+        "term": "否定句（現在進行式與時間表達核心 2）",
+        "meaning": "在 be 動詞後加 not。對應本課核心觀念：頻率副詞 often、usually 多和習慣現在式使用",
+        "condition": "實戰檢核與適用條件：She is not sleeping."
       },
       {
-        "term": "過去簡單式（現在進行式與時間表達核心 3）",
-        "meaning": "已結束的過去時間。對應本課核心觀念：時態仍要靠情境而非只抓單字",
-        "condition": "實戰檢核與適用條件：She walked home yesterday."
+        "term": "疑問句（現在進行式與時間表達核心 3）",
+        "meaning": "把 be 動詞移到主詞前。對應本課核心觀念：時態仍要靠情境而非只抓單字",
+        "condition": "實戰檢核與適用條件：Are you listening?；不是 Do you listening?"
       }
     ],
     "blackboard": {
@@ -1908,19 +1908,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（usually 描述習慣，主詞 Ben 是單數，第一格用 studies；字尾子音加 y 的 study 改成 studies。）",
-          "mathExpression": "現在簡單式 ➔ 習慣或一般事實",
+          "mathExpression": "肯定句 ➔ 主詞+am/is/are+V-ing",
           "explanation": "usually 描述習慣，主詞 Ben 是單數，第一格用 studies；字尾子音加 y 的 study 改成 studies。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（現在進行式與時間表達）",
-          "mathExpression": "現在進行式 ➔ be＋V-ing；現在進行中的動作",
+          "mathExpression": "否定句 ➔ 在 be 動詞後加 not",
           "explanation": "today 此處搭配當下正在圖書館讀書的情境，第二格用 is studying；study 加 ing 不把 y 改成 i。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "過去簡單式 ➔ 已結束的過去時間",
+          "mathExpression": "疑問句 ➔ 把 be 動詞移到主詞前",
           "explanation": "問句為 Is he studying at the library today?，把 be 移到主詞前，不加入 does。"
         }
       ],
@@ -1933,7 +1933,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「看情境填句：「Ben usually ___ at home, but today he ___ at the library.」兩格都用 study，並改寫第二部分為問句。」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「肯定句、否定句」之規則完成「看情境填句：「Ben usually ___ at home, but today he ___ at the library.」兩格都用 study，並改寫第二部分為問句。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -1941,7 +1941,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「現在進行式與時間表達、usually 描述習慣，主詞 Ben 是單數，第一格用 studies；字尾子音加 y 的 study 改成 studies。、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「現在進行式與時間表達、usually 描述習慣，主詞 Ben 是單數，第一格用 studies；字尾子音加 y 的 study 改成 studies。、肯定句、否定句、疑問句」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子。",
       "defenseCheck": "【考場防呆】完整句為 Ben usually studies at home, but today he is studying at the library.。不能只看到 today 就保證用進行式，仍需看句意是否在描述正在進行的動作；時間詞是線索，不是唯一規則。"
     }
@@ -1959,19 +1959,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "現在簡單式（過去式、未來與敘事順序核心 1）",
-        "meaning": "習慣或一般事實。對應本課核心觀念：過去簡單式描述過去事件，否定和問句用 did＋原形",
-        "condition": "實戰檢核與適用條件：She walks to school every day.（第三人稱單數加 s）"
+        "term": "規則過去式（過去式、未來與敘事順序核心 1）",
+        "meaning": "動詞字尾加 -ed（played, stopped, studied）。對應本課核心觀念：過去簡單式描述過去事件，否定和問句用 did＋原形",
+        "condition": "實戰檢核與適用條件：Yesterday I visited my grandparents.；注意子音加 y 變 ied"
       },
       {
-        "term": "現在進行式（過去式、未來與敘事順序核心 2）",
-        "meaning": "be＋V-ing；現在進行中的動作。對應本課核心觀念：未來可用 will 或 be going to 表達預測或計畫，仍要配合情境",
-        "condition": "實戰檢核與適用條件：She is walking now."
+        "term": "不規則過去式（過去式、未來與敘事順序核心 2）",
+        "meaning": "動詞不規則變化（went, ate, bought, saw）。對應本課核心觀念：未來可用 will 或 be going to 表達預測或計畫，仍要配合情境",
+        "condition": "實戰檢核與適用條件：They bought a new car last week.；不可寫 buyed"
       },
       {
-        "term": "過去簡單式（過去式、未來與敘事順序核心 3）",
-        "meaning": "已結束的過去時間。對應本課核心觀念：過去簡單式描述過去事件，否定和問句用 did＋原形",
-        "condition": "實戰檢核與適用條件：She walked home yesterday."
+        "term": "過去時間標記（過去式、未來與敘事順序核心 3）",
+        "meaning": "yesterday, last night, two days ago, in 2020。對應本課核心觀念：過去簡單式描述過去事件，否定和問句用 did＋原形",
+        "condition": "實戰檢核與適用條件：見到 ago 或 last 提示過去確定時間點，使用過去式"
       }
     ],
     "blackboard": {
@@ -1980,19 +1980,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（after 引導的子句表示較早完成的事，因此先完成作業，再打給 Sam。）",
-          "mathExpression": "現在簡單式 ➔ 習慣或一般事實",
+          "mathExpression": "規則過去式 ➔ 動詞字尾加 -ed（played, stopped, studied）",
           "explanation": "after 引導的子句表示較早完成的事，因此先完成作業，再打給 Sam。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（過去式、未來與敘事順序）",
-          "mathExpression": "現在進行式 ➔ be＋V-ing；現在進行中的動作",
+          "mathExpression": "不規則過去式 ➔ 動詞不規則變化（went, ate, bought, saw）",
           "explanation": "問句為 Did Nora call Sam yesterday?，有 did 所以用 call，不寫 called。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "過去簡單式 ➔ 已結束的過去時間",
+          "mathExpression": "過去時間標記 ➔ yesterday, last night, two days ago, in 2020",
           "explanation": "未來計畫為 They are going to visit the museum tomorrow.，主詞是 they，所以 be 用 are。"
         }
       ],
@@ -2005,7 +2005,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「讀句：「After Nora finished her homework, she called Sam. They are going to visit the museum tomorrow.」誰先完成什麼？如何問她昨天是否打電話？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「規則過去式、不規則過去式」之規則完成「讀句：「After Nora finished her homework, she called Sam. They are going to visit the museum tomorrow.」誰先完成什麼？如何問她昨天是否打電話？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2013,7 +2013,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「過去式、未來與敘事順序、after 引導的子句表示較早完成的事，因此先完成作業，再打給 Sam。、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「過去式、未來與敘事順序、after 引導的子句表示較早完成的事，因此先完成作業，再打給 Sam。、規則過去式、不規則過去式、過去時間標記」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記。",
       "defenseCheck": "【考場防呆】可改述 First, Nora finished her homework. Then she called Sam.。若寫 She didn’t called Sam，便重複標記過去；應為 She didn’t call Sam。判斷時間時，把句型與事件順序一起核對。"
     }
@@ -2103,19 +2103,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "現在簡單式（完成式、被動與關係子句核心 1）",
-        "meaning": "習慣或一般事實。對應本課核心觀念：現在完成式 have/has＋過去分詞，連結過去與現在",
-        "condition": "實戰檢核與適用條件：She walks to school every day.（第三人稱單數加 s）"
+        "term": "現在完成式（完成式、被動與關係子句核心 1）",
+        "meaning": "have/has+過去分詞，連結過去與現在。對應本課核心觀念：現在完成式 have/has＋過去分詞，連結過去與現在",
+        "condition": "實戰檢核與適用條件：I have finished my homework.；需依語境理解現在的關聯"
       },
       {
-        "term": "現在進行式（完成式、被動與關係子句核心 2）",
-        "meaning": "be＋V-ing；現在進行中的動作。對應本課核心觀念：被動語態 be＋過去分詞，突出承受動作的對象",
-        "condition": "實戰檢核與適用條件：She is walking now."
+        "term": "被動語態（完成式、被動與關係子句核心 2）",
+        "meaning": "be+過去分詞，把承受動作的人事物放在主詞位置。對應本課核心觀念：被動語態 be＋過去分詞，突出承受動作的對象",
+        "condition": "實戰檢核與適用條件：The window was broken.；was 表示過去時間"
       },
       {
-        "term": "過去簡單式（完成式、被動與關係子句核心 3）",
-        "meaning": "已結束的過去時間。對應本課核心觀念：關係子句補充名詞資訊",
-        "condition": "實戰檢核與適用條件：She walked home yesterday."
+        "term": "關係子句（完成式、被動與關係子句核心 3）",
+        "meaning": "用子句補充或限定名詞。對應本課核心觀念：關係子句補充名詞資訊",
+        "condition": "實戰檢核與適用條件：The student who sits here is absent.；who 在子句中是主詞"
       }
     ],
     "blackboard": {
@@ -2124,19 +2124,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（兩句共同名詞是 the bridge，可合併 The bridge which/that connects the two towns was repaired last year.。）",
-          "mathExpression": "現在簡單式 ➔ 習慣或一般事實",
+          "mathExpression": "現在完成式 ➔ have/has+過去分詞，連結過去與現在",
           "explanation": "兩句共同名詞是 the bridge，可合併 The bridge which/that connects the two towns was repaired last year.。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（完成式、被動與關係子句）",
-          "mathExpression": "現在進行式 ➔ be＋V-ing；現在進行中的動作",
+          "mathExpression": "被動語態 ➔ be+過去分詞，把承受動作的人事物放在主詞位置",
           "explanation": "was repaired 是過去被動，重點在橋接受修理；last year 是已結束時間。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "過去簡單式 ➔ 已結束的過去時間",
+          "mathExpression": "關係子句 ➔ 用子句補充或限定名詞",
           "explanation": "Workers have repaired the bridge. 使用現在完成式，強調修理已完成並與現在相關，句中 workers 是行動者。"
         }
       ],
@@ -2149,7 +2149,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「合併「The bridge was repaired last year.」「The bridge connects the two towns.」並比較「Workers have repaired the bridge.」的意思。」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「現在完成式、被動語態」之規則完成「合併「The bridge was repaired last year.」「The bridge connects the two towns.」並比較「Workers have repaired the bridge.」的意思。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2157,7 +2157,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「完成式、被動與關係子句、兩句共同名詞是 the bridge，可合併 The bridge which/that connects the two towns was repaired last year.。、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「完成式、被動與關係子句、兩句共同名詞是 the bridge，可合併 The bridge which/that connects the two towns was repaired last year.。、現在完成式、被動語態、關係子句」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】現在完成式通常不和明確結束的過去時間 yesterday 搭配。",
       "defenseCheck": "【考場防呆】不能把 last year 直接接在表示此完成用法的 have repaired 後；若要指出明確過去年份，改用 repaired。關係代名詞在 connects 前作主詞，不可任意省掉。"
     }
@@ -2607,19 +2607,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "明示（古典小說選讀與人性刻畫核心 1）",
-        "meaning": "文本直接寫出的訊息。對應本課核心觀念：中國古代章回小說由宋元話本發展而來，明清達到高峰",
-        "condition": "實戰檢核與適用條件：先確認人物、動作、時間與代詞指涉"
+        "term": "情節伏筆（古典小說選讀與人性刻畫核心 1）",
+        "meaning": "前文草蛇灰線的暗示，呼應後續高潮與結局。對應本課核心觀念：中國古代章回小說由宋元話本發展而來，明清達到高峰",
+        "condition": "實戰檢核與適用條件：草料場雪夜下火盆暗示起火；線索需串聯上下文"
       },
       {
-        "term": "推論（古典小說選讀與人性刻畫核心 2）",
-        "meaning": "用多個線索推得未直接寫出的意思。對應本課核心觀念：四大名著包括《三國演義》（歷史演義）、《水滸傳》（英雄傳奇）、《西遊記》（神魔奇幻）與《紅樓夢》（世情小說）",
-        "condition": "實戰檢核與適用條件：說明「哪一句」支持「哪個判斷」"
+        "term": "人物塑造（古典小說選讀與人性刻畫核心 2）",
+        "meaning": "透過對話（語言）、動作、外貌與心理描摹性格。對應本課核心觀念：四大名著包括《三國演義》（歷史演義）、《水滸傳》（英雄傳奇）、《西遊記》（神魔奇幻）與《紅樓夢》（世情小說）",
+        "condition": "實戰檢核與適用條件：張飛之粗中有細、曹操之奸雄多疑；不依單一事件定臉譜"
       },
       {
-        "term": "評價（古典小說選讀與人性刻畫核心 3）",
-        "meaning": "依標準檢驗說法是否合理。對應本課核心觀念：刻畫人物藉由外貌、心理、言行對比及情節衝突展現人性複雜面貌",
-        "condition": "實戰檢核與適用條件：例子是否具有代表性？有沒有其他解釋？"
+        "term": "對比與襯托（古典小說選讀與人性刻畫核心 3）",
+        "meaning": "正襯（以好襯好）與反襯（以動襯靜、以小襯大）。對應本課核心觀念：刻畫人物藉由外貌、心理、言行對比及情節衝突展現人性複雜面貌",
+        "condition": "實戰檢核與適用條件：周瑜與諸葛亮智謀對比；魯智深粗魯對襯拳打鎮關西之正義"
       }
     ],
     "blackboard": {
@@ -2628,19 +2628,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（人物口頭宣稱平等，行動卻依外表改變接待順序，形成反差。）",
-          "mathExpression": "明示 ➔ 文本直接寫出的訊息",
+          "mathExpression": "情節伏筆 ➔ 前文草蛇灰線的暗示，呼應後續高潮與結局",
           "explanation": "人物口頭宣稱平等，行動卻依外表改變接待順序，形成反差。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（古典小說選讀與人性刻畫）",
-          "mathExpression": "推論 ➔ 用多個線索推得未直接寫出的意思",
+          "mathExpression": "人物塑造 ➔ 透過對話（語言）、動作、外貌與心理描摹性格",
           "explanation": "這一反差可支持對勢利或言行不一的批評。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "評價 ➔ 依標準檢驗說法是否合理",
+          "mathExpression": "對比與襯托 ➔ 正襯（以好襯好）與反襯（以動襯靜、以小襯大）",
           "explanation": "若要判斷少年是否真的貧窮，仍缺少更多資訊，衣著不是充分證據。"
         }
       ],
@@ -2653,7 +2653,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「明示、推論」之規則完成「原創故事片段：「掌櫃說一視同仁，卻先招呼衣著華麗的客人，讓粗衣少年等到天黑。」如何分析人物？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「情節伏筆、人物塑造」之規則完成「原創故事片段：「掌櫃說一視同仁，卻先招呼衣著華麗的客人，讓粗衣少年等到天黑。」如何分析人物？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2661,7 +2661,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「古典小說選讀與人性刻畫、人物口頭宣稱平等，行動卻依外表改變接待順序，形成反差。、明示、推論、評價」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「古典小說選讀與人性刻畫、人物口頭宣稱平等，行動卻依外表改變接待順序，形成反差。、情節伏筆、人物塑造、對比與襯托」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】章回小說的情節經過作者藝術加工，不等同於真實歷史事實（如《三國演義》七實三虛，草船借箭在正史中並非諸葛亮所為）。",
       "defenseCheck": "【考場防呆】分析要分清「掌櫃如何看人」與「少年實際身分」，不要重複人物自身的偏見。"
     }
@@ -2895,19 +2895,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "現在簡單式（過去進行式、時間連接詞與數量詞核心 1）",
-        "meaning": "習慣或一般事實。對應本課核心觀念：The past continuous tense (was/were + V-ing) describes an action that was in progress at a specific moment in the past. When combined with \"when\" or \"while\", it shows an ongoing background action interrupted by another past action. Countable and uncountable nouns use distinct quantifiers (many/few vs much/little).",
-        "condition": "實戰檢核與適用條件：She walks to school every day.（第三人稱單數加 s）"
+        "term": "過去進行式（過去進行式、時間連接詞與數量詞核心 1）",
+        "meaning": "主詞 + was/were + V-ing。對應本課核心觀念：The past continuous tense (was/were + V-ing) describes an action that was in progress at a specific moment in the past. When combined with \"when\" or \"while\", it shows an ongoing background action interrupted by another past action. Countable and uncountable nouns use distinct quantifiers (many/few vs much/little).",
+        "condition": "實戰檢核與適用條件：At 8 p.m. yesterday, I was studying.；主詞單複數決定 was/were"
       },
       {
-        "term": "現在進行式（過去進行式、時間連接詞與數量詞核心 2）",
-        "meaning": "be＋V-ing；現在進行中的動作。對應本課核心觀念：The past continuous tense (was/were + V-ing) describes an action that was in progress at a specific moment in the past. When combined with \"when\" or \"while\", it shows an ongoing background action interrupted by another past action. Countable and uncountable nouns use distinct quantifiers (many/few vs much/little).",
-        "condition": "實戰檢核與適用條件：She is walking now."
+        "term": "when 與 while（過去進行式、時間連接詞與數量詞核心 2）",
+        "meaning": "when 接瞬間過去動作；while 接持續進行動作。對應本課核心觀念：The past continuous tense (was/were + V-ing) describes an action that was in progress at a specific moment in the past. When combined with \"when\" or \"while\", it shows an ongoing background action interrupted by another past action. Countable and uncountable nouns use distinct quantifiers (many/few vs much/little).",
+        "condition": "實戰檢核與適用條件：I was taking a shower when the phone rang. / While Dad was cooking, Mom was reading."
       },
       {
-        "term": "過去簡單式（過去進行式、時間連接詞與數量詞核心 3）",
-        "meaning": "已結束的過去時間。對應本課核心觀念：The past continuous tense (was/were + V-ing) describes an action that was in progress at a specific moment in the past. When combined with \"when\" or \"while\", it shows an ongoing background action interrupted by another past action. Countable and uncountable nouns use distinct quantifiers (many/few vs much/little).",
-        "condition": "實戰檢核與適用條件：She walked home yesterday."
+        "term": "可數與不可數數量（過去進行式、時間連接詞與數量詞核心 3）",
+        "meaning": "many/a few/few 接可數複數；much/a little/little 接不可數。對應本課核心觀念：The past continuous tense (was/were + V-ing) describes an action that was in progress at a specific moment in the past. When combined with \"when\" or \"while\", it shows an ongoing background action interrupted by another past action. Countable and uncountable nouns use distinct quantifiers (many/few vs much/little).",
+        "condition": "實戰檢核與適用條件：many friends, much water；a few（正面）vs few（負面）"
       }
     ],
     "blackboard": {
@@ -2916,19 +2916,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（背景動作是當時正在煮飯，填 was cooking；電話響是一次發生的事件，填 rang。）",
-          "mathExpression": "現在簡單式 ➔ 習慣或一般事實",
+          "mathExpression": "過去進行式 ➔ 主詞 + was/were + V-ing",
           "explanation": "背景動作是當時正在煮飯，填 was cooking；電話響是一次發生的事件，填 rang。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（過去進行式、時間連接詞與數量詞）",
-          "mathExpression": "現在進行式 ➔ be＋V-ing；現在進行中的動作",
+          "mathExpression": "when 與 while ➔ when 接瞬間過去動作；while 接持續進行動作",
           "explanation": "rice 在此不可數，使用 a little rice；a few 要修飾複數可數名詞，如 a few eggs。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "過去簡單式 ➔ 已結束的過去時間",
+          "mathExpression": "可數與不可數數量 ➔ many/a few/few 接可數複數；much/a little/little 接不可數",
           "explanation": "完整句為 While Leo was cooking, the phone rang. There was a little rice left, so he made only a small meal.。"
         }
       ],
@@ -2941,7 +2941,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「完成「While Leo ___ (cook), the phone ___ (ring). There was ___ rice left, so he made only a small meal.」第三格選 a little 或 a few。」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「過去進行式、when 與 while」之規則完成「完成「While Leo ___ (cook), the phone ___ (ring). There was ___ rice left, so he made only a small meal.」第三格選 a little 或 a few。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -2949,7 +2949,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「過去進行式、時間連接詞與數量詞、背景動作是當時正在煮飯，填 was cooking；電話響是一次發生的事件，填 rang。、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「過去進行式、時間連接詞與數量詞、背景動作是當時正在煮飯，填 was cooking；電話響是一次發生的事件，填 rang。、過去進行式、when 與 while、可數與不可數數量」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】Do not confuse \"a few\" (positive: some) with \"few\" (negative: almost none), or \"a little\" (some) with \"little\" (almost none). Remember \"were\" is used for you/we/they in past continuous.",
       "defenseCheck": "【考場防呆】a little 表示有少量；little 常偏向幾乎沒有，語氣不同。可將第一句改為 Leo was cooking when the phone rang.，事件關係保持不變；並非看到 when 就一定把它後面所有動詞變成進行式。"
     }
@@ -3039,19 +3039,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "現在簡單式（授予動詞、使役動詞與現在完成式進階核心 1）",
-        "meaning": "習慣或一般事實。對應本課核心觀念：Dative verbs take two objects: direct (thing) and indirect (person). When the person follows, prepositions are required: \"to\" for transfer (give, send, show), \"for\" for benefit/effort (buy, make, cook). Causative verbs (make, have, let) take an object and a bare infinitive (base verb). Present perfect with \"since\" indicates an action starting at a specific point in time.",
-        "condition": "實戰檢核與適用條件：She walks to school every day.（第三人稱單數加 s）"
+        "term": "使役動詞（授予動詞、使役動詞與現在完成式進階核心 1）",
+        "meaning": "make/have/let + 受詞 + 原形動詞；get + 受詞 + to V。對應本課核心觀念：Dative verbs take two objects: direct (thing) and indirect (person). When the person follows, prepositions are required: \"to\" for transfer (give, send, show), \"for\" for benefit/effort (buy, make, cook). Causative verbs (make, have, let) take an object and a bare infinitive (base verb). Present perfect with \"since\" indicates an action starting at a specific point in time.",
+        "condition": "實戰檢核與適用條件：Mom made me clean my room. / Dad let him drive the car."
       },
       {
-        "term": "現在進行式（授予動詞、使役動詞與現在完成式進階核心 2）",
-        "meaning": "be＋V-ing；現在進行中的動作。對應本課核心觀念：Dative verbs take two objects: direct (thing) and indirect (person). When the person follows, prepositions are required: \"to\" for transfer (give, send, show), \"for\" for benefit/effort (buy, make, cook). Causative verbs (make, have, let) take an object and a bare infinitive (base verb). Present perfect with \"since\" indicates an action starting at a specific point in time.",
-        "condition": "實戰檢核與適用條件：She is walking now."
+        "term": "授予動詞介系詞（授予動詞、使役動詞與現在完成式進階核心 2）",
+        "meaning": "give/send/show + 物 + to + 人；buy/make/cook + 物 + for + 人。對應本課核心觀念：Dative verbs take two objects: direct (thing) and indirect (person). When the person follows, prepositions are required: \"to\" for transfer (give, send, show), \"for\" for benefit/effort (buy, make, cook). Causative verbs (make, have, let) take an object and a bare infinitive (base verb). Present perfect with \"since\" indicates an action starting at a specific point in time.",
+        "condition": "實戰檢核與適用條件：He gave a gift to me. = He gave me a gift. / Mom bought a cake for us."
       },
       {
-        "term": "過去簡單式（授予動詞、使役動詞與現在完成式進階核心 3）",
-        "meaning": "已結束的過去時間。對應本課核心觀念：Dative verbs take two objects: direct (thing) and indirect (person). When the person follows, prepositions are required: \"to\" for transfer (give, send, show), \"for\" for benefit/effort (buy, make, cook). Causative verbs (make, have, let) take an object and a bare infinitive (base verb). Present perfect with \"since\" indicates an action starting at a specific point in time.",
-        "condition": "實戰檢核與適用條件：She walked home yesterday."
+        "term": "現在完成式持續（授予動詞、使役動詞與現在完成式進階核心 3）",
+        "meaning": "have/has + p.p. 搭配 since（接時間點）或 for（接時間長度）。對應本課核心觀念：Dative verbs take two objects: direct (thing) and indirect (person). When the person follows, prepositions are required: \"to\" for transfer (give, send, show), \"for\" for benefit/effort (buy, make, cook). Causative verbs (make, have, let) take an object and a bare infinitive (base verb). Present perfect with \"since\" indicates an action starting at a specific point in time.",
+        "condition": "實戰檢核與適用條件：I have lived here for ten years. / She has studied English since 2018."
       }
     ],
     "blackboard": {
@@ -3060,19 +3060,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（雙受詞改為 Dad bought a bike for me.，buy 在此搭配 for，不能機械套所有動詞都用 to。）",
-          "mathExpression": "現在簡單式 ➔ 習慣或一般事實",
+          "mathExpression": "使役動詞 ➔ make/have/let + 受詞 + 原形動詞；get + 受詞 + to V",
           "explanation": "雙受詞改為 Dad bought a bike for me.，buy 在此搭配 for，不能機械套所有動詞都用 to。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（授予動詞、使役動詞與現在完成式進階）",
-          "mathExpression": "現在進行式 ➔ be＋V-ing；現在進行中的動作",
+          "mathExpression": "授予動詞介系詞 ➔ give/send/show + 物 + to + 人；buy/make/cook + 物 + for + 人",
           "explanation": "使役句為 He let me ride it.，let 後接 me 和原形 ride，不用 to ride。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "過去簡單式 ➔ 已結束的過去時間",
+          "mathExpression": "現在完成式持續 ➔ have/has + p.p. 搭配 since（接時間點）或 for（接時間長度）",
           "explanation": "最後填 since 2023，表示持有狀態從 2023 延續至今：I have had it since 2023.。"
         }
       ],
@@ -3085,7 +3085,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「現在簡單式、現在進行式」之規則完成「改寫「Dad bought me a bike.」並完成「He let me ___ (ride) it. I have had it ___ 2023.」，再說明為何最後不用 have bought。」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「使役動詞、授予動詞介系詞」之規則完成「改寫「Dad bought me a bike.」並完成「He let me ___ (ride) it. I have had it ___ 2023.」，再說明為何最後不用 have bought。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3093,7 +3093,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「授予動詞、使役動詞與現在完成式進階、雙受詞改為 Dad bought a bike for me.，buy 在此搭配 for，不能機械套所有動詞都用 to。、現在簡單式、現在進行式、過去簡單式」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「授予動詞、使役動詞與現在完成式進階、雙受詞改為 Dad bought a bike for me.，buy 在此搭配 for，不能機械套所有動詞都用 to。、使役動詞、授予動詞介系詞、現在完成式持續」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】Do not use \"to V\" after causative verbs (say \"Mom let me go\", not \"Mom let me to go\"). \"Since\" takes a specific starting point; \"for\" takes a duration of time.",
       "defenseCheck": "【考場防呆】buy 是購買事件，have 在此是持有狀態；若表示持續擁有，have had 比 have bought since 更符合意思。對照 He gave a bike to me.，give 使用 to。for three years 與 since 2023 的資訊形式不同，也不能在未知道當年日期時說兩者一定等義。"
     }
@@ -3183,19 +3183,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "正比（連比與比例式的應用核心 1）",
-        "meaning": "y/x＝k（x≠0）。對應本課核心觀念：連比表示三個或三個以上同類數量的比例關係",
-        "condition": "實戰檢核與適用條件：y＝3x；x 加倍，y 也加倍"
+        "term": "共同中介量（連比與比例式的應用核心 1）",
+        "meaning": "合併兩個比例時先確認同一個量。對應本課核心觀念：連比表示三個或三個以上同類數量的比例關係",
+        "condition": "實戰檢核與適用條件：a:b=2:3 與 b:c=4:5 的共同量是 b"
       },
       {
-        "term": "反比（連比與比例式的應用核心 2）",
-        "meaning": "xy＝k（k≠0）。對應本課核心觀念：若 a:b＝m:n 且 b:c＝p:q，可將中間項 b 化為公倍數求出 a:b:c",
-        "condition": "實戰檢核與適用條件：xy＝12；x 加倍，y 減半"
+        "term": "擴比（連比與比例式的應用核心 2）",
+        "meaning": "把共同量調整成相同份數，不改變各自比值。對應本課核心觀念：若 a:b＝m:n 且 b:c＝p:q，可將中間項 b 化為公倍數求出 a:b:c",
+        "condition": "實戰檢核與適用條件：b 取 12，兩比分別成 8:12 與 12:15"
       },
       {
-        "term": "含基本費（連比與比例式的應用核心 3）",
-        "meaning": "y＝ax＋b，b≠0。對應本課核心觀念：當 a:b:c＝x:y:z 且各項非零時，可設 a＝xr, b＝yr, c＝zr（r≠0）進行代入求解",
-        "condition": "實戰檢核與適用條件：y＝3x＋20 是一次關係，不是正比"
+        "term": "合併連比（連比與比例式的應用核心 3）",
+        "meaning": "按照相同變量順序列出整數份數。對應本課核心觀念：當 a:b:c＝x:y:z 且各項非零時，可設 a＝xr, b＝yr, c＝zr（r≠0）進行代入求解",
+        "condition": "實戰檢核與適用條件：a:b:c=8:12:15，不能寫 2:3:5"
       }
     ],
     "blackboard": {
@@ -3204,19 +3204,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（把乙的份數化為 12：甲乙比乘 4 得 8：12，乙丙比乘 3 得 12：15。）",
-          "mathExpression": "正比 ➔ y/x＝k（x≠0）",
+          "mathExpression": "共同中介量 ➔ 合併兩個比例時先確認同一個量",
           "explanation": "把乙的份數化為 12：甲乙比乘 4 得 8：12，乙丙比乘 3 得 12：15。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（連比與比例式的應用）",
-          "mathExpression": "反比 ➔ xy＝k（k≠0）",
+          "mathExpression": "擴比 ➔ 把共同量調整成相同份數，不改變各自比值",
           "explanation": "連比為 8：12：15，共 35 份，每份 350÷35＝10 元。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "含基本費 ➔ y＝ax＋b，b≠0",
+          "mathExpression": "合併連比 ➔ 按照相同變量順序列出整數份數",
           "explanation": "甲 80 元、乙 120 元、丙 150 元。"
         }
       ],
@@ -3229,7 +3229,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「正比、反比」之規則完成「甲：乙＝2：3，乙：丙＝4：5，三人共有 350 元，求各有多少。」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「共同中介量、擴比」之規則完成「甲：乙＝2：3，乙：丙＝4：5，三人共有 350 元，求各有多少。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3237,7 +3237,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「連比與比例式的應用、把乙的份數化為 12：甲乙比乘 4 得 8：12，乙丙比乘 3 得 12：15。、正比、反比、含基本費」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「連比與比例式的應用、把乙的份數化為 12：甲乙比乘 4 得 8：12，乙丙比乘 3 得 12：15。、共同中介量、擴比、合併連比」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】不能將 a:b＝2:3 與 b:c＝4:5 直接合併為 2:3:5，必須先將共有的項通分為相同數值；a:b:c＝2:3:4 並不等於 a×2＝b×3＝c×4。",
       "defenseCheck": "【考場防呆】驗算 80/120＝2/3、120/150＝4/5；不能直接接成 2：3：5。"
     }
@@ -3687,19 +3687,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "明示（先秦諸子寓言與哲理散文核心 1）",
-        "meaning": "文本直接寫出的訊息。對應本課核心觀念：先秦時期百家爭鳴，思想家常借寓言寄託哲理",
-        "condition": "實戰檢核與適用條件：先確認人物、動作、時間與代詞指涉"
+        "term": "寓言結構（先秦諸子寓言與哲理散文核心 1）",
+        "meaning": "本體（想說的哲理）與喻體（虛構故事）。對應本課核心觀念：先秦時期百家爭鳴，思想家常借寓言寄託哲理",
+        "condition": "實戰檢核與適用條件：庖丁解牛中解牛是喻體，養生順應自然是本體"
       },
       {
-        "term": "推論（先秦諸子寓言與哲理散文核心 2）",
-        "meaning": "用多個線索推得未直接寫出的意思。對應本課核心觀念：儒家（孟子）善用譬喻論辯，主張性善與王道仁政（如五十步笑百步、揠苗助長）",
-        "condition": "實戰檢核與適用條件：說明「哪一句」支持「哪個判斷」"
+        "term": "儒家思維（先秦諸子寓言與哲理散文核心 2）",
+        "meaning": "以仁為核心，強調禮義、修己安人與教育。對應本課核心觀念：儒家（孟子）善用譬喻論辯，主張性善與王道仁政（如五十步笑百步、揠苗助長）",
+        "condition": "實戰檢核與適用條件：孔子論學思並重、孟子仁政性善；辨別倫理與道德義務"
       },
       {
-        "term": "評價（先秦諸子寓言與哲理散文核心 3）",
-        "meaning": "依標準檢驗說法是否合理。對應本課核心觀念：道家（莊子）想像奇特，藉庖丁解牛、井底之蛙抒發順應自然與逍遙境界",
-        "condition": "實戰檢核與適用條件：例子是否具有代表性？有沒有其他解釋？"
+        "term": "道家思維（先秦諸子寓言與哲理散文核心 3）",
+        "meaning": "順應自然、無為而治、物我兩忘。對應本課核心觀念：道家（莊子）想像奇特，藉庖丁解牛、井底之蛙抒發順應自然與逍遙境界",
+        "condition": "實戰檢核與適用條件：老子「上善若水」、莊子「涸轍之鮒」；反對人為巧飾"
       }
     ],
     "blackboard": {
@@ -3708,19 +3708,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（目的在增加收成，卻只模仿顯眼而未證實有效的敲桶行為。）",
-          "mathExpression": "明示 ➔ 文本直接寫出的訊息",
+          "mathExpression": "寓言結構 ➔ 本體（想說的哲理）與喻體（虛構故事）",
           "explanation": "目的在增加收成，卻只模仿顯眼而未證實有效的敲桶行為。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（先秦諸子寓言與哲理散文）",
-          "mathExpression": "推論 ➔ 用多個線索推得未直接寫出的意思",
+          "mathExpression": "儒家思維 ➔ 以仁為核心，強調禮義、修己安人與教育",
           "explanation": "忽略真正與作物生長相關的水分、養分和照料，因而失敗。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "評價 ➔ 依標準檢驗說法是否合理",
+          "mathExpression": "道家思維 ➔ 順應自然、無為而治、物我兩忘",
           "explanation": "可歸納為學習方法應辨識作用原因，不能只複製表面動作。"
         }
       ],
@@ -3733,7 +3733,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「明示、推論」之規則完成「原創寓言：「有人見鄰田豐收，只學他每天敲三下木桶，卻不澆水施肥，秋天仍無收成。」可歸納什麼道理？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「寓言結構、儒家思維」之規則完成「原創寓言：「有人見鄰田豐收，只學他每天敲三下木桶，卻不澆水施肥，秋天仍無收成。」可歸納什麼道理？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -3741,7 +3741,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「先秦諸子寓言與哲理散文、目的在增加收成，卻只模仿顯眼而未證實有效的敲桶行為。、明示、推論、評價」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「先秦諸子寓言與哲理散文、目的在增加收成，卻只模仿顯眼而未證實有效的敲桶行為。、寓言結構、儒家思維、道家思維」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】讀寓言不能只停留在故事表層的情節趣味，必須提煉出作者寄託在背後的抽象哲理與論辯主旨；寓言人物常具象徵性，非紀實歷史。",
       "defenseCheck": "【考場防呆】不要過度推成「模仿一定沒有用」；有根據地模仿有效步驟仍可能幫助學習。"
     }
@@ -5343,19 +5343,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "先配平（反應式與質量守恆核心 1）",
-        "meaning": "只改係數，不能改化學式下標。對應本課核心觀念：化學反應中原子種類及各種原子總數守恆",
-        "condition": "實戰檢核與適用條件：2H₂＋O₂ → 2H₂O"
+        "term": "化學式（反應式與質量守恆核心 1）",
+        "meaning": "下標表示粒子組成，改下標會改變物質。對應本課核心觀念：化學反應中原子種類及各種原子總數守恆",
+        "condition": "實戰檢核與適用條件：H₂O 與 H₂O₂ 是不同物質，不能為配平任意互換"
       },
       {
-        "term": "看粒子／莫耳比（反應式與質量守恆核心 2）",
-        "meaning": "係數比為 2：1：2。對應本課核心觀念：平衡反應式調整係數，不改化學式下標",
-        "condition": "實戰檢核與適用條件：不是直接以 2 g：1 g：2 g 反應"
+        "term": "係數（反應式與質量守恆核心 2）",
+        "meaning": "係數改變參與反應的粒子個數比例。對應本課核心觀念：平衡反應式調整係數，不改化學式下標",
+        "condition": "實戰檢核與適用條件：2H₂+O₂→2H₂O：H 原子左右各 4 個，O 各 2 個"
       },
       {
-        "term": "換質量（反應式與質量守恆核心 3）",
-        "meaning": "莫耳數×莫耳質量。對應本課核心觀念：密閉系統反應前後總質量相同",
-        "condition": "實戰檢核與適用條件：4 g H₂＋32 g O₂ → 36 g H₂O"
+        "term": "粒子比與質量比（反應式與質量守恆核心 3）",
+        "meaning": "粒子個數比不等於質量比。對應本課核心觀念：密閉系統反應前後總質量相同",
+        "condition": "實戰檢核與適用條件：2:1:2 的係數不能直接讀成 2 g:1 g:2 g"
       }
     ],
     "blackboard": {
@@ -5364,19 +5364,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（把殘留固體與逸出氣體都納入反應產物。）",
-          "mathExpression": "先配平 ➔ 只改係數，不能改化學式下標",
+          "mathExpression": "化學式 ➔ 下標表示粒子組成，改下標會改變物質",
           "explanation": "把殘留固體與逸出氣體都納入反應產物。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（反應式與質量守恆）",
-          "mathExpression": "看粒子／莫耳比 ➔ 係數比為 2：1：2",
+          "mathExpression": "係數 ➔ 係數改變參與反應的粒子個數比例",
           "explanation": "依守恆，10＝6＋氣體質量，所以氣體為 4 g。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "換質量 ➔ 莫耳數×莫耳質量",
+          "mathExpression": "粒子比與質量比 ➔ 粒子個數比不等於質量比",
           "explanation": "若只秤容器內部，讀值減少的 4 g 是離開系統的氣體，不是質量消失。"
         }
       ],
@@ -5389,7 +5389,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「先配平、看粒子／莫耳比」之規則完成「某物質受熱分解，原有 10 g 固體，最後殘留 6 g 固體並放出氣體，若無其他物質進出，氣體質量多少？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「化學式、係數」之規則完成「某物質受熱分解，原有 10 g 固體，最後殘留 6 g 固體並放出氣體，若無其他物質進出，氣體質量多少？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -5397,7 +5397,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「反應式與質量守恆、把殘留固體與逸出氣體都納入反應產物。、先配平、看粒子／莫耳比、換質量」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「反應式與質量守恆、把殘留固體與逸出氣體都納入反應產物。、化學式、係數、粒子比與質量比」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】開放容器產生氣體逸出會使秤得質量減少，但不代表物質憑空消失。",
       "defenseCheck": "【考場防呆】前提是沒有噴濺、未反應物逸出或外界氣體參與；現象須配合系統條件判讀。"
     }
@@ -5847,19 +5847,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "月相（地球運動、四季與月相核心 1）",
-        "meaning": "看見月球受光半球的比例改變。對應本課核心觀念：地球自轉造成晝夜交替，公轉加上地軸傾斜使各地日照角度和晝長隨季節變化",
-        "condition": "實戰檢核與適用條件：月相不是地球影子遮住月亮"
+        "term": "晝夜（地球運動、四季與月相核心 1）",
+        "meaning": "地球自轉使同一地點交替面向與背向太陽。對應本課核心觀念：地球自轉造成晝夜交替，公轉加上地軸傾斜使各地日照角度和晝長隨季節變化",
+        "condition": "實戰檢核與適用條件：不是太陽每天繞地球一圈造成"
       },
       {
-        "term": "日食（地球運動、四季與月相核心 2）",
-        "meaning": "月球在日地之間，影子落向地球。對應本課核心觀念：月相是所見月球受光面的改變",
-        "condition": "實戰檢核與適用條件：發生在朔附近，但非每次朔都有日食"
+        "term": "地軸傾斜（地球運動、四季與月相核心 2）",
+        "meaning": "地軸與公轉軌道面的垂直方向約夾 23.5°。對應本課核心觀念：月相是所見月球受光面的改變",
+        "condition": "實戰檢核與適用條件：若改用與軌道面本身的夾角，約為 66.5°，兩者不要混淆"
       },
       {
-        "term": "月食（地球運動、四季與月相核心 3）",
-        "meaning": "月球進入地球影子。對應本課核心觀念：地球自轉造成晝夜交替，公轉加上地軸傾斜使各地日照角度和晝長隨季節變化",
-        "condition": "實戰檢核與適用條件：發生在望附近，軌道傾斜使每月不一定發生"
+        "term": "四季（地球運動、四季與月相核心 3）",
+        "meaning": "公轉配合地軸方向，改變日照角度及白晝長度。對應本課核心觀念：地球自轉造成晝夜交替，公轉加上地軸傾斜使各地日照角度和晝長隨季節變化",
+        "condition": "實戰檢核與適用條件：南北半球季節相反，不能以距太陽較近解釋某半球夏季"
       }
     ],
     "blackboard": {
@@ -5868,19 +5868,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（地軸保持近似固定指向，北半球傾向太陽時，太陽高度較高、白晝較長。）",
-          "mathExpression": "月相 ➔ 看見月球受光半球的比例改變",
+          "mathExpression": "晝夜 ➔ 地球自轉使同一地點交替面向與背向太陽",
           "explanation": "地軸保持近似固定指向，北半球傾向太陽時，太陽高度較高、白晝較長。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（地球運動、四季與月相）",
-          "mathExpression": "日食 ➔ 月球在日地之間，影子落向地球",
+          "mathExpression": "地軸傾斜 ➔ 地軸與公轉軌道面的垂直方向約夾 23.5°",
           "explanation": "同時南半球背向太陽，日照角度與晝長呈相反變化。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "月食 ➔ 月球進入地球影子",
+          "mathExpression": "四季 ➔ 公轉配合地軸方向，改變日照角度及白晝長度",
           "explanation": "兩半球共用幾乎相同的地日距離，卻季節相反，顯示距離不是主要解釋。"
         }
       ],
@@ -5893,7 +5893,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「月相、日食」之規則完成「北半球夏季時南半球為何通常是冬季？請由地軸傾斜與日照條件解釋。」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「晝夜、地軸傾斜」之規則完成「北半球夏季時南半球為何通常是冬季？請由地軸傾斜與日照條件解釋。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -5901,7 +5901,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「地球運動、四季與月相、地軸保持近似固定指向，北半球傾向太陽時，太陽高度較高、白晝較長。、月相、日食、月食」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「地球運動、四季與月相、地軸保持近似固定指向，北半球傾向太陽時，太陽高度較高、白晝較長。、晝夜、地軸傾斜、四季」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】四季主要不是因地球離太陽遠近；月相也不是每月被地球影子遮住。",
       "defenseCheck": "【考場防呆】不能把太陽高度較高寫成太陽實際升到地球更近的位置。"
     }
@@ -6135,19 +6135,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "消化（植物的體內運輸與水分恆定核心 1）",
-        "meaning": "大分子分解後才能有效吸收。對應本課核心觀念：維管束植物靠木質部與韌皮部進行運輸",
-        "condition": "實戰檢核與適用條件：小腸是主要養分吸收處；膽汁不是消化酵素"
+        "term": "根部吸水（植物的體內運輸與水分恆定核心 1）",
+        "meaning": "根部與外界水分交換須考慮水分條件及細胞膜。對應本課核心觀念：維管束植物靠木質部與韌皮部進行運輸",
+        "condition": "實戰檢核與適用條件：根毛增加接觸面積；不能說根靠主動吸力把整株水向上拉"
       },
       {
-        "term": "循環（植物的體內運輸與水分恆定核心 2）",
-        "meaning": "運送養分、氣體與代謝廢物。對應本課核心觀念：木質部由下往上單向運送水分與礦物質，主要動力來自葉片氣孔的蒸散作用，輔以根壓與毛細現象",
-        "condition": "實戰檢核與適用條件：動脈指離心血管，不能全當成充氧血"
+        "term": "木質部（植物的體內運輸與水分恆定核心 2）",
+        "meaning": "主要運輸水與無機鹽。對應本課核心觀念：木質部由下往上單向運送水分與礦物質，主要動力來自葉片氣孔的蒸散作用，輔以根壓與毛細現象",
+        "condition": "實戰檢核與適用條件：根吸收的水可沿木質部往葉片運輸"
       },
       {
-        "term": "呼吸（植物的體內運輸與水分恆定核心 3）",
-        "meaning": "交換氧與二氧化碳。對應本課核心觀念：韌皮部負責運送葉片光合作用合成的蔗糖等有機養分，可雙向運送",
-        "condition": "實戰檢核與適用條件：肺泡壁薄、表面積大有利氣體交換"
+        "term": "韌皮部（植物的體內運輸與水分恆定核心 3）",
+        "meaning": "主要運輸有機養分，從供應處通往需要或儲存處。對應本課核心觀念：韌皮部負責運送葉片光合作用合成的蔗糖等有機養分，可雙向運送",
+        "condition": "實戰檢核與適用條件：葉製造的糖可送到根；方向不一律只有向下"
       }
     ],
     "blackboard": {
@@ -6156,19 +6156,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（色水沿部分輸導組織向上到葉，支持莖內存在水的運輸通路。）",
-          "mathExpression": "消化 ➔ 大分子分解後才能有效吸收",
+          "mathExpression": "根部吸水 ➔ 根部與外界水分交換須考慮水分條件及細胞膜",
           "explanation": "色水沿部分輸導組織向上到葉，支持莖內存在水的運輸通路。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（植物的體內運輸與水分恆定）",
-          "mathExpression": "循環 ➔ 運送養分、氣體與代謝廢物",
+          "mathExpression": "木質部 ➔ 主要運輸水與無機鹽",
           "explanation": "可切片觀察染色位置，與木質部位置比較。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "呼吸 ➔ 交換氧與二氧化碳",
+          "mathExpression": "韌皮部 ➔ 主要運輸有機養分，從供應處通往需要或儲存處",
           "explanation": "不能僅此就證明韌皮部不運任何水，或推算所有植物運輸速率相同。"
         }
       ],
@@ -6181,7 +6181,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「消化、循環」之規則完成「一枝帶葉芹菜插入有色水，數小時後葉脈染色。此結果支持什麼？不足以證明什麼？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「根部吸水、木質部」之規則完成「一枝帶葉芹菜插入有色水，數小時後葉脈染色。此結果支持什麼？不足以證明什麼？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6189,7 +6189,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「植物的體內運輸與水分恆定、色水沿部分輸導組織向上到葉，支持莖內存在水的運輸通路。、消化、循環、呼吸」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「植物的體內運輸與水分恆定、色水沿部分輸導組織向上到葉，支持莖內存在水的運輸通路。、根部吸水、木質部、韌皮部」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】保衛細胞吸水膨脹時氣孔才會打開（內壁較厚外壁較薄）；木質部運輸不需要消耗細胞 ATP 能量，為物理拉力驅動。",
       "defenseCheck": "【考場防呆】實驗示範須把觀察與推論分開；染色不等於整個細胞內的所有物質都向上流。"
     }
@@ -6207,19 +6207,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "消化（動物呼吸系統與排泄泌尿作用核心 1）",
-        "meaning": "大分子分解後才能有效吸收。對應本課核心觀念：呼吸系統進行氣體交換：吸氣時肋骨上提、橫膈下降，胸腔體積擴大、壓力降低，外界空氣進入肺泡",
-        "condition": "實戰檢核與適用條件：小腸是主要養分吸收處；膽汁不是消化酵素"
+        "term": "呼吸運動機制（動物呼吸系統與排泄泌尿作用核心 1）",
+        "meaning": "吸氣時橫膈下降、肋骨上舉、胸腔容積增大、胸內壓減小，空氣入肺。對應本課核心觀念：呼吸系統進行氣體交換：吸氣時肋骨上提、橫膈下降，胸腔體積擴大、壓力降低，外界空氣進入肺泡",
+        "condition": "實戰檢核與適用條件：呼氣時相反；呼吸由腦幹呼吸中樞依血液中 CO₂ 濃度調節"
       },
       {
-        "term": "循環（動物呼吸系統與排泄泌尿作用核心 2）",
-        "meaning": "運送養分、氣體與代謝廢物。對應本課核心觀念：排泄系統排除細胞代謝產生的含氮廢物",
-        "condition": "實戰檢核與適用條件：動脈指離心血管，不能全當成充氧血"
+        "term": "氣體交換原理（動物呼吸系統與排泄泌尿作用核心 2）",
+        "meaning": "利用濃度差進行擴散作用，不耗能。對應本課核心觀念：排泄系統排除細胞代謝產生的含氮廢物",
+        "condition": "實戰檢核與適用條件：肺泡與微血管間 O₂ 進入血液，CO₂ 進入肺泡；組織處相反"
       },
       {
-        "term": "呼吸（動物呼吸系統與排泄泌尿作用核心 3）",
-        "meaning": "交換氧與二氧化碳。對應本課核心觀念：蛋白質代謝產生有毒的氨，人體肝臟先將其轉化為毒性較低的尿素，再由腎臟過濾形成尿液排出",
-        "condition": "實戰檢核與適用條件：肺泡壁薄、表面積大有利氣體交換"
+        "term": "含氮廢物代謝（動物呼吸系統與排泄泌尿作用核心 3）",
+        "meaning": "蛋白質代謝產物為氨，肝臟將氨轉為毒性較低的尿素。對應本課核心觀念：蛋白質代謝產生有毒的氨，人體肝臟先將其轉化為毒性較低的尿素，再由腎臟過濾形成尿液排出",
+        "condition": "實戰檢核與適用條件：腎臟過濾血液生成尿液，經輸尿管、膀胱、尿道排出"
       }
     ],
     "blackboard": {
@@ -6228,19 +6228,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（肺泡主要進行氧與 CO₂ 的交換，氧由循環送往細胞。）",
-          "mathExpression": "消化 ➔ 大分子分解後才能有效吸收",
+          "mathExpression": "呼吸運動機制 ➔ 吸氣時橫膈下降、肋骨上舉、胸腔容積增大、胸內壓減小，空氣入肺",
           "explanation": "肺泡主要進行氧與 CO₂ 的交換，氧由循環送往細胞。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（動物呼吸系統與排泄泌尿作用）",
-          "mathExpression": "循環 ➔ 運送養分、氣體與代謝廢物",
+          "mathExpression": "氣體交換原理 ➔ 利用濃度差進行擴散作用，不耗能",
           "explanation": "細胞內的代謝利用養分釋放能量，不能把此過程全歸給肺。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "呼吸 ➔ 交換氧與二氧化碳",
+          "mathExpression": "含氮廢物代謝 ➔ 蛋白質代謝產物為氨，肝臟將氨轉為毒性較低的尿素",
           "explanation": "腎形成濾液後會再吸收部分水與有用物質，因此最終尿液與初始濾液不同。"
         }
       ],
@@ -6253,7 +6253,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「消化、循環」之規則完成「有人說「肺把食物直接變成能量，腎把所有過濾物都排掉」，應如何修正？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「呼吸運動機制、氣體交換原理」之規則完成「有人說「肺把食物直接變成能量，腎把所有過濾物都排掉」，應如何修正？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6261,7 +6261,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「動物呼吸系統與排泄泌尿作用、肺泡主要進行氧與 CO₂ 的交換，氧由循環送往細胞。、消化、循環、呼吸」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「動物呼吸系統與排泄泌尿作用、肺泡主要進行氧與 CO₂ 的交換，氧由循環送往細胞。、呼吸運動機制、氣體交換原理、含氮廢物代謝」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】呼吸運動受血液中「二氧化碳濃度」主導調控，非缺氧為主；排泄（排尿）指排出代謝廢物，與排遺（排便，排出未消化食物殘渣）是不同生理途徑。",
       "defenseCheck": "【考場防呆】器官分工要配合流程理解；尿量也不能單獨代表腎功能好壞。"
     }
@@ -6279,19 +6279,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "有絲分裂（細胞分裂、減數分裂與生殖核心 1）",
-        "meaning": "一般產生染色體數相同的子細胞。對應本課核心觀念：細胞分裂（有絲分裂）複製染色體一次、分裂一次，產生兩個染色體套數不變（2n→2n）的體細胞，用於生長與修補",
-        "condition": "實戰檢核與適用條件：與生長、修復相關"
+        "term": "細胞分裂過程（細胞分裂、減數分裂與生殖核心 1）",
+        "meaning": "染色體複製 1 次，分裂 1 次，產生 2 個子細胞，染色體數不變 (2n→2n)。對應本課核心觀念：細胞分裂（有絲分裂）複製染色體一次、分裂一次，產生兩個染色體套數不變（2n→2n）的體細胞，用於生長與修補",
+        "condition": "實戰檢核與適用條件：用於個體生長、組織修復與無性生殖"
       },
       {
-        "term": "減數分裂（細胞分裂、減數分裂與生殖核心 2）",
-        "meaning": "染色體數減半。對應本課核心觀念：減數分裂複製染色體一次、連續分裂兩次，同源染色體分離，產生四個染色體套數減半（2n→1n）的配子（精子或卵）",
-        "condition": "實戰檢核與適用條件：配子結合後恢復成對數目"
+        "term": "減數分裂過程（細胞分裂、減數分裂與生殖核心 2）",
+        "meaning": "染色體複製 1 次，分裂 2 次，同源染色體分離，產生 4 個配子 (2n→1n)。對應本課核心觀念：減數分裂複製染色體一次、連續分裂兩次，同源染色體分離，產生四個染色體套數減半（2n→1n）的配子（精子或卵）",
+        "condition": "實戰檢核與適用條件：精子與卵之染色體減半，受精後恢復雙套 (1n+1n=2n)"
       },
       {
-        "term": "基因型與表現型（細胞分裂、減數分裂與生殖核心 3）",
-        "meaning": "基因組合不等於外表分類。對應本課核心觀念：細胞分裂（有絲分裂）複製染色體一次、分裂一次，產生兩個染色體套數不變（2n→2n）的體細胞，用於生長與修補",
-        "condition": "實戰檢核與適用條件：完全顯性模型下 AA、Aa 可有相同表現型"
+        "term": "無性生殖比較（細胞分裂、減數分裂與生殖核心 3）",
+        "meaning": "出芽（酵母菌、水螅）、斷裂（渦蟲）、營養器官繁殖（甘藷、落地生根）。對應本課核心觀念：細胞分裂（有絲分裂）複製染色體一次、分裂一次，產生兩個染色體套數不變（2n→2n）的體細胞，用於生長與修補",
+        "condition": "實戰檢核與適用條件：子代遺傳特性與親代完全一致，無法增加遺傳多樣性"
       }
     ],
     "blackboard": {
@@ -6300,19 +6300,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（減數分裂使配子染色體數減半，所以每個配子為 6 條。）",
-          "mathExpression": "有絲分裂 ➔ 一般產生染色體數相同的子細胞",
+          "mathExpression": "細胞分裂過程 ➔ 染色體複製 1 次，分裂 1 次，產生 2 個子細胞，染色體數不變 (2n→2n)",
           "explanation": "減數分裂使配子染色體數減半，所以每個配子為 6 條。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（細胞分裂、減數分裂與生殖）",
-          "mathExpression": "減數分裂 ➔ 染色體數減半",
+          "mathExpression": "減數分裂過程 ➔ 染色體複製 1 次，分裂 2 次，同源染色體分離，產生 4 個配子 (2n→1n)",
           "explanation": "兩配子結合形成受精卵，6＋6＝12 條。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "基因型與表現型 ➔ 基因組合不等於外表分類",
+          "mathExpression": "無性生殖比較 ➔ 出芽（酵母菌、水螅）、斷裂（渦蟲）、營養器官繁殖（甘藷、落地生根）",
           "explanation": "受精卵後續經有絲分裂生長，一般子細胞仍維持 12 條。"
         }
       ],
@@ -6325,7 +6325,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「有絲分裂、減數分裂」之規則完成「某動物一般體細胞有 12 條染色體，正常配子及受精卵各有多少？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「細胞分裂過程、減數分裂過程」之規則完成「某動物一般體細胞有 12 條染色體，正常配子及受精卵各有多少？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6333,7 +6333,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「細胞分裂、減數分裂與生殖、減數分裂使配子染色體數減半，所以每個配子為 6 條。、有絲分裂、減數分裂、基因型與表現型」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「細胞分裂、減數分裂與生殖、減數分裂使配子染色體數減半，所以每個配子為 6 條。、細胞分裂過程、減數分裂過程、無性生殖比較」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】減數分裂中「同源染色體分離」發生在第一次分裂，「複製的姊妹染色分體分離」發生在第二次分裂；無性生殖通常不涉及減數分裂與受精作用。",
       "defenseCheck": "【考場防呆】這裡假設正常分裂且題目描述一般二倍體生殖週期；不是所有生物階段都可一律照套。"
     }
@@ -6351,19 +6351,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "有絲分裂（孟德爾遺傳法則與性別性聯遺傳核心 1）",
-        "meaning": "一般產生染色體數相同的子細胞。對應本課核心觀念：孟德爾提出分離律與自由配合律：成對遺傳因子在形成配子時彼此分離，不同對因子獨立分配",
-        "condition": "實戰檢核與適用條件：與生長、修復相關"
+        "term": "分離律與顯隱性（孟德爾遺傳法則與性別性聯遺傳核心 1）",
+        "meaning": "成對等位基因在形成配子時分離；顯性基因 (T) 遮蔽隱性基因 (t) 表現。對應本課核心觀念：孟德爾提出分離律與自由配合律：成對遺傳因子在形成配子時彼此分離，不同對因子獨立分配",
+        "condition": "實戰檢核與適用條件：Tt 表型為高莖；Tt×Tt 子代表型比約為 3:1，基因型比 1:2:1"
       },
       {
-        "term": "減數分裂（孟德爾遺傳法則與性別性聯遺傳核心 2）",
-        "meaning": "染色體數減半。對應本課核心觀念：顯性等位基因會遮蔽隱性等位基因的表現",
-        "condition": "實戰檢核與適用條件：配子結合後恢復成對數目"
+        "term": "自由配合律（孟德爾遺傳法則與性別性聯遺傳核心 2）",
+        "meaning": "不同對染色體上的基因在形成配子時獨立分配。對應本課核心觀念：顯性等位基因會遮蔽隱性等位基因的表現",
+        "condition": "實戰檢核與適用條件：圓黃 (RrYy)×圓黃 (RrYy) 兩性狀子代表型比為 9:3:3:1"
       },
       {
-        "term": "基因型與表現型（孟德爾遺傳法則與性別性聯遺傳核心 3）",
-        "meaning": "基因組合不等於外表分類。對應本課核心觀念：人類性別由第 23 對性染色體決定（女性 XX，男性 XY），紅綠色盲等性聯遺傳基因常位於 X 染色體上",
-        "condition": "實戰檢核與適用條件：完全顯性模型下 AA、Aa 可有相同表現型"
+        "term": "人類性別決定（孟德爾遺傳法則與性別性聯遺傳核心 3）",
+        "meaning": "女性染色體為 44+XX，男性為 44+XY。對應本課核心觀念：人類性別由第 23 對性染色體決定（女性 XX，男性 XY），紅綠色盲等性聯遺傳基因常位於 X 染色體上",
+        "condition": "實戰檢核與適用條件：受精時由帶 X 或 Y 之精子決定，生男生女機率理論上各為 1/2"
       }
     ],
     "blackboard": {
@@ -6372,19 +6372,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（Aa 可產生 A、a 配子，各機率 1/2；aa 只能提供 a。）",
-          "mathExpression": "有絲分裂 ➔ 一般產生染色體數相同的子細胞",
+          "mathExpression": "分離律與顯隱性 ➔ 成對等位基因在形成配子時分離；顯性基因 (T) 遮蔽隱性基因 (t) 表現",
           "explanation": "Aa 可產生 A、a 配子，各機率 1/2；aa 只能提供 a。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（孟德爾遺傳法則與性別性聯遺傳）",
-          "mathExpression": "減數分裂 ➔ 染色體數減半",
+          "mathExpression": "自由配合律 ➔ 不同對染色體上的基因在形成配子時獨立分配",
           "explanation": "配對結果為 Aa 與 aa，各占 1/2。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "基因型與表現型 ➔ 基因組合不等於外表分類",
+          "mathExpression": "人類性別決定 ➔ 女性染色體為 44+XX，男性為 44+XY",
           "explanation": "隱性表現型對應 aa，所以每一個子代的預測機率為 50%。"
         }
       ],
@@ -6397,7 +6397,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「有絲分裂、減數分裂」之規則完成「完全顯性模型中，Aa 與 aa 配對，子代出現隱性性狀的機率是多少？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「分離律與顯隱性、自由配合律」之規則完成「完全顯性模型中，Aa 與 aa 配對，子代出現隱性性狀的機率是多少？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6405,7 +6405,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「孟德爾遺傳法則與性別性聯遺傳、Aa 可產生 A、a 配子，各機率 1/2；aa 只能提供 a。、有絲分裂、減數分裂、基因型與表現型」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「孟德爾遺傳法則與性別性聯遺傳、Aa 可產生 A、a 配子，各機率 1/2；aa 只能提供 a。、分離律與顯隱性、自由配合律、人類性別決定」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】表現型相同者基因型不一定相同（TT 與 Tt 皆為高莖）；生男生女機率在每次受孕均為獨立事件，各為 1/2，不受前面幾胎性別影響。",
       "defenseCheck": "【考場防呆】第一個子代為 Aa 不會使下一個必為 aa；各次事件不能用「補足比例」推論。"
     }
@@ -6783,19 +6783,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "電荷（電流的磁效應與電磁鐵核心 1）",
-        "meaning": "同號相斥、異號相吸。對應本課核心觀念：奧斯特發現電流周圍存在磁場",
-        "condition": "實戰檢核與適用條件：帶電物也可吸引中性物，不能只憑吸引判斷異號"
+        "term": "電流與磁場（電流的磁效應與電磁鐵核心 1）",
+        "meaning": "通電導線周圍有磁場。對應本課核心觀念：奧斯特發現電流周圍存在磁場",
+        "condition": "實戰檢核與適用條件：先比較有電流與無電流時磁針的反應"
       },
       {
-        "term": "電流磁效應（電流的磁效應與電磁鐵核心 2）",
-        "meaning": "電流周圍有磁場。對應本課核心觀念：長直導線電流磁場為同心圓，方向由安培右手定則判定（右手大拇指指向電流，四指彎曲指向磁場）",
-        "condition": "實戰檢核與適用條件：線圈方向、電流方向會影響電磁鐵磁極"
+        "term": "方向判斷（電流的磁效應與電磁鐵核心 2）",
+        "meaning": "電流反向時磁場方向隨之反轉。對應本課核心觀念：長直導線電流磁場為同心圓，方向由安培右手定則判定（右手大拇指指向電流，四指彎曲指向磁場）",
+        "condition": "實戰檢核與適用條件：線圈繞法和觀察方向要交代，不能只背圖上左右"
       },
       {
-        "term": "電動機原理（電流的磁效應與電磁鐵核心 3）",
-        "meaning": "磁場中的載流線圈受力轉動。對應本課核心觀念：螺線管通電磁場類似條形磁鐵",
-        "condition": "實戰檢核與適用條件：電能轉為機械能"
+        "term": "控制實驗（電流的磁效應與電磁鐵核心 3）",
+        "meaning": "探討匝數時，保持電流、鐵芯與線圈形狀等條件一致。對應本課核心觀念：螺線管通電磁場類似條形磁鐵",
+        "condition": "實戰檢核與適用條件：吸起回形針數只是一種操作指標，不是精確磁場強度"
       }
     ],
     "blackboard": {
@@ -6804,19 +6804,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（先保持鐵芯、電流、線圈位置與測試距離一致，只改匝數。）",
-          "mathExpression": "電荷 ➔ 同號相斥、異號相吸",
+          "mathExpression": "電流與磁場 ➔ 通電導線周圍有磁場",
           "explanation": "先保持鐵芯、電流、線圈位置與測試距離一致，只改匝數。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（電流的磁效應與電磁鐵）",
-          "mathExpression": "電流磁效應 ➔ 電流周圍有磁場",
+          "mathExpression": "方向判斷 ➔ 電流反向時磁場方向隨之反轉",
           "explanation": "可用相同條件下吸引標準物件的能力作操作性比較，並重複測量。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "電動機原理 ➔ 磁場中的載流線圈受力轉動",
+          "mathExpression": "控制實驗 ➔ 探討匝數時，保持電流、鐵芯與線圈形狀等條件一致",
           "explanation": "一般模型預期乙較強，但仍需實測並記錄其他誤差。"
         }
       ],
@@ -6829,7 +6829,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「電荷、電流磁效應」之規則完成「甲乙電磁鐵鐵芯相同、電流相同，甲 50 匝、乙 100 匝，如何公平比較磁效應？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「電流與磁場、方向判斷」之規則完成「甲乙電磁鐵鐵芯相同、電流相同，甲 50 匝、乙 100 匝，如何公平比較磁效應？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6837,7 +6837,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「電流的磁效應與電磁鐵、先保持鐵芯、電流、線圈位置與測試距離一致，只改匝數。、電荷、電流磁效應、電動機原理」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「電流的磁效應與電磁鐵、先保持鐵芯、電流、線圈位置與測試距離一致，只改匝數。、電流與磁場、方向判斷、控制實驗」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】安培定則中使用「右手」而非左手；長直導線周圍磁場強度隨與導線距離增加而遞減，不是均勻磁場。",
       "defenseCheck": "【考場防呆】不可長時間短路電池或讓導線過熱；實驗需適當限流與教師指導。"
     }
@@ -6855,19 +6855,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "電荷（電磁感應與發電機核心 1）",
-        "meaning": "同號相斥、異號相吸。對應本課核心觀念：法拉第發現通過線圈的磁力線數目發生變化時，線圈會產生感應電流，稱為電磁感應",
-        "condition": "實戰檢核與適用條件：帶電物也可吸引中性物，不能只憑吸引判斷異號"
+        "term": "變化條件（電磁感應與發電機核心 1）",
+        "meaning": "穿過線圈的磁通量改變可產生感應電動勢。對應本課核心觀念：法拉第發現通過線圈的磁力線數目發生變化時，線圈會產生感應電流，稱為電磁感應",
+        "condition": "實戰檢核與適用條件：磁鐵固定不動且磁場不變，不會一直產生同樣的感應電流"
       },
       {
-        "term": "電流磁效應（電磁感應與發電機核心 2）",
-        "meaning": "電流周圍有磁場。對應本課核心觀念：冷次定律指出感應電流產生的磁場總是反抗原磁場的變化",
-        "condition": "實戰檢核與適用條件：線圈方向、電流方向會影響電磁鐵磁極"
+        "term": "閉合通路（電磁感應與發電機核心 2）",
+        "meaning": "形成電流還需要可導通的閉合電路。對應本課核心觀念：冷次定律指出感應電流產生的磁場總是反抗原磁場的變化",
+        "condition": "實戰檢核與適用條件：線圈開路時不能只因磁鐵移動就說有持續電流"
       },
       {
-        "term": "電動機原理（電磁感應與發電機核心 3）",
-        "meaning": "磁場中的載流線圈受力轉動。對應本課核心觀念：發電機利用力學能旋轉線圈切割磁力線產生交流電，是力學能轉電能",
-        "condition": "實戰檢核與適用條件：電能轉為機械能"
+        "term": "觀察方向（電磁感應與發電機核心 3）",
+        "meaning": "移入、移出或反轉磁極可能改變電流方向。對應本課核心觀念：發電機利用力學能旋轉線圈切割磁力線產生交流電，是力學能轉電能",
+        "condition": "實戰檢核與適用條件：先標清磁極、移動方向與電表接線，再比較偏轉"
       }
     ],
     "blackboard": {
@@ -6876,19 +6876,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（靜止且磁場條件不變時，通常沒有由此產生的持續感應電流。）",
-          "mathExpression": "電荷 ➔ 同號相斥、異號相吸",
+          "mathExpression": "變化條件 ➔ 穿過線圈的磁通量改變可產生感應電動勢",
           "explanation": "靜止且磁場條件不變時，通常沒有由此產生的持續感應電流。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（電磁感應與發電機）",
-          "mathExpression": "電流磁效應 ➔ 電流周圍有磁場",
+          "mathExpression": "閉合通路 ➔ 形成電流還需要可導通的閉合電路",
           "explanation": "推入期間磁通量改變，可出現短暫感應電流，方向與移動方式相關。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "電動機原理 ➔ 磁場中的載流線圈受力轉動",
+          "mathExpression": "觀察方向 ➔ 移入、移出或反轉磁極可能改變電流方向",
           "explanation": "停住後通量不再改變，電流回到零附近；拉出時可能反向。"
         }
       ],
@@ -6901,7 +6901,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「電荷、電流磁效應」之規則完成「磁鐵先靜止在線圈旁，再推入閉合線圈，最後停在線圈內，電流如何變化？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「變化條件、閉合通路」之規則完成「磁鐵先靜止在線圈旁，再推入閉合線圈，最後停在線圈內，電流如何變化？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -6909,7 +6909,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「電磁感應與發電機、靜止且磁場條件不變時，通常沒有由此產生的持續感應電流。、電荷、電流磁效應、電動機原理」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「電磁感應與發電機、靜止且磁場條件不變時，通常沒有由此產生的持續感應電流。、變化條件、閉合通路、觀察方向」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】只有在磁場「發生變化（運動或變動）」的瞬間才會產生感應電流；磁鐵靜止在線圈中無論磁性多強都不會產生感應電流。",
       "defenseCheck": "【考場防呆】發電需機械能等來源，不能把磁鐵靜放就視為可永久供電。"
     }
@@ -7071,19 +7071,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "酸性水溶液（電解質與阿瑞尼斯解離說核心 1）",
-        "meaning": "常溫約 25°C 時 pH＜7。對應本課核心觀念：溶於水能導電的化合物稱為電解質，包括酸（如 HCl、HNO₃）、鹼（如 NaOH、KOH）與鹽類（如 NaCl、KNO₃）",
-        "condition": "實戰檢核與適用條件：酸的濃度與酸的強弱是不同概念"
+        "term": "電解質定義（電解質與阿瑞尼斯解離說核心 1）",
+        "meaning": "化合物溶於水能解離出陰陽離子且水溶液可導電。對應本課核心觀念：溶於水能導電的化合物稱為電解質，包括酸（如 HCl、HNO₃）、鹼（如 NaOH、KOH）與鹽類（如 NaCl、KNO₃）",
+        "condition": "實戰檢核與適用條件：固體或純液體不能導電（如固體食鹽、純冰醋酸）；溶於水才解離導電"
       },
       {
-        "term": "鹼性水溶液（電解質與阿瑞尼斯解離說核心 2）",
-        "meaning": "常溫約 25°C 時 pH＞7。對應本課核心觀念：阿瑞尼斯解離說提出電解質溶於水時會解離成帶正電的陽離子與帶負電的陰離子",
-        "condition": "實戰檢核與適用條件：不能用觸摸或品嘗辨別酸鹼"
+        "term": "電中性原理（電解質與阿瑞尼斯解離說核心 2）",
+        "meaning": "溶液中陽離子所帶總正電量等於陰離子所帶總負電量。對應本課核心觀念：阿瑞尼斯解離說提出電解質溶於水時會解離成帶正電的陽離子與帶負電的陰離子",
+        "condition": "實戰檢核與適用條件：CaCl₂ 解離出 1 個 Ca²⁺ 與 2 個 Cl⁻，離子個數比 1:2 但電量比 2:2 守恆"
       },
       {
-        "term": "中和（電解質與阿瑞尼斯解離說核心 3）",
-        "meaning": "酸鹼反應可生成鹽與水。對應本課核心觀念：水溶液中正負電荷總電量必然相等，全溶液維持電中性",
-        "condition": "實戰檢核與適用條件：體積相等不保證恰好中和，要比較反應量"
+        "term": "強弱電解質差異（電解質與阿瑞尼斯解離說核心 3）",
+        "meaning": "強電解質（強酸 HCl、強鹼 NaOH、大多數鹽類）完全解離。對應本課核心觀念：水溶液中正負電荷總電量必然相等，全溶液維持電中性",
+        "condition": "實戰檢核與適用條件：弱電解質（醋酸 CH₃COOH、氨水 NH₃）部分解離，存在解離平衡"
       }
     ],
     "blackboard": {
@@ -7092,19 +7092,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（食鹽溶水後提供可移動的正負離子，通常能導電。）",
-          "mathExpression": "酸性水溶液 ➔ 常溫約 25°C 時 pH＜7",
+          "mathExpression": "電解質定義 ➔ 化合物溶於水能解離出陰陽離子且水溶液可導電",
           "explanation": "食鹽溶水後提供可移動的正負離子，通常能導電。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（電解質與阿瑞尼斯解離說）",
-          "mathExpression": "鹼性水溶液 ➔ 常溫約 25°C 時 pH＞7",
+          "mathExpression": "電中性原理 ➔ 溶液中陽離子所帶總正電量等於陰離子所帶總負電量",
           "explanation": "糖主要以分子分散，未提供相同程度的離子，因此通常導電較弱。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "中和 ➔ 酸鹼反應可生成鹽與水",
+          "mathExpression": "強弱電解質差異 ➔ 強電解質（強酸 HCl、強鹼 NaOH、大多數鹽類）完全解離",
           "explanation": "兩者都可透明，外觀不直接表示是否存在可移動電荷。"
         }
       ],
@@ -7117,7 +7117,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「酸性水溶液、鹼性水溶液」之規則完成「同濃度食鹽水與糖水，哪種通常較能讓導電測試燈發亮？為什麼不能僅用透明與否判斷？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「電解質定義、電中性原理」之規則完成「同濃度食鹽水與糖水，哪種通常較能讓導電測試燈發亮？為什麼不能僅用透明與否判斷？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7125,7 +7125,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「電解質與阿瑞尼斯解離說、食鹽溶水後提供可移動的正負離子，通常能導電。、酸性水溶液、鹼性水溶液、中和」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「電解質與阿瑞尼斯解離說、食鹽溶水後提供可移動的正負離子，通常能導電。、電解質定義、電中性原理、強弱電解質差異」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】金屬（如銅線）能導電但不是電解質（電解質必須是化合物且在水溶液中或熔融態導電）；電解質水溶液中陽離子數與陰離子數不一定相等（如 CaCl₂ 陽陰離子比為 1:2），但正負「總電量」必然相等。",
       "defenseCheck": "【考場防呆】測試需用安全低電壓設備，不可把家庭插座電線插入水中。"
     }
@@ -7143,19 +7143,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "酸性水溶液（酸鹼滴定與常見生活鹽類核心 1）",
-        "meaning": "常溫約 25°C 時 pH＜7。對應本課核心觀念：酸鹼中和反應本質為 H⁺＋OH⁻→H₂O，必為放熱反應",
-        "condition": "實戰檢核與適用條件：酸的濃度與酸的強弱是不同概念"
+        "term": "酸鹼中和反應（酸鹼滴定與常見生活鹽類核心 1）",
+        "meaning": "淨反應為 H⁺ + OH⁻ → H₂O，此反應必放熱。對應本課核心觀念：酸鹼中和反應本質為 H⁺＋OH⁻→H₂O，必為放熱反應",
+        "condition": "實戰檢核與適用條件：當莫耳數 n(H⁺) = n(OH⁻) 時恰好完全中和；中和點不一定等於 pH=7（看鹽類水解）"
       },
       {
-        "term": "鹼性水溶液（酸鹼滴定與常見生活鹽類核心 2）",
-        "meaning": "常溫約 25°C 時 pH＞7。對應本課核心觀念：酸鹼滴定利用已知濃度之酸（或鹼）測定未知濃度之鹼（或酸），當莫耳數相等時達到當量點，以酚酞（酸性無色、鹼性紅）或石蕊等指示劑判斷滴定終點",
-        "condition": "實戰檢核與適用條件：不能用觸摸或品嘗辨別酸鹼"
+        "term": "酸鹼指示劑變色（酸鹼滴定與常見生活鹽類核心 2）",
+        "meaning": "石蕊（酸紅鹼藍）、酚酞（酸性/中性無色，鹼性粉紅/紅色）。對應本課核心觀念：酸鹼滴定利用已知濃度之酸（或鹼）測定未知濃度之鹼（或酸），當莫耳數相等時達到當量點，以酚酞（酸性無色、鹼性紅）或石蕊等指示劑判斷滴定終點",
+        "condition": "實戰檢核與適用條件：以強鹼滴定強酸時，滴入酚酞，溶液由無色變粉紅色且 30 秒不褪色即終點"
       },
       {
-        "term": "中和（酸鹼滴定與常見生活鹽類核心 3）",
-        "meaning": "酸鹼反應可生成鹽與水。對應本課核心觀念：生活常見鹽類：氯化鈉（調味保鮮）、碳酸鈣（大理石石灰石主要成分）、碳酸氫鈉（小蘇打，烘焙加熱產生 CO₂）",
-        "condition": "實戰檢核與適用條件：體積相等不保證恰好中和，要比較反應量"
+        "term": "碳酸鹽與酸反應（酸鹼滴定與常見生活鹽類核心 3）",
+        "meaning": "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂↑。對應本課核心觀念：生活常見鹽類：氯化鈉（調味保鮮）、碳酸鈣（大理石石灰石主要成分）、碳酸氫鈉（小蘇打，烘焙加熱產生 CO₂）",
+        "condition": "實戰檢核與適用條件：石灰石遇稀鹽酸冒氣泡；澄清石灰水 Ca(OH)₂ 檢驗 CO₂ 生成白色沉澱"
       }
     ],
     "blackboard": {
@@ -7164,19 +7164,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（同一酸樣品濃度相同，酸量與體積成正比。）",
-          "mathExpression": "酸性水溶液 ➔ 常溫約 25°C 時 pH＜7",
+          "mathExpression": "酸鹼中和反應 ➔ 淨反應為 H⁺ + OH⁻ → H₂O，此反應必放熱",
           "explanation": "同一酸樣品濃度相同，酸量與體積成正比。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（酸鹼滴定與常見生活鹽類）",
-          "mathExpression": "鹼性水溶液 ➔ 常溫約 25°C 時 pH＞7",
+          "mathExpression": "酸鹼指示劑變色 ➔ 石蕊（酸紅鹼藍）、酚酞（酸性/中性無色，鹼性粉紅/紅色）",
           "explanation": "15/10＝1.5，因此所需鹼量也為原來 1.5 倍。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "中和 ➔ 酸鹼反應可生成鹽與水",
+          "mathExpression": "碳酸鹽與酸反應 ➔ CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂↑",
           "explanation": "標準鹼需 20×1.5＝30 mL，前提是濃度與反應條件不變。"
         }
       ],
@@ -7189,7 +7189,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「酸性水溶液、鹼性水溶液」之規則完成「在簡化一比一反應模型中，10 mL 某酸需 20 mL 標準鹼恰好反應；改取 15 mL 同酸需多少鹼？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「酸鹼中和反應、酸鹼指示劑變色」之規則完成「在簡化一比一反應模型中，10 mL 某酸需 20 mL 標準鹼恰好反應；改取 15 mL 同酸需多少鹼？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7197,7 +7197,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「酸鹼滴定與常見生活鹽類、同一酸樣品濃度相同，酸量與體積成正比。、酸性水溶液、鹼性水溶液、中和」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「酸鹼滴定與常見生活鹽類、同一酸樣品濃度相同，酸量與體積成正比。、酸鹼中和反應、酸鹼指示劑變色、碳酸鹽與酸反應」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】酸鹼中和必放熱，溶液溫度會上升；中和生成的鹽類水溶液不一定為中性（如碳酸氫鈉水溶液呈弱鹼性，氯化銨呈弱酸性）。",
       "defenseCheck": "【考場防呆】不能跨不同濃度樣品直接用體積比；真實操作須使用防護並依教師指導。"
     }
@@ -7215,19 +7215,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "碳氫化合物（常見有機化合物與石化燃料核心 1）",
-        "meaning": "由碳與氫組成。對應本課核心觀念：含碳化合物多為有機化合物（CO、CO₂、碳酸鹽與氰化物等除外）",
-        "condition": "實戰檢核與適用條件：完全燃燒通常生成 CO₂ 與水"
+        "term": "烴類（碳氫化合物）（常見有機化合物與石化燃料核心 1）",
+        "meaning": "僅由碳與氫組成；甲烷 (CH₄)、丙烷 (C₃H₈)、丁烷 (C₄H₁₀)。對應本課核心觀念：含碳化合物多為有機化合物（CO、CO₂、碳酸鹽與氰化物等除外）",
+        "condition": "實戰檢核與適用條件：天然氣主成分甲烷；液化石油氣（桶裝瓦斯）主成分丙烷與丁烷"
       },
       {
-        "term": "不完全燃燒（常見有機化合物與石化燃料核心 2）",
-        "meaning": "氧氣不足可能產生一氧化碳或碳粒。對應本課核心觀念：烴類僅由碳氫組成：烷類單鍵、甲烷（CH₄）為天然氣主要成分、丙烷（C₃H₈）與丁烷為液化石油氣成分",
-        "condition": "實戰檢核與適用條件：通風不良的燃燒情境有危險"
+        "term": "完全與不完全燃燒（常見有機化合物與石化燃料核心 2）",
+        "meaning": "氧氣充足生成 CO₂ 與 H₂O；氧氣不足生成有毒 CO 與炭粒。對應本課核心觀念：烴類僅由碳氫組成：烷類單鍵、甲烷（CH₄）為天然氣主要成分、丙烷（C₃H₈）與丁烷為液化石油氣成分",
+        "condition": "實戰檢核與適用條件：室內使用熱水器需嚴防通風不良致一氧化碳中毒"
       },
       {
-        "term": "聚合物（常見有機化合物與石化燃料核心 3）",
-        "meaning": "大量重複單元組成的大分子。對應本課核心觀念：醇類含羥基（—OH），乙醇（酒精）可溶於水作溶劑與消毒劑",
-        "condition": "實戰檢核與適用條件：材料性質取決於結構與添加物，不能一概而論"
+        "term": "常見有機官能基（常見有機化合物與石化燃料核心 3）",
+        "meaning": "醇類（含 -OH 羥基，如乙醇消毒溶劑）、有機酸（含 -COOH 羧基，如乙酸食醋）。對應本課核心觀念：醇類含羥基（—OH），乙醇（酒精）可溶於水作溶劑與消毒劑",
+        "condition": "實戰檢核與適用條件：酯化反應：醇 + 有機酸 ⇌ 酯 + 水（濃硫酸作催化劑兼脫水劑，產物具果香）"
       }
     ],
     "blackboard": {
@@ -7236,19 +7236,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（先寫 CH₄＋O₂→CO₂＋H₂O，碳已各一個。）",
-          "mathExpression": "碳氫化合物 ➔ 由碳與氫組成",
+          "mathExpression": "烴類（碳氫化合物） ➔ 僅由碳與氫組成；甲烷 (CH₄)、丙烷 (C₃H₈)、丁烷 (C₄H₁₀)",
           "explanation": "先寫 CH₄＋O₂→CO₂＋H₂O，碳已各一個。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（常見有機化合物與石化燃料）",
-          "mathExpression": "不完全燃燒 ➔ 氧氣不足可能產生一氧化碳或碳粒",
+          "mathExpression": "完全與不完全燃燒 ➔ 氧氣充足生成 CO₂ 與 H₂O；氧氣不足生成有毒 CO 與炭粒",
           "explanation": "氫有四個，右邊水係數為 2；右邊共四個氧，左邊 O₂ 係數為 2。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "聚合物 ➔ 大量重複單元組成的大分子",
+          "mathExpression": "常見有機官能基 ➔ 醇類（含 -OH 羥基，如乙醇消毒溶劑）、有機酸（含 -COOH 羧基，如乙酸食醋）",
           "explanation": "得到 CH₄＋2O₂→CO₂＋2H₂O；缺氧燃燒可能產生危險的一氧化碳。"
         }
       ],
@@ -7261,7 +7261,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「碳氫化合物、不完全燃燒」之規則完成「甲烷完全燃燒的式子如何配平？為何不能在通風不良處使用燃燒設備？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「烴類（碳氫化合物）、完全與不完全燃燒」之規則完成「甲烷完全燃燒的式子如何配平？為何不能在通風不良處使用燃燒設備？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7269,7 +7269,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「常見有機化合物與石化燃料、先寫 CH₄＋O₂→CO₂＋H₂O，碳已各一個。、碳氫化合物、不完全燃燒、聚合物」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「常見有機化合物與石化燃料、先寫 CH₄＋O₂→CO₂＋H₂O，碳已各一個。、烴類（碳氫化合物）、完全與不完全燃燒、常見有機官能基」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】濃硫酸在酯化反應中擔任「催化劑」與「脫水劑」，非反應物；含碳的化合物不全是有機物，一氧化碳、二氧化碳與大理石（CaCO₃）歸為無機化合物。",
       "defenseCheck": "【考場防呆】配平改係數而非下標；不要用實際點火在密閉空間驗證此現象。"
     }
@@ -7359,19 +7359,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "地層上下（地層順序與地質歷史判讀核心 1）",
-        "meaning": "未翻轉的沉積層一般下老上新。對應本課核心觀念：地質學家透過地層與化石推斷地球歷史",
-        "condition": "實戰檢核與適用條件：先檢查褶皺、斷層與不整合"
+        "term": "地層疊置定律（地層順序與地質歷史判讀核心 1）",
+        "meaning": "未經倒轉的沉積地層中，先沉積的在下（老），後沉積的在上（新）。對應本課核心觀念：地質學家透過地層與化石推斷地球歷史",
+        "condition": "實戰檢核與適用條件：判讀前先依沉積構造（如波痕、交錯層、遞變層）確認是否倒轉"
       },
       {
-        "term": "切割關係（地層順序與地質歷史判讀核心 2）",
-        "meaning": "切割者通常晚於被切割者。對應本課核心觀念：疊置定律指出未受擾動沉積岩下老上新",
-        "condition": "實戰檢核與適用條件：岩脈切過沉積層，岩脈形成較晚"
+        "term": "切割與包裹律（地層順序與地質歷史判讀核心 2）",
+        "meaning": "被切割的岩層較老，切割者（岩脈或斷層）較新；包裹體比圍岩更老。對應本課核心觀念：疊置定律指出未受擾動沉積岩下老上新",
+        "condition": "實戰檢核與適用條件：岩脈貫穿砂岩層，岩脈較晚冷卻凝固；礫岩中的礫石比沉積岩基質老"
       },
       {
-        "term": "板塊邊界（地層順序與地質歷史判讀核心 3）",
-        "meaning": "聚合、張裂、錯動有不同活動。對應本課核心觀念：截切定律指出截切岩層的斷層或岩脈必定比被截切的岩層年輕",
-        "condition": "實戰檢核與適用條件：臺灣造山與板塊聚合有關"
+        "term": "化石層序律（地層順序與地質歷史判讀核心 3）",
+        "meaning": "特定地質年代的地層中含有特定演化階段的化石組合。對應本課核心觀念：截切定律指出截切岩層的斷層或岩脈必定比被截切的岩層年輕",
+        "condition": "實戰檢核與適用條件：古生代三葉蟲、中生代菊石/恐龍、新生代哺乳類/被子植物"
       }
     ],
     "blackboard": {
@@ -7380,19 +7380,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（若未翻轉，沉積順序先 A，再 B，再 C。）",
-          "mathExpression": "地層上下 ➔ 未翻轉的沉積層一般下老上新",
+          "mathExpression": "地層疊置定律 ➔ 未經倒轉的沉積地層中，先沉積的在下（老），後沉積的在上（新）",
           "explanation": "若未翻轉，沉積順序先 A，再 B，再 C。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（地層順序與地質歷史判讀）",
-          "mathExpression": "切割關係 ➔ 切割者通常晚於被切割者",
+          "mathExpression": "切割與包裹律 ➔ 被切割的岩層較老，切割者（岩脈或斷層）較新；包裹體比圍岩更老",
           "explanation": "D 切過 A、B、C，所以 D 晚於它們。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "板塊邊界 ➔ 聚合、張裂、錯動有不同活動",
+          "mathExpression": "化石層序律 ➔ 特定地質年代的地層中含有特定演化階段的化石組合",
           "explanation": "E 覆蓋其上且未被 D 切過，題設支持 E 較晚；順序為 A→B→C→D→E。"
         }
       ],
@@ -7405,7 +7405,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「地層上下、切割關係」之規則完成「由下而上 A、B、C 三層沉積岩，被岩脈 D 切過，最上方又覆蓋未被切穿的 E，排出形成順序。」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「地層疊置定律、切割與包裹律」之規則完成「由下而上 A、B、C 三層沉積岩，被岩脈 D 切過，最上方又覆蓋未被切穿的 E，排出形成順序。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7413,7 +7413,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「地層順序與地質歷史判讀、若未翻轉，沉積順序先 A，再 B，再 C。、地層上下、切割關係、板塊邊界」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「地層順序與地質歷史判讀、若未翻轉，沉積順序先 A，再 B，再 C。、地層疊置定律、切割與包裹律、化石層序律」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】地層若經歷強烈造山運動發生地層倒轉，則疊置定律必須配合沉積構造（如交錯層、波痕）校正；指相化石（如珊瑚代表溫暖清澈淺海）反映環境，與定年用的標準化石功能不同。",
       "defenseCheck": "【考場防呆】此題只能判斷相對先後；沒有定年資料，不能把每次事件相隔時間當作相等。"
     }
@@ -7431,19 +7431,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "地層上下（板塊構造學說與臺灣造山運動核心 1）",
-        "meaning": "未翻轉的沉積層一般下老上新。對應本課核心觀念：岩石圈（地殼與地函最上部）破裂成數個板塊，在軟流圈熱對流帶動下運動",
-        "condition": "實戰檢核與適用條件：先檢查褶皺、斷層與不整合"
+        "term": "板塊邊界三類型（板塊構造學說與臺灣造山運動核心 1）",
+        "meaning": "張裂性（中洋脊/裂谷，地殼增生）、聚合性（海溝/造山帶，地殼消減）、錯動性（轉形斷層）。對應本課核心觀念：岩石圈（地殼與地函最上部）破裂成數個板塊，在軟流圈熱對流帶動下運動",
+        "condition": "實戰檢核與適用條件：張裂帶多正斷層與淺源地震；聚合帶多逆斷層、褶皺山脈與深源地震"
       },
       {
-        "term": "切割關係（板塊構造學說與臺灣造山運動核心 2）",
-        "meaning": "切割者通常晚於被切割者。對應本課核心觀念：板塊邊界分為張裂型（如中洋脊、東非大裂谷，形成新地殼）、聚合型（如海溝、摺皺山脈，板塊隱沒碰撞消滅）與錯動型（如聖安德烈斯斷層）",
-        "condition": "實戰檢核與適用條件：岩脈切過沉積層，岩脈形成較晚"
+        "term": "臺灣地質板塊配置（板塊構造學說與臺灣造山運動核心 2）",
+        "meaning": "歐亞大陸板塊與菲律賓海板塊相互碰撞擠壓，每年約 7~8 公分速率。對應本課核心觀念：板塊邊界分為張裂型（如中洋脊、東非大裂谷，形成新地殼）、聚合型（如海溝、摺皺山脈，板塊隱沒碰撞消滅）與錯動型（如聖安德烈斯斷層）",
+        "condition": "實戰檢核與適用條件：板塊縫合線即為花東縱谷；海岸山脈屬菲律賓海板塊，中央山脈屬歐亞板塊"
       },
       {
-        "term": "板塊邊界（板塊構造學說與臺灣造山運動核心 3）",
-        "meaning": "聚合、張裂、錯動有不同活動。對應本課核心觀念：臺灣位處歐亞板塊與菲律賓海板塊聚合碰撞邊界，造山運動強烈、地震頻繁且地質破碎",
-        "condition": "實戰檢核與適用條件：臺灣造山與板塊聚合有關"
+        "term": "蓬萊造山運動（板塊構造學說與臺灣造山運動核心 3）",
+        "meaning": "約 500 萬年前開始至今持續進行，造成臺灣島隆起與強烈褶皺逆斷層。對應本課核心觀念：臺灣位處歐亞板塊與菲律賓海板塊聚合碰撞邊界，造山運動強烈、地震頻繁且地質破碎",
+        "condition": "實戰檢核與適用條件：地形起伏大、落差急、河川沖刷劇烈；多地震且伴隨活動斷層"
       }
     ],
     "blackboard": {
@@ -7452,19 +7452,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（抬升是地殼構造運動使地表提高，侵蝕則移走物質，兩者可同時發生。）",
-          "mathExpression": "地層上下 ➔ 未翻轉的沉積層一般下老上新",
+          "mathExpression": "板塊邊界三類型 ➔ 張裂性（中洋脊/裂谷，地殼增生）、聚合性（海溝/造山帶，地殼消減）、錯動性（轉形斷層）",
           "explanation": "抬升是地殼構造運動使地表提高，侵蝕則移走物質，兩者可同時發生。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（板塊構造學說與臺灣造山運動）",
-          "mathExpression": "切割關係 ➔ 切割者通常晚於被切割者",
+          "mathExpression": "臺灣地質板塊配置 ➔ 歐亞大陸板塊與菲律賓海板塊相互碰撞擠壓，每年約 7~8 公分速率",
           "explanation": "若其他條件相近且抬升速率大於地表降低速率，高度可淨增加。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "板塊邊界 ➔ 聚合、張裂、錯動有不同活動",
+          "mathExpression": "蓬萊造山運動 ➔ 約 500 萬年前開始至今持續進行，造成臺灣島隆起與強烈褶皺逆斷層",
           "explanation": "河流也可能持續下切，形成深谷，並非一有侵蝕就不能造山。"
         }
       ],
@@ -7477,7 +7477,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「地層上下、切割關係」之規則完成「山區同時有抬升與河流侵蝕，是否矛盾？若抬升較快會怎樣？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「板塊邊界三類型、臺灣地質板塊配置」之規則完成「山區同時有抬升與河流侵蝕，是否矛盾？若抬升較快會怎樣？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7485,7 +7485,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「板塊構造學說與臺灣造山運動、抬升是地殼構造運動使地表提高，侵蝕則移走物質，兩者可同時發生。、地層上下、切割關係、板塊邊界」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「板塊構造學說與臺灣造山運動、抬升是地殼構造運動使地表提高，侵蝕則移走物質，兩者可同時發生。、板塊邊界三類型、臺灣地質板塊配置、蓬萊造山運動」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】板塊不等於大洲或地殼，板塊厚度包含地殼與固態上地函頂部（岩石圈）；花東縱谷兩側分別屬於不同板塊，西側中央山脈屬歐亞板塊，東側海岸山脈屬菲律賓海板塊。",
       "defenseCheck": "【考場防呆】不要把「板塊擠壓」畫成只有一次瞬間碰撞；需考慮長時間尺度。"
     }
@@ -7719,19 +7719,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "消化（人體消化器官與各類消化酵素專一性作用核心 1）",
-        "meaning": "大分子分解後才能有效吸收。對應本課核心觀念：消化道包括口腔、咽、食道、胃、小腸、大腸、肛門",
-        "condition": "實戰檢核與適用條件：小腸是主要養分吸收處；膽汁不是消化酵素"
+        "term": "物理 vs 化學消化（人體消化器官與各類消化酵素專一性作用核心 1）",
+        "meaning": "牙齒咀嚼、胃腸蠕動、膽汁乳化脂肪（不含酵素）屬物理消化。對應本課核心觀念：消化道包括口腔、咽、食道、胃、小腸、大腸、肛門",
+        "condition": "實戰檢核與適用條件：各類消化酵素催化大分子水解為小分子屬化學消化"
       },
       {
-        "term": "循環（人體消化器官與各類消化酵素專一性作用核心 2）",
-        "meaning": "運送養分、氣體與代謝廢物。對應本課核心觀念：消化腺分泌消化液",
-        "condition": "實戰檢核與適用條件：動脈指離心血管，不能全當成充氧血"
+        "term": "澱粉消化路徑（人體消化器官與各類消化酵素專一性作用核心 2）",
+        "meaning": "口腔唾液澱粉酶（中性）分解為麥芽糖，小腸胰液與腸液分解為葡萄糖。對應本課核心觀念：消化腺分泌消化液",
+        "condition": "實戰檢核與適用條件：胃內強酸會使唾液澱粉酶變性失去活性"
       },
       {
-        "term": "呼吸（人體消化器官與各類消化酵素專一性作用核心 3）",
-        "meaning": "交換氧與二氧化碳。對應本課核心觀念：唾液含澱粉酶（中性）",
-        "condition": "實戰檢核與適用條件：肺泡壁薄、表面積大有利氣體交換"
+        "term": "蛋白質與脂肪消化（人體消化器官與各類消化酵素專一性作用核心 3）",
+        "meaning": "胃蛋白酶在強酸 (pH 1.5~2) 分解蛋白質；小腸胰蛋白酶（弱鹼）接續分解為胺基酸。對應本課核心觀念：唾液含澱粉酶（中性）",
+        "condition": "實戰檢核與適用條件：膽汁由肝臟製造、膽囊儲存，在小腸乳化脂肪後由胰脂肪酶分解為脂肪酸與甘油"
       }
     ],
     "blackboard": {
@@ -7740,19 +7740,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（膽汁可把較大的脂肪滴分散成較小滴，增加與脂肪酵素接觸的表面。）",
-          "mathExpression": "消化 ➔ 大分子分解後才能有效吸收",
+          "mathExpression": "物理 vs 化學消化 ➔ 牙齒咀嚼、胃腸蠕動、膽汁乳化脂肪（不含酵素）屬物理消化",
           "explanation": "膽汁可把較大的脂肪滴分散成較小滴，增加與脂肪酵素接觸的表面。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（人體消化器官與各類消化酵素專一性作用）",
-          "mathExpression": "循環 ➔ 運送養分、氣體與代謝廢物",
+          "mathExpression": "澱粉消化路徑 ➔ 口腔唾液澱粉酶（中性）分解為麥芽糖，小腸胰液與腸液分解為葡萄糖",
           "explanation": "分散不等於把脂肪分子的化學鍵都分解，化學性消化另由酵素參與。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "呼吸 ➔ 交換氧與二氧化碳",
+          "mathExpression": "蛋白質與脂肪消化 ➔ 胃蛋白酶在強酸 (pH 1.5~2) 分解蛋白質；小腸胰蛋白酶（弱鹼）接續分解為胺基酸",
           "explanation": "因此膽汁協助消化，但不能因此分類為酵素。"
         }
       ],
@@ -7765,7 +7765,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「消化、循環」之規則完成「將「膽汁把脂肪直接分解成小分子，所以膽汁是一種酵素」改正。」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「物理 vs 化學消化、澱粉消化路徑」之規則完成「將「膽汁把脂肪直接分解成小分子，所以膽汁是一種酵素」改正。」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -7773,7 +7773,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「人體消化器官與各類消化酵素專一性作用、膽汁可把較大的脂肪滴分散成較小滴，增加與脂肪酵素接觸的表面。、消化、循環、呼吸」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「人體消化器官與各類消化酵素專一性作用、膽汁可把較大的脂肪滴分散成較小滴，增加與脂肪酵素接觸的表面。、物理 vs 化學消化、澱粉消化路徑、蛋白質與脂肪消化」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】膽汁是由「肝臟」製造而非膽囊（膽囊只是儲存和濃縮膽汁）；膽汁「不含有任何消化酵素」，其功能是物理性乳化脂質而非化學水解。",
       "defenseCheck": "【考場防呆】分清「脂肪滴變小」和「脂肪分子被分解」這兩種不同層次的變化。"
     }
@@ -8079,19 +8079,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "地層上下（地震波傳播特性與臺灣活動斷層防震防災核心 1）",
-        "meaning": "未翻轉的沉積層一般下老上新。對應本課核心觀念：地下岩層斷裂錯動引發地震，釋放能量以地震波向外傳播",
-        "condition": "實戰檢核與適用條件：先檢查褶皺、斷層與不整合"
+        "term": "地震波 P 波與 S 波（地震波傳播特性與臺灣活動斷層防震防災核心 1）",
+        "meaning": "P 波（縱波）：質點振動平行波傳播，速度快，先到達地面。對應本課核心觀念：地下岩層斷裂錯動引發地震，釋放能量以地震波向外傳播",
+        "condition": "實戰檢核與適用條件：S 波（橫波）：質點振動垂直波傳播，速度慢，剪切破壞力大，不能通過外地核液態"
       },
       {
-        "term": "切割關係（地震波傳播特性與臺灣活動斷層防震防災核心 2）",
-        "meaning": "切割者通常晚於被切割者。對應本課核心觀念：體波分為 P 波（原發波、縱波，介質振動與波前進平行，波速較快先到達）與 S 波（剪力波、橫波，介質振動與波前進垂直，波速慢但振幅大、破壞力強）",
-        "condition": "實戰檢核與適用條件：岩脈切過沉積層，岩脈形成較晚"
+        "term": "地震規模 vs 各地震度（地震波傳播特性與臺灣活動斷層防震防災核心 2）",
+        "meaning": "芮氏規模 (M)：描述地震釋放總能量，單次地震只有一個數值（無單位）。對應本課核心觀念：體波分為 P 波（原發波、縱波，介質振動與波前進平行，波速較快先到達）與 S 波（剪力波、橫波，介質振動與波前進垂直，波速慢但振幅大、破壞力強）",
+        "condition": "實戰檢核與適用條件：震度 (Intensity)：描述特定測站地面搖晃程度，臺灣採 0~7 級（含 5弱/5強/6弱/6強）"
       },
       {
-        "term": "板塊邊界（地震波傳播特性與臺灣活動斷層防震防災核心 3）",
-        "meaning": "聚合、張裂、錯動有不同活動。對應本課核心觀念：地震預警系統利用 P 波先到達的數秒到數十秒時差發出警報",
-        "condition": "實戰檢核與適用條件：臺灣造山與板塊聚合有關"
+        "term": "活動斷層與地表破裂（地震波傳播特性與臺灣活動斷層防震防災核心 3）",
+        "meaning": "過去十萬年內曾活動且未來可能再次活動的斷層。對應本課核心觀念：地震預警系統利用 P 波先到達的數秒到數十秒時差發出警報",
+        "condition": "實戰檢核與適用條件：車籠埔斷層於 921 地震造成地表逆衝錯動，斷層帶上方建築破壞最烈"
       }
     ],
     "blackboard": {
@@ -8100,19 +8100,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（P 波通常較快，S 波較慢，離震源越遠，兩者傳播時間差通常越大。）",
-          "mathExpression": "地層上下 ➔ 未翻轉的沉積層一般下老上新",
+          "mathExpression": "地震波 P 波與 S 波 ➔ P 波（縱波）：質點振動平行波傳播，速度快，先到達地面",
           "explanation": "P 波通常較快，S 波較慢，離震源越遠，兩者傳播時間差通常越大。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（地震波傳播特性與臺灣活動斷層防震防災）",
-          "mathExpression": "切割關係 ➔ 切割者通常晚於被切割者",
+          "mathExpression": "地震規模 vs 各地震度 ➔ 芮氏規模 (M)：描述地震釋放總能量，單次地震只有一個數值（無單位）",
           "explanation": "因此乙站較遠，這是相對距離判斷。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "板塊邊界 ➔ 聚合、張裂、錯動有不同活動",
+          "mathExpression": "活動斷層與地表破裂 ➔ 過去十萬年內曾活動且未來可能再次活動的斷層",
           "explanation": "若要算實際距離還需波速或走時曲線，不能直接把秒數當公里。"
         }
       ],
@@ -8125,7 +8125,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「地層上下、切割關係」之規則完成「同一次地震，甲站 P、S 波到時差 4 秒，乙站 10 秒，簡化同介質模型下哪站較遠？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「地震波 P 波與 S 波、地震規模 vs 各地震度」之規則完成「同一次地震，甲站 P、S 波到時差 4 秒，乙站 10 秒，簡化同介質模型下哪站較遠？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -8133,7 +8133,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「地震波傳播特性與臺灣活動斷層防震防災、P 波通常較快，S 波較慢，離震源越遠，兩者傳播時間差通常越大。、地層上下、切割關係、板塊邊界」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「地震波傳播特性與臺灣活動斷層防震防災、P 波通常較快，S 波較慢，離震源越遠，兩者傳播時間差通常越大。、地震波 P 波與 S 波、地震規模 vs 各地震度、活動斷層與地表破裂」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】地震規模（如芮氏規模 6.5）代表地震釋放的能量大小，單一次地震只有「一個數值」；地震震度（如 4 級、5 弱）代表各地搖晃劇烈程度，隨距震央遠近與地質而各地不同。",
       "defenseCheck": "【考場防呆】單站距離不能唯一定位震央；需要多站資料與合適模型。"
     }
@@ -8223,9 +8223,9 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "史前三大文化演進（史料判讀與早期臺灣核心 1）",
-        "meaning": "長濱（舊石器敲打）→ 大坌坑/卑南（新石器磨製陶器農耕）→ 十三行（鐵器煉鐵外貿）。對應本課核心觀念：歷史研究由問題出發，檢視史料產生的時間、作者、目的與立場",
-        "condition": "實戰檢核與適用條件：見到磨製石器與陶器必為新石器；見到玻璃瑪瑙與煉鐵爐必為金屬器時代"
+        "term": "考古證據與文化分類（史料判讀與早期臺灣核心 1）",
+        "meaning": "以出土位置、地層、器物組合與定年資料重建史前生活，不以單件器物直接定年代。對應本課核心觀念：歷史研究由問題出發，檢視史料產生的時間、作者、目的與立場",
+        "condition": "實戰檢核與適用條件：磨製石器或陶器可跨時期使用；先看出土脈絡，再與其他遺址資料互證"
       },
       {
         "term": "出處（史料判讀與早期臺灣核心 2）",
@@ -8244,7 +8244,7 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（骨骼提供人與動物關係的線索，但可能與食物、祭儀或自然堆積等有關。）",
-          "mathExpression": "史前三大文化演進 ➔ 長濱（舊石器敲打）→ 大坌坑/卑南（新石器磨製陶器農耕）→ 十三行（鐵器煉鐵外貿）",
+          "mathExpression": "考古證據與文化分類 ➔ 以出土位置、地層、器物組合與定年資料重建史前生活，不以單件器物直接定年代",
           "explanation": "骨骼提供人與動物關係的線索，但可能與食物、祭儀或自然堆積等有關。"
         },
         {
@@ -8269,7 +8269,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「史前三大文化演進、出處」之規則完成「某地出土陶片與動物骨骼，可否直接斷定居民只靠狩獵生活？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「考古證據與文化分類、出處」之規則完成「某地出土陶片與動物骨骼，可否直接斷定居民只靠狩獵生活？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -8277,7 +8277,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「史料判讀與早期臺灣、骨骼提供人與動物關係的線索，但可能與食物、祭儀或自然堆積等有關。、史前三大文化演進、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「史料判讀與早期臺灣、骨骼提供人與動物關係的線索，但可能與食物、祭儀或自然堆積等有關。、考古證據與文化分類、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】早期臺灣不是沒有歷史；沒有文字的社會仍可透過考古與口傳研究。",
       "defenseCheck": "【考場防呆】「沒有發現」不一定等於「從未存在」，保存條件與發掘範圍會影響證據。"
     }
@@ -8810,8 +8810,8 @@ export const exegesisData = {
       },
       {
         "term": "坡度（地圖、比例尺與經緯度核心 3）",
-        "meaning": "同圖上線密坡陡，線疏坡緩。對應本課核心觀念：地圖先讀圖名、方向、圖例和比例尺",
-        "condition": "實戰檢核與適用條件：必須在相同比例尺下比較"
+        "meaning": "等高距相同時，線密通常坡陡、線疏坡緩。對應本課核心觀念：地圖先讀圖名、方向、圖例和比例尺",
+        "condition": "實戰檢核與適用條件：跨圖比較須同時統一比例尺與等高距"
       }
     ],
     "blackboard": {
@@ -8832,7 +8832,7 @@ export const exegesisData = {
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "坡度 ➔ 同圖上線密坡陡，線疏坡緩",
+          "mathExpression": "坡度 ➔ 等高距相同時，線密通常坡陡、線疏坡緩",
           "explanation": "步行路程須沿可通行路線量測，通常與直線距離不同。"
         }
       ],
@@ -9015,19 +9015,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "季風亞洲（東亞與區域差異核心 1）",
-        "meaning": "季節風向改變影響雨量與農業。對應本課核心觀念：區域比較應同時看自然環境、人口、產業與歷史文化",
-        "condition": "實戰檢核與適用條件：雨季時間與水量仍因地形及區域而異"
+        "term": "季風成因與風向（東亞與區域差異核心 1）",
+        "meaning": "海陸比熱差異造成冬夏高低氣壓轉換。對應本課核心觀念：區域比較應同時看自然環境、人口、產業與歷史文化",
+        "condition": "實戰檢核與適用條件：東亞夏季吹東南風暖濕多雨，冬季吹西北風乾冷；南亞夏季吹西南風，冬季東北風"
       },
       {
-        "term": "乾燥區（東亞與區域差異核心 2）",
-        "meaning": "水資源與灌溉影響聚落和產業。對應本課核心觀念：季風區、內陸乾燥區與高地的生活方式不同，也隨技術與社會變化調整",
-        "condition": "實戰檢核與適用條件：不能把整個西亞都視為相同地景"
+        "term": "季風氣候分區（東亞與區域差異核心 2）",
+        "meaning": "熱帶季風、副熱帶季風、溫帶季風。對應本課核心觀念：季風區、內陸乾燥區與高地的生活方式不同，也隨技術與社會變化調整",
+        "condition": "實戰檢核與適用條件：夏季雨量集中且年雨量變率大，易引發洪澇或乾旱天然災害"
       },
       {
-        "term": "文化與宗教（東亞與區域差異核心 3）",
-        "meaning": "文化分布跨越國界且內部多元。對應本課核心觀念：區域比較應同時看自然環境、人口、產業與歷史文化",
-        "condition": "實戰檢核與適用條件：避免以單一宗教概括所有居民的生活方式"
+        "term": "水稻集約農業（東亞與區域差異核心 3）",
+        "meaning": "高溫多雨氣候配合肥沃沖積平原與三角洲，發展稻作精耕細作。對應本課核心觀念：區域比較應同時看自然環境、人口、產業與歷史文化",
+        "condition": "實戰檢核與適用條件：單位面積產量高、糧食承載力強，促成亞洲人口高度稠密分布"
       }
     ],
     "blackboard": {
@@ -9036,19 +9036,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（國家平均值把不同地區與群體合併，不能代表每個個體或城市。）",
-          "mathExpression": "季風亞洲 ➔ 季節風向改變影響雨量與農業",
+          "mathExpression": "季風成因與風向 ➔ 海陸比熱差異造成冬夏高低氣壓轉換",
           "explanation": "國家平均值把不同地區與群體合併，不能代表每個個體或城市。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（東亞與區域差異）",
-          "mathExpression": "乾燥區 ➔ 水資源與灌溉影響聚落和產業",
+          "mathExpression": "季風氣候分區 ➔ 熱帶季風、副熱帶季風、溫帶季風",
           "explanation": "應選城市、區域或家庭等相近尺度，並確認統計口徑。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "文化與宗教 ➔ 文化分布跨越國界且內部多元",
+          "mathExpression": "水稻集約農業 ➔ 高溫多雨氣候配合肥沃沖積平原與三角洲，發展稻作精耕細作",
           "explanation": "再檢查物價、產業及所得分布，才能做有意義的比較。"
         }
       ],
@@ -9061,7 +9061,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「季風亞洲、乾燥區」之規則完成「兩國平均所得不同，能否推論其中每個城市都比另一國所有地方富裕？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「季風成因與風向、季風氣候分區」之規則完成「兩國平均所得不同，能否推論其中每個城市都比另一國所有地方富裕？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9069,7 +9069,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「東亞與區域差異、國家平均值把不同地區與群體合併，不能代表每個個體或城市。、季風亞洲、乾燥區、文化與宗教」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「東亞與區域差異、國家平均值把不同地區與群體合併，不能代表每個個體或城市。、季風成因與風向、季風氣候分區、水稻集約農業」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】區域不是每一處都一樣，也不宜以單一氣候決定所有人的生活。",
       "defenseCheck": "【考場防呆】避免以國家標籤推斷所有居民生活；地理分析需保留內部差異。"
     }
@@ -9087,19 +9087,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "季風亞洲（亞洲、非洲與文化地景核心 1）",
-        "meaning": "季節風向改變影響雨量與農業。對應本課核心觀念：不同區域的氣候、水資源、歷史與宗教形塑文化地景",
-        "condition": "實戰檢核與適用條件：雨季時間與水量仍因地形及區域而異"
+        "term": "乾燥氣候成因（亞洲、非洲與文化地景核心 1）",
+        "meaning": "副熱帶高壓籠罩、背風側深居內陸、涼流經過，降水稀少蒸發旺盛。對應本課核心觀念：不同區域的氣候、水資源、歷史與宗教形塑文化地景",
+        "condition": "實戰檢核與適用條件：年雨量多在 250 mm 以下，地表多沙漠、礫漠與荒漠草原景觀"
       },
       {
-        "term": "乾燥區（亞洲、非洲與文化地景核心 2）",
-        "meaning": "水資源與灌溉影響聚落和產業。對應本課核心觀念：研究一地需要尊重內部差異，避免把大洲居民視為單一文化",
-        "condition": "實戰檢核與適用條件：不能把整個西亞都視為相同地景"
+        "term": "傳統水資源利用（亞洲、非洲與文化地景核心 2）",
+        "meaning": "河谷灌溉（尼羅河、兩河流域肥沃月彎）、綠洲農業、地下坎井引高山雪水。對應本課核心觀念：研究一地需要尊重內部差異，避免把大洲居民視為單一文化",
+        "condition": "實戰檢核與適用條件：水資源極端珍貴，跨國河川用水協議往往成為國際政治緊張焦點"
       },
       {
-        "term": "文化與宗教（亞洲、非洲與文化地景核心 3）",
-        "meaning": "文化分布跨越國界且內部多元。對應本課核心觀念：不同區域的氣候、水資源、歷史與宗教形塑文化地景",
-        "condition": "實戰檢核與適用條件：避免以單一宗教概括所有居民的生活方式"
+        "term": "現代技術與代價（亞洲、非洲與文化地景核心 3）",
+        "meaning": "海水淡化提供生活用水，深層地下水開採灌溉。對應本課核心觀念：不同區域的氣候、水資源、歷史與宗教形塑文化地景",
+        "condition": "實戰檢核與適用條件：海水淡化耗能高且排放高鹽滷水；化石地下水不可再生"
       }
     ],
     "blackboard": {
@@ -9108,19 +9108,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（緯度影響接受太陽能的條件，但降雨還受環流、海陸位置及地形影響。）",
-          "mathExpression": "季風亞洲 ➔ 季節風向改變影響雨量與農業",
+          "mathExpression": "乾燥氣候成因 ➔ 副熱帶高壓籠罩、背風側深居內陸、涼流經過，降水稀少蒸發旺盛",
           "explanation": "緯度影響接受太陽能的條件，但降雨還受環流、海陸位置及地形影響。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（亞洲、非洲與文化地景）",
-          "mathExpression": "乾燥區 ➔ 水資源與灌溉影響聚落和產業",
+          "mathExpression": "傳統水資源利用 ➔ 河谷灌溉（尼羅河、兩河流域肥沃月彎）、綠洲農業、地下坎井引高山雪水",
           "explanation": "比較盛行風、水氣來源及山脈屏障，可理解同緯度差異。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "文化與宗教 ➔ 文化分布跨越國界且內部多元",
+          "mathExpression": "現代技術與代價 ➔ 海水淡化提供生活用水，深層地下水開採灌溉",
           "explanation": "所以緯度是重要因素之一，並非單一決定因素。"
         }
       ],
@@ -9133,7 +9133,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「季風亞洲、乾燥區」之規則完成「同屬低緯度的兩地，一地雨林、一地乾燥，是否表示緯度與氣候無關？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「乾燥氣候成因、傳統水資源利用」之規則完成「同屬低緯度的兩地，一地雨林、一地乾燥，是否表示緯度與氣候無關？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9141,7 +9141,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「亞洲、非洲與文化地景、緯度影響接受太陽能的條件，但降雨還受環流、海陸位置及地形影響。、季風亞洲、乾燥區、文化與宗教」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「亞洲、非洲與文化地景、緯度影響接受太陽能的條件，但降雨還受環流、海陸位置及地形影響。、乾燥氣候成因、傳統水資源利用、現代技術與代價」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】宗教與國家不能一一畫等號；同一區域內存在多樣生活方式。",
       "defenseCheck": "【考場防呆】不能用一個反例取消整個因素，也不能反過來只靠緯度決定所有氣候特徵。"
     }
@@ -9519,19 +9519,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "事實（人權、法治與正當程序核心 1）",
-        "meaning": "先分清主張、證據與已確認事實。對應本課核心觀念：法治強調權力依法且受限制，保障人格尊嚴、權利與救濟",
-        "condition": "實戰檢核與適用條件：不能只憑網路指控就認定違法"
+        "term": "憲法基本權利體系（人權、法治與正當程序核心 1）",
+        "meaning": "平等權、自由權（人身/居住遷徙/言論/集會結社）、受益權、參政權。對應本課核心觀念：法治強調權力依法且受限制，保障人格尊嚴、權利與救濟",
+        "condition": "實戰檢核與適用條件：基本權受憲法保障，非依法律且符合比例原則不得限制"
       },
       {
-        "term": "關係（人權、法治與正當程序核心 2）",
-        "meaning": "辨識私法爭議、犯罪疑義或行政措施。對應本課核心觀念：爭議處理應重視證據、陳述機會與公正程序",
-        "condition": "實戰檢核與適用條件：同一行為可能涉及不同種類責任"
+        "term": "正當法律程序（人權、法治與正當程序核心 2）",
+        "meaning": "國家行使公權力限制人民權利時，必須依法定程序嚴格執行。對應本課核心觀念：爭議處理應重視證據、陳述機會與公正程序",
+        "condition": "實戰檢核與適用條件：司法警察拘提逮捕須依法告知罪名與權利；搜索扣押原則上須有法官簽發搜索票（令狀原則）"
       },
       {
-        "term": "程序（人權、法治與正當程序核心 3）",
-        "meaning": "有權機關依法律與正當程序處理。對應本課核心觀念：本站用概念情境學習，不替代個案法律判斷",
-        "condition": "實戰檢核與適用條件：法律效果不能只由道德好惡決定"
+        "term": "無罪推定原則（人權、法治與正當程序核心 3）",
+        "meaning": "被告未經審判證明有罪確定前，推定其為無罪；證據不足時不得定罪。對應本課核心觀念：本站用概念情境學習，不替代個案法律判斷",
+        "condition": "實戰檢核與適用條件：檢察官負舉證責任；不得以被告自白為唯一證據"
       }
     ],
     "blackboard": {
@@ -9540,19 +9540,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（先保留相關證據並向教師或適當管道反映，不把指控當作已證實。）",
-          "mathExpression": "事實 ➔ 先分清主張、證據與已確認事實",
+          "mathExpression": "憲法基本權利體系 ➔ 平等權、自由權（人身/居住遷徙/言論/集會結社）、受益權、參政權",
           "explanation": "先保留相關證據並向教師或適當管道反映，不把指控當作已證實。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（人權、法治與正當程序）",
-          "mathExpression": "關係 ➔ 辨識私法爭議、犯罪疑義或行政措施",
+          "mathExpression": "正當法律程序 ➔ 國家行使公權力限制人民權利時，必須依法定程序嚴格執行",
           "explanation": "避免散布住址或個人資料，以免造成另一次侵害。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "程序 ➔ 有權機關依法律與正當程序處理",
+          "mathExpression": "無罪推定原則 ➔ 被告未經審判證明有罪確定前，推定其為無罪；證據不足時不得定罪",
           "explanation": "由有權處理者釐清事實並給相關人陳述機會，具體責任依法律與程序判定。"
         }
       ],
@@ -9565,7 +9565,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「事實、關係」之規則完成「網路貼文指控同學偷竊，大家要求立即公布住址與處罰，較適當的處理為何？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「憲法基本權利體系、正當法律程序」之規則完成「網路貼文指控同學偷竊，大家要求立即公布住址與處罰，較適當的處理為何？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9573,7 +9573,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「人權、法治與正當程序、先保留相關證據並向教師或適當管道反映，不把指控當作已證實。、事實、關係、程序」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「人權、法治與正當程序、先保留相關證據並向教師或適當管道反映，不把指控當作已證實。、憲法基本權利體系、正當法律程序、無罪推定原則」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】有規則不代表一定正當；規則內容與執行方式都要接受檢驗。",
       "defenseCheck": "【考場防呆】要求查明與保障程序不等於縱容行為；也不應由同學自行執行懲罰。"
     }
@@ -9735,9 +9735,9 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "臺灣南島語族與原住民族（臺灣南島語族與多元原住民族文化核心 1）",
-        "meaning": "臺灣為南島語系最北端原鄉；平埔族（熟番）與高山族（生番）依清代服從納稅劃分。對應本課核心觀念：臺灣是南島語族擴散的重要發源地之一",
-        "condition": "實戰檢核與適用條件：阿美族為母系社會；排灣與魯凱族具貴族階級；布農族以八部合音聞名"
+        "term": "歷史分類與族群自我認同（臺灣南島語族與多元原住民族文化核心 1）",
+        "meaning": "清代文獻的「生番」「熟番」等詞反映當時統治者的分類與治理關係，不是族群優劣的判斷。對應本課核心觀念：臺灣是南島語族擴散的重要發源地之一",
+        "condition": "實戰檢核與適用條件：不能直接等同今日族名或以居住山地、平地二分；閱讀文獻須辨時代、命名者及社群自稱"
       },
       {
         "term": "出處（臺灣南島語族與多元原住民族文化核心 2）",
@@ -9756,7 +9756,7 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（語言親緣與建築、祭儀屬不同類型的比較，不能一項差異直接推翻另一項證據。）",
-          "mathExpression": "臺灣南島語族與原住民族 ➔ 臺灣為南島語系最北端原鄉；平埔族（熟番）與高山族（生番）依清代服從納稅劃分",
+          "mathExpression": "歷史分類與族群自我認同 ➔ 清代文獻的「生番」「熟番」等詞反映當時統治者的分類與治理關係，不是族群優劣的判斷",
           "explanation": "語言親緣與建築、祭儀屬不同類型的比較，不能一項差異直接推翻另一項證據。"
         },
         {
@@ -9781,7 +9781,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「臺灣南島語族與原住民族、出處」之規則完成「兩個部落的建築與祭儀不同，是否能據此否定其語言間可能有親緣關係？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「歷史分類與族群自我認同、出處」之規則完成「兩個部落的建築與祭儀不同，是否能據此否定其語言間可能有親緣關係？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9789,7 +9789,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「臺灣南島語族與多元原住民族文化、語言親緣與建築、祭儀屬不同類型的比較，不能一項差異直接推翻另一項證據。、臺灣南島語族與原住民族、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「臺灣南島語族與多元原住民族文化、語言親緣與建築、祭儀屬不同類型的比較，不能一項差異直接推翻另一項證據。、歷史分類與族群自我認同、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】南島語族原住民各族擁有不同語言、宗教祭儀與社會制度，不可視為單一均質群體；平埔族群依然具有鮮明文化傳承與在地認同，並非自然消失。",
       "defenseCheck": "【考場防呆】不把所有族群合稱成單一生活方式，表述時尊重族名與自我認同。"
     }
@@ -9807,9 +9807,9 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "清代臺灣水圳與日治糖業（中國古代國家形成與封建帝制核心 1）",
-        "meaning": "清領前期施世榜八堡圳、郭錫瑠瑠公圳、曹謹曹公圳；日治八田與一興建嘉南大圳。對應本課核心觀念：商代甲骨文與青銅器反映神權統治",
-        "condition": "實戰檢核與適用條件：清初「一府二鹿三艋舺」由郊商主導對渡貿易；日治「工業日本、農業臺灣」造成米糖相剋"
+        "term": "分封與郡縣的權力關係（中國古代國家形成與封建帝制核心 1）",
+        "meaning": "周代分封以封土、宗族與義務建立政治聯繫；秦統一後推行郡縣，由中央任命地方官。對應本課核心觀念：商代甲骨文與青銅器反映神權統治",
+        "condition": "實戰檢核與適用條件：比較任命方式、承襲及中央地方關係；制度在不同時代可能並存或調整，不能只背二分表"
       },
       {
         "term": "出處（中國古代國家形成與封建帝制核心 2）",
@@ -9828,7 +9828,7 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（前者強調地方官職權來自中央任命，較接近郡縣治理邏輯。）",
-          "mathExpression": "清代臺灣水圳與日治糖業 ➔ 清領前期施世榜八堡圳、郭錫瑠瑠公圳、曹謹曹公圳；日治八田與一興建嘉南大圳",
+          "mathExpression": "分封與郡縣的權力關係 ➔ 周代分封以封土、宗族與義務建立政治聯繫；秦統一後推行郡縣，由中央任命地方官",
           "explanation": "前者強調地方官職權來自中央任命，較接近郡縣治理邏輯。"
         },
         {
@@ -9853,7 +9853,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「清代臺灣水圳與日治糖業、出處」之規則完成「某制度由中央任命地方官、調動及考核；另一制度以宗族封授並世襲。主要差別是什麼？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「分封與郡縣的權力關係、出處」之規則完成「某制度由中央任命地方官、調動及考核；另一制度以宗族封授並世襲。主要差別是什麼？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9861,7 +9861,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「中國古代國家形成與封建帝制、前者強調地方官職權來自中央任命，較接近郡縣治理邏輯。、清代臺灣水圳與日治糖業、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「中國古代國家形成與封建帝制、前者強調地方官職權來自中央任命，較接近郡縣治理邏輯。、分封與郡縣的權力關係、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】西周的「封建」是血緣家族親疏的政治分封，與歐洲中古封建領主農奴制內涵不同；諸子百家（儒、道、法、墨）是因應戰國社會大變動所提出的救世方案，非純空想學說。",
       "defenseCheck": "【考場防呆】這是類型比較；具體朝代仍需依史料確認，避免把理想制度當成全部現實。"
     }
@@ -9879,9 +9879,9 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "明清白銀經濟與中西交流（明清社會變遷與西力東漸核心 1）",
-        "meaning": "鄭和下西洋（朝貢貿易）→ 新航路白銀流入（一條鞭法/攤丁入畝）→ 耶穌會利瑪竇東來。對應本課核心觀念：明清時期江南市鎮經濟高度繁榮，美洲白銀大量流入促成「一條鞭法」與「攤丁入畝」賦稅改革（實物徭役改為折銀繳納）",
-        "condition": "實戰檢核與適用條件：雍正「攤丁入畝」廢除人頭稅使人口激增；康熙禁教後中西學術交流中斷"
+        "term": "明清市場與對外交流（明清社會變遷與西力東漸核心 1）",
+        "meaning": "白銀流通、賦稅制度、人口與市場相互影響；對外交流包含貿易、傳教、知識傳播與衝突。對應本課核心觀念：明清時期江南市鎮經濟高度繁榮，美洲白銀大量流入促成「一條鞭法」與「攤丁入畝」賦稅改革（實物徭役改為折銀繳納）",
+        "condition": "實戰檢核與適用條件：先區分政策目標與實際結果；不能把人口增長歸因於單一稅制，也不能把禁教等同所有交流停止"
       },
       {
         "term": "出處（明清社會變遷與西力東漸核心 2）",
@@ -9900,7 +9900,7 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（生產不只供家庭直接食用，也面向市場交換。）",
-          "mathExpression": "明清白銀經濟與中西交流 ➔ 鄭和下西洋（朝貢貿易）→ 新航路白銀流入（一條鞭法/攤丁入畝）→ 耶穌會利瑪竇東來",
+          "mathExpression": "明清市場與對外交流 ➔ 白銀流通、賦稅制度、人口與市場相互影響；對外交流包含貿易、傳教、知識傳播與衝突",
           "explanation": "生產不只供家庭直接食用，也面向市場交換。"
         },
         {
@@ -9925,7 +9925,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「明清白銀經濟與中西交流、出處」之規則完成「某地以經濟作物換取白銀，再購買糧食，這與自給農業有何不同？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「明清市場與對外交流、出處」之規則完成「某地以經濟作物換取白銀，再購買糧食，這與自給農業有何不同？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -9933,7 +9933,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「明清社會變遷與西力東漸、生產不只供家庭直接食用，也面向市場交換。、明清白銀經濟與中西交流、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「明清社會變遷與西力東漸、生產不只供家庭直接食用，也面向市場交換。、明清市場與對外交流、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】明清市鎮雖然商貿繁華，但官方長期實施海禁或朝貢貿易政策，阻礙了自發性海外擴張；傳教士帶來的科學知識主要停留在朝廷欽天監，並未全面普及於民間社會。",
       "defenseCheck": "【考場防呆】市場發展不代表自給活動立刻消失；兩者可在同一地區並存。"
     }
@@ -10034,8 +10034,8 @@ export const exegesisData = {
       },
       {
         "term": "坡度（等高線地形圖判讀與臺灣水文環境核心 3）",
-        "meaning": "同圖上線密坡陡，線疏坡緩。對應本課核心觀念：臺灣中央山脈縱貫中央形成東西分水嶺，地勢高峻、河短流急，夏秋颱風暴雨洪峰集中，乾季水量驟減，水資源涵養儲存不易",
-        "condition": "實戰檢核與適用條件：必須在相同比例尺下比較"
+        "meaning": "等高距相同時，線密通常坡陡、線疏坡緩。對應本課核心觀念：臺灣中央山脈縱貫中央形成東西分水嶺，地勢高峻、河短流急，夏秋颱風暴雨洪峰集中，乾季水量驟減，水資源涵養儲存不易",
+        "condition": "實戰檢核與適用條件：跨圖比較須同時統一比例尺與等高距"
       }
     ],
     "blackboard": {
@@ -10056,7 +10056,7 @@ export const exegesisData = {
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "坡度 ➔ 同圖上線密坡陡，線疏坡緩",
+          "mathExpression": "坡度 ➔ 等高距相同時，線密通常坡陡、線疏坡緩",
           "explanation": "規劃路線還須看道路、橋梁與實地安全，等高線不能替代全部資訊。"
         }
       ],
@@ -10095,19 +10095,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "季風亞洲（季風亞洲與世界文明搖籃核心 1）",
-        "meaning": "季節風向改變影響雨量與農業。對應本課核心觀念：東亞、南亞與東南亞受海陸比熱差異影響形成顯著的季風氣候（夏季吹向大陸帶來豐沛暖濕水氣，冬季吹向海洋寒冷乾燥）",
-        "condition": "實戰檢核與適用條件：雨季時間與水量仍因地形及區域而異"
+        "term": "氣候自然帶對稱分布（季風亞洲與世界文明搖籃核心 1）",
+        "meaning": "赤道為熱帶雨林，向南北兩側依序對稱過渡為熱帶莽原、熱帶沙漠與地中海氣候。對應本課核心觀念：東亞、南亞與東南亞受海陸比熱差異影響形成顯著的季風氣候（夏季吹向大陸帶來豐沛暖濕水氣，冬季吹向海洋寒冷乾燥）",
+        "condition": "實戰檢核與適用條件：地形以古老結晶岩高原為主，海岸線平直少天然良港，河川多急湍瀑布不利內河航運"
       },
       {
-        "term": "乾燥區（季風亞洲與世界文明搖籃核心 2）",
-        "meaning": "水資源與灌溉影響聚落和產業。對應本課核心觀念：季風亞洲雨熱同期的氣候特點極度有利於水稻種植，造就精耕細作的集約農業與世界最高人口密度聚居區",
-        "condition": "實戰檢核與適用條件：不能把整個西亞都視為相同地景"
+        "term": "熱帶莽原乾濕分明（季風亞洲與世界文明搖籃核心 2）",
+        "meaning": "夏受赤道低壓壟罩為雨季，草木繁茂；冬受副熱帶高壓控制為乾季，草木枯黃。對應本課核心觀念：季風亞洲雨熱同期的氣候特點極度有利於水稻種植，造就精耕細作的集約農業與世界最高人口密度聚居區",
+        "condition": "實戰檢核與適用條件：野生動物隨雨帶季節性長途遷徙；游牧與傳統農業依乾濕季輪替"
       },
       {
-        "term": "文化與宗教（季風亞洲與世界文明搖籃核心 3）",
-        "meaning": "文化分布跨越國界且內部多元。對應本課核心觀念：印度河、恆河、黃河與長江流域孕育了深厚悠久的人類古典文明",
-        "condition": "實戰檢核與適用條件：避免以單一宗教概括所有居民的生活方式"
+        "term": "殖民遺緒單一作物經濟（季風亞洲與世界文明搖籃核心 3）",
+        "meaning": "歷史殖民時期開闢可可、咖啡、油棕或銅金鑽石礦產，出口初級原料。對應本課核心觀念：印度河、恆河、黃河與長江流域孕育了深厚悠久的人類古典文明",
+        "condition": "實戰檢核與適用條件：國際大宗物資價格波動嚴重影響國家外匯；國內糧食自給不足引發飢荒風險"
       }
     ],
     "blackboard": {
@@ -10116,19 +10116,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（播種與插秧常依水分條件安排，雨季延遲可能迫使調整農時。）",
-          "mathExpression": "季風亞洲 ➔ 季節風向改變影響雨量與農業",
+          "mathExpression": "氣候自然帶對稱分布 ➔ 赤道為熱帶雨林，向南北兩側依序對稱過渡為熱帶莽原、熱帶沙漠與地中海氣候",
           "explanation": "播種與插秧常依水分條件安排，雨季延遲可能迫使調整農時。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（季風亞洲與世界文明搖籃）",
-          "mathExpression": "乾燥區 ➔ 水資源與灌溉影響聚落和產業",
+          "mathExpression": "熱帶莽原乾濕分明 ➔ 夏受赤道低壓壟罩為雨季，草木繁茂；冬受副熱帶高壓控制為乾季，草木枯黃",
           "explanation": "灌溉水庫或地下水可緩衝部分影響，但需考慮儲量及其他用水需求。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "文化與宗教 ➔ 文化分布跨越國界且內部多元",
+          "mathExpression": "殖民遺緒單一作物經濟 ➔ 歷史殖民時期開闢可可、咖啡、油棕或銅金鑽石礦產，出口初級原料",
           "explanation": "比較作物選擇、節水與調度方案，而非認為有灌溉就完全不受雨季影響。"
         }
       ],
@@ -10141,7 +10141,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「季風亞洲、乾燥區」之規則完成「季風農業區若雨季延遲，可能如何影響稻作與用水規劃？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「氣候自然帶對稱分布、熱帶莽原乾濕分明」之規則完成「季風農業區若雨季延遲，可能如何影響稻作與用水規劃？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10149,7 +10149,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「季風亞洲與世界文明搖籃、播種與插秧常依水分條件安排，雨季延遲可能迫使調整農時。、季風亞洲、乾燥區、文化與宗教」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「季風亞洲與世界文明搖籃、播種與插秧常依水分條件安排，雨季延遲可能迫使調整農時。、氣候自然帶對稱分布、熱帶莽原乾濕分明、殖民遺緒單一作物經濟」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】季風氣候雖降水豐沛，但季風具有年際不穩定性（強弱早晚不一），容易造成水旱災交替；東南亞赤道附近（如印尼、馬來群島）主要屬熱帶雨林氣候，終年高溫多雨，非典型季風氣候。",
       "defenseCheck": "【考場防呆】氣候的季節性、年際差異及水利設施能力要分開分析。"
     }
@@ -10239,19 +10239,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "事實（少年法律保護與權益維護核心 1）",
-        "meaning": "先分清主張、證據與已確認事實。對應本課核心觀念：法律考量少年（12 歲以上未滿 18 歲）身心發展尚未成熟，以保護優先而非純懲罰",
-        "condition": "實戰檢核與適用條件：不能只憑網路指控就認定違法"
+        "term": "少年法年齡界定（少年法律保護與權益維護核心 1）",
+        "meaning": "少年：12 歲以上未滿 18 歲；兒童：未滿 12 歲。對應本課核心觀念：法律考量少年（12 歲以上未滿 18 歲）身心發展尚未成熟，以保護優先而非純懲罰",
+        "condition": "實戰檢核與適用條件：未滿 12 歲兒童觸犯刑責不移送少年法院，回歸教育與社政體系（全面除罪化）"
       },
       {
-        "term": "關係（少年法律保護與權益維護核心 2）",
-        "meaning": "辨識私法爭議、犯罪疑義或行政措施。對應本課核心觀念：《少年事件處理法》分為少年保護事件（少年偏差行為或觸法情節輕微，施以訓誡、假日生活輔導、保護管束、感化教育）與少年刑事案件（觸犯重罪者始適用刑法）",
-        "condition": "實戰檢核與適用條件：同一行為可能涉及不同種類責任"
+        "term": "少年保護事件處理（少年法律保護與權益維護核心 2）",
+        "meaning": "以「保護優先」與「教育矯治」為核心，由少年法院（庭）調查審理。對應本課核心觀念：《少年事件處理法》分為少年保護事件（少年偏差行為或觸法情節輕微，施以訓誡、假日生活輔導、保護管束、感化教育）與少年刑事案件（觸犯重罪者始適用刑法）",
+        "condition": "實戰檢核與適用條件：保護處分種類：訓誡、假日生活輔導、保護管束、安置輔導、感化教育"
       },
       {
-        "term": "程序（少年法律保護與權益維護核心 3）",
-        "meaning": "有權機關依法律與正當程序處理。對應本課核心觀念：《兒童及少年福利與權益保障法》保障兒少免於受虐、剝削與身心侵害",
-        "condition": "實戰檢核與適用條件：法律效果不能只由道德好惡決定"
+        "term": "少年刑事案件要件（少年法律保護與權益維護核心 3）",
+        "meaning": "滿 14 歲以上少年犯最輕本刑 5 年以上有期徒刑之重罪，裁定移送檢察官起訴。對應本課核心觀念：《兒童及少年福利與權益保障法》保障兒少免於受虐、剝削與身心侵害",
+        "condition": "實戰檢核與適用條件：移送後由刑事法院審判，但不得處死刑或無期徒刑（減輕其刑）"
       }
     ],
     "blackboard": {
@@ -10260,19 +10260,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（先關心安全與感受，避免逼問或公開事件細節。）",
-          "mathExpression": "事實 ➔ 先分清主張、證據與已確認事實",
+          "mathExpression": "少年法年齡界定 ➔ 少年：12 歲以上未滿 18 歲；兒童：未滿 12 歲",
           "explanation": "先關心安全與感受，避免逼問或公開事件細節。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（少年法律保護與權益維護）",
-          "mathExpression": "關係 ➔ 辨識私法爭議、犯罪疑義或行政措施",
+          "mathExpression": "少年保護事件處理 ➔ 以「保護優先」與「教育矯治」為核心，由少年法院（庭）調查審理",
           "explanation": "協助保留訊息與時間等證據，陪同向可信任成人、學校或適當專業管道反映。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "程序 ➔ 有權機關依法律與正當程序處理",
+          "mathExpression": "少年刑事案件要件 ➔ 滿 14 歲以上少年犯最輕本刑 5 年以上有期徒刑之重罪，裁定移送檢察官起訴",
           "explanation": "由有權單位判斷後續處置，不自行威脅對方或公布個資報復。"
         }
       ],
@@ -10285,7 +10285,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「事實、關係」之規則完成「同學遇到網路威脅卻怕被責怪而不敢求助，旁人可以如何支持？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「少年法年齡界定、少年保護事件處理」之規則完成「同學遇到網路威脅卻怕被責怪而不敢求助，旁人可以如何支持？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10293,7 +10293,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「少年法律保護與權益維護、先關心安全與感受，避免逼問或公開事件細節。、事實、關係、程序」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「少年法律保護與權益維護、先關心安全與感受，避免逼問或公開事件細節。、少年法年齡界定、少年保護事件處理、少年刑事案件要件」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】未成年人觸法並非完全「免罰」或「不會有事」，少年保護處分依然具有法定拘束力與管束限制；任何人不得公開報導或揭露少年事件當事人姓名與身分資訊。",
       "defenseCheck": "【考場防呆】保護少年與釐清責任可以並行；此情境練習不替代個案法律判斷。"
     }
@@ -10311,19 +10311,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "事實（現代法治體系：民法、刑法與行政法核心 1）",
-        "meaning": "先分清主張、證據與已確認事實。對應本課核心觀念：現代法治國家依法律性質劃分：民法處理私人間財產與身分關係（私法自治、契約自由、侵權行為損害賠償）",
-        "condition": "實戰檢核與適用條件：不能只憑網路指控就認定違法"
+        "term": "民法：私法自治與賠償（現代法治體系：民法、刑法與行政法核心 1）",
+        "meaning": "規範私人之間的財產與身分關係（契約自由、過失侵權責任）。對應本課核心觀念：現代法治國家依法律性質劃分：民法處理私人間財產與身分關係（私法自治、契約自由、侵權行為損害賠償）",
+        "condition": "實戰檢核與適用條件：違約須負債務不履行責任；侵權行為須負損害賠償責任（回復原狀或金錢賠償）"
       },
       {
-        "term": "關係（現代法治體系：民法、刑法與行政法核心 2）",
-        "meaning": "辨識私法爭議、犯罪疑義或行政措施。對應本課核心觀念：刑法處理犯罪與刑罰（罪刑法定原則，明定何種行為是犯罪及處罰標準）",
-        "condition": "實戰檢核與適用條件：同一行為可能涉及不同種類責任"
+        "term": "刑法：罪刑法定與刑罰（現代法治體系：民法、刑法與行政法核心 2）",
+        "meaning": "規範犯罪行為與刑罰處分；行為時法律明文規定者為限。對應本課核心觀念：刑法處理犯罪與刑罰（罪刑法定原則，明定何種行為是犯罪及處罰標準）",
+        "condition": "實戰檢核與適用條件：犯罪構成要件：該當構成要件、具違法性、具罪責；主刑與從刑"
       },
       {
-        "term": "程序（現代法治體系：民法、刑法與行政法核心 3）",
-        "meaning": "有權機關依法律與正當程序處理。對應本課核心觀念：行政法規範政府行政權行使與人民公法權益救濟（行政處分、訴願與行政訴訟）",
-        "condition": "實戰檢核與適用條件：法律效果不能只由道德好惡決定"
+        "term": "行政法：依法行政與秩序（現代法治體系：民法、刑法與行政法核心 3）",
+        "meaning": "規範國家行政機關運作及人民公法義務；違規處以行政罰。對應本課核心觀念：行政法規範政府行政權行使與人民公法權益救濟（行政處分、訴願與行政訴訟）",
+        "condition": "實戰檢核與適用條件：闖紅燈罰鍰、營業勒令停業；不服行政處分可提起訴願與行政訴訟救濟"
       }
     ],
     "blackboard": {
@@ -10332,19 +10332,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（受害者損害可能涉及民事賠償。）",
-          "mathExpression": "事實 ➔ 先分清主張、證據與已確認事實",
+          "mathExpression": "民法：私法自治與賠償 ➔ 規範私人之間的財產與身分關係（契約自由、過失侵權責任）",
           "explanation": "受害者損害可能涉及民事賠償。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（現代法治體系：民法、刑法與行政法）",
-          "mathExpression": "關係 ➔ 辨識私法爭議、犯罪疑義或行政措施",
+          "mathExpression": "刑法：罪刑法定與刑罰 ➔ 規範犯罪行為與刑罰處分；行為時法律明文規定者為限",
           "explanation": "若行為符合法定犯罪要件，可能另有刑事責任，但需依法認定。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "程序 ➔ 有權機關依法律與正當程序處理",
+          "mathExpression": "行政法：依法行政與秩序 ➔ 規範國家行政機關運作及人民公法義務；違規處以行政罰",
           "explanation": "違反交通管理規定也可能有行政裁罰，三者不能因其中一項成立便省略各自條件。"
         }
       ],
@@ -10357,7 +10357,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「事實、關係」之規則完成「交通事故造成他人受傷，為何可能同時談賠償、刑事責任與交通裁罰？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「民法：私法自治與賠償、刑法：罪刑法定與刑罰」之規則完成「交通事故造成他人受傷，為何可能同時談賠償、刑事責任與交通裁罰？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10365,7 +10365,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「現代法治體系：民法、刑法與行政法、受害者損害可能涉及民事賠償。、事實、關係、程序」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「現代法治體系：民法、刑法與行政法、受害者損害可能涉及民事賠償。、民法：私法自治與賠償、刑法：罪刑法定與刑罰、行政法：依法行政與秩序」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】民事賠償是由被害人向法院提起民事訴訟，非檢察官公訴；刑事責任講求「罪刑法定」，法律無明文規定處罰者不得定罪。民事、刑事與行政責任可能因同一個違法行為同時發生（如酒駕肇事）。",
       "defenseCheck": "【考場防呆】本例是責任類型示意，具體案件是否成立及金額須查現行法與事實。"
     }
@@ -10383,19 +10383,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "機會成本（市場競爭、外部效果與政府管制核心 1）",
-        "meaning": "放棄的選項中，價值最高者。對應本課核心觀念：市場價格由買賣雙方的供給與需求共同決定",
-        "condition": "實戰檢核與適用條件：不是把所有放棄選項的價值加總"
+        "term": "價格機能（看不見的手）（市場競爭、外部效果與政府管制核心 1）",
+        "meaning": "供需力量決定市場均衡價格與數量，引導資源最適配置。對應本課核心觀念：市場價格由買賣雙方的供給與需求共同決定",
+        "condition": "實戰檢核與適用條件：供給量等於需求量時達成市場均衡；價格過高過剩降價，過低短缺漲價"
       },
       {
-        "term": "比較利益（市場競爭、外部效果與政府管制核心 2）",
-        "meaning": "機會成本較低者具有比較利益。對應本課核心觀念：外部效果是指經濟活動對未參與交易的第三人產生影響且未在價格中反映：外部成本（負外部性，如工廠排放廢氣）造成社會成本大於私人成本，導致生產過量，政府可藉課稅或開罰管制",
-        "condition": "實戰檢核與適用條件：即使一方兩種產品都做得快，仍可能有互利分工"
+        "term": "負外部性與內部化（市場競爭、外部效果與政府管制核心 2）",
+        "meaning": "生產或消費行為對第三方產生未補償的損害（如工廠排廢氣）。對應本課核心觀念：外部效果是指經濟活動對未參與交易的第三人產生影響且未在價格中反映：外部成本（負外部性，如工廠排放廢氣）造成社會成本大於私人成本，導致生產過量，政府可藉課稅或開罰管制",
+        "condition": "實戰檢核與適用條件：私人生產成本小於社會成本；政府課徵碳稅或排污費，落實污染者付費內部化"
       },
       {
-        "term": "外部效果（市場競爭、外部效果與政府管制核心 3）",
-        "meaning": "交易影響未參與交易的第三者。對應本課核心觀念：外部效益（正外部性，如施打疫苗、受教育）造成社會效益大於私人效益，政府可提供補貼獎勵",
-        "condition": "實戰檢核與適用條件：污染成本若未反映在價格中，市場結果可能失衡"
+        "term": "正外部性與補貼（市場競爭、外部效果與政府管制核心 3）",
+        "meaning": "行為對第三方帶來未受報酬的效益（如打疫苗、研發教育）。對應本課核心觀念：外部效益（正外部性，如施打疫苗、受教育）造成社會效益大於私人效益，政府可提供補貼獎勵",
+        "condition": "實戰檢核與適用條件：私人效益小於社會效益；政府提供學費補貼或研發獎勵，提高生產與消費量至最適水準"
       }
     ],
     "blackboard": {
@@ -10404,19 +10404,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（生產者與購買者付出的價格未必包含下游居民承受的水質損害。）",
-          "mathExpression": "機會成本 ➔ 放棄的選項中，價值最高者",
+          "mathExpression": "價格機能（看不見的手） ➔ 供需力量決定市場均衡價格與數量，引導資源最適配置",
           "explanation": "生產者與購買者付出的價格未必包含下游居民承受的水質損害。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（市場競爭、外部效果與政府管制）",
-          "mathExpression": "比較利益 ➔ 機會成本較低者具有比較利益",
+          "mathExpression": "負外部性與內部化 ➔ 生產或消費行為對第三方產生未補償的損害（如工廠排廢氣）",
           "explanation": "第三者負擔未被計入，形成負外部效果。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "外部效果 ➔ 交易影響未參與交易的第三者",
+          "mathExpression": "正外部性與補貼 ➔ 行為對第三方帶來未受報酬的效益（如打疫苗、研發教育）",
           "explanation": "可比較排放標準、處理設施與污染費等方案，並評估監測能力與成本由誰負擔。"
         }
       ],
@@ -10429,7 +10429,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「機會成本、比較利益」之規則完成「工廠產品便宜，但廢水使下游居民增加淨水支出，為何市場價格可能未反映全部成本？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「價格機能（看不見的手）、負外部性與內部化」之規則完成「工廠產品便宜，但廢水使下游居民增加淨水支出，為何市場價格可能未反映全部成本？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10437,7 +10437,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「市場競爭、外部效果與政府管制、生產者與購買者付出的價格未必包含下游居民承受的水質損害。、機會成本、比較利益、外部效果」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「市場競爭、外部效果與政府管制、生產者與購買者付出的價格未必包含下游居民承受的水質損害。、價格機能（看不見的手）、負外部性與內部化、正外部性與補貼」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】外部成本與外部效益並非指商品本身的優缺點，而是指對「交易雙方以外的第三人」產生的未計價影響；市場機能無法自動解決外部效果時，即發生「市場失靈」。",
       "defenseCheck": "【考場防呆】提高價格不保證污染自動消失；政策設計須追蹤實際排放與行為改變。"
     }
@@ -10455,9 +10455,9 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "三大一神教與中世紀歐洲（清領開港通商與臺灣近代化建設核心 1）",
-        "meaning": "猶太教（舊約）→ 基督教（新約，4世紀成羅馬國教）→ 伊斯蘭教（古蘭經，政教合一）。對應本課核心觀念：1858 年英法聯軍《天津條約》與 1860 年《北京條約》後，臺灣陸續開放安平、淡水、雞籠（基隆）、打狗（高雄）四港",
-        "condition": "實戰檢核與適用條件：西歐封建為領主附庸契約分權；中世紀後期十字軍東征帶動義大利城市與大學復興"
+        "term": "清領開港後的貿易與建設（清領開港通商與臺灣近代化建設核心 1）",
+        "meaning": "開港後茶、糖、樟腦等出口與洋貨進口連結世界市場；港口、商業及交通建設的變化需合併觀察。對應本課核心觀念：1858 年英法聯軍《天津條約》與 1860 年《北京條約》後，臺灣陸續開放安平、淡水、雞籠（基隆）、打狗（高雄）四港",
+        "condition": "實戰檢核與適用條件：用海關統計比較商品、年份與港口；不能只憑出口商品增加推定全體居民均受益或貿易必為順差"
       },
       {
         "term": "出處（清領開港通商與臺灣近代化建設核心 2）",
@@ -10476,7 +10476,7 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（茶需從產區運到加工或交易地，再經港口出口，形成運輸鏈。）",
-          "mathExpression": "三大一神教與中世紀歐洲 ➔ 猶太教（舊約）→ 基督教（新約，4世紀成羅馬國教）→ 伊斯蘭教（古蘭經，政教合一）",
+          "mathExpression": "清領開港後的貿易與建設 ➔ 開港後茶、糖、樟腦等出口與洋貨進口連結世界市場；港口、商業及交通建設的變化需合併觀察",
           "explanation": "茶需從產區運到加工或交易地，再經港口出口，形成運輸鏈。"
         },
         {
@@ -10501,7 +10501,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「三大一神教與中世紀歐洲、出處」之規則完成「出口茶業發展，為何可能帶動北部港口、商業與交通需求？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「清領開港後的貿易與建設、出處」之規則完成「出口茶業發展，為何可能帶動北部港口、商業與交通需求？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10509,7 +10509,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「清領開港通商與臺灣近代化建設、茶需從產區運到加工或交易地，再經港口出口，形成運輸鏈。、三大一神教與中世紀歐洲、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「清領開港通商與臺灣近代化建設、茶需從產區運到加工或交易地，再經港口出口，形成運輸鏈。、清領開港後的貿易與建設、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】開港通商是受西方列強條約逼迫開放，非清廷主動開明；劉銘傳推動現代化改革面臨財政困難、守舊反對與原住民衝突，鐵路在他離臺時僅完成基隆到臺北。",
       "defenseCheck": "【考場防呆】不能把同時期每項建設都單獨歸因於茶業，其他政策和產業亦可能參與。"
     }
@@ -10527,9 +10527,9 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "民國建立、五四至八年抗戰（辛亥革命與中華民國建立到對日抗戰核心 1）",
-        "meaning": "1911 辛亥建國 → 1919 五四運動 → 1928 北伐統一與十年建設 → 1937~1945 對日抗戰。對應本課核心觀念：孫中山創立興中會、同盟會，提出三民主義（民族、民權、民生）",
-        "condition": "實戰檢核與適用條件：1936 西安事變促成國共二次合作；1943 中英中美簽訂新約廢除百年不平等條約"
+        "term": "革命事件與建國時間分開（辛亥革命與中華民國建立到對日抗戰核心 1）",
+        "meaning": "1911 年辛亥革命、1912 年中華民國建立；其後政治整合、思想變革與對外戰爭仍持續發展。對應本課核心觀念：孫中山創立興中會、同盟會，提出三民主義（民族、民權、民生）",
+        "condition": "實戰檢核與適用條件：1919 年五四運動、1937 年全面抗戰為不同階段的事件；建國不等於各地立即穩定統一"
       },
       {
         "term": "出處（辛亥革命與中華民國建立到對日抗戰核心 2）",
@@ -10548,7 +10548,7 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（先把制度名稱與實際權力運作分開，建立共和只是分析起點。）",
-          "mathExpression": "民國建立、五四至八年抗戰 ➔ 1911 辛亥建國 → 1919 五四運動 → 1928 北伐統一與十年建設 → 1937~1945 對日抗戰",
+          "mathExpression": "革命事件與建國時間分開 ➔ 1911 年辛亥革命、1912 年中華民國建立；其後政治整合、思想變革與對外戰爭仍持續發展",
           "explanation": "先把制度名稱與實際權力運作分開，建立共和只是分析起點。"
         },
         {
@@ -10573,7 +10573,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「民國建立、五四至八年抗戰、出處」之規則完成「有人說「建立共和後，政治便立刻穩定且所有人獲得同等參與」，如何用歷史思考檢查？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「革命事件與建國時間分開、出處」之規則完成「有人說「建立共和後，政治便立刻穩定且所有人獲得同等參與」，如何用歷史思考檢查？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10581,7 +10581,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「辛亥革命與中華民國建立到對日抗戰、先把制度名稱與實際權力運作分開，建立共和只是分析起點。、民國建立、五四至八年抗戰、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「辛亥革命與中華民國建立到對日抗戰、先把制度名稱與實際權力運作分開，建立共和只是分析起點。、革命事件與建國時間分開、出處、立場」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】武昌起義成功時孫中山人在海外，革命是各省革命黨人、新軍與立憲派力量匯聚的成果；新文化運動注重思想與文化批判，五四運動則是 1919 年因巴黎和會山東問題爆發的學生愛國群眾運動。",
       "defenseCheck": "【考場防呆】回答應指出所需證據與時段，不宜只用「成功」或「失敗」兩字概括複雜歷程。"
     }
@@ -10743,19 +10743,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "季風亞洲（西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治核心 1）",
-        "meaning": "季節風向改變影響雨量與農業。對應本課核心觀念：西亞與中亞位居歐亞非三洲樞紐，受副熱帶高壓籠罩與深居內陸影響，以熱帶與溫帶沙漠、草原氣候為主，水資源極為珍貴（坎兒井、尼羅河與幼發拉底河底格里斯河灌溉）",
-        "condition": "實戰檢核與適用條件：雨季時間與水量仍因地形及區域而異"
+        "term": "溫帶海洋性氣候成因（西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治核心 1）",
+        "meaning": "盛行西風吹拂加上北大西洋暖流增溫增濕，高緯度但終年溫和多雨。對應本課核心觀念：西亞與中亞位居歐亞非三洲樞紐，受副熱帶高壓籠罩與深居內陸影響，以熱帶與溫帶沙漠、草原氣候為主，水資源極為珍貴（坎兒井、尼羅河與幼發拉底河底格里斯河灌溉）",
+        "condition": "實戰檢核與適用條件：年溫差小、無乾季，利於畜牧業與乳製品發展；向東深入內陸漸轉為溫帶大陸性氣候"
       },
       {
-        "term": "乾燥區（西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治核心 2）",
-        "meaning": "水資源與灌溉影響聚落和產業。對應本課核心觀念：此區為伊斯蘭教發源地（麥加為聖地），居民多數信奉伊斯蘭教（遵守古蘭經戒律，禁食豬肉與飲酒、每日朝拜、女性戴希賈布）",
-        "condition": "實戰檢核與適用條件：不能把整個西亞都視為相同地景"
+        "term": "南歐地中海型氣候（西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治核心 2）",
+        "meaning": "夏受副熱帶高壓壟罩炎熱乾燥，冬受西風帶南移溫和多雨。對應本課核心觀念：此區為伊斯蘭教發源地（麥加為聖地），居民多數信奉伊斯蘭教（遵守古蘭經戒律，禁食豬肉與飲酒、每日朝拜、女性戴希賈布）",
+        "condition": "實戰檢核與適用條件：發展耐旱果作（油橄欖、葡萄、柑橘），並發展夏季濱海避暑觀光"
       },
       {
-        "term": "文化與宗教（西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治核心 3）",
-        "meaning": "文化分布跨越國界且內部多元。對應本課核心觀念：波斯灣沿岸蘊藏全球最豐富的石油與天然氣，主導 OPEC 石油組織，亦引發深刻的大國地緣政治衝突",
-        "condition": "實戰檢核與適用條件：避免以單一宗教概括所有居民的生活方式"
+        "term": "工業區位與萊茵河流域（西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治核心 3）",
+        "meaning": "早期依煤鐵礦藏分布（如德國魯爾區、英國中部），現代轉向沿海港口與高科技聚落。對應本課核心觀念：波斯灣沿岸蘊藏全球最豐富的石油與天然氣，主導 OPEC 石油組織，亦引發深刻的大國地緣政治衝突",
+        "condition": "實戰檢核與適用條件：萊茵河串聯內陸重工業與鹿特丹國際大港，為歐洲經貿黃金水道"
       }
     ],
     "blackboard": {
@@ -10764,19 +10764,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（石油與淡水是不同資源，有能源收入不等於有充足天然淡水。）",
-          "mathExpression": "季風亞洲 ➔ 季節風向改變影響雨量與農業",
+          "mathExpression": "溫帶海洋性氣候成因 ➔ 盛行西風吹拂加上北大西洋暖流增溫增濕，高緯度但終年溫和多雨",
           "explanation": "石油與淡水是不同資源，有能源收入不等於有充足天然淡水。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治）",
-          "mathExpression": "乾燥區 ➔ 水資源與灌溉影響聚落和產業",
+          "mathExpression": "南歐地中海型氣候 ➔ 夏受副熱帶高壓壟罩炎熱乾燥，冬受西風帶南移溫和多雨",
           "explanation": "淡化需能源、設備與維護，也可能有環境代價。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "文化與宗教 ➔ 文化分布跨越國界且內部多元",
+          "mathExpression": "工業區位與萊茵河流域 ➔ 早期依煤鐵礦藏分布（如德國魯爾區、英國中部），現代轉向沿海港口與高科技聚落",
           "explanation": "因此供水技術與需求管理可並行，不能因財富增加就忽略水量限制。"
         }
       ],
@@ -10789,7 +10789,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「季風亞洲、乾燥區」之規則完成「某乾燥地區石油收入高，卻仍重視海水淡化與節水，兩者矛盾嗎？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「溫帶海洋性氣候成因、南歐地中海型氣候」之規則完成「某乾燥地區石油收入高，卻仍重視海水淡化與節水，兩者矛盾嗎？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -10797,7 +10797,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治、石油與淡水是不同資源，有能源收入不等於有充足天然淡水。、季風亞洲、乾燥區、文化與宗教」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治、石油與淡水是不同資源，有能源收入不等於有充足天然淡水。、溫帶海洋性氣候成因、南歐地中海型氣候、工業區位與萊茵河流域」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】「中東/西亞居民全是阿拉伯人」是迷思；伊朗人主要是波斯人（講波斯語），土耳其人是突厥人後裔（講土耳其語），以色列人主要為猶太人（信仰猶太教）。",
       "defenseCheck": "【考場防呆】不要把整個區域都視為石油富國；必須查明各地資源與人口條件。"
     }
@@ -11031,19 +11031,19 @@ export const exegesisData = {
     },
     "definitions": [
       {
-        "term": "機會成本（國際貿易、比較利益法則與全球分工核心 1）",
-        "meaning": "放棄的選項中，價值最高者。對應本課核心觀念：國際貿易使各國能跨越國界交換資源與產品",
-        "condition": "實戰檢核與適用條件：不是把所有放棄選項的價值加總"
+        "term": "絕對利益判準（國際貿易、比較利益法則與全球分工核心 1）",
+        "meaning": "在相同時間或資源下，某國生產特定財貨的產量較大（或單位成本較低）。對應本課核心觀念：國際貿易使各國能跨越國界交換資源與產品",
+        "condition": "實戰檢核與適用條件：以單純生產力比較；但絕對利益不能決定兩國如何互利分工"
       },
       {
-        "term": "比較利益（國際貿易、比較利益法則與全球分工核心 2）",
-        "meaning": "機會成本較低者具有比較利益。對應本課核心觀念：李嘉圖提出「比較利益法則」：在機會成本較低的項目上取得比較利益，各國應專業化生產並出口具有比較利益（機會成本較低）的商品，再透過自由貿易交換其他商品，使各國的總消費量超越各自的生產可能線，創造雙贏貿易利得",
-        "condition": "實戰檢核與適用條件：即使一方兩種產品都做得快，仍可能有互利分工"
+        "term": "比較利益與機會成本（國際貿易、比較利益法則與全球分工核心 2）",
+        "meaning": "生產某產品時，放棄其他產品的代價（機會成本）相對較低者具比較利益。對應本課核心觀念：李嘉圖提出「比較利益法則」：在機會成本較低的項目上取得比較利益，各國應專業化生產並出口具有比較利益（機會成本較低）的商品，再透過自由貿易交換其他商品，使各國的總消費量超越各自的生產可能線，創造雙贏貿易利得",
+        "condition": "實戰檢核與適用條件：機會成本 = 放棄產量 / 獲得產量；機會成本低者專門生產該產品"
       },
       {
-        "term": "外部效果（國際貿易、比較利益法則與全球分工核心 3）",
-        "meaning": "交易影響未參與交易的第三者。對應本課核心觀念：但貿易亦可能衝擊國內受進口競爭的弱勢產業，需要配套輔導",
-        "condition": "實戰檢核與適用條件：污染成本若未反映在價格中，市場結果可能失衡"
+        "term": "專業分工與貿易互利（國際貿易、比較利益法則與全球分工核心 3）",
+        "meaning": "兩國各自出口具比較利益的產品，進口處於比較劣勢的產品。對應本課核心觀念：但貿易亦可能衝擊國內受進口競爭的弱勢產業，需要配套輔導",
+        "condition": "實戰檢核與適用條件：貿易條件介於兩國機會成本之間，雙方皆能消費超越生產可能線的更多資源"
       }
     ],
     "blackboard": {
@@ -11052,19 +11052,19 @@ export const exegesisData = {
         {
           "stepNumber": 1,
           "lead": "審題定位與條件拆解（甲做 1 雙鞋需放棄 10/5＝2 件衣；乙做 1 雙鞋需放棄 6/2＝3 件衣。）",
-          "mathExpression": "機會成本 ➔ 放棄的選項中，價值最高者",
+          "mathExpression": "絕對利益判準 ➔ 在相同時間或資源下，某國生產特定財貨的產量較大（或單位成本較低）",
           "explanation": "甲做 1 雙鞋需放棄 10/5＝2 件衣；乙做 1 雙鞋需放棄 6/2＝3 件衣。"
         },
         {
           "stepNumber": 2,
           "lead": "核心定理與關係式推演（國際貿易、比較利益法則與全球分工）",
-          "mathExpression": "比較利益 ➔ 機會成本較低者具有比較利益",
+          "mathExpression": "比較利益與機會成本 ➔ 生產某產品時，放棄其他產品的代價（機會成本）相對較低者具比較利益",
           "explanation": "甲做鞋機會成本較低，因此有做鞋的比較利益。"
         },
         {
           "stepNumber": 3,
           "lead": "邊界檢核與情境合理性驗算",
-          "mathExpression": "外部效果 ➔ 交易影響未參與交易的第三者",
+          "mathExpression": "專業分工與貿易互利 ➔ 兩國各自出口具比較利益的產品，進口處於比較劣勢的產品",
           "explanation": "乙做衣每件放棄 1/3 雙鞋，低於甲的 1/2，故乙在衣服有比較利益。"
         }
       ],
@@ -11077,7 +11077,7 @@ export const exegesisData = {
       },
       "level2": {
         "title": "標準建模與步驟推演",
-        "criteria": "能熟練運用「機會成本、比較利益」之規則完成「甲一天可做 10 件衣或 5 雙鞋，乙可做 6 件衣或 2 雙鞋，誰較有做鞋的比較利益？」三步推導，並獨立答對課堂驗收題。"
+        "criteria": "能熟練運用「絕對利益判準、比較利益與機會成本」之規則完成「甲一天可做 10 件衣或 5 雙鞋，乙可做 6 件衣或 2 雙鞋，誰較有做鞋的比較利益？」三步推導，並獨立答對課堂驗收題。"
       },
       "level3": {
         "title": "會考素養遷移與陷阱防禦",
@@ -11085,7 +11085,7 @@ export const exegesisData = {
       }
     },
     "examEye": {
-      "triggerClue": "當題幹出現「國際貿易、比較利益法則與全球分工、甲做 1 雙鞋需放棄 10/5＝2 件衣；乙做 1 雙鞋需放棄 6/2＝3 件衣。、機會成本、比較利益、外部效果」等關鍵條件或圖表特徵時立即啟動本課模型。",
+      "triggerClue": "當題幹出現「國際貿易、比較利益法則與全球分工、甲做 1 雙鞋需放棄 10/5＝2 件衣；乙做 1 雙鞋需放棄 6/2＝3 件衣。、絕對利益判準、比較利益與機會成本、專業分工與貿易互利」等關鍵條件或圖表特徵時立即啟動本課模型。",
       "pitfallTrap": "【高頻盲點】一個國家即使在所有產品的生產效率上都超越他國（具絕對利益），雙方依然能透過「比較利益（比誰的機會成本更低）」進行分工貿易，並從中共同獲益；貿易創造總體福利增加，但不代表國內每一個群體皆同等受惠。",
       "defenseCheck": "【考場防呆】這是簡化全投入二選一模型；真實貿易還有運輸、分配及轉業成本，不能由總利益推成人人受益。"
     }

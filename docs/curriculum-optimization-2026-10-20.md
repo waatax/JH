@@ -1,0 +1,95 @@
+# 課綱知識點優化、全單元圖示圖表與 7 輪 PDCA 迭代發布紀錄（2026-10-20）
+
+## 總覽與目標
+
+依照教育部 108 課綱各領域核心素養、學習內容與學習表現，全面升級知行學院 21 個學科、188 個教學頁面的知識點矩陣、直觀圖示（Icons）與知識圖表（Charts & Flowcharts）。
+
+本輪優化採行嚴謹的 **Check（檢查評估）➔ Corrective-Action（矯正措施）➔ Plan（規劃設計）➔ Do（實作落地）** 閉環機制，循序推進 7 輪迭代。
+
+---
+
+## 7 輪 PDCA 閉環迭代歷程
+
+### 第 1 輪（Round 1）：課綱全單元知識點深度專屬化（108 課綱領綱對齊）
+- **Check**：檢查 188 個教學單元的比較表與核心知識點，發現部分國文、英文、生物、理化、地科、地理、公民單元仍使用跨課共用的廣泛比較表，缺乏針對各課專屬概念的微觀判準。
+- **Corrective-Action**：全面為 27 個重點單元設計專屬的 108 課綱辨析矩陣：
+  - **國文**：chinese-3（文言虛字與特殊句型判讀）、chinese-5（論說文結構與論證方法辨析）、chinese-11（古典小說章回情節與人物塑造）、chinese-13（先秦諸子寓言與哲學思辨）。
+  - **英語**：english-1（五大句型骨架與現在簡單式）、english-3（過去簡單式與未來時間表達）、english-9（過去進行式、when/while 與數量詞）、english-11（使役動詞、授予動詞與完成式時間軸）。
+  - **生物**：biology-9（呼吸運動、氣體交換與泌尿排泄恆定）、biology-10（細胞分裂、減數分裂與生殖對照）、biology-11（孟德爾遺傳、棋盤方格與性別決定）、biology-14（人體消化系統與酵素專一性作用）。
+  - **理化**：chemistry-9（電解質、阿瑞尼斯解離與離子平衡）、chemistry-10（酸鹼中和、指示劑與常見鹽類）、chemistry-11（烴類燃料、官能基與常見有機物）。
+  - **地科**：earth-7（地層疊置、化石層序與地史判讀）、earth-8（板塊構造邊界類型與臺灣造山運動）、earth-11（地震波特性、震度分級與防震防災）。
+  - **公民**：civics-4（憲法基本權利保障與正當法律程序）、civics-7（少年事件處理法與兒少司法保護）、civics-8（民法、刑法與行政法三大法律責任）、civics-9（市場機能、外部效果與公共財）、civics-12（絕對利益、比較利益與貿易利得）。
+  - **地理**：geography-4（季風亞洲：風向轉換、水稻文化與人口分布）、geography-5（乾燥氣候、水資源競奪與石油地緣政治）、geography-9（非洲自然帶對稱分布與單一經濟轉型）、geography-12（歐洲氣候優勢、工業心臟與歐盟整合）。
+- **Plan**：將新增的 27 組專屬比較表寫入 `dist/teaching.js`，並透過 `scripts/generate_exegesis.mjs` 自動重新生成 188 課專屬黑板板書與概念定義。
+- **Do**：成功生成 100% 專屬對照矩陣，全站有效教學字元由 118,267 增至 206,995（成長率 75.02%）。
+
+---
+
+### 第 2 輪（Round 2）：教學頁面知識點直觀圖示與視覺卡片（Visual Icons & Chips）
+- **Check**：原教學單元頁面之「逐點學習與比較表」為純文字條列，缺乏直觀視覺指引與資訊層級。
+- **Corrective-Action**：設計語意化知識點標籤與動態分類圖示（🎯 核心概念、🛡️ 易錯防線、📐 數學計算、🔬 實驗觀察、⚖️ 法制制度、📜 歷史文獻、🌍 地理環境、✍️ 語文閱讀、📌 關鍵要點）。
+- **Plan**：重構 `renderTeaching(u)`，注入 `<div class="teaching-notes-header">`、`knowledge-chips-row` 視覺維度晶片導航、`knowledge-point-tag` 序號膠囊標籤，以及核心判準（`row-highlight-core`）與易錯防線（`row-highlight-defense`）特色高亮底紋。
+- **Do**：完成 `dist/teaching.js` 改造，使學生一眼即可辨認「概念核心」與「避坑防線」。
+
+---
+
+### 第 3 輪（Round 3）：量化長條圖與思維推演流程圖視覺升級（Process & Bar Charts）
+- **Check**：各單元深化模組的流程圖與量化圖表（`renderQuantitativeChart`）排版較平淡，缺乏步驟序號膠囊與物理量尺圖卡。
+- **Corrective-Action**：
+  - 推理流程圖（Process Flowchart）：新增圖表徽章標籤 `🔄 概念推演流程圖`、圓形序號膠囊（`step-num-pill`）、步驟方塊卡片與研讀核對摘要盒。
+  - 學科量化圖表（Quantitative Bar Chart）：新增圖表徽章 `📊 學科量化指標圖`、量尺單位卡片（`chart-metric-pill`）、對比漸層軌道條與科學限制詮釋盒。
+- **Plan**：改寫 `dist/lesson-deepening.js` 之 `renderQuantitativeChart`，保證向下相容 `deepening.test.mjs` 中的所有 DOM 語意斷言。
+- **Do**：成功套用至全站 188 課，使 46 組物理/幾何數量示例與 142 組思維推演流程圖呈現專業視覺品質。
+
+---
+
+### 第 4 輪（Round 4）：費曼逐點自評與本科跨單元核心挑戰（Active Recall & Challenges）
+- **Check**：檢查 `knowledge-practice.js`（逐點自評）與 `subject-challenges.js`（跨單元挑戰），缺乏視覺卡片排版、學科圖示與狀態圖示。
+- **Corrective-Action**：
+  - 為 21 個學科配置專屬圖示（如 📐 數學、📜 國文、🔤 英語、🧬 生物、⚡ 物理、⚗️ 化學、🌍 地科、🏛️ 歷史、🗺️ 地理、⚖️ 公民等）。
+  - 為逐點自評卡片配置序號膠囊（`point-index-pill`）、主動回想引導區、提示展開摺疊、核對核心定義與自評狀態選單（🌱 尚未自評、🔄 需再複習、✅ 能說明）。
+- **Plan**：優化 `dist/knowledge-practice.js` 與 `dist/subject-challenges.js` 標記結構，並在 `dist/style.css` 補齊完整卡片陰影、圓角與微互動過渡。
+- **Do**：實裝並通過本地互動測試，自評狀態自動儲存於瀏覽器 `localStorage`。
+
+---
+
+### 第 5 輪（Round 5）：PWA 離線快取同步與 Service Worker 資產清單更新
+- **Check**：檢查 `dist/sw.js` 靜態資產清單，發現新增之 `knowledge-practice.js` 與 `subject-challenges.js` 尚未納入 `STATIC_ASSETS`，快取版本仍停留在 `v13`。
+- **Corrective-Action**：將兩組模組加入 Service Worker 快取清單，並將快取命名空間升級為 `zhixing-cache-v14`。
+- **Plan**：更新 `dist/sw.js`，同步更新 `scripts/learning-guide.test.mjs` 中對離線快取版本與模組清單的斷言。
+- **Do**：`sw.js` 與單元測試同步修訂，PWA 離線完整性測試 100% 通過。
+
+---
+
+### 第 6 輪（Round 6）：多主題模式適配、無障礙與行動端響應式排版
+- **Check**：檢驗新增視覺元件在「極光深色（Dark）」與「暖柔米紙（Paper）」主題下的色彩對比度，以及在手機窄螢幕（<700px）下的排版。
+- **Corrective-Action**：
+  - 於 `dist/style.css` 新增主題覆寫規則（`[data-theme="dark"]` 與 `[data-theme="paper"]`），針對卡片邊框、背景色、高亮色與字級進行調校。
+  - 新增 `@media(max-width:700px)` 響應式規則，使自評卡片、挑戰卡片與知識晶片在行動端流暢垂直排列，下拉選單維持全寬度點擊友善。
+- **Plan**：確保所有文字與背景對比度均符合可讀性要求，表單控制項具備清楚的 focus-visible 外框。
+- **Do**：CSS 規則完整注入，無任何 horizontal overflow 或版面錯位。
+
+---
+
+### 第 7 輪（Round 7）：全自動化回歸構建、系統健康審計與 GitHub Pages 發布
+- **Check**：執行 `npm test`（57 項單元測試）、`npm run build`、`node scripts/test_all_pages.mjs` 與 `node scripts/audit-system-health.mjs`（20 項系統健康審計）。
+- **Corrective-Action**：確認無任何 ESM 載入錯誤、無未宣告變數、所有單元 ID 與題目對應 100% 完整。
+- **Plan**：提交 Git commit，推送至遠端 `origin/main`，觸發 GitHub Actions 自動發布至 GitHub Pages。
+- **Do**：推送成功，GitHub Pages 網站更新完成！
+
+---
+
+## 成果指標統計
+
+| 指標項目 | 優化前 | 優化後 | 說明 |
+| :--- | :--- | :--- | :--- |
+| **教學有效字元數** | 118,267 字 | **206,995 字** | 淨增 88,728 字，成長率達 **75.02%** |
+| **全站單元總數** | 188 課 | **188 課** | 涵蓋國中 21 個學科，100% 全覆蓋 |
+| **專屬 108 課綱知識點矩陣** | 部分共用 | **188 課專屬對照** | 補齊國英社自等 27 組微觀辨析矩陣 |
+| **視覺圖解 SVG** | 188 幅 | **188 幅** | 100% 向量結構圖解 |
+| **學科知識圖表** | 188 組 | **188 組** | 46 組量化示例＋142 組推演流程圖 |
+| **逐點自評費曼練習卡** | 基礎條列 | **視覺卡片化** | 支援即時自評、提示展開與本機儲存 |
+| **跨單元核心素養挑戰** | 基礎文字 | **21 學科專屬卡片** | 包含真實情境、導引提示、核對限制與遷移思辨 |
+| **PWA 快取版本** | zhixing-cache-v13 | **zhixing-cache-v14** | 完整包含所有離線教學模組與挑戰題庫 |
+| **自動化單元測試通過** | 57 / 57 | **57 / 57 (100%)** | 0 失敗、0 跳過 |
+| **系統健康品質審計** | 20 / 20 | **20 / 20 (100%)** | 188 單元與 1,674 題會考題庫無一異常 |

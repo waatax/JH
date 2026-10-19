@@ -19,9 +19,9 @@ export function renderOfficialAlignment(u){
 export const chartData = deepeningCharts;
 function renderQuantitativeChart(id){
  const c=chartData[id];if(!c)return '';
- if(c.kind==='process')return `<figure class="knowledge-process-chart"><figcaption>${esc(c.caption)}</figcaption><ol class="knowledge-process-steps">${c.steps.map(step=>`<li>${esc(step)}</li>`).join('')}</ol><p><strong>核對：</strong>${esc(c.note)}</p></figure>`;
+ if(c.kind==='process')return `<figure class="knowledge-process-chart"><figcaption><span class="chart-badge">🔄 概念推演流程圖</span> ${esc(c.caption)}</figcaption><ol class="knowledge-process-steps">${c.steps.map((step,idx)=>`<li data-step="${idx+1}"><span class="step-num-pill">${idx+1}</span><div class="step-content">${esc(step)}</div></li>`).join('')}</ol><div class="chart-note-box"><span class="note-icon" aria-hidden="true">💡</span><div class="note-content"><strong>研讀核對：</strong>${esc(c.note)}</div></div></figure>`;
  const max=Math.max(...c.rows.map(r=>r[1]));
- return `<figure class="knowledge-bar-chart"><figcaption>${esc(c.caption)}</figcaption><p class="subtle">量尺：${esc(c.unit)}</p><ul>${c.rows.map(([label,value])=>`<li><span>${esc(label)}</span><span class="knowledge-bar-track" aria-hidden="true"><span style="width:${value/max*100}%"></span></span><strong>${value}</strong></li>`).join('')}</ul><p>${esc(c.note)}</p></figure>`;
+ return `<figure class="knowledge-bar-chart"><figcaption><span class="chart-badge">📊 學科量化指標圖</span> ${esc(c.caption)}</figcaption><div class="chart-metric-row"><span class="chart-metric-pill">📏 物理／計量單位：<strong>${esc(c.unit)}</strong></span></div><ul>${c.rows.map(([label,value],idx)=>`<li><span class="bar-label"><span class="bar-idx">${idx+1}</span>${esc(label)}</span><span class="knowledge-bar-track" aria-hidden="true"><span style="width:${max>0?Math.min(100,Math.max(4,value/max*100)):0}%"></span></span><strong class="bar-value">${value} <small>${esc(c.unit)}</small></strong></li>`).join('')}</ul><div class="chart-note-box"><span class="note-icon" aria-hidden="true">🔍</span><div class="note-content"><strong>限制與詮釋：</strong>${esc(c.note)}</div></div></figure>`;
 }
 export function renderLessonDeepening(u){
  const d=lessonDeepening[u.id];

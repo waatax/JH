@@ -5148,3 +5148,98 @@ summary {
 [data-theme="paper"] .knowledge-bar-track>span{background:#7a6548}
 [data-theme="paper"] .curriculum-codes a{border-color:#cfc5b4;background:#f5f0e6;color:#5c4731}
 
+/* Teaching notes visual enhancements */
+.teaching-notes-header { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1rem; }
+.teaching-notes-title-wrap { display: flex; flex-direction: column; gap: 0.25rem; }
+.teaching-badge { display: inline-flex; align-items: center; width: fit-content; font-size: 0.78rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 999px; background: rgba(71,124,104,0.15); color: #356250; }
+.knowledge-chips-row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.25rem; }
+.knowledge-chip { display: inline-flex; align-items: center; font-size: 0.8rem; font-weight: 600; padding: 0.25rem 0.55rem; border-radius: 6px; background: var(--surface-alt); border: 1px solid var(--border); color: var(--text); }
+.knowledge-point-tag { display: inline-block; font-size: 0.76rem; font-weight: 700; margin-right: 0.5rem; padding: 0.15rem 0.45rem; border-radius: 4px; background: rgba(71,124,104,0.12); color: #356250; }
+.row-icon { margin-right: 0.35rem; }
+.row-highlight-core { background: rgba(53,98,80,0.06); font-weight: 600; }
+.row-highlight-defense { background: rgba(196,130,26,0.08); }
+
+/* Chart badges & metric styling */
+.chart-badge { display: inline-block; font-size: 0.82rem; font-weight: 700; padding: 0.2rem 0.5rem; border-radius: 6px; background: rgba(71,124,104,0.15); color: #356250; margin-right: 0.4rem; }
+.chart-metric-row { margin: 0.4rem 0 0.8rem; }
+.chart-metric-pill { display: inline-block; font-size: 0.82rem; padding: 0.25rem 0.6rem; border-radius: 6px; background: var(--surface-alt); border: 1px solid var(--border); }
+.chart-note-box { display: flex; gap: 0.6rem; margin-top: 0.8rem; padding: 0.75rem 1rem; border-radius: 8px; background: rgba(71,124,104,0.08); border-left: 4px solid #477c68; }
+.chart-note-box .note-icon { font-size: 1.2rem; flex-shrink: 0; }
+.step-num-pill { display: inline-grid; place-items: center; width: 1.5rem; height: 1.5rem; border-radius: 50%; background: #477c68; color: #fff; font-size: 0.8rem; font-weight: 700; margin-right: 0.5rem; }
+.bar-idx { display: inline-block; width: 1.2rem; font-size: 0.78rem; color: var(--muted); }
+.bar-label { font-weight: 600; }
+.bar-value { font-weight: 700; color: #356250; }
+
+/* Subject Cross-Unit Challenge styling */
+.subject-challenge { margin: 1.5rem 0; padding: 1rem 1.25rem; border: 2px solid #5b8c78; border-radius: 14px; background: var(--surface); box-shadow: 0 4px 12px rgba(0,0,0,0.03); }
+.subject-challenge summary { font-size: 1.05rem; font-weight: 750; cursor: pointer; color: #2e5948; }
+.challenge-body { margin-top: 1rem; display: flex; flex-direction: column; gap: 0.75rem; }
+.badge-mini { display: inline-block; font-size: 0.72rem; font-weight: 700; padding: 0.15rem 0.45rem; border-radius: 4px; background: #e0eee7; color: #2e5948; margin-right: 0.4rem; }
+.challenge-scenario-card { padding: 0.85rem 1rem; border-radius: 8px; background: var(--surface-alt); border-left: 4px solid #5b8c78; line-height: 1.7; }
+.challenge-question { margin: 0.5rem 0 0.25rem; font-size: 1rem; font-weight: 700; color: #1e3f33; }
+.challenge-steps-detail, .challenge-answer-detail { padding: 0.6rem 0.85rem; border-radius: 8px; background: var(--surface-alt); border: 1px solid var(--border); }
+.challenge-steps-detail summary, .challenge-answer-detail summary { font-weight: 700; cursor: pointer; }
+.challenge-steps-list { margin: 0.5rem 0 0.25rem 1.2rem; line-height: 1.7; }
+.challenge-answer-box { margin-top: 0.5rem; padding: 0.75rem; border-radius: 6px; background: rgba(71,124,104,0.08); line-height: 1.7; }
+.challenge-transfer-box { padding: 0.85rem 1rem; border-radius: 8px; background: rgba(196,130,26,0.08); border-left: 4px solid #c4821a; }
+.transfer-badge { display: inline-block; font-size: 0.76rem; font-weight: 700; color: #9b6728; margin-bottom: 0.25rem; }
+
+/* Point-by-point Active Recall Practice */
+.point-practice { margin: 2rem 0; padding: clamp(1rem,3vw,1.8rem); border: 2px solid #55816f; border-radius: 16px; background: var(--surface); box-shadow: 0 4px 16px rgba(0,0,0,0.04); }
+.point-practice-header { display: flex; flex-direction: column; gap: 0.25rem; margin-bottom: 0.5rem; }
+.point-practice-badge { display: inline-block; width: fit-content; font-size: 0.78rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 999px; background: rgba(85,129,111,0.18); color: #2e5948; }
+.point-practice-desc { color: var(--muted); margin-bottom: 0.75rem; }
+.point-summary-card { display: flex; align-items: center; gap: 0.6rem; padding: 0.75rem 1rem; border-radius: 8px; background: rgba(85,129,111,0.1); border: 1px solid rgba(85,129,111,0.25); font-weight: 600; margin-bottom: 1rem; }
+.point-summary-card p { margin: 0; }
+.point-filter { display: inline-flex; align-items: center; gap: 0.5rem; font-weight: 600; cursor: pointer; margin-bottom: 1rem; }
+.point-cards { list-style: none; padding: 0; display: grid; gap: 1rem; }
+.point-cards li { padding: 1rem 1.25rem; border-radius: 12px; border: 1px solid var(--border); background: var(--surface-alt); display: flex; flex-direction: column; gap: 0.6rem; transition: box-shadow 0.2s; }
+.point-cards li:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+.point-card-header { display: flex; align-items: center; gap: 0.5rem; }
+.point-index-pill { display: inline-grid; place-items: center; padding: 0.15rem 0.5rem; border-radius: 6px; background: #55816f; color: #fff; font-size: 0.78rem; font-weight: 700; }
+.point-card-header h4 { margin: 0; font-size: 1.05rem; }
+.point-recall-prompt { padding: 0.65rem 0.85rem; border-radius: 8px; background: rgba(85,129,111,0.06); border-left: 3px solid #55816f; line-height: 1.6; }
+.point-hint-detail, .point-check-detail { padding: 0.5rem 0.75rem; border-radius: 8px; background: var(--surface); border: 1px solid var(--border); }
+.point-hint-detail summary, .point-check-detail summary { font-weight: 650; cursor: pointer; }
+.hint-body, .check-body { margin-top: 0.5rem; line-height: 1.7; }
+.redo-tip { margin-top: 0.4rem; padding: 0.4rem 0.6rem; border-radius: 6px; background: rgba(196,130,26,0.1); color: #845314; }
+.point-status-row { display: flex; align-items: center; justify-content: flex-end; margin-top: 0.25rem; }
+.point-status-row select { padding: 0.4rem 0.8rem; border-radius: 8px; border: 1px solid #55816f; background: var(--surface); font-weight: 600; cursor: pointer; }
+
+/* Dark mode overrides */
+[data-theme="dark"] .teaching-badge { background: rgba(91,162,131,0.25); color: #9ecab3; }
+[data-theme="dark"] .knowledge-chip { background: #1c2a25; border-color: #384e45; color: #d0e4da; }
+[data-theme="dark"] .knowledge-point-tag { background: rgba(91,162,131,0.2); color: #9ecab3; }
+[data-theme="dark"] .row-highlight-core { background: rgba(91,162,131,0.12); }
+[data-theme="dark"] .row-highlight-defense { background: rgba(196,130,26,0.15); }
+[data-theme="dark"] .chart-badge { background: rgba(91,162,131,0.25); color: #9ecab3; }
+[data-theme="dark"] .chart-note-box { background: rgba(91,162,131,0.12); border-left-color: #5ba283; }
+[data-theme="dark"] .subject-challenge { border-color: #3d6855; background: #18231f; }
+[data-theme="dark"] .subject-challenge summary { color: #8fc7ad; }
+[data-theme="dark"] .challenge-scenario-card { background: #1c2a25; border-left-color: #5ba283; }
+[data-theme="dark"] .challenge-question { color: #d2ebe0; }
+[data-theme="dark"] .challenge-steps-detail, [data-theme="dark"] .challenge-answer-detail { background: #1c2a25; border-color: #384e45; }
+[data-theme="dark"] .point-practice { border-color: #3d6855; background: #18231f; }
+[data-theme="dark"] .point-practice-badge { background: rgba(91,162,131,0.25); color: #9ecab3; }
+[data-theme="dark"] .point-summary-card { background: rgba(91,162,131,0.15); border-color: #3d6855; }
+[data-theme="dark"] .point-cards li { background: #1c2a25; border-color: #384e45; }
+[data-theme="dark"] .point-recall-prompt { background: rgba(91,162,131,0.1); border-left-color: #5ba283; }
+[data-theme="dark"] .point-hint-detail, [data-theme="dark"] .point-check-detail { background: #18231f; border-color: #384e45; }
+[data-theme="dark"] .point-status-row select { background: #18231f; border-color: #5ba283; color: #d0e4da; }
+
+/* Paper mode overrides */
+[data-theme="paper"] .subject-challenge { border-color: #9c8a74; background: #faf6ee; }
+[data-theme="paper"] .point-practice { border-color: #9c8a74; background: #faf6ee; }
+[data-theme="paper"] .point-cards li { background: #f4eee2; border-color: #d6ccbe; }
+
+@media(max-width:700px){
+  .point-cards { grid-template-columns: 1fr; }
+  .point-status-row { justify-content: stretch; }
+  .point-status-row select { width: 100%; }
+  .teaching-notes { padding: 0.85rem; }
+  .subject-challenge { padding: 0.85rem; }
+  .knowledge-chips-row { gap: 0.25rem; }
+}
+
+
+

@@ -2,9 +2,9 @@
   "baselineCommit": "c54dc06",
   "method": "non-whitespace characters in authored lesson fields, comparison cells and lesson question fields; excludes markup and shared UI",
   "baselineCharacters": 118267,
-  "afterCharacters": 203628,
-  "addedCharacters": 85361,
-  "growthPercent": 72.18,
+  "afterCharacters": 206995,
+  "addedCharacters": 88728,
+  "growthPercent": 75.02,
   "minimumUnitGrowthPercent": 44.62,
   "unitsWithAddedTeaching": 188,
   "newWorkedExamples": 188,
@@ -183,9 +183,9 @@
       "id": "chinese-3",
       "title": "文言文的省略與虛字",
       "before": 416,
-      "after": 788,
-      "added": 372,
-      "growthPercent": 89.42
+      "after": 854,
+      "added": 438,
+      "growthPercent": 105.29
     },
     {
       "id": "chinese-4",
@@ -199,9 +199,9 @@
       "id": "chinese-5",
       "title": "議論、論據與批判閱讀",
       "before": 419,
-      "after": 789,
-      "added": 370,
-      "growthPercent": 88.31
+      "after": 870,
+      "added": 451,
+      "growthPercent": 107.64
     },
     {
       "id": "chinese-6",
@@ -215,25 +215,25 @@
       "id": "english-1",
       "title": "句子骨架與現在式",
       "before": 616,
-      "after": 1248,
-      "added": 632,
-      "growthPercent": 102.6
+      "after": 1312,
+      "added": 696,
+      "growthPercent": 112.99
     },
     {
       "id": "english-2",
       "title": "現在進行式與時間表達",
       "before": 651,
-      "after": 1272,
-      "added": 621,
-      "growthPercent": 95.39
+      "after": 1211,
+      "added": 560,
+      "growthPercent": 86.02
     },
     {
       "id": "english-3",
       "title": "過去式、未來與敘事順序",
       "before": 667,
-      "after": 1338,
-      "added": 671,
-      "growthPercent": 100.6
+      "after": 1404,
+      "added": 737,
+      "growthPercent": 110.49
     },
     {
       "id": "english-4",
@@ -247,9 +247,9 @@
       "id": "english-5",
       "title": "完成式、被動與關係子句",
       "before": 654,
-      "after": 1314,
-      "added": 660,
-      "growthPercent": 100.92
+      "after": 1302,
+      "added": 648,
+      "growthPercent": 99.08
     },
     {
       "id": "english-6",
@@ -303,9 +303,9 @@
       "id": "chinese-11",
       "title": "古典小說選讀與人性刻畫",
       "before": 664,
-      "after": 1110,
-      "added": 446,
-      "growthPercent": 67.17
+      "after": 1185,
+      "added": 521,
+      "growthPercent": 78.46
     },
     {
       "id": "chinese-12",
@@ -335,9 +335,9 @@
       "id": "english-9",
       "title": "過去進行式、時間連接詞與數量詞",
       "before": 1721,
-      "after": 2846,
-      "added": 1125,
-      "growthPercent": 65.37
+      "after": 2930,
+      "added": 1209,
+      "growthPercent": 70.25
     },
     {
       "id": "english-10",
@@ -351,9 +351,9 @@
       "id": "english-11",
       "title": "授予動詞、使役動詞與現在完成式進階",
       "before": 1865,
-      "after": 3049,
-      "added": 1184,
-      "growthPercent": 63.49
+      "after": 3172,
+      "added": 1307,
+      "growthPercent": 70.08
     },
     {
       "id": "english-12",
@@ -367,9 +367,9 @@
       "id": "math-21",
       "title": "連比與比例式的應用",
       "before": 648,
-      "after": 1131,
-      "added": 483,
-      "growthPercent": 74.54
+      "after": 1231,
+      "added": 583,
+      "growthPercent": 89.97
     },
     {
       "id": "math-22",
@@ -423,9 +423,9 @@
       "id": "chinese-13",
       "title": "先秦諸子寓言與哲理散文",
       "before": 728,
-      "after": 1198,
-      "added": 470,
-      "growthPercent": 64.56
+      "after": 1262,
+      "added": 534,
+      "growthPercent": 73.35
     },
     {
       "id": "chinese-14",
@@ -607,9 +607,9 @@
       "id": "chemistry-3",
       "title": "反應式與質量守恆",
       "before": 405,
-      "after": 750,
-      "added": 345,
-      "growthPercent": 85.19
+      "after": 799,
+      "added": 394,
+      "growthPercent": 97.28
     },
     {
       "id": "chemistry-4",
@@ -663,9 +663,9 @@
       "id": "earth-4",
       "title": "地球運動、四季與月相",
       "before": 478,
-      "after": 850,
-      "added": 372,
-      "growthPercent": 77.82
+      "after": 892,
+      "added": 414,
+      "growthPercent": 86.61
     },
     {
       "id": "earth-5",
@@ -695,33 +695,33 @@
       "id": "biology-8",
       "title": "植物的體內運輸與水分恆定",
       "before": 645,
-      "after": 1067,
-      "added": 422,
-      "growthPercent": 65.43
+      "after": 1116,
+      "added": 471,
+      "growthPercent": 73.02
     },
     {
       "id": "biology-9",
       "title": "動物呼吸系統與排泄泌尿作用",
       "before": 802,
-      "after": 1277,
-      "added": 475,
-      "growthPercent": 59.23
+      "after": 1363,
+      "added": 561,
+      "growthPercent": 69.95
     },
     {
       "id": "biology-10",
       "title": "細胞分裂、減數分裂與生殖",
       "before": 865,
-      "after": 1340,
-      "added": 475,
-      "growthPercent": 54.91
+      "after": 1451,
+      "added": 586,
+      "growthPercent": 67.75
     },
     {
       "id": "biology-11",
       "title": "孟德爾遺傳法則與性別性聯遺傳",
       "before": 755,
-      "after": 1231,
-      "added": 476,
-      "growthPercent": 63.05
+      "after": 1347,
+      "added": 592,
+      "growthPercent": 78.41
     },
     {
       "id": "biology-12",
@@ -767,17 +767,17 @@
       "id": "physics-12",
       "title": "電流的磁效應與電磁鐵",
       "before": 636,
-      "after": 1037,
-      "added": 401,
-      "growthPercent": 63.05
+      "after": 1060,
+      "added": 424,
+      "growthPercent": 66.67
     },
     {
       "id": "physics-13",
       "title": "電磁感應與發電機",
       "before": 725,
-      "after": 1157,
-      "added": 432,
-      "growthPercent": 59.59
+      "after": 1197,
+      "added": 472,
+      "growthPercent": 65.1
     },
     {
       "id": "chemistry-7",
@@ -799,25 +799,25 @@
       "id": "chemistry-9",
       "title": "電解質與阿瑞尼斯解離說",
       "before": 870,
-      "after": 1384,
-      "added": 514,
-      "growthPercent": 59.08
+      "after": 1511,
+      "added": 641,
+      "growthPercent": 73.68
     },
     {
       "id": "chemistry-10",
       "title": "酸鹼滴定與常見生活鹽類",
       "before": 763,
-      "after": 1210,
-      "added": 447,
-      "growthPercent": 58.58
+      "after": 1377,
+      "added": 614,
+      "growthPercent": 80.47
     },
     {
       "id": "chemistry-11",
       "title": "常見有機化合物與石化燃料",
       "before": 744,
-      "after": 1208,
-      "added": 464,
-      "growthPercent": 62.37
+      "after": 1346,
+      "added": 602,
+      "growthPercent": 80.91
     },
     {
       "id": "chemistry-12",
@@ -831,17 +831,17 @@
       "id": "earth-7",
       "title": "地層順序與地質歷史判讀",
       "before": 720,
-      "after": 1163,
-      "added": 443,
-      "growthPercent": 61.53
+      "after": 1292,
+      "added": 572,
+      "growthPercent": 79.44
     },
     {
       "id": "earth-8",
       "title": "板塊構造學說與臺灣造山運動",
       "before": 766,
-      "after": 1226,
-      "added": 460,
-      "growthPercent": 60.05
+      "after": 1384,
+      "added": 618,
+      "growthPercent": 80.68
     },
     {
       "id": "earth-9",
@@ -871,9 +871,9 @@
       "id": "biology-14",
       "title": "人體消化器官與各類消化酵素專一性作用",
       "before": 760,
-      "after": 1222,
-      "added": 462,
-      "growthPercent": 60.79
+      "after": 1346,
+      "added": 586,
+      "growthPercent": 77.11
     },
     {
       "id": "physics-14",
@@ -911,9 +911,9 @@
       "id": "earth-11",
       "title": "地震波傳播特性與臺灣活動斷層防震防災",
       "before": 791,
-      "after": 1260,
-      "added": 469,
-      "growthPercent": 59.29
+      "after": 1437,
+      "added": 646,
+      "growthPercent": 81.67
     },
     {
       "id": "earth-12",
@@ -927,9 +927,9 @@
       "id": "history-1",
       "title": "史料判讀與早期臺灣",
       "before": 478,
-      "after": 945,
-      "added": 467,
-      "growthPercent": 97.7
+      "after": 942,
+      "added": 464,
+      "growthPercent": 97.07
     },
     {
       "id": "history-2",
@@ -991,9 +991,9 @@
       "id": "geography-1",
       "title": "地圖、比例尺與經緯度",
       "before": 387,
-      "after": 759,
-      "added": 372,
-      "growthPercent": 96.12
+      "after": 770,
+      "added": 383,
+      "growthPercent": 98.97
     },
     {
       "id": "geography-2",
@@ -1015,17 +1015,17 @@
       "id": "geography-4",
       "title": "東亞與區域差異",
       "before": 446,
-      "after": 790,
-      "added": 344,
-      "growthPercent": 77.13
+      "after": 878,
+      "added": 432,
+      "growthPercent": 96.86
     },
     {
       "id": "geography-5",
       "title": "亞洲、非洲與文化地景",
       "before": 448,
-      "after": 792,
-      "added": 344,
-      "growthPercent": 76.79
+      "after": 907,
+      "added": 459,
+      "growthPercent": 102.46
     },
     {
       "id": "geography-6",
@@ -1071,9 +1071,9 @@
       "id": "civics-4",
       "title": "人權、法治與正當程序",
       "before": 474,
-      "after": 846,
-      "added": 372,
-      "growthPercent": 78.48
+      "after": 966,
+      "added": 492,
+      "growthPercent": 103.8
     },
     {
       "id": "civics-5",
@@ -1095,25 +1095,25 @@
       "id": "history-9",
       "title": "臺灣南島語族與多元原住民族文化",
       "before": 719,
-      "after": 1250,
-      "added": 531,
-      "growthPercent": 73.85
+      "after": 1261,
+      "added": 542,
+      "growthPercent": 75.38
     },
     {
       "id": "history-10",
       "title": "中國古代國家形成與封建帝制",
       "before": 771,
-      "after": 1326,
-      "added": 555,
-      "growthPercent": 71.98
+      "after": 1325,
+      "added": 554,
+      "growthPercent": 71.85
     },
     {
       "id": "history-11",
       "title": "明清社會變遷與西力東漸",
       "before": 819,
-      "after": 1381,
-      "added": 562,
-      "growthPercent": 68.62
+      "after": 1389,
+      "added": 570,
+      "growthPercent": 69.6
     },
     {
       "id": "history-12",
@@ -1127,17 +1127,17 @@
       "id": "geography-8",
       "title": "等高線地形圖判讀與臺灣水文環境",
       "before": 829,
-      "after": 1307,
-      "added": 478,
-      "growthPercent": 57.66
+      "after": 1318,
+      "added": 489,
+      "growthPercent": 58.99
     },
     {
       "id": "geography-9",
       "title": "季風亞洲與世界文明搖籃",
       "before": 804,
-      "after": 1290,
-      "added": 486,
-      "growthPercent": 60.45
+      "after": 1440,
+      "added": 636,
+      "growthPercent": 79.1
     },
     {
       "id": "geography-10",
@@ -1151,33 +1151,33 @@
       "id": "civics-7",
       "title": "少年法律保護與權益維護",
       "before": 795,
-      "after": 1270,
-      "added": 475,
-      "growthPercent": 59.75
+      "after": 1402,
+      "added": 607,
+      "growthPercent": 76.35
     },
     {
       "id": "civics-8",
       "title": "現代法治體系：民法、刑法與行政法",
       "before": 902,
-      "after": 1398,
-      "added": 496,
-      "growthPercent": 54.99
+      "after": 1526,
+      "added": 624,
+      "growthPercent": 69.18
     },
     {
       "id": "civics-9",
       "title": "市場競爭、外部效果與政府管制",
       "before": 782,
-      "after": 1238,
-      "added": 456,
-      "growthPercent": 58.31
+      "after": 1361,
+      "added": 579,
+      "growthPercent": 74.04
     },
     {
       "id": "history-13",
       "title": "清領開港通商與臺灣近代化建設",
       "before": 844,
-      "after": 1410,
-      "added": 566,
-      "growthPercent": 67.06
+      "after": 1419,
+      "added": 575,
+      "growthPercent": 68.13
     },
     {
       "id": "history-14",
@@ -1207,9 +1207,9 @@
       "id": "geography-12",
       "title": "西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治",
       "before": 896,
-      "after": 1406,
-      "added": 510,
-      "growthPercent": 56.92
+      "after": 1560,
+      "added": 664,
+      "growthPercent": 74.11
     },
     {
       "id": "geography-13",
@@ -1239,9 +1239,9 @@
       "id": "civics-12",
       "title": "國際貿易、比較利益法則與全球分工",
       "before": 918,
-      "after": 1426,
-      "added": 508,
-      "growthPercent": 55.34
+      "after": 1551,
+      "added": 633,
+      "growthPercent": 68.95
     },
     {
       "id": "visual-1",

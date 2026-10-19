@@ -1,4 +1,6 @@
 import {renderLearningGuide, learningGuideFor} from './learning-guide.js';
+import {handlePointReviewChange} from './knowledge-practice.js';
+document.addEventListener('change',event=>handlePointReviewChange(event,document));
 
 let pomoTimer=null,pomoSeconds=25*60,pomoRunning=false,pomoMode='focus';
 function updatePomoDisplay(){
