@@ -570,17 +570,87 @@ function wireKpInteractions(root = document) {
       }
     };
   });
+
+  // Cognitive Stepper Navigation Scroll
+  root.querySelectorAll('.kp-step-chip').forEach(chip => {
+    chip.onclick = () => {
+      const targetId = chip.dataset.stepTarget;
+      const targetEl = document.getElementById(targetId);
+      if (targetEl) {
+        targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        targetEl.classList.add('highlight-pulse');
+        setTimeout(() => targetEl.classList.remove('highlight-pulse'), 1500);
+      }
+    };
+  });
+
+  // Active Recall Blindfold Toggle
+  root.querySelectorAll('.kp-blindfold-btn').forEach(btn => {
+    btn.onclick = () => {
+      const card = btn.closest('.kp-card');
+      if (!card) return;
+      const isBlind = card.classList.toggle('blindfolded');
+      btn.classList.toggle('active', isBlind);
+      btn.textContent = isBlind ? '👁️ 揭曉答案' : '🙈 遮蔽回想';
+      if (isBlind) {
+        toast('🙈 已遮蔽核心機轉與公式，請嘗試在心中回想後再揭曉！');
+      } else {
+        toast('👁️ 答案已揭曉！請比對自己剛才的思維步驟是否精準！');
+      }
+    };
+  });
+
+  // Copy Knowledge Card as Markdown Note
+  root.querySelectorAll('.kp-copy-card-btn').forEach(btn => {
+    btn.onclick = () => {
+      const card = btn.closest('.kp-card');
+      if (!card) return;
+      const title = card.querySelector('.kp-title')?.textContent?.trim() || '';
+      const core = card.querySelector('.kp-core-text')?.textContent?.trim() || '';
+      const explanation = card.querySelector('.kp-explanation-text')?.textContent?.trim() || '';
+      const formula = card.querySelector('.kp-formula-text')?.textContent?.trim() || '';
+      const tip = card.querySelector('.kp-tip-text')?.textContent?.trim() || '';
+      const examIntel = card.querySelector('.kp-exam-intel-text')?.textContent?.trim() || '';
+
+      const mdContent = `### ${title}\n\n- **核心本質定義**：${core}\n- **原理機轉解析**：${explanation}\n- **實戰法則公式**：\`${formula}\`\n- **大考題型雷達**：${examIntel}\n- **考場避坑防線**：${tip}\n\n> 來源：知行學院 108 課綱明確知識點體系`;
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(mdContent)
+          .then(() => toast('📋 知識點筆記已成功複製到剪貼簿！'))
+          .catch(() => toast('複製失敗，請手動選取文字'));
+      } else {
+        toast('瀏覽器不支援自動複製，請手動選取');
+      }
+    };
+  });
+
+  // Mastery Checkbox & Dynamic Glow / Stepper Status Synchronisation
   root.querySelectorAll('.kp-mastery-checkbox').forEach(cb => {
     const kpId = cb.dataset.kpId;
-    if (kpId && state.kpMastery && state.kpMastery[kpId]) cb.checked = true;
+    const card = cb.closest('.kp-card');
+    const stepStatus = root.querySelector(`[data-step-kp="${kpId}"]`);
+
+    if (kpId && state.kpMastery && state.kpMastery[kpId]) {
+      cb.checked = true;
+      if (card) card.classList.add('is-mastered');
+      if (stepStatus) stepStatus.textContent = '✅';
+    }
+
     cb.onchange = () => {
       if (!state.kpMastery) state.kpMastery = {};
       state.kpMastery[kpId] = cb.checked;
+      if (card) card.classList.toggle('is-mastered', cb.checked);
+      if (stepStatus) stepStatus.textContent = cb.checked ? '✅' : '🌱';
       activity();
       save();
-      if (cb.checked) toast('🎉 太棒了！已標記掌握此知識點與圖解！');
+      if (cb.checked) {
+        playChimeTone('success');
+        toast('🎉 太棒了！已完全掌握此知識點、圖解與相關脈絡！');
+      }
     };
   });
+
+  // Interactive View Filter Toolbar
   root.querySelectorAll('.kp-filter-pill').forEach(pill => {
     pill.onclick = () => {
       const container = pill.closest('.explicit-knowledge-container');

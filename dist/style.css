@@ -6918,3 +6918,222 @@ summary {
   border-color: rgba(217, 119, 6, 0.25);
 }
 
+/* ========================================================
+   Explicit Knowledge Points v19 UI/UX Innovations:
+   Stepper Navigation, Blindfold Recall & Exam Intel Radar
+   ======================================================== */
+.kp-stepper-nav {
+  margin: 0.85rem 0 1rem;
+  padding: 0.75rem 1rem;
+  background: var(--surface-alt, #f8fafc);
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.kp-stepper-title {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--text-subtle, #475569);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.kp-stepper-track {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.kp-step-chip {
+  appearance: none;
+  border: 1px solid var(--border, #cbd5e1);
+  background: var(--surface, #ffffff);
+  color: var(--text, #334155);
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.3rem 0.65rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.kp-step-chip:hover {
+  background: var(--primary, #193e35);
+  color: #ffffff;
+  border-color: var(--primary, #193e35);
+  transform: translateY(-1px);
+}
+
+.kp-step-chip .step-num {
+  font-size: 0.72rem;
+  font-weight: 900;
+  background: rgba(0, 0, 0, 0.08);
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+}
+
+.kp-step-chip:hover .step-num {
+  background: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+.kp-step-chip .step-status {
+  font-size: 0.8rem;
+}
+
+.step-arrow {
+  color: var(--muted, #94a3b8);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+/* Card Actions (Blindfold & Copy) */
+.kp-card-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.kp-blindfold-btn, .kp-copy-card-btn {
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 0.22rem 0.55rem;
+  border-radius: 6px;
+  border: 1px solid var(--border, #cbd5e1);
+  background: var(--surface, #ffffff);
+  color: var(--text-subtle, #475569);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.kp-blindfold-btn:hover {
+  background: #fef3c7;
+  color: #b45309;
+  border-color: #fde68a;
+}
+
+.kp-blindfold-btn.active {
+  background: #f59e0b;
+  color: #ffffff;
+  border-color: #d97706;
+}
+
+.kp-copy-card-btn:hover {
+  background: #e0f2fe;
+  color: #0369a1;
+  border-color: #bae6fd;
+}
+
+/* Blindfold Recall Mode Styling */
+.kp-card.blindfolded .kp-core-text,
+.kp-card.blindfolded .kp-explanation-text,
+.kp-card.blindfolded .kp-formula-text code,
+.kp-card.blindfolded .kp-tip-text,
+.kp-card.blindfolded .kp-exam-intel-text {
+  filter: blur(6px);
+  user-select: none;
+  opacity: 0.35;
+  transition: filter 0.25s ease, opacity 0.25s ease;
+  cursor: pointer;
+}
+
+.kp-card.blindfolded .kp-core-text:hover,
+.kp-card.blindfolded .kp-explanation-text:hover,
+.kp-card.blindfolded .kp-formula-text code:hover,
+.kp-card.blindfolded .kp-tip-text:hover,
+.kp-card.blindfolded .kp-exam-intel-text:hover {
+  filter: blur(1.5px);
+  opacity: 0.8;
+}
+
+/* Exam Intel Radar Box */
+.kp-exam-intel-box {
+  padding: 0.75rem 0.9rem;
+  border-radius: 8px;
+  background: var(--surface, #ffffff);
+  border-left: 3.5px solid #8b5cf6;
+}
+
+.kp-exam-intel-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text, #1e293b);
+  margin: 0;
+}
+
+/* Mastered Card Glow Effect */
+.kp-card.is-mastered {
+  border-color: #10b981;
+  box-shadow: 0 4px 18px rgba(16, 185, 129, 0.18);
+}
+
+.kp-card.is-mastered .kp-order-pill {
+  background: #059669;
+}
+
+/* Dark and Paper theme adaptations for v19 elements */
+[data-theme="dark"] .kp-stepper-nav {
+  background: #141a1f;
+  border-color: #2d3748;
+}
+
+[data-theme="dark"] .kp-step-chip {
+  background: #1e252b;
+  border-color: #374151;
+  color: #e2e8f0;
+}
+
+[data-theme="dark"] .kp-step-chip:hover {
+  background: #10b981;
+  color: #ffffff;
+  border-color: #10b981;
+}
+
+[data-theme="dark"] .kp-blindfold-btn,
+[data-theme="dark"] .kp-copy-card-btn {
+  background: #1e252b;
+  border-color: #374151;
+  color: #cbd5e1;
+}
+
+[data-theme="dark"] .kp-exam-intel-box {
+  background: #141a1f;
+  border-left-color: #a78bfa;
+}
+
+[data-theme="paper"] .kp-stepper-nav {
+  background: #f7f1e6;
+  border-color: #dfd4c5;
+}
+
+[data-theme="paper"] .kp-step-chip {
+  background: #fdfbf7;
+  border-color: #d1c7b7;
+  color: #4a3e35;
+}
+
+[data-theme="paper"] .kp-step-chip:hover {
+  background: #b45309;
+  color: #ffffff;
+  border-color: #92400e;
+}
+
+[data-theme="paper"] .kp-exam-intel-box {
+  background: #fdfbf7;
+  border-left-color: #9333ea;
+}
+
+

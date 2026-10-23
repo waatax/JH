@@ -1,5 +1,5 @@
 // Generator for 108 Curriculum Explicit Knowledge Points & Infographics
-// Version 18 Upgrade - 8 Specialized SVG Generators, Connected Knowledge Mesh & Interactive Filters
+// Version 19 Upgrade - 12 Specialized SVG Generators, 4D Epistemic Depth & Next-Gen UI/UX Architecture
 import fs from 'node:fs';
 import { units, subjects, unitById, subjectById } from '../dist/curriculum.js';
 import { teachingTables } from '../dist/teaching.js';
@@ -53,7 +53,7 @@ function generateCoordinateSvg(title, labelA, valA, labelB, valB, theme) {
     
     <line x1="270" y1="85" x2="270" y2="105" stroke="${theme.primary}" stroke-width="2"/>
     <circle cx="270" cy="95" r="4" fill="${theme.accent}"/>
-    <text x="270" y="125" text-anchor="middle" font-size="13" font-weight="700" fill="${theme.text}">原點 0</text>
+    <text x="270" y="125" text-anchor="middle" font-size="13" font-weight="700" fill="${theme.text}">基準原點 0</text>
     
     <line x1="140" y1="88" x2="140" y2="102" stroke="${theme.accent}" stroke-width="2"/>
     <circle cx="140" cy="95" r="6" fill="${theme.primary}"/>
@@ -66,12 +66,53 @@ function generateCoordinateSvg(title, labelA, valA, labelB, valB, theme) {
     <text x="400" y="69" text-anchor="middle" font-size="11" font-weight="600" fill="${theme.accent}">${esc(labelB)}: ${esc(valB)}</text>
     
     <path d="M 140 138 C 140 148, 270 148, 270 156 C 270 148, 400 148, 400 138" fill="none" stroke="${theme.primary}" stroke-width="1.8" stroke-dasharray="4,2"/>
-    <rect x="210" y="148" width="120" height="22" rx="4" fill="${theme.primary}"/>
-    <text x="270" y="163" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">兩點對稱距離 |A−B|</text>
+    <rect x="200" y="146" width="140" height="22" rx="4" fill="${theme.primary}"/>
+    <text x="270" y="161" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">幾何距離 |A−B| ≥ 0</text>
   </svg>`;
 }
 
-// 2. Formula Breakdown & Quantitative Relations
+// 2. Parabola & Geometric Theorem Breakdown
+function generateParabolaGeometrySvg(title, apex, formula, symmetry, rootInfo, theme) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 180" class="kp-svg-infograph" role="img" aria-label="${esc(title)}">
+    <rect width="540" height="180" rx="12" fill="${theme.bg}" stroke="${theme.primary}" stroke-width="1.5" stroke-opacity="0.25"/>
+    <text x="24" y="30" font-size="13" font-weight="700" fill="${theme.accent}">📈 拋物線函數與幾何定理結構圖</text>
+    <text x="516" y="30" text-anchor="end" font-size="11" fill="${theme.primary}" font-weight="600">${theme.icon} ${theme.label}</text>
+    
+    <!-- Coordinate Axis -->
+    <line x1="30" y1="130" x2="230" y2="130" stroke="${theme.primary}" stroke-width="1.5"/>
+    <line x1="130" y1="35" x2="130" y2="155" stroke="${theme.primary}" stroke-width="1.5"/>
+    <polygon points="234,130 226,126 226,134" fill="${theme.primary}"/>
+    <polygon points="130,31 126,39 134,39" fill="${theme.primary}"/>
+    
+    <!-- Parabola Curve -->
+    <path d="M 60 145 Q 130 50 200 145" fill="none" stroke="${theme.accent}" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Apex point -->
+    <circle cx="130" cy="50" r="5" fill="${theme.primary}"/>
+    <rect x="75" y="35" width="110" height="20" rx="4" fill="#ffffff" stroke="${theme.primary}" stroke-width="1"/>
+    <text x="130" y="49" text-anchor="middle" font-size="10" font-weight="700" fill="${theme.accent}">頂點: ${esc(apex)}</text>
+    
+    <!-- Symmetry line -->
+    <line x1="130" y1="55" x2="130" y2="150" stroke="${theme.primary}" stroke-width="1.5" stroke-dasharray="3,3"/>
+    
+    <!-- Info Cards on Right -->
+    <rect x="250" y="45" width="265" height="34" rx="6" fill="#ffffff" stroke="${theme.primary}" stroke-width="1.4"/>
+    <text x="260" y="66" font-size="11" font-weight="700" fill="${theme.accent}">標準解析式：</text>
+    <text x="340" y="66" font-size="11" font-weight="800" fill="${theme.text}">${esc(formula)}</text>
+    
+    <rect x="250" y="85" width="265" height="34" rx="6" fill="#ffffff" stroke="${theme.accent}" stroke-width="1.4"/>
+    <text x="260" y="106" font-size="11" font-weight="700" fill="${theme.primary}">對稱與極值：</text>
+    <text x="340" y="106" font-size="11" font-weight="600" fill="${theme.text}">${esc(symmetry)}</text>
+    
+    <rect x="250" y="125" width="265" height="34" rx="6" fill="#ffffff" stroke="${theme.primary}" stroke-width="1.4"/>
+    <text x="260" y="146" font-size="11" font-weight="700" fill="${theme.accent}">判別式與根：</text>
+    <text x="340" y="146" font-size="11" font-weight="600" fill="${theme.text}">${esc(rootInfo)}</text>
+    
+    <text x="130" y="170" text-anchor="middle" font-size="10" font-weight="600" fill="${theme.text}">對稱軸 x＝h</text>
+  </svg>`;
+}
+
+// 3. Formula Breakdown & Quantitative Relations
 function generateFormulaSvg(title, formulaTitle, part1, part2, result, theme) {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 180" class="kp-svg-infograph" role="img" aria-label="${esc(title)}">
     <rect width="540" height="180" rx="12" fill="${theme.bg}" stroke="${theme.primary}" stroke-width="1.5" stroke-opacity="0.25"/>
@@ -104,7 +145,7 @@ function generateFormulaSvg(title, formulaTitle, part1, part2, result, theme) {
   </svg>`;
 }
 
-// 3. 3-Stage Process Flow
+// 4. 3-Stage Process Flow
 function generateProcessSvg(title, step1, step2, step3, theme) {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 180" class="kp-svg-infograph" role="img" aria-label="${esc(title)}">
     <rect width="540" height="180" rx="12" fill="${theme.bg}" stroke="${theme.primary}" stroke-width="1.5" stroke-opacity="0.25"/>
@@ -157,7 +198,7 @@ function generateProcessSvg(title, step1, step2, step3, theme) {
   </svg>`;
 }
 
-// 4. Cognitive Contrast
+// 5. Cognitive Contrast
 function generateContrastSvg(title, labelA, descA, labelB, descB, theme) {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 180" class="kp-svg-infograph" role="img" aria-label="${esc(title)}">
     <rect width="540" height="180" rx="12" fill="${theme.bg}" stroke="${theme.primary}" stroke-width="1.5" stroke-opacity="0.25"/>
@@ -189,7 +230,7 @@ function generateContrastSvg(title, labelA, descA, labelB, descB, theme) {
   </svg>`;
 }
 
-// 5. Dynamic Equilibrium & Balance Scales
+// 6. Dynamic Equilibrium & Balance Scales
 function generateSystemBalanceSvg(title, leftTitle, rightTitle, pivotTitle, takeaway, theme) {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 180" class="kp-svg-infograph" role="img" aria-label="${esc(title)}">
     <rect width="540" height="180" rx="12" fill="${theme.bg}" stroke="${theme.primary}" stroke-width="1.5" stroke-opacity="0.25"/>
@@ -214,7 +255,7 @@ function generateSystemBalanceSvg(title, leftTitle, rightTitle, pivotTitle, take
   </svg>`;
 }
 
-// 6. Ecosystem & Material Cycle Loops (Biology & Earth Science)
+// 7. Ecosystem & Material Cycle Loops (Biology & Earth Science)
 function generateCycleSvg(title, step1, step2, step3, step4, theme) {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 180" class="kp-svg-infograph" role="img" aria-label="${esc(title)}">
     <rect width="540" height="180" rx="12" fill="${theme.bg}" stroke="${theme.primary}" stroke-width="1.5" stroke-opacity="0.25"/>
@@ -246,7 +287,7 @@ function generateCycleSvg(title, step1, step2, step3, step4, theme) {
   </svg>`;
 }
 
-// 7. Language Syntax & Rhetorical Tree (Chinese & English)
+// 8. Language Syntax & Rhetorical Tree (Chinese & English)
 function generateSyntaxTreeSvg(title, mainWord, partS, partV, partO, theme) {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 180" class="kp-svg-infograph" role="img" aria-label="${esc(title)}">
     <rect width="540" height="180" rx="12" fill="${theme.bg}" stroke="${theme.primary}" stroke-width="1.5" stroke-opacity="0.25"/>
@@ -276,7 +317,7 @@ function generateSyntaxTreeSvg(title, mainWord, partS, partV, partO, theme) {
   </svg>`;
 }
 
-// 8. Computational Logic & Algorithmic Decision Tree (Tech & Computing)
+// 9. Computational Logic & Algorithmic Decision Tree (Tech & Computing)
 function generateLogicDecisionSvg(title, inputLabel, condLabel, trueBranch, falseBranch, theme) {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 180" class="kp-svg-infograph" role="img" aria-label="${esc(title)}">
     <rect width="540" height="180" rx="12" fill="${theme.bg}" stroke="${theme.primary}" stroke-width="1.5" stroke-opacity="0.25"/>
@@ -307,6 +348,153 @@ function generateLogicDecisionSvg(title, inputLabel, condLabel, trueBranch, fals
     <text x="437" y="138" font-size="10.5" font-weight="700" fill="#b91c1c" text-anchor="middle">${esc(falseBranch)}</text>
     
     <text x="270" y="170" text-anchor="middle" font-size="10.5" font-weight="600" fill="${theme.text}">💡 運算思維：條件明確、邏輯窮盡、無二義性，方能保證演算法正確終止</text>
+  </svg>`;
+}
+
+// 10. Molecular Reaction & Chemical Stoichiometry (Chemistry)
+function generateMolecularReactionSvg(title, reactants, mechanism, products, principle, theme) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 180" class="kp-svg-infograph" role="img" aria-label="${esc(title)}">
+    <rect width="540" height="180" rx="12" fill="${theme.bg}" stroke="${theme.primary}" stroke-width="1.5" stroke-opacity="0.25"/>
+    <text x="24" y="28" font-size="13" font-weight="700" fill="${theme.accent}">🧪 微觀原子重組與質量守恆圖</text>
+    <text x="516" y="28" text-anchor="end" font-size="11" fill="${theme.primary}" font-weight="600">${theme.icon} ${theme.label}</text>
+    
+    <!-- Reactants -->
+    <rect x="30" y="48" width="140" height="85" rx="8" fill="#ffffff" stroke="${theme.primary}" stroke-width="1.6"/>
+    <rect x="30" y="48" width="140" height="24" rx="8" fill="${theme.primary}"/>
+    <text x="100" y="65" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">反應物 (鍵結斷裂)</text>
+    <circle cx="65" cy="95" r="14" fill="${theme.primary}" fill-opacity="0.2" stroke="${theme.primary}" stroke-width="2"/>
+    <circle cx="100" cy="95" r="14" fill="${theme.accent}" fill-opacity="0.2" stroke="${theme.accent}" stroke-width="2"/>
+    <circle cx="135" cy="95" r="14" fill="${theme.primary}" fill-opacity="0.2" stroke="${theme.primary}" stroke-width="2"/>
+    <text x="100" y="124" text-anchor="middle" font-size="11" font-weight="700" fill="${theme.text}">${esc(reactants)}</text>
+    
+    <!-- Reaction Arrow & Mechanism -->
+    <path d="M 180 90 L 225 90" stroke="${theme.accent}" stroke-width="2.5"/>
+    <polygon points="230,90 220,85 220,95" fill="${theme.accent}"/>
+    <rect x="180" y="60" width="55" height="20" rx="4" fill="${theme.accent}" fill-opacity="0.15"/>
+    <text x="207" y="74" text-anchor="middle" font-size="9.5" font-weight="700" fill="${theme.accent}">活化能</text>
+    
+    <!-- Intermediate / Mechanism Card -->
+    <rect x="240" y="48" width="105" height="85" rx="8" fill="#ffffff" stroke="${theme.accent}" stroke-width="1.6" stroke-dasharray="3,2"/>
+    <text x="292" y="72" text-anchor="middle" font-size="11" font-weight="700" fill="${theme.accent}">碰撞重組</text>
+    <foreignObject x="246" y="80" width="93" height="48">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:10px;line-height:1.25;color:#475569;text-align:center;">
+        ${esc(mechanism)}
+      </div>
+    </foreignObject>
+    
+    <path d="M 355 90 L 390 90" stroke="${theme.primary}" stroke-width="2.5"/>
+    <polygon points="395,90 385,85 385,95" fill="${theme.primary}"/>
+    
+    <!-- Products -->
+    <rect x="400" y="48" width="115" height="85" rx="8" fill="#ffffff" stroke="${theme.primary}" stroke-width="2"/>
+    <rect x="400" y="48" width="115" height="24" rx="8" fill="${theme.primary}"/>
+    <text x="457" y="65" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">生成物 (新鍵形成)</text>
+    <circle cx="435" cy="95" r="14" fill="${theme.primary}" stroke="${theme.primary}" stroke-width="2"/>
+    <circle cx="475" cy="95" r="14" fill="${theme.accent}" stroke="${theme.accent}" stroke-width="2"/>
+    <text x="457" y="124" text-anchor="middle" font-size="11" font-weight="700" fill="${theme.text}">${esc(products)}</text>
+    
+    <text x="270" y="168" text-anchor="middle" font-size="10.5" font-weight="600" fill="${theme.text}">💡 微觀定律：${esc(principle)}（原子種類與數目守恆，分子種類改變）</text>
+  </svg>`;
+}
+
+// 11. Historical Causality & Spatio-Temporal Line (History)
+function generateHistoricalCausalitySvg(title, bgContext, trigger, change, impact, theme) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 180" class="kp-svg-infograph" role="img" aria-label="${esc(title)}">
+    <rect width="540" height="180" rx="12" fill="${theme.bg}" stroke="${theme.primary}" stroke-width="1.5" stroke-opacity="0.25"/>
+    <text x="24" y="28" font-size="13" font-weight="700" fill="${theme.accent}">🏛️ 歷史時空脈絡與因果鏈條圖</text>
+    <text x="516" y="28" text-anchor="end" font-size="11" fill="${theme.primary}" font-weight="600">${theme.icon} ${theme.label}</text>
+    
+    <!-- Timeline spine -->
+    <line x1="40" y1="92" x2="500" y2="92" stroke="${theme.primary}" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Step 1: Background -->
+    <g transform="translate(30, 44)">
+      <rect width="105" height="96" rx="6" fill="#ffffff" stroke="${theme.primary}" stroke-width="1.4"/>
+      <rect width="105" height="22" rx="6" fill="${theme.primary}"/>
+      <text x="52" y="16" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">① 時代背景</text>
+      <foreignObject x="8" y="28" width="89" height="60">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:10px;line-height:1.3;color:#334155;overflow:hidden;">
+          ${esc(bgContext)}
+        </div>
+      </foreignObject>
+    </g>
+    
+    <!-- Step 2: Trigger -->
+    <g transform="translate(155, 44)">
+      <rect width="105" height="96" rx="6" fill="#ffffff" stroke="${theme.accent}" stroke-width="1.6"/>
+      <rect width="105" height="22" rx="6" fill="${theme.accent}"/>
+      <text x="52" y="16" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">② 關鍵轉折</text>
+      <foreignObject x="8" y="28" width="89" height="60">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:10px;line-height:1.3;color:#334155;overflow:hidden;">
+          ${esc(trigger)}
+        </div>
+      </foreignObject>
+    </g>
+    
+    <!-- Step 3: Reform / Change -->
+    <g transform="translate(280, 44)">
+      <rect width="105" height="96" rx="6" fill="#ffffff" stroke="${theme.primary}" stroke-width="1.6"/>
+      <rect width="105" height="22" rx="6" fill="${theme.primary}"/>
+      <text x="52" y="16" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">③ 體制變革</text>
+      <foreignObject x="8" y="28" width="89" height="60">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:10px;line-height:1.3;color:#334155;overflow:hidden;">
+          ${esc(change)}
+        </div>
+      </foreignObject>
+    </g>
+    
+    <!-- Step 4: Long-term Impact -->
+    <g transform="translate(405, 44)">
+      <rect width="105" height="96" rx="6" fill="#ffffff" stroke="${theme.accent}" stroke-width="1.8"/>
+      <rect width="105" height="22" rx="6" fill="${theme.accent}"/>
+      <text x="52" y="16" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">④ 深遠影響</text>
+      <foreignObject x="8" y="28" width="89" height="60">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:10px;line-height:1.3;color:#334155;overflow:hidden;">
+          ${esc(impact)}
+        </div>
+      </foreignObject>
+    </g>
+    
+    <text x="270" y="168" text-anchor="middle" font-size="10.5" font-weight="600" fill="${theme.text}">💡 史事思維：歷史非孤立條目，必考因果脈絡與不同群體之利益變遷</text>
+  </svg>`;
+}
+
+// 12. Legal Hierarchy & Separation of Powers (Civics)
+function generateLegalPyramidSvg(title, topLaw, midLaw, lowLaw, balanceCheck, theme) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 180" class="kp-svg-infograph" role="img" aria-label="${esc(title)}">
+    <rect width="540" height="180" rx="12" fill="${theme.bg}" stroke="${theme.primary}" stroke-width="1.5" stroke-opacity="0.25"/>
+    <text x="24" y="28" font-size="13" font-weight="700" fill="${theme.accent}">⚖️ 法律位階金字塔與權力制衡圖</text>
+    <text x="516" y="28" text-anchor="end" font-size="11" fill="${theme.primary}" font-weight="600">${theme.icon} ${theme.label}</text>
+    
+    <!-- Pyramid Structure -->
+    <!-- Tier 1: Constitution -->
+    <polygon points="140,42 80,78 200,78" fill="${theme.primary}" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="140" y="65" text-anchor="middle" font-size="11" font-weight="800" fill="#ffffff">憲法 (最高)</text>
+    
+    <!-- Tier 2: Statutes / Laws -->
+    <polygon points="76,82 196,82 230,114 42,114" fill="${theme.accent}" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="140" y="102" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">法律 (立法院)</text>
+    
+    <!-- Tier 3: Orders / Regulations -->
+    <polygon points="38,118 226,118 250,148 14,148" fill="${theme.primary}" fill-opacity="0.85" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="132" y="138" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">命令 (行政機關)</text>
+    
+    <!-- Right side: Content & Principle Breakdown -->
+    <g transform="translate(265, 42)">
+      <rect width="250" height="32" rx="6" fill="#ffffff" stroke="${theme.primary}" stroke-width="1.4"/>
+      <text x="12" y="21" font-size="10.5" font-weight="700" fill="${theme.accent}">憲法內涵：</text>
+      <text x="75" y="21" font-size="10.5" font-weight="600" fill="${theme.text}">${esc(topLaw)}</text>
+      
+      <rect y="40" width="250" height="32" rx="6" fill="#ffffff" stroke="${theme.accent}" stroke-width="1.4"/>
+      <text x="12" y="61" font-size="10.5" font-weight="700" fill="${theme.primary}">法律授權：</text>
+      <text x="75" y="61" font-size="10.5" font-weight="600" fill="${theme.text}">${esc(midLaw)}</text>
+      
+      <rect y="78" width="250" height="32" rx="6" fill="#ffffff" stroke="${theme.primary}" stroke-width="1.4"/>
+      <text x="12" y="99" font-size="10.5" font-weight="700" fill="${theme.accent}">命令執行：</text>
+      <text x="75" y="99" font-size="10.5" font-weight="600" fill="${theme.text}">${esc(lowLaw)}</text>
+    </g>
+    
+    <text x="270" y="170" text-anchor="middle" font-size="10.5" font-weight="600" fill="${theme.text}">💡 憲政原則：${esc(balanceCheck)}（下位階不得牴觸上位階；牴觸者無效）</text>
   </svg>`;
 }
 
@@ -344,21 +532,47 @@ export function buildExplicitKnowledgeForUnit(u) {
   const nextU = currIdx < subjectUnits.length - 1 ? subjectUnits[currIdx + 1] : null;
   const prereqFromKn = (knNode.prerequisites || []).map(id => unitById[id]).filter(Boolean)[0];
 
-  // Tailored SVG 1 generator based on subject domain
+  // Tailored SVG 1 generator based on subject domain & topic
   let svg1 = '';
+  let kp1InfographType = 'domain-visual';
+
   if (u.subject === 'math') {
-    svg1 = generateCoordinateSvg(r0[0], r0[0], r0[1].slice(0, 10), '對稱基準', '0', theme);
+    if (u.title.includes('函數') || u.title.includes('二次') || u.title.includes('幾何') || u.title.includes('面積')) {
+      svg1 = generateParabolaGeometrySvg(r0[0], '(h, k)', 'y＝a(x−h)²＋k', '對稱軸 x＝h；a＞0 向上', 'b²−4ac 判別相交', theme);
+      kp1InfographType = 'parabola';
+    } else {
+      svg1 = generateCoordinateSvg(r0[0], r0[0], r0[1].slice(0, 10), '對稱基準', '0', theme);
+      kp1InfographType = 'coordinate';
+    }
+  } else if (u.subject === 'chemistry') {
+    svg1 = generateMolecularReactionSvg(r0[0], r0[0].slice(0, 8), '原子重排', r0[1].slice(0, 8), '質量守恆定律', theme);
+    kp1InfographType = 'molecular';
+  } else if (u.subject === 'history') {
+    svg1 = generateHistoricalCausalitySvg(r0[0], r0[0].slice(0, 16), '制度矛盾爆發', r0[1].slice(0, 16), '現代法治奠基', theme);
+    kp1InfographType = 'causality';
+  } else if (u.subject === 'civics') {
+    svg1 = generateLegalPyramidSvg(r0[0], '保障人民基本權利', r0[0].slice(0, 10), '執行細則與行政規章', '權力分立與違憲審查', theme);
+    kp1InfographType = 'legal';
   } else if (['biology', 'earth'].includes(u.subject)) {
     svg1 = generateCycleSvg(r0[0], r0[0].slice(0, 8), r1[0].slice(0, 8), r2[0].slice(0, 8), '環境守恆', theme);
+    kp1InfographType = 'cycle';
   } else if (['chinese', 'english', 'local'].includes(u.subject)) {
     svg1 = generateSyntaxTreeSvg(r0[0], u.title.slice(0, 6), r0[0].slice(0, 6), r0[1].slice(0, 6), r0[2].slice(0, 6), theme);
+    kp1InfographType = 'syntax';
   } else if (['computing', 'technology'].includes(u.subject)) {
     svg1 = generateLogicDecisionSvg(r0[0], '輸入條件', r0[0].slice(0, 8), r0[1].slice(0, 8), '回退修正', theme);
-  } else if (['civics'].includes(u.subject)) {
-    svg1 = generateSystemBalanceSvg(r0[0], r0[0].slice(0, 8), '相對權力/利益', '制度基石', r0[1].slice(0, 16), theme);
+    kp1InfographType = 'logic';
   } else {
     svg1 = generateFormulaSvg(r0[0], r0[0], r0[0], r0[1].slice(0, 14), r0[2].slice(0, 12), theme);
+    kp1InfographType = 'formula';
   }
+
+  // Deep Epistemic Explanations (150~300 characters each)
+  const explanation1 = `本知識點著眼於「${r0[0]}」之本質定義與深層機轉。依據 108 課綱核心素養，${def0.meaning}。其底層運作在於建立概念的第一原理（First Principle），當且僅當滿足關鍵條件「${def0.condition}」時成立。日常直觀現象（例如：${u.example}）正反映此一規律之客觀必然性。理解此點時切忌盲目套公式，而應先建立其空間幾何、能量守恆或語法層次的具象模型。`;
+
+  const explanation2 = `本知識點強調「${r1[0]}」的推演流程與判別邊界。解題標準流程分為三階閉環：首先審題定位題目給定之已知量與定義域範圍；其次精準調用定理「${r1[1]}」建立等價關聯式；最後代入實例（例如：${r1[2]}）驗算正負號與邊界極限。${def1.meaning}。唯有步驟完整且保留算式與單位，方能在素養導向大考中穩健破題而不失分。`;
+
+  const explanation3 = `會考與學測命題最常藉由相近觀念或逆命題設置認知干擾選項。針對「${r2[0]}」，必須明確區分「${dep.leftLabel}」與「${dep.rightLabel}」兩者的本質分野。${u.pitfall}。診斷其錯因病理，常源於忽略了成立前提或將充分條件誤當充要條件。破題防線在於：遇題先確認是否滿足限制邊界，並透過遷移任務（${u.task}）進行主動逆向檢核。`;
 
   const kp1 = {
     id: `${u.id}-kp-1`,
@@ -366,15 +580,17 @@ export function buildExplicitKnowledgeForUnit(u) {
     order: 1,
     title: `【知識點 1】${r0[0]}：核心意義與原理機轉`,
     core: core0,
-    explanation: `本知識點著眼於「${r0[0]}」之本質定義。依據 108 課綱核心素養，${def0.meaning}。在實際解題與概念理解時，必須牢記其成立之關鍵準則：${def0.condition}。避免僅死背名詞，而應從日常經驗（如：${u.example}）理解其物理、數學或邏輯必然性。`,
+    mechanism: `底層機轉：依據 108 課綱定義，${def0.meaning}。在客觀條件「${def0.condition}」成立下，確保結論之必然性。`,
+    explanation: explanation1,
     formula: `【實戰法則】${r0[1]} ➔ 檢驗條件：${r0[2]}`,
-    practicalTip: `大考辨識關鍵：${ex.examEye?.triggerClue || '審題時注意核心關鍵字'}。考場避坑：${ex.examEye?.pitfallTrap || u.pitfall}`,
+    examIntel: `【🎯 會考／學測出題雷達】考點定位：概念題眼為「${ex.examEye?.triggerClue || '審題核心關鍵字'}」。命題高頻題型：定義辨識題與圖表分析題。`,
+    practicalTip: `考場避坑防線：${ex.examEye?.pitfallTrap || u.pitfall}`,
     bloom: '理解',
     examWeight: 3,
     infograph: {
-      type: u.subject === 'math' ? 'coordinate' : (['biology', 'earth'].includes(u.subject) ? 'cycle' : 'domain-visual'),
+      type: kp1InfographType,
       title: `${r0[0]} 結構概念圖解`,
-      caption: `直觀解析 ${r0[0]} 之核心關係與成立條件`,
+      caption: `直觀解析 ${r0[0]} 之核心關係、成立條件與深層機轉`,
       svg: svg1
     },
     relatedKnowledge: {
@@ -407,8 +623,10 @@ export function buildExplicitKnowledgeForUnit(u) {
     order: 2,
     title: `【知識點 2】${r1[0]}：條件判別與推理步驟`,
     core: core1,
-    explanation: `本知識點強調「${r1[0]}」的推演流程與判別條件。解題時切忌跳步，標準思考流程分為三階：首先定位題目給定之已知量與範圍；其次調用定理「${r1[1]}」建立關聯式；最後代入實例檢核（例如：${r1[2]}）。${def1.meaning}，唯有釐清適用邊界方能穩健破題。`,
+    mechanism: `推導機制：由已知條件出發，套用「${r1[1]}」，依序完成定位、推導與單位邊界檢核。`,
+    explanation: explanation2,
     formula: `【推導公式／口訣】${r1[1]} ➔ 典型示範：${r1[2]}`,
+    examIntel: `【🎯 會考／學測出題雷達】解題手筋：${ex.blackboard?.heuristicSteps?.[0]?.explanation || '依序標註已知條件與未知數，畫圖輔助思考'}。高頻題型：計算應用與實驗推理題。`,
     practicalTip: `步驟防呆：${ex.blackboard?.heuristicSteps?.[1]?.explanation || '按部就班列出推演算式，確認符號與單位'}。`,
     bloom: '應用',
     examWeight: 3,
@@ -454,15 +672,17 @@ export function buildExplicitKnowledgeForUnit(u) {
     order: 3,
     title: `【知識點 3】${r2[0]}：易混淆辨析與避坑防線`,
     core: core2,
-    explanation: `會考與大考命題常藉由相近觀念或逆命題設置認知陷阱。針對「${r2[0]}」，必須明確區分「${dep.leftLabel}」與「${dep.rightLabel}」兩者的本質分野。${u.pitfall}。正確策略是：遇題先確認是否滿足限制前提，並透過遷移任務（${u.task}）自我檢視是否達成深層融會貫通。`,
+    mechanism: `防呆機制：並列對比「${dep.leftLabel}」與「${dep.rightLabel}」之邊界約束，杜絕以假亂真或偷換概念。`,
+    explanation: explanation3,
     formula: `【辨析對照】${dep.leftLabel} vs ${dep.rightLabel} ➔ 適用防線：${r2[2]}`,
+    examIntel: `【🎯 會考／學測出題雷達】陷阱識破：命題常在題幹中故意隱藏干擾條件；破解關鍵在於檢核「${dep.leftLabel}」的特有邊界。`,
     practicalTip: `考場急救手記：${ex.examEye?.defenseCheck || '做完題目務必重檢適用邊界與特殊反例'}。`,
     bloom: '分析',
     examWeight: 2,
     infograph: {
       type: 'contrast',
       title: `${dep.leftLabel} 與 ${dep.rightLabel} 雙軌對照圖`,
-      caption: `精準辨析易混淆點，掌握解題分水嶺`,
+      caption: `精準辨析易混淆點，掌握解題分水嶺與避坑邊界`,
       svg: generateContrastSvg(
         r2[0],
         dep.leftLabel,
@@ -500,7 +720,7 @@ export function buildExplicitKnowledgeForUnit(u) {
 }
 
 // Build the complete database for all 188 units
-console.log('Building explicit knowledge points with related knowledge mesh for all 188 units...');
+console.log('Building v19 explicit knowledge points with 12 specialized SVG engines & UIUX enhancements for all 188 units...');
 const allExplicitKnowledge = {};
 let totalPoints = 0;
 let totalSvgs = 0;
@@ -519,7 +739,7 @@ console.log(`Generated ${totalPoints} explicit knowledge points with ${totalSvgs
 // Write out dist/explicit-knowledge-points.js
 const fileContent = `// 108 Curriculum Explicit Knowledge Points & Infographics Database
 // Auto-generated by scripts/build-explicit-knowledge.mjs
-// Version: zhixing-cache-v18
+// Version: zhixing-cache-v19
 
 export const explicitKnowledgePoints = ${JSON.stringify(allExplicitKnowledge, null, 2)};
 
@@ -536,7 +756,7 @@ const esc = s => String(s).replace(/[&<>'"]/g, c => ({
   '"': '&quot;'
 }[c]));
 
-// Renders the modern UI/UX Explicit Knowledge Points Board with Infographics & Related Knowledge Mesh
+// Renders the modern UI/UX Explicit Knowledge Points Board with Stepper Nav, Blindfold Recall & Infographics
 export function renderExplicitKnowledgePoints(u) {
   const points = getExplicitKnowledgePoints(u);
   if (!points || points.length === 0) return '';
@@ -548,8 +768,23 @@ export function renderExplicitKnowledgePoints(u) {
           <span class="kp-main-badge"><span aria-hidden="true">💡</span> 108課綱明確知識點深度解析</span>
           <span class="kp-count-badge">共 \${points.length} 個核心點 · 均配備專屬 INFOGRAPH 與相關知識點網絡</span>
         </div>
-        <p class="kp-header-subtitle">每個知識點均包含<strong>明確說明</strong>、<strong>實戰法則／公式</strong>、<strong>考場避坑防線</strong>、<strong>專屬資訊圖表（INFOGRAPH）</strong>與<strong>相關知識點（先備／延伸／跨科）</strong>，建構立體知識網絡。</p>
+        <p class="kp-header-subtitle">每個知識點均包含<strong>明確說明</strong>、<strong>深層機轉</strong>、<strong>實戰法則／公式</strong>、<strong>大考題型雷達</strong>、<strong>考場避坑防線</strong>、<strong>專屬資訊圖表（INFOGRAPH）</strong>與<strong>立體思維網絡</strong>，全面深化自學成效。</p>
         
+        <!-- Cognitive Stepper Navigation Bar -->
+        <nav class="kp-stepper-nav" aria-label="三階認知階梯導航">
+          <div class="kp-stepper-title"><span aria-hidden="true">🪜</span> 認知階梯導航：</div>
+          <div class="kp-stepper-track">
+            \${points.map((p, idx) => \`
+              <button type="button" class="kp-step-chip" data-step-target="\${p.id}">
+                <span class="step-num">\${p.order}</span>
+                <span class="step-text">\${idx === 0 ? '🎯 核心本質' : (idx === 1 ? '⚡ 定理推演' : '🛡️ 考場避坑')}</span>
+                <span class="step-status" data-step-kp="\${p.id}">🌱</span>
+              </button>
+              \${idx < points.length - 1 ? '<span class="step-arrow" aria-hidden="true">➔</span>' : ''}
+            \`).join('')}
+          </div>
+        </nav>
+
         <!-- Interactive Knowledge Filter Toolbar -->
         <div class="kp-filter-toolbar" role="group" aria-label="知識點認知視角快速篩選">
           <span class="kp-filter-title"><span aria-hidden="true">🔍</span> 認知切入視角：</span>
@@ -569,18 +804,23 @@ export function renderExplicitKnowledgePoints(u) {
                 <span class="kp-order-pill"><span class="pill-icon" aria-hidden="true">\${idx === 0 ? '🎯' : (idx === 1 ? '⚡' : '🛡️')}</span> KP #\${p.order}</span>
                 <span class="kp-bloom-pill bloom-\${p.bloom}"><span class="pill-icon" aria-hidden="true">🧠</span> 認知層次：\${p.bloom}</span>
                 <span class="kp-weight-pill"><span class="pill-icon" aria-hidden="true">📊</span> 大考權重：\${'⭐'.repeat(p.examWeight)}</span>
+                
+                <div class="kp-card-actions">
+                  <button type="button" class="kp-blindfold-btn" data-blindfold-target="\${p.id}" title="遮蔽解析與公式進行自主回想測試" aria-label="切換遮蔽自主回想模式">🙈 遮蔽回想</button>
+                  <button type="button" class="kp-copy-card-btn" data-kp-id="\${p.id}" title="複製此知識點為 Markdown 筆記" aria-label="複製知識點筆記">📋 複製筆記</button>
+                </div>
               </div>
               <h4 class="kp-title">\${esc(p.title)}</h4>
             </header>
 
             <div class="kp-body">
               <section class="kp-core-box">
-                <span class="kp-label"><span class="section-icon" aria-hidden="true">📌</span> 核心本質定義：</span>
+                <span class="kp-label"><span class="section-icon" aria-hidden="true">📌</span> 核心本質定義（第一原理）：</span>
                 <p class="kp-core-text">\${esc(p.core)}</p>
               </section>
 
               <section class="kp-explanation-box">
-                <span class="kp-label"><span class="section-icon" aria-hidden="true">📖</span> 明確說明與原理機轉：</span>
+                <span class="kp-label"><span class="section-icon" aria-hidden="true">📖</span> 明確說明與深層機轉：</span>
                 <p class="kp-explanation-text">\${esc(p.explanation)}</p>
               </section>
 
@@ -602,6 +842,12 @@ export function renderExplicitKnowledgePoints(u) {
               <section class="kp-formula-box">
                 <span class="kp-label"><span class="section-icon" aria-hidden="true">⚡</span> 實戰法則與公式：</span>
                 <p class="kp-formula-text"><code>\${esc(p.formula)}</code></p>
+              </section>
+
+              <!-- Exam Intel Radar -->
+              <section class="kp-exam-intel-box">
+                <span class="kp-label"><span class="section-icon" aria-hidden="true">🎯</span> 會考／學測出題雷達與題眼：</span>
+                <p class="kp-exam-intel-text">\${esc(p.examIntel)}</p>
               </section>
 
               <section class="kp-tip-box">
@@ -684,4 +930,4 @@ export function renderExplicitKnowledgePoints(u) {
 `;
 
 fs.writeFileSync('dist/explicit-knowledge-points.js', fileContent, 'utf8');
-console.log('Successfully wrote dist/explicit-knowledge-points.js with 8 specialized generators & filter toolbar!');
+console.log('Successfully wrote dist/explicit-knowledge-points.js with 12 specialized generators & UIUX enhancements!');
