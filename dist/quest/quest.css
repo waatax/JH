@@ -239,17 +239,40 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   border-radius: 12px;
   font-weight: 700;
 }
-.atlas-grid {
+.atlas-grades-wrap {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 0.65rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.85rem;
 }
-@media (max-width: 1080px) {
-  .atlas-grid { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 820px) {
+  .atlas-grades-wrap { grid-template-columns: 1fr; }
 }
-@media (max-width: 580px) {
-  .atlas-grid { grid-template-columns: repeat(2, 1fr); }
+
+.atlas-grade-col {
+  background: var(--bg);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
+.atlas-grade-title {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.88rem;
+  padding: 0.2rem 0.3rem;
+}
+.atlas-grade-title span { font-size: 1.1rem; }
+.atlas-grade-title small { margin-left: auto; font-size: 0.75rem; }
+
+.atlas-grade-chips {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
 .atlas-chip {
   position: relative;
   padding: 0.75rem 0.65rem;
@@ -270,19 +293,21 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   background: var(--accent-soft);
   box-shadow: 0 4px 10px rgba(42, 157, 143, 0.2);
 }
-.atlas-chip-badge {
-  font-size: 0.68rem;
+.atlas-cur-pill {
+  font-size: 0.65rem;
   font-weight: 800;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  margin-bottom: 0.2rem;
+  background: var(--primary);
+  color: #fff;
+  padding: 0.1rem 0.4rem;
+  border-radius: 8px;
+  margin-left: auto;
 }
 .atlas-chip-top {
   display: flex;
   align-items: center;
   gap: 0.35rem;
 }
-.atlas-chip-top b { font-size: 0.95rem; }
+.atlas-chip-top b { font-size: 0.9rem; }
 .atlas-icon { font-size: 1.05rem; }
 .atlas-chip-sub {
   display: flex;
@@ -801,6 +826,253 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   transition: transform 0.2s ease;
 }
 .mascot:hover { transform: scale(1.05) rotate(2deg); }
+
+/* Duolingo Mascot Speech Bubble */
+.mascot-speech-wrap {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--card-bg);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.25rem;
+  box-shadow: var(--shadow);
+}
+.mascot-bubble {
+  position: relative;
+  background: var(--accent-soft);
+  color: var(--primary);
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  flex: 1;
+}
+.mascot-bubble::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -8px;
+  transform: translateY(-50%);
+  border-width: 6px 8px 6px 0;
+  border-style: solid;
+  border-color: transparent var(--accent-soft) transparent transparent;
+}
+
+/* Duolingo Winding Path & Treasure Chest */
+.nodes-wrap {
+  position: relative;
+  width: 100%;
+}
+.trail-svg {
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 280px;
+  height: calc(100% - 70px);
+  pointer-events: none;
+  z-index: 1;
+}
+.trail-path {
+  fill: none;
+  stroke: var(--border);
+  stroke-width: 8px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.trail-path.active {
+  stroke: var(--accent-soft);
+}
+
+.unit-chest-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.75rem;
+}
+.chest-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.75rem 1.4rem;
+  border-radius: 20px;
+  border: 2px solid var(--border);
+  background: var(--card-bg);
+  box-shadow: 0 4px 0 var(--border);
+  font-size: 0.95rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.chest-btn.ready {
+  border-color: #f4a261;
+  background: #faedcd;
+  color: #b24d35;
+  box-shadow: 0 4px 0 #e76f51, 0 0 12px rgba(244, 162, 97, 0.4);
+  animation: pulseChest 1.8s infinite ease-in-out;
+}
+@keyframes pulseChest {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-3px) scale(1.03); }
+}
+.chest-btn.opened {
+  opacity: 0.6;
+  cursor: default;
+  box-shadow: 0 2px 0 var(--border);
+}
+
+/* Duolingo Weekly League Leaderboard */
+.league-hero {
+  background: linear-gradient(135deg, #2b2d42, #1d3557);
+  color: #fff;
+  padding: 1.75rem;
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+.league-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 1.05rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+.league-countdown {
+  font-size: 0.85rem;
+  opacity: 0.9;
+  margin-top: 0.35rem;
+}
+
+/* Podium */
+.podium-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+.podium-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90px;
+  text-align: center;
+}
+.podium-avatar {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+  position: relative;
+}
+.podium-crown {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.1rem;
+}
+.podium-name { font-size: 0.82rem; font-weight: 700; max-width: 80px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.podium-xp { font-size: 0.75rem; font-weight: 800; color: var(--accent); }
+.podium-block {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+.podium-step.p1 .podium-block { height: 90px; background: linear-gradient(180deg, #f39c12, #d35400); font-size: 1.5rem; }
+.podium-step.p2 .podium-block { height: 68px; background: linear-gradient(180deg, #95a5a6, #7f8c8d); font-size: 1.3rem; }
+.podium-step.p3 .podium-block { height: 50px; background: linear-gradient(180deg, #cd7f32, #a0522d); font-size: 1.2rem; }
+
+/* League Table */
+.league-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.league-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: var(--card-bg);
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  transition: all 0.15s;
+}
+.league-row.current-user {
+  border-color: #f4a261;
+  background: var(--accent-soft);
+  box-shadow: 0 3px 0 #e76f51;
+  font-weight: 800;
+}
+.league-rank {
+  width: 28px;
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  text-align: center;
+}
+.league-row.current-user .league-rank { color: var(--primary); }
+.league-avatar { font-size: 1.5rem; }
+.league-name { flex: 1; font-weight: 600; font-size: 0.92rem; }
+.league-streak { font-size: 0.8rem; color: #f77f00; font-weight: 700; }
+.league-xp { font-size: 0.92rem; font-weight: 800; color: var(--primary); }
+
+.zone-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem 0;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.zone-line.promote {
+  color: var(--success);
+  border-top: 2px dashed var(--success);
+  padding-top: 0.4rem;
+}
+.zone-line.demote {
+  color: var(--danger);
+  border-top: 2px dashed var(--danger);
+  padding-top: 0.4rem;
+}
+
+/* Hearts Recovery Modal */
+.refill-modal-card {
+  padding: 1.5rem;
+  text-align: center;
+}
+.refill-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  margin-top: 1.25rem;
+}
+.refill-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 1.2rem;
+  border-radius: var(--radius);
+  border: 2px solid var(--border);
+  background: var(--card-bg);
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+  box-shadow: 0 2px 0 var(--border);
+}
+.refill-btn:hover { border-color: var(--accent); }
 
 /* Bottom Nav (Mobile) */
 .bottom {

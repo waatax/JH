@@ -23,6 +23,22 @@ export const REVIEW_DAYS = [1, 3, 7, 14, 30];
 export const FREEZE_COST = 100, MAX_FREEZES = 2, QUEST_GEMS = 10, QUEST_BONUS = 20, CROWN_GEMS = 15, BADGE_GEMS = 20;
 export const LESSON_SIZE = 10, BOSS_SIZE = 12, HEARTS = 3;
 
+export const LEAGUES = [
+  { id: 'bronze', name: '青銅聯賽', icon: '🥉', minXp: 0, avgPeerXp: 200 },
+  { id: 'silver', name: '白銀聯賽', icon: '🥈', minXp: 150, avgPeerXp: 450 },
+  { id: 'gold', name: '黃金聯賽', icon: '🥇', minXp: 350, avgPeerXp: 750 },
+  { id: 'sapphire', name: '藍寶石聯賽', icon: '💎', minXp: 600, avgPeerXp: 1200 },
+  { id: 'diamond', name: '鑽石聯賽', icon: '👑', minXp: 1000, avgPeerXp: 1800 }
+];
+
+export function currentWeekId(time = Date.now()) {
+  const d = new Date(time);
+  d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
+  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+  const weekNo = Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
+  return `${d.getUTCFullYear()}-W${String(weekNo).padStart(2, '0')}`;
+}
+
 const SCORED = new Set(['choice', 'listen', 'build', 'input', 'match']);
 export const isScored = it => SCORED.has(it?.type);
 
@@ -190,6 +206,8 @@ const fresh = now => ({
   frozen: [],
   freezes: 0,
   gems: 0,
+  league: { tier: 'bronze', weekId: currentWeekId(now), weeklyXp: 0 },
+  chests: {},
   quests: null,
   achievements: {},
   stories: {},
@@ -233,6 +251,14 @@ function sanitize(raw, now) {
   s.frozen = [...new Set((raw.frozen || []).filter(d => DAY_RE.test(d)))].sort();
   s.freezes = Math.min(MAX_FREEZES, num(raw.freezes));
   s.gems = num(raw.gems);
+  s.chests = isObj(raw.chests) ? { ...raw.chests } : {};
+  if (isObj(raw.league)) {
+    s.league = {
+      tier: LEAGUES.some(l => l.id === raw.league.tier) ? raw.league.tier : 'bronze',
+      weekId: String(raw.league.weekId || currentWeekId(now)),
+      weeklyXp: num(raw.league.weeklyXp)
+    };
+  }
   s.serial = num(raw.serial);
   if (isObj(raw.quests) && DAY_RE.test(raw.quests.day) && Array.isArray(raw.quests.list)) {
     s.quests = {
@@ -604,6 +630,14 @@ export function createGame({ storage, now = () => Date.now(), course }) {
       state.xp.days[today()] = (state.xp.days[today()] || 0) + earnedXp;
       if (!state.days.includes(today())) state.days.push(today());
 
+      // Update Weekly League XP
+      const curWeek = currentWeekId(now());
+      if (state.league.weekId !== curWeek) {
+        state.league.weekId = curWeek;
+        state.league.weeklyXp = 0;
+      }
+      state.league.weeklyXp += earnedXp;
+
       // Update node / crown status
       if (passed) {
         if (s.mode === 'lesson') {
@@ -658,6 +692,115 @@ export function createGame({ storage, now = () => Date.now(), course }) {
 
     clearResult() {
       result = null;
+    },
+
+    getLeagueData() {
+      const tierId = state.league?.tier || 'bronze';
+      const tierObj = LEAGUES.find(l => l.id === tierId) || LEAGUES[0];
+      const curWeek = currentWeekId(now());
+
+      if (state.league.weekId !== curWeek) {
+        state.league.weekId = curWeek;
+        state.league.weeklyXp = 0;
+        save();
+      }
+
+      const d = new Date(now());
+      const dayOfWeek = d.getUTCDay() || 7;
+      const daysLeft = 7 - dayOfWeek;
+
+      const PEER_NAMES = [
+        '陳*宇', '林*軒', '黃*綺', '張*庭', '李*宏', '吳*恩', '王*翔',
+        '蔡*妤', '劉*廷', '楊*涵', '許*凱', '鄭*宣', '謝*辰', '洪*晴',
+        '郭*霖', '曾*欣', '邱*瑋', '廖*睿', '賴*婕', '周*豪', '徐*蓉',
+        '蘇*杰', '葉*彤', '莊*凱', '江*寧', '何*威', '蕭*筑', '潘*佑', '彭*琳'
+      ];
+      const PEER_AVATARS = ['🦊', '🐼', '🦁', '🐨', '🐯', '🐰', '🐸', '🐵', '🐱', '🐶', '🦄', '🦉', '🐻', '🐧', '🦆', '🐝', '🐙', '🦖', '🦋', '🐺', '🦔', '🦥', '🦦', '🦘', '🦚', '🦜', '🐬', '🐳', '🐘'];
+
+      const entries = PEER_NAMES.map((name, idx) => {
+        const seedStr = `${curWeek}-${tierId}-${idx}`;
+        let h = 2166136261;
+        for (const c of seedStr) {
+          h ^= c.codePointAt(0);
+          h = Math.imul(h, 16777619);
+        }
+        const posH = h >>> 0;
+        const base = tierObj.avgPeerXp;
+        const variance = (posH % 200) - 100;
+        const peerXp = Math.max(10, base + variance + Math.round((7 - daysLeft) * (base / 7)));
+        return {
+          name,
+          avatar: PEER_AVATARS[idx % PEER_AVATARS.length],
+          weeklyXp: peerXp,
+          streak: (posH % 15) + 1,
+          isUser: false
+        };
+      });
+
+      entries.push({
+        name: '你 (自學者)',
+        avatar: '🙂',
+        weeklyXp: state.league.weeklyXp || 0,
+        streak: streak(),
+        isUser: true
+      });
+
+      entries.sort((a, b) => b.weeklyXp - a.weeklyXp);
+
+      entries.forEach((e, i) => {
+        e.rank = i + 1;
+        if (e.rank <= 7) e.zone = 'promote';
+        else if (e.rank >= 26) e.zone = 'demote';
+        else e.zone = 'safe';
+      });
+
+      const userRank = entries.findIndex(e => e.isUser) + 1;
+
+      return {
+        tier: tierObj.id,
+        tierName: tierObj.name,
+        icon: tierObj.icon,
+        weekId: curWeek,
+        daysLeft,
+        userRank,
+        entries
+      };
+    },
+
+    canOpenChest(unitId) {
+      if (!unitId) return false;
+      const isDone = !!state.crowns[unitId] || (state.nodes[unitId + ':boss']?.n > 0);
+      return isDone && !state.chests?.[unitId];
+    },
+
+    isChestOpened(unitId) {
+      return !!state.chests?.[unitId];
+    },
+
+    openChest(unitId) {
+      if (!game.canOpenChest(unitId)) return { ok: false, msg: '尚未完成該單元挑戰' };
+      state.chests[unitId] = true;
+      state.gems += 15;
+      save();
+      return { ok: true, gems: 15 };
+    },
+
+    refillHeartsWithGems() {
+      if (state.gems < 30) return { ok: false, msg: '寶石不足 (需要 30 💎)' };
+      state.gems -= 30;
+      if (state.session && state.session.hearts !== null) {
+        state.session.hearts = HEARTS;
+      }
+      save();
+      return { ok: true, hearts: HEARTS, gems: state.gems };
+    },
+
+    refillHeartsWithPractice() {
+      if (state.session && state.session.hearts !== null) {
+        state.session.hearts = Math.min(HEARTS, state.session.hearts + 1);
+      }
+      save();
+      return { ok: true, hearts: state.session?.hearts ?? HEARTS };
     },
 
     buyFreeze() {

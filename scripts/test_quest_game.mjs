@@ -131,3 +131,48 @@ test('5. Placement Test Diagnostics', () => {
   assert.equal(res.mode, 'placement');
   assert(['s1', 's2', 's3', 's4', 's5', 's6'].includes(res.recommended), 'Must recommend a valid semester section');
 });
+
+test('6. Duolingo Weekly League Leaderboard Generation', () => {
+  const course = createCourse(index);
+  const game = createGame({ storage: mockStorage(), course });
+
+  const league = game.getLeagueData();
+  assert.equal(league.entries.length, 30, 'League cohort must contain exactly 30 participants');
+  assert(league.userRank >= 1 && league.userRank <= 30, 'User rank must be between 1 and 30');
+  assert.equal(league.entries.filter(e => e.zone === 'promote').length, 7, 'Top 7 must be in promotion zone');
+  assert.equal(league.entries.filter(e => e.zone === 'demote').length, 5, 'Bottom 5 must be in demotion zone');
+  assert.equal(league.tier, 'bronze', 'Initial league tier must be bronze');
+});
+
+test('7. Duolingo Unit Treasure Chests & Heart Refill', () => {
+  const course = createCourse(index);
+  const s1 = JSON.parse(fs.readFileSync(path.join(root, 's1.json'), 'utf8'));
+  const items = JSON.parse(fs.readFileSync(path.join(root, 'items.json'), 'utf8'));
+  course.register({ id: 'items', items });
+  course.register({ id: 's1', units: s1.units });
+
+  const game = createGame({ storage: mockStorage(), course });
+
+  // Can't open chest before completing unit
+  assert.equal(game.canOpenChest('math-1'), false);
+
+  // Complete boss
+  game.state.crowns['math-1'] = Date.now();
+  assert.equal(game.canOpenChest('math-1'), true);
+
+  // Open chest
+  const initialGems = game.state.gems;
+  const chestRes = game.openChest('math-1');
+  assert.equal(chestRes.ok, true);
+  assert.equal(game.state.gems, initialGems + 15);
+  assert.equal(game.isChestOpened('math-1'), true);
+  assert.equal(game.canOpenChest('math-1'), false);
+
+  // Refill hearts with gems
+  game.state.gems = 50;
+  game.state.session = { hearts: 0 };
+  const refillRes = game.refillHeartsWithGems();
+  assert.equal(refillRes.ok, true);
+  assert.equal(game.state.session.hearts, 3);
+  assert.equal(game.state.gems, 20);
+});

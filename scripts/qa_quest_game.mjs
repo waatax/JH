@@ -242,10 +242,53 @@ check('Today XP calculation returns non-negative integer', typeof todayXp === 'n
 
 // Test 5.4 Course Atlas & Next Adventure Recommender
 const atlasHtml = courseAtlas(mockCourse, game, 's1');
-check('courseAtlas generates valid HTML with 6 semester chips', atlasHtml.includes('atlas-grid') && (atlasHtml.match(/atlas-chip/g) || []).length >= 6);
+check('courseAtlas generates valid HTML with 6 semester chips', atlasHtml.includes('atlas-grades-wrap') && (atlasHtml.match(/atlas-chip/g) || []).length >= 6);
 
 const adv = nextAdventure(game, mockCourse, 's1');
 check('nextAdventure recommends valid next node', !!adv && !!adv.id && !!adv.title);
+
+// -----------------------------------------------------------------
+// 6. Duolingo-Like Gamification: League, Chests & Hearts
+// -----------------------------------------------------------------
+console.log('\n--- 6. Duolingo Gamification Engine ---');
+const leagueData = game.getLeagueData();
+check('League data contains 30 participants', leagueData.entries.length === 30);
+check('League user rank is between 1 and 30', leagueData.userRank >= 1 && leagueData.userRank <= 30);
+check('Top 7 participants in promotion zone', leagueData.entries.filter(e => e.zone === 'promote').length === 7);
+check('Bottom 5 participants in demotion zone', leagueData.entries.filter(e => e.zone === 'demote').length === 5);
+
+// Test Treasure Chests
+game.state.crowns['math-1'] = Date.now();
+check('Can open unit chest after boss completion', game.canOpenChest('math-1') === true);
+const prevGems = game.state.gems;
+const chestRes = game.openChest('math-1');
+check('Opening chest awards 15 gems', chestRes.ok === true && game.state.gems === prevGems + 15);
+check('Cannot reopen already opened chest', game.canOpenChest('math-1') === false);
+
+// Test Hearts Refill
+game.state.gems = 60;
+game.state.session = { hearts: 0 };
+const refillRes = game.refillHeartsWithGems();
+check('Heart refill restores hearts to full using gems', refillRes.ok === true && game.state.session.hearts === 3);
+
+// -----------------------------------------------------------------
+// 7. 108 Curriculum All-Subject Coverage Verification
+// -----------------------------------------------------------------
+console.log('\n--- 7. 108 Curriculum Subject & Grade Coverage ---');
+const allUnits = index.sections.flatMap(s => s.units);
+const g7Units = allUnits.filter(u => u.grade === 7);
+const g8Units = allUnits.filter(u => u.grade === 8);
+const g9Units = allUnits.filter(u => u.grade === 9);
+
+check('Grade 7 (國一) has 59 units (33 in s1, 26 in s2)', g7Units.length === 59);
+check('Grade 8 (國二) has 65 units (36 in s3, 29 in s4)', g8Units.length === 65);
+check('Grade 9 (國三) has 64 units (28 in s5, 36 in s6)', g9Units.length === 64);
+
+const coreUnits = allUnits.filter(u => !u.isSpecialized);
+const specializedUnits = allUnits.filter(u => u.isSpecialized);
+check('Core academic subjects have 154 units', coreUnits.length === 154);
+check('Specialized & arts/tech subjects have 34 units', specializedUnits.length === 34);
+check('All 188 units have valid gradeName and gradeTermName', allUnits.every(u => u.gradeName && u.gradeTermName));
 
 // -----------------------------------------------------------------
 // Summary

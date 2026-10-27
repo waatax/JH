@@ -1,13 +1,14 @@
 // dist/quest/view.mjs
 // Interactive view controller & DOM renderer for JH Quest
-// Optimized with high-quality icons, responsive UIUX, and 108 Curriculum 6-semester mastery
+// Duolingo-Like gamification with 108 Curriculum 6-semester mastery, S-curve trail,
+// weekly league leaderboard, unit treasure chests, and multi-modal practice.
 
-import { createCourse, createGame, isScored, shuffle, XP, HEARTS, BADGES } from './engine.mjs?v=20261027v1';
-import * as sound from './sound.mjs?v=20261027v1';
-import { answerText, correctionTip } from './coach.mjs?v=20261027v1';
-import { courseAtlas, nextAdventure } from './atlas.mjs?v=20261027v1';
+import { createCourse, createGame, isScored, shuffle, XP, HEARTS, BADGES, LEAGUES } from './engine.mjs?v=20261027v2';
+import * as sound from './sound.mjs?v=20261027v2';
+import { answerText, correctionTip } from './coach.mjs?v=20261027v2';
+import { courseAtlas, nextAdventure } from './atlas.mjs?v=20261027v2';
 
-const V = '20261027v1';
+const V = '20261027v2';
 const root = document.querySelector('#game');
 let storage;
 try { storage = globalThis.localStorage; } catch {}
@@ -17,6 +18,7 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': 
 const TABS = [
   ['learn', '🏠', '學習'],
   ['practice', '💪', '練習'],
+  ['leaderboard', '🏆', '聯賽'],
   ['stories', '📖', '故事'],
   ['library', '📚', '教材'],
   ['profile', '🙂', '我的']
@@ -26,10 +28,20 @@ const PRAISE = ['太棒了！', '答對了！', '概念非常清楚！', '完全
 const KIND_TEXT = { concept: '概念起點', rule: '判準法則', reasoning: '思維推演', mastery: '避坑精熟', boss: '單元挑戰' };
 const OFFSETS = [0, 1, 1.6, 1, 0, -1, -1.6, -1];
 
+const COMPANION_MESSAGES = [
+  '每天弄懂一個觀念，就是往前邁出紮實的一大步！',
+  '遇到題目卡關別灰心，三步思維鏈會陪你理清頭緒！',
+  '108 課綱重在理解與素養，從真實生活現象中看見學科原理！',
+  '做錯了沒關係！「課內修復」會幫你在這堂課徹底搞懂！',
+  '保持自學熱情，每天一小關，你比想像中更厲害！'
+];
+
 let course, game;
 const ui = {
   tab: 'learn',
   track: 's1',
+  gradeFilter: 'all', // 'all' | '7' | '8' | '9'
+  catFilter: 'all',   // 'all' | 'core' | 'tech' | 'arts' | 'activity'
   subjFilter: 'all',
   libFilter: '',
   pop: null,
@@ -37,6 +49,7 @@ const ui = {
   modal: null,
   toast: [],
   busy: '',
+  msgIdx: 0,
   a: { value: '', tokens: [], text: '', left: null, done: [], wrong: 0, hint: false }
 };
 
@@ -118,7 +131,6 @@ function mascot(mood = 'happy', size = 72) {
       <circle cx="62" cy="44" r="3.5" fill="#193e35"/>
     `;
     decor = `
-      <!-- Idea Lightbulb floating -->
       <circle cx="78" cy="20" r="5" fill="#f4a261"/>
       <line x1="78" y1="13" x2="78" y2="10" stroke="#f4a261" stroke-width="2"/>
       <line x1="84" y1="16" x2="87" y2="14" stroke="#f4a261" stroke-width="2"/>
@@ -139,22 +151,29 @@ function mascot(mood = 'happy', size = 72) {
   return `
     <svg class="mascot ${mood}" width="${size}" height="${size}" viewBox="0 0 100 100" aria-hidden="true">
       ${decor}
-      <!-- Body & Feathers -->
       <ellipse cx="50" cy="55" rx="34" ry="36" fill="#2d6a4f"/>
       <ellipse cx="50" cy="62" rx="26" ry="24" fill="#d8f3dc"/>
-      <!-- Wings -->
       <path d="M16 52 C 14 62, 22 72, 28 68" fill="none" stroke="#193e35" stroke-width="2.5" stroke-linecap="round"/>
       <path d="M84 52 C 86 62, 78 72, 72 68" fill="none" stroke="#193e35" stroke-width="2.5" stroke-linecap="round"/>
-      <!-- Eyes & Beak -->
       ${eyes}
       ${beak}
-      <!-- Scholar Cap -->
       <polygon points="50,16 20,26 50,34 80,26" fill="#193e35"/>
       <rect x="42" y="28" width="16" height="8" rx="2" fill="#193e35"/>
       <line x1="74" y1="28" x2="78" y2="44" stroke="#e9c46a" stroke-width="2.5"/>
       <circle cx="78" cy="46" r="2.5" fill="#e9c46a"/>
     </svg>
   `;
+}
+
+function companionMsg(g) {
+  const s = g.streak();
+  const xp = g.todayXp();
+  const goal = g.goalXp();
+
+  if (xp >= goal) return `太棒了！今天的 ${goal} XP 自學目標已達成 🎉`;
+  if (s >= 3) return `哇！連續自學已維持 ${s} 天，習慣力勢不可擋！🔥`;
+  if (g.mistakeCount() > 0) return `錯題本還有 ${g.mistakeCount()} 題等待消剿，趁熱打鐵複習一下吧！`;
+  return COMPANION_MESSAGES[ui.msgIdx % COMPANION_MESSAGES.length];
 }
 
 function stats() {
@@ -172,6 +191,7 @@ function rail() {
   const st = game.state, today = game.todayXp(), goal = game.goalXp();
   const pct = Math.min(100, Math.round(100 * today / goal));
   const due = game.dueUnits(), mist = game.mistakeCount();
+  const league = game.getLeagueData();
 
   return `
     <aside class="rail" aria-label="學習推進總覽">
@@ -180,17 +200,29 @@ function rail() {
         <p class="muted">${today >= goal ? '太棒了！今日自學目標已達成 🎉' : `再獲得 ${goal - today} XP 即可達標`}</p>
         <div class="progress" style="margin-top:0.75rem;"><span style="width:${pct}%"></span></div>
       </section>
+
+      <section class="card">
+        <h3>${league.icon} ${league.tierName}</h3>
+        <p class="muted small">本週累積 <b>${league.entries.find(e => e.isUser)?.weeklyXp || 0} XP</b> · 目前排名 <b>#${league.userRank}</b></p>
+        <p class="small" style="margin-top:0.4rem;color:${league.userRank <= 7 ? 'var(--success)' : 'var(--text-muted)'};">
+          ${league.userRank <= 7 ? '▲ 目前位居晉級區 (前 7 名)！' : '前 7 名晉級，再接再厲！'}
+        </p>
+        <a class="btn ghost small" href="#leaderboard" style="margin-top:0.6rem;width:100%;">查看完整聯賽榜單 →</a>
+      </section>
+
       <section class="card">
         <h3>🔥 連續自學 ${game.streak()} 天</h3>
         <p class="muted small">${st.days.includes(game.today()) ? '今日已完成關卡，習慣又累積了一天！' : '完成任一關卡或練習，今天就算數。'}</p>
         <p class="small" style="margin-top:0.5rem;">🧊 凍結卡：${st.freezes}/2 <button class="btn ghost small" data-act="shop" style="margin-left:0.5rem;padding:0.2rem 0.5rem;">兌換</button></p>
       </section>
+
       <section class="card">
         <h3>每日任務</h3>
         <ul style="list-style:none;margin-top:0.5rem;display:flex;flex-direction:column;gap:0.4rem;">
           ${(st.quests?.list || []).map(q => `<li class="small ${q.done ? 'done' : ''}">${q.done ? '✅' : '🎯'} ${esc(game.questLabel(q))} (${q.n}/${q.target})</li>`).join('')}
         </ul>
       </section>
+
       ${due.length || mist ? `
         <section class="card">
           <h3>溫故知新</h3>
@@ -255,6 +287,30 @@ function layout(body) {
 // -------------------------------------------------------------
 // Views: #learn (The Path)
 // -------------------------------------------------------------
+function makeTrailSvg(index) {
+  const pts = [0, 1, 2, 3, 4].map(i => {
+    const off = OFFSETS[(index * 3 + i) % OFFSETS.length];
+    const x = 140 + off * 34;
+    const y = 35 + i * 90;
+    return { x, y };
+  });
+
+  let d = `M ${pts[0].x} ${pts[0].y}`;
+  for (let i = 0; i < pts.length - 1; i++) {
+    const p1 = pts[i];
+    const p2 = pts[i + 1];
+    const cy1 = p1.y + 45;
+    const cy2 = p2.y - 45;
+    d += ` C ${p1.x} ${cy1}, ${p2.x} ${cy2}, ${p2.x} ${p2.y}`;
+  }
+
+  return `
+    <svg class="trail-svg" viewBox="0 0 280 430" preserveAspectRatio="none" aria-hidden="true">
+      <path class="trail-path" d="${d}" />
+    </svg>
+  `;
+}
+
 function learnPage() {
   const t = course.track(ui.track);
   if (!t) return '<p>載入段落中…</p>';
@@ -262,44 +318,77 @@ function learnPage() {
   const currentId = game.current(t.id);
   const mission = nextAdventure(game, course, t.id);
 
-  // Subject filter bar
-  const subjFilters = [
-    ['all', '全部學科'],
-    ['chinese', '📜 國文'],
-    ['english', '🔤 英文'],
-    ['math', '📐 數學'],
-    ['science', '🔬 自然'],
-    ['social', '🏛️ 社會'],
-    ['life', '🚀 跨域素養']
+  // Companion speech
+  const speechBox = `
+    <div class="mascot-speech-wrap">
+      <div data-act="cycle-msg" style="cursor:pointer;" title="點擊換一句鼓勵話語">${mascot('happy', 52)}</div>
+      <div class="mascot-bubble">
+        <span>「${esc(companionMsg(game))}」</span>
+        <button class="btn ghost small" data-act="say" data-text="${esc(companionMsg(game))}" style="margin-left:0.5rem;padding:0.15rem 0.45rem;" title="朗讀">🔊</button>
+      </div>
+    </div>
+  `;
+
+  // Grade Quick Selector
+  const gradeFilters = [
+    ['all', '全部學年'],
+    ['7', '國一（七年級）'],
+    ['8', '國二（八年級）'],
+    ['9', '國三（九年級）']
+  ];
+
+  // Subject Category Filters (Basic vs Specialized 108 Curriculum)
+  const catFilters = [
+    ['all', '🌟 全部領域'],
+    ['core', '📚 核心五科 (國/英/數/自/社)'],
+    ['tech', '💻 專業科技 (資訊/生科)'],
+    ['arts', '🎨 藝術人文 (視覺/音樂/表演)'],
+    ['activity', '🏃 健體綜合 (健體/家政/童軍/輔導)']
   ];
 
   const filterBar = `
-    <div class="subject-filter-bar">
-      ${subjFilters.map(([k, label]) => `
-        <button class="subj-pill ${ui.subjFilter === k ? 'active' : ''}" data-act="filter-subj" data-sub="${k}">
-          ${label}
-        </button>
-      `).join('')}
+    <div style="margin-bottom:1.25rem;">
+      <div class="subject-filter-bar" style="margin-bottom:0.5rem;">
+        ${gradeFilters.map(([k, label]) => `
+          <button class="subj-pill ${ui.gradeFilter === k ? 'active' : ''}" data-act="filter-grade" data-grade="${k}">
+            ${label}
+          </button>
+        `).join('')}
+      </div>
+      <div class="subject-filter-bar">
+        ${catFilters.map(([k, label]) => `
+          <button class="subj-pill ${ui.catFilter === k ? 'active' : ''}" data-act="filter-cat" data-cat="${k}">
+            ${label}
+          </button>
+        `).join('')}
+      </div>
     </div>
   `;
 
   // Filter units
   let displayUnits = t.units;
-  if (ui.subjFilter !== 'all') {
-    if (ui.subjFilter === 'science') displayUnits = t.units.filter(u => ['biology', 'physics', 'chemistry', 'earth'].includes(u.subject));
-    else if (ui.subjFilter === 'social') displayUnits = t.units.filter(u => ['history', 'geography', 'civics'].includes(u.subject));
-    else if (ui.subjFilter === 'life') displayUnits = t.units.filter(u => !['chinese', 'english', 'math', 'biology', 'physics', 'chemistry', 'earth', 'history', 'geography', 'civics'].includes(u.subject));
-    else displayUnits = t.units.filter(u => u.subject === ui.subjFilter);
+
+  // Grade filter
+  if (ui.gradeFilter !== 'all') {
+    const gNum = Number(ui.gradeFilter);
+    displayUnits = displayUnits.filter(u => u.grade === gNum);
+  }
+
+  // Category filter
+  if (ui.catFilter !== 'all') {
+    displayUnits = displayUnits.filter(u => u.category === ui.catFilter);
   }
 
   const unitsHtml = displayUnits.map((u, uiIdx) => unitBlock(t, u, uiIdx, currentId)).join('');
 
   return `
     <section class="track-head ${t.id}">
-      <p class="eyebrow">${t.kind === 'section' ? `108 課綱 · 第 ${t.no} 段` : '專精目標分支'}</p>
+      <p class="eyebrow">${t.kind === 'section' ? `108 課綱 · ${t.gradeName || ''}${t.termName || `第 ${t.no} 段`}` : '專精目標分支'}</p>
       <h1>${esc(t.title)}</h1>
       <p>${esc(t.level)} · ${t.units.length} 個單元 · 完整展開</p>
     </section>
+
+    ${speechBox}
 
     <section class="adventure">
       <span>🧭</span>
@@ -316,7 +405,7 @@ function learnPage() {
     ${filterBar}
 
     <div class="path">
-      ${unitsHtml || '<p class="muted">此篩選條件下無單元。</p>'}
+      ${unitsHtml || '<p class="muted">此篩選條件下無符合單元，請切換學期或學科分類。</p>'}
     </div>
   `;
 }
@@ -340,17 +429,33 @@ function unitBlock(t, u, index, currentId) {
     `;
   }).join('');
 
+  // Unit Treasure Chest (Duolingo Style reward)
+  const canOpen = game.canOpenChest(u.id);
+  const isOpened = game.isChestOpened(u.id);
+  const chestHtml = `
+    <div class="unit-chest-row">
+      <button class="chest-btn ${isOpened ? 'opened' : canOpen ? 'ready' : ''}" data-act="open-chest" data-unit="${u.id}" ${isOpened || !canOpen ? 'disabled' : ''}>
+        <span>${isOpened ? '📭' : '🎁'}</span>
+        <b>${isOpened ? '已領取通關寶石 (+15 💎)' : canOpen ? '領取單元通關寶箱！(+15 💎)' : '通關單元挑戰即可解鎖寶箱'}</b>
+      </button>
+    </div>
+  `;
+
   return `
     <section class="unit">
       <header class="unit-banner subj-${u.subject || 'chinese'}">
         <div class="unit-banner-info">
-          <span class="unit-subj-badge">${u.subjectName || ''}</span>
+          <span class="unit-subj-badge">${u.gradeName || ''} · ${u.subjectName || ''}</span>
           <h2>${u.icon || '📖'} ${esc(u.title)}</h2>
           ${u.pitfall ? `<small class="unit-pitfall-tag">⚠️ 核心避坑：${esc(u.pitfall)}</small>` : ''}
         </div>
         <button class="guide-btn" data-act="guide" data-id="${u.id}">📘 指南</button>
       </header>
-      <div class="nodes">${nodesHtml}</div>
+      <div class="nodes-wrap">
+        ${makeTrailSvg(index)}
+        <div class="nodes" style="position:relative;z-index:2;">${nodesHtml}</div>
+      </div>
+      ${chestHtml}
     </section>
   `;
 }
@@ -368,6 +473,87 @@ function popover(n, status, u) {
 }
 
 // -------------------------------------------------------------
+// Views: #leaderboard (Duolingo Weekly League)
+// -------------------------------------------------------------
+function leaderboardPage() {
+  const l = game.getLeagueData();
+  const top3 = l.entries.slice(0, 3);
+
+  return `
+    <section class="league-hero">
+      <div class="league-badge">
+        <span>${l.icon}</span>
+        <b>${l.tierName}</b>
+      </div>
+      <h1 style="font-size:1.6rem;font-weight:800;margin:0.25rem 0;">每週聯賽排行榜</h1>
+      <p class="league-countdown">⏳ 本週聯賽剩餘 ${l.daysLeft} 天 · 前 7 名升級至更高階聯賽</p>
+    </section>
+
+    <!-- Podium for Top 3 -->
+    <div class="podium-wrap">
+      ${top3[1] ? `
+        <div class="podium-step p2">
+          <div class="podium-avatar">
+            <span class="podium-crown">🥈</span>
+            ${top3[1].avatar}
+          </div>
+          <span class="podium-name">${esc(top3[1].name)}</span>
+          <span class="podium-xp">${top3[1].weeklyXp} XP</span>
+          <div class="podium-block">2</div>
+        </div>
+      ` : ''}
+      ${top3[0] ? `
+        <div class="podium-step p1">
+          <div class="podium-avatar">
+            <span class="podium-crown">👑</span>
+            ${top3[0].avatar}
+          </div>
+          <span class="podium-name">${esc(top3[0].name)}</span>
+          <span class="podium-xp">${top3[0].weeklyXp} XP</span>
+          <div class="podium-block">1</div>
+        </div>
+      ` : ''}
+      ${top3[2] ? `
+        <div class="podium-step p3">
+          <div class="podium-avatar">
+            <span class="podium-crown">🥉</span>
+            ${top3[2].avatar}
+          </div>
+          <span class="podium-name">${esc(top3[2].name)}</span>
+          <span class="podium-xp">${top3[2].weeklyXp} XP</span>
+          <div class="podium-block">3</div>
+        </div>
+      ` : ''}
+    </div>
+
+    <!-- Full 30 Learners List -->
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.75rem;">
+        <h3>本組 30 位自學者排名</h3>
+        <span class="small muted">每週一重置結算</span>
+      </div>
+      <div class="league-table">
+        ${l.entries.map((e, idx) => {
+          const isPromoteLine = e.rank === 7;
+          const isDemoteLine = e.rank === 25;
+          return `
+            <div class="league-row ${e.isUser ? 'current-user' : ''}">
+              <span class="league-rank">#${e.rank}</span>
+              <span class="league-avatar">${e.avatar}</span>
+              <span class="league-name">${esc(e.name)} ${e.isUser ? '🌟 (你)' : ''}</span>
+              <span class="league-streak">🔥 ${e.streak}</span>
+              <span class="league-xp">${e.weeklyXp} XP</span>
+            </div>
+            ${isPromoteLine ? '<div class="zone-line promote">▲ 以上為晉級區 (升至更高階聯賽) ▲</div>' : ''}
+            ${isDemoteLine ? '<div class="zone-line demote">▼ 以下為降級區 ▼</div>' : ''}
+          `;
+        }).join('')}
+      </div>
+    </div>
+  `;
+}
+
+// -------------------------------------------------------------
 // Views: Lesson Screen
 // -------------------------------------------------------------
 function lessonView() {
@@ -377,7 +563,7 @@ function lessonView() {
 
   const pct = Math.round((s.index / s.queue.length) * 100);
   const hearts = s.hearts !== null ? `<span class="hearts">${'❤️'.repeat(s.hearts)}${'🤍'.repeat(HEARTS - s.hearts)}</span>` : '';
-  const combo = s.combo >= 3 ? `<span class="combo">🔥 ${s.combo} 連對</span>` : '';
+  const combo = s.combo >= 3 ? `<span class="combo">🔥 ${s.combo} 連對！</span>` : '';
 
   return `
     <div class="lesson-screen">
@@ -585,12 +771,35 @@ function resultView() {
   const r = game.result;
   if (!r) return '';
 
+  if (r.passed === false && r.mode === 'boss') {
+    // Out of hearts modal (Duolingo Style Refill)
+    return `
+      <div class="modal-bg"></div>
+      <div class="modal card center" style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);max-width:440px;width:90%;z-index:2000;text-align:center;padding:2rem 1.5rem;">
+        ${mascot('sad', 80)}
+        <h2 style="margin:1rem 0 0.5rem;color:var(--danger);">心心用完了！💔</h2>
+        <p class="muted">挑戰需要穩固的概念基礎，別擔心，選擇一種方式補充生命吧！</p>
+        <div class="refill-options">
+          <button class="refill-btn" data-act="refill-gems">
+            <span>💎 寶石兌換滿心</span>
+            <b>消耗 30 寶石</b>
+          </button>
+          <button class="refill-btn" data-act="refill-practice">
+            <span>💪 以練代補 (+1 心)</span>
+            <b>前往鞏固練習</b>
+          </button>
+        </div>
+        <button class="btn ghost small" data-act="done" style="margin-top:1.25rem;">先暫停退出</button>
+      </div>
+    `;
+  }
+
   return `
     <div class="modal-bg"></div>
     <div class="modal card center" style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);max-width:480px;width:90%;z-index:2000;text-align:center;padding:2rem 1.5rem;">
       ${mascot(r.passed ? 'celebrate' : 'sad', 88)}
-      <h2 style="margin:1rem 0 0.5rem;">${r.passed ? '恭喜過關！' : '差一點點，再接再厲！'}</h2>
-      <p class="muted">${r.perfect ? '全對無瑕完成！太厲害了！' : '錯題已自動排入錯題本，隨時可以複習。'}</p>
+      <h2 style="margin:1rem 0 0.5rem;">${r.passed ? '恭喜過關！🎉' : '差一點點，再接再厲！'}</h2>
+      <p class="muted">${r.perfect ? '全對無瑕完成！太厲害了！' : r.passed ? '概念掌握得非常清楚！' : '錯題已自動排入錯題本，隨時可以複習。'}</p>
       <div style="display:flex;justify-content:center;gap:1.5rem;margin:1.5rem 0;">
         <div><small class="muted">獲得能量</small><br><b>⚡ +${r.xp} XP</b></div>
         <div><small class="muted">本次正確率</small><br><b>🎯 ${Math.round((r.accuracy || 0) * 100)}%</b></div>
@@ -614,6 +823,7 @@ function render() {
 
   let body = '';
   if (ui.tab === 'learn') body = learnPage();
+  else if (ui.tab === 'leaderboard') body = leaderboardPage();
   else if (ui.tab === 'practice') {
     const due = game.dueUnits();
     body = `
@@ -667,7 +877,7 @@ function render() {
           <div class="card" style="display:flex;justify-content:space-between;align-items:center;">
             <div>
               <b>${u.icon || '📖'} ${esc(u.title)}</b>
-              <small class="muted" style="margin-left:0.5rem;">${u.grade}年級 · ${u.subjectName || ''}</small>
+              <small class="muted" style="margin-left:0.5rem;">${u.gradeName || `${u.grade}年級`} · ${u.subjectName || ''}</small>
             </div>
             <button class="btn ghost small" data-act="guide" data-id="${u.id}">單元指南</button>
           </div>
@@ -682,7 +892,7 @@ function render() {
         ${mascot('happy', 64)}
         <div>
           <h3>連續自學 ${game.streak()} 天 · 累積 ${st.xp.total} XP</h3>
-          <p class="muted small">已收穫 ${st.stats.crowns} 頂金冠 👑 · 完成 ${st.stats.lessons} 關課程</p>
+          <p class="muted small">已收穫 ${st.stats.crowns} 頂金冠 👑 · 完成 ${st.stats.lessons} 關課程 · 開啟 ${Object.keys(st.chests || {}).length} 個寶箱 🎁</p>
         </div>
       </div>
       <h3 style="margin-top:1.5rem;">🏆 成就徽章</h3>
@@ -707,7 +917,7 @@ function render() {
 // -------------------------------------------------------------
 window.addEventListener('hashchange', () => {
   const hash = location.hash.replace(/^#/, '');
-  if (['learn', 'practice', 'stories', 'library', 'profile'].includes(hash)) {
+  if (['learn', 'practice', 'leaderboard', 'stories', 'library', 'profile'].includes(hash)) {
     ui.tab = hash;
     render();
   }
@@ -794,6 +1004,9 @@ document.addEventListener('click', async e => {
   if (act === 'sound-toggle') {
     sound.toggleMute();
     render();
+  } else if (act === 'cycle-msg') {
+    ui.msgIdx++;
+    render();
   } else if (act === 'pop') {
     const id = actBtn.dataset.id;
     ui.pop = ui.pop === id ? null : id;
@@ -805,6 +1018,16 @@ document.addEventListener('click', async e => {
     render();
   } else if (act === 'tracks') {
     ui.modal = 'tracks';
+    render();
+  } else if (act === 'filter-grade') {
+    ui.gradeFilter = actBtn.dataset.grade;
+    if (ui.gradeFilter === '7' && !['s1', 's2'].includes(ui.track)) ui.track = 's1';
+    else if (ui.gradeFilter === '8' && !['s3', 's4'].includes(ui.track)) ui.track = 's3';
+    else if (ui.gradeFilter === '9' && !['s5', 's6'].includes(ui.track)) ui.track = 's5';
+    await ensure([ui.track, 'items']);
+    render();
+  } else if (act === 'filter-cat') {
+    ui.catFilter = actBtn.dataset.cat;
     render();
   } else if (act === 'filter-subj') {
     ui.subjFilter = actBtn.dataset.sub;
@@ -826,6 +1049,30 @@ document.addEventListener('click', async e => {
     await ensure(['s1', 's2', 's3', 's4', 's5', 's6', 'items']);
     game.startSession('placement', size);
     ui.a = freshAnswer();
+    render();
+  } else if (act === 'open-chest') {
+    const uid = actBtn.dataset.unit;
+    const res = game.openChest(uid);
+    if (res?.ok) {
+      sound.playTone('level');
+      toast('🎉 成功開啟通關寶箱！獲得 15 💎 能量寶石！');
+      render();
+    }
+  } else if (act === 'refill-gems') {
+    const res = game.refillHeartsWithGems();
+    if (res?.ok) {
+      sound.playTone('level');
+      toast('❤️ 成功消耗 30 寶石恢復滿心！');
+      game.clearResult();
+      render();
+    } else {
+      toast(res?.msg || '寶石不足');
+    }
+  } else if (act === 'refill-practice') {
+    game.clearResult();
+    game.clearSession();
+    ui.tab = 'practice';
+    location.hash = '#practice';
     render();
   } else if (act === 'start') {
     const mode = actBtn.dataset.mode;
@@ -909,7 +1156,7 @@ async function init() {
     await ensure(['s1', 'items', 'stories']);
 
     const hash = location.hash.replace(/^#/, '');
-    if (['learn', 'practice', 'stories', 'library', 'profile'].includes(hash)) {
+    if (['learn', 'practice', 'leaderboard', 'stories', 'library', 'profile'].includes(hash)) {
       ui.tab = hash;
     }
     render();

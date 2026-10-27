@@ -101,12 +101,12 @@ function registerItem(item, src) {
 // 1. Definition of Sections (6 Semesters) and Branches (8 Focus Tracks)
 // -------------------------------------------------------------
 const SECTIONS_CONFIG = [
-  { id: 's1', no: 1, grade: 7, term: 1, title: '七年級上學期', level: '國一打底與概念溯源', color: 'green', icon: '🌱' },
-  { id: 's2', no: 2, grade: 7, term: 2, title: '七年級下學期', level: '國一進階與生活應用', color: 'teal', icon: '🌿' },
-  { id: 's3', no: 3, grade: 8, term: 1, title: '八年級上學期', level: '國二推理與實驗實作', color: 'sky', icon: '🔬' },
-  { id: 's4', no: 4, grade: 8, term: 2, title: '八年級下學期', level: '國二深化與邏輯建模', color: 'blue', icon: '📐' },
-  { id: 's5', no: 5, grade: 9, term: 1, title: '九年級上學期', level: '國三統整與全科素養', color: 'indigo', icon: '🧭' },
-  { id: 's6', no: 6, grade: 9, term: 2, title: '九年級下學期', level: '國三衝刺與會考精熟', color: 'gold', icon: '👑' }
+  { id: 's1', no: 1, grade: 7, term: 1, gradeName: '國一', termName: '上學期', title: '七年級上學期', level: '國一打底與概念溯源 (七上)', color: 'green', icon: '🌱' },
+  { id: 's2', no: 2, grade: 7, term: 2, gradeName: '國一', termName: '下學期', title: '七年級下學期', level: '國一進階與生活應用 (七下)', color: 'teal', icon: '🌿' },
+  { id: 's3', no: 3, grade: 8, term: 1, gradeName: '國二', termName: '上學期', title: '八年級上學期', level: '國二推理與實驗實作 (八上)', color: 'sky', icon: '🔬' },
+  { id: 's4', no: 4, grade: 8, term: 2, gradeName: '國二', termName: '下學期', title: '八年級下學期', level: '國二深化與邏輯建模 (八下)', color: 'blue', icon: '📐' },
+  { id: 's5', no: 5, grade: 9, term: 1, gradeName: '國三', termName: '上學期', title: '九年級上學期', level: '國三統整與全科素養 (九上)', color: 'indigo', icon: '🧭' },
+  { id: 's6', no: 6, grade: 9, term: 2, gradeName: '國三', termName: '下學期', title: '九年級下學期', level: '國三衝刺與會考精熟 (九下)', color: 'gold', icon: '👑' }
 ];
 
 const BRANCHES_CONFIG = [
@@ -619,6 +619,26 @@ for (const secConfig of SECTIONS_CONFIG) {
     const { nodes, guide } = buildUnitNodes(u);
     const subj = subjectById[u.subject] || { name: u.subject };
 
+    const isSpecialized = !['chinese', 'english', 'math', 'biology', 'physics', 'chemistry', 'earth', 'history', 'geography', 'civics'].includes(u.subject);
+    const category = ['chinese', 'english', 'math', 'biology', 'physics', 'chemistry', 'earth', 'history', 'geography', 'civics'].includes(u.subject)
+      ? 'core'
+      : ['computing', 'technology'].includes(u.subject)
+      ? 'tech'
+      : ['visual', 'music', 'performing'].includes(u.subject)
+      ? 'arts'
+      : ['health', 'pe', 'home', 'scout', 'guidance'].includes(u.subject)
+      ? 'activity'
+      : 'local';
+
+    const SUBJ_ICONS = {
+      chinese: '📜', english: '🔤', local: '🗣️', math: '📐',
+      biology: '🧬', physics: '⚡', chemistry: '🧪', earth: '🌍',
+      history: '🏺', geography: '🗺️', civics: '⚖️',
+      computing: '💻', technology: '⚙️',
+      visual: '🎨', music: '🎵', performing: '🎭',
+      health: '🩺', pe: '🏀', home: '🍳', scout: '⛺', guidance: '🧭'
+    };
+
     const unitMeta = {
       id: u.id,
       title: u.title,
@@ -627,7 +647,13 @@ for (const secConfig of SECTIONS_CONFIG) {
       domain: subj.domain,
       grade: u.grade,
       term: u.term,
-      icon: subj.icon || '📚',
+      gradeName: u.grade === 7 ? '國一' : u.grade === 8 ? '國二' : '國三',
+      gradeTermName: `${u.grade === 7 ? '國一' : u.grade === 8 ? '國二' : '國三'}${u.term === 1 ? '上' : '下'}`,
+      isSpecialized,
+      category,
+      icon: SUBJ_ICONS[u.subject] || '📚',
+      pitfall: u.pitfall || '',
+      task: u.task || '',
       nodes: nodes.map(n => ({
         id: n.id,
         kind: n.kind,
