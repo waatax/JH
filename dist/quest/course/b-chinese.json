@@ -1,0 +1,1971 @@
+{
+  "id": "b-chinese",
+  "title": "國語文縱貫專精",
+  "units": {
+    "chinese-1": {
+      "guide": {
+        "unitId": "chinese-1",
+        "title": "字詞、語境與修辭",
+        "subject": "國語文",
+        "grade": 7,
+        "term": 1,
+        "concept": "同一個詞會依語境改變意思。判斷修辭需看語句的作用：譬喻以相似性連結，擬人賦予非人的事物人的行為，排比用相似結構累積語勢。",
+        "example": "「風在窗邊低語」讓風像人一樣說話，是擬人。「時間像流水」則藉流水比喻時間。",
+        "pitfall": "看見「像」不一定是譬喻；「他像哥哥一樣高」也可能只是實際比較。",
+        "task": "從生活廣告找一句修辭，指出本體、喻體或被賦予的人類行為。",
+        "knowledgePoints": [
+          {
+            "title": "【知識點 1】譬喻三要素：核心意義與原理機轉",
+            "core": "譬喻三要素之核心本質：本體、喻詞（如、像、若、似）、喻體三者具備為明喻。",
+            "mechanism": "底層機轉：依據 108 課綱定義，本體、喻詞（如、像、若、似）、喻體三者具備為明喻。對應本課核心觀念：同一個詞會依語境改變意思。在客觀條件「實戰檢核與適用條件：「那雙眼睛像夜空中的繁星」；略去喻詞為隱喻（是、成）」成立下，確保結論之必然性。",
+            "formula": "【實戰法則】本體、喻詞（如、像、若、似）、喻體三者具備為明喻 ➔ 檢驗條件：「那雙眼睛像夜空中的繁星」；略去喻詞為隱喻（是、成）",
+            "tip": "考場避坑防線：【高頻盲點】看見「像」不一定是譬喻；「他像哥哥一樣高」也可能只是實際比較。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"譬喻三要素\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"28\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🌳 語意結構與層次樹狀圖</text>\n    <text x=\"516\" y=\"28\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 語文思維</text>\n    \n    <rect x=\"205\" y=\"42\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#5867a2\"/>\n    <text x=\"270\" y=\"62\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\">字詞、語境與</text>\n    \n    <path d=\"M 270 72 L 100 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 270 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 440 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    \n    <rect x=\"35\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"100\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">主幹／主詞 [S]</text>\n    <text x=\"100\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">譬喻三要素</text>\n    \n    <rect x=\"205\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n    <text x=\"270\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#5867a2\" text-anchor=\"middle\">動詞／述語 [V]</text>\n    <text x=\"270\" y=\"138\" font-size=\"10.5\" fill=\"#3b4774\" text-anchor=\"middle\">本體、喻詞（</text>\n    \n    <rect x=\"375\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"440\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">受詞／補語 [O/C]</text>\n    <text x=\"440\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">「那雙眼睛像</text>\n    \n    <text x=\"270\" y=\"168\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"600\" fill=\"#212946\">💡 句意解碼：抓住核心述語與修飾限制，分清主從關係不被長句誤導</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 2】轉化修辭：條件判別與推理步驟",
+            "core": "轉化修辭之判別準則：擬人（物化為人）、擬物（人化為物）、形象化（抽象概念具體化）。",
+            "mechanism": "推導機制：由已知條件出發，套用「擬人（物化為人）、擬物（人化為物）、形象化（抽象概念具體化）」，依序完成定位、推導與單位邊界檢核。",
+            "formula": "【推導公式／口訣】擬人（物化為人）、擬物（人化為物）、形象化（抽象概念具體化） ➔ 典型示範：「春風輕輕撫摸著大地」為擬人；「把愁緒剪成一片片」為形象化",
+            "tip": "步驟防呆：「還沒走熟」把學習比作行路，暗示錯誤可經練習改進。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"轉化修辭\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🔄 推演機制與解題流程圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 3-Stage</text>\n    \n    <g transform=\"translate(30, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">1</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">審題定位</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          本體是考卷紅圈，喻體是路燈，共同特徵是指出位置、引導方向。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 175 100 L 195 100\" stroke=\"#5867a2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"199,100 191,96 191,104\" fill=\"#5867a2\"/>\n    \n    <g transform=\"translate(205, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#3b4774\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">2</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#3b4774\">模型推演</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          「還沒走熟」把學習比作行路，暗示錯誤可經練習改進。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 350 100 L 370 100\" stroke=\"#3b4774\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"374,100 366,96 366,104\" fill=\"#3b4774\"/>\n    \n    <g transform=\"translate(380, 52)\">\n      <rect width=\"130\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">3</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">驗算防呆</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"110\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          因此作者傾向把訂正當作指引，而非只視為羞辱或失敗。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#5867a2\">🔗 閉環檢驗：確保每一步推理皆有課綱定義或物理/數學定理支撐</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 3】感官摹寫：易混淆辨析與避坑防線",
+            "core": "感官摹寫之避坑界線：視覺、聽覺、嗅覺、味覺、觸覺等具體感官經驗摹寫。",
+            "mechanism": "防呆機制：並列對比「字面資訊」與「語境推論」之邊界約束，杜絕以假亂真或偷換概念。",
+            "formula": "【辨析對照】字面資訊 vs 語境推論 ➔ 適用防線：「風裡帶來新翻的泥土的氣息」（嗅覺）；「清脆的鳥鳴」（聽覺）",
+            "tip": "考場急救手記：【考場防呆】答案需引用「照出」「還沒走熟」等線索；僅寫「用了譬喻，很生動」缺少效果分析。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"感官摹寫\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">⚖️ 易混淆概念雙軌辨析圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ Contrast</text>\n    \n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.6\"/>\n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#5867a2\"/>\n    <text x=\"140\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">① 字面資訊</text>\n    <foreignObject x=\"42\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        先讀詞語在句子中的通常意義\n      </div>\n    </foreignObject>\n    \n    <circle cx=\"270\" cy=\"99\" r=\"18\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"2\"/>\n    <text x=\"270\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"900\" fill=\"#3b4774\">VS</text>\n    \n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.6\"/>\n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#3b4774\"/>\n    <text x=\"400\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">② 語境推論</text>\n    <foreignObject x=\"302\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        由前後文、語氣與情境決定此處的意思\n      </div>\n    </foreignObject>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#212946\">🛡️ 避坑分水嶺：抓住核心邊界條件，杜絕以假亂真或偷換概念</text>\n  </svg>"
+          }
+        ],
+        "table": {
+          "title": "常用修辭與摹寫技巧：譬喻、轉化與感官摹寫",
+          "rows": [
+            [
+              "譬喻三要素",
+              "本體、喻詞（如、像、若、似）、喻體三者具備為明喻",
+              "「那雙眼睛像夜空中的繁星」；略去喻詞為隱喻（是、成）"
+            ],
+            [
+              "轉化修辭",
+              "擬人（物化為人）、擬物（人化為物）、形象化（抽象概念具體化）",
+              "「春風輕輕撫摸著大地」為擬人；「把愁緒剪成一片片」為形象化"
+            ],
+            [
+              "感官摹寫",
+              "視覺、聽覺、嗅覺、味覺、觸覺等具體感官經驗摹寫",
+              "「風裡帶來新翻的泥土的氣息」（嗅覺）；「清脆的鳥鳴」（聽覺）"
+            ],
+            [
+              "修辭功能",
+              "修辭不可脫離文本情意，必須能增強情境描寫與感染力",
+              "判斷修辭時需連結文章主旨，非僅背誦名詞定義"
+            ]
+          ]
+        },
+        "workedCase": {
+          "problem": "原創句：「考卷上的紅圈像一盞盞路燈，照出我還沒走熟的路。」分析比喻如何呈現作者看待錯誤的態度。",
+          "steps": [
+            "本體是考卷紅圈，喻體是路燈，共同特徵是指出位置、引導方向。",
+            "「還沒走熟」把學習比作行路，暗示錯誤可經練習改進。",
+            "因此作者傾向把訂正當作指引，而非只視為羞辱或失敗。"
+          ],
+          "check": "答案需引用「照出」「還沒走熟」等線索；僅寫「用了譬喻，很生動」缺少效果分析。"
+        },
+        "officialRefs": [
+          {
+            "code": "Ab-IV-1",
+            "kind": "學習內容",
+            "page": 16
+          },
+          {
+            "code": "Ab-IV-5",
+            "kind": "學習內容",
+            "page": 16
+          },
+          {
+            "code": "5-IV-2",
+            "kind": "學習表現",
+            "page": 13
+          }
+        ]
+      },
+      "nodes": {
+        "chinese-1:concept": [
+          "info.chinese-1.kp1",
+          "q.chinese-1.kp1.def",
+          "cq.chinese-1-q1",
+          "match.chinese-1.table"
+        ],
+        "chinese-1:rule": [
+          "info.chinese-1.kp2",
+          "q.chinese-1.kp2.rule",
+          "q.chinese-1.deepening.contrast"
+        ],
+        "chinese-1:reasoning": [
+          "build.chinese-1.case",
+          "cq.chinese-1-q2",
+          "q.chinese-1.case.check"
+        ],
+        "chinese-1:mastery": [
+          "info.chinese-1.kp3",
+          "q.chinese-1.pitfall",
+          "cap.109-chinese-1"
+        ],
+        "chinese-1:boss": [
+          "q.chinese-1.kp1.def",
+          "cq.chinese-1-q1",
+          "match.chinese-1.table",
+          "q.chinese-1.kp2.rule",
+          "q.chinese-1.deepening.contrast",
+          "build.chinese-1.case",
+          "cq.chinese-1-q2",
+          "q.chinese-1.case.check",
+          "q.chinese-1.pitfall",
+          "cap.109-chinese-1"
+        ]
+      }
+    },
+    "chinese-2": {
+      "guide": {
+        "unitId": "chinese-2",
+        "title": "敘事閱讀與人物推論",
+        "subject": "國語文",
+        "grade": 7,
+        "term": 2,
+        "concept": "把事件、人物行動與心理推論分開。先找文本證據，再提出能涵蓋線索的解釋；敘事觀點會影響讀者能知道的資訊。",
+        "example": "「他把傘推給我，自己跑進雨裡。」可以支持他體貼他人，不能據此判斷他的家庭收入。",
+        "pitfall": "合理推論不是自由想像；答案不能超出文本支持的範圍。",
+        "task": "用「我認為…因為文中…」寫一段人物判斷，附兩項證據。",
+        "knowledgePoints": [
+          {
+            "title": "【知識點 1】明示：核心意義與原理機轉",
+            "core": "明示之核心本質：文本直接寫出的訊息。",
+            "mechanism": "底層機轉：依據 108 課綱定義，文本直接寫出的訊息。對應本課核心觀念：把事件、人物行動與心理推論分開。在客觀條件「實戰檢核與適用條件：先確認人物、動作、時間與代詞指涉」成立下，確保結論之必然性。",
+            "formula": "【實戰法則】文本直接寫出的訊息 ➔ 檢驗條件：先確認人物、動作、時間與代詞指涉",
+            "tip": "考場避坑防線：【高頻盲點】合理推論不是自由想像；答案不能超出文本支持的範圍。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"明示\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"28\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🌳 語意結構與層次樹狀圖</text>\n    <text x=\"516\" y=\"28\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 語文思維</text>\n    \n    <rect x=\"205\" y=\"42\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#5867a2\"/>\n    <text x=\"270\" y=\"62\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\">敘事閱讀與人</text>\n    \n    <path d=\"M 270 72 L 100 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 270 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 440 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    \n    <rect x=\"35\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"100\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">主幹／主詞 [S]</text>\n    <text x=\"100\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">明示</text>\n    \n    <rect x=\"205\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n    <text x=\"270\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#5867a2\" text-anchor=\"middle\">動詞／述語 [V]</text>\n    <text x=\"270\" y=\"138\" font-size=\"10.5\" fill=\"#3b4774\" text-anchor=\"middle\">文本直接寫出</text>\n    \n    <rect x=\"375\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"440\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">受詞／補語 [O/C]</text>\n    <text x=\"440\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">先確認人物、</text>\n    \n    <text x=\"270\" y=\"168\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"600\" fill=\"#212946\">💡 句意解碼：抓住核心述語與修飾限制，分清主從關係不被長句誤導</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 2】推論：條件判別與推理步驟",
+            "core": "推論之判別準則：用多個線索推得未直接寫出的意思。",
+            "mechanism": "推導機制：由已知條件出發，套用「用多個線索推得未直接寫出的意思」，依序完成定位、推導與單位邊界檢核。",
+            "formula": "【推導公式／口訣】用多個線索推得未直接寫出的意思 ➔ 典型示範：說明「哪一句」支持「哪個判斷」",
+            "tip": "步驟防呆：補海報顯示他在意團隊成果；讓功勞給大家顯示不急於獨占肯定。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"推論\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🔄 推演機制與解題流程圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 3-Stage</text>\n    \n    <g transform=\"translate(30, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">1</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">審題定位</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          找出言行差異：口頭拒絕，行動卻投入修補。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 175 100 L 195 100\" stroke=\"#5867a2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"199,100 191,96 191,104\" fill=\"#5867a2\"/>\n    \n    <g transform=\"translate(205, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#3b4774\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">2</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#3b4774\">模型推演</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          補海報顯示他在意團隊成果；讓功勞給大家顯示不急於獨占肯定。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 350 100 L 370 100\" stroke=\"#3b4774\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"374,100 366,96 366,104\" fill=\"#3b4774\"/>\n    \n    <g transform=\"translate(380, 52)\">\n      <rect width=\"130\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">3</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">驗算防呆</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"110\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          可說他表面冷淡但願意負責，不宜僅因一句話判定自私。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#5867a2\">🔗 閉環檢驗：確保每一步推理皆有課綱定義或物理/數學定理支撐</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 3】評價：易混淆辨析與避坑防線",
+            "core": "評價之避坑界線：依標準檢驗說法是否合理。",
+            "mechanism": "防呆機制：並列對比「直接描寫」與「間接描寫」之邊界約束，杜絕以假亂真或偷換概念。",
+            "formula": "【辨析對照】直接描寫 vs 間接描寫 ➔ 適用防線：例子是否具有代表性？有沒有其他解釋？",
+            "tip": "考場急救手記：【考場防呆】不能推論他永遠不在乎稱讚；這段只提供一次情境中的證據。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"評價\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">⚖️ 易混淆概念雙軌辨析圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ Contrast</text>\n    \n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.6\"/>\n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#5867a2\"/>\n    <text x=\"140\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">① 直接描寫</text>\n    <foreignObject x=\"42\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        人物特質由敘述者明說\n      </div>\n    </foreignObject>\n    \n    <circle cx=\"270\" cy=\"99\" r=\"18\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"2\"/>\n    <text x=\"270\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"900\" fill=\"#3b4774\">VS</text>\n    \n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.6\"/>\n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#3b4774\"/>\n    <text x=\"400\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">② 間接描寫</text>\n    <foreignObject x=\"302\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        由行動、語言與他人反應推論人物\n      </div>\n    </foreignObject>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#212946\">🛡️ 避坑分水嶺：抓住核心邊界條件，杜絕以假亂真或偷換概念</text>\n  </svg>"
+          }
+        ],
+        "table": {
+          "title": "閱讀證據的層次",
+          "rows": [
+            [
+              "明示",
+              "文本直接寫出的訊息",
+              "先確認人物、動作、時間與代詞指涉"
+            ],
+            [
+              "推論",
+              "用多個線索推得未直接寫出的意思",
+              "說明「哪一句」支持「哪個判斷」"
+            ],
+            [
+              "評價",
+              "依標準檢驗說法是否合理",
+              "例子是否具有代表性？有沒有其他解釋？"
+            ],
+            [
+              "反證",
+              "尋找與結論衝突的線索",
+              "單一句話可能是反諷，不宜脫離上下文"
+            ]
+          ]
+        },
+        "workedCase": {
+          "problem": "原創段落：「阿哲嘴上說不想管，卻在同學離開後留下補好海報；隔天他把功勞推給大家。」可以推論什麼？",
+          "steps": [
+            "找出言行差異：口頭拒絕，行動卻投入修補。",
+            "補海報顯示他在意團隊成果；讓功勞給大家顯示不急於獨占肯定。",
+            "可說他表面冷淡但願意負責，不宜僅因一句話判定自私。"
+          ],
+          "check": "不能推論他永遠不在乎稱讚；這段只提供一次情境中的證據。"
+        },
+        "officialRefs": [
+          {
+            "code": "Ba-IV-1",
+            "kind": "學習內容",
+            "page": 18
+          },
+          {
+            "code": "Ad-IV-1",
+            "kind": "學習內容",
+            "page": 17
+          },
+          {
+            "code": "5-IV-2",
+            "kind": "學習表現",
+            "page": 13
+          }
+        ]
+      },
+      "nodes": {
+        "chinese-2:concept": [
+          "info.chinese-2.kp1",
+          "q.chinese-2.kp1.def",
+          "cq.chinese-2-q1",
+          "match.chinese-2.table"
+        ],
+        "chinese-2:rule": [
+          "info.chinese-2.kp2",
+          "q.chinese-2.kp2.rule",
+          "q.chinese-2.deepening.contrast"
+        ],
+        "chinese-2:reasoning": [
+          "build.chinese-2.case",
+          "cq.chinese-2-q2",
+          "q.chinese-2.case.check"
+        ],
+        "chinese-2:mastery": [
+          "info.chinese-2.kp3",
+          "q.chinese-2.pitfall",
+          "cap.111-chinese-8"
+        ],
+        "chinese-2:boss": [
+          "q.chinese-2.kp1.def",
+          "cq.chinese-2-q1",
+          "match.chinese-2.table",
+          "q.chinese-2.kp2.rule",
+          "q.chinese-2.deepening.contrast",
+          "build.chinese-2.case",
+          "cq.chinese-2-q2",
+          "q.chinese-2.case.check",
+          "q.chinese-2.pitfall",
+          "cap.111-chinese-8"
+        ]
+      }
+    },
+    "chinese-3": {
+      "guide": {
+        "unitId": "chinese-3",
+        "title": "文言文的省略與虛字",
+        "subject": "國語文",
+        "grade": 8,
+        "term": 1,
+        "concept": "讀文言先確認主詞、動詞與受詞，再依上下文補出省略成分。「之」可以是代詞、助詞或動詞，不能永遠翻成「的」。",
+        "example": "「學而時習之」中的「之」指所學內容；「友人之言」中的「之」連接修飾關係。",
+        "pitfall": "逐字固定翻譯容易誤判，應先讀完整句再回頭對照。",
+        "task": "把一則短寓言改寫為現代白話，標出原文省略的主詞。",
+        "knowledgePoints": [
+          {
+            "title": "【知識點 1】之字多義：核心意義與原理機轉",
+            "core": "之字多義之核心本質：依詞性判斷為代詞、動詞、結構助詞或助詞無義。",
+            "mechanism": "底層機轉：依據 108 課綱定義，依詞性判斷為代詞、動詞、結構助詞或助詞無義。對應本課核心觀念：讀文言先確認主詞、動詞與受詞，再依上下文補出省略成分。在客觀條件「實戰檢核與適用條件：「送孟浩然之廣陵」為動詞往；「項為之強」為代名詞它」成立下，確保結論之必然性。",
+            "formula": "【實戰法則】依詞性判斷為代詞、動詞、結構助詞或助詞無義 ➔ 檢驗條件：「送孟浩然之廣陵」為動詞往；「項為之強」為代名詞它",
+            "tip": "考場避坑防線：【高頻盲點】逐字固定翻譯容易誤判，應先讀完整句再回頭對照。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"之字多義\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"28\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🌳 語意結構與層次樹狀圖</text>\n    <text x=\"516\" y=\"28\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 語文思維</text>\n    \n    <rect x=\"205\" y=\"42\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#5867a2\"/>\n    <text x=\"270\" y=\"62\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\">文言文的省略</text>\n    \n    <path d=\"M 270 72 L 100 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 270 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 440 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    \n    <rect x=\"35\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"100\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">主幹／主詞 [S]</text>\n    <text x=\"100\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">之字多義</text>\n    \n    <rect x=\"205\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n    <text x=\"270\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#5867a2\" text-anchor=\"middle\">動詞／述語 [V]</text>\n    <text x=\"270\" y=\"138\" font-size=\"10.5\" fill=\"#3b4774\" text-anchor=\"middle\">依詞性判斷為</text>\n    \n    <rect x=\"375\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"440\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">受詞／補語 [O/C]</text>\n    <text x=\"440\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">「送孟浩然之</text>\n    \n    <text x=\"270\" y=\"168\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"600\" fill=\"#212946\">💡 句意解碼：抓住核心述語與修飾限制，分清主從關係不被長句誤導</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 2】主語省略：條件判別與推理步驟",
+            "core": "主語省略之判別準則：文言敘事常承前省略主語，需補出行為者。",
+            "mechanism": "推導機制：由已知條件出發，套用「文言敘事常承前省略主語，需補出行為者」，依序完成定位、推導與單位邊界檢核。",
+            "formula": "【推導公式／口訣】文言敘事常承前省略主語，需補出行為者 ➔ 典型示範：「見二蟲鬥草間，（余）觀之」；翻譯時需補齊主語",
+            "tip": "步驟防呆：第一個「之」作「讀」的受詞，指借來的書；第二個也指該書。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"主語省略\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🔄 推演機制與解題流程圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 3-Stage</text>\n    \n    <g transform=\"translate(30, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">1</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">審題定位</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          先確認動作序列：借書、讀、歸還；借閱者是句中延續的主詞「友」。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 175 100 L 195 100\" stroke=\"#5867a2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"199,100 191,96 191,104\" fill=\"#5867a2\"/>\n    \n    <g transform=\"translate(205, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#3b4774\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">2</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#3b4774\">模型推演</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          第一個「之」作「讀」的受詞，指借來的書；第二個也指該書。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 350 100 L 370 100\" stroke=\"#3b4774\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"374,100 366,96 366,104\" fill=\"#3b4774\"/>\n    \n    <g transform=\"translate(380, 52)\">\n      <rect width=\"130\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">3</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">驗算防呆</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"110\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          可譯為「朋友借了書，讀完後才歸還它」，歸還對象需由更完整語境確認。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#5867a2\">🔗 閉環檢驗：確保每一步推理皆有課綱定義或物理/數學定理支撐</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 3】倒裝句式：易混淆辨析與避坑防線",
+            "core": "倒裝句式之避坑界線：賓語前置、定語後置或狀語後置。",
+            "mechanism": "防呆機制：並列對比「補省略」與「辨虛字」之邊界約束，杜絕以假亂真或偷換概念。",
+            "formula": "【辨析對照】補省略 vs 辨虛字 ➔ 適用防線：「何陋之有」即「有何陋」；之為賓語前置的結構標記",
+            "tip": "考場急救手記：【考場防呆】不能把此處每個「之」都翻成「的」；也不要憑空補出書的主人姓名。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"倒裝句式\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">⚖️ 易混淆概念雙軌辨析圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ Contrast</text>\n    \n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.6\"/>\n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#5867a2\"/>\n    <text x=\"140\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">① 補省略</text>\n    <foreignObject x=\"42\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        依前後文補出主詞或受詞，使句意連貫\n      </div>\n    </foreignObject>\n    \n    <circle cx=\"270\" cy=\"99\" r=\"18\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"2\"/>\n    <text x=\"270\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"900\" fill=\"#3b4774\">VS</text>\n    \n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.6\"/>\n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#3b4774\"/>\n    <text x=\"400\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">② 辨虛字</text>\n    <foreignObject x=\"302\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        同一虛字的作用隨語法位置變化，不能只套單一譯法\n      </div>\n    </foreignObject>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#212946\">🛡️ 避坑分水嶺：抓住核心邊界條件，杜絕以假亂真或偷換概念</text>\n  </svg>"
+          }
+        ],
+        "table": {
+          "title": "文言虛字、省略與句式判讀",
+          "rows": [
+            [
+              "之字多義",
+              "依詞性判斷為代詞、動詞、結構助詞或助詞無義",
+              "「送孟浩然之廣陵」為動詞往；「項為之強」為代名詞它"
+            ],
+            [
+              "主語省略",
+              "文言敘事常承前省略主語，需補出行為者",
+              "「見二蟲鬥草間，（余）觀之」；翻譯時需補齊主語"
+            ],
+            [
+              "倒裝句式",
+              "賓語前置、定語後置或狀語後置",
+              "「何陋之有」即「有何陋」；之為賓語前置的結構標記"
+            ],
+            [
+              "句末語氣詞",
+              "也表判斷、矣表變化、乎表疑問或感嘆、焉表代詞兼語氣",
+              "「溫故而知新，可以為師矣」；矣表成為"
+            ]
+          ]
+        },
+        "workedCase": {
+          "problem": "仿文言例句：「友借書，既讀之，乃歸之。」兩個「之」指什麼？省略了哪些資訊？",
+          "steps": [
+            "先確認動作序列：借書、讀、歸還；借閱者是句中延續的主詞「友」。",
+            "第一個「之」作「讀」的受詞，指借來的書；第二個也指該書。",
+            "可譯為「朋友借了書，讀完後才歸還它」，歸還對象需由更完整語境確認。"
+          ],
+          "check": "不能把此處每個「之」都翻成「的」；也不要憑空補出書的主人姓名。"
+        },
+        "officialRefs": [
+          {
+            "code": "Ab-IV-6",
+            "kind": "學習內容",
+            "page": 16
+          },
+          {
+            "code": "Ab-IV-7",
+            "kind": "學習內容",
+            "page": 16
+          },
+          {
+            "code": "5-IV-4",
+            "kind": "學習表現",
+            "page": 13
+          }
+        ]
+      },
+      "nodes": {
+        "chinese-3:concept": [
+          "info.chinese-3.kp1",
+          "q.chinese-3.kp1.def",
+          "cq.chinese-3-q1",
+          "match.chinese-3.table"
+        ],
+        "chinese-3:rule": [
+          "info.chinese-3.kp2",
+          "q.chinese-3.kp2.rule",
+          "q.chinese-3.deepening.contrast"
+        ],
+        "chinese-3:reasoning": [
+          "build.chinese-3.case",
+          "cq.chinese-3-q2",
+          "q.chinese-3.case.check"
+        ],
+        "chinese-3:mastery": [
+          "info.chinese-3.kp3",
+          "q.chinese-3.pitfall",
+          "cap.111-chinese-14"
+        ],
+        "chinese-3:boss": [
+          "q.chinese-3.kp1.def",
+          "cq.chinese-3-q1",
+          "match.chinese-3.table",
+          "q.chinese-3.kp2.rule",
+          "q.chinese-3.deepening.contrast",
+          "build.chinese-3.case",
+          "cq.chinese-3-q2",
+          "q.chinese-3.case.check",
+          "q.chinese-3.pitfall",
+          "cap.111-chinese-14"
+        ]
+      }
+    },
+    "chinese-4": {
+      "guide": {
+        "unitId": "chinese-4",
+        "title": "說明文、圖表與資訊整合",
+        "subject": "國語文",
+        "grade": 8,
+        "term": 2,
+        "concept": "說明文常以定義、分類、比較、因果解釋事物。跨文本閱讀要核對研究對象、時間、單位與資料來源後，再整合結論。",
+        "example": "甲圖是「使用人數」，乙圖是「使用比例」，即使線條都上升，也不能直接比較增加了多少人。",
+        "pitfall": "相關不必然是因果；只看標題或單一數字容易過度推論。",
+        "task": "找兩篇談同一環境議題的文章，列出共同發現與不同限制。",
+        "knowledgePoints": [
+          {
+            "title": "【知識點 1】圖文互轉：核心意義與原理機轉",
+            "core": "圖文互轉之核心本質：將長條圖、折線圖或圓餅圖之數據趨勢轉譯為文字論點。",
+            "mechanism": "底層機轉：依據 108 課綱定義，將長條圖、折線圖或圓餅圖之數據趨勢轉譯為文字論點。對應本課核心觀念：說明文常以定義、分類、比較、因果解釋事物。在客觀條件「實戰檢核與適用條件：先讀圖表標題、座標軸單位與圖例，再抓極值（最高最低）與轉折點」成立下，確保結論之必然性。",
+            "formula": "【實戰法則】將長條圖、折線圖或圓餅圖之數據趨勢轉譯為文字論點 ➔ 檢驗條件：先讀圖表標題、座標軸單位與圖例，再抓極值（最高最低）與轉折點",
+            "tip": "考場避坑防線：【高頻盲點】相關不必然是因果；只看標題或單一數字容易過度推論。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"圖文互轉\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"28\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🌳 語意結構與層次樹狀圖</text>\n    <text x=\"516\" y=\"28\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 語文思維</text>\n    \n    <rect x=\"205\" y=\"42\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#5867a2\"/>\n    <text x=\"270\" y=\"62\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\">說明文、圖表</text>\n    \n    <path d=\"M 270 72 L 100 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 270 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 440 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    \n    <rect x=\"35\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"100\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">主幹／主詞 [S]</text>\n    <text x=\"100\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">圖文互轉</text>\n    \n    <rect x=\"205\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n    <text x=\"270\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#5867a2\" text-anchor=\"middle\">動詞／述語 [V]</text>\n    <text x=\"270\" y=\"138\" font-size=\"10.5\" fill=\"#3b4774\" text-anchor=\"middle\">將長條圖、折</text>\n    \n    <rect x=\"375\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"440\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">受詞／補語 [O/C]</text>\n    <text x=\"440\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">先讀圖表標題</text>\n    \n    <text x=\"270\" y=\"168\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"600\" fill=\"#212946\">💡 句意解碼：抓住核心述語與修飾限制，分清主從關係不被長句誤導</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 2】跨文本互證：條件判別與推理步驟",
+            "core": "跨文本互證之判別準則：對照兩篇以上文本，找出共同觀點、分歧立場或互補證據。",
+            "mechanism": "推導機制：由已知條件出發，套用「對照兩篇以上文本，找出共同觀點、分歧立場或互補證據」，依序完成定位、推導與單位邊界檢核。",
+            "formula": "【推導公式／口訣】對照兩篇以上文本，找出共同觀點、分歧立場或互補證據 ➔ 典型示範：文本 A 強調經濟發展，文本 B 聚焦生態衝擊，比較兩者論證前提",
+            "tip": "步驟防呆：比例比較：甲 18/30＝60%，乙 20/40＝50%。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"跨文本互證\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🔄 推演機制與解題流程圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 3-Stage</text>\n    \n    <g transform=\"translate(30, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">1</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">審題定位</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          人數比較：乙 20 人大於甲 18 人，前半句成立。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 175 100 L 195 100\" stroke=\"#5867a2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"199,100 191,96 191,104\" fill=\"#5867a2\"/>\n    \n    <g transform=\"translate(205, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#3b4774\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">2</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#3b4774\">模型推演</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          比例比較：甲 18/30＝60%，乙 20/40＝50%。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 350 100 L 370 100\" stroke=\"#3b4774\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"374,100 366,96 366,104\" fill=\"#3b4774\"/>\n    \n    <g transform=\"translate(380, 52)\">\n      <rect width=\"130\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">3</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">驗算防呆</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"110\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          後半句不成立，因為乙班總人數較多；應分開陳述人數與比例。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#5867a2\">🔗 閉環檢驗：確保每一步推理皆有課綱定義或物理/數學定理支撐</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 3】事實與觀點區分：易混淆辨析與避坑防線",
+            "core": "事實與觀點區分之避坑界線：客觀可驗證數據為「事實」；主觀價值評判與推論為「觀點」。",
+            "mechanism": "防呆機制：並列對比「文字主張」與「圖表證據」之邊界約束，杜絕以假亂真或偷換概念。",
+            "formula": "【辨析對照】文字主張 vs 圖表證據 ➔ 適用防線：「今年降雨量減少 30%」（事實）；「這是近年最嚴重的乾旱危機」（觀點）",
+            "tip": "考場急救手記：【考場防呆】閱讀整合題常在分母偷換；答案應附計算或清楚說出比較基準。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"事實與觀點區分\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">⚖️ 易混淆概念雙軌辨析圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ Contrast</text>\n    \n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.6\"/>\n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#5867a2\"/>\n    <text x=\"140\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">① 文字主張</text>\n    <foreignObject x=\"42\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        作者用句子表達結論\n      </div>\n    </foreignObject>\n    \n    <circle cx=\"270\" cy=\"99\" r=\"18\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"2\"/>\n    <text x=\"270\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"900\" fill=\"#3b4774\">VS</text>\n    \n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.6\"/>\n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#3b4774\"/>\n    <text x=\"400\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">② 圖表證據</text>\n    <foreignObject x=\"302\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        標題、單位、時間和分母決定數據可支持什麼\n      </div>\n    </foreignObject>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#212946\">🛡️ 避坑分水嶺：抓住核心邊界條件，杜絕以假亂真或偷換概念</text>\n  </svg>"
+          }
+        ],
+        "table": {
+          "title": "圖表訊息轉譯與跨文本閱讀理解策略",
+          "rows": [
+            [
+              "圖文互轉",
+              "將長條圖、折線圖或圓餅圖之數據趨勢轉譯為文字論點",
+              "先讀圖表標題、座標軸單位與圖例，再抓極值（最高最低）與轉折點"
+            ],
+            [
+              "跨文本互證",
+              "對照兩篇以上文本，找出共同觀點、分歧立場或互補證據",
+              "文本 A 強調經濟發展，文本 B 聚焦生態衝擊，比較兩者論證前提"
+            ],
+            [
+              "事實與觀點區分",
+              "客觀可驗證數據為「事實」；主觀價值評判與推論為「觀點」",
+              "「今年降雨量減少 30%」（事實）；「這是近年最嚴重的乾旱危機」（觀點）"
+            ],
+            [
+              "多元訊息整合",
+              "綜合圖表數據與長文敘述，評估作者結論是否具備充分推論支撐",
+              "若圖表趨勢僅顯示相關性，不能被文章過度推論為因果必然"
+            ]
+          ]
+        },
+        "workedCase": {
+          "problem": "甲班 30 人中 18 人步行上學；乙班 40 人中 20 人步行。有人說「乙班步行人數較多，因此步行比例也較高」，是否合理？",
+          "steps": [
+            "人數比較：乙 20 人大於甲 18 人，前半句成立。",
+            "比例比較：甲 18/30＝60%，乙 20/40＝50%。",
+            "後半句不成立，因為乙班總人數較多；應分開陳述人數與比例。"
+          ],
+          "check": "閱讀整合題常在分母偷換；答案應附計算或清楚說出比較基準。"
+        },
+        "officialRefs": [
+          {
+            "code": "Bc-IV-2",
+            "kind": "學習內容",
+            "page": 19
+          },
+          {
+            "code": "Bc-IV-3",
+            "kind": "學習內容",
+            "page": 19
+          },
+          {
+            "code": "5-IV-4",
+            "kind": "學習表現",
+            "page": 13
+          }
+        ]
+      },
+      "nodes": {
+        "chinese-4:concept": [
+          "info.chinese-4.kp1",
+          "q.chinese-4.kp1.def",
+          "cq.chinese-4-q1",
+          "match.chinese-4.table"
+        ],
+        "chinese-4:rule": [
+          "info.chinese-4.kp2",
+          "q.chinese-4.kp2.rule",
+          "q.chinese-4.deepening.contrast"
+        ],
+        "chinese-4:reasoning": [
+          "build.chinese-4.case",
+          "cq.chinese-4-q2",
+          "q.chinese-4.case.check"
+        ],
+        "chinese-4:mastery": [
+          "info.chinese-4.kp3",
+          "q.chinese-4.pitfall",
+          "cap.111-chinese-1"
+        ],
+        "chinese-4:boss": [
+          "q.chinese-4.kp1.def",
+          "cq.chinese-4-q1",
+          "match.chinese-4.table",
+          "q.chinese-4.kp2.rule",
+          "q.chinese-4.deepening.contrast",
+          "build.chinese-4.case",
+          "cq.chinese-4-q2",
+          "q.chinese-4.case.check",
+          "q.chinese-4.pitfall",
+          "cap.111-chinese-1"
+        ]
+      }
+    },
+    "chinese-5": {
+      "guide": {
+        "unitId": "chinese-5",
+        "title": "議論、論據與批判閱讀",
+        "subject": "國語文",
+        "grade": 9,
+        "term": 1,
+        "concept": "議論包含主張、理由與支持證據。好的論證能處理反例與條件，區分事實描述和價值判斷。",
+        "example": "「圖書館應延長開放」是主張；「晚間使用需求調查」可作為證據，還需考量成本。",
+        "pitfall": "名人說過不等於證據充分；攻擊說話者也不等於反駁論點。",
+        "task": "就校園手機使用提出立場、兩項證據與一個可能的反例。",
+        "knowledgePoints": [
+          {
+            "title": "【知識點 1】論點辨別：核心意義與原理機轉",
+            "core": "論點辨別之核心本質：作者的核心主張，通常在篇首破題、段首或篇末總結。",
+            "mechanism": "底層機轉：依據 108 課綱定義，作者的核心主張，通常在篇首破題、段首或篇末總結。對應本課核心觀念：議論包含主張、理由與支持證據。在客觀條件「實戰檢核與適用條件：「學貴有恆」是主張；不能把客觀現象直接當作者論點」成立下，確保結論之必然性。",
+            "formula": "【實戰法則】作者的核心主張，通常在篇首破題、段首或篇末總結 ➔ 檢驗條件：「學貴有恆」是主張；不能把客觀現象直接當作者論點",
+            "tip": "考場避坑防線：【高頻盲點】名人說過不等於證據充分；攻擊說話者也不等於反駁論點。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"論點辨別\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"28\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🌳 語意結構與層次樹狀圖</text>\n    <text x=\"516\" y=\"28\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 語文思維</text>\n    \n    <rect x=\"205\" y=\"42\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#5867a2\"/>\n    <text x=\"270\" y=\"62\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\">議論、論據與</text>\n    \n    <path d=\"M 270 72 L 100 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 270 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 440 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    \n    <rect x=\"35\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"100\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">主幹／主詞 [S]</text>\n    <text x=\"100\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">論點辨別</text>\n    \n    <rect x=\"205\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n    <text x=\"270\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#5867a2\" text-anchor=\"middle\">動詞／述語 [V]</text>\n    <text x=\"270\" y=\"138\" font-size=\"10.5\" fill=\"#3b4774\" text-anchor=\"middle\">作者的核心主</text>\n    \n    <rect x=\"375\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"440\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">受詞／補語 [O/C]</text>\n    <text x=\"440\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">「學貴有恆」</text>\n    \n    <text x=\"270\" y=\"168\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"600\" fill=\"#212946\">💡 句意解碼：抓住核心述語與修飾限制，分清主從關係不被長句誤導</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 2】論據類型：條件判別與推理步驟",
+            "core": "論據類型之判別準則：事實論據（事例、史實、數據）vs 理論論據（名言、公理、定律）。",
+            "mechanism": "推導機制：由已知條件出發，套用「事實論據（事例、史實、數據）vs 理論論據（名言、公理、定律）」，依序完成定位、推導與單位邊界檢核。",
+            "formula": "【推導公式／口訣】事實論據（事例、史實、數據）vs 理論論據（名言、公理、定律） ➔ 典型示範：引司馬遷受宮刑著史為事實；引孔子「逝者如斯夫」為理論",
+            "tip": "步驟防呆：未排除準備時間、題目難度、原有程度等影響，也不知道其他人的反應。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"論據類型\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🔄 推演機制與解題流程圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 3-Stage</text>\n    \n    <g transform=\"translate(30, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">1</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">審題定位</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          論點是全校播放音樂能提高成績，論據只有小明的一次經驗。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 175 100 L 195 100\" stroke=\"#5867a2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"199,100 191,96 191,104\" fill=\"#5867a2\"/>\n    \n    <g transform=\"translate(205, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#3b4774\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">2</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#3b4774\">模型推演</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          未排除準備時間、題目難度、原有程度等影響，也不知道其他人的反應。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 350 100 L 370 100\" stroke=\"#3b4774\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"374,100 366,96 366,104\" fill=\"#3b4774\"/>\n    \n    <g transform=\"translate(380, 52)\">\n      <rect width=\"130\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">3</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">驗算防呆</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"110\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          可建議比較相近條件下多位學生的表現，再討論哪些情境適用。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#5867a2\">🔗 閉環檢驗：確保每一步推理皆有課綱定義或物理/數學定理支撐</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 3】論證方法：易混淆辨析與避坑防線",
+            "core": "論證方法之避坑界線：舉例、正反對比、引用、喻證法。",
+            "mechanism": "防呆機制：並列對比「論點」與「論據」之邊界約束，杜絕以假亂真或偷換概念。",
+            "formula": "【辨析對照】論點 vs 論據 ➔ 適用防線：以磨杵成針比喻持之以恆為喻證；正反論述強化說服力",
+            "tip": "考場急救手記：【考場防呆】反駁不是斷言音樂一定有害；目前只能說資料不足以支持普遍因果結論。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"論證方法\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">⚖️ 易混淆概念雙軌辨析圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ Contrast</text>\n    \n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.6\"/>\n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#5867a2\"/>\n    <text x=\"140\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">① 論點</text>\n    <foreignObject x=\"42\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        作者希望讀者接受的主張\n      </div>\n    </foreignObject>\n    \n    <circle cx=\"270\" cy=\"99\" r=\"18\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"2\"/>\n    <text x=\"270\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"900\" fill=\"#3b4774\">VS</text>\n    \n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.6\"/>\n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#3b4774\"/>\n    <text x=\"400\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">② 論據</text>\n    <foreignObject x=\"302\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        用來支持主張的事實或理由，須檢查相關性\n      </div>\n    </foreignObject>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#212946\">🛡️ 避坑分水嶺：抓住核心邊界條件，杜絕以假亂真或偷換概念</text>\n  </svg>"
+          }
+        ],
+        "table": {
+          "title": "論說文結構：論點、論據與論證方法",
+          "rows": [
+            [
+              "論點辨別",
+              "作者的核心主張，通常在篇首破題、段首或篇末總結",
+              "「學貴有恆」是主張；不能把客觀現象直接當作者論點"
+            ],
+            [
+              "論據類型",
+              "事實論據（事例、史實、數據）vs 理論論據（名言、公理、定律）",
+              "引司馬遷受宮刑著史為事實；引孔子「逝者如斯夫」為理論"
+            ],
+            [
+              "論證方法",
+              "舉例、正反對比、引用、喻證法",
+              "以磨杵成針比喻持之以恆為喻證；正反論述強化說服力"
+            ],
+            [
+              "批判檢驗",
+              "檢查論據是否能充分支持論點，避免以偏概全",
+              "單一特例不足以推論全體；區分客觀事實與主觀意見"
+            ]
+          ]
+        },
+        "workedCase": {
+          "problem": "「小明每天聽音樂讀書，這次考得好，所以全校都應播放音樂來提高成績。」推論有何缺口？",
+          "steps": [
+            "論點是全校播放音樂能提高成績，論據只有小明的一次經驗。",
+            "未排除準備時間、題目難度、原有程度等影響，也不知道其他人的反應。",
+            "可建議比較相近條件下多位學生的表現，再討論哪些情境適用。"
+          ],
+          "check": "反駁不是斷言音樂一定有害；目前只能說資料不足以支持普遍因果結論。"
+        },
+        "officialRefs": [
+          {
+            "code": "Bd-IV-1",
+            "kind": "學習內容",
+            "page": 19
+          },
+          {
+            "code": "Bd-IV-2",
+            "kind": "學習內容",
+            "page": 19
+          },
+          {
+            "code": "5-IV-4",
+            "kind": "學習表現",
+            "page": 13
+          }
+        ]
+      },
+      "nodes": {
+        "chinese-5:concept": [
+          "info.chinese-5.kp1",
+          "q.chinese-5.kp1.def",
+          "cq.chinese-5-q1",
+          "match.chinese-5.table"
+        ],
+        "chinese-5:rule": [
+          "info.chinese-5.kp2",
+          "q.chinese-5.kp2.rule",
+          "q.chinese-5.deepening.contrast"
+        ],
+        "chinese-5:reasoning": [
+          "build.chinese-5.case",
+          "cq.chinese-5-q2",
+          "q.chinese-5.case.check"
+        ],
+        "chinese-5:mastery": [
+          "info.chinese-5.kp3",
+          "q.chinese-5.pitfall",
+          "cap.111-chinese-9"
+        ],
+        "chinese-5:boss": [
+          "q.chinese-5.kp1.def",
+          "cq.chinese-5-q1",
+          "match.chinese-5.table",
+          "q.chinese-5.kp2.rule",
+          "q.chinese-5.deepening.contrast",
+          "build.chinese-5.case",
+          "cq.chinese-5-q2",
+          "q.chinese-5.case.check",
+          "q.chinese-5.pitfall",
+          "cap.111-chinese-9"
+        ]
+      }
+    },
+    "chinese-6": {
+      "guide": {
+        "unitId": "chinese-6",
+        "title": "詩歌賞析與寫作組織",
+        "subject": "國語文",
+        "grade": 9,
+        "term": 2,
+        "concept": "詩歌以意象、節奏與語言濃縮情感；賞析要回到字句。寫作可用具體事件展開主題，再由細節轉入反思，結尾呼應但不重複。",
+        "example": "「空椅上，夕陽慢慢坐下」藉空椅與夕陽形成缺席、等待的意象，仍需全文才能判定情感。",
+        "pitfall": "意象並沒有唯一固定情緒；也不要只堆成語而沒有具體經驗。",
+        "task": "以「一次改變想法的經驗」寫出起因、衝突、轉折和反思各一段。",
+        "knowledgePoints": [
+          {
+            "title": "【知識點 1】轉品詞性變換：核心意義與原理機轉",
+            "core": "轉品詞性變換之核心本質：字詞在文句中改變原本詞性（如名詞作動詞、形容詞作動詞）。",
+            "mechanism": "底層機轉：依據 108 課綱定義，字詞在文句中改變原本詞性（如名詞作動詞、形容詞作動詞）。對應本課核心觀念：詩歌以意象、節奏與語言濃縮情感。在客觀條件「實戰檢核與適用條件：「春風又『綠』江南岸」（形容詞轉動詞使動用法）」成立下，確保結論之必然性。",
+            "formula": "【實戰法則】字詞在文句中改變原本詞性（如名詞作動詞、形容詞作動詞） ➔ 檢驗條件：「春風又『綠』江南岸」（形容詞轉動詞使動用法）",
+            "tip": "考場避坑防線：【高頻盲點】意象並沒有唯一固定情緒；也不要只堆成語而沒有具體經驗。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"轉品詞性變換\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"28\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🌳 語意結構與層次樹狀圖</text>\n    <text x=\"516\" y=\"28\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 語文思維</text>\n    \n    <rect x=\"205\" y=\"42\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#5867a2\"/>\n    <text x=\"270\" y=\"62\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\">詩歌賞析與寫</text>\n    \n    <path d=\"M 270 72 L 100 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 270 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 440 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    \n    <rect x=\"35\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"100\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">主幹／主詞 [S]</text>\n    <text x=\"100\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">轉品詞性變換</text>\n    \n    <rect x=\"205\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n    <text x=\"270\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#5867a2\" text-anchor=\"middle\">動詞／述語 [V]</text>\n    <text x=\"270\" y=\"138\" font-size=\"10.5\" fill=\"#3b4774\" text-anchor=\"middle\">字詞在文句中</text>\n    \n    <rect x=\"375\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"440\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">受詞／補語 [O/C]</text>\n    <text x=\"440\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">「春風又『綠</text>\n    \n    <text x=\"270\" y=\"168\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"600\" fill=\"#212946\">💡 句意解碼：抓住核心述語與修飾限制，分清主從關係不被長句誤導</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 2】借代事物特徵：條件判別與推理步驟",
+            "core": "借代事物特徵之判別準則：不直接說出本名，借用特徵、標誌或部分代指全體。",
+            "mechanism": "推導機制：由已知條件出發，套用「不直接說出本名，借用特徵、標誌或部分代指全體」，依序完成定位、推導與單位邊界檢核。",
+            "formula": "【推導公式／口訣】不直接說出本名，借用特徵、標誌或部分代指全體 ➔ 典型示範：「千里共『嬋娟』」（借代月亮）；「過盡『千帆』皆不是」（借代船隻）",
+            "tip": "步驟防呆：把夕陽寫成會坐、會走的人，使用擬人形成短暫陪伴。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"借代事物特徵\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🔄 推演機制與解題流程圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 3-Stage</text>\n    \n    <g transform=\"translate(30, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">1</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">審題定位</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          空椅建立無人陪伴的場景，窗邊讓光線變化可被看見。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 175 100 L 195 100\" stroke=\"#5867a2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"199,100 191,96 191,104\" fill=\"#5867a2\"/>\n    \n    <g transform=\"translate(205, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#3b4774\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">2</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#3b4774\">模型推演</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          把夕陽寫成會坐、會走的人，使用擬人形成短暫陪伴。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 350 100 L 370 100\" stroke=\"#3b4774\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"374,100 366,96 366,104\" fill=\"#3b4774\"/>\n    \n    <g transform=\"translate(380, 52)\">\n      <rect width=\"130\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">3</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">驗算防呆</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"110\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          最後又離開，讓空缺重新出現，因此可讀出孤寂或等待的感受。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#5867a2\">🔗 閉環檢驗：確保每一步推理皆有課綱定義或物理/數學定理支撐</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 3】象徵情意寄託：易混淆辨析與避坑防線",
+            "core": "象徵情意寄託之避坑界線：藉由具體物象寄託抽象的思想、情感或精神哲理。",
+            "mechanism": "防呆機制：並列對比「意象」與「主旨」之邊界約束，杜絕以假亂真或偷換概念。",
+            "formula": "【辨析對照】意象 vs 主旨 ➔ 適用防線：「蓮花」象徵出淤泥而不染的君子品格；「白鴿」象徵和平",
+            "tip": "考場急救手記：【考場防呆】這是可由字句支持的一種解讀；不能把作者未寫出的喪親經歷當成既定事實。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"象徵情意寄託\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">⚖️ 易混淆概念雙軌辨析圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ Contrast</text>\n    \n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.6\"/>\n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#5867a2\"/>\n    <text x=\"140\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">① 意象</text>\n    <foreignObject x=\"42\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        具體感官形象承載情感\n      </div>\n    </foreignObject>\n    \n    <circle cx=\"270\" cy=\"99\" r=\"18\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"2\"/>\n    <text x=\"270\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"900\" fill=\"#3b4774\">VS</text>\n    \n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.6\"/>\n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#3b4774\"/>\n    <text x=\"400\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">② 主旨</text>\n    <foreignObject x=\"302\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        由多個意象與語句的關係歸納，不能只憑單一字詞\n      </div>\n    </foreignObject>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#212946\">🛡️ 避坑分水嶺：抓住核心邊界條件，杜絕以假亂真或偷換概念</text>\n  </svg>"
+          }
+        ],
+        "table": {
+          "title": "特殊修辭與修辭轉換：轉品、借代與象徵手法",
+          "rows": [
+            [
+              "轉品詞性變換",
+              "字詞在文句中改變原本詞性（如名詞作動詞、形容詞作動詞）",
+              "「春風又『綠』江南岸」（形容詞轉動詞使動用法）"
+            ],
+            [
+              "借代事物特徵",
+              "不直接說出本名，借用特徵、標誌或部分代指全體",
+              "「千里共『嬋娟』」（借代月亮）；「過盡『千帆』皆不是」（借代船隻）"
+            ],
+            [
+              "象徵情意寄託",
+              "藉由具體物象寄託抽象的思想、情感或精神哲理",
+              "「蓮花」象徵出淤泥而不染的君子品格；「白鴿」象徵和平"
+            ],
+            [
+              "辨析界線",
+              "借代是代稱特定事物，象徵則是哲理情感的深化意蘊",
+              "「布衣」借代平民（特徵代稱）；「孤雁」象徵遊子飄零（情感投射）"
+            ]
+          ]
+        },
+        "workedCase": {
+          "problem": "原創短詩：「空椅留在窗邊／夕陽坐了一會兒／又走了。」如何解釋其中的孤寂感？",
+          "steps": [
+            "空椅建立無人陪伴的場景，窗邊讓光線變化可被看見。",
+            "把夕陽寫成會坐、會走的人，使用擬人形成短暫陪伴。",
+            "最後又離開，讓空缺重新出現，因此可讀出孤寂或等待的感受。"
+          ],
+          "check": "這是可由字句支持的一種解讀；不能把作者未寫出的喪親經歷當成既定事實。"
+        },
+        "officialRefs": [
+          {
+            "code": "Ad-IV-2",
+            "kind": "學習內容",
+            "page": 17
+          },
+          {
+            "code": "Ad-IV-3",
+            "kind": "學習內容",
+            "page": 17
+          },
+          {
+            "code": "6-IV-2",
+            "kind": "學習表現",
+            "page": 14
+          }
+        ]
+      },
+      "nodes": {
+        "chinese-6:concept": [
+          "info.chinese-6.kp1",
+          "q.chinese-6.kp1.def",
+          "cq.chinese-6-q1",
+          "match.chinese-6.table"
+        ],
+        "chinese-6:rule": [
+          "info.chinese-6.kp2",
+          "q.chinese-6.kp2.rule",
+          "q.chinese-6.deepening.contrast"
+        ],
+        "chinese-6:reasoning": [
+          "build.chinese-6.case",
+          "cq.chinese-6-q2",
+          "q.chinese-6.case.check"
+        ],
+        "chinese-6:mastery": [
+          "info.chinese-6.kp3",
+          "q.chinese-6.pitfall",
+          "cap.109-chinese-6"
+        ],
+        "chinese-6:boss": [
+          "q.chinese-6.kp1.def",
+          "cq.chinese-6-q1",
+          "match.chinese-6.table",
+          "q.chinese-6.kp2.rule",
+          "q.chinese-6.deepening.contrast",
+          "build.chinese-6.case",
+          "cq.chinese-6-q2",
+          "q.chinese-6.case.check",
+          "q.chinese-6.pitfall",
+          "cap.109-chinese-6"
+        ]
+      }
+    },
+    "chinese-7": {
+      "guide": {
+        "unitId": "chinese-7",
+        "title": "六書原則與漢字形義流變",
+        "subject": "國語文",
+        "grade": 7,
+        "term": 1,
+        "concept": "六書是漢字的造字與用字法則，前四者「象形、指事、會意、形聲」為造字法，後二者「轉注、假借」為用字法。象形隨體詰詘畫成其物；指事視而可識察而見意；會意比類合誼以見指撝；形聲形旁表意、聲旁表音。",
+        "example": "「日、月、水」為象形；「上、下、刃」在刀上加點標示刀刃，是指事；「休」（人倚木）、「武」（止戈）為會意；「江、河、湖」形旁水部、聲旁工可胡為形聲。",
+        "pitfall": "形聲字占漢字八成以上；形聲字聲旁因古今語音演變，不一定與今日讀音完全一致。指事字通常含有抽象符號或在象形基礎上加指事符號，非純粹具體物象。",
+        "task": "整理「木、本、末、林、森」五個字，分別指出它們各自屬於六書中的哪一種造字法則，並說明判斷依據。",
+        "knowledgePoints": [
+          {
+            "title": "【知識點 1】象形／指事：核心意義與原理機轉",
+            "core": "象形／指事之核心本質：描形／以符號指示概念。",
+            "mechanism": "底層機轉：依據 108 課綱定義，描形／以符號指示概念。對應本課核心觀念：六書是漢字的造字與用字法則，前四者「象形、指事、會意、形聲」為造字法，後二者「轉注、假借」為用字法。在客觀條件「實戰檢核與適用條件：日、月常作象形例；上、下常作指事例」成立下，確保結論之必然性。",
+            "formula": "【實戰法則】描形／以符號指示概念 ➔ 檢驗條件：日、月常作象形例；上、下常作指事例",
+            "tip": "考場避坑防線：【高頻盲點】形聲字占漢字八成以上；形聲字聲旁因古今語音演變，不一定與今日讀音完全一致。指事字通常含有抽象符號或在象形基礎上加指事符號，非純粹具體物象。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"象形／指事\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"28\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🌳 語意結構與層次樹狀圖</text>\n    <text x=\"516\" y=\"28\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 語文思維</text>\n    \n    <rect x=\"205\" y=\"42\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#5867a2\"/>\n    <text x=\"270\" y=\"62\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\">六書原則與漢</text>\n    \n    <path d=\"M 270 72 L 100 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 270 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 440 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    \n    <rect x=\"35\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"100\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">主幹／主詞 [S]</text>\n    <text x=\"100\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">象形／指事</text>\n    \n    <rect x=\"205\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n    <text x=\"270\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#5867a2\" text-anchor=\"middle\">動詞／述語 [V]</text>\n    <text x=\"270\" y=\"138\" font-size=\"10.5\" fill=\"#3b4774\" text-anchor=\"middle\">描形／以符號</text>\n    \n    <rect x=\"375\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"440\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">受詞／補語 [O/C]</text>\n    <text x=\"440\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">日、月常作象</text>\n    \n    <text x=\"270\" y=\"168\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"600\" fill=\"#212946\">💡 句意解碼：抓住核心述語與修飾限制，分清主從關係不被長句誤導</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 2】會意／形聲：條件判別與推理步驟",
+            "core": "會意／形聲之判別準則：合義／形旁與聲旁配合。",
+            "mechanism": "推導機制：由已知條件出發，套用「合義／形旁與聲旁配合」，依序完成定位、推導與單位邊界檢核。",
+            "formula": "【推導公式／口訣】合義／形旁與聲旁配合 ➔ 典型示範：休以人木會意；河以水表義、可提示古音",
+            "tip": "步驟防呆：依語境分別可用清水、晴天、心情，需同時看字形與詞義。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"會意／形聲\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🔄 推演機制與解題流程圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 3-Stage</text>\n    \n    <g transform=\"translate(30, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">1</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">審題定位</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          三字皆含「青」，可作聲音線索；氵、日、忄分別提示水、日光、心理等意義範圍。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 175 100 L 195 100\" stroke=\"#5867a2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"199,100 191,96 191,104\" fill=\"#5867a2\"/>\n    \n    <g transform=\"translate(205, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#3b4774\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">2</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#3b4774\">模型推演</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          依語境分別可用清水、晴天、心情，需同時看字形與詞義。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 350 100 L 370 100\" stroke=\"#3b4774\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"374,100 366,96 366,104\" fill=\"#3b4774\"/>\n    \n    <g transform=\"translate(380, 52)\">\n      <rect width=\"130\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">3</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">驗算防呆</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"110\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          造句「雨後放晴，他的心情也明朗了」，再說出兩個字的功能差異。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#5867a2\">🔗 閉環檢驗：確保每一步推理皆有課綱定義或物理/數學定理支撐</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 3】轉注／假借：易混淆辨析與避坑防線",
+            "core": "轉注／假借之避坑界線：傳統六書中的用字概念，轉注解釋有不同學說。",
+            "mechanism": "防呆機制：並列對比「造字」與「用字」之邊界約束，杜絕以假亂真或偷換概念。",
+            "formula": "【辨析對照】造字 vs 用字 ➔ 適用防線：假借以同音或近音字記另一詞；勿把現代同音都當字源",
+            "tip": "考場急救手記：【考場防呆】形旁只是提示，不能替代查字典；六書分析也不等於把每個零件編成現代故事。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"轉注／假借\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">⚖️ 易混淆概念雙軌辨析圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ Contrast</text>\n    \n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.6\"/>\n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#5867a2\"/>\n    <text x=\"140\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">① 造字</text>\n    <foreignObject x=\"42\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        象形、指事、會意、形聲說明字的構成方式\n      </div>\n    </foreignObject>\n    \n    <circle cx=\"270\" cy=\"99\" r=\"18\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"2\"/>\n    <text x=\"270\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"900\" fill=\"#3b4774\">VS</text>\n    \n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.6\"/>\n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#3b4774\"/>\n    <text x=\"400\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">② 用字</text>\n    <foreignObject x=\"302\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        轉注、假借涉及字的使用與關係，不宜和部件分析混用\n      </div>\n    </foreignObject>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#212946\">🛡️ 避坑分水嶺：抓住核心邊界條件，杜絕以假亂真或偷換概念</text>\n  </svg>"
+          }
+        ],
+        "table": {
+          "title": "六書辨識：造字與用字",
+          "rows": [
+            [
+              "象形／指事",
+              "描形／以符號指示概念",
+              "日、月常作象形例；上、下常作指事例"
+            ],
+            [
+              "會意／形聲",
+              "合義／形旁與聲旁配合",
+              "休以人木會意；河以水表義、可提示古音"
+            ],
+            [
+              "轉注／假借",
+              "傳統六書中的用字概念，轉注解釋有不同學說",
+              "假借以同音或近音字記另一詞；勿把現代同音都當字源"
+            ],
+            [
+              "語音演變",
+              "聲旁不保證與現代讀音完全一致",
+              "字源須查可靠字典，不用字形故事代替考證"
+            ]
+          ]
+        },
+        "workedCase": {
+          "problem": "比較「清、晴、情」的形旁與聲旁，說明為何不能把三字混用。",
+          "steps": [
+            "三字皆含「青」，可作聲音線索；氵、日、忄分別提示水、日光、心理等意義範圍。",
+            "依語境分別可用清水、晴天、心情，需同時看字形與詞義。",
+            "造句「雨後放晴，他的心情也明朗了」，再說出兩個字的功能差異。"
+          ],
+          "check": "形旁只是提示，不能替代查字典；六書分析也不等於把每個零件編成現代故事。"
+        },
+        "officialRefs": [
+          {
+            "code": "Ab-IV-3",
+            "kind": "學習內容",
+            "page": 16
+          },
+          {
+            "code": "4-IV-2",
+            "kind": "學習表現",
+            "page": 11
+          }
+        ]
+      },
+      "nodes": {
+        "chinese-7:concept": [
+          "info.chinese-7.kp1",
+          "q.chinese-7.kp1.def",
+          "cq.chinese-7-q1",
+          "match.chinese-7.table"
+        ],
+        "chinese-7:rule": [
+          "info.chinese-7.kp2",
+          "q.chinese-7.kp2.rule",
+          "q.chinese-7.deepening.contrast"
+        ],
+        "chinese-7:reasoning": [
+          "build.chinese-7.case",
+          "cq.chinese-7-q2",
+          "q.chinese-7.case.check"
+        ],
+        "chinese-7:mastery": [
+          "info.chinese-7.kp3",
+          "q.chinese-7.pitfall",
+          "cap.109-chinese-17"
+        ],
+        "chinese-7:boss": [
+          "q.chinese-7.kp1.def",
+          "cq.chinese-7-q1",
+          "match.chinese-7.table",
+          "q.chinese-7.kp2.rule",
+          "q.chinese-7.deepening.contrast",
+          "build.chinese-7.case",
+          "cq.chinese-7-q2",
+          "q.chinese-7.case.check",
+          "q.chinese-7.pitfall",
+          "cap.109-chinese-17"
+        ]
+      }
+    },
+    "chinese-8": {
+      "guide": {
+        "unitId": "chinese-8",
+        "title": "標點符號、句型結構與語法邏輯",
+        "subject": "國語文",
+        "grade": 7,
+        "term": 2,
+        "concept": "漢語基本句子結構通常包含主語、謂語與賓語。常見句型有敘事句（主＋動＋賓）、有無句（主＋有/無＋賓）、表態句（主＋表語/形容詞）與判斷句（主＋繫詞「是」＋斷語）。標點符號如破折號表聲音延長或轉折插說，夾注號表補充說明。",
+        "example": "「燕子去了，有再來的時候」為敘事句；「天下沒有白吃的午餐」為有無句；「環堵蕭然」為表態句；「菊，花之隱逸者也」為文言判斷句（相當於「菊是隱逸之花」）。",
+        "pitfall": "「是」在古代常作代詞「這」（如「是可忍，孰不可忍」），不一定是現代語法中的繫詞。表態句的中心是形容詞，沒有一般及物動詞。",
+        "task": "各造一個敘事句、表態句與判斷句，並用符號標出每句的主語與核心動詞或形容詞。",
+        "knowledgePoints": [
+          {
+            "title": "【知識點 1】反詰語氣（激問）：核心意義與原理機轉",
+            "core": "反詰語氣（激問）之核心本質：心中已有明確答案，以反問形式加強肯定或否定語氣，答案在問題反面。",
+            "mechanism": "底層機轉：依據 108 課綱定義，心中已有明確答案，以反問形式加強肯定或否定語氣，答案在問題反面。對應本課核心觀念：漢語基本句子結構通常包含主語、謂語與賓語。在客觀條件「實戰檢核與適用條件：「何不食肉糜？」（指責無知）；「學而時習之，不亦說乎？」（肯定喜悅）」成立下，確保結論之必然性。",
+            "formula": "【實戰法則】心中已有明確答案，以反問形式加強肯定或否定語氣，答案在問題反面 ➔ 檢驗條件：「何不食肉糜？」（指責無知）；「學而時習之，不亦說乎？」（肯定喜悅）",
+            "tip": "考場避坑防線：【高頻盲點】「是」在古代常作代詞「這」（如「是可忍，孰不可忍」），不一定是現代語法中的繫詞。表態句的中心是形容詞，沒有一般及物動詞。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"反詰語氣（激問）\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"28\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🌳 語意結構與層次樹狀圖</text>\n    <text x=\"516\" y=\"28\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 語文思維</text>\n    \n    <rect x=\"205\" y=\"42\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#5867a2\"/>\n    <text x=\"270\" y=\"62\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\">標點符號、句</text>\n    \n    <path d=\"M 270 72 L 100 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 270 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 440 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    \n    <rect x=\"35\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"100\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">主幹／主詞 [S]</text>\n    <text x=\"100\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">反詰語氣（激</text>\n    \n    <rect x=\"205\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n    <text x=\"270\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#5867a2\" text-anchor=\"middle\">動詞／述語 [V]</text>\n    <text x=\"270\" y=\"138\" font-size=\"10.5\" fill=\"#3b4774\" text-anchor=\"middle\">心中已有明確</text>\n    \n    <rect x=\"375\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"440\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">受詞／補語 [O/C]</text>\n    <text x=\"440\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">「何不食肉糜</text>\n    \n    <text x=\"270\" y=\"168\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"600\" fill=\"#212946\">💡 句意解碼：抓住核心述語與修飾限制，分清主從關係不被長句誤導</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 2】推測與商榷語氣：條件判別與推理步驟",
+            "core": "推測與商榷語氣之判別準則：使用「得無、其、莫非、庶幾、蓋」等詞，表達委婉推想或不確定判斷。",
+            "mechanism": "推導機制：由已知條件出發，套用「使用「得無、其、莫非、庶幾、蓋」等詞，表達委婉推想或不確定判斷」，依序完成定位、推導與單位邊界檢核。",
+            "formula": "【推導公式／口訣】使用「得無、其、莫非、庶幾、蓋」等詞，表達委婉推想或不確定判斷 ➔ 典型示範：「覽物之情，得無異乎？」（難道沒有不同嗎？委婉推論）",
+            "tip": "步驟防呆：可改成「雖然雨停了，但是操場仍然濕滑。」。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"推測與商榷語氣\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🔄 推演機制與解題流程圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 3-Stage</text>\n    \n    <g transform=\"translate(30, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">1</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">審題定位</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          前句雨停與後句仍濕滑之間有預期落差，較適合讓步轉折。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 175 100 L 195 100\" stroke=\"#5867a2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"199,100 191,96 191,104\" fill=\"#5867a2\"/>\n    \n    <g transform=\"translate(205, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#3b4774\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">2</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#3b4774\">模型推演</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          可改成「雖然雨停了，但是操場仍然濕滑。」\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 350 100 L 370 100\" stroke=\"#3b4774\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"374,100 366,96 366,104\" fill=\"#3b4774\"/>\n    \n    <g transform=\"translate(380, 52)\">\n      <rect width=\"130\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">3</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">驗算防呆</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"110\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          若要表因果，可改寫「因為雨剛停，所以操場仍然濕滑」，加入時間條件建立理由。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#5867a2\">🔗 閉環檢驗：確保每一步推理皆有課綱定義或物理/數學定理支撐</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 3】祈使與命令語氣：易混淆辨析與避坑防線",
+            "core": "祈使與命令語氣之避坑界線：使用「願、請、唯、勖」等詞，表達請求、勸勉、期望或嚴肅囑託。",
+            "mechanism": "防呆機制：並列對比「相同詞語」與「不同語意」之邊界約束，杜絕以假亂真或偷換概念。",
+            "formula": "【辨析對照】相同詞語 vs 不同語意 ➔ 適用防線：「願陛下託臣以討賊興復之效」（懇切請求囑託）",
+            "tip": "考場急救手記：【考場防呆】兩種改法意思略有差別，應先決定要強調轉折還是濕滑的原因，而不是機械換連詞。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"祈使與命令語氣\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">⚖️ 易混淆概念雙軌辨析圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ Contrast</text>\n    \n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.6\"/>\n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#5867a2\"/>\n    <text x=\"140\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">① 相同詞語</text>\n    <foreignObject x=\"42\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        標點改變停頓與句法關係\n      </div>\n    </foreignObject>\n    \n    <circle cx=\"270\" cy=\"99\" r=\"18\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"2\"/>\n    <text x=\"270\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"900\" fill=\"#3b4774\">VS</text>\n    \n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.6\"/>\n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#3b4774\"/>\n    <text x=\"400\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">② 不同語意</text>\n    <foreignObject x=\"302\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        判斷標點效果，要比較整句意義而非只背名稱\n      </div>\n    </foreignObject>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#212946\">🛡️ 避坑分水嶺：抓住核心邊界條件，杜絕以假亂真或偷換概念</text>\n  </svg>"
+          }
+        ],
+        "table": {
+          "title": "語氣判讀與情意抒發（祈使、反詰、推測與感嘆）",
+          "rows": [
+            [
+              "反詰語氣（激問）",
+              "心中已有明確答案，以反問形式加強肯定或否定語氣，答案在問題反面",
+              "「何不食肉糜？」（指責無知）；「學而時習之，不亦說乎？」（肯定喜悅）"
+            ],
+            [
+              "推測與商榷語氣",
+              "使用「得無、其、莫非、庶幾、蓋」等詞，表達委婉推想或不確定判斷",
+              "「覽物之情，得無異乎？」（難道沒有不同嗎？委婉推論）"
+            ],
+            [
+              "祈使與命令語氣",
+              "使用「願、請、唯、勖」等詞，表達請求、勸勉、期望或嚴肅囑託",
+              "「願陛下託臣以討賊興復之效」（懇切請求囑託）"
+            ],
+            [
+              "感嘆語氣",
+              "使用「嗚呼、嗟夫、噫、嘻」等發語詞或嘆詞，抒發強烈悲喜感慨",
+              "「嗚呼！師道之不傳也久矣！」（深切痛惜感嘆）"
+            ]
+          ]
+        },
+        "workedCase": {
+          "problem": "修改「因為雨停了，所以操場仍然濕滑。」使句子的邏輯與用詞更恰當。",
+          "steps": [
+            "前句雨停與後句仍濕滑之間有預期落差，較適合讓步轉折。",
+            "可改成「雖然雨停了，但是操場仍然濕滑。」",
+            "若要表因果，可改寫「因為雨剛停，所以操場仍然濕滑」，加入時間條件建立理由。"
+          ],
+          "check": "兩種改法意思略有差別，應先決定要強調轉折還是濕滑的原因，而不是機械換連詞。"
+        },
+        "officialRefs": [
+          {
+            "code": "Ac-IV-1",
+            "kind": "學習內容",
+            "page": 17
+          },
+          {
+            "code": "Ac-IV-2",
+            "kind": "學習內容",
+            "page": 17
+          },
+          {
+            "code": "6-IV-1",
+            "kind": "學習表現",
+            "page": 14
+          }
+        ]
+      },
+      "nodes": {
+        "chinese-8:concept": [
+          "info.chinese-8.kp1",
+          "q.chinese-8.kp1.def",
+          "cq.chinese-8-q1",
+          "match.chinese-8.table"
+        ],
+        "chinese-8:rule": [
+          "info.chinese-8.kp2",
+          "q.chinese-8.kp2.rule",
+          "q.chinese-8.deepening.contrast"
+        ],
+        "chinese-8:reasoning": [
+          "build.chinese-8.case",
+          "cq.chinese-8-q2",
+          "q.chinese-8.case.check"
+        ],
+        "chinese-8:mastery": [
+          "info.chinese-8.kp3",
+          "q.chinese-8.pitfall",
+          "cap.109-chinese-9"
+        ],
+        "chinese-8:boss": [
+          "q.chinese-8.kp1.def",
+          "cq.chinese-8-q1",
+          "match.chinese-8.table",
+          "q.chinese-8.kp2.rule",
+          "q.chinese-8.deepening.contrast",
+          "build.chinese-8.case",
+          "cq.chinese-8-q2",
+          "q.chinese-8.case.check",
+          "q.chinese-8.pitfall",
+          "cap.109-chinese-9"
+        ]
+      }
+    },
+    "chinese-9": {
+      "guide": {
+        "unitId": "chinese-9",
+        "title": "古典近體詩：絕句與律詩格律賞析",
+        "subject": "國語文",
+        "grade": 8,
+        "term": 1,
+        "concept": "近體詩盛於唐代，分為絕句（四句）與律詩（八句），每句字數固定為五言或七言。律詩格律嚴格：偶數句必押平聲韻且一韻到底；三四句（頷聯）與五六句（頸聯）必須字面與詞性嚴格對仗。",
+        "example": "杜甫〈蜀相〉「丞相祠堂何處尋？錦官城外柏森森。映階碧草自春色，隔葉黃鸝空好音。」頷聯中「映階碧草」對「隔葉黃鸝」，「自春色」對「空好音」，詞性工整對仗。",
+        "pitfall": "絕句不要求對仗，若有對仗屬作者巧思；律詩首尾兩聯（首聯、尾聯）通常不對仗，只有中間兩聯必須對仗。近體詩通常不可換韻。",
+        "task": "選一首唐代七言律詩，標出其偶數句押韻的字，並指出哪兩聯形成了工整的對仗。",
+        "knowledgePoints": [
+          {
+            "title": "【知識點 1】句數與字數：核心意義與原理機轉",
+            "core": "句數與字數之核心本質：絕句四句（五絕 20 字、七絕 28 字）；律詩八句（五律 40 字、七律 56 字）。",
+            "mechanism": "底層機轉：依據 108 課綱定義，絕句四句（五絕 20 字、七絕 28 字）；律詩八句（五律 40 字、七律 56 字）。對應本課核心觀念：近體詩盛於唐代，分為絕句（四句）與律詩（八句），每句字數固定為五言或七言。在客觀條件「實戰檢核與適用條件：超過八句者為排律；近體詩字數嚴格固定，不可任意增減長短句」成立下，確保結論之必然性。",
+            "formula": "【實戰法則】絕句四句（五絕 20 字、七絕 28 字）；律詩八句（五律 40 字、七律 56 字） ➔ 檢驗條件：超過八句者為排律；近體詩字數嚴格固定，不可任意增減長短句",
+            "tip": "考場避坑防線：【高頻盲點】絕句不要求對仗，若有對仗屬作者巧思；律詩首尾兩聯（首聯、尾聯）通常不對仗，只有中間兩聯必須對仗。近體詩通常不可換韻。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"句數與字數\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"28\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🌳 語意結構與層次樹狀圖</text>\n    <text x=\"516\" y=\"28\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 語文思維</text>\n    \n    <rect x=\"205\" y=\"42\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#5867a2\"/>\n    <text x=\"270\" y=\"62\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\">古典近體詩：</text>\n    \n    <path d=\"M 270 72 L 100 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 270 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 440 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    \n    <rect x=\"35\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"100\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">主幹／主詞 [S]</text>\n    <text x=\"100\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">句數與字數</text>\n    \n    <rect x=\"205\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n    <text x=\"270\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#5867a2\" text-anchor=\"middle\">動詞／述語 [V]</text>\n    <text x=\"270\" y=\"138\" font-size=\"10.5\" fill=\"#3b4774\" text-anchor=\"middle\">絕句四句（五</text>\n    \n    <rect x=\"375\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"440\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">受詞／補語 [O/C]</text>\n    <text x=\"440\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">超過八句者為</text>\n    \n    <text x=\"270\" y=\"168\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"600\" fill=\"#212946\">💡 句意解碼：抓住核心述語與修飾限制，分清主從關係不被長句誤導</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 2】押韻規範：條件判別與推理步驟",
+            "core": "押韻規範之判別準則：偶數句（2, 4, 6, 8 句）押平聲韻，首句可押可不押，第三句、奇數句必不押韻。",
+            "mechanism": "推導機制：由已知條件出發，套用「偶數句（2, 4, 6, 8 句）押平聲韻，首句可押可不押，第三句、奇數句必不押韻」，依序完成定位、推導與單位邊界檢核。",
+            "formula": "【推導公式／口訣】偶數句（2, 4, 6, 8 句）押平聲韻，首句可押可不押，第三句、奇數句必不押韻 ➔ 典型示範：一韻到底，不可換韻；押韻字必須同韻部（平水韻）",
+            "tip": "步驟防呆：需再核對押韻、平仄及中間兩聯的對仗，不能僅憑字數斷定完全合律。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"押韻規範\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🔄 推演機制與解題流程圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 3-Stage</text>\n    \n    <g transform=\"translate(30, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">1</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">審題定位</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          八句、每句七字，與七言律詩的外部形式相符。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 175 100 L 195 100\" stroke=\"#5867a2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"199,100 191,96 191,104\" fill=\"#5867a2\"/>\n    \n    <g transform=\"translate(205, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#3b4774\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">2</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#3b4774\">模型推演</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          需再核對押韻、平仄及中間兩聯的對仗，不能僅憑字數斷定完全合律。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 350 100 L 370 100\" stroke=\"#3b4774\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"374,100 366,96 366,104\" fill=\"#3b4774\"/>\n    \n    <g transform=\"translate(380, 52)\">\n      <rect width=\"130\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">3</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">驗算防呆</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"110\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          賞析可進一步比較山水與遠近如何安排視線，形成景物層次。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#5867a2\">🔗 閉環檢驗：確保每一步推理皆有課綱定義或物理/數學定理支撐</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 3】律詩對仗要求：易混淆辨析與避坑防線",
+            "core": "律詩對仗要求之避坑界線：律詩三四句（頷聯）與五六句（頸聯）必須嚴格對仗（詞性相對、句式相同）。",
+            "mechanism": "防呆機制：並列對比「形式線索」與「閱讀證據」之邊界約束，杜絕以假亂真或偷換概念。",
+            "formula": "【辨析對照】形式線索 vs 閱讀證據 ➔ 適用防線：首聯（一二句）與尾聯（七八句）通常不對仗；絕句則不強制要求對仗",
+            "tip": "考場急救手記：【考場防呆】格律判讀與情感詮釋分開說明；形式符合不代表可以直接推定作者心情愉快。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"律詩對仗要求\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">⚖️ 易混淆概念雙軌辨析圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ Contrast</text>\n    \n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.6\"/>\n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#5867a2\"/>\n    <text x=\"140\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">① 形式線索</text>\n    <foreignObject x=\"42\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        絕句通常四句、律詩八句；五言七言看每句字數\n      </div>\n    </foreignObject>\n    \n    <circle cx=\"270\" cy=\"99\" r=\"18\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"2\"/>\n    <text x=\"270\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"900\" fill=\"#3b4774\">VS</text>\n    \n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.6\"/>\n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#3b4774\"/>\n    <text x=\"400\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">② 閱讀證據</text>\n    <foreignObject x=\"302\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        格律是理解形式的工具，意境仍由用字與章法支持\n      </div>\n    </foreignObject>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#212946\">🛡️ 避坑分水嶺：抓住核心邊界條件，杜絕以假亂真或偷換概念</text>\n  </svg>"
+          }
+        ],
+        "table": {
+          "title": "近體詩格律體制：五言/七言絕句與律詩規範",
+          "rows": [
+            [
+              "句數與字數",
+              "絕句四句（五絕 20 字、七絕 28 字）；律詩八句（五律 40 字、七律 56 字）",
+              "超過八句者為排律；近體詩字數嚴格固定，不可任意增減長短句"
+            ],
+            [
+              "押韻規範",
+              "偶數句（2, 4, 6, 8 句）押平聲韻，首句可押可不押，第三句、奇數句必不押韻",
+              "一韻到底，不可換韻；押韻字必須同韻部（平水韻）"
+            ],
+            [
+              "律詩對仗要求",
+              "律詩三四句（頷聯）與五六句（頸聯）必須嚴格對仗（詞性相對、句式相同）",
+              "首聯（一二句）與尾聯（七八句）通常不對仗；絕句則不強制要求對仗"
+            ],
+            [
+              "平仄黏對規則",
+              "「一三五不論，二四六分明」；避免犯孤平與三平調",
+              "二四六字平仄位置固定；出句與對句之平仄必須相對"
+            ]
+          ]
+        },
+        "workedCase": {
+          "problem": "某首詩共有八句，每句七字；中間兩聯分別描寫山與水、遠景與近景。可先作何種形式判讀？還要確認什麼？",
+          "steps": [
+            "八句、每句七字，與七言律詩的外部形式相符。",
+            "需再核對押韻、平仄及中間兩聯的對仗，不能僅憑字數斷定完全合律。",
+            "賞析可進一步比較山水與遠近如何安排視線，形成景物層次。"
+          ],
+          "check": "格律判讀與情感詮釋分開說明；形式符合不代表可以直接推定作者心情愉快。"
+        },
+        "officialRefs": [
+          {
+            "code": "Ad-IV-3",
+            "kind": "學習內容",
+            "page": 17
+          },
+          {
+            "code": "5-IV-2",
+            "kind": "學習表現",
+            "page": 13
+          }
+        ]
+      },
+      "nodes": {
+        "chinese-9:concept": [
+          "info.chinese-9.kp1",
+          "q.chinese-9.kp1.def",
+          "cq.chinese-9-q1",
+          "match.chinese-9.table"
+        ],
+        "chinese-9:rule": [
+          "info.chinese-9.kp2",
+          "q.chinese-9.kp2.rule",
+          "q.chinese-9.deepening.contrast"
+        ],
+        "chinese-9:reasoning": [
+          "build.chinese-9.case",
+          "cq.chinese-9-q2",
+          "q.chinese-9.case.check"
+        ],
+        "chinese-9:mastery": [
+          "info.chinese-9.kp3",
+          "q.chinese-9.pitfall",
+          "cap.111-chinese-2"
+        ],
+        "chinese-9:boss": [
+          "q.chinese-9.kp1.def",
+          "cq.chinese-9-q1",
+          "match.chinese-9.table",
+          "q.chinese-9.kp2.rule",
+          "q.chinese-9.deepening.contrast",
+          "build.chinese-9.case",
+          "cq.chinese-9-q2",
+          "q.chinese-9.case.check",
+          "q.chinese-9.pitfall",
+          "cap.111-chinese-2"
+        ]
+      }
+    },
+    "chinese-10": {
+      "guide": {
+        "unitId": "chinese-10",
+        "title": "詞曲賞析與古代生活文化",
+        "subject": "國語文",
+        "grade": 8,
+        "term": 2,
+        "concept": "詞盛於宋，又稱曲子詞、詩餘或長短句，依詞牌填詞，句式參差便於歌唱，分為婉約派（晏殊、李清照）與豪放派（蘇軾、辛棄疾）。曲盛於元，包含散曲與雜劇，語言通俗自然，押韻更密且可加入襯字。",
+        "example": "李清照〈如夢令〉「昨夜雨疏風驟，濃睡不消殘酒。試問捲簾人，卻道海棠依舊。知否？知否？應是綠肥紅瘦！」詞調長短錯落，藉紅瘦比喻落花，風格清麗婉約。",
+        "pitfall": "詞牌名（如〈念奴嬌〉、〈破陣子〉）是音樂曲調，與詞的內容題目不一定有直接關聯；題目通常另附於詞牌之後。",
+        "task": "比較一首宋詞與一首唐代五言絕句的句式結構，寫出長短句在情感抒發上的節奏特色。",
+        "knowledgePoints": [
+          {
+            "title": "【知識點 1】詞牌與曲牌：核心意義與原理機轉",
+            "core": "詞牌與曲牌之核心本質：詞牌（如水調歌頭、念奴嬌）規定詞的字數、句式、平仄與押韻，與內容題目無必然關係。",
+            "mechanism": "底層機轉：依據 108 課綱定義，詞牌（如水調歌頭、念奴嬌）規定詞的字數、句式、平仄與押韻，與內容題目無必然關係。對應本課核心觀念：詞盛於宋，又稱曲子詞、詩餘或長短句，依詞牌填詞，句式參差便於歌唱，分為婉約派（晏殊、李清照）與豪放派（蘇軾、辛棄疾）。在客觀條件「實戰檢核與適用條件：辛棄疾〈破陣子·為陳同甫賦壯詞以寄之〉中，「破陣子」為詞牌，「為陳同甫...」為題目」成立下，確保結論之必然性。",
+            "formula": "【實戰法則】詞牌（如水調歌頭、念奴嬌）規定詞的字數、句式、平仄與押韻，與內容題目無必然關係 ➔ 檢驗條件：辛棄疾〈破陣子·為陳同甫賦壯詞以寄之〉中，「破陣子」為詞牌，「為陳同甫...」為題目",
+            "tip": "考場避坑防線：【高頻盲點】詞牌名（如〈念奴嬌〉、〈破陣子〉）是音樂曲調，與詞的內容題目不一定有直接關聯；題目通常另附於詞牌之後。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"詞牌與曲牌\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"28\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🌳 語意結構與層次樹狀圖</text>\n    <text x=\"516\" y=\"28\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 語文思維</text>\n    \n    <rect x=\"205\" y=\"42\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#5867a2\"/>\n    <text x=\"270\" y=\"62\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\">詞曲賞析與古</text>\n    \n    <path d=\"M 270 72 L 100 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 270 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 440 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    \n    <rect x=\"35\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"100\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">主幹／主詞 [S]</text>\n    <text x=\"100\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">詞牌與曲牌</text>\n    \n    <rect x=\"205\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n    <text x=\"270\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#5867a2\" text-anchor=\"middle\">動詞／述語 [V]</text>\n    <text x=\"270\" y=\"138\" font-size=\"10.5\" fill=\"#3b4774\" text-anchor=\"middle\">詞牌（如水調</text>\n    \n    <rect x=\"375\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"440\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">受詞／補語 [O/C]</text>\n    <text x=\"440\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">辛棄疾〈破陣</text>\n    \n    <text x=\"270\" y=\"168\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"600\" fill=\"#212946\">💡 句意解碼：抓住核心述語與修飾限制，分清主從關係不被長句誤導</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 2】詞的句式與押韻：條件判別與推理步驟",
+            "core": "詞的句式與押韻之判別準則：長短句，又稱「詩餘」或「倚聲」；平仄可依詞調譜曲，有的詞牌可平仄通押或換韻。",
+            "mechanism": "推導機制：由已知條件出發，套用「長短句，又稱「詩餘」或「倚聲」；平仄可依詞調譜曲，有的詞牌可平仄通押或換韻」，依序完成定位、推導與單位邊界檢核。",
+            "formula": "【推導公式／口訣】長短句，又稱「詩餘」或「倚聲」；平仄可依詞調譜曲，有的詞牌可平仄通押或換韻 ➔ 典型示範：通常分上下兩片（雙調），少數為單調或三疊",
+            "tip": "步驟防呆：再找春遊作品的景物與行動、思鄉作品的地點與回憶，確認各自情境。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"詞的句式與押韻\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🔄 推演機制與解題流程圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 3-Stage</text>\n    \n    <g transform=\"translate(30, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">1</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">審題定位</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          先區分詞牌名稱與作品實際內容：同牌只提供形式上的共同線索。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 175 100 L 195 100\" stroke=\"#5867a2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"199,100 191,96 191,104\" fill=\"#5867a2\"/>\n    \n    <g transform=\"translate(205, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#3b4774\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">2</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#3b4774\">模型推演</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          再找春遊作品的景物與行動、思鄉作品的地點與回憶，確認各自情境。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 350 100 L 370 100\" stroke=\"#3b4774\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"374,100 366,96 366,104\" fill=\"#3b4774\"/>\n    \n    <g transform=\"translate(380, 52)\">\n      <rect width=\"130\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">3</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">驗算防呆</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"110\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          比較語句節奏與轉折，說明相近形式如何承載不同情感。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#5867a2\">🔗 閉環檢驗：確保每一步推理皆有課綱定義或物理/數學定理支撐</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 3】散曲體制（小令與套數）：易混淆辨析與避坑防線",
+            "core": "散曲體制（小令與套數）之避坑界線：元曲包括雜劇與散曲；散曲分單首之「小令」與同宮調多曲相連之「套數」。",
+            "mechanism": "防呆機制：並列對比「詞牌曲牌」與「作品題目」之邊界約束，杜絕以假亂真或偷換概念。",
+            "formula": "【辨析對照】詞牌曲牌 vs 作品題目 ➔ 適用防線：馬致遠〈天淨沙·秋思〉為散曲中的小令；曲牌為「天淨沙」",
+            "tip": "考場急救手記：【考場防呆】不能把詞牌字面意思硬套到每首詞；主旨需由作品本身的字句支持。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"散曲體制（小令與套數）\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">⚖️ 易混淆概念雙軌辨析圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ Contrast</text>\n    \n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.6\"/>\n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#5867a2\"/>\n    <text x=\"140\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">① 詞牌曲牌</text>\n    <foreignObject x=\"42\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        規範句式、節奏等形式\n      </div>\n    </foreignObject>\n    \n    <circle cx=\"270\" cy=\"99\" r=\"18\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"2\"/>\n    <text x=\"270\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"900\" fill=\"#3b4774\">VS</text>\n    \n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.6\"/>\n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#3b4774\"/>\n    <text x=\"400\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">② 作品題目</text>\n    <foreignObject x=\"302\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        指出內容或寫作情境，不一定和牌名意義相同\n      </div>\n    </foreignObject>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#212946\">🛡️ 避坑分水嶺：抓住核心邊界條件，杜絕以假亂真或偷換概念</text>\n  </svg>"
+          }
+        ],
+        "table": {
+          "title": "宋詞與元曲體制音律：詞牌、曲牌與長短句",
+          "rows": [
+            [
+              "詞牌與曲牌",
+              "詞牌（如水調歌頭、念奴嬌）規定詞的字數、句式、平仄與押韻，與內容題目無必然關係",
+              "辛棄疾〈破陣子·為陳同甫賦壯詞以寄之〉中，「破陣子」為詞牌，「為陳同甫...」為題目"
+            ],
+            [
+              "詞的句式與押韻",
+              "長短句，又稱「詩餘」或「倚聲」；平仄可依詞調譜曲，有的詞牌可平仄通押或換韻",
+              "通常分上下兩片（雙調），少數為單調或三疊"
+            ],
+            [
+              "散曲體制（小令與套數）",
+              "元曲包括雜劇與散曲；散曲分單首之「小令」與同宮調多曲相連之「套數」",
+              "馬致遠〈天淨沙·秋思〉為散曲中的小令；曲牌為「天淨沙」"
+            ],
+            [
+              "曲可加襯字",
+              "曲在規定的曲牌正字之外，可靈活加入「襯字」，不影響曲譜節拍，使口語更生動",
+              "詞不可加襯字，曲可以加襯字，這是詞與曲體制上極重要之辨識關鍵"
+            ]
+          ]
+        },
+        "workedCase": {
+          "problem": "兩首作品都使用同一詞牌，一首寫春遊，一首寫思鄉。能否因此說它們主旨相同？應如何比較？",
+          "steps": [
+            "先區分詞牌名稱與作品實際內容：同牌只提供形式上的共同線索。",
+            "再找春遊作品的景物與行動、思鄉作品的地點與回憶，確認各自情境。",
+            "比較語句節奏與轉折，說明相近形式如何承載不同情感。"
+          ],
+          "check": "不能把詞牌字面意思硬套到每首詞；主旨需由作品本身的字句支持。"
+        },
+        "officialRefs": [
+          {
+            "code": "Ad-IV-3",
+            "kind": "學習內容",
+            "page": 17
+          },
+          {
+            "code": "Ca-IV-1",
+            "kind": "學習內容",
+            "page": 20
+          },
+          {
+            "code": "5-IV-2",
+            "kind": "學習表現",
+            "page": 13
+          }
+        ]
+      },
+      "nodes": {
+        "chinese-10:concept": [
+          "info.chinese-10.kp1",
+          "q.chinese-10.kp1.def",
+          "cq.chinese-10-q1",
+          "match.chinese-10.table"
+        ],
+        "chinese-10:rule": [
+          "info.chinese-10.kp2",
+          "q.chinese-10.kp2.rule",
+          "q.chinese-10.deepening.contrast"
+        ],
+        "chinese-10:reasoning": [
+          "build.chinese-10.case",
+          "cq.chinese-10-q2",
+          "q.chinese-10.case.check"
+        ],
+        "chinese-10:mastery": [
+          "info.chinese-10.kp3",
+          "q.chinese-10.pitfall"
+        ],
+        "chinese-10:boss": [
+          "q.chinese-10.kp1.def",
+          "cq.chinese-10-q1",
+          "match.chinese-10.table",
+          "q.chinese-10.kp2.rule",
+          "q.chinese-10.deepening.contrast",
+          "build.chinese-10.case",
+          "cq.chinese-10-q2",
+          "q.chinese-10.case.check",
+          "q.chinese-10.pitfall"
+        ]
+      }
+    },
+    "chinese-11": {
+      "guide": {
+        "unitId": "chinese-11",
+        "title": "古典小說選讀與人性刻畫",
+        "subject": "國語文",
+        "grade": 9,
+        "term": 1,
+        "concept": "中國古代章回小說由宋元話本發展而來，明清達到高峰。四大名著包括《三國演義》（歷史演義）、《水滸傳》（英雄傳奇）、《西遊記》（神魔奇幻）與《紅樓夢》（世情小說）。刻畫人物藉由外貌、心理、言行對比及情節衝突展現人性複雜面貌。",
+        "example": "《水滸傳》寫林沖風雪山神廟，由一再隱忍、退讓到得知真相後的憤怒反抗，人物轉變層次分明，細膩刻畫「逼上梁山」的心路歷程。",
+        "pitfall": "章回小說的情節經過作者藝術加工，不等同於真實歷史事實（如《三國演義》七實三虛，草船借箭在正史中並非諸葛亮所為）。",
+        "task": "選一部古典小說中的人物（如孔明、曹操、武松或孫悟空），寫出一次他的言行細節，並分析該細節如何展現其性格特徵。",
+        "knowledgePoints": [
+          {
+            "title": "【知識點 1】情節伏筆：核心意義與原理機轉",
+            "core": "情節伏筆之核心本質：前文草蛇灰線的暗示，呼應後續高潮與結局。",
+            "mechanism": "底層機轉：依據 108 課綱定義，前文草蛇灰線的暗示，呼應後續高潮與結局。對應本課核心觀念：中國古代章回小說由宋元話本發展而來，明清達到高峰。在客觀條件「實戰檢核與適用條件：草料場雪夜下火盆暗示起火；線索需串聯上下文」成立下，確保結論之必然性。",
+            "formula": "【實戰法則】前文草蛇灰線的暗示，呼應後續高潮與結局 ➔ 檢驗條件：草料場雪夜下火盆暗示起火；線索需串聯上下文",
+            "tip": "考場避坑防線：【高頻盲點】章回小說的情節經過作者藝術加工，不等同於真實歷史事實（如《三國演義》七實三虛，草船借箭在正史中並非諸葛亮所為）。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"情節伏筆\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"28\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🌳 語意結構與層次樹狀圖</text>\n    <text x=\"516\" y=\"28\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 語文思維</text>\n    \n    <rect x=\"205\" y=\"42\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#5867a2\"/>\n    <text x=\"270\" y=\"62\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\">古典小說選讀</text>\n    \n    <path d=\"M 270 72 L 100 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 270 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 440 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    \n    <rect x=\"35\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"100\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">主幹／主詞 [S]</text>\n    <text x=\"100\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">情節伏筆</text>\n    \n    <rect x=\"205\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n    <text x=\"270\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#5867a2\" text-anchor=\"middle\">動詞／述語 [V]</text>\n    <text x=\"270\" y=\"138\" font-size=\"10.5\" fill=\"#3b4774\" text-anchor=\"middle\">前文草蛇灰線</text>\n    \n    <rect x=\"375\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"440\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">受詞／補語 [O/C]</text>\n    <text x=\"440\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">草料場雪夜下</text>\n    \n    <text x=\"270\" y=\"168\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"600\" fill=\"#212946\">💡 句意解碼：抓住核心述語與修飾限制，分清主從關係不被長句誤導</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 2】人物塑造：條件判別與推理步驟",
+            "core": "人物塑造之判別準則：透過對話（語言）、動作、外貌與心理描摹性格。",
+            "mechanism": "推導機制：由已知條件出發，套用「透過對話（語言）、動作、外貌與心理描摹性格」，依序完成定位、推導與單位邊界檢核。",
+            "formula": "【推導公式／口訣】透過對話（語言）、動作、外貌與心理描摹性格 ➔ 典型示範：張飛之粗中有細、曹操之奸雄多疑；不依單一事件定臉譜",
+            "tip": "步驟防呆：這一反差可支持對勢利或言行不一的批評。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"人物塑造\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🔄 推演機制與解題流程圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 3-Stage</text>\n    \n    <g transform=\"translate(30, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">1</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">審題定位</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          人物口頭宣稱平等，行動卻依外表改變接待順序，形成反差。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 175 100 L 195 100\" stroke=\"#5867a2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"199,100 191,96 191,104\" fill=\"#5867a2\"/>\n    \n    <g transform=\"translate(205, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#3b4774\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">2</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#3b4774\">模型推演</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          這一反差可支持對勢利或言行不一的批評。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 350 100 L 370 100\" stroke=\"#3b4774\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"374,100 366,96 366,104\" fill=\"#3b4774\"/>\n    \n    <g transform=\"translate(380, 52)\">\n      <rect width=\"130\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">3</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">驗算防呆</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"110\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          若要判斷少年是否真的貧窮，仍缺少更多資訊，衣著不是充分證據。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#5867a2\">🔗 閉環檢驗：確保每一步推理皆有課綱定義或物理/數學定理支撐</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 3】對比與襯托：易混淆辨析與避坑防線",
+            "core": "對比與襯托之避坑界線：正襯（以好襯好）與反襯（以動襯靜、以小襯大）。",
+            "mechanism": "防呆機制：並列對比「角色話語」與「敘事觀點」之邊界約束，杜絕以假亂真或偷換概念。",
+            "formula": "【辨析對照】角色話語 vs 敘事觀點 ➔ 適用防線：周瑜與諸葛亮智謀對比；魯智深粗魯對襯拳打鎮關西之正義",
+            "tip": "考場急救手記：【考場防呆】分析要分清「掌櫃如何看人」與「少年實際身分」，不要重複人物自身的偏見。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"對比與襯托\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">⚖️ 易混淆概念雙軌辨析圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ Contrast</text>\n    \n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.6\"/>\n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#5867a2\"/>\n    <text x=\"140\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">① 角色話語</text>\n    <foreignObject x=\"42\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        代表人物的觀點，可能誤解或隱瞞\n      </div>\n    </foreignObject>\n    \n    <circle cx=\"270\" cy=\"99\" r=\"18\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"2\"/>\n    <text x=\"270\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"900\" fill=\"#3b4774\">VS</text>\n    \n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.6\"/>\n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#3b4774\"/>\n    <text x=\"400\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">② 敘事觀點</text>\n    <foreignObject x=\"302\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        敘述者提供的資訊也可能有限，需比較不同線索\n      </div>\n    </foreignObject>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#212946\">🛡️ 避坑分水嶺：抓住核心邊界條件，杜絕以假亂真或偷換概念</text>\n  </svg>"
+          }
+        ],
+        "table": {
+          "title": "古典小說：章回情節、人物塑造與視角",
+          "rows": [
+            [
+              "情節伏筆",
+              "前文草蛇灰線的暗示，呼應後續高潮與結局",
+              "草料場雪夜下火盆暗示起火；線索需串聯上下文"
+            ],
+            [
+              "人物塑造",
+              "透過對話（語言）、動作、外貌與心理描摹性格",
+              "張飛之粗中有細、曹操之奸雄多疑；不依單一事件定臉譜"
+            ],
+            [
+              "對比與襯托",
+              "正襯（以好襯好）與反襯（以動襯靜、以小襯大）",
+              "周瑜與諸葛亮智謀對比；魯智深粗魯對襯拳打鎮關西之正義"
+            ],
+            [
+              "敘事視角",
+              "第三人稱全知視角為主，穿插有限觀察",
+              "說書人視角的「且聽下回分解」；辨析情節主線與次要插敘"
+            ]
+          ]
+        },
+        "workedCase": {
+          "problem": "原創故事片段：「掌櫃說一視同仁，卻先招呼衣著華麗的客人，讓粗衣少年等到天黑。」如何分析人物？",
+          "steps": [
+            "人物口頭宣稱平等，行動卻依外表改變接待順序，形成反差。",
+            "這一反差可支持對勢利或言行不一的批評。",
+            "若要判斷少年是否真的貧窮，仍缺少更多資訊，衣著不是充分證據。"
+          ],
+          "check": "分析要分清「掌櫃如何看人」與「少年實際身分」，不要重複人物自身的偏見。"
+        },
+        "officialRefs": [
+          {
+            "code": "Ad-IV-4",
+            "kind": "學習內容",
+            "page": 17
+          },
+          {
+            "code": "5-IV-2",
+            "kind": "學習表現",
+            "page": 13
+          }
+        ]
+      },
+      "nodes": {
+        "chinese-11:concept": [
+          "info.chinese-11.kp1",
+          "q.chinese-11.kp1.def",
+          "cq.chinese-11-q1",
+          "match.chinese-11.table"
+        ],
+        "chinese-11:rule": [
+          "info.chinese-11.kp2",
+          "q.chinese-11.kp2.rule",
+          "q.chinese-11.deepening.contrast"
+        ],
+        "chinese-11:reasoning": [
+          "build.chinese-11.case",
+          "cq.chinese-11-q2",
+          "q.chinese-11.case.check"
+        ],
+        "chinese-11:mastery": [
+          "info.chinese-11.kp3",
+          "q.chinese-11.pitfall"
+        ],
+        "chinese-11:boss": [
+          "q.chinese-11.kp1.def",
+          "cq.chinese-11-q1",
+          "match.chinese-11.table",
+          "q.chinese-11.kp2.rule",
+          "q.chinese-11.deepening.contrast",
+          "build.chinese-11.case",
+          "cq.chinese-11-q2",
+          "q.chinese-11.case.check",
+          "q.chinese-11.pitfall"
+        ]
+      }
+    },
+    "chinese-12": {
+      "guide": {
+        "unitId": "chinese-12",
+        "title": "應用文全覽：書信、題辭、對聯與柬帖規範",
+        "subject": "國語文",
+        "grade": 9,
+        "term": 2,
+        "concept": "應用文處理人際交往與社會事務。書信注意受信人提稱語（長輩用尊鑒/道鑒、平輩用大鑒、晚輩用青鑒/如晤）、啟封詞（長輩用安啟/福啟、平輩用大啟、晚輩用啟/收）；對聯講究字數相等、詞性對仗、平仄相對且「仄起平收」（上聯末字仄聲、下聯末字平聲）；題辭需合乎場合（如賀婚、賀壽、賀遷居、哀輓）。",
+        "example": "寫給老師信封中間受信欄應寫「某某老師 安啟」，不可寫「敬啟」（敬啟意為恭敬開啟，不可請長輩敬啟）。祝賀新婚可用「宜室宜家」、「琴瑟和鳴」；祝賀醫院診所可用「妙手回春」、「仁心仁術」。",
+        "pitfall": "信封上的啟封詞是給送信人看的「請收信人拆開」之詞，寫「敬啟」等於要收件人恭敬拆開，極為失禮。「桃李春風」用於教育界，不可用於醫療開業。",
+        "task": "檢視一幅對聯「風調雨順千山秀，國泰民安萬里春」，標出上下聯末字的平仄，並說明為何上聯在右、下聯在左。",
+        "knowledgePoints": [
+          {
+            "title": "【知識點 1】書信稱謂與提稱語：核心意義與原理機轉",
+            "core": "書信稱謂與提稱語之核心本質：稱長輩用「尊鑒、道鑒」；稱平輩用「台鑒、大鑒」；稱晚輩用「如晤、青睞」。",
+            "mechanism": "底層機轉：依據 108 課綱定義，稱長輩用「尊鑒、道鑒」；稱平輩用「台鑒、大鑒」；稱晚輩用「如晤、青睞」。對應本課核心觀念：應用文處理人際交往與社會事務。在客觀條件「實戰檢核與適用條件：對父母提稱語用「膝下、膝前」；切忌對尊長用平輩提稱語」成立下，確保結論之必然性。",
+            "formula": "【實戰法則】稱長輩用「尊鑒、道鑒」；稱平輩用「台鑒、大鑒」；稱晚輩用「如晤、青睞」 ➔ 檢驗條件：對父母提稱語用「膝下、膝前」；切忌對尊長用平輩提稱語",
+            "tip": "考場避坑防線：【高頻盲點】信封上的啟封詞是給送信人看的「請收信人拆開」之詞，寫「敬啟」等於要收件人恭敬拆開，極為失禮。「桃李春風」用於教育界，不可用於醫療開業。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"書信稱謂與提稱語\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"28\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🌳 語意結構與層次樹狀圖</text>\n    <text x=\"516\" y=\"28\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 語文思維</text>\n    \n    <rect x=\"205\" y=\"42\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#5867a2\"/>\n    <text x=\"270\" y=\"62\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\">應用文全覽：</text>\n    \n    <path d=\"M 270 72 L 100 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 270 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 440 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    \n    <rect x=\"35\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"100\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">主幹／主詞 [S]</text>\n    <text x=\"100\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">書信稱謂與提</text>\n    \n    <rect x=\"205\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n    <text x=\"270\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#5867a2\" text-anchor=\"middle\">動詞／述語 [V]</text>\n    <text x=\"270\" y=\"138\" font-size=\"10.5\" fill=\"#3b4774\" text-anchor=\"middle\">稱長輩用「尊</text>\n    \n    <rect x=\"375\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"440\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">受詞／補語 [O/C]</text>\n    <text x=\"440\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">對父母提稱語</text>\n    \n    <text x=\"270\" y=\"168\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"600\" fill=\"#212946\">💡 句意解碼：抓住核心述語與修飾限制，分清主從關係不被長句誤導</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 2】書信結尾祝詞與署名：條件判別與推理步驟",
+            "core": "書信結尾祝詞與署名之判別準則：對長輩祝詞用「敬請 福安、叩請 金安」；署名後長輩用「叩上、敬上」，平輩用「謹啟」。",
+            "mechanism": "推導機制：由已知條件出發，套用「對長輩祝詞用「敬請 福安、叩請 金安」；署名後長輩用「叩上、敬上」，平輩用「謹啟」」，依序完成定位、推導與單位邊界檢核。",
+            "formula": "【推導公式／口訣】對長輩祝詞用「敬請 福安、叩請 金安」；署名後長輩用「叩上、敬上」，平輩用「謹啟」 ➔ 典型示範：信封外中欄啟封詞是寫給郵差或送信人看的，尊長寫「安啟、福啟」，不可寫「敬啟」",
+            "tip": "步驟防呆：交代參加對象、圖書館內的具體位置、是否需要報名與聯絡窗口。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"書信結尾祝詞與署名\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🔄 推演機制與解題流程圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 3-Stage</text>\n    \n    <g transform=\"translate(30, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">1</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">審題定位</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          先加入完整日期，避免不同星期五的歧義，並確認活動結束時間。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 175 100 L 195 100\" stroke=\"#5867a2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"199,100 191,96 191,104\" fill=\"#5867a2\"/>\n    \n    <g transform=\"translate(205, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#3b4774\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">2</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#3b4774\">模型推演</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          交代參加對象、圖書館內的具體位置、是否需要報名與聯絡窗口。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 350 100 L 370 100\" stroke=\"#3b4774\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"374,100 366,96 366,104\" fill=\"#3b4774\"/>\n    \n    <g transform=\"translate(380, 52)\">\n      <rect width=\"130\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">3</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">驗算防呆</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"110\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          正文可寫「請攜帶一本願意分享的書」，清楚說明準備事項與目的。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#5867a2\">🔗 閉環檢驗：確保每一步推理皆有課綱定義或物理/數學定理支撐</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 3】柬帖請柬規範：易混淆辨析與避坑防線",
+            "core": "柬帖請柬規範之避坑界線：婚宴請柬註明時間（席設）、地點、新人姓名與家長敬邀。",
+            "mechanism": "防呆機制：並列對比「對象」與「目的」之邊界約束，杜絕以假亂真或偷換概念。",
+            "formula": "【辨析對照】對象 vs 目的 ➔ 適用防線：「恕敬不敏」為婉拒之詞；「準時入席」注意席設時間規範",
+            "tip": "考場急救手記：【考場防呆】通知發出前，讓沒參與籌辦的人試讀，檢查能否單靠文字準時到場並知道要做什麼。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"柬帖請柬規範\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">⚖️ 易混淆概念雙軌辨析圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ Contrast</text>\n    \n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.6\"/>\n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#5867a2\"/>\n    <text x=\"140\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">① 對象</text>\n    <foreignObject x=\"42\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        決定稱謂、敬語與語氣\n      </div>\n    </foreignObject>\n    \n    <circle cx=\"270\" cy=\"99\" r=\"18\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"2\"/>\n    <text x=\"270\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"900\" fill=\"#3b4774\">VS</text>\n    \n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.6\"/>\n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#3b4774\"/>\n    <text x=\"400\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">② 目的</text>\n    <foreignObject x=\"302\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        決定必要資訊及格式，如邀請須交代時間地點\n      </div>\n    </foreignObject>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#212946\">🛡️ 避坑分水嶺：抓住核心邊界條件，杜絕以假亂真或偷換概念</text>\n  </svg>"
+          }
+        ],
+        "table": {
+          "title": "實用應用文規約：書信、便條、柬帖與題辭格式",
+          "rows": [
+            [
+              "書信稱謂與提稱語",
+              "稱長輩用「尊鑒、道鑒」；稱平輩用「台鑒、大鑒」；稱晚輩用「如晤、青睞」",
+              "對父母提稱語用「膝下、膝前」；切忌對尊長用平輩提稱語"
+            ],
+            [
+              "書信結尾祝詞與署名",
+              "對長輩祝詞用「敬請 福安、叩請 金安」；署名後長輩用「叩上、敬上」，平輩用「謹啟」",
+              "信封外中欄啟封詞是寫給郵差或送信人看的，尊長寫「安啟、福啟」，不可寫「敬啟」"
+            ],
+            [
+              "柬帖請柬規範",
+              "婚宴請柬註明時間（席設）、地點、新人姓名與家長敬邀",
+              "「恕敬不敏」為婉拒之詞；「準時入席」注意席設時間規範"
+            ],
+            [
+              "常見題辭分類",
+              "祝壽（椿萱並茂、齒德俱尊）；祝婚（百年好合、琴瑟和鳴）；哀輓（駕鶴西歸、音容宛在）",
+              "「桃李春風」祝教育界；「妙手回春」祝醫界；題辭對象性別身分切勿張冠李戴"
+            ]
+          ]
+        },
+        "workedCase": {
+          "problem": "為校內讀書會寫一則邀請通知：週五下午四點在圖書館討論自選書，請同學帶書參加。還需補什麼？",
+          "steps": [
+            "先加入完整日期，避免不同星期五的歧義，並確認活動結束時間。",
+            "交代參加對象、圖書館內的具體位置、是否需要報名與聯絡窗口。",
+            "正文可寫「請攜帶一本願意分享的書」，清楚說明準備事項與目的。"
+          ],
+          "check": "通知發出前，讓沒參與籌辦的人試讀，檢查能否單靠文字準時到場並知道要做什麼。"
+        },
+        "officialRefs": [
+          {
+            "code": "Be-IV-2",
+            "kind": "學習內容",
+            "page": 20
+          },
+          {
+            "code": "6-IV-2",
+            "kind": "學習表現",
+            "page": 14
+          }
+        ]
+      },
+      "nodes": {
+        "chinese-12:concept": [
+          "info.chinese-12.kp1",
+          "q.chinese-12.kp1.def",
+          "cq.chinese-12-q1",
+          "match.chinese-12.table"
+        ],
+        "chinese-12:rule": [
+          "info.chinese-12.kp2",
+          "q.chinese-12.kp2.rule",
+          "q.chinese-12.deepening.contrast"
+        ],
+        "chinese-12:reasoning": [
+          "build.chinese-12.case",
+          "cq.chinese-12-q2",
+          "q.chinese-12.case.check"
+        ],
+        "chinese-12:mastery": [
+          "info.chinese-12.kp3",
+          "q.chinese-12.pitfall"
+        ],
+        "chinese-12:boss": [
+          "q.chinese-12.kp1.def",
+          "cq.chinese-12-q1",
+          "match.chinese-12.table",
+          "q.chinese-12.kp2.rule",
+          "q.chinese-12.deepening.contrast",
+          "build.chinese-12.case",
+          "cq.chinese-12-q2",
+          "q.chinese-12.case.check",
+          "q.chinese-12.pitfall"
+        ]
+      }
+    },
+    "chinese-13": {
+      "guide": {
+        "unitId": "chinese-13",
+        "title": "先秦諸子寓言與哲理散文",
+        "subject": "國語文",
+        "grade": 8,
+        "term": 1,
+        "concept": "先秦時期百家爭鳴，思想家常借寓言寄託哲理。儒家（孟子）善用譬喻論辯，主張性善與王道仁政（如五十步笑百步、揠苗助長）；道家（莊子）想像奇特，藉庖丁解牛、井底之蛙抒發順應自然與逍遙境界；法家（韓非子）以買櫝還珠、守株待兔論述法治與因時制宜。",
+        "example": "孟子以「五十步笑百步」譏諷梁惠王移民移粟並未實質改變施政，指出本質相同者不應以程度輕微而取笑他人；莊子藉「庖丁解牛」以神遇而不以目視，闡述遊刃有餘的養生哲理。",
+        "pitfall": "讀寓言不能只停留在故事表層的情節趣味，必須提煉出作者寄託在背後的抽象哲理與論辯主旨；寓言人物常具象徵性，非紀實歷史。",
+        "task": "挑選「揠苗助長」或「守株待兔」其中一則寓言，分析其故事中的「本體」與「喻體」，並用 50 字寫出對現代人生活的警惕啟示。",
+        "knowledgePoints": [
+          {
+            "title": "【知識點 1】寓言結構：核心意義與原理機轉",
+            "core": "寓言結構之核心本質：本體（想說的哲理）與喻體（虛構故事）。",
+            "mechanism": "底層機轉：依據 108 課綱定義，本體（想說的哲理）與喻體（虛構故事）。對應本課核心觀念：先秦時期百家爭鳴，思想家常借寓言寄託哲理。在客觀條件「實戰檢核與適用條件：庖丁解牛中解牛是喻體，養生順應自然是本體」成立下，確保結論之必然性。",
+            "formula": "【實戰法則】本體（想說的哲理）與喻體（虛構故事） ➔ 檢驗條件：庖丁解牛中解牛是喻體，養生順應自然是本體",
+            "tip": "考場避坑防線：【高頻盲點】讀寓言不能只停留在故事表層的情節趣味，必須提煉出作者寄託在背後的抽象哲理與論辯主旨；寓言人物常具象徵性，非紀實歷史。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"寓言結構\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"28\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🌳 語意結構與層次樹狀圖</text>\n    <text x=\"516\" y=\"28\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 語文思維</text>\n    \n    <rect x=\"205\" y=\"42\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#5867a2\"/>\n    <text x=\"270\" y=\"62\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\">先秦諸子寓言</text>\n    \n    <path d=\"M 270 72 L 100 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 270 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 440 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    \n    <rect x=\"35\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"100\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">主幹／主詞 [S]</text>\n    <text x=\"100\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">寓言結構</text>\n    \n    <rect x=\"205\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n    <text x=\"270\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#5867a2\" text-anchor=\"middle\">動詞／述語 [V]</text>\n    <text x=\"270\" y=\"138\" font-size=\"10.5\" fill=\"#3b4774\" text-anchor=\"middle\">本體（想說的</text>\n    \n    <rect x=\"375\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"440\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">受詞／補語 [O/C]</text>\n    <text x=\"440\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">庖丁解牛中解</text>\n    \n    <text x=\"270\" y=\"168\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"600\" fill=\"#212946\">💡 句意解碼：抓住核心述語與修飾限制，分清主從關係不被長句誤導</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 2】儒家思維：條件判別與推理步驟",
+            "core": "儒家思維之判別準則：以仁為核心，強調禮義、修己安人與教育。",
+            "mechanism": "推導機制：由已知條件出發，套用「以仁為核心，強調禮義、修己安人與教育」，依序完成定位、推導與單位邊界檢核。",
+            "formula": "【推導公式／口訣】以仁為核心，強調禮義、修己安人與教育 ➔ 典型示範：孔子論學思並重、孟子仁政性善；辨別倫理與道德義務",
+            "tip": "步驟防呆：忽略真正與作物生長相關的水分、養分和照料，因而失敗。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"儒家思維\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🔄 推演機制與解題流程圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 3-Stage</text>\n    \n    <g transform=\"translate(30, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">1</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">審題定位</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          目的在增加收成，卻只模仿顯眼而未證實有效的敲桶行為。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 175 100 L 195 100\" stroke=\"#5867a2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"199,100 191,96 191,104\" fill=\"#5867a2\"/>\n    \n    <g transform=\"translate(205, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#3b4774\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">2</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#3b4774\">模型推演</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          忽略真正與作物生長相關的水分、養分和照料，因而失敗。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 350 100 L 370 100\" stroke=\"#3b4774\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"374,100 366,96 366,104\" fill=\"#3b4774\"/>\n    \n    <g transform=\"translate(380, 52)\">\n      <rect width=\"130\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">3</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">驗算防呆</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"110\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          可歸納為學習方法應辨識作用原因，不能只複製表面動作。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#5867a2\">🔗 閉環檢驗：確保每一步推理皆有課綱定義或物理/數學定理支撐</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 3】道家思維：易混淆辨析與避坑防線",
+            "core": "道家思維之避坑界線：順應自然、無為而治、物我兩忘。",
+            "mechanism": "防呆機制：並列對比「寓言情節」與「寓意邊界」之邊界約束，杜絕以假亂真或偷換概念。",
+            "formula": "【辨析對照】寓言情節 vs 寓意邊界 ➔ 適用防線：老子「上善若水」、莊子「涸轍之鮒」；反對人為巧飾",
+            "tip": "考場急救手記：【考場防呆】不要過度推成「模仿一定沒有用」；有根據地模仿有效步驟仍可能幫助學習。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"道家思維\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">⚖️ 易混淆概念雙軌辨析圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ Contrast</text>\n    \n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.6\"/>\n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#5867a2\"/>\n    <text x=\"140\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">① 寓言情節</text>\n    <foreignObject x=\"42\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        以短故事呈現行動和後果\n      </div>\n    </foreignObject>\n    \n    <circle cx=\"270\" cy=\"99\" r=\"18\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"2\"/>\n    <text x=\"270\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"900\" fill=\"#3b4774\">VS</text>\n    \n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.6\"/>\n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#3b4774\"/>\n    <text x=\"400\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">② 寓意邊界</text>\n    <foreignObject x=\"302\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        須說明故事對應現實的哪些關係，不能無限類推\n      </div>\n    </foreignObject>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#212946\">🛡️ 避坑分水嶺：抓住核心邊界條件，杜絕以假亂真或偷換概念</text>\n  </svg>"
+          }
+        ],
+        "table": {
+          "title": "諸子寓言：喻體、寓意與思想流派",
+          "rows": [
+            [
+              "寓言結構",
+              "本體（想說的哲理）與喻體（虛構故事）",
+              "庖丁解牛中解牛是喻體，養生順應自然是本體"
+            ],
+            [
+              "儒家思維",
+              "以仁為核心，強調禮義、修己安人與教育",
+              "孔子論學思並重、孟子仁政性善；辨別倫理與道德義務"
+            ],
+            [
+              "道家思維",
+              "順應自然、無為而治、物我兩忘",
+              "老子「上善若水」、莊子「涸轍之鮒」；反對人為巧飾"
+            ],
+            [
+              "法家與墨家",
+              "法家強調法術勢與耕戰；墨家主張兼愛非攻與尚賢節用",
+              "韓非子買櫝還珠諷刺不務實；寓意需緊扣社會政治脈絡"
+            ]
+          ]
+        },
+        "workedCase": {
+          "problem": "原創寓言：「有人見鄰田豐收，只學他每天敲三下木桶，卻不澆水施肥，秋天仍無收成。」可歸納什麼道理？",
+          "steps": [
+            "目的在增加收成，卻只模仿顯眼而未證實有效的敲桶行為。",
+            "忽略真正與作物生長相關的水分、養分和照料，因而失敗。",
+            "可歸納為學習方法應辨識作用原因，不能只複製表面動作。"
+          ],
+          "check": "不要過度推成「模仿一定沒有用」；有根據地模仿有效步驟仍可能幫助學習。"
+        },
+        "officialRefs": [
+          {
+            "code": "Ad-IV-4",
+            "kind": "學習內容",
+            "page": 17
+          },
+          {
+            "code": "Cc-IV-1",
+            "kind": "學習內容",
+            "page": 21
+          },
+          {
+            "code": "5-IV-2",
+            "kind": "學習表現",
+            "page": 13
+          }
+        ]
+      },
+      "nodes": {
+        "chinese-13:concept": [
+          "info.chinese-13.kp1",
+          "q.chinese-13.kp1.def",
+          "cq.chinese-13-q1",
+          "match.chinese-13.table"
+        ],
+        "chinese-13:rule": [
+          "info.chinese-13.kp2",
+          "q.chinese-13.kp2.rule",
+          "q.chinese-13.deepening.contrast"
+        ],
+        "chinese-13:reasoning": [
+          "build.chinese-13.case",
+          "cq.chinese-13-q2",
+          "q.chinese-13.case.check"
+        ],
+        "chinese-13:mastery": [
+          "info.chinese-13.kp3",
+          "q.chinese-13.pitfall"
+        ],
+        "chinese-13:boss": [
+          "q.chinese-13.kp1.def",
+          "cq.chinese-13-q1",
+          "match.chinese-13.table",
+          "q.chinese-13.kp2.rule",
+          "q.chinese-13.deepening.contrast",
+          "build.chinese-13.case",
+          "cq.chinese-13-q2",
+          "q.chinese-13.case.check",
+          "q.chinese-13.pitfall"
+        ]
+      }
+    },
+    "chinese-14": {
+      "guide": {
+        "unitId": "chinese-14",
+        "title": "現代記敘抒情散文與意象營造",
+        "subject": "國語文",
+        "grade": 8,
+        "term": 2,
+        "concept": "現代記敘抒情散文融合敘事、寫景與抒情。名篇常選取生活中的關鍵物件或細節凝聚情感，形成核心意象。例如朱自清〈背影〉以父親穿過鐵道買橘子的蹣跚身影寄託深沉父愛；琦君以桂花雨寄託故鄉思念與童年純真。意象是「意」（情感思想）與「象」（具體物象）的交融。",
+        "example": "〈背影〉中父親穿著黑布大馬褂、深青布棉袍，在月台蹣跚攀爬的背影，將抽象難言的父子親情化為清晰強烈的視覺特寫，使情感真摯內斂而不流於空泛說教。",
+        "pitfall": "抒情散文忌諱無病呻吟或堆砌抽象情緒詞彙（如「我非常難過」）；必須依託具體生活細節、動作與感官摹寫，讓讀者在情境中自然體會情感。",
+        "task": "選取一件陪伴你長大的舊物品（如玩偶、手錶、舊書包），寫一段 80 字的文字，描寫其磨損細節並寄託一段真實回憶。",
+        "knowledgePoints": [
+          {
+            "title": "【知識點 1】映襯修辭：核心意義與原理機轉",
+            "core": "映襯修辭之核心本質：將兩種相反或相對的事理放在一起對照比較，凸顯本質。",
+            "mechanism": "底層機轉：依據 108 課綱定義，將兩種相反或相對的事理放在一起對照比較，凸顯本質。對應本課核心觀念：現代記敘抒情散文融合敘事、寫景與抒情。在客觀條件「實戰檢核與適用條件：「朱門酒肉臭，路有凍死骨」反襯貧富懸殊的殘酷社會」成立下，確保結論之必然性。",
+            "formula": "【實戰法則】將兩種相反或相對的事理放在一起對照比較，凸顯本質 ➔ 檢驗條件：「朱門酒肉臭，路有凍死骨」反襯貧富懸殊的殘酷社會",
+            "tip": "考場避坑防線：【高頻盲點】抒情散文忌諱無病呻吟或堆砌抽象情緒詞彙（如「我非常難過」）；必須依託具體生活細節、動作與感官摹寫，讓讀者在情境中自然體會情感。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"映襯修辭\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"28\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🌳 語意結構與層次樹狀圖</text>\n    <text x=\"516\" y=\"28\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 語文思維</text>\n    \n    <rect x=\"205\" y=\"42\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#5867a2\"/>\n    <text x=\"270\" y=\"62\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\">現代記敘抒情</text>\n    \n    <path d=\"M 270 72 L 100 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 270 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 440 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    \n    <rect x=\"35\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"100\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">主幹／主詞 [S]</text>\n    <text x=\"100\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">映襯修辭</text>\n    \n    <rect x=\"205\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n    <text x=\"270\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#5867a2\" text-anchor=\"middle\">動詞／述語 [V]</text>\n    <text x=\"270\" y=\"138\" font-size=\"10.5\" fill=\"#3b4774\" text-anchor=\"middle\">將兩種相反或</text>\n    \n    <rect x=\"375\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"440\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">受詞／補語 [O/C]</text>\n    <text x=\"440\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">「朱門酒肉臭</text>\n    \n    <text x=\"270\" y=\"168\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"600\" fill=\"#212946\">💡 句意解碼：抓住核心述語與修飾限制，分清主從關係不被長句誤導</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 2】倒反修辭：條件判別與推理步驟",
+            "core": "倒反修辭之判別準則：言辭表面與作者內心真意相反，多用於諷刺或詼諧調侃。",
+            "mechanism": "推導機制：由已知條件出發，套用「言辭表面與作者內心真意相反，多用於諷刺或詼諧調侃」，依序完成定位、推導與單位邊界檢核。",
+            "formula": "【推導公式／口訣】言辭表面與作者內心真意相反，多用於諷刺或詼諧調侃 ➔ 典型示範：「你可真準時啊，讓大家等了兩個小時！」（表面稱讚實為指責）",
+            "tip": "步驟防呆：寫「下課鐘響，我仍把跳繩另一端遞向空座位，才想起他已經搬走。」。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"倒反修辭\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🔄 推演機制與解題流程圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 3-Stage</text>\n    \n    <g transform=\"translate(30, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">1</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">審題定位</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          選一個與朋友相關的物件，例如以前兩人輪流使用的跳繩。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 175 100 L 195 100\" stroke=\"#5867a2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"199,100 191,96 191,104\" fill=\"#5867a2\"/>\n    \n    <g transform=\"translate(205, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#3b4774\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">2</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#3b4774\">模型推演</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          寫「下課鐘響，我仍把跳繩另一端遞向空座位，才想起他已經搬走。」\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 350 100 L 370 100\" stroke=\"#3b4774\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"374,100 366,96 366,104\" fill=\"#3b4774\"/>\n    \n    <g transform=\"translate(380, 52)\">\n      <rect width=\"130\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">3</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">驗算防呆</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"110\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          用習慣動作與空位形成落差，讓想念由行動呈現，而非只靠抽象形容詞。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#5867a2\">🔗 閉環檢驗：確保每一步推理皆有課綱定義或物理/數學定理支撐</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 3】層遞修辭：易混淆辨析與避坑防線",
+            "core": "層遞修辭之避坑界線：依程度深淺、數量多寡或空間大小順序逐層推進。",
+            "mechanism": "防呆機制：並列對比「敘事材料」與「抒情轉化」之邊界約束，杜絕以假亂真或偷換概念。",
+            "formula": "【辨析對照】敘事材料 vs 抒情轉化 ➔ 適用防線：「古之欲明明德於天下者，先治其國；欲治其國者，先齊其家」",
+            "tip": "考場急救手記：【考場防呆】細節要服務主旨；加入大量無關景物不會自動使文章更有感情。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"層遞修辭\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">⚖️ 易混淆概念雙軌辨析圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ Contrast</text>\n    \n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.6\"/>\n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#5867a2\"/>\n    <text x=\"140\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">① 敘事材料</text>\n    <foreignObject x=\"42\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        交代事件與人物行動\n      </div>\n    </foreignObject>\n    \n    <circle cx=\"270\" cy=\"99\" r=\"18\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"2\"/>\n    <text x=\"270\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"900\" fill=\"#3b4774\">VS</text>\n    \n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.6\"/>\n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#3b4774\"/>\n    <text x=\"400\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">② 抒情轉化</text>\n    <foreignObject x=\"302\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        透過細節、視角與語氣呈現感受\n      </div>\n    </foreignObject>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#212946\">🛡️ 避坑分水嶺：抓住核心邊界條件，杜絕以假亂真或偷換概念</text>\n  </svg>"
+          }
+        ],
+        "table": {
+          "title": "對比與諷刺修辭：映襯、倒反與層遞技巧",
+          "rows": [
+            [
+              "映襯修辭",
+              "將兩種相反或相對的事理放在一起對照比較，凸顯本質",
+              "「朱門酒肉臭，路有凍死骨」反襯貧富懸殊的殘酷社會"
+            ],
+            [
+              "倒反修辭",
+              "言辭表面與作者內心真意相反，多用於諷刺或詼諧調侃",
+              "「你可真準時啊，讓大家等了兩個小時！」（表面稱讚實為指責）"
+            ],
+            [
+              "層遞修辭",
+              "依程度深淺、數量多寡或空間大小順序逐層推進",
+              "「古之欲明明德於天下者，先治其國；欲治其國者，先齊其家」"
+            ],
+            [
+              "文本語境檢核",
+              "倒反修辭必須配合上下文反差與特定語氣，切勿以字面直解",
+              "閱讀考題中先抓說話者立場，再解讀倒反文字之真正諷喻指涉"
+            ]
+          ]
+        },
+        "workedCase": {
+          "problem": "將「我很想念搬家的朋友」改寫成一個有場景的短段落，並說明寫法。",
+          "steps": [
+            "選一個與朋友相關的物件，例如以前兩人輪流使用的跳繩。",
+            "寫「下課鐘響，我仍把跳繩另一端遞向空座位，才想起他已經搬走。」",
+            "用習慣動作與空位形成落差，讓想念由行動呈現，而非只靠抽象形容詞。"
+          ],
+          "check": "細節要服務主旨；加入大量無關景物不會自動使文章更有感情。"
+        },
+        "officialRefs": [
+          {
+            "code": "Bb-IV-1",
+            "kind": "學習內容",
+            "page": 18
+          },
+          {
+            "code": "Bb-IV-5",
+            "kind": "學習內容",
+            "page": 18
+          },
+          {
+            "code": "6-IV-2",
+            "kind": "學習表現",
+            "page": 14
+          }
+        ]
+      },
+      "nodes": {
+        "chinese-14:concept": [
+          "info.chinese-14.kp1",
+          "q.chinese-14.kp1.def",
+          "cq.chinese-14-q1",
+          "match.chinese-14.table"
+        ],
+        "chinese-14:rule": [
+          "info.chinese-14.kp2",
+          "q.chinese-14.kp2.rule",
+          "q.chinese-14.deepening.contrast"
+        ],
+        "chinese-14:reasoning": [
+          "build.chinese-14.case",
+          "cq.chinese-14-q2",
+          "q.chinese-14.case.check"
+        ],
+        "chinese-14:mastery": [
+          "info.chinese-14.kp3",
+          "q.chinese-14.pitfall",
+          "cap.111-chinese-8"
+        ],
+        "chinese-14:boss": [
+          "q.chinese-14.kp1.def",
+          "cq.chinese-14-q1",
+          "match.chinese-14.table",
+          "q.chinese-14.kp2.rule",
+          "q.chinese-14.deepening.contrast",
+          "build.chinese-14.case",
+          "cq.chinese-14-q2",
+          "q.chinese-14.case.check",
+          "q.chinese-14.pitfall",
+          "cap.111-chinese-8"
+        ]
+      }
+    },
+    "chinese-15": {
+      "guide": {
+        "unitId": "chinese-15",
+        "title": "臺灣自然生態、海洋與在地文學",
+        "subject": "國語文",
+        "grade": 9,
+        "term": 1,
+        "concept": "臺灣四面環海、高山聳立，孕育出深厚的自然寫作與海洋文學。作家以細膩踏查記錄人與自然環境的互動：廖鴻基〈討海人〉記錄花蓮黑潮與鯨豚共舞，展現海島人民面對海洋的敬畏與熱情；夏曼・藍波安書寫蘭嶼達悟族飛魚季傳統生態智慧；劉克襄以生態漫步凝視城鄉土地變遷。",
+        "example": "廖鴻基筆下的花蓮東海岸，將黑潮湧動與抹香鯨出水噴氣化作生命的宏偉律動；獵捕不是掠奪，而是討海人與海洋生物在風浪中的平等搏鬥與相知相惜。",
+        "pitfall": "自然寫作不等於枯燥的動植物百科說明，必須包含作者在現場的感官體驗、生命省思與生態倫理關懷；海洋文學亦非純浪漫想像，需扎根於真實海事經驗。",
+        "task": "觀察住家或校園附近的一條溪流、一座小山或海岸角，記錄一項人為活動對自然環境的改變，並提出一段生態永續省思。",
+        "knowledgePoints": [
+          {
+            "title": "【知識點 1】觀察：核心意義與原理機轉",
+            "core": "觀察之核心本質：找出地景、生物、季節與感官細節。",
+            "mechanism": "底層機轉：依據 108 課綱定義，找出地景、生物、季節與感官細節。對應本課核心觀念：臺灣四面環海、高山聳立，孕育出深厚的自然寫作與海洋文學。在客觀條件「實戰檢核與適用條件：先辨別作者實際看見什麼」成立下，確保結論之必然性。",
+            "formula": "【實戰法則】找出地景、生物、季節與感官細節 ➔ 檢驗條件：先辨別作者實際看見什麼",
+            "tip": "考場避坑防線：【高頻盲點】自然寫作不等於枯燥的動植物百科說明，必須包含作者在現場的感官體驗、生命省思與生態倫理關懷；海洋文學亦非純浪漫想像，需扎根於真實海事經驗。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"觀察\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"28\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🌳 語意結構與層次樹狀圖</text>\n    <text x=\"516\" y=\"28\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 語文思維</text>\n    \n    <rect x=\"205\" y=\"42\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#5867a2\"/>\n    <text x=\"270\" y=\"62\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\">臺灣自然生態</text>\n    \n    <path d=\"M 270 72 L 100 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 270 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 440 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    \n    <rect x=\"35\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"100\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">主幹／主詞 [S]</text>\n    <text x=\"100\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">觀察</text>\n    \n    <rect x=\"205\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n    <text x=\"270\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#5867a2\" text-anchor=\"middle\">動詞／述語 [V]</text>\n    <text x=\"270\" y=\"138\" font-size=\"10.5\" fill=\"#3b4774\" text-anchor=\"middle\">找出地景、生</text>\n    \n    <rect x=\"375\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"440\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">受詞／補語 [O/C]</text>\n    <text x=\"440\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">先辨別作者實</text>\n    \n    <text x=\"270\" y=\"168\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"600\" fill=\"#212946\">💡 句意解碼：抓住核心述語與修飾限制，分清主從關係不被長句誤導</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 2】觀點：條件判別與推理步驟",
+            "core": "觀點之判別準則：分析人與土地、海洋或生物的關係。",
+            "mechanism": "推導機制：由已知條件出發，套用「分析人與土地、海洋或生物的關係」，依序完成定位、推導與單位邊界檢核。",
+            "formula": "【推導公式／口訣】分析人與土地、海洋或生物的關係 ➔ 典型示範：作者是欣賞、懷念、批判，還是提出疑問？",
+            "tip": "步驟防呆：作者並列兩種效果，讓讀者看到開發並非只有單一面向。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"觀點\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🔄 推演機制與解題流程圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 3-Stage</text>\n    \n    <g transform=\"translate(30, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">1</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">審題定位</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          前半句指出工程帶來的通行便利，後半句呈現棲地與生活記憶的改變。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 175 100 L 195 100\" stroke=\"#5867a2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"199,100 191,96 191,104\" fill=\"#5867a2\"/>\n    \n    <g transform=\"translate(205, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#3b4774\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">2</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#3b4774\">模型推演</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          作者並列兩種效果，讓讀者看到開發並非只有單一面向。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 350 100 L 370 100\" stroke=\"#3b4774\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"374,100 366,96 366,104\" fill=\"#3b4774\"/>\n    \n    <g transform=\"translate(380, 52)\">\n      <rect width=\"130\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">3</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">驗算防呆</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"110\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          若討論實際生態影響，還需調查水路、生物與施工前後資料，不能只靠一段回憶量化損失。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#5867a2\">🔗 閉環檢驗：確保每一步推理皆有課綱定義或物理/數學定理支撐</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 3】表達：易混淆辨析與避坑防線",
+            "core": "表達之避坑界線：用文字證據說明情感如何建立。",
+            "mechanism": "防呆機制：並列對比「文學觀察」與「科學紀錄」之邊界約束，杜絕以假亂真或偷換概念。",
+            "formula": "【辨析對照】文學觀察 vs 科學紀錄 ➔ 適用防線：文學比喻不一定是科學事實；可另查資料互證",
+            "tip": "考場急救手記：【考場防呆】好的閱讀答案可承認便利與失落同時存在，不必把文本硬分成完全支持或完全反對。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"表達\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">⚖️ 易混淆概念雙軌辨析圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ Contrast</text>\n    \n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.6\"/>\n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#5867a2\"/>\n    <text x=\"140\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">① 文學觀察</text>\n    <foreignObject x=\"42\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        重視個人感受、意象與敘述觀點\n      </div>\n    </foreignObject>\n    \n    <circle cx=\"270\" cy=\"99\" r=\"18\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"2\"/>\n    <text x=\"270\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"900\" fill=\"#3b4774\">VS</text>\n    \n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.6\"/>\n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#3b4774\"/>\n    <text x=\"400\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">② 科學紀錄</text>\n    <foreignObject x=\"302\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        需可查核的物種、時間、地點及觀察方法\n      </div>\n    </foreignObject>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#212946\">🛡️ 避坑分水嶺：抓住核心邊界條件，杜絕以假亂真或偷換概念</text>\n  </svg>"
+          }
+        ],
+        "table": {
+          "title": "在地與自然書寫的三層閱讀",
+          "rows": [
+            [
+              "觀察",
+              "找出地景、生物、季節與感官細節",
+              "先辨別作者實際看見什麼"
+            ],
+            [
+              "觀點",
+              "分析人與土地、海洋或生物的關係",
+              "作者是欣賞、懷念、批判，還是提出疑問？"
+            ],
+            [
+              "表達",
+              "用文字證據說明情感如何建立",
+              "文學比喻不一定是科學事實；可另查資料互證"
+            ]
+          ]
+        },
+        "workedCase": {
+          "problem": "原創句：「堤岸鋪平後，阿公走路方便了，卻再也找不到從前捉蟹的小水溝。」如何呈現人與環境的關係？",
+          "steps": [
+            "前半句指出工程帶來的通行便利，後半句呈現棲地與生活記憶的改變。",
+            "作者並列兩種效果，讓讀者看到開發並非只有單一面向。",
+            "若討論實際生態影響，還需調查水路、生物與施工前後資料，不能只靠一段回憶量化損失。"
+          ],
+          "check": "好的閱讀答案可承認便利與失落同時存在，不必把文本硬分成完全支持或完全反對。"
+        },
+        "officialRefs": [
+          {
+            "code": "Bb-IV-3",
+            "kind": "學習內容",
+            "page": 18
+          },
+          {
+            "code": "Ca-IV-2",
+            "kind": "學習內容",
+            "page": 20
+          },
+          {
+            "code": "5-IV-2",
+            "kind": "學習表現",
+            "page": 13
+          }
+        ]
+      },
+      "nodes": {
+        "chinese-15:concept": [
+          "info.chinese-15.kp1",
+          "q.chinese-15.kp1.def",
+          "cq.chinese-15-q1",
+          "match.chinese-15.table"
+        ],
+        "chinese-15:rule": [
+          "info.chinese-15.kp2",
+          "q.chinese-15.kp2.rule",
+          "q.chinese-15.deepening.contrast"
+        ],
+        "chinese-15:reasoning": [
+          "build.chinese-15.case",
+          "cq.chinese-15-q2",
+          "q.chinese-15.case.check"
+        ],
+        "chinese-15:mastery": [
+          "info.chinese-15.kp3",
+          "q.chinese-15.pitfall",
+          "cap.109-chinese-42"
+        ],
+        "chinese-15:boss": [
+          "q.chinese-15.kp1.def",
+          "cq.chinese-15-q1",
+          "match.chinese-15.table",
+          "q.chinese-15.kp2.rule",
+          "q.chinese-15.deepening.contrast",
+          "build.chinese-15.case",
+          "cq.chinese-15-q2",
+          "q.chinese-15.case.check",
+          "q.chinese-15.pitfall",
+          "cap.109-chinese-42"
+        ]
+      }
+    },
+    "chinese-16": {
+      "guide": {
+        "unitId": "chinese-16",
+        "title": "會考寫作審題、立意與層次開展",
+        "subject": "國語文",
+        "grade": 9,
+        "term": 2,
+        "concept": "國中會考寫作測驗首重「審題立意、結構組織、遣詞造句、錯別字標點」。審題需抓準題目的關鍵核心詞（如「未成功的經驗」、「我想開一家這樣的店」）；立意應由表層的生活具體事件切入，層層遞進提煉出對自我成長、人際關係或社會價值的深刻反思，避免落入陳腔濫調。",
+        "example": "面對題目「面對分歧的時刻」，先敘述小組報告時意見衝突的起因與僵持細節（記敘），接著描寫換位思考後的溝通與轉折（轉折），最後昇華出「接納多元看法讓視野更寬廣」的啟發（立意深化）。",
+        "pitfall": "審題偏離關鍵限制（如要求寫「一次經驗」卻泛泛寫許多次）；結尾不能只是喊空泛口號，反思必須緊密扣合文章前半部所發生的真實事件細節。",
+        "task": "以「那一次，我選擇了堅持」為題，列出四段大綱：起因（面對何種困難）、經過（具體堅持的細節與動搖）、轉折（關鍵突破）、立意（這段堅持帶給我的深層改變）。",
+        "knowledgePoints": [
+          {
+            "title": "【知識點 1】審題：核心意義與原理機轉",
+            "core": "審題之核心本質：圈出對象、事件與限制。",
+            "mechanism": "底層機轉：依據 108 課綱定義，圈出對象、事件與限制。對應本課核心觀念：國中會考寫作測驗首重「審題立意、結構組織、遣詞造句、錯別字標點」。在客觀條件「實戰檢核與適用條件：「改變想法」須寫出前後差異，不只敘事」成立下，確保結論之必然性。",
+            "formula": "【實戰法則】圈出對象、事件與限制 ➔ 檢驗條件：「改變想法」須寫出前後差異，不只敘事",
+            "tip": "考場避坑防線：【高頻盲點】審題偏離關鍵限制（如要求寫「一次經驗」卻泛泛寫許多次）；結尾不能只是喊空泛口號，反思必須緊密扣合文章前半部所發生的真實事件細節。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"審題\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"28\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🌳 語意結構與層次樹狀圖</text>\n    <text x=\"516\" y=\"28\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 語文思維</text>\n    \n    <rect x=\"205\" y=\"42\" width=\"130\" height=\"30\" rx=\"6\" fill=\"#5867a2\"/>\n    <text x=\"270\" y=\"62\" font-size=\"12\" font-weight=\"800\" fill=\"#ffffff\" text-anchor=\"middle\">會考寫作審題</text>\n    \n    <path d=\"M 270 72 L 100 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 270 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    <path d=\"M 270 72 L 440 102\" stroke=\"#5867a2\" stroke-width=\"2\"/>\n    \n    <rect x=\"35\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"100\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">主幹／主詞 [S]</text>\n    <text x=\"100\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">審題</text>\n    \n    <rect x=\"205\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n    <text x=\"270\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#5867a2\" text-anchor=\"middle\">動詞／述語 [V]</text>\n    <text x=\"270\" y=\"138\" font-size=\"10.5\" fill=\"#3b4774\" text-anchor=\"middle\">圈出對象、事</text>\n    \n    <rect x=\"375\" y=\"104\" width=\"130\" height=\"42\" rx=\"6\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n    <text x=\"440\" y=\"122\" font-size=\"11\" font-weight=\"700\" fill=\"#3b4774\" text-anchor=\"middle\">受詞／補語 [O/C]</text>\n    <text x=\"440\" y=\"138\" font-size=\"10.5\" fill=\"#212946\" text-anchor=\"middle\">「改變想法」</text>\n    \n    <text x=\"270\" y=\"168\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"600\" fill=\"#212946\">💡 句意解碼：抓住核心述語與修飾限制，分清主從關係不被長句誤導</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 2】取材：條件判別與推理步驟",
+            "core": "取材之判別準則：選一個能呈現轉折的具體事件。",
+            "mechanism": "推導機制：由已知條件出發，套用「選一個能呈現轉折的具體事件」，依序完成定位、推導與單位邊界檢核。",
+            "formula": "【推導公式／口訣】選一個能呈現轉折的具體事件 ➔ 典型示範：用對話、動作與感官細節支持主旨",
+            "tip": "步驟防呆：中段用一次具體情境：他整理實驗紀錄、指出變因缺漏，使你重新理解他的貢獻。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"取材\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">🔄 推演機制與解題流程圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ 3-Stage</text>\n    \n    <g transform=\"translate(30, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.5\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">1</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">審題定位</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          開頭寫原本把安靜誤認為不願合作，交代自己的預設。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 175 100 L 195 100\" stroke=\"#5867a2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"199,100 191,96 191,104\" fill=\"#5867a2\"/>\n    \n    <g transform=\"translate(205, 52)\">\n      <rect width=\"135\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#3b4774\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">2</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#3b4774\">模型推演</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"115\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          中段用一次具體情境：他整理實驗紀錄、指出變因缺漏，使你重新理解他的貢獻。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <path d=\"M 350 100 L 370 100\" stroke=\"#3b4774\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <polygon points=\"374,100 366,96 366,104\" fill=\"#3b4774\"/>\n    \n    <g transform=\"translate(380, 52)\">\n      <rect width=\"130\" height=\"96\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.8\"/>\n      <circle cx=\"20\" cy=\"20\" r=\"12\" fill=\"#5867a2\"/>\n      <text x=\"20\" y=\"24\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#ffffff\">3</text>\n      <text x=\"42\" y=\"24\" font-size=\"12\" font-weight=\"700\" fill=\"#212946\">驗算防呆</text>\n      <foreignObject x=\"10\" y=\"42\" width=\"110\" height=\"48\">\n        <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#334155;overflow:hidden;\">\n          結尾寫你開始主動詢問不同表達方式的同學，將體會轉成行動。\n        </div>\n      </foreignObject>\n    </g>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#5867a2\">🔗 閉環檢驗：確保每一步推理皆有課綱定義或物理/數學定理支撐</text>\n  </svg>"
+          },
+          {
+            "title": "【知識點 3】組織：易混淆辨析與避坑防線",
+            "core": "組織之避坑界線：原先想法 → 衝突 → 調整 → 體會。",
+            "mechanism": "防呆機制：並列對比「題目限制」與「段落功能」之邊界約束，杜絕以假亂真或偷換概念。",
+            "formula": "【辨析對照】題目限制 vs 段落功能 ➔ 適用防線：段落各有功能，避免重複同一句感想",
+            "tip": "考場急救手記：【考場防呆】不要只寫合作成功；題目重點是「想法如何改變」，須明確呈現原先看法、證據與後來調整。。",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 180\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"組織\">\n    <rect width=\"540\" height=\"180\" rx=\"12\" fill=\"#f1f3f9\" stroke=\"#5867a2\" stroke-width=\"1.5\" stroke-opacity=\"0.25\"/>\n    <text x=\"24\" y=\"30\" font-size=\"13\" font-weight=\"700\" fill=\"#3b4774\">⚖️ 易混淆概念雙軌辨析圖</text>\n    <text x=\"516\" y=\"30\" text-anchor=\"end\" font-size=\"11\" fill=\"#5867a2\" font-weight=\"600\">✍️ Contrast</text>\n    \n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#5867a2\" stroke-width=\"1.6\"/>\n    <rect x=\"30\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#5867a2\"/>\n    <text x=\"140\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">① 題目限制</text>\n    <foreignObject x=\"42\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        先辨寫作對象、事件範圍與要求說明的重點\n      </div>\n    </foreignObject>\n    \n    <circle cx=\"270\" cy=\"99\" r=\"18\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"2\"/>\n    <text x=\"270\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"900\" fill=\"#3b4774\">VS</text>\n    \n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"98\" rx=\"8\" fill=\"#ffffff\" stroke=\"#3b4774\" stroke-width=\"1.6\"/>\n    <rect x=\"290\" y=\"50\" width=\"220\" height=\"26\" rx=\"8\" fill=\"#3b4774\"/>\n    <text x=\"400\" y=\"67\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#ffffff\">② 段落功能</text>\n    <foreignObject x=\"302\" y=\"82\" width=\"196\" height=\"58\">\n      <div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-size:11px;line-height:1.35;color:#1e293b;overflow:hidden;\">\n        每段應推進敘事或論證，例子要回扣中心\n      </div>\n    </foreignObject>\n    \n    <text x=\"270\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"600\" fill=\"#212946\">🛡️ 避坑分水嶺：抓住核心邊界條件，杜絕以假亂真或偷換概念</text>\n  </svg>"
+          }
+        ],
+        "table": {
+          "title": "作文從提綱到修改",
+          "rows": [
+            [
+              "審題",
+              "圈出對象、事件與限制",
+              "「改變想法」須寫出前後差異，不只敘事"
+            ],
+            [
+              "取材",
+              "選一個能呈現轉折的具體事件",
+              "用對話、動作與感官細節支持主旨"
+            ],
+            [
+              "組織",
+              "原先想法 → 衝突 → 調整 → 體會",
+              "段落各有功能，避免重複同一句感想"
+            ],
+            [
+              "修訂",
+              "逐段檢查因果與指涉，再查字句標點",
+              "結尾回扣前文，不用口號代替反思"
+            ]
+          ]
+        },
+        "workedCase": {
+          "problem": "以「一次改變想法的經驗」為題，素材是與安靜同學合作科展，如何建立四段提綱？",
+          "steps": [
+            "開頭寫原本把安靜誤認為不願合作，交代自己的預設。",
+            "中段用一次具體情境：他整理實驗紀錄、指出變因缺漏，使你重新理解他的貢獻。",
+            "結尾寫你開始主動詢問不同表達方式的同學，將體會轉成行動。"
+          ],
+          "check": "不要只寫合作成功；題目重點是「想法如何改變」，須明確呈現原先看法、證據與後來調整。"
+        },
+        "officialRefs": [
+          {
+            "code": "Ad-IV-1",
+            "kind": "學習內容",
+            "page": 17
+          },
+          {
+            "code": "Ba-IV-2",
+            "kind": "學習內容",
+            "page": 18
+          },
+          {
+            "code": "6-IV-3",
+            "kind": "學習表現",
+            "page": 14
+          }
+        ]
+      },
+      "nodes": {
+        "chinese-16:concept": [
+          "info.chinese-16.kp1",
+          "q.chinese-16.kp1.def",
+          "cq.chinese-16-q1",
+          "match.chinese-16.table"
+        ],
+        "chinese-16:rule": [
+          "info.chinese-16.kp2",
+          "q.chinese-16.kp2.rule",
+          "q.chinese-16.deepening.contrast"
+        ],
+        "chinese-16:reasoning": [
+          "build.chinese-16.case",
+          "cq.chinese-16-q2",
+          "q.chinese-16.case.check"
+        ],
+        "chinese-16:mastery": [
+          "info.chinese-16.kp3",
+          "q.chinese-16.pitfall"
+        ],
+        "chinese-16:boss": [
+          "q.chinese-16.kp1.def",
+          "cq.chinese-16-q1",
+          "match.chinese-16.table",
+          "q.chinese-16.kp2.rule",
+          "q.chinese-16.deepening.contrast",
+          "build.chinese-16.case",
+          "cq.chinese-16-q2",
+          "q.chinese-16.case.check",
+          "q.chinese-16.pitfall"
+        ]
+      }
+    }
+  }
+}

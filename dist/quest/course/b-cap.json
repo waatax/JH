@@ -1,0 +1,167 @@
+{
+  "id": "b-cap",
+  "title": "歷屆會考真題特訓",
+  "units": {
+    "cap-yr-109": {
+      "guide": {
+        "title": "109 年國中教育會考五科全真精選",
+        "concept": "收錄 109 年國中教育會考五科核心試題與官方詳解。",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "cap-yr-109:cap": [
+          "cap.109-chinese-1",
+          "cap.109-chinese-2",
+          "cap.109-chinese-3",
+          "cap.109-chinese-4",
+          "cap.109-chinese-5",
+          "cap.109-chinese-6",
+          "cap.109-chinese-8",
+          "cap.109-chinese-9",
+          "cap.109-chinese-10",
+          "cap.109-chinese-11",
+          "cap.109-chinese-12",
+          "cap.109-chinese-13"
+        ]
+      }
+    },
+    "cap-yr-110": {
+      "guide": {
+        "title": "110 年國中教育會考五科全真精選",
+        "concept": "收錄 110 年國中教育會考五科核心試題與官方詳解。",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "cap-yr-110:cap": [
+          "cap.110-chinese-1",
+          "cap.110-chinese-2",
+          "cap.110-chinese-3",
+          "cap.110-chinese-4",
+          "cap.110-chinese-5",
+          "cap.110-chinese-6",
+          "cap.110-chinese-7",
+          "cap.110-chinese-8",
+          "cap.110-chinese-9",
+          "cap.110-chinese-10",
+          "cap.110-chinese-11",
+          "cap.110-chinese-12"
+        ]
+      }
+    },
+    "cap-yr-111": {
+      "guide": {
+        "title": "111 年國中教育會考五科全真精選",
+        "concept": "收錄 111 年國中教育會考五科核心試題與官方詳解。",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "cap-yr-111:cap": [
+          "cap.111-chinese-1",
+          "cap.111-chinese-2",
+          "cap.111-chinese-3",
+          "cap.111-chinese-4",
+          "cap.111-chinese-5",
+          "cap.111-chinese-6",
+          "cap.111-chinese-7",
+          "cap.111-chinese-8",
+          "cap.111-chinese-9",
+          "cap.111-chinese-10",
+          "cap.111-chinese-12",
+          "cap.111-chinese-13"
+        ]
+      }
+    },
+    "cap-yr-112": {
+      "guide": {
+        "title": "112 年國中教育會考五科全真精選",
+        "concept": "收錄 112 年國中教育會考五科核心試題與官方詳解。",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "cap-yr-112:cap": [
+          "cap.112-chinese-1",
+          "cap.112-chinese-2",
+          "cap.112-chinese-3",
+          "cap.112-chinese-4",
+          "cap.112-chinese-5",
+          "cap.112-chinese-6",
+          "cap.112-chinese-7",
+          "cap.112-chinese-9",
+          "cap.112-chinese-10",
+          "cap.112-chinese-11",
+          "cap.112-chinese-12",
+          "cap.112-chinese-13"
+        ]
+      }
+    },
+    "cap-yr-113": {
+      "guide": {
+        "title": "113 年國中教育會考五科全真精選",
+        "concept": "收錄 113 年國中教育會考五科核心試題與官方詳解。",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "cap-yr-113:cap": [
+          "cap.113-chinese-1",
+          "cap.113-chinese-2",
+          "cap.113-chinese-3",
+          "cap.113-chinese-4",
+          "cap.113-chinese-5",
+          "cap.113-chinese-6",
+          "cap.113-chinese-7",
+          "cap.113-chinese-8",
+          "cap.113-chinese-9",
+          "cap.113-chinese-11",
+          "cap.113-chinese-12",
+          "cap.113-chinese-13"
+        ]
+      }
+    },
+    "cap-yr-114": {
+      "guide": {
+        "title": "114 年國中教育會考五科全真精選",
+        "concept": "收錄 114 年國中教育會考五科核心試題與官方詳解。",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "cap-yr-114:cap": [
+          "cap.114-chinese-2",
+          "cap.114-chinese-3",
+          "cap.114-chinese-4",
+          "cap.114-chinese-6",
+          "cap.114-chinese-7",
+          "cap.114-chinese-8",
+          "cap.114-chinese-10",
+          "cap.114-chinese-11",
+          "cap.114-chinese-12",
+          "cap.114-chinese-13",
+          "cap.114-chinese-14",
+          "cap.114-chinese-15"
+        ]
+      }
+    },
+    "cap-yr-115": {
+      "guide": {
+        "title": "115 年國中教育會考五科全真精選",
+        "concept": "收錄 115 年國中教育會考五科核心試題與官方詳解。",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "cap-yr-115:cap": [
+          "cap.115-chinese-1",
+          "cap.115-chinese-2",
+          "cap.115-chinese-4",
+          "cap.115-chinese-5",
+          "cap.115-chinese-6",
+          "cap.115-chinese-7",
+          "cap.115-chinese-8",
+          "cap.115-chinese-9",
+          "cap.115-chinese-10",
+          "cap.115-chinese-11",
+          "cap.115-chinese-13",
+          "cap.115-chinese-14"
+        ]
+      }
+    }
+  }
+}

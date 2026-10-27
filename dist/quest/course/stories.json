@@ -1,0 +1,1120 @@
+{
+  "stories": {
+    "story-s1-01": {
+      "id": "story-s1-01",
+      "sectionId": "s1",
+      "title": "潛水員的數線危機",
+      "subjectTag": "數學 / 自然",
+      "scenario": "潛水員抵達海平面下 12 公尺處，需要上升至安全水層。",
+      "steps": [
+        {
+          "id": "line.story-s1-01.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「潛水員的數線危機」的真實情境。"
+        },
+        {
+          "id": "line.story-s1-01.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "潛水員抵達海平面下 12 公尺處，需要上升至安全水層。"
+        },
+        {
+          "id": "q.story-s1-01",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s1-01.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s1-02": {
+      "id": "story-s1-02",
+      "sectionId": "s1",
+      "title": "顯微鏡下的生命密碼",
+      "subjectTag": "生物",
+      "scenario": "在實驗室觀察洋蔥表皮細胞與水蘊草葉片細胞。",
+      "steps": [
+        {
+          "id": "line.story-s1-02.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「顯微鏡下的生命密碼」的真實情境。"
+        },
+        {
+          "id": "line.story-s1-02.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "在實驗室觀察洋蔥表皮細胞與水蘊草葉片細胞。"
+        },
+        {
+          "id": "q.story-s1-02",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s1-02.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s1-03": {
+      "id": "story-s1-03",
+      "sectionId": "s1",
+      "title": "大航海時代的熱蘭遮城",
+      "subjectTag": "歷史 / 地理",
+      "scenario": "荷蘭東印度公司在臺灣南部建立安平古堡與貿易航線。",
+      "steps": [
+        {
+          "id": "line.story-s1-03.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「大航海時代的熱蘭遮城」的真實情境。"
+        },
+        {
+          "id": "line.story-s1-03.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "荷蘭東印度公司在臺灣南部建立安平古堡與貿易航線。"
+        },
+        {
+          "id": "q.story-s1-03",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s1-03.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s1-04": {
+      "id": "story-s1-04",
+      "sectionId": "s1",
+      "title": "等高線與暴雨防汛",
+      "subjectTag": "地理",
+      "scenario": "山區氣象站發布豪雨特報，巡查員調閱等高線地形圖。",
+      "steps": [
+        {
+          "id": "line.story-s1-04.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「等高線與暴雨防汛」的真實情境。"
+        },
+        {
+          "id": "line.story-s1-04.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "山區氣象站發布豪雨特報，巡查員調閱等高線地形圖。"
+        },
+        {
+          "id": "q.story-s1-04",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s1-04.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s1-05": {
+      "id": "story-s1-05",
+      "sectionId": "s1",
+      "title": "少年法庭的溫柔界線",
+      "subjectTag": "公民",
+      "scenario": "阿凱因一時衝動與同儕發生衝突，接受少年事件處理程序。",
+      "steps": [
+        {
+          "id": "line.story-s1-05.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「少年法庭的溫柔界線」的真實情境。"
+        },
+        {
+          "id": "line.story-s1-05.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "阿凱因一時衝動與同儕發生衝突，接受少年事件處理程序。"
+        },
+        {
+          "id": "q.story-s1-05",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s1-05.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s1-06": {
+      "id": "story-s1-06",
+      "sectionId": "s1",
+      "title": "六書造字與漢字密碼",
+      "subjectTag": "國文",
+      "scenario": "國文課上探索「木、本、末、休、河」的造字結構。",
+      "steps": [
+        {
+          "id": "line.story-s1-06.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「六書造字與漢字密碼」的真實情境。"
+        },
+        {
+          "id": "line.story-s1-06.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "國文課上探索「木、本、末、休、河」的造字結構。"
+        },
+        {
+          "id": "q.story-s1-06",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s1-06.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s2-01": {
+      "id": "story-s2-01",
+      "sectionId": "s2",
+      "title": "孟德爾豌豆園的遺傳奇蹟",
+      "subjectTag": "生物",
+      "scenario": "修道院花園裡，高莖豌豆與矮莖豌豆正展開雜交實驗。",
+      "steps": [
+        {
+          "id": "line.story-s2-01.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「孟德爾豌豆園的遺傳奇蹟」的真實情境。"
+        },
+        {
+          "id": "line.story-s2-01.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "修道院花園裡，高莖豌豆與矮莖豌豆正展開雜交實驗。"
+        },
+        {
+          "id": "q.story-s2-01",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s2-01.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s2-02": {
+      "id": "story-s2-02",
+      "sectionId": "s2",
+      "title": "高鐵走廊與一日生活圈",
+      "subjectTag": "地理 / 歷史",
+      "scenario": "臺灣高鐵連結西部走廊，形成南北 90 分鐘便捷交通生活圈。",
+      "steps": [
+        {
+          "id": "line.story-s2-02.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「高鐵走廊與一日生活圈」的真實情境。"
+        },
+        {
+          "id": "line.story-s2-02.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "臺灣高鐵連結西部走廊，形成南北 90 分鐘便捷交通生活圈。"
+        },
+        {
+          "id": "q.story-s2-02",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s2-02.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s2-03": {
+      "id": "story-s2-03",
+      "sectionId": "s2",
+      "title": "清領開港與茶香大稻埕",
+      "subjectTag": "歷史",
+      "scenario": "淡水與安平開港後，外商洋行紛紛設立於大稻埕河岸。",
+      "steps": [
+        {
+          "id": "line.story-s2-03.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「清領開港與茶香大稻埕」的真實情境。"
+        },
+        {
+          "id": "line.story-s2-03.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "淡水與安平開港後，外商洋行紛紛設立於大稻埕河岸。"
+        },
+        {
+          "id": "q.story-s2-03",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s2-03.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s2-04": {
+      "id": "story-s2-04",
+      "sectionId": "s2",
+      "title": "二元一次方程式的雞兔同籠",
+      "subjectTag": "數學",
+      "scenario": "農場裡有雞與兔共 20 隻，數地上的腳共有 56 隻。",
+      "steps": [
+        {
+          "id": "line.story-s2-04.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「二元一次方程式的雞兔同籠」的真實情境。"
+        },
+        {
+          "id": "line.story-s2-04.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "農場裡有雞與兔共 20 隻，數地上的腳共有 56 隻。"
+        },
+        {
+          "id": "q.story-s2-04",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s2-04.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s2-05": {
+      "id": "story-s2-05",
+      "sectionId": "s2",
+      "title": "呼吸與循環的微觀接力",
+      "subjectTag": "生物",
+      "scenario": "劇烈慢跑運動後，血液中二氧化碳濃度升高刺激大腦。",
+      "steps": [
+        {
+          "id": "line.story-s2-05.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「呼吸與循環的微觀接力」的真實情境。"
+        },
+        {
+          "id": "line.story-s2-05.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "劇烈慢跑運動後，血液中二氧化碳濃度升高刺激大腦。"
+        },
+        {
+          "id": "q.story-s2-05",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s2-05.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s2-06": {
+      "id": "story-s2-06",
+      "sectionId": "s2",
+      "title": "文言虛字的語氣魔術",
+      "subjectTag": "國文",
+      "scenario": "讀「學而時習之，不亦說乎」，探索虛字「之」與「乎」的靈魂。",
+      "steps": [
+        {
+          "id": "line.story-s2-06.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「文言虛字的語氣魔術」的真實情境。"
+        },
+        {
+          "id": "line.story-s2-06.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "讀「學而時習之，不亦說乎」，探索虛字「之」與「乎」的靈魂。"
+        },
+        {
+          "id": "q.story-s2-06",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s2-06.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s3-01": {
+      "id": "story-s3-01",
+      "sectionId": "s3",
+      "title": "阿基米德的王冠浮力之謎",
+      "subjectTag": "理化·物理",
+      "scenario": "敘拉古國王懷疑金匠在純金王冠中摻入了銀，請阿基米德檢驗。",
+      "steps": [
+        {
+          "id": "line.story-s3-01.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「阿基米德的王冠浮力之謎」的真實情境。"
+        },
+        {
+          "id": "line.story-s3-01.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "敘拉古國王懷疑金匠在純金王冠中摻入了銀，請阿基米德檢驗。"
+        },
+        {
+          "id": "q.story-s3-01",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s3-01.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s3-02": {
+      "id": "story-s3-02",
+      "sectionId": "s3",
+      "title": "拉瓦節與質量守恆定律",
+      "subjectTag": "理化·化學",
+      "scenario": "在密閉玻璃鐘罩中加熱金屬，天平兩端始終保持精確平衡。",
+      "steps": [
+        {
+          "id": "line.story-s3-02.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「拉瓦節與質量守恆定律」的真實情境。"
+        },
+        {
+          "id": "line.story-s3-02.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "在密閉玻璃鐘罩中加熱金屬，天平兩端始終保持精確平衡。"
+        },
+        {
+          "id": "q.story-s3-02",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s3-02.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s3-03": {
+      "id": "story-s3-03",
+      "sectionId": "s3",
+      "title": "畢氏定理與古代金字塔量測",
+      "subjectTag": "數學",
+      "scenario": "工匠用長度 3、4、5 的結繩在地面精準拉出直角基底。",
+      "steps": [
+        {
+          "id": "line.story-s3-03.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「畢氏定理與古代金字塔量測」的真實情境。"
+        },
+        {
+          "id": "line.story-s3-03.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "工匠用長度 3、4、5 的結繩在地面精準拉出直角基底。"
+        },
+        {
+          "id": "q.story-s3-03",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s3-03.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s3-04": {
+      "id": "story-s3-04",
+      "sectionId": "s3",
+      "title": "季風亞洲的水稻與古文明",
+      "subjectTag": "地理",
+      "scenario": "夏季吹向亞洲大陸的暖濕季風，滋潤了廣大的沖積平原。",
+      "steps": [
+        {
+          "id": "line.story-s3-04.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「季風亞洲的水稻與古文明」的真實情境。"
+        },
+        {
+          "id": "line.story-s3-04.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "夏季吹向亞洲大陸的暖濕季風，滋潤了廣大的沖積平原。"
+        },
+        {
+          "id": "q.story-s3-04",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s3-04.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s3-05": {
+      "id": "story-s3-05",
+      "sectionId": "s3",
+      "title": "封建瓦解與諸子百家爭鳴",
+      "subjectTag": "歷史",
+      "scenario": "春秋戰國時代鐵器牛耕普及，封建秩序崩解，學者提出救世學說。",
+      "steps": [
+        {
+          "id": "line.story-s3-05.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「封建瓦解與諸子百家爭鳴」的真實情境。"
+        },
+        {
+          "id": "line.story-s3-05.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "春秋戰國時代鐵器牛耕普及，封建秩序崩解，學者提出救世學說。"
+        },
+        {
+          "id": "q.story-s3-05",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s3-05.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s3-06": {
+      "id": "story-s3-06",
+      "sectionId": "s3",
+      "title": "古典近體詩的對仗美學",
+      "subjectTag": "國文",
+      "scenario": "「大漠孤煙直，長河落日圓」，字字句句凝結大漠壯闊風光。",
+      "steps": [
+        {
+          "id": "line.story-s3-06.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「古典近體詩的對仗美學」的真實情境。"
+        },
+        {
+          "id": "line.story-s3-06.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "「大漠孤煙直，長河落日圓」，字字句句凝結大漠壯闊風光。"
+        },
+        {
+          "id": "q.story-s3-06",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s3-06.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s4-01": {
+      "id": "story-s4-01",
+      "sectionId": "s4",
+      "title": "勒沙特列平衡移動天平",
+      "subjectTag": "理化·化學",
+      "scenario": "黃色的鉻酸根離子水溶液加入濃鹽酸，顏色逐漸轉為紅橙色。",
+      "steps": [
+        {
+          "id": "line.story-s4-01.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「勒沙特列平衡移動天平」的真實情境。"
+        },
+        {
+          "id": "line.story-s4-01.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "黃色的鉻酸根離子水溶液加入濃鹽酸，顏色逐漸轉為紅橙色。"
+        },
+        {
+          "id": "q.story-s4-01",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s4-01.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s4-02": {
+      "id": "story-s4-02",
+      "sectionId": "s4",
+      "title": "等差級數與高斯速算奇蹟",
+      "subjectTag": "數學",
+      "scenario": "少年高斯在黑板上迅速算出了 1 加到 100 的總和為 5050。",
+      "steps": [
+        {
+          "id": "line.story-s4-02.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「等差級數與高斯速算奇蹟」的真實情境。"
+        },
+        {
+          "id": "line.story-s4-02.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "少年高斯在黑板上迅速算出了 1 加到 100 的總和為 5050。"
+        },
+        {
+          "id": "q.story-s4-02",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s4-02.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s4-03": {
+      "id": "story-s4-03",
+      "sectionId": "s4",
+      "title": "現代法治：民刑行政大辨析",
+      "subjectTag": "公民",
+      "scenario": "車禍案件現場，交警開罰單、被害人求償、檢察官偵查。",
+      "steps": [
+        {
+          "id": "line.story-s4-03.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「現代法治：民刑行政大辨析」的真實情境。"
+        },
+        {
+          "id": "line.story-s4-03.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "車禍案件現場，交警開罰單、被害人求償、檢察官偵查。"
+        },
+        {
+          "id": "q.story-s4-03",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s4-03.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s4-04": {
+      "id": "story-s4-04",
+      "sectionId": "s4",
+      "title": "西力東漸與利瑪竇的坤輿地圖",
+      "subjectTag": "歷史",
+      "scenario": "耶穌會傳教士利瑪竇攜帶西洋鐘錶與世界地圖來到明朝北京。",
+      "steps": [
+        {
+          "id": "line.story-s4-04.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「西力東漸與利瑪竇的坤輿地圖」的真實情境。"
+        },
+        {
+          "id": "line.story-s4-04.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "耶穌會傳教士利瑪竇攜帶西洋鐘錶與世界地圖來到明朝北京。"
+        },
+        {
+          "id": "q.story-s4-04",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s4-04.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s4-05": {
+      "id": "story-s4-05",
+      "sectionId": "s4",
+      "title": "比熱實驗與海陸風日夜輪替",
+      "subjectTag": "理化·物理",
+      "scenario": "白天烈日下海灘的沙子燙腳，而海水卻依舊涼爽。",
+      "steps": [
+        {
+          "id": "line.story-s4-05.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「比熱實驗與海陸風日夜輪替」的真實情境。"
+        },
+        {
+          "id": "line.story-s4-05.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "白天烈日下海灘的沙子燙腳，而海水卻依舊涼爽。"
+        },
+        {
+          "id": "q.story-s4-05",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s4-05.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s4-06": {
+      "id": "story-s4-06",
+      "sectionId": "s4",
+      "title": "宋詞長短句與豪放婉約",
+      "subjectTag": "國文",
+      "scenario": "「大江東去，浪淘盡，千古風流人物」，蘇軾赤壁懷古千古傳唱。",
+      "steps": [
+        {
+          "id": "line.story-s4-06.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「宋詞長短句與豪放婉約」的真實情境。"
+        },
+        {
+          "id": "line.story-s4-06.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "「大江東去，浪淘盡，千古風流人物」，蘇軾赤壁懷古千古傳唱。"
+        },
+        {
+          "id": "q.story-s4-06",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s4-06.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s5-01": {
+      "id": "story-s5-01",
+      "sectionId": "s5",
+      "title": "板塊運動與造就福爾摩沙",
+      "subjectTag": "地球科學",
+      "scenario": "菲律賓海板塊與歐亞板塊持續擠壓，中央山脈至今仍在隆起。",
+      "steps": [
+        {
+          "id": "line.story-s5-01.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「板塊運動與造就福爾摩沙」的真實情境。"
+        },
+        {
+          "id": "line.story-s5-01.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "菲律賓海板塊與歐亞板塊持續擠壓，中央山脈至今仍在隆起。"
+        },
+        {
+          "id": "q.story-s5-01",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s5-01.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s5-02": {
+      "id": "story-s5-02",
+      "sectionId": "s5",
+      "title": "牛頓第二定律與火箭升空",
+      "subjectTag": "理化·物理",
+      "scenario": "火箭發動機噴射高壓氣體產生強大推力，火箭加速升空。",
+      "steps": [
+        {
+          "id": "line.story-s5-02.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「牛頓第二定律與火箭升空」的真實情境。"
+        },
+        {
+          "id": "line.story-s5-02.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "火箭發動機噴射高壓氣體產生強大推力，火箭加速升空。"
+        },
+        {
+          "id": "q.story-s5-02",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s5-02.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s5-03": {
+      "id": "story-s5-03",
+      "sectionId": "s5",
+      "title": "圓周角與外接圓的幾何證明",
+      "subjectTag": "數學",
+      "scenario": "圓形劇場看臺上，觀眾無論坐在圓弧哪個位置視角皆相同。",
+      "steps": [
+        {
+          "id": "line.story-s5-03.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「圓周角與外接圓的幾何證明」的真實情境。"
+        },
+        {
+          "id": "line.story-s5-03.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "圓形劇場看臺上，觀眾無論坐在圓弧哪個位置視角皆相同。"
+        },
+        {
+          "id": "q.story-s5-03",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s5-03.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s5-04": {
+      "id": "story-s5-04",
+      "sectionId": "s5",
+      "title": "機會成本與市場經濟選擇",
+      "subjectTag": "公民",
+      "scenario": "週六下午只有兩小時，在讀書、打球與打工之間做抉擇。",
+      "steps": [
+        {
+          "id": "line.story-s5-04.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「機會成本與市場經濟選擇」的真實情境。"
+        },
+        {
+          "id": "line.story-s5-04.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "週六下午只有兩小時，在讀書、打球與打工之間做抉擇。"
+        },
+        {
+          "id": "q.story-s5-04",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s5-04.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s5-05": {
+      "id": "story-s5-05",
+      "sectionId": "s5",
+      "title": "古希臘雅典與公民大會",
+      "subjectTag": "歷史",
+      "scenario": "雅典衛城普尼克斯山丘上，公民們正聚集投票表決城邦法律。",
+      "steps": [
+        {
+          "id": "line.story-s5-05.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「古希臘雅典與公民大會」的真實情境。"
+        },
+        {
+          "id": "line.story-s5-05.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "雅典衛城普尼克斯山丘上，公民們正聚集投票表決城邦法律。"
+        },
+        {
+          "id": "q.story-s5-05",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s5-05.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s5-06": {
+      "id": "story-s5-06",
+      "sectionId": "s5",
+      "title": "古典小說紅樓與人物風采",
+      "subjectTag": "國文",
+      "scenario": "走進大觀園，林黛玉葬花、王熙鳳弄權，刻畫世態炎涼。",
+      "steps": [
+        {
+          "id": "line.story-s5-06.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「古典小說紅樓與人物風采」的真實情境。"
+        },
+        {
+          "id": "line.story-s5-06.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "走進大觀園，林黛玉葬花、王熙鳳弄權，刻畫世態炎涼。"
+        },
+        {
+          "id": "q.story-s5-06",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s5-06.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s6-01": {
+      "id": "story-s6-01",
+      "sectionId": "s6",
+      "title": "法拉第感應與發電機革命",
+      "subjectTag": "理化·物理",
+      "scenario": "將磁鐵快速穿過閉合線圈，檢流計指針瞬間發生劇烈偏轉。",
+      "steps": [
+        {
+          "id": "line.story-s6-01.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「法拉第感應與發電機革命」的真實情境。"
+        },
+        {
+          "id": "line.story-s6-01.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "將磁鐵快速穿過閉合線圈，檢流計指針瞬間發生劇烈偏轉。"
+        },
+        {
+          "id": "q.story-s6-01",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s6-01.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s6-02": {
+      "id": "story-s6-02",
+      "sectionId": "s6",
+      "title": "地軸傾斜與地球四季星空",
+      "subjectTag": "地球科學",
+      "scenario": "冬至與夏至的太陽正午仰角截然不同，四季如期更替。",
+      "steps": [
+        {
+          "id": "line.story-s6-02.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「地軸傾斜與地球四季星空」的真實情境。"
+        },
+        {
+          "id": "line.story-s6-02.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "冬至與夏至的太陽正午仰角截然不同，四季如期更替。"
+        },
+        {
+          "id": "q.story-s6-02",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s6-02.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s6-03": {
+      "id": "story-s6-03",
+      "sectionId": "s6",
+      "title": "二次函數拋物線與最完美拋射",
+      "subjectTag": "數學",
+      "scenario": "籃球選手起跳投籃，籃球在空中劃出一道對稱優美的拋物線。",
+      "steps": [
+        {
+          "id": "line.story-s6-03.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「二次函數拋物線與最完美拋射」的真實情境。"
+        },
+        {
+          "id": "line.story-s6-03.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "籃球選手起跳投籃，籃球在空中劃出一道對稱優美的拋物線。"
+        },
+        {
+          "id": "q.story-s6-03",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s6-03.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s6-04": {
+      "id": "story-s6-04",
+      "sectionId": "s6",
+      "title": "冷戰鐵幕與柏林圍牆倒塌",
+      "subjectTag": "歷史",
+      "scenario": "1989 年市民走上柏林街頭敲碎水泥牆，冷戰對峙走向終點。",
+      "steps": [
+        {
+          "id": "line.story-s6-04.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「冷戰鐵幕與柏林圍牆倒塌」的真實情境。"
+        },
+        {
+          "id": "line.story-s6-04.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "1989 年市民走上柏林街頭敲碎水泥牆，冷戰對峙走向終點。"
+        },
+        {
+          "id": "q.story-s6-04",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s6-04.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s6-05": {
+      "id": "story-s6-05",
+      "sectionId": "s6",
+      "title": "全球化分工與碳足跡永續",
+      "subjectTag": "地理 / 公民",
+      "scenario": "一支智慧型手機零件來自十多個國家，經過全球跨國供應鏈。",
+      "steps": [
+        {
+          "id": "line.story-s6-05.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「全球化分工與碳足跡永續」的真實情境。"
+        },
+        {
+          "id": "line.story-s6-05.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "一支智慧型手機零件來自十多個國家，經過全球跨國供應鏈。"
+        },
+        {
+          "id": "q.story-s6-05",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s6-05.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    },
+    "story-s6-06": {
+      "id": "story-s6-06",
+      "sectionId": "s6",
+      "title": "會考寫作審題與立意高飛",
+      "subjectTag": "國文",
+      "scenario": "面對會考寫作題目，從真實生活素材提煉出生命洞察與反思。",
+      "steps": [
+        {
+          "id": "line.story-s6-06.1",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "同學好！今天我們要探索「會考寫作審題與立意高飛」的真實情境。"
+        },
+        {
+          "id": "line.story-s6-06.2",
+          "type": "line",
+          "speaker": "情境觀測",
+          "text": "面對會考寫作題目，從真實生活素材提煉出生命洞察與反思。"
+        },
+        {
+          "id": "q.story-s6-06",
+          "type": "choice"
+        },
+        {
+          "id": "line.story-s6-06.3",
+          "type": "line",
+          "speaker": "知知導師",
+          "text": "太棒了！能夠從真實現象中抽象出學科原理，這就是 108 課綱的核心素養！"
+        }
+      ]
+    }
+  }
+}

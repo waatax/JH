@@ -1,0 +1,110 @@
+{
+  "version": "2026-10-27.v1",
+  "builtAt": "2026-10-27T04:22:51.295Z",
+  "statistics": {
+    "curriculumUnits": 188,
+    "totalSections": 6,
+    "totalBranches": 8,
+    "totalRegisteredItems": 2683,
+    "totalStories": 36,
+    "excludedItemsCount": 4
+  },
+  "sectionsSummary": [
+    {
+      "id": "s1",
+      "title": "七年級上學期",
+      "unitCount": 33,
+      "nodeCount": 165
+    },
+    {
+      "id": "s2",
+      "title": "七年級下學期",
+      "unitCount": 26,
+      "nodeCount": 130
+    },
+    {
+      "id": "s3",
+      "title": "八年級上學期",
+      "unitCount": 36,
+      "nodeCount": 180
+    },
+    {
+      "id": "s4",
+      "title": "八年級下學期",
+      "unitCount": 29,
+      "nodeCount": 145
+    },
+    {
+      "id": "s5",
+      "title": "九年級上學期",
+      "unitCount": 28,
+      "nodeCount": 140
+    },
+    {
+      "id": "s6",
+      "title": "九年級下學期",
+      "unitCount": 36,
+      "nodeCount": 180
+    }
+  ],
+  "branchesSummary": [
+    {
+      "id": "b-chinese",
+      "title": "國語文縱貫專精",
+      "unitCount": 16
+    },
+    {
+      "id": "b-english",
+      "title": "英語文縱貫專精",
+      "unitCount": 16
+    },
+    {
+      "id": "b-math",
+      "title": "數學幾何代數全線",
+      "unitCount": 27
+    },
+    {
+      "id": "b-science",
+      "title": "自然科學探究全線",
+      "unitCount": 55
+    },
+    {
+      "id": "b-social",
+      "title": "社會脈絡思辨全線",
+      "unitCount": 40
+    },
+    {
+      "id": "b-life",
+      "title": "科技藝術與跨域全線",
+      "unitCount": 34
+    },
+    {
+      "id": "b-periodic",
+      "title": "三次段考模擬衝刺",
+      "unitCount": 17
+    },
+    {
+      "id": "b-cap",
+      "title": "歷屆會考真題特訓",
+      "unitCount": 7
+    }
+  ],
+  "excludedItemsSample": [
+    {
+      "id": "cap.109-chinese-7",
+      "reason": "fewer than 2 options"
+    },
+    {
+      "id": "cap.110-chinese-13",
+      "reason": "fewer than 2 options"
+    },
+    {
+      "id": "cap.112-chinese-8",
+      "reason": "fewer than 2 options"
+    },
+    {
+      "id": "cap.114-chinese-1",
+      "reason": "fewer than 2 options"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 // Service Worker for Zhixing Junior Academy (知行學院)
-const CACHE_NAME = 'zhixing-cache-v19'; // upgraded from zhixing-cache-v18, originally from zhixing-cache-v17
+const CACHE_NAME = 'zhixing-cache-v20'; // upgraded from zhixing-cache-v19, previously zhixing-cache-v18, originally from zhixing-cache-v17
 
 const STATIC_ASSETS = [
   './',
@@ -39,7 +39,18 @@ const STATIC_ASSETS = [
   './exegesis-data.js',
   './periodic-exam-data.js',
   './periodic-exams.js',
-  './manifest.json'
+  './manifest.json',
+  './quest/index.html',
+  './quest/quest.css',
+  './quest/engine.mjs',
+  './quest/view.mjs',
+  './quest/sound.mjs',
+  './quest/coach.mjs',
+  './quest/atlas.mjs',
+  './quest/placement.mjs',
+  './quest/course/index.json',
+  './quest/course/s1.json',
+  './quest/course/stories.json'
 ];
 
 self.addEventListener('install', event => {
@@ -71,7 +82,7 @@ self.addEventListener('fetch', event => {
 
   // Revalidate lesson modules on navigation/reload, with an offline fallback.
   // Otherwise a new worker can copy stale HTTP-cache responses into its new cache.
-  if (url.origin === self.location.origin && (event.request.mode === 'navigate' || /\.(?:js|css)$/.test(url.pathname))) {
+  if (url.origin === self.location.origin && (event.request.mode === 'navigate' || /\.(?:js|mjs|css)$/.test(url.pathname))) {
     event.respondWith((async () => {
       const cache = await caches.open(CACHE_NAME);
       try {

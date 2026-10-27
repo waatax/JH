@@ -1,0 +1,333 @@
+{
+  "id": "b-periodic",
+  "title": "三次段考模擬衝刺",
+  "units": {
+    "periodic-7-1-1": {
+      "guide": {
+        "title": "第 1 次段考 · 7年級上學期預備卷",
+        "scopeSummary": "數與數線、生命特性與細胞、六書與修辭、現在式與祈使句、史前臺灣與地圖經緯度",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-7-1-1:mock": [
+          "pe.7-1-1-ch-q1",
+          "pe.7-1-1-ch-q2",
+          "pe.7-1-1-en-q1",
+          "pe.7-1-1-en-q2",
+          "pe.7-1-1-ma-q1",
+          "pe.7-1-1-ma-q2",
+          "pe.7-1-1-sc-q1",
+          "pe.7-1-1-sc-q2",
+          "pe.7-1-1-so-q1",
+          "pe.7-1-1-so-q2"
+        ]
+      }
+    },
+    "periodic-7-1-2": {
+      "guide": {
+        "title": "第 2 次段考 · 7年級上學期預備卷",
+        "scopeSummary": "因數倍數與分數四則、酵素受質與光合作用、近體詩律詩絕句格律、現在進行式與祈使句、荷西鄭氏治臺與等高線地形圖",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-7-1-2:mock": [
+          "pe.7-1-2-ch-q1",
+          "pe.7-1-2-en-q1",
+          "pe.7-1-2-ma-q1",
+          "pe.7-1-2-sc-q1",
+          "pe.7-1-2-so-q1"
+        ]
+      }
+    },
+    "periodic-7-1-3": {
+      "guide": {
+        "title": "第 3 次段考 · 7年級上學期預備卷",
+        "scopeSummary": "一元一次方程式與應用題、生物體內運輸與循環系統、造字六書與論語儒家哲學、頻率副詞與時間日期、清領前期開墾水利與臺灣氣候水文",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-7-1-3:mock": [
+          "pe.7-1-3-ch-q1",
+          "pe.7-1-3-en-q1",
+          "pe.7-1-3-ma-q1",
+          "pe.7-1-3-sc-q1",
+          "pe.7-1-3-so-q1"
+        ]
+      }
+    },
+    "periodic-7-2-1": {
+      "guide": {
+        "title": "第 1 次段考 · 7年級下學期預備卷",
+        "scopeSummary": "二元一次聯立方程式、神經與內分泌系統、漢字造字書法、過去式時態、清領後期開港與人口金字塔",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-7-2-1:mock": [
+          "pe.7-2-1-ch-q1",
+          "pe.7-2-1-ch-q2",
+          "pe.7-2-1-en-q1",
+          "pe.7-2-1-en-q2",
+          "pe.7-2-1-ma-q1",
+          "pe.7-2-1-ma-q2",
+          "pe.7-2-1-sc-q1",
+          "pe.7-2-1-sc-q2",
+          "pe.7-2-1-so-q1",
+          "pe.7-2-1-so-q2"
+        ]
+      }
+    },
+    "periodic-7-2-2": {
+      "guide": {
+        "title": "第 2 次段考 · 7年級下學期預備卷",
+        "scopeSummary": "直角坐標與直線方程式、呼吸排泄與恆定、四大基本句型、過去進行式與數量詞、日治統治與臺灣產業",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-7-2-2:mock": [
+          "pe.7-2-2-ch-q1",
+          "pe.7-2-2-ch-q2",
+          "pe.7-2-2-en-q1",
+          "pe.7-2-2-en-q2",
+          "pe.7-2-2-ma-q1",
+          "pe.7-2-2-ma-q2",
+          "pe.7-2-2-sc-q1",
+          "pe.7-2-2-sc-q2",
+          "pe.7-2-2-so-q1",
+          "pe.7-2-2-so-q2"
+        ]
+      }
+    },
+    "periodic-7-2-3": {
+      "guide": {
+        "title": "第 3 次段考 · 7年級下學期預備卷",
+        "scopeSummary": "比例式與一元一次不等式、生殖遺傳與演化生態、世說新語與設問修辭、助動詞與未來式、日治社會運動與多元文化",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-7-2-3:mock": [
+          "pe.7-2-3-ch-q1",
+          "pe.7-2-3-ch-q2",
+          "pe.7-2-3-en-q1",
+          "pe.7-2-3-en-q2",
+          "pe.7-2-3-ma-q1",
+          "pe.7-2-3-ma-q2",
+          "pe.7-2-3-sc-q1",
+          "pe.7-2-3-sc-q2",
+          "pe.7-2-3-so-q1",
+          "pe.7-2-3-so-q2"
+        ]
+      }
+    },
+    "periodic-8-1-1": {
+      "guide": {
+        "title": "第 1 次段考 · 8年級上學期預備卷",
+        "scopeSummary": "乘法公式與多項式、基本測量與波與聲音、近體詩格律與借代、形容詞副詞比較級、先秦制度與中國三大地形階梯",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-8-1-1:mock": [
+          "pe.8-1-1-ch-q1",
+          "pe.8-1-1-ch-q2",
+          "pe.8-1-1-en-q1",
+          "pe.8-1-1-en-q2",
+          "pe.8-1-1-ma-q1",
+          "pe.8-1-1-ma-q2",
+          "pe.8-1-1-sc-q1",
+          "pe.8-1-1-sc-q2",
+          "pe.8-1-1-so-q1",
+          "pe.8-1-1-so-q2"
+        ]
+      }
+    },
+    "periodic-8-1-2": {
+      "guide": {
+        "title": "第 2 次段考 · 8年級上學期預備卷",
+        "scopeSummary": "平方根與畢氏定理、光學反射折射透鏡、先秦諸子寓言文言虛詞、最高級與動名詞不定詞、秦漢大一統絲路與秦嶺淮河",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-8-1-2:mock": [
+          "pe.8-1-2-ch-q1",
+          "pe.8-1-2-ch-q2",
+          "pe.8-1-2-en-q1",
+          "pe.8-1-2-en-q2",
+          "pe.8-1-2-ma-q1",
+          "pe.8-1-2-ma-q2",
+          "pe.8-1-2-sc-q1",
+          "pe.8-1-2-sc-q2",
+          "pe.8-1-2-so-q1",
+          "pe.8-1-2-so-q2"
+        ]
+      }
+    },
+    "periodic-8-1-3": {
+      "guide": {
+        "title": "第 3 次段考 · 8年級上學期預備卷",
+        "scopeSummary": "因式分解與一元二次方程式、熱量與比熱平衡、三國空城計小說人物、授與動詞與感官使役、隋唐制度與東亞文化圈",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-8-1-3:mock": [
+          "pe.8-1-3-ch-q1",
+          "pe.8-1-3-ch-q2",
+          "pe.8-1-3-en-q1",
+          "pe.8-1-3-en-q2",
+          "pe.8-1-3-ma-q1",
+          "pe.8-1-3-ma-q2",
+          "pe.8-1-3-sc-q1",
+          "pe.8-1-3-sc-q2",
+          "pe.8-1-3-so-q1",
+          "pe.8-1-3-so-q2"
+        ]
+      }
+    },
+    "periodic-8-2-1": {
+      "guide": {
+        "title": "第 1 次段考 · 8年級下學期預備卷",
+        "scopeSummary": "等差數列級數與線型函數、反應式平衡與莫耳計量、宋詞元曲與節慶、現在完成式時態、宋元變遷與憲法人權",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-8-2-1:mock": [
+          "pe.8-2-1-ch-q1",
+          "pe.8-2-1-ch-q2",
+          "pe.8-2-1-en-q1",
+          "pe.8-2-1-en-q2",
+          "pe.8-2-1-ma-q1",
+          "pe.8-2-1-ma-q2",
+          "pe.8-2-1-sc-q1",
+          "pe.8-2-1-sc-q2",
+          "pe.8-2-1-so-q1",
+          "pe.8-2-1-so-q2"
+        ]
+      }
+    },
+    "periodic-8-2-2": {
+      "guide": {
+        "title": "第 2 次段考 · 8年級下學期預備卷",
+        "scopeSummary": "多邊形尺規全等證明、酸鹼鹽電解質與反應速率、現代散文修辭圖表、被動語態句型、明清變局與民法生活法律",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-8-2-2:mock": [
+          "pe.8-2-2-ch-q1",
+          "pe.8-2-2-ch-q2",
+          "pe.8-2-2-en-q1",
+          "pe.8-2-2-en-q2",
+          "pe.8-2-2-ma-q1",
+          "pe.8-2-2-ma-q2",
+          "pe.8-2-2-sc-q1",
+          "pe.8-2-2-sc-q2",
+          "pe.8-2-2-so-q1",
+          "pe.8-2-2-so-q2"
+        ]
+      }
+    },
+    "periodic-8-2-3": {
+      "guide": {
+        "title": "第 3 次段考 · 8年級下學期預備卷",
+        "scopeSummary": "平行線特殊四邊形、氧化還原有機物與浮力壓力、古典寓言論證閱讀、條件與時間副詞子句、晚清救亡圖存與刑法行政法",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-8-2-3:mock": [
+          "pe.8-2-3-ch-q1",
+          "pe.8-2-3-ch-q2",
+          "pe.8-2-3-en-q1",
+          "pe.8-2-3-en-q2",
+          "pe.8-2-3-ma-q1",
+          "pe.8-2-3-ma-q2",
+          "pe.8-2-3-sc-q1",
+          "pe.8-2-3-sc-q2",
+          "pe.8-2-3-so-q1",
+          "pe.8-2-3-so-q2"
+        ]
+      }
+    },
+    "periodic-9-1-1": {
+      "guide": {
+        "title": "第 1 次段考 · 9年級上學期預備卷",
+        "scopeSummary": "相似形與比例線段、直線運動加速度與地層岩石、先秦論說孟子論證、關係代名詞主格、上古歐洲文明與供求法則",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-9-1-1:mock": [
+          "pe.9-1-1-ch-q1",
+          "pe.9-1-1-ch-q2",
+          "pe.9-1-1-en-q1",
+          "pe.9-1-1-en-q2",
+          "pe.9-1-1-ma-q1",
+          "pe.9-1-1-ma-q2",
+          "pe.9-1-1-sc-q1",
+          "pe.9-1-1-sc-q2",
+          "pe.9-1-1-so-q1",
+          "pe.9-1-1-so-q2"
+        ]
+      }
+    },
+    "periodic-9-1-2": {
+      "guide": {
+        "title": "第 2 次段考 · 9年級上學期預備卷",
+        "scopeSummary": "圓幾何與圓心角圓周角、牛頓三大運動定律與萬有引力、板塊構造與地震、章回小說水滸紅樓、關係代名詞受格與whose、羅馬帝國與中古歐洲、市場失靈與外部性",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-9-1-2:mock": [
+          "pe.9-1-2-ch-q1",
+          "pe.9-1-2-en-q1",
+          "pe.9-1-2-ma-q1",
+          "pe.9-1-2-sc-q1",
+          "pe.9-1-2-so-q1"
+        ]
+      }
+    },
+    "periodic-9-1-3": {
+      "guide": {
+        "title": "第 3 次段考 · 9年級上學期預備卷",
+        "scopeSummary": "幾何證明與三角形三心（外心/內心/重心）、功與能及簡單機械、大氣鋒面系統天氣圖、海洋文學現代散文、名詞子句與間接問句、文藝復興與新航路開闢、貨幣功能與比較利益",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-9-1-3:mock": [
+          "pe.9-1-3-ch-q1",
+          "pe.9-1-3-en-q1",
+          "pe.9-1-3-ma-q1",
+          "pe.9-1-3-sc-q1",
+          "pe.9-1-3-so-q1"
+        ]
+      }
+    },
+    "periodic-9-2-1": {
+      "guide": {
+        "title": "第 1 次段考 · 9年級下學期預備卷",
+        "scopeSummary": "二次函數極值與平移、靜電電路歐姆定律與電功率、日地月公轉天球月相潮汐、應用文書信題辭對聯、附加問句Tag Questions、啟蒙運動英美法革命、媒體素養與勞動權益",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-9-2-1:mock": [
+          "pe.9-2-1-ch-q1",
+          "pe.9-2-1-en-q1",
+          "pe.9-2-1-ma-q1",
+          "pe.9-2-1-sc-q1",
+          "pe.9-2-1-so-q1"
+        ]
+      }
+    },
+    "periodic-9-2-2": {
+      "guide": {
+        "title": "第 2 次段考 · 9年級下學期預備卷",
+        "scopeSummary": "立體幾何三視圖、盒狀圖與統計機率、電流磁效應電磁感應、全球暖化與極端氣候、會考作文審題立意佈局、跨領域長篇閱讀、工業革命至全球化、國際組織與永續治理",
+        "knowledgePoints": []
+      },
+      "nodes": {
+        "periodic-9-2-2:mock": [
+          "pe.9-2-2-ch-q1",
+          "pe.9-2-2-en-q1",
+          "pe.9-2-2-ma-q1",
+          "pe.9-2-2-sc-q1",
+          "pe.9-2-2-so-q1"
+        ]
+      }
+    }
+  }
+}
