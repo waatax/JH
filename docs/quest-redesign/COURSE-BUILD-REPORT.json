@@ -1,13 +1,13 @@
 {
   "version": "2026-10-27.v1",
-  "builtAt": "2026-10-27T05:00:25.695Z",
+  "builtAt": "2026-10-27T05:55:34.838Z",
   "statistics": {
     "curriculumUnits": 188,
     "totalSections": 6,
     "totalBranches": 8,
-    "totalRegisteredItems": 2683,
+    "totalRegisteredItems": 3968,
     "totalStories": 36,
-    "excludedItemsCount": 4
+    "excludedItemsCount": 10
   },
   "sectionsSummary": [
     {
@@ -91,19 +91,43 @@
   ],
   "excludedItemsSample": [
     {
-      "id": "cap.109-chinese-7",
+      "id": "cap.110-social-34",
       "reason": "fewer than 2 options"
     },
     {
-      "id": "cap.110-chinese-13",
+      "id": "cap.111-social-26",
       "reason": "fewer than 2 options"
     },
     {
-      "id": "cap.112-chinese-8",
+      "id": "cap.113-social-7",
       "reason": "fewer than 2 options"
     },
     {
-      "id": "cap.114-chinese-1",
+      "id": "cap.110-social-34",
+      "reason": "fewer than 2 options"
+    },
+    {
+      "id": "cap.111-social-26",
+      "reason": "fewer than 2 options"
+    },
+    {
+      "id": "cap.113-social-7",
+      "reason": "fewer than 2 options"
+    },
+    {
+      "id": "cap.110-english-17",
+      "reason": "fewer than 2 options"
+    },
+    {
+      "id": "cap.110-social-34",
+      "reason": "fewer than 2 options"
+    },
+    {
+      "id": "cap.111-social-26",
+      "reason": "fewer than 2 options"
+    },
+    {
+      "id": "cap.113-social-7",
       "reason": "fewer than 2 options"
     }
   ]

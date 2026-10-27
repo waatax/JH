@@ -5,161 +5,427 @@
     "cap-yr-109": {
       "guide": {
         "title": "109 年國中教育會考五科全真精選",
-        "concept": "收錄 109 年國中教育會考五科核心試題與官方詳解。",
+        "concept": "收錄 109 年國中教育會考國文、英語、數學、自然、社會五科全真試題與官方詳解。",
         "knowledgePoints": []
       },
       "nodes": {
-        "cap-yr-109:cap": [
+        "cap-yr-109:chinese": [
           "cap.109-chinese-1",
           "cap.109-chinese-2",
           "cap.109-chinese-3",
           "cap.109-chinese-4",
           "cap.109-chinese-5",
-          "cap.109-chinese-6",
-          "cap.109-chinese-8",
-          "cap.109-chinese-9",
-          "cap.109-chinese-10",
-          "cap.109-chinese-11",
-          "cap.109-chinese-12",
-          "cap.109-chinese-13"
+          "cap.109-chinese-6"
+        ],
+        "cap-yr-109:english": [
+          "cap.109-english-1",
+          "cap.109-english-2",
+          "cap.109-english-3",
+          "cap.109-english-4",
+          "cap.109-english-5",
+          "cap.109-english-6"
+        ],
+        "cap-yr-109:math": [
+          "cap.109-math-1",
+          "cap.109-math-2",
+          "cap.109-math-3",
+          "cap.109-math-4",
+          "cap.109-math-5",
+          "cap.109-math-6"
+        ],
+        "cap-yr-109:science": [
+          "cap.109-science-1",
+          "cap.109-science-3",
+          "cap.109-science-4",
+          "cap.109-science-5",
+          "cap.109-science-6",
+          "cap.109-science-7"
+        ],
+        "cap-yr-109:social": [
+          "cap.109-social-1",
+          "cap.109-social-2",
+          "cap.109-social-3",
+          "cap.109-social-4",
+          "cap.109-social-6",
+          "cap.109-social-7"
+        ],
+        "cap-yr-109:cap": [
+          "cap.109-chinese-1",
+          "cap.109-chinese-2",
+          "cap.109-english-1",
+          "cap.109-english-2",
+          "cap.109-math-1",
+          "cap.109-math-2",
+          "cap.109-science-1",
+          "cap.109-science-3",
+          "cap.109-social-1",
+          "cap.109-social-2"
         ]
       }
     },
     "cap-yr-110": {
       "guide": {
         "title": "110 年國中教育會考五科全真精選",
-        "concept": "收錄 110 年國中教育會考五科核心試題與官方詳解。",
+        "concept": "收錄 110 年國中教育會考國文、英語、數學、自然、社會五科全真試題與官方詳解。",
         "knowledgePoints": []
       },
       "nodes": {
-        "cap-yr-110:cap": [
+        "cap-yr-110:chinese": [
           "cap.110-chinese-1",
           "cap.110-chinese-2",
           "cap.110-chinese-3",
           "cap.110-chinese-4",
           "cap.110-chinese-5",
-          "cap.110-chinese-6",
-          "cap.110-chinese-7",
-          "cap.110-chinese-8",
-          "cap.110-chinese-9",
-          "cap.110-chinese-10",
-          "cap.110-chinese-11",
-          "cap.110-chinese-12"
+          "cap.110-chinese-6"
+        ],
+        "cap-yr-110:english": [
+          "cap.110-english-1",
+          "cap.110-english-2",
+          "cap.110-english-3",
+          "cap.110-english-4",
+          "cap.110-english-5",
+          "cap.110-english-6"
+        ],
+        "cap-yr-110:math": [
+          "cap.110-math-1",
+          "cap.110-math-2",
+          "cap.110-math-3",
+          "cap.110-math-4",
+          "cap.110-math-5",
+          "cap.110-math-6"
+        ],
+        "cap-yr-110:science": [
+          "cap.110-science-1",
+          "cap.110-science-2",
+          "cap.110-science-3",
+          "cap.110-science-4",
+          "cap.110-science-5",
+          "cap.110-science-6"
+        ],
+        "cap-yr-110:social": [
+          "cap.110-social-1",
+          "cap.110-social-2",
+          "cap.110-social-3",
+          "cap.110-social-4",
+          "cap.110-social-6",
+          "cap.110-social-7"
+        ],
+        "cap-yr-110:cap": [
+          "cap.110-chinese-1",
+          "cap.110-chinese-2",
+          "cap.110-english-1",
+          "cap.110-english-2",
+          "cap.110-math-1",
+          "cap.110-math-2",
+          "cap.110-science-1",
+          "cap.110-science-2",
+          "cap.110-social-1",
+          "cap.110-social-2"
         ]
       }
     },
     "cap-yr-111": {
       "guide": {
         "title": "111 年國中教育會考五科全真精選",
-        "concept": "收錄 111 年國中教育會考五科核心試題與官方詳解。",
+        "concept": "收錄 111 年國中教育會考國文、英語、數學、自然、社會五科全真試題與官方詳解。",
         "knowledgePoints": []
       },
       "nodes": {
-        "cap-yr-111:cap": [
+        "cap-yr-111:chinese": [
           "cap.111-chinese-1",
           "cap.111-chinese-2",
           "cap.111-chinese-3",
           "cap.111-chinese-4",
           "cap.111-chinese-5",
-          "cap.111-chinese-6",
-          "cap.111-chinese-7",
-          "cap.111-chinese-8",
-          "cap.111-chinese-9",
-          "cap.111-chinese-10",
-          "cap.111-chinese-12",
-          "cap.111-chinese-13"
+          "cap.111-chinese-6"
+        ],
+        "cap-yr-111:english": [
+          "cap.111-english-1",
+          "cap.111-english-2",
+          "cap.111-english-3",
+          "cap.111-english-4",
+          "cap.111-english-5",
+          "cap.111-english-6"
+        ],
+        "cap-yr-111:math": [
+          "cap.111-math-1",
+          "cap.111-math-2",
+          "cap.111-math-3",
+          "cap.111-math-4",
+          "cap.111-math-5",
+          "cap.111-math-6"
+        ],
+        "cap-yr-111:science": [
+          "cap.111-science-1",
+          "cap.111-science-2",
+          "cap.111-science-3",
+          "cap.111-science-4",
+          "cap.111-science-5",
+          "cap.111-science-6"
+        ],
+        "cap-yr-111:social": [
+          "cap.111-social-1",
+          "cap.111-social-2",
+          "cap.111-social-3",
+          "cap.111-social-4",
+          "cap.111-social-5",
+          "cap.111-social-6"
+        ],
+        "cap-yr-111:cap": [
+          "cap.111-chinese-1",
+          "cap.111-chinese-2",
+          "cap.111-english-1",
+          "cap.111-english-2",
+          "cap.111-math-1",
+          "cap.111-math-2",
+          "cap.111-science-1",
+          "cap.111-science-2",
+          "cap.111-social-1",
+          "cap.111-social-2"
         ]
       }
     },
     "cap-yr-112": {
       "guide": {
         "title": "112 年國中教育會考五科全真精選",
-        "concept": "收錄 112 年國中教育會考五科核心試題與官方詳解。",
+        "concept": "收錄 112 年國中教育會考國文、英語、數學、自然、社會五科全真試題與官方詳解。",
         "knowledgePoints": []
       },
       "nodes": {
-        "cap-yr-112:cap": [
+        "cap-yr-112:chinese": [
           "cap.112-chinese-1",
           "cap.112-chinese-2",
           "cap.112-chinese-3",
           "cap.112-chinese-4",
           "cap.112-chinese-5",
-          "cap.112-chinese-6",
-          "cap.112-chinese-7",
-          "cap.112-chinese-9",
-          "cap.112-chinese-10",
-          "cap.112-chinese-11",
-          "cap.112-chinese-12",
-          "cap.112-chinese-13"
+          "cap.112-chinese-6"
+        ],
+        "cap-yr-112:english": [
+          "cap.112-english-1",
+          "cap.112-english-2",
+          "cap.112-english-3",
+          "cap.112-english-4",
+          "cap.112-english-5",
+          "cap.112-english-6"
+        ],
+        "cap-yr-112:math": [
+          "cap.112-math-1",
+          "cap.112-math-2",
+          "cap.112-math-3",
+          "cap.112-math-4",
+          "cap.112-math-5",
+          "cap.112-math-6"
+        ],
+        "cap-yr-112:science": [
+          "cap.112-science-1",
+          "cap.112-science-2",
+          "cap.112-science-3",
+          "cap.112-science-4",
+          "cap.112-science-5",
+          "cap.112-science-6"
+        ],
+        "cap-yr-112:social": [
+          "cap.112-social-1",
+          "cap.112-social-2",
+          "cap.112-social-3",
+          "cap.112-social-4",
+          "cap.112-social-5",
+          "cap.112-social-6"
+        ],
+        "cap-yr-112:cap": [
+          "cap.112-chinese-1",
+          "cap.112-chinese-2",
+          "cap.112-english-1",
+          "cap.112-english-2",
+          "cap.112-math-1",
+          "cap.112-math-2",
+          "cap.112-science-1",
+          "cap.112-science-2",
+          "cap.112-social-1",
+          "cap.112-social-2"
         ]
       }
     },
     "cap-yr-113": {
       "guide": {
         "title": "113 年國中教育會考五科全真精選",
-        "concept": "收錄 113 年國中教育會考五科核心試題與官方詳解。",
+        "concept": "收錄 113 年國中教育會考國文、英語、數學、自然、社會五科全真試題與官方詳解。",
         "knowledgePoints": []
       },
       "nodes": {
-        "cap-yr-113:cap": [
+        "cap-yr-113:chinese": [
           "cap.113-chinese-1",
           "cap.113-chinese-2",
           "cap.113-chinese-3",
           "cap.113-chinese-4",
           "cap.113-chinese-5",
-          "cap.113-chinese-6",
-          "cap.113-chinese-7",
-          "cap.113-chinese-8",
-          "cap.113-chinese-9",
-          "cap.113-chinese-11",
-          "cap.113-chinese-12",
-          "cap.113-chinese-13"
+          "cap.113-chinese-6"
+        ],
+        "cap-yr-113:english": [
+          "cap.113-english-1",
+          "cap.113-english-2",
+          "cap.113-english-3",
+          "cap.113-english-4",
+          "cap.113-english-5",
+          "cap.113-english-6"
+        ],
+        "cap-yr-113:math": [
+          "cap.113-math-1",
+          "cap.113-math-2",
+          "cap.113-math-3",
+          "cap.113-math-4",
+          "cap.113-math-5",
+          "cap.113-math-6"
+        ],
+        "cap-yr-113:science": [
+          "cap.113-science-2",
+          "cap.113-science-3",
+          "cap.113-science-4",
+          "cap.113-science-5",
+          "cap.113-science-6",
+          "cap.113-science-7"
+        ],
+        "cap-yr-113:social": [
+          "cap.113-social-1",
+          "cap.113-social-2",
+          "cap.113-social-3",
+          "cap.113-social-4",
+          "cap.113-social-5",
+          "cap.113-social-6"
+        ],
+        "cap-yr-113:cap": [
+          "cap.113-chinese-1",
+          "cap.113-chinese-2",
+          "cap.113-english-1",
+          "cap.113-english-2",
+          "cap.113-math-1",
+          "cap.113-math-2",
+          "cap.113-science-2",
+          "cap.113-science-3",
+          "cap.113-social-1",
+          "cap.113-social-2"
         ]
       }
     },
     "cap-yr-114": {
       "guide": {
         "title": "114 年國中教育會考五科全真精選",
-        "concept": "收錄 114 年國中教育會考五科核心試題與官方詳解。",
+        "concept": "收錄 114 年國中教育會考國文、英語、數學、自然、社會五科全真試題與官方詳解。",
         "knowledgePoints": []
       },
       "nodes": {
-        "cap-yr-114:cap": [
+        "cap-yr-114:chinese": [
           "cap.114-chinese-2",
           "cap.114-chinese-3",
           "cap.114-chinese-4",
           "cap.114-chinese-6",
           "cap.114-chinese-7",
-          "cap.114-chinese-8",
-          "cap.114-chinese-10",
-          "cap.114-chinese-11",
-          "cap.114-chinese-12",
-          "cap.114-chinese-13",
-          "cap.114-chinese-14",
-          "cap.114-chinese-15"
+          "cap.114-chinese-8"
+        ],
+        "cap-yr-114:english": [
+          "cap.114-english-1",
+          "cap.114-english-2",
+          "cap.114-english-3",
+          "cap.114-english-4",
+          "cap.114-english-5",
+          "cap.114-english-6"
+        ],
+        "cap-yr-114:math": [
+          "cap.114-math-1",
+          "cap.114-math-2",
+          "cap.114-math-3",
+          "cap.114-math-4",
+          "cap.114-math-5",
+          "cap.114-math-6"
+        ],
+        "cap-yr-114:science": [
+          "cap.114-science-1",
+          "cap.114-science-2",
+          "cap.114-science-3",
+          "cap.114-science-4",
+          "cap.114-science-5",
+          "cap.114-science-7"
+        ],
+        "cap-yr-114:social": [
+          "cap.114-social-1",
+          "cap.114-social-2",
+          "cap.114-social-3",
+          "cap.114-social-4",
+          "cap.114-social-5",
+          "cap.114-social-6"
+        ],
+        "cap-yr-114:cap": [
+          "cap.114-chinese-2",
+          "cap.114-chinese-3",
+          "cap.114-english-1",
+          "cap.114-english-2",
+          "cap.114-math-1",
+          "cap.114-math-2",
+          "cap.114-science-1",
+          "cap.114-science-2",
+          "cap.114-social-1",
+          "cap.114-social-2"
         ]
       }
     },
     "cap-yr-115": {
       "guide": {
         "title": "115 年國中教育會考五科全真精選",
-        "concept": "收錄 115 年國中教育會考五科核心試題與官方詳解。",
+        "concept": "收錄 115 年國中教育會考國文、英語、數學、自然、社會五科全真試題與官方詳解。",
         "knowledgePoints": []
       },
       "nodes": {
-        "cap-yr-115:cap": [
+        "cap-yr-115:chinese": [
           "cap.115-chinese-1",
           "cap.115-chinese-2",
           "cap.115-chinese-4",
           "cap.115-chinese-5",
           "cap.115-chinese-6",
-          "cap.115-chinese-7",
-          "cap.115-chinese-8",
-          "cap.115-chinese-9",
-          "cap.115-chinese-10",
-          "cap.115-chinese-11",
-          "cap.115-chinese-13",
-          "cap.115-chinese-14"
+          "cap.115-chinese-7"
+        ],
+        "cap-yr-115:english": [
+          "cap.115-english-1",
+          "cap.115-english-2",
+          "cap.115-english-3",
+          "cap.115-english-4",
+          "cap.115-english-5",
+          "cap.115-english-6"
+        ],
+        "cap-yr-115:math": [
+          "cap.115-math-1",
+          "cap.115-math-2",
+          "cap.115-math-3",
+          "cap.115-math-4",
+          "cap.115-math-5",
+          "cap.115-math-6"
+        ],
+        "cap-yr-115:science": [
+          "cap.115-science-1",
+          "cap.115-science-2",
+          "cap.115-science-3",
+          "cap.115-science-4",
+          "cap.115-science-5",
+          "cap.115-science-6"
+        ],
+        "cap-yr-115:social": [
+          "cap.115-social-1",
+          "cap.115-social-2",
+          "cap.115-social-3",
+          "cap.115-social-4",
+          "cap.115-social-5",
+          "cap.115-social-6"
+        ],
+        "cap-yr-115:cap": [
+          "cap.115-chinese-1",
+          "cap.115-chinese-2",
+          "cap.115-english-1",
+          "cap.115-english-2",
+          "cap.115-math-1",
+          "cap.115-math-2",
+          "cap.115-science-1",
+          "cap.115-science-2",
+          "cap.115-social-1",
+          "cap.115-social-2"
         ]
       }
     }

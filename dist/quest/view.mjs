@@ -603,6 +603,17 @@ function itemView(it, s) {
       <span>${esc(it.prompt)}</span>
       <button class="btn ghost small" data-act="say" data-text="${esc(it.prompt)}" title="朗讀題目">🔊</button>
     </h1>
+    ${it.readingGroupText ? `
+      <div class="reading-group-box" style="margin: 0.75rem 0; padding: 1rem 1.25rem; background: var(--bg-soft, #f8fafc); border-left: 4px solid var(--primary, #6366f1); border-radius: 8px; line-height: 1.7; font-size: 0.95rem;">
+        <div style="font-weight: 700; color: var(--primary, #6366f1); margin-bottom: 0.35rem;">📖 題組閱讀材料：</div>
+        <div>${esc(it.readingGroupText)}</div>
+      </div>
+    ` : ''}
+    ${it.crops && it.crops.length > 0 ? `
+      <div class="crops-wrap" style="text-align: center; margin: 0.75rem 0;">
+        ${it.crops.map(c => `<img src="../${c.src}" alt="題目圖表" style="max-width: 100%; max-height: 380px; object-fit: contain; border-radius: 8px; border: 1px solid var(--border, #e2e8f0); box-shadow: 0 4px 12px rgba(0,0,0,0.06); background: #ffffff;" loading="lazy">`).join('')}
+      </div>
+    ` : ''}
   `;
   let body = '';
 

@@ -111,7 +111,8 @@
         "math-13:mastery": [
           "info.math-13.kp3",
           "q.math-13.pitfall",
-          "cap.110-math-13"
+          "cap.110-math-13",
+          "cap.111-math-16"
         ],
         "math-13:boss": [
           "q.math-13.kp1.def",
@@ -123,7 +124,8 @@
           "cq.math-13-q2",
           "q.math-13.case.check",
           "q.math-13.pitfall",
-          "cap.110-math-13"
+          "cap.110-math-13",
+          "cap.111-math-16"
         ]
       }
     },
@@ -236,7 +238,8 @@
         "math-14:mastery": [
           "info.math-14.kp3",
           "q.math-14.pitfall",
-          "cap.110-math-19"
+          "cap.110-math-19",
+          "cap.111-math-23"
         ],
         "math-14:boss": [
           "q.math-14.kp1.def",
@@ -248,7 +251,8 @@
           "cq.math-14-q2",
           "q.math-14.case.check",
           "q.math-14.pitfall",
-          "cap.110-math-19"
+          "cap.110-math-19",
+          "cap.111-math-23"
         ]
       }
     },
@@ -366,7 +370,8 @@
         "math-15:mastery": [
           "info.math-15.kp3",
           "q.math-15.pitfall",
-          "cap.112-math-3"
+          "cap.112-math-3",
+          "cap.112-math-23"
         ],
         "math-15:boss": [
           "q.math-15.kp1.def",
@@ -378,7 +383,8 @@
           "cq.math-15-q2",
           "q.math-15.case.check",
           "q.math-15.pitfall",
-          "cap.112-math-3"
+          "cap.112-math-3",
+          "cap.112-math-23"
         ]
       }
     },
@@ -491,7 +497,8 @@
         "chinese-4:mastery": [
           "info.chinese-4.kp3",
           "q.chinese-4.pitfall",
-          "cap.111-chinese-1"
+          "cap.111-chinese-1",
+          "cap.111-chinese-10"
         ],
         "chinese-4:boss": [
           "q.chinese-4.kp1.def",
@@ -503,7 +510,8 @@
           "cq.chinese-4-q2",
           "q.chinese-4.case.check",
           "q.chinese-4.pitfall",
-          "cap.111-chinese-1"
+          "cap.111-chinese-1",
+          "cap.111-chinese-10"
         ]
       }
     },
@@ -970,7 +978,8 @@
         "math-22:mastery": [
           "info.math-22.kp3",
           "q.math-22.pitfall",
-          "cap.110-math-26"
+          "cap.110-math-26",
+          "cap.111-math-16"
         ],
         "math-22:boss": [
           "q.math-22.kp1.def",
@@ -982,7 +991,8 @@
           "cq.math-22-q2",
           "q.math-22.case.check",
           "q.math-22.pitfall",
-          "cap.110-math-26"
+          "cap.110-math-26",
+          "cap.111-math-16"
         ]
       }
     },
@@ -1085,7 +1095,8 @@
         "math-23:mastery": [
           "info.math-23.kp3",
           "q.math-23.pitfall",
-          "cap.109-math-5"
+          "cap.109-math-5",
+          "cap.109-math-15"
         ],
         "math-23:boss": [
           "q.math-23.kp1.def",
@@ -1097,7 +1108,8 @@
           "cq.math-23-q2",
           "q.math-23.case.check",
           "q.math-23.pitfall",
-          "cap.109-math-5"
+          "cap.109-math-5",
+          "cap.109-math-15"
         ]
       }
     },
@@ -1210,7 +1222,8 @@
         "math-24:mastery": [
           "info.math-24.kp3",
           "q.math-24.pitfall",
-          "cap.111-math-17"
+          "cap.111-math-17",
+          "cap.112-math-8"
         ],
         "math-24:boss": [
           "q.math-24.kp1.def",
@@ -1222,7 +1235,8 @@
           "cq.math-24-q2",
           "q.math-24.case.check",
           "q.math-24.pitfall",
-          "cap.111-math-17"
+          "cap.111-math-17",
+          "cap.112-math-8"
         ]
       }
     },
@@ -1335,7 +1349,8 @@
         "chinese-14:mastery": [
           "info.chinese-14.kp3",
           "q.chinese-14.pitfall",
-          "cap.111-chinese-8"
+          "cap.111-chinese-8",
+          "cap.111-chinese-13"
         ],
         "chinese-14:boss": [
           "q.chinese-14.kp1.def",
@@ -1347,7 +1362,8 @@
           "cq.chinese-14-q2",
           "q.chinese-14.case.check",
           "q.chinese-14.pitfall",
-          "cap.111-chinese-8"
+          "cap.111-chinese-8",
+          "cap.111-chinese-13"
         ]
       }
     },
@@ -1465,7 +1481,8 @@
         "physics-4:mastery": [
           "info.physics-4.kp3",
           "q.physics-4.pitfall",
-          "cap.109-science-8"
+          "cap.109-science-8",
+          "cap.109-science-15"
         ],
         "physics-4:boss": [
           "q.physics-4.kp1.def",
@@ -1477,7 +1494,8 @@
           "cq.physics-4-q2",
           "q.physics-4.case.check",
           "q.physics-4.pitfall",
-          "cap.109-science-8"
+          "cap.109-science-8",
+          "cap.109-science-15"
         ]
       }
     },
@@ -1589,7 +1607,8 @@
         ],
         "chemistry-3:mastery": [
           "info.chemistry-3.kp3",
-          "q.chemistry-3.pitfall"
+          "q.chemistry-3.pitfall",
+          "cap.110-science-12"
         ],
         "chemistry-3:boss": [
           "q.chemistry-3.kp1.def",
@@ -1600,7 +1619,8 @@
           "build.chemistry-3.case",
           "cq.chemistry-3-q2",
           "q.chemistry-3.case.check",
-          "q.chemistry-3.pitfall"
+          "q.chemistry-3.pitfall",
+          "cap.110-science-12"
         ]
       }
     },
@@ -1708,7 +1728,8 @@
         "chemistry-4:mastery": [
           "info.chemistry-4.kp3",
           "q.chemistry-4.pitfall",
-          "cap.109-science-14"
+          "cap.109-science-14",
+          "cap.109-science-31"
         ],
         "chemistry-4:boss": [
           "q.chemistry-4.kp1.def",
@@ -1720,7 +1741,8 @@
           "cq.chemistry-4-q2",
           "q.chemistry-4.case.check",
           "q.chemistry-4.pitfall",
-          "cap.109-science-14"
+          "cap.109-science-14",
+          "cap.109-science-31"
         ]
       }
     },
@@ -1833,7 +1855,8 @@
         "chemistry-5:mastery": [
           "info.chemistry-5.kp3",
           "q.chemistry-5.pitfall",
-          "cap.111-science-29"
+          "cap.111-science-29",
+          "cap.111-science-41"
         ],
         "chemistry-5:boss": [
           "q.chemistry-5.kp1.def",
@@ -1845,7 +1868,8 @@
           "cq.chemistry-5-q2",
           "q.chemistry-5.case.check",
           "q.chemistry-5.pitfall",
-          "cap.111-science-29"
+          "cap.111-science-29",
+          "cap.111-science-41"
         ]
       }
     },
@@ -1958,7 +1982,8 @@
         "physics-10:mastery": [
           "info.physics-10.kp3",
           "q.physics-10.pitfall",
-          "cap.109-science-37"
+          "cap.109-science-37",
+          "cap.110-science-20"
         ],
         "physics-10:boss": [
           "q.physics-10.kp1.def",
@@ -1970,7 +1995,8 @@
           "cq.physics-10-q2",
           "q.physics-10.case.check",
           "q.physics-10.pitfall",
-          "cap.109-science-37"
+          "cap.109-science-37",
+          "cap.110-science-20"
         ]
       }
     },
@@ -2078,7 +2104,8 @@
         "chemistry-7:mastery": [
           "info.chemistry-7.kp3",
           "q.chemistry-7.pitfall",
-          "cap.109-science-32"
+          "cap.109-science-32",
+          "cap.112-science-3"
         ],
         "chemistry-7:boss": [
           "q.chemistry-7.kp1.def",
@@ -2090,7 +2117,8 @@
           "cq.chemistry-7-q2",
           "q.chemistry-7.case.check",
           "q.chemistry-7.pitfall",
-          "cap.109-science-32"
+          "cap.109-science-32",
+          "cap.112-science-3"
         ]
       }
     },
@@ -2203,7 +2231,8 @@
         "chemistry-8:mastery": [
           "info.chemistry-8.kp3",
           "q.chemistry-8.pitfall",
-          "cap.110-science-5"
+          "cap.110-science-5",
+          "cap.110-science-13"
         ],
         "chemistry-8:boss": [
           "q.chemistry-8.kp1.def",
@@ -2215,7 +2244,8 @@
           "cq.chemistry-8-q2",
           "q.chemistry-8.case.check",
           "q.chemistry-8.pitfall",
-          "cap.110-science-5"
+          "cap.110-science-5",
+          "cap.110-science-13"
         ]
       }
     },
@@ -2450,7 +2480,8 @@
         ],
         "chemistry-10:mastery": [
           "info.chemistry-10.kp3",
-          "q.chemistry-10.pitfall"
+          "q.chemistry-10.pitfall",
+          "cap.111-science-29"
         ],
         "chemistry-10:boss": [
           "q.chemistry-10.kp1.def",
@@ -2461,7 +2492,8 @@
           "build.chemistry-10.case",
           "cq.chemistry-10-q2",
           "q.chemistry-10.case.check",
-          "q.chemistry-10.pitfall"
+          "q.chemistry-10.pitfall",
+          "cap.111-science-29"
         ]
       }
     },
@@ -2831,7 +2863,8 @@
         ],
         "geography-5:mastery": [
           "info.geography-5.kp3",
-          "q.geography-5.pitfall"
+          "q.geography-5.pitfall",
+          "cap.111-social-40"
         ],
         "geography-5:boss": [
           "q.geography-5.kp1.def",
@@ -2842,7 +2875,8 @@
           "build.geography-5.case",
           "cq.geography-5-q2",
           "q.geography-5.case.check",
-          "q.geography-5.pitfall"
+          "q.geography-5.pitfall",
+          "cap.111-social-40"
         ]
       }
     },
@@ -2955,7 +2989,8 @@
         "civics-4:mastery": [
           "info.civics-4.kp3",
           "q.civics-4.pitfall",
-          "cap.109-social-30"
+          "cap.109-social-30",
+          "cap.109-social-42"
         ],
         "civics-4:boss": [
           "q.civics-4.kp1.def",
@@ -2967,7 +3002,8 @@
           "cq.civics-4-q2",
           "q.civics-4.case.check",
           "q.civics-4.pitfall",
-          "cap.109-social-30"
+          "cap.109-social-30",
+          "cap.109-social-42"
         ]
       }
     },
@@ -3085,7 +3121,8 @@
         "history-11:mastery": [
           "info.history-11.kp3",
           "q.history-11.pitfall",
-          "cap.111-social-44"
+          "cap.111-social-44",
+          "cap.111-social-45"
         ],
         "history-11:boss": [
           "q.history-11.kp1.def",
@@ -3097,7 +3134,8 @@
           "cq.history-11-q2",
           "q.history-11.case.check",
           "q.history-11.pitfall",
-          "cap.111-social-44"
+          "cap.111-social-44",
+          "cap.111-social-45"
         ]
       }
     },
@@ -3343,7 +3381,8 @@
         "history-14:mastery": [
           "info.history-14.kp3",
           "q.history-14.pitfall",
-          "cap.113-social-31"
+          "cap.113-social-31",
+          "cap.115-social-31"
         ],
         "history-14:boss": [
           "q.history-14.kp1.def",
@@ -3355,7 +3394,8 @@
           "cq.history-14-q2",
           "q.history-14.case.check",
           "q.history-14.pitfall",
-          "cap.113-social-31"
+          "cap.113-social-31",
+          "cap.115-social-31"
         ]
       }
     },
@@ -3472,7 +3512,8 @@
         ],
         "geography-12:mastery": [
           "info.geography-12.kp3",
-          "q.geography-12.pitfall"
+          "q.geography-12.pitfall",
+          "cap.114-social-49"
         ],
         "geography-12:boss": [
           "q.geography-12.kp1.def",
@@ -3483,7 +3524,8 @@
           "build.geography-12.case",
           "cq.geography-12-q2",
           "q.geography-12.case.check",
-          "q.geography-12.pitfall"
+          "q.geography-12.pitfall",
+          "cap.114-social-49"
         ]
       }
     },

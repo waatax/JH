@@ -20,6 +20,89 @@ fs.mkdirSync(OUT_DIR, { recursive: true });
 // Load CAP Exam Bank
 const capBankPath = path.resolve('dist/cap-bank.json');
 const capBank = JSON.parse(fs.readFileSync(capBankPath, 'utf8'));
+const capGroupMap = new Map((capBank.groups || []).map(g => [g.id, g]));
+
+export function formatCapQuestion(q) {
+  if (!q || !q.options || typeof q.options !== 'object') return null;
+  const optLetters = ['A', 'B', 'C', 'D'].filter(l => q.options[l] !== undefined);
+  if (optLetters.length < 2) return null;
+  const options = optLetters.map(l => String(q.options[l]).trim()).filter(Boolean);
+  if (new Set(options).size !== options.length) return null;
+  const ansText = q.options[q.answer] ? String(q.options[q.answer]).trim() : null;
+  if (!ansText || !options.includes(ansText)) return null;
+
+  const qId = `cap.${q.id}`;
+  const CAP_SUBJ_NAMES = {
+    chinese: '國語文',
+    english: '英語閱讀',
+    listening: '英語聽力',
+    math: '數學',
+    science: '自然科學',
+    social: '社會領域'
+  };
+  const subjName = CAP_SUBJ_NAMES[q.subject] || subjectById[q.subject]?.name || q.subject;
+
+  let promptText = `【${q.year} 年會考 · ${subjName} · 第 ${q.number} 題】`;
+  let readingText = '';
+  const allCrops = [...(q.crops || [])];
+
+  if (q.groupId && capGroupMap.has(q.groupId)) {
+    const g = capGroupMap.get(q.groupId);
+    if (g && g.text) {
+      const stripped = g.text.replace(/^請閱讀以下.*?[：:\n]+/g, '').trim();
+      if (stripped.length > 20 && !/^[\d\s:.,-]+$/.test(stripped)) {
+        readingText = stripped;
+      }
+    }
+    if (g && Array.isArray(g.crops)) {
+      for (const gc of g.crops) {
+        if (!allCrops.some(c => c.src === gc.src)) {
+          allCrops.unshift(gc);
+        }
+      }
+    }
+  }
+
+  if (q.stem && q.stem.trim()) {
+    promptText += q.stem.trim();
+  } else if (readingText) {
+    promptText += `請根據題組閱讀材料，選出最符合第 ${q.number} 題文意或空格的正確選項。`;
+  } else {
+    promptText += `請觀察題圖，選出最符合題意的選項。`;
+  }
+
+  let why = '';
+  if (q.explanation) {
+    const parts = [];
+    if (q.explanation.keyIdea) parts.push(`【解題核心】${q.explanation.keyIdea}`);
+    if (Array.isArray(q.explanation.steps) && q.explanation.steps.length > 0) {
+      parts.push(`【推導步驟】${q.explanation.steps.join(' ')}`);
+    }
+    if (q.explanation.trap) parts.push(`【避坑防線】${q.explanation.trap}`);
+    why = parts.join('\n\n');
+  } else {
+    why = `正確答案為「${ansText}」。`;
+  }
+
+  return {
+    id: qId,
+    kind: 'mastery',
+    type: q.subject === 'listening' ? 'listen' : 'choice',
+    prompt: promptText,
+    readingGroupText: readingText || undefined,
+    options: shuffle(options, qId),
+    answer: ansText,
+    crops: allCrops,
+    hint: q.explanation?.keyIdea || `掌握「${subjName}」核心概念與題目條件`,
+    why,
+    level: 4,
+    unitId: (q.unitIds && q.unitIds[0]) || (q.subject === 'chinese' ? 'chinese-1' : q.subject === 'math' ? 'math-1' : q.subject === 'english' || q.subject === 'listening' ? 'english-1' : q.subject === 'science' ? 'biology-1' : 'history-1'),
+    isCap: true,
+    year: q.year,
+    subject: q.subject,
+    number: q.number
+  };
+}
 
 // Hashing helper for deterministic sampling/shuffling
 const hash = s => {
@@ -433,31 +516,15 @@ function buildUnitNodes(u) {
     if (registered) nodeItemPools.mastery.push(registered);
   }
 
-  // Inject CAP real exam question if available
+  // Inject CAP real exam questions if available (up to 2 per unit)
   if (capList.length > 0) {
-    const capQ = capList[0];
-    const qId = `cap.${capQ.id}`;
-    const optsObj = capQ.options || {};
-    const optLetters = ['A', 'B', 'C', 'D'];
-    const options = optLetters.map(l => optsObj[l]).filter(Boolean);
-    const ansText = optsObj[capQ.answer];
-
-    if (options.length === 4 && ansText) {
-      const registered = registerItem({
-        id: qId,
-        kind: 'mastery',
-        type: 'choice',
-        prompt: `【${capQ.year} 年會考真題 · 第 ${capQ.number} 題】${capQ.stem}`,
-        options: shuffle(options, qId),
-        answer: ansText,
-        crops: capQ.crops || [],
-        hint: capQ.explanation?.keyIdea || `鎖定「${u.title}」核心觀念解題`,
-        why: `【會考詳解】${capQ.explanation?.steps?.join(' ') || ''}。避坑提醒：${capQ.explanation?.trap || ''}`,
-        level: 4,
-        unitId: uid,
-        isCap: true
-      }, `#cap-exam/${capQ.year}/${capQ.subject}/${capQ.number}`);
-      if (registered) nodeItemPools.mastery.push(registered);
+    for (let ci = 0; ci < Math.min(capList.length, 2); ci++) {
+      const capQ = capList[ci];
+      const capItem = formatCapQuestion(capQ);
+      if (capItem) {
+        const registered = registerItem(capItem, `#cap-exam/${capQ.year}/${capQ.subject}/${capQ.number}`);
+        if (registered) nodeItemPools.mastery.push(registered);
+      }
     }
   }
 
@@ -738,39 +805,54 @@ for (const brConfig of BRANCHES_CONFIG) {
       };
     }
   } else if (brConfig.isSpecial === 'cap') {
-    // CAP Special Focus by Year (109~115)
+    // CAP Special Focus by Year (109~115) - Comprehensive 5-Subject Gamified Nodes
     for (const yr of [109, 110, 111, 112, 113, 114, 115]) {
       const yid = `cap-yr-${yr}`;
       const yTitle = `${yr} 年國中教育會考五科全真精選`;
-      const yrQs = capBank.questions.filter(q => q.year === yr && q.options && Object.keys(q.options).length === 4);
-      const pool = yrQs.slice(0, 20).map(q => {
-        const qId = `cap.${q.id}`;
-        const optsObj = q.options;
-        const options = ['A', 'B', 'C', 'D'].map(l => optsObj[l]).filter(Boolean);
-        return registerItem({
-          id: qId,
-          kind: 'mastery',
-          type: 'choice',
-          prompt: `【${q.year} 年會考 · ${subjectById[q.subject]?.name || q.subject} · 第 ${q.number} 題】${q.stem}`,
-          options: shuffle(options, qId),
-          answer: optsObj[q.answer],
-          crops: q.crops || [],
-          hint: q.explanation?.keyIdea || '會考核心破題思考',
-          why: q.explanation?.steps?.join(' ') || '',
-          level: 4,
-          isCap: true
-        }, `#cap-exam/${q.year}/${q.subject}/${q.number}`);
-      }).filter(Boolean);
+      const yrRawQs = capBank.questions.filter(q => q.year === yr);
+
+      const chinesePool = [];
+      const englishPool = [];
+      const mathPool = [];
+      const sciencePool = [];
+      const socialPool = [];
+
+      for (const q of yrRawQs) {
+        const item = formatCapQuestion(q);
+        if (!item) continue;
+        const regId = registerItem(item, `#cap-exam/${q.year}/${q.subject}/${q.number}`);
+        if (!regId) continue;
+
+        if (q.subject === 'chinese') chinesePool.push(regId);
+        else if (q.subject === 'english' || q.subject === 'listening') englishPool.push(regId);
+        else if (q.subject === 'math') mathPool.push(regId);
+        else if (q.subject === 'science') sciencePool.push(regId);
+        else if (q.subject === 'social') socialPool.push(regId);
+      }
+
+      // 5-Subject balanced Boss Challenge Pool (2 questions per subject)
+      const bossPool = [
+        ...chinesePool.slice(0, 2),
+        ...englishPool.slice(0, 2),
+        ...mathPool.slice(0, 2),
+        ...sciencePool.slice(0, 2),
+        ...socialPool.slice(0, 2)
+      ];
 
       const nodes = [
-        { id: `${yid}:cap`, kind: 'boss', title: `${yr} 會考特訓`, icon: '🎯', pool: pool.slice(0, 12), size: Math.min(pool.length, 12), hearts: 3 }
+        { id: `${yid}:chinese`, kind: 'concept', title: `${yr} 國文專精`, icon: '📜', pool: chinesePool.slice(0, 6), size: Math.min(chinesePool.length, 6) },
+        { id: `${yid}:english`, kind: 'rule', title: `${yr} 英語閱聽`, icon: '🔤', pool: englishPool.slice(0, 6), size: Math.min(englishPool.length, 6) },
+        { id: `${yid}:math`, kind: 'reasoning', title: `${yr} 數學思維`, icon: '📐', pool: mathPool.slice(0, 6), size: Math.min(mathPool.length, 6) },
+        { id: `${yid}:science`, kind: 'mastery', title: `${yr} 自然探究`, icon: '🔬', pool: sciencePool.slice(0, 6), size: Math.min(sciencePool.length, 6) },
+        { id: `${yid}:social`, kind: 'mastery', title: `${yr} 社會素養`, icon: '🌍', pool: socialPool.slice(0, 6), size: Math.min(socialPool.length, 6) },
+        { id: `${yid}:cap`, kind: 'boss', title: `${yr} 五科綜合挑戰`, icon: '🎯', pool: bossPool, size: bossPool.length, hearts: 3 }
       ];
 
       brUnits.push({
         id: yid,
         title: yTitle,
         subject: 'cap',
-        subjectName: '會考題庫',
+        subjectName: '會考全真',
         icon: '🎯',
         nodes: nodes.map(n => ({ id: n.id, kind: n.kind, title: n.title, icon: n.icon, size: n.size }))
       });
@@ -778,7 +860,7 @@ for (const brConfig of BRANCHES_CONFIG) {
       brFileUnits[yid] = {
         guide: {
           title: yTitle,
-          concept: `收錄 ${yr} 年國中教育會考五科核心試題與官方詳解。`,
+          concept: `收錄 ${yr} 年國中教育會考國文、英語、數學、自然、社會五科全真試題與官方詳解。`,
           knowledgePoints: []
         },
         nodes: Object.fromEntries(nodes.map(n => [n.id, n.pool]))

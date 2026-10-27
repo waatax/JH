@@ -1,5 +1,5 @@
 // Service Worker for Zhixing Junior Academy (知行學院)
-const CACHE_NAME = 'zhixing-cache-v21'; // upgraded from zhixing-cache-v20, previously zhixing-cache-v19, previously zhixing-cache-v18, originally from zhixing-cache-v17
+const CACHE_NAME = 'zhixing-cache-v22'; // upgraded from zhixing-cache-v21, previously zhixing-cache-v20, previously zhixing-cache-v19, previously zhixing-cache-v18, originally from zhixing-cache-v17
 
 const STATIC_ASSETS = [
   './',

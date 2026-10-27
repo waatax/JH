@@ -106,7 +106,8 @@
         "english-1:mastery": [
           "info.english-1.kp3",
           "q.english-1.pitfall",
-          "cap.109-english-1"
+          "cap.109-english-1",
+          "cap.109-english-4"
         ],
         "english-1:boss": [
           "q.english-1.kp1.def",
@@ -118,7 +119,8 @@
           "cq.english-1-q2",
           "q.english-1.case.check",
           "q.english-1.pitfall",
-          "cap.109-english-1"
+          "cap.109-english-1",
+          "cap.109-english-4"
         ]
       }
     },
@@ -703,7 +705,8 @@
         "english-6:mastery": [
           "info.english-6.kp3",
           "q.english-6.pitfall",
-          "cap.111-english-1"
+          "cap.111-english-1",
+          "cap.111-english-23"
         ],
         "english-6:boss": [
           "q.english-6.kp1.def",
@@ -715,7 +718,8 @@
           "cq.english-6-q2",
           "q.english-6.case.check",
           "q.english-6.pitfall",
-          "cap.111-english-1"
+          "cap.111-english-1",
+          "cap.111-english-23"
         ]
       }
     },
@@ -941,7 +945,8 @@
         "english-8:mastery": [
           "info.english-8.kp3",
           "q.english-8.pitfall",
-          "cap.109-english-2"
+          "cap.109-english-2",
+          "cap.109-english-3"
         ],
         "english-8:boss": [
           "q.english-8.kp1.def",
@@ -953,7 +958,8 @@
           "cq.english-8-q2",
           "q.english-8.case.check",
           "q.english-8.pitfall",
-          "cap.109-english-2"
+          "cap.109-english-2",
+          "cap.109-english-3"
         ]
       }
     },
@@ -1297,7 +1303,8 @@
         "english-11:mastery": [
           "info.english-11.kp3",
           "q.english-11.pitfall",
-          "cap.109-english-8"
+          "cap.109-english-8",
+          "cap.109-english-20"
         ],
         "english-11:boss": [
           "q.english-11.kp1.def",
@@ -1309,7 +1316,8 @@
           "cq.english-11-q2",
           "q.english-11.case.check",
           "q.english-11.pitfall",
-          "cap.109-english-8"
+          "cap.109-english-8",
+          "cap.109-english-20"
         ]
       }
     },
@@ -1417,7 +1425,8 @@
         "english-12:mastery": [
           "info.english-12.kp3",
           "q.english-12.pitfall",
-          "cap.109-english-18"
+          "cap.109-english-18",
+          "cap.109-english-21"
         ],
         "english-12:boss": [
           "q.english-12.kp1.def",
@@ -1429,7 +1438,8 @@
           "cq.english-12-q2",
           "q.english-12.case.check",
           "q.english-12.pitfall",
-          "cap.109-english-18"
+          "cap.109-english-18",
+          "cap.109-english-21"
         ]
       }
     },
@@ -1896,7 +1906,8 @@
         "english-16:mastery": [
           "info.english-16.kp3",
           "q.english-16.pitfall",
-          "cap.111-english-1"
+          "cap.111-english-1",
+          "cap.111-english-23"
         ],
         "english-16:boss": [
           "q.english-16.kp1.def",
@@ -1908,7 +1919,8 @@
           "cq.english-16-q2",
           "q.english-16.case.check",
           "q.english-16.pitfall",
-          "cap.111-english-1"
+          "cap.111-english-1",
+          "cap.111-english-23"
         ]
       }
     }
