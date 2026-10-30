@@ -3,9 +3,59 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
+import { renderCapSourceArchive, renderCapAnalysis } from '../dist/cap-interactive.js';
+import { renderPastpapersTrendGuide } from '../dist/pedagogy-visuals.js';
 import { units, unitById, subjects, subjectById } from '../dist/curriculum.js';
 
 const distDir = path.resolve('dist');
+
+test('英聽分析不把缺少的等級比率當 0，也不顯示不存在的 D 選項',()=>{
+  const html=renderCapAnalysis({answer:'B',optionLetters:'ABC',analysis:{passRate:0.8463,discrimination:0.59,passBySkill:{基礎:0.9848,待加強:0.5551},optionPercent:{A:7.52,B:84.63,C:7.69,D:0.08}}});
+  assert.doesNotMatch(html,/精熟級通過率|\(D\)/);
+  assert.match(html,/84.6%/);
+  assert.match(html,/基礎級通過率/);
+  const zero=renderCapAnalysis({optionLetters:'ABC',analysis:{passRate:0,discrimination:0,passBySkill:{精熟:0}}});
+  assert.match(zero,/精熟級通過率：<strong>0%/);
+});
+
+test('官方早期典藏 66 份檔案格式、雜湊與獨立來源完整', () => {
+  const manifest=JSON.parse(fs.readFileSync(path.join(distDir,'cap-historical-manifest.json'),'utf8'));
+  assert.equal(manifest.files.length,66);
+  const identities=new Set();
+  for(const file of manifest.files) {
+    const identity=`${file.year}-${file.kind}-${file.subject}`;
+    assert.ok(!identities.has(identity),identity);
+    identities.add(identity);
+    assert.equal(file.status,'downloaded',identity);
+    assert.equal(file.questionImportStatus,'not-split');
+    assert.match(file.sourceUrl,/^https:\/\/drive\.google\.com\/file\/d\//);
+    assert.match(file.sourcePage,/^https:\/\/cap\.rcpet\.edu\.tw\/exam\//);
+    const data=fs.readFileSync(path.join(distDir,file.path));
+    assert.equal(data.length,file.bytes,identity);
+    assert.equal(createHash('sha256').update(data).digest('hex'),file.sha256,identity);
+    if(file.path.endsWith('.pdf')) assert.equal(data.subarray(0,5).toString(),'%PDF-');
+    else if(file.path.endsWith('.zip')) assert.equal(data.subarray(0,4).toString('hex'),'504b0304');
+    else assert.ok(data.subarray(0,3).toString()==='ID3' || (data[0]===255 && (data[1]&224)===224));
+  }
+  const html=renderCapSourceArchive(manifest.files);
+  assert.match(html,/102 年試辦會考/);
+  assert.match(html,/105 年新店考場重考/);
+  assert.match(html,/未計入上方互動題庫題數/);
+  for(const file of manifest.files) assert.ok(html.includes(`href="${file.path}"`));
+});
+
+test('年度進度圖從題庫實際計數，不呈現無來源的命題百分比',()=>{
+  const bank=JSON.parse(fs.readFileSync(path.join(distDir,'cap-bank.json'),'utf8'));
+  const html=renderPastpapersTrendGuide(bank);
+  assert.doesNotMatch(html,/32%|68%|英聽停考|佔絕對主導/);
+  assert.match(html,/AI 解析 237 題/);
+  assert.match(html,/AI 解析 48 題/);
+  for(const year of [109,110,111,112,113,114,115]) {
+    const count=bank.questions.filter(q=>q.year===year).length;
+    assert.ok(html.includes(`收錄 ${count} 題`));
+  }
+});
 
 test('CAP Exam Bank - 109~115 (7 Years) Full Ingestion Integrity', () => {
   const bankPath = path.join(distDir, 'cap-bank.json');
@@ -28,7 +78,7 @@ test('CAP Exam Bank - 109~115 (7 Years) Full Ingestion Integrity', () => {
   }
 });
 
-test('CAP Exam Bank - 100% Pedagogical Explanations & 108 Curriculum Alignment', () => {
+test('CAP Exam Bank - Explanation Record Structure & Valid Curriculum References', () => {
   const bank = JSON.parse(fs.readFileSync(path.join(distDir, 'cap-bank.json'), 'utf8'));
   const curriculumUnitIds = new Set(units.map(u => u.id));
   

@@ -1,5 +1,5 @@
 // Service Worker for Zhixing Junior Academy (知行學院)
-const CACHE_NAME = 'zhixing-cache-v22'; // upgraded from zhixing-cache-v21, previously zhixing-cache-v20, previously zhixing-cache-v19, previously zhixing-cache-v18, originally from zhixing-cache-v17
+const CACHE_NAME = 'zhixing-cache-v26';
 
 const STATIC_ASSETS = [
   './',
@@ -32,6 +32,7 @@ const STATIC_ASSETS = [
   './pedagogy-visuals.js',
   './gsat-interactive.js',
   './cap-interactive.js',
+  './cap-explanations.js',
   './cap-scoring.js',
   './cap-notebook.js',
   './engagement.js',
@@ -82,7 +83,8 @@ self.addEventListener('fetch', event => {
 
   // Revalidate lesson modules on navigation/reload, with an offline fallback.
   // Otherwise a new worker can copy stale HTTP-cache responses into its new cache.
-  if (url.origin === self.location.origin && (event.request.mode === 'navigate' || /\.(?:js|mjs|css)$/.test(url.pathname))) {
+  const freshBank = /\/(?:cap-bank|cap-ai-coverage|cap-historical-manifest|cap-manifest)\.json$/.test(url.pathname) || /\/cap-explain\/[^/]+\.json$/.test(url.pathname) || /\/quest\/course\/[^/]+\.json$/.test(url.pathname);
+  if (url.origin === self.location.origin && (event.request.mode === 'navigate' || /\.(?:js|mjs|css)$/.test(url.pathname) || freshBank)) {
     event.respondWith((async () => {
       const cache = await caches.open(CACHE_NAME);
       try {

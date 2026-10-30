@@ -1,942 +1,1657 @@
 {
   "115-chinese-1": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能理解常用字的字義",
+    "keyIdea": "以詞組上下文判斷「即」的字義。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (B) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "「若即若離」描述有時靠近、有時疏遠，即與離形成相反關係。",
+      "因此此處「即」是靠近；其餘多表示立刻或便、就，選 B。"
     ],
     "options": {
-      "A": "「被熱水燙傷之後，應該立「即」用大量冷水沖洗」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「他們兩個人的關係若「即」若離，真令人難以捉摸」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「本活動摸彩中獎者，憑票根「即」可至服務臺領取獎品」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「我不是你的傭人，別以為我可以招之「即」來，揮之即去」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "立即表示馬上，不是靠近。",
+      "B": "即與離相對，表示靠近。",
+      "C": "即可是便可、就可。",
+      "D": "招之即來是召喚便來，表示就。"
     },
-    "trap": "【官方統計考情】全體通過率為 86.1%。錯誤選項中以 (D) 的誤選率最高（達 10.25%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "一字多義須放回完整詞組。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "字詞辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "比較「即」與「離」的對照關係。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 2,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 6
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-2": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能指出作者的觀點",
+    "keyIdea": "椒麻雞融合多地風味，說明鄰近地區料理互相影響。",
     "steps": [
-      "【審題定位】本題考查「議論、論據與批判閱讀」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (A) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "文中明說滇、緬、泰、越、寮位置鄰近，料理彼此滲透，並以椒麻雞的流傳為例。",
+      "最能概括此觀點的是地緣關係造成料理交流，選 A。"
     ],
     "options": {
-      "A": "「料理會因地緣關係而互相影響」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「異鄉遊子對童年吃食特別難忘」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「戰火頻仍地區的料理多半偏辣」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「餐館會依消費者需求調整口味」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "概括地理鄰近與風味互相影響的主旨。",
+      "B": "沒有談童年記憶或鄉愁。",
+      "C": "戰火是流傳背景，不能推成戰區料理普遍偏辣。",
+      "D": "未討論迎合消費需求調味。"
     },
-    "trap": "【官方統計考情】全體通過率為 93.5%，鑑別度達 0.40。多數考生能掌握本題核心觀念。",
+    "trap": "例子中的辣味不能取代全文的交流觀點。",
     "unitIds": [
       "chinese-5"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "先找作者直接說明料理交流原因的句子。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 2,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 7
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-3": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能比較不同文本的內容",
+    "keyIdea": "區分兩文對客觀性的歧見與對解釋多元的共識。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (D) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "資料一認為史學家依好惡剪裁歷史；資料二承認解釋不同，但認為可逐步接近客觀。",
+      "兩者都承認史學家可能提出不同詮釋，只有 D 正確概括共同點。"
     ],
     "options": {
-      "A": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "正確。完全符合題幹核心要求與推導結論。"
+      "A": "資料一明確指出偏見，並非猜測不帶偏見。",
+      "B": "資料二認為客觀性不容懷疑，與選項相反。",
+      "C": "資料一對記載提出質疑，不主張不能懷疑。",
+      "D": "價值裁剪與角度不同，都支持詮釋會有差異。"
     },
-    "trap": "【官方統計考情】全體通過率為 88.8%。錯誤選項中以 (B) 的誤選率最高（達 6.03%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "共同點不必是兩文立場完全一致。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "把「解釋是否不同」與「歷史是否客觀」分開。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 2,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 8
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-4": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能辨別漢字造字原則",
+    "keyIdea": "字形描摹器物外觀，屬象形。",
     "steps": [
-      "【審題定位】本題考查「六書原則與漢字形義流變」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (A) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "資料用器物照片及「象腹交文，三足」說明字形取自鬲的腹部與三足外形。",
+      "依具體物形造字，屬象形，選 A。"
     ],
     "options": {
-      "A": "「象形 二升曰觳。象腹交」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「指事 文，三足。」」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「會意」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「形聲」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "直接描摹器物形狀，符合象形。",
+      "B": "指事用符號指示抽象位置或概念，此處有具體器物。",
+      "C": "未藉兩個意義部件組合新義。",
+      "D": "未指出形旁與聲旁的組合。"
     },
-    "trap": "【官方統計考情】全體通過率為 74.7%。錯誤選項中以 (B) 的誤選率最高（達 11.82%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "文字部件看似多個，不代表就是會意或形聲。",
     "unitIds": [
       "chinese-7"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "注意解說中的「象」與器物外形。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 2,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 9
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-5": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能依語境評斷標點符號使用的適切性",
+    "keyIdea": "後文分項補充說明「自由」，適合破折號。",
     "steps": [
-      "【審題定位】本題考查「標點符號、句型結構與語法邏輯」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (D) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "空格前提出散文重視自由，後方進一步解釋是體例、選材、篇幅與思想表達的自由。",
+      "破折號可引出補充說明，因此選 D。"
     ],
     "options": {
-      "A": "「、」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「？」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「……」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「――」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "頓號用於並列詞語，不能清楚標示前後總說與分說。",
+      "B": "此處無疑問語氣。",
+      "C": "後文是具體列舉說明，不是未盡語意的省略。",
+      "D": "破折號引出對自由的補充解釋。"
     },
-    "trap": "【官方統計考情】全體通過率為 77.7%。錯誤選項中以 (A) 的誤選率最高（達 17.61%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "判斷標點要先看前後句的語意關係。",
     "unitIds": [
       "chinese-8"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "後文是在反問、略去，還是解釋前詞？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 3,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 10
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-6": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能記憶常用字的字形",
+    "keyIdea": "逐一核對成語的固定用字。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (D) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "A 應為「義無反顧」，B 應為「無名小卒」，C 應為「防不勝防」。",
+      "D 的「安然無恙」表示平安沒有受傷，用字與情境都正確，選 D。"
     ],
     "options": {
-      "A": "「看朋友有難，他一無反顧出面幫忙」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「我只是區區一個無名小足，人微言輕」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「各種詐騙手法層出不窮，令人防不慎防」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「早上公車發生擦撞，幸好乘客都安然無恙」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "「一」應改為表示道義的「義」。",
+      "B": "「足」應改為士卒的「卒」。",
+      "C": "「慎」應改為應付得了的「勝」。",
+      "D": "「安然無恙」四字正確，表示乘客平安。"
     },
-    "trap": "【官方統計考情】全體通過率為 54.6%。錯誤選項中以 (A) 的誤選率最高（達 22.74%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "同音字須按成語原義辨別。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "字詞辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "將各成語按語義拆開檢查。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 3,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 11
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-7": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能記憶常用字的字音",
+    "keyIdea": "依詞中慣用字音核對注音。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (C) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "瘡痍的瘡讀 ㄔㄨㄤ，置喙的喙讀 ㄏㄨㄟˋ，孰輕孰重的孰讀 ㄕㄨˊ。",
+      "偕同的偕讀 ㄒㄧㄝˊ，與選項相符，選 C。"
     ],
     "options": {
-      "A": "「海嘯過後，小鎮滿目「瘡」痍：ㄘㄤ」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「此事部長的心意已決，不容他人置「喙」：ㄓㄨㄛˊ」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「電影首映會當晚，導演「偕」同主要演員一起出席：ㄒㄧㄝˊ」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「這兩者「孰」輕孰重，你要考慮清楚，以免將來後悔：ㄕㄡˊ」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "瘡讀 ㄔㄨㄤ，非 ㄘㄤ。",
+      "B": "喙讀 ㄏㄨㄟˋ，非 ㄓㄨㄛˊ。",
+      "C": "偕讀 ㄒㄧㄝˊ，正確。",
+      "D": "孰讀 ㄕㄨˊ，非 ㄕㄡˊ。"
     },
-    "trap": "【官方統計考情】全體通過率為 71.5%。錯誤選項中以 (B) 的誤選率最高（達 11.38%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "形近或常見誤讀不能代替標準讀音。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "字詞辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "把字放回偕同、置喙等完整詞中。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 3,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 12
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-8": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能根據文本推論",
+    "keyIdea": "劇名來自首演時節，而非劇情或展演天數。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (C) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "資料說第十二夜是聖誕節後第十二天的主顯節，該劇供這晚宮廷展演使用而得名。",
+      "因此名稱與主顯節日期有關，選 C。資料還明說劇名與劇情無直接關聯。"
     ],
     "options": {
-      "A": "「旨在陳述耶穌受難一事」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「每年固定連續演出十二天」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「劇名由來與主顯節的日期有關」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「英國宮廷因此劇而有戲劇展演的習俗」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "不能由劇名推成耶穌受難劇情。",
+      "B": "第十二夜是特定一晚，不是連演十二天。",
+      "C": "主顯節的日期與首演場合說明劇名。",
+      "D": "展演習俗在先，該劇為此場合而作，非習俗由該劇造成。"
     },
-    "trap": "【官方統計考情】全體通過率為 74.9%。錯誤選項中以 (D) 的誤選率最高（達 18.93%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "注意原因與結果的先後方向。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出「供此時上演所用，故得名」。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 3,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 13
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-9": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能理解文意",
+    "keyIdea": "以病子與慈父的比喻，讀出作者對書的憐惜與矛盾。",
     "steps": [
-      "【審題定位】本題考查「敘事閱讀與人物推論」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (C) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "作者把受損書比為病子，把焚書時的自己比作生氣的慈父。",
+      "丟下之後又慢慢撫摩，顯示終究捨不得書被燒，選 C。"
     ],
     "options": {
-      "A": "「「心知元氣不可復」指作者時日無多而焚書」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「「恨死擲去不回顧」代表愛書之情至死不渝」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「「徐徐復自撫摩之」表達作者不忍書燒之情」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「「上壽八十能幾何」意指書籍保存有其時限」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "元氣不可復承接病書比喻，非說作者臨終焚書。",
+      "B": "此句是氣憤拋開的動作，不能直接解作至死不渝。",
+      "C": "再撫摩書的動作呈現不忍與憐惜。",
+      "D": "八十年感嘆人的生命有限，非書籍保存期限。"
     },
-    "trap": "【官方統計考情】全體通過率為 60.6%。錯誤選項中以 (B) 的誤選率最高（達 20.31%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "比喻的主體須隨上下句追蹤。",
     "unitIds": [
       "chinese-2",
       "chinese-14"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "比較擲去與復自撫摩的情緒轉折。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 3,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 14
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-10": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能辨別書法字體",
+    "keyIdea": "由拓本中扁平、橫向展開的筆勢辨識隸書。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (D) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "題目已知其中古文、篆書兩類；剩下那一類字體橫畫突出、結體較扁，帶隸書筆勢。",
+      "它不像行草連綿，也不同楷書的方整結構，故選 D。"
     ],
     "options": {
-      "A": "「行書」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「草書」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「楷書」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「隸書  1.古文： 上古的文字。泛指甲骨文、金文、 籀文和戰國時通行於六國的文字」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "拓本剩餘字體不具行書流動、連帶的特徵。",
+      "B": "字形沒有草書大幅省略與連綿。",
+      "C": "楷書多方整，此圖橫向扁展更符合隸書。",
+      "D": "扁平結體與橫畫筆勢符合隸書。"
     },
-    "trap": "【官方統計考情】全體通過率為 69.8%。錯誤選項中以 (A) 的誤選率最高（達 13.96%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "根據圖形特徵作辨識，不僅憑三種字體的名稱猜測。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "留意最下排字的橫畫及扁平比例。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 4,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 15
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-11": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能應用文本",
+    "keyIdea": "寫真式描寫具體、按順序刻畫可觀察的動作。",
     "steps": [
-      "【審題定位】本題考查「說明文、圖表與資訊整合」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (B) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "B 依序寫雙手攀上、兩腳上縮、身體微傾，具體呈現人物動作。",
+      "其餘較偏議論、抒情或多重比喻，不如 B 貼合客觀細描的定義，選 B。"
     ],
     "options": {
-      "A": "「他們明明知道要滴下眉毛上的汗珠，才能撿起田中的麥穗，而為什麼要謝天」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「他用兩手攀著上面，兩腳再向上縮，他肥胖的身子向左微傾，顯出努力的樣子」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「頃刻間這周遭瀰漫了清晨富麗的溫柔，頃刻間你的心懷也分潤了白天誕生的光榮」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「有一些事，卻像夏日的小河、冬天的落葉，像春花，也像秋草，似無所見，又非視 而不見」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "用反問評論勞動與謝天，偏議論。",
+      "B": "動作次序與身體姿態清楚，符合寫真式描寫。",
+      "C": "主觀抒情語彙較強，非主要客觀刻畫。",
+      "D": "連續比喻與抽象感受，非細密具象動作。"
     },
-    "trap": "【官方統計考情】全體通過率為 66.0%。錯誤選項中以 (A) 的誤選率最高（達 14.1%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "文字華美不代表符合指定描寫法。",
     "unitIds": [
       "chinese-4"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出可像鏡頭般逐步觀察的動作。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 4,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 16
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-12": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能應用文本",
+    "keyIdea": "宋代沿用後漢高祖左右橫直、不再上翹的襆頭。",
     "steps": [
-      "【審題定位】本題考查「說明文、圖表與資訊整合」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (D) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "前文列各代變化，最後說後漢高祖把兩腳改為左右橫直、不再上翹，並「迄今不改」。",
+      "作者在宋代，迄今即沿用到宋代；圖 D 兩側平直伸出最符合，選 D。"
     ],
     "options": {
-      "A": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "正確。完全符合題幹核心要求與推導結論。"
+      "A": "兩端折起，與不復上翹不合。",
+      "B": "兩腳向上彎，非橫直。",
+      "C": "兩側向下彎，非左右橫直。",
+      "D": "左右平直伸出，符合最後沿用的樣式。"
     },
-    "trap": "【官方統計考情】全體通過率為 58.3%。錯誤選項中以 (B) 的誤選率最高（達 21%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "年代敘述要追到最後的迄今，不選較早樣式。",
     "unitIds": [
       "chinese-4"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "只把最後一種樣式與四圖比較。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 4,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 17
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-13": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能理解文意",
+    "keyIdea": "辨認文末「雞之搏狸」是作者對高帝的評語。",
     "steps": [
-      "【審題定位】本題考查「敘事閱讀與人物推論」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (A) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "王僧虔以臣中第一、帝中第一避開直接評比；高帝稱讚其善自謀。",
+      "文末作者把高帝挑戰僧虔比為雞鬥狸，說其不自量力，表示高帝書法不如僧虔，選 A。"
     ],
     "options": {
-      "A": "「作者認為高帝書法不如僧虔」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「作者認為子敬書法天下第一」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「子敬覺得高帝的草書缺乏風骨」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「僧虔自認與高帝賭書猶雞之搏狸」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "作者的雞搏狸比喻表明高帝較弱。",
+      "B": "只說高帝師法子敬，未說子敬天下第一。",
+      "C": "稍乏風骨是敘述者的評論，非子敬發言。",
+      "D": "雞搏狸是作者評高帝，不是僧虔的自評。"
     },
-    "trap": "【官方統計考情】全體通過率為 61.8%。錯誤選項中以 (D) 的誤選率最高（達 18.06%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "區分人物對話與作者旁白。",
     "unitIds": [
       "chinese-2",
       "chinese-14"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "先標出文末評論是誰在說。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 4,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 18
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-14": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能理解文意",
+    "keyIdea": "由 10×20 的對照格式辨認面積比例與目標年。",
     "steps": [
-      "【審題定位】本題考查「敘事閱讀與人物推論」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (B) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "10×20 對應 10% 保護面積、2020 年達成；後文採相同命名方式。",
+      "30×30 因此表示陸域與海域保護區面積達 30%，目標年為 2030，選 B。"
     ],
     "options": {
-      "A": "「大會舉行的年分 海洋保護區的面積百分比」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「陸域和海域保護區的面積百分比 預計達成目標的年分」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「預計達成目標的年分 陸域和海域保護區的面積百分比」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「海洋保護區的面積百分比 大會舉行的年分」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "大會在 2022 年，不是 2030，且前後意義不符。",
+      "B": "前者比例、後者目標年，符合前例與後文。",
+      "C": "把前後次序顛倒。",
+      "D": "範圍不只海洋，且後者不是大會舉行年。"
     },
-    "trap": "【官方統計考情】全體通過率為 56.8%。錯誤選項中以 (C) 的誤選率最高（達 25.04%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "不能把 2030 目標年與 2022 開會年混淆。",
     "unitIds": [
       "chinese-2",
       "chinese-14"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先拆解前一個 10×20 範例。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 5,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 19
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-15": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能理解文意",
+    "keyIdea": "社群認同來自共同勞作、傳承及儀式，而非單純耐用。",
     "steps": [
-      "【審題定位】本題考查「敘事閱讀與人物推論」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (A) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "團隊分工建立合作，長幼教學延續技藝，祈福儀式承載共同文化。",
+      "可用 30 年只說成品耐久，與社群凝聚、認同的直接關聯最弱，所以選 A。"
     ],
     "options": {
-      "A": "「成品可以使用至少30年」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「需要團隊分工合作才能完成」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「由年長婦女教導年輕婦女製作」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「年長者會在動工與結束時祈福」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "耐用屬產品物理特性，較難直接說明社群文化作用。",
+      "B": "共同分工能促進合作與凝聚。",
+      "C": "代間教學直接支持文化傳承。",
+      "D": "共同祈福儀式可建立文化認同。"
     },
-    "trap": "【官方統計考情】全體通過率為 56.5%。錯誤選項中以 (C) 的誤選率最高（達 24.68%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "本題問最不可能，須比較理由與指定效果的關聯。",
     "unitIds": [
       "chinese-2",
       "chinese-14"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "將物品耐久與人群互動兩類線索分開。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 5,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 20
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-16": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能依語境評斷稱謂使用的適切性",
+    "keyIdea": "家、愚、小用於自謙；令、賢用於尊稱對方。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (A) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "A 一方稱自己女兒為小女，對方尊稱其女兒為令嬡，稱謂一致且得體。",
+      "B 用家兄問對方兄長、C 用兄弟的賢昆仲稱父子、D 把令堂母親答成家父父親，都不恰當，選 A。"
     ],
     "options": {
-      "A": "正確。完全符合題幹核心要求與推導結論。",
-      "B": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "小女自謙、令嬡尊稱他人女兒，使用正確。",
+      "B": "問對方兄長應用令兄，家兄是自稱己兄。",
+      "C": "父子應稱賢喬梓，賢昆仲是兄弟。",
+      "D": "令堂是對方母親，家父卻是自己的父親，答非所問。"
     },
-    "trap": "【官方統計考情】全體通過率為 51.1%。錯誤選項中以 (D) 的誤選率最高（達 22.74%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "既要判斷敬謙，也要判斷親屬關係。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "每個稱謂都標成「誰的哪位親屬」。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 5,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 21
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-17": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能根據文本推論",
+    "keyIdea": "作者明說寫給鬥蟋蟀賭徒參考，目的具實用性。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (D) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "文中雖肯定《促織經》的跨領域價值，也指出作者不同於歐洲博物學家。",
+      "最後一句限定寫作對象為喜愛鬥蟋蟀的賭徒，最合理用途是提高鬥蟋蟀的致勝機率，選 D。"
     ],
     "options": {
-      "A": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "正確。完全符合題幹核心要求與推導結論。"
+      "A": "出版較早不代表歐洲專書受其啟蒙，缺乏影響證據。",
+      "B": "文中沒有證明它是中國最早的跨領域研究。",
+      "C": "作者明確說不以探索、收集自然的熱情為企圖。",
+      "D": "與提供鬥蟋蟀賭徒實用參考的目的最接近。"
     },
-    "trap": "【官方統計考情】全體通過率為 55.7%。錯誤選項中以 (A) 的誤選率最高（達 17.27%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "時間在先不等於形成啟蒙關係。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "以末句直接交代的寫作對象為重點。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 5,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 22
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-18": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能理解文意",
+    "keyIdea": "高官仍依年齡就座、真誠交流，表明不以身分壓人。",
     "steps": [
-      "【審題定位】本題考查「敘事閱讀與人物推論」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (D) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "子產身為大國宰相，見壺丘子林時仍與弟子依年齡就座，能放下官位。",
+      "文中又稱他以心與人相索，支持超越貴賤、以誠待人，選 D。"
     ],
     "options": {
-      "A": "「求才若渴，四處招募各國的賢士 」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「認為教育乃治國根本，極力興學 1.以年：依年齡就座」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「推行嚴刑峻法，令人民路不拾遺 2.援：採摘」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「跳脫身分貴賤的框架，以誠待人」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "只寫一次拜訪與交流，未說四處招募各國賢士。",
+      "B": "文中沒有極力辦學的政策敘述。",
+      "C": "十八年僅少量刑殺，並非強調嚴刑峻法。",
+      "D": "依年齡就座及以心交流直接支持不拘身分。"
     },
-    "trap": "【官方統計考情】全體通過率為 48.7%。錯誤選項中以 (C) 的誤選率最高（達 22.16%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "不要把良好治績自動補成某種未寫出的政策。",
     "unitIds": [
       "chinese-2",
       "chinese-14"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "注意「能捨之」捨下的是哪種身分。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 6,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 23
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-19": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能依語境評斷詞語使用的適切性",
+    "keyIdea": "依成語本義核對使用情境。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (A) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "胸無點墨表示沒有學識文采，說這種人寫不出文采出眾的作品，前後合理。",
+      "其他三項分別把共同憂喜、情勢危急及容易招疑的處境誤當字面意思，故選 A。"
     ],
     "options": {
-      "A": "「這篇作品文采出眾，「胸無點墨」的人是寫不出來的」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「辛勤工作之餘也要適時休息，才能達到「休戚與共」」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「這兩個友好的國家交流往來頻繁，關係「間不容髮」」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「他嚮往「瓜田李下」的鄉間生活，毫不猶豫搬離市區」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "無學識者難寫出佳作，胸無點墨使用恰當。",
+      "B": "休戚與共是憂喜禍福共同承擔，非工作休息平衡。",
+      "C": "間不容髮形容情勢危急，非親密無間。",
+      "D": "瓜田李下指易引起嫌疑的場合，非田園生活。"
     },
-    "trap": "【官方統計考情】全體通過率為 50.1%。錯誤選項中以 (C) 的誤選率最高（達 20.6%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "成語不能只依字面拆解。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "字詞辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "為每個成語先寫出一句白話定義。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 6,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 24
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-20": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能理解文意",
+    "keyIdea": "小吏嚴守命令，反映縣令管理有效。",
     "steps": [
-      "【審題定位】本題考查「敘事閱讀與人物推論」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (B) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "小吏即使受責逐仍堅持取得回信，蔣堂推知縣令能使部屬不敢怠慢命令。",
+      "後續查證縣令果然能幹，支持治事有方、管理嚴格，選 B。"
     ],
     "options": {
-      "A": "「小吏仗勢欺人，目無尊長」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「縣令治事有方，管理嚴格」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「蔣堂寫信推薦蘇子美為吳中令」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「蘇子美有識人之明而成為名臣」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "小吏是畏命不敢空手返回，非仗勢欺人。",
+      "B": "蔣堂的判斷及後來查證都支持此項。",
+      "C": "蔣堂後來談的是那名縣令，非推薦蘇子美任縣令。",
+      "D": "名臣是該縣令，最初蘇子美反而誤判。"
     },
-    "trap": "【官方統計考情】全體通過率為 42.2%。錯誤選項中以 (D) 的誤選率最高（達 26.2%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "追蹤「令」「之」及最後名臣的指涉。",
     "unitIds": [
       "chinese-2",
       "chinese-14"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "比較蘇子美與蔣堂如何解讀同一行為。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 6,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 25
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-21": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能理解文意",
+    "keyIdea": "鬚者反擊對方臉皮更厚，連硬鬍鬚也鑽不出。",
     "steps": [
-      "【審題定位】本題考查「敘事閱讀與人物推論」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (D) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "無鬚者先嘲笑鬚者臉皮厚，仍被鬍鬚穿出，說鬍鬚最硬。",
+      "鬚者回說對方臉皮更老更厚，連如此硬的鬍鬚也穿不透；以鬚者立場，最硬的是無鬚者的面皮，選 D。"
     ],
     "options": {
-      "A": "「石頭與鋼鐵」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「鬚者的面皮  1.鏨：雕鑿」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「面皮上的髭鬚」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「無鬚者的面皮」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "兩人已用可碎可鑿否定鐵石最硬。",
+      "B": "這是對方嘲弄的對象，非鬚者最後的反擊結論。",
+      "C": "鬚者認為還有臉皮能擋住硬鬍鬚。",
+      "D": "對方無鬚被解成面皮連硬鬚都穿不透。"
     },
-    "trap": "【官方統計考情】全體通過率為 48.9%。錯誤選項中以 (B) 的誤選率最高（達 34.48%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "題目指定鬚者立場，要看最後回嘲。",
     "unitIds": [
       "chinese-2",
       "chinese-14"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "先分清兩個人的發言與攻擊對象。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 6,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 26
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-22": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能理解文意",
+    "keyIdea": "另挖同大水池抵銷開墾所得，構成反諷。",
     "steps": [
-      "【審題定位】本題考查「敘事閱讀與人物推論」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (C) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "原建議排乾梁山泊變田，但被問到雨季大量來水要由何處容納。",
+      "貢父說旁邊另挖同大的池子，看似解決蓄洪，實則把新得農地又挖掉，凸顯原議荒謬，所以眾人發笑，選 C。"
     ],
     "options": {
-      "A": "「為解決梁山泊秋夏淹水的問題，士大夫提議涸梁山泊為田」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「提出詰問的人擔憂梁山泊因泥沙淤積而難以吸納大量洪水」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「貢父表面提出方法，實則藉此凸顯欲涸梁山泊為田的荒謬」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「眾人對貢父的想法不以為然，仍堅持涸梁山泊為田的建議」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "排乾是為農田，不是原為解決淹水。",
+      "B": "詰問關注失去蓄洪空間，未提泥沙淤積。",
+      "C": "表面建議與實際反諷的效果相符。",
+      "D": "眾人發笑、提議者羞慚，並非仍堅持原方案。"
     },
-    "trap": "【官方統計考情】全體通過率為 54.1%。錯誤選項中以 (A) 的誤選率最高（達 18.77%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "不可把反諷字面當成真誠工程建議。",
     "unitIds": [
       "chinese-2",
       "chinese-14"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "比較得到農田與另挖同大池子的土地得失。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 6,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 27
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-23": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能分析文本的寫作手法",
+    "keyIdea": "兩曲都有形色景象與梅花香氣。",
     "steps": [
-      "【審題定位】本題考查「詩歌賞析與寫作組織」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (B) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "甲有寒梅、翠羽、寒塘月與雪的視覺，也有暗香；乙有野橋、珍珠般花景及風送香來。",
+      "兩者均含視覺與嗅覺摹寫，選 B。"
     ],
     "options": {
-      "A": "「甲以雪喻梅，乙以珍珠喻梅」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「二者皆有視覺與嗅覺的摹寫」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「皆於首句提問，次句明確回答」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「二者的視線推移皆是由近而遠 二、題組：（24 ～ 42題）」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "甲的雪是背景，不是明確以雪比梅。",
+      "B": "形色景象與香氣在兩曲都可找到。",
+      "C": "甲次句未直接回答誰知，乙次句也未回答誰栽。",
+      "D": "文中無法共同證成視線都由近至遠。"
     },
-    "trap": "【官方統計考情】全體通過率為 45.9%。錯誤選項中以 (C) 的誤選率最高（達 28.63%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "景物並列不等同都用了相同方向的視線推移。",
     "unitIds": [
       "chinese-6"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "分別圈出看得見與聞得到的詞。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 7,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 28
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-24": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能分析文本的寫作手法",
+    "keyIdea": "切碎的食材與零落、無秩序的生活味道互相呼應。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (B) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "第二節先寫一盤切碎的內臟，後寫咀嚼零零落落、毫無秩序的酸甜苦辣。",
+      "物理上的碎片與生活感受的零散形成語意呼應，選 B。"
     ],
     "options": {
-      "A": "「第一節以「野性」暗示作者正值年少」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「第二節以「切碎」呼應「零零落落」」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「第一節穿插驚嘆語句，表達吃不到的遺憾」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「第二節藉心肝腸肺的描摹，象徵人心險惡」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "野性指夏天嫩芽的風味或生命感，不能推知作者年齡。",
+      "B": "切碎與零零落落同有分散、碎片化的意象。",
+      "C": "驚嘆是在吃到後覺得爽口，並非吃不到的遺憾。",
+      "D": "心肝腸肺先是具體食材，詩中未導向人心險惡。"
     },
-    "trap": "【官方統計考情】全體通過率為 79.9%。錯誤選項中以 (A) 的誤選率最高（達 9.32%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "象徵推論須有後文線索，不能看到內臟就補出陰暗寓意。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "找第二節中與切碎意思相近的詞。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 7,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 30
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-25": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能比較不同文本的內容",
+    "keyIdea": "兩節都由飲食感官經驗引出生活記憶或滋味。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (A) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "麻薏湯的苦鹹甜喚起去年與某人的故事；黑白切的酸甜苦辣連到生活色香味。",
+      "共同點是藉食物描寫生活況味，選 A。"
     ],
     "options": {
-      "A": "「皆透過描寫食物帶出生活的況味」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「皆引用典故連結食物與文化的關係」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「皆各自運用兩種顏色的對比，意象鮮明」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「皆以當季食材入詩，強調美好事物稍縱即逝」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "兩節皆從食物的味覺延伸到生活感受。",
+      "B": "詩中沒有共同引用的歷史典故。",
+      "C": "第一節主要是深綠，不是兩色對比；不能說皆有。",
+      "D": "黑白切未被界定為當季限定，也未共同強調稍縱即逝。"
     },
-    "trap": "【官方統計考情】全體通過率為 85.9%。錯誤選項中以 (C) 的誤選率最高（達 6.48%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "共同點必須兩節都具備。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "比較兩節收尾如何從食物走向人生。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 7,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 31
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-26": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能根據文本推論",
+    "keyIdea": "密閉室內種植可減少風災對作物的直接侵襲。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (B) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "甲文指出垂直農場在室內，以營養液、LED 等控制環境。",
+      "相較露天傳統農作，作物受天然風災直接影響較少，選 B；這不代表整體設施完全不受災害影響。"
     ],
     "options": {
-      "A": "「產量與用水量皆高出土壤種植方式」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「受天然風災直接的影響少於傳統農業」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「亞洲因生產成本較低，更適合垂直農場的發展」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「2050年全球將有七成的人必須吃垂直農場栽種的蔬菜」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "文中說用水僅為傳統十分之一，並非更多。",
+      "B": "由密閉室內種植可合理推論較少直接風害。",
+      "C": "支持原因是人口稠密，不是亞洲成本較低。",
+      "D": "七成人口住城市不等於七成人口必須吃垂直農場作物。"
     },
-    "trap": "【官方統計考情】全體通過率為 71.2%。錯誤選項中以 (C) 的誤選率最高（達 12.73%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "推論須維持原文範圍，避免把較少變成完全不受。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "想想室內與露天作物對強風的暴露差異。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 9,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 33
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-27": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能應用文本",
+    "keyIdea": "回收其他產業剩餘物作飼料，符合資源再利用。",
     "steps": [
-      "【審題定位】本題考查「說明文、圖表與資訊整合」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (B) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "②將修剪草屑、啤酒廠使用過的穀物與麩轉成乳牛飼料，使原剩餘物重新投入生產。",
+      "這最直接符合資源循環再生，選 B；題目比的是圈號後畫線範圍。"
     ],
     "options": {
-      "A": "「①」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「②」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「③」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「④」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "①描述容納牛隻與日產量，未呈現回收再用。",
+      "B": "②將草屑與釀造剩餘物變成飼料。",
+      "C": "③畫線處強調機器代勞，重點是自動化，非該畫線句的資源循環。",
+      "D": "④在地銷售可減運輸，但不直接表示資源再生。"
     },
-    "trap": "【官方統計考情】全體通過率為 87.0%。錯誤選項中以 (C) 的誤選率最高（達 5.37%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "不要把畫線外的排泄物回收句算進③的畫線內容。",
     "unitIds": [
       "chinese-4"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "逐項確認哪一處把剩餘材料變成新的投入。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 9,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 34
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-28": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能理解文意",
+    "keyIdea": "反對工業化圈養的理由是動物生活方式與福利。",
     "steps": [
-      "【審題定位】本題考查「敘事閱讀與人物推論」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (A) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "研究者說乳牛應在自然棲地漫步，移入工業化環境不是應有的對待方式。",
+      "其理由關乎如何善待動物，而非效率、價格或需求，選 A。"
     ],
     "options": {
-      "A": "「友善動物」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「生產效能」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「產品價格」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「消費需求」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "自然漫步與合宜對待都屬動物友善考量。",
+      "B": "這段沒有批評產量或效率。",
+      "C": "沒有以乳品價格說明不適合。",
+      "D": "沒有以消費需求不足為理由。"
     },
-    "trap": "【官方統計考情】全體通過率為 88.0%。錯誤選項中以 (B) 的誤選率最高（達 7.87%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "題目問特定研究者那句話的原因，不是整篇所有限制。",
     "unitIds": [
       "chinese-2",
       "chinese-14"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "只看該引言緊接著的說明。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 9,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 35
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-29": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能比較不同文本的內容",
+    "keyIdea": "共同採城市在地生產且成本高，但沒有共同的大量人力需求。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (D) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "甲在城市樓上種樓下賣，乙在城市港邊生產並在地賣；兩者都縮短運輸、投入高成本。",
+      "乙明說飼料供應、擠奶與清理可由機器代勞，所以不能把大量人力視為共同特點，選 D。"
     ],
     "options": {
-      "A": "「可以減少食物里程」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「設置地點都在城市」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「生產所需的資金成本高」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「運作時需投入大量人力」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "兩者都主打減少食物運送距離。",
+      "B": "兩者皆在城市設置。",
+      "C": "甲生產成本高，乙建置耗鉅資。",
+      "D": "乙採大量自動化，原文未支持兩者都需大量人力。"
     },
-    "trap": "【官方統計考情】全體通過率為 80.6%。錯誤選項中以 (B) 的誤選率最高（達 8.76%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "共同特點需同時有兩篇支持。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "核對乙文如何安排日常作業人力。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 9,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 36
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-30": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能理解文意",
+    "keyIdea": "最高程度的珍貴比喻最直接表達父親重視孩子。",
     "steps": [
-      "【審題定位】本題考查「敘事閱讀與人物推論」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (D) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "父親將孩子比為船貨，並加重為有史以來最珍貴的船貨。",
+      "這直接突顯孩子在父親心中的無比價值，比回憶城市或描述風險更直接，選 D。"
     ],
     "options": {
-      "A": "「①」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「②」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「③」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「④」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "①主要希望孩子記住故鄉。",
+      "B": "②是共同生活的回憶。",
+      "C": "③主要描寫海上脆弱與危險。",
+      "D": "④直接將孩子的珍貴程度推至最高。"
     },
-    "trap": "【官方統計考情】全體通過率為 84.5%。錯誤選項中以 (A) 的誤選率最高（達 5.97%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "題目問最能看出重視，應選最直接的情感表述。",
     "unitIds": [
       "chinese-2",
       "chinese-14"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "比較四句中對孩子價值的明確評語。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 10,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 38
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-31": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能理解文意",
+    "keyIdea": "清真寺、真主與逃離戰火、尋家園共同界定身分。",
     "steps": [
-      "【審題定位】本題考查「敘事閱讀與人物推論」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (C) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "敘事者稱我們穆斯林、祈禱真主，顯示宗教身分；又回顧城市戰亂，準備冒險渡海尋找家園。",
+      "因此父子最可能是來自戰爭地區的穆斯林難民，選 C。"
     ],
     "options": {
-      "A": "「移民到阿拉伯半島的基督徒」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「為戰亂國家運送物資的船員」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「來自戰爭地區的穆斯林難民」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「幫災民遠離砲火摧殘的善人」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "基督徒是鄰居的身分，不是敘事父子。",
+      "B": "船貨是孩子的比喻，並非他們負責運貨。",
+      "C": "信仰與逃難處境兩組線索均吻合。",
+      "D": "他們自身在逃難，非協助他人撤離的工作者。"
     },
-    "trap": "【官方統計考情】全體通過率為 81.4%。錯誤選項中以 (A) 的誤選率最高（達 7.71%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "不能把鄰居宗教或比喻船貨當成真實職業。",
     "unitIds": [
       "chinese-2",
       "chinese-14"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "將宗教線索與生活處境分別整理。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 10,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 39
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-32": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能分析文本的寫作手法",
+    "keyIdea": "繁華童年與遭戰火破壞的現況構成今昔對比。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (A) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "前段回想農舍屋頂、繁華市場、小巷與家人散步，後段轉入炸彈、飢餓與葬禮。",
+      "記憶畫面與今日戰亂並置，呈現霍姆斯今昔變化，選 A。"
     ],
     "options": {
-      "A": "「藉記憶中的畫面，呈現霍姆斯的今昔變化」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「列舉多個國家的名稱，凸顯了航程的漫長」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「以等待日出的場景，傳達近鄉情怯的不安」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「透過海的深廣，比喻母親話中溫暖的力量」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "對照和平生活與戰亂現況，符合文章結構。",
+      "B": "列國名表現同在海灘的難民來源，非航程長短。",
+      "C": "等待日出是出航避難，非接近故鄉的不安。",
+      "D": "海的冷漠表現危險，並非比喻母親話語的溫暖。"
     },
-    "trap": "【官方統計考情】全體通過率為 50.9%。錯誤選項中以 (C) 的誤選率最高（達 28.87%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "同一意象的情感作用需依作者實際用語判斷。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "標出文章從回憶轉入戰亂的地方。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 10,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 40
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-33": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能理解文意",
+    "keyIdea": "定位翰林供奉的薪資與任務資訊。",
     "steps": [
-      "【審題定位】本題考查「敘事閱讀與人物推論」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (C) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "末段明說翰林供奉薪水參照八品京官，且大都不兼職。",
+      "單獨辦公主要描述翰林學士，供奉甚至可能協助處理奏章，所以選 C。"
     ],
     "options": {
-      "A": "「可獨立辦公」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「有很多兼職收入」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「薪水比照八品京官」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「不能幫皇帝處理奏章」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "文中把單獨辦公給翰林學士。",
+      "B": "供奉大都不兼職，不能說有很多兼職收入。",
+      "C": "直接符合末段薪水參照八品京官。",
+      "D": "文中說供奉甚至幫皇帝處理奏章。"
     },
-    "trap": "【官方統計考情】全體通過率為 82.7%。錯誤選項中以 (A) 的誤選率最高（達 8.1%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "三種翰林資訊容易互換，需逐欄對照。",
     "unitIds": [
       "chinese-2",
       "chinese-14"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "把供奉、學士的工作與薪水分開列出。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 11,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 42
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-34": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能根據文本推論",
+    "keyIdea": "學士從供奉中再選出，除了文筆還通曉政治。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (B) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "翰林學士被描述為供奉裡的佼佼者，不光文筆一流，還通曉政治。",
+      "因此其政務能力優於一般供奉最符合文意，選 B。"
     ],
     "options": {
-      "A": "「尚書和侍郎通常也兼任翰林供奉」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「翰林學士處理政務的能力優於翰林供奉」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「翰林待詔是唐玄宗重要的行政幕僚之一」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「翰林待詔與翰林學士的差別在專門品級的高低」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "文中是學士常兼任尚書侍郎，不能倒推尚書常兼供奉。",
+      "B": "通曉政治與再選拔支持政務能力較佳。",
+      "C": "待詔主要陪皇帝娛樂，非重要行政幕僚的概括。",
+      "D": "三者都無專門品級，差別不在專屬品級。"
     },
-    "trap": "【官方統計考情】全體通過率為 77.3%。錯誤選項中以 (C) 的誤選率最高（達 10.36%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "「學士常兼尚書」不能顛倒成「尚書通常兼供奉」。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出學士相較供奉增加的能力條件。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 11,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 43
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-35": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能理解文意",
+    "keyIdea": "分清禮數起源、每局投箭數與三局兩勝。",
     "steps": [
-      "【審題定位】本題考查「敘事閱讀與人物推論」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (C) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "規則說每人四枝箭，四箭投完計分宣告該局勝負。",
+      "比賽以三局兩勝定贏家，並非加總三局分數；起初重禮而非娛樂競技，所以選 C。"
     ],
     "options": {
-      "A": "「主人要讓分給客人」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「由先秦的娛樂競技演變而來」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「參賽者各以四箭算一局勝負」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「司正以三局分數的總和判定贏家」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "彼此請讓指禮貌，不是明定讓分。",
+      "B": "先秦原重禮數，後來才普及為娛樂。",
+      "C": "每人四箭構成一局，符合規則。",
+      "D": "最後採三局兩勝，非三局分數相加。"
     },
-    "trap": "【官方統計考情】全體通過率為 70.8%。錯誤選項中以 (D) 的誤選率最高（達 16.89%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "禮讓與讓分、局勝與總分是不同概念。",
     "unitIds": [
       "chinese-2",
       "chinese-14"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "依規則分別找一局及整場的結束條件。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 12,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 45
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-36": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能應用文本",
+    "keyIdea": "按有初、連中、散箭、有終逐箭計分。",
     "steps": [
-      "【審題定位】本題考查「說明文、圖表與資訊整合」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (C) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "第一局客人 ○中狀況為未中、中、未中、中，得 1＋1＝2；主人中、未中、中、未中，得 10＋1＝11，主人勝。",
+      "第二局客人首箭中得 10，主人第 2、3 箭連中得 1＋5＝6，客人勝。第三局客人前三不中、末箭中得 15，主人僅首箭中得 10，客人再勝。",
+      "所以第三局客人勝，最終也是客人以兩局獲勝，選 C。"
     ],
     "options": {
-      "A": "「第一局客人勝」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「第二局主人勝」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「第三局客人勝」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「最終贏家是主人」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "第一局主人 11 分大於客人 2 分。",
+      "B": "第二局客人 10 分大於主人 6 分。",
+      "C": "第三局客人有終 15 分勝主人 10 分。",
+      "D": "客人拿第二、三局，主人不是最終贏家。"
     },
-    "trap": "【官方統計考情】全體通過率為 79.3%。錯誤選項中以 (B) 的誤選率最高（達 8.77%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "最後一箭中只有在前三箭全不中時才算有終 15 分。",
     "unitIds": [
       "chinese-4"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "每一箭都先判定前一箭是否投中。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 12,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 46
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-37": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能理解文意",
+    "keyIdea": "外來螞蟻破壞舉尾蟻與金合歡的互利關係。",
     "steps": [
-      "【審題定位】本題考查「敘事閱讀與人物推論」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (C) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "大頭家蟻殺死舉尾蟻後，金合歡失去會攻擊大象的保護者。",
+      "研究指出無舉尾蟻的樹被大象破壞速度快 5～7 倍，所以金合歡更易受大象破壞，選 C。"
     ],
     "options": {
-      "A": "「獅子數量減少」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「斑馬易受獅子攻擊」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「金合歡易受大象破壞」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「舉尾蟻不再攻擊大象」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "文中說獅子數量保持穩定。",
+      "B": "掩蔽物減少後斑馬反而較不易被伏擊。",
+      "C": "失去舉尾蟻保護的樹遭大象破壞更快。",
+      "D": "問題是舉尾蟻被殺，不是其存在時改為不攻擊大象。"
     },
-    "trap": "【官方統計考情】全體通過率為 80.4%。錯誤選項中以 (B) 的誤選率最高（達 9.86%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "生物數量變少與行為改變要分開。",
     "unitIds": [
       "chinese-2",
       "chinese-14"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "依外來蟻→舉尾蟻→樹→大象的關係追蹤。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 13,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 48
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-38": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能根據文本推論",
+    "keyIdea": "研究沒有設置與未設置保護區的比較。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (A) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "資料支持外來種衝擊、互利關係破壞的連鎖效應，也呈現獅子轉獵水牛的調整。",
+      "但整個研究在保護區內進行，未對照保護區外，也未測設置前後成效，不能據此證明設保護區維護原始生態，選 A。"
     ],
     "options": {
-      "A": "「設置保護區有助於維護自然原始生態」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「外來物種可能會對本地生態造成衝擊」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「面對環境的變遷，生命自會找到出路」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「破壞生物間的互利關係恐有連鎖反應」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "缺乏有無保護區的對照，超出研究證據。",
+      "B": "外來蟻改變原生蟻、樹與獵食關係，支持此項。",
+      "C": "獅子轉向水牛並維持數量，可呼應適應調整。",
+      "D": "蟻樹互利破壞後連到植被與獅子獵食，支持連鎖反應。"
     },
-    "trap": "【官方統計考情】全體通過率為 73.3%。錯誤選項中以 (C) 的誤選率最高（達 14.58%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "研究地點是保護區，不代表研究了保護區政策效果。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "檢查每個結論是否有對應的比較資料。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 13,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 49
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-39": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能理解文言文中字詞的詞性",
+    "keyIdea": "「客荔城」的客作寄居動詞。",
     "steps": [
-      "【審題定位】本題考查「文言文的省略與虛字」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (C) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "「從余客荔城」是跟隨我寄居荔城，客在句中表示寄居的動作。",
+      "至忠的至是程度副詞，若是你，志余過的過是過失名詞，因此選 C。"
     ],
     "options": {
-      "A": "「「至」忠」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「弗類「若」不孝也」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「嘗從余「客」荔城」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「傳之亦所以志余「過」也」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "至修飾忠，表示極、非常，為程度副詞。",
+      "B": "若在這裡指你，是代名詞。",
+      "C": "客表示寄居，作動詞使用。",
+      "D": "余過是我的過失，過作名詞。"
     },
-    "trap": "【官方統計考情】全體通過率為 51.5%。錯誤選項中以 (D) 的誤選率最高（達 30.08%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "字的常見詞性不等於句中實際詞性。",
     "unitIds": [
       "chinese-3"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "把各片語先翻成白話。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 14,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 51
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-40": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能理解文意",
+    "keyIdea": "「將從余，余止之」表示想跟隨但遭主人制止。",
     "steps": [
-      "【審題定位】本題考查「敘事閱讀與人物推論」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (C) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "主人要到杭城時，遂哭著想跟去，主人阻止他；後來主人由家書得知遂病逝。",
+      "這表明遂最終留下，符合 C。祭拜對象是主母，並非生母。"
     ],
     "options": {
-      "A": "「生母過世後，託人購買湯餅祭拜表達孝心」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「提醒轎夫選擇平坦的道路，以免自己受傷」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「雖想跟從主人前去杭城，最終仍聽命留下」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「流落南方不幸染疫，死後輾轉歸葬於海山」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "逝者是主人之妻劉孺人，不是遂生母；他自行買湯餅。",
+      "B": "遂叮囑不要摔碎主人轎中物，非只怕自己受傷。",
+      "C": "想跟隨卻被制止，最終聽命留在原處。",
+      "D": "文中未寫死後歸葬的安排。"
     },
-    "trap": "【官方統計考情】全體通過率為 41.5%。錯誤選項中以 (A) 的誤選率最高（達 20.91%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "主母與生母、記載與推測必須區分。",
     "unitIds": [
       "chinese-2",
       "chinese-14"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "抓住余止之及後得家書的前後關係。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 14,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 52
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-41": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能理解句意",
+    "keyIdea": "「見食相告」描述雞發現食物便招呼同伴。",
     "steps": [
-      "【審題定位】本題考查「字詞、語境與修辭」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (B) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "田饒把雞的五種表現分別比作文武勇仁信，其中看見食物互相通知是仁。",
+      "所以 B 解釋正確；不見察是未被了解，一舉千里是飛行，去之燕是離魯到燕。"
     ],
     "options": {
-      "A": "「田饒事魯哀公，而「不見察」：不懂得自我反省」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「「見食相告」者，仁也：看到食物就通知夥伴」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「夫黃鵠「一舉千里」：高踞樹頂，眼界開闊」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「「遂去之燕」，燕以為相：離開了燕國」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "見是被動用法，指未被君主了解，非不反省。",
+      "B": "見食是看見食物，相告是通知夥伴。",
+      "C": "一舉千里指一飛可達千里，非站樹頂遠望。",
+      "D": "去是離開魯君，之燕是前往燕國，非離開燕國。"
     },
-    "trap": "【官方統計考情】全體通過率為 68.3%。錯誤選項中以 (C) 的誤選率最高（達 10.81%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "見有看見與被動兩種用法，須依句法判斷。",
     "unitIds": [
       "chinese-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "將之燕的之當作前往來理解。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 15,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 54
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-chinese-42": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能理解文意",
+    "keyIdea": "近者有德卻被輕視，遠者無德卻受珍重。",
     "steps": [
-      "【審題定位】本題考查「敘事閱讀與人物推論」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【文意句法辨析】細讀引文篇章結構，圈選關鍵字眼與核心文意論點。",
-      "【文本對照】比對各選項論述，選項 (B) 忠實呈現原文的主旨思想與脈絡，無曲解或穿鑿附會。"
+      "田饒以近處的雞有五德卻被烹食、遠來的黃鵠無五德卻受珍視，比喻哀公重遠輕近。",
+      "這與「遠來的和尚會念經」所諷刺的崇遠輕近最相近，選 B。"
     ],
     "options": {
-      "A": "「肥水不落外人田」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「遠來的和尚會念經」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「不求有功，但求無過」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「內舉不避親，外舉不避仇」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "肥水不落外人田偏向照顧自己人，方向相反。",
+      "B": "重視遠來者、忽略身旁人才，與寓意相符。",
+      "C": "不求功但求無過是保守行事，非用人遠近偏見。",
+      "D": "內外舉薦不避親仇強調公正，非本文的偏見。"
     },
-    "trap": "【官方統計考情】全體通過率為 35.4%。錯誤選項中以 (D) 的誤選率最高（達 24.17%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "重點是用人的遠近偏見，不是雞或鳥真的更有價值。",
     "unitIds": [
       "chinese-2",
       "chinese-14"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "比較雞與黃鵠受待遇不同的真正理由。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-chinese.pdf",
+      "page": 15,
+      "sourceSha256": "35135cc2e3ed5f8dbf25760790217aa19a9e6eec8434753290a8de7e588c7959",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-chinese.pdf",
+        "page": 55
+      },
+      "analysisSourceSha256": "e2ca493eecfe74da2f109acda2835f7b6466eb7606ecae9fab42a04c398a7392",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   }
 }

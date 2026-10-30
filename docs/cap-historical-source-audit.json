@@ -1,0 +1,416 @@
+{
+  "checkedAt": "2026-10-28",
+  "files": 66,
+  "pdfPages": 709,
+  "note": "檔案雜湊、PDF 頁物件及內容串流、ZIP CRC、MP3 檔頭檢查；不代表已逐題閱讀或聆聽。",
+  "results": [
+    {
+      "path": "downloads/cap/108-answers.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 2
+    },
+    {
+      "path": "downloads/cap/108-notes.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 22
+    },
+    {
+      "path": "downloads/cap/108-writing.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 4
+    },
+    {
+      "path": "downloads/cap/108-chinese.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/108-english.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/108-listening.zip",
+      "format": "zip",
+      "valid": true,
+      "entries": 28,
+      "audioEntries": 27,
+      "pdfEntries": 1
+    },
+    {
+      "path": "downloads/cap/108-math.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 13
+    },
+    {
+      "path": "downloads/cap/108-social.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 15
+    },
+    {
+      "path": "downloads/cap/108-science.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 15
+    },
+    {
+      "path": "downloads/cap/107-answers.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 2
+    },
+    {
+      "path": "downloads/cap/107-notes.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 22
+    },
+    {
+      "path": "downloads/cap/107-writing.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 4
+    },
+    {
+      "path": "downloads/cap/107-chinese.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/107-english.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/107-listening.zip",
+      "format": "zip",
+      "valid": true,
+      "entries": 28,
+      "audioEntries": 27,
+      "pdfEntries": 1
+    },
+    {
+      "path": "downloads/cap/107-math.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 12
+    },
+    {
+      "path": "downloads/cap/107-social.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 15
+    },
+    {
+      "path": "downloads/cap/107-science.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 15
+    },
+    {
+      "path": "downloads/cap/106-answers.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 2
+    },
+    {
+      "path": "downloads/cap/106-notes.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 22
+    },
+    {
+      "path": "downloads/cap/106-writing.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 4
+    },
+    {
+      "path": "downloads/cap/106-chinese.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/106-english.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/106-listening.zip",
+      "format": "zip",
+      "valid": true,
+      "entries": 28,
+      "audioEntries": 27,
+      "pdfEntries": 1
+    },
+    {
+      "path": "downloads/cap/106-math.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 11
+    },
+    {
+      "path": "downloads/cap/106-social.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/106-science.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/105-answers.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 2
+    },
+    {
+      "path": "downloads/cap/105-notes.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 21
+    },
+    {
+      "path": "downloads/cap/105-writing.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 4
+    },
+    {
+      "path": "downloads/cap/105-chinese.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/105-english.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/105-listening.zip",
+      "format": "zip",
+      "valid": true,
+      "entries": 2,
+      "audioEntries": 0,
+      "pdfEntries": 1
+    },
+    {
+      "path": "downloads/cap/105-math.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 11
+    },
+    {
+      "path": "downloads/cap/105-social.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/105-science.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/104-answers.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 2
+    },
+    {
+      "path": "downloads/cap/104-notes.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 22
+    },
+    {
+      "path": "downloads/cap/104-writing.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 4
+    },
+    {
+      "path": "downloads/cap/104-chinese.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/104-english.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/104-listening.zip",
+      "format": "zip",
+      "valid": true,
+      "entries": 2,
+      "audioEntries": 0,
+      "pdfEntries": 1
+    },
+    {
+      "path": "downloads/cap/104-math.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 11
+    },
+    {
+      "path": "downloads/cap/104-social.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/104-science.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/103-answers.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 2
+    },
+    {
+      "path": "downloads/cap/103-notes.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 22
+    },
+    {
+      "path": "downloads/cap/103-writing.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 4
+    },
+    {
+      "path": "downloads/cap/103-chinese.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/103-english.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 20
+    },
+    {
+      "path": "downloads/cap/103-listening.zip",
+      "format": "zip",
+      "valid": true,
+      "entries": 27,
+      "audioEntries": 27,
+      "pdfEntries": 0
+    },
+    {
+      "path": "downloads/cap/103-math.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 11
+    },
+    {
+      "path": "downloads/cap/103-social.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/103-science.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/102-answers.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 2
+    },
+    {
+      "path": "downloads/cap/102-notes.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 24
+    },
+    {
+      "path": "downloads/cap/102-writing.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 4
+    },
+    {
+      "path": "downloads/cap/102-chinese.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/102-english.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 19
+    },
+    {
+      "path": "downloads/cap/102-listening.mp3",
+      "format": "mp3",
+      "valid": true,
+      "check": "MPEG signature and SHA-256; playback not audited"
+    },
+    {
+      "path": "downloads/cap/102-math.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 11
+    },
+    {
+      "path": "downloads/cap/102-social.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/102-science.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/105-xindian-retest-answers.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 1
+    },
+    {
+      "path": "downloads/cap/105-xindian-retest-chinese.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 14
+    },
+    {
+      "path": "downloads/cap/105-xindian-retest-math.pdf",
+      "format": "pdf",
+      "valid": true,
+      "pages": 10
+    }
+  ]
+}

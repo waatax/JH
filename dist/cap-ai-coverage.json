@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-10-28",
+  "officialIndex": "https://cap.rcpet.edu.tw/examination.html",
+  "total": 1674,
+  "aiDerived": 285,
+  "pending": 1389,
+  "note": "AI 推導已核對答案欄位；此檢查不等同學科專家審查。非選題為 AI 參考解法及自我檢核。",
+  "papers": [
+    {
+      "paper": "114-listening",
+      "aiDerived": 21,
+      "total": 21
+    },
+    {
+      "paper": "114-math",
+      "aiDerived": 27,
+      "total": 27
+    },
+    {
+      "paper": "115-chinese",
+      "aiDerived": 42,
+      "total": 42
+    },
+    {
+      "paper": "115-english",
+      "aiDerived": 43,
+      "total": 43
+    },
+    {
+      "paper": "115-listening",
+      "aiDerived": 21,
+      "total": 21
+    },
+    {
+      "paper": "115-math",
+      "aiDerived": 27,
+      "total": 27
+    },
+    {
+      "paper": "115-science",
+      "aiDerived": 50,
+      "total": 50
+    },
+    {
+      "paper": "115-social",
+      "aiDerived": 54,
+      "total": 54
+    }
+  ]
+}

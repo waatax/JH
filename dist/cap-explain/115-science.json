@@ -1,1113 +1,1966 @@
 {
   "115-science-1": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能知道上皿天平的歸零方法",
+    "keyIdea": "指針偏左時，減少左側校準重物的力矩。",
     "steps": [
-      "【審題定位】本題考查「測量、密度與實驗變因」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (A) 符合科學客觀事實與學科定律。"
+      "空盤指針偏左表示左側力矩較大，歸零需調整天平本身的平衡。",
+      "把左側校準螺絲向內旋入可縮短左側力臂、減少力矩，使指針回到中央，選 A。"
     ],
     "options": {
-      "A": "「將左邊的校準螺絲向內旋入」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「將兩端的校準螺絲均向內旋緊」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「在左邊的秤盤上放上一張秤量紙」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「使用砝碼夾將指針撥往中央的刻度」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "左側螺絲向內可減少左側力矩。",
+      "B": "兩邊同時旋緊不是針對左右差異作調整。",
+      "C": "左盤增加紙張會增加左側負載，使偏差更大。",
+      "D": "撥動指針沒有改變不平衡原因，也可能損壞儀器。"
     },
-    "trap": "【官方統計考情】全體通過率為 80.3%。錯誤選項中以 (B) 的誤選率最高（達 10.8%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "歸零要調整校準螺絲，不能靠外力把指針暫時移到中央。",
     "unitIds": [
       "physics-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "想想哪個動作會減少偏重側的力矩。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 2,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 7
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-2": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能知道金屬元素的性質",
+    "keyIdea": "導電、導熱與延展性是金屬的典型性質。",
     "steps": [
-      "【審題定位】本題考查「原子結構與週期表」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (C) 符合科學客觀事實與學科定律。"
+      "能拉成細絲、製成箔片，顯示延性與展性；作電纜顯示導電性。",
+      "這組特徵符合金屬元素。它在自然界常以化合物存在，不代表冶煉後的它本身是化合物，選 C。"
     ],
     "options": {
-      "A": "「化合物」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「聚合物」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「金屬元素」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「非金屬元素」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "文中說它與其他元素結合才成化合物，並非它本身即化合物。",
+      "B": "聚合物不能概括此處金屬導電、延展及冶煉特徵。",
+      "C": "金屬元素最符合全部物性與用途。",
+      "D": "一般非金屬缺乏此組導電性及延展性。"
     },
-    "trap": "【官方統計考情】全體通過率為 86.8%。錯誤選項中以 (B) 的誤選率最高（達 5.45%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "區分元素本身與含有該元素的天然化合物。",
     "unitIds": [
       "chemistry-2"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "綜合電線、細絲與箔片三個線索。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 2,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 8
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-3": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能知道週期表中同族元素具有相似的化學性質",
+    "keyIdea": "同族元素具有相似化學性質，鈍氣通常以單原子存在。",
     "steps": [
-      "【審題定位】本題考查「原子結構與週期表」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (B) 符合科學客觀事實與學科定律。"
+      "He、Ne、Ar 同屬第 18 族，化學性質相似，通常不易與其他物質反應。",
+      "物理性質如密度、沸點仍有差異；在室溫下為單原子氣體，因此選 B。"
     ],
     "options": {
-      "A": "「熔點均高於室溫」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「有相似的化學性質」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「有相似的物理性質」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「均由雙原子所組成」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "室溫為氣體，熔點遠低於室溫。",
+      "B": "同族元素具有相似化學性質。",
+      "C": "同族分類主要依化學性質，並非物理性質皆相似。",
+      "D": "鈍氣通常以單原子存在，不是雙原子分子。"
     },
-    "trap": "【官方統計考情】全體通過率為 74.0%。錯誤選項中以 (C) 的誤選率最高（達 13.78%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "同族不代表所有物理量都相同。",
     "unitIds": [
       "chemistry-2"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "想想週期表同一族最主要的共同點。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 2,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 9
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-4": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能應用資訊，了解地貌改變的結果與原因",
+    "keyIdea": "以照片中的海陸方向比較各年海岸線。",
     "steps": [
-      "【審題定位】本題考查「水循環、海洋與地形」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (B) 符合科學客觀事實與學科定律。"
+      "圖中海在左下、陸地在右上；2018 年實際海岸線位於 2017 年虛線的海側。",
+      "所以 2017 到 2018 年海岸向海擴張，選 B。各年線位不同，不能說長期侵蝕沉積相等或一直侵蝕較強。"
     ],
     "options": {
-      "A": "「2015至2016年，此段海岸線大致往陸地 方向退縮」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「2017至2018年，此段海岸線大致往海 圖(一) 的方向擴張」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「從2015年開始，海岸線的沉積與侵蝕速率大致相等」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「從2015年開始，對海岸線的侵蝕作用比沉積作用大」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "2015 到 2016 年線位向海移，並非向陸退縮。",
+      "B": "2018 線在 2017 線的海側，支持向海擴張。",
+      "C": "線位明顯變動，不能由圖認為兩速率相等。",
+      "D": "圖示向海擴張，未支持侵蝕持續大於沉積。"
     },
-    "trap": "【官方統計考情】全體通過率為 82.3%。錯誤選項中以 (D) 的誤選率最高（達 7.5%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "先辨識哪一側是海，不能只比較紙面上下。",
     "unitIds": [
       "earth-2"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "用 2018 年照片底圖定位海與陸。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 2,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 10
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-5": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能應用反射定律",
+    "keyIdea": "依入射角等於反射角，沿方格畫出反射路徑。",
     "steps": [
-      "【審題定位】本題考查「光的反射、折射與成像」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (C) 符合科學客觀事實與學科定律。"
+      "以左側鏡面為 x＝0、底線為 y＝0，每格一單位，T＝(4,0)、R＝(0,2)，上方牆壁在 y＝5，延伸至 x＝5。",
+      "T→R 的入射方向為向左 4、向上 2；反射後變成向右 4、向上 2，到 y＝5 時位在 x＝6，已超過牆壁右端，選 C。",
+      "其餘 S→Q、S→P、T→P 的反射線與 y＝5 分別交於 x＝2、0.75、1，均落在牆壁範圍。"
     ],
     "options": {
-      "A": "「S → Q」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「S → P」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「T → R」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「T → P」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "S→Q 的反射線會在牆壁範圍內相交。",
+      "B": "S→P 反射後很快到上方牆壁。",
+      "C": "T→R 反射後在到達牆面高度前已越過右端。",
+      "D": "T→P 的反射線仍落在牆壁範圍。"
     },
-    "trap": "【官方統計考情】全體通過率為 76.2%。錯誤選項中以 (D) 的誤選率最高（達 11.32%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "牆壁長度有限；反射線通過牆壁所在直線，不代表碰到實際牆面。",
     "unitIds": [
       "physics-3",
       "physics-14"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "將反射光的水平分量反向，垂直分量保持向上。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 2,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 11
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-6": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能利用比例尺判斷物體實際尺寸",
+    "keyIdea": "用比例尺估算灰斑大小，再與構造尺度比較。",
     "steps": [
-      "【審題定位】本題考查「細胞與顯微鏡」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (D) 符合科學客觀事實與學科定律。"
+      "顯微圖比例尺是 20 μm，灰斑大小約為數十微米，與 10～30 μm 的細胞尺度接近。",
+      "血紅素蛋白與病毒是奈米尺度，粒線體約 0.5～1 μm，都明顯太小，所以選 D。"
     ],
     "options": {
-      "A": "「一個血紅素蛋白」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「一個病毒」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「一個粒線體」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「一個細胞」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "約 5 nm，遠小於灰斑尺度。",
+      "B": "約 20～300 nm，也遠小於數十微米。",
+      "C": "約 0.5～1 μm，仍比灰斑小很多。",
+      "D": "10～30 μm 與比例尺估計相符。"
     },
-    "trap": "【官方統計考情】全體通過率為 87.2%，鑑別度達 0.40。多數考生能掌握本題核心觀念。",
+    "trap": "1 μm＝1000 nm，不可忽略單位差。",
     "unitIds": [
       "biology-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先把灰斑與 20 μm 比例尺相比。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 3,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 12
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-7": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能知道串並聯電路中的電流運作情形",
+    "keyIdea": "A1、A3 均位於分流前後的主幹。",
     "steps": [
-      "【審題定位】本題考查「電路、電功率與磁作用」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (B) 符合科學客觀事實與學科定律。"
+      "A2 在其中一條並聯支路；A1、A3 都量測進入或離開整組並聯電路的總電流。",
+      "依電流守恆，A3＝A1＝500 mA；另一支路為 500−300＝200 mA，選 B。"
     ],
     "options": {
-      "A": "「200 mA」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「500 mA」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「800 mA」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「1000 mA 圖(五)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "200 mA 是另一支路電流，非主幹電流。",
+      "B": "A3 與 A1 同量測總電流 500 mA。",
+      "C": "500 已含 300，不能再相加成 800。",
+      "D": "不能將相同的主幹電流重複相加。"
     },
-    "trap": "【官方統計考情】全體通過率為 63.9%。錯誤選項中以 (C) 的誤選率最高（達 17.35%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "電流表數字不能不看位置就直接相加。",
     "unitIds": [
       "physics-7"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出哪兩個電流表都在主幹上。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 3,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 13
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-8": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能知道地震資訊所代表的意義",
+    "keyIdea": "預警顯示的是學校所在地預估震度與到達前的時間。",
     "steps": [
-      "【審題定位】本題考查「岩石、板塊與地震」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (C) 符合科學客觀事實與學科定律。"
+      "跑馬燈寫可能震度 4 級、約 13 秒後到達，表示劇烈搖晃尚未到此處。",
+      "因此約有 13 秒採取就近避難防護；不是搖晃持續時間，也不是地震規模，選 C。"
     ],
     "options": {
-      "A": "「地震波到達後，會使學校持續搖晃13秒」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「地震波到達後，會使各縣市都有震度4級的搖晃」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「在劇烈搖晃前，大約有13秒的時間可以避難」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「在劇烈搖晃前，可得知此地震釋放的能量為規模4」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "13 秒是到達前時間，不是持續搖晃時間。",
+      "B": "震度描述所在地，各縣市不會必然相同。",
+      "C": "預警的用途是搖晃到達前及時防護。",
+      "D": "震度 4 級不等於規模 4，不能由此得知釋放能量。"
     },
-    "trap": "【官方統計考情】全體通過率為 89.5%。錯誤選項中以 (D) 的誤選率最高（達 5.76%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "震度、規模與預警時間是不同資訊。",
     "unitIds": [
       "earth-1",
       "earth-7"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "對照流程第 3 點中的「幾秒後到達」。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 3,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 14
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-9": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能知道溫度會影響物質的狀態",
+    "keyIdea": "暖濕空氣遇冷表面，水蒸氣凝結成液滴。",
     "steps": [
-      "【審題定位】本題考查「溫度、熱量與熱傳播」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (C) 符合科學客觀事實與學科定律。"
+      "室內及牆面比室外冷，進入的暖濕空氣在牆面附近降溫。",
+      "水蒸氣遇冷達到凝結條件，形成液態水珠，屬凝結而非汽化，選 C。"
     ],
     "options": {
-      "A": "「空氣內的水分遇到較高溫的牆面凝結而形成」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「空氣內的水分遇到較高溫的牆面汽化而形成」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「空氣內的水分遇到較低溫的牆面凝結而形成」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「空氣內的水分遇到較低溫的牆面汽化而形成」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "牆面是較低溫，不是較高溫。",
+      "B": "溫度方向與相變名稱都不符。",
+      "C": "低溫表面使水蒸氣凝結，符合返潮。",
+      "D": "汽化是液體變氣體，不能產生牆面水珠。"
     },
-    "trap": "【官方統計考情】全體通過率為 75.9%。錯誤選項中以 (A) 的誤選率最高（達 11.58%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "水珠來自空氣中的水蒸氣，不是牆面自行產水。",
     "unitIds": [
       "physics-4"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "判斷氣態變成液態的名稱。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 3,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 15
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-10": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能知道人體神經系統的運作方式",
+    "keyIdea": "辨認大腦、小腦、腦幹與脊髓的功能。",
     "steps": [
-      "【審題定位】本題考查「神經、內分泌與反應」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (A) 符合科學客觀事實與學科定律。"
+      "圖中甲為大腦、乙為小腦、丙為腦幹、丁為脊髓。",
+      "槍聲的聽覺由大腦形成；呼吸調節屬腦幹，平衡協調屬小腦，故只有 A 配對正確。"
     ],
     "options": {
-      "A": "「由甲產生槍聲的聽覺」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「由乙調節呼吸的快慢」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「由丙維持身體的平衡」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「由丁主掌步伐的大小 圖(七)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "甲是大腦，形成聽覺。",
+      "B": "乙是小腦；呼吸快慢主要由腦幹調節。",
+      "C": "丙是腦幹；平衡主要由小腦協調。",
+      "D": "丁是脊髓，不主掌有意識步伐大小的決策。"
     },
-    "trap": "【官方統計考情】全體通過率為 62.1%。錯誤選項中以 (D) 的誤選率最高（達 17.85%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "先辨認圖的標號再配功能。",
     "unitIds": [
       "biology-4",
       "biology-13"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "比較大腦、小腦與腦幹各自的主要工作。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 4,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 16
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-11": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能判讀實驗數據推論人體胸腔的變化",
+    "keyIdea": "由肺內氣量判斷吸氣或呼氣，再判斷胸腔運動。",
     "steps": [
-      "【審題定位】本題考查「運動、力與牛頓定律」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (C) 符合科學客觀事實與學科定律。"
+      "甲氣量大，是盡力吸氣後；乙氣量小，是盡力呼氣後。",
+      "呼氣時橫膈上升、肋骨下降，胸腔容積縮小，因此乙對應 C。"
     ],
     "options": {
-      "A": "「動作甲：橫膈上升且肋骨上舉」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「動作甲：橫膈下降且肋骨下降」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「動作乙：橫膈上升且肋骨下降」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「動作乙：橫膈下降且肋骨上舉 圖(八)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "吸氣時橫膈應下降，不是上升。",
+      "B": "吸氣時肋骨應上舉，不是下降。",
+      "C": "乙為呼氣，橫膈上升且肋骨下降。",
+      "D": "這組動作對應吸氣，不是乙的呼氣。"
     },
-    "trap": "【官方統計考情】全體通過率為 66.7%。錯誤選項中以 (A) 的誤選率最高（達 14.92%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "圖表示動作後的氣量，須先轉換成動作種類。",
     "unitIds": [
       "physics-5"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "氣量較小的那組對應呼氣。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 4,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 17
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-12": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能知道所提供的資料是否足以判斷反應速率",
+    "keyIdea": "反應速率必須包含時間資訊，產物質量本身不足。",
     "steps": [
-      "【審題定位】本題考查「反應速率與影響因素」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (D) 符合科學客觀事實與學科定律。"
+      "實驗只記錄不同鹼濃度下分離到的肥皂質量，未記錄到相同終點所需時間。",
+      "因此無法比較每單位時間的反應進展，不能由產量直接推論速率，選 D。"
     ],
     "options": {
-      "A": "「可以，鹼的濃度加倍，反應速率會變快為四倍」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「可以，鹼的濃度增加，反應速率會先增後微降」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「不行，因為本實驗所使用鹼的濃度並不相同」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「不行，因為實驗並未記錄各組反應所需的時間」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "質量約變四倍不代表速率變四倍。",
+      "B": "產量先增後減不等於速率先增後減。",
+      "C": "濃度不同正是合理操縱變因，並非無法判斷的原因。",
+      "D": "缺少時間資料，無法求反應速率。"
     },
-    "trap": "【官方統計考情】全體通過率為 63.3%。錯誤選項中以 (B) 的誤選率最高（達 22.24%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "產量和速率是不同量。",
     "unitIds": [
       "chemistry-7"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "速率的計算至少還需要哪個物理量？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 4,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 18
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-13": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能知道遺傳變異的產生有多種途徑，並能分辨之",
+    "keyIdea": "雜交育種透過有性生殖重新組合遺傳資訊。",
     "steps": [
-      "【審題定位】本題考查「生殖、遺傳與演化」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (B) 符合科學客觀事實與學科定律。"
+      "種植者選出具有特定特徵的植株雜交，經花等生殖器官進行授粉及受精。",
+      "這是有性生殖，子代可能有不同基因型及表現型；長期選育才能逐漸改變玉米特徵，選 B。"
     ],
     "options": {
-      "A": "「經由營養器官進行無性生殖」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「經由生殖器官進行有性生殖」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「親代與子代的表現型都相同」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「親代與子代的基因型都相同」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "雜交不是利用營養器官的無性生殖。",
+      "B": "透過生殖器官進行有性生殖，符合育種。",
+      "C": "文中已說玉米粒特徵逐漸改變，非表現型都相同。",
+      "D": "有性生殖會重組遺傳資訊，基因型並非全相同。"
     },
-    "trap": "【官方統計考情】全體通過率為 56.2%。錯誤選項中以 (A) 的誤選率最高（達 24.84%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "「雜交」和扦插、分株等無性繁殖不同。",
     "unitIds": [
       "biology-5",
       "biology-11"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "注意育種過程中的雜交與種子。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 4,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 19
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-14": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能了解月相變化的規律",
+    "keyIdea": "第 8 天是左半亮的下弦附近，往前一週應從滿月逐漸虧缺。",
     "steps": [
-      "【審題定位】本題考查「地球運動、四季與月相」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (C) 符合科學客觀事實與學科定律。"
+      "第 8～14 天亮面在左且愈來愈細，是下弦到殘月、接近朔的過程。",
+      "前 7 天因此應是滿月後左側亮面逐漸減少，銜接到左半月，只有 C 符合。"
     ],
     "options": {
-      "A": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "正確。完全符合題幹核心要求與推導結論。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "亮面從細變寬，與已知的虧缺方向不合。",
+      "B": "先由右半月變滿再轉虧，七天內無法正確銜接題圖。",
+      "C": "由滿月逐漸虧缺到下弦前，能接上第 8 天。",
+      "D": "重複題圖下弦到殘月的階段，並非前一週。"
     },
-    "trap": "【官方統計考情】全體通過率為 80.8%。錯誤選項中以 (B) 的誤選率最高（達 9.07%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "依亮面寬度的增減與左右方向一起判斷。",
     "unitIds": [
       "earth-4",
       "earth-10"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先認出第 8 天的半月是上弦還是下弦。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 5,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 20
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-15": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能應用潮汐週期判斷漲退潮",
+    "keyIdea": "半日潮相鄰滿潮約隔 12 小時 25 分，退潮中段在滿潮後約三小時。",
     "steps": [
-      "【審題定位】本題考查「地球運動、四季與月相」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (B) 符合科學客觀事實與學科定律。"
+      "當日 17:00 滿潮，下一次滿潮約在隔日 05:25。從滿潮到乾潮約需 6 小時 12 分。",
+      "退潮期間的一半約在這次滿潮後 3 小時，落在隔日 08:00～09:00，選 B。"
     ],
     "options": {
-      "A": "「上午5點～6點」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「上午8點～9點」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「上午11點～12點」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「下午2點～3點」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "約接近隔日滿潮，尚非退潮中段。",
+      "B": "約在隔日滿潮後三小時，符合退潮中段。",
+      "C": "約接近乾潮，不是退潮中段。",
+      "D": "約為漲潮中段，方向不符。"
     },
-    "trap": "【官方統計考情】全體通過率為 46.9%。錯誤選項中以 (C) 的誤選率最高（達 20.91%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "同一天與隔天滿潮時間略有延後。",
     "unitIds": [
       "earth-4",
       "earth-10"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "先找隔日清晨滿潮，再往後推半段退潮時間。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 5,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 21
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-16": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能知道聲學中分貝的意義",
+    "keyIdea": "困擾來自聲音太大，應以聲音強弱的分貝量表呈現。",
     "steps": [
-      "【審題定位】本題考查「聲音與波動」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (A) 符合科學客觀事實與學科定律。"
+      "小忠要說明打鼾太大聲，需提供聲音強弱的資訊。",
+      "70 dB 表示聲音強弱；250 Hz 與 0.004 秒描述振動頻率及週期，340 m/s 是聲速，所以選 A。"
     ],
     "options": {
-      "A": "「你發出70 dB的打鼾聲」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「你發出250 Hz的打鼾聲」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「你發出的打鼾聲每秒傳播340 m」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「你發出的打鼾聲振動一次只要0.004秒」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "dB 可量化此處要呈現的聲音強弱。",
+      "B": "Hz 描述頻率，對應音調而非大小聲。",
+      "C": "聲速不是鼾聲吵不吵的直接量度。",
+      "D": "0.004 秒是振動週期，並非聲音強弱。"
     },
-    "trap": "【官方統計考情】全體通過率為 69.8%。錯誤選項中以 (B) 的誤選率最高（達 21.26%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "響度、音調與傳播速率不可混淆。",
     "unitIds": [
       "physics-2"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "「很大聲」應搭配哪個單位？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 5,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 22
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-17": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能知道恆星與其他星體的區分方法",
+    "keyIdea": "恆星能穩定自行發光發熱；繞行關係不足以單獨判為恆星。",
     "steps": [
-      "【審題定位】本題考查「日食、月食天象成因與太陽系天體探索」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (A) 符合科學客觀事實與學科定律。"
+      "方式一用是否穩定自行發光發熱辨認恆星，是本題的主要分類依據。",
+      "方式二只說甲繞乙，乙也可能是被衛星繞行的行星，不能直接判為恆星，所以僅方式一正確，選 A。"
     ],
     "options": {
-      "A": "「僅方式一正確」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「僅方式二正確」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「兩種方式皆正確」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「兩種方式皆錯誤 圖(十一)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "自行發光的方式一成立，繞行的方式二不足。",
+      "B": "顛倒兩種方法的有效性。",
+      "C": "方式二可被月球繞地球的例子否定。",
+      "D": "方式一符合恆星的主要特徵。"
     },
-    "trap": "【官方統計考情】全體通過率為 67.5%。錯誤選項中以 (C) 的誤選率最高（達 13.2%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "被另一星體繞行，不一定是恆星。",
     "unitIds": [
       "earth-12"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "想想月球繞地球是否讓地球成為恆星。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 6,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 23
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-18": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能知道適合以排水法來測量體積的物質",
+    "keyIdea": "排水法適用不溶於水、不與水反應且可浸沒的固體。",
     "steps": [
-      "【審題定位】本題考查「測量、密度與實驗變因」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (A) 符合科學客觀事實與學科定律。"
+      "量筒前後液面差要能代表固體排開的水量，物體不能在水中溶解或發生反應。",
+      "銅片可沉入水中且不溶解；鉀會與水反應，食鹽與葡萄糖會溶解，故選 A。"
     ],
     "options": {
-      "A": "正確。完全符合題幹核心要求與推導結論。",
-      "B": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「圖(十二)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "銅片適合直接用水的排水法。",
+      "B": "鉀會與水反應，無法保留原物體體積。",
+      "C": "食鹽會溶於水，液面差不等於原鹽粒體積。",
+      "D": "葡萄糖會溶於水，不適用此法直接測量。"
     },
-    "trap": "【官方統計考情】全體通過率為 60.0%。錯誤選項中以 (B) 的誤選率最高（達 32.21%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "排水法不適合所有不規則固體。",
     "unitIds": [
       "physics-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先排除會溶解及會與水反應的物品。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 6,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 24
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-19": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能依據情境推知要算出二氧化碳排放量所需的資訊",
+    "keyIdea": "用反應的莫耳比與分子量把甲烷質量換成二氧化碳質量。",
     "steps": [
-      "【審題定位】本題考查「氧化還原、有機物與材料」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (D) 符合科學客觀事實與學科定律。"
+      "完全燃燒反應為 CH₄＋2O₂→CO₂＋2H₂O，甲烷與二氧化碳莫耳比為 1：1。",
+      "因此二氧化碳質量＝甲烷質量×分子量比。採 CH₄＝16、CO₂＝44，可得 1 公噸甲烷產生 44/16＝2.75 公噸 CO₂；所需資訊為分子量，選 D。"
     ],
     "options": {
-      "A": "「沸點」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「密度」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「比熱」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「分子量」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "沸點不提供反應質量比。",
+      "B": "未給氣體體積，且可直接用分子量換算。",
+      "C": "比熱描述升溫吸熱，不是化學計量質量比。",
+      "D": "分子量可將 1：1 莫耳比換成質量比。"
     },
-    "trap": "【官方統計考情】全體通過率為 65.7%。錯誤選項中以 (B) 的誤選率最高（達 15.55%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "二氧化碳的氧來自外界氧氣，產物質量可超過甲烷質量。",
     "unitIds": [
       "chemistry-6"
     ],
     "gap": "",
     "skill": "運算求解",
-    "doubt": false
+    "doubt": false,
+    "hint": "先寫出甲烷完全燃燒的反應式。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 6,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 25
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-20": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能了解人體器官的功能，並依此類推其他動物的相似器官",
+    "keyIdea": "過濾、再吸收與排出含氮廢物對應腎臟。",
     "steps": [
-      "【審題定位】本題考查「摩擦力、正向力與牛頓第一運動定律深化」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (C) 符合科學客觀事實與學科定律。"
+      "觸角腺會過濾體液、回收有用物質並排除含氮廢物。",
+      "人體腎臟具有相同的過濾及再吸收功能並形成尿液，選 C。"
     ],
     "options": {
-      "A": "「肝臟」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「大腸」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「腎臟」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「尿道」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "肝臟負責多種代謝，但非題述過濾體液與再吸收構造。",
+      "B": "大腸主要吸收消化道水分，不過濾血液。",
+      "C": "腎臟同具過濾、再吸收及排泄功能。",
+      "D": "尿道主要輸送尿液，不執行過濾與再吸收。"
     },
-    "trap": "【官方統計考情】全體通過率為 51.8%。錯誤選項中以 (A) 的誤選率最高（達 20.22%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "排泄器官與排泄物通道功能不同。",
     "unitIds": [
       "physics-10"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "比較腎臟與尿道各自的工作。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 6,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 26
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-21": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能了解族群調查的方式及限制",
+    "keyIdea": "先估計放入紅魚後的總數，再扣除已知紅魚。",
     "steps": [
-      "【審題定位】本題考查「人體消化器官與各類消化酵素專一性作用」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (D) 符合科學客觀事實與學科定律。"
+      "樣本紅魚比例為 5/50＝1/10，以此估計全池紅魚比例 50/N≈1/10，得總魚數 N≈500。",
+      "黑魚估計數為 500−50＝450。捉放法是抽樣估計，並非逐一清點的實際數量，選 D。"
     ],
     "options": {
-      "A": "「X為500隻，此數值為黑色鯉魚的實際數量」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「X為500隻，此數值為黑色鯉魚的可能數量」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「X為450隻，此數值為黑色鯉魚的實際數量」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「X為450隻，此數值為黑色鯉魚的可能數量」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "500 是全部魚的估計數，也不是實際清點數。",
+      "B": "雖指出可能數量，仍忘了扣掉 50 隻紅魚。",
+      "C": "450 正確，但不能宣稱為確定實際數量。",
+      "D": "450 為依樣本比例得到的黑魚可能數量。"
     },
-    "trap": "【官方統計考情】全體通過率為 55.2%。錯誤選項中以 (B) 的誤選率最高（達 29.3%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "抽樣估計有不確定性，且總數不等於黑魚數。",
     "unitIds": [
       "biology-14"
     ],
     "gap": "",
     "skill": "運算求解",
-    "doubt": false
+    "doubt": false,
+    "hint": "分成總魚數、黑魚數、估計性質三步判斷。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 6,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 27
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-22": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能評估簡單模型的適用性",
+    "keyIdea": "平衡的充分條件被新例子補充，不能因此誤認原條件已被推翻。",
     "steps": [
-      "【審題定位】本題考查「測量、密度與實驗變因」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (D) 符合科學客觀事實與學科定律。"
+      "實驗三同重量卻不同力臂而不平衡，否定只看重量的論點一。實驗四雖兩側總重量不同，仍因力矩相等而平衡。",
+      "論點二只說兩側等距、同重量時會平衡；實驗四不屬這種配置，不能用它說明，但也沒有反駁它，故選 D。"
     ],
     "options": {
-      "A": "「實驗三的結果與論點一相符」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「實驗四的結果與論點一不相符」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「實驗四的結果可以證明論點二不正確」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「實驗四的結果無法使用論點二來說明 表(二)」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "實驗三同重量卻不平衡，與論點一不符。",
+      "B": "論點一沒說不同重量一定不平衡，實驗四不是對它的直接反例。",
+      "C": "實驗四未滿足論點二的前提，不能證明其條件錯誤。",
+      "D": "論點二未涵蓋不同重量、不同力臂仍平衡的實驗四。"
     },
-    "trap": "【官方統計考情】全體通過率為 62.7%。錯誤選項中以 (C) 的誤選率最高（達 14.27%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "「若條件成立則平衡」不能倒推成「只有這種條件才平衡」。",
     "unitIds": [
       "physics-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "逐一區分每個論點的前提與結論。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 7,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 28
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-23": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能了解實驗的操縱變因",
+    "keyIdea": "一次比較應只改變一個因素。",
     "steps": [
-      "【審題定位】本題考查「浮力與阿基米德原理」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (C) 符合科學客觀事實與學科定律。"
+      "第二組是熱水不加鹽，第三組是冷水加鹽，同時改變溫度與是否加鹽。",
+      "若乾燥時間不同，無法辨別是哪個因素造成，所以這組最不適合找單一變因影響，選 C。"
     ],
     "options": {
-      "A": "「第一組和第二組」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「第一組和第三組」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「第二組和第三組」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「第二組和第四組」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "同為熱水，只改變是否加鹽，可比較加鹽效果。",
+      "B": "同樣加鹽，只改變冷熱，可比較溫度效果。",
+      "C": "冷熱與加鹽同時不同，混淆兩項影響。",
+      "D": "同樣不加鹽，只改變冷熱，可比較溫度效果。"
     },
-    "trap": "【官方統計考情】全體通過率為 60.2%。錯誤選項中以 (D) 的誤選率最高（達 30.51%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "對照實驗須控制其餘條件。",
     "unitIds": [
       "physics-8"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "把每組的溫度、加鹽與否列成兩欄。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 7,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 29
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-24": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能理解呼吸作用及光合作用",
+    "keyIdea": "光合作用產生的葡萄糖可供呼吸作用分解。",
     "steps": [
-      "【審題定位】本題考查「養分、光合作用與呼吸作用」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (D) 符合科學客觀事實與學科定律。"
+      "式中甲為二氧化碳，乙為氧氣，丙為葡萄糖等醣類。",
+      "呼吸作用利用醣類與氧氣，產生二氧化碳和水，因此丙可作呼吸作用反應物，選 D。"
     ],
     "options": {
-      "A": "「甲主要由植物從土壤中吸收」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「乙主要由植物根部排出至土壤」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「乙與呼吸作用的產物相同」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「丙可作為呼吸作用的反應物」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "甲是二氧化碳，主要由氣孔取得，不由土壤吸收。",
+      "B": "乙是氧氣，主要經氣孔交換，不是根部排到土壤。",
+      "C": "氧氣是呼吸作用反應物，不是其主要產物。",
+      "D": "丙是醣類，可被呼吸作用分解以釋放能量。"
     },
-    "trap": "【官方統計考情】全體通過率為 56.0%。錯誤選項中以 (C) 的誤選率最高（達 19.19%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "同一物質在兩個作用中的反應物、產物位置不同。",
     "unitIds": [
       "biology-2"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "將光合作用式與呼吸作用式並列。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 7,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 30
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-25": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能應用遺傳法則對實驗結果進行預測",
+    "keyIdea": "兩袋各有一半顯性、一半隱性，模擬 Aa×Aa。",
     "steps": [
-      "【審題定位】本題考查「生殖、遺傳與演化」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (B) 符合科學客觀事實與學科定律。"
+      "兩袋各抽一子可得 AA、Aa、aA、aa 四種等可能配對。",
+      "只要含顯性 A 就是黑色，故黑：白預期約 3：1；100 次中 78 黑、22 白最接近 75、25，選 B。"
     ],
     "options": {
-      "A": "「49、51」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「78、22」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「26、74」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「100、0」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "約 1：1，較像 Aa×aa 的結果。",
+      "B": "78：22 最接近顯性黑色預期比例 3：1。",
+      "C": "約 1：3，顛倒了顯性與隱性表現。",
+      "D": "aa 的配對有機會出現，不應預期全黑。"
     },
-    "trap": "【官方統計考情】全體通過率為 52.8%。錯誤選項中以 (A) 的誤選率最高（達 26.39%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "3：1 是機率預期，抽 100 次不必剛好 75：25。",
     "unitIds": [
       "biology-5",
       "biology-11"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "列出兩次抽棋的四種顏色配對。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 7,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 31
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-26": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能根據資訊，推論板塊相互分離時可能的特徵",
+    "keyIdea": "陸地分離與海域擴張對應張裂型板塊邊界。",
     "steps": [
-      "【審題定位】本題考查「岩石、板塊與地震」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (A) 符合科學客觀事實與學科定律。"
+      "兩側陸地逐年分離，顯示板塊張裂，岩漿可沿裂隙上升形成新海洋地殼。",
+      "岩漿冷卻形成火成岩，故 A 合理；這裡是較新的海殼，而非最古老海殼。"
     ],
     "options": {
-      "A": "「此海域底部可發現岩漿湧出所形成的火成岩」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「此海域底部可發現地球上最古老的海洋地殼」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「圖中此海域東、西兩側的陸地目前在同一板塊上」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「圖中此海域東、西兩側的陸地之間有海溝的存在 圖(十四)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "張裂處岩漿上湧，可形成火成岩。",
+      "B": "新生海殼不會是最古老的海洋地殼。",
+      "C": "兩側相對分離，非依題意可視為同一完整板塊。",
+      "D": "海溝常見於聚合隱沒處，不是張裂擴張。"
     },
-    "trap": "【官方統計考情】全體通過率為 44.3%。錯誤選項中以 (D) 的誤選率最高（達 33.88%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "擴張與隱沒的地形不可混淆。",
     "unitIds": [
       "earth-1",
       "earth-7"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先判斷兩板塊正在靠近還是分開。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 8,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 32
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-27": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能區分不同大氣分層的特性",
+    "keyIdea": "利用氣溫垂直變化區分大氣層，氣壓則兩層都隨高度下降。",
     "steps": [
-      "【審題定位】本題考查「太陽系、星空與尺度」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (A) 符合科學客觀事實與學科定律。"
+      "甲圖比較氣溫與高度；對流層氣溫大致隨高度下降，平流層則逐漸回升，可辨認趨勢轉折。",
+      "乙圖的氣壓在兩層都大致隨高度增加而降低，不能以選項聲稱的反向趨勢區分，所以選 A。"
     ],
     "options": {
-      "A": "「甲圖可以，因氣溫在對流層隨高度上升而降低，在平流層則不會」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「乙圖可以，因氣壓在對流層隨高度上升而降低，在平流層則不會」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「兩圖都不可以，因氣溫與氣壓無論在對流層或平流層皆大致固定」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「兩圖都可以，因氣溫與氣壓在對流層皆隨高度上升而降低，在平流層則不會」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "氣溫的垂直趨勢在兩層不同。",
+      "B": "平流層氣壓仍隨高度降低，理由錯誤。",
+      "C": "兩層氣溫、氣壓都不是固定值。",
+      "D": "把平流層氣壓誤認為不再下降。"
     },
-    "trap": "【官方統計考情】全體通過率為 56.1%。錯誤選項中以 (D) 的誤選率最高（達 18.28%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "分層主要看溫度分布，不是氣壓停止下降。",
     "unitIds": [
       "earth-5"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "回想對流層與平流層的溫度剖面。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 8,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 33
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-28": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能了解無熔絲開關的功能",
+    "keyIdea": "延長線超載指總電流超過延長線額定負荷。",
     "steps": [
-      "【審題定位】本題考查「摩擦力、正向力與牛頓第一運動定律深化」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (C) 符合科學客觀事實與學科定律。"
+      "多個電器並聯使用，延長線主幹電流是各電器電流之和。",
+      "無熔絲開關會在流經延長線的總電流過大時跳脫，防止過熱，故選 C。"
     ],
     "options": {
-      "A": "「流經電器的電流值超過電器可負荷的最大電流值」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「輸入電器的電壓值超過電器可負荷的最大電壓值」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「流經延長線的電流值超過延長線可負荷的最大 電流值」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「輸入延長線的電壓值超過延長線可負荷的最大 電壓值 圖(十六)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "單一電器的負荷與延長線總負荷不同。",
+      "B": "超載開關主要偵測電流過大，不是電器電壓過高。",
+      "C": "多個電器總電流超過延長線承受值。",
+      "D": "題述超載是過電流，非單純過電壓。"
     },
-    "trap": "【官方統計考情】全體通過率為 55.1%。錯誤選項中以 (D) 的誤選率最高（達 18.23%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "每個電器都正常運作，總電流仍可能使延長線超載。",
     "unitIds": [
       "physics-10"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "把各電器電流相加，再和延長線額定值比較。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 8,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 34
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-29": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能知道不同植物分類的重要特徵",
+    "keyIdea": "有花表示被子植物，子房發育成果實。",
     "steps": [
-      "【審題定位】本題考查「分類、生態系與能量流動」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (C) 符合科學客觀事實與學科定律。"
+      "題目指出具有白色花朵，因此屬被子植物。",
+      "被子植物開花後子房可發育成果實，故選 C；有翅種子不會改變此分類。"
     ],
     "options": {
-      "A": "「棒槌瓜的學名為穿山龍」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「成熟葉背可見孢子囊堆」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「其植株具有果實的構造」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「其植株具有毬果的構造」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "穿山龍與棒槌瓜都是中文名稱，不是二名法學名。",
+      "B": "孢子囊堆是蕨類特徵，與開花結種子不符。",
+      "C": "被子植物具有果實構造。",
+      "D": "毬果是常見裸子植物構造，非此開花植物的推論。"
     },
-    "trap": "【官方統計考情】全體通過率為 53.2%。錯誤選項中以 (D) 的誤選率最高（達 23.52%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "種子有翅不等於松柏類，花才是關鍵分類線索。",
     "unitIds": [
       "biology-6",
       "biology-12"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "先依是否開花判斷植物類群。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 8,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 35
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-30": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能應用比熱相關公式",
+    "keyIdea": "比較溫升斜率，不比較最後溫度本身。",
     "steps": [
-      "【審題定位】本題考查「測量、密度與實驗變因」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (A) 符合科學客觀事實與學科定律。"
+      "相同質量、相同熱功率及時間下，吸熱量相同，由 Q＝mSΔT，溫升越大比熱越小。",
+      "500 秒中甲從 40 升至 100、乙從 20 升至 80，皆升 60°C；丙從 20 升至約 70，只升 50°C。",
+      "所以 S甲＝S乙＜S丙，選 A。"
     ],
     "options": {
-      "A": "「S甲＝S乙＜S丙」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「S甲＝S乙＞S丙」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「S甲＜S乙＝S丙 圖(十七)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「S甲＞S乙＝S丙」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "甲乙溫升相同，比熱相等；丙溫升較少，比熱較大。",
+      "B": "把比熱與溫升的反比關係顛倒。",
+      "C": "乙丙初溫相同，不代表溫升或比熱相同。",
+      "D": "甲末溫最高不等於比熱最大。"
     },
-    "trap": "【官方統計考情】全體通過率為 51.0%。錯誤選項中以 (B) 的誤選率最高（達 25.82%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "必須扣掉初溫再比較。",
     "unitIds": [
       "physics-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "讀出每條線的起點與終點，計算 ΔT。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 9,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 36
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-31": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能知道電鍍的相關概念",
+    "keyIdea": "被鍍物接負極，銅離子往負極移動並還原成銅。",
     "steps": [
-      "【審題定位】本題考查「反應速率與影響因素」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (B) 符合科學客觀事實與學科定律。"
+      "鑰匙應接負極，使 Cu²⁺在表面獲得電子沉積；銅片接正極，補充溶液中的銅離子。",
+      "圖 B 同時畫出銅片接正、鑰匙接負及 Cu²⁺朝鑰匙移動，所以選 B。"
     ],
     "options": {
-      "A": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "正確。完全符合題幹核心要求與推導結論。",
-      "C": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "接極雖正確，但銅離子移向銅片的方向畫反。",
+      "B": "正負接法與銅離子移動方向皆正確。",
+      "C": "將鑰匙接正極，無法使銅離子在其上還原沉積。",
+      "D": "鑰匙接正極，且銅離子方向不符合接極。"
     },
-    "trap": "【官方統計考情】全體通過率為 58.0%。錯誤選項中以 (A) 的誤選率最高（達 16.82%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "要同時核對電源正負及離子方向。",
     "unitIds": [
       "chemistry-7"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "鍍銅的位置必須能讓 Cu²⁺得到電子。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 9,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 37
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-32": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能應用壓力公式",
+    "keyIdea": "均質長方體平放時壓力＝ρgh，只隨高度變化。",
     "steps": [
-      "【審題定位】本題考查「液體壓力與大氣壓力」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (B) 符合科學客觀事實與學科定律。"
+      "原壓力 P＝重量/接觸面積＝ρg(長×寬×高)/(長×寬)＝ρg×10。",
+      "截去長、寬會同時等比例減少重量與底面積，不改變壓力；高度從 10 變成 8 後，壓力變為 8/10 P＝4/5 P，選 B。"
     ],
     "options": {
-      "A": "「P 15 4」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「P 5」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「P」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「3P 圖(十八)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "4/15 是剩餘體積及重量的比例，未除以新的接觸面積。",
+      "B": "高度比例 8/10 對應壓力比例 4/5。",
+      "C": "只截長寬時可不變，但此題還截去高度。",
+      "D": "接觸面積雖減少，重量也減少，不能只看面積。"
     },
-    "trap": "【官方統計考情】全體通過率為 38.2%。錯誤選項中以 (A) 的誤選率最高（達 32.58%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "壓力與總重量不能混為一談。",
     "unitIds": [
       "physics-9"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先將 ρgV/A 中的長與寬約掉。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 9,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 38
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-33": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能應用阿基米德原理",
+    "keyIdea": "陶瓷比水密，浮碗內水面必須低於外側水面。",
     "steps": [
-      "【審題定位】本題考查「測量、密度與實驗變因」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (B) 符合科學客觀事實與學科定律。"
+      "浮體平衡需浮力等於碗與碗內水的總重。若內外水面等高，內水部分的重力與相對排水浮力抵銷後，陶瓷本身仍比所排水重，會下沉。",
+      "若碗內水面還高於外側，增加的內水重量更不可能被支撐。因此圖中甲內水較高、乙內外等高都不合理，選 B。"
     ],
     "options": {
-      "A": "「甲、乙都合理」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「甲、乙都不合理」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「甲合理、乙不合理」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「甲不合理、乙合理 圖(十九)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "兩圖都沒有提供足夠的排水浮力。",
+      "B": "甲內水較高、乙等高，對密度大於水的陶瓷碗皆不符平衡。",
+      "C": "甲內水更高，仍不合理。",
+      "D": "乙等高仍不足以支撐密度較大的碗體。"
     },
-    "trap": "【官方統計考情】全體通過率為 45.5%。錯誤選項中以 (D) 的誤選率最高（達 34.42%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "浮碗外水面應比內水面高，差額排水用來支撐碗體重量。",
     "unitIds": [
       "physics-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先想陶瓷本身若完全浸水，能否只靠自身排水浮起。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 9,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 39
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-34": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能應用圖中資訊，推論氣團與鋒面的性質",
+    "keyIdea": "臺灣乾熱與海上副熱帶高壓、長期徘徊鋒面相配。",
     "steps": [
-      "【審題定位】本題考查「天氣、鋒面與臺灣季風」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (D) 符合科學客觀事實與學科定律。"
+      "圖中甲位於臺灣東方海域，對應副熱帶高壓；其控制區域較乾熱。",
+      "北方冷空氣與南方暖空氣勢力相持，鋒面長時間停留於日本到中國，為滯留鋒，選 D。"
     ],
     "options": {
-      "A": "「甲為低氣壓，鋒面是冷鋒」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「甲為低氣壓，鋒面是滯留鋒」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「甲為高氣壓，鋒面是冷鋒」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「甲為高氣壓，鋒面是滯留鋒」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "甲的高壓性質與長期滯留都判錯。",
+      "B": "鋒面正確，但甲並非低氣壓。",
+      "C": "甲為高壓正確，但長期停留者為滯留鋒。",
+      "D": "副熱帶高壓與滯留鋒皆符合圖文。"
     },
-    "trap": "【官方統計考情】全體通過率為 46.9%。錯誤選項中以 (B) 的誤選率最高（達 27.57%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "冷鋒會推進，不能只因出現冷空氣就選冷鋒。",
     "unitIds": [
       "earth-3",
       "earth-9"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "把乾熱區與長時間停留兩個線索分別使用。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 10,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 40
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-35": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能應用安培右手定則",
+    "keyIdea": "磁場與地磁同向時，磁針即使通電也可能不改變指向。",
     "steps": [
-      "【審題定位】本題考查「電磁感應與發電機」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (C) 符合科學客觀事實與學科定律。"
+      "由電池正極判斷傳統電流沿左側向上、上方向右、右側向下、下方由右向左。",
+      "用右手定則判斷丙所在導線正上方的電流磁場朝北，與磁針原本指北方向相同，通電後仍可指北。",
+      "因此觀察丙是否偏轉最難判斷有無通電，選 C；左右兩側導線可產生東西向磁場，較易看出偏轉。"
     ],
     "options": {
-      "A": "「甲」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「乙」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「丙」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「丁 圖(二十一)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "甲的磁場與地磁反向，電流足夠時可能看出反轉；較丙仍可作判斷。",
+      "B": "乙的電流磁場與地磁不平行，較易偏轉。",
+      "C": "電流磁場與地磁同向，磁針可一直指北。",
+      "D": "丁的電流磁場與地磁不平行，較易偏轉。"
     },
-    "trap": "【官方統計考情】全體通過率為 43.4%。錯誤選項中以 (D) 的誤選率最高（達 26.95%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "有電流磁場不保證磁針一定改變方向。",
     "unitIds": [
       "physics-13"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先判電流方向，再用右手定則找磁針位置的磁場方向。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 10,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 41
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-36": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能應用重量百分率濃度",
+    "keyIdea": "重量百分濃度的分母是溶液總質量。",
     "steps": [
-      "【審題定位】本題考查「溶液、濃度與溶解度」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (D) 符合科學客觀事實與學科定律。"
+      "甲濃度＝20/(20＋20)＝50%；乙濃度＝30/(30＋20)＝60%。",
+      "所以甲：乙＝50：60＝5：6，選 D。"
     ],
     "options": {
-      "A": "「1：1」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「2：3」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「4：5」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「5：6」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "兩杯糖量不同且濃度不同，並非 1：1。",
+      "B": "2：3 只比較溶質質量，未比較溶液總質量。",
+      "C": "4：5 是兩杯溶液質量比，不是濃度比。",
+      "D": "50%：60% 化簡為 5：6。"
     },
-    "trap": "【官方統計考情】全體通過率為 45.5%。錯誤選項中以 (B) 的誤選率最高（達 32.64%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "溶劑水的質量不等於溶液總質量。",
     "unitIds": [
       "chemistry-4"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "每一杯都用糖質量除以糖加水的總質量。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 10,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 42
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-37": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能正確判讀圖片獲得資訊，並依據該資訊及習得知識進行推論",
+    "keyIdea": "人體胰液含分解蛋白質的酵素，膽汁則不含消化酵素。",
     "steps": [
-      "【審題定位】本題考查「養分、光合作用與呼吸作用」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (B) 符合科學客觀事實與學科定律。"
+      "圖中蛋白質減少、分解產物 X 增加，顯示酵素作用於蛋白質分解。",
+      "胰液含蛋白質消化酵素，可作來源；膽汁主要乳化脂肪，故選 B。"
     ],
     "options": {
-      "A": "「可能由膽汁中取得此酵素」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「可能由胰液中取得此酵素」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「此酵素催化 X 物質的分解」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「此酵素催化 X 物質的合成」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "膽汁不含用來分解蛋白質的消化酵素。",
+      "B": "胰液含可分解蛋白質的酵素。",
+      "C": "受質是蛋白質，不是將 X 再分解。",
+      "D": "X 是蛋白質分解產物，不是題述合成反應。"
     },
-    "trap": "【官方統計考情】全體通過率為 41.0%。錯誤選項中以 (C) 的誤選率最高（達 23.66%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "產物增加不等於反應被分類為合成作用。",
     "unitIds": [
       "biology-2"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先辨認酵素的受質，再判斷消化液來源。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 10,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 43
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-38": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能推論不同季節、不同緯度地區的晝夜長短",
+    "keyIdea": "同在北半球，緯度越高，夏長冬短的季節差越大。",
     "steps": [
-      "【審題定位】本題考查「大氣氣團、鋒面系統與天氣災害」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (C) 符合科學客觀事實與學科定律。"
+      "高緯北半球城市在夏季白天比嘉義長、冬季比嘉義短；春秋分附近兩地皆約 12 小時。",
+      "只有 C 同時呈現夏季曲線在上、冬季在下並在秋分附近交會，選 C。"
     ],
     "options": {
-      "A": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "正確。完全符合題幹核心要求與推導結論。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "全年都比嘉義短，不符合夏季日長較長。",
+      "B": "全年都比嘉義長，不符合冬季日長較短。",
+      "C": "夏更長、冬更短，日長振幅較大。",
+      "D": "夏更短、冬更長，較像低緯度的變化。"
     },
-    "trap": "【官方統計考情】全體通過率為 41.8%。錯誤選項中以 (A) 的誤選率最高（達 32.03%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "高緯度不是全年都較短或較長。",
     "unitIds": [
       "earth-9"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "同時核對 6 月與 12 月。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 11,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 44
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-39": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能了解人體循環及血液流動路徑",
+    "keyIdea": "肺靜脈入左心房，體循環回流先入右心房。",
     "steps": [
-      "【審題定位】本題考查「神經、內分泌與反應」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (D) 符合科學客觀事實與學科定律。"
+      "肺部血液經肺靜脈回到左心房，所以甲說右心房錯誤。",
+      "肝臟血液經肝靜脈、下腔靜脈先到右心房，之後才到右心室，所以乙也錯，選 D。"
     ],
     "options": {
-      "A": "「僅甲正確」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「僅乙正確」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「兩人皆正確」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「兩人皆錯誤」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "肺回流進左心房，甲錯誤。",
+      "B": "肝回流先入右心房，乙錯誤。",
+      "C": "兩人的第一個心腔都判錯。",
+      "D": "甲乙皆錯，符合肺循環與體循環回流路徑。"
     },
-    "trap": "【官方統計考情】全體通過率為 41.5%。錯誤選項中以 (A) 的誤選率最高（達 29.97%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "題目問最先進入的心腔，不能跳過心房。",
     "unitIds": [
       "biology-4"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "把肺靜脈、腔靜脈各自接到的心房寫出來。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 11,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 45
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-40": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能了解酸鹼中和反應的離子濃度變化",
+    "keyIdea": "鈉離子為旁觀離子，莫耳數不變但溶液體積增加。",
     "steps": [
-      "【審題定位】本題考查「溶液、濃度與溶解度」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (A) 符合科學客觀事實與學科定律。"
+      "中和的淨反應為 H⁺＋OH⁻→H₂O，Na⁺不被消耗，加入鹽酸使總溶液體積增加。",
+      "濃度＝莫耳數/體積，分子不變、分母增大，所以鈉離子濃度下降，選 A。"
     ],
     "options": {
-      "A": "「因為溶液體積增加，所以鈉離子濃度減少」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「因為鈉離子數目沒有改變，所以鈉離子濃度不變」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「因為鈉離子質量沒有改變，所以鈉離子濃度不變 圖(二十四)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「因為中和反應形成鹽類析出，所以鈉離子濃度減少」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "體積增加造成鈉離子稀釋。",
+      "B": "數目不變不能推出濃度不變，還需考慮體積。",
+      "C": "質量不變也不代表每單位體積含量不變。",
+      "D": "本題 NaCl 留在水溶液中，不因中和必然析出。"
     },
-    "trap": "【官方統計考情】全體通過率為 26.8%。錯誤選項中以 (D) 的誤選率最高（達 39.67%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "總量與濃度必須分開。",
     "unitIds": [
       "chemistry-4",
       "chemistry-5"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "比較反應前後 Na⁺的數目及溶液總體積。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 11,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 46
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-41": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能統整牛頓運動定律相關概念",
+    "keyIdea": "力決定加速度，並非直接由速度方向判斷。",
     "steps": [
-      "【審題定位】本題考查「運動、力與牛頓定律」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (B) 符合科學客觀事實與學科定律。"
+      "甲靜止、乙向上等速度，兩者加速度皆為零，因此向上外力都等於重力 mg。",
+      "丙加速度向下，故 mg−F丙＞0，得到 F丙＜mg，所以 F甲＝F乙＞F丙，選 B。"
     ],
     "options": {
-      "A": "「F甲＝F乙＜F丙」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「F甲＝F乙＞F丙 圖(二十五)」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「F乙＞F甲＞F丙」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「F乙＞F丙＞F甲」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "丙向下加速代表向上外力較小，不是較大。",
+      "B": "甲乙合力為零，丙合力向下。",
+      "C": "乙等速度不需比甲更大的力。",
+      "D": "乙與甲外力相同，不能一大一小。"
     },
-    "trap": "【官方統計考情】全體通過率為 22.9%。錯誤選項中以 (C) 的誤選率最高（達 31.15%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "向上運動不等於向上加速。",
     "unitIds": [
       "physics-5"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先逐一判斷加速度，再寫合力。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 12,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 47
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-42": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能對不同結果，提出可能的科學解釋",
+    "keyIdea": "單一測站與全市多站平均代表不同空間範圍。",
     "steps": [
-      "【審題定位】本題考查「細胞與顯微鏡」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (D) 符合科學客觀事實與學科定律。"
+      "環保署報導使用該市單一測站平均 pH＝4.96；市環保局使用市內多站平均 pH＝5.86。",
+      "取樣位置與範圍不同，即使無人為或儀器誤差，也可能產生不同平均值，選 D。"
     ],
     "options": {
-      "A": "「該市酸雨的發生機率高，超過50%」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「環保署與該市環保局對於酸雨的定義不同」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「環保署所測出的該市雨水pH值太接近5.0」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「單一測站的測量結果會與多個測站平均值有差異」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "發生機率高本身未解釋兩個不同取樣平均。",
+      "B": "題目已給同一酸雨定義，不能任意假設不同。",
+      "C": "接近門檻不足以說明為何多站平均明顯不同。",
+      "D": "不同空間取樣範圍可合理造成統計差異。"
     },
-    "trap": "【官方統計考情】全體通過率為 72.8%。錯誤選項中以 (B) 的誤選率最高（達 9.3%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "平均值須連同取樣方式閱讀。",
     "unitIds": [
       "biology-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "比較兩份報導用了幾個測站。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 12,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 49
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-43": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：能根據資訊，了解探究活動的可能主題",
+    "keyIdea": "甲乙分組依東北季風迎背風位置比較雨水 pH。",
     "steps": [
-      "【審題定位】本題考查「細胞與顯微鏡」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (B) 符合科學客觀事實與學科定律。"
+      "甲組臺北、宜蘭位於東北季風迎風側，乙組雲林、嘉義在相對背風的西部。",
+      "表中紀錄的是雨水 pH 平均，故可比較迎背風位置是否與 pH 平均不同有關，選 B。"
     ],
     "options": {
-      "A": "「位於東北季風迎、背風面是否會影響判定酸雨的標準」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「位於東北季風迎、背風面是否會影響雨水pH值的平均」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「各地區雨水pH值的平均高低是否影響酸雨發生的機率」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「各地區雨水pH值的平均高低是否影響人為汙染物的種類」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "酸雨判定門檻固定，不因迎背風改變。",
+      "B": "分組位置與測量的 pH 平均相對應。",
+      "C": "表未提供各地酸雨發生機率。",
+      "D": "表未提供污染物種類，不能比較。"
     },
-    "trap": "【官方統計考情】全體通過率為 69.7%。錯誤選項中以 (C) 的誤選率最高（達 14.06%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "研究問題要與分組依據及實際測量欄位一致。",
     "unitIds": [
       "biology-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出兩組地區共同的地理位置差異。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 12,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 50
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-44": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能正確判讀圖中數據",
+    "keyIdea": "每一柱代表記錄整點前一小時的氣泡位移。",
     "steps": [
-      "【審題定位】本題考查「細胞與顯微鏡」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (C) 符合科學客觀事實與學科定律。"
+      "每小時都將氣泡歸回起點，因此各柱可直接比較該小時蒸散量。",
+      "最高柱在 13 時記錄，對應 12～13 時；夜間柱雖小仍大於零，而 7～8 時比 6～7 時大，故選 C。"
     ],
     "options": {
-      "A": "「0～1時之間沒有發生蒸散作用」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「3～4時之間沒有發生蒸散作用」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「12～13時的平均蒸散速率為一天中最大值」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「6～7時的平均蒸散速率較7～8時的平均蒸散速率大」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "1 時的柱高非零，0～1 時仍有蒸散。",
+      "B": "4 時的柱高非零，3～4 時仍有蒸散。",
+      "C": "13 時記錄的最高柱對應 12～13 時。",
+      "D": "8 時柱高大於 7 時，題述大小關係相反。"
     },
-    "trap": "【官方統計考情】全體通過率為 76.0%。錯誤選項中以 (B) 的誤選率最高（達 13.12%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "記錄時間是區間終點，13 時柱不是 13～14 時。",
     "unitIds": [
       "biology-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先確認整點紀錄代表哪一段時間。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 13,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 52
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-45": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能了解植物的運輸，並依此預測不同實驗條件下的實驗結果",
+    "keyIdea": "植物吸水主要由根或切口向上供應蒸散，不由氣孔大量向下輸水。",
     "steps": [
-      "【審題定位】本題考查「氣候變遷與永續探究」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (D) 符合科學客觀事實與學科定律。"
+      "相近室內條件可能產生相近每日或同時段位移；乾燥也可能促使氣孔關閉、減少蒸散。",
+      "但氣孔主要讓水分以蒸氣逸散，不能以從氣孔吸水並向下輸送解釋氣泡向左，因此 D 最不可能。"
     ],
     "options": {
-      "A": "「第一、二天記錄到的氣泡移動距離總和相近」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「在兩天的相同時段中，氣泡移動的距離相近」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「植物氣孔關閉減緩蒸散，使管中氣泡移動量很小」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「植物從氣孔吸收水分向下運輸，使管中氣泡向左移動」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "兩天環境相近時，總蒸散量相近是可能情況。",
+      "B": "相同時段環境類似時，位移可相近。",
+      "C": "缺水或乾燥引起氣孔關閉，位移可變小。",
+      "D": "把蒸散吸水方向顛倒；左移在題述裝置中是開閥補水造成。"
     },
-    "trap": "【官方統計考情】全體通過率為 63.1%。錯誤選項中以 (C) 的誤選率最高（達 15.25%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "題目問最不可能；不能將合理的環境變異都當成錯誤。",
     "unitIds": [
       "earth-6"
     ],
     "gap": "",
     "skill": "實驗探究",
-    "doubt": false
+    "doubt": false,
+    "hint": "先確認蒸散時水分移動方向。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 13,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 53
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-46": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：能根據實驗目的調整適當的實驗條件",
+    "keyIdea": "自由落下撞擊速率由落差決定，v²＝2gh。",
     "steps": [
-      "【審題定位】本題考查「運動、力與牛頓定律」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (C) 符合科學客觀事實與學科定律。"
+      "水滴由靜止落下、不計空氣阻力時，落差越大，撞擊時速率越大。",
+      "調整針頭高度直接改變 h，能控制撞擊速率；水滴質量或攝影設定不能達此目的，選 C。"
     ],
     "options": {
-      "A": "「調整水滴的溫度，以改變水滴的密度」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「調整針頭的孔徑，以改變水滴的直徑與重量」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「調整針頭的高度，以改變水滴落下的垂直距離」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「調整攝影機的設定，以改變攝影機每秒拍攝畫面的張數」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "改變密度不直接改變理想自由落體速率。",
+      "B": "改變重量不改變同高度的自由落體速率。",
+      "C": "增加或減少落差可改變撞擊速率。",
+      "D": "改拍攝張數只影響紀錄，不改變水滴運動。"
     },
-    "trap": "【官方統計考情】全體通過率為 64.4%。錯誤選項中以 (B) 的誤選率最高（達 17.66%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "不計阻力時，重物不會因較重而落得更快。",
     "unitIds": [
       "physics-5"
     ],
     "gap": "",
     "skill": "實驗探究",
-    "doubt": false
+    "doubt": false,
+    "hint": "使用位能轉動能，質量會約掉。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 14,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 55
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-47": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能擷取圖中資訊並應用反作用力相關知識",
+    "keyIdea": "作用力與反作用力在每一瞬間大小相等。",
     "steps": [
-      "【審題定位】本題考查「運動、力與牛頓定律」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (A) 符合科學客觀事實與學科定律。"
+      "F′為 F 的反作用力，所以任一時刻 |F′|＝|F|。",
+      "圖中 F 最大的第一個尖峰對應水滴剛撞上板、仍呈圓鼓狀的照片，即選項 A；其他形狀對應力較小時刻。"
     ],
     "options": {
-      "A": "正確。完全符合題幹核心要求與推導結論。",
-      "B": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "對應圖上最大的第一個力峰值。",
+      "B": "扁平形狀對應第一次峰值後的低谷。",
+      "C": "對應較小的第二個峰值。",
+      "D": "細長上濺時接近圖末，作用力很小。"
     },
-    "trap": "【官方統計考情】全體通過率為 49.2%。錯誤選項中以 (D) 的誤選率最高（達 21.98%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "不能用照片接觸面大小直接替代圖中的力值。",
     "unitIds": [
       "physics-5"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先找曲線最大值，再對應照片。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 14,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 56
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-48": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能了解氣體的製備方法",
+    "keyIdea": "分別辨認氧氣與二氧化碳的製備反應。",
     "steps": [
-      "【審題定位】本題考查「細胞與顯微鏡」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (D) 符合科學客觀事實與學科定律。"
+      "組一通入 O₂，可用雙氧水分解：2H₂O₂→2H₂O＋O₂。",
+      "組四通入 CO₂，可用鹽酸與碳酸鈣：CaCO₃＋2HCl→CaCl₂＋H₂O＋CO₂，因此順序為 D。"
     ],
     "options": {
-      "A": "「鹽酸和鎂帶反應、雙氧水分解反應」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「鹽酸和鎂帶反應、鹽酸和碳酸鈣反應」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「雙氧水分解反應、鹽酸和鎂帶反應」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「雙氧水分解反應、鹽酸和碳酸鈣反應」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "鹽酸與鎂帶產生 H₂，不是組一的 O₂。",
+      "B": "第二個反應可製 CO₂，但第一個是 H₂。",
+      "C": "第一個正確，第二個卻製得 H₂。",
+      "D": "雙氧水製 O₂，鹽酸加碳酸鈣製 CO₂，順序正確。"
     },
-    "trap": "【官方統計考情】全體通過率為 59.4%。錯誤選項中以 (C) 的誤選率最高（達 14.38%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "鹽酸與金屬、與碳酸鹽的產氣種類不同。",
     "unitIds": [
       "biology-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "將組一與組四的氣體名稱先寫出來。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 15,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 58
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-49": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：能知道大氣中氧氣的含量並分析數據",
+    "keyIdea": "比較氣體體積減量與空氣原有氧氣體積。",
     "steps": [
-      "【審題定位】本題考查「測量、密度與實驗變因」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (D) 符合科學客觀事實與學科定律。"
+      "組二由 5.00 mL 變 4.50 mL，減少 0.50 mL，約占原氣體 10%。",
+      "空氣中氧氣約 21%，原氧氣約 1.05 mL；0.50 mL 接近它的一半，尚未耗盡，所以選 D。"
     ],
     "options": {
-      "A": "「全耗盡，消耗氣體比例等於氧氣含量」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「全耗盡，消耗氣體比例已超過氧氣含量 2」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「未耗盡，消耗氣體比例高於氧氣含量的3」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「未耗盡，消耗氣體比例接近氧氣含量的一半」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "耗掉 10% 原氣體，小於約 21% 的氧氣含量。",
+      "B": "消耗比例未超過原有氧氣比例。",
+      "C": "0.50/1.05 約 48%，未高於三分之二。",
+      "D": "消耗約為原氧氣量一半，仍有氧氣剩餘。"
     },
-    "trap": "【官方統計考情】全體通過率為 37.5%。錯誤選項中以 (C) 的誤選率最高（達 32%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "分母有「全部空氣」與「原氧氣」兩種，需分清。",
     "unitIds": [
       "physics-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "先算減少幾 mL，再估原本氧氣有幾 mL。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 15,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 59
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-science-50": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：能依據物質對氧的活性大小，判斷是否發生氧化還原反應",
+    "keyIdea": "依表中對氧活性，鐵不能奪走比它更活潑的碳所結合的氧。",
     "steps": [
-      "【審題定位】本題考查「氧化還原、有機物與材料」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【原理分析】依據科學原理與實驗觀察規律，分析變因之間的因果關聯與能量/物質變化。",
-      "【論證比對】將題幹數據或圖表特徵與選項對照，僅有選項 (A) 符合科學客觀事實與學科定律。"
+      "組四是 CO₂。表中碳對氧的活性大於鐵，因此鐵不易把 CO₂ 的氧奪走。",
+      "依此模型不預期鐵被 CO₂ 氧化；觀察到氣體體積略減不能直接斷定發生此氧化還原反應，選 A。"
     ],
     "options": {
-      "A": "「因鐵的活性較小，故鐵粉不會被氧化」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「因鐵的活性較小，反應後鐵粉會被氧化」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「因鐵的活性較小，反應後氣體會被氧化」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「因鐵的活性較大，反應後鐵粉會被氧化」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "鐵對氧活性小於碳，不能據此由 CO₂ 取氧而氧化。",
+      "B": "前述活性關係不支持鐵被此氣體氧化。",
+      "C": "若 CO₂ 失去氧應是還原，並非被氧化。",
+      "D": "把表中鐵與碳的活性大小顛倒。"
     },
-    "trap": "【官方統計考情】全體通過率為 41.6%。錯誤選項中以 (D) 的誤選率最高（達 23.8%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "觀察到體積變化不等於已證實預想的化學反應。",
     "unitIds": [
       "chemistry-6"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "在活性表中比較鐵與二氧化碳中的碳。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-science.pdf",
+      "page": 15,
+      "sourceSha256": "d6a4d8ad98fb7dd5bafd8a69741d0c9d8b80a80a240becf96300bcdfc4dd96f6",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-science.pdf",
+        "page": 60
+      },
+      "analysisSourceSha256": "ac242122e68ca2b228891eb21cd570671224ce505c1ce5a0b3386d979931ec67",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   }
 }

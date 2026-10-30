@@ -85,18 +85,48 @@ export function playTone(type) {
   }
 }
 
-export function speak(text, { lang = 'zh-TW', rate = 1 } = {}) {
-  if (muted || typeof window === 'undefined' || !window.speechSynthesis) return;
+let speechRun = 0;
+let speechRate = 1;
+try { speechRate = Number(globalThis.localStorage?.getItem('jh-speech-rate')) || 1; } catch {}
+export function getSpeechRate() { return speechRate; }
+export function setSpeechRate(rate) {
+  speechRate = [0.75, 1, 1.25].includes(Number(rate)) ? Number(rate) : 1;
+  try { globalThis.localStorage?.setItem('jh-speech-rate', String(speechRate)); } catch {}
+  stopSpeaking();
+}
+export function canSpeak() {
+  return typeof window !== 'undefined' && !!window.speechSynthesis && typeof SpeechSynthesisUtterance !== 'undefined';
+}
+export function speechChunks(text) {
+  return (String(text).match(/[^。！？!?\n]+[。！？!?\n]?|[。！？!?\n]/g) || [])
+    .flatMap(s => s.match(/[\s\S]{1,180}/gu) || []);
+}
+export function speak(text, { lang, rate = speechRate, onError } = {}) {
+  if (!canSpeak()) { onError?.('這個瀏覽器不支援語音朗讀，請閱讀畫面文字。'); return false; }
   try {
-    window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(String(text).slice(0, 300));
-    u.lang = lang;
-    u.rate = rate;
-    window.speechSynthesis.speak(u);
-  } catch (e) {}
+    stopSpeaking();
+    const run = speechRun;
+    const chunks = speechChunks(text);
+    const next = () => {
+      if (run !== speechRun || !chunks.length) return;
+      const chunk = chunks.shift();
+      const u = new SpeechSynthesisUtterance(chunk);
+      u.lang = lang || (/[\u3400-\u9fff]/u.test(chunk) ? 'zh-TW' : 'en-US');
+      u.rate = rate;
+      const voices = window.speechSynthesis.getVoices();
+      const voice = voices.find(v => v.lang === u.lang) || voices.find(v => v.lang.startsWith(u.lang.split('-')[0]));
+      if (voice) u.voice = voice;
+      u.onend = next;
+      u.onerror = e => { if (run === speechRun && !['canceled', 'interrupted'].includes(e.error)) onError?.('朗讀無法播放，請再試一次或閱讀文字。'); };
+      window.speechSynthesis.speak(u);
+    };
+    next();
+    return true;
+  } catch (e) { onError?.('朗讀無法播放，請閱讀畫面文字。'); return false; }
 }
 
 export function stopSpeaking() {
+  speechRun++;
   if (typeof window !== 'undefined' && window.speechSynthesis) {
     try { window.speechSynthesis.cancel(); } catch (e) {}
   }

@@ -347,7 +347,13 @@ for (const file of files) {
   const packet = JSON.parse(fs.readFileSync(packetPath, 'utf8'));
 
   const explanations = {};
+  const previousPath = path.join(explainDir, `${paper}.json`);
+  const previous = fs.existsSync(previousPath) ? JSON.parse(fs.readFileSync(previousPath, 'utf8')) : {};
   for (const q of packet.questions) {
+    if (previous[q.id]?.provenance?.status === 'ai-derived') {
+      explanations[q.id] = previous[q.id];
+      continue;
+    }
     const ans = q.answer;
     const unitIds = pickUnitIds(q, packet.subject);
     const primaryUnit = unitIds[0];

@@ -101,7 +101,9 @@
         "english-1:reasoning": [
           "build.english-1.case",
           "cq.english-1-q2",
-          "q.english-1.case.check"
+          "q.english-1.case.check",
+          "enrich.english-1.0",
+          "enrich.english-1.1"
         ],
         "english-1:mastery": [
           "info.english-1.kp3",
@@ -118,6 +120,8 @@
           "build.english-1.case",
           "cq.english-1-q2",
           "q.english-1.case.check",
+          "enrich.english-1.0",
+          "enrich.english-1.1",
           "q.english-1.pitfall",
           "cap.109-english-1",
           "cap.109-english-4"
@@ -223,7 +227,9 @@
         "english-2:reasoning": [
           "build.english-2.case",
           "cq.english-2-q2",
-          "q.english-2.case.check"
+          "q.english-2.case.check",
+          "enrich.english-2.0",
+          "enrich.english-2.1"
         ],
         "english-2:mastery": [
           "info.english-2.kp3",
@@ -238,6 +244,8 @@
           "build.english-2.case",
           "cq.english-2-q2",
           "q.english-2.case.check",
+          "enrich.english-2.0",
+          "enrich.english-2.1",
           "q.english-2.pitfall"
         ]
       }
@@ -341,7 +349,9 @@
         "english-3:reasoning": [
           "build.english-3.case",
           "cq.english-3-q2",
-          "q.english-3.case.check"
+          "q.english-3.case.check",
+          "enrich.english-3.0",
+          "enrich.english-3.1"
         ],
         "english-3:mastery": [
           "info.english-3.kp3",
@@ -356,6 +366,8 @@
           "build.english-3.case",
           "cq.english-3-q2",
           "q.english-3.case.check",
+          "enrich.english-3.0",
+          "enrich.english-3.1",
           "q.english-3.pitfall"
         ]
       }
@@ -459,7 +471,9 @@
         "english-4:reasoning": [
           "build.english-4.case",
           "cq.english-4-q2",
-          "q.english-4.case.check"
+          "q.english-4.case.check",
+          "enrich.english-4.0",
+          "enrich.english-4.1"
         ],
         "english-4:mastery": [
           "info.english-4.kp3",
@@ -474,6 +488,8 @@
           "build.english-4.case",
           "cq.english-4-q2",
           "q.english-4.case.check",
+          "enrich.english-4.0",
+          "enrich.english-4.1",
           "q.english-4.pitfall"
         ]
       }
@@ -577,7 +593,9 @@
         "english-5:reasoning": [
           "build.english-5.case",
           "cq.english-5-q2",
-          "q.english-5.case.check"
+          "q.english-5.case.check",
+          "enrich.english-5.0",
+          "enrich.english-5.1"
         ],
         "english-5:mastery": [
           "info.english-5.kp3",
@@ -592,6 +610,8 @@
           "build.english-5.case",
           "cq.english-5-q2",
           "q.english-5.case.check",
+          "enrich.english-5.0",
+          "enrich.english-5.1",
           "q.english-5.pitfall"
         ]
       }
@@ -700,7 +720,9 @@
         "english-6:reasoning": [
           "build.english-6.case",
           "cq.english-6-q2",
-          "q.english-6.case.check"
+          "q.english-6.case.check",
+          "enrich.english-6.0",
+          "enrich.english-6.1"
         ],
         "english-6:mastery": [
           "info.english-6.kp3",
@@ -717,6 +739,8 @@
           "build.english-6.case",
           "cq.english-6-q2",
           "q.english-6.case.check",
+          "enrich.english-6.0",
+          "enrich.english-6.1",
           "q.english-6.pitfall",
           "cap.111-english-1",
           "cap.111-english-23"
@@ -822,7 +846,9 @@
         "english-7:reasoning": [
           "build.english-7.case",
           "cq.english-7-q2",
-          "q.english-7.case.check"
+          "q.english-7.case.check",
+          "enrich.english-7.0",
+          "enrich.english-7.1"
         ],
         "english-7:mastery": [
           "info.english-7.kp3",
@@ -837,6 +863,8 @@
           "build.english-7.case",
           "cq.english-7-q2",
           "q.english-7.case.check",
+          "enrich.english-7.0",
+          "enrich.english-7.1",
           "q.english-7.pitfall"
         ]
       }
@@ -940,7 +968,9 @@
         "english-8:reasoning": [
           "build.english-8.case",
           "cq.english-8-q2",
-          "q.english-8.case.check"
+          "q.english-8.case.check",
+          "enrich.english-8.0",
+          "enrich.english-8.1"
         ],
         "english-8:mastery": [
           "info.english-8.kp3",
@@ -957,6 +987,8 @@
           "build.english-8.case",
           "cq.english-8-q2",
           "q.english-8.case.check",
+          "enrich.english-8.0",
+          "enrich.english-8.1",
           "q.english-8.pitfall",
           "cap.109-english-2",
           "cap.109-english-3"
@@ -1062,7 +1094,9 @@
         "english-9:reasoning": [
           "build.english-9.case",
           "cq.english-9-q2",
-          "q.english-9.case.check"
+          "q.english-9.case.check",
+          "enrich.english-9.0",
+          "enrich.english-9.1"
         ],
         "english-9:mastery": [
           "info.english-9.kp3",
@@ -1077,6 +1111,8 @@
           "build.english-9.case",
           "cq.english-9-q2",
           "q.english-9.case.check",
+          "enrich.english-9.0",
+          "enrich.english-9.1",
           "q.english-9.pitfall"
         ]
       }
@@ -1180,7 +1216,9 @@
         "english-10:reasoning": [
           "build.english-10.case",
           "cq.english-10-q2",
-          "q.english-10.case.check"
+          "q.english-10.case.check",
+          "enrich.english-10.0",
+          "enrich.english-10.1"
         ],
         "english-10:mastery": [
           "info.english-10.kp3",
@@ -1195,6 +1233,8 @@
           "build.english-10.case",
           "cq.english-10-q2",
           "q.english-10.case.check",
+          "enrich.english-10.0",
+          "enrich.english-10.1",
           "q.english-10.pitfall"
         ]
       }
@@ -1298,7 +1338,9 @@
         "english-11:reasoning": [
           "build.english-11.case",
           "cq.english-11-q2",
-          "q.english-11.case.check"
+          "q.english-11.case.check",
+          "enrich.english-11.0",
+          "enrich.english-11.1"
         ],
         "english-11:mastery": [
           "info.english-11.kp3",
@@ -1315,6 +1357,8 @@
           "build.english-11.case",
           "cq.english-11-q2",
           "q.english-11.case.check",
+          "enrich.english-11.0",
+          "enrich.english-11.1",
           "q.english-11.pitfall",
           "cap.109-english-8",
           "cap.109-english-20"
@@ -1420,7 +1464,9 @@
         "english-12:reasoning": [
           "build.english-12.case",
           "cq.english-12-q2",
-          "q.english-12.case.check"
+          "q.english-12.case.check",
+          "enrich.english-12.0",
+          "enrich.english-12.1"
         ],
         "english-12:mastery": [
           "info.english-12.kp3",
@@ -1437,6 +1483,8 @@
           "build.english-12.case",
           "cq.english-12-q2",
           "q.english-12.case.check",
+          "enrich.english-12.0",
+          "enrich.english-12.1",
           "q.english-12.pitfall",
           "cap.109-english-18",
           "cap.109-english-21"
@@ -1542,7 +1590,9 @@
         "english-13:reasoning": [
           "build.english-13.case",
           "cq.english-13-q2",
-          "q.english-13.case.check"
+          "q.english-13.case.check",
+          "enrich.english-13.0",
+          "enrich.english-13.1"
         ],
         "english-13:mastery": [
           "info.english-13.kp3",
@@ -1557,6 +1607,8 @@
           "build.english-13.case",
           "cq.english-13-q2",
           "q.english-13.case.check",
+          "enrich.english-13.0",
+          "enrich.english-13.1",
           "q.english-13.pitfall"
         ]
       }
@@ -1660,7 +1712,9 @@
         "english-14:reasoning": [
           "build.english-14.case",
           "cq.english-14-q2",
-          "q.english-14.case.check"
+          "q.english-14.case.check",
+          "enrich.english-14.0",
+          "enrich.english-14.1"
         ],
         "english-14:mastery": [
           "info.english-14.kp3",
@@ -1675,6 +1729,8 @@
           "build.english-14.case",
           "cq.english-14-q2",
           "q.english-14.case.check",
+          "enrich.english-14.0",
+          "enrich.english-14.1",
           "q.english-14.pitfall"
         ]
       }
@@ -1778,7 +1834,9 @@
         "english-15:reasoning": [
           "build.english-15.case",
           "cq.english-15-q2",
-          "q.english-15.case.check"
+          "q.english-15.case.check",
+          "enrich.english-15.0",
+          "enrich.english-15.1"
         ],
         "english-15:mastery": [
           "info.english-15.kp3",
@@ -1793,6 +1851,8 @@
           "build.english-15.case",
           "cq.english-15-q2",
           "q.english-15.case.check",
+          "enrich.english-15.0",
+          "enrich.english-15.1",
           "q.english-15.pitfall"
         ]
       }
@@ -1901,7 +1961,9 @@
         "english-16:reasoning": [
           "build.english-16.case",
           "cq.english-16-q2",
-          "q.english-16.case.check"
+          "q.english-16.case.check",
+          "enrich.english-16.0",
+          "enrich.english-16.1"
         ],
         "english-16:mastery": [
           "info.english-16.kp3",
@@ -1918,6 +1980,8 @@
           "build.english-16.case",
           "cq.english-16-q2",
           "q.english-16.case.check",
+          "enrich.english-16.0",
+          "enrich.english-16.1",
           "q.english-16.pitfall",
           "cap.111-english-1",
           "cap.111-english-23"

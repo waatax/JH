@@ -1,0 +1,1134 @@
+{
+  "version": "2026-10-29.v1",
+  "metric": "Distinct learning activities per core unit; excludes repeated boss references. Reuses verified table facts in new retrieval exercises, not new syllabus coverage.",
+  "units": [
+    {
+      "unitId": "math-1",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-2",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-3",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-4",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chinese-1",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "english-1",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chinese-7",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "english-7",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "biology-1",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "biology-2",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "biology-3",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "biology-7",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "biology-8",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "biology-14",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "history-1",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "history-2",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "geography-1",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "geography-2",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "civics-1",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "history-9",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "geography-8",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "civics-7",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "visual-1",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "music-1",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "performing-1",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "computing-1",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "technology-1",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "health-1",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "pe-1",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "home-1",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "scout-1",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "guidance-1",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "local-1",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "math-5",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-6",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-7",
+      "baselineActivities": 15,
+      "addedActivities": 2,
+      "increasePercent": 13.33
+    },
+    {
+      "unitId": "math-8",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chinese-2",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "english-2",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "chinese-8",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "english-8",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-21",
+      "baselineActivities": 13,
+      "addedActivities": 2,
+      "increasePercent": 15.38
+    },
+    {
+      "unitId": "english-13",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "biology-4",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "biology-5",
+      "baselineActivities": 15,
+      "addedActivities": 2,
+      "increasePercent": 13.33
+    },
+    {
+      "unitId": "biology-6",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "biology-9",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "biology-10",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "biology-11",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "biology-12",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "biology-13",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "history-3",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "history-4",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "geography-3",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "civics-2",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "history-13",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "geography-11",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "civics-10",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "local-2",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "math-9",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-10",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-11",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-12",
+      "baselineActivities": 13,
+      "addedActivities": 2,
+      "increasePercent": 15.38
+    },
+    {
+      "unitId": "chinese-3",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "english-3",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "chinese-9",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "english-9",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "chinese-13",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "english-14",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "physics-1",
+      "baselineActivities": 15,
+      "addedActivities": 2,
+      "increasePercent": 13.33
+    },
+    {
+      "unitId": "physics-2",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "physics-3",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chemistry-1",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chemistry-2",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "physics-8",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "physics-9",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "physics-14",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chemistry-13",
+      "baselineActivities": 13,
+      "addedActivities": 2,
+      "increasePercent": 15.38
+    },
+    {
+      "unitId": "history-5",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "geography-4",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "civics-3",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "history-10",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "geography-9",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "civics-11",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "visual-2",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "music-2",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "performing-2",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "computing-2",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "technology-2",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "health-2",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "pe-2",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "home-2",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "scout-2",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "guidance-2",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "local-3",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "math-13",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-14",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-15",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chinese-4",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "english-4",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "chinese-10",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "english-10",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "math-22",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-23",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-24",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chinese-14",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "physics-4",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chemistry-3",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chemistry-4",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chemistry-5",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "physics-10",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chemistry-7",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chemistry-8",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chemistry-9",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "chemistry-10",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chemistry-14",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "history-6",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "geography-5",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "civics-4",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "history-11",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "civics-8",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "history-14",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "geography-12",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "local-4",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "math-16",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-17",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chinese-5",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "english-5",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "math-20",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chinese-11",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "english-11",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-25",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "chinese-15",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "english-15",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "physics-5",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "physics-6",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "earth-1",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "earth-2",
+      "baselineActivities": 13,
+      "addedActivities": 2,
+      "increasePercent": 15.38
+    },
+    {
+      "unitId": "earth-3",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "earth-7",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "earth-8",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "earth-9",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "physics-15",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "earth-11",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "history-7",
+      "baselineActivities": 13,
+      "addedActivities": 2,
+      "increasePercent": 15.38
+    },
+    {
+      "unitId": "geography-6",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "civics-5",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "history-12",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "geography-10",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "civics-9",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "geography-13",
+      "baselineActivities": 13,
+      "addedActivities": 2,
+      "increasePercent": 15.38
+    },
+    {
+      "unitId": "civics-12",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-18",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-19",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chinese-6",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "english-6",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chinese-12",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "english-12",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-26",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "math-27",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chinese-16",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "english-16",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "physics-7",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chemistry-6",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "earth-4",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "earth-5",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "earth-6",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "physics-11",
+      "baselineActivities": 13,
+      "addedActivities": 2,
+      "increasePercent": 15.38
+    },
+    {
+      "unitId": "physics-12",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "physics-13",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chemistry-11",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "chemistry-12",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "earth-10",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "earth-12",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "history-8",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "geography-7",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "civics-6",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "history-15",
+      "baselineActivities": 14,
+      "addedActivities": 2,
+      "increasePercent": 14.29
+    },
+    {
+      "unitId": "visual-3",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "music-3",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "performing-3",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "computing-3",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "technology-3",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "health-3",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "pe-3",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "home-3",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "scout-3",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    },
+    {
+      "unitId": "guidance-3",
+      "baselineActivities": 12,
+      "addedActivities": 2,
+      "increasePercent": 16.67
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "checkedAt":"2026-10-28",
+  "officialIndex":"https://cap.rcpet.edu.tw/examination.html",
+  "verification":"官方年度下拉選單及各年度內嵌頁面的實際連結",
+  "subjects":["answers","notes","writing","chinese","english","listening","math","social","science"],
+  "labels":["參考答案","試題說明","寫作測驗","國文科","英語（閱讀）","英語（聽力）","數學科","社會科","自然科"],
+  "years":[
+    {"year":108,"kind":"regular","fileIds":["1M5ObFB8NhhzocLtxc11O2VREq_h1-YBb","1G4brkSQwKSVS960xoiTAQpAhO8V-q-WR","1hOalLevzC7KOVol8OqQqNZ2QPk0pWWff","1kv7IPubkZqdd4Sm9NJQ4TneXHS4Nj5Qu","1z8bQ38BFxWvXiHr_yxD6pv9UXy8sxW6v","1C630omQei1JS6Y3ePM3LA1LPk7Yd0cnV","1ouI9tIEJETAGqzh4V1OwB1t83ouA-CaH","1ZVi5WqoWsZOq83HmVSoiuy4nCxNLD54o","1BXf0z9hqcmlnefKk1XKLQQp1ec6V1azI"]},
+    {"year":107,"kind":"regular","fileIds":["1XigR8bMEJoG6lwe8yhsbKpHn3MHfUSeY","1uYkpWEpmYaoF8vFrMoEcuGOeyqOPqWjA","1IvOzDGWeI3jNXhG1EjvJFSDmQrt1dX0_","1o9HsmNT7ydexWB8IhdEeOJ47MEaSN6jq","1ToSEBw4hLa4GGonGdUUf70Dibg4juSDw","1096OHyvKv8NYOJQeIA-c_utM0jHzNZfI","1331V76tWuKofLTQ2Lx4U_pEJ6ZR4SG0J","13zTtdH_y-6OR5RDSvMfEKDSRyZe-pqPU","1liuOGMSy_z_57Gbu9psuWPxQw_8oAt32"]},
+    {"year":106,"kind":"regular","fileIds":["1SDrO_xG9MG6Kmcg1H9ibY_NM410de9VF","16HOh22LGO2laMdfIZSpXIQG-lfADP7LB","1ZUgFgSATej3dr-1SgKDRtjdmB8BJNYqD","1lkJulMy3LDaPetCw2kV0eU1K1uiK2Uqv","1hbGHVdkMmiWxIZL1c5OTO9RUUZPgMUjB","1R-YtM-r-uEKOOztWQNSREsMqnWFX25ws","10JGzIlDxgOyUmcVZVn3E5os8trXbcorr","1a2FJG15x_aFlDwJEe377et0cau-yYKK-","1nKOX2Y_Lc97oRP0CNdibx3sdWo4zWj2s"]},
+    {"year":105,"kind":"regular","fileIds":["15bDpOsfOw4ucIgdCwH5tggq7TVTlbap7","1R8cJWW0vwBg5hJI8K62tkG4L8XpN63a_","1ydZEnpnygNoXNubgstAlbH8fgtzTV8xC","1gpds3aItngE56h2nuTCYZTPWB0x_ugUn","1obYGSaLt_OTg1wVya-k__JAgZXmuKc7h","1SESQJVs6HxpjvCo2Yo0nDo3BCYRRK9nm","1dmMcIsjV1wA-UmKsQ-DiiwY-BzQx-lA1","1wbHfZbLPrt3PLizRBuCgU_AX2K6-dv1V","1MXLxdpcaTtIzNIGRHk_DBMTb5lloTDUN"]},
+    {"year":104,"kind":"regular","fileIds":["1hR_wM3y_h8iEs0lkmjoipsO3yqu-xVkh","1TWg9u9jOIC0lnwviYQF5qr07OEguBjoN","1ECeOclyCA9LpP4mM-bl83gSKWnN01lHj","12b-9611fJFQ1t-miEOxi_Hp_uJTBqsEJ","1T-dPLJfJMjQAK0JNu_kZJi5cyGlEqbtf","1TbcASZ_eGb5GceeoQOHHnf1WIjxkczTp","1bwFaAAZGPoT3GV1Bz78ExXzFpJhaSyZ4","1iH2RqmpilJ9FcMNC4_QruSUKUhhcCzKx","1_71XW7z1fj3jCzjTQsKIrkEDHyRxCzGE"]},
+    {"year":103,"kind":"regular","englishIncludesListening":true,"listeningLabel":"英語科聽力語音檔(壓縮檔)-備註","fileIds":["1hMiCEiapwaiMyU-VmjvCEvejdAZNLF5X","1MwgkILr2lEJophAtjBJhAiGmge9yx9b-","1tcSqrysMJnzUZF02aJMY99wZ_WSoK2Kn","1LHS0K2YLrDhS_jz2CULl8AnFN23h1x0M","1gY5GMYkN6BRTlYCObVfbN3HsSJD3ua9h","1S_A8p1JQDLOyBjll5xQi4FiFc41fzdw8","1eeCyDq1kTI_tYxt1BJggcJSTNjEhlBZe","1Yi7Yjp2BM-DBU0-hoOy8uynjKMttMEW6","1bcO0ssp6S2nFQvnRChlgdnampEDpB7WF"]},
+    {"year":102,"kind":"trial","englishIncludesListening":true,"listeningLabel":"英語科聽力語音檔(mp3)-備註","fileIds":["1b3Vusr5_4cJSvDx7HRbENNmmQWEr5kKH","1VXI00Eb2KozpVJ-dsfrwCBr_vuC9Pfvp","1mlP3HeETetUsrRraGe1mdFWvHm1nNhX2","1tXmtTYFd4l-IK2J5-uV-C9ZnjXMpMxzC","1ZfjE4n22gRv2pcC8rkdVfjS726tE7tgA","1mYacGxYtJ_dQNmYSTOiY4GLhrtWe9Lte","1HBt8CGHtMU4uqygNEuxf_irDtTym6nab","1866HSNENTEn9fbBTHt4io5Ky0fKWnFUa","1xuap25S0gTWHIdZR4KCzfnv9Jgejv0JH"]}
+  ],
+  "additional":[
+    {"year":105,"kind":"xindian-retest","subject":"answers","label":"新店高中考場重考參考答案","fileId":"1K3D-op0bCY_LOAPJw4uOS73AfYyPv1Ne"},
+    {"year":105,"kind":"xindian-retest","subject":"chinese","label":"新店高中考場重考國文科","fileId":"1zTjxfyN2tCJny9QAhkQbhZpwPc7bTDME"},
+    {"year":105,"kind":"xindian-retest","subject":"math","label":"新店高中考場重考數學科","fileId":"1CEa5VRMoZzaBfCfRAK6M6Sl42I_rTofy"}
+  ]
+}

@@ -171,7 +171,7 @@ test('4. Service Worker Cache & Asset Registration', () => {
   const swPath = path.join(rootDir, 'dist', 'sw.js');
   const swContent = fs.readFileSync(swPath, 'utf-8');
 
-  assert.ok(swContent.includes('zhixing-cache-v18'), 'sw.js must be updated to cache v18');
+  assert.ok(Number(swContent.match(/const CACHE_NAME = 'zhixing-cache-v(\d+)'/)?.[1]) >= 18, 'sw.js must use cache v18 or newer');
   assert.ok(swContent.includes('./periodic-exam-data.js'), 'sw.js must cache periodic-exam-data.js');
   assert.ok(swContent.includes('./periodic-exams.js'), 'sw.js must cache periodic-exams.js');
 });

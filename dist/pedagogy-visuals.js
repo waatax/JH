@@ -2,6 +2,7 @@
 // Built for Zhixing Junior Academy (108 Curriculum Comprehensive Study & Exam Prep)
 import {calculateXP, getLevelInfo, getStreakInfo, getDailyGoal, getBadgesStatus, getCapPredictedScores, getDailyQuestion} from './engagement.js';
 import {workedCases} from './worked-cases.js';
+import {getCapExplanation} from './cap-explanations.js';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -1652,158 +1653,37 @@ export function renderCurriculumAlignmentGuide() {
 // ============================================================================
 // 12. PAST PAPERS: 7-Year CAP Trend Matrix (109~115) & Literacy Evolution
 // ============================================================================
-export function renderPastpapersTrendGuide() {
-  return `
-    <section class="panel pedagogy-pastpapers-guide" aria-labelledby="pastpapers-guide-title">
-      <div class="row" style="align-items:center;margin-bottom:12px;">
-        <span class="tag accent">真題導向 · 命題洞察</span>
-        <span class="subtle">近七年 (109~115) 國中教育會考命題趨勢全景解讀</span>
-      </div>
-      <h2 id="pastpapers-guide-title" style="margin-top:0;">國中教育會考近七年命題趨勢與素養題型演進分析</h2>
-      <p class="muted">從 109 年舊課綱銜接期，到 111 年 108 課綱首屆，再到 115 年深度素養思辨，掌握命題風格演進與奪取 A++ 關鍵心法。</p>
-
-      <!-- 7-Year Trend Progression SVG Chart -->
-      <div class="pedagogy-flowchart-wrap" style="margin-bottom:18px;">
-        <div class="diagram-header">
-          <span class="diagram-icon">📈</span>
-          <div class="diagram-title-group">
-            <strong>會考長文閱讀與多模態圖表題佔比演進趨勢 (109~115)</strong>
-            <span class="subtle">題幹文字量由 32% 躍升至 68%，全面考驗資訊擷取、圖表轉換與批判驗證能力</span>
-          </div>
-        </div>
-        <div class="diagram-svg-wrap">
-          <svg class="concept-svg" viewBox="0 0 700 170" width="100%" height="auto" role="img" aria-label="會考素養演進趨勢圖">
-            <rect width="700" height="170" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
-            <!-- Coordinate axes -->
-            <line x1="60" y1="130" x2="660" y2="130" stroke="#a0b3a8" stroke-width="1.5"/>
-            <line x1="60" y1="20" x2="60" y2="130" stroke="#a0b3a8" stroke-width="1.5"/>
-            <!-- Y-axis markers -->
-            <text x="50" y="133" font-size="9" fill="#687b74" text-anchor="end">0%</text>
-            <text x="50" y="98" font-size="9" fill="#687b74" text-anchor="end">25%</text>
-            <text x="50" y="63" font-size="9" fill="#687b74" text-anchor="end">50%</text>
-            <text x="50" y="28" font-size="9" fill="#687b74" text-anchor="end">75%</text>
-            <line x1="60" y1="95" x2="660" y2="95" stroke="#edf1ee" stroke-width="1" stroke-dasharray="3,3"/>
-            <line x1="60" y1="60" x2="660" y2="60" stroke="#edf1ee" stroke-width="1" stroke-dasharray="3,3"/>
-            <line x1="60" y1="25" x2="660" y2="25" stroke="#edf1ee" stroke-width="1" stroke-dasharray="3,3"/>
-
-            <!-- Trend Bars & Points: 109: 32%, 110: 40%, 111: 52%, 112: 58%, 113: 62%, 114: 65%, 115: 68% -->
-            <!-- 109 (x=110) -->
-            <rect x="95" y="85" width="30" height="45" rx="3" fill="#e8f3fa" stroke="#3b789e" stroke-width="1.2"/>
-            <text x="110" y="79" font-size="10" font-weight="700" fill="#3b789e" text-anchor="middle">32%</text>
-            <text x="110" y="145" font-size="10" font-weight="700" fill="#223832" text-anchor="middle">109 年</text>
-
-            <!-- 110 (x=195) -->
-            <rect x="180" y="74" width="30" height="56" rx="3" fill="#e8f3fa" stroke="#3b789e" stroke-width="1.2"/>
-            <text x="195" y="68" font-size="10" font-weight="700" fill="#3b789e" text-anchor="middle">40%</text>
-            <text x="195" y="145" font-size="10" font-weight="700" fill="#223832" text-anchor="middle">110 年</text>
-
-            <!-- 111 (x=280) 108 Curriculum First Year -->
-            <rect x="265" y="57" width="30" height="73" rx="3" fill="#e6f3eb" stroke="#45825b" stroke-width="1.4"/>
-            <text x="280" y="51" font-size="10" font-weight="800" fill="#45825b" text-anchor="middle">52%</text>
-            <text x="280" y="145" font-size="10" font-weight="800" fill="#45825b" text-anchor="middle">111 年*</text>
-
-            <!-- 112 (x=365) -->
-            <rect x="350" y="49" width="30" height="81" rx="3" fill="#e6f3eb" stroke="#45825b" stroke-width="1.2"/>
-            <text x="365" y="43" font-size="10" font-weight="700" fill="#45825b" text-anchor="middle">58%</text>
-            <text x="365" y="145" font-size="10" font-weight="700" fill="#223832" text-anchor="middle">112 年</text>
-
-            <!-- 113 (x=450) -->
-            <rect x="435" y="43" width="30" height="87" rx="3" fill="#fdf4e3" stroke="#c4821a" stroke-width="1.2"/>
-            <text x="450" y="37" font-size="10" font-weight="700" fill="#c4821a" text-anchor="middle">62%</text>
-            <text x="450" y="145" font-size="10" font-weight="700" fill="#223832" text-anchor="middle">113 年</text>
-
-            <!-- 114 (x=535) -->
-            <rect x="520" y="39" width="30" height="91" rx="3" fill="#fdf4e3" stroke="#c4821a" stroke-width="1.2"/>
-            <text x="535" y="33" font-size="10" font-weight="700" fill="#c4821a" text-anchor="middle">65%</text>
-            <text x="535" y="145" font-size="10" font-weight="700" fill="#223832" text-anchor="middle">114 年</text>
-
-            <!-- 115 (x=620) -->
-            <rect x="605" y="35" width="30" height="95" rx="3" fill="#fdedeb" stroke="#b84735" stroke-width="1.5"/>
-            <text x="620" y="29" font-size="10" font-weight="800" fill="#b84735" text-anchor="middle">68%</text>
-            <text x="620" y="145" font-size="10" font-weight="800" fill="#b84735" text-anchor="middle">115 年 (現行)</text>
-
-            <!-- Connecting trend line -->
-            <polyline points="110,85 195,74 280,57 365,49 450,43 535,39 620,35" fill="none" stroke="#b84735" stroke-width="2.2" stroke-linecap="round"/>
-            <circle cx="110" cy="85" r="3.5" fill="#3b789e"/>
-            <circle cx="195" cy="74" r="3.5" fill="#3b789e"/>
-            <circle cx="280" cy="57" r="4" fill="#45825b"/>
-            <circle cx="365" cy="49" r="3.5" fill="#45825b"/>
-            <circle cx="450" cy="43" r="3.5" fill="#c4821a"/>
-            <circle cx="535" cy="39" r="3.5" fill="#c4821a"/>
-            <circle cx="620" cy="35" r="4.5" fill="#b84735"/>
-          </svg>
-        </div>
-      </div>
-
-      <div class="table-wrap">
-        <table class="teaching-table">
-          <caption>國中教育會考近七年（109~115）命題趨勢與素養題佔比分析表</caption>
-          <thead>
-            <tr>
-              <th scope="col" style="width:12%;">會考年度</th>
-              <th scope="col" style="width:15%;">課綱階段與定位</th>
-              <th scope="col" style="width:38%;">試題風格特徵與重大變化</th>
-              <th scope="col" style="width:12%;">長文圖表佔比</th>
-              <th scope="col" style="width:23%;">頂標 A++ 奪分突破關鍵</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">109 年 (2020)</th>
-              <td>九年一貫末期 (銜接期)</td>
-              <td>重視學科基本核心定義與標準題型運算，傳統名詞背誦與公式帶入型題目仍佔一定比重；該年因疫情英聽停考。</td>
-              <td>約 32%</td>
-              <td>掌握課本核心概念與基礎計算熟練度，避免粗心計算失誤。</td>
-            </tr>
-            <tr>
-              <th scope="row">110 年 (2021)</th>
-              <td>課綱交替過渡年</td>
-              <td>試題情境化比例提高，科普長篇閱讀題增多，數學開始出現跨學科（如自然現象、生活統計）情境非選題。</td>
-              <td>約 40%</td>
-              <td>培養 500 字以上長篇題幹快速提煉已知條件與核心問題的能力。</td>
-            </tr>
-            <tr>
-              <th scope="row" style="color:#2d5c48;">111 年 (2022)</th>
-              <td>108 課綱首屆會考</td>
-              <td>正式迎來素養導向命題里程碑！跨領域長篇題組大幅增加，非連續文本（圖表、地圖、數據看板）成為命題標配。</td>
-              <td>約 52%</td>
-              <td>徹底擺脫死背公式，學會由情境題幹抽離出數學幾何模型與物理因果鏈。</td>
-            </tr>
-            <tr>
-              <th scope="row">112 年 (2023)</th>
-              <td>素養題型成熟深化</td>
-              <td>雙文本對照閱讀、多圖表綜合判讀題型成熟；理化地科實驗題強調變因控制與探究假設檢驗，選項干擾性增加。</td>
-              <td>約 58%</td>
-              <td>精準閱讀圖表坐標軸單位與圖例，練習雙文本觀點比較與邏輯推論。</td>
-            </tr>
-            <tr>
-              <th scope="row">113 年 (2024)</th>
-              <td>探究實作全面開花</td>
-              <td>自然科實驗題組比例創高，數學非選題融入真實生活決策（如租車方案最優化、公共工程統計），重視文字論述完整性。</td>
-              <td>約 62%</td>
-              <td>數學非選題必須完整寫出「定義假設 ➔ 列式運算 ➔ 合理解釋說明」之三段式結構。</td>
-            </tr>
-            <tr>
-              <th scope="row">114 年 (2025)</th>
-              <td>多模態與數位時代素養</td>
-              <td>題目取材高度契合現代生活（假訊息辨識、氣候變遷因應、AI 數位倫理），文字量大但雜訊多，考驗資訊過濾敏銳度。</td>
-              <td>約 65%</td>
-              <td>練就「圈出題幹核心關鍵字」與「迅速排除題目贅述雜訊」的高速審題直覺。</td>
-            </tr>
-            <tr>
-              <th scope="row" style="color:#b84735;">115 年 (2026)</th>
-              <td>深度素養與決策思辨 (現行)</td>
-              <td>全面聚焦高層次認知（布魯姆分類之分析、評鑑與創造），跨學科融合題普及，非連續文本與真實情境決策佔絕對主導。</td>
-              <td>約 68%</td>
-              <td>回歸各科底層心智模型，解題時兼具宏觀概念架構與微觀防呆驗算能力。</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-  `;
+export function renderPastpapersTrendGuide(bank = {questions:[]}) {
+  const years=[...new Set(bank.questions.map(q=>q.year))].sort((a,b)=>a-b);
+  const rows=years.map(year=>{
+    const questions=bank.questions.filter(q=>q.year===year);
+    return {year,total:questions.length,ai:questions.filter(q=>getCapExplanation(q).ready).length,
+      papers:new Set(questions.map(q=>q.subject)).size,written:questions.filter(q=>q.kind==='written').length};
+  });
+  const max=Math.max(1,...rows.map(row=>row.total));
+  return `<section class="panel pedagogy-pastpapers-guide" aria-labelledby="pastpapers-guide-title">
+    <h2 id="pastpapers-guide-title">各年度題庫收錄與 AI 解析進度</h2>
+    <p class="muted">依目前題庫逐題計數。收錄題數包含數學非選擇題；AI 解析數表示已有具體推導稿，尚未經外部教師複核。</p>
+    <div class="pedagogy-flowchart-wrap">
+      <svg class="concept-svg" viewBox="0 0 700 ${Math.max(90,rows.length*42+46)}" role="img" aria-label="各年度收錄題數與 AI 解析題數">
+        <rect width="700" height="100%" rx="10" fill="#fbfcfb"/>
+        ${rows.map((row,i)=>`<g transform="translate(0,${i*42+30})">
+          <text x="8" y="11" font-size="14" fill="#223832">${row.year} 年</text>
+          <rect x="75" y="0" width="${row.total/max*480}" height="12" rx="3" fill="#c3d9e7"/>
+          <rect x="75" y="15" width="${row.ai/max*480}" height="12" rx="3" fill="#45825b"/>
+          <text x="565" y="11" font-size="12" fill="#223832">收錄 ${row.total} 題</text>
+          <text x="565" y="26" font-size="12" fill="#2d5c48">AI 解析 ${row.ai} 題</text>
+        </g>`).join('')}
+      </svg>
+    </div>
+    <div class="table-wrap"><table class="teaching-table">
+      <caption>既有互動題庫的實際收錄與解析題數</caption>
+      <thead><tr><th scope="col">年度</th><th scope="col">考科卷數</th><th scope="col">收錄題數</th><th scope="col">數學非選題數</th><th scope="col">AI 解析題數</th></tr></thead>
+      <tbody>${rows.map(row=>`<tr><th scope="row">${row.year} 年</th><td>${row.papers}</td><td>${row.total}</td><td>${row.written}</td><td>${row.ai}</td></tr>`).join('')}</tbody>
+    </table></div>
+    <p class="small muted">練習順序：讀完整題組與圖表 → 列出條件 → 作答 → 對照官方答案與 AI 解析 → 練習相關題目。</p>
+  </section>`;
 }
-
 // ============================================================================
 // 13. HABIT DASHBOARD: Daily Streak, Level XP, Daily Goal & CAP 5-Subject Meter
 // ============================================================================

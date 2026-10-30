@@ -1,464 +1,800 @@
 {
   "115-listening-1": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：辨認句意",
+    "keyIdea": "同時辨認 sailing his boat 與 terrible weather 兩項條件。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「The man is sailing his boat in terrible weather.」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (C) 最精準符合聽力語意與核心問題，故選 (C)。"
+      "錄音描述男子正在惡劣天氣中駕船，必須同時看到人在船上與風雨。",
+      "C 有男子在風雨中操船；A 天晴，B 的男子已落水，皆少了一項條件，故選 C。"
     ],
     "options": {
-      "A": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "正確。完全符合題幹核心要求與推導結論。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "有男子在船上，但天氣晴朗。",
+      "B": "雖有風雨，男子卻在水中，非正在船上操船。",
+      "C": "人在船上操船，且風浪、雨雲對應惡劣天氣。"
     },
-    "trap": "【官方統計考情】全體通過率為 83.6%。錯誤選項中以 (B) 的誤選率最高（達 10.4%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "不能只聽 weather 就忽略正在進行的動作。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "檢查人在哪裡，以及天氣如何。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 2,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 4
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-2": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：辨認句意",
+    "keyIdea": "同時核對門牌數字與門上的物件。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「There is a bell on the door of Apartment No. 77.」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (C) 最精準符合聽力語意與核心問題，故選 (C)。"
+      "錄音指定 Apartment No. 77，門上有 bell（鈴）。",
+      "C 同時有門牌 77 與鈴；A 是 17，B 的 77 號門上是信件，故選 C。"
     ],
     "options": {
-      "A": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "正確。完全符合題幹核心要求與推導結論。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "有鈴，但門牌 17 與 77 不符。",
+      "B": "門牌正確，但門上顯示信件而非鈴。",
+      "C": "門牌 77 與鈴兩項皆符合。"
     },
-    "trap": "【官方統計考情】全體通過率為 85.5%。錯誤選項中以 (B) 的誤選率最高（達 13.08%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "seventeen 與 seventy-seven 要分辨清楚。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "先聽數字，再比對門上的東西。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 2,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 5
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-3": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：辨認句意",
+    "keyIdea": "both 表示女孩與狗都正在用餐。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「The little girl and her dog are both enjoying their meal.」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (C) 最精準符合聽力語意與核心問題，故選 (C)。"
+      "錄音的 both enjoying their meal 指女孩與狗兩者都在享用食物。",
+      "C 女孩吃東西、狗也在食盆進食；A 只有女孩吃，B 只是想像食物，故選 C。"
     ],
     "options": {
-      "A": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "正確。完全符合題幹核心要求與推導結論。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "只有女孩正在進食，狗未用餐。",
+      "B": "兩者在想像食物，並未實際用餐。",
+      "C": "女孩與狗都正在吃東西，符合 both。"
     },
-    "trap": "【官方統計考情】全體通過率為 83.4%。錯誤選項中以 (B) 的誤選率最高（達 9.95%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "圖中的想像泡泡不等於正在進行的動作。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "留意 both 與 enjoying their meal。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 3,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 6
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-4": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：指出單句的溝通功能",
+    "keyIdea": "What holiday ... the best 詢問最喜歡的節日。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「What holiday do you like the best?」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (B) 最精準符合聽力語意與核心問題，故選 (B)。"
+      "問句要的是節日偏好，回答須說明哪個節日最喜歡。",
+      "B 的 Halloween is my favorite 直接回答最愛萬聖節，選 B。"
     ],
     "options": {
-      "A": "「Easter is coming.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「Halloween is my favorite.」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「I’d like a watch for my birthday.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "只說復活節快到了，未回答偏好。",
+      "B": "my favorite 對應 like the best。",
+      "C": "說明生日想要的禮物，未回答喜歡的節日。"
     },
-    "trap": "【官方統計考情】全體通過率為 80.4%。錯誤選項中以 (C) 的誤選率最高（達 11.45%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "holiday 與 birthday gift 不是同一個提問。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出表達「最喜歡」的語句。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 3,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 7
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-5": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：指出單句的溝通功能",
+    "keyIdea": "辨認一起看電影的邀請及接受邀請的回應。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「Do you want to see a movie together?」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (B) 最精準符合聽力語意與核心問題，故選 (B)。"
+      "Do you want to see a movie together? 是邀請對方一起看電影。",
+      "Sure, why not? 表示「當然好」，可直接接受邀請，選 B。"
     ],
     "options": {
-      "A": "「I don’t, either.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「Sure, why not?」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「It is a great movie.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "either 用於呼應否定；問句未表達否定意見。",
+      "B": "自然地接受一起看電影的邀請。",
+      "C": "只評論電影很好看，未直接回應是否同行。"
     },
-    "trap": "【官方統計考情】全體通過率為 77.3%。錯誤選項中以 (A) 的誤選率最高（達 13.18%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "不要將對電影的評價誤當成接受邀請。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出表達同意參加的回應。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 3,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 8
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-6": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：指出單句的溝通功能",
+    "keyIdea": "What should we bring 詢問應攜帶的物品。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「What should we bring to the dinner party?」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (C) 最精準符合聽力語意與核心問題，故選 (C)。"
+      "對方詢問晚宴應該帶什麼，回答須提出可攜帶的東西。",
+      "C 建議帶巧克力蛋糕，符合提問，選 C。"
     ],
     "options": {
-      "A": "「Thank you for the pie.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「Who do you want to invite?」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「Some chocolate cake would be good.」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "感謝派是收到食物後的回應，非提出攜帶建議。",
+      "B": "改問邀請誰，沒有回答攜帶物品。",
+      "C": "巧克力蛋糕是具體可帶去的食物。"
     },
-    "trap": "【官方統計考情】全體通過率為 78.2%。錯誤選項中以 (B) 的誤選率最高（達 11.12%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "bring 與 invite 的受詞不同。",
     "unitIds": [
       "english-12"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "問句核心是帶什麼，而非邀請誰。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 3,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 9
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-7": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：指出單句的溝通功能",
+    "keyIdea": "將 going to bed 與道晚安的情境連結。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「I'm going to bed now. I'll see you in the morning.」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (A) 最精準符合聽力語意與核心問題，故選 (A)。"
+      "說話者現在要睡覺，並說明早上再見。",
+      "A 的 Good night 是此刻最恰當的回應，選 A。"
     ],
     "options": {
-      "A": "「All right. Good night.」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「Good morning to you, too.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「OK, be careful on the road.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "道晚安符合即將睡覺的情境。",
+      "B": "早上才再見，現在不應說早安。",
+      "C": "對方要睡覺，並非外出上路。"
     },
-    "trap": "【官方統計考情】全體通過率為 72.1%。錯誤選項中以 (B) 的誤選率最高（達 14.5%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "morning 是下一次見面的時間，不是現在。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "先判斷說話者此刻要做的事。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 4,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 10
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-8": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：指出單句的溝通功能",
+    "keyIdea": "確認傘的所有權，辨認 yours 與 mine 的對應。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「Excuse me. Is this your umbrella? It was under the table you were at.」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (A) 最精準符合聽力語意與核心問題，故選 (A)。"
+      "Is this your umbrella? 問這把傘是否屬於對方；桌子只是說明發現地點。",
+      "A 的 No, it’s not mine 表示不是自己的傘，直接回答，選 A。"
     ],
     "options": {
-      "A": "「No, it’s not mine.」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「No, it’s not raining.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「No, it’s not my table.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "mine 代替 my umbrella，正確回應所有權。",
+      "B": "是否下雨與傘的所有權無關。",
+      "C": "否認桌子是自己的，弄錯問句主體。"
     },
-    "trap": "【官方統計考情】全體通過率為 78.6%。錯誤選項中以 (C) 的誤選率最高（達 12.66%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "under the table 是背景資訊，並非問桌子歸誰。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出問句中的主要名詞 umbrella。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 4,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 11
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-9": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：指出單句的溝通功能",
+    "keyIdea": "接受對方對禮物的感謝與喜愛。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「Thanks so much for the camera. It’s the best Christmas gift ever!」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (A) 最精準符合聽力語意與核心問題，故選 (A)。"
+      "對方感謝收到相機，並稱它是最棒的聖誕禮物。",
+      "A 表示很高興對方喜歡，最貼合贈禮者的回應，選 A。"
     ],
     "options": {
-      "A": "「I’m glad you like it.」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「How was your Christmas?」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「You look good in the photos.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "自然回應對方喜歡禮物的心情。",
+      "B": "改問聖誕節過得如何，未接續對禮物的感謝。",
+      "C": "錄音未提到已拍好的照片，無法接成此回應。"
     },
-    "trap": "【官方統計考情】全體通過率為 78.2%。錯誤選項中以 (B) 的誤選率最高（達 11.13%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "相機不代表對方已經拿出照片給人看。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "注意對方是在道謝與稱讚禮物。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 4,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 12
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-10": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：指出單句的溝通功能",
+    "keyIdea": "finally finished 表示經過長時間努力後已完成。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「I finally finished my painting for the City Art Festival. After so many months!」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (B) 最精準符合聽力語意與核心問題，故選 (B)。"
+      "說話者花了好幾個月，終於完成參加藝術節的畫。",
+      "B 的 You should be proud of yourself 肯定其成果，選 B。"
     ],
     "options": {
-      "A": "「How much time do you need?」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「You should be proud of yourself.」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「I’m surprised you haven’t started.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "詢問還需要多少時間，與已完成的狀態不符。",
+      "B": "肯定努力完成作品的成果。",
+      "C": "說對方還沒開始，與 finally finished 相反。"
     },
-    "trap": "【官方統計考情】全體通過率為 75.6%。錯誤選項中以 (C) 的誤選率最高（達 13.07%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "finished 是完成，不能誤聽成尚未開始。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "抓住 finally finished 與 so many months。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 4,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 13
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-11": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：指出單句的溝通功能",
+    "keyIdea": "Has anyone said ... 詢問是否有人曾作過相貌比較。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「Has anyone said you look like the handsome doctor in the movie The Big Hospital?」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (B) 最精準符合聽力語意與核心問題，故選 (B)。"
+      "問句是「有人說過你像電影裡的帥醫生嗎」，並非問想不想當醫生。",
+      "B 說「其實你是第一個」，表示以前未被這樣說過，完整回應，選 B。"
     ],
     "options": {
-      "A": "「Yes. Did you like it?」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「Actually, you’re the first one.」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「No, I don’t want to be a doctor.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "Did you like it? 改問喜不喜歡電影，未清楚接續相貌比較。",
+      "B": "you’re the first one 表示此前沒有人說過。",
+      "C": "回答不想當醫生，把 look like 誤解成職業志願。"
     },
-    "trap": "【官方統計考情】全體通過率為 61.4%。錯誤選項中以 (C) 的誤選率最高（達 21.43%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "look like 是看起來像，不是想成為。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "區分外貌比較與職業。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 4,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 14
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-12": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：推論言談的主題、大意、目的等整體的訊息",
+    "keyIdea": "分辨已結束的打掃與接下來的體育課地點。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「(The school bell rings) Hey everyone, cleaning time is over. Don’t forget to put your cleaning tools back. It’s raining now, so Mr. Lee says we’ll have PE class in the gym, not on the school playground. Hurry up! Question: What is the boy telling his class to do?」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (A) 最精準符合聽力語意與核心問題，故選 (A)。"
+      "廣播先說 cleaning time is over，打掃已結束；因下雨，體育課改在 gym。",
+      "說話者催大家趕快去體育館，不是在操場集合或繼續打掃，選 A。"
     ],
     "options": {
-      "A": "「To go to the gym.」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「To clean their classroom.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「To meet at the playground.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "gym 是改過後的上課地點。",
+      "B": "打掃時間已結束，接下來只需收好工具。",
+      "C": "not on the school playground 明確否定操場。"
     },
-    "trap": "【官方統計考情】全體通過率為 72.0%。錯誤選項中以 (B) 的誤選率最高（達 16.51%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "題目問接下來要做什麼，不能選已完成的工作。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "注意 over、in the gym、not on the playground。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 4,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 15
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-13": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：轉述言談中明確說出的事實或訊息",
+    "keyIdea": "依最後達成的決定判斷看電影時間。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「W: This is crazy. I don’t want to wait in such a long line just to get tickets to a movie. M: I didn’t expect so many people to be interested in this movie. W: Are you sure you want to see it today? Can we come some other time? M: Oh, please (begging). I’ll be super busy next week and won’t have time. And I don’t want to wait until it plays on TV. It’ll be more exciting to see this movie on the big screen! W: All right, all right. M: I can wait. Why don’t you go look around the area? I’ll call you when I get the tickets. W: Good idea. Question: When do the man and woman decide to see the movie?」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (A) 最精準符合聽力語意與核心問題，故選 (A)。"
+      "男子表示下週很忙，也不願等到電視播出，希望今天在大銀幕看。",
+      "女子最後同意，男子留下排隊、買到票後打電話，表示兩人仍決定今天看，選 A。"
     ],
     "options": {
-      "A": "「Today.」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「Next week.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「When it plays on TV.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "最後的買票安排支持今天看電影。",
+      "B": "下週很忙是男子排除延後的理由。",
+      "C": "男子明確說不想等到電視播出。"
     },
-    "trap": "【官方統計考情】全體通過率為 66.9%。錯誤選項中以 (C) 的誤選率最高（達 17.62%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "對話中出現的時間選項可能是被否決的方案。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "判斷最後的行動安排，而非只抓到時間單字。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 5,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 16
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-14": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：推論言談的主題、大意、目的等整體的訊息",
+    "keyIdea": "廣告核心訴求是安排眼睛健康檢查。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「(jingles) Between your work, your friends and family, life can be very busy. But it is time for you to stop and ask yourself this: When was the last time you had the doctor check your eyes? Millions of people in our country have common eye problems and don’t even know it. Remember, your eyes are the windows to your health. Take time for yourself and plan a visit to the hospital. For more information, please visit www.nec.nch.gov. Question: What does the woman want people to do?」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (B) 最精準符合聽力語意與核心問題，故選 (B)。"
+      "內容詢問上次由醫師檢查眼睛的時間，並指出許多人有眼睛問題卻不自知。",
+      "結尾鼓勵安排就醫，因此主要目的是請人檢查眼睛健康，選 B。"
     ],
     "options": {
-      "A": "「Use their time well.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「Check their eye health.」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「Follow rules during a hospital visit.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "忙碌只是引入主題，並非時間管理建議。",
+      "B": "check your eyes 與 eye problems 直接支持眼部健康檢查。",
+      "C": "內容沒有交代就醫期間須遵守的規則。"
     },
-    "trap": "【官方統計考情】全體通過率為 77.4%。錯誤選項中以 (C) 的誤選率最高（達 15.08%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "開場的生活忙碌是背景，主題在後面的健康呼籲。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "找反覆出現的器官與行動建議。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 5,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 17
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-15": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：推論言談的主題、大意、目的等整體的訊息",
+    "keyIdea": "從兩人的語氣及手機獎勵落空推論考試表現。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「G: Did you do well on the test yesterday? B: (frustrated) I don’t want to talk about it. You did well, didn’t you? G: Well, I… B: Oh, wait, no, don’t tell me. I don’t want to feel worse about myself. G: Well, my dad said he would buy me a new cellphone if I got a good grade on the test. Now I can kiss that cellphone goodbye. Maybe I won’t even be able to keep my old cellphone when he knows about my grade. B: Life is hard. G: Tests are harder. Question: How did the boy and the girl do on the test yesterday?」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (A) 最精準符合聽力語意與核心問題，故選 (A)。"
+      "男生不願談成績，也不想聽女生說得好而更難過，表示自己考差。",
+      "女生說新手機獎勵已無望，甚至擔心舊手機保不住，表示她也未考好；因此兩人都考差，選 A。"
     ],
     "options": {
-      "A": "「They both did badly.」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「The boy did badly, but the girl did well.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「The boy did well, but the girl did badly.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "兩人的負面表述皆支持考差。",
+      "B": "女生的手機獎勵落空，並非考好。",
+      "C": "男生不想談成績且擔心更難過，並非考好。"
     },
-    "trap": "【官方統計考情】全體通過率為 67.9%。錯誤選項中以 (B) 的誤選率最高（達 20.32%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "kiss that cellphone goodbye 是與獎勵告別，不能按字面理解。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "把兩人的成績線索分開整理。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 5,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 18
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-16": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：推論說話者意見",
+    "keyIdea": "區分別人對大城市的想法與男子自己的感受。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「W: Hey, I haven’t seen you for a while! M: Yeah, I moved to Lake City for work. I just came back to see some friends. W: Lake City, huh? Life in a big city must be very exciting. M: (half-hearted) Yeah, well, I guess you could say that. Most people think so. W: But you don’t? M: Well, Lake City is different. W: Different? M: Yeah. It’s not home. W: And you miss home. M: Yeah. Question: How does the man feel about his life in Lake City?」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (C) 最精準符合聽力語意與核心問題，故選 (C)。"
+      "女子認為大城市很刺激，男子卻語帶保留，說很多人如此認為，並未真心附和。",
+      "男子接著說 Lake City 不是家，並承認想家，顯示他並不真正享受那裡的生活，選 C。"
     ],
     "options": {
-      "A": "「He misses it.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「He feels excited about it.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「He doesn’t really enjoy it.」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "他想念的是家鄉，不是 Lake City 的生活。",
+      "B": "exciting 是女子的預想，男子未認同。",
+      "C": "保留語氣與想家支持不太享受當地生活。"
     },
-    "trap": "【官方統計考情】全體通過率為 70.9%。錯誤選項中以 (A) 的誤選率最高（達 16.55%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "不能把提問者的看法直接當成受訪者的感受。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "注意 But you don’t? 與 It’s not home。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 5,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 19
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-17": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：根據上下文猜測字詞的意義",
+    "keyIdea": "由後續的具體抱怨推知 for the birds 的意思。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「W: Have you tried the new restaurant? M: Yeah, it’s very popular and I waited over an hour to get in. W: How did you like it? M: It was for the birds. W: Why do you say that? M: My French fries were actually swimming in oil so I left most of them. And the restaurant owner didn’t do anything after his dog jumped up on my table and had a bite of my bread. W: That’s the most interesting dining experience I’ve heard. Question: Why does the man say the new restaurant was “for the birds”?」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (B) 最精準符合聽力語意與核心問題，故選 (B)。"
+      "男子抱怨薯條油膩到像在油中游泳，且老闆放任狗跳上桌吃麵包。",
+      "前者是食物品質問題，後者是服務問題，故此處 for the birds 表示很差，選 B。"
     ],
     "options": {
-      "A": "「It gave very little food.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「Its food and service were bad.」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「It allowed people to bring their pets.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "抱怨油膩及衛生服務，並未說食物份量太少。",
+      "B": "食物與服務不好都有明確證據。",
+      "C": "重點是老闆未處理狗上桌的行為，非單純允許帶寵物。"
     },
-    "trap": "【官方統計考情】全體通過率為 61.4%。錯誤選項中以 (C) 的誤選率最高（達 25.31%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "不熟的片語可由後文例子推義，無須照字面翻成鳥。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "列出男子提出的兩個負面例子。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 5,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 20
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-18": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：轉述言談中明確說出的事實或訊息",
+    "keyIdea": "分辨男子的提議與女子最後選擇。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「M: Rita has written a lot of things about you on the Internet. Did you know that? W: Yeah, I’ve read them and they are not true. M: I know. What are you going to do? I’m on your side if you want to start a fight with her. W: Why should I? I have better things to do than thinking of ways to deal with her. M: Like what? W: Like cook a big meal for myself and play with my cat. M: Maybe you should at least talk to her and ask her to stop? W: Well, words only hurt when they come from someone I care about. Rita is not my friend. Question: What is the woman going to do to deal with Rita?」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (A) 最精準符合聽力語意與核心問題，故選 (A)。"
+      "男子先後提議吵架或要求 Rita 停止；女子都未採納，表示有更好的事可做。",
+      "她準備煮飯、陪貓，並說不在乎 Rita 的話，因此不打算採取行動處理 Rita，選 A。"
     ],
     "options": {
-      "A": "「Nothing.」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「Start a fight with her.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「Talk to her and ask her to stop.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "女子選擇不理會 Rita，符合最後態度。",
+      "B": "吵架是男子提議，女子反問為何要這樣做。",
+      "C": "要求停止也是男子的建議，女子沒有答應。"
     },
-    "trap": "【官方統計考情】全體通過率為 67.5%。錯誤選項中以 (C) 的誤選率最高（達 16.32%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "題目問女子會做什麼，不能選另一人的建議。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "追蹤女子的回應，而非男子提出的方案。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 5,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 21
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-19": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：推論說話者意見",
+    "keyIdea": "用上一次旅行的實際行為理解女子的疑慮。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「W: Lewis, the trip is tomorrow. Have you packed everything you need? B: I’ve got almost everything ready. Maybe one more pair of jeans and some books. W: Why are you bringing books with you? We’re going abroad on a vacation. B: I’m thinking of reading on the plane. And when we’re back in the hotel, I’ll read, too. W: You said the same thing last time. But you just watched movies on the plane. And in the hotel, you were too busy with your smartphone. The books you brought sat in your bag the whole time. B: I’ll read this time. W: Then bring just one. Question: What does the woman think when the boy said he was bringing books on a vacation?」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (A) 最精準符合聽力語意與核心問題，故選 (A)。"
+      "男孩說會在飛機與旅館讀書，女子指出上次他也這樣說，最後卻看電影、玩手機，書一直留在袋裡。",
+      "女子因此懷疑這次也不會讀，只允許帶一本，最符合 A。"
     ],
     "options": {
-      "A": "「He will not read them.」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「He is studying too hard.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「He knows how to enjoy his vacation.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "先前的反例說明女子認為他可能不會讀。",
+      "B": "女子批評的是沒讀書，不是讀得太努力。",
+      "C": "女子在質疑帶書的必要，未稱讚他懂得享受假期。"
     },
-    "trap": "【官方統計考情】全體通過率為 67.1%。錯誤選項中以 (C) 的誤選率最高（達 17.58%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "男孩說的讀書計畫不等於女子相信的結果。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "比較男孩的承諾與女子提起的舊經驗。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 5,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 22
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-20": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：推論說話者意見",
+    "keyIdea": "由男孩最後接受的說法判斷交通方式。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「G: Let’s go to the new ice cream shop. B: Yeah! But… it’s so hot today. I don’t want to walk. G: I can ride my bike and you can sit on the back. B: What? But people will see! I’m your big brother! G: So? Can you ride a bike? B: No…. But your bike is small and my legs are too long. G: I’m sure you can keep your feet off the ground. B: But I’ll look stupid…. G: Or you could walk. It’s only fifteen minutes away. B: You know what, I think it isn’t so bad to keep my feet off the ground for once. Question: How will the boy and the girl go to the ice cream shop?」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (B) 最精準符合聽力語意與核心問題，故選 (B)。"
+      "女孩提議騎車載哥哥；哥哥不會騎車、又嫌走路太熱，一開始因面子與腿長而拒絕。",
+      "最後他說偶爾把腳抬離地面也不壞，表示接受坐後座，由女孩載他，選 B。"
     ],
     "options": {
-      "A": "「They will each ride their own bikes.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「The girl will give the boy a ride on her bike.」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「The girl will ride a bike and the boy will walk.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "男孩明說不會騎車，無法各騎一輛。",
+      "B": "最後接受女孩騎車、男孩坐後座的方案。",
+      "C": "步行是替代方案，但男孩最後接受搭車。"
     },
-    "trap": "【官方統計考情】全體通過率為 51.1%。錯誤選項中以 (C) 的誤選率最高（達 36.21%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "對話最後可能改變最初態度。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "注意最後一句 keep my feet off the ground。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 5,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 23
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-listening-21": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：推論說話者意見",
+    "keyIdea": "綜合三位受訪者對鐵路地下化的態度。",
     "steps": [
-      "【聽力理解】本題官方錄音稿內容為：「(News intro) Anchor: Welcome back. Next on the news: Sunshine City has finally decided to move its trains underground. Let’s listen to what people say about the new plan. Old man: You know, the trains share the streets with all the cars and buses. The traffic is always terrible. Finally, somebody’s doing something about it. Woman: I have waited so long for this change. Every day when I drive to work, I need to stop many times for trains to pass. It takes me so much time to get to work. Young man: I think everyone will love it. When the trains start running underground, our driving time will be cut in half. Question: What do these three people think of Sunshine City’s new plan?」。",
-      "【關鍵訊息】從語音對話中擷取關鍵情境字詞與動態線索，辨析各選項之對應關係。",
-      "【正確判斷】對照錄音細節，選項 (A) 最精準符合聽力語意與核心問題，故選 (A)。"
+      "老先生說終於有人處理交通問題，女子說等了很久，年輕男子認為開車時間可減半。",
+      "三人都以改善交通為理由支持計畫，態度一致且正面，選 A。"
     ],
     "options": {
-      "A": "「They are happy about it.」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「They don’t care about it.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「They think differently about it. 聽力試題播音完畢」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "三人皆期待交通改善，支持計畫。",
+      "B": "三人都有明確評論，並非不在乎。",
+      "C": "理由略有不同，但支持態度一致，非意見相反。"
     },
-    "trap": "【官方統計考情】全體通過率為 41.1%。錯誤選項中以 (C) 的誤選率最高（達 45.45%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "不同的支持理由不代表對計畫持不同立場。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "把每位受訪者的態度標成正面或負面。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-listening.pdf",
+      "page": 6,
+      "sourceSha256": "edd76468e809b46a4a694533c3aade3ccd77d43049977781351c5e1e8e80f12a",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-listening.pdf",
+        "page": 24
+      },
+      "analysisSourceSha256": "68cca593cf235a6aee5af6e11ac0ee405df2c79c1f6e2c812b590a4484d6802f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   }
 }

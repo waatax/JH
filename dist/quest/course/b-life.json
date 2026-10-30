@@ -101,7 +101,9 @@
         "visual-1:reasoning": [
           "build.visual-1.case",
           "cq.visual-1-q2",
-          "q.visual-1.case.check"
+          "q.visual-1.case.check",
+          "enrich.visual-1.0",
+          "enrich.visual-1.1"
         ],
         "visual-1:mastery": [
           "info.visual-1.kp3",
@@ -116,6 +118,8 @@
           "build.visual-1.case",
           "cq.visual-1-q2",
           "q.visual-1.case.check",
+          "enrich.visual-1.0",
+          "enrich.visual-1.1",
           "q.visual-1.pitfall"
         ]
       }
@@ -219,7 +223,9 @@
         "visual-2:reasoning": [
           "build.visual-2.case",
           "cq.visual-2-q2",
-          "q.visual-2.case.check"
+          "q.visual-2.case.check",
+          "enrich.visual-2.0",
+          "enrich.visual-2.1"
         ],
         "visual-2:mastery": [
           "info.visual-2.kp3",
@@ -234,6 +240,8 @@
           "build.visual-2.case",
           "cq.visual-2-q2",
           "q.visual-2.case.check",
+          "enrich.visual-2.0",
+          "enrich.visual-2.1",
           "q.visual-2.pitfall"
         ]
       }
@@ -337,7 +345,9 @@
         "visual-3:reasoning": [
           "build.visual-3.case",
           "cq.visual-3-q2",
-          "q.visual-3.case.check"
+          "q.visual-3.case.check",
+          "enrich.visual-3.0",
+          "enrich.visual-3.1"
         ],
         "visual-3:mastery": [
           "info.visual-3.kp3",
@@ -352,6 +362,8 @@
           "build.visual-3.case",
           "cq.visual-3-q2",
           "q.visual-3.case.check",
+          "enrich.visual-3.0",
+          "enrich.visual-3.1",
           "q.visual-3.pitfall"
         ]
       }
@@ -455,7 +467,9 @@
         "music-1:reasoning": [
           "build.music-1.case",
           "cq.music-1-q2",
-          "q.music-1.case.check"
+          "q.music-1.case.check",
+          "enrich.music-1.0",
+          "enrich.music-1.1"
         ],
         "music-1:mastery": [
           "info.music-1.kp3",
@@ -470,6 +484,8 @@
           "build.music-1.case",
           "cq.music-1-q2",
           "q.music-1.case.check",
+          "enrich.music-1.0",
+          "enrich.music-1.1",
           "q.music-1.pitfall"
         ]
       }
@@ -578,7 +594,9 @@
         "music-2:reasoning": [
           "build.music-2.case",
           "cq.music-2-q2",
-          "q.music-2.case.check"
+          "q.music-2.case.check",
+          "enrich.music-2.0",
+          "enrich.music-2.1"
         ],
         "music-2:mastery": [
           "info.music-2.kp3",
@@ -593,6 +611,8 @@
           "build.music-2.case",
           "cq.music-2-q2",
           "q.music-2.case.check",
+          "enrich.music-2.0",
+          "enrich.music-2.1",
           "q.music-2.pitfall"
         ]
       }
@@ -701,7 +721,9 @@
         "music-3:reasoning": [
           "build.music-3.case",
           "cq.music-3-q2",
-          "q.music-3.case.check"
+          "q.music-3.case.check",
+          "enrich.music-3.0",
+          "enrich.music-3.1"
         ],
         "music-3:mastery": [
           "info.music-3.kp3",
@@ -716,6 +738,8 @@
           "build.music-3.case",
           "cq.music-3-q2",
           "q.music-3.case.check",
+          "enrich.music-3.0",
+          "enrich.music-3.1",
           "q.music-3.pitfall"
         ]
       }
@@ -819,7 +843,9 @@
         "performing-1:reasoning": [
           "build.performing-1.case",
           "cq.performing-1-q2",
-          "q.performing-1.case.check"
+          "q.performing-1.case.check",
+          "enrich.performing-1.0",
+          "enrich.performing-1.1"
         ],
         "performing-1:mastery": [
           "info.performing-1.kp3",
@@ -834,6 +860,8 @@
           "build.performing-1.case",
           "cq.performing-1-q2",
           "q.performing-1.case.check",
+          "enrich.performing-1.0",
+          "enrich.performing-1.1",
           "q.performing-1.pitfall"
         ]
       }
@@ -937,7 +965,9 @@
         "performing-2:reasoning": [
           "build.performing-2.case",
           "cq.performing-2-q2",
-          "q.performing-2.case.check"
+          "q.performing-2.case.check",
+          "enrich.performing-2.0",
+          "enrich.performing-2.1"
         ],
         "performing-2:mastery": [
           "info.performing-2.kp3",
@@ -952,6 +982,8 @@
           "build.performing-2.case",
           "cq.performing-2-q2",
           "q.performing-2.case.check",
+          "enrich.performing-2.0",
+          "enrich.performing-2.1",
           "q.performing-2.pitfall"
         ]
       }
@@ -1055,7 +1087,9 @@
         "performing-3:reasoning": [
           "build.performing-3.case",
           "cq.performing-3-q2",
-          "q.performing-3.case.check"
+          "q.performing-3.case.check",
+          "enrich.performing-3.0",
+          "enrich.performing-3.1"
         ],
         "performing-3:mastery": [
           "info.performing-3.kp3",
@@ -1070,6 +1104,8 @@
           "build.performing-3.case",
           "cq.performing-3-q2",
           "q.performing-3.case.check",
+          "enrich.performing-3.0",
+          "enrich.performing-3.1",
           "q.performing-3.pitfall"
         ]
       }
@@ -1173,7 +1209,9 @@
         "computing-1:reasoning": [
           "build.computing-1.case",
           "cq.computing-1-q2",
-          "q.computing-1.case.check"
+          "q.computing-1.case.check",
+          "enrich.computing-1.0",
+          "enrich.computing-1.1"
         ],
         "computing-1:mastery": [
           "info.computing-1.kp3",
@@ -1188,6 +1226,8 @@
           "build.computing-1.case",
           "cq.computing-1-q2",
           "q.computing-1.case.check",
+          "enrich.computing-1.0",
+          "enrich.computing-1.1",
           "q.computing-1.pitfall"
         ]
       }
@@ -1291,7 +1331,9 @@
         "computing-2:reasoning": [
           "build.computing-2.case",
           "cq.computing-2-q2",
-          "q.computing-2.case.check"
+          "q.computing-2.case.check",
+          "enrich.computing-2.0",
+          "enrich.computing-2.1"
         ],
         "computing-2:mastery": [
           "info.computing-2.kp3",
@@ -1306,6 +1348,8 @@
           "build.computing-2.case",
           "cq.computing-2-q2",
           "q.computing-2.case.check",
+          "enrich.computing-2.0",
+          "enrich.computing-2.1",
           "q.computing-2.pitfall"
         ]
       }
@@ -1419,7 +1463,9 @@
         "computing-3:reasoning": [
           "build.computing-3.case",
           "cq.computing-3-q2",
-          "q.computing-3.case.check"
+          "q.computing-3.case.check",
+          "enrich.computing-3.0",
+          "enrich.computing-3.1"
         ],
         "computing-3:mastery": [
           "info.computing-3.kp3",
@@ -1434,6 +1480,8 @@
           "build.computing-3.case",
           "cq.computing-3-q2",
           "q.computing-3.case.check",
+          "enrich.computing-3.0",
+          "enrich.computing-3.1",
           "q.computing-3.pitfall"
         ]
       }
@@ -1537,7 +1585,9 @@
         "technology-1:reasoning": [
           "build.technology-1.case",
           "cq.technology-1-q2",
-          "q.technology-1.case.check"
+          "q.technology-1.case.check",
+          "enrich.technology-1.0",
+          "enrich.technology-1.1"
         ],
         "technology-1:mastery": [
           "info.technology-1.kp3",
@@ -1552,6 +1602,8 @@
           "build.technology-1.case",
           "cq.technology-1-q2",
           "q.technology-1.case.check",
+          "enrich.technology-1.0",
+          "enrich.technology-1.1",
           "q.technology-1.pitfall"
         ]
       }
@@ -1660,7 +1712,9 @@
         "technology-2:reasoning": [
           "build.technology-2.case",
           "cq.technology-2-q2",
-          "q.technology-2.case.check"
+          "q.technology-2.case.check",
+          "enrich.technology-2.0",
+          "enrich.technology-2.1"
         ],
         "technology-2:mastery": [
           "info.technology-2.kp3",
@@ -1675,6 +1729,8 @@
           "build.technology-2.case",
           "cq.technology-2-q2",
           "q.technology-2.case.check",
+          "enrich.technology-2.0",
+          "enrich.technology-2.1",
           "q.technology-2.pitfall"
         ]
       }
@@ -1778,7 +1834,9 @@
         "technology-3:reasoning": [
           "build.technology-3.case",
           "cq.technology-3-q2",
-          "q.technology-3.case.check"
+          "q.technology-3.case.check",
+          "enrich.technology-3.0",
+          "enrich.technology-3.1"
         ],
         "technology-3:mastery": [
           "info.technology-3.kp3",
@@ -1793,6 +1851,8 @@
           "build.technology-3.case",
           "cq.technology-3-q2",
           "q.technology-3.case.check",
+          "enrich.technology-3.0",
+          "enrich.technology-3.1",
           "q.technology-3.pitfall"
         ]
       }
@@ -1901,7 +1961,9 @@
         "health-1:reasoning": [
           "build.health-1.case",
           "cq.health-1-q2",
-          "q.health-1.case.check"
+          "q.health-1.case.check",
+          "enrich.health-1.0",
+          "enrich.health-1.1"
         ],
         "health-1:mastery": [
           "info.health-1.kp3",
@@ -1916,6 +1978,8 @@
           "build.health-1.case",
           "cq.health-1-q2",
           "q.health-1.case.check",
+          "enrich.health-1.0",
+          "enrich.health-1.1",
           "q.health-1.pitfall"
         ]
       }
@@ -2024,7 +2088,9 @@
         "health-2:reasoning": [
           "build.health-2.case",
           "cq.health-2-q2",
-          "q.health-2.case.check"
+          "q.health-2.case.check",
+          "enrich.health-2.0",
+          "enrich.health-2.1"
         ],
         "health-2:mastery": [
           "info.health-2.kp3",
@@ -2039,6 +2105,8 @@
           "build.health-2.case",
           "cq.health-2-q2",
           "q.health-2.case.check",
+          "enrich.health-2.0",
+          "enrich.health-2.1",
           "q.health-2.pitfall"
         ]
       }
@@ -2147,7 +2215,9 @@
         "health-3:reasoning": [
           "build.health-3.case",
           "cq.health-3-q2",
-          "q.health-3.case.check"
+          "q.health-3.case.check",
+          "enrich.health-3.0",
+          "enrich.health-3.1"
         ],
         "health-3:mastery": [
           "info.health-3.kp3",
@@ -2162,6 +2232,8 @@
           "build.health-3.case",
           "cq.health-3-q2",
           "q.health-3.case.check",
+          "enrich.health-3.0",
+          "enrich.health-3.1",
           "q.health-3.pitfall"
         ]
       }
@@ -2270,7 +2342,9 @@
         "pe-1:reasoning": [
           "build.pe-1.case",
           "cq.pe-1-q2",
-          "q.pe-1.case.check"
+          "q.pe-1.case.check",
+          "enrich.pe-1.0",
+          "enrich.pe-1.1"
         ],
         "pe-1:mastery": [
           "info.pe-1.kp3",
@@ -2285,6 +2359,8 @@
           "build.pe-1.case",
           "cq.pe-1-q2",
           "q.pe-1.case.check",
+          "enrich.pe-1.0",
+          "enrich.pe-1.1",
           "q.pe-1.pitfall"
         ]
       }
@@ -2388,7 +2464,9 @@
         "pe-2:reasoning": [
           "build.pe-2.case",
           "cq.pe-2-q2",
-          "q.pe-2.case.check"
+          "q.pe-2.case.check",
+          "enrich.pe-2.0",
+          "enrich.pe-2.1"
         ],
         "pe-2:mastery": [
           "info.pe-2.kp3",
@@ -2403,6 +2481,8 @@
           "build.pe-2.case",
           "cq.pe-2-q2",
           "q.pe-2.case.check",
+          "enrich.pe-2.0",
+          "enrich.pe-2.1",
           "q.pe-2.pitfall"
         ]
       }
@@ -2511,7 +2591,9 @@
         "pe-3:reasoning": [
           "build.pe-3.case",
           "cq.pe-3-q2",
-          "q.pe-3.case.check"
+          "q.pe-3.case.check",
+          "enrich.pe-3.0",
+          "enrich.pe-3.1"
         ],
         "pe-3:mastery": [
           "info.pe-3.kp3",
@@ -2526,6 +2608,8 @@
           "build.pe-3.case",
           "cq.pe-3-q2",
           "q.pe-3.case.check",
+          "enrich.pe-3.0",
+          "enrich.pe-3.1",
           "q.pe-3.pitfall"
         ]
       }
@@ -2634,7 +2718,9 @@
         "home-1:reasoning": [
           "build.home-1.case",
           "cq.home-1-q2",
-          "q.home-1.case.check"
+          "q.home-1.case.check",
+          "enrich.home-1.0",
+          "enrich.home-1.1"
         ],
         "home-1:mastery": [
           "info.home-1.kp3",
@@ -2649,6 +2735,8 @@
           "build.home-1.case",
           "cq.home-1-q2",
           "q.home-1.case.check",
+          "enrich.home-1.0",
+          "enrich.home-1.1",
           "q.home-1.pitfall"
         ]
       }
@@ -2757,7 +2845,9 @@
         "home-2:reasoning": [
           "build.home-2.case",
           "cq.home-2-q2",
-          "q.home-2.case.check"
+          "q.home-2.case.check",
+          "enrich.home-2.0",
+          "enrich.home-2.1"
         ],
         "home-2:mastery": [
           "info.home-2.kp3",
@@ -2772,6 +2862,8 @@
           "build.home-2.case",
           "cq.home-2-q2",
           "q.home-2.case.check",
+          "enrich.home-2.0",
+          "enrich.home-2.1",
           "q.home-2.pitfall"
         ]
       }
@@ -2880,7 +2972,9 @@
         "home-3:reasoning": [
           "build.home-3.case",
           "cq.home-3-q2",
-          "q.home-3.case.check"
+          "q.home-3.case.check",
+          "enrich.home-3.0",
+          "enrich.home-3.1"
         ],
         "home-3:mastery": [
           "info.home-3.kp3",
@@ -2895,6 +2989,8 @@
           "build.home-3.case",
           "cq.home-3-q2",
           "q.home-3.case.check",
+          "enrich.home-3.0",
+          "enrich.home-3.1",
           "q.home-3.pitfall"
         ]
       }
@@ -3003,7 +3099,9 @@
         "scout-1:reasoning": [
           "build.scout-1.case",
           "cq.scout-1-q2",
-          "q.scout-1.case.check"
+          "q.scout-1.case.check",
+          "enrich.scout-1.0",
+          "enrich.scout-1.1"
         ],
         "scout-1:mastery": [
           "info.scout-1.kp3",
@@ -3018,6 +3116,8 @@
           "build.scout-1.case",
           "cq.scout-1-q2",
           "q.scout-1.case.check",
+          "enrich.scout-1.0",
+          "enrich.scout-1.1",
           "q.scout-1.pitfall"
         ]
       }
@@ -3126,7 +3226,9 @@
         "scout-2:reasoning": [
           "build.scout-2.case",
           "cq.scout-2-q2",
-          "q.scout-2.case.check"
+          "q.scout-2.case.check",
+          "enrich.scout-2.0",
+          "enrich.scout-2.1"
         ],
         "scout-2:mastery": [
           "info.scout-2.kp3",
@@ -3141,6 +3243,8 @@
           "build.scout-2.case",
           "cq.scout-2-q2",
           "q.scout-2.case.check",
+          "enrich.scout-2.0",
+          "enrich.scout-2.1",
           "q.scout-2.pitfall"
         ]
       }
@@ -3249,7 +3353,9 @@
         "scout-3:reasoning": [
           "build.scout-3.case",
           "cq.scout-3-q2",
-          "q.scout-3.case.check"
+          "q.scout-3.case.check",
+          "enrich.scout-3.0",
+          "enrich.scout-3.1"
         ],
         "scout-3:mastery": [
           "info.scout-3.kp3",
@@ -3264,6 +3370,8 @@
           "build.scout-3.case",
           "cq.scout-3-q2",
           "q.scout-3.case.check",
+          "enrich.scout-3.0",
+          "enrich.scout-3.1",
           "q.scout-3.pitfall"
         ]
       }
@@ -3372,7 +3480,9 @@
         "guidance-1:reasoning": [
           "build.guidance-1.case",
           "cq.guidance-1-q2",
-          "q.guidance-1.case.check"
+          "q.guidance-1.case.check",
+          "enrich.guidance-1.0",
+          "enrich.guidance-1.1"
         ],
         "guidance-1:mastery": [
           "info.guidance-1.kp3",
@@ -3387,6 +3497,8 @@
           "build.guidance-1.case",
           "cq.guidance-1-q2",
           "q.guidance-1.case.check",
+          "enrich.guidance-1.0",
+          "enrich.guidance-1.1",
           "q.guidance-1.pitfall"
         ]
       }
@@ -3495,7 +3607,9 @@
         "guidance-2:reasoning": [
           "build.guidance-2.case",
           "cq.guidance-2-q2",
-          "q.guidance-2.case.check"
+          "q.guidance-2.case.check",
+          "enrich.guidance-2.0",
+          "enrich.guidance-2.1"
         ],
         "guidance-2:mastery": [
           "info.guidance-2.kp3",
@@ -3510,6 +3624,8 @@
           "build.guidance-2.case",
           "cq.guidance-2-q2",
           "q.guidance-2.case.check",
+          "enrich.guidance-2.0",
+          "enrich.guidance-2.1",
           "q.guidance-2.pitfall"
         ]
       }
@@ -3618,7 +3734,9 @@
         "guidance-3:reasoning": [
           "build.guidance-3.case",
           "cq.guidance-3-q2",
-          "q.guidance-3.case.check"
+          "q.guidance-3.case.check",
+          "enrich.guidance-3.0",
+          "enrich.guidance-3.1"
         ],
         "guidance-3:mastery": [
           "info.guidance-3.kp3",
@@ -3633,6 +3751,8 @@
           "build.guidance-3.case",
           "cq.guidance-3-q2",
           "q.guidance-3.case.check",
+          "enrich.guidance-3.0",
+          "enrich.guidance-3.1",
           "q.guidance-3.pitfall"
         ]
       }
@@ -3736,7 +3856,9 @@
         "local-1:reasoning": [
           "build.local-1.case",
           "cq.local-1-q2",
-          "q.local-1.case.check"
+          "q.local-1.case.check",
+          "enrich.local-1.0",
+          "enrich.local-1.1"
         ],
         "local-1:mastery": [
           "info.local-1.kp3",
@@ -3751,6 +3873,8 @@
           "build.local-1.case",
           "cq.local-1-q2",
           "q.local-1.case.check",
+          "enrich.local-1.0",
+          "enrich.local-1.1",
           "q.local-1.pitfall"
         ]
       }
@@ -3854,7 +3978,9 @@
         "local-2:reasoning": [
           "build.local-2.case",
           "cq.local-2-q2",
-          "q.local-2.case.check"
+          "q.local-2.case.check",
+          "enrich.local-2.0",
+          "enrich.local-2.1"
         ],
         "local-2:mastery": [
           "info.local-2.kp3",
@@ -3869,6 +3995,8 @@
           "build.local-2.case",
           "cq.local-2-q2",
           "q.local-2.case.check",
+          "enrich.local-2.0",
+          "enrich.local-2.1",
           "q.local-2.pitfall"
         ]
       }
@@ -3977,7 +4105,9 @@
         "local-3:reasoning": [
           "build.local-3.case",
           "cq.local-3-q2",
-          "q.local-3.case.check"
+          "q.local-3.case.check",
+          "enrich.local-3.0",
+          "enrich.local-3.1"
         ],
         "local-3:mastery": [
           "info.local-3.kp3",
@@ -3992,6 +4122,8 @@
           "build.local-3.case",
           "cq.local-3-q2",
           "q.local-3.case.check",
+          "enrich.local-3.0",
+          "enrich.local-3.1",
           "q.local-3.pitfall"
         ]
       }
@@ -4095,7 +4227,9 @@
         "local-4:reasoning": [
           "build.local-4.case",
           "cq.local-4-q2",
-          "q.local-4.case.check"
+          "q.local-4.case.check",
+          "enrich.local-4.0",
+          "enrich.local-4.1"
         ],
         "local-4:mastery": [
           "info.local-4.kp3",
@@ -4110,6 +4244,8 @@
           "build.local-4.case",
           "cq.local-4-q2",
           "q.local-4.case.check",
+          "enrich.local-4.0",
+          "enrich.local-4.1",
           "q.local-4.pitfall"
         ]
       }

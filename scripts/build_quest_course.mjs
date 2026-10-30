@@ -4,6 +4,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { enrichUnit } from './quest-enrichment.mjs';
 
 import { units, subjects, subjectById, questions as curriculumQuestions } from '../dist/curriculum.js';
 import { explicitKnowledgePoints } from '../dist/explicit-knowledge-points.js';
@@ -12,8 +13,10 @@ import { workedCases } from '../dist/worked-cases.js';
 import { lessonDeepening } from '../dist/lesson-deepening.js';
 import { periodicExams } from '../dist/periodic-exam-data.js';
 import { officialAlignment, officialSources } from '../dist/official-alignment-data.js';
+import { getCapExplanation, formatCapExplanation, relatedCapQuestions } from '../dist/cap-explanations.js';
 
-export const COURSE_VERSION = '2026-10-27.v1';
+export const COURSE_VERSION = '2026-10-29.v1';
+const enrichmentReport = [];
 const OUT_DIR = path.resolve('dist/quest/course');
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
@@ -23,13 +26,11 @@ const capBank = JSON.parse(fs.readFileSync(capBankPath, 'utf8'));
 const capGroupMap = new Map((capBank.groups || []).map(g => [g.id, g]));
 
 export function formatCapQuestion(q) {
-  if (!q || !q.options || typeof q.options !== 'object') return null;
-  const optLetters = ['A', 'B', 'C', 'D'].filter(l => q.options[l] !== undefined);
-  if (optLetters.length < 2) return null;
-  const options = optLetters.map(l => String(q.options[l]).trim()).filter(Boolean);
-  if (new Set(options).size !== options.length) return null;
-  const ansText = q.options[q.answer] ? String(q.options[q.answer]).trim() : null;
-  if (!ansText || !options.includes(ansText)) return null;
+  if (!q || !q.crops?.length || !/^[A-D]$/.test(q.answer || '')) return null;
+  // The original image is authoritative: extracted option text may be missing or garbled.
+  const options = Array.from(q.optionLetters || 'ABCD');
+  const ansText = q.answer;
+  if (options.length < 2 || !options.includes(ansText)) return null;
 
   const qId = `cap.${q.id}`;
   const CAP_SUBJ_NAMES = {
@@ -55,7 +56,7 @@ export function formatCapQuestion(q) {
       }
     }
     if (g && Array.isArray(g.crops)) {
-      for (const gc of g.crops) {
+      for (const gc of [...g.crops].reverse()) {
         if (!allCrops.some(c => c.src === gc.src)) {
           allCrops.unshift(gc);
         }
@@ -63,37 +64,25 @@ export function formatCapQuestion(q) {
     }
   }
 
-  if (q.stem && q.stem.trim()) {
-    promptText += q.stem.trim();
-  } else if (readingText) {
-    promptText += `請根據題組閱讀材料，選出最符合第 ${q.number} 題文意或空格的正確選項。`;
-  } else {
-    promptText += `請觀察題圖，選出最符合題意的選項。`;
-  }
+  promptText += q.subject === 'listening' ? '請播放錄音，依題圖選擇答案。' : '請閱讀題圖及題組材料，選擇答案。';
 
-  let why = '';
-  if (q.explanation) {
-    const parts = [];
-    if (q.explanation.keyIdea) parts.push(`【解題核心】${q.explanation.keyIdea}`);
-    if (Array.isArray(q.explanation.steps) && q.explanation.steps.length > 0) {
-      parts.push(`【推導步驟】${q.explanation.steps.join(' ')}`);
-    }
-    if (q.explanation.trap) parts.push(`【避坑防線】${q.explanation.trap}`);
-    why = parts.join('\n\n');
-  } else {
-    why = `正確答案為「${ansText}」。`;
-  }
+  const why = formatCapExplanation(q);
+  const explanation = getCapExplanation(q);
 
   return {
     id: qId,
     kind: 'mastery',
     type: q.subject === 'listening' ? 'listen' : 'choice',
     prompt: promptText,
-    readingGroupText: readingText || undefined,
-    options: shuffle(options, qId),
+    // OCR text is not sufficiently reliable to replace the original images.
+    options,
     answer: ansText,
     crops: allCrops,
-    hint: q.explanation?.keyIdea || `掌握「${subjName}」核心概念與題目條件`,
+    audio: q.audio || undefined,
+    sourcePaper: `downloads/cap/${q.year}-${q.subject}.${q.subject === 'listening' ? 'zip' : 'pdf'}`,
+    hint: explanation.ready ? explanation.hint : `仔細核對「${subjName}」題目中的條件與提問。`,
+    explanationStatus: explanation.ready ? 'ai-derived' : 'pending',
+    relatedQuestions: relatedCapQuestions(q, capBank.questions),
     why,
     level: 4,
     unitId: (q.unitIds && q.unitIds[0]) || (q.subject === 'chinese' ? 'chinese-1' : q.subject === 'math' ? 'math-1' : q.subject === 'english' || q.subject === 'listening' ? 'english-1' : q.subject === 'science' ? 'biology-1' : 'history-1'),
@@ -173,8 +162,9 @@ function registerItem(item, src) {
   }
 
   item.src = src || item.src || '';
-  if (item.why) item.why = cleanText(item.why);
-  if (item.hint) item.hint = cleanText(item.hint);
+  // CAP answer labels remain A/B/C/D from the source images; retain the complete explanation.
+  if (item.why && !item.isCap) item.why = cleanText(item.why);
+  if (item.hint && !item.isCap) item.hint = cleanText(item.hint);
 
   allItems.set(item.id, item);
   return item.id;
@@ -528,6 +518,15 @@ function buildUnitNodes(u) {
     }
   }
 
+  const baselineCount = new Set(Object.values(nodeItemPools).flat()).size;
+  const enrichment = enrichUnit(u, table, baselineCount);
+  for (const item of enrichment) {
+    const id = registerItem(item, `#lesson/${uid}`);
+    if (id) nodeItemPools.reasoning.push(id);
+  }
+  enrichmentReport.push({ unitId: uid, baselineActivities: baselineCount, addedActivities: enrichment.length,
+    increasePercent: Number((100 * enrichment.length / baselineCount).toFixed(2)) });
+
   // ----- Node 5: Boss 單元挑戰 (Mixed Pool from Nodes 1..4) -----
   const allScorable = [
     ...nodeItemPools.concept,
@@ -808,11 +807,12 @@ for (const brConfig of BRANCHES_CONFIG) {
     // CAP Special Focus by Year (109~115) - Comprehensive 5-Subject Gamified Nodes
     for (const yr of [109, 110, 111, 112, 113, 114, 115]) {
       const yid = `cap-yr-${yr}`;
-      const yTitle = `${yr} 年國中教育會考五科全真精選`;
+      const yTitle = `${yr} 年國中教育會考選擇題闖關`;
       const yrRawQs = capBank.questions.filter(q => q.year === yr);
 
       const chinesePool = [];
       const englishPool = [];
+      const listeningPool = [];
       const mathPool = [];
       const sciencePool = [];
       const socialPool = [];
@@ -824,7 +824,8 @@ for (const brConfig of BRANCHES_CONFIG) {
         if (!regId) continue;
 
         if (q.subject === 'chinese') chinesePool.push(regId);
-        else if (q.subject === 'english' || q.subject === 'listening') englishPool.push(regId);
+        else if (q.subject === 'english') englishPool.push(regId);
+        else if (q.subject === 'listening') listeningPool.push(regId);
         else if (q.subject === 'math') mathPool.push(regId);
         else if (q.subject === 'science') sciencePool.push(regId);
         else if (q.subject === 'social') socialPool.push(regId);
@@ -840,11 +841,12 @@ for (const brConfig of BRANCHES_CONFIG) {
       ];
 
       const nodes = [
-        { id: `${yid}:chinese`, kind: 'concept', title: `${yr} 國文專精`, icon: '📜', pool: chinesePool.slice(0, 6), size: Math.min(chinesePool.length, 6) },
-        { id: `${yid}:english`, kind: 'rule', title: `${yr} 英語閱聽`, icon: '🔤', pool: englishPool.slice(0, 6), size: Math.min(englishPool.length, 6) },
-        { id: `${yid}:math`, kind: 'reasoning', title: `${yr} 數學思維`, icon: '📐', pool: mathPool.slice(0, 6), size: Math.min(mathPool.length, 6) },
-        { id: `${yid}:science`, kind: 'mastery', title: `${yr} 自然探究`, icon: '🔬', pool: sciencePool.slice(0, 6), size: Math.min(sciencePool.length, 6) },
-        { id: `${yid}:social`, kind: 'mastery', title: `${yr} 社會素養`, icon: '🌍', pool: socialPool.slice(0, 6), size: Math.min(socialPool.length, 6) },
+        { id: `${yid}:chinese`, kind: 'concept', title: `${yr} 國文專精`, icon: '📜', pool: chinesePool, size: Math.min(chinesePool.length, 6) },
+        { id: `${yid}:english`, kind: 'rule', title: `${yr} 英語閱讀`, icon: '🔤', pool: englishPool, size: Math.min(englishPool.length, 6) },
+        ...(listeningPool.length ? [{ id: `${yid}:listening`, kind: 'rule', title: `${yr} 英語聽力`, icon: '🎧', pool: listeningPool, size: Math.min(listeningPool.length, 6) }] : []),
+        { id: `${yid}:math`, kind: 'reasoning', title: `${yr} 數學思維`, icon: '📐', pool: mathPool, size: Math.min(mathPool.length, 6) },
+        { id: `${yid}:science`, kind: 'mastery', title: `${yr} 自然探究`, icon: '🔬', pool: sciencePool, size: Math.min(sciencePool.length, 6) },
+        { id: `${yid}:social`, kind: 'mastery', title: `${yr} 社會素養`, icon: '🌍', pool: socialPool, size: Math.min(socialPool.length, 6) },
         { id: `${yid}:cap`, kind: 'boss', title: `${yr} 五科綜合挑戰`, icon: '🎯', pool: bossPool, size: bossPool.length, hearts: 3 }
       ];
 
@@ -860,7 +862,7 @@ for (const brConfig of BRANCHES_CONFIG) {
       brFileUnits[yid] = {
         guide: {
           title: yTitle,
-          concept: `收錄 ${yr} 年國中教育會考國文、英語、數學、自然、社會五科全真試題與官方詳解。`,
+          concept: `練習 ${yr} 年會考選擇題，包含官方答案；目前 ${yrRawQs.filter(q => q.kind !== 'written' && getCapExplanation(q).ready).length} 題已有 AI 解析。每次闖關從題池抽題，題目不清楚時請開啟原始題本。`,
           knowledgePoints: []
         },
         nodes: Object.fromEntries(nodes.map(n => [n.id, n.pool]))
@@ -971,4 +973,8 @@ const report = {
 const reportDir = path.resolve('docs/quest-redesign');
 fs.mkdirSync(reportDir, { recursive: true });
 fs.writeFileSync(path.join(reportDir, 'COURSE-BUILD-REPORT.json'), JSON.stringify(report, null, 2), 'utf8');
+fs.writeFileSync(path.join(reportDir, 'ENRICHMENT-REPORT.json'), JSON.stringify({
+  version: COURSE_VERSION, metric: 'Distinct learning activities per core unit; excludes repeated boss references. Reuses verified table facts in new retrieval exercises, not new syllabus coverage.',
+  units: [...new Map(enrichmentReport.map(row => [row.unitId, row])).values()]
+}, null, 2), 'utf8');
 console.log('🎉 Course build completed successfully! Report saved to docs/quest-redesign/COURSE-BUILD-REPORT.json\n');

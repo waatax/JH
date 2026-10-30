@@ -1,8 +1,8 @@
 {
-  "version": "2026-10-27.v1",
-  "generatedAt": "2026-10-27T05:55:34.835Z",
+  "version": "2026-10-29.v1",
+  "generatedAt": "2026-10-29T06:51:09.826Z",
   "totalUnits": 188,
-  "totalItems": 3968,
+  "totalItems": 4471,
   "sections": [
     {
       "id": "s1",
@@ -51,7 +51,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-1:mastery",
@@ -104,7 +104,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-2:mastery",
@@ -157,7 +157,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-3:mastery",
@@ -210,7 +210,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-4:mastery",
@@ -263,7 +263,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-1:mastery",
@@ -316,7 +316,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-1:mastery",
@@ -369,14 +369,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-7:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "chinese-7:boss",
@@ -422,7 +422,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-7:mastery",
@@ -436,7 +436,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -475,14 +475,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-1:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "biology-1:boss",
@@ -528,14 +528,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-2:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "biology-2:boss",
@@ -581,7 +581,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-3:mastery",
@@ -634,7 +634,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-7:mastery",
@@ -687,7 +687,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-8:mastery",
@@ -740,7 +740,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-14:mastery",
@@ -793,7 +793,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-1:mastery",
@@ -846,7 +846,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-2:mastery",
@@ -899,7 +899,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-1:mastery",
@@ -952,7 +952,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-2:mastery",
@@ -1005,7 +1005,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-1:mastery",
@@ -1058,7 +1058,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-9:mastery",
@@ -1111,7 +1111,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-8:mastery",
@@ -1164,7 +1164,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-7:mastery",
@@ -1217,7 +1217,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "visual-1:mastery",
@@ -1231,7 +1231,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -1270,7 +1270,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "music-1:mastery",
@@ -1284,7 +1284,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -1323,7 +1323,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "performing-1:mastery",
@@ -1337,7 +1337,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -1376,7 +1376,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "computing-1:mastery",
@@ -1390,7 +1390,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -1429,7 +1429,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "technology-1:mastery",
@@ -1443,7 +1443,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -1482,7 +1482,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "health-1:mastery",
@@ -1496,7 +1496,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -1535,7 +1535,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "pe-1:mastery",
@@ -1549,7 +1549,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -1588,7 +1588,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "home-1:mastery",
@@ -1602,7 +1602,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -1641,7 +1641,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "scout-1:mastery",
@@ -1655,7 +1655,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -1694,7 +1694,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "guidance-1:mastery",
@@ -1708,7 +1708,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -1747,7 +1747,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "local-1:mastery",
@@ -1761,7 +1761,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         }
@@ -1814,7 +1814,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-5:mastery",
@@ -1867,7 +1867,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-6:mastery",
@@ -1920,14 +1920,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-7:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "math-7:boss",
@@ -1973,7 +1973,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-8:mastery",
@@ -2026,7 +2026,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-2:mastery",
@@ -2079,7 +2079,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-2:mastery",
@@ -2093,7 +2093,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -2132,7 +2132,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-8:mastery",
@@ -2185,7 +2185,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-8:mastery",
@@ -2238,7 +2238,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-21:mastery",
@@ -2291,7 +2291,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-13:mastery",
@@ -2305,7 +2305,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -2344,7 +2344,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-4:mastery",
@@ -2397,7 +2397,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-5:mastery",
@@ -2450,7 +2450,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-6:mastery",
@@ -2503,7 +2503,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-9:mastery",
@@ -2556,7 +2556,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-10:mastery",
@@ -2609,7 +2609,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-11:mastery",
@@ -2662,7 +2662,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-12:mastery",
@@ -2715,7 +2715,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-13:mastery",
@@ -2768,7 +2768,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-3:mastery",
@@ -2821,21 +2821,21 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-4:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 4
             },
             {
               "id": "history-4:boss",
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -2874,14 +2874,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-3:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "geography-3:boss",
@@ -2927,7 +2927,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-2:mastery",
@@ -2980,7 +2980,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-13:mastery",
@@ -3033,7 +3033,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-11:mastery",
@@ -3086,7 +3086,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-10:mastery",
@@ -3139,7 +3139,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "local-2:mastery",
@@ -3153,7 +3153,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         }
@@ -3206,7 +3206,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-9:mastery",
@@ -3259,7 +3259,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-10:mastery",
@@ -3312,7 +3312,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-11:mastery",
@@ -3365,7 +3365,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-12:mastery",
@@ -3418,7 +3418,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-3:mastery",
@@ -3471,7 +3471,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-3:mastery",
@@ -3485,7 +3485,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -3524,7 +3524,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-9:mastery",
@@ -3577,7 +3577,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-9:mastery",
@@ -3591,7 +3591,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -3630,7 +3630,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-13:mastery",
@@ -3644,7 +3644,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -3683,7 +3683,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-14:mastery",
@@ -3697,7 +3697,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -3736,7 +3736,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-1:mastery",
@@ -3789,14 +3789,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-2:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "physics-2:boss",
@@ -3842,7 +3842,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-3:mastery",
@@ -3895,7 +3895,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-1:mastery",
@@ -3948,7 +3948,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-2:mastery",
@@ -4001,7 +4001,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-8:mastery",
@@ -4054,7 +4054,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-9:mastery",
@@ -4107,7 +4107,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-14:mastery",
@@ -4160,7 +4160,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-13:mastery",
@@ -4213,7 +4213,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-5:mastery",
@@ -4266,7 +4266,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-4:mastery",
@@ -4319,7 +4319,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-3:mastery",
@@ -4372,7 +4372,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-10:mastery",
@@ -4386,7 +4386,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -4425,7 +4425,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-9:mastery",
@@ -4478,14 +4478,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-11:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "civics-11:boss",
@@ -4531,7 +4531,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "visual-2:mastery",
@@ -4545,7 +4545,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -4584,7 +4584,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "music-2:mastery",
@@ -4598,7 +4598,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -4637,7 +4637,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "performing-2:mastery",
@@ -4651,7 +4651,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -4690,7 +4690,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "computing-2:mastery",
@@ -4704,7 +4704,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -4743,7 +4743,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "technology-2:mastery",
@@ -4757,7 +4757,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -4796,7 +4796,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "health-2:mastery",
@@ -4810,7 +4810,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -4849,7 +4849,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "pe-2:mastery",
@@ -4863,7 +4863,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -4902,7 +4902,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "home-2:mastery",
@@ -4916,7 +4916,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -4955,7 +4955,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "scout-2:mastery",
@@ -4969,7 +4969,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -5008,7 +5008,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "guidance-2:mastery",
@@ -5022,7 +5022,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -5061,7 +5061,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "local-3:mastery",
@@ -5075,7 +5075,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         }
@@ -5128,7 +5128,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-13:mastery",
@@ -5181,7 +5181,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-14:mastery",
@@ -5234,7 +5234,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-15:mastery",
@@ -5287,7 +5287,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-4:mastery",
@@ -5340,7 +5340,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-4:mastery",
@@ -5354,7 +5354,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -5393,7 +5393,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-10:mastery",
@@ -5407,7 +5407,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -5446,7 +5446,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-10:mastery",
@@ -5460,7 +5460,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -5499,7 +5499,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-22:mastery",
@@ -5552,7 +5552,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-23:mastery",
@@ -5605,7 +5605,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-24:mastery",
@@ -5658,7 +5658,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-14:mastery",
@@ -5711,7 +5711,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-4:mastery",
@@ -5764,14 +5764,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-3:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "chemistry-3:boss",
@@ -5817,7 +5817,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-4:mastery",
@@ -5870,7 +5870,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-5:mastery",
@@ -5923,7 +5923,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-10:mastery",
@@ -5976,7 +5976,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-7:mastery",
@@ -6029,7 +6029,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-8:mastery",
@@ -6082,7 +6082,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-9:mastery",
@@ -6096,7 +6096,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -6135,14 +6135,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-10:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "chemistry-10:boss",
@@ -6188,14 +6188,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-14:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "chemistry-14:boss",
@@ -6241,7 +6241,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-6:mastery",
@@ -6255,7 +6255,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -6294,14 +6294,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-5:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "geography-5:boss",
@@ -6347,7 +6347,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-4:mastery",
@@ -6400,7 +6400,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-11:mastery",
@@ -6453,7 +6453,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-8:mastery",
@@ -6467,7 +6467,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -6506,7 +6506,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-14:mastery",
@@ -6559,14 +6559,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-12:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "geography-12:boss",
@@ -6612,7 +6612,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "local-4:mastery",
@@ -6626,7 +6626,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         }
@@ -6679,7 +6679,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-16:mastery",
@@ -6732,7 +6732,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-17:mastery",
@@ -6785,7 +6785,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-5:mastery",
@@ -6838,7 +6838,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-5:mastery",
@@ -6852,7 +6852,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -6891,7 +6891,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-20:mastery",
@@ -6944,7 +6944,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-11:mastery",
@@ -6958,7 +6958,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -6997,7 +6997,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-11:mastery",
@@ -7050,7 +7050,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-25:mastery",
@@ -7064,7 +7064,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -7103,7 +7103,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-15:mastery",
@@ -7156,7 +7156,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-15:mastery",
@@ -7170,7 +7170,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -7209,14 +7209,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-5:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "physics-5:boss",
@@ -7262,7 +7262,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-6:mastery",
@@ -7315,7 +7315,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-1:mastery",
@@ -7368,7 +7368,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-2:mastery",
@@ -7421,14 +7421,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-3:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "earth-3:boss",
@@ -7474,7 +7474,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-7:mastery",
@@ -7527,14 +7527,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-8:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "earth-8:boss",
@@ -7580,7 +7580,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-9:mastery",
@@ -7633,7 +7633,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-15:mastery",
@@ -7686,7 +7686,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-11:mastery",
@@ -7739,7 +7739,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-7:mastery",
@@ -7792,14 +7792,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-6:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "geography-6:boss",
@@ -7845,7 +7845,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-5:mastery",
@@ -7898,7 +7898,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-12:mastery",
@@ -7951,14 +7951,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-10:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "geography-10:boss",
@@ -8004,7 +8004,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-9:mastery",
@@ -8057,7 +8057,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-13:mastery",
@@ -8110,14 +8110,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-12:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "civics-12:boss",
@@ -8177,7 +8177,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-18:mastery",
@@ -8230,7 +8230,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-19:mastery",
@@ -8283,7 +8283,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-6:mastery",
@@ -8336,7 +8336,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-6:mastery",
@@ -8389,7 +8389,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-12:mastery",
@@ -8403,7 +8403,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -8442,7 +8442,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-12:mastery",
@@ -8495,7 +8495,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-26:mastery",
@@ -8548,7 +8548,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-27:mastery",
@@ -8601,7 +8601,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-16:mastery",
@@ -8615,7 +8615,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -8654,7 +8654,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-16:mastery",
@@ -8707,14 +8707,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-7:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "physics-7:boss",
@@ -8760,7 +8760,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-6:mastery",
@@ -8813,7 +8813,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-4:mastery",
@@ -8866,7 +8866,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-5:mastery",
@@ -8919,14 +8919,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-6:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "earth-6:boss",
@@ -8972,7 +8972,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-11:mastery",
@@ -9025,14 +9025,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-12:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "physics-12:boss",
@@ -9078,7 +9078,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-13:mastery",
@@ -9131,7 +9131,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-11:mastery",
@@ -9184,7 +9184,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-12:mastery",
@@ -9198,7 +9198,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -9237,7 +9237,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-10:mastery",
@@ -9290,7 +9290,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-12:mastery",
@@ -9343,7 +9343,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-8:mastery",
@@ -9396,7 +9396,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-7:mastery",
@@ -9449,7 +9449,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-6:mastery",
@@ -9502,7 +9502,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-15:mastery",
@@ -9555,7 +9555,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "visual-3:mastery",
@@ -9569,7 +9569,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -9608,7 +9608,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "music-3:mastery",
@@ -9622,7 +9622,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -9661,7 +9661,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "performing-3:mastery",
@@ -9675,7 +9675,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -9714,7 +9714,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "computing-3:mastery",
@@ -9728,7 +9728,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -9767,7 +9767,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "technology-3:mastery",
@@ -9781,7 +9781,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -9820,7 +9820,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "health-3:mastery",
@@ -9834,7 +9834,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -9873,7 +9873,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "pe-3:mastery",
@@ -9887,7 +9887,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -9926,7 +9926,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "home-3:mastery",
@@ -9940,7 +9940,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -9979,7 +9979,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "scout-3:mastery",
@@ -9993,7 +9993,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -10032,7 +10032,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "guidance-3:mastery",
@@ -10046,7 +10046,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         }
@@ -10091,7 +10091,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-1:mastery",
@@ -10137,7 +10137,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-2:mastery",
@@ -10183,7 +10183,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-3:mastery",
@@ -10229,7 +10229,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-4:mastery",
@@ -10275,7 +10275,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-5:mastery",
@@ -10321,7 +10321,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-6:mastery",
@@ -10367,14 +10367,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-7:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "chinese-7:boss",
@@ -10413,7 +10413,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-8:mastery",
@@ -10459,7 +10459,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-9:mastery",
@@ -10505,7 +10505,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-10:mastery",
@@ -10519,7 +10519,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -10551,7 +10551,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-11:mastery",
@@ -10565,7 +10565,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -10597,7 +10597,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-12:mastery",
@@ -10611,7 +10611,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -10643,7 +10643,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-13:mastery",
@@ -10657,7 +10657,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -10689,7 +10689,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-14:mastery",
@@ -10735,7 +10735,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-15:mastery",
@@ -10781,7 +10781,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chinese-16:mastery",
@@ -10795,7 +10795,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         }
@@ -10838,7 +10838,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-1:mastery",
@@ -10884,7 +10884,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-2:mastery",
@@ -10898,7 +10898,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -10930,7 +10930,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-3:mastery",
@@ -10944,7 +10944,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -10976,7 +10976,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-4:mastery",
@@ -10990,7 +10990,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -11022,7 +11022,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-5:mastery",
@@ -11036,7 +11036,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -11068,7 +11068,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-6:mastery",
@@ -11114,7 +11114,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-7:mastery",
@@ -11128,7 +11128,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -11160,7 +11160,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-8:mastery",
@@ -11206,7 +11206,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-9:mastery",
@@ -11220,7 +11220,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -11252,7 +11252,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-10:mastery",
@@ -11266,7 +11266,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -11298,7 +11298,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-11:mastery",
@@ -11344,7 +11344,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-12:mastery",
@@ -11390,7 +11390,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-13:mastery",
@@ -11404,7 +11404,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -11436,7 +11436,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-14:mastery",
@@ -11450,7 +11450,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -11482,7 +11482,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-15:mastery",
@@ -11496,7 +11496,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -11528,7 +11528,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "english-16:mastery",
@@ -11585,7 +11585,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-1:mastery",
@@ -11631,7 +11631,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-2:mastery",
@@ -11677,7 +11677,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-3:mastery",
@@ -11723,7 +11723,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-4:mastery",
@@ -11769,7 +11769,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-5:mastery",
@@ -11815,7 +11815,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-6:mastery",
@@ -11861,14 +11861,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-7:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "math-7:boss",
@@ -11907,7 +11907,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-8:mastery",
@@ -11953,7 +11953,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-9:mastery",
@@ -11999,7 +11999,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-10:mastery",
@@ -12045,7 +12045,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-11:mastery",
@@ -12091,7 +12091,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-12:mastery",
@@ -12137,7 +12137,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-13:mastery",
@@ -12183,7 +12183,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-14:mastery",
@@ -12229,7 +12229,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-15:mastery",
@@ -12275,7 +12275,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-16:mastery",
@@ -12321,7 +12321,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-17:mastery",
@@ -12367,7 +12367,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-18:mastery",
@@ -12413,7 +12413,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-19:mastery",
@@ -12459,7 +12459,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-20:mastery",
@@ -12505,7 +12505,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-21:mastery",
@@ -12551,7 +12551,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-22:mastery",
@@ -12597,7 +12597,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-23:mastery",
@@ -12643,7 +12643,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-24:mastery",
@@ -12689,7 +12689,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-25:mastery",
@@ -12703,7 +12703,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -12735,7 +12735,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-26:mastery",
@@ -12781,7 +12781,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "math-27:mastery",
@@ -12843,14 +12843,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-1:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "biology-1:boss",
@@ -12889,14 +12889,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-2:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "biology-2:boss",
@@ -12935,7 +12935,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-3:mastery",
@@ -12981,7 +12981,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-4:mastery",
@@ -13027,7 +13027,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-5:mastery",
@@ -13073,7 +13073,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-6:mastery",
@@ -13119,7 +13119,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-1:mastery",
@@ -13165,14 +13165,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-2:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "physics-2:boss",
@@ -13211,7 +13211,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-3:mastery",
@@ -13257,7 +13257,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-4:mastery",
@@ -13303,14 +13303,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-5:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "physics-5:boss",
@@ -13349,7 +13349,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-6:mastery",
@@ -13395,14 +13395,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-7:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "physics-7:boss",
@@ -13441,7 +13441,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-1:mastery",
@@ -13487,7 +13487,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-2:mastery",
@@ -13533,14 +13533,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-3:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "chemistry-3:boss",
@@ -13579,7 +13579,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-4:mastery",
@@ -13625,7 +13625,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-5:mastery",
@@ -13671,7 +13671,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-6:mastery",
@@ -13717,7 +13717,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-1:mastery",
@@ -13763,7 +13763,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-2:mastery",
@@ -13809,14 +13809,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-3:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "earth-3:boss",
@@ -13855,7 +13855,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-4:mastery",
@@ -13901,7 +13901,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-5:mastery",
@@ -13947,14 +13947,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-6:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "earth-6:boss",
@@ -13993,7 +13993,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-7:mastery",
@@ -14039,7 +14039,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-8:mastery",
@@ -14085,7 +14085,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-9:mastery",
@@ -14131,7 +14131,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-10:mastery",
@@ -14177,7 +14177,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-11:mastery",
@@ -14223,7 +14223,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-12:mastery",
@@ -14269,7 +14269,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-8:mastery",
@@ -14315,7 +14315,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-9:mastery",
@@ -14361,7 +14361,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-10:mastery",
@@ -14407,7 +14407,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-11:mastery",
@@ -14453,14 +14453,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-12:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "physics-12:boss",
@@ -14499,7 +14499,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-13:mastery",
@@ -14545,7 +14545,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-7:mastery",
@@ -14591,7 +14591,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-8:mastery",
@@ -14637,7 +14637,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-9:mastery",
@@ -14651,7 +14651,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -14683,14 +14683,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-10:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "chemistry-10:boss",
@@ -14729,7 +14729,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-11:mastery",
@@ -14775,7 +14775,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-12:mastery",
@@ -14789,7 +14789,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -14821,7 +14821,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-7:mastery",
@@ -14867,14 +14867,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-8:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "earth-8:boss",
@@ -14913,7 +14913,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-9:mastery",
@@ -14959,7 +14959,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-10:mastery",
@@ -15005,7 +15005,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-13:mastery",
@@ -15051,7 +15051,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "biology-14:mastery",
@@ -15097,7 +15097,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-14:mastery",
@@ -15143,7 +15143,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "physics-15:mastery",
@@ -15189,7 +15189,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-13:mastery",
@@ -15235,14 +15235,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "chemistry-14:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "chemistry-14:boss",
@@ -15281,7 +15281,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-11:mastery",
@@ -15327,7 +15327,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "earth-12:mastery",
@@ -15388,7 +15388,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-1:mastery",
@@ -15434,7 +15434,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-2:mastery",
@@ -15480,7 +15480,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-3:mastery",
@@ -15526,21 +15526,21 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-4:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 4
             },
             {
               "id": "history-4:boss",
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -15572,7 +15572,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-5:mastery",
@@ -15618,7 +15618,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-6:mastery",
@@ -15632,7 +15632,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -15664,7 +15664,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-7:mastery",
@@ -15710,7 +15710,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-8:mastery",
@@ -15756,7 +15756,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-1:mastery",
@@ -15802,7 +15802,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-2:mastery",
@@ -15848,14 +15848,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-3:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "geography-3:boss",
@@ -15894,7 +15894,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-4:mastery",
@@ -15940,14 +15940,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-5:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "geography-5:boss",
@@ -15986,14 +15986,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-6:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "geography-6:boss",
@@ -16032,7 +16032,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-7:mastery",
@@ -16078,7 +16078,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-1:mastery",
@@ -16124,7 +16124,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-2:mastery",
@@ -16170,7 +16170,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-3:mastery",
@@ -16216,7 +16216,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-4:mastery",
@@ -16262,7 +16262,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-5:mastery",
@@ -16308,7 +16308,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-6:mastery",
@@ -16354,7 +16354,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-9:mastery",
@@ -16400,7 +16400,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-10:mastery",
@@ -16414,7 +16414,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -16446,7 +16446,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-11:mastery",
@@ -16492,7 +16492,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-12:mastery",
@@ -16538,7 +16538,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-8:mastery",
@@ -16584,7 +16584,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-9:mastery",
@@ -16630,14 +16630,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-10:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "geography-10:boss",
@@ -16676,7 +16676,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-7:mastery",
@@ -16722,7 +16722,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-8:mastery",
@@ -16736,7 +16736,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -16768,7 +16768,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-9:mastery",
@@ -16814,7 +16814,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-13:mastery",
@@ -16860,7 +16860,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-14:mastery",
@@ -16906,7 +16906,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "history-15:mastery",
@@ -16952,7 +16952,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-11:mastery",
@@ -16998,14 +16998,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-12:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "geography-12:boss",
@@ -17044,7 +17044,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "geography-13:mastery",
@@ -17090,7 +17090,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-10:mastery",
@@ -17136,14 +17136,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-11:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "civics-11:boss",
@@ -17182,14 +17182,14 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "civics-12:mastery",
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "civics-12:boss",
@@ -17251,7 +17251,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "visual-1:mastery",
@@ -17265,7 +17265,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -17297,7 +17297,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "visual-2:mastery",
@@ -17311,7 +17311,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -17343,7 +17343,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "visual-3:mastery",
@@ -17357,7 +17357,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -17389,7 +17389,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "music-1:mastery",
@@ -17403,7 +17403,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -17435,7 +17435,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "music-2:mastery",
@@ -17449,7 +17449,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -17481,7 +17481,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "music-3:mastery",
@@ -17495,7 +17495,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -17527,7 +17527,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "performing-1:mastery",
@@ -17541,7 +17541,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -17573,7 +17573,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "performing-2:mastery",
@@ -17587,7 +17587,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -17619,7 +17619,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "performing-3:mastery",
@@ -17633,7 +17633,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -17665,7 +17665,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "computing-1:mastery",
@@ -17679,7 +17679,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -17711,7 +17711,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "computing-2:mastery",
@@ -17725,7 +17725,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -17757,7 +17757,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "computing-3:mastery",
@@ -17771,7 +17771,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -17803,7 +17803,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "technology-1:mastery",
@@ -17817,7 +17817,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -17849,7 +17849,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "technology-2:mastery",
@@ -17863,7 +17863,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -17895,7 +17895,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "technology-3:mastery",
@@ -17909,7 +17909,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -17941,7 +17941,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "health-1:mastery",
@@ -17955,7 +17955,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -17987,7 +17987,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "health-2:mastery",
@@ -18001,7 +18001,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18033,7 +18033,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "health-3:mastery",
@@ -18047,7 +18047,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18079,7 +18079,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "pe-1:mastery",
@@ -18093,7 +18093,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18125,7 +18125,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "pe-2:mastery",
@@ -18139,7 +18139,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18171,7 +18171,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "pe-3:mastery",
@@ -18185,7 +18185,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18217,7 +18217,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "home-1:mastery",
@@ -18231,7 +18231,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18263,7 +18263,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "home-2:mastery",
@@ -18277,7 +18277,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18309,7 +18309,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "home-3:mastery",
@@ -18323,7 +18323,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18355,7 +18355,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "scout-1:mastery",
@@ -18369,7 +18369,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18401,7 +18401,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "scout-2:mastery",
@@ -18415,7 +18415,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18447,7 +18447,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "scout-3:mastery",
@@ -18461,7 +18461,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18493,7 +18493,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "guidance-1:mastery",
@@ -18507,7 +18507,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18539,7 +18539,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "guidance-2:mastery",
@@ -18553,7 +18553,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18585,7 +18585,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "guidance-3:mastery",
@@ -18599,7 +18599,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18631,7 +18631,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "local-1:mastery",
@@ -18645,7 +18645,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18677,7 +18677,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "local-2:mastery",
@@ -18691,7 +18691,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18723,7 +18723,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "local-3:mastery",
@@ -18737,7 +18737,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         },
@@ -18769,7 +18769,7 @@
               "kind": "reasoning",
               "title": "思維推演",
               "icon": "⚡",
-              "size": 3
+              "size": 5
             },
             {
               "id": "local-4:mastery",
@@ -18783,7 +18783,7 @@
               "kind": "boss",
               "title": "單元挑戰",
               "icon": "🏆",
-              "size": 9
+              "size": 10
             }
           ]
         }
@@ -19081,7 +19081,7 @@
       "units": [
         {
           "id": "cap-yr-109",
-          "title": "109 年國中教育會考五科全真精選",
+          "title": "109 年國中教育會考選擇題闖關",
           "subject": "cap",
           "subjectName": "會考全真",
           "icon": "🎯",
@@ -19096,7 +19096,7 @@
             {
               "id": "cap-yr-109:english",
               "kind": "rule",
-              "title": "109 英語閱聽",
+              "title": "109 英語閱讀",
               "icon": "🔤",
               "size": 6
             },
@@ -19132,7 +19132,7 @@
         },
         {
           "id": "cap-yr-110",
-          "title": "110 年國中教育會考五科全真精選",
+          "title": "110 年國中教育會考選擇題闖關",
           "subject": "cap",
           "subjectName": "會考全真",
           "icon": "🎯",
@@ -19147,8 +19147,15 @@
             {
               "id": "cap-yr-110:english",
               "kind": "rule",
-              "title": "110 英語閱聽",
+              "title": "110 英語閱讀",
               "icon": "🔤",
+              "size": 6
+            },
+            {
+              "id": "cap-yr-110:listening",
+              "kind": "rule",
+              "title": "110 英語聽力",
+              "icon": "🎧",
               "size": 6
             },
             {
@@ -19183,7 +19190,7 @@
         },
         {
           "id": "cap-yr-111",
-          "title": "111 年國中教育會考五科全真精選",
+          "title": "111 年國中教育會考選擇題闖關",
           "subject": "cap",
           "subjectName": "會考全真",
           "icon": "🎯",
@@ -19198,8 +19205,15 @@
             {
               "id": "cap-yr-111:english",
               "kind": "rule",
-              "title": "111 英語閱聽",
+              "title": "111 英語閱讀",
               "icon": "🔤",
+              "size": 6
+            },
+            {
+              "id": "cap-yr-111:listening",
+              "kind": "rule",
+              "title": "111 英語聽力",
+              "icon": "🎧",
               "size": 6
             },
             {
@@ -19234,7 +19248,7 @@
         },
         {
           "id": "cap-yr-112",
-          "title": "112 年國中教育會考五科全真精選",
+          "title": "112 年國中教育會考選擇題闖關",
           "subject": "cap",
           "subjectName": "會考全真",
           "icon": "🎯",
@@ -19249,8 +19263,15 @@
             {
               "id": "cap-yr-112:english",
               "kind": "rule",
-              "title": "112 英語閱聽",
+              "title": "112 英語閱讀",
               "icon": "🔤",
+              "size": 6
+            },
+            {
+              "id": "cap-yr-112:listening",
+              "kind": "rule",
+              "title": "112 英語聽力",
+              "icon": "🎧",
               "size": 6
             },
             {
@@ -19285,7 +19306,7 @@
         },
         {
           "id": "cap-yr-113",
-          "title": "113 年國中教育會考五科全真精選",
+          "title": "113 年國中教育會考選擇題闖關",
           "subject": "cap",
           "subjectName": "會考全真",
           "icon": "🎯",
@@ -19300,8 +19321,15 @@
             {
               "id": "cap-yr-113:english",
               "kind": "rule",
-              "title": "113 英語閱聽",
+              "title": "113 英語閱讀",
               "icon": "🔤",
+              "size": 6
+            },
+            {
+              "id": "cap-yr-113:listening",
+              "kind": "rule",
+              "title": "113 英語聽力",
+              "icon": "🎧",
               "size": 6
             },
             {
@@ -19336,7 +19364,7 @@
         },
         {
           "id": "cap-yr-114",
-          "title": "114 年國中教育會考五科全真精選",
+          "title": "114 年國中教育會考選擇題闖關",
           "subject": "cap",
           "subjectName": "會考全真",
           "icon": "🎯",
@@ -19351,8 +19379,15 @@
             {
               "id": "cap-yr-114:english",
               "kind": "rule",
-              "title": "114 英語閱聽",
+              "title": "114 英語閱讀",
               "icon": "🔤",
+              "size": 6
+            },
+            {
+              "id": "cap-yr-114:listening",
+              "kind": "rule",
+              "title": "114 英語聽力",
+              "icon": "🎧",
               "size": 6
             },
             {
@@ -19387,7 +19422,7 @@
         },
         {
           "id": "cap-yr-115",
-          "title": "115 年國中教育會考五科全真精選",
+          "title": "115 年國中教育會考選擇題闖關",
           "subject": "cap",
           "subjectName": "會考全真",
           "icon": "🎯",
@@ -19402,8 +19437,15 @@
             {
               "id": "cap-yr-115:english",
               "kind": "rule",
-              "title": "115 英語閱聽",
+              "title": "115 英語閱讀",
               "icon": "🔤",
+              "size": 6
+            },
+            {
+              "id": "cap-yr-115:listening",
+              "kind": "rule",
+              "title": "115 英語聽力",
+              "icon": "🎧",
               "size": 6
             },
             {

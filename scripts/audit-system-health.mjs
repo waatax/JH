@@ -113,7 +113,7 @@ if (capBankExists) {
   check('All CAP unitIds map to valid 108 curriculum units', invalidUnitLinks.length === 0, `Invalid: ${invalidUnitLinks.length}`);
   
   const unexplained = capData.questions.filter(q => !q.explanation || !q.explanation.keyIdea || !q.explanation.steps);
-  check('All 1,674 CAP questions have structured pedagogical explanations', unexplained.length === 0, `Unexplained: ${unexplained.length}`);
+  check('All CAP questions retain explanation records (authored coverage audited separately)', unexplained.length === 0, `Missing records: ${unexplained.length}`);
 }
 
 console.log('\n====================================================');

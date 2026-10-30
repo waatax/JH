@@ -106,7 +106,9 @@
         "chinese-1:reasoning": [
           "build.chinese-1.case",
           "cq.chinese-1-q2",
-          "q.chinese-1.case.check"
+          "q.chinese-1.case.check",
+          "enrich.chinese-1.0",
+          "enrich.chinese-1.1"
         ],
         "chinese-1:mastery": [
           "info.chinese-1.kp3",
@@ -123,6 +125,8 @@
           "build.chinese-1.case",
           "cq.chinese-1-q2",
           "q.chinese-1.case.check",
+          "enrich.chinese-1.0",
+          "enrich.chinese-1.1",
           "q.chinese-1.pitfall",
           "cap.109-chinese-1",
           "cap.109-chinese-2"
@@ -233,7 +237,9 @@
         "chinese-2:reasoning": [
           "build.chinese-2.case",
           "cq.chinese-2-q2",
-          "q.chinese-2.case.check"
+          "q.chinese-2.case.check",
+          "enrich.chinese-2.0",
+          "enrich.chinese-2.1"
         ],
         "chinese-2:mastery": [
           "info.chinese-2.kp3",
@@ -250,6 +256,8 @@
           "build.chinese-2.case",
           "cq.chinese-2-q2",
           "q.chinese-2.case.check",
+          "enrich.chinese-2.0",
+          "enrich.chinese-2.1",
           "q.chinese-2.pitfall",
           "cap.111-chinese-8",
           "cap.111-chinese-13"
@@ -360,7 +368,9 @@
         "chinese-3:reasoning": [
           "build.chinese-3.case",
           "cq.chinese-3-q2",
-          "q.chinese-3.case.check"
+          "q.chinese-3.case.check",
+          "enrich.chinese-3.0",
+          "enrich.chinese-3.1"
         ],
         "chinese-3:mastery": [
           "info.chinese-3.kp3",
@@ -377,6 +387,8 @@
           "build.chinese-3.case",
           "cq.chinese-3-q2",
           "q.chinese-3.case.check",
+          "enrich.chinese-3.0",
+          "enrich.chinese-3.1",
           "q.chinese-3.pitfall",
           "cap.111-chinese-14",
           "cap.112-chinese-12"
@@ -487,7 +499,9 @@
         "chinese-4:reasoning": [
           "build.chinese-4.case",
           "cq.chinese-4-q2",
-          "q.chinese-4.case.check"
+          "q.chinese-4.case.check",
+          "enrich.chinese-4.0",
+          "enrich.chinese-4.1"
         ],
         "chinese-4:mastery": [
           "info.chinese-4.kp3",
@@ -504,6 +518,8 @@
           "build.chinese-4.case",
           "cq.chinese-4-q2",
           "q.chinese-4.case.check",
+          "enrich.chinese-4.0",
+          "enrich.chinese-4.1",
           "q.chinese-4.pitfall",
           "cap.111-chinese-1",
           "cap.111-chinese-10"
@@ -614,7 +630,9 @@
         "chinese-5:reasoning": [
           "build.chinese-5.case",
           "cq.chinese-5-q2",
-          "q.chinese-5.case.check"
+          "q.chinese-5.case.check",
+          "enrich.chinese-5.0",
+          "enrich.chinese-5.1"
         ],
         "chinese-5:mastery": [
           "info.chinese-5.kp3",
@@ -631,6 +649,8 @@
           "build.chinese-5.case",
           "cq.chinese-5-q2",
           "q.chinese-5.case.check",
+          "enrich.chinese-5.0",
+          "enrich.chinese-5.1",
           "q.chinese-5.pitfall",
           "cap.111-chinese-9",
           "cap.111-chinese-23"
@@ -741,7 +761,9 @@
         "chinese-6:reasoning": [
           "build.chinese-6.case",
           "cq.chinese-6-q2",
-          "q.chinese-6.case.check"
+          "q.chinese-6.case.check",
+          "enrich.chinese-6.0",
+          "enrich.chinese-6.1"
         ],
         "chinese-6:mastery": [
           "info.chinese-6.kp3",
@@ -758,6 +780,8 @@
           "build.chinese-6.case",
           "cq.chinese-6-q2",
           "q.chinese-6.case.check",
+          "enrich.chinese-6.0",
+          "enrich.chinese-6.1",
           "q.chinese-6.pitfall",
           "cap.109-chinese-6",
           "cap.109-chinese-21"
@@ -863,12 +887,15 @@
         "chinese-7:reasoning": [
           "build.chinese-7.case",
           "cq.chinese-7-q2",
-          "q.chinese-7.case.check"
+          "q.chinese-7.case.check",
+          "enrich.chinese-7.0",
+          "enrich.chinese-7.1"
         ],
         "chinese-7:mastery": [
           "info.chinese-7.kp3",
           "q.chinese-7.pitfall",
-          "cap.109-chinese-17"
+          "cap.109-chinese-17",
+          "cap.111-chinese-21"
         ],
         "chinese-7:boss": [
           "q.chinese-7.kp1.def",
@@ -879,8 +906,11 @@
           "build.chinese-7.case",
           "cq.chinese-7-q2",
           "q.chinese-7.case.check",
+          "enrich.chinese-7.0",
+          "enrich.chinese-7.1",
           "q.chinese-7.pitfall",
-          "cap.109-chinese-17"
+          "cap.109-chinese-17",
+          "cap.111-chinese-21"
         ]
       }
     },
@@ -988,7 +1018,9 @@
         "chinese-8:reasoning": [
           "build.chinese-8.case",
           "cq.chinese-8-q2",
-          "q.chinese-8.case.check"
+          "q.chinese-8.case.check",
+          "enrich.chinese-8.0",
+          "enrich.chinese-8.1"
         ],
         "chinese-8:mastery": [
           "info.chinese-8.kp3",
@@ -1005,6 +1037,8 @@
           "build.chinese-8.case",
           "cq.chinese-8-q2",
           "q.chinese-8.case.check",
+          "enrich.chinese-8.0",
+          "enrich.chinese-8.1",
           "q.chinese-8.pitfall",
           "cap.109-chinese-9",
           "cap.111-chinese-7"
@@ -1110,7 +1144,9 @@
         "chinese-9:reasoning": [
           "build.chinese-9.case",
           "cq.chinese-9-q2",
-          "q.chinese-9.case.check"
+          "q.chinese-9.case.check",
+          "enrich.chinese-9.0",
+          "enrich.chinese-9.1"
         ],
         "chinese-9:mastery": [
           "info.chinese-9.kp3",
@@ -1127,6 +1163,8 @@
           "build.chinese-9.case",
           "cq.chinese-9-q2",
           "q.chinese-9.case.check",
+          "enrich.chinese-9.0",
+          "enrich.chinese-9.1",
           "q.chinese-9.pitfall",
           "cap.111-chinese-2",
           "cap.112-chinese-9"
@@ -1237,7 +1275,9 @@
         "chinese-10:reasoning": [
           "build.chinese-10.case",
           "cq.chinese-10-q2",
-          "q.chinese-10.case.check"
+          "q.chinese-10.case.check",
+          "enrich.chinese-10.0",
+          "enrich.chinese-10.1"
         ],
         "chinese-10:mastery": [
           "info.chinese-10.kp3",
@@ -1252,6 +1292,8 @@
           "build.chinese-10.case",
           "cq.chinese-10-q2",
           "q.chinese-10.case.check",
+          "enrich.chinese-10.0",
+          "enrich.chinese-10.1",
           "q.chinese-10.pitfall"
         ]
       }
@@ -1355,7 +1397,9 @@
         "chinese-11:reasoning": [
           "build.chinese-11.case",
           "cq.chinese-11-q2",
-          "q.chinese-11.case.check"
+          "q.chinese-11.case.check",
+          "enrich.chinese-11.0",
+          "enrich.chinese-11.1"
         ],
         "chinese-11:mastery": [
           "info.chinese-11.kp3",
@@ -1370,6 +1414,8 @@
           "build.chinese-11.case",
           "cq.chinese-11-q2",
           "q.chinese-11.case.check",
+          "enrich.chinese-11.0",
+          "enrich.chinese-11.1",
           "q.chinese-11.pitfall"
         ]
       }
@@ -1473,7 +1519,9 @@
         "chinese-12:reasoning": [
           "build.chinese-12.case",
           "cq.chinese-12-q2",
-          "q.chinese-12.case.check"
+          "q.chinese-12.case.check",
+          "enrich.chinese-12.0",
+          "enrich.chinese-12.1"
         ],
         "chinese-12:mastery": [
           "info.chinese-12.kp3",
@@ -1488,6 +1536,8 @@
           "build.chinese-12.case",
           "cq.chinese-12-q2",
           "q.chinese-12.case.check",
+          "enrich.chinese-12.0",
+          "enrich.chinese-12.1",
           "q.chinese-12.pitfall"
         ]
       }
@@ -1596,7 +1646,9 @@
         "chinese-13:reasoning": [
           "build.chinese-13.case",
           "cq.chinese-13-q2",
-          "q.chinese-13.case.check"
+          "q.chinese-13.case.check",
+          "enrich.chinese-13.0",
+          "enrich.chinese-13.1"
         ],
         "chinese-13:mastery": [
           "info.chinese-13.kp3",
@@ -1611,6 +1663,8 @@
           "build.chinese-13.case",
           "cq.chinese-13-q2",
           "q.chinese-13.case.check",
+          "enrich.chinese-13.0",
+          "enrich.chinese-13.1",
           "q.chinese-13.pitfall"
         ]
       }
@@ -1719,7 +1773,9 @@
         "chinese-14:reasoning": [
           "build.chinese-14.case",
           "cq.chinese-14-q2",
-          "q.chinese-14.case.check"
+          "q.chinese-14.case.check",
+          "enrich.chinese-14.0",
+          "enrich.chinese-14.1"
         ],
         "chinese-14:mastery": [
           "info.chinese-14.kp3",
@@ -1736,6 +1792,8 @@
           "build.chinese-14.case",
           "cq.chinese-14-q2",
           "q.chinese-14.case.check",
+          "enrich.chinese-14.0",
+          "enrich.chinese-14.1",
           "q.chinese-14.pitfall",
           "cap.111-chinese-8",
           "cap.111-chinese-13"
@@ -1841,7 +1899,9 @@
         "chinese-15:reasoning": [
           "build.chinese-15.case",
           "cq.chinese-15-q2",
-          "q.chinese-15.case.check"
+          "q.chinese-15.case.check",
+          "enrich.chinese-15.0",
+          "enrich.chinese-15.1"
         ],
         "chinese-15:mastery": [
           "info.chinese-15.kp3",
@@ -1858,6 +1918,8 @@
           "build.chinese-15.case",
           "cq.chinese-15-q2",
           "q.chinese-15.case.check",
+          "enrich.chinese-15.0",
+          "enrich.chinese-15.1",
           "q.chinese-15.pitfall",
           "cap.109-chinese-42",
           "cap.111-chinese-3"
@@ -1968,7 +2030,9 @@
         "chinese-16:reasoning": [
           "build.chinese-16.case",
           "cq.chinese-16-q2",
-          "q.chinese-16.case.check"
+          "q.chinese-16.case.check",
+          "enrich.chinese-16.0",
+          "enrich.chinese-16.1"
         ],
         "chinese-16:mastery": [
           "info.chinese-16.kp3",
@@ -1983,6 +2047,8 @@
           "build.chinese-16.case",
           "cq.chinese-16-q2",
           "q.chinese-16.case.check",
+          "enrich.chinese-16.0",
+          "enrich.chinese-16.1",
           "q.chinese-16.pitfall"
         ]
       }

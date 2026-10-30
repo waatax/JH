@@ -1,963 +1,1694 @@
 {
   "115-english-1": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：用圖表表徵文意（單題）",
+    "keyIdea": "all ... who are exercising 只包含正在運動的人。",
     "steps": [
-      "【審題定位】本題考查「閱讀策略與情境溝通」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (B) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "圖中兩名打球者與一名跳繩者正在運動；坐在長椅上的兩人不在限定範圍內。",
+      "三名運動者都戴眼鏡；帽子、外套與長褲並非人人都有，所以選 B。"
     ],
     "options": {
-      "A": "「caps」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「glasses」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「jackets」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「pants」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "其中一名打球者沒戴帽子。",
+      "B": "三名運動者均戴眼鏡。",
+      "C": "運動者的衣著不全是外套。",
+      "D": "左側運動者穿裙子，並非全穿長褲。"
     },
-    "trap": "【官方統計考情】全體通過率為 70.1%。錯誤選項中以 (C) 的誤選率最高（達 14.18%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "先用關係子句縮小人物範圍，再判斷 all。",
     "unitIds": [
       "english-6",
       "english-16"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "只比對打球與跳繩的三人。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 2,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 6
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-2": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：指出適合句中的單字或片語（單題）",
+    "keyIdea": "由狗太胖的結果推論餵食過於頻繁。",
     "steps": [
-      "【審題定位】本題考查「句子骨架與現在式」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (A) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "後句指出狗太胖，前句須提供合理原因。",
+      "feeds 是餵食，一天餵很多次能連結體重問題；其餘動作不符因果，選 A。"
     ],
     "options": {
-      "A": "「feeds」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「kisses」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「walks」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「washes」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "一天多次餵食與太胖的結果相連。",
+      "B": "kisses 是親吻，不會直接說明太胖。",
+      "C": "walks 是遛狗，與題幹所需的增胖原因不合。",
+      "D": "washes 是清洗，不解釋太胖。"
     },
-    "trap": "【官方統計考情】全體通過率為 73.7%。錯誤選項中以 (C) 的誤選率最高（達 14.86%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "依上下句因果選字，不能只看能否搭配 dogs。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出能說明 too fat 的動作。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 2,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 7
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-3": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：指出適合句中的單字或片語（單題）",
+    "keyIdea": "have knowledge of 表示具有某方面的知識。",
     "steps": [
-      "【審題定位】本題考查「頻率副詞、情態助動詞 can 與存在句」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (B) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "Sophia 能回答蝴蝶、蜜蜂的各種問題，代表她熟悉昆蟲。",
+      "great knowledge of insects 表示豐富的昆蟲知識，選 B。"
     ],
     "options": {
-      "A": "「chances」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「knowledge」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「news」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「power」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "chances 是機會，非能回答問題的知識。",
+      "B": "knowledge of insects 與前句的博學相符。",
+      "C": "news 是消息，與 great ... of insects 的語意搭配不符。",
+      "D": "power 是力量或權力，非此處的知識。"
     },
-    "trap": "【官方統計考情】全體通過率為 76.4%。錯誤選項中以 (C) 的誤選率最高（達 8.3%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "觀察 knowledge of 的固定搭配。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "哪個名詞表示對一個領域的了解？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 2,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 8
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-4": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：指出適合句中的單字或片語（單題）",
+    "keyIdea": "惡夢讓人持續醒來，表示睡得很差。",
     "steps": [
-      "【審題定位】本題考查「頻率副詞、情態助動詞 can 與存在句」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (C) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "because 引出的原因是 kept waking up from bad dreams，也就是整夜被惡夢打斷。",
+      "terribly 修飾 slept，表示睡得不好，選 C。"
     ],
     "options": {
-      "A": "「deeply」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「early」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「terribly」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「quickly」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "deeply 表示熟睡，與不斷醒來相反。",
+      "B": "early 說明時間早，未描述睡眠品質。",
+      "C": "terribly 對應受惡夢干擾的糟糕睡眠。",
+      "D": "quickly 表示迅速，與睡眠被打斷的因果不符。"
     },
-    "trap": "【官方統計考情】全體通過率為 70.6%。錯誤選項中以 (B) 的誤選率最高（達 14.36%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "本題判斷睡眠品質，不是就寢時間。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "留意 kept waking up。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 2,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 9
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-5": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：指出適合句中的單字或片語（單題）",
+    "keyIdea": "keep an animal as a pet 表示飼養動物當寵物。",
     "steps": [
-      "【審題定位】本題考查「句子骨架與現在式」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (C) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "Tara 喜歡和各種動物相處，甚至養蛇當寵物。",
+      "keeps ... as a pet 是相符的動詞搭配，選 C。"
     ],
     "options": {
-      "A": "「drops」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「gives」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「keeps」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「makes」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "drops 是掉落或丟下，不是飼養。",
+      "B": "gives 是給予，此句沒有受贈對象。",
+      "C": "keeps a snake as a pet 表示養蛇當寵物。",
+      "D": "makes 是製作，不能表達飼養蛇。"
     },
-    "trap": "【官方統計考情】全體通過率為 54.9%。錯誤選項中以 (D) 的誤選率最高（達 23.61%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "even 表示連蛇這種寵物也飼養，須維持喜愛動物的語意。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出有「養」意思的動詞。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 2,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 10
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-6": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：指出適合句中的單字或片語（單題）",
+    "keyIdea": "with＋身體特徵可修飾名詞，表示具有。",
     "steps": [
-      "【審題定位】本題考查「頻率副詞、情態助動詞 can 與存在句」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (D) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "big brown eyes 是娃娃的外貌特徵。",
+      "the doll with big brown eyes 表示有棕色大眼睛的娃娃，選 D。"
     ],
     "options": {
-      "A": "「at」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「in」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「on」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「with」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "at 表位置或指向，不能表娃娃具有眼睛。",
+      "B": "in 通常表示在內或穿著，不能接 eyes 表具有。",
+      "C": "on 表示在表面，非描述具有的外貌。",
+      "D": "with 正確連結娃娃與其眼睛特徵。"
     },
-    "trap": "【官方統計考情】全體通過率為 70.6%。錯誤選項中以 (B) 的誤選率最高（達 13.1%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "介系詞需表達名詞間的實際關係。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "哪個介系詞可表示「帶有、具有」？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 2,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 11
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-7": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：指出適合句中的單字或片語（單題）",
+    "keyIdea": "登山四小時後休息，對應腿部痠痛。",
     "steps": [
-      "【審題定位】本題考查「句子骨架與現在式」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (C) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "長時間爬山與停下休息建立了身體疲勞的情境。",
+      "legs got sore 表示腿痠痛，最能說明休息的原因，選 C。"
     ],
     "options": {
-      "A": "「dirty」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「sick」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「sore」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「strong」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "dirty 是髒，與需要休息的因果較不相合。",
+      "B": "sick 通常指人或生物生病，不用來說腿痠。",
+      "C": "sore 表示痠痛，符合長時間運動後的狀態。",
+      "D": "strong 表示強壯，不能說明此時需要休息。"
     },
-    "trap": "【官方統計考情】全體通過率為 60.0%。錯誤選項中以 (D) 的誤選率最高（達 16.26%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "選字應同時符合主詞 legs 與後句休息。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "想想長時間爬山後腿部最直接的感覺。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 2,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 12
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-8": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：指出句中正確的文法（單題）",
+    "keyIdea": "動名詞片語作單數主詞，否定 can’t 的附加問句用肯定 can。",
     "steps": [
-      "【審題定位】本題考查「附加問句、名詞子句與間接問句」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (A) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "整個 Having three cups of coffee a day 是主詞，視為一件事，用 it 代替，並非用 they 代替 three cups。",
+      "主句為 can’t，附加問句改為 can it?，選 A。"
     ],
     "options": {
-      "A": "「can it」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「can they」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「is it」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「are they」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "助動詞 can 與代名詞 it 都正確。",
+      "B": "they 誤把片語內的 cups 當成主詞。",
+      "C": "應沿用情態助動詞 can，而非 is。",
+      "D": "助動詞與代名詞皆不符主句。"
     },
-    "trap": "【官方統計考情】全體通過率為 52.5%。錯誤選項中以 (B) 的誤選率最高（達 19.67%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "先找完整主詞，不能只看最近的複數名詞。",
     "unitIds": [
       "english-12"
     ],
     "gap": "",
     "skill": "文法句型",
-    "doubt": false
+    "doubt": false,
+    "hint": "把整個喝咖啡的行為視為一件事。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 2,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 13
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-9": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：指出句中正確的文法（單題）",
+    "keyIdea": "與 one hand 對比，兩隻手用 both。",
     "steps": [
-      "【審題定位】本題考查「頻率副詞、情態助動詞 can 與存在句」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (C) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "門太重，僅用一隻手推不開，因此需要用兩隻手。",
+      "both 在此省略 hands，正確指雙手，選 C。"
     ],
     "options": {
-      "A": "「all」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「another」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「both」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「one」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "all 通常指三個以上，不適合此處雙手。",
+      "B": "another 表另一隻單手，未表兩手一起使用。",
+      "C": "both 表兩者都，對應使用雙手。",
+      "D": "one 與前文一隻手不夠矛盾。"
     },
-    "trap": "【官方統計考情】全體通過率為 67.2%。錯誤選項中以 (B) 的誤選率最高（達 13.98%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "another hand 是換一隻，不等於同時用兩隻。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "文法句型",
-    "doubt": false
+    "doubt": false,
+    "hint": "題目把一隻手與兩隻手作對比。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 2,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 14
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-10": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：指出適合句中的單字或片語（單題）",
+    "keyIdea": "how someone feels about ... 詢問某人對某事的看法。",
     "steps": [
-      "【審題定位】本題考查「頻率副詞、情態助動詞 can 與存在句」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (A) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "Alan 想知道老闆對他的評價或感受。",
+      "how his boss feels about him 是完整名詞子句，how 補足「感覺如何」，選 A。"
     ],
     "options": {
-      "A": "「how」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「that」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「whether」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「why」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "how 正確詢問老闆如何看待他。",
+      "B": "that 不能補出 feels about him 所問的感受內容。",
+      "C": "whether 詢問是否，未交代 feels 的具體內容。",
+      "D": "why 詢問原因，並非此句想知道的評價。"
     },
-    "trap": "【官方統計考情】全體通過率為 60.4%。錯誤選項中以 (B) 的誤選率最高（達 16.7%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "feel about 常搭配 how 詢問看法。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "將句意翻成「想知道老闆對他感覺如何」。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 2,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 15
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-11": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：指出句中正確的文法（單題）",
+    "keyIdea": "主詞關係代名詞 who 不可省略。",
     "steps": [
-      "【審題定位】本題考查「頻率副詞、情態助動詞 can 與存在句」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (C) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "主句為 I thought the girl was Kate；空格內容用來限定是哪個女孩。",
+      "who answered the phone 修飾 the girl，who 在子句中作主詞，選 C。"
     ],
     "options": {
-      "A": "「answered the phone」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「she answered the phone」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「who answered the phone」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「and answered the phone」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "answered 缺少引導關係子句並作主詞的 who。",
+      "B": "she 另開一個主詞，無法直接連在 the girl 後。",
+      "C": "who answered the phone 是完整的主詞關係子句。",
+      "D": "and 無法將此片語正確嵌入 the girl 與 was 之間。"
     },
-    "trap": "【官方統計考情】全體通過率為 70.1%。錯誤選項中以 (A) 的誤選率最高（達 13.26%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "關係代名詞作主詞時不能直接省略。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "文法句型",
-    "doubt": false
+    "doubt": false,
+    "hint": "先保留主句 the girl was Kate，再加修飾語。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 3,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 16
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-12": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：指出句中正確的文法（單題）",
+    "keyIdea": "know 後用受格代名詞指前述女子。",
     "steps": [
-      "【審題定位】本題考查「句子骨架與現在式」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (A) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "he 的指涉為 Ken，與前面的 a woman 對應的是 her。",
+      "he doesn’t know her well 表示他不熟悉她，選 A。"
     ],
     "options": {
-      "A": "「her」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「each other」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「any」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「another」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "her 是 a woman 的受格代名詞。",
+      "B": "each other 需有相互關係的複數主體，此處為 he。",
+      "C": "any 無法具體指回題目中的這名女子。",
+      "D": "another 指另一個，並非前面那名女子。"
     },
-    "trap": "【官方統計考情】全體通過率為 50.1%。錯誤選項中以 (C) 的誤選率最高（達 20.8%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "主詞是 he，不是 they。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "文法句型",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出 know 的受詞是誰。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 3,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 17
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-13": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：指出適合句中的單字或片語（單題）",
+    "keyIdea": "由成績進步推論不再位居班級末端。",
     "steps": [
-      "【審題定位】本題考查「句子骨架與現在式」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (D) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "Joe 今年成績比一半同學好，因此不再是班上成績最差的一群。",
+      "at the bottom of the class 指成績墊底，選 D。"
     ],
     "options": {
-      "A": "「side」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「front」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「center」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「bottom」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "side 是旁邊，與成績排名無關。",
+      "B": "front 若指前段，與因進步而高興不再位居該處的語意不合。",
+      "C": "center 指中央，非此處慣用的成績末段表達。",
+      "D": "not at the bottom 表示不再墊底，符合進步。"
     },
-    "trap": "【官方統計考情】全體通過率為 55.9%。錯誤選項中以 (B) 的誤選率最高（達 14.72%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "題目用成績好轉支持否定的 not at the bottom。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "留意 not 與 grades are better。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 3,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 18
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-14": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：指出適合句中的單字或片語（單題）",
+    "keyIdea": "chances are small 表示機率低。",
     "steps": [
-      "【審題定位】本題考查「句子骨架與現在式」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (D) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "天空完全沒有雲，說話者據此推測今天下雨的可能性很低。",
+      "the chances ... are really small 符合機率大小的搭配，選 D。"
     ],
     "options": {
-      "A": "「far」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「good」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「possible」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「small」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "far 指距離遠，不用來形容機率大小。",
+      "B": "good 表機會高，與無雲的推論方向相反。",
+      "C": "possible 通常描述事件可能，不能說 chances are possible。",
+      "D": "small 表示下雨機率低。"
     },
-    "trap": "【官方統計考情】全體通過率為 51.8%。錯誤選項中以 (C) 的誤選率最高（達 24.49%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "主詞是 chances，形容詞須能描述機率。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "哪個選項表示可能性很小？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 3,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 19
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-15": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：指出適合句中的單字或片語（單題）",
+    "keyIdea": "由 with their heads down 的擬人描述推知低頭鞠躬。",
     "steps": [
-      "【審題定位】本題考查「句子骨架與現在式」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (A) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "風中的花像害羞孩子低著頭，重點是彎身低頭的姿態。",
+      "bow 表示鞠躬，最貼合比喻，選 A。"
     ],
     "options": {
-      "A": "「bow」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「fall」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「rise」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「smell」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "bow 描述向下彎身低頭的動作。",
+      "B": "fall 是掉落，並非仍站著低頭。",
+      "C": "rise 是升起，與 heads down 相反。",
+      "D": "smell 是聞或散發氣味，不是所描繪的姿態。"
     },
-    "trap": "【官方統計考情】全體通過率為 38.2%。錯誤選項中以 (B) 的誤選率最高（達 32.68%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "依比喻中的動作線索選字。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "把花的下垂姿態對應人的動作。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 3,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 20
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-16": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：指出句中正確的文法（單題）",
+    "keyIdea": "過去某時發現正在掉髮，使用過去進行式。",
     "steps": [
-      "【審題定位】本題考查「句子骨架與現在式」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (A) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "went、found、hoped 都設定過去時間；他當時發現掉髮正在發生。",
+      "was losing 表當時正在流失頭髮，與後句希望保住濃髮相符，選 A。"
     ],
     "options": {
-      "A": "「was losing」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「is losing」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「will lose」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「has lost」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "過去進行式符合當時正在掉髮。",
+      "B": "現在進行式與過去敘事時間不一致。",
+      "C": "未來式不符合已發現掉髮的敘事。",
+      "D": "現在完成式不符合此處過去的觀察時點。"
     },
-    "trap": "【官方統計考情】全體通過率為 58.3%。錯誤選項中以 (D) 的誤選率最高（達 17.32%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "同時判斷過去時間及進行中的狀態。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "文法句型",
-    "doubt": false
+    "doubt": false,
+    "hint": "以 found 的過去時點為基準。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 3,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 21
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-17": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：指出句中正確的文法（單題）",
+    "keyIdea": "成為明星之前的第一份工作是已結束的過去事件。",
     "steps": [
-      "【審題定位】本題考查「句子骨架與現在式」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (D) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "what ... first job was 與 Before becoming a movie star 都指向過去工作。",
+      "一般過去式 mopped 表示當時拖地的工作，選 D。"
     ],
     "options": {
-      "A": "「mops」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「is mopping」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「has mopped」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「mopped」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "現在簡單式不符已過去的工作。",
+      "B": "現在進行式不符先前職業。",
+      "C": "現在完成式未配合明確過去階段的敘述。",
+      "D": "mopped 以一般過去式描述先前工作。"
     },
-    "trap": "【官方統計考情】全體通過率為 53.5%。錯誤選項中以 (C) 的誤選率最高（達 21.33%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "before becoming 不會強制後方使用進行式。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "文法句型",
-    "doubt": false
+    "doubt": false,
+    "hint": "先判定這份工作是否仍是她現在的工作。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 3,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 22
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-18": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：指出適合句中的單字或片語（單題）",
+    "keyIdea": "be like this 表示一直維持前文描述的樣子。",
     "steps": [
-      "【審題定位】本題考查「頻率副詞、情態助動詞 can 與存在句」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (B) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "前句描述 Lassie 每逢月亮出現便躲到床下。",
+      "She has been like this for years 表示這個樣子已持續多年，選 B。"
     ],
     "options": {
-      "A": "「it」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「like this」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「like us」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「that」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "has been it 不自然，無法表達這種持續行為。",
+      "B": "like this 指前句所描述的行為模式。",
+      "C": "like us 表像我們，但題目未描述人也有此行為。",
+      "D": "has been that 不符合此處描述樣態的慣用表達。"
     },
-    "trap": "【官方統計考情】全體通過率為 44.0%。錯誤選項中以 (D) 的誤選率最高（達 29.23%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "like 在這裡是介系詞「像」，不是動詞「喜歡」。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "用「多年來一直是這樣」補入句中。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 3,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 23
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-19": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：指出句中正確的文法（單題）",
+    "keyIdea": "now 與眼前正在看的賽事要求現在進行式。",
     "steps": [
-      "【審題定位】本題考查「句子骨架與現在式」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (D) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "Tom 問現在能否幫忙；Sam 拒絕，因為目前正在看重要比賽。",
+      "am watching 正確表達說話當下進行中的動作，選 D。"
     ],
     "options": {
-      "A": "「watch」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「watched」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「have watched」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「am watching」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "watch 通常表示習慣，未指出眼前的動作。",
+      "B": "watched 表過去已發生，不能說明此刻無法幫忙。",
+      "C": "have watched 表已看過，不是正觀看。",
+      "D": "am watching 表現在正在觀看。"
     },
-    "trap": "【官方統計考情】全體通過率為 73.3%。錯誤選項中以 (A) 的誤選率最高（達 9.82%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "最重要比賽是此刻不能離開的理由。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "文法句型",
-    "doubt": false
+    "doubt": false,
+    "hint": "留意問句的 now。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 3,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 24
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-20": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：找出已明確敘述的細節",
+    "keyIdea": "先排除食譜明確不建議使用的木瓜與香蕉。",
     "steps": [
-      "【審題定位】本題考查「頻率副詞、情態助動詞 can 與存在句」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (C) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "食譜說大多數水果可用，但排除 papayas、bananas。",
+      "四組選項中只有 apples、oranges、strawberries 不含這兩種禁用水果，選 C。"
     ],
     "options": {
-      "A": "「Oranges, papayas and pears.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「Apples, bananas and oranges.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「Apples, oranges and strawberries.」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「Bananas, papayas and strawberries.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "含 papayas，違反提醒。",
+      "B": "含 bananas，違反提醒。",
+      "C": "蘋果、柳橙、草莓均未在排除清單中。",
+      "D": "同時含 bananas 與 papayas。"
     },
-    "trap": "【官方統計考情】全體通過率為 81.9%。錯誤選項中以 (B) 的誤選率最高（達 6.9%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "準備材料列的水果不是唯一可用種類；Note 才是此題排除依據。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出 Note 中 not 後的水果。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 4,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 26
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-21": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：找出已明確敘述的細節",
+    "keyIdea": "依製作步驟區分茶包、水果與糖、檸檬汁的加入順序。",
     "steps": [
-      "【審題定位】本題考查「授予動詞、使役動詞與現在完成式進階」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (D) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "食譜先煮水，茶包浸泡 2～3 分鐘後取出，再放水果等 5～6 分鐘。",
+      "水果保留在壺內，最後才加糖與檸檬汁，因此 D 的浸茶時間正確。"
     ],
     "options": {
-      "A": "「Boiling water with sugar in it.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「Making sure to take out the fruit.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「Putting in the fruit and the lemon juice at the same time.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「Leaving the teabags in the pot of hot water for 2 to 3 minutes.」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "糖在最後加入，並非與水一起煮。",
+      "B": "應取出茶包，水果則保留。",
+      "C": "水果先放，檸檬汁稍後才加。",
+      "D": "茶包在熱水中停留 2～3 分鐘，符合步驟 2。"
     },
-    "trap": "【官方統計考情】全體通過率為 61.7%。錯誤選項中以 (B) 的誤選率最高（達 21.77%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "分清楚 take out 的是茶包，leave in 的是水果。",
     "unitIds": [
       "english-11"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "逐項比對步驟 2、4、5。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 4,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 27
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-22": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：推論文中隱含的訊息",
+    "keyIdea": "用漫畫中的承諾與實際表現比較人物特質。",
     "steps": [
-      "【審題定位】本題考查「閱讀策略與情境溝通」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (D) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "Hawkins 競選時承諾縮短上課時間及每週只上三天，超出學生領袖權限。",
+      "當業務員又承諾每月賣 50 輛，實際兩個月只賣 1 輛；兩例都顯示他說出做不到的事，選 D。"
     ],
     "options": {
-      "A": "「He sees good things in people.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「He never goes to work on time.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「He blindly follows other people.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「He talks about things he can’t do.」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "漫畫未以欣賞他人優點為主題。",
+      "B": "沒有遲到的情節。",
+      "C": "他提出自己的誇大承諾，並非盲從他人。",
+      "D": "兩段故事皆是承諾超出實際能力。"
     },
-    "trap": "【官方統計考情】全體通過率為 73.3%。錯誤選項中以 (C) 的誤選率最高（達 10.19%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "人物推論要涵蓋兩段情節，不能只靠單一字詞。",
     "unitIds": [
       "english-6",
       "english-16"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "比較他說了什麼，以及最後做成了什麼。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 5,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 29
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-23": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：根據上下文意猜測字詞的意義",
+    "keyIdea": "由競選落敗與被解雇的結果推知 bombed 的語意。",
     "steps": [
-      "【審題定位】本題考查「閱讀策略與情境溝通」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (B) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "第一次 bombed 後呈現票數遠低於對手；第二次則因銷售不佳被解雇。",
+      "兩次共同結果都是失敗，所以 bombed something 表示某事搞砸或失敗，選 B。"
     ],
     "options": {
-      "A": "「They gave it up.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「They failed at it.」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「They were fine with it.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「They were careful about it.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "give up 是放棄，但他仍自認能成功，並非主動放棄。",
+      "B": "failed 對應落選及工作失敗。",
+      "C": "fine with it 是能接受，非失敗結果。",
+      "D": "careful 是小心，與漫畫事件無關。"
     },
-    "trap": "【官方統計考情】全體通過率為 71.1%。錯誤選項中以 (A) 的誤選率最高（達 11.12%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "片語需由具體結果推義，不按 bomb 字面解讀。",
     "unitIds": [
       "english-6",
       "english-16"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "兩次使用這個詞之後，各發生什麼結果？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 5,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 30
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-24": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：找出已明確敘述的細節",
+    "keyIdea": "手冊直接提供開放日期與時間。",
     "steps": [
-      "【審題定位】本題考查「附加問句、名詞子句與間接問句」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (D) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "手冊列出 3～10 月 10:00～17:00、11～2 月 10:00～16:00，並說明週一休館。",
+      "因此可回答何時能參觀；並未列出網路購票、票價或園外交通，選 D。"
     ],
     "options": {
-      "A": "「Can I order tickets online?」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「How much are the tickets?」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「How can I get to the Marigolds’ Home?」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「When can I visit the Marigolds’ Home?」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "網站用於加入會員，未說可線上訂票。",
+      "B": "僅提折扣，未提供票價。",
+      "C": "地圖是園區內部配置，沒有園外交通方式。",
+      "D": "開放時間與休館日足以回答 when。"
     },
-    "trap": "【官方統計考情】全體通過率為 68.1%。錯誤選項中以 (C) 的誤選率最高（達 14.34%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "有網站不等於有網路訂票功能。",
     "unitIds": [
       "english-12"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "判斷哪個問題有直接的文字資訊可回答。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 7,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 32
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-25": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：找出已明確敘述的細節",
+    "keyIdea": "寵物禁令適用園區所有區域。",
     "steps": [
-      "【審題定位】本題考查「句子骨架與現在式」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (D) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "規則明確說 pets are not allowed in any areas，包含戶外遊樂場。",
+      "因此帶狗散步違規；其餘行為未違反所列規則，選 D。"
     ],
     "options": {
-      "A": "「Eating burgers in the Rose Garden.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「Taking pictures in the Main House.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「Entering the Rabbit’s Temple without shoes.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「Taking pet dogs for a walk on the playground.」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "玫瑰園在室外，室內禁食規則不適用。",
+      "B": "禁拍只指 Sir Archie’s House，非 Main House。",
+      "C": "進 Rabbit’s Temple 應脫鞋，這項行為符合規定。",
+      "D": "遊樂場也在園區內，仍禁止帶寵物。"
     },
-    "trap": "【官方統計考情】全體通過率為 49.5%。錯誤選項中以 (C) 的誤選率最高（達 20.37%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "注意 any areas 的範圍與每條規則指定的建築。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "逐條核對地點是否被規則涵蓋。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 7,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 33
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-26": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：在圖表中找出所需的資訊",
+    "keyIdea": "以主屋出口面向圖書館，建立人物朝北的方向。",
     "steps": [
-      "【審題定位】本題考查「閱讀策略與情境溝通」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (C) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "主屋禮品店位在建築北側，走出後正前方是 Family Library，因此 Lizzy 面朝北；她的右邊是東。",
+      "沿道路右轉往東直走到 Farmyard，再右轉往南，直走到轉角再左轉，便可到 Rose Garden，符合 C。"
     ],
     "options": {
-      "A": "「Turn left and walk past the Main House, then go straight and turn right at the corner.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「\u0007Turn left and walk past Sir Archie’s House, then turn right and walk past the Main House.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「\u0007Turn right and go straight to the Farmyard, then turn right and go straight, then turn left at the corner.」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「\u0007Turn right and walk through the Butterfly Garden, then walk past the Rabbit’s Temple and the café.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "先向西繞過主屋的描述與地圖路線不合，無法依此轉彎序列抵達玫瑰園。",
+      "B": "面朝北左轉向西，並不會先經過位在主屋東南側的 Sir Archie’s House。",
+      "C": "右轉向東到農場、再向南及向東，符合園區道路。",
+      "D": "右轉向東不會穿過位在主屋西南側的蝴蝶園。"
     },
-    "trap": "【官方統計考情】全體通過率為 65.5%。錯誤選項中以 (A) 的誤選率最高（達 14.28%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "左右以人物面向為準，須先定位出口與圖書館。",
     "unitIds": [
       "english-6",
       "english-16"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先在地圖找主屋北側的禮品店標誌。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 7,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 34
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-27": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：指出內容的主旨",
+    "keyIdea": "稱號來自長期與夜鶯一起演出的知名事蹟。",
     "steps": [
-      "【審題定位】本題考查「句子骨架與現在式」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (D) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "Harrison 演奏大提琴時夜鶯加入歌唱，之後透過 BBC 廣播長期演出並收到大量歌迷來信。",
+      "因此 Nightingale Lady 指她以與夜鶯合奏聞名，選 D。"
     ],
     "options": {
-      "A": "「She wrote songs about nightingales.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「She sang as beautifully as a nightingale did.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「She taught nightingales to sing in a radio show.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「She was famous for playing music with nightingales.」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "文中未說她創作夜鶯歌曲。",
+      "B": "她演奏大提琴，並非以歌聲模仿夜鶯。",
+      "C": "夜鶯自行加入，未提她訓練鳥唱歌。",
+      "D": "廣播合奏與人氣直接支持此稱號。"
     },
-    "trap": "【官方統計考情】全體通過率為 59.0%。錯誤選項中以 (C) 的誤選率最高（達 18.29%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "cello player 是大提琴演奏者，不能改成歌手。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "追蹤 garden、radio 與稱號之間的關係。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 8,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 36
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-28": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：掌握上下文意了解文章中的句法連貫：代詞指涉",
+    "keyIdea": "追蹤名詞在上下文中的指涉對象。",
     "steps": [
-      "【審題定位】本題考查「閱讀策略與情境溝通」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (C) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "visitor 是最初來花園的夜鶯，little singers 與 garden friends 都接續指鳥。",
+      "artist 是演奏中的 Harrison，因此不是夜鶯的代稱，選 C。"
     ],
     "options": {
-      "A": "「Her visitor.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「The little singers.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「The artist.」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「Her garden friends.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "visitor 下一段直接揭示為 nightingale。",
+      "B": "little singers 指歌唱的夜鶯。",
+      "C": "artist 指大提琴演奏者 Harrison。",
+      "D": "garden friends 指花園中與她合奏的鳥。"
     },
-    "trap": "【官方統計考情】全體通過率為 59.8%。錯誤選項中以 (B) 的誤選率最高（達 15.7%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "本題問 NOT，須選指涉不同的一項。",
     "unitIds": [
       "english-6",
       "english-16"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "把每個代稱換回人名或鳥名。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 8,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 37
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-29": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：指出內容的主旨",
+    "keyIdea": "由追悼語氣及短暫人生的回顧推知寫作緣由。",
     "steps": [
-      "【審題定位】本題考查「句子骨架與現在式」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (A) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "開頭沉痛告別並表示將深切懷念，末段回顧她僅 40 年的人生。",
+      "整篇是悼念已逝作者的文章，故因 Rose 去世而寫，選 A。"
     ],
     "options": {
-      "A": "「Because she died.」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「Because she is very sick.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「Because she is moving away.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「Because she is leaving for another job.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "告別、懷念與回顧短暫人生共同支持去世。",
+      "B": "文中未說只是生病。",
+      "C": "搬家無法解釋生命回顧與追悼語氣。",
+      "D": "文中未交代轉職，重點是人生與文章的紀念。"
     },
-    "trap": "【官方統計考情】全體通過率為 64.5%。錯誤選項中以 (C) 的誤選率最高（達 17.6%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "say goodbye 必須連同全文判讀，不能單憑告別就認定搬家。",
     "unitIds": [
       "english-1"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "結合 heavy hearts、missed 與 short life。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 9,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 39
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-30": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：找出已明確敘述的細節",
+    "keyIdea": "定位 first met 所在段落。",
     "steps": [
-      "【審題定位】本題考查「頻率副詞、情態助動詞 can 與存在句」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (A) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "Alex 說 2010 年去派對接妻子時，聽見 Rose 談電影。",
+      "這是兩人首次相識的場合；後來邀稿才建立工作關係，所以選 A。"
     ],
     "options": {
-      "A": "「They met at a party.」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「They were relatives.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「They worked in the same office.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「They took a course on movies together.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "first met 段落明說在派對相遇。",
+      "B": "妻子是派對中的另一人，未說 Alex 與 Rose 是親戚。",
+      "C": "工作合作發生於初識之後。",
+      "D": "文中沒有共同修電影課的情節。"
     },
-    "trap": "【官方統計考情】全體通過率為 67.0%。錯誤選項中以 (D) 的誤選率最高（達 14.79%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "區分初次相遇與後續合作。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出 first met 後的事件。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 9,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 40
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-31": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：推論文中隱含的訊息",
+    "keyIdea": "文章使讀者從熟悉電影中看見新觀點。",
     "steps": [
-      "【審題定位】本題考查「閱讀策略與情境溝通」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (B) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "Alex 說 Rose 能從大家以為熟悉的電影中帶出新東西，讓重看的人有全新的體驗。",
+      "這表示她以新角度評論電影，選 B。"
     ],
     "options": {
-      "A": "「They are important to movie makers.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「They talk about movies from a fresh angle.」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「They give interesting information about actors.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「They are good examples of how to write stories.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "文中未以對電影製作人的重要性為重點。",
+      "B": "新觀點與重新觀看的體驗直接相符。",
+      "C": "沒有說她專門提供演員趣聞。",
+      "D": "主題是觀影角度，非教人寫故事。"
     },
-    "trap": "【官方統計考情】全體通過率為 53.3%。錯誤選項中以 (A) 的誤選率最高（達 17.49%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "用文章對讀者的作用判斷特色。",
     "unitIds": [
       "english-6",
       "english-16"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "注意 something new 與 a whole new way。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 9,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 41
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-32": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：指出內容的主旨",
+    "keyIdea": "標題第二人生指廢棄玻璃轉為海玻璃藝術材料。",
     "steps": [
-      "【審題定位】本題考查「頻率副詞、情態助動詞 can 與存在句」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (D) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "圖文說玻璃瓶入海後碎裂、磨圓及變化成海玻璃，再被藝術家撿起使用。",
+      "原本的瓶子因此有新的藝術用途，符合第二人生，選 D。"
     ],
     "options": {
-      "A": "「People collect sea glass and use it to make new glass bottles.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「People collect sea glass at the beach and use it to make wishes.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「Glass bottles that are thrown into the sea become the homes of sea animals.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「Glass bottles that are thrown into the sea become sea glass which is used in art pieces.」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "文中是製作藝術品，非再製新玻璃瓶。",
+      "B": "未提以海玻璃許願。",
+      "C": "未提成為海洋動物住處。",
+      "D": "從廢玻璃到海玻璃、再到藝術品，符合全文流程。"
     },
-    "trap": "【官方統計考情】全體通過率為 65.4%。錯誤選項中以 (B) 的誤選率最高（達 12.2%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "標題比喻需連結完整生命歷程。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "比較流程第一步與最後一步的用途。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 11,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 43
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-33": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：在圖表中找出所需的資訊",
+    "keyIdea": "依流程區分海中磨圓、表面變色與上岸先後。",
     "steps": [
-      "【審題定位】本題考查「閱讀策略與情境溝通」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (C) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "玻璃碎片在海底移動時逐漸磨圓，經數十至數百年後表面出現冰般白色，才被推上岸。",
+      "C 的長年在海中後表面變白符合第 4 步，選 C。"
     ],
     "options": {
-      "A": "「Sea glass becomes rounder after it is pushed up to the beach.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「Colder sea water helps pieces of glass become sea glass faster.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「Pieces of glass become white on the outside after many years in the sea.」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「Glass bottles break into pieces when they are dug out from the sea floor.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "磨圓發生在海底移動階段，不是上岸後。",
+      "B": "文中沒有冷海水加速形成的資訊。",
+      "C": "第 4 步明確描述海中多年後外表變白。",
+      "D": "碎裂是瓶子在海中互撞造成，非挖出海床時。"
     },
-    "trap": "【官方統計考情】全體通過率為 57.7%。錯誤選項中以 (A) 的誤選率最高（達 19.72%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "不要將圖示流程的先後順序顛倒。",
     "unitIds": [
       "english-6",
       "english-16"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "比對每個選項的時間與發生地點。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 11,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 44
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-34": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：推論文中隱含的訊息",
+    "keyIdea": "材料來源減少，導致未來可形成的海玻璃變少。",
     "steps": [
-      "【審題定位】本題考查「閱讀策略與情境溝通」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (A) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "末段說紙製碗杯更流行，人們較少用玻璃製作瓶碗。",
+      "因此進入海中的玻璃物品較少，未來海玻璃也會減少，選 A。"
     ],
     "options": {
-      "A": "「People do not make as many glass items as before.」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「People have learned not to throw garbage into the sea.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「Artists are using too much sea glass in their art pieces.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「Waves are not big enough to push sea glass up to the beach.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "玻璃用品製作減少是文章直接提出的原因。",
+      "B": "未說減少是因人們已學會不向海中丟垃圾。",
+      "C": "藝術家蒐集不是末段提出的減少原因。",
+      "D": "未提海浪推送能力變弱。"
     },
-    "trap": "【官方統計考情】全體通過率為 55.1%。錯誤選項中以 (B) 的誤選率最高（達 20.19%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "選文章明說的原因，不以常識補上環保推測。",
     "unitIds": [
       "english-6",
       "english-16"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "找最後一段 This means 所承接的原因。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 11,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 45
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-35": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：根據上下文意猜測字詞的意義",
+    "keyIdea": "由 everywhere 與多種生活情境推知 prevalence。",
     "steps": [
-      "【審題定位】本題考查「閱讀策略與情境溝通」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (A) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "後文列出機器人、手機、電影大量使用英語，又說在冰島到處可見英語。",
+      "prevalence 在此表示廣泛普及，對應 very common，選 A。"
     ],
     "options": {
-      "A": "「That English is very common.」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「That English is not welcomed.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「That English is easy and simple.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「That English is not a national language.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "very common 概括英語到處可見的狀態。",
+      "B": "文中討論普及，不等於不受歡迎。",
+      "C": "使用普遍不等於容易或簡單。",
+      "D": "是否國家語言不是 prevalence 的詞義。"
     },
-    "trap": "【官方統計考情】全體通過率為 62.9%。錯誤選項中以 (D) 的誤選率最高（達 16.64%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "詞義要由鄰近例子界定，不把文章憂慮誤當字義。",
     "unitIds": [
       "english-6",
       "english-16"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出 everywhere 與各種使用例子。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 13,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 47
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-36": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：指出作者的目的或態度",
+    "keyIdea": "作者引用具名受訪者的生活經驗支持觀點。",
     "steps": [
-      "【審題定位】本題考查「授予動詞、使役動詞與現在完成式進階」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (B) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "Anna 引用工程師使用機器人、手機與看電影的經驗，也引用教師對孩子學習語言的擔心。",
+      "這些是借用別人的經驗作論據，選 B。"
     ],
     "options": {
-      "A": "「Sharing her own life stories.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「Borrowing from people’s experience.」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「Using examples from another language.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「Showing information from news reports.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "例子屬工程師與教師，非作者自己的故事。",
+      "B": "具名受訪者的經驗被用來支持文章。",
+      "C": "並未借用第三種語言案例比較。",
+      "D": "文章本身是新聞形式，但此處論據是受訪經驗，未引用其他新聞報導。"
     },
-    "trap": "【官方統計考情】全體通過率為 46.5%。錯誤選項中以 (C) 的誤選率最高（達 24.48%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "分清作者本人、受訪者與其他文獻。",
     "unitIds": [
       "english-11"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "觀察引號後標示的說話者。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 13,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 48
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-37": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：掌握上下文意了解文章中的句法連貫：代詞指涉",
+    "keyIdea": "辨認描述冰島語的代稱，區分泛指的瀕危語言類別。",
     "steps": [
-      "【審題定位】本題考查「閱讀策略與情境溝通」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (B) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "sickbed、our first language、this beautiful language 都直接描述或指回冰島語。",
+      "a dying language 出現在語言安全門檻的泛論中；作者用 314000 高於 35000 論證冰島語並未達該瀕危狀態，故選 B。"
     ],
     "options": {
-      "A": "「A language in its sickbed.  describe 形容」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「A dying language.」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「Our first language.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「This beautiful language.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "開頭說有人認為冰島語臥病，直接描述冰島語。",
+      "B": "用於說明應避免進入的語言狀態，未把冰島語稱為瀕死語言。",
+      "C": "our first language 指作者母語冰島語。",
+      "D": "this beautiful language 指冰島語。"
     },
-    "trap": "【官方統計考情】全體通過率為 50.2%。錯誤選項中以 (C) 的誤選率最高（達 19.99%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "字詞有出現，不代表它就是用來描述題目指定對象。",
     "unitIds": [
       "english-6",
       "english-16"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "看 dying language 那一句的主詞與安全條件。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 13,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 49
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-38": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：指出作者的目的或態度",
+    "keyIdea": "比較兩篇文章對冰島語未來的結論。",
     "steps": [
-      "【審題定位】本題考查「頻率副詞、情態助動詞 can 與存在句」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (C) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "Anna 認為冰島可能很快放棄冰島語、轉向英語，結論偏憂慮。",
+      "Gunnar 提出使用人口、政府投入與學校教學等理由，並相信持續努力後可成長，較有信心；故 Anna 擔心、Gunnar 不持同樣悲觀態度，選 C。"
     ],
     "options": {
-      "A": "「No, they are not.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「Yes, they both are.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「Adams is, but Eggertsson is not.」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「Adams is not, but Eggertsson is.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "Anna 的結尾明確表達憂慮。",
+      "B": "Gunnar 主要反駁未來很糟的看法，並表達信心。",
+      "C": "準確區分兩人的結論與立場。",
+      "D": "把兩篇立場完全顛倒。"
     },
-    "trap": "【官方統計考情】全體通過率為 55.9%。錯誤選項中以 (B) 的誤選率最高（達 21.14%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "提出還可改善，不代表作者認定語言必然消失。",
     "unitIds": [
       "english-8"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "比較各篇最後一段的語氣。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 13,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 50
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-39": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：推論文中隱含的訊息",
+    "keyIdea": "兩篇都用冰島語使用人口的數量討論語言前景。",
     "steps": [
-      "【審題定位】本題考查「閱讀策略與情境溝通」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (B) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "第一篇以使用者只有 314000 人解釋企業缺乏在地化動機。",
+      "第二篇將 314000 與語言安全門檻 35000 比較，反駁過度悲觀；共同主題是使用人口是否足夠，選 B。"
     ],
     "options": {
-      "A": "「Whether Icelanders speak better English than Icelandic.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「Whether the number of Icelandic speakers is big enough.」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「Whether school subjects should be taught only in Icelandic.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「Whether Iceland should allow more foreigners to work in Iceland.」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "未比較冰島人英語與冰島語的熟練程度。",
+      "B": "兩篇都從使用人口數量切入，但解讀不同。",
+      "C": "第二篇提學校仍教冰島語，未共同討論所有科目只能用冰島語。",
+      "D": "提到外國移居者，並非討論是否允許更多人工作。"
     },
-    "trap": "【官方統計考情】全體通過率為 48.0%。錯誤選項中以 (A) 的誤選率最高（達 21.77%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "共同提及某群人，不等於共同討論同一政策問題。",
     "unitIds": [
       "english-6",
       "english-16"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "找兩篇都出現的 314000。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 13,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 51
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-40": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：根據上下文辨認符合文意的字句（克漏字）",
+    "keyIdea": "由無子嗣、王位繼承與結尾新王連結國王目的。",
     "steps": [
-      "【審題定位】本題考查「閱讀策略與情境溝通」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (B) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "開頭說老國王沒有孩子，擔心死後國家落入壞人手中，決定挑選繼承人。",
+      "因此讓孩子帶回種植成果，是為選出下一位國王，選 B。"
     ],
     "options": {
-      "A": "「give you a piece of good land」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「choose a person to be the next king」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「put the beautiful ones in my castle」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「decide who will work in my garden」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "沒有承諾贈送土地。",
+      "B": "對應 pick a child ... to take the high seat 與結尾繼承王位。",
+      "C": "國王目的是選人，不是收集花木裝飾城堡。",
+      "D": "未說選園丁，且與繼承問題不合。"
     },
-    "trap": "【官方統計考情】全體通過率為 68.2%。錯誤選項中以 (A) 的誤選率最高（達 12.21%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "克漏字要承接全文核心目的。",
     "unitIds": [
       "english-6",
       "english-16"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "從文章開頭尋找國王最擔心的事。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 15,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 53
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-41": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：根據上下文辨認符合文意的字句（克漏字）",
+    "keyIdea": "空盆與煮熟種子的結局限制前文發展。",
     "steps": [
-      "【審題定位】本題考查「閱讀策略與情境溝通」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (B) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "Wong 每天澆水，也提供陽光，但後文直到見國王仍沒有植物。",
+      "國王最後揭示種子已煮過，不可能發芽，因此數月後仍沒長東西最合理，選 B。"
     ],
     "options": {
-      "A": "「But he lost his pot a few weeks later」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「Months passed but nothing grew from it」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「But soon the plant that grew from it died」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「The seed grew into a big tree in a short time」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "後文 Wong 仍帶著原來的盆，沒有遺失情節。",
+      "B": "沒發芽與空盆及熟種子結局一致。",
+      "C": "種子不能發芽，並非曾長出後死亡。",
+      "D": "長成大樹與空盆、熟種子矛盾。"
     },
-    "trap": "【官方統計考情】全體通過率為 58.3%。錯誤選項中以 (C) 的誤選率最高（達 16.87%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "不能只看每天照顧就假定必定發芽。",
     "unitIds": [
       "english-6",
       "english-16"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "用結尾的 boiled seeds 回頭檢查選項。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 15,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 54
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-42": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：根據上下文辨認符合文意的字句（克漏字）",
+    "keyIdea": "Sung 最先宣稱長出植物，其他人才陸續跟進。",
     "steps": [
-      "【審題定位】本題考查「閱讀策略與情境溝通」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (B) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "Sung 先向大家說盆中有小植物；下一句說很快其他孩子也一個接一個如此表示。",
+      "這個先後順序對應 first one to share good news，選 B。"
     ],
     "options": {
-      "A": "「the last one to give up」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「the first one to share good news」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「the first one to bring his pot to the king」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「the only one to take good care of his plant」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "他宣稱成功，不是在描述最後放棄。",
+      "B": "第一個宣告好消息，承接後續其他人跟進。",
+      "C": "此時還沒到帶盆進城堡的日期。",
+      "D": "Wong 也細心照顧，不能說 Sung 是唯一照顧者。"
     },
-    "trap": "【官方統計考情】全體通過率為 49.1%。錯誤選項中以 (C) 的誤選率最高（達 23.98%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "分清分享消息與實際帶盆到城堡是不同階段。",
     "unitIds": [
       "english-6",
       "english-16"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "留意 one after another 前後的先後次序。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 15,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 55
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-english-43": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：根據上下文辨認符合文意的字句（克漏字）",
+    "keyIdea": "空盆表明 Wong 沒有用別的植物冒充。",
     "steps": [
-      "【審題定位】本題考查「閱讀策略與情境溝通」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【語意與語法分析】分析句型結構、動詞時態、主被動關係或上下文語境線索。",
-      "【選項帶入】將各選項帶入語境中檢驗，選項 (C) 在語意邏輯與文法規則上皆最為通順合宜。"
+      "所有發出的種子都已煮熟，不可能長出植物；其他孩子帶來植物，顯示未如實呈現原種子的結果。",
+      "Wong 如實帶回空盆，表現誠實，這正是國王挑選他的理由，選 C。"
     ],
     "options": {
-      "A": "「wise」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「strong」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「honest」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「popular」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "wise 是明智，故事的直接證據在誠實而非才智。",
+      "B": "未比較體力或力量。",
+      "C": "honest 概括如實承認種不出植物的品格。",
+      "D": "Wong 並非以人氣或他人支持勝出。"
     },
-    "trap": "【官方統計考情】全體通過率為 60.9%。錯誤選項中以 (A) 的誤選率最高（達 14.39%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "王位繼承人的標準須從國王設計的試驗推知。",
     "unitIds": [
       "english-6",
       "english-16"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "問自己：煮熟種子為什麼能檢驗人的品格？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-english.pdf",
+      "page": 15,
+      "sourceSha256": "ea42dfe799b2838fdb72ed6c3c539bea3ebc9732271ef7fe7df6221d92e6ebc8",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-english.pdf",
+        "page": 56
+      },
+      "analysisSourceSha256": "67d218e7c81ea628434e31fb1a648735f86baac2fce3ce1e28899a5e190c2c7f",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   }
 }

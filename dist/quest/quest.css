@@ -1,6 +1,6 @@
 /* dist/quest/quest.css - Responsive, Accessible, Dark/Light Themes for JH Quest */
 :root {
-  --primary: #193e35;
+  --primary: #193e35; --primary-ink: #193e35;
   --primary-light: #2d6a4f;
   --accent: #2a9d8f;
   --accent-soft: #d8f3dc;
@@ -27,7 +27,7 @@
     --text: #e2e8f0;
     --text-muted: #94a3b8;
     --border: #2d3748;
-    --primary: #2d6a4f;
+    --primary: #2d6a4f; --primary-ink: #9cddbc;
     --primary-light: #40916c;
     --accent: #52b788;
     --accent-soft: #1b382b;
@@ -102,7 +102,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .side a.nav-link:hover, .side a.nav-link.on {
   background: var(--accent-soft);
-  color: var(--primary);
+  color: var(--primary-ink);
 }
 .side a.nav-link.on { font-weight: 700; }
 .side a.side-out {
@@ -152,7 +152,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   padding: 0.45rem 0.85rem;
   border-radius: 20px;
   background: var(--accent-soft);
-  color: var(--primary);
+  color: var(--primary-ink);
   font-size: 0.85rem;
   font-weight: 700;
   cursor: pointer;
@@ -224,7 +224,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .atlas-title-group h3 {
   font-size: 1.15rem;
   font-weight: 800;
-  color: var(--primary);
+  color: var(--primary-ink);
   margin-bottom: 0.2rem;
 }
 .atlas-sub {
@@ -234,7 +234,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .legend-pill {
   font-size: 0.75rem;
   background: var(--accent-soft);
-  color: var(--primary);
+  color: var(--primary-ink);
   padding: 0.25rem 0.65rem;
   border-radius: 12px;
   font-weight: 700;
@@ -289,7 +289,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   transform: translateY(-2px);
 }
 .atlas-chip.active {
-  border-color: var(--primary);
+  border-color: var(--primary-ink);
   background: var(--accent-soft);
   box-shadow: 0 4px 10px rgba(42, 157, 143, 0.2);
 }
@@ -316,7 +316,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   color: var(--text-muted);
   margin-top: 0.3rem;
 }
-.atlas-pct { font-weight: 800; color: var(--primary); }
+.atlas-pct { font-weight: 800; color: var(--primary-ink); }
 .atlas-bar {
   width: 100%;
   height: 5px;
@@ -379,7 +379,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .subj-pill.active {
   background: var(--primary);
   color: #fff;
-  border-color: var(--primary);
+  border-color: var(--primary-ink);
 }
 
 /* Next Adventure Banner */
@@ -395,7 +395,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .adventure span { font-size: 2.2rem; }
 .adventure div { flex: 1; }
-.adventure h2 { font-size: 1.15rem; font-weight: 800; color: var(--primary); }
+.adventure h2 { font-size: 1.15rem; font-weight: 800; color: var(--primary-ink); }
 
 /* Path Nodes List (Duolingo Style) */
 .path {
@@ -481,6 +481,10 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   position: relative;
   transform: translateX(calc(var(--x, 0) * 36px));
 }
+
+/* Each transformed row creates a stacking context. Raise the open row so later
+   rows cannot cover its start button. */
+.node-row.pop-open { z-index: 60; }
 
 .node {
   width: 66px;
@@ -649,6 +653,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
 .lesson-body {
   flex: 1;
+  min-height: 0;
   overflow-y: auto;
   max-width: 680px;
   width: 100%;
@@ -673,10 +678,10 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   padding: 1.5rem;
   margin-bottom: 1.5rem;
 }
-.info-card h1 { font-size: 1.3rem; margin-bottom: 0.75rem; color: var(--primary); }
+.info-card h1 { font-size: 1.3rem; margin-bottom: 0.75rem; color: var(--primary-ink); }
 .info-card .formula {
   background: var(--accent-soft);
-  color: var(--primary);
+  color: var(--primary-ink);
   padding: 0.6rem 0.85rem;
   border-radius: 8px;
   font-weight: 700;
@@ -718,7 +723,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   transform: translateY(-1px);
 }
 .opt.sel {
-  border-color: var(--primary);
+  border-color: var(--primary-ink);
   background: var(--accent-soft);
   box-shadow: 0 2px 0 var(--primary);
 }
@@ -772,7 +777,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   box-shadow: 0 2px 0 var(--border);
   transition: all 0.15s;
 }
-.tok:hover { border-color: var(--primary); }
+.tok:hover { border-color: var(--primary-ink); }
 .tok.used { opacity: 0.35; pointer-events: none; }
 
 /* Match cards */
@@ -796,11 +801,12 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   transition: all 0.15s;
 }
 .mcell:hover { border-color: var(--accent); }
-.mcell.sel { border-color: var(--primary); background: var(--accent-soft); }
+.mcell.sel { border-color: var(--primary-ink); background: var(--accent-soft); }
 .mcell.done { opacity: 0.3; pointer-events: none; border-color: var(--success); }
 
 /* Footer Check Bar */
 .check {
+  flex-shrink: 0;
   background: var(--card-bg);
   border-top: 1px solid var(--border);
   padding: 1.25rem 1.5rem;
@@ -819,6 +825,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .verdict.ok h2 { color: var(--success); }
 .verdict.bad h2 { color: var(--danger); }
 .why { font-size: 0.85rem; margin-top: 0.35rem; color: var(--text); }
+.lesson-feedback { margin-top: 1.5rem; }
+.lesson-feedback .why { font-size: 1rem; line-height: 1.8; overflow-wrap: anywhere; }
 
 /* Mascot */
 .mascot {
@@ -842,7 +850,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .mascot-bubble {
   position: relative;
   background: var(--accent-soft);
-  color: var(--primary);
+  color: var(--primary-ink);
   padding: 0.75rem 1rem;
   border-radius: 12px;
   font-size: 0.92rem;
@@ -1021,11 +1029,11 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   color: var(--text-muted);
   text-align: center;
 }
-.league-row.current-user .league-rank { color: var(--primary); }
+.league-row.current-user .league-rank { color: var(--primary-ink); }
 .league-avatar { font-size: 1.5rem; }
 .league-name { flex: 1; font-weight: 600; font-size: 0.92rem; }
 .league-streak { font-size: 0.8rem; color: #f77f00; font-weight: 700; }
-.league-xp { font-size: 0.92rem; font-weight: 800; color: var(--primary); }
+.league-xp { font-size: 0.92rem; font-weight: 800; color: var(--primary-ink); }
 
 .zone-line {
   display: flex;
@@ -1092,7 +1100,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   font-size: 0.75rem;
   color: var(--text-muted);
 }
-.bottom a.on { color: var(--primary); font-weight: 700; }
+.bottom a.on { color: var(--primary-ink); font-weight: 700; }
 .bottom i { font-size: 1.25rem; margin-bottom: 0.15rem; font-style: normal; }
 
 /* Responsive Media Queries */
@@ -1109,3 +1117,15 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   .main { padding: 1rem; padding-bottom: 4.5rem; }
   .top { padding: 0.75rem 1rem; }
 }
+.learning-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;margin:0 0 1rem}
+.learning-stage{font-weight:750;margin-right:auto;color:var(--text)}
+.repair-coach{border-left:4px solid #36836a;background:var(--accent-soft);color:var(--text);padding:1rem;border-radius:12px;margin:1rem 0}
+.repair-coach li{margin:.6rem 0;line-height:1.7}
+.learning-toolbar .btn{min-height:44px}
+.lesson-feedback .why{line-height:1.85}
+@media(max-width:520px){.learning-stage{flex-basis:100%}.learning-toolbar .btn{flex:1 1 auto}.repair-coach{padding:.8rem}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+button, input, select { color: inherit; font: inherit; }
+.opt, .mcell, .tok, .atlas-chip { color: var(--text); }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }

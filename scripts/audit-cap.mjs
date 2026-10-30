@@ -2,6 +2,7 @@
 import { readFileSync, existsSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { getCapExplanation } from '../dist/cap-explanations.js';
 
 const dist = fileURLToPath(new URL('../dist/', import.meta.url));
 const bank = JSON.parse(readFileSync(join(dist, 'cap-bank.json'), 'utf8'));
@@ -31,7 +32,7 @@ if (existsSync(explainDir)) {
 }
 
 for (const q of bank.questions) {
-  const p = (papers[`${q.year}-${q.subject}`] ??= { n: 0, answer: 0, crops: 0, options: 0, analysis: 0, audio: 0, explained: 0, linked: 0 });
+  const p = (papers[`${q.year}-${q.subject}`] ??= { n: 0, answer: 0, crops: 0, options: 0, analysis: 0, audio: 0, explanationRecords: 0, aiDerived: 0, linked: 0 });
   p.n++;
   if (!q.crops?.length) flag(q, '缺題目圖');
   for (const c of q.crops || []) {
@@ -52,7 +53,8 @@ for (const q of bank.questions) {
   if (q.groupId && !groups.has(q.groupId)) flag(q, '題組材料遺失');
   const ex = explanations[join(explainDir, `${q.year}-${q.subject}.json`)]?.[q.id];
   if (ex) {
-    p.explained++;
+    p.explanationRecords++;
+    if (getCapExplanation(q).ready) p.aiDerived++;
     if (q.kind !== 'written' && ex.answer !== q.answer) flag(q, `解說答案 ${ex.answer} ≠ 官方 ${q.answer}`);
     const bad = (ex.unitIds || []).filter(u => !units.has(u));
     if (bad.length) flag(q, `無效單元 ${bad.join(',')}`);

@@ -84,15 +84,33 @@ test('2. CAP Items Bank Completeness & Quality', () => {
   assert.ok(capItemCount >= 200, `Expected at least 200 cap item references in b-cap, got ${capItemCount}`);
 });
 
-test('3. Stimulus Groups & Reading Text Rendering', () => {
+test('3. Stimulus groups retain original images', () => {
   const itemsRaw = JSON.parse(fs.readFileSync(itemsPath, 'utf8'));
   const items = itemsRaw.items || itemsRaw;
+  const bank = JSON.parse(fs.readFileSync(capBankPath, 'utf8'));
+  const groups = new Map(bank.groups.map(g => [g.id, g]));
+  for (const q of bank.questions.filter(q => q.groupId && items[`cap.${q.id}`])) {
+    const item = items[`cap.${q.id}`];
+    for (const crop of groups.get(q.groupId)?.crops || []) {
+      assert.ok(item.crops.some(c => c.src === crop.src), `${q.id} must retain group image`);
+    }
+  }
+});
 
-  // Find questions with readingGroupText
-  const groupItems = Object.values(items).filter(it => it.isCap && it.readingGroupText);
-  assert.ok(groupItems.length > 0, 'Must have CAP questions with readingGroupText');
-  for (const it of groupItems) {
-    assert.ok(it.readingGroupText.length > 20, `Question ${it.id} readingGroupText must be substantial`);
+test('All eligible CAP questions are reachable by year and subject, including audio', () => {
+  const bank = JSON.parse(fs.readFileSync(capBankPath, 'utf8'));
+  const items = JSON.parse(fs.readFileSync(itemsPath, 'utf8')).items;
+  const course = JSON.parse(fs.readFileSync(bCapPath, 'utf8'));
+  for (const q of bank.questions.filter(q => q.crops?.length && /^[A-D]$/.test(q.answer || '') && (q.optionLetters || 'ABCD').includes(q.answer))) {
+    const item = items[`cap.${q.id}`];
+    assert.ok(item, `Missing ${q.id}`);
+    assert.ok(course.units[`cap-yr-${q.year}`].nodes[`cap-yr-${q.year}:${q.subject}`].includes(item.id), `${q.id} is unreachable`);
+    assert.equal(item.answer, q.answer);
+    assert.ok(fs.existsSync(path.join(rootDir, 'dist', item.sourcePaper)), `${q.id} source missing`);
+    if (q.subject === 'listening') {
+      assert.equal(item.audio, q.audio);
+      assert.ok(fs.existsSync(path.join(rootDir, 'dist', item.audio)), `${q.id} audio missing`);
+    }
   }
 });
 

@@ -1,1199 +1,2117 @@
 {
   "115-social-1": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：了解臺灣的氣象災害及其影響。",
+    "keyIdea": "以七月下旬及西南部大範圍農損判斷夏季颱風豪雨。",
     "steps": [
-      "【審題定位】本題考查「臺灣地形、氣候與災害」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (A) 與史實記載、地理環境或公民制度原理最為契合。"
+      "七月下旬屬臺灣夏季颱風易侵襲時段，豪雨可造成雲林、嘉義、臺南低地淹水。",
+      "東北季風主要在冷季，梅雨主要在春末夏初；焚風也不符合此西南部淹田型損失，選 A。"
     ],
     "options": {
-      "A": "「颱風帶來的豪大雨淹沒農田」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「強勁東北季風吹襲造成水稻倒伏」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「梅雨季節的連續降雨造成果樹浸水」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「強勁西南風越過山脈形成熱風使作物枯黃」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "夏季颱風豪雨與西南部嚴重農損相符。",
+      "B": "東北季風的季節與受影響區域不符。",
+      "C": "七月下旬通常已非主要梅雨季。",
+      "D": "越山焚風影響側與本題西南部大範圍災損不符。"
     },
-    "trap": "【官方統計考情】全體通過率為 80.2%。錯誤選項中以 (C) 的誤選率最高（達 9.25%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "須同時比對月份與區域，不能只看到豪雨就選梅雨。",
     "unitIds": [
       "geography-2"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "先判斷七月下旬最常見的災害型天氣。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 2,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 7
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-2": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：分析不同國家的人口結構及其外籍勞工來源。",
+    "keyIdea": "勞動市場競爭要比較移工來源與需求結構。",
     "steps": [
-      "【審題定位】本題考查「史料判讀與早期臺灣」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (D) 與史實記載、地理環境或公民制度原理最為契合。"
+      "臺灣同樣面臨部分產業缺工，移工主要來源與題列東南亞國家高度重疊。",
+      "日本擴大招募會與臺灣競爭同批勞動人口，直接衝擊較大，選 D。"
     ],
     "options": {
-      "A": "「印度」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「美國」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「德國」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「臺灣」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "印度本身是大型勞力輸出國，來源與需求重疊不如臺灣。",
+      "B": "美國移工來源結構與題列亞洲來源不如臺灣重疊。",
+      "C": "德國移工來源結構主要與歐洲等地相關。",
+      "D": "臺灣的來源國及看護等需求與日本高度重疊。"
     },
-    "trap": "【官方統計考情】全體通過率為 84.0%。錯誤選項中以 (A) 的誤選率最高（達 8.6%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "人口多寡不是唯一判準，重點是同一批移工的競爭。",
     "unitIds": [
       "history-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "核對臺灣常見移工來源國。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 2,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 8
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-3": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：了解非洲熱帶栽培業的特色。",
+    "keyIdea": "人工翻曬與上市販售分別對應勞力密集及商業性。",
     "steps": [
-      "【審題定位】本題考查「亞洲、非洲與文化地景」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (C) 與史實記載、地理環境或公民制度原理最為契合。"
+      "圖說指出果實須定時以人工翻動，表示生產加工仰賴勞力。",
+      "乾燥去皮後的種子可上市販售，顯示目的為市場銷售，因此選 C。"
     ],
     "options": {
-      "A": "「作物多樣化的集約農業」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「單一作物的自給性農業」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「勞力密集的商業性農業」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「大規模機械化的粗放農業 圖(一)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "資料未顯示多種作物，不能選作物多樣。",
+      "B": "明說上市販售，不是以自用為主。",
+      "C": "人工翻曬且出售產品，符合勞力密集商業農業。",
+      "D": "人工反覆處理與大規模機械化不合。"
     },
-    "trap": "【官方統計考情】全體通過率為 70.9%。錯誤選項中以 (B) 的誤選率最高（達 18.99%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "衛星圖面積大不代表整個生產過程已機械化。",
     "unitIds": [
       "geography-5",
       "geography-6"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "把人工與上市販售各對應一項農業特徵。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 2,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 9
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-4": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：了解臺灣主要地形與行政區的分布。",
+    "keyIdea": "雪山山脈與中央山脈間的平原是蘭陽平原。",
     "steps": [
-      "【審題定位】本題考查「臺灣地形、氣候與災害」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (A) 與史實記載、地理環境或公民制度原理最為契合。"
+      "雪山山脈在蘭陽平原西北側，中央山脈在其南側，平原東側臨海且有蘭陽溪。",
+      "符合竹筏往來溪流與海岸的環境，位置在宜蘭縣，選 A。"
     ],
     "options": {
-      "A": "「宜蘭縣」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「苗栗縣」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「屏東縣」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「臺東縣」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "蘭陽平原位於宜蘭，地形條件相符。",
+      "B": "苗栗在臺灣西側丘陵，非兩山脈間的蘭陽平原。",
+      "C": "屏東平原在南部，不在雪山山脈旁。",
+      "D": "臺東主要在中央山脈與海岸山脈間，非雪山山脈。"
     },
-    "trap": "【官方統計考情】全體通過率為 68.1%。錯誤選項中以 (B) 的誤選率最高（達 14.96%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "平原兩旁的山脈名稱是關鍵定位線索。",
     "unitIds": [
       "geography-2"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "在臺灣地圖找出雪山山脈東側的大平原。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 2,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 10
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-5": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：了解世界各洲的經濟及都市發展特色。",
+    "keyIdea": "西歐國家多具高都市化與高人均所得。",
     "steps": [
-      "【審題定位】本題考查「臺灣交通網絡與城鄉區域均衡發展」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (A) 與史實記載、地理環境或公民制度原理最為契合。"
+      "圖的橫軸都市化程度向右增加，縱軸人均所得向上增加。",
+      "歐洲西半部多為高度都市化、高所得國家，應位於兩指標都高於世界平均的右上甲區，選 A。"
     ],
     "options": {
-      "A": "「甲」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「乙」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「丙」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「丁」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "甲為高都市化、高所得，符合西歐。",
+      "B": "乙所得高但都市化較低，非主要分布。",
+      "C": "丙兩者都低，與西歐發展不合。",
+      "D": "丁都市化高但所得低於平均，非主要分布。"
     },
-    "trap": "【官方統計考情】全體通過率為 70.4%。錯誤選項中以 (C) 的誤選率最高（達 11.97%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "先看軸方向與平均分界，再判國家類型。",
     "unitIds": [
       "geography-11"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出兩個高值同時出現的象限。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 2,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 11
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-6": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：認識古希臘的城邦政治。",
+    "keyIdea": "古希臘斯巴達以重視軍事訓練著稱。",
     "steps": [
-      "【審題定位】本題考查「古希臘羅馬古典文明與民主法律」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (D) 與史實記載、地理環境或公民制度原理最為契合。"
+      "題目提供西元前八世紀及過度重視軍事教育兩項線索，對應古希臘斯巴達。",
+      "本文同時提醒殺嬰傳說可能有偏見；辨認政權不等於認可該傳說為史實，選 D。"
     ],
     "options": {
-      "A": "「埃及」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「蘇美」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「巴比倫」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「斯巴達」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "埃及並非以題述斯巴達式軍事教育著稱。",
+      "B": "蘇美不符古希臘相關脈絡與時代特徵。",
+      "C": "巴比倫不符此重軍事教育的具體傳說。",
+      "D": "斯巴達符合文中欲辨認的政權。"
     },
-    "trap": "【官方統計考情】全體通過率為 77.3%。錯誤選項中以 (C) 的誤選率最高（達 12.31%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "要分清歷史政權辨認與史料真實性的討論。",
     "unitIds": [
       "history-12"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "古希臘哪一城邦最常與軍事教育連結？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 3,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 12
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-7": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：認識經濟大恐慌期間的社會面貌。",
+    "keyIdea": "1931 年與銀行倒閉指向經濟大恐慌。",
     "steps": [
-      "【審題定位】本題考查「史料判讀與早期臺灣」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (D) 與史實記載、地理環境或公民制度原理最為契合。"
+      "漫畫標示 1931 年，人物抱怨原本存銀行的錢因銀行倒閉而受損。",
+      "這是 1929 年美國股市崩盤後經濟大恐慌及金融危機的情景，選 D。"
     ],
     "options": {
-      "A": "「戈巴契夫的經濟改革成效有限」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「二次大戰結束後歐洲百廢待舉」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「徵稅問題導致波士頓茶葉事件 圖(三)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「美國股市崩盤引發經濟大恐慌」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "戈巴契夫改革在 1980 年代，年代不符。",
+      "B": "二戰後是 1945 年以後，晚於漫畫日期。",
+      "C": "波士頓茶葉事件在十八世紀，且非銀行倒閉。",
+      "D": "1931 年銀行倒閉與經濟大恐慌相符。"
     },
-    "trap": "【官方統計考情】全體通過率為 88.7%，鑑別度達 0.40。多數考生能掌握本題核心觀念。",
+    "trap": "漫畫年份與圖說都要使用。",
     "unitIds": [
       "history-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "把 1931 年放進世界經濟史時間線。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 3,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 13
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-8": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：認識戰後臺灣的國際處境。",
+    "keyIdea": "共同防禦條約將失效與社會恐慌，指向臺美斷交危機。",
     "steps": [
-      "【審題定位】本題考查「臺灣南島語族與多元原住民族文化」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (B) 與史實記載、地理環境或公民制度原理最為契合。"
+      "美國宣布與中華民國斷交、轉與中華人民共和國建交，使臺灣安全與外交前景受到衝擊。",
+      "題述資產外移、重提處變不驚及共同防禦條約即將失效，都符合這個背景，選 B。"
     ],
     "options": {
-      "A": "「美國在韓戰後協防臺灣海峽」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「美國宣布將與中華民國斷交」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「國 共內戰使政府敗退至臺灣」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「臺灣受到同盟國軍機的空襲」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "韓戰後協防是安全支持增加，不符條約將失效。",
+      "B": "斷交與條約失效的時序、社會反應相合。",
+      "C": "政府遷臺早於共同防禦條約簽訂，不能解釋其失效。",
+      "D": "二戰空襲時尚無題述中美共同防禦條約。"
     },
-    "trap": "【官方統計考情】全體通過率為 70.1%。錯誤選項中以 (A) 的誤選率最高（達 15.5%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "外交條約線索比愛國口號更能限定時代。",
     "unitIds": [
       "history-9"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "先想共同防禦條約何種外交變局後失效。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 3,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 14
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-9": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：認識大航海時代各方勢力在臺灣的競逐。",
+    "keyIdea": "西班牙在十七世紀經營臺灣北部。",
     "steps": [
-      "【審題定位】本題考查「清領與日治時期的變遷」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (A) 與史實記載、地理環境或公民制度原理最為契合。"
+      "西班牙曾據有基隆、淡水一帶，傳播西班牙語與天主教。",
+      "因此具西班牙特質的原住民族群最可能在圖中臺灣北部甲區，選 A。"
     ],
     "options": {
-      "A": "「甲」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「乙」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「丙」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「丁 圖(四)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "甲在北部，符合西班牙據點與傳教範圍。",
+      "B": "乙在東部，非主要西班牙經營區。",
+      "C": "丙在南端，非題述西班牙主要據點。",
+      "D": "丁在西南部，較與荷蘭經營脈絡相連。"
     },
-    "trap": "【官方統計考情】全體通過率為 76.5%。錯誤選項中以 (D) 的誤選率最高（達 13.74%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "荷蘭觀察到的族群不必住在荷蘭最早據點旁。",
     "unitIds": [
       "history-3"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "回想西班牙在臺的兩個北部據點。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 3,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 15
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-10": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：發覺生活經驗中的文化差異。",
+    "keyIdea": "相同符號在不同社會可有不同文化意義。",
     "steps": [
-      "【審題定位】本題考查「自我、群體與多元文化」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (C) 與史實記載、地理環境或公民制度原理最為契合。"
+      "臺灣學生把勾號理解為答對，日本情境卻把勾號視為有錯，圓圈才是正確。",
+      "這是兩地文化賦予符號不同意義的例子，選 C。"
     ],
     "options": {
-      "A": "「各國移民的習俗多元並存」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「社會制度隨著時間而變動」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「不同文化間存在些許差異」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「文化交流後產生位階高低」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "沒有討論移民在同一社會的習俗共存。",
+      "B": "比較的是不同地方，不是同一制度前後變遷。",
+      "C": "相同記號意義不同，具體顯示文化差異。",
+      "D": "差異不表示文化有高低優劣。"
     },
-    "trap": "【官方統計考情】全體通過率為 95.9%，鑑別度達 0.40。多數考生能掌握本題核心觀念。",
+    "trap": "文化差異不等於文化階級。",
     "unitIds": [
       "civics-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "判斷案例是在比較時間還是地域。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 4,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 16
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-11": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：理解價格如何影響資源分配。",
+    "keyIdea": "售價大幅下降可刺激需求並超過現有庫存。",
     "steps": [
-      "【審題定位】本題考查「選擇、機會成本與市場」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (C) 與史實記載、地理環境或公民制度原理最為契合。"
+      "原價 19999 元、庫存 99 臺，若價格降至 9999 元，其他條件不變時需求量通常增加。",
+      "這能同時解釋迅速售罄與額外候補訂單；只調整庫存不直接造成搶購，選 C。"
     ],
     "options": {
-      "A": "「供貨量變更為19臺」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「供貨量變更為999臺」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「售價變更為9,999元」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「售價變更為20,999元」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "庫存減少可更快售罄，但不足解釋突然增加數百筆需求。",
+      "B": "增加供貨使售罄更不容易，不直接刺激需求。",
+      "C": "大降價最能說明需求暴增。",
+      "D": "漲價通常減少需求量，與搶購方向相反。"
     },
-    "trap": "【官方統計考情】全體通過率為 79.7%。錯誤選項中以 (B) 的誤選率最高（達 9.76%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "分清供貨數量與消費者需求量。",
     "unitIds": [
       "civics-5",
       "civics-9"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "哪個改動會讓更多人願意下單？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 4,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 17
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-12": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：發覺社會現象中全球化帶來的影響。",
+    "keyIdea": "跨國旅遊、商務與勞動流動也可能帶動害蟲擴散。",
     "steps": [
-      "【審題定位】本題考查「二次大戰後冷戰對峙與全球解殖潮」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (D) 與史實記載、地理環境或公民制度原理最為契合。"
+      "臭蟲藏在行李中，隨觀光客、商務旅客與移工移動到不同國家。",
+      "案例呈現全球經濟往來帶來的生活及衛生影響，選 D。"
     ],
     "options": {
-      "A": "「國際移工引入帶來的文化衝突」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「區域糾紛擴大引發的民生困境」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「高度工業化與氣候變遷的關係」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「經濟全球化對人類生活的影響」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "重點是生物隨人流傳播，非習俗衝突。",
+      "B": "沒有地區衝突的背景。",
+      "C": "未探討工業排放與氣候的因果。",
+      "D": "跨國人流將地方問題擴散，屬全球化影響。"
     },
-    "trap": "【官方統計考情】全體通過率為 68.4%。錯誤選項中以 (B) 的誤選率最高（達 20.5%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "提到移工不代表議題一定是文化衝突。",
     "unitIds": [
       "history-15"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "找三類旅客共同造成的跨國流動。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 4,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 18
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-13": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：理解公平投票的原則。",
+    "keyIdea": "區分民事行為能力、投票資格與被選舉資格。",
     "steps": [
-      "【審題定位】本題考查「人權、法治與正當程序」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (C) 與史實記載、地理環境或公民制度原理最為契合。"
+      "依本題設定，陳小花受監護宣告，吳阿杰受褫奪公權宣告，都不符合參選公職的條件。",
+      "監護宣告不等於刑事處罰；褫奪公權也不能直接等同失去投票權。因此只有 C 可同時適用兩人。"
     ],
     "options": {
-      "A": "「皆具備完全行為能力 現況 受監護宣告 被宣告褫奪公權」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「皆曾受到刑事處罰判決」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「皆無法參選該縣公職人員」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「皆不具備該縣縣長投票資格」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "受監護宣告者不具完全民事行為能力。",
+      "B": "監護宣告並不表示曾受刑事處罰。",
+      "C": "兩人的法律狀態均限制題述公職參選資格。",
+      "D": "不能把褫奪公權直接解作沒有選舉投票權；吳亦已設籍超過四個月。"
     },
-    "trap": "【官方統計考情】全體通過率為 69.1%。錯誤選項中以 (A) 的誤選率最高（達 16.94%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "選舉權與被選舉權不能混用；此處依施測題目設定解釋。",
     "unitIds": [
       "civics-4"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "將四個選項涉及的權利種類分別列出。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 4,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 19
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-14": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：理解家人間的親屬關係。",
+    "keyIdea": "母親的再婚配偶是血親的配偶，屬姻親。",
     "steps": [
-      "【審題定位】本題考查「家庭、學校與公共參與」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (A) 與史實記載、地理環境或公民制度原理最為契合。"
+      "小蔓與母親是直系血親，阿德是母親的配偶。",
+      "題目特別說沒有另行法律程序，因此不能推定收養關係；小蔓與阿德為姻親，選 A。"
     ],
     "options": {
-      "A": "「姻親」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「配偶」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「旁系血親」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「直系血親」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "符合血親之配偶的姻親關係。",
+      "B": "配偶關係存在於母親與阿德，不是小蔓與阿德。",
+      "C": "兩者沒有共同血緣祖先。",
+      "D": "未有血緣或收養形成的直系血親。"
     },
-    "trap": "【官方統計考情】全體通過率為 61.8%。錯誤選項中以 (D) 的誤選率最高（達 20.88%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "一起生活不會自動成立法律收養。",
     "unitIds": [
       "civics-2"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "先把三人的親屬線畫出來。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 4,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 20
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-15": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：了解美洲古文明的分布與環境特色。",
+    "keyIdea": "安地斯高山石砌古城對應印加文明的馬丘比丘。",
     "steps": [
-      "【審題定位】本題考查「亞洲、非洲與文化地景」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (C) 與史實記載、地理環境或公民制度原理最為契合。"
+      "海拔約 2430 公尺、精密乾砌石牆與耐震梯形門窗，指向印加古城馬丘比丘。",
+      "印加位於南美洲西部安地斯山區，圖中為丙，選 C。"
     ],
     "options": {
-      "A": "「甲」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「乙 圖(六)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「丙」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「丁」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "甲在北美洲，不是印加安地斯山區。",
+      "B": "乙在中美洲，較接近馬雅範圍。",
+      "C": "丙在南美西部，符合印加文明位置。",
+      "D": "丁偏南美東部，非安地斯古城位置。"
     },
-    "trap": "【官方統計考情】全體通過率為 55.6%。錯誤選項中以 (B) 的誤選率最高（達 19.95%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "美洲三大文明要分辨中美洲與南美洲位置。",
     "unitIds": [
       "geography-5",
       "geography-6"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "由高山與印加石砌建築定位南美西側。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 5,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 21
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-16": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：分析北極融冰加劇對於全球航運的影響。",
+    "keyIdea": "海冰減少使北極海航線的可航性增加。",
     "steps": [
-      "【審題定位】本題考查「臺灣交通網絡與城鄉區域均衡發展」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (A) 與史實記載、地理環境或公民制度原理最為契合。"
+      "表中北極航線航行次數由 1705 增至 2694，除運輸需求外，航線本身須更容易通行。",
+      "海冰融化、可航季延長能解釋此趨勢，選 A。"
     ],
     "options": {
-      "A": "「海冰融化大幅增加 2018 2,022」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「全球生態保育意識興起 2019 2,694」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「巴拿馬運河通行費調漲」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「《區域全面經濟夥伴協定》生效」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "海冰減少直接降低北極航運障礙。",
+      "B": "保育意識本身不直接讓海冰航道變通暢。",
+      "C": "巴拿馬航線與歐亞北極替代關係不如海冰因素直接。",
+      "D": "協定生效時間晚於題表年代，不能解釋 2016～2019 變化。"
     },
-    "trap": "【官方統計考情】全體通過率為 58.4%。錯誤選項中以 (D) 的誤選率最高（達 22.29%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "航線可通行條件與貨運需求是兩層原因。",
     "unitIds": [
       "geography-11"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "北極航運最主要的自然障礙是什麼？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 5,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 22
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-17": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：分析歐洲降低能源依賴的策略。",
+    "keyIdea": "降低俄國能源依賴需節能、替代來源或替代能源。",
     "steps": [
-      "【審題定位】本題考查「亞洲、非洲與文化地景」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (B) 與史實記載、地理環境或公民制度原理最為契合。"
+      "暖氣節能減少需求，與第三國簽約增加其他來源，綠能則取代部分化石能源。",
+      "若促使其他產油國減產，會減少替代石油供應、提高取得難度，無助脫離俄國供應，選 B。"
     ],
     "options": {
-      "A": "「制定公共場所更嚴格的暖氣供應標準」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「促使石油輸出國家組織維持減產政策」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「與其他第三國簽署天然氣的進口協議」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「積極發展綠能以增加替代性能源產量」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "限制耗能可降低進口能源需求。",
+      "B": "其他來源減產會使替代供應更緊，不利目標。",
+      "C": "第三國進口可分散來源。",
+      "D": "綠能可增加非俄國化石能源的替代。"
     },
-    "trap": "【官方統計考情】全體通過率為 56.7%。錯誤選項中以 (A) 的誤選率最高（達 23.43%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "本題問無助，先將措施的供需方向標清。",
     "unitIds": [
       "geography-5",
       "geography-6"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "哪項措施會讓可替代的能源更少？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 5,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 23
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-18": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：分析人類活動對自然環境的影響。",
+    "keyIdea": "瀑布上游減少土壤侵蝕，才會減少流經瀑布的泥沙。",
     "steps": [
-      "【審題定位】本題考查「等高線地形圖判讀與臺灣水文環境」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (B) 與史實記載、地理環境或公民制度原理最為契合。"
+      "植樹造林與固沙可減少黃土高原等上游地區的土壤沖蝕，降低入河泥沙。",
+      "因此上游植被治理最能解釋瀑布河水變清，選 B；下游措施不能直接讓上游瀑布水變清。"
     ],
     "options": {
-      "A": "「瀑布上游流經黃土高原，支流帶入大量泥沙」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「瀑布上游實施造林固沙政策，減少泥沙流入」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「瀑布下游恰逢雨季，大量降水使得流量增加」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「瀑布下游興築壩堤，以壩堤攔阻泥沙變良田」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "大量泥沙流入會變濁，方向相反。",
+      "B": "上游固沙減少泥沙來源，符合變清。",
+      "C": "下游降水不直接控制上游瀑布含沙量，且一月非當地主要雨季。",
+      "D": "下游攔沙不會逆向消除瀑布上游來沙。"
     },
-    "trap": "【官方統計考情】全體通過率為 60.3%。錯誤選項中以 (C) 的誤選率最高（達 15.87%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "河流因果判斷須分辨上游與下游。",
     "unitIds": [
       "geography-8"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "沿水流方向追問泥沙在哪裡減少。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 5,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 24
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-19": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：認識中國晚清時期的東西方衝突。",
+    "keyIdea": "神明附身、排洋與攻擊教民對應義和團。",
     "steps": [
-      "【審題定位】本題考查「史料判讀與早期臺灣」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (A) 與史實記載、地理環境或公民制度原理最為契合。"
+      "文件稱奉天命佛法、殺洋人、消滅教匪，並相信神明附身可辨認對象。",
+      "宗教民間信仰結合排外行動，符合義和團，選 A。"
     ],
     "options": {
-      "A": "「義和團」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「同盟會」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「滿洲國 圖(七)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「中國共產黨 & 教匪：此處指西方宗教的傳教士和教徒。」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "義和團以民間信仰及排外、攻教行動著稱。",
+      "B": "同盟會以革命推翻清朝為主要政治目標，非此宗教排外文件。",
+      "C": "滿洲國是日本扶植政權，非此民間運動。",
+      "D": "中國共產黨的階級革命論述不符神明附身用語。"
     },
-    "trap": "【官方統計考情】全體通過率為 80.0%。錯誤選項中以 (C) 的誤選率最高（達 7.8%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "排外與革命並非同一種歷史運動。",
     "unitIds": [
       "history-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "同時看神明附身與攻擊傳教士兩線索。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 6,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 25
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-20": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：了解中國隋唐時期不同民族間的文化交流。",
+    "keyIdea": "七、八世紀唐代生活中的胡風反映長期民族互動。",
     "steps": [
-      "【審題定位】本題考查「自我、群體與多元文化」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (B) 與史實記載、地理環境或公民制度原理最為契合。"
+      "西元七、八世紀對應隋唐、尤其唐代；中亞馬匹、羊肉、胡帽與婦女騎馬都呈現胡漢交流。",
+      "這可放進魏晉至隋唐民族互動的發展脈絡，選 B。"
     ],
     "options": {
-      "A": "「商 周到秦 漢的族群交流」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「魏 晉到隋 唐的民族互動」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「宋朝到元朝的國際交流」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「明 清時期東亞世界的變遷」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "秦漢遠早於七、八世紀。",
+      "B": "時代與胡漢交流特徵均相符。",
+      "C": "宋元晚於七、八世紀。",
+      "D": "明清更晚，非資料年代。"
     },
-    "trap": "【官方統計考情】全體通過率為 58.1%。錯誤選項中以 (C) 的誤選率最高（達 22.1%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "先換算世紀到朝代，再看文化內容。",
     "unitIds": [
       "civics-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "七、八世紀主要是中國哪個朝代？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 6,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 26
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-21": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：認識臺灣在日本時期的重要發展。",
+    "keyIdea": "公學校、鐵道部與近代制服指向日治臺灣。",
     "steps": [
-      "【審題定位】本題考查「史料判讀與早期臺灣」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (D) 與史實記載、地理環境或公民制度原理最為契合。"
+      "圖中公學校校長、鐵道部及電信郵便職員皆符合日治行政、教育機關用語。",
+      "統治臺灣的官方為總督府，故資料最可能出自《臺灣總督府公文類纂》，選 D。"
     ],
     "options": {
-      "A": "「《臺灣府志》」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「《熱蘭遮城日誌》」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「《中華民國行政院公報》」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「《臺灣總督府公文類纂》 圖(八) & 志：記錄地方事物的書籍。 類纂：分類整理的檔案。」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "臺灣府志屬清代地方志，時代與機關不合。",
+      "B": "荷蘭日誌早於近代鐵道、公學校制度。",
+      "C": "公學校等用語不是民國行政院的題述背景。",
+      "D": "總督府官方檔案符合日治機關及制服。"
     },
-    "trap": "【官方統計考情】全體通過率為 77.7%。錯誤選項中以 (A) 的誤選率最高（達 11.05%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "制服西式化不足以單獨判民國，須看機關名稱。",
     "unitIds": [
       "history-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "公學校是哪個時期的臺灣學校名稱？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 6,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 27
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-22": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：了解十九世紀帝國主義的發展。",
+    "keyIdea": "以文明優劣與教化使命合理化殖民，屬社會達爾文主義的帝國論述。",
     "steps": [
-      "【審題定位】本題考查「二次大戰後冷戰對峙與全球解殖潮」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (C) 與史實記載、地理環境或公民制度原理最為契合。"
+      "談話把殖民者視為先進、殖民地人民視為能力不足，藉教育與宗教使命為統治辯護。",
+      "這種以優劣階序合理化帝國擴張的論述，最符合社會達爾文主義，選 C。"
     ],
     "options": {
-      "A": "「因信得救」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「天賦人權」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「社會達爾文主義」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「極權政治的興起」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "因信得救是宗教救贖教義，非此殖民優劣論述重點。",
+      "B": "天賦人權強調普遍權利，與否定殖民地自主的理由不同。",
+      "C": "將社會文化分高下並合理化強者統治，符合題意。",
+      "D": "極權政治主要興起於二十世紀，非題述十九世紀殖民學說。"
     },
-    "trap": "【官方統計考情】全體通過率為 59.4%。錯誤選項中以 (A) 的誤選率最高（達 24.37%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "提到基督教不代表核心一定是因信得救。",
     "unitIds": [
       "history-15"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "找談話如何描述殖民者與被殖民者的能力。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 6,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 28
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-23": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：理解本國國民與外國籍勞工在權利義務上的異同。",
+    "keyIdea": "永久居留不等於國籍，但外國人亦享有基本言論自由。",
     "steps": [
-      "【審題定位】本題考查「家庭、學校與公共參與」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (B) 與史實記載、地理環境或公民制度原理最為契合。"
+      "取得永久居留讓外國人可長期居住，並不自動取得我國國籍及公民政治權利。",
+      "依本題比較，發表時事評論屬基本言論自由，可同時適用國民與外國居留者，因此選 B。"
     ],
     "options": {
-      "A": "「皆具有參與公民投票的資格」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「皆具有發表時事評論的自由」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「皆具有擔任民意代表的機會」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「皆具有接受國民教育的義務」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "公投資格有國籍等要件，永久居留不等於公民。",
+      "B": "評論時事的言論自由並非僅限本國國民。",
+      "C": "民意代表參選涉及國籍等限制。",
+      "D": "國民教育義務不能僅由永久居留一概推出。"
     },
-    "trap": "【官方統計考情】全體通過率為 69.9%。錯誤選項中以 (A) 的誤選率最高（達 15.57%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "居留權、國籍與政治權利要分開。",
     "unitIds": [
       "civics-2"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "哪一項較屬普遍基本自由，而非公民專屬資格？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 7,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 29
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-24": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：理解檢察官、法官與調解委員的職權範圍。",
+    "keyIdea": "檢察官、法官與調解委員都可能處理兼具民刑責任的車禍。",
     "steps": [
-      "【審題定位】本題考查「史料判讀與早期臺灣」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (B) 與史實記載、地理環境或公民制度原理最為契合。"
+      "起訴案件者是檢察官，等待判決者是法官，調解糾紛者是調解委員。",
+      "車撞人受傷可能涉及過失傷害刑責、民事賠償與調解，所以三者職權均可能涵蓋，選 B。"
     ],
     "options": {
-      "A": "「甲趁乙不注意時偷拿乙的皮包」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「甲遭乙騎車撞倒導致手腳擦傷」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「甲向乙借一百萬元卻逾期不還」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「甲不服乙開立的交通違規罰單 圖(九)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "偷竊屬非告訴乃論犯罪，其刑事部分不是三者都能以調解方式處理。",
+      "B": "受傷車禍可涉及刑事起訴審判及民事、告訴乃論部分調解。",
+      "C": "單純借貸不還主要是民事爭議，不能僅此交檢察官起訴。",
+      "D": "交通罰單爭議屬行政救濟，非此三種職權共同處理。"
     },
-    "trap": "【官方統計考情】全體通過率為 44.9%。錯誤選項中以 (C) 的誤選率最高（達 25.24%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "同一事件可能同時有不同法律責任，調解也不等於取代所有刑事程序。",
     "unitIds": [
       "history-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先由對話辨認三人的職務。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 7,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 30
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-25": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：檢視我國市場上商品進口來源的變化，解析開放外國商品進口對我國市場及市場…",
+    "keyIdea": "降低進口關稅可減少成本、增加供給，形成降價壓力。",
     "steps": [
-      "【審題定位】本題考查「選擇、機會成本與市場」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (A) 與史實記載、地理環境或公民制度原理最為契合。"
+      "貝里斯白蝦零關稅進口，使進口成本較低且供應來源增加。",
+      "在其他條件不變下，市場供給增加會形成售價下降的壓力，符合 A；不能由單一產品推定整國貿易出超必然變動。"
     ],
     "options": {
-      "A": "「受到對貝里斯政策的影響，我國市場上白蝦的售價下降」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「受到對貝里斯政策的影響，貝里斯的貿易出超金額下降」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「受到對宏都拉斯政策的影響，宏都拉斯的貿易出超金額上升」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「受到對宏都拉斯政策的影響，我國白蝦市場的競爭程度上升」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "零關稅降低成本、增加供應，可合理推論降價方向。",
+      "B": "貝里斯出口白蝦增加，不能據此說其總出超下降。",
+      "C": "宏國對臺出口受阻，並不支持出超上升。",
+      "D": "宏國白蝦進口下降會減少一個競爭來源，非提高競爭。"
     },
-    "trap": "【官方統計考情】全體通過率為 62.3%。錯誤選項中以 (D) 的誤選率最高（達 18.71%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "經濟推論採其他條件不變，也不能把單項貿易等同國家總收支。",
     "unitIds": [
       "civics-5",
       "civics-9"
     ],
     "gap": "",
     "skill": "文意理解",
-    "doubt": false
+    "doubt": false,
+    "hint": "分別分析降稅與加稅的成本、供給方向。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 7,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 31
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-26": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：理解民事紛爭的解決途徑。",
+    "keyIdea": "契約爭議是民事，訴訟上和解可作民事解決結果。",
     "steps": [
-      "【審題定位】本題考查「人權、法治與正當程序」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (B) 與史實記載、地理環境或公民制度原理最為契合。"
+      "甲的違反契約提告屬民事訴訟，丁的法院和解是民事紛爭合法解決方式。",
+      "乙的自訴與丙的罰金都是刑事用語，所以組合應為甲、丁，選 B。"
     ],
     "options": {
-      "A": "「甲、丙」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「甲、丁」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「乙、丙」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「乙、丁」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "甲正確，但罰金屬刑罰，不是民事結果。",
+      "B": "契約民事訴訟與訴訟上和解可配合。",
+      "C": "自訴及罰金皆是刑事情境。",
+      "D": "和解可屬民事，但題列自訴屬刑事。"
     },
-    "trap": "【官方統計考情】全體通過率為 56.2%。錯誤選項中以 (D) 的誤選率最高（達 24.91%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "民事賠償、刑事罰金與行政罰鍰不可混用。",
     "unitIds": [
       "civics-4"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先將四個法律名詞標成民事或刑事。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 7,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 32
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-27": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：判讀人口金字塔及了解世界重要國家的人口組成及其經濟發展特色。",
+    "keyIdea": "目前與未來都有大量勞動年齡人口，須有寬廣壯年及接續世代。",
     "steps": [
-      "【審題定位】本題考查「國際貿易、比較利益法則與全球分工」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (A) 與史實記載、地理環境或公民制度原理最為契合。"
+      "A 圖壯年帶人口多、老年比重小，較年輕世代亦能在後續數十年補入勞動年齡。",
+      "其餘圖較偏老化、底部狹窄或結構不均，較難同時符合目前與未來壯年比例高，故選 A。"
     ],
     "options": {
-      "A": "正確。完全符合題幹核心要求與推導結論。",
-      "B": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "壯年人口多且後續年輕世代仍可接續。",
+      "B": "上部年長人口較多、底部狹窄，未來老化壓力較大。",
+      "C": "性別及年齡結構不均，較不符合穩定充足的未來勞動力。",
+      "D": "年輕世代明顯少於現有中壯年，未來補充不足。"
     },
-    "trap": "【官方統計考情】全體通過率為 53.1%。錯誤選項中以 (D) 的誤選率最高（達 33.29%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "不能只看現在的中段寬度，還要看將來補入的兒少世代。",
     "unitIds": [
       "civics-12"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "同時檢查壯年帶與其下方年輕人口。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 8,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 33
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-28": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：應用全球經緯度座標判斷位置。",
+    "keyIdea": "阿拉斯加南方海域屬北太平洋。",
     "steps": [
-      "【審題定位】本題考查「地圖、比例尺與經緯度」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (A) 與史實記載、地理環境或公民制度原理最為契合。"
+      "西經 149.20°、北緯 56° 位於阿拉斯加南方的太平洋海域。",
+      "應由太平洋區海嘯警報系統研判，故選 A。"
     ],
     "options": {
-      "A": "「太平洋海嘯警報中心」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「印度洋海嘯警報中心」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「加勒比海海嘯警報中心」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「東北大西洋暨地中海及相連海域海嘯警報中心」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "震央位在太平洋，符合管轄海域。",
+      "B": "印度洋遠離阿拉斯加。",
+      "C": "加勒比海在中美洲附近，不是阿拉斯加南方。",
+      "D": "東北大西洋及地中海與震央海域不同。"
     },
-    "trap": "【官方統計考情】全體通過率為 49.3%。錯誤選項中以 (C) 的誤選率最高（達 22.27%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "經緯度需連同題給地名共同定位。",
     "unitIds": [
       "geography-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "找阿拉斯加南側面對哪個大洋。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 8,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 34
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-29": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：判讀等高線地形圖及了解各族群聚落地名的命名與環境的關係。",
+    "keyIdea": "閩南坑頭與客家坑尾雖名稱相反，都可能位於溪流上游。",
     "steps": [
-      "【審題定位】本題考查「戰後臺灣與民主化」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (B) 與史實記載、地理環境或公民制度原理最為契合。"
+      "閩南命名依河段位置，坑頭在上游；客家依拓墾先後，由下游往上游開墾，最後的坑尾也在上游。",
+      "以等高線判河谷上游方向後，B 將兩聚落都放在各自上游，符合兩套原則，選 B。"
     ],
     "options": {
-      "A": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "正確。完全符合題幹核心要求與推導結論。",
-      "C": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "客家坑尾在較下游，不符最後往上游開墾。",
+      "B": "兩聚落皆在上游，分別符合位置及拓墾順序。",
+      "C": "閩南坑頭與客家坑尾都偏下游，均不符。",
+      "D": "客家坑尾較合理，但閩南坑頭放在下游。"
     },
-    "trap": "【官方統計考情】全體通過率為 49.9%。錯誤選項中以 (A) 的誤選率最高（達 34.06%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "相同的頭尾字樣，在兩族群的命名依據不同。",
     "unitIds": [
       "history-4"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先把兩套規則都翻成真正的上游、下游。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 8,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 35
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-30": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：了解臺灣清帝國時期原住民社會的發展。",
+    "keyIdea": "納稅壓力促使原住民把草地轉讓並收取補貼。",
     "steps": [
-      "【審題定位】本題考查「臺灣南島語族與多元原住民族文化」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (A) 與史實記載、地理環境或公民制度原理最為契合。"
+      "契約開頭直接說稅賦繁重、鹿少，促使竹塹社售地給漢人，約定開墾後每年補貼稅銀。",
+      "因此官府稅賦影響土地經營方式有直接依據，選 A。"
     ],
     "options": {
-      "A": "「官府的賦稅，影響原住民土地經營方式」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「竹塹社原住民，當時被官府歸類為生番」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「漢人承買土地，是為了捕獵更多的鹿隻」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「竹塹社受到漢人脅迫，舉社向東部遷徙」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "賣地原因及每年補稅條款都支持此項。",
+      "B": "能納入官府稅賦體系的族群，不能據此判為生番。",
+      "C": "漢人要開埤圳、招佃耕作，不是增加獵鹿。",
+      "D": "未寫遭脅迫或全社遷往東部。"
     },
-    "trap": "【官方統計考情】全體通過率為 67.5%。錯誤選項中以 (B) 的誤選率最高（達 15.54%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "歷史契約解讀須以條款為據，避免補入未記載情節。",
     "unitIds": [
       "history-9",
       "history-11"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出出售原因與售地後回報的兩個稅賦線索。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 9,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 36
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-31": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：認識法國大革命的歷史背景。",
+    "keyIdea": "法國國王為財政問題重開的三階級代表會議。",
     "steps": [
-      "【審題定位】本題考查「辛亥革命與中華民國建立到對日抗戰」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (B) 與史實記載、地理環境或公民制度原理最為契合。"
+      "1614 年後長期未召開、1789 年因財政危機重開，且各階層帶陳情書到凡爾賽。",
+      "這是法國大革命前的三級會議，選 B。"
     ],
     "options": {
-      "A": "「巴黎和會」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「三級會議」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「關稅同盟」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「聯合國大會」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "巴黎和會是一戰後國際會議，非王室稅改諮詢。",
+      "B": "三級會議符合年代、階級代表與財政背景。",
+      "C": "關稅同盟是經濟整合組織，非此政治機關。",
+      "D": "聯合國成立於二十世紀，與法國王政背景不符。"
     },
-    "trap": "【官方統計考情】全體通過率為 60.7%。錯誤選項中以 (C) 的誤選率最高（達 21.31%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "先用國王與 1614 年久未召開兩線索限定事件。",
     "unitIds": [
       "history-14"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "回想法國大革命前哪個會議重新開會。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 9,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 37
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-32": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：了解臺灣在日本時期各階段的統治政策。",
+    "keyIdea": "臺灣議會請願運動的日治背景對應內地延長主義。",
     "steps": [
-      "【審題定位】本題考查「史料判讀與早期臺灣」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (D) 與史實記載、地理環境或公民制度原理最為契合。"
+      "檢察官要求臺灣人接受日本統治，並把設置臺灣議會視為反抗，對應日治時期政治請願。",
+      "當時統治以臺灣為日本領土、推進內地延長為方針，選 D。"
     ],
     "options": {
-      "A": "「實施軍事戒嚴」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「終止動員戡亂」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「貫徹民族自決」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「推行內地延長」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "本題日治帝國與議會請願線索，非戰後軍事戒嚴。",
+      "B": "動員戡亂終止是戰後不同時期。",
+      "C": "壓制臺灣自治訴求，並非貫徹民族自決。",
+      "D": "內地延長符合日本將臺灣納入帝國的統治方向。"
     },
-    "trap": "【官方統計考情】全體通過率為 67.8%。錯誤選項中以 (C) 的誤選率最高（達 13.21%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "引文是殖民司法當局的說法，不代表其評價客觀。",
     "unitIds": [
       "history-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "由日本帝國與臺灣議會請願定位時代。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 9,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 38
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-33": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：了解中國歷史上的重要政治制度。",
+    "keyIdea": "北宋重文與殿試取才，使科舉榮耀高於軍功。",
     "steps": [
-      "【審題定位】本題考查「史料判讀與早期臺灣」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (A) 與史實記載、地理環境或公民制度原理最為契合。"
+      "契丹、燕雲十六州定位宋遼對峙；皇帝親授官職、入仕後可掌國政，指科舉取士。",
+      "當時重文風氣使科舉及第被比作勝過軍功，故選 A。"
     ],
     "options": {
-      "A": "「通過科舉考試入仕」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「向天朝納貢受冊封」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「奉旨前往德國留學」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「依九品官人法獲評上品」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "科舉及第後獲授官職，符合重文的宋代背景。",
+      "B": "納貢冊封是對外關係，不是國內士人入仕。",
+      "C": "赴德留學屬近代，不合宋遼年代。",
+      "D": "九品官人法屬魏晉選才，非宋代科舉制度。"
     },
-    "trap": "【官方統計考情】全體通過率為 64.4%。錯誤選項中以 (D) 的誤選率最高（達 20.32%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "先由對外敵國與失地判年代，再判選才方法。",
     "unitIds": [
       "history-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "契丹與燕雲十六州指向哪一時期？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 9,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 39
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-34": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：了解世界歷史上重要宗教的發展。",
+    "keyIdea": "拉丁文新約聖經與福音書宗教圖像指向中世紀西歐基督教文化。",
     "steps": [
-      "【審題定位】本題考查「美國與北美洲區域發展特色」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (C) 與史實記載、地理環境或公民制度原理最為契合。"
+      "文物標示四則福音書故事及拉丁文刻寫的新約經文，顯示基督教與拉丁文化脈絡。",
+      "西元九世紀西歐符合基督教傳播及手抄宗教書文化，選 C；兩個西元前選項早於基督教。"
     ],
     "options": {
-      "A": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "正確。完全符合題幹核心要求與推導結論。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "西元前六世紀尚無基督教新約聖經。",
+      "B": "西元前一世紀仍早於基督教形成與新約編寫。",
+      "C": "九世紀西歐符合拉丁基督教文物背景。",
+      "D": "十四世紀中南美洲不符圖示拉丁基督教文物的典型製作脈絡。"
     },
-    "trap": "【官方統計考情】全體通過率為 46.9%。錯誤選項中以 (D) 的誤選率最高（達 18.82%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "可用宗教出現時間先排除明顯年代錯誤。",
     "unitIds": [
       "geography-10"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "注意文物直接標出的新約與拉丁文。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 9,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 40
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-35": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：理解我國政府體制中權力分立與制衡的機制。",
+    "keyIdea": "分權制衡須呈現不同政府權力間的牽制。",
     "steps": [
-      "【審題定位】本題考查「民主政治與權力分立」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (C) 與史實記載、地理環境或公民制度原理最為契合。"
+      "行政院對立法院通過而認為窒礙難行的法案提出覆議，讓行政與立法權彼此制衡。",
+      "其他選項是人事、地方施政或人民參與，不是不同國家權力間的制衡，選 C。"
     ],
     "options": {
-      "A": "「總統任命執政黨的黨員擔任行政院院長」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「縣長推動觀光活動以籌措地方政府財源」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「行政院對於窒礙難行的法案提出覆議」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「民眾為表達對政策不滿上街遊行抗議」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "任命行政院長未呈現另一權力機關制衡。",
+      "B": "地方觀光籌財源是施政，不是權力制衡。",
+      "C": "行政對立法的覆議機制符合分權制衡。",
+      "D": "民眾遊行是公民參與，非政府機關間的分權關係。"
     },
-    "trap": "【官方統計考情】全體通過率為 68.8%。錯誤選項中以 (A) 的誤選率最高（達 13.76%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "監督政府與政府內部權力制衡範圍不同。",
     "unitIds": [
       "civics-3",
       "civics-11"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "找出同時涉及行政權與立法權的選項。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 10,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 41
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-36": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：檢視地方政府制定地方法規處理問題的過程，解析地方自治的制度及行政救濟的…",
+    "keyIdea": "自治條例罰鍰屬行政處分，受罰者可依法救濟。",
     "steps": [
-      "【審題定位】本題考查「民主政治與權力分立」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (C) 與史實記載、地理環境或公民制度原理最為契合。"
+      "違規設廣告遭罰鍰及限期移除，屬行政管理措施，非刑事判決。",
+      "不服行政處分可循訴願等程序救濟；自治條例則由地方自治機關依法修正，故選 C。"
     ],
     "options": {
-      "A": "「臺北市採行正向誘因，處理競選廣告違規問題」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「該條例若需修正，應由立法院依照規定三讀通過」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「違規受罰者若不服處分，可提起訴願進行權利救濟」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「政府透過刑事處罰手段，預防選舉期間發生犯罪行為」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "罰鍰是增加違規成本的負向誘因。",
+      "B": "地方自治條例不由立法院當全國法律三讀修正。",
+      "C": "不服行政處分可提訴願進行權利救濟。",
+      "D": "罰鍰非刑事罰金，此例不是刑事處罰。"
     },
-    "trap": "【官方統計考情】全體通過率為 55.7%。錯誤選項中以 (B) 的誤選率最高（達 31.87%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "地方自治條例與中央法律、罰鍰與罰金要區分。",
     "unitIds": [
       "civics-3",
       "civics-11"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "先判定這是行政處分還是刑事裁判。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 10,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 42
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-37": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：理解立法委員的職權。",
+    "keyIdea": "修法提案及預算審查定位立委，質詢內容可補充品質評估。",
     "steps": [
-      "【審題定位】本題考查「人權、法治與正當程序」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (D) 與史實記載、地理環境或公民制度原理最為契合。"
+      "會議出席、法律修正提案與預算審查，顯示評鑑對象為立法委員。",
+      "檢視對部會首長的質詢內容可了解議題掌握與監督品質，較能補足只計數量的不足，選 D。"
     ],
     "options": {
-      "A": "「對不當施政的糾正案件數 參與率」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「各類訴訟案件的審理進度」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「公共工程預算的編列金額」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「對各部會首長的質詢內容」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "糾正是監察權相關職權，非此立委評鑑重點。",
+      "B": "訴訟審理屬法院工作。",
+      "C": "預算編列主要為行政部門，立委負責審查。",
+      "D": "質詢內容可評估立委監督的實質品質。"
     },
-    "trap": "【官方統計考情】全體通過率為 52.9%。錯誤選項中以 (A) 的誤選率最高（達 17.81%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "題目要求工作品質，不是再增加一個計數欄位。",
     "unitIds": [
       "civics-4"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先用法律案、預算案判斷公職種類。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 10,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 43
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-38": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：檢視環保團體的作為，解析影響消費行為的因素。",
+    "keyIdea": "揭露環保紀錄會改變消費者對企業商品的偏好。",
     "steps": [
-      "【審題定位】本題考查「媒體素養、全球化與永續消費」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (D) 與史實記載、地理環境或公民制度原理最為契合。"
+      "APP 讓消費者知道製造商違規紀錄，以此判斷是否購買、甚至改選其他商品。",
+      "其作用是透過資訊改變個人偏好與消費行為，並形成企業改善誘因，選 D。"
     ],
     "options": {
-      "A": "「有助於增加消費者的購物支出」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「呈現出法律變革影響科技發展」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「揭露各企業曾經發生的民事紛爭」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「藉由影響個人偏好改變消費行為」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "未說一定增加總購物金額。",
+      "B": "題目是資訊工具運用，未說法律修改導致科技發明。",
+      "C": "揭露的是環保違規受罰紀錄，不是民事紛爭。",
+      "D": "資訊影響選擇及偏好，符合 APP 目的。"
     },
-    "trap": "【官方統計考情】全體通過率為 56.0%。錯誤選項中以 (B) 的誤選率最高（達 17.61%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "環保違規裁罰與民事賠償爭議不是同一類。",
     "unitIds": [
       "civics-6"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "找使用者取得資訊後改變的決定。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 10,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 44
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-39": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：了解臺灣清帝國時期重要民變及其影響。",
+    "keyIdea": "諸羅改名嘉義是林爽文事件的關鍵識別。",
     "steps": [
-      "【審題定位】本題考查「明清社會變遷與西力東漸」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (B) 與史實記載、地理環境或公民制度原理最為契合。"
+      "清代平定林爽文事件時，諸羅因守城協助官軍而獲改名嘉義。",
+      "文中由鹿港登陸、搜捕退入山區的首領與改名討論，都符合林爽文事件，選 B。"
     ],
     "options": {
-      "A": "「朱一貴」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「林爽文」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「余清芳」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「莫那魯道」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "朱一貴事件並非嘉義改名的背景。",
+      "B": "林爽文事件與諸羅改嘉義直接相關。",
+      "C": "余清芳屬日治噍吧哖事件，時代不同。",
+      "D": "莫那魯道屬日治霧社事件，時代不同。"
     },
-    "trap": "【官方統計考情】全體通過率為 52.8%。錯誤選項中以 (A) 的誤選率最高（達 25.72%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "題引逆首是當時官方立場的稱呼，識別仍依具體史實。",
     "unitIds": [
       "history-11"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "先用嘉義地名由來定位事件。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 11,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 45
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-40": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：了解大航海時代以來，歐洲國家在世界各地的擴張情形。",
+    "keyIdea": "比較航線目的地與各國殖民地分布。",
     "steps": [
-      "【審題定位】本題考查「亞洲、非洲與文化地景」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (A) 與史實記載、地理環境或公民制度原理最為契合。"
+      "甲航線廣及北美、印度與澳洲等地，符合英國殖民網絡。",
+      "乙的重要長途航線通往東南亞印尼群島，符合荷蘭勢力範圍，所以甲英國、乙荷蘭，選 A。"
     ],
     "options": {
-      "A": "「甲：英國、乙：荷蘭」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「甲：荷蘭、乙：西班牙」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「甲：葡萄牙、乙：英國」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「甲：西班牙、乙：葡萄牙 圖(十一) 表(六)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "英國廣域網絡、荷蘭印尼據點與兩圖相符。",
+      "B": "甲並非以荷屬東印度為主，乙也非以西語美洲為主。",
+      "C": "甲在印度、澳洲等英國勢力區更強，乙不符英國全球網絡。",
+      "D": "西班牙與葡萄牙的主要殖民航線無法對應兩圖組合。"
     },
-    "trap": "【官方統計考情】全體通過率為 52.4%。錯誤選項中以 (D) 的誤選率最高（達 22.41%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "不是只看船隻出發的歐洲位置，還要看集中終點。",
     "unitIds": [
       "geography-5",
       "geography-6"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "特別核對印度、澳洲與印尼三區。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 11,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 46
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-41": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：解析匯率變動對進口貿易的影響。",
+    "keyIdea": "甲幣可換更多乙幣時，同額乙幣貨款的甲幣成本越低。",
     "steps": [
-      "【審題定位】本題考查「國際貿易、比較利益法則與全球分工」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (B) 與史實記載、地理環境或公民制度原理最為契合。"
+      "設每甲幣換 r 乙幣，固定乙幣貨款 K 的甲幣成本為 K/r，兩者反向。",
+      "6/1、6/4、6/8 成本逐次降低，故 r 逐次提高；6/22 成本為至今最高，故當天 r 應是至今最低。B 同時符合前段上升及 22 日附近低谷，選 B。"
     ],
     "options": {
-      "A": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "正確。完全符合題幹核心要求與推導結論。",
-      "C": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "22 日附近並非低於月初全部交易日。",
+      "B": "月初到 8 日上升，22 日附近低於之前，符合成本反向。",
+      "C": "月初先下降，不能解釋成本連續降低。",
+      "D": "月初下降且 22 日偏高，兩項線索均不符。"
     },
-    "trap": "【官方統計考情】全體通過率為 42.0%。錯誤選項中以 (D) 的誤選率最高（達 35.07%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "圖畫的是甲幣換乙幣，不是購買成本。",
     "unitIds": [
       "civics-12"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先寫成本＝固定乙幣金額÷匯率。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 11,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 47
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-42": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：分析國際衝突的影響。",
+    "keyIdea": "喀土穆位於尼羅河上游匯流處，埃及在下游。",
     "steps": [
-      "【審題定位】本題考查「史料判讀與早期臺灣」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (D) 與史實記載、地理環境或公民制度原理最為契合。"
+      "地圖顯示河流從蘇丹向北流往埃及，喀土穆在重要匯流位置。",
+      "若控制首都附近河流，可能影響下游埃及水資源，所以選 D。"
     ],
     "options": {
-      "A": "「若內戰惡化，難民將會大量湧入鄰國肯亞」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「蘇丹港若遭封鎖，將阻斷波斯灣的石油輸出」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「南部橄欖園若遭破壞，將使全球橄欖油價格飆升」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「若喀土穆被占領且鄰近大河遭控制，將影響埃及用水 圖(十二)」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "地圖中肯亞並不與蘇丹接壤，不能說是其鄰國。",
+      "B": "蘇丹港在紅海一側，不是封鎖波斯灣石油必經出口。",
+      "C": "題圖未呈現重要橄欖園，南部環境也非典型地中海橄欖區。",
+      "D": "河流上下游依賴使蘇丹控制河水可能影響埃及。"
     },
-    "trap": "【官方統計考情】全體通過率為 43.8%。錯誤選項中以 (B) 的誤選率最高（達 30%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "國名蘇丹與南蘇丹分立後，接壤關係須依圖判斷。",
     "unitIds": [
       "history-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "沿河流箭頭追到北邊哪個國家。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 12,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 48
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-43": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：檢視我國新生兒從母姓統計資料的變化，解析社會規範對於選擇新生兒姓氏的影…",
+    "keyIdea": "法律開放選擇後，從母姓比例仍低，顯示習俗等規範持續影響。",
     "steps": [
-      "【審題定位】本題考查「人權、法治與正當程序」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (B) 與史實記載、地理環境或公民制度原理最為契合。"
+      "2012～2018 年約定從母姓比例由 1.5% 升至 2.3%，雖增加但仍屬少數。",
+      "這支持法律改變後人們仍可能受傳統姓氏觀念等其他社會規範影響，選 B。"
     ],
     "options": {
-      "A": "「新生兒約定從母姓的比例顯示性別歧視日趨嚴重 2014 210,383 1.8」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「選擇新生兒姓氏時仍會受到其他社會規範的影響 2015 213,598 1.9」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「法律變遷促使多數人改變新生兒姓氏的選擇結果 2016 208,440 2.1」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「基於傳宗接代需求約定從母姓的新生兒多為男嬰 2017 193,844 2.1 2018 181,601 2.3 二、題組：(44～54題)」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "比例上升不能直接推成性別歧視日趨嚴重。",
+      "B": "法律允許但採用仍少，與其他規範持續作用相符。",
+      "C": "最高仍僅 2.3%，不能說多數人改變結果。",
+      "D": "表沒有新生兒性別及父母動機，無法推定多為男嬰。"
     },
-    "trap": "【官方統計考情】全體通過率為 46.8%。錯誤選項中以 (C) 的誤選率最高（達 46.85%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "比例趨勢、絕對人數、性別及動機是不同資訊。",
     "unitIds": [
       "civics-4"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先判斷從母姓是多數還是少數。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 12,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 49
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-44": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：了解自然環境對人類生活型態的影響。",
+    "keyIdea": "新加坡濕熱多雨，有頂步道可遮陽避雨。",
     "steps": [
-      "【審題定位】本題考查「等高線地形圖判讀與臺灣水文環境」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (D) 與史實記載、地理環境或公民制度原理最為契合。"
+      "五腳基是臨街的一樓有頂步行通道，其原型來自熱帶新加坡。",
+      "在濕熱且降雨多的環境提供遮陽避雨的公共步行空間，最符合 D。"
     ],
     "options": {
-      "A": "「防止蚊蟲及毒蛇的侵擾」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「因應冬季道路積雪行走不便」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「躲避強風發生時產生的沙塵暴」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「避免溼熱氣候下強烈日晒及雨淋」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "頂蓋無法主要防止地面蚊蟲毒蛇。",
+      "B": "新加坡熱帶氣候沒有冬季道路積雪問題。",
+      "C": "沙塵暴不是此濕熱環境主要需求。",
+      "D": "有頂連續通道可阻擋強烈日曬與雨淋。"
     },
-    "trap": "【官方統計考情】全體通過率為 86.8%。錯誤選項中以 (B) 的誤選率最高（達 6.22%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "建築功能須連結設置地氣候。",
     "unitIds": [
       "geography-8"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "想想熱帶海島行人最常需要躲避什麼。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 12,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 51
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-45": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：了解中國人口遷移的原因及影響。",
+    "keyIdea": "東南沿海多山少田、向南洋移民的僑鄉背景。",
     "steps": [
-      "【審題定位】本題考查「史料判讀與早期臺灣」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (C) 與史實記載、地理環境或公民制度原理最為契合。"
+      "中國閩粵等東南沿海地區山地較多、耕地有限，長期有赴南洋經商與移民的歷史。",
+      "返鄉華僑將南洋騎樓式建築帶回，因此洋樓主要在東南沿海，選 C。"
     ],
     "options": {
-      "A": "「西部的高山地區」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「北部的平原地區」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「東南部沿海地區」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「西北部綠洲地帶」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "西部高山非題述面向南洋的主要僑鄉。",
+      "B": "北部平原不符少田及南洋移民脈絡。",
+      "C": "閩粵沿海兼具多山少田與南洋移民歷史。",
+      "D": "西北綠洲遠離此海上移民與濕熱建築傳播路徑。"
     },
-    "trap": "【官方統計考情】全體通過率為 61.9%。錯誤選項中以 (B) 的誤選率最高（達 16.62%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "結合自然地形與人文移民歷史定位。",
     "unitIds": [
       "history-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "中國哪些沿海省分常見南洋華僑故鄉？",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 12,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 52
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-46": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：發覺生活經驗中社群網路對公共意見的影響。",
+    "keyIdea": "通訊群組轉傳已引起其他人對公共政策的評論。",
     "steps": [
-      "【審題定位】本題考查「史料判讀與早期臺灣」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (A) 與史實記載、地理環境或公民制度原理最為契合。"
+      "阿華向多個群組轉傳疾病與修法訊息，其他成員隨即責怪政府與法律。",
+      "這顯示社群網路上的訊息可影響公共意見，選 A；影響力不代表訊息真實。"
     ],
     "options": {
-      "A": "「透過社群網路影響公共意見」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「善用大眾媒體爭取婚姻自由」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「利用網路科技提供醫學新知」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「成立民間團體推動法律變革」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "群組回應顯示對政府政策的看法受到影響。",
+      "B": "案例不是爭取婚姻自由的行動。",
+      "C": "未經查證的說法不能當作提供醫學新知。",
+      "D": "沒有成立團體或提出修法組織的情節。"
     },
-    "trap": "【官方統計考情】全體通過率為 84.0%。錯誤選項中以 (C) 的誤選率最高（達 10.13%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "傳播有效與內容正確須分開判斷。",
     "unitIds": [
       "history-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "觀察群組中其他人收到訊息後的回應。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 13,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 54
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-47": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：檢視關於疾病統計數據的變化，探討日常生活中個人或群體可能面臨的不公平處…",
+    "keyIdea": "用新增個案檢查感染是否增加，累積人數不能證明年度傳染惡化。",
     "steps": [
-      "【審題定位】本題考查「史料判讀與早期臺灣」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (C) 與史實記載、地理環境或公民制度原理最為契合。"
+      "新增感染者由 2017 年 2519 人逐年降至 2021 年 1247 人，與訊息宣稱修法後大幅增加不合。",
+      "累積個案可能仍增加，卻不能證明新增感染增加，更無法僅由此建立修法的因果；所以選 C。"
     ],
     "options": {
-      "A": "「內容符合事實，因我國通過修法之後導致累積感染者人數增加」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「內容符合事實，因我國的愛滋病毒盛行率比東南亞鄰近國家高」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「內容與事實不符，因我國統計數據顯示新增感染者人數逐年減少」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「內容與事實不符，因我國的愛滋病毒盛行率比歐、美先進國家低」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "把累積個案增加誤當年度新增上升，且擅推修法因果。",
+      "B": "臺灣 0.3% 並非高於所有鄰近國，如泰國 1.1%。",
+      "C": "逐年新增下降直接反駁大幅增加的說法。",
+      "D": "題表臺灣與法、美、西班牙均為 0.3%，不是較低。"
     },
-    "trap": "【官方統計考情】全體通過率為 80.2%。錯誤選項中以 (A) 的誤選率最高（達 12.06%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "本題是固定資料的媒體識讀練習；新增、累積與因果不能混用。",
     "unitIds": [
       "history-1"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "先只看表八的新增感染者欄。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 13,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 55
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-48": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：理解閱聽人具備媒體識讀能力的重要性。",
+    "keyIdea": "查找原始統計並交叉比較，是媒體識讀的具體做法。",
     "steps": [
-      "【審題定位】本題考查「媒體素養、全球化與永續消費」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (B) 與史實記載、地理環境或公民制度原理最為契合。"
+      "小明沒有直接轉傳，而是查政府公開資料及國際統計，檢驗訊息是否符合數據。",
+      "這呈現閱聽者辨識、查證及評估資訊的能力，選 B。"
     ],
     "options": {
-      "A": "「對於跨越國界傳播的疾病，世界各國應共同合作防堵疫情」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「對於各種媒體傳播的資訊，閱聽大眾應具備媒體識讀能力」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「對於行政機關推動的政策，政府施政應秉持性別平等立場」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「對於網路串流平臺的作品，使用者應避免侵害智慧財產權」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "國際防疫合作不是小明查證過程的直接重點。",
+      "B": "核對來源、統計與說法是媒體識讀。",
+      "C": "政策性別平等並非題目著重的查證行動。",
+      "D": "沒有涉及串流作品著作權使用。"
     },
-    "trap": "【官方統計考情】全體通過率為 87.8%。錯誤選項中以 (A) 的誤選率最高（達 5.36%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "依人物實際做法判斷概念，不被議題背景帶離。",
     "unitIds": [
       "civics-6"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "將查資料、比較數據、判斷真假對應到能力名稱。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 13,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 56
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-49": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：了解重要農作物的生產與地理環境的關係。",
+    "keyIdea": "甘蔗適合高溫、多日照與生長期水分充足的熱帶副熱帶。",
     "steps": [
-      "【審題定位】本題考查「中國與東亞：制度及文化交流」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (D) 與史實記載、地理環境或公民制度原理最為契合。"
+      "文章所指作物是甘蔗，例舉臺灣、印尼、菲律賓、斐濟、古巴，多在熱帶或近熱帶。",
+      "南北緯約 25 度之間最符合主要生長環境，選 D。"
     ],
     "options": {
-      "A": "「年雨量小於500mm」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「最冷月均溫10°C以下」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「海拔1,000公尺以上的山坡地」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「南緯25度到北緯25度之間的地區」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "年雨量少於 500 mm 過乾，非主要適生條件。",
+      "B": "最冷月低於 10°C 偏冷，不是甘蔗主要環境。",
+      "C": "高海拔山坡通常較冷，非主要蔗作平地。",
+      "D": "熱帶與低緯副熱帶符合甘蔗高溫需求。"
     },
-    "trap": "【官方統計考情】全體通過率為 70.6%。錯誤選項中以 (A) 的誤選率最高（達 18.72%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "作物地理要先由全文辨認是甘蔗，不是甜菜。",
     "unitIds": [
       "history-5"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "把文中的五個產糖地標到緯度帶。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 14,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 58
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-50": {
     "answer": "A",
-    "keyIdea": "掌握核心概念：了解臺灣產業發展的歷程。",
+    "keyIdea": "1950 年糖業外銷收入支持戰後進口替代與輕工業。",
     "steps": [
-      "【審題定位】本題考查「臺灣人口、產業與都市」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (A) 與史實記載、地理環境或公民制度原理最為契合。"
+      "文章明示廠歌創作於 1950 年，當時臺灣以糖等農產加工外銷賺取收入。",
+      "這些收入有助扶植國內輕工業，符合戰後早期發展階段，選 A；加工出口區、十大建設及高科技發展較晚。"
     ],
     "options": {
-      "A": "「外銷食品加工產品扶植國內輕工業」：正確。完全符合題幹核心要求與推導結論。",
-      "B": "「設立加工出口區吸引大量外商投資」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「因應石油危機推動交通、能源等基礎建設」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「持續推動農業轉型升級並發展高科技產業」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "符合 1950 年代以農產加工出口支持輕工業。",
+      "B": "加工出口區主要在 1960 年代後，時序較晚。",
+      "C": "因應石油危機的基建在 1970 年代，非 1950 背景。",
+      "D": "高科技產業發展是較後期階段。"
     },
-    "trap": "【官方統計考情】全體通過率為 49.8%。錯誤選項中以 (B) 的誤選率最高（達 36.77%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "先抓明確的 1950 年，再與產業階段配對。",
     "unitIds": [
       "geography-3"
     ],
     "gap": "",
     "skill": "圖表判讀",
-    "doubt": false
+    "doubt": false,
+    "hint": "把三個後期政策放回年代軸。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 14,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 59
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-51": {
     "answer": "C",
-    "keyIdea": "掌握核心概念：分析產業轉型的原因與目的。",
+    "keyIdea": "從單一製糖轉向加工、其他產品與觀光，增加每單位資源創造的價值。",
     "steps": [
-      "【審題定位】本題考查「中國與東亞：制度及文化交流」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (C) 與史實記載、地理環境或公民制度原理最為契合。"
+      "糖廠擴大生產酒精、肥料、飼料，甚至轉成觀光，增加原本製糖以外的收入與用途。",
+      "這是提高產業附加價值及經營多樣性，選 C。"
     ],
     "options": {
-      "A": "「降低生產的運輸成本」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「減少粗糖的關稅成本」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「提高產業的附加價值」：正確。完全符合題幹核心要求與推導結論。",
-      "D": "「增加甘蔗的種植面積」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "多元產品與觀光不以降低運輸成本為共同核心。",
+      "B": "題目未說多元化是為降低粗糖關稅。",
+      "C": "加工與體驗服務可創造較多價值及收入。",
+      "D": "有進口粗糖與轉觀光的情形，並非主要擴大蔗田。"
     },
-    "trap": "【官方統計考情】全體通過率為 85.8%。錯誤選項中以 (A) 的誤選率最高（達 5.09%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "產業轉型不一定是增加原料種植量。",
     "unitIds": [
       "history-5"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "比較只賣糖與提供多種產品、服務的差異。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 14,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 60
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-52": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：了解中國晚清時期的重要變革。",
+    "keyIdea": "自強運動結合近代交通與礦業，常見官督商辦。",
     "steps": [
-      "【審題定位】本題考查「史料判讀與早期臺灣」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (B) 與史實記載、地理環境或公民制度原理最為契合。"
+      "題文指出商人家族配合官方自強運動，對應清末引入西方技術辦近代企業。",
+      "鐵路興築及煤鐵開採符合此時期事業；其餘是古代行政或二十世紀運動，選 B。"
     ],
     "options": {
-      "A": "「調查戶口作為掌握稅收依據」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「投資鐵路興築與煤鐵礦開採」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「承辦國營企業，推行大躍進」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「設置市舶司，造船往來西洋」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "戶口調查是行政稅籍工作，不是此商辦近代企業。",
+      "B": "近代交通與礦業符合自強運動事業。",
+      "C": "大躍進在 1950 年代，不合 1911 年前的脈絡。",
+      "D": "市舶司是古代海貿管理官署，非自強運動商人企業。"
     },
-    "trap": "【官方統計考情】全體通過率為 52.9%。錯誤選項中以 (D) 的誤選率最高（達 19.56%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "選項都可能與國家建設相關，但需符合時代與經營主體。",
     "unitIds": [
       "history-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "先由自強運動判定清末，再找近代產業。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 15,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 62
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-53": {
     "answer": "B",
-    "keyIdea": "掌握核心概念：了解中國現代歷史的發展。",
+    "keyIdea": "1933～1937 位於南京國民政府十年建設時期。",
     "steps": [
-      "【審題定位】本題考查「史料判讀與早期臺灣」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (B) 與史實記載、地理環境或公民制度原理最為契合。"
+      "北伐後南京國民政府在 1928～1937 年間推動交通與經濟建設，常稱十年建設。",
+      "1933～1937 發行航空公路建設獎券籌措財源，年代與目的均符合，選 B。"
     ],
     "options": {
-      "A": "「改革開放在沿海設經濟特區」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「北伐結束後十年建設的展開」：正確。完全符合題幹核心要求與推導結論。",
-      "C": "「庚子後新政推動的改革項目」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「因應能源危機推行十大建設」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。"
+      "A": "改革開放始於 1970 年代末，太晚。",
+      "B": "北伐後十年建設包含題述交通建設與籌資。",
+      "C": "庚子後新政屬清末，早於南京國民政府。",
+      "D": "十大建設屬 1970 年代臺灣，時空不合。"
     },
-    "trap": "【官方統計考情】全體通過率為 55.5%。錯誤選項中以 (A) 的誤選率最高（達 18.69%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "以年份與政府名稱雙重核對。",
     "unitIds": [
       "history-1"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "把 1933～1937 放在北伐與全面抗戰之間。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 15,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 63
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   },
   "115-social-54": {
     "answer": "D",
-    "keyIdea": "掌握核心概念：了解日本帝國主義對中國的侵略行為。",
+    "keyIdea": "1941 年日本與英美等國交戰後，侵入並控制原外國租界。",
     "steps": [
-      "【審題定位】本題考查「二次大戰後冷戰對峙與全球解殖潮」的核心觀念，首先需釐清題幹所給予之已知條件與核心提問。",
-      "【時空與制度剖析】分析題幹背景之時空脈絡、地理環境特徵或法律經濟制度原理。",
-      "【論點檢核】將選項逐一帶入情境檢視，選項 (D) 與史實記載、地理環境或公民制度原理最為契合。"
+      "文章說 1941 年後租界賽馬場受日本控制，並以東亞解放宣傳開放中國人使用。",
+      "此時正值太平洋戰爭爆發，日本向英美等同盟國開戰，控制其租界勢力，故選 D。"
     ],
     "options": {
-      "A": "「甲午戰爭結束，中國對日本割地賠款」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "B": "「一次大戰爆發，日本占領德國租借地」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "C": "「日 俄戰爭結束，日本驅逐俄羅斯勢力」：錯誤。與題幹條件不符，或存在觀念混淆與計算/推論偏差。",
-      "D": "「太平洋戰爭爆發，日本向同盟國宣戰」：正確。完全符合題幹核心要求與推導結論。"
+      "A": "甲午戰爭結束於 1895，遠早於文中 1941。",
+      "B": "一戰在 1914 爆發，與此開放措施時點不同。",
+      "C": "日俄戰爭在 1904～1905，時序不符。",
+      "D": "太平洋戰爭爆發後日本控制租界，符合文中時點。"
     },
-    "trap": "【官方統計考情】全體通過率為 45.1%。錯誤選項中以 (B) 的誤選率最高（達 21.04%），考生常因未看清關鍵條件或觀念混淆而誤選；作答時應特別注意題目限制。",
+    "trap": "1911、1937、1941 是不同段落事件，須抓題問的那一段。",
     "unitIds": [
       "history-15"
     ],
     "gap": "",
     "skill": "概念辨析",
-    "doubt": false
+    "doubt": false,
+    "hint": "以體育設施開放前的 1941 年為定位。",
+    "provenance": {
+      "author": "AI",
+      "status": "ai-derived",
+      "answerCheck": "matches-official",
+      "source": "downloads/cap/115-social.pdf",
+      "page": 15,
+      "sourceSha256": "da47c86bab2e2c18eecbba29556901fbfb4f0cf79e9efad73c8385b48dbf5755",
+      "answerSource": "downloads/cap/115-answers.pdf",
+      "answerSourceSha256": "6dd44a7296eefd6c5cadabe33af6f35561f9e6f10b6ef8085cb36e3d4da40ce7",
+      "analysisSource": {
+        "path": "downloads/cap-analysis/115-social.pdf",
+        "page": 64
+      },
+      "analysisSourceSha256": "78e99adb67386c8a13379b0cc75287673719cb17a7e311fa808efd848c9d628e",
+      "teacherReviewed": false,
+      "updatedAt": "2026-10-28"
+    }
   }
 }

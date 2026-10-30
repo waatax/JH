@@ -4,6 +4,7 @@ import { units, subjects, subjectById, unitById } from './curriculum.js';
 import { calculateCapGrade, getCapGradeSummaryCardHtml } from './cap-scoring.js';
 import { recordCapQuestionResult, toggleCapBookmark, isCapBookmarked, getCapWrongQuestions, renderCapNotebookSummaryHtml } from './cap-notebook.js';
 import { renderPastpapersTrendGuide } from './pedagogy-visuals.js';
+import { getCapExplanation, relatedCapQuestions } from './cap-explanations.js';
 
 let cachedBank = null;
 let currentSession = null;
@@ -46,6 +47,50 @@ export async function loadCapBank() {
   return cachedBank;
 }
 
+export function renderCapSourceArchive(files) {
+  if (!files.length) return '';
+  const groups = new Map();
+  for (const file of files) {
+    const key = `${file.year}-${file.kind || 'regular'}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(file);
+  }
+  const rows = [...groups.values()].sort((a,b)=>b[0].year-a[0].year);
+  return `<section class="panel" style="margin-bottom:24px;" id="cap-source-archive">
+    <h2>官方題本典藏：早期年度與寫作測驗</h2>
+    <p>涵蓋國文、英語、數學、社會、自然與寫作。下列原始檔案尚待逐題拆分及解析，未計入上方互動題庫題數。102 年為試辦，105 年新店考場重考另列；102、103 年英語題本含聽力，音訊另外提供。</p>
+    ${rows.map(files=>{
+      const first=files[0];
+      const title=`${first.year} 年${first.kind==='trial'?'試辦會考':first.kind==='xindian-retest'?'新店考場重考':'會考'}`;
+      return `<details style="margin:12px 0;"><summary><strong>${title}</strong> · ${files.length} 份檔案</summary>
+        <ul style="line-height:2;">${files.map(file=>{
+          const local=file.status==='downloaded' && file.path;
+          const format=local ? file.path.split('.').pop().toUpperCase() : '官方來源';
+          return `<li><a href="${esc(local?file.path:file.sourceUrl)}" target="_blank" rel="noopener">${esc(file.label)}（${esc(format)}）</a> · <a href="${esc(file.sourcePage)}" target="_blank" rel="noopener">年度索引</a></li>`;
+        }).join('')}</ul></details>`;
+    }).join('')}
+  </section>`;
+}
+
+export function renderCapAnalysis(q) {
+  if (!q.analysis) return '';
+  const a=q.analysis;
+  const metrics=[];
+  if(Number.isFinite(a.passRate)) metrics.push(['全體通過率',(a.passRate*100).toFixed(1)+'%']);
+  if(Number.isFinite(a.discrimination)) metrics.push(['鑑別度',a.discrimination.toFixed(2)]);
+  for(const level of ['精熟','基礎','待加強']) {
+    const rate=a.passBySkill?.[level];
+    if(Number.isFinite(rate)) metrics.push([`${level}級通過率`,(rate*100).toFixed(0)+'%']);
+  }
+  const options=Object.entries(a.optionPercent || {}).filter(([letter,pct])=>(q.optionLetters || '').includes(letter) && Number.isFinite(pct));
+  return `<div class="callout" style="background:var(--surface);margin-bottom:16px;border-left:4px solid var(--brand);">
+    <div style="font-weight:700;color:var(--brand);margin-bottom:6px;">📊 官方試題分析：</div>
+    <div class="row" style="gap:16px;flex-wrap:wrap;font-size:0.9rem;">${metrics.map(([label,value])=>`<div>${esc(label)}：<strong>${esc(value)}</strong></div>`).join('')}</div>
+    ${options.length ? `<div style="margin-top:8px;font-size:0.85rem;"><strong>考生選項分佈：</strong>${options.map(([letter,pct])=>`<span style="display:inline-block;margin-right:12px;${letter===q.answer?'color:#2e7d32;font-weight:700;':''}">(${esc(letter)}) ${pct}%</span>`).join('')}</div>`:''}
+    ${q.analysisRef?.path ? `<a class="small" href="${esc(q.analysisRef.path)}#page=${Number(q.analysisRef.page)}" target="_blank" rel="noopener">核對官方試題分析來源</a>` : ''}
+  </div>`;
+}
+
 // --------------------------------------------------------------------------
 // 1. 會考歷屆題庫總覽頁面 (#/pastpapers)
 // --------------------------------------------------------------------------
@@ -54,20 +99,21 @@ export async function capLandingPage(container) {
   container.innerHTML = `
     <div class="eyebrow">CAP OFFICIAL EXAM BANK · 109–115</div>
     <h1>近七年國中教育會考全科題庫與全真模考</h1>
-    <p class="intro muted">完整載入 109 至 115 年（共七個年度、41 場考科、1,674 道官方試題原圖與標準答案）。全真計時模擬、逐題精解診斷，每題皆完整對齊 108 課綱教學單元。</p>
+    <p class="intro muted">收錄 109 至 115 年、41 場考科、1,674 題。包含原題圖與選擇題官方答案；115 年全科及 114 年數學、英聽已加入 AI 逐題解析。其他題目的解析仍在補充，原題請配合官方題本核對。</p>
     <div class="panel" style="text-align:center;padding:40px 20px;">載入題庫大數據中...</div>
   `;
 
   try {
     const bank = await loadCapBank();
+    const archiveResponses = await Promise.allSettled(['cap-historical-manifest.json','cap-manifest.json'].map(async path=>{
+      const response=await fetch(new URL(path,import.meta.url));
+      if(!response.ok) return [];
+      const manifest=await response.json();
+      return path==='cap-manifest.json' ? manifest.files.filter(file=>file.subject==='writing') : manifest.files;
+    }));
+    const archiveFiles=archiveResponses.flatMap(result=>result.status==='fulfilled'?result.value:[]);
     const years = [115, 114, 113, 112, 111, 110, 109];
     const subKeys = ['chinese', 'english', 'listening', 'math', 'social', 'science'];
-
-    // Calculate days until 116 CAP (2027-05-15)
-    const targetDate = new Date(2027, 4, 15);
-    const now = new Date();
-    const diffTime = targetDate - now;
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
     // Group papers
     const papers = {};
@@ -82,8 +128,10 @@ export async function capLandingPage(container) {
         avgPassRate: 0,
         ratesSum: 0,
         ratesN: 0,
+        aiDerived: 0,
       });
       papers[pid].count++;
+      if (getCapExplanation(q).ready) papers[pid].aiDerived++;
       if (q.kind === 'written') papers[pid].writtenCount++;
       else papers[pid].choiceCount++;
       if (q.analysis?.passRate) {
@@ -112,21 +160,21 @@ export async function capLandingPage(container) {
       container.innerHTML = `
         <div class="eyebrow">CAP OFFICIAL EXAM BANK · 109–115</div>
         <h1>近七年國中教育會考全科題庫與全真模考</h1>
-        <p class="intro muted">完整載入 109 至 115 年（共七個年度、41 場考科、1,674 道官方試題原圖與標準答案）。全真計時模擬、逐題精解診斷，每題皆完整對齊 108 課綱教學單元。</p>
+        <p class="intro muted">收錄 109 至 115 年、41 場考科、1,674 題。包含原題圖與選擇題官方答案；AI 解析的完成數列於各卷。原題請配合官方題本核對。</p>
 
-        <!-- 116 會考倒數英雄卡 -->
+        <!-- Verified bank coverage and explanation progress -->
         <section class="panel cap-countdown-card" style="background:linear-gradient(135deg, var(--surface), var(--surface-alt));border-left:5px solid var(--brand);margin-bottom:24px;">
           <div class="row" style="justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;">
             <div>
-              <span class="tag accent">📅 距離 116 年國中教育會考</span>
-              <h2 style="margin:8px 0 4px;font-size:1.8rem;">還有 <strong style="color:var(--brand);font-size:2.2rem;">${diffDays > 0 ? diffDays : 0}</strong> 天</h2>
-              <p class="muted" style="margin:0;">考試日期：2027 年 5 月 15 日（六）～ 5 月 16 日（日）· 把握黃金複習週期，循序練習歷屆真題！</p>
+              <span class="tag accent">📚 題庫與解析進度</span>
+              <h2 style="margin:8px 0 4px;font-size:1.8rem;">從完整原題開始練習</h2>
+              <p class="muted" style="margin:0;">讀題、作答、核對標準答案，再逐步理解解法。</p>
             </div>
             <div class="stats" style="margin:0;">
               <div><strong>7 個年度</strong><small class="muted">109~115 會考</small></div>
               <div><strong>41 場考卷</strong><small class="muted">全科官方真題</small></div>
-              <div><strong>1,674 道題</strong><small class="muted">100% 完整載入</small></div>
-              <div><strong>100% 解說</strong><small class="muted">對齊 108 課綱</small></div>
+              <div><strong>${bank.questions.length} 道題</strong><small class="muted">既有收錄題目</small></div>
+              <div><strong>${bank.questions.filter(q => getCapExplanation(q).ready).length} 題 AI 解析</strong><small class="muted">已核對答案欄位</small></div>
             </div>
           </div>
         </section>
@@ -200,6 +248,7 @@ export async function capLandingPage(container) {
                     <span class="subtle">${cfg.minutes} 分鐘 · ${p.count} 題${p.writtenCount ? ` (含非選 ${p.writtenCount})` : ''}</span>
                   </div>
                   <h3 style="margin:6px 0 10px;">${p.year} 年國中教育會考 ${cfg.short}</h3>
+                  <p>AI 逐題解析：${p.aiDerived} / ${p.count} 題</p>
                   <p class="muted" style="font-size:0.9rem;line-height:1.5;">
                     ${p.subject === 'listening' ? '🎧 官方英語聽力測驗，支援逐題官方原音播放與錄音稿對照。' : '包含選擇題、原圖裁切、官方標準答案、通過率大數據與完整 108 課綱對應。'}
                   </p>
@@ -217,7 +266,9 @@ export async function capLandingPage(container) {
           }).join('')}
         </div>
 
-        ${renderPastpapersTrendGuide()}
+        ${renderCapSourceArchive(archiveFiles)}
+
+        ${renderPastpapersTrendGuide(bank)}
 
         <!-- 108 課綱歷屆出題重點與趨勢熱力表 -->
         <section class="panel" style="margin-top:32px;">
@@ -365,7 +416,7 @@ export async function capExamPage(container, paperId) {
       const isRevealed = session.revealed[q.id] || session.submitted || mode === 'browse';
       const isCorrect = userAns === q.answer;
       const group = q.groupId ? groupsMap.get(q.groupId) : null;
-      const ex = q.explanation || {};
+      const ex = getCapExplanation(q);
       const primaryUnitId = (q.unitIds && q.unitIds[0]) || (ex.unitIds && ex.unitIds[0]);
       const primaryUnit = primaryUnitId ? unitById[primaryUnitId] : null;
 
@@ -531,46 +582,25 @@ export async function capExamPage(container, paperId) {
 
             <!-- 深度解說與課綱對應面板 (Revealed Explanation) -->
             ${isRevealed ? `
-              <div class="explanation ${isCorrect ? 'correct' : 'wrong'}" style="margin-top:24px;padding:20px;border-radius:12px;line-height:1.7;">
+              <div class="explanation ${q.kind === 'written' || !userAns ? '' : isCorrect ? 'correct' : 'wrong'}" style="margin-top:24px;padding:20px;border-radius:12px;line-height:1.7;white-space:normal;">
                 <div class="explanation-header" style="margin-bottom:12px;">
-                  <span class="result-icon">${isCorrect ? '✓ 答對了！' : '⚠️ 需要補強'}</span>
-                  <strong>${q.kind === 'written' ? '官方非選擇題參考解法與評分規準' : `官方標準答案：${q.answer}`}</strong>
+                  <span class="result-icon">${q.kind === 'written' ? '參考解法與自我檢核' : !userAns ? '答案與解析' : isCorrect ? '✓ 答對了！' : '⚠️ 需要補強'}</span>
+                  <strong>${q.kind === 'written' ? '非選擇題參考解法' : `官方標準答案：${q.answer}`}</strong>
                 </div>
 
                 <!-- 官方大數據考情分析 -->
-                ${q.analysis ? `
-                  <div class="callout" style="background:var(--surface);margin-bottom:16px;border-left:4px solid var(--brand);">
-                    <div style="font-weight:700;color:var(--brand);margin-bottom:6px;">📊 官方試題大數據分析：</div>
-                    <div class="row" style="gap:16px;flex-wrap:wrap;font-size:0.9rem;">
-                      <div>全體通過率：<strong>${(q.analysis.passRate * 100).toFixed(1)}%</strong></div>
-                      <div>鑑別度：<strong>${(q.analysis.discrimination || 0).toFixed(2)}</strong></div>
-                      ${q.analysis.passBySkill ? `
-                        <div>精熟級通過率：<strong>${((q.analysis.passBySkill['精熟'] || 0) * 100).toFixed(0)}%</strong></div>
-                        <div>待加強級：<strong>${((q.analysis.passBySkill['待加強'] || 0) * 100).toFixed(0)}%</strong></div>
-                      ` : ''}
-                    </div>
-                    ${q.analysis.optionPercent ? `
-                      <div style="margin-top:8px;font-size:0.85rem;">
-                        <strong>考生選項分佈：</strong>
-                        ${Object.entries(q.analysis.optionPercent).map(([L, pct]) => `
-                          <span style="display:inline-block;margin-right:12px;${L === q.answer ? 'color:#2e7d32;font-weight:700;' : ''}">
-                            (${L}) ${pct}%
-                          </span>
-                        `).join('')}
-                      </div>
-                    ` : ''}
-                  </div>
-                ` : ''}
+                ${renderCapAnalysis(q)}
 
+                <p class="muted">${esc(ex.label)}${ex.ready ? ' · 依原題推導並核對答案欄位，尚未經外部教師複核。' : ' · 逐步解析完成後會在此呈現。'}</p>
                 <!-- 解題關鍵 -->
                 <div style="margin-bottom:14px;">
-                  <h4 style="margin:0 0 4px;color:var(--brand);">🎯 核心破題關鍵 (Key Idea)：</h4>
+                  <h4 style="margin:0 0 4px;color:var(--brand);">🎯 解題重點</h4>
                   <p style="margin:0;font-size:0.95rem;">${esc(ex.keyIdea || '掌握核心觀念與條件關係')}</p>
                 </div>
 
                 <!-- 階梯解題思維步驟 -->
                 <div style="margin-bottom:14px;">
-                  <h4 style="margin:0 0 6px;color:var(--brand);">📐 階梯式解題思維鏈 (Steps)：</h4>
+                  <h4 style="margin:0 0 6px;color:var(--brand);">📐 解題步驟</h4>
                   <ol style="margin:0;padding-left:20px;">
                     ${(ex.steps || []).map(st => `<li style="margin-bottom:4px;">${esc(st)}</li>`).join('')}
                   </ol>
@@ -579,7 +609,7 @@ export async function capExamPage(container, paperId) {
                 <!-- 選項深度診斷 -->
                 ${ex.options && Object.keys(ex.options).length ? `
                   <div style="margin-bottom:14px;">
-                    <h4 style="margin:0 0 6px;color:var(--brand);">🔍 選項逐一深度辨析：</h4>
+                    <h4 style="margin:0 0 6px;color:var(--brand);">🔍 選項說明</h4>
                     <div style="display:flex;flex-direction:column;gap:6px;font-size:0.9rem;">
                       ${Object.entries(ex.options).map(([L, desc]) => `
                         <div style="padding:6px 10px;border-radius:6px;background:var(--surface);border:1px solid var(--border);">
@@ -593,11 +623,13 @@ export async function capExamPage(container, paperId) {
                 <!-- 避坑防呆陷阱 -->
                 ${ex.trap ? `
                   <div style="margin-bottom:16px;">
-                    <h4 style="margin:0 0 4px;color:#c94c34;">🛡️ 考場避坑防呆指南 (Pitfall Defense)：</h4>
+                    <h4 style="margin:0 0 4px;color:#c94c34;">🛡️ 易錯提醒</h4>
                     <p style="margin:0;font-size:0.9rem;color:var(--text);">${esc(ex.trap)}</p>
                   </div>
                 ` : ''}
 
+                ${relatedCapQuestions(q, bank.questions).length ? `<div><h4>相關題目</h4><ul>${relatedCapQuestions(q, bank.questions).map(other => `<li><a href="${esc(other.href)}">${esc(other.title)}</a> · ${esc(other.basis)}</li>`).join('')}</ul></div>` : ''}
+                ${q.kind === 'written' && ex.rubric?.length ? `<h4>${esc(ex.rubricLabel || '解題自我檢核')}</h4><ul>${ex.rubric.map(s => `<li>${esc(s)}</li>`).join('')}</ul>` : ''}
                 <!-- 應對 108 課綱教學頁面捷徑按鈕 (核心需求) -->
                 ${primaryUnit ? `
                   <div class="callout" style="background:var(--surface);border:2px solid var(--accent);margin-top:18px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;">
@@ -903,7 +935,7 @@ export async function capResultPage(container, paperId) {
             ${paperQuestions.map(q => {
               const uAns = session.answers[q.id];
               const isCorr = uAns === q.answer;
-              const ex = q.explanation || {};
+              const ex = getCapExplanation(q);
               const uId = q.unitIds?.[0] || ex.unitIds?.[0];
               const u = uId ? unitById[uId] : null;
 
@@ -925,7 +957,7 @@ export async function capResultPage(container, paperId) {
                       </div>
                     ` : ''}
                     <div style="background:var(--surface-alt);padding:12px;border-radius:8px;margin-bottom:12px;">
-                      <strong>🎯 核心破題關鍵：</strong> ${esc(ex.keyIdea || '掌握核心條件')}<br>
+              <strong>${esc(ex.label)}：</strong> ${esc(ex.keyIdea || '掌握核心條件')}<br>
                       ${(ex.steps || []).map(st => `<div style="font-size:0.9rem;margin-top:4px;">• ${esc(st)}</div>`).join('')}
                     </div>
                     ${u ? `
@@ -966,7 +998,7 @@ export async function renderLessonCapSection(unitId, container) {
       <div class="cap-unit-questions-stack" style="display:flex;flex-direction:column;gap:18px;">
         ${matchingQs.slice(0, 5).map((q, idx) => {
           const cfg = SUBJECT_CONFIG[q.subject] || { short: q.subject };
-          const ex = q.explanation || {};
+          const ex = getCapExplanation(q);
           return `
             <div class="panel cap-unit-q-card" style="border-left:4px solid var(--brand);background:var(--surface);padding:18px;">
               <div class="row" style="justify-content:space-between;margin-bottom:10px;">
@@ -995,8 +1027,8 @@ export async function renderLessonCapSection(unitId, container) {
               <!-- 反饋與詳解面板 -->
               <div id="inline-fb-${q.id}" style="display:none;margin-top:12px;padding:12px;border-radius:8px;background:var(--surface-alt);line-height:1.6;font-size:0.9rem;">
                 <div id="inline-result-${q.id}" style="font-weight:700;margin-bottom:6px;"></div>
-                <div><strong>🎯 解題關鍵：</strong>${esc(ex.keyIdea || '')}</div>
-                <div><strong>📐 推理思維：</strong>${(ex.steps || []).join(' ')}</div>
+                <div><strong>${esc(ex.label)}：</strong>${esc(ex.keyIdea || '')}</div>
+                <div><strong>📐 推理步驟：</strong>${esc((ex.steps || []).join(' '))}</div>
                 ${ex.trap ? `<div style="margin-top:4px;color:#c94c34;"><strong>🛡️ 避坑：</strong>${esc(ex.trap)}</div>` : ''}
                 <div style="margin-top:8px;">
                   <a class="button small" href="#/cap-exam/${q.year}-${q.subject}?mode=practice&q=${q.number}">前往該年度考卷精解 →</a>

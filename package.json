@@ -5,13 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/serve.mjs",
-    "test": "node --test scripts/explicit-knowledge.test.mjs scripts/periodic-exams.test.mjs scripts/knowledge-practice.test.mjs scripts/offline-update.test.mjs scripts/deepening.test.mjs scripts/learning-guide.test.mjs scripts/engine.test.mjs scripts/gsat-grading.test.mjs scripts/gsat-session.test.mjs scripts/quick-quiz.test.mjs scripts/pedagogy-ux.test.mjs scripts/cap-interactive.test.mjs scripts/cap-scoring.test.mjs scripts/cap-notebook.test.mjs scripts/test_cap_gamification.mjs && node scripts/test_all_pages.mjs && node scripts/audit-system-health.mjs && node scripts/test_quest_game.mjs && node scripts/qa_quest_game.mjs",
+    "test": "node --test scripts/explicit-knowledge.test.mjs scripts/periodic-exams.test.mjs scripts/knowledge-practice.test.mjs scripts/offline-update.test.mjs scripts/deepening.test.mjs scripts/learning-guide.test.mjs scripts/engine.test.mjs scripts/gsat-grading.test.mjs scripts/gsat-session.test.mjs scripts/quick-quiz.test.mjs scripts/pedagogy-ux.test.mjs scripts/cap-interactive.test.mjs scripts/cap-scoring.test.mjs scripts/cap-notebook.test.mjs scripts/cap-ai-explanations.test.mjs scripts/test_cap_gamification.mjs scripts/quest-learning.test.mjs && node scripts/test_all_pages.mjs && node scripts/audit-system-health.mjs && node scripts/test_quest_game.mjs && node scripts/qa_quest_game.mjs",
     "test:pages": "node scripts/test_all_pages.mjs",
     "test:quest": "node scripts/test_quest_game.mjs && node scripts/qa_quest_game.mjs && node --test scripts/test_cap_gamification.mjs",
     "build:quest": "node scripts/build_quest_course.mjs",
     "audit": "node scripts/audit-system-health.mjs",
     "validate": "node scripts/validate.mjs",
-    "build": "node scripts/validate.mjs && node scripts/check-expansion.mjs && node --test scripts/explicit-knowledge.test.mjs scripts/pedagogy-ux.test.mjs scripts/periodic-exams.test.mjs scripts/test_cap_gamification.mjs && node scripts/test_all_pages.mjs && node scripts/audit-system-health.mjs && node scripts/test_quest_game.mjs && node scripts/qa_quest_game.mjs",
-    "validate:expansion": "node scripts/check-expansion.mjs"
+    "build": "node scripts/validate.mjs && node scripts/check-expansion.mjs && node --test scripts/explicit-knowledge.test.mjs scripts/pedagogy-ux.test.mjs scripts/periodic-exams.test.mjs scripts/cap-ai-explanations.test.mjs scripts/test_cap_gamification.mjs scripts/quest-learning.test.mjs && node scripts/test_all_pages.mjs && node scripts/audit-system-health.mjs && node scripts/test_quest_game.mjs && node scripts/qa_quest_game.mjs",
+    "validate:expansion": "node scripts/check-expansion.mjs",
+    "build:cap-ai": "node scripts/import-cap-ai-derivations.mjs && node scripts/build_quest_course.mjs",
+    "test:cap-ai": "node --test scripts/cap-ai-explanations.test.mjs"
   }
 }

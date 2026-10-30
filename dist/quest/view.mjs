@@ -4,11 +4,11 @@
 // weekly league leaderboard, unit treasure chests, and multi-modal practice.
 
 import { createCourse, createGame, isScored, shuffle, XP, HEARTS, BADGES, LEAGUES } from './engine.mjs?v=20261027v2';
-import * as sound from './sound.mjs?v=20261027v2';
-import { answerText, correctionTip } from './coach.mjs?v=20261027v2';
+import * as sound from './sound.mjs?v=20261029v1';
+import { answerText, correctionTip, questionText, repairSteps } from './coach.mjs?v=20261029v1';
 import { courseAtlas, nextAdventure } from './atlas.mjs?v=20261027v2';
 
-const V = '20261027v2';
+const V = '20261029v1';
 const root = document.querySelector('#game');
 let storage;
 try { storage = globalThis.localStorage; } catch {}
@@ -418,7 +418,7 @@ function unitBlock(t, u, index, currentId) {
     const icon = status === 'crowned' ? '👑' : status === 'done' ? '✓' : n.icon;
 
     return `
-      <div class="node-row" style="--x:${off}">
+      <div class="node-row${ui.pop === n.id ? ' pop-open' : ''}" style="--x:${off}">
         ${isCur ? '<div class="current-tag">開始！</div>' : ''}
         <button class="node ${n.kind} ${status} ${isCur ? 'current' : ''}" data-act="pop" data-id="${n.id}" aria-label="${esc(n.title)}">
           <span>${icon}</span>
@@ -485,7 +485,8 @@ function leaderboardPage() {
         <span>${l.icon}</span>
         <b>${l.tierName}</b>
       </div>
-      <h1 style="font-size:1.6rem;font-weight:800;margin:0.25rem 0;">每週聯賽排行榜</h1>
+      <h1 style="font-size:1.6rem;font-weight:800;margin:0.25rem 0;">每週練習聯賽</h1>
+      <p class="small muted">這是本機模擬排行榜，其他角色是練習夥伴，並非真人即時排名。以自己的理解進步為目標。</p>
       <p class="league-countdown">⏳ 本週聯賽剩餘 ${l.daysLeft} 天 · 前 7 名升級至更高階聯賽</p>
     </section>
 
@@ -574,10 +575,19 @@ function lessonView() {
       </header>
 
       <main class="lesson-body">
+        <div class="learning-toolbar" aria-label="朗讀與學習支援">
+          <span class="learning-stage">${it.type === 'info' ? '🌱 先理解' : s.feedback ? '🌿 看懂理由' : '🎯 試著回想'} · ${s.index + 1} / ${s.queue.length}</span>
+          <button class="btn ghost small" data-act="read-question">🔊 ${it.type === 'info' ? '朗讀觀念' : '題目與選項'}</button>
+          <button class="btn ghost small" data-act="speech-rate" aria-label="切換朗讀速度，目前 ${sound.getSpeechRate()} 倍">語速 ${sound.getSpeechRate()}×</button>
+          <button class="btn ghost small" data-act="speech-stop">停止朗讀</button>
+        </div>
         ${itemView(it, s)}
+        ${ui.a.hint && !s.feedback ? `<aside class="card lesson-hint" role="status"><b>💡 解題提示</b><p>${esc(it.hint || '仔細觀察題幹關鍵條件與判準。')}</p></aside>` : ''}
+        ${s.feedback ? lessonFeedback(it, s.feedback) : ''}
       </main>
 
       ${lessonFooter(it, s)}
+      <div id="toasts" aria-live="polite" role="status"></div>
     </div>
   `;
 }
@@ -603,6 +613,8 @@ function itemView(it, s) {
       <span>${esc(it.prompt)}</span>
       <button class="btn ghost small" data-act="say" data-text="${esc(it.prompt)}" title="朗讀題目">🔊</button>
     </h1>
+    ${it.audio ? `<div><audio controls preload="none" src="../${esc(it.audio)}">您的瀏覽器不支援音訊播放。</audio></div>` : ''}
+    ${it.sourcePaper ? `<p><a href="../${esc(it.sourcePaper)}" target="_blank" rel="noopener">開啟官方原始題本${it.subject === 'listening' ? '（ZIP）' : '（PDF）'}</a></p>` : ''}
     ${it.readingGroupText ? `
       <div class="reading-group-box" style="margin: 0.75rem 0; padding: 1rem 1.25rem; background: var(--bg-soft, #f8fafc); border-left: 4px solid var(--primary, #6366f1); border-radius: 8px; line-height: 1.7; font-size: 0.95rem;">
         <div style="font-weight: 700; color: var(--primary, #6366f1); margin-bottom: 0.35rem;">📖 題組閱讀材料：</div>
@@ -611,7 +623,7 @@ function itemView(it, s) {
     ` : ''}
     ${it.crops && it.crops.length > 0 ? `
       <div class="crops-wrap" style="text-align: center; margin: 0.75rem 0;">
-        ${it.crops.map(c => `<img src="../${c.src}" alt="題目圖表" style="max-width: 100%; max-height: 380px; object-fit: contain; border-radius: 8px; border: 1px solid var(--border, #e2e8f0); box-shadow: 0 4px 12px rgba(0,0,0,0.06); background: #ffffff;" loading="lazy">`).join('')}
+        ${it.crops.map(c => `<img src="../${esc(c.src)}" alt="會考原始題目或題組材料" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--border, #e2e8f0); background: #ffffff;" loading="lazy">`).join('')}
       </div>
     ` : ''}
   `;
@@ -634,26 +646,32 @@ function itemView(it, s) {
   } else if (it.type === 'build') {
     body = `
       <div class="answer-line">
-        ${a.tokens.length ? a.tokens.map((tok, i) => `<button class="tok" data-act="untok" data-i="${i}">${esc(tok)}</button>`).join('') : '<span class="muted small">點擊下方步驟排出思維推演順序：</span>'}
+        ${a.tokens.length ? a.tokens.map((tok, i) => `<button class="tok" data-act="untok" data-i="${i}" ${locked ? 'disabled' : ''}>${esc(tok)}</button>`).join('') : '<span class="muted small">點擊下方步驟排出思維推演順序：</span>'}
       </div>
       <div class="bank">
         ${(it.words || []).map((w, idx) => `
-          <button class="tok ${a.tokens.includes(w) ? 'used' : ''}" data-act="tok" data-w="${esc(w)}">${esc(w)}</button>
+          <button class="tok ${a.tokens.includes(w) ? 'used' : ''}" data-act="tok" data-w="${esc(w)}" ${locked || a.tokens.includes(w) ? 'disabled' : ''}>${esc(w)}</button>
         `).join('')}
       </div>
     `;
   } else if (it.type === 'match') {
     const pairs = it.pairs || [];
+    if (a.matchId !== it.id) {
+      a.matchId = it.id;
+      a.matchOrder = shuffle(pairs.map((_, i) => i), it.id);
+      if (a.matchOrder.length > 1 && a.matchOrder.every((v, i) => v === i)) a.matchOrder.push(a.matchOrder.shift());
+    }
     body = `
+      ${a.matchError ? `<aside class="repair-coach" role="status">${esc(a.matchError)}</aside>` : ''}
       <div class="match">
         <div>
           ${pairs.map(([l], i) => `
-            <button class="mcell ${a.done.includes(i) ? 'done' : ''} ${a.left === i ? 'sel' : ''}" data-act="mL" data-i="${i}">${esc(l)}</button>
+            <button class="mcell ${a.done.includes(i) ? 'done' : ''} ${a.left === i ? 'sel' : ''}" data-act="mL" data-i="${i}" ${locked || a.done.includes(i) ? 'disabled' : ''}>${esc(l)}</button>
           `).join('')}
         </div>
         <div>
-          ${pairs.map(([, r], i) => `
-            <button class="mcell ${a.done.includes(i) ? 'done' : ''}" data-act="mR" data-i="${i}">${esc(r)}</button>
+          ${a.matchOrder.map(i => `
+            <button class="mcell ${a.done.includes(i) ? 'done' : ''}" data-act="mR" data-i="${i}" ${locked || a.done.includes(i) ? 'disabled' : ''}>${esc(pairs[i][1])}</button>
           `).join('')}
         </div>
       </div>
@@ -670,6 +688,21 @@ function itemView(it, s) {
   return `${head}${body}`;
 }
 
+function lessonFeedback(it, f) {
+  const praise = PRAISE[Math.floor(Math.random() * PRAISE.length)];
+  return `<section class="card lesson-feedback verdict ${f.ok ? 'ok' : 'bad'}" aria-live="polite">
+    <h2>${f.ok ? `✔ ${praise}` : '✘ 需要再釐清觀念'}</h2>
+    <p>正解：<b>${esc(answerText(it))}</b></p>
+    <div class="learning-toolbar">
+      <button class="btn ghost small" data-act="read-answer">🔊 朗讀答案</button>
+      <button class="btn ghost small" data-act="read-explanation">🔊 朗讀解說</button>
+    </div>
+    ${!f.ok ? `<div class="repair-coach"><h3>🧭 一起找出關鍵</h3><ol>${repairSteps(it, f.value).map(step => `<li>${esc(step)}</li>`).join('')}</ol></div>` : ''}
+    ${it.why ? `<p class="why" style="white-space:pre-line">${esc(it.why)}</p>` : ''}
+    ${it.relatedQuestions?.length ? `<p>相關題目</p><ul>${it.relatedQuestions.map(q => `<li><a href="../${esc(q.href)}" target="_blank" rel="noopener">${esc(q.title)}</a> · ${esc(q.basis)}</li>`).join('')}</ul>` : ''}
+  </section>`;
+}
+
 function lessonFooter(it, s) {
   const f = s.feedback;
   if (!isScored(it)) {
@@ -684,15 +717,9 @@ function lessonFooter(it, s) {
   }
 
   if (f) {
-    const praise = PRAISE[Math.floor(Math.random() * PRAISE.length)];
     return `
       <footer class="check ${f.ok ? 'ok' : 'bad'}">
         <div class="check-in">
-          <div class="verdict ${f.ok ? 'ok' : 'bad'}">
-            <h2>${f.ok ? `✔ ${praise}` : '✘ 需要再釐清觀念'}</h2>
-            ${!f.ok ? `<p>正解：<b>${esc(answerText(it))}</b></p>` : ''}
-            ${it.why ? `<p class="why">${esc(it.why)}</p>` : ''}
-          </div>
           <button class="btn primary big" data-act="next">繼續 (Enter)</button>
         </div>
       </footer>
@@ -824,11 +851,16 @@ function resultView() {
 // -------------------------------------------------------------
 // Core Render & Event Dispatcher
 // -------------------------------------------------------------
+let renderedItem = null;
 function render() {
   if (!game) return;
+  const itemId = game.currentItem()?.id || null;
+  if (renderedItem !== itemId) sound.stopSpeaking();
+  renderedItem = itemId;
   const s = game.state.session;
   if (s) {
     root.innerHTML = lessonView();
+    if (s.feedback || ui.a.hint) document.querySelector(s.feedback ? '.lesson-feedback' : '.lesson-hint')?.scrollIntoView({block:'start'});
     return;
   }
 
@@ -936,6 +968,10 @@ window.addEventListener('hashchange', () => {
 
 // Keyboard shortcuts for seamless learning
 window.addEventListener('keydown', e => {
+  if (e.isComposing || e.ctrlKey || e.metaKey || e.altKey) return;
+  if (e.target.closest?.('input, textarea, select, [contenteditable="true"]') && e.key !== 'Enter' && e.key !== 'Escape') return;
+  // Let focused buttons keep their native Enter/Space activation (e.g. read aloud).
+  if (e.target.closest?.('button, a') && (e.key === 'Enter' || e.key === ' ')) return;
   const s = game?.state?.session;
   if (!s) return;
 
@@ -979,8 +1015,8 @@ window.addEventListener('keydown', e => {
 
   if ((e.key === 'h' || e.key === 'H') && !s.feedback) {
     ui.a.hint = true;
-    sound.speak(it.prompt);
-    toast('💡 仔細觀察題幹關鍵條件與判準。');
+    sound.speak(it.hint || it.prompt);
+    render();
     return;
   }
 
@@ -1089,7 +1125,7 @@ document.addEventListener('click', async e => {
     const mode = actBtn.dataset.mode;
     const id = actBtn.dataset.id;
     ui.pop = null;
-    await ensure([ui.track, 'items', mode === 'story' ? 'stories' : null].filter(Boolean));
+    if (!await ensure([ui.track, 'items', mode === 'story' ? 'stories' : null].filter(Boolean))) return;
     const ok = game.startSession(mode, id);
     if (ok) {
       ui.a = freshAnswer();
@@ -1112,11 +1148,14 @@ document.addEventListener('click', async e => {
     const rIdx = Number(actBtn.dataset.i);
     if (ui.a.left !== null) {
       if (ui.a.left === rIdx) {
+        ui.a.matchError = '';
         ui.a.done.push(rIdx);
         ui.a.left = null;
         sound.playTone('correct');
       } else {
         ui.a.wrong++;
+        const pairs = game.currentItem().pairs;
+        ui.a.matchError = `再比較一下：「${pairs[ui.a.left][0]}」對應「${pairs[ui.a.left][1]}」。你剛選的特徵屬於「${pairs[rIdx][0]}」。`;
         sound.playTone('wrong');
       }
       render();
@@ -1132,6 +1171,7 @@ document.addEventListener('click', async e => {
     else sound.playTone('wrong');
     render();
   } else if (act === 'next') {
+    sound.stopSpeaking();
     const res = game.nextStep();
     ui.a = freshAnswer();
     if (res?.done || game.result) {
@@ -1142,15 +1182,29 @@ document.addEventListener('click', async e => {
     game.clearResult();
     render();
   } else if (act === 'exit') {
+    sound.stopSpeaking();
     game.clearSession();
     render();
   } else if (act === 'say') {
-    sound.speak(actBtn.dataset.text);
+    sound.speak(actBtn.dataset.text, { onError: toast });
+  } else if (act === 'speech-stop') {
+    sound.stopSpeaking();
+  } else if (act === 'speech-rate') {
+    const rates = [0.75, 1, 1.25];
+    sound.setSpeechRate(rates[(rates.indexOf(sound.getSpeechRate()) + 1) % rates.length]);
+    render();
+  } else if (act === 'read-question') {
+    sound.speak(questionText(game.currentItem()), { onError: toast });
+  } else if (act === 'read-answer' || act === 'read-explanation') {
+    const it = game.currentItem();
+    if (it && game.state.session?.feedback) {
+      sound.speak(act === 'read-answer' ? answerText(it) : (it.why || correctionTip(it)), { onError: toast });
+    }
   } else if (act === 'hint') {
     ui.a.hint = true;
     const it = game.currentItem();
-    if (it) sound.speak(it.prompt);
-    toast('💡 提示：仔細核對題幹與關鍵判準。');
+    if (it) sound.speak(it.hint || it.prompt);
+    render();
   }
 });
 

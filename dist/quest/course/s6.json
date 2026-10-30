@@ -106,7 +106,9 @@
         "math-18:reasoning": [
           "build.math-18.case",
           "cq.math-18-q2",
-          "q.math-18.case.check"
+          "q.math-18.case.check",
+          "enrich.math-18.0",
+          "enrich.math-18.1"
         ],
         "math-18:mastery": [
           "info.math-18.kp3",
@@ -123,6 +125,8 @@
           "build.math-18.case",
           "cq.math-18-q2",
           "q.math-18.case.check",
+          "enrich.math-18.0",
+          "enrich.math-18.1",
           "q.math-18.pitfall",
           "cap.109-math-17",
           "cap.111-math-22"
@@ -233,7 +237,9 @@
         "math-19:reasoning": [
           "build.math-19.case",
           "cq.math-19-q2",
-          "q.math-19.case.check"
+          "q.math-19.case.check",
+          "enrich.math-19.0",
+          "enrich.math-19.1"
         ],
         "math-19:mastery": [
           "info.math-19.kp3",
@@ -250,6 +256,8 @@
           "build.math-19.case",
           "cq.math-19-q2",
           "q.math-19.case.check",
+          "enrich.math-19.0",
+          "enrich.math-19.1",
           "q.math-19.pitfall",
           "cap.109-math-13",
           "cap.110-math-9"
@@ -360,7 +368,9 @@
         "chinese-6:reasoning": [
           "build.chinese-6.case",
           "cq.chinese-6-q2",
-          "q.chinese-6.case.check"
+          "q.chinese-6.case.check",
+          "enrich.chinese-6.0",
+          "enrich.chinese-6.1"
         ],
         "chinese-6:mastery": [
           "info.chinese-6.kp3",
@@ -377,6 +387,8 @@
           "build.chinese-6.case",
           "cq.chinese-6-q2",
           "q.chinese-6.case.check",
+          "enrich.chinese-6.0",
+          "enrich.chinese-6.1",
           "q.chinese-6.pitfall",
           "cap.109-chinese-6",
           "cap.109-chinese-21"
@@ -487,7 +499,9 @@
         "english-6:reasoning": [
           "build.english-6.case",
           "cq.english-6-q2",
-          "q.english-6.case.check"
+          "q.english-6.case.check",
+          "enrich.english-6.0",
+          "enrich.english-6.1"
         ],
         "english-6:mastery": [
           "info.english-6.kp3",
@@ -504,6 +518,8 @@
           "build.english-6.case",
           "cq.english-6-q2",
           "q.english-6.case.check",
+          "enrich.english-6.0",
+          "enrich.english-6.1",
           "q.english-6.pitfall",
           "cap.111-english-1",
           "cap.111-english-23"
@@ -609,7 +625,9 @@
         "chinese-12:reasoning": [
           "build.chinese-12.case",
           "cq.chinese-12-q2",
-          "q.chinese-12.case.check"
+          "q.chinese-12.case.check",
+          "enrich.chinese-12.0",
+          "enrich.chinese-12.1"
         ],
         "chinese-12:mastery": [
           "info.chinese-12.kp3",
@@ -624,6 +642,8 @@
           "build.chinese-12.case",
           "cq.chinese-12-q2",
           "q.chinese-12.case.check",
+          "enrich.chinese-12.0",
+          "enrich.chinese-12.1",
           "q.chinese-12.pitfall"
         ]
       }
@@ -727,7 +747,9 @@
         "english-12:reasoning": [
           "build.english-12.case",
           "cq.english-12-q2",
-          "q.english-12.case.check"
+          "q.english-12.case.check",
+          "enrich.english-12.0",
+          "enrich.english-12.1"
         ],
         "english-12:mastery": [
           "info.english-12.kp3",
@@ -744,6 +766,8 @@
           "build.english-12.case",
           "cq.english-12-q2",
           "q.english-12.case.check",
+          "enrich.english-12.0",
+          "enrich.english-12.1",
           "q.english-12.pitfall",
           "cap.109-english-18",
           "cap.109-english-21"
@@ -854,7 +878,9 @@
         "math-26:reasoning": [
           "build.math-26.case",
           "cq.math-26-q2",
-          "q.math-26.case.check"
+          "q.math-26.case.check",
+          "enrich.math-26.0",
+          "enrich.math-26.1"
         ],
         "math-26:mastery": [
           "info.math-26.kp3",
@@ -871,6 +897,8 @@
           "build.math-26.case",
           "cq.math-26-q2",
           "q.math-26.case.check",
+          "enrich.math-26.0",
+          "enrich.math-26.1",
           "q.math-26.pitfall",
           "cap.111-math-4",
           "cap.111-math-13"
@@ -981,7 +1009,9 @@
         "math-27:reasoning": [
           "build.math-27.case",
           "cq.math-27-q2",
-          "q.math-27.case.check"
+          "q.math-27.case.check",
+          "enrich.math-27.0",
+          "enrich.math-27.1"
         ],
         "math-27:mastery": [
           "info.math-27.kp3",
@@ -998,6 +1028,8 @@
           "build.math-27.case",
           "cq.math-27-q2",
           "q.math-27.case.check",
+          "enrich.math-27.0",
+          "enrich.math-27.1",
           "q.math-27.pitfall",
           "cap.109-math-3",
           "cap.110-math-11"
@@ -1108,7 +1140,9 @@
         "chinese-16:reasoning": [
           "build.chinese-16.case",
           "cq.chinese-16-q2",
-          "q.chinese-16.case.check"
+          "q.chinese-16.case.check",
+          "enrich.chinese-16.0",
+          "enrich.chinese-16.1"
         ],
         "chinese-16:mastery": [
           "info.chinese-16.kp3",
@@ -1123,6 +1157,8 @@
           "build.chinese-16.case",
           "cq.chinese-16-q2",
           "q.chinese-16.case.check",
+          "enrich.chinese-16.0",
+          "enrich.chinese-16.1",
           "q.chinese-16.pitfall"
         ]
       }
@@ -1231,7 +1267,9 @@
         "english-16:reasoning": [
           "build.english-16.case",
           "cq.english-16-q2",
-          "q.english-16.case.check"
+          "q.english-16.case.check",
+          "enrich.english-16.0",
+          "enrich.english-16.1"
         ],
         "english-16:mastery": [
           "info.english-16.kp3",
@@ -1248,6 +1286,8 @@
           "build.english-16.case",
           "cq.english-16-q2",
           "q.english-16.case.check",
+          "enrich.english-16.0",
+          "enrich.english-16.1",
           "q.english-16.pitfall",
           "cap.111-english-1",
           "cap.111-english-23"
@@ -1368,12 +1408,15 @@
         "physics-7:reasoning": [
           "build.physics-7.case",
           "cq.physics-7-q2",
-          "q.physics-7.case.check"
+          "q.physics-7.case.check",
+          "enrich.physics-7.0",
+          "enrich.physics-7.1"
         ],
         "physics-7:mastery": [
           "info.physics-7.kp3",
           "q.physics-7.pitfall",
-          "cap.111-science-30"
+          "cap.111-science-30",
+          "cap.111-science-47"
         ],
         "physics-7:boss": [
           "q.physics-7.kp1.def",
@@ -1384,8 +1427,11 @@
           "build.physics-7.case",
           "cq.physics-7-q2",
           "q.physics-7.case.check",
+          "enrich.physics-7.0",
+          "enrich.physics-7.1",
           "q.physics-7.pitfall",
-          "cap.111-science-30"
+          "cap.111-science-30",
+          "cap.111-science-47"
         ]
       }
     },
@@ -1493,7 +1539,9 @@
         "chemistry-6:reasoning": [
           "build.chemistry-6.case",
           "cq.chemistry-6-q2",
-          "q.chemistry-6.case.check"
+          "q.chemistry-6.case.check",
+          "enrich.chemistry-6.0",
+          "enrich.chemistry-6.1"
         ],
         "chemistry-6:mastery": [
           "info.chemistry-6.kp3",
@@ -1510,6 +1558,8 @@
           "build.chemistry-6.case",
           "cq.chemistry-6-q2",
           "q.chemistry-6.case.check",
+          "enrich.chemistry-6.0",
+          "enrich.chemistry-6.1",
           "q.chemistry-6.pitfall",
           "cap.109-science-6",
           "cap.112-science-26"
@@ -1620,7 +1670,9 @@
         "earth-4:reasoning": [
           "build.earth-4.case",
           "cq.earth-4-q2",
-          "q.earth-4.case.check"
+          "q.earth-4.case.check",
+          "enrich.earth-4.0",
+          "enrich.earth-4.1"
         ],
         "earth-4:mastery": [
           "info.earth-4.kp3",
@@ -1637,6 +1689,8 @@
           "build.earth-4.case",
           "cq.earth-4-q2",
           "q.earth-4.case.check",
+          "enrich.earth-4.0",
+          "enrich.earth-4.1",
           "q.earth-4.pitfall",
           "cap.109-science-35",
           "cap.110-science-3"
@@ -1747,7 +1801,9 @@
         "earth-5:reasoning": [
           "build.earth-5.case",
           "cq.earth-5-q2",
-          "q.earth-5.case.check"
+          "q.earth-5.case.check",
+          "enrich.earth-5.0",
+          "enrich.earth-5.1"
         ],
         "earth-5:mastery": [
           "info.earth-5.kp3",
@@ -1764,6 +1820,8 @@
           "build.earth-5.case",
           "cq.earth-5-q2",
           "q.earth-5.case.check",
+          "enrich.earth-5.0",
+          "enrich.earth-5.1",
           "q.earth-5.pitfall",
           "cap.113-science-24",
           "cap.114-science-37"
@@ -1869,11 +1927,14 @@
         "earth-6:reasoning": [
           "build.earth-6.case",
           "cq.earth-6-q2",
-          "q.earth-6.case.check"
+          "q.earth-6.case.check",
+          "enrich.earth-6.0",
+          "enrich.earth-6.1"
         ],
         "earth-6:mastery": [
           "info.earth-6.kp3",
           "q.earth-6.pitfall",
+          "cap.109-science-21",
           "cap.111-science-24"
         ],
         "earth-6:boss": [
@@ -1885,7 +1946,10 @@
           "build.earth-6.case",
           "cq.earth-6-q2",
           "q.earth-6.case.check",
+          "enrich.earth-6.0",
+          "enrich.earth-6.1",
           "q.earth-6.pitfall",
+          "cap.109-science-21",
           "cap.111-science-24"
         ]
       }
@@ -1994,7 +2058,9 @@
         "physics-11:reasoning": [
           "build.physics-11.case",
           "cq.physics-11-q2",
-          "q.physics-11.case.check"
+          "q.physics-11.case.check",
+          "enrich.physics-11.0",
+          "enrich.physics-11.1"
         ],
         "physics-11:mastery": [
           "info.physics-11.kp3",
@@ -2010,6 +2076,8 @@
           "build.physics-11.case",
           "cq.physics-11-q2",
           "q.physics-11.case.check",
+          "enrich.physics-11.0",
+          "enrich.physics-11.1",
           "q.physics-11.pitfall",
           "cap.111-science-12"
         ]
@@ -2114,12 +2182,15 @@
         "physics-12:reasoning": [
           "build.physics-12.case",
           "cq.physics-12-q2",
-          "q.physics-12.case.check"
+          "q.physics-12.case.check",
+          "enrich.physics-12.0",
+          "enrich.physics-12.1"
         ],
         "physics-12:mastery": [
           "info.physics-12.kp3",
           "q.physics-12.pitfall",
-          "cap.111-science-16"
+          "cap.111-science-16",
+          "cap.113-science-13"
         ],
         "physics-12:boss": [
           "q.physics-12.kp1.def",
@@ -2130,8 +2201,11 @@
           "build.physics-12.case",
           "cq.physics-12-q2",
           "q.physics-12.case.check",
+          "enrich.physics-12.0",
+          "enrich.physics-12.1",
           "q.physics-12.pitfall",
-          "cap.111-science-16"
+          "cap.111-science-16",
+          "cap.113-science-13"
         ]
       }
     },
@@ -2234,7 +2308,9 @@
         "physics-13:reasoning": [
           "build.physics-13.case",
           "cq.physics-13-q2",
-          "q.physics-13.case.check"
+          "q.physics-13.case.check",
+          "enrich.physics-13.0",
+          "enrich.physics-13.1"
         ],
         "physics-13:mastery": [
           "info.physics-13.kp3",
@@ -2251,6 +2327,8 @@
           "build.physics-13.case",
           "cq.physics-13-q2",
           "q.physics-13.case.check",
+          "enrich.physics-13.0",
+          "enrich.physics-13.1",
           "q.physics-13.pitfall",
           "cap.109-science-40",
           "cap.111-science-16"
@@ -2361,7 +2439,9 @@
         "chemistry-11:reasoning": [
           "build.chemistry-11.case",
           "cq.chemistry-11-q2",
-          "q.chemistry-11.case.check"
+          "q.chemistry-11.case.check",
+          "enrich.chemistry-11.0",
+          "enrich.chemistry-11.1"
         ],
         "chemistry-11:mastery": [
           "info.chemistry-11.kp3",
@@ -2378,6 +2458,8 @@
           "build.chemistry-11.case",
           "cq.chemistry-11-q2",
           "q.chemistry-11.case.check",
+          "enrich.chemistry-11.0",
+          "enrich.chemistry-11.1",
           "q.chemistry-11.pitfall",
           "cap.112-science-17",
           "cap.113-science-19"
@@ -2483,7 +2565,9 @@
         "chemistry-12:reasoning": [
           "build.chemistry-12.case",
           "cq.chemistry-12-q2",
-          "q.chemistry-12.case.check"
+          "q.chemistry-12.case.check",
+          "enrich.chemistry-12.0",
+          "enrich.chemistry-12.1"
         ],
         "chemistry-12:mastery": [
           "info.chemistry-12.kp3",
@@ -2498,6 +2582,8 @@
           "build.chemistry-12.case",
           "cq.chemistry-12-q2",
           "q.chemistry-12.case.check",
+          "enrich.chemistry-12.0",
+          "enrich.chemistry-12.1",
           "q.chemistry-12.pitfall"
         ]
       }
@@ -2606,7 +2692,9 @@
         "earth-10:reasoning": [
           "build.earth-10.case",
           "cq.earth-10-q2",
-          "q.earth-10.case.check"
+          "q.earth-10.case.check",
+          "enrich.earth-10.0",
+          "enrich.earth-10.1"
         ],
         "earth-10:mastery": [
           "info.earth-10.kp3",
@@ -2623,6 +2711,8 @@
           "build.earth-10.case",
           "cq.earth-10-q2",
           "q.earth-10.case.check",
+          "enrich.earth-10.0",
+          "enrich.earth-10.1",
           "q.earth-10.pitfall",
           "cap.111-science-37",
           "cap.111-science-49"
@@ -2733,7 +2823,9 @@
         "earth-12:reasoning": [
           "build.earth-12.case",
           "cq.earth-12-q2",
-          "q.earth-12.case.check"
+          "q.earth-12.case.check",
+          "enrich.earth-12.0",
+          "enrich.earth-12.1"
         ],
         "earth-12:mastery": [
           "info.earth-12.kp3",
@@ -2750,6 +2842,8 @@
           "build.earth-12.case",
           "cq.earth-12-q2",
           "q.earth-12.case.check",
+          "enrich.earth-12.0",
+          "enrich.earth-12.1",
           "q.earth-12.pitfall",
           "cap.109-science-20",
           "cap.109-science-22"
@@ -2870,7 +2964,9 @@
         "history-8:reasoning": [
           "build.history-8.case",
           "cq.history-8-q2",
-          "q.history-8.case.check"
+          "q.history-8.case.check",
+          "enrich.history-8.0",
+          "enrich.history-8.1"
         ],
         "history-8:mastery": [
           "info.history-8.kp3",
@@ -2887,6 +2983,8 @@
           "build.history-8.case",
           "cq.history-8-q2",
           "q.history-8.case.check",
+          "enrich.history-8.0",
+          "enrich.history-8.1",
           "q.history-8.pitfall",
           "cap.111-social-22",
           "cap.111-social-41"
@@ -2997,7 +3095,9 @@
         "geography-7:reasoning": [
           "build.geography-7.case",
           "cq.geography-7-q2",
-          "q.geography-7.case.check"
+          "q.geography-7.case.check",
+          "enrich.geography-7.0",
+          "enrich.geography-7.1"
         ],
         "geography-7:mastery": [
           "info.geography-7.kp3",
@@ -3014,6 +3114,8 @@
           "build.geography-7.case",
           "cq.geography-7-q2",
           "q.geography-7.case.check",
+          "enrich.geography-7.0",
+          "enrich.geography-7.1",
           "q.geography-7.pitfall",
           "cap.109-social-31",
           "cap.109-social-44"
@@ -3124,7 +3226,9 @@
         "civics-6:reasoning": [
           "build.civics-6.case",
           "cq.civics-6-q2",
-          "q.civics-6.case.check"
+          "q.civics-6.case.check",
+          "enrich.civics-6.0",
+          "enrich.civics-6.1"
         ],
         "civics-6:mastery": [
           "info.civics-6.kp3",
@@ -3141,6 +3245,8 @@
           "build.civics-6.case",
           "cq.civics-6-q2",
           "q.civics-6.case.check",
+          "enrich.civics-6.0",
+          "enrich.civics-6.1",
           "q.civics-6.pitfall",
           "cap.109-social-15",
           "cap.109-social-39"
@@ -3256,7 +3362,9 @@
         "history-15:reasoning": [
           "build.history-15.case",
           "cq.history-15-q2",
-          "q.history-15.case.check"
+          "q.history-15.case.check",
+          "enrich.history-15.0",
+          "enrich.history-15.1"
         ],
         "history-15:mastery": [
           "info.history-15.kp3",
@@ -3273,6 +3381,8 @@
           "build.history-15.case",
           "cq.history-15-q2",
           "q.history-15.case.check",
+          "enrich.history-15.0",
+          "enrich.history-15.1",
           "q.history-15.pitfall",
           "cap.109-social-36",
           "cap.111-social-49"
@@ -3378,7 +3488,9 @@
         "visual-3:reasoning": [
           "build.visual-3.case",
           "cq.visual-3-q2",
-          "q.visual-3.case.check"
+          "q.visual-3.case.check",
+          "enrich.visual-3.0",
+          "enrich.visual-3.1"
         ],
         "visual-3:mastery": [
           "info.visual-3.kp3",
@@ -3393,6 +3505,8 @@
           "build.visual-3.case",
           "cq.visual-3-q2",
           "q.visual-3.case.check",
+          "enrich.visual-3.0",
+          "enrich.visual-3.1",
           "q.visual-3.pitfall"
         ]
       }
@@ -3501,7 +3615,9 @@
         "music-3:reasoning": [
           "build.music-3.case",
           "cq.music-3-q2",
-          "q.music-3.case.check"
+          "q.music-3.case.check",
+          "enrich.music-3.0",
+          "enrich.music-3.1"
         ],
         "music-3:mastery": [
           "info.music-3.kp3",
@@ -3516,6 +3632,8 @@
           "build.music-3.case",
           "cq.music-3-q2",
           "q.music-3.case.check",
+          "enrich.music-3.0",
+          "enrich.music-3.1",
           "q.music-3.pitfall"
         ]
       }
@@ -3619,7 +3737,9 @@
         "performing-3:reasoning": [
           "build.performing-3.case",
           "cq.performing-3-q2",
-          "q.performing-3.case.check"
+          "q.performing-3.case.check",
+          "enrich.performing-3.0",
+          "enrich.performing-3.1"
         ],
         "performing-3:mastery": [
           "info.performing-3.kp3",
@@ -3634,6 +3754,8 @@
           "build.performing-3.case",
           "cq.performing-3-q2",
           "q.performing-3.case.check",
+          "enrich.performing-3.0",
+          "enrich.performing-3.1",
           "q.performing-3.pitfall"
         ]
       }
@@ -3747,7 +3869,9 @@
         "computing-3:reasoning": [
           "build.computing-3.case",
           "cq.computing-3-q2",
-          "q.computing-3.case.check"
+          "q.computing-3.case.check",
+          "enrich.computing-3.0",
+          "enrich.computing-3.1"
         ],
         "computing-3:mastery": [
           "info.computing-3.kp3",
@@ -3762,6 +3886,8 @@
           "build.computing-3.case",
           "cq.computing-3-q2",
           "q.computing-3.case.check",
+          "enrich.computing-3.0",
+          "enrich.computing-3.1",
           "q.computing-3.pitfall"
         ]
       }
@@ -3865,7 +3991,9 @@
         "technology-3:reasoning": [
           "build.technology-3.case",
           "cq.technology-3-q2",
-          "q.technology-3.case.check"
+          "q.technology-3.case.check",
+          "enrich.technology-3.0",
+          "enrich.technology-3.1"
         ],
         "technology-3:mastery": [
           "info.technology-3.kp3",
@@ -3880,6 +4008,8 @@
           "build.technology-3.case",
           "cq.technology-3-q2",
           "q.technology-3.case.check",
+          "enrich.technology-3.0",
+          "enrich.technology-3.1",
           "q.technology-3.pitfall"
         ]
       }
@@ -3988,7 +4118,9 @@
         "health-3:reasoning": [
           "build.health-3.case",
           "cq.health-3-q2",
-          "q.health-3.case.check"
+          "q.health-3.case.check",
+          "enrich.health-3.0",
+          "enrich.health-3.1"
         ],
         "health-3:mastery": [
           "info.health-3.kp3",
@@ -4003,6 +4135,8 @@
           "build.health-3.case",
           "cq.health-3-q2",
           "q.health-3.case.check",
+          "enrich.health-3.0",
+          "enrich.health-3.1",
           "q.health-3.pitfall"
         ]
       }
@@ -4111,7 +4245,9 @@
         "pe-3:reasoning": [
           "build.pe-3.case",
           "cq.pe-3-q2",
-          "q.pe-3.case.check"
+          "q.pe-3.case.check",
+          "enrich.pe-3.0",
+          "enrich.pe-3.1"
         ],
         "pe-3:mastery": [
           "info.pe-3.kp3",
@@ -4126,6 +4262,8 @@
           "build.pe-3.case",
           "cq.pe-3-q2",
           "q.pe-3.case.check",
+          "enrich.pe-3.0",
+          "enrich.pe-3.1",
           "q.pe-3.pitfall"
         ]
       }
@@ -4234,7 +4372,9 @@
         "home-3:reasoning": [
           "build.home-3.case",
           "cq.home-3-q2",
-          "q.home-3.case.check"
+          "q.home-3.case.check",
+          "enrich.home-3.0",
+          "enrich.home-3.1"
         ],
         "home-3:mastery": [
           "info.home-3.kp3",
@@ -4249,6 +4389,8 @@
           "build.home-3.case",
           "cq.home-3-q2",
           "q.home-3.case.check",
+          "enrich.home-3.0",
+          "enrich.home-3.1",
           "q.home-3.pitfall"
         ]
       }
@@ -4357,7 +4499,9 @@
         "scout-3:reasoning": [
           "build.scout-3.case",
           "cq.scout-3-q2",
-          "q.scout-3.case.check"
+          "q.scout-3.case.check",
+          "enrich.scout-3.0",
+          "enrich.scout-3.1"
         ],
         "scout-3:mastery": [
           "info.scout-3.kp3",
@@ -4372,6 +4516,8 @@
           "build.scout-3.case",
           "cq.scout-3-q2",
           "q.scout-3.case.check",
+          "enrich.scout-3.0",
+          "enrich.scout-3.1",
           "q.scout-3.pitfall"
         ]
       }
@@ -4480,7 +4626,9 @@
         "guidance-3:reasoning": [
           "build.guidance-3.case",
           "cq.guidance-3-q2",
-          "q.guidance-3.case.check"
+          "q.guidance-3.case.check",
+          "enrich.guidance-3.0",
+          "enrich.guidance-3.1"
         ],
         "guidance-3:mastery": [
           "info.guidance-3.kp3",
@@ -4495,6 +4643,8 @@
           "build.guidance-3.case",
           "cq.guidance-3-q2",
           "q.guidance-3.case.check",
+          "enrich.guidance-3.0",
+          "enrich.guidance-3.1",
           "q.guidance-3.pitfall"
         ]
       }
