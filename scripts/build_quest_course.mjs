@@ -674,6 +674,23 @@ for (const u of units) {
   }
 }
 
+const SUBJ_ICONS = {
+  chinese: '📜', english: '🔤', local: '🗣️', math: '📐',
+  biology: '🧬', physics: '⚡', chemistry: '🧪', earth: '🌍',
+  history: '🏺', geography: '🗺️', civics: '⚖️',
+  computing: '💻', technology: '⚙️',
+  visual: '🎨', music: '🎵', performing: '🎭',
+  health: '🩺', pe: '🏀', home: '🍳', scout: '⛺', guidance: '🧭'
+};
+
+function getCategory(subj) {
+  if (['chinese', 'english', 'math', 'biology', 'physics', 'chemistry', 'earth', 'history', 'geography', 'civics'].includes(subj)) return 'core';
+  if (['computing', 'technology'].includes(subj)) return 'tech';
+  if (['visual', 'music', 'performing'].includes(subj)) return 'arts';
+  if (['health', 'pe', 'home', 'scout', 'guidance'].includes(subj)) return 'activity';
+  return 'local';
+}
+
 // Build each section data
 const builtSections = [];
 for (const secConfig of SECTIONS_CONFIG) {
@@ -686,24 +703,7 @@ for (const secConfig of SECTIONS_CONFIG) {
     const subj = subjectById[u.subject] || { name: u.subject };
 
     const isSpecialized = !['chinese', 'english', 'math', 'biology', 'physics', 'chemistry', 'earth', 'history', 'geography', 'civics'].includes(u.subject);
-    const category = ['chinese', 'english', 'math', 'biology', 'physics', 'chemistry', 'earth', 'history', 'geography', 'civics'].includes(u.subject)
-      ? 'core'
-      : ['computing', 'technology'].includes(u.subject)
-      ? 'tech'
-      : ['visual', 'music', 'performing'].includes(u.subject)
-      ? 'arts'
-      : ['health', 'pe', 'home', 'scout', 'guidance'].includes(u.subject)
-      ? 'activity'
-      : 'local';
-
-    const SUBJ_ICONS = {
-      chinese: '📜', english: '🔤', local: '🗣️', math: '📐',
-      biology: '🧬', physics: '⚡', chemistry: '🧪', earth: '🌍',
-      history: '🏺', geography: '🗺️', civics: '⚖️',
-      computing: '💻', technology: '⚙️',
-      visual: '🎨', music: '🎵', performing: '🎭',
-      health: '🩺', pe: '🏀', home: '🍳', scout: '⛺', guidance: '🧭'
-    };
+    const category = getCategory(u.subject);
 
     const unitMeta = {
       id: u.id,
@@ -790,6 +790,13 @@ for (const brConfig of BRANCHES_CONFIG) {
         title: examTitle,
         subject: 'periodic',
         subjectName: '段考衝刺',
+        domain: '跨領域',
+        category: 'core',
+        grade: exam.grade,
+        term: exam.term,
+        gradeName: exam.grade === 7 ? '國一' : exam.grade === 8 ? '國二' : '國三',
+        gradeTermName: `${exam.grade === 7 ? '國一' : exam.grade === 8 ? '國二' : '國三'}${exam.term === 1 ? '上' : '下'}`,
+        isSpecialized: false,
         icon: '📝',
         nodes: nodes.map(n => ({ id: n.id, kind: n.kind, title: n.title, icon: n.icon, size: n.size }))
       });
@@ -855,6 +862,13 @@ for (const brConfig of BRANCHES_CONFIG) {
         title: yTitle,
         subject: 'cap',
         subjectName: '會考全真',
+        domain: '會考全真',
+        category: 'core',
+        grade: 9,
+        term: 2,
+        gradeName: '國三',
+        gradeTermName: '國三下',
+        isSpecialized: false,
         icon: '🎯',
         nodes: nodes.map(n => ({ id: n.id, kind: n.kind, title: n.title, icon: n.icon, size: n.size }))
       });
@@ -877,14 +891,22 @@ for (const brConfig of BRANCHES_CONFIG) {
       const { nodes, guide } = buildUnitNodes(u);
       const subj = subjectById[u.subject] || { name: u.subject };
 
+      const isSpecialized = !['chinese', 'english', 'math', 'biology', 'physics', 'chemistry', 'earth', 'history', 'geography', 'civics'].includes(u.subject);
+      const category = getCategory(u.subject);
+
       brUnits.push({
         id: u.id,
         title: u.title,
         subject: u.subject,
         subjectName: subj.name,
+        domain: subj.domain,
         grade: u.grade,
         term: u.term,
-        icon: subj.icon || '📚',
+        gradeName: u.grade === 7 ? '國一' : u.grade === 8 ? '國二' : '國三',
+        gradeTermName: `${u.grade === 7 ? '國一' : u.grade === 8 ? '國二' : '國三'}${u.term === 1 ? '上' : '下'}`,
+        isSpecialized,
+        category,
+        icon: SUBJ_ICONS[u.subject] || subj.icon || '📚',
         nodes: nodes.map(n => ({ id: n.id, kind: n.kind, title: n.title, icon: n.icon, size: n.size }))
       });
 

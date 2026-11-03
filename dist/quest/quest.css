@@ -1129,3 +1129,152 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 button, input, select { color: inherit; font: inherit; }
 .opt, .mcell, .tok, .atlas-chip { color: var(--text); }
 button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+/* Atlas Branches Grid */
+.atlas-branches-wrap {
+  margin-top: 1.25rem;
+  border-top: 1px dashed var(--border);
+  padding-top: 1rem;
+}
+.atlas-branches-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+}
+.atlas-branch-chips {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.6rem;
+}
+.atlas-branch-chip {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.65rem 0.85rem;
+  border-radius: var(--radius);
+  border: 2px solid var(--border);
+  background: var(--card-bg);
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.15s;
+  box-shadow: 0 2px 0 var(--border);
+  color: var(--text);
+}
+.atlas-branch-chip:hover {
+  border-color: var(--primary-light);
+  transform: translateY(-1px);
+}
+.atlas-branch-chip.active {
+  border-color: var(--primary-ink);
+  background: var(--accent-soft);
+  box-shadow: 0 2px 0 var(--primary);
+}
+.atlas-branch-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+.atlas-branch-info b {
+  font-size: 0.88rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.atlas-branch-info small {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* Empty Filter State */
+.empty-filter-state {
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  max-width: 480px;
+  margin: 1.5rem auto;
+}
+.empty-filter-state h3 {
+  margin: 0.5rem 0 0.25rem;
+  font-size: 1.2rem;
+}
+
+/* Audio Player Card & Source Paper Link */
+.audio-player-card {
+  background: var(--card-bg);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+.audio-player-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.audio-badge {
+  background: var(--accent-soft);
+  color: var(--primary-ink);
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+}
+.cap-audio-element {
+  width: 100%;
+  border-radius: 8px;
+  outline: none;
+}
+.source-paper-link {
+  margin: 0.75rem 0;
+  font-size: 0.92rem;
+}
+.source-paper-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--primary-ink);
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  transition: all 0.15s;
+}
+.source-paper-link a:hover {
+  border-color: var(--primary);
+  background: var(--accent-soft);
+}
+
+/* Shop Modal Styles */
+.shop-item {
+  padding: 1rem;
+  border-radius: var(--radius);
+  border: 1.5px solid var(--border);
+}
+.shop-price-btn {
+  min-width: 90px;
+  white-space: nowrap;
+}
+
+/* Placement Diagnostic Report */
+.placement-report-card {
+  text-align: center;
+}
+.placement-highlight {
+  border-left: 4px solid var(--primary-ink) !important;
+}
+.placement-breakdown {
+  border-top: 1px dashed var(--border);
+  padding-top: 1rem;
+}

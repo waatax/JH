@@ -405,7 +405,14 @@ function learnPage() {
     ${filterBar}
 
     <div class="path">
-      ${unitsHtml || '<p class="muted">此篩選條件下無符合單元，請切換學期或學科分類。</p>'}
+      ${unitsHtml || `
+        <div class="card empty-filter-state">
+          ${mascot('think', 72)}
+          <h3>目前篩選條件下無符合單元</h3>
+          <p class="muted">當前段落或分支可能未包含所選學年或領域，建議重設篩選或切換段落。</p>
+          <button class="btn primary" data-act="reset-filter">重設篩選條件 (顯示全部)</button>
+        </div>
+      `}
     </div>
   `;
 }
@@ -613,8 +620,22 @@ function itemView(it, s) {
       <span>${esc(it.prompt)}</span>
       <button class="btn ghost small" data-act="say" data-text="${esc(it.prompt)}" title="朗讀題目">🔊</button>
     </h1>
-    ${it.audio ? `<div><audio controls preload="none" src="../${esc(it.audio)}">您的瀏覽器不支援音訊播放。</audio></div>` : ''}
-    ${it.sourcePaper ? `<p><a href="../${esc(it.sourcePaper)}" target="_blank" rel="noopener">開啟官方原始題本${it.subject === 'listening' ? '（ZIP）' : '（PDF）'}</a></p>` : ''}
+    ${it.audio ? `
+      <div class="audio-player-card">
+        <div class="audio-player-header">
+          <span class="audio-badge">🎧 官方會考英語聽力音檔</span>
+          <span class="small muted">點擊播放聽取題幹與對話</span>
+        </div>
+        <audio class="cap-audio-element" controls preload="none" src="../${esc(it.audio)}">您的瀏覽器不支援音訊播放。</audio>
+      </div>
+    ` : ''}
+    ${it.sourcePaper ? `
+      <p class="source-paper-link">
+        <a href="../${esc(it.sourcePaper)}" target="_blank" rel="noopener">
+          <span>📄</span> 開啟官方原始題本${it.subject === 'listening' ? '（ZIP）' : '（PDF）'} ↗
+        </a>
+      </p>
+    ` : ''}
     ${it.readingGroupText ? `
       <div class="reading-group-box" style="margin: 0.75rem 0; padding: 1rem 1.25rem; background: var(--bg-soft, #f8fafc); border-left: 4px solid var(--primary, #6366f1); border-radius: 8px; line-height: 1.7; font-size: 0.95rem;">
         <div style="font-weight: 700; color: var(--primary, #6366f1); margin-bottom: 0.35rem;">📖 題組閱讀材料：</div>
@@ -794,6 +815,42 @@ function modalView() {
         <button class="btn ghost" data-act="placement-start" data-size="30"><b>30 題深度檢測</b> (約 10 分鐘)</button>
       </div>
     `;
+  } else if (ui.modal === 'shop') {
+    const st = game.state;
+    inner = `
+      <h2>💎 能量寶石商店</h2>
+      <p class="muted">透過自學闖關、金冠挑戰與每日任務累積寶石，兌換學習守護道具！</p>
+      <div class="shop-balance card" style="margin: 1rem 0; display:flex; justify-content:space-between; align-items:center; background: var(--bg-soft, #f8fafc); border-radius: 12px; padding: 0.75rem 1rem;">
+        <span>目前持有寶石：</span>
+        <b style="font-size: 1.3rem; color: #0284c7;">💎 ${st.gems}</b>
+      </div>
+      <div class="shop-items-grid" style="display:flex; flex-direction:column; gap: 0.75rem;">
+        <div class="card shop-item" style="display:flex; justify-content:space-between; align-items:center;">
+          <div style="display:flex; align-items:center; gap: 0.75rem;">
+            <span style="font-size: 2rem;">🧊</span>
+            <div>
+              <b>連續自學凍結卡</b><br>
+              <small class="muted">當天未學習時自動防護連續紀錄（目前持有：${st.freezes}/2）</small>
+            </div>
+          </div>
+          <button class="btn primary small shop-price-btn" data-act="buy-freeze" ${st.gems >= 100 && st.freezes < 2 ? '' : 'disabled'}>
+            100 💎 兌換
+          </button>
+        </div>
+        <div class="card shop-item" style="display:flex; justify-content:space-between; align-items:center;">
+          <div style="display:flex; align-items:center; gap: 0.75rem;">
+            <span style="font-size: 2rem;">❤️</span>
+            <div>
+              <b>挑戰心心全回復</b><br>
+              <small class="muted">將單元挑戰或會考衝刺的心心立即補滿至 3 顆</small>
+            </div>
+          </div>
+          <button class="btn primary small shop-price-btn" data-act="buy-hearts" ${st.gems >= 30 ? '' : 'disabled'}>
+            30 💎 兌換
+          </button>
+        </div>
+      </div>
+    `;
   }
 
   return `
@@ -808,6 +865,53 @@ function modalView() {
 function resultView() {
   const r = game.result;
   if (!r) return '';
+
+  if (r.mode === 'placement') {
+    const recTrack = course.track(r.recommended) || { title: '七年級上學期', level: '國一打底與概念溯源' };
+    const pct = Math.round((r.accuracy || 0) * 100);
+    const secKeys = ['s1', 's2', 's3', 's4', 's5', 's6'];
+
+    return `
+      <div class="modal-bg"></div>
+      <div class="modal card center placement-report-card" style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);max-width:540px;width:92%;max-height:88vh;overflow-y:auto;z-index:2000;text-align:center;padding:2rem 1.5rem;">
+        ${mascot('celebrate', 80)}
+        <h2 style="margin:1rem 0 0.25rem;">🧭 全科程度定位檢測診斷報告</h2>
+        <p class="muted">完成 ${r.total} 題跨學期素養診斷，用時 ${r.seconds || 0} 秒</p>
+
+        <div class="placement-highlight card" style="margin:1.25rem 0;background:var(--bg-soft, #f8fafc);border-radius:12px;padding:1rem;text-align:left;">
+          <div style="font-size:0.9rem;color:var(--text-muted);margin-bottom:0.25rem;">💡 系統精準診斷建議：</div>
+          <div style="font-size:1.15rem;font-weight:700;color:var(--primary);margin-bottom:0.25rem;">推薦從「${esc(recTrack.title)}」啟航</div>
+          <p class="small muted" style="margin:0;">${esc(recTrack.level || '')}。整體測驗答對率 <b>${pct}%</b>（${r.firstTry}/${r.total} 題）。</p>
+        </div>
+
+        <div class="placement-breakdown" style="text-align:left;margin-bottom:1.5rem;">
+          <h4 style="margin-bottom:0.75rem;font-size:0.95rem;">📊 六學期答對率分佈</h4>
+          <div style="display:flex;flex-direction:column;gap:0.5rem;">
+            ${secKeys.map(sid => {
+              const sec = course.track(sid) || { title: sid };
+              const corr = r.bySection?.[sid] || 0;
+              const tot = r.totalBySection?.[sid] || 0;
+              const sPct = tot > 0 ? Math.round((corr / tot) * 100) : 0;
+              return `
+                <div style="display:flex;align-items:center;gap:0.75rem;font-size:0.88rem;">
+                  <span style="width:90px;white-space:nowrap;font-weight:600;">${sec.gradeTermName || sec.title}</span>
+                  <div class="progress" style="flex:1;height:10px;"><span style="width:${sPct}%"></span></div>
+                  <span class="muted" style="width:45px;text-align:right;">${corr}/${tot}</span>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:0.5rem;">
+          <button class="btn primary big" data-act="apply-placement" data-track="${r.recommended}">
+            前往 ${esc(recTrack.title)} 開始自學 →
+          </button>
+          <button class="btn ghost small" data-act="done">關閉診斷報告</button>
+        </div>
+      </div>
+    `;
+  }
 
   if (r.passed === false && r.mode === 'boss') {
     // Out of hearts modal (Duolingo Style Refill)
@@ -1061,6 +1165,41 @@ document.addEventListener('click', async e => {
   } else if (act === 'track') {
     ui.track = actBtn.dataset.id;
     ui.modal = null;
+    if (ui.track.startsWith('b-')) {
+      ui.gradeFilter = 'all';
+      ui.catFilter = 'all';
+    }
+    await ensure([ui.track, 'items']);
+    render();
+  } else if (act === 'reset-filter') {
+    ui.gradeFilter = 'all';
+    ui.catFilter = 'all';
+    render();
+  } else if (act === 'shop') {
+    ui.modal = 'shop';
+    render();
+  } else if (act === 'buy-freeze') {
+    const ok = game.buyFreeze();
+    if (ok) {
+      sound.playTone('level');
+      toast('🧊 成功兌換連續自學凍結卡！連續紀錄已受守護。');
+      render();
+    } else {
+      toast('寶石不足 (需 100 💎) 或凍結卡已達上限 (最多 2 張)');
+    }
+  } else if (act === 'buy-hearts') {
+    const res = game.refillHeartsWithGems();
+    if (res?.ok) {
+      sound.playTone('level');
+      toast('❤️ 成功消耗 30 寶石恢復滿心！');
+      render();
+    } else {
+      toast(res?.msg || '寶石不足 (需要 30 💎)');
+    }
+  } else if (act === 'apply-placement') {
+    ui.track = actBtn.dataset.track;
+    ui.modal = null;
+    game.clearResult();
     await ensure([ui.track, 'items']);
     render();
   } else if (act === 'tracks') {

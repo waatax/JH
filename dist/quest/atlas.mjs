@@ -65,6 +65,36 @@ export function courseAtlas(course, game, activeTrackId) {
         `;
       }).join('')}
     </div>
+
+    ${course.index.branches?.length ? `
+    <div class="atlas-branches-wrap">
+      <div class="atlas-branches-title">
+        <span>⚡</span>
+        <b>八大專修與衝刺支線</b>
+        <small class="muted">會考歷屆真題 · 名校段考衝刺 · 各學科縱貫專修</small>
+      </div>
+      <div class="atlas-branch-chips">
+        ${course.index.branches.map(b => {
+          const uCount = b.units?.length || 0;
+          const doneCount = b.units ? b.units.filter(u => u.nodes?.every(n => {
+            const st = game.nodeStatus(n.id);
+            return st === 'done' || st === 'crowned';
+          })).length : 0;
+          const isCurrent = currentTrackId === b.id;
+          const pct = uCount ? Math.round((doneCount / uCount) * 100) : 0;
+          return `
+            <button class="atlas-branch-chip ${b.id} ${isCurrent ? 'active' : ''}" data-act="track" data-id="${b.id}" title="${b.title} · ${b.level || ''}">
+              <span class="atlas-icon">${b.icon || '🎯'}</span>
+              <div class="atlas-branch-info">
+                <b>${b.title}</b>
+                <small>${uCount} 單元 · ${pct}%</small>
+              </div>
+              ${isCurrent ? '<span class="atlas-cur-pill">當前</span>' : ''}
+            </button>
+          `;
+        }).join('')}
+      </div>
+    </div>` : ''}
   </section>`;
 }
 
