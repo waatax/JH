@@ -111,6 +111,128 @@ function setQuestPublisher(pubId) {
   try { storage?.setItem('zhixing-publisher-pref-v1', valid); } catch {}
 }
 
+let figZoom = 1;
+function updateFigZoom(delta, absolute = null) {
+  if (absolute !== null) figZoom = absolute;
+  else figZoom = Math.min(2.5, Math.max(0.6, Number((figZoom + delta).toFixed(2))));
+  const svg = document.querySelector('#figure-dialog-content svg');
+  const badge = document.querySelector('#fig-zoom-level');
+  if (svg) svg.style.transform = `scale(${figZoom})`;
+  if (badge) badge.textContent = `${Math.round(figZoom * 100)}%`;
+}
+
+function launchCelebration() {
+  if (typeof window === 'undefined' || typeof document === 'undefined') return;
+  if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return;
+  try {
+    if (navigator?.vibrate) navigator.vibrate([25, 35, 25]);
+  } catch {}
+
+  let canvas = document.querySelector('#celebration-canvas');
+  if (!canvas) {
+    canvas = document.createElement('canvas');
+    canvas.id = 'celebration-canvas';
+    canvas.className = 'celebration-canvas';
+    canvas.style.cssText = 'position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;z-index:9999;';
+    document.body.appendChild(canvas);
+  }
+  const ctx = canvas.getContext('2d');
+  const w = (canvas.width = window.innerWidth);
+  const h = (canvas.height = window.innerHeight);
+
+  const colors = ['#f4a261', '#e76f51', '#2a9d8f', '#52b788', '#e9c46a', '#3b82f6', '#8b5cf6', '#ec4899'];
+  const particles = Array.from({ length: 65 }, () => ({
+    x: w * (0.35 + Math.random() * 0.3),
+    y: h * (0.35 + Math.random() * 0.15),
+    vx: (Math.random() - 0.5) * 14,
+    vy: (Math.random() - 0.8) * 16 - 3,
+    size: 6 + Math.random() * 8,
+    color: colors[Math.floor(Math.random() * colors.length)],
+    rot: Math.random() * 360,
+    vrot: (Math.random() - 0.5) * 14,
+    shape: Math.random() > 0.4 ? 'rect' : 'circle',
+    alpha: 1
+  }));
+
+  const start = performance.now();
+  function draw(now) {
+    const elapsed = now - start;
+    ctx.clearRect(0, 0, w, h);
+    let alive = false;
+    for (const p of particles) {
+      p.x += p.vx;
+      p.y += p.vy;
+      p.vy += 0.38;
+      p.rot += p.vrot;
+      if (elapsed > 1200) p.alpha = Math.max(0, 1 - (elapsed - 1200) / 1000);
+      if (p.alpha > 0) alive = true;
+      ctx.save();
+      ctx.globalAlpha = p.alpha;
+      ctx.translate(p.x, p.y);
+      ctx.rotate((p.rot * Math.PI) / 180);
+      ctx.fillStyle = p.color;
+      if (p.shape === 'rect') {
+        ctx.fillRect(-p.size / 2, -p.size / 4, p.size, p.size / 2);
+      } else {
+        ctx.beginPath();
+        ctx.arc(0, 0, p.size / 2.5, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.restore();
+    }
+    if (alive && elapsed < 2600) {
+      requestAnimationFrame(draw);
+    } else {
+      ctx.clearRect(0, 0, w, h);
+      canvas.remove();
+    }
+  }
+  requestAnimationFrame(draw);
+}
+
+function renderDailyQuestsWidget(st) {
+  const list = st.quests?.list || [];
+  const doneCount = list.filter(q => q.done).length;
+  const allDone = list.length > 0 && doneCount === list.length;
+  const bonusClaimed = st.quests?.bonus;
+
+  return `
+    <section class="card daily-quests-widget" aria-label="今日三大自學任務">
+      <div class="daily-quests-header">
+        <div class="daily-quests-title">
+          <span class="daily-quests-icon">🎯</span>
+          <div>
+            <b>每日三大成長任務</b>
+            <span class="small muted" style="margin-left:6px;">已完成 ${doneCount}/${list.length || 3} 項</span>
+          </div>
+        </div>
+        ${allDone && !bonusClaimed ? `
+          <button class="btn primary small glow" data-act="claim-quest-bonus" title="領取每日全勤大獎">🎁 領取全勤獎 (+20 💎)</button>
+        ` : allDone ? `
+          <span class="badge success" style="padding:4px 8px;border-radius:6px;background:var(--primary-soft, #e6f3eb);color:var(--primary-ink, #193e35);font-size:12px;font-weight:700;">🎉 今日任務全達成！已領 +20 💎</span>
+        ` : `
+          <span class="small muted">全達成解鎖 +20 💎 全勤寶箱</span>
+        `}
+      </div>
+      <div class="daily-quests-grid">
+        ${list.map(q => {
+          const pct = Math.min(100, Math.round(100 * (q.n / q.target)));
+          return `
+            <div class="daily-quest-item ${q.done ? 'is-done' : ''}">
+              <div class="daily-quest-info">
+                <span class="daily-quest-status">${q.done ? '✅' : '⏳'}</span>
+                <span class="daily-quest-label">${esc(game.questLabel(q))}</span>
+                <span class="daily-quest-count">${q.n}/${q.target}</span>
+              </div>
+              <div class="progress daily-quest-progress"><span style="width:${pct}%"></span></div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    </section>
+  `;
+}
+
 const freshAnswer = () => ({ value: '', tokens: [], text: '', left: null, done: [], wrong: 0, hint: false });
 
 async function getJson(path) {
@@ -313,6 +435,7 @@ function mobileStatusStrip() {
 
 function layout(body) {
   const curTheme = QUEST_THEMES.find(t => t.id === ui.theme) || QUEST_THEMES[0];
+  const curPub = QUEST_PUBLISHERS.find(p => p.id === ui.pubFilter) || QUEST_PUBLISHERS[0];
   return `
     <div class="shell ${ui.tab === 'learn' ? 'learning-shell' : ''}">
       <nav class="side" aria-label="主導覽">
@@ -333,6 +456,7 @@ function layout(body) {
           <div class="top-actions">
             <button class="sound-toggle" data-act="sound-toggle" title="切換音效">${sound.isMuted() ? '🔇 靜音' : '🔊 音效'}</button>
             <button class="theme-toggle" data-act="theme-toggle" title="切換護眼/活力配色模式">${curTheme.icon} ${curTheme.label}</button>
+            <button class="pub-toggle-chip" data-act="pub-toggle" title="切換課本版本 (三版通用 / 康軒 / 翰林 / 南一)">${curPub.icon} ${curPub.label}</button>
             <button class="placement-entry" data-act="placement">🧭 程度檢測</button>
             <button class="track-chip" data-act="tracks">${esc(course.track(ui.track)?.title || '切換段落')} ▾</button>
           </div>
@@ -409,6 +533,7 @@ function learnPage() {
       <div class="hero-owl">${mascot('happy',112)}<span>每一小步，都算數。</span></div>
     </section>
     ${mobileStatusStrip()}
+    ${renderDailyQuestsWidget(game.state)}
     ${mission ? `<section class="today-mission">
       <div class="mission-heading"><div class="section-kicker">今天的一小關 / 先從這裡開始</div><a href="#study-controls" data-act="focus-study-controls">換科目 ↓</a></div>
       <div class="mission-body"><span class="mission-icon" aria-hidden="true">${mission.unit.icon || '🌱'}</span><div><span class="small muted">${esc(mission.unit.subjectName)} · ${esc(t.title)}</span><h2>${esc(mission.unit.title)}</h2><p>${esc(mission.reason)}</p></div></div>
@@ -837,7 +962,7 @@ function lessonFooter(it, s) {
 }
 
 function conceptFigure(svg, title, caption = '') {
-  return `<figure class="concept-figure"><div class="svg-wrap">${svg}</div><figcaption><span>${esc(caption || title)}</span><button class="btn ghost small" data-act="zoom-figure" data-title="${esc(title)}" aria-label="放大圖解：${esc(title)}">放大圖解 ↗</button></figcaption></figure>`;
+  return `<figure class="concept-figure" data-act="zoom-figure" data-title="${esc(title)}"><div class="svg-wrap" title="點擊放大檢視">${svg}</div><figcaption><span>${esc(caption || title)}</span><button class="btn ghost small" data-act="zoom-figure" data-title="${esc(title)}" aria-label="放大圖解：${esc(title)}">🔍 放大圖解 ↗</button></figcaption></figure>`;
 }
 
 function renderGuideChart(chart) {
@@ -1007,6 +1132,42 @@ function renderGuideModalContent(g) {
             </div>
           </div>
         ` : ''}
+        ${ui.pubFilter === 'all' && pubs.length >= 3 ? `
+          <div class="card quest-matrix-card">
+            <div class="guide-section-badge">📊 108 課綱三版本全景對照矩陣</div>
+            <h4 style="margin:0.35rem 0 0.5rem;">康軒・翰林・南一 學習焦點橫向速覽</h4>
+            <div class="quest-matrix-table-wrap">
+              <table class="quest-pub-matrix-table">
+                <thead>
+                  <tr>
+                    <th>版本</th>
+                    <th>課本章節進度</th>
+                    <th>核心學習焦點</th>
+                    <th>自學搭配策略</th>
+                    <th>考場避坑防線</th>
+                    <th>快速設定</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${pubs.map(p => `
+                    <tr class="pub-row-${p.publisher}">
+                      <td data-label="版本"><b>${p.icon} ${esc(p.name)}</b></td>
+                      <td data-label="章節進度">
+                        ${p.chapters?.length ? p.chapters.map(ch => `<div class="small">${esc(ch.book || ch.unit)}</div>`).join('') : '<span class="muted small">依課綱核心進度對接</span>'}
+                      </td>
+                      <td data-label="學習焦點"><span class="small">${esc(p.focus || p.coreFocus || '')}</span></td>
+                      <td data-label="自學策略"><span class="small">${esc(p.strategy || p.studyStrategy || '')}</span></td>
+                      <td data-label="考場防線"><span class="small muted">${esc(p.checkpoint || p.examCheckpoint || '')}</span></td>
+                      <td data-label="快速設定">
+                        <button class="btn ghost small" data-act="set-preferred-pub" data-pub="${p.publisher}">設為課本</button>
+                      </td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        ` : ''}
         <div class="quest-pub-cards">
           ${filteredPubs.map(p => `
             <div class="card quest-pub-card">
@@ -1021,6 +1182,7 @@ function renderGuideModalContent(g) {
               ${(p.documented || []).map(d=>`<p class="small"><a class="source-link" href="${esc(d.url)}" target="_blank" rel="noopener">查看章節來源：${esc(d.title)} ↗</a></p>`).join('')}
               <p class="small" style="margin-top:0.25rem;"><b>💡 自學搭配建議：</b>${esc(p.strategy)}</p>
               <p class="small muted" style="margin-top:0.25rem;"><b>🛡️ 段考會考檢核：</b>${esc(p.checkpoint)}</p>
+              <button class="btn ghost small" data-act="set-preferred-pub" data-pub="${p.publisher}" style="margin-top:0.5rem;">📌 設為我的學校課本</button>
             </div>
           `).join('')}
         </div>
@@ -1188,6 +1350,7 @@ function modalView() {
 function resultView() {
   const r = game.result;
   if (!r) return '';
+  if (r.passed || r.mode === 'placement') setTimeout(launchCelebration, 50);
 
   if (r.mode === 'placement') {
     const recTrack = course.track(r.recommended) || { title: '七年級上學期', level: '國一打底與概念溯源' };
@@ -1637,7 +1800,10 @@ window.addEventListener('keydown', e => {
       const res = game.nextStep();
       ui.a = freshAnswer();
       if (res?.done || game.result) {
-        if (game.result?.passed) sound.playTone('level');
+        if (game.result?.passed) {
+          sound.playTone('level');
+          launchCelebration();
+        }
       }
       render();
       return;
@@ -1720,13 +1886,42 @@ document.addEventListener('click', async e => {
   const act = actBtn.dataset.act;
 
   if (act === 'zoom-figure') {
-    const figure = actBtn.closest('figure');
+    const figure = actBtn.closest('figure') || actBtn.closest('.concept-figure') || actBtn.closest('.guide-kp-card');
     const svg = figure?.querySelector('svg');
     const dialog = document.querySelector('#figure-dialog');
     if (svg && dialog) {
-      document.querySelector('#figure-dialog-title').textContent = actBtn.dataset.title;
+      document.querySelector('#figure-dialog-title').textContent = actBtn.dataset.title || '觀念圖解';
       document.querySelector('#figure-dialog-content').replaceChildren(svg.cloneNode(true));
+      updateFigZoom(0, 1);
       dialog.showModal();
+    }
+  } else if (act === 'fig-zoom-in') {
+    updateFigZoom(0.25);
+  } else if (act === 'fig-zoom-out') {
+    updateFigZoom(-0.25);
+  } else if (act === 'fig-zoom-reset') {
+    updateFigZoom(0, 1);
+  } else if (act === 'pub-toggle') {
+    const curIdx = QUEST_PUBLISHERS.findIndex(p => p.id === ui.pubFilter);
+    const nextPub = QUEST_PUBLISHERS[(curIdx + 1) % QUEST_PUBLISHERS.length].id;
+    setQuestPublisher(nextPub);
+    const nextObj = QUEST_PUBLISHERS.find(p => p.id === nextPub);
+    toast(`📚 已切換至：${nextObj.icon} ${nextObj.label}`);
+    render();
+  } else if (act === 'set-preferred-pub') {
+    const pub = actBtn.dataset.pub || 'all';
+    setQuestPublisher(pub);
+    toast(`📚 已設定「${pub}版」為您的預設課本教材！`);
+    render();
+  } else if (act === 'claim-quest-bonus') {
+    if (game.state.quests?.list?.every(q => q.done) && !game.state.quests.bonus) {
+      game.state.quests.bonus = true;
+      game.state.gems += 20;
+      game.save();
+      sound.playTone('level');
+      launchCelebration();
+      toast('🎉 達成今日全勤三大任務！獲得 +20 💎 寶石獎勵！');
+      render();
     }
   } else if (act === 'focus-study-controls') {
     e.preventDefault();
@@ -1888,7 +2083,8 @@ document.addEventListener('click', async e => {
     const res = game.openChest(uid);
     if (res?.ok) {
       sound.playTone('level');
-      toast('🎉 成功開啟通關寶箱！獲得 15 💎 能量寶石！');
+      launchCelebration();
+      toast(`🎉 成功開啟通關寶箱！獲得 +${res.gems || 15} 💎 能量寶石！`);
       render();
     }
   } else if (act === 'refill-gems') {
@@ -1965,7 +2161,10 @@ document.addEventListener('click', async e => {
     const res = game.nextStep();
     ui.a = freshAnswer();
     if (res?.done || game.result) {
-      if (game.result?.passed) sound.playTone('level');
+      if (game.result?.passed) {
+        sound.playTone('level');
+        launchCelebration();
+      }
     }
     render();
   } else if (act === 'done') {

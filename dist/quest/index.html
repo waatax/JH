@@ -13,7 +13,29 @@
 <body>
   <a class="skip" href="#main">跳到主要內容</a>
   <div id="game"></div>
-  <dialog id="figure-dialog" class="figure-dialog" aria-labelledby="figure-dialog-title"><header><h2 id="figure-dialog-title">觀念圖解</h2><form method="dialog"><button class="btn ghost" aria-label="關閉放大圖解">關閉 ✕</button></form></header><p>左右滑動查看細節；可用瀏覽器縮放。按 Esc 或「關閉」回到學習。</p><div class="figure-dialog-scroll" tabindex="0" role="region" aria-label="可捲動的放大圖解"><div id="figure-dialog-content"></div></div></dialog>
+  <dialog id="figure-dialog" class="figure-dialog" aria-labelledby="figure-dialog-title">
+    <header>
+      <div class="figure-dialog-title-wrap">
+        <span class="figure-dialog-badge">🔍 高清觀念圖解</span>
+        <h2 id="figure-dialog-title">觀念圖解</h2>
+      </div>
+      <div class="figure-dialog-actions">
+        <button class="btn ghost small" id="fig-zoom-out" type="button" aria-label="縮小圖解" title="縮小 (Zoom Out)">🔍−</button>
+        <span id="fig-zoom-level" class="fig-zoom-badge" title="目前縮放比例">100%</span>
+        <button class="btn ghost small" id="fig-zoom-in" type="button" aria-label="放大圖解" title="放大 (Zoom In)">🔍+</button>
+        <button class="btn ghost small" id="fig-zoom-reset" type="button" aria-label="重設比例" title="重設 (100%)">↺</button>
+        <form method="dialog" style="display:inline;"><button class="btn ghost small" aria-label="關閉放大圖解">關閉 ✕</button></form>
+      </div>
+    </header>
+    <div class="figure-dialog-scaffold" aria-label="圖解思考三步階梯">
+      <span class="scaffold-step"><b>1. 找對象</b> 釐清圖中的核心主角、座標與變因</span>
+      <span class="scaffold-step"><b>2. 讀關係</b> 判讀箭頭流向、增減趨勢與比例關係</span>
+      <span class="scaffold-step"><b>3. 驗界線</b> 核對公式適用條件與考場高頻避坑點</span>
+    </div>
+    <div class="figure-dialog-scroll" tabindex="0" role="region" aria-label="可縮放拖曳的高清圖解畫布">
+      <div id="figure-dialog-content"></div>
+    </div>
+  </dialog>
   <noscript>請開啟 JavaScript 才能進行闖關自學。<a href="../#/courses">前往完整教材地圖</a></noscript>
   <script type="module" src="./view.mjs?v=20261103v2"></script>
 </body>

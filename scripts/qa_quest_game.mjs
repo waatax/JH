@@ -316,6 +316,18 @@ const questCssRaw = fs.readFileSync(path.join(questDir, 'quest.css'), 'utf8');
 check('quest.css includes 4-theme palettes (day/paper/dark)', questCssRaw.includes('[data-theme="day"]') && questCssRaw.includes('[data-theme="paper"]') && questCssRaw.includes('[data-theme="dark"]'));
 check('quest.css includes mobile portrait & landscape split-screen ergonomics', questCssRaw.includes('.mobile-status-strip') && questCssRaw.includes('.lesson-split-wrap.has-stimulus') && questCssRaw.includes('@media (orientation: landscape)'));
 
+// -----------------------------------------------------------------
+// 9. Super-Premium Gamification, Daily Quests & 3-Publisher Matrix Verification
+// -----------------------------------------------------------------
+console.log('\n--- 9. Super-Premium Gamification, Daily Quests & 3-Publisher Matrix ---');
+const viewJsRaw = fs.readFileSync(path.join(questDir, 'view.mjs'), 'utf8');
+const indexHtmlRaw = fs.readFileSync(path.join(questDir, 'index.html'), 'utf8');
+
+check('Celebration confetti engine exists with canvas particle physics', viewJsRaw.includes('launchCelebration()') && questCssRaw.includes('.celebration-canvas'));
+check('Daily 3-mission growth quest widget integrated into view', viewJsRaw.includes('renderDailyQuestsWidget') && questCssRaw.includes('.daily-quests-widget'));
+check('Top bar publisher switcher pill supports 1-click toggle', viewJsRaw.includes('pub-toggle-chip') && questCssRaw.includes('.pub-toggle-chip'));
+check('3-Publisher (康軒/翰林/南一) panoramic comparative table rendered', viewJsRaw.includes('quest-pub-matrix-table') && questCssRaw.includes('.quest-pub-matrix-table'));
+check('High-definition infographic zoom dialog with 3-step cognitive scaffolding', indexHtmlRaw.includes('fig-zoom-in') && indexHtmlRaw.includes('figure-dialog-scaffold'));
 
 // -----------------------------------------------------------------
 // Summary
