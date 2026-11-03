@@ -476,6 +476,16 @@ export function createGame({ storage, now = () => Date.now(), course }) {
         const picked = shuffle(pool, 'm' + serial).slice(0, LESSON_SIZE);
         return { queue: picked, hearts: null, base: picked.length, results: [], feedback: null, index: 0, combo: 0, maxCombo: 0 };
       }
+      case 'quick': {
+        const targetTracks = id && id !== 'all' && course.track(id) ? [course.track(id)] : course.index.sections.map(s => course.track(s.id)).filter(Boolean);
+        const pool = targetTracks
+          .flatMap(t => (t?.units || []).flatMap(u => (u.nodes || []).flatMap(n => course.nodes.get(n.id)?.pool || [])))
+          .filter(qid => isScored(course.item(qid)));
+        const uniquePool = [...new Set(pool)];
+        const picked = shuffle(uniquePool, 'quick-' + id + '-' + serial).slice(0, LESSON_SIZE);
+        if (!picked.length) return null;
+        return { queue: picked, hearts: null, base: picked.length, results: [], feedback: null, index: 0, combo: 0, maxCombo: 0 };
+      }
       default:
         return null;
     }

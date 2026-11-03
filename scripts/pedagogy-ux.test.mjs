@@ -263,6 +263,35 @@ test('9. Junyi-style Landscape Fullscreen Studio & Deep Exegesis Blackboard Mate
   assert(js.includes('renderExegesisBoard'), 'app.js missing renderExegesisBoard');
 });
 
+test('10. Multi-Publisher 108 Curriculum Matrix (康軒/翰林/南一), Responsive Dual-Mode Tables & Multi-Device CSS', async () => {
+  const {getPublisherGuideForUnit, renderPublisherMatrixSection, PUBLISHERS} = await import('../dist/publisher-matrix.js');
+  const {renderTeaching} = await import('../dist/teaching.js');
+  const css = fs.readFileSync(new URL('../dist/style.css', import.meta.url), 'utf8');
+
+  assert.equal(PUBLISHERS.length, 4, 'PUBLISHERS must include all, 康軒, 翰林, 南一');
+  for (const u of units) {
+    const pg = getPublisherGuideForUnit(u);
+    assert(pg, `Unit ${u.id} missing publisher guide`);
+    assert.equal(pg.publishers.length, 3, `Unit ${u.id} must have 3 publishers (康軒/翰林/南一)`);
+    assert(Array.isArray(pg.tocKeywords) && pg.tocKeywords.length >= 2, `Unit ${u.id} must have TOC search keywords`);
+    assert(Array.isArray(pg.officialContent) && pg.officialContent.length >= 1, `Unit ${u.id} must have official 108 Curriculum refs`);
+
+    const htmlAll = renderPublisherMatrixSection(u, 'all');
+    assert(htmlAll.includes('id="step-publishers"'), `Unit ${u.id} publisher matrix missing #step-publishers`);
+    assert(htmlAll.includes('康軒版') && htmlAll.includes('翰林版') && htmlAll.includes('南一版'), `Unit ${u.id} must render all 3 publishers`);
+
+    const teachHtml = renderTeaching(u);
+    assert(teachHtml.includes('class="table-view-toolbar"'), `Unit ${u.id} teaching table missing responsive view toolbar`);
+    assert(teachHtml.includes('data-table-mode="auto"'), `Unit ${u.id} teaching table missing data-table-mode="auto"`);
+    assert(teachHtml.includes('data-label="辨識重點"'), `Unit ${u.id} teaching table cells missing data-label for mobile portrait cards`);
+  }
+
+  assert(css.includes('.publisher-matrix-section'), 'style.css missing .publisher-matrix-section');
+  assert(css.includes('.responsive-teaching-wrap[data-table-mode="cards"]'), 'style.css missing responsive table card mode');
+  assert(css.includes('@media (orientation: landscape)'), 'style.css missing landscape orientation media query');
+});
+
+
 
 
 

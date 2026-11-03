@@ -11,6 +11,8 @@ import { explicitKnowledgePoints } from '../dist/explicit-knowledge-points.js';
 import { teachingTables } from '../dist/teaching.js';
 import { workedCases } from '../dist/worked-cases.js';
 import { lessonDeepening } from '../dist/lesson-deepening.js';
+import { deepeningCharts } from '../dist/deepening-charts.js';
+import { getPublisherGuideForUnit } from '../dist/publisher-matrix.js';
 import { periodicExams } from '../dist/periodic-exam-data.js';
 import { officialAlignment, officialSources } from '../dist/official-alignment-data.js';
 import { getCapExplanation, formatCapExplanation, relatedCapQuestions } from '../dist/cap-explanations.js';
@@ -244,8 +246,14 @@ function buildUnitNodes(u) {
       title: `${u.title} · ${kps[0].title.replace(/^【知識點 1】/, '')}`,
       formula: kps[0].formula || kps[0].core || '',
       body: kps[0].mechanism || kps[0].explanation || '',
+      explanation: kps[0].explanation || '',
+      examIntel: kps[0].examIntel || '',
+      bloom: kps[0].bloom || '記憶與理解',
+      examWeight: kps[0].examWeight || '★★★',
       example: kps[0].practicalTip || '',
       svg: kps[0].infograph?.svg || '',
+      infographTitle: kps[0].infograph?.title || '',
+      infographCaption: kps[0].infograph?.caption || '',
       badge: `${subj.name} · 核心觀念`,
       unitId: uid
     }, `#lesson/${uid}`);
@@ -333,8 +341,14 @@ function buildUnitNodes(u) {
       title: `${u.title} · ${kps[1].title.replace(/^【知識點 2】/, '')}`,
       formula: kps[1].formula || kps[1].core || '',
       body: kps[1].mechanism || kps[1].explanation || '',
+      explanation: kps[1].explanation || '',
+      examIntel: kps[1].examIntel || '',
+      bloom: kps[1].bloom || '應用與分析',
+      examWeight: kps[1].examWeight || '★★★',
       example: kps[1].practicalTip || '',
       svg: kps[1].infograph?.svg || '',
+      infographTitle: kps[1].infograph?.title || '',
+      infographCaption: kps[1].infograph?.caption || '',
       badge: `${subj.name} · 推演法則`,
       unitId: uid
     }, `#lesson/${uid}`);
@@ -474,8 +488,14 @@ function buildUnitNodes(u) {
       title: `${u.title} · ${kps[2].title.replace(/^【知識點 3】/, '')}`,
       formula: kps[2].formula || '🛡️ 考場避坑防線',
       body: kps[2].mechanism || kps[2].explanation || '',
+      explanation: kps[2].explanation || '',
+      examIntel: kps[2].examIntel || '',
+      bloom: kps[2].bloom || '評鑑與防呆',
+      examWeight: kps[2].examWeight || '★★★',
       example: kps[2].practicalTip || '',
       svg: kps[2].infograph?.svg || '',
+      infographTitle: kps[2].infograph?.title || '',
+      infographCaption: kps[2].infograph?.caption || '',
       badge: `${subj.name} · 考場避坑`,
       unitId: uid
     }, `#lesson/${uid}`);
@@ -548,10 +568,14 @@ function buildUnitNodes(u) {
 
   // Build guide metadata
   const alignment = officialAlignment[uid] || { refs: [] };
+  const pubGuide = getPublisherGuideForUnit(u);
+  const dChart = deepeningCharts[uid] || null;
   const guide = {
     unitId: uid,
     title: u.title,
     subject: subj.name,
+    subjectId: u.subject,
+    domain: subj.domain,
     grade: u.grade,
     term: u.term,
     concept: u.concept,
@@ -559,16 +583,40 @@ function buildUnitNodes(u) {
     pitfall: u.pitfall,
     task: u.task,
     knowledgePoints: kps.map(k => ({
+      id: k.id,
+      order: k.order,
       title: k.title,
       core: k.core,
       mechanism: k.mechanism,
+      explanation: k.explanation || '',
       formula: k.formula,
+      examIntel: k.examIntel || '',
       tip: k.practicalTip,
-      svg: k.infograph?.svg || ''
+      bloom: k.bloom || '理解與應用',
+      examWeight: k.examWeight || '★★★',
+      svg: k.infograph?.svg || '',
+      infographTitle: k.infograph?.title || '',
+      infographCaption: k.infograph?.caption || '',
+      relatedKnowledge: k.relatedKnowledge || []
     })),
     table: table ? { title: table.title, rows: table.rows } : null,
+    chart: dChart,
+    contrast: ld ? {
+      focus: ld.focus || '',
+      leftLabel: ld.leftLabel || '',
+      left: ld.left || '',
+      rightLabel: ld.rightLabel || '',
+      right: ld.right || '',
+      prompt: ld.prompt || '',
+      answer: ld.answer || ''
+    } : null,
     workedCase: wc ? { problem: wc.problem, steps: wc.steps, check: wc.check } : null,
-    officialRefs: alignment.refs || []
+    officialRefs: alignment.refs || [],
+    publisherGuide: pubGuide ? {
+      tocKeywords: pubGuide.tocKeywords,
+      universalSteps: pubGuide.universalSteps,
+      publishers: pubGuide.publishers
+    } : null
   };
 
   return { nodes, guide };

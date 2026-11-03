@@ -8,7 +8,7 @@ import * as sound from './sound.mjs?v=20261029v1';
 import { answerText, correctionTip, questionText, repairSteps } from './coach.mjs?v=20261029v1';
 import { courseAtlas, nextAdventure } from './atlas.mjs?v=20261027v2';
 
-const V = '20261029v1';
+const V = '20261103v1';
 const root = document.querySelector('#game');
 let storage;
 try { storage = globalThis.localStorage; } catch {}
@@ -36,6 +36,42 @@ const COMPANION_MESSAGES = [
   '保持自學熱情，每天一小關，你比想像中更厲害！'
 ];
 
+const QUEST_THEMES = [
+  { id: 'sage', icon: '🌿', label: '柔綠護眼' },
+  { id: 'day', icon: '☀️', label: '晨曦日光' },
+  { id: 'paper', icon: '📜', label: '暖柔米紙' },
+  { id: 'dark', icon: '🌙', label: '極光深色' }
+];
+
+const QUEST_PUBLISHERS = [
+  { id: 'all', icon: '🌟', label: '三版通用' },
+  { id: '康軒', icon: '📗', label: '康軒版' },
+  { id: '翰林', icon: '📘', label: '翰林版' },
+  { id: '南一', icon: '📙', label: '南一版' }
+];
+
+function getInitialTheme() {
+  try {
+    const qt = storage?.getItem('jh-quest-theme-v1');
+    if (qt && QUEST_THEMES.some(t => t.id === qt)) return qt;
+    const mainRaw = storage?.getItem('zhixing-academy-v1');
+    if (mainRaw) {
+      const parsed = JSON.parse(mainRaw);
+      const mt = parsed?.settings?.theme;
+      if (mt && QUEST_THEMES.some(t => t.id === mt)) return mt;
+    }
+  } catch {}
+  return 'sage';
+}
+
+function getInitialPublisher() {
+  try {
+    const p = storage?.getItem('zhixing-publisher-pref-v1');
+    if (p && QUEST_PUBLISHERS.some(x => x.id === p)) return p;
+  } catch {}
+  return 'all';
+}
+
 let course, game;
 const ui = {
   tab: 'learn',
@@ -43,15 +79,35 @@ const ui = {
   gradeFilter: 'all', // 'all' | '7' | '8' | '9'
   catFilter: 'all',   // 'all' | 'core' | 'tech' | 'arts' | 'activity'
   subjFilter: 'all',
+  pubFilter: getInitialPublisher(), // 'all' | '康軒' | '翰林' | '南一'
+  theme: getInitialTheme(),
   libFilter: '',
   pop: null,
   guide: null,
+  guideTab: 'kp',     // 'kp' | 'visuals' | 'publishers' | 'thinking'
+  blindfoldedKps: {},
   modal: null,
   toast: [],
   busy: '',
   msgIdx: 0,
   a: { value: '', tokens: [], text: '', left: null, done: [], wrong: 0, hint: false }
 };
+
+function applyQuestTheme(themeId) {
+  const valid = QUEST_THEMES.find(t => t.id === themeId) ? themeId : 'sage';
+  ui.theme = valid;
+  if (typeof document !== 'undefined' && document.documentElement) {
+    document.documentElement.setAttribute('data-theme', valid);
+  }
+  try { storage?.setItem('jh-quest-theme-v1', valid); } catch {}
+}
+applyQuestTheme(ui.theme);
+
+function setQuestPublisher(pubId) {
+  const valid = QUEST_PUBLISHERS.find(p => p.id === pubId) ? pubId : 'all';
+  ui.pubFilter = valid;
+  try { storage?.setItem('zhixing-publisher-pref-v1', valid); } catch {}
+}
 
 const freshAnswer = () => ({ value: '', tokens: [], text: '', left: null, done: [], wrong: 0, hint: false });
 
@@ -235,7 +291,30 @@ function rail() {
   `;
 }
 
+function mobileStatusStrip() {
+  const today = game.todayXp(), goal = game.goalXp();
+  const pct = Math.min(100, Math.round(100 * today / goal));
+  const due = game.dueUnits(), mist = game.mistakeCount();
+  const league = game.getLeagueData();
+
+  return `
+    <section class="mobile-status-strip" aria-label="今日學習進度摘要">
+      <div class="mss-item">
+        <span class="mss-label">🎯 今日目標 ${today}/${goal} XP</span>
+        <div class="progress mss-bar"><span style="width:${pct}%"></span></div>
+      </div>
+      <a class="mss-pill" href="#leaderboard" title="查看本週聯賽排名">
+        <span>${league.icon}</span>
+        <b>${league.tierName} #${league.userRank}</b>
+      </a>
+      ${mist > 0 ? `<a class="mss-pill alert" href="#practice">📕 錯題 ${mist}</a>` : ''}
+      ${due.length > 0 ? `<a class="mss-pill" href="#practice">↻ 複習 ${due.length}</a>` : ''}
+    </section>
+  `;
+}
+
 function layout(body) {
+  const curTheme = QUEST_THEMES.find(t => t.id === ui.theme) || QUEST_THEMES[0];
   return `
     <div class="shell">
       <nav class="side" aria-label="主導覽">
@@ -255,6 +334,7 @@ function layout(body) {
         <header class="top">
           <div class="top-actions">
             <button class="sound-toggle" data-act="sound-toggle" title="切換音效">${sound.isMuted() ? '🔇 靜音' : '🔊 音效'}</button>
+            <button class="theme-toggle" data-act="theme-toggle" title="切換護眼/活力配色模式">${curTheme.icon} ${curTheme.label}</button>
             <button class="placement-entry" data-act="placement">🧭 程度檢測</button>
             <button class="track-chip" data-act="tracks">${esc(course.track(ui.track)?.title || '切換段落')} ▾</button>
           </div>
@@ -347,8 +427,17 @@ function learnPage() {
   ];
 
   const filterBar = `
-    <div style="margin-bottom:1.25rem;">
+    <div class="quest-filters-panel" style="margin-bottom:1.25rem;">
       <div class="subject-filter-bar" style="margin-bottom:0.5rem;">
+        <span class="filter-row-label">📚 課本版本：</span>
+        ${QUEST_PUBLISHERS.map(p => `
+          <button class="subj-pill pub-pill ${ui.pubFilter === p.id ? 'active' : ''}" data-act="filter-pub" data-pub="${p.id}">
+            ${p.icon} ${p.label}
+          </button>
+        `).join('')}
+      </div>
+      <div class="subject-filter-bar" style="margin-bottom:0.5rem;">
+        <span class="filter-row-label">🎓 學年篩選：</span>
         ${gradeFilters.map(([k, label]) => `
           <button class="subj-pill ${ui.gradeFilter === k ? 'active' : ''}" data-act="filter-grade" data-grade="${k}">
             ${label}
@@ -356,6 +445,7 @@ function learnPage() {
         `).join('')}
       </div>
       <div class="subject-filter-bar">
+        <span class="filter-row-label">🧭 領域分類：</span>
         ${catFilters.map(([k, label]) => `
           <button class="subj-pill ${ui.catFilter === k ? 'active' : ''}" data-act="filter-cat" data-cat="${k}">
             ${label}
@@ -385,9 +475,10 @@ function learnPage() {
     <section class="track-head ${t.id}">
       <p class="eyebrow">${t.kind === 'section' ? `108 課綱 · ${t.gradeName || ''}${t.termName || `第 ${t.no} 段`}` : '專精目標分支'}</p>
       <h1>${esc(t.title)}</h1>
-      <p>${esc(t.level)} · ${t.units.length} 個單元 · 完整展開</p>
+      <p>${esc(t.level)} · ${t.units.length} 個單元 · 康軒/翰林/南一三版全對齊</p>
     </section>
 
+    ${mobileStatusStrip()}
     ${speechBox}
 
     <section class="adventure">
@@ -448,15 +539,38 @@ function unitBlock(t, u, index, currentId) {
     </div>
   `;
 
+  const totalStages = (u.nodes || []).length || 5;
+  const completedStages = (u.nodes || []).filter(n => {
+    const st = game.nodeStatus(n.id);
+    return st === 'done' || st === 'crowned' || st === 'tested';
+  }).length;
+  const stagePct = Math.round((completedStages / totalStages) * 100);
+
+  const g = course.guides.get(u.id);
+  const pg = g?.publisherGuide;
+  const activePubObj = ui.pubFilter !== 'all' && pg?.publishers ? pg.publishers.find(p => p.publisher === ui.pubFilter) : null;
+  const pubBannerTag = activePubObj
+    ? `<div class="unit-pub-banner-tag">${activePubObj.icon} <b>${esc(activePubObj.publisher)}版焦點：</b>${esc(activePubObj.chapterStatus === 'documented' ? (activePubObj.chapters?.[0]?.unit || activePubObj.focus) : activePubObj.focus)}</div>`
+    : (pg?.tocKeywords?.length ? `<div class="unit-pub-banner-tag">🔍 <b>三版課本檢索詞：</b>${pg.tocKeywords.slice(0, 3).map(k => `<code>${esc(k)}</code>`).join(' ')}</div>` : '');
+
   return `
-    <section class="unit">
+    <section class="unit" id="unit-card-${u.id}">
       <header class="unit-banner subj-${u.subject || 'chinese'}">
         <div class="unit-banner-info">
-          <span class="unit-subj-badge">${u.gradeName || ''} · ${u.subjectName || ''}</span>
+          <div class="unit-banner-badges">
+            <span class="unit-subj-badge">${u.gradeName || ''} · ${u.subjectName || ''}</span>
+            <span class="unit-stage-badge ${completedStages === totalStages ? 'crowned' : ''}">
+              ${completedStages === totalStages ? '👑 全通關' : `⭐ 進度 ${completedStages}/${totalStages} 關 (${stagePct}%)`}
+            </span>
+          </div>
           <h2>${u.icon || '📖'} ${esc(u.title)}</h2>
           ${u.pitfall ? `<small class="unit-pitfall-tag">⚠️ 核心避坑：${esc(u.pitfall)}</small>` : ''}
+          ${pubBannerTag}
         </div>
-        <button class="guide-btn" data-act="guide" data-id="${u.id}">📘 指南</button>
+        <div class="unit-banner-actions">
+          <button class="guide-btn" data-act="guide" data-id="${u.id}">📘 指南與版本</button>
+          <a class="guide-btn ghost-link" href="../#/lesson/${u.id}" title="前往主站完整研經講義">📖 講義</a>
+        </div>
       </header>
       <div class="nodes-wrap">
         ${makeTrailSvg(index)}
@@ -605,48 +719,70 @@ function itemView(it, s) {
   if (it.type === 'info') {
     return `
       <section class="info-card">
-        <p class="small muted">${it.badge || '📐 觀念起點'}</p>
+        <div class="info-card-meta">
+          <span class="small muted">${it.badge || '📐 觀念起點'}</span>
+          ${it.bloom ? `<span class="info-meta-pill">🧠 ${esc(it.bloom)}</span>` : ''}
+          ${it.examWeight ? `<span class="info-meta-pill hot">🔥 考頻 ${esc(it.examWeight)}</span>` : ''}
+        </div>
         <h1>${esc(it.title)}</h1>
         ${it.formula ? `<div class="formula">${esc(it.formula)}</div>` : ''}
-        <p>${esc(it.body)}</p>
-        ${it.example ? `<p class="muted small" style="margin-top:0.75rem;">💡 ${esc(it.example)}</p>` : ''}
-        ${it.svg ? `<div class="svg-wrap">${it.svg}</div>` : ''}
+        <div class="info-split-grid ${it.svg ? 'has-svg' : ''}">
+          <div class="info-text-col">
+            <p class="info-body-lead">${esc(it.body)}</p>
+            ${it.explanation && it.explanation !== it.body ? `<p class="small muted" style="margin-top:0.5rem;line-height:1.65;">🔬 <b>深層機轉：</b>${esc(it.explanation)}</p>` : ''}
+            ${it.examIntel ? `<div class="info-intel-box"><b>🎯 大考題型雷達：</b><span>${esc(it.examIntel)}</span></div>` : ''}
+            ${it.example ? `<div class="info-tip-box"><b>💡 實戰避坑心法：</b><span>${esc(it.example)}</span></div>` : ''}
+          </div>
+          ${it.svg ? `
+            <div class="info-visual-col">
+              ${it.infographTitle ? `<div class="info-svg-caption-top">📊 ${esc(it.infographTitle)}</div>` : ''}
+              <div class="svg-wrap">${it.svg}</div>
+              ${it.infographCaption ? `<p class="small muted" style="margin-top:0.35rem;font-size:0.78rem;">💡 ${esc(it.infographCaption)}</p>` : ''}
+            </div>
+          ` : ''}
+        </div>
       </section>
     `;
   }
 
-  const head = `
+  const hasStimulus = !!(it.audio || it.readingGroupText || (it.crops && it.crops.length > 0));
+  const stimulusHtml = hasStimulus ? `
+    <div class="lesson-stimulus-pane">
+      ${it.audio ? `
+        <div class="audio-player-card">
+          <div class="audio-player-header">
+            <span class="audio-badge">🎧 官方會考英語聽力音檔</span>
+            <span class="small muted">點擊播放聽取題幹與對話</span>
+          </div>
+          <audio class="cap-audio-element" controls preload="none" src="../${esc(it.audio)}">您的瀏覽器不支援音訊播放。</audio>
+        </div>
+      ` : ''}
+      ${it.sourcePaper ? `
+        <p class="source-paper-link">
+          <a href="../${esc(it.sourcePaper)}" target="_blank" rel="noopener">
+            <span>📄</span> 開啟官方原始題本${it.subject === 'listening' ? '（ZIP）' : '（PDF）'} ↗
+          </a>
+        </p>
+      ` : ''}
+      ${it.readingGroupText ? `
+        <div class="reading-group-box" style="margin: 0.75rem 0; padding: 1rem 1.25rem; background: var(--bg-soft, #f8fafc); border-left: 4px solid var(--primary, #6366f1); border-radius: 8px; line-height: 1.7; font-size: 0.95rem;">
+          <div style="font-weight: 700; color: var(--primary, #6366f1); margin-bottom: 0.35rem;">📖 題組閱讀材料：</div>
+          <div>${esc(it.readingGroupText)}</div>
+        </div>
+      ` : ''}
+      ${it.crops && it.crops.length > 0 ? `
+        <div class="crops-wrap" style="text-align: center; margin: 0.75rem 0;">
+          ${it.crops.map(c => `<img src="../${esc(c.src)}" alt="會考原始題目或題組材料" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--border, #e2e8f0); background: #ffffff;" loading="lazy">`).join('')}
+        </div>
+      ` : ''}
+    </div>
+  ` : '';
+
+  const promptHtml = `
     <h1 class="prompt">
       <span>${esc(it.prompt)}</span>
       <button class="btn ghost small" data-act="say" data-text="${esc(it.prompt)}" title="朗讀題目">🔊</button>
     </h1>
-    ${it.audio ? `
-      <div class="audio-player-card">
-        <div class="audio-player-header">
-          <span class="audio-badge">🎧 官方會考英語聽力音檔</span>
-          <span class="small muted">點擊播放聽取題幹與對話</span>
-        </div>
-        <audio class="cap-audio-element" controls preload="none" src="../${esc(it.audio)}">您的瀏覽器不支援音訊播放。</audio>
-      </div>
-    ` : ''}
-    ${it.sourcePaper ? `
-      <p class="source-paper-link">
-        <a href="../${esc(it.sourcePaper)}" target="_blank" rel="noopener">
-          <span>📄</span> 開啟官方原始題本${it.subject === 'listening' ? '（ZIP）' : '（PDF）'} ↗
-        </a>
-      </p>
-    ` : ''}
-    ${it.readingGroupText ? `
-      <div class="reading-group-box" style="margin: 0.75rem 0; padding: 1rem 1.25rem; background: var(--bg-soft, #f8fafc); border-left: 4px solid var(--primary, #6366f1); border-radius: 8px; line-height: 1.7; font-size: 0.95rem;">
-        <div style="font-weight: 700; color: var(--primary, #6366f1); margin-bottom: 0.35rem;">📖 題組閱讀材料：</div>
-        <div>${esc(it.readingGroupText)}</div>
-      </div>
-    ` : ''}
-    ${it.crops && it.crops.length > 0 ? `
-      <div class="crops-wrap" style="text-align: center; margin: 0.75rem 0;">
-        ${it.crops.map(c => `<img src="../${esc(c.src)}" alt="會考原始題目或題組材料" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--border, #e2e8f0); background: #ffffff;" loading="lazy">`).join('')}
-      </div>
-    ` : ''}
   `;
   let body = '';
 
@@ -706,7 +842,15 @@ function itemView(it, s) {
     `;
   }
 
-  return `${head}${body}`;
+  return `
+    ${promptHtml}
+    <div class="lesson-split-wrap ${hasStimulus ? 'has-stimulus' : ''}">
+      ${stimulusHtml}
+      <div class="lesson-interact-pane">
+        ${body}
+      </div>
+    </div>
+  `;
 }
 
 function lessonFeedback(it, f) {
@@ -759,6 +903,260 @@ function lessonFooter(it, s) {
   `;
 }
 
+function renderGuideChart(chart) {
+  if (!chart) return '';
+  if (chart.type === 'bar' && Array.isArray(chart.bars)) {
+    return `
+      <div class="card guide-chart-card">
+        <div class="guide-section-badge">📈 課綱量化數據圖表</div>
+        <h4>${esc(chart.title || '數據對照圖')}</h4>
+        ${chart.subtitle ? `<p class="small muted">${esc(chart.subtitle)}</p>` : ''}
+        <div class="quest-bar-chart">
+          ${chart.bars.map(b => `
+            <div class="q-bar-row">
+              <div class="q-bar-head">
+                <b>${esc(b.label)}</b>
+                <span class="q-bar-val">${esc(b.display || b.value)} ${esc(chart.unit || '')}</span>
+              </div>
+              <div class="progress q-bar-track"><span style="width:${Math.min(100, Math.max(8, Number(b.value) || 50))}%"></span></div>
+              ${b.note ? `<small class="muted">${esc(b.note)}</small>` : ''}
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }
+  if (chart.type === 'flow' && Array.isArray(chart.steps)) {
+    return `
+      <div class="card guide-chart-card">
+        <div class="guide-section-badge">🔄 系統演進與機轉流程圖</div>
+        <h4>${esc(chart.title || '核心流程圖')}</h4>
+        ${chart.subtitle ? `<p class="small muted">${esc(chart.subtitle)}</p>` : ''}
+        <div class="quest-flow-chart">
+          ${chart.steps.map((st, idx) => `
+            <div class="q-flow-step">
+              <span class="q-flow-num">${idx + 1}</span>
+              <div>
+                <b>${esc(st.name)}</b>
+                <p class="small muted">${esc(st.detail)}</p>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }
+  return '';
+}
+
+function renderGuideModalContent(g) {
+  const tabs = [
+    ['kp', '🧠 知識點與圖解'],
+    ['visuals', '📊 表格與圖表'],
+    ['publishers', '📚 三版課本對照'],
+    ['thinking', '⚡ 解題思維鏈']
+  ];
+  const curTab = tabs.some(t => t[0] === ui.guideTab) ? ui.guideTab : 'kp';
+
+  let tabBody = '';
+  if (curTab === 'kp') {
+    tabBody = `
+      <div class="guide-concept-hero card">
+        <div class="guide-section-badge">🎯 108 課綱核心觀念錨定</div>
+        <p style="margin:0.35rem 0 0;line-height:1.65;">${esc(g.concept || '')}</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:0.9rem;margin-top:0.85rem;">
+        ${(g.knowledgePoints || []).map((kp, idx) => {
+          const kpKey = kp.id || `${g.unitId}-kp-${idx}`;
+          const isBlind = !!ui.blindfoldedKps[kpKey];
+          return `
+            <div class="card guide-kp-card ${isBlind ? 'is-blindfolded' : ''}">
+              <div class="guide-kp-head">
+                <div>
+                  <span class="info-meta-pill">🧠 ${esc(kp.bloom || '核心素養')}</span>
+                  <span class="info-meta-pill hot">🔥 ${esc(kp.examWeight || '★★★')}</span>
+                </div>
+                <button class="btn ghost small" data-act="guide-blindfold" data-kp="${esc(kpKey)}">
+                  ${isBlind ? '👁️ 揭曉答案' : '🙈 遮蔽回想'}
+                </button>
+              </div>
+              <h4 style="margin:0.4rem 0;">${esc(kp.title)}</h4>
+              <p class="small"><b>🎯 核心定義：</b>${esc(kp.core || '')}</p>
+              <div class="guide-kp-maskable">
+                ${kp.formula ? `<div class="formula" style="margin:0.5rem 0;">📐 ${esc(kp.formula)}</div>` : ''}
+                ${kp.mechanism ? `<p class="small" style="margin-top:0.35rem;"><b>⚙️ 原理機轉：</b>${esc(kp.mechanism)}</p>` : ''}
+                ${kp.explanation && kp.explanation !== kp.mechanism ? `<p class="small muted" style="margin-top:0.35rem;"><b>🔬 深度解析：</b>${esc(kp.explanation)}</p>` : ''}
+                ${kp.examIntel ? `<div class="info-intel-box" style="margin-top:0.5rem;"><b>🎯 會考題型雷達：</b><span>${esc(kp.examIntel)}</span></div>` : ''}
+                ${kp.tip ? `<div class="info-tip-box" style="margin-top:0.5rem;"><b>🛡️ 考場避坑防線：</b><span>${esc(kp.tip)}</span></div>` : ''}
+              </div>
+              ${kp.svg ? `
+                <div style="margin-top:0.65rem;">
+                  ${kp.infographTitle ? `<div class="small muted" style="font-weight:700;margin-bottom:0.25rem;">📊 ${esc(kp.infographTitle)}</div>` : ''}
+                  <div class="svg-wrap">${kp.svg}</div>
+                </div>
+              ` : ''}
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+  } else if (curTab === 'visuals') {
+    const tbl = g.table;
+    const contrast = g.contrast;
+    tabBody = `
+      <div style="display:flex;flex-direction:column;gap:1rem;margin-top:0.75rem;">
+        ${tbl && Array.isArray(tbl.rows) && tbl.rows.length ? `
+          <div class="card">
+            <div class="guide-section-badge">📋 結構化概念比較表</div>
+            <h4 style="margin:0.3rem 0 0.65rem;">${esc(tbl.title || `${g.title} 對照表`)}</h4>
+            <div class="quest-table-wrap">
+              <table class="quest-guide-table">
+                <thead>
+                  <tr><th>比較項目</th><th>核心內容與特徵</th><th>關鍵辨析 / 實例</th></tr>
+                </thead>
+                <tbody>
+                  ${tbl.rows.map(r => `
+                    <tr>
+                      <td data-label="比較項目"><b>${esc(r[0] || '')}</b></td>
+                      <td data-label="核心內容">${esc(r[1] || '')}</td>
+                      <td data-label="關鍵辨析">${esc(r[2] || '')}</td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        ` : ''}
+        ${renderGuideChart(g.chart)}
+        ${contrast && (contrast.left || contrast.right) ? `
+          <div class="card">
+            <div class="guide-section-badge">⚖️ 易混概念雙向辨析</div>
+            <h4 style="margin:0.3rem 0 0.6rem;">${esc(contrast.focus || '核心概念正反對照')}</h4>
+            <div class="quest-contrast-grid">
+              <div class="q-contrast-box left">
+                <b>🔹 ${esc(contrast.leftLabel || '概念 A')}</b>
+                <p class="small">${esc(contrast.left)}</p>
+              </div>
+              <div class="q-contrast-box right">
+                <b>🔸 ${esc(contrast.rightLabel || '概念 B')}</b>
+                <p class="small">${esc(contrast.right)}</p>
+              </div>
+            </div>
+            ${contrast.answer ? `<p class="small muted" style="margin-top:0.6rem;">💡 <b>判準總結：</b>${esc(contrast.answer)}</p>` : ''}
+          </div>
+        ` : ''}
+      </div>
+    `;
+  } else if (curTab === 'publishers') {
+    const pg = g.publisherGuide;
+    const pubs = pg?.publishers || [];
+    const filteredPubs = ui.pubFilter === 'all' ? pubs : pubs.filter(p => p.publisher === ui.pubFilter);
+    tabBody = `
+      <div style="display:flex;flex-direction:column;gap:0.85rem;margin-top:0.75rem;">
+        <div class="subject-filter-bar">
+          <span class="filter-row-label">切換版本：</span>
+          ${QUEST_PUBLISHERS.map(p => `
+            <button class="subj-pill pub-pill ${ui.pubFilter === p.id ? 'active' : ''}" data-act="guide-pub" data-pub="${p.id}">
+              ${p.icon} ${p.label}
+            </button>
+          `).join('')}
+        </div>
+        ${pg?.tocKeywords?.length ? `
+          <div class="card">
+            <div class="guide-section-badge">🔍 康軒 / 翰林 / 南一 課本目錄秒查關鍵詞</div>
+            <p class="small muted" style="margin:0.25rem 0 0.5rem;">翻開學校課本或講義目錄，搜尋以下核心詞即可直接對接本單元：</p>
+            <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">
+              ${pg.tocKeywords.map(k => `<code class="quest-kw-pill">${esc(k)}</code>`).join('')}
+            </div>
+          </div>
+        ` : ''}
+        <div class="quest-pub-cards">
+          ${filteredPubs.map(p => `
+            <div class="card quest-pub-card">
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.4rem;">
+                <b>${p.icon} ${esc(p.name)}</b>
+                <span class="info-meta-pill">${p.chapterStatus === 'documented' ? '✓ 已建檔章節' : '🧭 108 課綱指標對齊'}</span>
+              </div>
+              ${p.chapterStatus === 'documented' && p.chapters?.length ? p.chapters.map(ch => `
+                <p class="small"><b>📖 章節：</b>${esc(ch.book)} · ${esc(ch.section)}「${esc(ch.unit)}」</p>
+              `).join('') : ''}
+              <p class="small"><b>🎯 教材鋪陳焦點：</b>${esc(p.focus)}</p>
+              <p class="small" style="margin-top:0.25rem;"><b>💡 自學搭配建議：</b>${esc(p.strategy)}</p>
+              <p class="small muted" style="margin-top:0.25rem;"><b>🛡️ 段考會考檢核：</b>${esc(p.checkpoint)}</p>
+            </div>
+          `).join('')}
+        </div>
+        ${g.officialRefs?.length ? `
+          <div class="card">
+            <div class="guide-section-badge">🏛️ 教育部 108 課綱官方指標依據</div>
+            ${g.officialRefs.map(r => `
+              <div style="margin-top:0.4rem;">
+                <b class="small">${esc(r.code)} (PDF p.${r.page})：</b>
+                <p class="small muted">${esc(r.excerpt)}</p>
+              </div>
+            `).join('')}
+          </div>
+        ` : ''}
+      </div>
+    `;
+  } else if (curTab === 'thinking') {
+    const wc = g.workedCase;
+    tabBody = `
+      <div style="display:flex;flex-direction:column;gap:0.85rem;margin-top:0.75rem;">
+        ${wc ? `
+          <div class="card">
+            <div class="guide-section-badge">⚡ 典範例題三步思維鏈</div>
+            <h4 style="margin:0.35rem 0;">題目情境：${esc(wc.problem)}</h4>
+            <ol class="quest-thinking-steps">
+              ${(wc.steps || []).map(st => `<li>${esc(st)}</li>`).join('')}
+            </ol>
+            ${wc.check ? `<div class="info-tip-box" style="margin-top:0.6rem;"><b>✅ 驗算與合理性檢核：</b><span>${esc(wc.check)}</span></div>` : ''}
+          </div>
+        ` : ''}
+        ${g.example ? `
+          <div class="card">
+            <div class="guide-section-badge">📐 快速破題示範</div>
+            <p class="small" style="margin-top:0.35rem;line-height:1.65;">${esc(g.example)}</p>
+          </div>
+        ` : ''}
+        ${g.pitfall ? `
+          <div class="card">
+            <div class="guide-section-badge">⚠️ 考場高頻陷阱防禦</div>
+            <p class="small" style="margin-top:0.35rem;line-height:1.65;">${esc(g.pitfall)}</p>
+          </div>
+        ` : ''}
+        ${g.task ? `
+          <div class="card">
+            <div class="guide-section-badge">🗣️ 費曼白話自我檢測任務</div>
+            <p class="small" style="margin-top:0.35rem;line-height:1.65;">${esc(g.task)}</p>
+          </div>
+        ` : ''}
+      </div>
+    `;
+  }
+
+  return `
+    <div class="guide-modal-header">
+      <span class="unit-subj-badge">${g.grade}年級 ${g.term === 1 ? '上' : '下'}學期 · ${esc(g.subject)}</span>
+      <h2 style="margin:0.35rem 0 0.2rem;">📘 ${esc(g.title)} · 全方位自學指南</h2>
+    </div>
+    <div class="guide-tabs-bar" role="tablist" aria-label="單元指南分頁">
+      ${tabs.map(([id, label]) => `
+        <button class="guide-tab-btn ${curTab === id ? 'active' : ''}" data-act="guide-tab" data-gtab="${id}" role="tab" aria-selected="${curTab === id}">
+          ${label}
+        </button>
+      `).join('')}
+    </div>
+    <div class="guide-tab-panel">
+      ${tabBody}
+    </div>
+    <div class="guide-modal-footer">
+      <button class="btn primary" data-act="start-unit-from-guide" data-unit="${g.unitId}">🎮 立即闖關本單元</button>
+      <a class="btn ghost" href="../#/lesson/${g.unitId}">📖 打開主站完整研經講義 ↗</a>
+    </div>
+  `;
+}
+
 // -------------------------------------------------------------
 // Views: Modals (Guide, Tracks, Placement, Result)
 // -------------------------------------------------------------
@@ -767,25 +1165,11 @@ function modalView() {
   if (!ui.modal) return '';
 
   let inner = '';
+  const isWideModal = ui.modal === 'guide' || ui.modal === 'tracks';
   if (ui.modal === 'guide') {
     const g = course.guides.get(ui.guide);
     if (!g) inner = '<p>指南載入中…</p>';
-    else {
-      inner = `
-        <h2>${esc(g.title)} · 單元指南</h2>
-        <p class="muted">${g.grade}年級 ${g.term === 1 ? '上' : '下'}學期 · ${esc(g.subject)}</p>
-        <div style="margin:1rem 0;display:flex;flex-direction:column;gap:1rem;">
-          ${(g.knowledgePoints || []).map(kp => `
-            <div class="card">
-              <h4>${esc(kp.title)}</h4>
-              <p class="small">${esc(kp.core || '')}</p>
-              ${kp.svg ? `<div class="svg-wrap">${kp.svg}</div>` : ''}
-            </div>
-          `).join('')}
-        </div>
-        <a class="btn primary" href="../#/lesson/${g.unitId}" target="_blank">打開主站研經黑板與思維鏈 ↗</a>
-      `;
-    }
+    else inner = renderGuideModalContent(g);
   } else if (ui.modal === 'tracks') {
     inner = `
       <h2>選擇學習學期與目標分支</h2>
@@ -855,7 +1239,7 @@ function modalView() {
 
   return `
     <div class="modal-bg" data-act="close"></div>
-    <div class="modal card" style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);max-width:540px;width:90%;max-height:85vh;overflow-y:auto;z-index:2000;">
+    <div class="modal card ${isWideModal ? 'modal-wide' : ''}" style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);max-width:${isWideModal ? '760px' : '540px'};width:92%;max-height:88vh;overflow-y:auto;z-index:2000;">
       <button class="btn ghost small" data-act="close" style="float:right;">✕</button>
       ${inner}
     </div>
@@ -952,6 +1336,92 @@ function resultView() {
   `;
 }
 
+function renderQuestDomainRadar() {
+  const domainDefs = [
+    { id: '語文', label: '語文領域', subjects: ['chinese', 'english', 'local'], icon: '📜' },
+    { id: '數學', label: '數學領域', subjects: ['math'], icon: '📐' },
+    { id: '自然', label: '自然科學', subjects: ['biology', 'physics', 'chemistry', 'earth'], icon: '🔬' },
+    { id: '社會', label: '社會領域', subjects: ['history', 'geography', 'civics'], icon: '🌍' },
+    { id: '科技', label: '科技領域', subjects: ['computing', 'technology'], icon: '💻' },
+    { id: '藝術', label: '藝術領域', subjects: ['visual', 'music', 'performing'], icon: '🎨' },
+    { id: '健體', label: '健康與體育', subjects: ['health', 'pe'], icon: '🏃' },
+    { id: '綜合', label: '綜合活動', subjects: ['home', 'scout', 'guidance'], icon: '🧭' }
+  ];
+
+  const allUnits = course.index.sections.flatMap(s => s.units);
+  const statsByDomain = domainDefs.map(d => {
+    const dUnits = allUnits.filter(u => d.subjects.includes(u.subject));
+    let totalNodes = 0, doneNodes = 0, crowns = 0;
+    for (const u of dUnits) {
+      if (game.state.crowns[u.id]) crowns++;
+      for (const n of u.nodes || []) {
+        totalNodes++;
+        const st = game.nodeStatus(n.id);
+        if (st === 'done' || st === 'crowned' || st === 'tested') doneNodes++;
+      }
+    }
+    const pct = totalNodes > 0 ? Math.round((doneNodes / totalNodes) * 100) : 0;
+    return { ...d, unitCount: dUnits.length, totalNodes, doneNodes, crowns, pct };
+  });
+
+  // Build 8-axis SVG Radar Chart
+  const cx = 130, cy = 130, maxR = 88;
+  const angles = statsByDomain.map((_, i) => (Math.PI * 2 * i) / statsByDomain.length - Math.PI / 2);
+  const gridRings = [0.25, 0.5, 0.75, 1].map(r => {
+    const pts = angles.map(a => `${(cx + Math.cos(a) * maxR * r).toFixed(1)},${(cy + Math.sin(a) * maxR * r).toFixed(1)}`).join(' ');
+    return `<polygon points="${pts}" fill="none" stroke="var(--border)" stroke-width="1" stroke-dasharray="${r < 1 ? '2,2' : ''}"/>`;
+  }).join('');
+
+  const axesLines = angles.map((a, i) => {
+    const x2 = (cx + Math.cos(a) * maxR).toFixed(1);
+    const y2 = (cy + Math.sin(a) * maxR).toFixed(1);
+    const lx = (cx + Math.cos(a) * (maxR + 24)).toFixed(1);
+    const ly = (cy + Math.sin(a) * (maxR + 20)).toFixed(1);
+    return `
+      <line x1="${cx}" y1="${cy}" x2="${x2}" y2="${y2}" stroke="var(--border)" stroke-width="1"/>
+      <text x="${lx}" y="${ly}" font-size="10" font-weight="800" fill="var(--text)" text-anchor="middle" dominant-baseline="middle">${statsByDomain[i].id} ${statsByDomain[i].pct}%</text>
+    `;
+  }).join('');
+
+  const dataPts = statsByDomain.map((d, i) => {
+    const ratio = Math.max(0.12, d.pct / 100);
+    const x = (cx + Math.cos(angles[i]) * maxR * ratio).toFixed(1);
+    const y = (cy + Math.sin(angles[i]) * maxR * ratio).toFixed(1);
+    return `${x},${y}`;
+  }).join(' ');
+
+  return `
+    <section class="card" style="margin-top:1.25rem;">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.85rem;">
+        <div>
+          <h3>📊 108 課綱八大領域精熟度雷達與進度圖表</h3>
+          <p class="small muted">即時統計全站 188 個單元、940 道關卡節點與金冠進度</p>
+        </div>
+      </div>
+      <div class="quest-radar-layout">
+        <div class="quest-radar-svg-box">
+          <svg viewBox="0 0 260 260" style="width:100%;max-width:250px;display:block;margin:0 auto;" role="img" aria-label="八大領域精熟度雷達圖">
+            ${gridRings}
+            ${axesLines}
+            <polygon points="${dataPts}" fill="rgba(45, 106, 79, 0.28)" stroke="var(--primary)" stroke-width="2.5"/>
+          </svg>
+        </div>
+        <div class="quest-domain-bars">
+          ${statsByDomain.map(d => `
+            <div class="q-domain-row">
+              <div style="display:flex;justify-content:space-between;font-size:0.84rem;margin-bottom:0.2rem;">
+                <b>${d.icon} ${d.label} (${d.unitCount} 單元)</b>
+                <span class="muted">${d.doneNodes}/${d.totalNodes} 關 · 👑 ${d.crowns} (${d.pct}%)</span>
+              </div>
+              <div class="progress" style="height:9px;"><span style="width:${d.pct}%"></span></div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    </section>
+  `;
+}
+
 // -------------------------------------------------------------
 // Core Render & Event Dispatcher
 // -------------------------------------------------------------
@@ -973,13 +1443,36 @@ function render() {
   else if (ui.tab === 'leaderboard') body = leaderboardPage();
   else if (ui.tab === 'practice') {
     const due = game.dueUnits();
+    const quickScopes = [
+      ['all', '🌟 全科隨機快篩 (10題)'],
+      ['s1', '🌱 七上快篩'],
+      ['s2', '🌿 七下快篩'],
+      ['s3', '🔬 八上快篩'],
+      ['s4', '📐 八下快篩'],
+      ['s5', '🧭 九上快篩'],
+      ['s6', '👑 九下快篩'],
+      ['b-math', '📐 數學專精'],
+      ['b-science', '🔬 自然專精'],
+      ['b-social', '🌍 社會專精'],
+      ['b-cap', '🎯 會考真題']
+    ];
     body = `
-      <h1>💪 全科鞏固練習</h1>
-      <p class="muted">錯題溫故、到期間隔複習與專項弱點特訓。</p>
-      <div style="display:flex;flex-direction:column;gap:1rem;margin-top:1.5rem;">
+      <h1>💪 全科鞏固練習與快篩評量</h1>
+      <p class="muted">10 題閃電快篩、錯題本溫故、科學間隔複習與全科程度定位診斷。</p>
+      <div style="display:flex;flex-direction:column;gap:1rem;margin-top:1.25rem;">
+        <div class="card">
+          <div class="guide-section-badge">⚡ 形成性即時評量 · 10 題閃電快篩</div>
+          <h3 style="margin-top:0.25rem;">⚡ 選擇學期或領域，立即抽 10 題實戰驗收</h3>
+          <p class="muted small">不扣心心、即時獲得三步修補診斷與 +10 XP 學習能量！</p>
+          <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.75rem;">
+            ${quickScopes.map(([tid, label], idx) => `
+              <button class="btn ${idx === 0 ? 'primary' : 'ghost'} small" data-act="quick-assess" data-id="${tid}">${label}</button>
+            `).join('')}
+          </div>
+        </div>
         <div class="card">
           <h3>📕 錯題本消剿 (${game.mistakeCount()} 題)</h3>
-          <p class="muted small">連續答對 2 次即可自錯題本畢業。</p>
+          <p class="muted small">連續答對 2 次即可自錯題本畢業，把弱點徹底轉化為得分點。</p>
           <button class="btn primary small" data-act="start" data-mode="mistakes" data-id="all" style="margin-top:0.75rem;" ${game.mistakeCount() ? '' : 'disabled'}>開始訂正練習</button>
         </div>
         <div class="card">
@@ -988,8 +1481,8 @@ function render() {
           ${due.length ? due.map(uid => `<button class="btn ghost small" data-act="start" data-mode="review" data-id="${uid}" style="margin:0.25rem;">複習 ${esc(course.units.get(uid)?.title || uid)}</button>`).join('') : '<p class="muted small" style="margin-top:0.5rem;">目前無到期單元，保持得很好！</p>'}
         </div>
         <div class="card">
-          <h3>🧭 全科程度定位檢測</h3>
-          <p class="muted small">隨時自我評估當前學力水準。</p>
+          <h3>🧭 全科程度定位檢測 (10 / 20 / 30 題)</h3>
+          <p class="muted small">跨學期抽樣診斷，產出六學期強弱項分析報告並推薦最適起點。</p>
           <button class="btn ghost small" data-act="placement" style="margin-top:0.5rem;">開啟程度檢測</button>
         </div>
       </div>
@@ -1014,34 +1507,68 @@ function render() {
     const filtered = ui.libFilter ? allUnits.filter(u => u.title.includes(ui.libFilter) || (u.subjectName || '').includes(ui.libFilter)) : allUnits;
 
     body = `
-      <h1>📚 108 課綱 188 個單元總覽</h1>
-      <p class="muted">國中三年六學期全單元指南、知識點圖解與板書公式查閱。</p>
-      <div style="margin:1rem 0;">
-        <input type="search" placeholder="🔍 搜尋單元名稱或學科..." value="${esc(ui.libFilter)}" data-act="lib-search" style="width:100%;max-width:400px;padding:0.6rem 1rem;border-radius:var(--radius);border:1px solid var(--border);background:var(--card-bg);color:var(--text);">
+      <h1>📚 108 課綱 188 個單元三版教材總覽</h1>
+      <p class="muted">國中三年六學期全單元指南、康軒/翰林/南一三版對照、知識點圖解與闖關捷徑。</p>
+      <div style="margin:1rem 0;display:flex;flex-wrap:wrap;gap:0.75rem;align-items:center;">
+        <input type="search" placeholder="🔍 搜尋單元名稱或學科..." value="${esc(ui.libFilter)}" data-act="lib-search" style="flex:1;min-width:220px;max-width:400px;padding:0.6rem 1rem;border-radius:var(--radius);border:1px solid var(--border);background:var(--card-bg);color:var(--text);">
+        <div class="subject-filter-bar">
+          ${QUEST_PUBLISHERS.map(p => `
+            <button class="subj-pill pub-pill ${ui.pubFilter === p.id ? 'active' : ''}" data-act="filter-pub" data-pub="${p.id}">
+              ${p.icon} ${p.label}
+            </button>
+          `).join('')}
+        </div>
       </div>
       <div style="display:flex;flex-direction:column;gap:0.75rem;margin-top:1rem;">
-        ${filtered.map(u => `
-          <div class="card" style="display:flex;justify-content:space-between;align-items:center;">
-            <div>
-              <b>${u.icon || '📖'} ${esc(u.title)}</b>
-              <small class="muted" style="margin-left:0.5rem;">${u.gradeName || `${u.grade}年級`} · ${u.subjectName || ''}</small>
+        ${filtered.map(u => {
+          const doneCnt = (u.nodes || []).filter(n => ['done', 'crowned', 'tested'].includes(game.nodeStatus(n.id))).length;
+          return `
+            <div class="card lib-unit-row" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.75rem;">
+              <div>
+                <b>${u.icon || '📖'} ${esc(u.title)}</b>
+                <small class="muted" style="margin-left:0.5rem;">${u.gradeName || `${u.grade}年級`} · ${u.subjectName || ''} · ⭐ ${doneCnt}/${(u.nodes || []).length || 5} 關</small>
+              </div>
+              <div style="display:flex;gap:0.45rem;flex-wrap:wrap;">
+                <button class="btn ghost small" data-act="guide" data-id="${u.id}">📘 單元指南</button>
+                <button class="btn primary small" data-act="jump-unit" data-unit="${u.id}">🎮 前往闖關</button>
+              </div>
             </div>
-            <button class="btn ghost small" data-act="guide" data-id="${u.id}">單元指南</button>
-          </div>
-        `).join('')}
+          `;
+        }).join('')}
       </div>
     `;
   } else if (ui.tab === 'profile') {
     const st = game.state;
+    const goalOpts = [
+      ['casual', '輕鬆 10 XP'],
+      ['regular', '標準 20 XP'],
+      ['serious', '充實 30 XP'],
+      ['intense', '衝刺 50 XP']
+    ];
     body = `
-      <h1>🙂 我的自學檔案</h1>
-      <div class="card" style="margin-top:1rem;display:flex;gap:1.5rem;align-items:center;">
-        ${mascot('happy', 64)}
-        <div>
-          <h3>連續自學 ${game.streak()} 天 · 累積 ${st.xp.total} XP</h3>
-          <p class="muted small">已收穫 ${st.stats.crowns} 頂金冠 👑 · 完成 ${st.stats.lessons} 關課程 · 開啟 ${Object.keys(st.chests || {}).length} 個寶箱 🎁</p>
+      <h1>🙂 我的自學檔案與能力分析</h1>
+      <div class="card" style="margin-top:1rem;display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;justify-content:space-between;">
+        <div style="display:flex;gap:1.25rem;align-items:center;">
+          ${mascot('happy', 64)}
+          <div>
+            <h3>連續自學 ${game.streak()} 天 · 累積 ${st.xp.total} XP</h3>
+            <p class="muted small">已收穫 ${st.stats.crowns} 頂金冠 👑 · 完成 ${st.stats.lessons} 關課程 · 開啟 ${Object.keys(st.chests || {}).length} 個寶箱 🎁</p>
+          </div>
         </div>
+        <button class="btn ghost small" data-act="export-quest-data">💾 匯出學習紀錄備份</button>
       </div>
+
+      <section class="card" style="margin-top:1rem;">
+        <h3>🎯 每日自學目標設定</h3>
+        <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.65rem;">
+          ${goalOpts.map(([gid, glabel]) => `
+            <button class="subj-pill ${st.profile?.goal === gid ? 'active' : ''}" data-act="set-goal" data-goal="${gid}">${glabel}</button>
+          `).join('')}
+        </div>
+      </section>
+
+      ${renderQuestDomainRadar()}
+
       <h3 style="margin-top:1.5rem;">🏆 成就徽章</h3>
       <div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(180px, 1fr));gap:0.75rem;margin-top:0.75rem;">
         ${BADGES.map(b => `
@@ -1062,12 +1589,48 @@ function render() {
 // -------------------------------------------------------------
 // Event Handling & Wire-up
 // -------------------------------------------------------------
-window.addEventListener('hashchange', () => {
-  const hash = location.hash.replace(/^#/, '');
-  if (['learn', 'practice', 'leaderboard', 'stories', 'library', 'profile'].includes(hash)) {
-    ui.tab = hash;
+async function handleHashRoute() {
+  const rawHash = location.hash.replace(/^#\/?/, '');
+  if (!rawHash) return;
+
+  if (['learn', 'practice', 'leaderboard', 'stories', 'library', 'profile'].includes(rawHash)) {
+    ui.tab = rawHash;
     render();
+    return;
   }
+
+  const [prefix, targetId] = rawHash.split('/');
+  if ((prefix === 'unit' || prefix === 'guide') && targetId && course) {
+    const sec = course.index.sections.find(s => (s.units || []).some(u => u.id === targetId));
+    const secId = sec?.id || 's1';
+    ui.track = secId;
+    ui.tab = 'learn';
+    ui.gradeFilter = 'all';
+    ui.catFilter = 'all';
+    await ensure([secId, 'items']);
+    const unitObj = course.track(secId)?.units?.find(u => u.id === targetId);
+    if (prefix === 'guide') {
+      ui.guide = targetId;
+      ui.guideTab = 'kp';
+      ui.modal = 'guide';
+      render();
+    } else {
+      ui.modal = null;
+      if (unitObj?.nodes?.length) {
+        const availNode = unitObj.nodes.find(n => game.nodeStatus(n.id) === 'available') || unitObj.nodes[0];
+        ui.pop = availNode.id;
+      }
+      render();
+      setTimeout(() => {
+        const el = document.getElementById(`unit-card-${targetId}`);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 60);
+    }
+  }
+}
+
+window.addEventListener('hashchange', () => {
+  handleHashRoute();
 });
 
 // Keyboard shortcuts for seamless learning
@@ -1155,6 +1718,62 @@ document.addEventListener('click', async e => {
   if (act === 'sound-toggle') {
     sound.toggleMute();
     render();
+  } else if (act === 'theme-toggle') {
+    const idx = QUEST_THEMES.findIndex(t => t.id === ui.theme);
+    const next = QUEST_THEMES[(idx + 1) % QUEST_THEMES.length];
+    applyQuestTheme(next.id);
+    toast(`${next.icon} 已切換為「${next.label}」主題配色`);
+    render();
+  } else if (act === 'filter-pub' || act === 'guide-pub') {
+    const pub = actBtn.dataset.pub || 'all';
+    setQuestPublisher(pub);
+    toast(`📚 已切換課本版本焦點：${pub === 'all' ? '三版通用全對照' : pub + '版教材'}`);
+    render();
+  } else if (act === 'guide-tab') {
+    ui.guideTab = actBtn.dataset.gtab || 'kp';
+    render();
+  } else if (act === 'guide-blindfold') {
+    const kpKey = actBtn.dataset.kp;
+    if (kpKey) {
+      ui.blindfoldedKps[kpKey] = !ui.blindfoldedKps[kpKey];
+      render();
+    }
+  } else if (act === 'start-unit-from-guide') {
+    const uid = actBtn.dataset.unit;
+    ui.modal = null;
+    ui.guide = null;
+    location.hash = `#unit/${uid}`;
+    await handleHashRoute();
+  } else if (act === 'jump-unit') {
+    const uid = actBtn.dataset.unit;
+    location.hash = `#unit/${uid}`;
+    await handleHashRoute();
+  } else if (act === 'quick-assess') {
+    const scopeId = actBtn.dataset.id || 'all';
+    const needIds = scopeId === 'all' ? ['s1', 's2', 's3', 's4', 's5', 's6', 'items'] : [scopeId, 'items'];
+    if (!await ensure(needIds)) return;
+    if (game.startSession('quick', scopeId)) {
+      ui.a = freshAnswer();
+      render();
+    }
+  } else if (act === 'set-goal') {
+    const goal = actBtn.dataset.goal;
+    game.setProfile({ goal });
+    toast('🎯 每日自學目標已更新！');
+    render();
+  } else if (act === 'export-quest-data') {
+    try {
+      const blob = new Blob([JSON.stringify(game.state, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `知行Quest-學習備份-${game.today()}.json`;
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+      toast('💾 學習紀錄備份已匯出！');
+    } catch {
+      toast('匯出失敗，請稍後再試');
+    }
   } else if (act === 'cycle-msg') {
     ui.msgIdx++;
     render();
@@ -1219,7 +1838,13 @@ document.addEventListener('click', async e => {
     ui.subjFilter = actBtn.dataset.sub;
     render();
   } else if (act === 'guide') {
-    ui.guide = actBtn.dataset.id;
+    const uid = actBtn.dataset.id;
+    const sec = course.index.sections.find(s => (s.units || []).some(u => u.id === uid));
+    if (sec && !course.loaded(sec.id)) {
+      await ensure([sec.id, 'items']);
+    }
+    ui.guide = uid;
+    ui.guideTab = 'kp';
     ui.modal = 'guide';
     render();
   } else if (act === 'close') {
@@ -1359,9 +1984,8 @@ async function init() {
     // Preload section 1 and items
     await ensure(['s1', 'items', 'stories']);
 
-    const hash = location.hash.replace(/^#/, '');
-    if (['learn', 'practice', 'leaderboard', 'stories', 'library', 'profile'].includes(hash)) {
-      ui.tab = hash;
+    if (location.hash) {
+      await handleHashRoute();
     }
     render();
   } catch (err) {

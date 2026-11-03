@@ -291,6 +291,33 @@ check('Specialized & arts/tech subjects have 34 units', specializedUnits.length 
 check('All 188 units have valid gradeName and gradeTermName', allUnits.every(u => u.gradeName && u.gradeTermName));
 
 // -----------------------------------------------------------------
+// 8. Enriched 4-Tab Unit Guides, Publisher Matrix, Quick Assessment & Multi-Device CSS
+// -----------------------------------------------------------------
+console.log('\n--- 8. Enriched Guides, Publisher Matrix & Multi-Device UX ---');
+check('All 188 unit guides registered in mockCourse', mockCourse.guides.size === 188);
+let allGuidesEnriched = true;
+for (const [, g] of mockCourse.guides.entries()) {
+  if (!g.publisherGuide || !Array.isArray(g.publisherGuide.publishers) || g.publisherGuide.publishers.length !== 3) {
+    allGuidesEnriched = false;
+    break;
+  }
+  if (!g.chart || !g.contrast || !Array.isArray(g.knowledgePoints) || !g.knowledgePoints[0]?.bloom) {
+    allGuidesEnriched = false;
+    break;
+  }
+}
+check('All 188 Quest unit guides include 3-publisher matrix, charts, contrasts & 4D knowledge points', allGuidesEnriched);
+
+const quickOk = game.startSession('quick', 's1');
+check('Quick formative assessment session starts cleanly for s1', quickOk === true && game.state.session?.queue?.length === 10);
+game.clearSession();
+
+const questCssRaw = fs.readFileSync(path.join(questDir, 'quest.css'), 'utf8');
+check('quest.css includes 4-theme palettes (day/paper/dark)', questCssRaw.includes('[data-theme="day"]') && questCssRaw.includes('[data-theme="paper"]') && questCssRaw.includes('[data-theme="dark"]'));
+check('quest.css includes mobile portrait & landscape split-screen ergonomics', questCssRaw.includes('.mobile-status-strip') && questCssRaw.includes('.lesson-split-wrap.has-stimulus') && questCssRaw.includes('@media (orientation: landscape)'));
+
+
+// -----------------------------------------------------------------
 // Summary
 // -----------------------------------------------------------------
 console.log('\n====================================================');

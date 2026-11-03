@@ -7136,4 +7136,653 @@ summary {
   border-left-color: #9333ea;
 }
 
+/* ==========================================================================
+   V21 UPGRADE: 108 課綱三版教材對照導航矩陣 & 響應式雙模表格 & 全裝置人體工學
+   ========================================================================== */
+
+/* 1. Publisher Matrix Section & Switcher Bar */
+.publisher-matrix-section {
+  background: var(--surface, #ffffff);
+  border: 1.5px solid var(--border, #d8e2dc);
+  border-radius: 14px;
+  padding: 20px 22px;
+  margin: 22px 0;
+  box-shadow: 0 4px 16px rgba(25, 62, 53, 0.05);
+}
+
+.pub-matrix-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px dashed var(--border, #d8e2dc);
+}
+
+.pub-matrix-title-group h2 {
+  margin: 4px 0 6px;
+  font-size: 1.32rem;
+}
+
+.pub-switcher-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.pub-switch-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1.5px solid var(--border, #d8e2dc);
+  background: var(--surface-alt, #f4f7f5);
+  color: var(--text, #1d2d27);
+  font-size: 0.86rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.pub-switch-btn:hover {
+  border-color: var(--brand, #193e35);
+  transform: translateY(-1px);
+}
+
+.pub-switch-btn.active {
+  background: var(--brand, #193e35);
+  color: #ffffff;
+  border-color: var(--brand, #193e35);
+  box-shadow: 0 3px 10px rgba(25, 62, 53, 0.18);
+}
+
+.pub-toc-keywords-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  background: var(--surface-alt, #f4f7f5);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+}
+
+.pub-kw-label {
+  font-size: 0.86rem;
+  font-weight: 800;
+  color: var(--brand, #193e35);
+}
+
+.pub-kw-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.pub-kw-chip {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 6px;
+  background: var(--surface, #ffffff);
+  border: 1px solid var(--border, #d8e2dc);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text, #1d2d27);
+}
+
+.pub-official-refs-box {
+  background: rgba(45, 106, 79, 0.05);
+  border-left: 4px solid var(--brand, #193e35);
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+}
+
+.pub-refs-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.pub-refs-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 8px;
+}
+
+.pub-ref-item {
+  background: var(--surface, #ffffff);
+  border: 1px solid var(--border, #d8e2dc);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 0.85rem;
+}
+
+.pub-ref-item p {
+  margin: 4px 0 0;
+  color: var(--muted, #556b61);
+  line-height: 1.5;
+}
+
+.pub-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.pub-cards-grid.single-focus {
+  grid-template-columns: 1fr;
+}
+
+.pub-version-card {
+  background: var(--surface, #ffffff);
+  border: 1.5px solid var(--pub-border, var(--border));
+  border-top: 4px solid var(--pub-accent, var(--brand));
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.pub-version-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.pub-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pub-badge {
+  font-weight: 800;
+  font-size: 1rem;
+  color: var(--pub-accent, var(--brand));
+}
+
+.pub-status-pill {
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.pub-status-pill.documented {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.pub-status-pill.guided {
+  background: #e0f2fe;
+  color: #1e40af;
+}
+
+.pub-chapter-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pub-chapter-list li {
+  background: var(--pub-tint, var(--surface-alt));
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 0.86rem;
+}
+
+.pub-chapter-guide-note {
+  background: var(--surface-alt, #f4f7f5);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 0.85rem;
+  line-height: 1.55;
+}
+
+.pub-meta-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
+.pub-universal-flow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.pub-step-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background: var(--surface-alt, #f4f7f5);
+  border: 1px solid var(--border, #d8e2dc);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.pub-step-num {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--brand, #193e35);
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 800;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.pub-step-body strong {
+  display: block;
+  font-size: 0.88rem;
+  margin-bottom: 2px;
+}
+
+.pub-step-body p {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--muted, #556b61);
+  line-height: 1.45;
+}
+
+.pub-matrix-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border, #d8e2dc);
+}
+
+.pub-matrix-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pub-matrix-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.pub-main-pill,
+.pub-semester-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  background: var(--surface-alt, #f4f7f5);
+  color: var(--brand, #193e35);
+  border: 1px solid var(--border, #d8e2dc);
+}
+
+.pub-quest-launch-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.pub-quest-launch-btn small {
+  display: block;
+  font-size: 0.74rem;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.pub-meta-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  background: var(--surface-alt, #f4f7f5);
+  border: 1px solid var(--border, #d8e2dc);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin: 12px 0 16px;
+}
+
+.pub-keywords-group,
+.pub-official-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.pub-meta-label {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--brand, #193e35);
+}
+
+.pub-keyword-chips,
+.pub-code-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.pub-code-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 9px;
+  border-radius: 6px;
+  background: var(--surface, #ffffff);
+  border: 1px solid var(--border, #d8e2dc);
+  font-size: 0.8rem;
+  color: var(--brand, #193e35);
+  text-decoration: none;
+}
+
+.pub-code-chip:hover {
+  border-color: var(--brand, #193e35);
+}
+
+.pub-version-card.pub-康軒 { --pub-accent: #1b6ca8; --pub-tint: #eef7fc; }
+.pub-version-card.pub-翰林 { --pub-accent: #2b6a4f; --pub-tint: #eef8f3; }
+.pub-version-card.pub-南一 { --pub-accent: #c25900; --pub-tint: #fef5ec; }
+
+.pub-version-card.is-selected {
+  border-color: var(--pub-accent, var(--brand));
+  box-shadow: 0 6px 18px rgba(25, 62, 53, 0.12);
+}
+
+.pub-version-card.is-secondary {
+  opacity: 0.84;
+}
+
+.pub-card-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pub-card-Brand h4,
+.pub-card-brand h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.pub-style-tag {
+  font-size: 0.76rem;
+  color: var(--muted, #556b61);
+}
+
+.pub-selected-badge {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--pub-accent, var(--brand));
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.pub-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pub-field-box {
+  background: var(--surface-alt, #f4f7f5);
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.pub-field-label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--pub-accent, var(--brand));
+  margin-bottom: 3px;
+}
+
+.pub-field-box p {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+/* Unit Card Publisher Focus Pill & Keywords */
+.unit-pub-focus-pill {
+  background: var(--pub-tint, #eef7f2);
+  border-left: 3px solid var(--pub-accent, var(--brand));
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  margin: 8px 0;
+  color: var(--text, #1d2d27);
+}
+
+.unit-pub-focus-pill span {
+  font-weight: 800;
+  color: var(--pub-accent, var(--brand));
+}
+
+.unit-pub-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  margin: 6px 0;
+  font-size: 0.78rem;
+  color: var(--muted, #556b61);
+}
+
+.unit-pub-keywords code {
+  background: var(--surface-alt, #f4f7f5);
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 0.76rem;
+}
+
+/* 2. Responsive Teaching Table Toolbar & Dual-Mode Card View */
+.table-view-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 6px;
+}
+
+.table-view-toggle-group {
+  display: inline-flex;
+  gap: 4px;
+  background: var(--surface-alt, #f4f7f5);
+  padding: 3px;
+  border-radius: 8px;
+  border: 1px solid var(--border, #d8e2dc);
+}
+
+.table-view-btn {
+  border: none;
+  background: transparent;
+  color: var(--muted, #556b61);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.table-view-btn.active {
+  background: var(--surface, #ffffff);
+  color: var(--brand, #193e35);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* Explicit Card Mode or Mobile Auto Card Mode for Teaching Tables */
+.responsive-teaching-wrap[data-table-mode="cards"] .teaching-table thead {
+  display: none;
+}
+
+.responsive-teaching-wrap[data-table-mode="cards"] .teaching-table,
+.responsive-teaching-wrap[data-table-mode="cards"] .teaching-table tbody {
+  display: block;
+  width: 100%;
+}
+
+.responsive-teaching-wrap[data-table-mode="cards"] .teaching-table tbody tr {
+  display: block;
+  background: var(--surface, #ffffff);
+  border: 1px solid var(--border, #d8e2dc);
+  border-left: 4px solid var(--brand, #193e35);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+}
+
+.responsive-teaching-wrap[data-table-mode="cards"] .teaching-table tbody th,
+.responsive-teaching-wrap[data-table-mode="cards"] .teaching-table tbody td {
+  display: block;
+  width: 100% !important;
+  border: none;
+  padding: 4px 0;
+  text-align: left;
+}
+
+.responsive-teaching-wrap[data-table-mode="cards"] .teaching-table tbody td::before {
+  content: attr(data-label) "：";
+  font-weight: 800;
+  color: var(--brand, #193e35);
+  font-size: 0.82rem;
+}
+
+/* 3. Mobile Portrait Optimization (<= 600px) */
+@media (max-width: 600px) {
+  .responsive-teaching-wrap[data-table-mode="auto"] .teaching-table thead {
+    display: none;
+  }
+  .responsive-teaching-wrap[data-table-mode="auto"] .teaching-table,
+  .responsive-teaching-wrap[data-table-mode="auto"] .teaching-table tbody {
+    display: block;
+    width: 100%;
+  }
+  .responsive-teaching-wrap[data-table-mode="auto"] .teaching-table tbody tr {
+    display: block;
+    background: var(--surface, #ffffff);
+    border: 1px solid var(--border, #d8e2dc);
+    border-left: 4px solid var(--brand, #193e35);
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+  }
+  .responsive-teaching-wrap[data-table-mode="auto"] .teaching-table tbody th,
+  .responsive-teaching-wrap[data-table-mode="auto"] .teaching-table tbody td {
+    display: block;
+    width: 100% !important;
+    border: none;
+    padding: 4px 0;
+    text-align: left;
+  }
+  .responsive-teaching-wrap[data-table-mode="auto"] .teaching-table tbody td::before {
+    content: attr(data-label) "：";
+    font-weight: 800;
+    color: var(--brand, #193e35);
+    font-size: 0.82rem;
+  }
+
+  .publisher-matrix-section {
+    padding: 14px 14px;
+    margin: 16px 0;
+  }
+  .pub-cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .lesson-journey-nav {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    gap: 6px;
+    padding: 8px 4px;
+  }
+  .lesson-journey-nav::-webkit-scrollbar {
+    display: none;
+  }
+  .topbar .top-actions {
+    overflow-x: auto;
+    max-width: 100%;
+    scrollbar-width: none;
+  }
+  .topbar .top-actions::-webkit-scrollbar {
+    display: none;
+  }
+  #main {
+    padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+/* 4. Tablet & Landscape Ergonomics (768px - 1180px & orientation: landscape) */
+@media (min-width: 768px) and (max-width: 1180px) {
+  .pub-cards-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+@media (orientation: landscape) and (max-height: 540px) {
+  .topbar {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    min-height: 44px;
+  }
+  .mobile-bottom-nav {
+    height: 48px;
+  }
+  .publisher-matrix-section {
+    padding: 12px 16px;
+  }
+}
+
+/* Dark Theme Adaptations for Publisher Matrix */
+[data-theme="dark"] .publisher-matrix-section,
+[data-theme="dark"] .pub-version-card,
+[data-theme="dark"] .pub-ref-item {
+  background: #182229;
+  border-color: #2b3945;
+}
+[data-theme="dark"] .pub-toc-keywords-bar,
+[data-theme="dark"] .pub-step-card,
+[data-theme="dark"] .pub-chapter-guide-note {
+  background: #121a20;
+  border-color: #2b3945;
+}
+[data-theme="dark"] .pub-chapter-list li,
+[data-theme="dark"] .unit-pub-focus-pill {
+  background: rgba(45, 106, 79, 0.18);
+  color: #e2e8f0;
+}
+
+
 
