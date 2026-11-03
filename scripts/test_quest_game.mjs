@@ -105,8 +105,10 @@ test('4. Boss Challenge: Hearts & 80% Threshold', () => {
   // Exhaust all hearts
   game.checkAnswer('WRONG_1');
   assert.equal(game.state.session.hearts, 2);
+  game.nextStep();
   game.checkAnswer('WRONG_2');
   assert.equal(game.state.session.hearts, 1);
+  game.nextStep();
   game.checkAnswer('WRONG_3');
   assert.equal(game.state.session.hearts, 0);
 

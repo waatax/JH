@@ -22,7 +22,7 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({
 export const PUBLISHER_STORAGE_KEY = 'zhixing-publisher-pref-v1';
 
 export const PUBLISHERS = [
-  { id: 'all', name: '三版全對照', label: '三版全對照', short: '全版本', icon: '🌟', color: '#193e35', badge: '康軒・翰林・南一 共通與差異全覽' },
+  { id: 'all', name: '三版核心導航', label: '三版核心導航', short: '三版本', icon: '🌟', color: '#193e35', badge: '康軒・翰林・南一 核心觀念查找' },
   { id: '康軒', name: '康軒版', label: '康軒版', short: '康軒', icon: '📗', color: '#1b6ca8', badge: '生活情境導入・圖表直覺建模' },
   { id: '翰林', name: '翰林版', label: '翰林版', short: '翰林', icon: '📘', color: '#2b6a4f', badge: '階梯邏輯推演・嚴謹定義辨析' },
   { id: '南一', name: '南一版', label: '南一版', short: '南一', icon: '📙', color: '#c25900', badge: '探究步驟拆解・考場避坑實戰' }
@@ -101,7 +101,7 @@ export function getPublisherGuideForUnit(uOrId) {
       id: '康軒',
       name: '康軒版',
       icon: '📗',
-      styleTag: '生活情境導入・圖表直覺建模',
+      styleTag: '本站建議：從實例理解',
       documented: byPub.康軒,
       chapterStatus: byPub.康軒.length
         ? byPub.康軒.map(x => x.title.replace(/\n/g, ' ')).join('；')
@@ -114,7 +114,7 @@ export function getPublisherGuideForUnit(uOrId) {
       id: '翰林',
       name: '翰林版',
       icon: '📘',
-      styleTag: '階梯邏輯推演・嚴謹定義辨析',
+      styleTag: '本站建議：比較判準',
       documented: byPub.翰林,
       chapterStatus: byPub.翰林.length
         ? byPub.翰林.map(x => x.title.replace(/\n/g, ' ')).join('；')
@@ -127,7 +127,7 @@ export function getPublisherGuideForUnit(uOrId) {
       id: '南一',
       name: '南一版',
       icon: '📙',
-      styleTag: '探究步驟拆解・考場避坑實戰',
+      styleTag: '本站建議：動手推理',
       documented: byPub.南一,
       chapterStatus: byPub.南一.length
         ? byPub.南一.map(x => x.title.replace(/\n/g, ' ')).join('；')
@@ -181,11 +181,11 @@ export function renderPublisherMatrixSection(uOrId, activePub = getPreferredPubl
       <div class="pub-matrix-header">
         <div class="pub-matrix-title-group">
           <div class="pub-matrix-badges">
-            <span class="pub-main-pill">📚 108 課綱全版本教材自學導航</span>
+            <span class="pub-main-pill">📚 108 課綱跨版本核心導航</span>
             <span class="pub-semester-pill">🗓️ 建議進度：${esc(guide.gradeTerm)}</span>
           </div>
           <h3>康軒・翰林・南一 跨版本核心焦點與段考雷達：${esc(guide.title)}</h3>
-          <p class="pub-matrix-sub">不論學校使用哪一個出版社版本，108 課綱的核心素養與會考命題指標皆完全相通。選擇你的課本版本，即刻鎖定學習焦點！</p>
+          <p class="pub-matrix-sub">本站以原創教材整理共通核心概念。已收錄章節附公開計畫來源，其餘提供查找關鍵字，仍待核對各版年度、冊次與頁碼。下列自學建議由本站編寫，不代表出版社教材特色或完整收錄。</p>
         </div>
         <div class="pub-quest-cta-box">
           <a class="button pub-quest-launch-btn" href="./quest/#unit/${esc(guide.unitId)}">

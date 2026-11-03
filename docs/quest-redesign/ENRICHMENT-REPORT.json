@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-29.v1",
+  "version": "2026-11-03.v2",
   "metric": "Distinct learning activities per core unit; excludes repeated boss references. Reuses verified table facts in new retrieval exercises, not new syllabus coverage.",
   "units": [
     {
@@ -214,9 +214,9 @@
     },
     {
       "unitId": "math-7",
-      "baselineActivities": 15,
+      "baselineActivities": 14,
       "addedActivities": 2,
-      "increasePercent": 13.33
+      "increasePercent": 14.29
     },
     {
       "unitId": "math-8",
@@ -268,9 +268,9 @@
     },
     {
       "unitId": "biology-5",
-      "baselineActivities": 15,
+      "baselineActivities": 14,
       "addedActivities": 2,
-      "increasePercent": 13.33
+      "increasePercent": 14.29
     },
     {
       "unitId": "biology-6",
@@ -418,9 +418,9 @@
     },
     {
       "unitId": "physics-1",
-      "baselineActivities": 15,
+      "baselineActivities": 14,
       "addedActivities": 2,
-      "increasePercent": 13.33
+      "increasePercent": 14.29
     },
     {
       "unitId": "physics-2",

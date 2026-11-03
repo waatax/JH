@@ -1,8 +1,25 @@
 {
-  "version": "2026-10-29.v1",
-  "generatedAt": "2026-11-03T02:25:25.367Z",
+  "version": "2026-11-03.v2",
+  "generatedAt": "2026-11-03T09:26:22.210Z",
   "totalUnits": 188,
-  "totalItems": 4471,
+  "totalItems": 4468,
+  "publisherCoverage": [
+    {
+      "name": "康軒",
+      "total": 188,
+      "documented": 24
+    },
+    {
+      "name": "翰林",
+      "total": 188,
+      "documented": 4
+    },
+    {
+      "name": "南一",
+      "total": 188,
+      "documented": 6
+    }
+  ],
   "sections": [
     {
       "id": "s1",
@@ -1913,7 +1930,7 @@
               "kind": "rule",
               "title": "判準法則",
               "icon": "📐",
-              "size": 4
+              "size": 3
             },
             {
               "id": "math-7:reasoning",
@@ -2390,7 +2407,7 @@
               "kind": "rule",
               "title": "判準法則",
               "icon": "📐",
-              "size": 4
+              "size": 3
             },
             {
               "id": "biology-5:reasoning",
@@ -3729,7 +3746,7 @@
               "kind": "rule",
               "title": "判準法則",
               "icon": "📐",
-              "size": 4
+              "size": 3
             },
             {
               "id": "physics-1:reasoning",
@@ -12049,7 +12066,7 @@
               "kind": "rule",
               "title": "判準法則",
               "icon": "📐",
-              "size": 4
+              "size": 3
             },
             {
               "id": "math-7:reasoning",
@@ -13340,7 +13357,7 @@
               "kind": "rule",
               "title": "判準法則",
               "icon": "📐",
-              "size": 4
+              "size": 3
             },
             {
               "id": "biology-5:reasoning",
@@ -13442,7 +13459,7 @@
               "kind": "rule",
               "title": "判準法則",
               "icon": "📐",
-              "size": 4
+              "size": 3
             },
             {
               "id": "physics-1:reasoning",

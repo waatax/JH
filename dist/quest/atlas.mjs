@@ -19,7 +19,7 @@ export function courseAtlas(course, game, activeTrackId) {
     <div class="atlas-header">
       <div class="atlas-title-group">
         <h3>🗺️ 國中三年六學期學習地圖</h3>
-        <span class="atlas-sub">108 課綱 · 188 個核心單元 · 完整涵蓋基本與專業學科</span>
+        <span class="atlas-sub">108 課綱參照 · 188 個原創核心單元 · 各版章節請核對指南來源</span>
       </div>
       <div class="atlas-legend">
         <span class="legend-pill" title="全部六學期全科覆蓋">國 · 英 · 數 · 自 · 社 · 跨</span>

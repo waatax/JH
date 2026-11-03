@@ -1,19 +1,33 @@
 // dist/quest/placement.mjs
 // 10 / 20 / 30 question placement diagnostic test across Grades 7-9 & subjects
 
-export function makePlacement(size = 20, course) {
+export function makePlacement(size = 20, course, seed = 0) {
+  size = [10,20,30].includes(Number(size)) ? Number(size) : 20;
   const allItems = [...course.items.values()].filter(it => it.type === 'choice' && it.unitId);
   const sections = ['s1', 's2', 's3', 's4', 's5', 's6'];
   const queue = [];
 
-  // Stratified sample across s1..s6
-  const perSec = Math.max(1, Math.floor(size / sections.length));
-  for (const s of sections) {
+  const rank = id => {
+    let h = 2166136261;
+    for (const c of `${seed}:${id}`) h = Math.imul(h ^ c.codePointAt(0), 16777619);
+    return h >>> 0;
+  };
+  // Equal semester allocation, then one item per subject before repeating a subject.
+  for (const [index, s] of sections.entries()) {
     const secItems = allItems.filter(it => {
       const u = course.units.get(it.unitId);
       return u && u.track === s;
     });
-    const picked = secItems.slice(0, perSec);
+    const quota = Math.floor(size / sections.length) + (index < size % sections.length ? 1 : 0);
+    const ranked = secItems.sort((a,b)=>rank(a.id)-rank(b.id));
+    const subjects = new Set();
+    const diverse = ranked.filter(it=>{
+      const subject = course.units.get(it.unitId)?.subject;
+      if (subjects.has(subject)) return false;
+      subjects.add(subject);
+      return true;
+    });
+    const picked = [...diverse, ...ranked.filter(it=>!diverse.includes(it))].slice(0,quota);
     queue.push(...picked);
   }
 
@@ -49,13 +63,9 @@ export function placementReport(results, course) {
   }
 
   const accuracy = results.length ? correct / results.length : 0;
-  let recommended = 's1';
-  if (accuracy >= 0.85) recommended = 's6';
-  else if (accuracy >= 0.70) recommended = 's5';
-  else if (accuracy >= 0.55) recommended = 's4';
-  else if (accuracy >= 0.40) recommended = 's3';
-  else if (accuracy >= 0.25) recommended = 's2';
-  else recommended = 's1';
+  // Suggest the earliest observed gap, without inferring untested semester ability.
+  const measured = Object.keys(totalBySection).filter(s=>totalBySection[s]>0);
+  const recommended = measured.find(s=>bySection[s] < totalBySection[s]) || measured[0] || 's1';
 
   return {
     mode: 'placement',

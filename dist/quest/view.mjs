@@ -3,12 +3,13 @@
 // Duolingo-Like gamification with 108 Curriculum 6-semester mastery, S-curve trail,
 // weekly league leaderboard, unit treasure chests, and multi-modal practice.
 
-import { createCourse, createGame, isScored, shuffle, XP, HEARTS, BADGES, LEAGUES } from './engine.mjs?v=20261027v2';
+import { createCourse, createGame, isScored, shuffle, XP, HEARTS, BADGES, LEAGUES } from './engine.mjs?v=20261103v2';
 import * as sound from './sound.mjs?v=20261029v1';
 import { answerText, correctionTip, questionText, repairSteps } from './coach.mjs?v=20261029v1';
 import { courseAtlas, nextAdventure } from './atlas.mjs?v=20261027v2';
+import { visibleLearningUnits, recommendLearning, learningEvidence } from './learning-path.mjs?v=20261103v2';
 
-const V = '20261103v1';
+const V = '20261103v2';
 const root = document.querySelector('#game');
 let storage;
 try { storage = globalThis.localStorage; } catch {}
@@ -79,6 +80,7 @@ const ui = {
   gradeFilter: 'all', // 'all' | '7' | '8' | '9'
   catFilter: 'all',   // 'all' | 'core' | 'tech' | 'arts' | 'activity'
   subjFilter: 'all',
+  unitQuery: '',
   pubFilter: getInitialPublisher(), // 'all' | '康軒' | '翰林' | '南一'
   theme: getInitialTheme(),
   libFilter: '',
@@ -303,10 +305,6 @@ function mobileStatusStrip() {
         <span class="mss-label">🎯 今日目標 ${today}/${goal} XP</span>
         <div class="progress mss-bar"><span style="width:${pct}%"></span></div>
       </div>
-      <a class="mss-pill" href="#leaderboard" title="查看本週聯賽排名">
-        <span>${league.icon}</span>
-        <b>${league.tierName} #${league.userRank}</b>
-      </a>
       ${mist > 0 ? `<a class="mss-pill alert" href="#practice">📕 錯題 ${mist}</a>` : ''}
       ${due.length > 0 ? `<a class="mss-pill" href="#practice">↻ 複習 ${due.length}</a>` : ''}
     </section>
@@ -316,7 +314,7 @@ function mobileStatusStrip() {
 function layout(body) {
   const curTheme = QUEST_THEMES.find(t => t.id === ui.theme) || QUEST_THEMES[0];
   return `
-    <div class="shell">
+    <div class="shell ${ui.tab === 'learn' ? 'learning-shell' : ''}">
       <nav class="side" aria-label="主導覽">
         <a class="brand" href="#learn">
           ${mascot('happy', 44)}
@@ -327,7 +325,7 @@ function layout(body) {
             <i>${ic}</i><span>${t}</span>
           </a>
         `).join('')}
-        <a class="side-out" href="../#courses">← 回到主站研經地圖</a>
+        <a class="side-out" href="../#/courses">← 回到主站研經地圖</a>
       </nav>
 
       <div class="main-wrap">
@@ -342,7 +340,7 @@ function layout(body) {
         </header>
 
         <div class="main-layout">
-          <main id="main" class="main">
+          <main id="main" class="main" tabindex="-1">
             ${game.warning ? `<div class="warn">${esc(game.warning)}</div>` : ''}
             ${ui.busy ? `<div class="busy">${esc(ui.busy)}</div>` : ''}
             ${body}
@@ -395,106 +393,40 @@ function learnPage() {
   const t = course.track(ui.track);
   if (!t) return '<p>載入段落中…</p>';
 
-  const currentId = game.current(t.id);
-  const mission = nextAdventure(game, course, t.id);
-
-  // Companion speech
-  const speechBox = `
-    <div class="mascot-speech-wrap">
-      <div data-act="cycle-msg" style="cursor:pointer;" title="點擊換一句鼓勵話語">${mascot('happy', 52)}</div>
-      <div class="mascot-bubble">
-        <span>「${esc(companionMsg(game))}」</span>
-        <button class="btn ghost small" data-act="say" data-text="${esc(companionMsg(game))}" style="margin-left:0.5rem;padding:0.15rem 0.45rem;" title="朗讀">🔊</button>
-      </div>
-    </div>
-  `;
-
-  // Grade Quick Selector
-  const gradeFilters = [
-    ['all', '全部學年'],
-    ['7', '國一（七年級）'],
-    ['8', '國二（八年級）'],
-    ['9', '國三（九年級）']
-  ];
-
-  // Subject Category Filters (Basic vs Specialized 108 Curriculum)
-  const catFilters = [
-    ['all', '🌟 全部領域'],
-    ['core', '📚 核心五科 (國/英/數/自/社)'],
-    ['tech', '💻 專業科技 (資訊/生科)'],
-    ['arts', '🎨 藝術人文 (視覺/音樂/表演)'],
-    ['activity', '🏃 健體綜合 (健體/家政/童軍/輔導)']
-  ];
-
-  const filterBar = `
-    <div class="quest-filters-panel" style="margin-bottom:1.25rem;">
-      <div class="subject-filter-bar" style="margin-bottom:0.5rem;">
-        <span class="filter-row-label">📚 課本版本：</span>
-        ${QUEST_PUBLISHERS.map(p => `
-          <button class="subj-pill pub-pill ${ui.pubFilter === p.id ? 'active' : ''}" data-act="filter-pub" data-pub="${p.id}">
-            ${p.icon} ${p.label}
-          </button>
-        `).join('')}
-      </div>
-      <div class="subject-filter-bar" style="margin-bottom:0.5rem;">
-        <span class="filter-row-label">🎓 學年篩選：</span>
-        ${gradeFilters.map(([k, label]) => `
-          <button class="subj-pill ${ui.gradeFilter === k ? 'active' : ''}" data-act="filter-grade" data-grade="${k}">
-            ${label}
-          </button>
-        `).join('')}
-      </div>
-      <div class="subject-filter-bar">
-        <span class="filter-row-label">🧭 領域分類：</span>
-        ${catFilters.map(([k, label]) => `
-          <button class="subj-pill ${ui.catFilter === k ? 'active' : ''}" data-act="filter-cat" data-cat="${k}">
-            ${label}
-          </button>
-        `).join('')}
-      </div>
-    </div>
-  `;
-
-  // Filter units
-  let displayUnits = t.units;
-
-  // Grade filter
-  if (ui.gradeFilter !== 'all') {
-    const gNum = Number(ui.gradeFilter);
-    displayUnits = displayUnits.filter(u => u.grade === gNum);
-  }
-
-  // Category filter
-  if (ui.catFilter !== 'all') {
-    displayUnits = displayUnits.filter(u => u.category === ui.catFilter);
-  }
+  const displayUnits = visibleLearningUnits(t, {grade:ui.gradeFilter, category:ui.catFilter, subject:ui.subjFilter, query:ui.unitQuery});
+  const mission = recommendLearning(displayUnits, game);
+  const currentId = mission?.id;
 
   const unitsHtml = displayUnits.map((u, uiIdx) => unitBlock(t, u, uiIdx, currentId)).join('');
+  const subjects = [...new Map(t.units.map(u => [u.subject,u.subjectName])).entries()];
 
   return `
-    <section class="track-head ${t.id}">
-      <p class="eyebrow">${t.kind === 'section' ? `108 課綱 · ${t.gradeName || ''}${t.termName || `第 ${t.no} 段`}` : '專精目標分支'}</p>
-      <h1>${esc(t.title)}</h1>
-      <p>${esc(t.level)} · ${t.units.length} 個單元 · 康軒/翰林/南一三版全對齊</p>
+    <section class="learning-hero">
+      <div><p class="eyebrow">LEARN A LITTLE. GROW A LOT.</p>
+      <h1>今天，懂一點。</h1>
+      <p>選一個觀念，動手試一試。<br>答錯也能找到下一步。</p>
+      <span class="hero-term">${esc(t.title)} · ${displayUnits.length} 個符合單元</span></div>
+      <div class="hero-owl">${mascot('happy',112)}<span>每一小步，都算數。</span></div>
     </section>
-
     ${mobileStatusStrip()}
-    ${speechBox}
-
-    <section class="adventure">
-      <span>🧭</span>
-      <div>
-        <h2>${mission.title}</h2>
-        <p class="muted">${esc(mission.text)}</p>
+    ${mission ? `<section class="today-mission">
+      <div class="mission-heading"><div class="section-kicker">今天的一小關 / 先從這裡開始</div><a href="#study-controls" data-act="focus-study-controls">換科目 ↓</a></div>
+      <div class="mission-body"><span class="mission-icon" aria-hidden="true">${mission.unit.icon || '🌱'}</span><div><span class="small muted">${esc(mission.unit.subjectName)} · ${esc(t.title)}</span><h2>${esc(mission.unit.title)}</h2><p>${esc(mission.reason)}</p></div></div>
+      <div class="mission-actions"><button class="btn primary" data-act="start" data-mode="${mission.mode}" data-id="${mission.id}">${mission.label} →</button><button class="btn ghost" data-act="guide" data-id="${mission.unit.id}">先看圖解指南</button></div>
+      <ol class="learning-loop"><li><b>1</b> 看懂概念</li><li><b>2</b> 獨立試答</li><li><b>3</b> 看解說補強</li><li><b>4</b> 隔天再回想</li></ol>
+    </section>` : ''}
+    <section class="study-controls card" id="study-controls" aria-label="選擇學習範圍">
+      <div class="section-kicker">學習範圍 / 隨時可以切換</div>
+      <div class="study-selects">
+        <label>學期<select data-control="term" aria-label="學習學期">${course.tracks.map(s=>`<option value="${s.id}" ${s.id===ui.track?'selected':''}>${esc(s.title)}</option>`).join('')}</select></label>
+        <label>科目<select data-control="subject" aria-label="學習科目"><option value="all">全部科目</option>${subjects.map(([id,name])=>`<option value="${id}" ${ui.subjFilter===id?'selected':''}>${esc(name)}</option>`).join('')}</select></label>
+        <label>我的課本<select data-control="publisher" aria-label="我的課本版本">${QUEST_PUBLISHERS.map(p=>`<option value="${p.id}" ${ui.pubFilter===p.id?'selected':''}>${p.label}</option>`).join('')}</select></label>
       </div>
-      <button class="btn primary" data-act="start" data-mode="${mission.mode}" data-id="${mission.id}">
-        ${mission.label} →
-      </button>
+      <form class="unit-search" id="unit-search-form"><label class="sr-only" for="unit-query">搜尋目前範圍的單元</label><input id="unit-query" name="query" type="search" value="${esc(ui.unitQuery)}" placeholder="找觀念，例如：絕對值、細胞…"><button class="btn ghost small" type="submit">搜尋</button>${ui.unitQuery?'<button class="btn ghost small" data-act="reset-filter" type="button">清除</button>':''}</form>
+      <p class="scope-help">原創教材 · 依核心概念跨版查找，章節來源與待核對狀態見指南。</p>
     </section>
-
-    ${courseAtlas(course, game, ui.track)}
-    ${filterBar}
-
+    <details class="map-disclosure"><summary>探索三年六學期與專修支線 <span>展開地圖 ↗</span></summary>${courseAtlas(course, game, ui.track)}</details>
+    <div class="path-heading"><div><div class="section-kicker">單元探索 / 依自己的步調</div><h2>我的單元清單</h2></div><span class="small muted">${displayUnits.length} 個單元</span></div>
     <div class="path">
       ${unitsHtml || `
         <div class="card empty-filter-state">
@@ -554,8 +486,8 @@ function unitBlock(t, u, index, currentId) {
     : (pg?.tocKeywords?.length ? `<div class="unit-pub-banner-tag">🔍 <b>三版課本檢索詞：</b>${pg.tocKeywords.slice(0, 3).map(k => `<code>${esc(k)}</code>`).join(' ')}</div>` : '');
 
   return `
-    <section class="unit" id="unit-card-${u.id}">
-      <header class="unit-banner subj-${u.subject || 'chinese'}">
+    <details class="unit learning-unit" id="unit-card-${u.id}" ${u.nodes?.some(n=>n.id===currentId) || ui.pop && u.nodes?.some(n=>n.id===ui.pop) ? 'open' : ''}>
+      <summary class="unit-banner subj-${u.subject || 'chinese'}">
         <div class="unit-banner-info">
           <div class="unit-banner-badges">
             <span class="unit-subj-badge">${u.gradeName || ''} · ${u.subjectName || ''}</span>
@@ -567,17 +499,18 @@ function unitBlock(t, u, index, currentId) {
           ${u.pitfall ? `<small class="unit-pitfall-tag">⚠️ 核心避坑：${esc(u.pitfall)}</small>` : ''}
           ${pubBannerTag}
         </div>
-        <div class="unit-banner-actions">
+        <span class="unit-expand" aria-hidden="true">展開關卡 ⌄</span>
+      </summary>
+        <div class="unit-banner-actions unit-resource-actions">
           <button class="guide-btn" data-act="guide" data-id="${u.id}">📘 指南與版本</button>
           <a class="guide-btn ghost-link" href="../#/lesson/${u.id}" title="前往主站完整研經講義">📖 講義</a>
         </div>
-      </header>
       <div class="nodes-wrap">
         ${makeTrailSvg(index)}
         <div class="nodes" style="position:relative;z-index:2;">${nodesHtml}</div>
       </div>
       ${chestHtml}
-    </section>
+    </details>
   `;
 }
 
@@ -651,7 +584,7 @@ function leaderboardPage() {
     <!-- Full 30 Learners List -->
     <div class="card">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.75rem;">
-        <h3>本組 30 位自學者排名</h3>
+        <h3>本機練習角色排名</h3>
         <span class="small muted">每週一重置結算</span>
       </div>
       <div class="league-table">
@@ -722,7 +655,7 @@ function itemView(it, s) {
         <div class="info-card-meta">
           <span class="small muted">${it.badge || '📐 觀念起點'}</span>
           ${it.bloom ? `<span class="info-meta-pill">🧠 ${esc(it.bloom)}</span>` : ''}
-          ${it.examWeight ? `<span class="info-meta-pill hot">🔥 考頻 ${esc(it.examWeight)}</span>` : ''}
+          <span class="info-meta-pill">原創觀念導讀</span>
         </div>
         <h1>${esc(it.title)}</h1>
         ${it.formula ? `<div class="formula">${esc(it.formula)}</div>` : ''}
@@ -730,14 +663,13 @@ function itemView(it, s) {
           <div class="info-text-col">
             <p class="info-body-lead">${esc(it.body)}</p>
             ${it.explanation && it.explanation !== it.body ? `<p class="small muted" style="margin-top:0.5rem;line-height:1.65;">🔬 <b>深層機轉：</b>${esc(it.explanation)}</p>` : ''}
-            ${it.examIntel ? `<div class="info-intel-box"><b>🎯 大考題型雷達：</b><span>${esc(it.examIntel)}</span></div>` : ''}
+            ${it.examIntel ? `<div class="info-intel-box"><b>🎯 回想檢核：</b><span>${esc(it.examIntel)}</span></div>` : ''}
             ${it.example ? `<div class="info-tip-box"><b>💡 實戰避坑心法：</b><span>${esc(it.example)}</span></div>` : ''}
           </div>
           ${it.svg ? `
             <div class="info-visual-col">
               ${it.infographTitle ? `<div class="info-svg-caption-top">📊 ${esc(it.infographTitle)}</div>` : ''}
-              <div class="svg-wrap">${it.svg}</div>
-              ${it.infographCaption ? `<p class="small muted" style="margin-top:0.35rem;font-size:0.78rem;">💡 ${esc(it.infographCaption)}</p>` : ''}
+              ${conceptFigure(it.svg,it.infographTitle || it.title,it.infographCaption)}
             </div>
           ` : ''}
         </div>
@@ -857,6 +789,7 @@ function lessonFeedback(it, f) {
   const praise = PRAISE[Math.floor(Math.random() * PRAISE.length)];
   return `<section class="card lesson-feedback verdict ${f.ok ? 'ok' : 'bad'}" aria-live="polite">
     <h2>${f.ok ? `✔ ${praise}` : '✘ 需要再釐清觀念'}</h2>
+    ${f.assisted ? '<p class="assistance-note">這次使用了提示或配對修正，記為輔助作答。下次再獨立試一次就好。</p>' : ''}
     <p>正解：<b>${esc(answerText(it))}</b></p>
     <div class="learning-toolbar">
       <button class="btn ghost small" data-act="read-answer">🔊 朗讀答案</button>
@@ -901,6 +834,10 @@ function lessonFooter(it, s) {
       </div>
     </footer>
   `;
+}
+
+function conceptFigure(svg, title, caption = '') {
+  return `<figure class="concept-figure"><div class="svg-wrap">${svg}</div><figcaption><span>${esc(caption || title)}</span><button class="btn ghost small" data-act="zoom-figure" data-title="${esc(title)}" aria-label="放大圖解：${esc(title)}">放大圖解 ↗</button></figcaption></figure>`;
 }
 
 function renderGuideChart(chart) {
@@ -974,25 +911,24 @@ function renderGuideModalContent(g) {
               <div class="guide-kp-head">
                 <div>
                   <span class="info-meta-pill">🧠 ${esc(kp.bloom || '核心素養')}</span>
-                  <span class="info-meta-pill hot">🔥 ${esc(kp.examWeight || '★★★')}</span>
+                  <span class="info-meta-pill">原創知識整理</span>
                 </div>
                 <button class="btn ghost small" data-act="guide-blindfold" data-kp="${esc(kpKey)}">
                   ${isBlind ? '👁️ 揭曉答案' : '🙈 遮蔽回想'}
                 </button>
               </div>
               <h4 style="margin:0.4rem 0;">${esc(kp.title)}</h4>
-              <p class="small"><b>🎯 核心定義：</b>${esc(kp.core || '')}</p>
-              <div class="guide-kp-maskable">
+              <p class="small" ${isBlind ? 'hidden' : ''}><b>🎯 核心定義：</b>${esc(kp.core || '')}</p>
+              <details class="guide-kp-maskable" ${isBlind ? 'hidden' : ''}><summary>看實例與回想方法</summary>
                 ${kp.formula ? `<div class="formula" style="margin:0.5rem 0;">📐 ${esc(kp.formula)}</div>` : ''}
-                ${kp.mechanism ? `<p class="small" style="margin-top:0.35rem;"><b>⚙️ 原理機轉：</b>${esc(kp.mechanism)}</p>` : ''}
-                ${kp.explanation && kp.explanation !== kp.mechanism ? `<p class="small muted" style="margin-top:0.35rem;"><b>🔬 深度解析：</b>${esc(kp.explanation)}</p>` : ''}
-                ${kp.examIntel ? `<div class="info-intel-box" style="margin-top:0.5rem;"><b>🎯 會考題型雷達：</b><span>${esc(kp.examIntel)}</span></div>` : ''}
+                ${kp.explanation ? `<p class="small muted" style="margin-top:0.35rem;"><b>🔬 理解練習：</b>${esc(kp.explanation)}</p>` : ''}
+                ${kp.examIntel ? `<div class="info-intel-box" style="margin-top:0.5rem;"><b>🎯 回想檢核：</b><span>${esc(kp.examIntel)}</span></div>` : ''}
                 ${kp.tip ? `<div class="info-tip-box" style="margin-top:0.5rem;"><b>🛡️ 考場避坑防線：</b><span>${esc(kp.tip)}</span></div>` : ''}
-              </div>
+              </details>
               ${kp.svg ? `
-                <div style="margin-top:0.65rem;">
+                <div style="margin-top:0.65rem;" ${isBlind ? 'hidden' : ''}>
                   ${kp.infographTitle ? `<div class="small muted" style="font-weight:700;margin-bottom:0.25rem;">📊 ${esc(kp.infographTitle)}</div>` : ''}
-                  <div class="svg-wrap">${kp.svg}</div>
+                  ${conceptFigure(kp.svg,kp.infographTitle || kp.title,kp.infographCaption)}
                 </div>
               ` : ''}
             </div>
@@ -1053,6 +989,7 @@ function renderGuideModalContent(g) {
     const filteredPubs = ui.pubFilter === 'all' ? pubs : pubs.filter(p => p.publisher === ui.pubFilter);
     tabBody = `
       <div style="display:flex;flex-direction:column;gap:0.85rem;margin-top:0.75rem;">
+        <p class="scope-help">本站提供跨版本原創核心教材。${(course.index.publisherCoverage || []).map(p=>`${esc(p.name)} ${p.documented}/${p.total} 單元有公開章節來源`).join('；')}。來源紀錄不表示已核對最新年度或全冊頁碼；自學建議不代表出版社教材特色。</p>
         <div class="subject-filter-bar">
           <span class="filter-row-label">切換版本：</span>
           ${QUEST_PUBLISHERS.map(p => `
@@ -1075,12 +1012,13 @@ function renderGuideModalContent(g) {
             <div class="card quest-pub-card">
               <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.4rem;">
                 <b>${p.icon} ${esc(p.name)}</b>
-                <span class="info-meta-pill">${p.chapterStatus === 'documented' ? '✓ 已建檔章節' : '🧭 108 課綱指標對齊'}</span>
+                <span class="info-meta-pill">${p.chapterStatus === 'documented' ? '有公開章節來源' : '章節待核對'}</span>
               </div>
               ${p.chapterStatus === 'documented' && p.chapters?.length ? p.chapters.map(ch => `
                 <p class="small"><b>📖 章節：</b>${esc(ch.book)} · ${esc(ch.section)}「${esc(ch.unit)}」</p>
               `).join('') : ''}
-              <p class="small"><b>🎯 教材鋪陳焦點：</b>${esc(p.focus)}</p>
+              <p class="small"><b>🎯 本站原創學習焦點：</b>${esc(p.focus)}</p>
+              ${(p.documented || []).map(d=>`<p class="small"><a class="source-link" href="${esc(d.url)}" target="_blank" rel="noopener">查看章節來源：${esc(d.title)} ↗</a></p>`).join('')}
               <p class="small" style="margin-top:0.25rem;"><b>💡 自學搭配建議：</b>${esc(p.strategy)}</p>
               <p class="small muted" style="margin-top:0.25rem;"><b>🛡️ 段考會考檢核：</b>${esc(p.checkpoint)}</p>
             </div>
@@ -1103,6 +1041,7 @@ function renderGuideModalContent(g) {
     const wc = g.workedCase;
     tabBody = `
       <div style="display:flex;flex-direction:column;gap:0.85rem;margin-top:0.75rem;">
+        <aside class="reading-method"><h3>看圖也要試著說明</h3><ol><li>找對象：圖在比較哪些概念？</li><li>讀關係：箭頭、座標或分支代表什麼？</li><li>驗條件：什麼情況可以用？換個例子還成立嗎？</li></ol><p>示意圖用來整理關係；數值圖要一起核對單位與適用條件。</p></aside>
         ${wc ? `
           <div class="card">
             <div class="guide-section-badge">⚡ 典範例題三步思維鏈</div>
@@ -1263,9 +1202,9 @@ function resultView() {
         <p class="muted">完成 ${r.total} 題跨學期素養診斷，用時 ${r.seconds || 0} 秒</p>
 
         <div class="placement-highlight card" style="margin:1.25rem 0;background:var(--bg-soft, #f8fafc);border-radius:12px;padding:1rem;text-align:left;">
-          <div style="font-size:0.9rem;color:var(--text-muted);margin-bottom:0.25rem;">💡 系統精準診斷建議：</div>
+          <div style="font-size:0.9rem;color:var(--text-muted);margin-bottom:0.25rem;">💡 這次抽樣練習的起點建議：</div>
           <div style="font-size:1.15rem;font-weight:700;color:var(--primary);margin-bottom:0.25rem;">推薦從「${esc(recTrack.title)}」啟航</div>
-          <p class="small muted" style="margin:0;">${esc(recTrack.level || '')}。整體測驗答對率 <b>${pct}%</b>（${r.firstTry}/${r.total} 題）。</p>
+          <p class="small muted" style="margin:0;">獨立首次答對 <b>${pct}%</b>（${r.firstTry}/${r.total} 題）。少量抽樣只供選擇練習起點，不能判定整學期能力；未抽到的範圍尚無證據。你也可以自由選擇學校正在教的學期。</p>
         </div>
 
         <div class="placement-breakdown" style="text-align:left;margin-bottom:1.5rem;">
@@ -1325,13 +1264,14 @@ function resultView() {
     <div class="modal card center" style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);max-width:480px;width:90%;z-index:2000;text-align:center;padding:2rem 1.5rem;">
       ${mascot(r.passed ? 'celebrate' : 'sad', 88)}
       <h2 style="margin:1rem 0 0.5rem;">${r.passed ? '恭喜過關！🎉' : '差一點點，再接再厲！'}</h2>
-      <p class="muted">${r.perfect ? '全對無瑕完成！太厲害了！' : r.passed ? '概念掌握得非常清楚！' : '錯題已自動排入錯題本，隨時可以複習。'}</p>
+      <p class="muted">${r.perfect ? '這一回都能獨立答對！隔天再回想，看看記得多少。' : r.passed ? '練習完成！把還需要提示的觀念，再試一次。' : '錯題已自動排入錯題本，隨時可以複習。'}</p>
       <div style="display:flex;justify-content:center;gap:1.5rem;margin:1.5rem 0;">
         <div><small class="muted">獲得能量</small><br><b>⚡ +${r.xp} XP</b></div>
-        <div><small class="muted">本次正確率</small><br><b>🎯 ${Math.round((r.accuracy || 0) * 100)}%</b></div>
+        <div><small class="muted">獨立首次答對</small><br><b>🎯 ${r.independent}/${r.total} 題</b></div>
         <div><small class="muted">用時</small><br><b>⏱ ${r.seconds || 0} 秒</b></div>
       </div>
-      <button class="btn primary big" data-act="done">繼續前進</button>
+      <p class="result-evidence-note">${r.assisted || 0} 題使用輔助 · ${r.repairCount || 0} 題建議回練。觀念卡與課內重試不納入首次答題統計。XP 表示參與，學習仍要靠回想驗收。</p>
+      <div class="mission-actions"><button class="btn primary big" data-act="done">繼續前進</button>${r.repairCount ? '<button class="btn ghost" data-act="result-practice">查看補強練習 →</button>' : ''}</div>
     </div>
   `;
 }
@@ -1384,7 +1324,7 @@ function renderQuestDomainRadar() {
   }).join('');
 
   const dataPts = statsByDomain.map((d, i) => {
-    const ratio = Math.max(0.12, d.pct / 100);
+    const ratio = d.pct / 100;
     const x = (cx + Math.cos(angles[i]) * maxR * ratio).toFixed(1);
     const y = (cy + Math.sin(angles[i]) * maxR * ratio).toFixed(1);
     return `${x},${y}`;
@@ -1394,13 +1334,13 @@ function renderQuestDomainRadar() {
     <section class="card" style="margin-top:1.25rem;">
       <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.85rem;">
         <div>
-          <h3>📊 108 課綱八大領域精熟度雷達與進度圖表</h3>
-          <p class="small muted">即時統計全站 188 個單元、940 道關卡節點與金冠進度</p>
+          <h3>📊 八大領域關卡進度</h3>
+          <p class="small muted">已完成關卡 / 全部關卡，表示走過的進度。完成與金冠不等於已精熟全部教材。</p>
         </div>
       </div>
       <div class="quest-radar-layout">
         <div class="quest-radar-svg-box">
-          <svg viewBox="0 0 260 260" style="width:100%;max-width:250px;display:block;margin:0 auto;" role="img" aria-label="八大領域精熟度雷達圖">
+          <svg viewBox="0 0 260 260" style="width:100%;max-width:250px;display:block;margin:0 auto;" role="img" aria-label="八大領域關卡完成比例，數值另見右側文字">
             ${gridRings}
             ${axesLines}
             <polygon points="${dataPts}" fill="rgba(45, 106, 79, 0.28)" stroke="var(--primary)" stroke-width="2.5"/>
@@ -1420,6 +1360,11 @@ function renderQuestDomainRadar() {
       </div>
     </section>
   `;
+}
+
+function renderLearningEvidence() {
+  const rows = learningEvidence(course, game.state);
+  return `<section class="card evidence-panel"><div class="section-kicker">LEARNING EVIDENCE</div><h2>練過哪些，還要補什麼？</h2><p class="small muted">本次更新起記錄首次作答：提示與錯配修正後答對不列入獨立答對。舊紀錄保留，但不推估成績。</p><div class="evidence-rows">${rows.map(d=>`<div class="evidence-row"><span class="domain-token">${d.icon}</span><div><b>${d.label}</b><small>${d.questions ? `練過 ${d.questions} 道不同題目 · ${d.independent}/${d.trials} 次獨立答對` : '尚無新的作答證據'}</small></div><strong>${d.rate === null ? '待探索' : d.rate+'%'}</strong></div>`).join('')}</div><p class="scope-help">比例只反映已練習的題目；題數少、重複練習與難度不同，都會影響結果。這不是全領域能力評分。</p><a class="btn ghost" href="#practice">選一個範圍練習 →</a></section>`;
 }
 
 // -------------------------------------------------------------
@@ -1477,7 +1422,7 @@ function render() {
         </div>
         <div class="card">
           <h3>↻ 到期複習 (${due.length} 個單元)</h3>
-          <p class="muted small">1 → 3 → 7 → 14 → 30 天科學間隔記憶排程。</p>
+          <p class="muted small">1 → 3 → 7 → 14 → 30 天間隔回想排程。</p>
           ${due.length ? due.map(uid => `<button class="btn ghost small" data-act="start" data-mode="review" data-id="${uid}" style="margin:0.25rem;">複習 ${esc(course.units.get(uid)?.title || uid)}</button>`).join('') : '<p class="muted small" style="margin-top:0.5rem;">目前無到期單元，保持得很好！</p>'}
         </div>
         <div class="card">
@@ -1568,6 +1513,7 @@ function render() {
       </section>
 
       ${renderQuestDomainRadar()}
+      ${renderLearningEvidence()}
 
       <h3 style="margin-top:1.5rem;">🏆 成就徽章</h3>
       <div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(180px, 1fr));gap:0.75rem;margin-top:0.75rem;">
@@ -1583,7 +1529,21 @@ function render() {
     `;
   }
 
+  const previousDialog = document.querySelector('.modal');
+  const active = document.activeElement;
+  const focusAction = previousDialog?.contains(active) ? active.dataset.act : null;
+  const focusTab = active?.dataset?.gtab;
   root.innerHTML = layout(body);
+  const dialog = document.querySelector('.modal');
+  if (dialog) {
+    dialog.setAttribute('role','dialog');
+    dialog.setAttribute('aria-modal','true');
+    dialog.setAttribute('aria-label',dialog.querySelector('h2')?.textContent || '學習對話框');
+    dialog.tabIndex = -1;
+    document.querySelector('.shell').inert = true;
+    const focusTarget = focusAction ? [...dialog.querySelectorAll('[data-act]')].find(el=>el.dataset.act===focusAction && (!focusTab || el.dataset.gtab===focusTab)) : null;
+    (focusTarget || dialog.querySelector('button') || dialog).focus({preventScroll:true});
+  }
 }
 
 // -------------------------------------------------------------
@@ -1607,6 +1567,8 @@ async function handleHashRoute() {
     ui.tab = 'learn';
     ui.gradeFilter = 'all';
     ui.catFilter = 'all';
+    ui.subjFilter = 'all';
+    ui.unitQuery = '';
     await ensure([secId, 'items']);
     const unitObj = course.track(secId)?.units?.find(u => u.id === targetId);
     if (prefix === 'guide') {
@@ -1635,6 +1597,24 @@ window.addEventListener('hashchange', () => {
 
 // Keyboard shortcuts for seamless learning
 window.addEventListener('keydown', e => {
+  if (document.querySelector('#figure-dialog[open]')) return;
+  const dialog = document.querySelector('.modal');
+  if (dialog) {
+    if (e.key === 'Escape') {
+      e.preventDefault();
+      ui.modal = null;
+      ui.guide = null;
+      game.clearResult();
+      render();
+      document.querySelector('#main')?.focus({preventScroll:true});
+    } else if (e.key === 'Tab') {
+      const buttons = [...dialog.querySelectorAll('button:not([disabled]),a[href],input,select,textarea,[tabindex="0"]')].filter(el=>el.getClientRects().length);
+      const first = buttons[0], last = buttons.at(-1);
+      if (e.shiftKey && (document.activeElement === first || document.activeElement === dialog)) {e.preventDefault();last?.focus();}
+      else if (!e.shiftKey && document.activeElement === last) {e.preventDefault();first?.focus();}
+    }
+    return;
+  }
   if (e.isComposing || e.ctrlKey || e.metaKey || e.altKey) return;
   if (e.target.closest?.('input, textarea, select, [contenteditable="true"]') && e.key !== 'Enter' && e.key !== 'Escape') return;
   // Let focused buttons keep their native Enter/Space activation (e.g. read aloud).
@@ -1682,6 +1662,7 @@ window.addEventListener('keydown', e => {
 
   if ((e.key === 'h' || e.key === 'H') && !s.feedback) {
     ui.a.hint = true;
+    game.markAssisted();
     sound.speak(it.hint || it.prompt);
     render();
     return;
@@ -1710,12 +1691,48 @@ document.addEventListener('input', e => {
   }
 });
 
+document.addEventListener('submit', e => {
+  if (e.target.id !== 'unit-search-form') return;
+  e.preventDefault();
+  ui.unitQuery = new FormData(e.target).get('query')?.toString().trim() || '';
+  render();
+  document.querySelector('#unit-query')?.focus();
+});
+
+document.addEventListener('change', async e => {
+  const control = e.target.dataset.control;
+  if (!control) return;
+  if (control === 'term') {
+    ui.track = e.target.value;
+    ui.gradeFilter = ui.catFilter = ui.subjFilter = 'all';
+    ui.unitQuery = '';
+    game.setProfile({start:ui.track});
+    await ensure([ui.track, 'items']);
+  } else if (control === 'subject') ui.subjFilter = e.target.value;
+  else if (control === 'publisher') setQuestPublisher(e.target.value);
+  render();
+  document.querySelector(`[data-control="${control}"]`)?.focus();
+});
+
 document.addEventListener('click', async e => {
   const actBtn = e.target.closest('[data-act]');
   if (!actBtn) return;
   const act = actBtn.dataset.act;
 
-  if (act === 'sound-toggle') {
+  if (act === 'zoom-figure') {
+    const figure = actBtn.closest('figure');
+    const svg = figure?.querySelector('svg');
+    const dialog = document.querySelector('#figure-dialog');
+    if (svg && dialog) {
+      document.querySelector('#figure-dialog-title').textContent = actBtn.dataset.title;
+      document.querySelector('#figure-dialog-content').replaceChildren(svg.cloneNode(true));
+      dialog.showModal();
+    }
+  } else if (act === 'focus-study-controls') {
+    e.preventDefault();
+    document.querySelector('#study-controls')?.scrollIntoView({behavior:'smooth',block:'start'});
+    document.querySelector('[data-control="term"]')?.focus({preventScroll:true});
+  } else if (act === 'sound-toggle') {
     sound.toggleMute();
     render();
   } else if (act === 'theme-toggle') {
@@ -1727,7 +1744,7 @@ document.addEventListener('click', async e => {
   } else if (act === 'filter-pub' || act === 'guide-pub') {
     const pub = actBtn.dataset.pub || 'all';
     setQuestPublisher(pub);
-    toast(`📚 已切換課本版本焦點：${pub === 'all' ? '三版通用全對照' : pub + '版教材'}`);
+    toast(`📚 已切換課本版本焦點：${pub === 'all' ? '三版核心觀念導航' : pub + '版教材'}`);
     render();
   } else if (act === 'guide-tab') {
     ui.guideTab = actBtn.dataset.gtab || 'kp';
@@ -1784,6 +1801,9 @@ document.addEventListener('click', async e => {
   } else if (act === 'track') {
     ui.track = actBtn.dataset.id;
     ui.modal = null;
+    ui.subjFilter = 'all';
+    ui.unitQuery = '';
+    game.setProfile({start:ui.track});
     if (ui.track.startsWith('b-')) {
       ui.gradeFilter = 'all';
       ui.catFilter = 'all';
@@ -1793,6 +1813,8 @@ document.addEventListener('click', async e => {
   } else if (act === 'reset-filter') {
     ui.gradeFilter = 'all';
     ui.catFilter = 'all';
+    ui.subjFilter = 'all';
+    ui.unitQuery = '';
     render();
   } else if (act === 'shop') {
     ui.modal = 'shop';
@@ -1889,7 +1911,10 @@ document.addEventListener('click', async e => {
     const mode = actBtn.dataset.mode;
     const id = actBtn.dataset.id;
     ui.pop = null;
-    if (!await ensure([ui.track, 'items', mode === 'story' ? 'stories' : null].filter(Boolean))) return;
+    // Reviews may point to a different semester than the current map.
+    const sourceTrack = (mode === 'lesson' || mode === 'boss') ? course.nodes.get(id)?.track : mode === 'review' ? course.units.get(id)?.track : null;
+    const needed = mode === 'mistakes' ? course.index.sections.map(s=>s.id) : [sourceTrack || ui.track];
+    if (!await ensure([...needed, 'items', mode === 'story' ? 'stories' : null].filter(Boolean))) return;
     const ok = game.startSession(mode, id);
     if (ok) {
       ui.a = freshAnswer();
@@ -1918,6 +1943,7 @@ document.addEventListener('click', async e => {
         sound.playTone('correct');
       } else {
         ui.a.wrong++;
+        game.markAssisted();
         const pairs = game.currentItem().pairs;
         ui.a.matchError = `再比較一下：「${pairs[ui.a.left][0]}」對應「${pairs[ui.a.left][1]}」。你剛選的特徵屬於「${pairs[rIdx][0]}」。`;
         sound.playTone('wrong');
@@ -1945,6 +1971,11 @@ document.addEventListener('click', async e => {
   } else if (act === 'done') {
     game.clearResult();
     render();
+  } else if (act === 'result-practice') {
+    game.clearResult();
+    ui.tab = 'practice';
+    location.hash = '#practice';
+    render();
   } else if (act === 'exit') {
     sound.stopSpeaking();
     game.clearSession();
@@ -1966,6 +1997,7 @@ document.addEventListener('click', async e => {
     }
   } else if (act === 'hint') {
     ui.a.hint = true;
+    game.markAssisted();
     const it = game.currentItem();
     if (it) sound.speak(it.hint || it.prompt);
     render();
@@ -1980,9 +2012,14 @@ async function init() {
     const indexData = await getJson('course/index.json');
     course = createCourse(indexData);
     game = createGame({ storage, course });
+    ui.track = course.track(game.currentTrack()) ? game.currentTrack() : 's1';
 
     // Preload section 1 and items
-    await ensure(['s1', 'items', 'stories']);
+    await ensure([ui.track, 'items', 'stories']);
+    if (game.state.session?.queue.some(id=>!course.item(id))) {
+      game.clearSession();
+      toast('部分教材已更新，請重新開始這一關；先前學習紀錄仍保留。');
+    }
 
     if (location.hash) {
       await handleHashRoute();

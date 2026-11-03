@@ -122,9 +122,9 @@ export function createCourse(index) {
 
   for (const t of tracks) {
     t.units.forEach((u, ui) => {
-      units.set(u.id, { ...u, track: t.id, trackKind: t.kind, order: ui });
+      if (!units.has(u.id)) units.set(u.id, { ...u, track: t.id, trackKind: t.kind, order: ui });
       (u.nodes || []).forEach((n, ni) => {
-        nodes.set(n.id, { ...n, unit: u.id, track: t.id, order: ni, pool: null });
+        if (!nodes.has(n.id)) nodes.set(n.id, { ...n, unit: u.id, track: t.id, order: ni, pool: null });
       });
     });
   }
@@ -239,7 +239,7 @@ function sanitize(raw, now) {
     }
   }
   for (const [k, v] of Object.entries(raw.items || {})) {
-    if (isObj(v)) s.items[k] = { s: num(v.s), c: num(v.c), w: num(v.w), last: v.last === 1 ? 1 : 0, at: num(v.at), m: v.m === true, fix: num(v.fix) };
+    if (isObj(v)) s.items[k] = { s: num(v.s), c: num(v.c), w: num(v.w), last: v.last === 1 ? 1 : 0, at: num(v.at), m: v.m === true, fix: num(v.fix), trials: num(v.trials), independent: Math.min(num(v.trials), num(v.independent)) };
   }
   s.xp.total = num(raw.xp?.total);
   for (const [d, v] of Object.entries(raw.xp?.days || {})) {
@@ -462,18 +462,20 @@ export function createGame({ storage, now = () => Date.now(), course }) {
         return { queue, hearts: null, base: queue.length, results: [], feedback: null, index: 0, combo: 0, maxCombo: 0 };
       }
       case 'placement': {
-        const p = makePlacement(id || 20, course);
+        const p = makePlacement(id || 20, course, serial);
         return { queue: p.slots.map(x => x.id), hearts: null, base: p.slots.length, results: [], feedback: null, index: 0, combo: 0, maxCombo: 0, placement: p };
       }
       case 'review': {
         const u = course.units.get(id);
-        const pool = (u?.nodes || []).flatMap(n => course.nodes.get(n.id)?.pool || []).filter(qid => isScored(course.item(qid)));
+        const pool = [...new Set((u?.nodes || []).flatMap(n => course.nodes.get(n.id)?.pool || []))].filter(qid => isScored(course.item(qid)));
         const picked = shuffle(pool, id + serial).slice(0, LESSON_SIZE);
+        if (!picked.length) return null;
         return { queue: picked, hearts: null, base: picked.length, results: [], feedback: null, index: 0, combo: 0, maxCombo: 0 };
       }
       case 'mistakes': {
         const pool = Object.entries(state.items).filter(([k, r]) => r.m && isScored(course.item(k))).map(([k]) => k);
         const picked = shuffle(pool, 'm' + serial).slice(0, LESSON_SIZE);
+        if (!picked.length) return null;
         return { queue: picked, hearts: null, base: picked.length, results: [], feedback: null, index: 0, combo: 0, maxCombo: 0 };
       }
       case 'quick': {
@@ -528,22 +530,36 @@ export function createGame({ storage, now = () => Date.now(), course }) {
       return course.item(s.queue[s.index]);
     },
 
+    markAssisted() {
+      if (state.session && !state.session.feedback) {
+        state.session.assisted = true;
+        save();
+      }
+    },
+
     checkAnswer(value) {
       const s = state.session;
       if (!s) return null;
       const it = game.currentItem();
       if (!it) return null;
+      if (s.feedback) return { ok: s.feedback.ok, hearts: s.hearts };
+      if (!isScored(it)) return { ok: true, hearts: s.hearts };
 
       const ok = accepts(it, value);
-      s.feedback = { ok, value };
+      const independent = ok && !s.assisted;
+      s.feedback = { ok, value, assisted: !!s.assisted };
 
       const isFirstTry = s.index < s.base;
       if (isFirstTry) {
-        s.results.push({ id: it.id, ok, value });
+        s.results.push({ id: it.id, ok: independent, correct: ok, assisted: !!s.assisted, value });
       }
 
       // Update item performance stats
       const r = state.items[it.id] || { s: 0, c: 0, w: 0, last: 0, at: now(), m: false, fix: 0 };
+      if (isFirstTry) {
+        r.trials = (r.trials || 0) + 1;
+        r.independent = (r.independent || 0) + (independent ? 1 : 0);
+      }
       r.s++;
       r.at = now();
       if (ok) {
@@ -551,7 +567,7 @@ export function createGame({ storage, now = () => Date.now(), course }) {
         r.last = 1;
         s.combo++;
         if (s.combo > s.maxCombo) s.maxCombo = s.combo;
-        if (r.m) {
+        if (r.m && independent && isFirstTry) {
           r.fix++;
           if (r.fix >= 2) r.m = false; // Graduated from mistake notebook
           bumpQuest('fix', 1);
@@ -562,6 +578,7 @@ export function createGame({ storage, now = () => Date.now(), course }) {
         r.last = 0;
         s.combo = 0;
         r.m = true;
+        r.fix = 0;
         // In-lesson repair: append mistake to queue to try again at end of lesson
         if (isFirstTry) {
           s.queue.push(it.id);
@@ -571,6 +588,10 @@ export function createGame({ storage, now = () => Date.now(), course }) {
         }
       }
       state.items[it.id] = r;
+      if (s.assisted) {
+        r.m = true;
+        r.fix = 0;
+      }
 
       if (s.combo >= 6) bumpQuest('combo', s.combo, true);
       save();
@@ -580,7 +601,9 @@ export function createGame({ storage, now = () => Date.now(), course }) {
     nextStep() {
       const s = state.session;
       if (!s) return null;
+      if (isScored(game.currentItem()) && !s.feedback) return null;
       s.feedback = null;
+      s.assisted = false;
       s.index++;
 
       // Heart exhaustion check in Boss mode
@@ -590,7 +613,7 @@ export function createGame({ storage, now = () => Date.now(), course }) {
 
       // Check if session queue completed
       if (s.index >= s.queue.length) {
-        const accuracy = s.base ? s.results.filter(x => x.ok).length / s.base : 1;
+        const accuracy = s.results.length ? s.results.filter(x => x.ok).length / s.results.length : 0;
         const passed = s.hearts !== null ? s.hearts > 0 && accuracy >= 0.8 : true;
         return game.endSession(passed);
       }
@@ -605,8 +628,8 @@ export function createGame({ storage, now = () => Date.now(), course }) {
 
       const finishTime = now();
       const seconds = Math.max(1, Math.round((finishTime - s.startTime) / 1000));
-      const accuracy = s.base ? s.results.filter(x => x.ok).length / s.base : 1;
-      const perfect = accuracy === 1;
+      const accuracy = s.results.length ? s.results.filter(x => x.ok).length / s.results.length : 0;
+      const perfect = s.results.length > 0 && accuracy === 1;
 
       // Handle Placement result
       if (s.mode === 'placement') {
@@ -663,6 +686,10 @@ export function createGame({ storage, now = () => Date.now(), course }) {
             // Schedule spaced repetition
             state.review[uId] = { due: finishTime + REVIEW_DAYS[0] * DAY, step: 0 };
           }
+        } else if (s.mode === 'review') {
+          const previous = state.review[s.ref];
+          const step = accuracy >= 0.8 ? Math.min((previous?.step ?? -1) + 1, REVIEW_DAYS.length - 1) : 0;
+          state.review[s.ref] = { due: finishTime + REVIEW_DAYS[step] * DAY, step };
         } else if (s.mode === 'story') {
           state.stories[s.ref] = finishTime;
           state.stats.stories++;
@@ -685,6 +712,10 @@ export function createGame({ storage, now = () => Date.now(), course }) {
         perfect,
         xp: earnedXp,
         seconds,
+        total: s.results.length,
+        independent: s.results.filter(x => x.ok).length,
+        assisted: s.results.filter(x => x.assisted).length,
+        repairCount: s.results.filter(x => !x.ok).length,
         maxCombo: s.maxCombo,
         events: [...pending],
         streak: streak()

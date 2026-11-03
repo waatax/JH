@@ -183,7 +183,7 @@ check('Placement plan samples 30 items accurately', placePlan30.slots.length ===
 const allCorrectAnswers = placePlan20.slots.map(s => ({ id: s.id, ok: true }));
 const report = placementReport(allCorrectAnswers, mockCourse);
 check('Placement report produces recommended section', !!report.recommended);
-check('Placement 100% correct recommends s6', report.recommended === 's6');
+check('Placement does not infer a jump from a small all-correct sample', report.recommended === 's1');
 
 // -----------------------------------------------------------------
 // 5. Game Engine State Simulation (Session, Hearts, Repair, XP)

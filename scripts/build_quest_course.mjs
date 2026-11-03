@@ -1,3 +1,4 @@
+import { writeAtomic } from "./write-atomic.mjs";
 // scripts/build_quest_course.mjs
 // Builds the 108 Curriculum Junior High (JH Quest) course structure & items from existing high quality assets.
 // Output: dist/quest/course/index.json, s1.json..s6.json, b-*.json, stories.json and COURSE-BUILD-REPORT.json
@@ -17,7 +18,7 @@ import { periodicExams } from '../dist/periodic-exam-data.js';
 import { officialAlignment, officialSources } from '../dist/official-alignment-data.js';
 import { getCapExplanation, formatCapExplanation, relatedCapQuestions } from '../dist/cap-explanations.js';
 
-export const COURSE_VERSION = '2026-10-29.v1';
+export const COURSE_VERSION = '2026-11-03.v2';
 const enrichmentReport = [];
 const OUT_DIR = path.resolve('dist/quest/course');
 fs.mkdirSync(OUT_DIR, { recursive: true });
@@ -217,6 +218,21 @@ for (const exam of periodicExams) {
 // -------------------------------------------------------------
 // 2. Unit Item Generation Logic (Generating 5 Nodes per Unit)
 // -------------------------------------------------------------
+function tableRecallItem(u,table,rowIndex,id,kind) {
+  const row=table.rows[rowIndex];
+  const alternatives=table.rows.filter(r=>r[0]!==row[0] && r[1]!==row[1]);
+  const options=[...new Set([row[1],...alternatives.map(r=>r[1])])].slice(0,4);
+  if(options.length<2)return null;
+  return {id,kind,type:'choice',unitId:u.id,level:2,
+    prompt:'【概念辨識】在「'+table.title+'」比較表中，「'+row[0]+'」對應哪一項規則或特徵？',
+    options:shuffle(options,id),answer:row[1],
+    hint:'先回想「'+row[0]+'」的定義，再與同課其他概念比較。',
+    why:row[0]+'：'+row[1]+'。實例與界線：'+row[2],
+    sourceBasis:'teachingTables.'+u.id+'.rows.'+rowIndex,
+    optionExplanations:Object.fromEntries(options.map(option=>[option,option===row[1]?'符合本表判準：'+row[0]+' → '+row[1]:'這段描述在本表對應「'+table.rows.find(r=>r[1]===option)[0]+'」，請再比較與「'+row[0]+'」的差異。']))
+  };
+}
+
 function buildUnitNodes(u) {
   const uid = u.id;
   const subj = subjectById[u.subject] || { name: u.subject, domain: '綜合' };
@@ -260,42 +276,11 @@ function buildUnitNodes(u) {
     nodeItemPools.concept.push(infoId);
   }
 
-  // Question 1: Concept Definition / Core understanding
-  if (kps[0]) {
-    // Generate distractors using other KPs from same subject or unit
-    const qId = `q.${uid}.kp1.def`;
-    const coreAns = kps[0].core;
-    // Distractors
-    const otherCores = [];
-    if (kps[1]?.core && kps[1].core !== coreAns) otherCores.push(kps[1].core);
-    if (kps[2]?.core && kps[2].core !== coreAns) otherCores.push(kps[2].core);
-    if (table?.rows?.length >= 2) {
-      for (const r of table.rows) {
-        if (r[1] && r[1] !== coreAns && !otherCores.includes(r[1])) otherCores.push(r[1]);
-        if (otherCores.length >= 3) break;
-      }
-    }
-    while (otherCores.length < 3) {
-      otherCores.push(`非本單元之次要現象或無關變因 (${otherCores.length + 1})`);
-    }
+  // Same-row retrieval; no semantically equivalent bare rule used as a distractor.
+  const conceptItem=tableRecallItem(u,table,0,`q.${uid}.kp1.def`,'concept');
+  if(conceptItem)nodeItemPools.concept.push(registerItem(conceptItem,`#lesson/${uid}`));
 
-    const item = {
-      id: qId,
-      kind: 'concept',
-      type: 'choice',
-      prompt: `關於「${kps[0].title.replace(/^【知識點 \d】/, '')}」的核心本質與判準，下列敘述何者正確？`,
-      options: shuffle([coreAns, ...otherCores.slice(0, 3)], qId),
-      answer: coreAns,
-      hint: kps[0].formula ? `關鍵公式/法則：${kps[0].formula}` : `先回想「${u.title}」的基本起點。`,
-      why: `${kps[0].explanation || kps[0].mechanism} 實戰心法：${kps[0].practicalTip || ''}`,
-      level: 1,
-      unitId: uid
-    };
-    const registered = registerItem(item, `#lesson/${uid}`);
-    if (registered) nodeItemPools.concept.push(registered);
-  }
-
-  // Question from curriculum basic (curQ[0])
+    // Question from curriculum basic (curQ[0])
   if (curQ[0]) {
     const qId = `cq.${curQ[0].id}`;
     const registered = registerItem({
@@ -355,71 +340,24 @@ function buildUnitNodes(u) {
     nodeItemPools.rule.push(infoId);
   }
 
-  // Rule Choice: Based on KP#2
-  if (kps[1]) {
-    const qId = `q.${uid}.kp2.rule`;
-    const rightAns = kps[1].practicalTip || kps[1].core;
-    const fake1 = `只要觀察表面數值，無需理會限制條件與方向`;
-    const fake2 = `該現象在任何極端環境下皆不受限制且絕對恆等`;
-    const fake3 = `當條件改變時，其物理量或因果關係將完全隨機變動`;
-    const registered = registerItem({
-      id: qId,
-      kind: 'rule',
-      type: 'choice',
-      prompt: `在運用「${kps[1].title.replace(/^【知識點 \d】/, '')}」進行解題推演時，最重要的操作法則為何？`,
-      options: shuffle([rightAns, fake1, fake2, fake3], qId),
-      answer: rightAns,
-      hint: kps[1].formula ? `注意法則公式：${kps[1].formula}` : '排除過度絕對化或忽略邊界的選項。',
-      why: `${kps[1].mechanism} 考點雷達：${kps[1].examIntel || ''}`,
-      level: 2,
-      unitId: uid
-    }, `#lesson/${uid}`);
-    if (registered) nodeItemPools.rule.push(registered);
+  const ruleItem=tableRecallItem(u,table,1,`q.${uid}.kp2.rule`,'rule');
+  if(ruleItem)nodeItemPools.rule.push(registerItem(ruleItem,`#lesson/${uid}`));
+
+    // Compare actual descriptions from the authored contrast, without generic fake options.
+  if(ld?.left && ld?.right && ld.left!==ld.right) {
+    const id=`q.${uid}.deepening.contrast`;
+    nodeItemPools.rule.push(registerItem({id,kind:'rule',type:'choice',unitId:uid,level:2,
+      prompt:`【概念比較】在本單元對照中，哪一段描述的是「${ld.leftLabel}」？`,
+      options:shuffle([ld.left,ld.right],id),answer:ld.left,
+      hint:`先比較「${ld.leftLabel}」與「${ld.rightLabel}」各自的判準。`,
+      why:`${ld.leftLabel}：${ld.left}；${ld.rightLabel}：${ld.right}。`,
+      optionExplanations:{[ld.left]:`符合：${ld.leftLabel}。`,[ld.right]:`這段對應「${ld.rightLabel}」，請比較兩者的條件與對象。`}
+    },`#lesson/${uid}`));
   }
 
-  // Contrast Question from lessonDeepening (left vs right)
-  if (ld?.left && ld?.right) {
-    const qId = `q.${uid}.deepening.contrast`;
-    const prompt = `【概念辨析】${ld.prompt || `面對情境時，該如何精準分辨「${ld.leftLabel}」與「${ld.rightLabel}」？`}`;
-    const rightAns = ld.answer || `【${ld.leftLabel}】：${ld.left}；而【${ld.rightLabel}】：${ld.right}。`;
-    const wrong1 = `兩者完全相同，只是不同課本版本的翻譯名稱差異。`;
-    const wrong2 = `【${ld.leftLabel}】與【${ld.rightLabel}】在任何情境下皆可直接抵消或互相替代。`;
-    const wrong3 = `只有在微觀物理中才需區分，宏觀生活情境中沒有差別。`;
+    // Formulas are studied with examples; do not grade exact reproduction of a long sentence.
 
-    const registered = registerItem({
-      id: qId,
-      kind: 'rule',
-      type: 'choice',
-      prompt,
-      options: shuffle([rightAns, wrong1, wrong2, wrong3], qId),
-      answer: rightAns,
-      hint: `注意「${ld.leftLabel}」與「${ld.rightLabel}」的本質差異。`,
-      why: `正確辨析：${ld.leftLabel}＝${ld.left}；${ld.rightLabel}＝${ld.right}。`,
-      level: 2,
-      unitId: uid
-    }, `#lesson/${uid}`);
-    if (registered) nodeItemPools.rule.push(registered);
-  }
-
-  // Input Question: Formula / Core Rule keyword
-  if (kps[1]?.formula && kps[1].formula.length < 35 && kps[1].formula.length > 3) {
-    const inputId = `input.${uid}.formula`;
-    registerItem({
-      id: inputId,
-      kind: 'rule',
-      type: 'input',
-      prompt: `【記憶提取】請填寫「${u.title}」之核心公式或黃金法則`,
-      text: `提示（${kps[1].title.replace(/^【知識點 \d】/, '')}）：`,
-      answer: kps[1].formula,
-      alternatives: [kps[1].formula.replace(/\s+/g, '')],
-      why: `核心公式：${kps[1].formula}。${kps[1].practicalTip}`,
-      level: 2,
-      unitId: uid
-    }, `#lesson/${uid}`);
-    nodeItemPools.rule.push(inputId);
-  }
-
-  // ----- Node 3: Reasoning 思維推演 (Worked Cases Step-Build + Curriculum Q2) -----
+    // ----- Node 3: Reasoning 思維推演 (Worked Cases Step-Build + Curriculum Q2) -----
   if (wc?.steps && wc.steps.length >= 3) {
     const buildId = `build.${uid}.case`;
     const stepTokens = wc.steps.slice(0, 3);
@@ -456,29 +394,17 @@ function buildUnitNodes(u) {
     if (registered) nodeItemPools.reasoning.push(registered);
   }
 
-  // Worked Case Reasoning Choice
-  if (wc) {
-    const qId = `q.${uid}.case.check`;
-    const rightAns = wc.check;
-    const wrongAns1 = `只要公式套入正確，計算結果不必代回驗算生活合理性。`;
-    const wrongAns2 = `單位不影響最終數值，寫出任意常見單位即可得分。`;
-    const wrongAns3 = `在解題完成後，不需檢查極端邊界條件是否成立。`;
-    const registered = registerItem({
-      id: qId,
-      kind: 'reasoning',
-      type: 'choice',
-      prompt: `【考場防呆】在完成「${wc.problem}」的計算與推導後，解題最後一步必須進行何種核心檢核？`,
-      options: shuffle([rightAns, wrongAns1, wrongAns2, wrongAns3], qId),
-      answer: rightAns,
-      hint: `思維鏈最後的防呆防線。`,
-      why: `防呆檢核重點：${wc.check}`,
-      level: 3,
-      unitId: uid
-    }, `#lesson/${uid}`);
-    if (registered) nodeItemPools.reasoning.push(registered);
+  // Retrieve the actual final step in the worked example.
+  if(wc?.steps?.length>=3) {
+    const id=`q.${uid}.case.check`,steps=wc.steps.slice(0,3);
+    nodeItemPools.reasoning.push(registerItem({id,kind:'reasoning',type:'choice',unitId:uid,level:3,
+      prompt:`【推理順序】在示範例題「${wc.problem}」的三步推理中，哪一步列在最後？`,
+      options:shuffle(steps,id),answer:steps[2],hint:'先想起題目的已知條件，再依示範推理順序回想。',
+      why:steps.map((s,i)=>`${i+1}. ${s}`).join('\n')+'\n驗證：'+wc.check
+    },`#lesson/${uid}`));
   }
 
-  // ----- Node 4: Mastery 避坑精熟 (KP#3 Info + Pitfall Choice + CAP / Periodic Exam) -----
+    // ----- Node 4: Mastery 避坑精熟 (KP#3 Info + Pitfall Choice + CAP / Periodic Exam) -----
   if (kps[2]) {
     const infoId = `info.${uid}.kp3`;
     registerItem({
@@ -502,31 +428,10 @@ function buildUnitNodes(u) {
     nodeItemPools.mastery.push(infoId);
   }
 
-  // Pitfall Question
-  if (u.pitfall || kps[2]) {
-    const qId = `q.${uid}.pitfall`;
-    const prompt = `【考場避坑】在「${u.title}」的考試情境中，學生最常犯的觀念盲點或計算陷阱為何？`;
-    const rightAns = u.pitfall || kps[2]?.core || '混淆前提定義與忽略邊界條件';
-    const fake1 = `完全沒有任何陷阱，只要背下定義就能拿到滿分。`;
-    const fake2 = `出題老師必定會刻意設計超出 108 課綱範圍的公式。`;
-    const fake3 = `所有選項皆完全正確，本單元題目不需要特別防呆。`;
+  const thirdItem=tableRecallItem(u,table,2,`q.${uid}.pitfall`,'mastery');
+  if(thirdItem)nodeItemPools.mastery.push(registerItem(thirdItem,`#lesson/${uid}`));
 
-    const registered = registerItem({
-      id: qId,
-      kind: 'mastery',
-      type: 'choice',
-      prompt,
-      options: shuffle([rightAns, fake1, fake2, fake3], qId),
-      answer: rightAns,
-      hint: `留意容易把什麼概念混淆或算錯。`,
-      why: `考場避坑防線：${u.pitfall}。防禦心法：${kps[2]?.practicalTip || ''}`,
-      level: 3,
-      unitId: uid
-    }, `#lesson/${uid}`);
-    if (registered) nodeItemPools.mastery.push(registered);
-  }
-
-  // Inject CAP real exam questions if available (up to 2 per unit)
+    // Inject CAP real exam questions if available (up to 2 per unit)
   if (capList.length > 0) {
     for (let ci = 0; ci < Math.min(capList.length, 2); ci++) {
       const capQ = capList[ci];
@@ -597,6 +502,7 @@ function buildUnitNodes(u) {
       svg: k.infograph?.svg || '',
       infographTitle: k.infograph?.title || '',
       infographCaption: k.infograph?.caption || '',
+      source: k.source,
       relatedKnowledge: k.relatedKnowledge || []
     })),
     table: table ? { title: table.title, rows: table.rows } : null,
@@ -791,7 +697,7 @@ for (const secConfig of SECTIONS_CONFIG) {
 
   // Write section chunk (dist/quest/course/s1.json etc.)
   const secFilePath = path.join(OUT_DIR, `${secConfig.id}.json`);
-  fs.writeFileSync(secFilePath, JSON.stringify({
+  writeAtomic(secFilePath, JSON.stringify({
     id: secConfig.id,
     title: secConfig.title,
     units: sectionFileUnits
@@ -971,7 +877,7 @@ for (const brConfig of BRANCHES_CONFIG) {
   });
 
   const brFilePath = path.join(OUT_DIR, `${brConfig.id}.json`);
-  fs.writeFileSync(brFilePath, JSON.stringify({
+  writeAtomic(brFilePath, JSON.stringify({
     id: brConfig.id,
     title: brConfig.title,
     units: brFileUnits
@@ -982,7 +888,7 @@ for (const brConfig of BRANCHES_CONFIG) {
 // Build Stories
 const stories = buildStories();
 const storiesFilePath = path.join(OUT_DIR, 'stories.json');
-fs.writeFileSync(storiesFilePath, JSON.stringify({
+writeAtomic(storiesFilePath, JSON.stringify({
   stories: Object.fromEntries(stories.map(s => [s.id, s]))
 }, null, 2), 'utf8');
 console.log(`✔ Generated stories.json (${stories.length} stories)`);
@@ -990,7 +896,7 @@ console.log(`✔ Generated stories.json (${stories.length} stories)`);
 // Build items dictionary chunk
 const allItemsObj = Object.fromEntries(allItems);
 const itemsFilePath = path.join(OUT_DIR, 'items.json');
-fs.writeFileSync(itemsFilePath, JSON.stringify({ items: allItemsObj }, null, 2), 'utf8');
+writeAtomic(itemsFilePath, JSON.stringify({ items: allItemsObj }, null, 2), 'utf8');
 console.log(`✔ Generated items.json (${allItems.size} items)`);
 
 // Build Root index.json
@@ -999,6 +905,7 @@ const rootIndex = {
   generatedAt: new Date().toISOString(),
   totalUnits: units.length,
   totalItems: allItems.size,
+  publisherCoverage: ['康軒','翰林','南一'].map(name=>({name,total:units.length,documented:units.filter(u=>getPublisherGuideForUnit(u).publishers.some(p=>p.publisher===name && p.chapterStatus==='documented')).length})),
   sections: builtSections,
   branches: builtBranches,
   stories: stories.map(s => ({
@@ -1011,7 +918,7 @@ const rootIndex = {
 };
 
 const indexFilePath = path.join(OUT_DIR, 'index.json');
-fs.writeFileSync(indexFilePath, JSON.stringify(rootIndex, null, 2), 'utf8');
+writeAtomic(indexFilePath, JSON.stringify(rootIndex, null, 2), 'utf8');
 console.log(`✔ Generated index.json (Total sections: ${builtSections.length}, Total branches: ${builtBranches.length})`);
 
 // Output Build Report
@@ -1042,8 +949,8 @@ const report = {
 
 const reportDir = path.resolve('docs/quest-redesign');
 fs.mkdirSync(reportDir, { recursive: true });
-fs.writeFileSync(path.join(reportDir, 'COURSE-BUILD-REPORT.json'), JSON.stringify(report, null, 2), 'utf8');
-fs.writeFileSync(path.join(reportDir, 'ENRICHMENT-REPORT.json'), JSON.stringify({
+writeAtomic(path.join(reportDir, 'COURSE-BUILD-REPORT.json'), JSON.stringify(report, null, 2), 'utf8');
+writeAtomic(path.join(reportDir, 'ENRICHMENT-REPORT.json'), JSON.stringify({
   version: COURSE_VERSION, metric: 'Distinct learning activities per core unit; excludes repeated boss references. Reuses verified table facts in new retrieval exercises, not new syllabus coverage.',
   units: [...new Map(enrichmentReport.map(row => [row.unitId, row])).values()]
 }, null, 2), 'utf8');

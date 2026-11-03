@@ -2,6 +2,8 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { units } from '../dist/curriculum.js';
 import { explicitKnowledgePoints, getExplicitKnowledgePoints, renderExplicitKnowledgePoints } from '../dist/explicit-knowledge-points.js';
+import { teachingTables } from '../dist/teaching.js';
+import { wrapDiagramText } from './grounded-knowledge.mjs';
 
 test('1. Explicit Knowledge Points: 100% 188 units coverage and structural integrity', () => {
   assert.equal(units.length, 188, 'Must have 188 units');
@@ -47,6 +49,32 @@ test('1. Explicit Knowledge Points: 100% 188 units coverage and structural integ
   assert(seenTypes.has('process'), 'Must include 3-stage process infographs');
   assert(seenTypes.has('contrast'), 'Must include contrast matrix infographs');
   assert(seenTypes.has('coordinate') || seenTypes.has('parabola'), 'Must include math coordinate or parabola infographs');
+});
+
+test('Knowledge definitions and diagrams retain the same source row without invented causal structures',()=>{
+  const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  for(const unit of units) {
+    for(const [index,point] of explicitKnowledgePoints[unit.id].entries()) {
+      const row=teachingTables[unit.id].rows[index];
+      assert.equal(point.source.unitId,unit.id);
+      assert.equal(point.source.row,index);
+      assert.ok(point.core.includes(row[1]),unit.id);
+      assert.ok(point.formula.includes(row[2]),unit.id);
+      assert.ok(point.title.includes(row[0]),unit.id);
+      assert.ok(!/本知識點著眼於|客觀必然性|命題高頻題型|三階閉環/.test(point.explanation+point.examIntel));
+      if(unit.id==='math-1' && index===0)continue;
+      const svgText=point.infograph.svg.replace(/<[^>]+>/g,'');
+      for(const part of row)assert.ok(svgText.includes(escape(part)),`${unit.id}: diagram must retain full source text`);
+      assert.ok(!/封閉系統循環|環境守恆/.test(svgText));
+    }
+  }
+});
+
+test('Diagram wrapping retains long CJK and formula strings without truncation',()=>{
+  const text='細胞膜選擇性通透、1/4、x²＋2x＋1。'.repeat(25);
+  const lines=wrapDiagramText(text);
+  assert.ok(lines.length>10);
+  assert.equal(lines.join(''),text);
 });
 
 test('2. Explicit Knowledge Points: HTML Rendering, Stepper Nav & Interactive UI/UX', () => {
