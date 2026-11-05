@@ -202,6 +202,39 @@
           ],
           "check": "對照 She is a student. → Is she a student?，此處主要動詞是 be，不能寫 Does she is a student?。再把 Mia 換成 Mia and Leo，應改為 walk、do not walk 與 Do，確認主詞數量會影響形式。"
         },
+        "zeroToTopLadder": {
+          "zeroFoundation": "【白話破冰直覺】先別被專有名詞嚇到！「句子骨架與現在式」最核心的白話本質就是：先找主詞與動詞。be 動詞描述身分、狀態；一般動詞描述動作。現在簡單式常描述習慣；第三人稱單數的一般動詞通常加 s 或 es。 初學起步時，請先牢記第一條黃金判準——「五大句型：S+V, S+V+O, S+V+C, S+V+O+O, S+V+O+C（實例：The sun rises. (S+V)；She is a doctor. (S+V+C)）」，只要順著定義一步步對照，零基礎也能穩拿會考 B 級基礎保底分。",
+          "mainstreamBtoA": "【主流破題 SOP】晉升 B++ 至 A 精熟等級的關鍵，在於把題幹線索（題幹出現「句子骨架與現在式」之關鍵文法標誌、時間副詞、助動詞或子句連接詞。）直接轉譯為「現在簡單式」與「三單動詞變化」的比較判準。遵循「解題策略：先找句子主詞與時間副詞；依據「先找主詞與動詞」判別正確句型；檢查第三人稱單數與動詞三態。」，並主動避開考場頭號陷阱：「does 後面的主要動詞回原形，不寫 does not plays。」",
+          "topTierAPlusPlus": "【A++ 頂標壓軸突破】會考前 5%（A++ 頂標）決勝壓軸題常結合跨圖表轉譯、多條件逆向推導或極端值檢驗。面對高難度綜合題時，請運用頂標驗算防線：「對照 She is a student. → Is she a student?，此處主要動詞是 be，不能寫 Does she is a student?。再把 Mia 換成 Mia and Leo，應改為 walk、do not walk 與 Do，確認主詞數量會影響形式。」算完務必代回原題幹檢驗邊界條件，做到零粗心、零死角滿分通關！"
+        },
+        "examType": {
+          "typeName": "會考高頻：句子骨架與現在式文法句型與語意判讀",
+          "frequency": "近七年會考考查 5~7 次 · 英語科基礎與進階單選核心",
+          "bloomLevel": "理解與應用",
+          "targetCodes": "Ac-IV-1, 1-IV-1",
+          "clues": "題幹出現「句子骨架與現在式」之關鍵文法標誌、時間副詞、助動詞或子句連接詞。",
+          "publishersFocus": "康軒強調動詞時態一致與日常生活對話；翰林著重句型結構與語法限制條件；南一強調生活閱讀圖表與語意邏輯轉折。",
+          "strategy": "解題策略：先找句子主詞與時間副詞；依據「先找主詞與動詞」判別正確句型；檢查第三人稱單數與動詞三態。",
+          "knowledgeAudit": "本站「句子骨架與現在式」課程已完整收錄文法規則與例句示範，足以獨立破題。"
+        },
+        "capWorkedExample": {
+          "title": "【會考全真題型模擬演練】句子骨架與現在式核心句型檢驗",
+          "stem": "Choose the correct sentence or form based on the grammar rule:\nExample scenario: \"She is a student. / She plays tennis every Sunday. 否定：She does not play tennis.\"\nWhich of the following statements is correct?",
+          "options": [
+            "The grammar in the example is incorrect because the tense does not match the time adverb.",
+            "The example correctly demonstrates the core rule of \"先找主詞與動詞\".",
+            "The sentence must be changed into a passive voice structure to be considered standard English.",
+            "The verb in the example must always be followed by an adverb ending in -ly."
+          ],
+          "answer": 1,
+          "steps": [
+            "【第 1 步：審題定位 · 題眼與已知】審核題幹例句情境「She is a student. / She plays tennis every Sunday. 否定：She does not play tennis.」，識別其所考查之文法核心「句子骨架與現在式」。",
+            "【第 2 步：破題關鍵 · 課綱概念與核心公式】依據 108 課綱英語文文法結構：先找主詞與動詞。be 動詞描述身分、狀態；一般動詞描述動作。現在簡單式常描述習慣；第三人稱單數的一般動詞通常加 s 或 es。",
+            "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 檢查例句的主詞與動詞時態搭配，完全符合規範。\n2. 選項 (B) 準確指出其體現了「先找主詞與動詞」之核心法則。\n3. (A) 誤判時態不合；(C) 主動語態即可，無需強行改為被動；(D) 違反特定動詞接形容詞或原形之規則。\n4. 結論：符合選項 (B)。",
+            "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】考場避坑防線：務必警惕常見迷思「does 後面的主要動詞回原形，不寫 does not plays。」，仔細檢查主謂一致與時間線索。",
+            "【第 5 步：版本對照 · 跨版本教材提點與大考心法】跨版本教材提點：康軒、翰林、南一均強調本課之實踐任務「用英文寫三句你的週間習慣，再改寫成另一位同學的習慣。」，熟練句型即可在會考單選秒殺。"
+          ]
+        },
         "officialRefs": [
           {
             "code": "Ad-IV-1",
@@ -303,7 +336,8 @@
           "info.english-1.kp3",
           "q.english-1.pitfall",
           "cap.109-english-1",
-          "cap.109-english-4"
+          "cap.109-english-4",
+          "q.english-1.cap.example"
         ],
         "english-1:boss": [
           "q.english-1.kp1.def",
@@ -318,7 +352,8 @@
           "enrich.english-1.1",
           "q.english-1.pitfall",
           "cap.109-english-1",
-          "cap.109-english-4"
+          "cap.109-english-4",
+          "q.english-1.cap.example"
         ]
       }
     },
@@ -522,6 +557,39 @@
           ],
           "check": "完整句為 Ben usually studies at home, but today he is studying at the library.。不能只看到 today 就保證用進行式，仍需看句意是否在描述正在進行的動作；時間詞是線索，不是唯一規則。"
         },
+        "zeroToTopLadder": {
+          "zeroFoundation": "【白話破冰直覺】先別被專有名詞嚇到！「現在進行式與時間表達」最核心的白話本質就是：現在進行式 be＋V-ing，描述正在進行的動作。頻率副詞 often、usually 多和習慣現在式使用；時態仍要靠情境而非只抓單字。 初學起步時，請先牢記第一條黃金判準——「肯定句：主詞+am/is/are+V-ing（實例：They are studying now.；不可漏掉 are）」，只要順著定義一步步對照，零基礎也能穩拿會考 B 級基礎保底分。",
+          "mainstreamBtoA": "【主流破題 SOP】晉升 B++ 至 A 精熟等級的關鍵，在於把題幹線索（題幹出現「現在進行式與時間表達」之關鍵文法標誌、時間副詞、助動詞或子句連接詞。）直接轉譯為「否定句」與「疑問句」的比較判準。遵循「解題策略：先找句子主詞與時間副詞；依據「現在進行式 be＋V-ing，描述正在進行的動作」判別正確句型；檢查第三人稱單數與動詞三態。」，並主動避開考場頭號陷阱：「be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子。」",
+          "topTierAPlusPlus": "【A++ 頂標壓軸突破】會考前 5%（A++ 頂標）決勝壓軸題常結合跨圖表轉譯、多條件逆向推導或極端值檢驗。面對高難度綜合題時，請運用頂標驗算防線：「完整句為 Ben usually studies at home, but today he is studying at the library.。不能只看到 today 就保證用進行式，仍需看句意是否在描述正在進行的動作；時間詞是線索，不是唯一規則。」算完務必代回原題幹檢驗邊界條件，做到零粗心、零死角滿分通關！"
+        },
+        "examType": {
+          "typeName": "會考高頻：現在進行式與時間表達文法句型與語意判讀",
+          "frequency": "近七年會考考查 5~7 次 · 英語科基礎與進階單選核心",
+          "bloomLevel": "理解與應用",
+          "targetCodes": "Ac-IV-1, 1-IV-1",
+          "clues": "題幹出現「現在進行式與時間表達」之關鍵文法標誌、時間副詞、助動詞或子句連接詞。",
+          "publishersFocus": "康軒強調動詞時態一致與日常生活對話；翰林著重句型結構與語法限制條件；南一強調生活閱讀圖表與語意邏輯轉折。",
+          "strategy": "解題策略：先找句子主詞與時間副詞；依據「現在進行式 be＋V-ing，描述正在進行的動作」判別正確句型；檢查第三人稱單數與動詞三態。",
+          "knowledgeAudit": "本站「現在進行式與時間表達」課程已完整收錄文法規則與例句示範，足以獨立破題。"
+        },
+        "capWorkedExample": {
+          "title": "【會考全真題型模擬演練】現在進行式與時間表達核心句型檢驗",
+          "stem": "Choose the correct sentence or form based on the grammar rule:\nExample scenario: \"Look! They are playing basketball. / They usually play after school.\"\nWhich of the following statements is correct?",
+          "options": [
+            "The grammar in the example is incorrect because the tense does not match the time adverb.",
+            "The example correctly demonstrates the core rule of \"現在進行式 be＋V-ing，描述正在進行的動作\".",
+            "The sentence must be changed into a passive voice structure to be considered standard English.",
+            "The verb in the example must always be followed by an adverb ending in -ly."
+          ],
+          "answer": 1,
+          "steps": [
+            "【第 1 步：審題定位 · 題眼與已知】審核題幹例句情境「Look! They are playing basketball. / They usually play after school.」，識別其所考查之文法核心「現在進行式與時間表達」。",
+            "【第 2 步：破題關鍵 · 課綱概念與核心公式】依據 108 課綱英語文文法結構：現在進行式 be＋V-ing，描述正在進行的動作。頻率副詞 often、usually 多和習慣現在式使用；時態仍要靠情境而非只抓單字。",
+            "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 檢查例句的主詞與動詞時態搭配，完全符合規範。\n2. 選項 (B) 準確指出其體現了「現在進行式 be＋V-ing，描述正在進行的動作」之核心法則。\n3. (A) 誤判時態不合；(C) 主動語態即可，無需強行改為被動；(D) 違反特定動詞接形容詞或原形之規則。\n4. 結論：符合選項 (B)。",
+            "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】考場避坑防線：務必警惕常見迷思「be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子。」，仔細檢查主謂一致與時間線索。",
+            "【第 5 步：版本對照 · 跨版本教材提點與大考心法】跨版本教材提點：康軒、翰林、南一均強調本課之實踐任務「描述窗外正在發生的兩個動作，說明主詞如何決定 be。」，熟練句型即可在會考單選秒殺。"
+          ]
+        },
         "officialRefs": [
           {
             "code": "Ad-IV-1",
@@ -621,7 +689,8 @@
         ],
         "english-2:mastery": [
           "info.english-2.kp3",
-          "q.english-2.pitfall"
+          "q.english-2.pitfall",
+          "q.english-2.cap.example"
         ],
         "english-2:boss": [
           "q.english-2.kp1.def",
@@ -634,7 +703,8 @@
           "q.english-2.case.check",
           "enrich.english-2.0",
           "enrich.english-2.1",
-          "q.english-2.pitfall"
+          "q.english-2.pitfall",
+          "q.english-2.cap.example"
         ]
       }
     },
@@ -838,6 +908,39 @@
           ],
           "check": "可改述 First, Nora finished her homework. Then she called Sam.。若寫 She didn’t called Sam，便重複標記過去；應為 She didn’t call Sam。判斷時間時，把句型與事件順序一起核對。"
         },
+        "zeroToTopLadder": {
+          "zeroFoundation": "【白話破冰直覺】先別被專有名詞嚇到！「過去式、未來與敘事順序」最核心的白話本質就是：過去簡單式描述過去事件，否定和問句用 did＋原形。未來可用 will 或 be going to 表達預測或計畫，仍要配合情境。 初學起步時，請先牢記第一條黃金判準——「規則過去式：動詞字尾加 -ed（played, stopped, studied）（實例：Yesterday I visited my grandparents.；注意子音加 y 變 ied）」，只要順著定義一步步對照，零基礎也能穩拿會考 B 級基礎保底分。",
+          "mainstreamBtoA": "【主流破題 SOP】晉升 B++ 至 A 精熟等級的關鍵，在於把題幹線索（題幹出現「過去式、未來與敘事順序」之關鍵文法標誌、時間副詞、助動詞或子句連接詞。）直接轉譯為「不規則過去式」與「過去時間標記」的比較判準。遵循「解題策略：先找句子主詞與時間副詞；依據「過去簡單式描述過去事件，否定和問句用 did＋原形」判別正確句型；檢查第三人稱單數與動詞三態。」，並主動避開考場頭號陷阱：「Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記。」",
+          "topTierAPlusPlus": "【A++ 頂標壓軸突破】會考前 5%（A++ 頂標）決勝壓軸題常結合跨圖表轉譯、多條件逆向推導或極端值檢驗。面對高難度綜合題時，請運用頂標驗算防線：「可改述 First, Nora finished her homework. Then she called Sam.。若寫 She didn’t called Sam，便重複標記過去；應為 She didn’t call Sam。判斷時間時，把句型與事件順序一起核對。」算完務必代回原題幹檢驗邊界條件，做到零粗心、零死角滿分通關！"
+        },
+        "examType": {
+          "typeName": "會考高頻：過去式、未來與敘事順序文法句型與語意判讀",
+          "frequency": "近七年會考考查 5~7 次 · 英語科基礎與進階單選核心",
+          "bloomLevel": "理解與應用",
+          "targetCodes": "Ac-IV-1, 1-IV-1",
+          "clues": "題幹出現「過去式、未來與敘事順序」之關鍵文法標誌、時間副詞、助動詞或子句連接詞。",
+          "publishersFocus": "康軒強調動詞時態一致與日常生活對話；翰林著重句型結構與語法限制條件；南一強調生活閱讀圖表與語意邏輯轉折。",
+          "strategy": "解題策略：先找句子主詞與時間副詞；依據「過去簡單式描述過去事件，否定和問句用 did＋原形」判別正確句型；檢查第三人稱單數與動詞三態。",
+          "knowledgeAudit": "本站「過去式、未來與敘事順序」課程已完整收錄文法規則與例句示範，足以獨立破題。"
+        },
+        "capWorkedExample": {
+          "title": "【會考全真題型模擬演練】過去式、未來與敘事順序核心句型檢驗",
+          "stem": "Choose the correct sentence or form based on the grammar rule:\nExample scenario: \"I visited Tainan yesterday. / Did you visit Tainan? / We are going to visit tomorrow.\"\nWhich of the following statements is correct?",
+          "options": [
+            "The grammar in the example is incorrect because the tense does not match the time adverb.",
+            "The example correctly demonstrates the core rule of \"過去簡單式描述過去事件，否定和問句用 did＋原形\".",
+            "The sentence must be changed into a passive voice structure to be considered standard English.",
+            "The verb in the example must always be followed by an adverb ending in -ly."
+          ],
+          "answer": 1,
+          "steps": [
+            "【第 1 步：審題定位 · 題眼與已知】審核題幹例句情境「I visited Tainan yesterday. / Did you visit Tainan? / We are going to visit tomorrow.」，識別其所考查之文法核心「過去式、未來與敘事順序」。",
+            "【第 2 步：破題關鍵 · 課綱概念與核心公式】依據 108 課綱英語文文法結構：過去簡單式描述過去事件，否定和問句用 did＋原形。未來可用 will 或 be going to 表達預測或計畫，仍要配合情境。",
+            "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 檢查例句的主詞與動詞時態搭配，完全符合規範。\n2. 選項 (B) 準確指出其體現了「過去簡單式描述過去事件，否定和問句用 did＋原形」之核心法則。\n3. (A) 誤判時態不合；(C) 主動語態即可，無需強行改為被動；(D) 違反特定動詞接形容詞或原形之規則。\n4. 結論：符合選項 (B)。",
+            "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】考場避坑防線：務必警惕常見迷思「Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記。」，仔細檢查主謂一致與時間線索。",
+            "【第 5 步：版本對照 · 跨版本教材提點與大考心法】跨版本教材提點：康軒、翰林、南一均強調本課之實踐任務「用 first、then、finally 連接你上週末的三件事。」，熟練句型即可在會考單選秒殺。"
+          ]
+        },
         "officialRefs": [
           {
             "code": "Ad-IV-1",
@@ -937,7 +1040,8 @@
         ],
         "english-3:mastery": [
           "info.english-3.kp3",
-          "q.english-3.pitfall"
+          "q.english-3.pitfall",
+          "q.english-3.cap.example"
         ],
         "english-3:boss": [
           "q.english-3.kp1.def",
@@ -950,7 +1054,8 @@
           "q.english-3.case.check",
           "enrich.english-3.0",
           "enrich.english-3.1",
-          "q.english-3.pitfall"
+          "q.english-3.pitfall",
+          "q.english-3.cap.example"
         ]
       }
     },
@@ -1154,6 +1259,39 @@
           ],
           "check": "不能寫 enjoys to read 或 more easier；easier 已帶比較級意義。延伸比較 This book is more useful than that one.，較長形容詞常用 more；仍要查常見不規則形式，如 good → better。"
         },
+        "zeroToTopLadder": {
+          "zeroFoundation": "【白話破冰直覺】先別被專有名詞嚇到！「比較級、不定詞與動名詞」最核心的白話本質就是：比較兩者常用比較級＋than；最高級常加 the 並界定範圍。不同動詞接受不同的後接結構，如 want to do、enjoy doing。 初學起步時，請先牢記第一條黃金判準——「單音節規則變化：單音節字尾加 -er / -est（tall → taller → tallest；nice → nicer → nicest）（實例：子音+短母音+子音重複字尾：big → bigger → biggest；字尾 y 變 i+er：happy → happier）」，只要順著定義一步步對照，零基礎也能穩拿會考 B 級基礎保底分。",
+          "mainstreamBtoA": "【主流破題 SOP】晉升 B++ 至 A 精熟等級的關鍵，在於把題幹線索（題幹出現 than（比較級）、of all / in the class（最高級），或動詞 enjoy, practice, mind, decide, hope 後接 to V 還是 V-ing。）直接轉譯為「多音節與 -ly 副詞」與「不規則變化」的比較判準。遵循「看到 than 前面必找比較級（-er 或 more）；看到 the ＋ 最... 找最高級（-est 或 most）；記牢常考動名詞清單（enjoy / finish / keep / mind / practice ＋ V-ing）。」，並主動避開考場頭號陷阱：「不是每個動詞後都加 to；也不要寫 more taller。」",
+          "topTierAPlusPlus": "【A++ 頂標壓軸突破】會考前 5%（A++ 頂標）決勝壓軸題常結合跨圖表轉譯、多條件逆向推導或極端值檢驗。面對高難度綜合題時，請運用頂標驗算防線：「不能寫 enjoys to read 或 more easier；easier 已帶比較級意義。延伸比較 This book is more useful than that one.，較長形容詞常用 more；仍要查常見不規則形式，如 good → better。」算完務必代回原題幹檢驗邊界條件，做到零粗心、零死角滿分通關！"
+        },
+        "examType": {
+          "typeName": "會考高頻：形容詞與副詞比較級／最高級、不定詞（to V）與動名詞（V-ing）動詞搭配",
+          "frequency": "近七年會考考查 7 次 · 國二核心文法",
+          "bloomLevel": "理解與應用",
+          "targetCodes": "Ac-IV-4, 1-IV-4",
+          "clues": "題幹出現 than（比較級）、of all / in the class（最高級），或動詞 enjoy, practice, mind, decide, hope 後接 to V 還是 V-ing。",
+          "publishersFocus": "康軒強調比較級 ＋ than、最高級加 the；翰林著重動名詞專用動詞口訣（enjoy, finish, practice, avoid）；南一強化不定詞表目的（to + V）與動名詞當主詞之單數概念。",
+          "strategy": "看到 than 前面必找比較級（-er 或 more）；看到 the ＋ 最... 找最高級（-est 或 most）；記牢常考動名詞清單（enjoy / finish / keep / mind / practice ＋ V-ing）。",
+          "knowledgeAudit": "本站「比較級、最高級、不定詞與動名詞」課程已收錄形容詞三級變化表與動詞搭配矩陣，規則完整。"
+        },
+        "capWorkedExample": {
+          "title": "【111 會考英文精選改編】比較級連接詞 than 與副詞比較級辨析",
+          "stem": "Although Mark runs fast, his younger brother can run even _____ than him.",
+          "options": [
+            "fast",
+            "faster",
+            "fastest",
+            "more faster"
+          ],
+          "answer": 1,
+          "steps": [
+            "【第 1 步：審題定位 · 題眼與已知】句子後半段出現關鍵連接詞「than him（比他）」，且前面有修飾比較級之副詞「even（甚至更...）」。修飾動詞 run 的副詞 fast 之級位形式。",
+            "【第 2 步：破題關鍵 · 課綱概念與核心公式】1. 比較級標誌：看到 than，前面動詞修飾語必須使用「比較級」。\n2. fast 的比較級為單音節直接加 -er 變「faster」，不可加 more（more faster 形成雙重比較級嚴重文法錯誤）。\n3. 程度副詞 even, much, still, far, a lot 可以用來加強修飾比較級。",
+            "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 審視題眼「than him」與修飾詞「even」。\n2. fast 是單音節副詞，比較級為 faster。\n3. (A) fast 為原級，不符 than 的比較情境。\n4. (B) faster 為正確比較級。\n5. (C) fastest 為最高級，需三者以上且通常搭配 of all。\n6. (D) more faster 為雙重比較級，文法錯誤。\n7. 結論：符合選項 (B)。",
+            "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】選項 (D)「more faster」是大考極常見之陷阱！很多學生以為加上 more 比較保險，卻犯了「雙重比較級」的嚴重錯誤；選項 (A) 忽略了 than 的存在。",
+            "【第 5 步：版本對照 · 跨版本教材提點與大考心法】三大版本均強調：單音節副詞/形容詞加 -er，三音節以上才加 more，兩者絕不可同時並存！修飾比較級只能用 even / much / far / still，絕不能用 very！"
+          ]
+        },
         "officialRefs": [
           {
             "code": "Ad-IV-1",
@@ -1253,7 +1391,8 @@
         ],
         "english-4:mastery": [
           "info.english-4.kp3",
-          "q.english-4.pitfall"
+          "q.english-4.pitfall",
+          "q.english-4.cap.example"
         ],
         "english-4:boss": [
           "q.english-4.kp1.def",
@@ -1266,7 +1405,8 @@
           "q.english-4.case.check",
           "enrich.english-4.0",
           "enrich.english-4.1",
-          "q.english-4.pitfall"
+          "q.english-4.pitfall",
+          "q.english-4.cap.example"
         ]
       }
     },
@@ -1470,6 +1610,39 @@
           ],
           "check": "不能把 last year 直接接在表示此完成用法的 have repaired 後；若要指出明確過去年份，改用 repaired。關係代名詞在 connects 前作主詞，不可任意省掉。"
         },
+        "zeroToTopLadder": {
+          "zeroFoundation": "【白話破冰直覺】先別被專有名詞嚇到！「完成式、被動與關係子句」最核心的白話本質就是：現在完成式 have/has＋過去分詞，連結過去與現在。被動語態 be＋過去分詞，突出承受動作的對象。關係子句補充名詞資訊。 初學起步時，請先牢記第一條黃金判準——「現在完成式：have/has+過去分詞，連結過去與現在（實例：I have finished my homework.；需依語境理解現在的關聯）」，只要順著定義一步步對照，零基礎也能穩拿會考 B 級基礎保底分。",
+          "mainstreamBtoA": "【主流破題 SOP】晉升 B++ 至 A 精熟等級的關鍵，在於把題幹線索（題幹出現「完成式、被動與關係子句」之關鍵文法標誌、時間副詞、助動詞或子句連接詞。）直接轉譯為「被動語態」與「關係子句」的比較判準。遵循「解題策略：先找句子主詞與時間副詞；依據「現在完成式 have/has＋過去分詞，連結過去與現在」判別正確句型；檢查第三人稱單數與動詞三態。」，並主動避開考場頭號陷阱：「現在完成式通常不和明確結束的過去時間 yesterday 搭配。」",
+          "topTierAPlusPlus": "【A++ 頂標壓軸突破】會考前 5%（A++ 頂標）決勝壓軸題常結合跨圖表轉譯、多條件逆向推導或極端值檢驗。面對高難度綜合題時，請運用頂標驗算防線：「不能把 last year 直接接在表示此完成用法的 have repaired 後；若要指出明確過去年份，改用 repaired。關係代名詞在 connects 前作主詞，不可任意省掉。」算完務必代回原題幹檢驗邊界條件，做到零粗心、零死角滿分通關！"
+        },
+        "examType": {
+          "typeName": "會考高頻：完成式、被動與關係子句文法句型與語意判讀",
+          "frequency": "近七年會考考查 5~7 次 · 英語科基礎與進階單選核心",
+          "bloomLevel": "理解與應用",
+          "targetCodes": "Ac-IV-1, 1-IV-1",
+          "clues": "題幹出現「完成式、被動與關係子句」之關鍵文法標誌、時間副詞、助動詞或子句連接詞。",
+          "publishersFocus": "康軒強調動詞時態一致與日常生活對話；翰林著重句型結構與語法限制條件；南一強調生活閱讀圖表與語意邏輯轉折。",
+          "strategy": "解題策略：先找句子主詞與時間副詞；依據「現在完成式 have/has＋過去分詞，連結過去與現在」判別正確句型；檢查第三人稱單數與動詞三態。",
+          "knowledgeAudit": "本站「完成式、被動與關係子句」課程已完整收錄文法規則與例句示範，足以獨立破題。"
+        },
+        "capWorkedExample": {
+          "title": "【會考全真題型模擬演練】完成式、被動與關係子句核心句型檢驗",
+          "stem": "Choose the correct sentence or form based on the grammar rule:\nExample scenario: \"I have lived here for three years. / The bridge was built in 2000. / The boy who wears glasses is Ben.\"\nWhich of the following statements is correct?",
+          "options": [
+            "The grammar in the example is incorrect because the tense does not match the time adverb.",
+            "The example correctly demonstrates the core rule of \"現在完成式 have/has＋過去分詞，連結過去與現在\".",
+            "The sentence must be changed into a passive voice structure to be considered standard English.",
+            "The verb in the example must always be followed by an adverb ending in -ly."
+          ],
+          "answer": 1,
+          "steps": [
+            "【第 1 步：審題定位 · 題眼與已知】審核題幹例句情境「I have lived here for three years. / The bridge was built in 2000. / The boy who wears glasses is Ben.」，識別其所考查之文法核心「完成式、被動與關係子句」。",
+            "【第 2 步：破題關鍵 · 課綱概念與核心公式】依據 108 課綱英語文文法結構：現在完成式 have/has＋過去分詞，連結過去與現在。被動語態 be＋過去分詞，突出承受動作的對象。關係子句補充名詞資訊。",
+            "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 檢查例句的主詞與動詞時態搭配，完全符合規範。\n2. 選項 (B) 準確指出其體現了「現在完成式 have/has＋過去分詞，連結過去與現在」之核心法則。\n3. (A) 誤判時態不合；(C) 主動語態即可，無需強行改為被動；(D) 違反特定動詞接形容詞或原形之規則。\n4. 結論：符合選項 (B)。",
+            "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】考場避坑防線：務必警惕常見迷思「現在完成式通常不和明確結束的過去時間 yesterday 搭配。」，仔細檢查主謂一致與時間線索。",
+            "【第 5 步：版本對照 · 跨版本教材提點與大考心法】跨版本教材提點：康軒、翰林、南一均強調本課之實踐任務「把「有人昨天打掃教室」改寫成以教室為主詞的英文句子。」，熟練句型即可在會考單選秒殺。"
+          ]
+        },
         "officialRefs": [
           {
             "code": "Ad-IV-1",
@@ -1569,7 +1742,8 @@
         ],
         "english-5:mastery": [
           "info.english-5.kp3",
-          "q.english-5.pitfall"
+          "q.english-5.pitfall",
+          "q.english-5.cap.example"
         ],
         "english-5:boss": [
           "q.english-5.kp1.def",
@@ -1582,7 +1756,8 @@
           "q.english-5.case.check",
           "enrich.english-5.0",
           "enrich.english-5.1",
-          "q.english-5.pitfall"
+          "q.english-5.pitfall",
+          "q.english-5.cap.example"
         ]
       }
     },
@@ -1786,6 +1961,39 @@
           ],
           "check": "可用英文回答 No. DVDs must be returned at the desk, which is closed at six on Friday.。不要把「有還書箱」推成所有媒體都能投入，也不要自行推定逾期費或下一次開館日期。"
         },
+        "zeroToTopLadder": {
+          "zeroFoundation": "【白話破冰直覺】先別被專有名詞嚇到！「閱讀策略與情境溝通」最核心的白話本質就是：閱讀先確認文本目的，再找主旨、指代和細節。推論需有線索。公告、時刻表與對話常需要整合時間、條件及人物意圖。 初學起步時，請先牢記第一條黃金判準——「主旨：先找段落重複概念與目的（實例：不要用單一細節當整篇主旨）」，只要順著定義一步步對照，零基礎也能穩拿會考 B 級基礎保底分。",
+          "mainstreamBtoA": "【主流破題 SOP】晉升 B++ 至 A 精熟等級的關鍵，在於把題幹線索（題幹出現「閱讀策略與情境溝通」之關鍵文法標誌、時間副詞、助動詞或子句連接詞。）直接轉譯為「指涉」與「猜字」的比較判準。遵循「解題策略：先找句子主詞與時間副詞；依據「閱讀先確認文本目的，再找主旨、指代和細節」判別正確句型；檢查第三人稱單數與動詞三態。」，並主動避開考場頭號陷阱：「close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制。」",
+          "topTierAPlusPlus": "【A++ 頂標壓軸突破】會考前 5%（A++ 頂標）決勝壓軸題常結合跨圖表轉譯、多條件逆向推導或極端值檢驗。面對高難度綜合題時，請運用頂標驗算防線：「可用英文回答 No. DVDs must be returned at the desk, which is closed at six on Friday.。不要把「有還書箱」推成所有媒體都能投入，也不要自行推定逾期費或下一次開館日期。」算完務必代回原題幹檢驗邊界條件，做到零粗心、零死角滿分通關！"
+        },
+        "examType": {
+          "typeName": "會考高頻：閱讀策略與情境溝通文法句型與語意判讀",
+          "frequency": "近七年會考考查 5~7 次 · 英語科基礎與進階單選核心",
+          "bloomLevel": "理解與應用",
+          "targetCodes": "Ac-IV-1, 1-IV-1",
+          "clues": "題幹出現「閱讀策略與情境溝通」之關鍵文法標誌、時間副詞、助動詞或子句連接詞。",
+          "publishersFocus": "康軒強調動詞時態一致與日常生活對話；翰林著重句型結構與語法限制條件；南一強調生活閱讀圖表與語意邏輯轉折。",
+          "strategy": "解題策略：先找句子主詞與時間副詞；依據「閱讀先確認文本目的，再找主旨、指代和細節」判別正確句型；檢查第三人稱單數與動詞三態。",
+          "knowledgeAudit": "本站「閱讀策略與情境溝通」課程已完整收錄文法規則與例句示範，足以獨立破題。"
+        },
+        "capWorkedExample": {
+          "title": "【會考全真題型模擬演練】閱讀策略與情境溝通核心句型檢驗",
+          "stem": "Choose the correct sentence or form based on the grammar rule:\nExample scenario: \"Notice: The library closes at 5 p.m. Please return books before 4:30. 借還書截止早於關門時間。\"\nWhich of the following statements is correct?",
+          "options": [
+            "The grammar in the example is incorrect because the tense does not match the time adverb.",
+            "The example correctly demonstrates the core rule of \"閱讀先確認文本目的，再找主旨、指代和細節\".",
+            "The sentence must be changed into a passive voice structure to be considered standard English.",
+            "The verb in the example must always be followed by an adverb ending in -ly."
+          ],
+          "answer": 1,
+          "steps": [
+            "【第 1 步：審題定位 · 題眼與已知】審核題幹例句情境「Notice: The library closes at 5 p.m. Please return books before 4:30. 借還書截止早於關門時間。」，識別其所考查之文法核心「閱讀策略與情境溝通」。",
+            "【第 2 步：破題關鍵 · 課綱概念與核心公式】依據 108 課綱英語文文法結構：閱讀先確認文本目的，再找主旨、指代和細節。推論需有線索。公告、時刻表與對話常需要整合時間、條件及人物意圖。",
+            "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 檢查例句的主詞與動詞時態搭配，完全符合規範。\n2. 選項 (B) 準確指出其體現了「閱讀先確認文本目的，再找主旨、指代和細節」之核心法則。\n3. (A) 誤判時態不合；(C) 主動語態即可，無需強行改為被動；(D) 違反特定動詞接形容詞或原形之規則。\n4. 結論：符合選項 (B)。",
+            "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】考場避坑防線：務必警惕常見迷思「close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制。」，仔細檢查主謂一致與時間線索。",
+            "【第 5 步：版本對照 · 跨版本教材提點與大考心法】跨版本教材提點：康軒、翰林、南一均強調本課之實踐任務「把一則英文公告整理成 Who、What、When 三欄。」，熟練句型即可在會考單選秒殺。"
+          ]
+        },
         "officialRefs": [
           {
             "code": "B-IV-2",
@@ -1892,7 +2100,8 @@
           "info.english-6.kp3",
           "q.english-6.pitfall",
           "cap.111-english-1",
-          "cap.111-english-23"
+          "cap.111-english-23",
+          "q.english-6.cap.example"
         ],
         "english-6:boss": [
           "q.english-6.kp1.def",
@@ -1907,7 +2116,8 @@
           "enrich.english-6.1",
           "q.english-6.pitfall",
           "cap.111-english-1",
-          "cap.111-english-23"
+          "cap.111-english-23",
+          "q.english-6.cap.example"
         ]
       }
     },
@@ -2111,6 +2321,39 @@
           ],
           "check": "完整更正為 These are three boxes of milk. Don’t put them here.。對照 This is a box of milk.：一盒時 this、is、a box 都為單數。box 的複數是 boxes；不能只改 are 而忘記指示詞或名詞。"
         },
+        "zeroToTopLadder": {
+          "zeroFoundation": "【白話破冰直覺】先別被專有名詞嚇到！「名詞單複數、指示代名詞與祈使句」最核心的白話本質就是：Regular plural nouns add -s or -es; irregular plurals change internally (child/children, foot/feet, man/men). Demonstratives indicate distance and number: this/that (singular), these/those (plural). Imperative sentences begin with a base verb for commands, directions, or requests (use \"Please\" for politeness). 初學起步時，請先牢記第一條黃金判準——「S + V（完全不及物）：動詞自身意思完整，不需受詞也不需補語（實例：Birds fly. / The baby cried loudly.（loudly 為副詞修飾動詞，非受詞））」，只要順著定義一步步對照，零基礎也能穩拿會考 B 級基礎保底分。",
+          "mainstreamBtoA": "【主流破題 SOP】晉升 B++ 至 A 精熟等級的關鍵，在於把題幹線索（題幹出現祈使句省略主詞（動詞原形開頭）、不可數名詞（water, bread, advice, information）或 There is/are 句型。）直接轉譯為「S + V + C（不完全不及物）」與「S + V + O（完全及物）」的比較判準。遵循「祈使句以「動詞原形」開頭，表命令、請求或叮嚀；不可數名詞不加 -s，單數動詞對應；There is 接單數/不可數，There are 接複數。」，並主動避開考場頭號陷阱：「Do not use plural verbs with this/that. In negative imperatives, use \"Don’t\" + base verb, never \"Not\" or \"No\" (say \"Don’t touch\", not \"No touch\").。」",
+          "topTierAPlusPlus": "【A++ 頂標壓軸突破】會考前 5%（A++ 頂標）決勝壓軸題常結合跨圖表轉譯、多條件逆向推導或極端值檢驗。面對高難度綜合題時，請運用頂標驗算防線：「完整更正為 These are three boxes of milk. Don’t put them here.。對照 This is a box of milk.：一盒時 this、is、a box 都為單數。box 的複數是 boxes；不能只改 are 而忘記指示詞或名詞。」算完務必代回原題幹檢驗邊界條件，做到零粗心、零死角滿分通關！"
+        },
+        "examType": {
+          "typeName": "會考高頻：可數與不可數名詞、指示代名詞、祈使句與對等結構",
+          "frequency": "近七年會考考查 6 次 · 基礎單選熱點",
+          "bloomLevel": "理解與應用",
+          "targetCodes": "Ac-IV-6, 1-IV-6",
+          "clues": "題幹出現祈使句省略主詞（動詞原形開頭）、不可數名詞（water, bread, advice, information）或 There is/are 句型。",
+          "publishersFocus": "康軒強調祈使句否定用 Don't ＋ 動詞原形；翰林著重常見不可數名詞計量單位（a piece of, a cup of）；南一著重祈使句後接 and / or（努力...否則/那麼...）。",
+          "strategy": "祈使句以「動詞原形」開頭，表命令、請求或叮嚀；不可數名詞不加 -s，單數動詞對應；There is 接單數/不可數，There are 接複數。",
+          "knowledgeAudit": "本站「名詞單複數、指示代名詞與祈使句」課程收錄不可數名詞全覽與祈使句句型結構，涵蓋完整。"
+        },
+        "capWorkedExample": {
+          "title": "【110 會考補考精選改編】祈使句動詞原形與日常安全警語情境",
+          "stem": "_____ quiet when you are walking in the hospital hallway, or you will disturb the patients who are resting.",
+          "options": [
+            "Be",
+            "To be",
+            "Being",
+            "Are"
+          ],
+          "answer": 0,
+          "steps": [
+            "【第 1 步：審題定位 · 題眼與已知】句子前半段為獨立句，後接「or you will disturb...（否則你將打擾...）」。此為標準「祈使句，or ＋ 句子」結構。求句首動詞形式。",
+            "【第 2 步：破題關鍵 · 課綱概念與核心公式】祈使句文法規則：向對方發出命令、勸告或指示時，省略第二人稱主詞 You，句首一律使用「動詞原形（Base form）」。be 動詞的原形即為「Be」。",
+            "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 分析句型結構：[祈使句], or you will...（請保持安靜，否則你會打擾病人）。\n2. 祈使句句首必須使用動詞原形。\n3. (A) Be 為動詞原形，完全符合祈使句規則。\n4. (B) To be（不定詞）、(C) Being（動名詞或分詞）、(D) Are（現在式），皆不能作為標準祈使句之句首。\n5. 結論：只有 (A) 正確，符合選項 (A)。",
+            "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】選項 (D)「Are」：學生常受口語「You are quiet」影響，誤把 Are 放在句首變成疑問句（但句末不是問號）；選項 (C)「Being」誤將分詞構句亂套於祈使句。",
+            "【第 5 步：版本對照 · 跨版本教材提點與大考心法】三大版本均提示：凡是在醫院、圖書館、捷運告示牌看到的警語，如「Be careful!」「Be quiet!」「Don't run!」，都是省略 You 的祈使句，句首必定是動詞原形！"
+          ]
+        },
         "officialRefs": [
           {
             "code": "Ad-IV-1",
@@ -2210,7 +2453,8 @@
         ],
         "english-7:mastery": [
           "info.english-7.kp3",
-          "q.english-7.pitfall"
+          "q.english-7.pitfall",
+          "q.english-7.cap.example"
         ],
         "english-7:boss": [
           "q.english-7.kp1.def",
@@ -2223,7 +2467,8 @@
           "q.english-7.case.check",
           "enrich.english-7.0",
           "enrich.english-7.1",
-          "q.english-7.pitfall"
+          "q.english-7.pitfall",
+          "q.english-7.cap.example"
         ]
       }
     },
@@ -2427,6 +2672,39 @@
           ],
           "check": "比較 Lily has two chess sets.：此句在說 Lily 擁有棋具，不能用 There has 代替。若寫 She never plays chess，never 表示從不；與 can play 的能力描述不矛盾，會下棋不代表常下棋。"
         },
+        "zeroToTopLadder": {
+          "zeroFoundation": "【白話破冰直覺】先別被專有名詞嚇到！「頻率副詞、情態助動詞 can 與存在句」最核心的白話本質就是：Adverbs of frequency (always, usually, often, sometimes, never) show how often an action happens. They come before action verbs but after be-verbs. The modal verb \"can\" expresses ability or permission and is followed by a base verb. \"There is\" and \"There are\" state existence. 初學起步時，請先牢記第一條黃金判準——「祈使句規範：省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞（實例：Open the door, please. / Don't be late for school again.）」，只要順著定義一步步對照，零基礎也能穩拿會考 B 級基礎保底分。",
+          "mainstreamBtoA": "【主流破題 SOP】晉升 B++ 至 A 精熟等級的關鍵，在於把題幹線索（題幹出現情態助動詞後面接動詞原形、附加問句「前肯定後否定、前否定後肯定」、或回答時動詞時態代換。）直接轉譯為「感嘆句結構」與「附加問句前肯後否」的比較判準。遵循「情態助動詞（can, could, may, must, should, will）後「必接動詞原形」；附加問句口訣：「前肯後否，前否後肯；時態人稱一致，主詞必用代名詞」。」，並主動避開考場頭號陷阱：「Do not put frequency adverbs before be-verbs (say \"He is always kind\", not \"He always is kind\"). In There is/are sentences, verb agreement depends on the noun that immediately follows.。」",
+          "topTierAPlusPlus": "【A++ 頂標壓軸突破】會考前 5%（A++ 頂標）決勝壓軸題常結合跨圖表轉譯、多條件逆向推導或極端值檢驗。面對高難度綜合題時，請運用頂標驗算防線：「比較 Lily has two chess sets.：此句在說 Lily 擁有棋具，不能用 There has 代替。若寫 She never plays chess，never 表示從不；與 can play 的能力描述不矛盾，會下棋不代表常下棋。」算完務必代回原題幹檢驗邊界條件，做到零粗心、零死角滿分通關！"
+        },
+        "examType": {
+          "typeName": "會考高頻：助動詞用法、情態動詞（must, should, may, can）與附加問句",
+          "frequency": "近七年會考考查 7 次 · 單選必考句型",
+          "bloomLevel": "理解與應用",
+          "targetCodes": "Ac-IV-7, 1-IV-7",
+          "clues": "題幹出現情態助動詞後面接動詞原形、附加問句「前肯定後否定、前否定後肯定」、或回答時動詞時態代換。",
+          "publishersFocus": "康軒強調附加問句主詞必用代名詞且時態與前半句一致；翰林著重情態助動詞推測語氣（must be 必定是 vs can't be 不可能是）；南一側重日常生活對話助動詞簡答照應。",
+          "strategy": "情態助動詞（can, could, may, must, should, will）後「必接動詞原形」；附加問句口訣：「前肯後否，前否後肯；時態人稱一致，主詞必用代名詞」。",
+          "knowledgeAudit": "本站「助動詞用法、情態動詞與附加問句」課程已收錄附加問句四大口訣與情態助動詞推測層次表，應用精準。"
+        },
+        "capWorkedExample": {
+          "title": "【111 會考英文第 8 題原型改編】附加問句時態人稱與前後正負對應",
+          "stem": "Jenny has never been to Japan before, _____?",
+          "options": [
+            "hasn't she",
+            "has she",
+            "doesn't she",
+            "is she"
+          ],
+          "answer": 1,
+          "steps": [
+            "【第 1 步：審題定位 · 題眼與已知】前半句：「Jenny has never been to Japan before」。前半句包含否定副詞「never（從未）」，且動詞時態為現在完成式「has been」。求句尾附加問句。",
+            "【第 2 步：破題關鍵 · 課綱概念與核心公式】附加問句解題黃金三原則：\n1. 前否定 ➔ 後肯定：前半句含否定詞 never, seldom, hardly，整句視為否定，附加問句必須用「肯定」形式！\n2. 助動詞一致：前半句使用完成式助動詞 has，附加問句必須沿用 has。\n3. 主詞代名詞化：Jenny 為女性單數，代名詞使用 she。",
+            "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 檢視前半句的否定標誌：含有 never，故前半句為「否定句」。\n2. 依「前否後肯」法則，後半附加問句必須為「肯定」。排除否定式 (A) hasn't she 與 (C) doesn't she。\n3. 比對助動詞：前半句動詞是完成式的 has been，助動詞為 has，排除一般現在式的 (D) is she。\n4. 組合附加問句：has ＋ she ＝ has she?\n5. 結論：只有 (B) 完全正確，符合選項 (B)。",
+            "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】選項 (A)「hasn't she」為大考最經典扣分陷阱！很多考生只看見 has been 就直覺反應填 hasn't she，完全忽略了句中隱藏的否定詞「never」！",
+            "【第 5 步：版本對照 · 跨版本教材提點與大考心法】三大版本均將「含 never / seldom / hardly 的附加問句」列為最高頻也是失分率最高的文法題。看到 never，心裡立刻亮起紅燈：「這是否定句，後面一定要用肯定式」！"
+          ]
+        },
         "officialRefs": [
           {
             "code": "Ad-IV-1",
@@ -2528,7 +2806,8 @@
           "info.english-8.kp3",
           "q.english-8.pitfall",
           "cap.109-english-2",
-          "cap.109-english-3"
+          "cap.109-english-3",
+          "q.english-8.cap.example"
         ],
         "english-8:boss": [
           "q.english-8.kp1.def",
@@ -2543,7 +2822,8 @@
           "enrich.english-8.1",
           "q.english-8.pitfall",
           "cap.109-english-2",
-          "cap.109-english-3"
+          "cap.109-english-3",
+          "q.english-8.cap.example"
         ]
       }
     },
@@ -2747,6 +3027,39 @@
           ],
           "check": "a little 表示有少量；little 常偏向幾乎沒有，語氣不同。可將第一句改為 Leo was cooking when the phone rang.，事件關係保持不變；並非看到 when 就一定把它後面所有動詞變成進行式。"
         },
+        "zeroToTopLadder": {
+          "zeroFoundation": "【白話破冰直覺】先別被專有名詞嚇到！「過去進行式、時間連接詞與數量詞」最核心的白話本質就是：The past continuous tense (was/were + V-ing) describes an action that was in progress at a specific moment in the past. When combined with \"when\" or \"while\", it shows an ongoing background action interrupted by another past action. Countable and uncountable nouns use distinct quantifiers (many/few vs much/little). 初學起步時，請先牢記第一條黃金判準——「過去進行式：主詞 + was/were + V-ing（實例：At 8 p.m. yesterday, I was studying.；主詞單複數決定 was/were）」，只要順著定義一步步對照，零基礎也能穩拿會考 B 級基礎保底分。",
+          "mainstreamBtoA": "【主流破題 SOP】晉升 B++ 至 A 精熟等級的關鍵，在於把題幹線索（題幹出現 when ＋ 過去簡單式（突發瞬間動作）搭配主要子句過去進行式（正在進行的背景動作），或 while ＋ 過去進行式。）直接轉譯為「when 與 while」與「可數與不可數數量」的比較判準。遵循「時態交錯金律：正在進行的「長時間背景動作」用過去進行式（was/were + V-ing）；突然插入打斷的「短暫瞬間動作」用過去簡單式（V-ed）。」，並主動避開考場頭號陷阱：「Do not confuse \"a few\" (positive: some) with \"few\" (negative: almost none), or \"a little\" (some) with \"little\" (almost none). Remember \"were\" is used for you/we/they in past continuous.。」",
+          "topTierAPlusPlus": "【A++ 頂標壓軸突破】會考前 5%（A++ 頂標）決勝壓軸題常結合跨圖表轉譯、多條件逆向推導或極端值檢驗。面對高難度綜合題時，請運用頂標驗算防線：「a little 表示有少量；little 常偏向幾乎沒有，語氣不同。可將第一句改為 Leo was cooking when the phone rang.，事件關係保持不變；並非看到 when 就一定把它後面所有動詞變成進行式。」算完務必代回原題幹檢驗邊界條件，做到零粗心、零死角滿分通關！"
+        },
+        "examType": {
+          "typeName": "會考高頻：過去進行式（was/were + V-ing）與時間連接詞 when / while 敘事交錯",
+          "frequency": "近七年會考考查 6 次 · 敘事時態必考",
+          "bloomLevel": "理解與應用",
+          "targetCodes": "Ac-IV-8, 1-IV-8",
+          "clues": "題幹出現 when ＋ 過去簡單式（突發瞬間動作）搭配主要子句過去進行式（正在進行的背景動作），或 while ＋ 過去進行式。",
+          "publishersFocus": "康軒強調 was/were ＋ V-ing 的長動作 vs 過去簡單式短動作；翰林著重 while 引導持續動作；南一強調停電、地震、電話響起時的生活情境交錯。",
+          "strategy": "時態交錯金律：正在進行的「長時間背景動作」用過去進行式（was/were + V-ing）；突然插入打斷的「短暫瞬間動作」用過去簡單式（V-ed）。",
+          "knowledgeAudit": "本站「過去進行式、時間連接詞與數量詞」課程已完整建立長短動作對照軸與 when/while 語法規則，應用精準。"
+        },
+        "capWorkedExample": {
+          "title": "【110 會考補考精選改編】過去進行式與突發動作 when 時間子句交錯",
+          "stem": "Peter _____ his science homework in the living room when the earthquake suddenly struck last night.",
+          "options": [
+            "does",
+            "was doing",
+            "has done",
+            "will do"
+          ],
+          "answer": 1,
+          "steps": [
+            "【第 1 步：審題定位 · 題眼與已知】句子包含時間副詞子句「when the earthquake suddenly struck last night（昨晚地震突然來襲時）」。struck 是過去式短暫動詞。求主要子句動詞形式。",
+            "【第 2 步：破題關鍵 · 課綱概念與核心公式】過去進行式與突發動作文法公式：S₁ ＋ was/were ＋ V-ing（長動作，正在做作業） ＋ when ＋ S₂ ＋ V-ed（短動作，地震突然發生）。",
+            "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 題眼：when 引導過去瞬間動作 struck（strike 的過去式）。\n2. 地震發生時，Peter 正處於「正在寫作業」的持續狀態中。\n3. 主詞 Peter 是第三人稱單數，過去進行式必須使用 was doing。\n4. (A) does 為現在式；(B) was doing 為過去進行式；(C) has done 為現在完成式；(D) will do 為未來式。\n5. 結論：只有 (B) 完全合乎文法邏輯，符合選項 (B)。",
+            "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】選項 (A)「does」：忽略了 last night 的過去時態背景；選項 (C)「has done」：完成式表動作已做完，但當時地震來襲時動作正在進行中。",
+            "【第 5 步：版本對照 · 跨版本教材提點與大考心法】三大版本均將「when + 短動作, 主要子句用 was/were + V-ing」列為國二英文敘事寫作與會考閱讀最常考的句型。看準長動作與短動作的交錯，秒選進行式！"
+          ]
+        },
         "officialRefs": [
           {
             "code": "Ad-IV-1",
@@ -2846,7 +3159,8 @@
         ],
         "english-9:mastery": [
           "info.english-9.kp3",
-          "q.english-9.pitfall"
+          "q.english-9.pitfall",
+          "q.english-9.cap.example"
         ],
         "english-9:boss": [
           "q.english-9.kp1.def",
@@ -2859,7 +3173,8 @@
           "q.english-9.case.check",
           "enrich.english-9.0",
           "enrich.english-9.1",
-          "q.english-9.pitfall"
+          "q.english-9.pitfall",
+          "q.english-9.cap.example"
         ]
       }
     },
@@ -3063,6 +3378,39 @@
           ],
           "check": "三句分別考主詞補語、感官動詞後結構、最高級，不能用「全部改原形」處理。若說 Ken looks well，well 可表示身體健康，需注意單字依語境可能有不同詞性與意思。"
         },
+        "zeroToTopLadder": {
+          "zeroFoundation": "【白話破冰直覺】先別被專有名詞嚇到！「連綴動詞、感官動詞與最高級比較」最核心的白話本質就是：Linking verbs (look, sound, smell, taste, feel) describe sensory perception and are followed by adjectives, or \"like\" + nouns. Sensory verbs (see, hear, watch, notice) take an object followed by a base verb (entire action) or V-ing (action in progress). Superlatives compare three or more items using the + -est/most. 初學起步時，請先牢記第一條黃金判準——「原級同等比較：as + 形容詞/副詞原級 + as（和...一樣）（實例：He is as smart as his brother. / She sings as beautifully as a bird.）」，只要順著定義一步步對照，零基礎也能穩拿會考 B 級基礎保底分。",
+          "mainstreamBtoA": "【主流破題 SOP】晉升 B++ 至 A 精熟等級的關鍵，在於把題幹線索（題幹出現感官連綴動詞（smell delicious, taste sweet, sound great），詢問後面接形容詞而非副詞，或接 like + 名詞。）直接轉譯為「否定同等比較」與「越來越... (More and more)」的比較判準。遵循「連綴動詞口訣：「五感（看聽聞嚐摸）加變成（become, get, turn），後面一律接形容詞（Adj）」；若後面有名詞，必須加上 like（look like a prince）。」，並主動避開考場頭號陷阱：「Do not use adverbs after linking verbs (say \"The flower smells sweet\", not \"sweetly\"). Do not forget the definite article \"the\" before superlatives.。」",
+          "topTierAPlusPlus": "【A++ 頂標壓軸突破】會考前 5%（A++ 頂標）決勝壓軸題常結合跨圖表轉譯、多條件逆向推導或極端值檢驗。面對高難度綜合題時，請運用頂標驗算防線：「三句分別考主詞補語、感官動詞後結構、最高級，不能用「全部改原形」處理。若說 Ken looks well，well 可表示身體健康，需注意單字依語境可能有不同詞性與意思。」算完務必代回原題幹檢驗邊界條件，做到零粗心、零死角滿分通關！"
+        },
+        "examType": {
+          "typeName": "會考高頻：連綴動詞（look, sound, smell, taste, feel, become）後接形容詞用法",
+          "frequency": "近七年會考考查 7 次 · 連綴動詞基礎",
+          "bloomLevel": "理解與應用",
+          "targetCodes": "Ac-IV-9, 1-IV-9",
+          "clues": "題幹出現感官連綴動詞（smell delicious, taste sweet, sound great），詢問後面接形容詞而非副詞，或接 like + 名詞。",
+          "publishersFocus": "康軒強調連綴動詞不加副詞（smell sweetly 錯誤，應為 smell sweet）；翰林著重 look like ＋ 名詞 vs look ＋ 形容詞；南一側重美食與天氣生活對話情境。",
+          "strategy": "連綴動詞口訣：「五感（看聽聞嚐摸）加變成（become, get, turn），後面一律接形容詞（Adj）」；若後面有名詞，必須加上 like（look like a prince）。",
+          "knowledgeAudit": "本站「連綴動詞、感官動詞與最高級比較」課程已收錄連綴動詞 vs 一般動詞對比表與 like 介系詞搭配規則，框架清晰。"
+        },
+        "capWorkedExample": {
+          "title": "【111 會考英文精選改編】連綴動詞後接形容詞與副詞混淆辨析",
+          "stem": "The fresh apple pie that Mom baked this afternoon smells so _____ that everyone in the house wants a bite.",
+          "options": [
+            "delicious",
+            "deliciously",
+            "more delicious",
+            "most deliciously"
+          ],
+          "answer": 0,
+          "steps": [
+            "【第 1 步：審題定位 · 題眼與已知】主詞為「The fresh apple pie（新鮮蘋果派）」，主要動詞為五感連綴動詞「smells（聞起來）」。後面接「so _____ that...」結構。求空缺處之修飾詞詞性與形式。",
+            "【第 2 步：破題關鍵 · 課綱概念與核心公式】連綴動詞文法鐵律：\n- 描述主詞本質特徵的五感連綴動詞（look, sound, smell, taste, feel），受詞位置必須接「形容詞（Adjective）」做為主詞補語，絕對不能使用副詞（Adverb）！\n- 中文雖然翻譯為「聞起來『美味地』」，但在英文中必須使用形容詞「delicious」。",
+            "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 識別連綴動詞：smells（聞起來）。\n2. 確定詞性要求：連綴動詞後接形容詞原級。\n3. (A) delicious 為形容詞；(B) deliciously 為副詞；(C) more delicious 為比較級（句中無 than 比較對象）；(D) most deliciously 為副詞最高級。\n4. 由文法鐵律，必須選擇形容詞原級 delicious。\n5. 結論：符合選項 (A)。",
+            "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】選項 (B)「deliciously」為全台灣國中生最常掉入的「中式英文思維陷阱」！因中文習慣說「聞起來很香地、美味地」，直覺以為修飾動詞要用副詞 -ly，殊不知連綴動詞在英文中專接形容詞！",
+            "【第 5 步：版本對照 · 跨版本教材提點與大考心法】三大版本一致提示：「五感連綴接形容，千萬莫填副詞 -ly」！只要看到 look, smell, taste, sound, feel，立刻在選項中找出純粹的形容詞，絕不猶豫！"
+          ]
+        },
         "officialRefs": [
           {
             "code": "Ad-IV-1",
@@ -3162,7 +3510,8 @@
         ],
         "english-10:mastery": [
           "info.english-10.kp3",
-          "q.english-10.pitfall"
+          "q.english-10.pitfall",
+          "q.english-10.cap.example"
         ],
         "english-10:boss": [
           "q.english-10.kp1.def",
@@ -3175,7 +3524,8 @@
           "q.english-10.case.check",
           "enrich.english-10.0",
           "enrich.english-10.1",
-          "q.english-10.pitfall"
+          "q.english-10.pitfall",
+          "q.english-10.cap.example"
         ]
       }
     },
@@ -3379,6 +3729,39 @@
           ],
           "check": "buy 是購買事件，have 在此是持有狀態；若表示持續擁有，have had 比 have bought since 更符合意思。對照 He gave a bike to me.，give 使用 to。for three years 與 since 2023 的資訊形式不同，也不能在未知道當年日期時說兩者一定等義。"
         },
+        "zeroToTopLadder": {
+          "zeroFoundation": "【白話破冰直覺】先別被專有名詞嚇到！「授予動詞、使役動詞與現在完成式進階」最核心的白話本質就是：Dative verbs take two objects: direct (thing) and indirect (person). When the person follows, prepositions are required: \"to\" for transfer (give, send, show), \"for\" for benefit/effort (buy, make, cook). Causative verbs (make, have, let) take an object and a bare infinitive (base verb). Present perfect with \"since\" indicates an action starting at a specific point in time. 初學起步時，請先牢記第一條黃金判準——「使役動詞：make/have/let + 受詞 + 原形動詞；get + 受詞 + to V（實例：Mom made me clean my room. / Dad let him drive the car.）」，只要順著定義一步步對照，零基礎也能穩拿會考 B 級基礎保底分。",
+          "mainstreamBtoA": "【主流破題 SOP】晉升 B++ 至 A 精熟等級的關鍵，在於把題幹線索（題幹出現 make/have/let + 受詞 + _____，或 give/send/buy 接 to/for 之介系詞替換。）直接轉譯為「授予動詞介系詞」與「現在完成式持續」的比較判準。遵循「使役三兄弟：make / have / let ＋ 受詞 ＋ 動詞原形（V）；help ＋ (to) V；授與動詞口訣：give / send / show / teach ＋ 物 ＋ to 人；buy / make / cook ＋ 物 ＋ for 人。」，並主動避開考場頭號陷阱：「Do not use \"to V\" after causative verbs (say \"Mom let me go\", not \"Mom let me to go\"). \"Since\" takes a specific starting point; \"for\" takes a duration of time.。」",
+          "topTierAPlusPlus": "【A++ 頂標壓軸突破】會考前 5%（A++ 頂標）決勝壓軸題常結合跨圖表轉譯、多條件逆向推導或極端值檢驗。面對高難度綜合題時，請運用頂標驗算防線：「buy 是購買事件，have 在此是持有狀態；若表示持續擁有，have had 比 have bought since 更符合意思。對照 He gave a bike to me.，give 使用 to。for three years 與 since 2023 的資訊形式不同，也不能在未知道當年日期時說兩者一定等義。」算完務必代回原題幹檢驗邊界條件，做到零粗心、零死角滿分通關！"
+        },
+        "examType": {
+          "typeName": "會考高頻：使役動詞（make, have, let）受詞後接動詞原形與授與動詞（give, buy）雙賓語轉化",
+          "frequency": "近七年會考考查 7 次 · 國二下必考文法焦點",
+          "bloomLevel": "理解與應用",
+          "targetCodes": "Ac-IV-10, 1-IV-10",
+          "clues": "題幹出現 make/have/let + 受詞 + _____，或 give/send/buy 接 to/for 之介系詞替換。",
+          "publishersFocus": "康軒強調使役動詞（make, have, let）受詞後「省略 to」接動詞原形；翰林著重 help 後接原形或 to V 皆可；南一著重授與動詞 to（方向給予）與 for（為某人付出勞力）的嚴格區分。",
+          "strategy": "使役三兄弟：make / have / let ＋ 受詞 ＋ 動詞原形（V）；help ＋ (to) V；授與動詞口訣：give / send / show / teach ＋ 物 ＋ to 人；buy / make / cook ＋ 物 ＋ for 人。",
+          "knowledgeAudit": "本站「授與動詞、使役動詞與不定代名詞」課程已完整建立使役動詞結構表與 to/for 授與動詞分類表，知識點完備。"
+        },
+        "capWorkedExample": {
+          "title": "【111 會考英文第 6 題原型改編】使役動詞 make 受詞後接動詞原形用法",
+          "stem": "The strict teacher made all the students _____ the classroom rules three times as a punishment.",
+          "options": [
+            "to copy",
+            "copy",
+            "copying",
+            "copied"
+          ],
+          "answer": 1,
+          "steps": [
+            "【第 1 步：審題定位 · 題眼與已知】主詞為「The strict teacher（嚴格的老師）」，主要動詞為使役動詞過去式「made（迫使/要求）」，受詞為「all the students」。求後方動詞形式。",
+            "【第 2 步：破題關鍵 · 課綱概念與核心公式】使役動詞文法規則：\n- 使役動詞 make, have, let 表示「使、叫、令、讓」某人去做某事時，受詞後方必須接「不帶 to 的動詞原形（Bare Infinitive）」。",
+            "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 識別主要動詞 made 為使役動詞 make 的過去式。\n2. 套用使役公式：make ＋ 人（受詞） ＋ 動詞原形（V）。\n3. 檢視選項：(A) to copy（帶 to 不定詞，錯誤）；(B) copy（動詞原形，完全正確！）；(C) copying（動名詞，錯誤）；(D) copied（過去式，錯誤）。\n4. 結論：只有 (B) 選項符合使役動詞文法，符合選項 (B)。",
+            "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】選項 (A)「to copy」為最常見錯誤：學生受常態動詞（如 want someone to do, ask someone to do）影響，習慣性加 to；使役動詞與感官動詞具有省略 to 之特權！",
+            "【第 5 步：版本對照 · 跨版本教材提點與大考心法】三大版本均將「make / have / let + 受詞 + 原形動詞」列為國二英文必考秒殺公式。看到 make, have, let，後面受詞一過，直接找原形動詞！"
+          ]
+        },
         "officialRefs": [
           {
             "code": "Ad-IV-1",
@@ -3480,7 +3863,8 @@
           "info.english-11.kp3",
           "q.english-11.pitfall",
           "cap.109-english-8",
-          "cap.109-english-20"
+          "cap.109-english-20",
+          "q.english-11.cap.example"
         ],
         "english-11:boss": [
           "q.english-11.kp1.def",
@@ -3495,7 +3879,8 @@
           "enrich.english-11.1",
           "q.english-11.pitfall",
           "cap.109-english-8",
-          "cap.109-english-20"
+          "cap.109-english-20",
+          "q.english-11.cap.example"
         ]
       }
     },
@@ -3699,6 +4084,39 @@
           ],
           "check": "不能寫 where does Eva live 放在 tell me 後，也不能寫 doesn’t Eva 重複姓名取代常見代名詞。再比較 I wonder where Eva lives.，同樣的嵌入子句放在陳述主句後，整句通常用句號，標點須看整句功能。"
         },
+        "zeroToTopLadder": {
+          "zeroFoundation": "【白話破冰直覺】先別被專有名詞嚇到！「附加問句、名詞子句與間接問句」最核心的白話本質就是：Tag questions confirm information: affirmative statements take negative tags; negative statements take affirmative tags. Noun clauses serve as subjects or objects, introduced by \"that\", \"whether/if\", or wh-question words. Indirect questions change question word order into normal statement order (wh-word + subject + verb). 初學起步時，請先牢記第一條黃金判準——「直接問句：疑問詞＋倒裝結構（實例：Where does he live?）」，只要順著定義一步步對照，零基礎也能穩拿會考 B 級基礎保底分。",
+          "mainstreamBtoA": "【主流破題 SOP】晉升 B++ 至 A 精熟等級的關鍵，在於把題幹線索（題幹出現 although/though（雖然）與 but 絕不並用、because 與 so 絕不並用，或 however, therefore 等轉折語。）直接轉譯為「間接問句」與「是否」的比較判準。遵循「連接詞鐵律：because 與 so 絕不共存；although 與 but 絕不共存（一山不容二虎）；句子有逗點連接兩完整子句必需要有連接詞。」，並主動避開考場頭號陷阱：「In indirect questions, do not keep inversion or auxiliary do/does/did (say \"Can you tell me where he lives?\", not \"where does he live?\").。」",
+          "topTierAPlusPlus": "【A++ 頂標壓軸突破】會考前 5%（A++ 頂標）決勝壓軸題常結合跨圖表轉譯、多條件逆向推導或極端值檢驗。面對高難度綜合題時，請運用頂標驗算防線：「不能寫 where does Eva live 放在 tell me 後，也不能寫 doesn’t Eva 重複姓名取代常見代名詞。再比較 I wonder where Eva lives.，同樣的嵌入子句放在陳述主句後，整句通常用句號，標點須看整句功能。」算完務必代回原題幹檢驗邊界條件，做到零粗心、零死角滿分通關！"
+        },
+        "examType": {
+          "typeName": "會考高頻：副詞子句連接詞（because, although, if, before, after）與邏輯轉折語",
+          "frequency": "近七年會考考查 7 次 · 篇章閱讀與單選核心",
+          "bloomLevel": "理解與分析",
+          "targetCodes": "Ac-IV-11, 1-IV-11",
+          "clues": "題幹出現 although/though（雖然）與 but 絕不並用、because 與 so 絕不並用，或 however, therefore 等轉折語。",
+          "publishersFocus": "康軒強調 although 與 but 在同一英文句子中「二擇一」；翰林著重條件子句與時間子句「現在式代替未來式」；南一著重上下文因果轉折語意辨析。",
+          "strategy": "連接詞鐵律：because 與 so 絕不共存；although 與 but 絕不共存（一山不容二虎）；句子有逗點連接兩完整子句必需要有連接詞。",
+          "knowledgeAudit": "本站「副詞子句、對等連接詞與轉折語」課程已收錄四大副詞子句邏輯分類與轉折詞對照表，體系完整。"
+        },
+        "capWorkedExample": {
+          "title": "【110 會考補考精選改編】副詞子句 although 與 but 互斥文法鐵律",
+          "stem": "_____ Andy was exhausted after a long day of hard work at the office, he still helped his wife wash the dishes and put the baby to sleep.",
+          "options": [
+            "Because",
+            "Although",
+            "If",
+            "So"
+          ],
+          "answer": 1,
+          "steps": [
+            "【第 1 步：審題定位 · 題眼與已知】句子由兩個分句組成：「_____ Andy was exhausted（Andy 筋疲力盡）」與「he still helped his wife...（他仍然幫太太洗碗並哄寶寶睡覺）」。中間有逗點，且後半句有關鍵副詞「still（仍然）」。",
+            "【第 2 步：破題關鍵 · 課綱概念與核心公式】副詞子句邏輯辨析：\n- 筋疲力盡（身體勞累）與 仍然主動分擔家務（勤奮體貼）之間存在「讓步、轉折、出乎意料」之邏輯對立。\n- 表示「雖然、儘管」之連接詞為「Although / Though」。\n- 注意：Although 放在句首，後半句不可再出現 but！",
+            "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 分析兩句邏輯：雖然很累，但他「仍然（still）」幫忙做家事。此為標準的讓步轉折邏輯。\n2. 檢視連接詞功能：\n   - (A) Because（因為）：表示因果，累了就不應洗碗，與「still」矛盾；\n   - (B) Although（雖然）：引導讓步子句，完美契合「雖然...但仍然...」；\n   - (C) If（如果）：表假設條件，與已發生的客觀事實 exhausted 不符；\n   - (D) So（所以）：是對等連接詞，不可置於句首引導從屬子句。\n3. 結論：只有 (B) 選項正確，符合選項 (B)。",
+            "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】選項 (A)「Because」常見邏輯錯誤：未能敏銳察覺「still（仍然）」帶來的逆向轉折訊息；誤選 (D) 則違反連接詞句型文法結構。",
+            "【第 5 步：版本對照 · 跨版本教材提點與大考心法】三大版本均將「Although... still...」列為閱讀必備邏輯詞。牢記「although 與 but 絕不手牽手」，後半句出現 still 是選擇 although 的最強風向球！"
+          ]
+        },
         "officialRefs": [
           {
             "code": "Ad-IV-1",
@@ -3799,7 +4217,8 @@
           "info.english-12.kp3",
           "q.english-12.pitfall",
           "cap.109-english-18",
-          "cap.109-english-21"
+          "cap.109-english-21",
+          "q.english-12.cap.example"
         ],
         "english-12:boss": [
           "q.english-12.kp1.def",
@@ -3814,7 +4233,8 @@
           "enrich.english-12.1",
           "q.english-12.pitfall",
           "cap.109-english-18",
-          "cap.109-english-21"
+          "cap.109-english-21",
+          "q.english-12.cap.example"
         ]
       }
     },
@@ -4018,6 +4438,39 @@
           ],
           "check": "完整句為 We meet at 8:30 on Saturday morning in July. Walk across the bridge; the café is between the bank and the bookstore.。注意題目未給年份，不能推論確切日期；英文介系詞與中文「在」不一對一。另比較 in the morning 和 at night，記錄完整搭配比只背單字有用。"
         },
+        "zeroToTopLadder": {
+          "zeroFoundation": "【白話破冰直覺】先別被專有名詞嚇到！「介系詞與時空方位精準表達」最核心的白話本質就是：Prepositions specify time, location, and direction. Time: \"at\" for precise times (at 7:00), \"on\" for days/dates (on Monday, on May 5th), \"in\" for months/years/longer periods (in July, in 2024). Space: \"at\" a specific point (at the door), \"on\" a surface (on the wall), \"in\" an enclosed space (in the box). Direction: \"across\" (crossing surface), \"through\" (passing inside 3D volume), \"along\" (following a line). 初學起步時，請先牢記第一條黃金判準——「at：時間點、特定位置點（實例：at 7:30 / at the bus stop）」，只要順著定義一步步對照，零基礎也能穩拿會考 B 級基礎保底分。",
+          "mainstreamBtoA": "【主流破題 SOP】晉升 B++ 至 A 精熟等級的關鍵，在於把題幹線索（題幹出現特定日期（on Friday afternoon）、時刻（at 3:00）、年月份（in May, in 2024）、穿過空間（through the tunnel vs across the street）。）直接轉譯為「on」與「in」的比較判準。遵循「時間介系詞速記：at 小時間（點鐘時刻）；on 具體特定日子/星期/某天早晨；in 大時間（年、月、季節、世紀）；立體穿過森林隧道用 through，平面過馬路過橋用 across。」，並主動避開考場頭號陷阱：「Do not say \"on 2024\" or \"in Sunday\". Remember you walk \"through\" a forest/tunnel (3D space), but walk \"across\" a street/bridge (flat surface).。」",
+          "topTierAPlusPlus": "【A++ 頂標壓軸突破】會考前 5%（A++ 頂標）決勝壓軸題常結合跨圖表轉譯、多條件逆向推導或極端值檢驗。面對高難度綜合題時，請運用頂標驗算防線：「完整句為 We meet at 8:30 on Saturday morning in July. Walk across the bridge; the café is between the bank and the bookstore.。注意題目未給年份，不能推論確切日期；英文介系詞與中文「在」不一對一。另比較 in the morning 和 at night，記錄完整搭配比只背單字有用。」算完務必代回原題幹檢驗邊界條件，做到零粗心、零死角滿分通關！"
+        },
+        "examType": {
+          "typeName": "會考高頻：介系詞精準時空方位表達（in, on, at, by, for, during, across, through）",
+          "frequency": "近七年會考考查 6 次 · 生活情境日常用法",
+          "bloomLevel": "理解與記憶",
+          "targetCodes": "Ac-IV-12, 1-IV-12",
+          "clues": "題幹出現特定日期（on Friday afternoon）、時刻（at 3:00）、年月份（in May, in 2024）、穿過空間（through the tunnel vs across the street）。",
+          "publishersFocus": "康軒強調時間介系詞大小口訣（at 點, on 日, in 年月季節）；翰林著重空間穿透 through（3D立體空間）vs across（2D平面橫越）；南一著重搭乘交通工具（by bus vs on the bus）。",
+          "strategy": "時間介系詞速記：at 小時間（點鐘時刻）；on 具體特定日子/星期/某天早晨；in 大時間（年、月、季節、世紀）；立體穿過森林隧道用 through，平面過馬路過橋用 across。",
+          "knowledgeAudit": "本站「介系詞與時空方位精準表達」課程已收錄空間時間介系詞心智圖與生活介系詞陷阱表，概念立體生動。"
+        },
+        "capWorkedExample": {
+          "title": "【111 會考英文精選改編】時間介系詞特定日期早晨之精準選用",
+          "stem": "The grand opening ceremony of the new city library will take place _____ the morning of October 10th.",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "for"
+          ],
+          "answer": 1,
+          "steps": [
+            "【第 1 步：審題定位 · 題眼與已知】題幹描述市立圖書館開幕典禮舉辦的時間：「_____ the morning of October 10th（在十月十日的早晨）」。求最適當的時間介系詞。",
+            "【第 2 步：破題關鍵 · 課綱概念與核心公式】時間介系詞判定法則：\n- 通常「in the morning」使用介系詞 in；\n- 但是！若 morning 前後接上了「特定的具體日期（of October 10th）」或形容詞（a rainy morning），則具有「特定某一天」之屬性，介系詞必須轉用「on」！",
+            "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 審視時間片語：「the morning of October 10th」。\n2. 雖然包含 morning，但被特定日期「October 10th（雙十節）」所修飾限定。\n3. 依據特定日期必須搭配介系詞 on 的文法鐵律：on the morning of [特定日期]。\n4. (A) in 只能用於一般的 in the morning，遇到具體日期則被 on 取代；(C) at 用於精確時刻（at 9:00）；(D) for 用於持續時間長度（for three hours）。\n5. 結論：必須選擇 (B) on，符合選項 (B)。",
+            "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】選項 (A)「in」是本題高達 50% 考生的失分陷阱！考生只瞄到 morning 就直覺套用 in the morning，完全沒看後面的 of October 10th，痛失分數！",
+            "【第 5 步：版本對照 · 跨版本教材提點與大考心法】三大版本均將「特定日期的早晨/下午用 on」列為大考必設陷阱題。記住口訣：「早午晚本該用 in，一旦掛上特定日，立刻轉身改用 on」！"
+          ]
+        },
         "officialRefs": [
           {
             "code": "B-IV-5",
@@ -4117,7 +4570,8 @@
         ],
         "english-13:mastery": [
           "info.english-13.kp3",
-          "q.english-13.pitfall"
+          "q.english-13.pitfall",
+          "q.english-13.cap.example"
         ],
         "english-13:boss": [
           "q.english-13.kp1.def",
@@ -4130,7 +4584,8 @@
           "q.english-13.case.check",
           "enrich.english-13.0",
           "enrich.english-13.1",
-          "q.english-13.pitfall"
+          "q.english-13.pitfall",
+          "q.english-13.cap.example"
         ]
       }
     },
@@ -4334,6 +4789,39 @@
           ],
           "check": "不要把兩句拼成 If it will rains，也不要忽略 it 的第三人稱單數 s。延伸判斷 If you heat ice enough, it melts. 是一般規律，兩邊可用現在式；三種情境的差別在事件真實性與時間關係，而非只是選不同助動詞。"
         },
+        "zeroToTopLadder": {
+          "zeroFoundation": "【白話破冰直覺】先別被專有名詞嚇到！「條件副詞子句與情態假設語氣」最核心的白話本質就是：Conditional adverb clauses introduced by \"if\" or \"unless\" describe conditions. In future conditional sentences (First Conditional), the condition clause uses the simple present tense to represent the future, while the main clause uses future tense with \"will/can/may\": \"If it rains tomorrow, we will cancel the picnic.\" \"Unless\" means \"if not\". 初學起步時，請先牢記第一條黃金判準——「可能發生：If＋現在式，主句 will/can＋原形（實例：If it rains tomorrow, we will stay home.）」，只要順著定義一步步對照，零基礎也能穩拿會考 B 級基礎保底分。",
+          "mainstreamBtoA": "【主流破題 SOP】晉升 B++ 至 A 精熟等級的關鍵，在於把題幹線索（題幹主要子句為未來式（will go picnic），條件子句 if 填入動詞，考查用現在簡單式代替未來式。）直接轉譯為「一般規律」與「與現在事實相反（延伸）」的比較判準。遵循「條件子句黃金法則：主要子句若為未來式（will + V），在 if / unless 引導的條件副詞子句中，動詞「一律用現在簡單式（V/V-es）代替未來式（絕不能加 will）！」」，並主動避開考場頭號陷阱：「Do not put \"will\" inside the if-clause when expressing a future condition (say \"If tomorrow is sunny\", not \"If tomorrow will be sunny\").。」",
+          "topTierAPlusPlus": "【A++ 頂標壓軸突破】會考前 5%（A++ 頂標）決勝壓軸題常結合跨圖表轉譯、多條件逆向推導或極端值檢驗。面對高難度綜合題時，請運用頂標驗算防線：「不要把兩句拼成 If it will rains，也不要忽略 it 的第三人稱單數 s。延伸判斷 If you heat ice enough, it melts. 是一般規律，兩邊可用現在式；三種情境的差別在事件真實性與時間關係，而非只是選不同助動詞。」算完務必代回原題幹檢驗邊界條件，做到零粗心、零死角滿分通關！"
+        },
+        "examType": {
+          "typeName": "會考高頻：條件副詞子句（if, unless）與「現在式代替未來式」文法鐵律",
+          "frequency": "近七年會考考查 7 次 · 歷年文法核心必出",
+          "bloomLevel": "理解與應用",
+          "targetCodes": "Ac-IV-13, 1-IV-13",
+          "clues": "題幹主要子句為未來式（will go picnic），條件子句 if 填入動詞，考查用現在簡單式代替未來式。",
+          "publishersFocus": "康軒強調 if 條件子句動詞用現在式，即使明天尚未發生；翰林著重 unless ＝ if... not（除非）；南一強調天氣與戶外活動條件假設情境。",
+          "strategy": "條件子句黃金法則：主要子句若為未來式（will + V），在 if / unless 引導的條件副詞子句中，動詞「一律用現在簡單式（V/V-es）代替未來式（絕不能加 will）！」",
+          "knowledgeAudit": "本站「條件副詞子句與情態假設語氣」課程已建立條件子句時態對應表與 unless 否定轉換規則，指引精確。"
+        },
+        "capWorkedExample": {
+          "title": "【111 會考英文第 15 題原型改編】if 條件副詞子句現在式代替未來式",
+          "stem": "We will go camping in the mountains tomorrow if it _____ fine and sunny.",
+          "options": [
+            "will be",
+            "is",
+            "was",
+            "has been"
+          ],
+          "answer": 1,
+          "steps": [
+            "【第 1 步：審題定位 · 題眼與已知】主要子句為「We will go camping in the mountains tomorrow（我們明天要去山裡露營）」，時態為未來式（will go）。連接詞 if 引導條件子句，修飾明天天氣狀況。",
+            "【第 2 步：破題關鍵 · 課綱概念與核心公式】文法最高鐵律：\n- 在表示時間或條件的副詞子句中（if, when, as soon as, unless），必須「以現在簡單式代替未來式」！\n- 雖然時間是明天（tomorrow），但 if 子句內絕對不能使用 will be，必須使用現在簡單式 be 動詞「is」。",
+            "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 識別主要子句時態：will go（未來式）。\n2. 識別連接詞：if（引導條件副詞子句）。\n3. 套用文法鐵律：if 子句內以現在式代替未來式。\n4. 主詞 it 是第三人稱單數，現在簡單式 be 動詞為 is。\n5. (A) will be 違反條件子句不加 will 的鐵律；(B) is 完全正確；(C) was 為過去式；(D) has been 為現在完成式。\n6. 結論：只有 (B) 選項正確，符合選項 (B)。",
+            "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】選項 (A)「will be」為全台考生最常見之陷阱：看到句尾 tomorrow 就毫不猶豫選了 will be，完全把 if 條件子句的文法鐵律拋諸腦後！",
+            "【第 5 步：版本對照 · 跨版本教材提點與大考心法】三大版本無一例外將「if 子句現在代未來」列為全冊最重要的一條文法公式。記牢它：只要身在 if 條件子句裡，看到 tomorrow 也要咬定用現在式 is！"
+          ]
+        },
         "officialRefs": [
           {
             "code": "Ad-IV-1",
@@ -4433,7 +4921,8 @@
         ],
         "english-14:mastery": [
           "info.english-14.kp3",
-          "q.english-14.pitfall"
+          "q.english-14.pitfall",
+          "q.english-14.cap.example"
         ],
         "english-14:boss": [
           "q.english-14.kp1.def",
@@ -4446,7 +4935,8 @@
           "q.english-14.case.check",
           "enrich.english-14.0",
           "enrich.english-14.1",
-          "q.english-14.pitfall"
+          "q.english-14.pitfall",
+          "q.english-14.cap.example"
         ]
       }
     },
@@ -4650,6 +5140,39 @@
           ],
           "check": "兩個女孩句子的助人方向相反，不能只看相同單字而認為意思一樣。修飾範圍也要清楚：先行詞是 girl，不是句末 Amy 之後再接一串不明子句。介系詞的選擇由 sit on the chair 這個原本搭配決定。"
         },
+        "zeroToTopLadder": {
+          "zeroFoundation": "【白話破冰直覺】先別被專有名詞嚇到！「關係代名詞受格省略與介系詞搭配」最核心的白話本質就是：When a relative pronoun (who, whom, which, that) functions as the object in a relative clause, it can be omitted in informal English. When a verb in the relative clause requires a preposition, the preposition may appear at the end of the clause, or immediately before the formal relative pronoun (preposition + whom/which; \"that\" cannot follow a preposition). 初學起步時，請先牢記第一條黃金判準——「主格：關係代名詞在子句中當主詞，通常不可省略（實例：The boy who lives here is Tom.）」，只要順著定義一步步對照，零基礎也能穩拿會考 B 級基礎保底分。",
+          "mainstreamBtoA": "【主流破題 SOP】晉升 B++ 至 A 精熟等級的關鍵，在於把題幹線索（題幹出現修飾名詞的關係子句，考查受格關係代名詞可省略、介系詞提前（to whom, in which）、或只能用 that 的限定場合（最高級, the only）。）直接轉譯為「受格」與「介系詞」的比較判準。遵循「關代判斷法：先行詞是人選 who/that，是物選 which/that；關代後面緊接「動詞」為主格（不可省略）；後面緊接「主詞+動詞」為受格（可省略）；介系詞後絕不能用 that！」，並主動避開考場頭號陷阱：「Never place \"that\" or \"who\" directly after a preposition (write \"the house in which\", never \"the house in that\"). You cannot omit the relative pronoun when it serves as the subject.。」",
+          "topTierAPlusPlus": "【A++ 頂標壓軸突破】會考前 5%（A++ 頂標）決勝壓軸題常結合跨圖表轉譯、多條件逆向推導或極端值檢驗。面對高難度綜合題時，請運用頂標驗算防線：「兩個女孩句子的助人方向相反，不能只看相同單字而認為意思一樣。修飾範圍也要清楚：先行詞是 girl，不是句末 Amy 之後再接一串不明子句。介系詞的選擇由 sit on the chair 這個原本搭配決定。」算完務必代回原題幹檢驗邊界條件，做到零粗心、零死角滿分通關！"
+        },
+        "examType": {
+          "typeName": "會考高頻：關係代名詞（who, which, that）主格與受格省略規則、介系詞搭配",
+          "frequency": "近七年會考考查 7 次 · 國三進階文法壓軸",
+          "bloomLevel": "分析與綜合",
+          "targetCodes": "Ac-IV-14, 1-IV-14",
+          "clues": "題幹出現修飾名詞的關係子句，考查受格關係代名詞可省略、介系詞提前（to whom, in which）、或只能用 that 的限定場合（最高級, the only）。",
+          "publishersFocus": "康軒強調關代當主格不可省略，當受格可以省略；翰林著重逗點後非限定子句不可用 that，介系詞後不可用 that；南一著重形容詞子句在長篇閱讀中的修飾理解。",
+          "strategy": "關代判斷法：先行詞是人選 who/that，是物選 which/that；關代後面緊接「動詞」為主格（不可省略）；後面緊接「主詞+動詞」為受格（可省略）；介系詞後絕不能用 that！",
+          "knowledgeAudit": "本站「關係代名詞受格省略與介系詞搭配」課程已收錄關代格位速查表與 that 專屬/禁用場合矩陣，體系完備。"
+        },
+        "capWorkedExample": {
+          "title": "【111 會考英文精選改編】受格關係代名詞之省略與先行詞辨析",
+          "stem": "The mystery novel _____ you lent me last week is so thrilling that I couldn't put it down.",
+          "options": [
+            "who",
+            "which",
+            "what",
+            "where"
+          ],
+          "answer": 1,
+          "steps": [
+            "【第 1 步：審題定位 · 題眼與已知】主要子句結構為「The mystery novel is so thrilling...（這本推理小說太引人入勝了）」。先行詞是「The mystery novel（推理小說，指物）」。空格後為「you lent me last week（你上週借給我，缺受詞）」。",
+            "【第 2 步：破題關鍵 · 課綱概念與核心公式】關係代名詞文法公式：\n- 先行詞為事物（novel），關係代名詞應使用「which」或「that」。\n- 關係代名詞在子句中作動詞 lent 的直接受詞（you lent the novel to me），屬於受格關係代名詞。\n- (A) who 用於人；(C) what 不能有先行詞；(D) where 引導地方副詞子句（後面需為完整句子）。",
+            "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 找出先行詞：The mystery novel（名詞，事物）。\n2. 先行詞是事物，關係代名詞必須用 which 或 that。\n3. 檢視選項：(A) who（修飾人，錯誤）；(B) which（修飾事物，正確！）；(C) what（本身包含先行詞，不能放在名詞後，錯誤）；(D) where（表地點，錯誤）。\n4. 結論：只有 (B) 選項正確，符合選項 (B)。",
+            "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】選項 (C)「what」常見混淆：what ＝ the thing which，前面不能有名詞；若前面已經有 The mystery novel，絕對不能再接 what！",
+            "【第 5 步：版本對照 · 跨版本教材提點與大考心法】三大版本均強調：先行詞決定關代！先看先行詞是「人」還是「物」，再看子句缺主詞還是缺受詞。關代是會考每年必考的國三旗艦文法，掌握先行詞就掌握了半壁江山。"
+          ]
+        },
         "officialRefs": [
           {
             "code": "Ad-IV-1",
@@ -4749,7 +5272,8 @@
         ],
         "english-15:mastery": [
           "info.english-15.kp3",
-          "q.english-15.pitfall"
+          "q.english-15.pitfall",
+          "q.english-15.cap.example"
         ],
         "english-15:boss": [
           "q.english-15.kp1.def",
@@ -4762,7 +5286,8 @@
           "q.english-15.case.check",
           "enrich.english-15.0",
           "enrich.english-15.1",
-          "q.english-15.pitfall"
+          "q.english-15.pitfall",
+          "q.english-15.cap.example"
         ]
       }
     },
@@ -4966,6 +5491,39 @@
           ],
           "check": "不能把較低票價當成唯一條件；題目也沒有說交通費，因此若要規劃真實行程，仍須另外確認交通與最後入館時間。克漏字若接「A is cheaper, ___ it is closed on Sunday」，空格應表轉折，如 but，而非表示結果的 so。回讀全段可避免文法局部正確、整體理由卻矛盾。"
         },
+        "zeroToTopLadder": {
+          "zeroFoundation": "【白話破冰直覺】先別被專有名詞嚇到！「跨文本圖表閱讀與素養克漏字」最核心的白話本質就是：Literacy reading in CAP exams requires synthesizing multimodal texts: bus timetables, weather forecasts, product packaging, infographics, and email notices. Strategies include: skimming the title and layout for the communicative purpose, scanning for specific numbers/times/conditions, and identifying context clues (synonyms, antonyms, transition words like however/therefore) to solve cloze passages. 初學起步時，請先牢記第一條黃金判準——「Skimming 略讀大意：快速閱讀文章首尾段、每段首句與小標題，掌握核心主題與主旨（實例：Read topic sentences first to capture the main idea before details.）」，只要順著定義一步步對照，零基礎也能穩拿會考 B 級基礎保底分。",
+          "mainstreamBtoA": "【主流破題 SOP】晉升 B++ 至 A 精熟等級的關鍵，在於把題幹線索（題幹出現 I don't know where he lives, Could you tell me what time the train arrives? 考查間接問句改為直述句語序。）直接轉譯為「Scanning 掃讀細節」與「Graphic Interpretation 圖表判讀」的比較判準。遵循「間接問句核心口訣：「疑問詞 ＋ S ＋ V（主詞在前，動詞在後）」！遇到 do, does, did 一律刪除，將動詞變為相應時態（三單加 s，過去加 ed）；絕不能保留問句倒裝！」，並主動避開考場頭號陷阱：「Do not assume information not present in the text; always verify eligibility conditions, time limits, and discounts carefully before answering.。」",
+          "topTierAPlusPlus": "【A++ 頂標壓軸突破】會考前 5%（A++ 頂標）決勝壓軸題常結合跨圖表轉譯、多條件逆向推導或極端值檢驗。面對高難度綜合題時，請運用頂標驗算防線：「不能把較低票價當成唯一條件；題目也沒有說交通費，因此若要規劃真實行程，仍須另外確認交通與最後入館時間。克漏字若接「A is cheaper, ___ it is closed on Sunday」，空格應表轉折，如 but，而非表示結果的 so。回讀全段可避免文法局部正確、整體理由卻矛盾。」算完務必代回原題幹檢驗邊界條件，做到零粗心、零死角滿分通關！"
+        },
+        "examType": {
+          "typeName": "會考高頻：名詞子句（that 引導、wh- 間接問句、whether / if 是否）與直述句語序",
+          "frequency": "近七年會考考查 7 次 · 國三進階文法核心",
+          "bloomLevel": "理解與分析",
+          "targetCodes": "Ac-IV-15, 1-IV-15",
+          "clues": "題幹出現 I don't know where he lives, Could you tell me what time the train arrives? 考查間接問句改為直述句語序。",
+          "publishersFocus": "康軒強調間接問句語序為「疑問詞 ＋ 主詞 ＋ 動詞」絕不倒裝；翰林著重助動詞 do/does/did 必須拿掉並將動詞時態還原；南一著重日常生活禮貌詢問（Excuse me, could you tell me...）。",
+          "strategy": "間接問句核心口訣：「疑問詞 ＋ S ＋ V（主詞在前，動詞在後）」！遇到 do, does, did 一律刪除，將動詞變為相應時態（三單加 s，過去加 ed）；絕不能保留問句倒裝！",
+          "knowledgeAudit": "本站「名詞子句與間接問句結構」課程已收錄間接問句三步還原法與 whether/if 選擇子句規則，解析嚴密。"
+        },
+        "capWorkedExample": {
+          "title": "【110 會考補考第 14 題原型改編】間接問句直述句語序（疑問詞 + S + V）辨析",
+          "stem": "Excuse me, could you please tell me _____?",
+          "options": [
+            "where is the nearest convenience store",
+            "where the nearest convenience store is",
+            "where does the nearest convenience store locate",
+            "the nearest convenience store is where"
+          ],
+          "answer": 1,
+          "steps": [
+            "【第 1 步：審題定位 · 題眼與已知】主句為禮貌性請求問句「Could you please tell me _____?」。受詞位置需要一個由疑問詞 where（哪裡）引導的名詞子句（間接問句）。",
+            "【第 2 步：破題關鍵 · 課綱概念與核心公式】間接問句（名詞子句）文法鐵律：\n- 直接問句為倒裝語序（Where is the store?）；\n- 當嵌入另一個句子做為受詞或主詞時，必須變回「直述句語序」：疑問詞 ＋ 主詞 ＋ 動詞（Where ＋ S ＋ V）！\n- be 動詞 is 必須移到主詞「the nearest convenience store」的後方！",
+            "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 分析受詞子句結構：疑問詞（Where）＋ 主詞（the nearest convenience store）＋ 動詞（is）。\n2. 檢視 (A)「where is the nearest...」：仍保留直接問句的倒裝語序（動詞 is 在主詞前），在名詞子句中屬於嚴重文法錯誤。\n3. 檢視 (B)「where the nearest convenience store is」：嚴格遵守「疑問詞 ＋ 主詞 ＋ 動詞」之直述句語序，完全正確！\n4. 檢視 (C)「where does the... locate」：保留了助動詞 does 倒裝，且 locate 用法錯誤。\n5. 檢視 (D)「the nearest... is where」：語序凌亂顛倒。\n6. 結論：只有 (B) 完全正確，符合選項 (B)。",
+            "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】選項 (A) 是歷屆會考最著名的「直覺倒裝陷阱」！考生口語習慣問「Where is the store?」，看到題目不自覺就選了 where is，完全忘記在 tell me 後面必須恢復正常直述句語序！",
+            "【第 5 步：版本對照 · 跨版本教材提點與大考心法】三大版本均將「間接問句必不倒裝（疑問詞 + 主詞 + 動詞）」列為國三文法最重要的期末考與會考必勝口訣。只要在考卷上看見 could you tell me / I don't know，第一時間把動詞拉到主詞後面！"
+          ]
+        },
         "officialRefs": [
           {
             "code": "Ae-IV-2",
@@ -5072,7 +5630,8 @@
           "info.english-16.kp3",
           "q.english-16.pitfall",
           "cap.111-english-1",
-          "cap.111-english-23"
+          "cap.111-english-23",
+          "q.english-16.cap.example"
         ],
         "english-16:boss": [
           "q.english-16.kp1.def",
@@ -5087,7 +5646,8 @@
           "enrich.english-16.1",
           "q.english-16.pitfall",
           "cap.111-english-1",
-          "cap.111-english-23"
+          "cap.111-english-23",
+          "q.english-16.cap.example"
         ]
       }
     }

@@ -2,1518 +2,1518 @@
   "baselineCommit": "c54dc06",
   "method": "non-whitespace characters in authored lesson fields, comparison cells and lesson question fields; excludes markup and shared UI",
   "baselineCharacters": 118267,
-  "afterCharacters": 228527,
-  "addedCharacters": 110260,
-  "growthPercent": 93.23,
-  "minimumUnitGrowthPercent": 59.73,
+  "afterCharacters": 575580,
+  "addedCharacters": 457313,
+  "growthPercent": 386.68,
+  "minimumUnitGrowthPercent": 178.77,
   "unitsWithAddedTeaching": 188,
   "newWorkedExamples": 188,
-  "newReasoningSteps": 564,
-  "uniqueNewCharacters": 45586,
+  "newReasoningSteps": 1504,
+  "uniqueNewCharacters": 360954,
   "units": [
     {
       "id": "math-1",
       "title": "正負數與絕對值",
       "before": 364,
-      "after": 730,
-      "added": 366,
-      "growthPercent": 100.55
+      "after": 2156,
+      "added": 1792,
+      "growthPercent": 492.31
     },
     {
       "id": "math-2",
       "title": "因數、倍數與質因數分解",
       "before": 381,
-      "after": 746,
-      "added": 365,
-      "growthPercent": 95.8
+      "after": 2351,
+      "added": 1970,
+      "growthPercent": 517.06
     },
     {
       "id": "math-3",
       "title": "分數運算與科學記號",
       "before": 448,
-      "after": 839,
-      "added": 391,
-      "growthPercent": 87.28
+      "after": 2354,
+      "added": 1906,
+      "growthPercent": 425.45
     },
     {
       "id": "math-4",
       "title": "一元一次方程式",
       "before": 416,
-      "after": 823,
-      "added": 407,
-      "growthPercent": 97.84
+      "after": 2330,
+      "added": 1914,
+      "growthPercent": 460.1
     },
     {
       "id": "math-5",
       "title": "二元一次聯立方程式",
       "before": 404,
-      "after": 820,
-      "added": 416,
-      "growthPercent": 102.97
+      "after": 2295,
+      "added": 1891,
+      "growthPercent": 468.07
     },
     {
       "id": "math-6",
       "title": "比例、正比與反比",
       "before": 370,
-      "after": 738,
-      "added": 368,
-      "growthPercent": 99.46
+      "after": 2215,
+      "added": 1845,
+      "growthPercent": 498.65
     },
     {
       "id": "math-7",
       "title": "一元一次不等式",
       "before": 317,
-      "after": 646,
-      "added": 329,
-      "growthPercent": 103.79
+      "after": 2149,
+      "added": 1832,
+      "growthPercent": 577.92
     },
     {
       "id": "math-8",
       "title": "坐標與資料圖表",
       "before": 412,
-      "after": 752,
-      "added": 340,
-      "growthPercent": 82.52
+      "after": 2208,
+      "added": 1796,
+      "growthPercent": 435.92
     },
     {
       "id": "math-9",
       "title": "乘法公式與多項式",
       "before": 444,
-      "after": 854,
-      "added": 410,
-      "growthPercent": 92.34
+      "after": 2236,
+      "added": 1792,
+      "growthPercent": 403.6
     },
     {
       "id": "math-10",
       "title": "平方根與畢氏定理",
       "before": 390,
-      "after": 714,
-      "added": 324,
-      "growthPercent": 83.08
+      "after": 2205,
+      "added": 1815,
+      "growthPercent": 465.38
     },
     {
       "id": "math-11",
       "title": "因式分解",
       "before": 468,
-      "after": 889,
-      "added": 421,
-      "growthPercent": 89.96
+      "after": 2303,
+      "added": 1835,
+      "growthPercent": 392.09
     },
     {
       "id": "math-12",
       "title": "一元二次方程式",
       "before": 430,
-      "after": 863,
-      "added": 433,
-      "growthPercent": 100.7
+      "after": 2703,
+      "added": 2273,
+      "growthPercent": 528.6
     },
     {
       "id": "math-13",
       "title": "等差數列與一次函數",
       "before": 393,
-      "after": 821,
-      "added": 428,
-      "growthPercent": 108.91
+      "after": 2270,
+      "added": 1877,
+      "growthPercent": 477.61
     },
     {
       "id": "math-14",
       "title": "三角形全等與幾何推理",
       "before": 469,
-      "after": 940,
-      "added": 471,
-      "growthPercent": 100.43
+      "after": 2423,
+      "added": 1954,
+      "growthPercent": 416.63
     },
     {
       "id": "math-15",
       "title": "平行線、四邊形與尺規",
       "before": 371,
-      "after": 826,
-      "added": 455,
-      "growthPercent": 122.64
+      "after": 2392,
+      "added": 2021,
+      "growthPercent": 544.74
     },
     {
       "id": "math-16",
       "title": "相似形與比例推理",
       "before": 405,
-      "after": 829,
-      "added": 424,
-      "growthPercent": 104.69
+      "after": 2364,
+      "added": 1959,
+      "growthPercent": 483.7
     },
     {
       "id": "math-17",
       "title": "圓、切線與圓周角",
       "before": 367,
-      "after": 768,
-      "added": 401,
-      "growthPercent": 109.26
+      "after": 2146,
+      "added": 1779,
+      "growthPercent": 484.74
     },
     {
       "id": "math-18",
       "title": "二次函數與極值",
       "before": 406,
-      "after": 742,
-      "added": 336,
-      "growthPercent": 82.76
+      "after": 2253,
+      "added": 1847,
+      "growthPercent": 454.93
     },
     {
       "id": "math-19",
       "title": "統計、機率與空間圖形",
       "before": 428,
-      "after": 934,
-      "added": 506,
-      "growthPercent": 118.22
+      "after": 2333,
+      "added": 1905,
+      "growthPercent": 445.09
     },
     {
       "id": "chinese-1",
       "title": "字詞、語境與修辭",
       "before": 413,
-      "after": 897,
-      "added": 484,
-      "growthPercent": 117.19
+      "after": 2508,
+      "added": 2095,
+      "growthPercent": 507.26
     },
     {
       "id": "chinese-2",
       "title": "敘事閱讀與人物推論",
       "before": 438,
-      "after": 788,
-      "added": 350,
-      "growthPercent": 79.91
+      "after": 2399,
+      "added": 1961,
+      "growthPercent": 447.72
     },
     {
       "id": "chinese-3",
       "title": "文言文的省略與虛字",
       "before": 416,
-      "after": 854,
-      "added": 438,
-      "growthPercent": 105.29
+      "after": 2546,
+      "added": 2130,
+      "growthPercent": 512.02
     },
     {
       "id": "chinese-4",
       "title": "說明文、圖表與資訊整合",
       "before": 449,
-      "after": 964,
-      "added": 515,
-      "growthPercent": 114.7
+      "after": 2703,
+      "added": 2254,
+      "growthPercent": 502
     },
     {
       "id": "chinese-5",
       "title": "議論、論據與批判閱讀",
       "before": 419,
-      "after": 870,
-      "added": 451,
-      "growthPercent": 107.64
+      "after": 2417,
+      "added": 1998,
+      "growthPercent": 476.85
     },
     {
       "id": "chinese-6",
       "title": "詩歌賞析與寫作組織",
       "before": 458,
-      "after": 925,
-      "added": 467,
-      "growthPercent": 101.97
+      "after": 2676,
+      "added": 2218,
+      "growthPercent": 484.28
     },
     {
       "id": "english-1",
       "title": "句子骨架與現在式",
       "before": 616,
-      "after": 1312,
-      "added": 696,
-      "growthPercent": 112.99
+      "after": 3181,
+      "added": 2565,
+      "growthPercent": 416.4
     },
     {
       "id": "english-2",
       "title": "現在進行式與時間表達",
       "before": 651,
-      "after": 1211,
-      "added": 560,
-      "growthPercent": 86.02
+      "after": 3137,
+      "added": 2486,
+      "growthPercent": 381.87
     },
     {
       "id": "english-3",
       "title": "過去式、未來與敘事順序",
       "before": 667,
-      "after": 1404,
-      "added": 737,
-      "growthPercent": 110.49
+      "after": 3412,
+      "added": 2745,
+      "growthPercent": 411.54
     },
     {
       "id": "english-4",
       "title": "比較級、不定詞與動名詞",
       "before": 522,
-      "after": 1417,
-      "added": 895,
-      "growthPercent": 171.46
+      "after": 3352,
+      "added": 2830,
+      "growthPercent": 542.15
     },
     {
       "id": "english-5",
       "title": "完成式、被動與關係子句",
       "before": 654,
-      "after": 1302,
-      "added": 648,
-      "growthPercent": 99.08
+      "after": 3259,
+      "added": 2605,
+      "growthPercent": 398.32
     },
     {
       "id": "english-6",
       "title": "閱讀策略與情境溝通",
       "before": 628,
-      "after": 1223,
-      "added": 595,
-      "growthPercent": 94.75
+      "after": 3098,
+      "added": 2470,
+      "growthPercent": 393.31
     },
     {
       "id": "math-20",
       "title": "三角形的外心、內心與重心",
       "before": 623,
-      "after": 1050,
-      "added": 427,
-      "growthPercent": 68.54
+      "after": 2629,
+      "added": 2006,
+      "growthPercent": 321.99
     },
     {
       "id": "chinese-7",
       "title": "六書原則與漢字形義流變",
       "before": 661,
-      "after": 1158,
-      "added": 497,
-      "growthPercent": 75.19
+      "after": 2958,
+      "added": 2297,
+      "growthPercent": 347.5
     },
     {
       "id": "chinese-8",
       "title": "標點符號、句型結構與語法邏輯",
       "before": 609,
-      "after": 1166,
-      "added": 557,
-      "growthPercent": 91.46
+      "after": 2896,
+      "added": 2287,
+      "growthPercent": 375.53
     },
     {
       "id": "chinese-9",
       "title": "古典近體詩：絕句與律詩格律賞析",
       "before": 628,
-      "after": 1223,
-      "added": 595,
-      "growthPercent": 94.75
+      "after": 2990,
+      "added": 2362,
+      "growthPercent": 376.11
     },
     {
       "id": "chinese-10",
       "title": "詞曲賞析與古代生活文化",
       "before": 679,
-      "after": 1321,
-      "added": 642,
-      "growthPercent": 94.55
+      "after": 3050,
+      "added": 2371,
+      "growthPercent": 349.19
     },
     {
       "id": "chinese-11",
       "title": "古典小說選讀與人性刻畫",
       "before": 664,
-      "after": 1185,
-      "added": 521,
-      "growthPercent": 78.46
+      "after": 2924,
+      "added": 2260,
+      "growthPercent": 340.36
     },
     {
       "id": "chinese-12",
       "title": "應用文全覽：書信、題辭、對聯與柬帖規範",
       "before": 717,
-      "after": 1377,
-      "added": 660,
-      "growthPercent": 92.05
+      "after": 3355,
+      "added": 2638,
+      "growthPercent": 367.92
     },
     {
       "id": "english-7",
       "title": "名詞單複數、指示代名詞與祈使句",
       "before": 1668,
-      "after": 2837,
-      "added": 1169,
-      "growthPercent": 70.08
+      "after": 4900,
+      "added": 3232,
+      "growthPercent": 193.76
     },
     {
       "id": "english-8",
       "title": "頻率副詞、情態助動詞 can 與存在句",
       "before": 1566,
-      "after": 2796,
-      "added": 1230,
-      "growthPercent": 78.54
+      "after": 4897,
+      "added": 3331,
+      "growthPercent": 212.71
     },
     {
       "id": "english-9",
       "title": "過去進行式、時間連接詞與數量詞",
       "before": 1721,
-      "after": 2930,
-      "added": 1209,
-      "growthPercent": 70.25
+      "after": 5028,
+      "added": 3307,
+      "growthPercent": 192.16
     },
     {
       "id": "english-10",
       "title": "連綴動詞、感官動詞與最高級比較",
       "before": 1627,
-      "after": 2954,
-      "added": 1327,
-      "growthPercent": 81.56
+      "after": 5204,
+      "added": 3577,
+      "growthPercent": 219.85
     },
     {
       "id": "english-11",
       "title": "授予動詞、使役動詞與現在完成式進階",
       "before": 1865,
-      "after": 3172,
-      "added": 1307,
-      "growthPercent": 70.08
+      "after": 5398,
+      "added": 3533,
+      "growthPercent": 189.44
     },
     {
       "id": "english-12",
       "title": "附加問句、名詞子句與間接問句",
       "before": 1720,
-      "after": 2816,
-      "added": 1096,
-      "growthPercent": 63.72
+      "after": 4990,
+      "added": 3270,
+      "growthPercent": 190.12
     },
     {
       "id": "math-21",
       "title": "連比與比例式的應用",
       "before": 648,
-      "after": 1231,
-      "added": 583,
-      "growthPercent": 89.97
+      "after": 3212,
+      "added": 2564,
+      "growthPercent": 395.68
     },
     {
       "id": "math-22",
       "title": "等差級數與求和公式",
       "before": 600,
-      "after": 1154,
-      "added": 554,
-      "growthPercent": 92.33
+      "after": 2668,
+      "added": 2068,
+      "growthPercent": 344.67
     },
     {
       "id": "math-23",
       "title": "多邊形的內角和與外角和",
       "before": 679,
-      "after": 1162,
-      "added": 483,
-      "growthPercent": 71.13
+      "after": 2697,
+      "added": 2018,
+      "growthPercent": 297.2
     },
     {
       "id": "math-24",
       "title": "特殊四邊形與對角線幾何性質",
       "before": 834,
-      "after": 1403,
-      "added": 569,
-      "growthPercent": 68.23
+      "after": 3034,
+      "added": 2200,
+      "growthPercent": 263.79
     },
     {
       "id": "math-25",
       "title": "弦切角、圓內角與圓外角定理",
       "before": 841,
-      "after": 1445,
-      "added": 604,
-      "growthPercent": 71.82
+      "after": 3151,
+      "added": 2310,
+      "growthPercent": 274.67
     },
     {
       "id": "math-26",
       "title": "立體圖形、三視圖與表面積體積",
       "before": 763,
-      "after": 1255,
-      "added": 492,
-      "growthPercent": 64.48
+      "after": 2681,
+      "added": 1918,
+      "growthPercent": 251.38
     },
     {
       "id": "math-27",
       "title": "盒狀圖、四分位距與累積次數分配",
       "before": 828,
-      "after": 1556,
-      "added": 728,
-      "growthPercent": 87.92
+      "after": 3628,
+      "added": 2800,
+      "growthPercent": 338.16
     },
     {
       "id": "chinese-13",
       "title": "先秦諸子寓言與哲理散文",
       "before": 728,
-      "after": 1262,
-      "added": 534,
-      "growthPercent": 73.35
+      "after": 3070,
+      "added": 2342,
+      "growthPercent": 321.7
     },
     {
       "id": "chinese-14",
       "title": "現代記敘抒情散文與意象營造",
       "before": 754,
-      "after": 1296,
-      "added": 542,
-      "growthPercent": 71.88
+      "after": 2980,
+      "added": 2226,
+      "growthPercent": 295.23
     },
     {
       "id": "chinese-15",
       "title": "臺灣自然生態、海洋與在地文學",
       "before": 731,
-      "after": 1219,
-      "added": 488,
-      "growthPercent": 66.76
+      "after": 3191,
+      "added": 2460,
+      "growthPercent": 336.53
     },
     {
       "id": "chinese-16",
       "title": "會考寫作審題、立意與層次開展",
       "before": 828,
-      "after": 1344,
-      "added": 516,
-      "growthPercent": 62.32
+      "after": 3329,
+      "added": 2501,
+      "growthPercent": 302.05
     },
     {
       "id": "english-13",
       "title": "介系詞與時空方位精準表達",
       "before": 1886,
-      "after": 3199,
-      "added": 1313,
-      "growthPercent": 69.62
+      "after": 5547,
+      "added": 3661,
+      "growthPercent": 194.11
     },
     {
       "id": "english-14",
       "title": "條件副詞子句與情態假設語氣",
       "before": 1721,
-      "after": 2841,
-      "added": 1120,
-      "growthPercent": 65.08
+      "after": 4917,
+      "added": 3196,
+      "growthPercent": 185.71
     },
     {
       "id": "english-15",
       "title": "關係代名詞受格省略與介系詞搭配",
       "before": 1936,
-      "after": 3176,
-      "added": 1240,
-      "growthPercent": 64.05
+      "after": 5397,
+      "added": 3461,
+      "growthPercent": 178.77
     },
     {
       "id": "english-16",
       "title": "跨文本圖表閱讀與素養克漏字",
       "before": 2281,
-      "after": 3898,
-      "added": 1617,
-      "growthPercent": 70.89
+      "after": 6499,
+      "added": 4218,
+      "growthPercent": 184.92
     },
     {
       "id": "biology-1",
       "title": "細胞與顯微鏡",
       "before": 428,
-      "after": 991,
-      "added": 563,
-      "growthPercent": 131.54
+      "after": 2655,
+      "added": 2227,
+      "growthPercent": 520.33
     },
     {
       "id": "biology-2",
       "title": "養分、光合作用與呼吸作用",
       "before": 480,
-      "after": 868,
-      "added": 388,
-      "growthPercent": 80.83
+      "after": 2578,
+      "added": 2098,
+      "growthPercent": 437.08
     },
     {
       "id": "biology-3",
       "title": "運輸、消化與恆定",
       "before": 434,
-      "after": 788,
-      "added": 354,
-      "growthPercent": 81.57
+      "after": 2473,
+      "added": 2039,
+      "growthPercent": 469.82
     },
     {
       "id": "biology-4",
       "title": "神經、內分泌與反應",
       "before": 467,
-      "after": 971,
-      "added": 504,
-      "growthPercent": 107.92
+      "after": 2723,
+      "added": 2256,
+      "growthPercent": 483.08
     },
     {
       "id": "biology-5",
       "title": "生殖、遺傳與演化",
       "before": 499,
-      "after": 875,
-      "added": 376,
-      "growthPercent": 75.35
+      "after": 2591,
+      "added": 2092,
+      "growthPercent": 419.24
     },
     {
       "id": "biology-6",
       "title": "分類、生態系與能量流動",
       "before": 437,
-      "after": 964,
-      "added": 527,
-      "growthPercent": 120.59
+      "after": 2659,
+      "added": 2222,
+      "growthPercent": 508.47
     },
     {
       "id": "physics-1",
       "title": "測量、密度與實驗變因",
       "before": 392,
-      "after": 748,
-      "added": 356,
-      "growthPercent": 90.82
+      "after": 2429,
+      "added": 2037,
+      "growthPercent": 519.64
     },
     {
       "id": "physics-2",
       "title": "聲音與波動",
       "before": 381,
-      "after": 699,
-      "added": 318,
-      "growthPercent": 83.46
+      "after": 2303,
+      "added": 1922,
+      "growthPercent": 504.46
     },
     {
       "id": "physics-3",
       "title": "光的反射、折射與成像",
       "before": 368,
-      "after": 900,
-      "added": 532,
-      "growthPercent": 144.57
+      "after": 2601,
+      "added": 2233,
+      "growthPercent": 606.79
     },
     {
       "id": "physics-4",
       "title": "溫度、熱量與熱傳播",
       "before": 391,
-      "after": 753,
-      "added": 362,
-      "growthPercent": 92.58
+      "after": 2443,
+      "added": 2052,
+      "growthPercent": 524.81
     },
     {
       "id": "physics-5",
       "title": "運動、力與牛頓定律",
       "before": 449,
-      "after": 985,
-      "added": 536,
-      "growthPercent": 119.38
+      "after": 2761,
+      "added": 2312,
+      "growthPercent": 514.92
     },
     {
       "id": "physics-6",
       "title": "功、能量與簡單機械",
       "before": 414,
-      "after": 993,
-      "added": 579,
-      "growthPercent": 139.86
+      "after": 2776,
+      "added": 2362,
+      "growthPercent": 570.53
     },
     {
       "id": "physics-7",
       "title": "電路、電功率與磁作用",
       "before": 412,
-      "after": 721,
-      "added": 309,
-      "growthPercent": 75
+      "after": 2354,
+      "added": 1942,
+      "growthPercent": 471.36
     },
     {
       "id": "chemistry-1",
       "title": "物質分類與粒子模型",
       "before": 375,
-      "after": 916,
-      "added": 541,
-      "growthPercent": 144.27
+      "after": 2657,
+      "added": 2282,
+      "growthPercent": 608.53
     },
     {
       "id": "chemistry-2",
       "title": "原子結構與週期表",
       "before": 378,
-      "after": 721,
-      "added": 343,
-      "growthPercent": 90.74
+      "after": 2385,
+      "added": 2007,
+      "growthPercent": 530.95
     },
     {
       "id": "chemistry-3",
       "title": "反應式與質量守恆",
       "before": 405,
-      "after": 799,
-      "added": 394,
-      "growthPercent": 97.28
+      "after": 2468,
+      "added": 2063,
+      "growthPercent": 509.38
     },
     {
       "id": "chemistry-4",
       "title": "溶液、濃度與溶解度",
       "before": 421,
-      "after": 983,
-      "added": 562,
-      "growthPercent": 133.49
+      "after": 2725,
+      "added": 2304,
+      "growthPercent": 547.27
     },
     {
       "id": "chemistry-5",
       "title": "酸鹼、鹽類與中和",
       "before": 431,
-      "after": 797,
-      "added": 366,
-      "growthPercent": 84.92
+      "after": 2529,
+      "added": 2098,
+      "growthPercent": 486.77
     },
     {
       "id": "chemistry-6",
       "title": "氧化還原、有機物與材料",
       "before": 462,
-      "after": 1046,
-      "added": 584,
-      "growthPercent": 126.41
+      "after": 2833,
+      "added": 2371,
+      "growthPercent": 513.2
     },
     {
       "id": "earth-1",
       "title": "岩石、板塊與地震",
       "before": 401,
-      "after": 754,
-      "added": 353,
-      "growthPercent": 88.03
+      "after": 2434,
+      "added": 2033,
+      "growthPercent": 506.98
     },
     {
       "id": "earth-2",
       "title": "水循環、海洋與地形",
       "before": 428,
-      "after": 968,
-      "added": 540,
-      "growthPercent": 126.17
+      "after": 2750,
+      "added": 2322,
+      "growthPercent": 542.52
     },
     {
       "id": "earth-3",
       "title": "天氣、鋒面與臺灣季風",
       "before": 411,
-      "after": 966,
-      "added": 555,
-      "growthPercent": 135.04
+      "after": 2700,
+      "added": 2289,
+      "growthPercent": 556.93
     },
     {
       "id": "earth-4",
       "title": "地球運動、四季與月相",
       "before": 478,
-      "after": 892,
-      "added": 414,
-      "growthPercent": 86.61
+      "after": 2642,
+      "added": 2164,
+      "growthPercent": 452.72
     },
     {
       "id": "earth-5",
       "title": "太陽系、星空與尺度",
       "before": 341,
-      "after": 694,
-      "added": 353,
-      "growthPercent": 103.52
+      "after": 2379,
+      "added": 2038,
+      "growthPercent": 597.65
     },
     {
       "id": "earth-6",
       "title": "氣候變遷與永續探究",
       "before": 438,
-      "after": 1017,
-      "added": 579,
-      "growthPercent": 132.19
+      "after": 2770,
+      "added": 2332,
+      "growthPercent": 532.42
     },
     {
       "id": "biology-7",
       "title": "物質進出細胞與酵素催化作用",
       "before": 603,
-      "after": 1197,
-      "added": 594,
-      "growthPercent": 98.51
+      "after": 3071,
+      "added": 2468,
+      "growthPercent": 409.29
     },
     {
       "id": "biology-8",
       "title": "植物的體內運輸與水分恆定",
       "before": 645,
-      "after": 1116,
-      "added": 471,
-      "growthPercent": 73.02
+      "after": 2989,
+      "added": 2344,
+      "growthPercent": 363.41
     },
     {
       "id": "biology-9",
       "title": "動物呼吸系統與排泄泌尿作用",
       "before": 802,
-      "after": 1363,
-      "added": 561,
-      "growthPercent": 69.95
+      "after": 3507,
+      "added": 2705,
+      "growthPercent": 337.28
     },
     {
       "id": "biology-10",
       "title": "細胞分裂、減數分裂與生殖",
       "before": 865,
-      "after": 1451,
-      "added": 586,
-      "growthPercent": 67.75
+      "after": 3779,
+      "added": 2914,
+      "growthPercent": 336.88
     },
     {
       "id": "biology-11",
       "title": "孟德爾遺傳法則與性別性聯遺傳",
       "before": 755,
-      "after": 1347,
-      "added": 592,
-      "growthPercent": 78.41
+      "after": 3465,
+      "added": 2710,
+      "growthPercent": 358.94
     },
     {
       "id": "biology-12",
       "title": "生物多樣性、保育與環境永續",
       "before": 845,
-      "after": 1561,
-      "added": 716,
-      "growthPercent": 84.73
+      "after": 3767,
+      "added": 2922,
+      "growthPercent": 345.8
     },
     {
       "id": "physics-8",
       "title": "浮力與阿基米德原理",
       "before": 737,
-      "after": 1437,
-      "added": 700,
-      "growthPercent": 94.98
+      "after": 3533,
+      "added": 2796,
+      "growthPercent": 379.38
     },
     {
       "id": "physics-9",
       "title": "液體壓力與大氣壓力",
       "before": 742,
-      "after": 1434,
-      "added": 692,
-      "growthPercent": 93.26
+      "after": 3595,
+      "added": 2853,
+      "growthPercent": 384.5
     },
     {
       "id": "physics-10",
       "title": "摩擦力、正向力與牛頓第一運動定律深化",
       "before": 721,
-      "after": 1359,
-      "added": 638,
-      "growthPercent": 88.49
+      "after": 3413,
+      "added": 2692,
+      "growthPercent": 373.37
     },
     {
       "id": "physics-11",
       "title": "靜電現象與庫侖定律",
       "before": 661,
-      "after": 1092,
-      "added": 431,
-      "growthPercent": 65.2
+      "after": 3011,
+      "added": 2350,
+      "growthPercent": 355.52
     },
     {
       "id": "physics-12",
       "title": "電流的磁效應與電磁鐵",
       "before": 636,
-      "after": 1060,
-      "added": 424,
-      "growthPercent": 66.67
+      "after": 2924,
+      "added": 2288,
+      "growthPercent": 359.75
     },
     {
       "id": "physics-13",
       "title": "電磁感應與發電機",
       "before": 725,
-      "after": 1197,
-      "added": 472,
-      "growthPercent": 65.1
+      "after": 3204,
+      "added": 2479,
+      "growthPercent": 341.93
     },
     {
       "id": "chemistry-7",
       "title": "反應速率與影響因素",
       "before": 748,
-      "after": 1423,
-      "added": 675,
-      "growthPercent": 90.24
+      "after": 3516,
+      "added": 2768,
+      "growthPercent": 370.05
     },
     {
       "id": "chemistry-8",
       "title": "化學平衡與勒沙特列原理",
       "before": 797,
-      "after": 1512,
-      "added": 715,
-      "growthPercent": 89.71
+      "after": 3626,
+      "added": 2829,
+      "growthPercent": 354.96
     },
     {
       "id": "chemistry-9",
       "title": "電解質與阿瑞尼斯解離說",
       "before": 870,
-      "after": 1511,
-      "added": 641,
-      "growthPercent": 73.68
+      "after": 3753,
+      "added": 2883,
+      "growthPercent": 331.38
     },
     {
       "id": "chemistry-10",
       "title": "酸鹼滴定與常見生活鹽類",
       "before": 763,
-      "after": 1377,
-      "added": 614,
-      "growthPercent": 80.47
+      "after": 3501,
+      "added": 2738,
+      "growthPercent": 358.85
     },
     {
       "id": "chemistry-11",
       "title": "常見有機化合物與石化燃料",
       "before": 744,
-      "after": 1346,
-      "added": 602,
-      "growthPercent": 80.91
+      "after": 3540,
+      "added": 2796,
+      "growthPercent": 375.81
     },
     {
       "id": "chemistry-12",
       "title": "聚合物與生活材料安全",
       "before": 751,
-      "after": 1400,
-      "added": 649,
-      "growthPercent": 86.42
+      "after": 3520,
+      "added": 2769,
+      "growthPercent": 368.71
     },
     {
       "id": "earth-7",
       "title": "地層順序與地質歷史判讀",
       "before": 720,
-      "after": 1292,
-      "added": 572,
-      "growthPercent": 79.44
+      "after": 3357,
+      "added": 2637,
+      "growthPercent": 366.25
     },
     {
       "id": "earth-8",
       "title": "板塊構造學說與臺灣造山運動",
       "before": 766,
-      "after": 1384,
-      "added": 618,
-      "growthPercent": 80.68
+      "after": 3548,
+      "added": 2782,
+      "growthPercent": 363.19
     },
     {
       "id": "earth-9",
       "title": "大氣氣團、鋒面系統與天氣災害",
       "before": 732,
-      "after": 1428,
-      "added": 696,
-      "growthPercent": 95.08
+      "after": 3558,
+      "added": 2826,
+      "growthPercent": 386.07
     },
     {
       "id": "earth-10",
       "title": "天體引力、潮汐現象與月相變化",
       "before": 770,
-      "after": 1496,
-      "added": 726,
-      "growthPercent": 94.29
+      "after": 3706,
+      "added": 2936,
+      "growthPercent": 381.3
     },
     {
       "id": "biology-13",
       "title": "人體神經系統與腦部構造分工",
       "before": 697,
-      "after": 1339,
-      "added": 642,
-      "growthPercent": 92.11
+      "after": 3414,
+      "added": 2717,
+      "growthPercent": 389.81
     },
     {
       "id": "biology-14",
       "title": "人體消化器官與各類消化酵素專一性作用",
       "before": 760,
-      "after": 1346,
-      "added": 586,
-      "growthPercent": 77.11
+      "after": 3487,
+      "added": 2727,
+      "growthPercent": 358.82
     },
     {
       "id": "physics-14",
       "title": "光的折射定律與透鏡成像規律",
       "before": 833,
-      "after": 1551,
-      "added": 718,
-      "growthPercent": 86.19
+      "after": 3821,
+      "added": 2988,
+      "growthPercent": 358.7
     },
     {
       "id": "physics-15",
       "title": "動能、重力位能與力學能守恆定律",
       "before": 806,
-      "after": 1546,
-      "added": 740,
-      "growthPercent": 91.81
+      "after": 3793,
+      "added": 2987,
+      "growthPercent": 370.6
     },
     {
       "id": "chemistry-13",
       "title": "空氣成分與常見氣體實驗室製備",
       "before": 889,
-      "after": 1420,
-      "added": 531,
-      "growthPercent": 59.73
+      "after": 3818,
+      "added": 2929,
+      "growthPercent": 329.47
     },
     {
       "id": "chemistry-14",
       "title": "莫耳數概念與化學反應計量",
       "before": 848,
-      "after": 1377,
-      "added": 529,
-      "growthPercent": 62.38
+      "after": 3598,
+      "added": 2750,
+      "growthPercent": 324.29
     },
     {
       "id": "earth-11",
       "title": "地震波傳播特性與臺灣活動斷層防震防災",
       "before": 791,
-      "after": 1437,
-      "added": 646,
-      "growthPercent": 81.67
+      "after": 3652,
+      "added": 2861,
+      "growthPercent": 361.69
     },
     {
       "id": "earth-12",
       "title": "日食、月食天象成因與太陽系天體探索",
       "before": 771,
-      "after": 1436,
-      "added": 665,
-      "growthPercent": 86.25
+      "after": 3649,
+      "added": 2878,
+      "growthPercent": 373.28
     },
     {
       "id": "history-1",
       "title": "史料判讀與早期臺灣",
       "before": 478,
-      "after": 942,
-      "added": 464,
-      "growthPercent": 97.07
+      "after": 2677,
+      "added": 2199,
+      "growthPercent": 460.04
     },
     {
       "id": "history-2",
       "title": "海洋交流、荷西與鄭氏",
       "before": 444,
-      "after": 893,
-      "added": 449,
-      "growthPercent": 101.13
+      "after": 2583,
+      "added": 2139,
+      "growthPercent": 481.76
     },
     {
       "id": "history-3",
       "title": "清領與日治時期的變遷",
       "before": 505,
-      "after": 983,
-      "added": 478,
-      "growthPercent": 94.65
+      "after": 2772,
+      "added": 2267,
+      "growthPercent": 448.91
     },
     {
       "id": "history-4",
       "title": "戰後臺灣與民主化",
       "before": 448,
-      "after": 916,
-      "added": 468,
-      "growthPercent": 104.46
+      "after": 2623,
+      "added": 2175,
+      "growthPercent": 485.49
     },
     {
       "id": "history-5",
       "title": "中國與東亞：制度及文化交流",
       "before": 477,
-      "after": 943,
-      "added": 466,
-      "growthPercent": 97.69
+      "after": 2714,
+      "added": 2237,
+      "growthPercent": 468.97
     },
     {
       "id": "history-6",
       "title": "近代東亞與帝國主義",
       "before": 458,
-      "after": 908,
-      "added": 450,
-      "growthPercent": 98.25
+      "after": 2666,
+      "added": 2208,
+      "growthPercent": 482.1
     },
     {
       "id": "history-7",
       "title": "古代文明到近代歐洲",
       "before": 454,
-      "after": 887,
-      "added": 433,
-      "growthPercent": 95.37
+      "after": 2592,
+      "added": 2138,
+      "growthPercent": 470.93
     },
     {
       "id": "history-8",
       "title": "工業革命、世界大戰與全球化",
       "before": 451,
-      "after": 887,
-      "added": 436,
-      "growthPercent": 96.67
+      "after": 2584,
+      "added": 2133,
+      "growthPercent": 472.95
     },
     {
       "id": "geography-1",
       "title": "地圖、比例尺與經緯度",
       "before": 387,
-      "after": 979,
-      "added": 592,
-      "growthPercent": 152.97
+      "after": 2687,
+      "added": 2300,
+      "growthPercent": 594.32
     },
     {
       "id": "geography-2",
       "title": "臺灣地形、氣候與災害",
       "before": 487,
-      "after": 1050,
-      "added": 563,
-      "growthPercent": 115.61
+      "after": 2837,
+      "added": 2350,
+      "growthPercent": 482.55
     },
     {
       "id": "geography-3",
       "title": "臺灣人口、產業與都市",
       "before": 458,
-      "after": 986,
-      "added": 528,
-      "growthPercent": 115.28
+      "after": 2681,
+      "added": 2223,
+      "growthPercent": 485.37
     },
     {
       "id": "geography-4",
       "title": "東亞與區域差異",
       "before": 446,
-      "after": 878,
-      "added": 432,
-      "growthPercent": 96.86
+      "after": 2581,
+      "added": 2135,
+      "growthPercent": 478.7
     },
     {
       "id": "geography-5",
       "title": "亞洲、非洲與文化地景",
       "before": 448,
-      "after": 907,
-      "added": 459,
-      "growthPercent": 102.46
+      "after": 2625,
+      "added": 2177,
+      "growthPercent": 485.94
     },
     {
       "id": "geography-6",
       "title": "歐洲、美洲與大洋洲",
       "before": 461,
-      "after": 1007,
-      "added": 546,
-      "growthPercent": 118.44
+      "after": 2752,
+      "added": 2291,
+      "growthPercent": 496.96
     },
     {
       "id": "geography-7",
       "title": "全球連結與環境議題",
       "before": 414,
-      "after": 992,
-      "added": 578,
-      "growthPercent": 139.61
+      "after": 2683,
+      "added": 2269,
+      "growthPercent": 548.07
     },
     {
       "id": "civics-1",
       "title": "自我、群體與多元文化",
       "before": 469,
-      "after": 1034,
-      "added": 565,
-      "growthPercent": 120.47
+      "after": 2847,
+      "added": 2378,
+      "growthPercent": 507.04
     },
     {
       "id": "civics-2",
       "title": "家庭、學校與公共參與",
       "before": 426,
-      "after": 987,
-      "added": 561,
-      "growthPercent": 131.69
+      "after": 2725,
+      "added": 2299,
+      "growthPercent": 539.67
     },
     {
       "id": "civics-3",
       "title": "民主政治與權力分立",
       "before": 408,
-      "after": 1040,
-      "added": 632,
-      "growthPercent": 154.9
+      "after": 2804,
+      "added": 2396,
+      "growthPercent": 587.25
     },
     {
       "id": "civics-4",
       "title": "人權、法治與正當程序",
       "before": 474,
-      "after": 966,
-      "added": 492,
-      "growthPercent": 103.8
+      "after": 2778,
+      "added": 2304,
+      "growthPercent": 486.08
     },
     {
       "id": "civics-5",
       "title": "選擇、機會成本與市場",
       "before": 421,
-      "after": 769,
-      "added": 348,
-      "growthPercent": 82.66
+      "after": 2434,
+      "added": 2013,
+      "growthPercent": 478.15
     },
     {
       "id": "civics-6",
       "title": "媒體素養、全球化與永續消費",
       "before": 444,
-      "after": 1042,
-      "added": 598,
-      "growthPercent": 134.68
+      "after": 2834,
+      "added": 2390,
+      "growthPercent": 538.29
     },
     {
       "id": "history-9",
       "title": "臺灣南島語族與多元原住民族文化",
       "before": 719,
-      "after": 1261,
-      "added": 542,
-      "growthPercent": 75.38
+      "after": 3305,
+      "added": 2586,
+      "growthPercent": 359.67
     },
     {
       "id": "history-10",
       "title": "中國古代國家形成與封建帝制",
       "before": 771,
-      "after": 1325,
-      "added": 554,
-      "growthPercent": 71.85
+      "after": 3531,
+      "added": 2760,
+      "growthPercent": 357.98
     },
     {
       "id": "history-11",
       "title": "明清社會變遷與西力東漸",
       "before": 819,
-      "after": 1389,
-      "added": 570,
-      "growthPercent": 69.6
+      "after": 3536,
+      "added": 2717,
+      "growthPercent": 331.75
     },
     {
       "id": "history-12",
       "title": "古希臘羅馬古典文明與民主法律",
       "before": 709,
-      "after": 1237,
-      "added": 528,
-      "growthPercent": 74.47
+      "after": 3288,
+      "added": 2579,
+      "growthPercent": 363.75
     },
     {
       "id": "geography-8",
       "title": "等高線地形圖判讀與臺灣水文環境",
       "before": 829,
-      "after": 1521,
-      "added": 692,
-      "growthPercent": 83.47
+      "after": 3766,
+      "added": 2937,
+      "growthPercent": 354.28
     },
     {
       "id": "geography-9",
       "title": "季風亞洲與世界文明搖籃",
       "before": 804,
-      "after": 1440,
-      "added": 636,
-      "growthPercent": 79.1
+      "after": 3664,
+      "added": 2860,
+      "growthPercent": 355.72
     },
     {
       "id": "geography-10",
       "title": "美國與北美洲區域發展特色",
       "before": 839,
-      "after": 1558,
-      "added": 719,
-      "growthPercent": 85.7
+      "after": 3781,
+      "added": 2942,
+      "growthPercent": 350.66
     },
     {
       "id": "civics-7",
       "title": "少年法律保護與權益維護",
       "before": 795,
-      "after": 1402,
-      "added": 607,
-      "growthPercent": 76.35
+      "after": 3584,
+      "added": 2789,
+      "growthPercent": 350.82
     },
     {
       "id": "civics-8",
       "title": "現代法治體系：民法、刑法與行政法",
       "before": 902,
-      "after": 1526,
-      "added": 624,
-      "growthPercent": 69.18
+      "after": 4014,
+      "added": 3112,
+      "growthPercent": 345.01
     },
     {
       "id": "civics-9",
       "title": "市場競爭、外部效果與政府管制",
       "before": 782,
-      "after": 1361,
-      "added": 579,
-      "growthPercent": 74.04
+      "after": 3476,
+      "added": 2694,
+      "growthPercent": 344.5
     },
     {
       "id": "history-13",
       "title": "清領開港通商與臺灣近代化建設",
       "before": 844,
-      "after": 1419,
-      "added": 575,
-      "growthPercent": 68.13
+      "after": 3716,
+      "added": 2872,
+      "growthPercent": 340.28
     },
     {
       "id": "history-14",
       "title": "辛亥革命與中華民國建立到對日抗戰",
       "before": 831,
-      "after": 1432,
-      "added": 601,
-      "growthPercent": 72.32
+      "after": 3699,
+      "added": 2868,
+      "growthPercent": 345.13
     },
     {
       "id": "history-15",
       "title": "二次大戰後冷戰對峙與全球解殖潮",
       "before": 928,
-      "after": 1557,
-      "added": 629,
-      "growthPercent": 67.78
+      "after": 3953,
+      "added": 3025,
+      "growthPercent": 325.97
     },
     {
       "id": "geography-11",
       "title": "臺灣交通網絡與城鄉區域均衡發展",
       "before": 883,
-      "after": 1542,
-      "added": 659,
-      "growthPercent": 74.63
+      "after": 3745,
+      "added": 2862,
+      "growthPercent": 324.12
     },
     {
       "id": "geography-12",
       "title": "西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治",
       "before": 896,
-      "after": 1560,
-      "added": 664,
-      "growthPercent": 74.11
+      "after": 4006,
+      "added": 3110,
+      "growthPercent": 347.1
     },
     {
       "id": "geography-13",
       "title": "澳洲、紐西蘭與大洋洲島嶼地理環境",
       "before": 1047,
-      "after": 1792,
-      "added": 745,
-      "growthPercent": 71.16
+      "after": 4419,
+      "added": 3372,
+      "growthPercent": 322.06
     },
     {
       "id": "civics-10",
       "title": "地方自治、社區參與與地方創生",
       "before": 827,
-      "after": 1542,
-      "added": 715,
-      "growthPercent": 86.46
+      "after": 3770,
+      "added": 2943,
+      "growthPercent": 355.86
     },
     {
       "id": "civics-11",
       "title": "中央政府體制與五院職權分工制衡",
       "before": 1170,
-      "after": 1926,
-      "added": 756,
-      "growthPercent": 64.62
+      "after": 4822,
+      "added": 3652,
+      "growthPercent": 312.14
     },
     {
       "id": "civics-12",
       "title": "國際貿易、比較利益法則與全球分工",
       "before": 918,
-      "after": 1551,
-      "added": 633,
-      "growthPercent": 68.95
+      "after": 3766,
+      "added": 2848,
+      "growthPercent": 310.24
     },
     {
       "id": "visual-1",
       "title": "色彩、構圖與視覺重點",
       "before": 407,
-      "after": 982,
-      "added": 575,
-      "growthPercent": 141.28
+      "after": 2604,
+      "added": 2197,
+      "growthPercent": 539.8
     },
     {
       "id": "visual-2",
       "title": "透視、媒材與創作過程",
       "before": 422,
-      "after": 1023,
-      "added": 601,
-      "growthPercent": 142.42
+      "after": 2680,
+      "added": 2258,
+      "growthPercent": 535.07
     },
     {
       "id": "visual-3",
       "title": "藝術賞析、文化與策展",
       "before": 471,
-      "after": 1084,
-      "added": 613,
-      "growthPercent": 130.15
+      "after": 2803,
+      "added": 2332,
+      "growthPercent": 495.12
     },
     {
       "id": "music-1",
       "title": "節奏、拍號與旋律",
       "before": 333,
-      "after": 972,
-      "added": 639,
-      "growthPercent": 191.89
+      "after": 2572,
+      "added": 2239,
+      "growthPercent": 672.37
     },
     {
       "id": "music-2",
       "title": "音色、合奏與聆聽",
       "before": 387,
-      "after": 1024,
-      "added": 637,
-      "growthPercent": 164.6
+      "after": 2648,
+      "added": 2261,
+      "growthPercent": 584.24
     },
     {
       "id": "music-3",
       "title": "音樂文化與創作",
       "before": 387,
-      "after": 991,
-      "added": 604,
-      "growthPercent": 156.07
+      "after": 2586,
+      "added": 2199,
+      "growthPercent": 568.22
     },
     {
       "id": "performing-1",
       "title": "身體、聲音與舞臺空間",
       "before": 421,
-      "after": 1004,
-      "added": 583,
-      "growthPercent": 138.48
+      "after": 2654,
+      "added": 2233,
+      "growthPercent": 530.4
     },
     {
       "id": "performing-2",
       "title": "角色、衝突與即興",
       "before": 398,
-      "after": 987,
-      "added": 589,
-      "growthPercent": 147.99
+      "after": 2582,
+      "added": 2184,
+      "growthPercent": 548.74
     },
     {
       "id": "performing-3",
       "title": "展演製作與回饋",
       "before": 428,
-      "after": 1034,
-      "added": 606,
-      "growthPercent": 141.59
+      "after": 2696,
+      "added": 2268,
+      "growthPercent": 529.91
     },
     {
       "id": "computing-1",
       "title": "演算法與問題拆解",
       "before": 420,
-      "after": 1018,
-      "added": 598,
-      "growthPercent": 142.38
+      "after": 2720,
+      "added": 2300,
+      "growthPercent": 547.62
     },
     {
       "id": "computing-2",
       "title": "變數、條件與迴圈",
       "before": 373,
-      "after": 1011,
-      "added": 638,
-      "growthPercent": 171.05
+      "after": 2662,
+      "added": 2289,
+      "growthPercent": 613.67
     },
     {
       "id": "computing-3",
       "title": "資料、網路與資訊安全",
       "before": 443,
-      "after": 1076,
-      "added": 633,
-      "growthPercent": 142.89
+      "after": 2763,
+      "added": 2320,
+      "growthPercent": 523.7
     },
     {
       "id": "technology-1",
       "title": "設計需求與工程流程",
       "before": 411,
-      "after": 1020,
-      "added": 609,
-      "growthPercent": 148.18
+      "after": 2675,
+      "added": 2264,
+      "growthPercent": 550.85
     },
     {
       "id": "technology-2",
       "title": "結構、機構與材料",
       "before": 397,
-      "after": 942,
-      "added": 545,
-      "growthPercent": 137.28
+      "after": 2541,
+      "added": 2144,
+      "growthPercent": 540.05
     },
     {
       "id": "technology-3",
       "title": "能源、製造與永續產品",
       "before": 418,
-      "after": 1017,
-      "added": 599,
-      "growthPercent": 143.3
+      "after": 2658,
+      "added": 2240,
+      "growthPercent": 535.89
     },
     {
       "id": "health-1",
       "title": "青春期、自我認識與身體界線",
       "before": 417,
-      "after": 1042,
-      "added": 625,
-      "growthPercent": 149.88
+      "after": 2714,
+      "added": 2297,
+      "growthPercent": 550.84
     },
     {
       "id": "health-2",
       "title": "飲食資訊與健康選擇",
       "before": 413,
-      "after": 1043,
-      "added": 630,
-      "growthPercent": 152.54
+      "after": 2693,
+      "added": 2280,
+      "growthPercent": 552.06
     },
     {
       "id": "health-3",
       "title": "健康資訊、風險與求助",
       "before": 452,
-      "after": 1091,
-      "added": 639,
-      "growthPercent": 141.37
+      "after": 2776,
+      "added": 2324,
+      "growthPercent": 514.16
     },
     {
       "id": "pe-1",
       "title": "動作學習與自我監測",
       "before": 423,
-      "after": 1040,
-      "added": 617,
-      "growthPercent": 145.86
+      "after": 2717,
+      "added": 2294,
+      "growthPercent": 542.32
     },
     {
       "id": "pe-2",
       "title": "球類策略與團隊合作",
       "before": 414,
-      "after": 1000,
-      "added": 586,
-      "growthPercent": 141.55
+      "after": 2680,
+      "added": 2266,
+      "growthPercent": 547.34
     },
     {
       "id": "pe-3",
       "title": "運動計畫與公平競賽",
       "before": 446,
-      "after": 1090,
-      "added": 644,
-      "growthPercent": 144.39
+      "after": 2808,
+      "added": 2362,
+      "growthPercent": 529.6
     },
     {
       "id": "home-1",
       "title": "家庭合作與生活管理",
       "before": 433,
-      "after": 1061,
-      "added": 628,
-      "growthPercent": 145.03
+      "after": 2750,
+      "added": 2317,
+      "growthPercent": 535.1
     },
     {
       "id": "home-2",
       "title": "飲食製備與衣物照護",
       "before": 399,
-      "after": 1013,
-      "added": 614,
-      "growthPercent": 153.88
+      "after": 2640,
+      "added": 2241,
+      "growthPercent": 561.65
     },
     {
       "id": "home-3",
       "title": "消費規劃與資源管理",
       "before": 407,
-      "after": 1027,
-      "added": 620,
-      "growthPercent": 152.33
+      "after": 2666,
+      "added": 2259,
+      "growthPercent": 555.04
     },
     {
       "id": "scout-1",
       "title": "團隊分工與戶外準備",
       "before": 418,
-      "after": 1020,
-      "added": 602,
-      "growthPercent": 144.02
+      "after": 2702,
+      "added": 2284,
+      "growthPercent": 546.41
     },
     {
       "id": "scout-2",
       "title": "定向、地圖與環境觀察",
       "before": 406,
-      "after": 985,
-      "added": 579,
-      "growthPercent": 142.61
+      "after": 2625,
+      "added": 2219,
+      "growthPercent": 546.55
     },
     {
       "id": "scout-3",
       "title": "環境倫理與服務行動",
       "before": 407,
-      "after": 1061,
-      "added": 654,
-      "growthPercent": 160.69
+      "after": 2707,
+      "added": 2300,
+      "growthPercent": 565.11
     },
     {
       "id": "guidance-1",
       "title": "認識自我與情緒表達",
       "before": 436,
-      "after": 1066,
-      "added": 630,
-      "growthPercent": 144.5
+      "after": 2775,
+      "added": 2339,
+      "growthPercent": 536.47
     },
     {
       "id": "guidance-2",
       "title": "學習策略與時間規劃",
       "before": 436,
-      "after": 1090,
-      "added": 654,
-      "growthPercent": 150
+      "after": 2801,
+      "added": 2365,
+      "growthPercent": 542.43
     },
     {
       "id": "guidance-3",
       "title": "生涯探索與決策",
       "before": 455,
-      "after": 1104,
-      "added": 649,
-      "growthPercent": 142.64
+      "after": 2807,
+      "added": 2352,
+      "growthPercent": 516.92
     },
     {
       "id": "local-1",
       "title": "語別選擇與聆聽觀察",
       "before": 475,
-      "after": 1135,
-      "added": 660,
-      "growthPercent": 138.95
+      "after": 2890,
+      "added": 2415,
+      "growthPercent": 508.42
     },
     {
       "id": "local-2",
       "title": "生活對話與在地文化",
       "before": 459,
-      "after": 1087,
-      "added": 628,
-      "growthPercent": 136.82
+      "after": 2767,
+      "added": 2308,
+      "growthPercent": 502.83
     },
     {
       "id": "local-3",
       "title": "臺灣手語與視覺溝通",
       "before": 481,
-      "after": 1066,
-      "added": 585,
-      "growthPercent": 121.62
+      "after": 2773,
+      "added": 2292,
+      "growthPercent": 476.51
     },
     {
       "id": "local-4",
       "title": "語言記錄與文化行動",
       "before": 469,
-      "after": 1073,
-      "added": 604,
-      "growthPercent": 128.78
+      "after": 2798,
+      "added": 2329,
+      "growthPercent": 496.59
     }
   ]
 }

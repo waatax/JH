@@ -1,11 +1,11 @@
 {
-  "version": "2026-11-03.v2",
-  "builtAt": "2026-11-03T09:26:22.221Z",
+  "version": "2026-11-05.v3",
+  "builtAt": "2026-11-05T05:12:29.450Z",
   "statistics": {
     "curriculumUnits": 188,
     "totalSections": 6,
     "totalBranches": 8,
-    "totalRegisteredItems": 4468,
+    "totalRegisteredItems": 4656,
     "totalStories": 36,
     "excludedItemsCount": 0
   },

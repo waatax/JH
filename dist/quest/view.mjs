@@ -1201,8 +1201,32 @@ function renderGuideModalContent(g) {
     `;
   } else if (curTab === 'thinking') {
     const wc = g.workedCase;
+    const ladder = g.zeroToTopLadder;
+    const et = g.examType;
+    const capWe = g.capWorkedExample;
     tabBody = `
       <div style="display:flex;flex-direction:column;gap:0.85rem;margin-top:0.75rem;">
+        ${ladder ? `
+          <div class="card">
+            <div class="guide-section-badge">🧭 零基礎小白 ➔ 會考 A++ 頂標 三階通關藍圖</div>
+            <div style="display:flex;flex-direction:column;gap:0.5rem;margin-top:0.4rem;">
+              <div class="info-tip-box"><b>🌱 Step 1｜小白破冰（B 保底）：</b><span>${esc(ladder.zeroFoundation)}</span></div>
+              <div class="info-tip-box"><b>⚡ Step 2｜主流破題（B++ ➔ A）：</b><span>${esc(ladder.mainstreamBtoA)}</span></div>
+              <div class="info-tip-box"><b>🏆 Step 3｜頂標突破（A+ ➔ A++）：</b><span>${esc(ladder.topTierAPlusPlus)}</span></div>
+            </div>
+          </div>
+        ` : ''}
+        ${et && capWe ? `
+          <div class="card">
+            <div class="guide-section-badge">🎯 會考高頻題型與五步詳解：${esc(et.typeName)}</div>
+            <p class="small muted" style="margin:0.25rem 0;">🔥 ${esc(et.frequency)} · 課綱指標：${esc(et.targetCodes)}</p>
+            <h4 style="margin:0.4rem 0;">${esc(capWe.title)}：${esc(capWe.stem)}</h4>
+            <p class="small"><b>正確答案：</b>(${String.fromCharCode(65 + (capWe.answer || 0))}) ${esc(capWe.options?.[capWe.answer || 0] || '')}</p>
+            <ol class="quest-thinking-steps" style="margin-top:0.4rem;">
+              ${(capWe.steps || []).map(st => `<li>${esc(st)}</li>`).join('')}
+            </ol>
+          </div>
+        ` : ''}
         <aside class="reading-method"><h3>看圖也要試著說明</h3><ol><li>找對象：圖在比較哪些概念？</li><li>讀關係：箭頭、座標或分支代表什麼？</li><li>驗條件：什麼情況可以用？換個例子還成立嗎？</li></ol><p>示意圖用來整理關係；數值圖要一起核對單位與適用條件。</p></aside>
         ${wc ? `
           <div class="card">

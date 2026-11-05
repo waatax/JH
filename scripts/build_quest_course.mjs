@@ -17,8 +17,9 @@ import { getPublisherGuideForUnit } from '../dist/publisher-matrix.js';
 import { periodicExams } from '../dist/periodic-exam-data.js';
 import { officialAlignment, officialSources } from '../dist/official-alignment-data.js';
 import { getCapExplanation, formatCapExplanation, relatedCapQuestions } from '../dist/cap-explanations.js';
+import { examTypesData } from '../dist/exam-types-data.js';
 
-export const COURSE_VERSION = '2026-11-03.v2';
+export const COURSE_VERSION = '2026-11-05.v3';
 const enrichmentReport = [];
 const OUT_DIR = path.resolve('dist/quest/course');
 fs.mkdirSync(OUT_DIR, { recursive: true });
@@ -443,6 +444,27 @@ function buildUnitNodes(u) {
     }
   }
 
+  // Inject High-Yield CAP Worked Example with 5-Step Scaffolding Thought Chain
+  const etData = examTypesData[uid];
+  if (etData?.workedExample) {
+    const we = etData.workedExample;
+    const weId = registerItem({
+      id: `q.${uid}.cap.example`,
+      kind: 'mastery',
+      type: 'choice',
+      unitId: uid,
+      level: 4,
+      prompt: `【${we.title}】${we.stem}`,
+      options: we.options,
+      answer: we.options[we.answer],
+      hint: `審題題眼：${etData.examType?.clues || u.title}`,
+      why: (we.steps || []).join('\n')
+    }, `#lesson/${uid}`);
+    if (weId) {
+      nodeItemPools.mastery.push(weId);
+    }
+  }
+
   const baselineCount = new Set(Object.values(nodeItemPools).flat()).size;
   const enrichment = enrichUnit(u, table, baselineCount);
   for (const item of enrichment) {
@@ -517,6 +539,9 @@ function buildUnitNodes(u) {
       answer: ld.answer || ''
     } : null,
     workedCase: wc ? { problem: wc.problem, steps: wc.steps, check: wc.check } : null,
+    zeroToTopLadder: etData?.zeroToTopLadder || null,
+    examType: etData?.examType || null,
+    capWorkedExample: etData?.workedExample || null,
     officialRefs: alignment.refs || [],
     publisherGuide: pubGuide ? {
       tocKeywords: pubGuide.tocKeywords,

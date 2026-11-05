@@ -1,8 +1,8 @@
 {
-  "version": "2026-11-03.v2",
-  "generatedAt": "2026-11-03T09:26:22.210Z",
+  "version": "2026-11-05.v3",
+  "generatedAt": "2026-11-05T05:12:29.441Z",
   "totalUnits": 188,
-  "totalItems": 4468,
+  "totalItems": 4656,
   "publisherCoverage": [
     {
       "name": "康軒",
@@ -75,7 +75,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-1:boss",
@@ -128,7 +128,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-2:boss",
@@ -181,7 +181,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-3:boss",
@@ -234,7 +234,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-4:boss",
@@ -287,7 +287,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-1:boss",
@@ -340,7 +340,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "english-1:boss",
@@ -393,7 +393,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-7:boss",
@@ -446,7 +446,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-7:boss",
@@ -499,7 +499,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-1:boss",
@@ -552,7 +552,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-2:boss",
@@ -605,7 +605,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-3:boss",
@@ -658,7 +658,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-7:boss",
@@ -711,7 +711,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-8:boss",
@@ -764,7 +764,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-14:boss",
@@ -817,7 +817,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-1:boss",
@@ -870,7 +870,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-2:boss",
@@ -923,7 +923,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-1:boss",
@@ -976,7 +976,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-2:boss",
@@ -1029,7 +1029,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-1:boss",
@@ -1082,7 +1082,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-9:boss",
@@ -1135,7 +1135,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-8:boss",
@@ -1188,7 +1188,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-7:boss",
@@ -1241,7 +1241,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "visual-1:boss",
@@ -1294,7 +1294,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "music-1:boss",
@@ -1347,7 +1347,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "performing-1:boss",
@@ -1400,7 +1400,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "computing-1:boss",
@@ -1453,7 +1453,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "technology-1:boss",
@@ -1506,7 +1506,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "health-1:boss",
@@ -1559,7 +1559,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "pe-1:boss",
@@ -1612,7 +1612,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "home-1:boss",
@@ -1665,7 +1665,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "scout-1:boss",
@@ -1718,7 +1718,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "guidance-1:boss",
@@ -1771,7 +1771,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "local-1:boss",
@@ -1838,7 +1838,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-5:boss",
@@ -1891,7 +1891,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-6:boss",
@@ -1944,7 +1944,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-7:boss",
@@ -1997,7 +1997,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-8:boss",
@@ -2050,7 +2050,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-2:boss",
@@ -2103,7 +2103,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-2:boss",
@@ -2156,7 +2156,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-8:boss",
@@ -2209,7 +2209,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "english-8:boss",
@@ -2262,7 +2262,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "math-21:boss",
@@ -2315,7 +2315,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-13:boss",
@@ -2368,7 +2368,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-4:boss",
@@ -2421,7 +2421,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-5:boss",
@@ -2474,7 +2474,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-6:boss",
@@ -2527,7 +2527,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-9:boss",
@@ -2580,7 +2580,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-10:boss",
@@ -2633,7 +2633,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-11:boss",
@@ -2686,7 +2686,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-12:boss",
@@ -2739,7 +2739,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-13:boss",
@@ -2792,7 +2792,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-3:boss",
@@ -2845,7 +2845,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-4:boss",
@@ -2898,7 +2898,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-3:boss",
@@ -2951,7 +2951,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-2:boss",
@@ -3004,7 +3004,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-13:boss",
@@ -3057,7 +3057,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-11:boss",
@@ -3110,7 +3110,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-10:boss",
@@ -3163,7 +3163,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "local-2:boss",
@@ -3230,7 +3230,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-9:boss",
@@ -3283,7 +3283,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-10:boss",
@@ -3336,7 +3336,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-11:boss",
@@ -3389,7 +3389,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "math-12:boss",
@@ -3442,7 +3442,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-3:boss",
@@ -3495,7 +3495,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-3:boss",
@@ -3548,7 +3548,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-9:boss",
@@ -3601,7 +3601,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-9:boss",
@@ -3654,7 +3654,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "chinese-13:boss",
@@ -3707,7 +3707,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-14:boss",
@@ -3760,7 +3760,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-1:boss",
@@ -3813,7 +3813,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-2:boss",
@@ -3866,7 +3866,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-3:boss",
@@ -3919,7 +3919,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-1:boss",
@@ -3972,7 +3972,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-2:boss",
@@ -4025,7 +4025,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-8:boss",
@@ -4078,7 +4078,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-9:boss",
@@ -4131,7 +4131,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-14:boss",
@@ -4184,7 +4184,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "chemistry-13:boss",
@@ -4237,7 +4237,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-5:boss",
@@ -4290,7 +4290,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-4:boss",
@@ -4343,7 +4343,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-3:boss",
@@ -4396,7 +4396,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "history-10:boss",
@@ -4449,7 +4449,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-9:boss",
@@ -4502,7 +4502,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-11:boss",
@@ -4555,7 +4555,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "visual-2:boss",
@@ -4608,7 +4608,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "music-2:boss",
@@ -4661,7 +4661,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "performing-2:boss",
@@ -4714,7 +4714,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "computing-2:boss",
@@ -4767,7 +4767,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "technology-2:boss",
@@ -4820,7 +4820,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "health-2:boss",
@@ -4873,7 +4873,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "pe-2:boss",
@@ -4926,7 +4926,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "home-2:boss",
@@ -4979,7 +4979,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "scout-2:boss",
@@ -5032,7 +5032,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "guidance-2:boss",
@@ -5085,7 +5085,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "local-3:boss",
@@ -5152,7 +5152,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-13:boss",
@@ -5205,7 +5205,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-14:boss",
@@ -5258,7 +5258,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-15:boss",
@@ -5311,7 +5311,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-4:boss",
@@ -5364,7 +5364,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-4:boss",
@@ -5417,7 +5417,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "chinese-10:boss",
@@ -5470,7 +5470,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-10:boss",
@@ -5523,7 +5523,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-22:boss",
@@ -5576,7 +5576,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-23:boss",
@@ -5629,7 +5629,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-24:boss",
@@ -5682,7 +5682,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-14:boss",
@@ -5735,7 +5735,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-4:boss",
@@ -5788,7 +5788,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-3:boss",
@@ -5841,7 +5841,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-4:boss",
@@ -5894,7 +5894,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-5:boss",
@@ -5947,7 +5947,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-10:boss",
@@ -6000,7 +6000,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-7:boss",
@@ -6053,7 +6053,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-8:boss",
@@ -6106,7 +6106,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "chemistry-9:boss",
@@ -6159,7 +6159,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-10:boss",
@@ -6212,7 +6212,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-14:boss",
@@ -6265,7 +6265,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "history-6:boss",
@@ -6318,7 +6318,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-5:boss",
@@ -6371,7 +6371,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-4:boss",
@@ -6424,7 +6424,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-11:boss",
@@ -6477,7 +6477,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "civics-8:boss",
@@ -6530,7 +6530,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-14:boss",
@@ -6583,7 +6583,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-12:boss",
@@ -6636,7 +6636,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "local-4:boss",
@@ -6703,7 +6703,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-16:boss",
@@ -6756,7 +6756,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-17:boss",
@@ -6809,7 +6809,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-5:boss",
@@ -6862,7 +6862,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-5:boss",
@@ -6915,7 +6915,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-20:boss",
@@ -6968,7 +6968,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "chinese-11:boss",
@@ -7021,7 +7021,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "english-11:boss",
@@ -7074,7 +7074,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "math-25:boss",
@@ -7127,7 +7127,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-15:boss",
@@ -7180,7 +7180,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-15:boss",
@@ -7233,7 +7233,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-5:boss",
@@ -7286,7 +7286,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-6:boss",
@@ -7339,7 +7339,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-1:boss",
@@ -7392,7 +7392,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "earth-2:boss",
@@ -7445,7 +7445,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-3:boss",
@@ -7498,7 +7498,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-7:boss",
@@ -7551,7 +7551,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-8:boss",
@@ -7604,7 +7604,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-9:boss",
@@ -7657,7 +7657,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-15:boss",
@@ -7710,7 +7710,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-11:boss",
@@ -7763,7 +7763,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "history-7:boss",
@@ -7816,7 +7816,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-6:boss",
@@ -7869,7 +7869,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-5:boss",
@@ -7922,7 +7922,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-12:boss",
@@ -7975,7 +7975,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-10:boss",
@@ -8028,7 +8028,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-9:boss",
@@ -8081,7 +8081,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "geography-13:boss",
@@ -8134,7 +8134,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-12:boss",
@@ -8201,7 +8201,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-18:boss",
@@ -8254,7 +8254,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-19:boss",
@@ -8307,7 +8307,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-6:boss",
@@ -8360,7 +8360,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "english-6:boss",
@@ -8413,7 +8413,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "chinese-12:boss",
@@ -8466,7 +8466,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "english-12:boss",
@@ -8519,7 +8519,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-26:boss",
@@ -8572,7 +8572,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-27:boss",
@@ -8625,7 +8625,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "chinese-16:boss",
@@ -8678,7 +8678,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "english-16:boss",
@@ -8731,7 +8731,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-7:boss",
@@ -8784,7 +8784,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-6:boss",
@@ -8837,7 +8837,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-4:boss",
@@ -8890,7 +8890,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-5:boss",
@@ -8943,7 +8943,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-6:boss",
@@ -8996,7 +8996,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "physics-11:boss",
@@ -9049,7 +9049,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-12:boss",
@@ -9102,7 +9102,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-13:boss",
@@ -9155,7 +9155,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-11:boss",
@@ -9208,7 +9208,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "chemistry-12:boss",
@@ -9261,7 +9261,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-10:boss",
@@ -9314,7 +9314,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-12:boss",
@@ -9367,7 +9367,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-8:boss",
@@ -9420,7 +9420,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-7:boss",
@@ -9473,7 +9473,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-6:boss",
@@ -9526,7 +9526,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-15:boss",
@@ -9579,7 +9579,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "visual-3:boss",
@@ -9632,7 +9632,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "music-3:boss",
@@ -9685,7 +9685,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "performing-3:boss",
@@ -9738,7 +9738,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "computing-3:boss",
@@ -9791,7 +9791,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "technology-3:boss",
@@ -9844,7 +9844,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "health-3:boss",
@@ -9897,7 +9897,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "pe-3:boss",
@@ -9950,7 +9950,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "home-3:boss",
@@ -10003,7 +10003,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "scout-3:boss",
@@ -10056,7 +10056,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "guidance-3:boss",
@@ -10120,7 +10120,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-1:boss",
@@ -10171,7 +10171,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-2:boss",
@@ -10222,7 +10222,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-3:boss",
@@ -10273,7 +10273,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-4:boss",
@@ -10324,7 +10324,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-5:boss",
@@ -10375,7 +10375,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-6:boss",
@@ -10426,7 +10426,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-7:boss",
@@ -10477,7 +10477,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-8:boss",
@@ -10528,7 +10528,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-9:boss",
@@ -10579,7 +10579,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "chinese-10:boss",
@@ -10630,7 +10630,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "chinese-11:boss",
@@ -10681,7 +10681,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "chinese-12:boss",
@@ -10732,7 +10732,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "chinese-13:boss",
@@ -10783,7 +10783,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-14:boss",
@@ -10834,7 +10834,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chinese-15:boss",
@@ -10885,7 +10885,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "chinese-16:boss",
@@ -10947,7 +10947,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "english-1:boss",
@@ -10998,7 +10998,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-2:boss",
@@ -11049,7 +11049,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-3:boss",
@@ -11100,7 +11100,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-4:boss",
@@ -11151,7 +11151,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-5:boss",
@@ -11202,7 +11202,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "english-6:boss",
@@ -11253,7 +11253,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-7:boss",
@@ -11304,7 +11304,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "english-8:boss",
@@ -11355,7 +11355,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-9:boss",
@@ -11406,7 +11406,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-10:boss",
@@ -11457,7 +11457,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "english-11:boss",
@@ -11508,7 +11508,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "english-12:boss",
@@ -11559,7 +11559,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-13:boss",
@@ -11610,7 +11610,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-14:boss",
@@ -11661,7 +11661,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "english-15:boss",
@@ -11712,7 +11712,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "english-16:boss",
@@ -11774,7 +11774,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-1:boss",
@@ -11825,7 +11825,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-2:boss",
@@ -11876,7 +11876,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-3:boss",
@@ -11927,7 +11927,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-4:boss",
@@ -11978,7 +11978,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-5:boss",
@@ -12029,7 +12029,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-6:boss",
@@ -12080,7 +12080,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-7:boss",
@@ -12131,7 +12131,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-8:boss",
@@ -12182,7 +12182,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-9:boss",
@@ -12233,7 +12233,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-10:boss",
@@ -12284,7 +12284,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-11:boss",
@@ -12335,7 +12335,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "math-12:boss",
@@ -12386,7 +12386,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-13:boss",
@@ -12437,7 +12437,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-14:boss",
@@ -12488,7 +12488,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-15:boss",
@@ -12539,7 +12539,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-16:boss",
@@ -12590,7 +12590,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-17:boss",
@@ -12641,7 +12641,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-18:boss",
@@ -12692,7 +12692,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-19:boss",
@@ -12743,7 +12743,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-20:boss",
@@ -12794,7 +12794,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "math-21:boss",
@@ -12845,7 +12845,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-22:boss",
@@ -12896,7 +12896,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-23:boss",
@@ -12947,7 +12947,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-24:boss",
@@ -12998,7 +12998,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "math-25:boss",
@@ -13049,7 +13049,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-26:boss",
@@ -13100,7 +13100,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "math-27:boss",
@@ -13167,7 +13167,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-1:boss",
@@ -13218,7 +13218,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-2:boss",
@@ -13269,7 +13269,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-3:boss",
@@ -13320,7 +13320,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-4:boss",
@@ -13371,7 +13371,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-5:boss",
@@ -13422,7 +13422,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-6:boss",
@@ -13473,7 +13473,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-1:boss",
@@ -13524,7 +13524,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-2:boss",
@@ -13575,7 +13575,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-3:boss",
@@ -13626,7 +13626,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-4:boss",
@@ -13677,7 +13677,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-5:boss",
@@ -13728,7 +13728,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-6:boss",
@@ -13779,7 +13779,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-7:boss",
@@ -13830,7 +13830,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-1:boss",
@@ -13881,7 +13881,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-2:boss",
@@ -13932,7 +13932,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-3:boss",
@@ -13983,7 +13983,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-4:boss",
@@ -14034,7 +14034,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-5:boss",
@@ -14085,7 +14085,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-6:boss",
@@ -14136,7 +14136,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-1:boss",
@@ -14187,7 +14187,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "earth-2:boss",
@@ -14238,7 +14238,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-3:boss",
@@ -14289,7 +14289,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-4:boss",
@@ -14340,7 +14340,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-5:boss",
@@ -14391,7 +14391,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-6:boss",
@@ -14442,7 +14442,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-7:boss",
@@ -14493,7 +14493,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-8:boss",
@@ -14544,7 +14544,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-9:boss",
@@ -14595,7 +14595,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-10:boss",
@@ -14646,7 +14646,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-11:boss",
@@ -14697,7 +14697,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-12:boss",
@@ -14748,7 +14748,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-8:boss",
@@ -14799,7 +14799,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-9:boss",
@@ -14850,7 +14850,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-10:boss",
@@ -14901,7 +14901,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "physics-11:boss",
@@ -14952,7 +14952,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-12:boss",
@@ -15003,7 +15003,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-13:boss",
@@ -15054,7 +15054,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-7:boss",
@@ -15105,7 +15105,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-8:boss",
@@ -15156,7 +15156,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "chemistry-9:boss",
@@ -15207,7 +15207,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-10:boss",
@@ -15258,7 +15258,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-11:boss",
@@ -15309,7 +15309,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "chemistry-12:boss",
@@ -15360,7 +15360,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-7:boss",
@@ -15411,7 +15411,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-8:boss",
@@ -15462,7 +15462,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-9:boss",
@@ -15513,7 +15513,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-10:boss",
@@ -15564,7 +15564,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-13:boss",
@@ -15615,7 +15615,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "biology-14:boss",
@@ -15666,7 +15666,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-14:boss",
@@ -15717,7 +15717,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "physics-15:boss",
@@ -15768,7 +15768,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "chemistry-13:boss",
@@ -15819,7 +15819,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "chemistry-14:boss",
@@ -15870,7 +15870,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-11:boss",
@@ -15921,7 +15921,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "earth-12:boss",
@@ -15987,7 +15987,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-1:boss",
@@ -16038,7 +16038,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-2:boss",
@@ -16089,7 +16089,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-3:boss",
@@ -16140,7 +16140,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-4:boss",
@@ -16191,7 +16191,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-5:boss",
@@ -16242,7 +16242,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "history-6:boss",
@@ -16293,7 +16293,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "history-7:boss",
@@ -16344,7 +16344,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-8:boss",
@@ -16395,7 +16395,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-1:boss",
@@ -16446,7 +16446,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-2:boss",
@@ -16497,7 +16497,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-3:boss",
@@ -16548,7 +16548,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-4:boss",
@@ -16599,7 +16599,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-5:boss",
@@ -16650,7 +16650,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-6:boss",
@@ -16701,7 +16701,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-7:boss",
@@ -16752,7 +16752,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-1:boss",
@@ -16803,7 +16803,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-2:boss",
@@ -16854,7 +16854,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-3:boss",
@@ -16905,7 +16905,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-4:boss",
@@ -16956,7 +16956,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-5:boss",
@@ -17007,7 +17007,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-6:boss",
@@ -17058,7 +17058,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-9:boss",
@@ -17109,7 +17109,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "history-10:boss",
@@ -17160,7 +17160,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-11:boss",
@@ -17211,7 +17211,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-12:boss",
@@ -17262,7 +17262,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-8:boss",
@@ -17313,7 +17313,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-9:boss",
@@ -17364,7 +17364,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-10:boss",
@@ -17415,7 +17415,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-7:boss",
@@ -17466,7 +17466,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "civics-8:boss",
@@ -17517,7 +17517,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-9:boss",
@@ -17568,7 +17568,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-13:boss",
@@ -17619,7 +17619,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-14:boss",
@@ -17670,7 +17670,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "history-15:boss",
@@ -17721,7 +17721,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-11:boss",
@@ -17772,7 +17772,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "geography-12:boss",
@@ -17823,7 +17823,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 3
+              "size": 4
             },
             {
               "id": "geography-13:boss",
@@ -17874,7 +17874,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-10:boss",
@@ -17925,7 +17925,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-11:boss",
@@ -17976,7 +17976,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 4
+              "size": 5
             },
             {
               "id": "civics-12:boss",
@@ -18050,7 +18050,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "visual-1:boss",
@@ -18101,7 +18101,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "visual-2:boss",
@@ -18152,7 +18152,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "visual-3:boss",
@@ -18203,7 +18203,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "music-1:boss",
@@ -18254,7 +18254,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "music-2:boss",
@@ -18305,7 +18305,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "music-3:boss",
@@ -18356,7 +18356,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "performing-1:boss",
@@ -18407,7 +18407,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "performing-2:boss",
@@ -18458,7 +18458,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "performing-3:boss",
@@ -18509,7 +18509,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "computing-1:boss",
@@ -18560,7 +18560,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "computing-2:boss",
@@ -18611,7 +18611,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "computing-3:boss",
@@ -18662,7 +18662,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "technology-1:boss",
@@ -18713,7 +18713,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "technology-2:boss",
@@ -18764,7 +18764,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "technology-3:boss",
@@ -18815,7 +18815,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "health-1:boss",
@@ -18866,7 +18866,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "health-2:boss",
@@ -18917,7 +18917,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "health-3:boss",
@@ -18968,7 +18968,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "pe-1:boss",
@@ -19019,7 +19019,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "pe-2:boss",
@@ -19070,7 +19070,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "pe-3:boss",
@@ -19121,7 +19121,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "home-1:boss",
@@ -19172,7 +19172,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "home-2:boss",
@@ -19223,7 +19223,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "home-3:boss",
@@ -19274,7 +19274,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "scout-1:boss",
@@ -19325,7 +19325,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "scout-2:boss",
@@ -19376,7 +19376,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "scout-3:boss",
@@ -19427,7 +19427,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "guidance-1:boss",
@@ -19478,7 +19478,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "guidance-2:boss",
@@ -19529,7 +19529,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "guidance-3:boss",
@@ -19580,7 +19580,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "local-1:boss",
@@ -19631,7 +19631,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "local-2:boss",
@@ -19682,7 +19682,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "local-3:boss",
@@ -19733,7 +19733,7 @@
               "kind": "mastery",
               "title": "避坑精熟",
               "icon": "🛡️",
-              "size": 2
+              "size": 3
             },
             {
               "id": "local-4:boss",

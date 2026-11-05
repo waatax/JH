@@ -7784,5 +7784,48 @@ summary {
   color: #e2e8f0;
 }
 
+/* CAP High-Frequency Exam Types & 5-Step Scaffolding Practice */
+.lesson-step-exam-types {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+.practice-opt-btn:hover:not([disabled]) {
+  border-color: var(--brand) !important;
+  background: var(--surface-hover, var(--surface)) !important;
+  transform: translateX(3px);
+}
+.practice-opt-btn:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+.exam-solution-accordion summary:hover {
+  opacity: 0.85;
+}
+.solution-step-item {
+  padding: 6px 0;
+}
+[data-theme="dark"] .exam-type-card {
+  background: #14221c !important;
+  border-color: #244135 !important;
+}
+[data-theme="dark"] .exam-practice-card {
+  background: #16202a !important;
+  border-color: #283949 !important;
+}
+[data-theme="dark"] .solution-steps-wrapper {
+  background: #111a22 !important;
+  border-color: #243444 !important;
+}
+[data-theme="dark"] .practice-opt-btn {
+  background: #1a2530 !important;
+  border-color: #2b3d4f !important;
+}
+[data-theme="dark"] .opt-letter-badge {
+  background: #233140 !important;
+  border-color: #3b5066 !important;
+  color: #e2e8f0 !important;
+}
+
+
 
 
