@@ -17,11 +17,14 @@ test('1. CAP Exam Optimization: 100% 188 units complete coverage', () => {
     assert(entry.zeroToTopLadder.mainstreamBtoA.length >= 40, `Unit ${u.id} mainstreamBtoA too short`);
     assert(entry.zeroToTopLadder.topTierAPlusPlus.length >= 40, `Unit ${u.id} topTierAPlusPlus too short`);
     assert(entry.examType, `Unit ${u.id} must have examType`);
+    assert(Array.isArray(entry.questionTypeList) && entry.questionTypeList.length === 3, `Unit ${u.id} must have 3-archetype questionTypeList`);
+    assert(entry.knowledgeSufficiencyPatch && Array.isArray(entry.knowledgeSufficiencyPatch.patchPoints) && entry.knowledgeSufficiencyPatch.patchPoints.length === 3, `Unit ${u.id} must have 3-point knowledgeSufficiencyPatch`);
     assert(entry.workedExample, `Unit ${u.id} must have workedExample`);
+    assert(entry.followUpPractice, `Unit ${u.id} must have followUpPractice`);
   }
 });
 
-test('2. CAP Exam Types Analysis Matrix: Rigorous Schema & Curriculum Intel', () => {
+test('2. CAP Exam Types Analysis Matrix & Archetype List: Rigorous Schema & Curriculum Intel', () => {
   for (const u of units) {
     const et = examTypesData[u.id].examType;
     assert(typeof et.typeName === 'string' && et.typeName.length >= 8, `${u.id} typeName too short`);
@@ -32,11 +35,16 @@ test('2. CAP Exam Types Analysis Matrix: Rigorous Schema & Curriculum Intel', ()
     assert(typeof et.publishersFocus === 'string' && et.publishersFocus.length >= 15, `${u.id} publishersFocus too short`);
     assert(typeof et.strategy === 'string' && et.strategy.length >= 15, `${u.id} strategy too short`);
     assert(typeof et.knowledgeAudit === 'string' && et.knowledgeAudit.length >= 15, `${u.id} knowledgeAudit too short`);
+
+    for (const qt of examTypesData[u.id].questionTypeList) {
+      assert(qt.archetypeName && qt.capRef && qt.questionPattern && qt.requiredKnowledge && qt.solvingSOP, `${u.id} incomplete questionTypeList item`);
+    }
   }
 });
 
-test('3. High-Yield Practice Example: 4 Options & Valid Answers', () => {
+test('3. High-Yield Practice Examples (workedExample & followUpPractice): Zero Generic Placeholders & Valid 4 Options', () => {
   const stems = new Set();
+  const followUpStems = new Set();
   for (const u of units) {
     const we = examTypesData[u.id].workedExample;
     assert(typeof we.title === 'string' && we.title.length >= 6, `${u.id} title missing`);
@@ -48,13 +56,25 @@ test('3. High-Yield Practice Example: 4 Options & Valid Answers', () => {
     assert.equal(new Set(we.options).size, 4, `${u.id} options must all be distinct`);
     for (const opt of we.options) {
       assert(typeof opt === 'string' && opt.trim().length > 0, `${u.id} option cannot be empty`);
+      assert(!opt.includes('實驗中所有測量結果皆可直接套用理想模型'), `${u.id} contains generic science option placeholder`);
+      assert(!opt.includes('此情境純屬偶然突發事件'), `${u.id} contains generic social option placeholder`);
+      assert(!opt.includes('為了追求速度，可以省略前置安全檢查'), `${u.id} contains generic arts/life option placeholder`);
+      assert(!opt.includes('The grammar in the example is incorrect'), `${u.id} contains generic English option placeholder`);
     }
-
     assert(Number.isInteger(we.answer) && we.answer >= 0 && we.answer <= 3, `${u.id} answer must be index 0, 1, 2, or 3`);
+
+    const fp = examTypesData[u.id].followUpPractice;
+    assert(typeof fp.title === 'string' && fp.title.length >= 6, `${u.id} followUpPractice title missing`);
+    assert(typeof fp.stem === 'string' && fp.stem.length >= 15, `${u.id} followUpPractice stem too short`);
+    assert(!followUpStems.has(fp.stem), `${u.id} has duplicate followUpPractice stem`);
+    followUpStems.add(fp.stem);
+    assert(Array.isArray(fp.options) && fp.options.length === 4, `${u.id} followUpPractice must have 4 options`);
+    assert.equal(new Set(fp.options).size, 4, `${u.id} followUpPractice options must be distinct`);
+    assert(Number.isInteger(fp.answer) && fp.answer >= 0 && fp.answer <= 3, `${u.id} followUpPractice answer must be 0..3`);
   }
 });
 
-test('4. 5-Step Scaffolding Thought Chain: Complete 5 Steps on Every Unit', () => {
+test('4. 5-Step Scaffolding Thought Chain: Complete 5 Steps on Both Practice Questions per Unit', () => {
   const stepHeaders = [
     '【第 1 步：審題定位 · 題眼與已知】',
     '【第 2 步：破題關鍵 · 課綱概念與核心公式】',
@@ -64,13 +84,13 @@ test('4. 5-Step Scaffolding Thought Chain: Complete 5 Steps on Every Unit', () =
   ];
 
   for (const u of units) {
-    const we = examTypesData[u.id].workedExample;
-    assert(Array.isArray(we.steps) && we.steps.length === 5, `${u.id} must have exactly 5 solution steps`);
-
-    for (let i = 0; i < 5; i++) {
-      const step = we.steps[i];
-      assert(typeof step === 'string' && step.length >= 25, `${u.id} step ${i + 1} too short (length ${step?.length})`);
-      assert(step.includes(stepHeaders[i]), `${u.id} step ${i + 1} must contain header "${stepHeaders[i]}"`);
+    for (const qObj of [examTypesData[u.id].workedExample, examTypesData[u.id].followUpPractice]) {
+      assert(Array.isArray(qObj.steps) && qObj.steps.length === 5, `${u.id} must have exactly 5 solution steps`);
+      for (let i = 0; i < 5; i++) {
+        const step = qObj.steps[i];
+        assert(typeof step === 'string' && step.length >= 25, `${u.id} step ${i + 1} too short (length ${step?.length})`);
+        assert(step.includes(stepHeaders[i]), `${u.id} step ${i + 1} must contain header "${stepHeaders[i]}"`);
+      }
     }
   }
 });
@@ -81,15 +101,22 @@ test('5. HTML Rendering & Interactive Wiring Verification', () => {
     assert(html.includes(`id="step-exam-types"`), `${u.id} missing step-exam-types id`);
     assert(html.includes('cap-exam-type-step'), `${u.id} missing cap-exam-type-step class`);
     assert(html.includes('exam-type-matrix-card'), `${u.id} missing exam-type-matrix-card`);
+    assert(html.includes('cap-archetypes-card'), `${u.id} missing cap-archetypes-card`);
+    assert(html.includes('knowledge-patch-card'), `${u.id} missing knowledge-patch-card`);
     assert(html.includes(`id="exam-practice-${u.id}"`), `${u.id} missing exam-practice card id`);
     assert(html.includes(`id="practice-fb-${u.id}"`), `${u.id} missing feedback banner id`);
     assert(html.includes(`id="practice-sol-${u.id}"`), `${u.id} missing solution accordion id`);
+    assert(html.includes(`id="exam-followup-${u.id}"`), `${u.id} missing exam-followup card id`);
+    assert(html.includes(`id="followup-fb-${u.id}"`), `${u.id} missing followup feedback banner id`);
+    assert(html.includes(`id="followup-sol-${u.id}"`), `${u.id} missing followup solution accordion id`);
     assert(html.includes(`data-unit="${u.id}"`), `${u.id} missing data-unit`);
     assert(html.includes(`data-ans="${examTypesData[u.id].workedExample.answer}"`), `${u.id} missing data-ans`);
 
-    // Verify 4 option buttons are rendered
-    const btnMatches = html.match(/class="practice-opt-btn"/g);
-    assert.equal(btnMatches?.length, 4, `${u.id} must render 4 practice option buttons`);
+    // Verify 4 primary option buttons + 4 follow-up option buttons are rendered
+    const primaryBtns = html.match(/class="practice-opt-btn"/g);
+    const followUpBtns = html.match(/class="practice-opt-btn followup-opt-btn"/g);
+    assert.equal(primaryBtns?.length, 4, `${u.id} must render 4 primary practice option buttons`);
+    assert.equal(followUpBtns?.length, 4, `${u.id} must render 4 follow-up practice option buttons`);
   }
 });
 
@@ -100,11 +127,12 @@ test('6. Expansion Report: Every Unit Achieves >= 30% Growth (Actual Min >= 100%
 
   assert(report.growthPercent >= 30, `Overall growth must be >= 30% (actual: ${report.growthPercent}%)`);
   assert(report.minimumUnitGrowthPercent >= 30, `Minimum unit growth must be >= 30% (actual: ${report.minimumUnitGrowthPercent}%)`);
+  assert(report.preOptGrowthPercent >= 120, `Growth over preOptBaseline must be >= 120% (actual: ${report.preOptGrowthPercent}%)`);
   assert.equal(report.unitsWithAddedTeaching, 188, 'Must cover 188 units');
-  assert.equal(report.newWorkedExamples, 188, 'Must have 188 new worked examples');
   assert.equal(report.units.length, 188, 'Report array must list 188 units');
 
   for (const u of report.units) {
     assert(u.growthPercent >= 30, `${u.id} growth is only ${u.growthPercent}%, expected >= 30%`);
+    assert(u.preOptGrowthPercent >= 90, `${u.id} preOptGrowthPercent is ${u.preOptGrowthPercent}%, expected >= 90%`);
   }
 });

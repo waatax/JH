@@ -465,6 +465,26 @@ function buildUnitNodes(u) {
     }
   }
 
+  // Inject Follow-Up CAP Practice Question with 5-Step Scaffolding Thought Chain
+  if (etData?.followUpPractice) {
+    const fp = etData.followUpPractice;
+    const fpId = registerItem({
+      id: `q.${uid}.cap.followup`,
+      kind: 'mastery',
+      type: 'choice',
+      unitId: uid,
+      level: 4,
+      prompt: `【${fp.title}】${fp.stem}`,
+      options: fp.options,
+      answer: fp.options[fp.answer],
+      hint: `進階檢核：${etData.examType?.strategy || u.title}`,
+      why: (fp.steps || []).join('\n')
+    }, `#lesson/${uid}`);
+    if (fpId) {
+      nodeItemPools.mastery.push(fpId);
+    }
+  }
+
   const baselineCount = new Set(Object.values(nodeItemPools).flat()).size;
   const enrichment = enrichUnit(u, table, baselineCount);
   for (const item of enrichment) {
@@ -541,7 +561,10 @@ function buildUnitNodes(u) {
     workedCase: wc ? { problem: wc.problem, steps: wc.steps, check: wc.check } : null,
     zeroToTopLadder: etData?.zeroToTopLadder || null,
     examType: etData?.examType || null,
+    questionTypeList: etData?.questionTypeList || null,
+    knowledgeSufficiencyPatch: etData?.knowledgeSufficiencyPatch || null,
     capWorkedExample: etData?.workedExample || null,
+    capFollowUpPractice: etData?.followUpPractice || null,
     officialRefs: alignment.refs || [],
     publisherGuide: pubGuide ? {
       tocKeywords: pubGuide.tocKeywords,

@@ -39,10 +39,14 @@ const rows = units.map(u => {
   assert(et, `Missing exam types data for ${u.id}`);
   assert(et.zeroToTopLadder && et.zeroToTopLadder.zeroFoundation && et.zeroToTopLadder.mainstreamBtoA && et.zeroToTopLadder.topTierAPlusPlus, `Missing zeroToTopLadder for ${u.id}`);
   assert(et.examType && et.examType.typeName && et.examType.strategy, `Missing examType spec: ${u.id}`);
+  assert(Array.isArray(et.questionTypeList) && et.questionTypeList.length === 3, `Missing 3-archetype questionTypeList: ${u.id}`);
+  assert(et.knowledgeSufficiencyPatch && Array.isArray(et.knowledgeSufficiencyPatch.patchPoints) && et.knowledgeSufficiencyPatch.patchPoints.length === 3, `Missing 3-point knowledgeSufficiencyPatch: ${u.id}`);
   assert(et.workedExample && et.workedExample.stem && et.workedExample.options.length === 4, `Missing workedExample 4-options: ${u.id}`);
   assert(Number.isInteger(et.workedExample.answer) && et.workedExample.answer >= 0 && et.workedExample.answer < 4, `Invalid answer index: ${u.id}`);
   assert(et.workedExample.steps && et.workedExample.steps.length === 5, `Missing 5-step scaffolding solution: ${u.id}`);
   assert(et.workedExample.steps.every(s => s.length >= 20), `5-step solution step too brief: ${u.id}`);
+  assert(et.followUpPractice && et.followUpPractice.stem && et.followUpPractice.options.length === 4, `Missing followUpPractice 4-options: ${u.id}`);
+  assert(et.followUpPractice.steps && et.followUpPractice.steps.length === 5, `Missing followUpPractice 5-step solution: ${u.id}`);
 
   const existing = [u.concept, u.example, u.pitfall, u.task, ...teachingFor(u).rows.flat(), ...u.questions.flatMap(q => [q.prompt, ...q.options, q.explanation, q.hint])];
   const additions = [
@@ -53,7 +57,11 @@ const rows = units.map(u => {
     ...(et.examType.publishersBreakdown ? [et.examType.publishersBreakdown] : []),
     ...(et.examType.examCluesRadar ? [et.examType.examCluesRadar] : []),
     ...(et.examType.scoringCriteria ? [et.examType.scoringCriteria] : []),
-    et.workedExample.title, et.workedExample.stem, ...et.workedExample.options, ...et.workedExample.steps
+    ...et.questionTypeList.flatMap(qt => [qt.archetypeName, qt.capRef, qt.questionPattern, qt.requiredKnowledge, qt.solvingSOP]),
+    et.knowledgeSufficiencyPatch.auditConclusion,
+    ...et.knowledgeSufficiencyPatch.patchPoints.flatMap(pt => [pt.tag, pt.title, pt.content]),
+    et.workedExample.title, et.workedExample.stem, ...et.workedExample.options, ...et.workedExample.steps,
+    et.followUpPractice.title, et.followUpPractice.stem, ...et.followUpPractice.options, ...et.followUpPractice.steps
   ];
   existing.forEach(t => originalTeaching.add(t));
   additions.forEach(t => newTeaching.add(t));
@@ -89,6 +97,7 @@ const rows = units.map(u => {
 
 assert.equal(new Set(units.map(u => workedCases[u.id].problem)).size, units.length, 'Do not repeat example prompts across units');
 assert.equal(new Set(units.map(u => examTypesData[u.id].workedExample.stem)).size, units.length, 'Do not repeat exam practice stems across units');
+assert.equal(new Set(units.map(u => examTypesData[u.id].followUpPractice.stem)).size, units.length, 'Do not repeat follow-up practice stems across units');
 
 const after = rows.reduce((n, u) => n + u.after, 0);
 const added = after - baseline.total;
@@ -113,8 +122,8 @@ const report = {
   preOptMinimumUnitGrowthPercent: preOptMinUnitGrowth,
   growthPercent: Number((added / baseline.total * 100).toFixed(2)), // For backward test compatibility
   unitsWithAddedTeaching: rows.length,
-  newWorkedExamples: rows.length,
-  newReasoningSteps: units.reduce((n, u) => n + workedCases[u.id].steps.length + examTypesData[u.id].workedExample.steps.length, 0),
+  newWorkedExamples: rows.length * 2,
+  newReasoningSteps: units.reduce((n, u) => n + workedCases[u.id].steps.length + examTypesData[u.id].workedExample.steps.length + examTypesData[u.id].followUpPractice.steps.length, 0),
   uniqueNewCharacters,
   units: rows
 };

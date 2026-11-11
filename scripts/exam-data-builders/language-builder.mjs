@@ -1,6 +1,5 @@
 // scripts/exam-data-builders/language-builder.mjs
-// Chinese (16 units) & English (16 units) Exam Types & 5-Step Scaffolding Solutions
-
+// Authentic 108 Curriculum & CAP Exam Alignment for Language Domain (32 units)
 export const languageExamData = {
   "chinese-1": {
     "examType": {
@@ -194,21 +193,21 @@ export const languageExamData = {
       "knowledgeAudit": "本站「句子骨架與現在式」課程已完整收錄文法規則與例句示範，足以獨立破題。"
     },
     "workedExample": {
-      "title": "【會考全真題型模擬演練】句子骨架與現在式核心句型檢驗",
-      "stem": "Choose the correct sentence or form based on the grammar rule:\nExample scenario: \"She is a student. / She plays tennis every Sunday. 否定：She does not play tennis.\"\nWhich of the following statements is correct?",
+      "title": "【會考全真題型模擬演練】時態、頻率副詞與生活作息對話語境判斷",
+      "stem": "閱讀以下校園社團招新對話：\nMia: Do you know where Kevin is? The basketball practice starts in ten minutes.\nLeo: He ______ in the library right now. He usually ______ basketball with us on Wednesdays, but he has a big science report due tomorrow morning.\n根據上下午時間線索與英語時態及頻率副詞位置規則，空格中依序應填入下列何者最恰當？",
       "options": [
-        "The grammar in the example is incorrect because the tense does not match the time adverb.",
-        "The example correctly demonstrates the core rule of \"先找主詞與動詞\".",
-        "The sentence must be changed into a passive voice structure to be considered standard English.",
-        "The verb in the example must always be followed by an adverb ending in -ly."
+        "studies ; is playing",
+        "is studying ; plays",
+        "studied ; played",
+        "is studying ; is playing"
       ],
       "answer": 1,
       "steps": [
-        "【第 1 步：審題定位 · 題眼與已知】審核題幹例句情境「She is a student. / She plays tennis every Sunday. 否定：She does not play tennis.」，識別其所考查之文法核心「句子骨架與現在式」。",
-        "【第 2 步：破題關鍵 · 課綱概念與核心公式】依據 108 課綱英語文文法結構：先找主詞與動詞。be 動詞描述身分、狀態；一般動詞描述動作。現在簡單式常描述習慣；第三人稱單數的一般動詞通常加 s 或 es。",
-        "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 檢查例句的主詞與動詞時態搭配，完全符合規範。\n2. 選項 (B) 準確指出其體現了「先找主詞與動詞」之核心法則。\n3. (A) 誤判時態不合；(C) 主動語態即可，無需強行改為被動；(D) 違反特定動詞接形容詞或原形之規則。\n4. 結論：符合選項 (B)。",
-        "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】考場避坑防線：務必警惕常見迷思「does 後面的主要動詞回原形，不寫 does not plays。」，仔細檢查主謂一致與時間線索。",
-        "【第 5 步：版本對照 · 跨版本教材提點與大考心法】跨版本教材提點：康軒、翰林、南一均強調本課之實踐任務「用英文寫三句你的週間習慣，再改寫成另一位同學的習慣。」，熟練句型即可在會考單選秒殺。"
+        "【第 1 步：審題定位 · 題眼與已知】第一格句尾有明確當下時間標記「right now（現在正…）」，表示此刻正在進行的動作；第二格有頻率副詞「usually（通常）」搭配「on Wednesdays（每逢週三）」，表示規律的日常習慣。",
+        "【第 2 步：破題關鍵 · 課綱概念與核心公式】依據 108 課綱英語文句構（Ad-IV-1）：(1) 正在進行的動作使用現在進行式（be + V-ing），主詞 He 搭配 is studying；(2) 經常性事實或習慣使用簡單現在式，第三人稱單數主詞 He 動詞須加 -s（plays），且頻率副詞 usually 置於一般動詞之前。",
+        "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 檢視第一格：配合 right now，排除簡單現在式 (A) studies 與過去式 (C) studied，鎖定 (B)、(D) 的 is studying。\n2. 檢視第二格：配合 usually ... on Wednesdays 的常態習慣，應使用簡單現在式 plays，排除現在進行式 (D) is playing。\n3. 綜合判斷：唯一完全符合前後語境時態對比的為選項 (B) is studying ; plays。",
+        "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】(A) 將現在進行與習慣時態完全顛倒；(C) 誤用過去式忽略對話中的 starts in ten minutes 與 right now 現在時間軸；(D) 受第一句進行式影響，誤將習慣性副詞 usually 也套用進行式。",
+        "【第 5 步：版本對照 · 跨版本教材提點與大考心法】康軒、翰林、南一七年級均強調「時間副詞決定時態」及「頻率副詞（always/usually/often/sometimes/never）置於 be 動詞後、一般動詞前」之鐵律，會考單選題必先圈出時間標記再看主詞單複數。"
       ]
     }
   },
@@ -224,21 +223,21 @@ export const languageExamData = {
       "knowledgeAudit": "本站「現在進行式與時間表達」課程已完整收錄文法規則與例句示範，足以獨立破題。"
     },
     "workedExample": {
-      "title": "【會考全真題型模擬演練】現在進行式與時間表達核心句型檢驗",
-      "stem": "Choose the correct sentence or form based on the grammar rule:\nExample scenario: \"Look! They are playing basketball. / They usually play after school.\"\nWhich of the following statements is correct?",
+      "title": "【會考全真題型模擬演練】比較級、最高級與多重條件圖表閱讀推論",
+      "stem": "閱讀以下四家耳機店家的規格比較表與顧客需求：\n• SoundPro：Price $1,800 ｜ Weight 240g ｜ Battery 30 hrs\n• BeatBox：Price $2,500 ｜ Weight 190g ｜ Battery 24 hrs\n• EcoTune：Price $1,200 ｜ Weight 280g ｜ Battery 18 hrs\n• AirWave：Price $2,200 ｜ Weight 210g ｜ Battery 36 hrs\nAccording to the chart, which of the following statements is TRUE?",
       "options": [
-        "The grammar in the example is incorrect because the tense does not match the time adverb.",
-        "The example correctly demonstrates the core rule of \"現在進行式 be＋V-ing，描述正在進行的動作\".",
-        "The sentence must be changed into a passive voice structure to be considered standard English.",
-        "The verb in the example must always be followed by an adverb ending in -ly."
+        "BeatBox is the most expensive of the four headphones, and it is also heavier than SoundPro.",
+        "EcoTune is cheaper than SoundPro, but it has the longest battery life of all.",
+        "AirWave has a longer battery life than SoundPro, and it is lighter than SoundPro.",
+        "SoundPro is lighter than BeatBox and cheaper than EcoTune."
       ],
-      "answer": 1,
+      "answer": 2,
       "steps": [
-        "【第 1 步：審題定位 · 題眼與已知】審核題幹例句情境「Look! They are playing basketball. / They usually play after school.」，識別其所考查之文法核心「現在進行式與時間表達」。",
-        "【第 2 步：破題關鍵 · 課綱概念與核心公式】依據 108 課綱英語文文法結構：現在進行式 be＋V-ing，描述正在進行的動作。頻率副詞 often、usually 多和習慣現在式使用；時態仍要靠情境而非只抓單字。",
-        "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 檢查例句的主詞與動詞時態搭配，完全符合規範。\n2. 選項 (B) 準確指出其體現了「現在進行式 be＋V-ing，描述正在進行的動作」之核心法則。\n3. (A) 誤判時態不合；(C) 主動語態即可，無需強行改為被動；(D) 違反特定動詞接形容詞或原形之規則。\n4. 結論：符合選項 (B)。",
-        "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】考場避坑防線：務必警惕常見迷思「be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子。」，仔細檢查主謂一致與時間線索。",
-        "【第 5 步：版本對照 · 跨版本教材提點與大考心法】跨版本教材提點：康軒、翰林、南一均強調本課之實踐任務「描述窗外正在發生的兩個動作，說明主詞如何決定 be。」，熟練句型即可在會考單選秒殺。"
+        "【第 1 步：審題定位 · 題眼與已知】題幹提供四款耳機的價格（Price）、重量（Weight）與續航力（Battery）三項量化指標，要求找出與圖表數據完全吻合的形容詞比較級（-er / more...than）與最高級（the -est / the most...）敘述。",
+        "【第 2 步：破題關鍵 · 課綱概念與核心公式】依據 108 課綱英語文比較句型與圖表閱讀（Ae-IV-5）：expensive（貴）與 cheap（便宜）對照 Price 欄；heavy（重）與 light（輕）對照 Weight 欄；long（久）對照 Battery 欄。比較級用於兩者比較，最高級用於三者以上之最。",
+        "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 檢驗 (A)：BeatBox ($2,500) 確實最貴，但重量 190g 比 SoundPro (240g) 更輕（lighter），非 heavier，故 (A) 錯。\n2. 檢驗 (B)：EcoTune ($1,200) 比 SoundPro ($1,800) 便宜，但續航 18 hrs 為最短（the shortest），非 the longest，故 (B) 錯。\n3. 檢驗 (C)：AirWave 續航 36 hrs 大於 SoundPro 的 30 hrs（longer battery life），且重量 210g 小於 SoundPro 的 240g（lighter），兩項條件皆正確！\n4. 檢驗 (D)：SoundPro (240g) 比 BeatBox (190g) 重，且 ($1,800) 比 EcoTune ($1,200) 貴，故 (D) 錯。",
+        "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】會考圖表比較題常在同一個句子前半句給正確資訊（如 A 選項的 the most expensive、B 選項的 cheaper），後半句卻將反義形容詞（heavier/lighter、longest/shortest）偷換，考生務必將連接詞 and/but 前後兩子句都核對完畢。",
+        "【第 5 步：版本對照 · 跨版本教材提點與大考心法】康軒、翰林、南一八年級下學期比較級與最高級單元均結合消費指南圖表，解題時先在選項形容詞旁標註「↑（高/重/長）」或「↓（低/輕/短）」，再對照表格數字即可零失誤得分。"
       ]
     }
   },
@@ -254,21 +253,21 @@ export const languageExamData = {
       "knowledgeAudit": "本站「過去式、未來與敘事順序」課程已完整收錄文法規則與例句示範，足以獨立破題。"
     },
     "workedExample": {
-      "title": "【會考全真題型模擬演練】過去式、未來與敘事順序核心句型檢驗",
-      "stem": "Choose the correct sentence or form based on the grammar rule:\nExample scenario: \"I visited Tainan yesterday. / Did you visit Tainan? / We are going to visit tomorrow.\"\nWhich of the following statements is correct?",
+      "title": "【會考全真題型模擬演練】被動語態與關係子句複合長句結構拆解",
+      "stem": "閱讀以下博物館導覽解說句子：\nThe old wooden bridge ______ by local farmers over a百 years ago is still strong today, and the photos ______ on the wall show how people crossed the river in the past.\n根據英語被動語態與關係子句（分詞片語修飾）句法結構，空格中依序應填入下列何者最恰當？",
       "options": [
-        "The grammar in the example is incorrect because the tense does not match the time adverb.",
-        "The example correctly demonstrates the core rule of \"過去簡單式描述過去事件，否定和問句用 did＋原形\".",
-        "The sentence must be changed into a passive voice structure to be considered standard English.",
-        "The verb in the example must always be followed by an adverb ending in -ly."
+        "which built ; that hung",
+        "that was built ; which are hung",
+        "was built ; are hanging",
+        "which was building ; that were hanging"
       ],
       "answer": 1,
       "steps": [
-        "【第 1 步：審題定位 · 題眼與已知】審核題幹例句情境「I visited Tainan yesterday. / Did you visit Tainan? / We are going to visit tomorrow.」，識別其所考查之文法核心「過去式、未來與敘事順序」。",
-        "【第 2 步：破題關鍵 · 課綱概念與核心公式】依據 108 課綱英語文文法結構：過去簡單式描述過去事件，否定和問句用 did＋原形。未來可用 will 或 be going to 表達預測或計畫，仍要配合情境。",
-        "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 檢查例句的主詞與動詞時態搭配，完全符合規範。\n2. 選項 (B) 準確指出其體現了「過去簡單式描述過去事件，否定和問句用 did＋原形」之核心法則。\n3. (A) 誤判時態不合；(C) 主動語態即可，無需強行改為被動；(D) 違反特定動詞接形容詞或原形之規則。\n4. 結論：符合選項 (B)。",
-        "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】考場避坑防線：務必警惕常見迷思「Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記。」，仔細檢查主謂一致與時間線索。",
-        "【第 5 步：版本對照 · 跨版本教材提點與大考心法】跨版本教材提點：康軒、翰林、南一均強調本課之實踐任務「用 first、then、finally 連接你上週末的三件事。」，熟練句型即可在會考單選秒殺。"
+        "【第 1 步：審題定位 · 題眼與已知】第一子句主詞為 The old wooden bridge，主要動詞為後方的 is（still strong today），因此空格處為修飾先行詞 bridge 的關係子句，且橋是「被農民建造（by local farmers... ago）」；第二子句主詞為 the photos，主要動詞為 show，空格處為修飾 photos 的關係子句，照片是「被掛在牆上（on the wall）」。",
+        "【第 2 步：破題關鍵 · 課綱概念與核心公式】依據 108 課綱英語文關係子句與被動語態（Ad-IV-1）：當先行詞為「物（bridge / photos）」且與動詞構成「被動關係」時，關係子句須使用「關係代名詞（which / that）+ be + 過去分詞（p.p.）」。過去時間（over a hundred years ago）用過去被動 was/were + p.p.；描述目前展示狀態用現在被動 are + p.p.。",
+        "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 分析第一格：句中已有主要動詞 is，若直接填 (C) was built 會造成一山不容二虎（雙動詞無連接詞或關代），故必有關係代名詞 that/which；且橋是「被建造」，須用被動 that was built。\n2. 分析第二格：句中已有主要動詞 show，須用關係代名詞 which 引導修飾 the photos，照片「被懸掛」於牆上，用 which are hung（hang 表示懸掛時過去分詞為 hung）。\n3. 綜合判斷：選項 (B) that was built ; which are hung 完全符合句法。",
+        "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】(A) 誤用主動語態 built / hung，忽略橋與照片無法自己建造或懸掛自己；(C) 漏掉關係代名詞導致單句出現兩個動詞；(D) 誤用過去進行主動語態，違反受事者被動邏輯。",
+        "【第 5 步：版本對照 · 跨版本教材提點與大考心法】康軒、翰林、南一九年級上學期三大核心句型即為「被動語態（be + p.p.）」與「形容詞子句（關係子句）」，會考極愛將兩者結合考查，看到 by + 行為者或物當主詞時，務必先檢查主動與被動關係。"
       ]
     }
   },
@@ -314,21 +313,21 @@ export const languageExamData = {
       "knowledgeAudit": "本站「完成式、被動與關係子句」課程已完整收錄文法規則與例句示範，足以獨立破題。"
     },
     "workedExample": {
-      "title": "【會考全真題型模擬演練】完成式、被動與關係子句核心句型檢驗",
-      "stem": "Choose the correct sentence or form based on the grammar rule:\nExample scenario: \"I have lived here for three years. / The bridge was built in 2000. / The boy who wears glasses is Ben.\"\nWhich of the following statements is correct?",
+      "title": "【會考全真題型模擬演練】現在完成式與過去簡單式之時間軸語境辨析",
+      "stem": "閱讀以下兩位好友在火車站的對話：\n宥辰 (Yu-Chen): Look! The new bookstore next to the station looks amazing. Have you ever been there?\n品妍 (Pin-Yen): Yes, I ______ there twice since it ______ last month. Their matcha cake is delicious!\n根據英語現在完成式（have/has + p.p.）與過去簡單式的時間搭配規則，空格中依序應填入下列何者最恰當？",
       "options": [
-        "The grammar in the example is incorrect because the tense does not match the time adverb.",
-        "The example correctly demonstrates the core rule of \"現在完成式 have/has＋過去分詞，連結過去與現在\".",
-        "The sentence must be changed into a passive voice structure to be considered standard English.",
-        "The verb in the example must always be followed by an adverb ending in -ly."
+        "went ; has opened",
+        "have been ; opened",
+        "have gone ; opened",
+        "was going ; has been open"
       ],
       "answer": 1,
       "steps": [
-        "【第 1 步：審題定位 · 題眼與已知】審核題幹例句情境「I have lived here for three years. / The bridge was built in 2000. / The boy who wears glasses is Ben.」，識別其所考查之文法核心「完成式、被動與關係子句」。",
-        "【第 2 步：破題關鍵 · 課綱概念與核心公式】依據 108 課綱英語文文法結構：現在完成式 have/has＋過去分詞，連結過去與現在。被動語態 be＋過去分詞，突出承受動作的對象。關係子句補充名詞資訊。",
-        "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 檢查例句的主詞與動詞時態搭配，完全符合規範。\n2. 選項 (B) 準確指出其體現了「現在完成式 have/has＋過去分詞，連結過去與現在」之核心法則。\n3. (A) 誤判時態不合；(C) 主動語態即可，無需強行改為被動；(D) 違反特定動詞接形容詞或原形之規則。\n4. 結論：符合選項 (B)。",
-        "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】考場避坑防線：務必警惕常見迷思「現在完成式通常不和明確結束的過去時間 yesterday 搭配。」，仔細檢查主謂一致與時間線索。",
-        "【第 5 步：版本對照 · 跨版本教材提點與大考心法】跨版本教材提點：康軒、翰林、南一均強調本課之實踐任務「把「有人昨天打掃教室」改寫成以教室為主詞的英文句子。」，熟練句型即可在會考單選秒殺。"
+        "【第 1 步：審題定位 · 題眼與已知】關鍵時間結構為「... twice since it ______ last month」。主句表達「從過去某時間點持續到現在已經去過兩次（經驗）」，since 引導的副詞子句則標示「上個月（last month）開幕的那個過去特定時間點」。",
+        "【第 2 步：破題關鍵 · 課綱概念與核心公式】依據 108 課綱英語文完成式句構（Ad-IV-1）：(1) 「主句（現在完成式 have/has + p.p.）+ since + 過去時間點子句（過去簡單式 V-ed）」為必考黃金公式；(2) have been to 表示「曾經去過某地（人已回來）」，have gone to 表示「已經去了某地（人還在當地未歸）」。",
+        "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 檢視 since 子句：有明確過去時間點 last month，動詞必須用過去簡單式 opened，排除 (A)、(D)。\n2. 比較 (B) 與 (C) 的第一格：品妍正在車站與宥辰對話，表示她「去過書店兩次而且人已經回來」，且後面接副詞 there（省略 to），必須使用 have been (there)，不能用表示人不在現場的 have gone。\n3. 結論：選項 (B) have been ; opened 為唯一正確答案。",
+        "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】(A) 將主句與 since 子句的時態完全寫反；(C) 混淆 have been to（去過已回）與 have gone to（去了未回），第一人稱 I 在現場對話時絕不可能說 I have gone there；(D) 時態搭配錯誤。",
+        "【第 5 步：版本對照 · 跨版本教材提點與大考心法】康軒、翰林、南一九年級上學期第一課皆以現在完成式開場，會考每年必考「since + 過去時間點 / 過去式子句」與「for + 一段時間」以及「have been to vs. have gone to」的語境辨析。"
       ]
     }
   },
@@ -344,21 +343,21 @@ export const languageExamData = {
       "knowledgeAudit": "本站「閱讀策略與情境溝通」課程已完整收錄文法規則與例句示範，足以獨立破題。"
     },
     "workedExample": {
-      "title": "【會考全真題型模擬演練】閱讀策略與情境溝通核心句型檢驗",
-      "stem": "Choose the correct sentence or form based on the grammar rule:\nExample scenario: \"Notice: The library closes at 5 p.m. Please return books before 4:30. 借還書截止早於關門時間。\"\nWhich of the following statements is correct?",
+      "title": "【會考全真題型模擬演練】名詞子句（間接問句）與情緒分詞構句綜合應用",
+      "stem": "閱讀以下校園新聞採訪對話：\nReporter: Many students are ______ about the upcoming AI robotics camp. Could you tell us ______?\nDirector: Sure! Students can learn how to build and program their own rescue robots in three days.\n根據英語情緒動詞分詞（-ed / -ing）與名詞子句（間接問句語序）規則，空格中依序應填入下列何者最恰當？",
       "options": [
-        "The grammar in the example is incorrect because the tense does not match the time adverb.",
-        "The example correctly demonstrates the core rule of \"閱讀先確認文本目的，再找主旨、指代和細節\".",
-        "The sentence must be changed into a passive voice structure to be considered standard English.",
-        "The verb in the example must always be followed by an adverb ending in -ly."
+        "exciting ; what will they learn in the camp",
+        "excited ; what they will learn in the camp",
+        "exciting ; what they will learn in the camp",
+        "excited ; what will they learn in the camp"
       ],
       "answer": 1,
       "steps": [
-        "【第 1 步：審題定位 · 題眼與已知】審核題幹例句情境「Notice: The library closes at 5 p.m. Please return books before 4:30. 借還書截止早於關門時間。」，識別其所考查之文法核心「閱讀策略與情境溝通」。",
-        "【第 2 步：破題關鍵 · 課綱概念與核心公式】依據 108 課綱英語文文法結構：閱讀先確認文本目的，再找主旨、指代和細節。推論需有線索。公告、時刻表與對話常需要整合時間、條件及人物意圖。",
-        "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 檢查例句的主詞與動詞時態搭配，完全符合規範。\n2. 選項 (B) 準確指出其體現了「閱讀先確認文本目的，再找主旨、指代和細節」之核心法則。\n3. (A) 誤判時態不合；(C) 主動語態即可，無需強行改為被動；(D) 違反特定動詞接形容詞或原形之規則。\n4. 結論：符合選項 (B)。",
-        "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】考場避坑防線：務必警惕常見迷思「close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制。」，仔細檢查主謂一致與時間線索。",
-        "【第 5 步：版本對照 · 跨版本教材提點與大考心法】跨版本教材提點：康軒、翰林、南一均強調本課之實踐任務「把一則英文公告整理成 Who、What、When 三欄。」，熟練句型即可在會考單選秒殺。"
+        "【第 1 步：審題定位 · 題眼與已知】第一格主詞為「Many students（人）」，搭配介系詞 about 表達學生對營隊「感到興奮」；第二格位於動詞片語 tell us 之後作受詞，屬於疑問詞 what 引導的「名詞子句（間接問句）」。",
+        "【第 2 步：破題關鍵 · 課綱概念與核心公式】依據 108 課綱英語文句構：(1) 情緒分詞修飾「人感到…」用過去分詞 V-ed（excited about），修飾「事物令人感到…」用現在分詞 V-ing（exciting）；(2) 疑問詞引導的名詞子句（間接問句）嵌入句中當受詞時，必須改為「疑問詞 + 主詞 + 動詞（S + V）」的直述句語序，不可倒裝。",
+        "【第 3 步：階梯推導 · 逐步拆解運算／推理過程】1. 判斷第一格：主詞 Many students 是人，感到興奮應用 excited，排除 (A)、(C)。\n2. 判斷第二格：Could you tell us 後接間接問句，疑問詞 what 後應接「主詞 they + 助動詞 will + 原形動詞 learn」，即 what they will learn in the camp，排除保留助動詞倒裝的 (D)。\n3. 結論：正確答案為 (B)。",
+        "【第 4 步：易錯陷阱 · 混淆選項逐項剖析與迷思防線】(A) 同時犯了「用 exciting 修飾人」與「間接問句未還原直述語序」兩大常見錯誤；(C) 誤用 exciting 修飾學生；(D) 受句首 Could you tell us...? 是問句的影響，誤以為後面的名詞子句也要將 will 移到 they 前面。",
+        "【第 5 步：版本對照 · 跨版本教材提點與大考心法】康軒、翰林、南一九年級皆將「情緒分詞（bored/boring, interested/interesting, excited/exciting）」與「wh- 間接問句（口訣：疑問詞 + 主 + 動）」列為大考壓軸文法，掌握這兩條規則即可秒殺同類題型。"
       ]
     }
   },
@@ -963,5 +962,3 @@ export const languageExamData = {
     }
   }
 };
-
-console.log(`Loaded ${Object.keys(languageExamData).length} units in language-builder.mjs`);
