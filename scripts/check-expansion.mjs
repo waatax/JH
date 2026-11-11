@@ -10,6 +10,7 @@ import { units } from '../dist/curriculum.js';
 import { teachingFor } from '../dist/teaching.js';
 import { workedCases, renderWorkedCase } from '../dist/worked-cases.js';
 import { examTypesData, renderExamTypeAndExample } from '../dist/exam-types-data.js';
+import { unitWonderData } from '../dist/joyful-learning.js';
 
 const baseline = JSON.parse(fs.readFileSync('docs/expansion-baseline.json', 'utf8'));
 const preOptBaselinePath = 'docs/expansion-pre-opt-baseline.json';
@@ -57,11 +58,23 @@ const rows = units.map(u => {
     ...(et.examType.publishersBreakdown ? [et.examType.publishersBreakdown] : []),
     ...(et.examType.examCluesRadar ? [et.examType.examCluesRadar] : []),
     ...(et.examType.scoringCriteria ? [et.examType.scoringCriteria] : []),
-    ...et.questionTypeList.flatMap(qt => [qt.archetypeName, qt.capRef, qt.questionPattern, qt.requiredKnowledge, qt.solvingSOP]),
+    ...et.questionTypeList.flatMap(qt => [
+      qt.archetypeName, qt.capRef, qt.questionPattern, qt.requiredKnowledge, qt.solvingSOP,
+      ...(qt.archetypeDrill ? [qt.archetypeDrill.stem, ...qt.archetypeDrill.options, qt.archetypeDrill.explanation] : [])
+    ]),
     et.knowledgeSufficiencyPatch.auditConclusion,
     ...et.knowledgeSufficiencyPatch.patchPoints.flatMap(pt => [pt.tag, pt.title, pt.content]),
     et.workedExample.title, et.workedExample.stem, ...et.workedExample.options, ...et.workedExample.steps,
-    et.followUpPractice.title, et.followUpPractice.stem, ...et.followUpPractice.options, ...et.followUpPractice.steps
+    et.followUpPractice.title, et.followUpPractice.stem, ...et.followUpPractice.options, ...et.followUpPractice.steps,
+    ...(unitWonderData[u.id] ? [
+      unitWonderData[u.id].lifeConnection,
+      unitWonderData[u.id].funFact,
+      unitWonderData[u.id].mnemonic,
+      unitWonderData[u.id].curiosityQ,
+      unitWonderData[u.id].curiosityA,
+      ...unitWonderData[u.id].kpFlipCards.flatMap(fc => [fc.frontPrompt, fc.backRule, fc.backExample, fc.backTip]),
+      ...unitWonderData[u.id].kpBlitz.flatMap(bq => [bq.prompt, ...bq.options, bq.cheer])
+    ] : [])
   ];
   existing.forEach(t => originalTeaching.add(t));
   additions.forEach(t => newTeaching.add(t));

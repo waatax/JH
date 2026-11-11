@@ -21,7 +21,12 @@ export function calculateXP(state) {
   const activeDays = (state.days || []).length * 20;
   const focusTime = Math.floor((state.focusMinutes || 0) / 10) * 10;
   const checklistPoints = Object.values(state.masteryChecklist || {}).reduce((acc, arr) => acc + (Array.isArray(arr) ? arr.filter(Boolean).length * 5 : 0), 0);
-  return readUnits + correctCount + retainedCount + feynmanNotes + examsFinished + activeDays + focusTime + checklistPoints;
+  let joyfulBonus = Number(state.joyfulXP || 0);
+  try {
+    const raw = typeof localStorage !== 'undefined' ? localStorage.getItem('zhixing-joyful-mastery-v1') : null;
+    if (raw) joyfulBonus += Number(JSON.parse(raw).bonusXP || 0);
+  } catch {}
+  return readUnits + correctCount + retainedCount + feynmanNotes + examsFinished + activeDays + focusTime + checklistPoints + joyfulBonus;
 }
 
 export function getLevelInfo(xp) {

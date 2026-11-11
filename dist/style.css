@@ -7826,6 +7826,343 @@ summary {
   color: #e2e8f0 !important;
 }
 
+/* ==========================================================================
+   JOYFUL LEARNING, SUBJECT LOVE, WONDER HOOKS & KP PLAYGROUND
+   ========================================================================== */
+.joyful-home-hub {
+  margin-bottom: 24px;
+}
+.joyful-hub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 18px;
+}
+.joyful-roulette-card,
+.joyful-arena-card {
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-top: 4px solid var(--brand);
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+}
+.joyful-arena-card {
+  border-top-color: #e65100;
+}
+.joyful-pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #e8f5e9;
+  color: #1b5e20;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+.joyful-pill-badge.accent {
+  background: #fff3e0;
+  color: #e65100;
+}
+.joyful-roulette-body {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.joyful-superpower-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  color: var(--brand);
+}
+.joyful-life-text,
+.joyful-fact-text {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--text);
+}
+.joyful-mnemonic-box {
+  background: var(--surface-alt);
+  border: 1px dashed var(--brand);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+.joyful-mnemonic-pre {
+  margin: 0;
+  white-space: pre-wrap;
+  font-family: inherit;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--text);
+  font-weight: 600;
+}
+.joyful-curiosity-details {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+}
+.joyful-curiosity-details summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--brand);
+  user-select: none;
+}
+.joyful-curiosity-details p {
+  margin: 8px 0 0;
+  line-height: 1.6;
+  color: var(--text);
+}
+.joyful-stats-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+  margin: 12px 0;
+}
+.joyful-stat-box {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.joyful-stat-box span {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.joyful-stat-box strong {
+  font-size: 1.05rem;
+  color: var(--brand);
+}
+.joyful-mini-drill-box {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px;
+  margin-top: 8px;
+}
+.joyful-mini-drill-opts,
+.kp-blitz-opts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.joyful-home-drill-opt,
+.kp-blitz-opt-btn {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+  padding: 9px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.86rem;
+  line-height: 1.45;
+  cursor: pointer;
+  transition: all 0.16s ease;
+}
+.joyful-home-drill-opt:hover,
+.kp-blitz-opt-btn:hover,
+.archetype-drill-opt-btn:hover {
+  border-color: var(--brand) !important;
+  transform: translateX(2px);
+}
+.joyful-home-drill-opt .opt-badge,
+.kp-blitz-opt-btn .opt-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  font-weight: 700;
+  font-size: 0.78rem;
+  flex-shrink: 0;
+}
+.joyful-home-drill-opt.is-correct,
+.kp-blitz-opt-btn.is-correct {
+  background: #e8f5e9 !important;
+  border-color: #2e7d32 !important;
+  color: #1b5e20 !important;
+}
+.joyful-home-drill-opt.is-wrong,
+.kp-blitz-opt-btn.is-wrong {
+  background: #ffebee !important;
+  border-color: #c62828 !important;
+  color: #b71c1c !important;
+}
+
+/* Subject Love Banner */
+.subject-love-banner {
+  background: linear-gradient(135deg, var(--surface) 0%, var(--surface-alt) 100%);
+  border: 1.5px solid var(--border);
+  border-left: 5px solid var(--brand);
+  border-radius: 14px;
+  padding: 20px;
+  margin: 16px 0 22px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04);
+}
+.subject-love-why {
+  font-size: 0.98rem;
+  line-height: 1.7;
+  color: var(--text);
+  margin: 0 0 14px;
+  font-weight: 500;
+}
+.subject-magic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.subject-magic-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--text);
+}
+.subject-love-footer {
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 10px 14px;
+  border: 1px dashed var(--border);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+/* Unit Wonder & KP Playground in Lesson */
+.unit-wonder-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+  margin: 12px 0;
+}
+.unit-wonder-card {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+.unit-wonder-card strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--brand);
+  font-size: 0.95rem;
+}
+.unit-wonder-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+.lesson-mnemonic-box {
+  margin: 12px 0;
+}
+.kp-flip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+  margin: 14px 0 20px;
+}
+.kp-flip-card {
+  background: var(--surface-alt);
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.kp-flip-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--brand);
+}
+.kp-flip-card.is-stamped {
+  border-color: #43a047;
+  background: linear-gradient(135deg, var(--surface) 0%, rgba(67, 160, 71, 0.06) 100%);
+}
+.kp-stamp-pill {
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: #2e7d32;
+}
+.kp-front-q {
+  font-size: 0.93rem;
+  font-weight: 600;
+  line-height: 1.6;
+  margin: 8px 0 14px;
+  color: var(--text);
+}
+.kp-blitz-arena {
+  background: var(--surface-alt);
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 18px;
+}
+.kp-combo-badge {
+  background: #fff3e0;
+  color: #e65100;
+  font-weight: 800;
+  font-size: 0.85rem;
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 1px solid #ffcc80;
+}
+.kp-blitz-questions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+}
+.kp-blitz-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px;
+}
+[data-theme="dark"] .joyful-pill-badge {
+  background: #1b3b28;
+  color: #a5d6a7;
+}
+[data-theme="dark"] .joyful-pill-badge.accent,
+[data-theme="dark"] .kp-combo-badge {
+  background: #3e2723;
+  color: #ffcc80;
+  border-color: #5d4037;
+}
+.unit-joyful-mini-pill {
+  font-size: 0.74rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--surface-alt);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  font-weight: 600;
+}
+.unit-joyful-mini-pill.active {
+  background: #e8f5e9;
+  color: #1b5e20;
+  border-color: #81c784;
+  font-weight: 700;
+}
+
+
+
 
 
 

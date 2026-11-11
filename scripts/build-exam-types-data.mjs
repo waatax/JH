@@ -226,10 +226,47 @@ for (const u of units) {
   d.examType.examCluesRadar = examCluesRadar;
   d.examType.scoringCriteria = scoringCriteria;
 
-  // NEW 1: 歷屆會考三大核心題型分類表 (questionTypeList)
+  // NEW 1: 歷屆會考三大核心題型分類表 (questionTypeList) + 互動破關快篩 (archetypeDrill)
   const capQ0 = unitCaps[0];
   const capQ1 = unitCaps[1] || unitCaps[0];
   const capQ2 = unitCaps[Math.min(2, unitCaps.length - 1)] || unitCaps[0];
+
+  const placeCorrectAt = (correctText, wrongs, targetIdx) => {
+    const idx = ((targetIdx % 4) + 4) % 4;
+    const arr = [...wrongs];
+    arr.splice(idx, 0, correctText);
+    return { options: arr.slice(0, 4), answer: idx };
+  };
+
+  const drillAOpts = placeCorrectAt(
+    `依據「${r0[0]}」判準：${clean(r0[1])}（課本實例核對：${clean(r0[2])}）`,
+    [
+      `忽略基準前提，誤以為在任何情況下「${clean(u.pitfall.split('。')[0])}」皆不影響結果`,
+      `將「${r0[0]}」與「${ld.rightLabel}」混淆，直接套用相反方向的規則`,
+      `僅憑直覺猜測單一數值，不檢查單位與「${clean(r0[0])}」的成立條件`
+    ],
+    enrichedCount % 4
+  );
+
+  const drillBOpts = placeCorrectAt(
+    `先鎖定控制變因，區分「${ld.leftLabel}（${clean(ld.left)}）」與「${ld.rightLabel}（${clean(ld.right)}）」，再依「${clean(r1[1])}」推導`,
+    [
+      `把「${ld.leftLabel}」與「${ld.rightLabel}」當成完全相同的條件，直接平均兩者數據`,
+      `只看圖表或題幹的最後一個數字，完全忽略「${r1[0]}」的轉換關係`,
+      `掉入「${clean(u.pitfall.split('。')[0])}」陷阱，把「${ld.rightLabel}」的特徵張冠李戴到「${ld.leftLabel}」`
+    ],
+    (enrichedCount + 1) % 4
+  );
+
+  const drillCOpts = placeCorrectAt(
+    `結合「${r2[0]}（${clean(r2[1])}）」分步逆推（${clean(wc.steps?.[0] || r0[1])}），最後執行「${clean(wc.check)}」代回驗算`,
+    [
+      `直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算`,
+      `只套用「${r0[0]}」的單向公式，忽略題幹給定的邊界限制與「${clean(u.pitfall.split('。')[0])}」`,
+      `認為逆向題無法用課本概念解決，放棄核對「${clean(wc.check)}」的檢驗條件`
+    ],
+    (enrichedCount + 2) % 4
+  );
 
   d.questionTypeList = [
     {
@@ -239,7 +276,14 @@ for (const u of units) {
       capRef: capQ0 ? `${capQ0.year} 會考第 ${capQ0.number} 題（${capQ0.explanation?.skill || '概念辨析'}）` : `108 課綱基礎指標【${d.examType.targetCodes}】核心題型`,
       questionPattern: `題幹直接給出「${clean(u.example.split('。')[0])}」之標準條件或基本圖式，要求判別「${r0[0]}」的正確性或直接求出單一目標量。`,
       requiredKnowledge: `必備知識點：「${r0[0]}」——${clean(r0[1])}（課本實例檢核：${clean(r0[2])}）。`,
-      solvingSOP: `第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「${r0[0]}」判準 ➔ 第 3 步核對是否觸犯「${clean(u.pitfall.split('。')[0])}」基本防線。`
+      solvingSOP: `第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「${r0[0]}」判準 ➔ 第 3 步核對是否觸犯「${clean(u.pitfall.split('。')[0])}」基本防線。`,
+      archetypeDrill: {
+        stem: `【Type A 基礎秒殺挑戰】在「${u.title}」的基礎情境（如：${clean(u.example.split('。')[0])}）中，若要正確運用「${r0[0]}」快速破題，下列哪個作法最正確？`,
+        options: drillAOpts.options,
+        answer: drillAOpts.answer,
+        hint: `回想「${r0[0]}」的核心定義：${clean(r0[1])}。`,
+        explanation: `破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「${r0[0]}：${clean(r0[1])}」，並以「${clean(r0[2])}」核對、避開「${clean(u.pitfall.split('。')[0])}」，就能一秒鎖定正確答案！`
+      }
     },
     {
       code: 'Type B',
@@ -248,7 +292,14 @@ for (const u of units) {
       capRef: capQ1 ? `${capQ1.year} 會考第 ${capQ1.number} 題（${capQ1.explanation?.skill || '圖表與情境轉譯'}）` : `康軒／翰林／南一跨版本整合應用題型`,
       questionPattern: `題幹結合實驗紀錄表、對照圖形或雙情境文本，將「${ld.leftLabel}」與「${ld.rightLabel}」並列呈現，考驗學生能否從非連續性資訊中提煉「${r1[0]}」的變化規律。`,
       requiredKnowledge: `必備知識點：(1) ${ld.leftLabel}：${clean(ld.left)}；(2) ${ld.rightLabel}：${clean(ld.right)}；(3) 轉換規則：${clean(r1[1])}。`,
-      solvingSOP: `第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「${r1[0]}」區隔「${ld.leftLabel}」與「${ld.rightLabel}」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。`
+      solvingSOP: `第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「${r1[0]}」區隔「${ld.leftLabel}」與「${ld.rightLabel}」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。`,
+      archetypeDrill: {
+        stem: `【Type B 雙情境對照挑戰】當題目同時列出「${ld.leftLabel}」與「${ld.rightLabel}」並要求結合「${r1[0]}」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？`,
+        options: drillBOpts.options,
+        answer: drillBOpts.answer,
+        hint: `先分清楚「${ld.leftLabel}」與「${ld.rightLabel}」的差異，再套用「${r1[0]}」。`,
+        explanation: `破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「${ld.leftLabel}（${clean(ld.left)}）」與「${ld.rightLabel}（${clean(ld.right)}）」，再運用「${r1[0]}：${clean(r1[1])}」，就不會被張冠李戴的選項騙倒！`
+      }
     },
     {
       code: 'Type C',
@@ -257,7 +308,14 @@ for (const u of units) {
       capRef: capQ2 ? `${capQ2.year} 會考第 ${capQ2.number} 題（${capQ2.explanation?.skill || '綜合逆推壓軸'}）` : `會考前 5% A++ 頂標跨概念壓軸題型`,
       questionPattern: `題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「${clean(wc.problem.slice(0, 48))}…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。`,
       requiredKnowledge: `必備知識點：結合「${r0[0]}」、「${r1[0]}」與「${r2[0]}（${clean(r2[1])}）」，並啟動邊界防禦機制「${clean(wc.check)}」。`,
-      solvingSOP: `第 1 步將題幹結果逆向拆解為子條件（${clean(wc.steps?.[0] || r0[1])}） ➔ 第 2 步聯立「${r1[0]}」與「${r2[0]}」推演（${clean(wc.steps?.[1] || r1[1])}） ➔ 第 3 步將所得結論代回原情境執行「${clean(wc.check)}」雙向驗算。`
+      solvingSOP: `第 1 步將題幹結果逆向拆解為子條件（${clean(wc.steps?.[0] || r0[1])}） ➔ 第 2 步聯立「${r1[0]}」與「${r2[0]}」推演（${clean(wc.steps?.[1] || r1[1])}） ➔ 第 3 步將所得結論代回原情境執行「${clean(wc.check)}」雙向驗算。`,
+      archetypeDrill: {
+        stem: `【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「${clean(wc.problem.slice(0, 54))}…」，若要達成 A++ 零失誤破關，應該採取哪項策略？`,
+        options: drillCOpts.options,
+        answer: drillCOpts.answer,
+        hint: `結合「${r2[0]}」分步逆推，並務必執行「${clean(wc.check)}」驗算。`,
+        explanation: `破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「${r2[0]}：${clean(r2[1])}」逐步推演，最後一定要用「${clean(wc.check)}」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！`
+      }
     }
   ];
 
@@ -513,26 +571,53 @@ export function renderExamTypeAndExample(u) {
   </div>
 
   \${qTypes.length ? \`
-  <!-- Module 1.5A: 歷屆會考三大核心題型分類表 (Question Archetypes Breakdown) -->
+  <!-- Module 1.5A: 歷屆會考三大核心題型分類表 & 互動破關集章 (Question Archetypes Breakdown & Interactive Drills) -->
   <div class="cap-archetypes-card" style="border:1px solid var(--border);background:var(--surface);border-radius:10px;padding:18px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,0.03);">
     <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:14px;">
       <strong style="font-size:1rem;color:var(--text);display:flex;align-items:center;gap:6px;">🗂️ 歷屆會考（109～115）三大核心題型分類與對應知識點清單</strong>
-      <span class="tag" style="background:#e8eaf6;color:#283593;font-weight:700;font-size:0.8rem;">真題回推 · 題型全覆蓋</span>
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+        <span class="tag" style="background:#fff8e1;color:#e65100;font-weight:700;font-size:0.8rem;" data-unit-archetype-prog="\${u.id}">🏆 題型制霸進度：0 / \${qTypes.length}</span>
+        <span class="tag" style="background:#e8eaf6;color:#283593;font-weight:700;font-size:0.8rem;">真題回推 · 互動破關</span>
+      </div>
+    </div>
+    <div id="archetype-mastery-banner-\${u.id}" style="display:none;margin-bottom:14px;padding:12px 16px;border-radius:8px;background:linear-gradient(135deg,#e8f5e9,#fff8e1);border:1px solid #81c784;color:#1b5e20;font-weight:700;font-size:0.92rem;">
+      🎊 恭喜大滿貫！你已 100% 制霸「\${esc(u.title)}」三大可能題型（Type A / Type B / Type C），考場遇到任何變形題都能秒殺！
     </div>
     <div class="cap-archetypes-grid" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:14px;">
       \${qTypes.map(qt => \`
-        <div class="archetype-item" style="background:var(--surface-alt);border:1px solid var(--border);border-radius:8px;padding:14px;display:flex;flex-direction:column;gap:8px;">
-          <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+        <div class="archetype-item" data-archetype-card="\${u.id}:\${qt.code}" style="background:var(--surface-alt);border:1px solid var(--border);border-radius:8px;padding:14px;display:flex;flex-direction:column;gap:8px;">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;flex-wrap:wrap;">
             <span class="tag" style="background:#193e35;color:#fff;font-size:0.75rem;font-weight:700;">\${esc(qt.code)}</span>
             <span style="font-size:0.76rem;color:#0277bd;font-weight:600;background:#e1f5fe;padding:2px 8px;border-radius:12px;">\${esc(qt.badge)}</span>
+            <span class="archetype-stamp-badge" data-archetype-stamp="\${u.id}:\${qt.code}" style="margin-left:auto;font-size:0.74rem;font-weight:700;padding:2px 8px;border-radius:12px;background:#f5f5f5;color:#616161;border:1px solid #e0e0e0;">🌱 待破關</span>
           </div>
           <strong style="font-size:0.93rem;color:var(--text);line-height:1.45;">\${esc(qt.archetypeName)}</strong>
           <div style="font-size:0.82rem;color:var(--brand);font-weight:600;">📌 代表出處：\${esc(qt.capRef)}</div>
           <p style="margin:0;font-size:0.86rem;line-height:1.55;color:var(--text);"><strong>命題模式：</strong>\${esc(qt.questionPattern)}</p>
           <p style="margin:0;font-size:0.86rem;line-height:1.55;color:var(--text);"><strong>回推必備知識點：</strong>\${esc(qt.requiredKnowledge)}</p>
-          <div style="margin-top:auto;padding-top:8px;border-top:1px dashed var(--border);font-size:0.84rem;line-height:1.5;color:#1b5e20;">
+          <div style="padding-top:8px;border-top:1px dashed var(--border);font-size:0.84rem;line-height:1.5;color:#1b5e20;">
             <strong>⚡ 標準破題 SOP：</strong>\${esc(qt.solvingSOP)}
           </div>
+          \${qt.archetypeDrill ? \`
+          <details class="archetype-drill-details" style="margin-top:auto;padding-top:8px;border-top:1px solid var(--border);">
+            <summary style="cursor:pointer;font-size:0.84rem;font-weight:700;color:#0d47a1;display:flex;align-items:center;justify-content:space-between;user-select:none;padding:4px 0;">
+              <span>🎮 立即實戰破關【\${esc(qt.code)}】可能題型</span>
+              <span style="font-size:0.74rem;background:#e3f2fd;color:#1565c0;padding:1px 7px;border-radius:10px;">點此挑戰領印章</span>
+            </summary>
+            <div class="archetype-drill-box" data-drill-unit="\${u.id}" data-drill-code="\${qt.code}" style="margin-top:8px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:10px;">
+              <p style="margin:0 0 8px 0;font-size:0.84rem;font-weight:600;line-height:1.5;color:var(--text);">\${esc(qt.archetypeDrill.stem)}</p>
+              <div style="display:flex;flex-direction:column;gap:6px;" role="group" aria-label="\${esc(qt.code)} 題型破關選項">
+                \${qt.archetypeDrill.options.map((dOpt, dIdx) => \`
+                  <button type="button" class="archetype-drill-opt-btn" data-unit="\${u.id}" data-code="\${qt.code}" data-opt-idx="\${dIdx}" data-ans="\${qt.archetypeDrill.answer}" data-exp="\${esc(qt.archetypeDrill.explanation)}" style="display:flex;align-items:flex-start;gap:8px;width:100%;text-align:left;padding:8px 10px;border-radius:6px;border:1px solid var(--border);background:var(--surface-alt);cursor:pointer;font-size:0.82rem;line-height:1.45;transition:all 0.18s ease;">
+                    <span style="display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;background:var(--surface);border:1px solid var(--border);font-weight:700;font-size:0.75rem;flex-shrink:0;">\${String.fromCharCode(65 + dIdx)}</span>
+                    <span style="flex:1;">\${esc(dOpt)}</span>
+                  </button>
+                \`).join('')}
+              </div>
+              <div class="archetype-drill-fb" style="display:none;margin-top:8px;padding:8px 10px;border-radius:6px;font-size:0.81rem;line-height:1.5;"></div>
+            </div>
+          </details>
+          \` : ''}
         </div>
       \`).join('')}
     </div>
@@ -656,6 +741,119 @@ export function renderExamTypeAndExample(u) {
 
 export function wireExamPractice(container) {
   if (!container) return;
+
+  const JOYFUL_STORAGE_KEY = 'zhixing-joyful-mastery-v1';
+  const loadJoyfulState = () => {
+    try {
+      const raw = typeof localStorage !== 'undefined' ? localStorage.getItem(JOYFUL_STORAGE_KEY) : null;
+      const parsed = raw ? JSON.parse(raw) : {};
+      return {
+        lovedSubjects: parsed.lovedSubjects || {},
+        stampedKPs: parsed.stampedKPs || {},
+        conqueredArchetypes: parsed.conqueredArchetypes || {},
+        blitzClearedUnits: parsed.blitzClearedUnits || {},
+        bonusXP: parsed.bonusXP || 0
+      };
+    } catch {
+      return { lovedSubjects: {}, stampedKPs: {}, conqueredArchetypes: {}, blitzClearedUnits: {}, bonusXP: 0 };
+    }
+  };
+  const saveJoyfulState = (st) => {
+    try {
+      if (typeof localStorage !== 'undefined') {
+        localStorage.setItem(JOYFUL_STORAGE_KEY, JSON.stringify(st));
+      }
+      if (typeof window !== 'undefined' && typeof window.dispatchEvent === 'function') {
+        window.dispatchEvent(new CustomEvent('zhixing:joyful-update', { detail: st }));
+      }
+    } catch {}
+  };
+
+  const refreshArchetypeStamps = () => {
+    const st = loadJoyfulState();
+    const progEls = container.querySelectorAll('[data-unit-archetype-prog]');
+    progEls.forEach(progEl => {
+      const uId = progEl.dataset.unitArchetypeProg;
+      const codes = ['Type A', 'Type B', 'Type C'];
+      let count = 0;
+      codes.forEach(code => {
+        const key = \`\${uId}:\${code}\`;
+        const isConquered = !!st.conqueredArchetypes[key];
+        if (isConquered) count++;
+        container.querySelectorAll(\`[data-archetype-stamp="\${key}"]\`).forEach(badge => {
+          if (isConquered) {
+            badge.textContent = '🏆 已制霸 (+15 XP)';
+            badge.style.background = '#e8f5e9';
+            badge.style.color = '#1b5e20';
+            badge.style.borderColor = '#81c784';
+          } else {
+            badge.textContent = '🌱 待破關';
+          }
+        });
+      });
+      progEl.textContent = \`🏆 題型制霸進度：\${count} / 3\`;
+      const banner = container.querySelector(\`#archetype-mastery-banner-\${uId}\`);
+      if (banner) {
+        banner.style.display = count === 3 ? 'block' : 'none';
+      }
+    });
+  };
+
+  refreshArchetypeStamps();
+
+  container.querySelectorAll('.archetype-drill-opt-btn').forEach(btn => {
+    btn.onclick = () => {
+      const unitId = btn.dataset.unit;
+      const code = btn.dataset.code;
+      const optIdx = parseInt(btn.dataset.optIdx, 10);
+      const ansIdx = parseInt(btn.dataset.ans, 10);
+      const exp = btn.dataset.exp || '';
+      const box = btn.closest('.archetype-drill-box');
+      if (!box) return;
+
+      const allBtns = box.querySelectorAll('.archetype-drill-opt-btn');
+      allBtns.forEach(b => {
+        b.style.borderColor = 'var(--border)';
+        b.style.background = 'var(--surface-alt)';
+      });
+
+      const correctBtn = allBtns[ansIdx];
+      if (correctBtn) {
+        correctBtn.style.borderColor = '#2e7d32';
+        correctBtn.style.background = '#e8f5e9';
+      }
+
+      const fb = box.querySelector('.archetype-drill-fb');
+      if (optIdx === ansIdx) {
+        const st = loadJoyfulState();
+        const key = \`\${unitId}:\${code}\`;
+        const isFirstTime = !st.conqueredArchetypes[key];
+        if (isFirstTime) {
+          st.conqueredArchetypes[key] = true;
+          st.bonusXP = (st.bonusXP || 0) + 15;
+          saveJoyfulState(st);
+        }
+        refreshArchetypeStamps();
+        if (fb) {
+          fb.style.display = 'block';
+          fb.style.background = '#e8f5e9';
+          fb.style.color = '#1b5e20';
+          fb.style.border = '1px solid #a5d6a7';
+          fb.innerHTML = \`🎉 <strong>太強了！成功制霸【\${code}】可能題型！\${isFirstTime ? '（獲得 🏆 題型制霸印章 +15 XP）' : ''}</strong><br>\${exp}\`;
+        }
+      } else {
+        btn.style.borderColor = '#c62828';
+        btn.style.background = '#ffebee';
+        if (fb) {
+          fb.style.display = 'block';
+          fb.style.background = '#fff3e0';
+          fb.style.color = '#e65100';
+          fb.style.border = '1px solid #ffcc80';
+          fb.innerHTML = \`💡 <strong>差一點點！正確答案是 (\${String.fromCharCode(65 + ansIdx)})。</strong>再點一次綠色正確選項即可領取【\${code}】制霸印章！<br>\${exp}\`;
+        }
+      }
+    };
+  });
 
   container.querySelectorAll('.practice-opt-btn').forEach(btn => {
     btn.onclick = () => {

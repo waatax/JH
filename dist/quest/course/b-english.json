@@ -15,6 +15,18 @@
         "example": "She is a student. / She plays tennis every Sunday. 否定：She does not play tennis.",
         "pitfall": "does 後面的主要動詞回原形，不寫 does not plays。",
         "task": "用英文寫三句你的週間習慣，再改寫成另一位同學的習慣。",
+        "unitWonder": {
+          "wonderTitle": "✨ 為什麼「句子骨架與現在式」超有趣？生活超能力 × 秒殺口訣",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「句子骨架與現在式」其實就在你身邊！例如：She is a student. / She plays tennis every Sunday. 否定：She does not play tennis.。當你搞懂「五大句型（S+V, S+V+O, S+V+C, S+V+O+O, S+V+O+C）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
+          "funFact": "你知道嗎？在「句子骨架與現在式」中，高達 80% 的人最容易在「主詞一致 vs. 助動詞後」搞混，或是掉進「does 後面的主要動詞回原形，不寫 does not plays」的直覺陷阱！其實從微觀機制來看：對照判準與實例：S+V, S+V+O, S+V+C, S+V+O+O, S+V+O+C。The sun rises. (S+V)；She is a doctor. (S+V+C)。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "mnemonic": "🎵【句子骨架與現在式 · 快樂秒殺口訣】\n① 抓基準：五大句型看仔細（S+V, S+V+O, S+V+C, S+V+O+O）\n② 分左右：主詞一致對照助動詞後，關鍵就在「現在簡單式」\n③ 避陷阱：小心「does 後面的主要動詞回原形，不寫 does 」別中計\n④ 穩驗算：最後代回「對照 She is a student. → I」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在「句子骨架與現在式」的情境裡，如果有人把「主詞一致」跟「助動詞後」當成一模一樣，會發生什麼事？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「does 後面的主要動詞回原形，不寫 does not plays」！因為【主詞一致】是「現在簡單式第三人稱單數肯定句通常加 s」，而【助動詞後】則是「does 或 doesn't 後的主要動詞用原形」。只要用「現在簡單式」先做區分，就能輕鬆破解！",
+          "superpower": "🌍 跨文化任意門與世界玩家",
+          "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
+          "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
+          "cheer": "知知貓頭鷹：「多會一種語言，就像在腦中多開了一個全新的世界地圖！」"
+        },
         "knowledgePoints": [
           {
             "id": "english-1-kp-1",
@@ -229,7 +241,19 @@
             "capRef": "109 會考第 1 題（概念辨析）",
             "questionPattern": "題幹直接給出「She is a student. / She plays tennis every Sunday. 否定：She does not play tennis.」之標準條件或基本圖式，要求判別「五大句型」的正確性或直接求出單一目標量。",
             "requiredKnowledge": "必備知識點：「五大句型」——S+V, S+V+O, S+V+C, S+V+O+O, S+V+O+C（課本實例檢核：The sun rises. (S+V)；She is a doctor. (S+V+C)）。",
-            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「五大句型」判準 ➔ 第 3 步核對是否觸犯「does 後面的主要動詞回原形，不寫 does not plays」基本防線。"
+            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「五大句型」判準 ➔ 第 3 步核對是否觸犯「does 後面的主要動詞回原形，不寫 does not plays」基本防線。",
+            "archetypeDrill": {
+              "stem": "【Type A 基礎秒殺挑戰】在「句子骨架與現在式」的基礎情境（如：She is a student. / She plays tennis every Sunday. 否定：She does not play tennis.）中，若要正確運用「五大句型」快速破題，下列哪個作法最正確？",
+              "options": [
+                "忽略基準前提，誤以為在任何情況下「does 後面的主要動詞回原形，不寫 does not plays」皆不影響結果",
+                "依據「五大句型」判準：S+V, S+V+O, S+V+C, S+V+O+O, S+V+O+C（課本實例核對：The sun rises. (S+V)；She is a doctor. (S+V+C)）",
+                "將「五大句型」與「助動詞後」混淆，直接套用相反方向的規則",
+                "僅憑直覺猜測單一數值，不檢查單位與「五大句型」的成立條件"
+              ],
+              "answer": 1,
+              "hint": "回想「五大句型」的核心定義：S+V, S+V+O, S+V+C, S+V+O+O, S+V+O+C。",
+              "explanation": "破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「五大句型：S+V, S+V+O, S+V+C, S+V+O+O, S+V+O+C」，並以「The sun rises. (S+V)；She is a doctor. (S+V+C)」核對、避開「does 後面的主要動詞回原形，不寫 does not plays」，就能一秒鎖定正確答案！"
+            }
           },
           {
             "code": "Type B",
@@ -238,7 +262,19 @@
             "capRef": "109 會考第 4 題（概念辨析）",
             "questionPattern": "題幹結合實驗紀錄表、對照圖形或雙情境文本，將「主詞一致」與「助動詞後」並列呈現，考驗學生能否從非連續性資訊中提煉「現在簡單式」的變化規律。",
             "requiredKnowledge": "必備知識點：(1) 主詞一致：現在簡單式第三人稱單數肯定句通常加 s；(2) 助動詞後：does 或 doesn't 後的主要動詞用原形；(3) 轉換規則：描述習慣、一般事實、真理與時刻表。",
-            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「現在簡單式」區隔「主詞一致」與「助動詞後」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。"
+            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「現在簡單式」區隔「主詞一致」與「助動詞後」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。",
+            "archetypeDrill": {
+              "stem": "【Type B 雙情境對照挑戰】當題目同時列出「主詞一致」與「助動詞後」並要求結合「現在簡單式」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？",
+              "options": [
+                "把「主詞一致」與「助動詞後」當成完全相同的條件，直接平均兩者數據",
+                "只看圖表或題幹的最後一個數字，完全忽略「現在簡單式」的轉換關係",
+                "先鎖定控制變因，區分「主詞一致（現在簡單式第三人稱單數肯定句通常加 s）」與「助動詞後（does 或 doesn't 後的主要動詞用原形）」，再依「描述習慣、一般事實、真理與時刻表」推導",
+                "掉入「does 後面的主要動詞回原形，不寫 does not plays」陷阱，把「助動詞後」的特徵張冠李戴到「主詞一致」"
+              ],
+              "answer": 2,
+              "hint": "先分清楚「主詞一致」與「助動詞後」的差異，再套用「現在簡單式」。",
+              "explanation": "破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「主詞一致（現在簡單式第三人稱單數肯定句通常加 s）」與「助動詞後（does 或 doesn't 後的主要動詞用原形）」，再運用「現在簡單式：描述習慣、一般事實、真理與時刻表」，就不會被張冠李戴的選項騙倒！"
+            }
           },
           {
             "code": "Type C",
@@ -247,7 +283,19 @@
             "capRef": "109 會考第 5 題（概念辨析）",
             "questionPattern": "題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「把「Mia walks to school every day.」改為否定句與一般問句，並回答「…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。",
             "requiredKnowledge": "必備知識點：結合「五大句型」、「現在簡單式」與「三單動詞變化（主詞為第三人稱單數（he/she/it），動詞字尾加 -s/-es/-ies）」，並啟動邊界防禦機制「對照 She is a student. → Is she a student?，此處主要動詞是 be，不能寫 Does she is a student?。再把 Mia 換成 Mia and Leo，應改為 walk、do not walk 與 Do，確認主詞數量會影響形式」。",
-            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（主詞 Mia 是第三人稱單數，所以原肯定句使用 walks；every day 提示日常習慣） ➔ 第 2 步聯立「現在簡單式」與「三單動詞變化」推演（否定句為 Mia does not walk to school every day.；問句為 Does Mia walk to school every day?，兩者 walk 都不再加 s） ➔ 第 3 步將所得結論代回原情境執行「對照 She is a student. → Is she a student?，此處主要動詞是 be，不能寫 Does she is a student?。再把 Mia 換成 Mia and Leo，應改為 walk、do not walk 與 Do，確認主詞數量會影響形式」雙向驗算。"
+            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（主詞 Mia 是第三人稱單數，所以原肯定句使用 walks；every day 提示日常習慣） ➔ 第 2 步聯立「現在簡單式」與「三單動詞變化」推演（否定句為 Mia does not walk to school every day.；問句為 Does Mia walk to school every day?，兩者 walk 都不再加 s） ➔ 第 3 步將所得結論代回原情境執行「對照 She is a student. → Is she a student?，此處主要動詞是 be，不能寫 Does she is a student?。再把 Mia 換成 Mia and Leo，應改為 walk、do not walk 與 Do，確認主詞數量會影響形式」雙向驗算。",
+            "archetypeDrill": {
+              "stem": "【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「把「Mia walks to school every day.」改為否定句與一般問句，並回答「她週末搭公車…」，若要達成 A++ 零失誤破關，應該採取哪項策略？",
+              "options": [
+                "直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算",
+                "只套用「五大句型」的單向公式，忽略題幹給定的邊界限制與「does 後面的主要動詞回原形，不寫 does not plays」",
+                "認為逆向題無法用課本概念解決，放棄核對「對照 She is a student. → Is she a student?，此處主要動詞是 be，不能寫 Does she is a student?。再把 Mia 換成 Mia and Leo，應改為 walk、do not walk 與 Do，確認主詞數量會影響形式」的檢驗條件",
+                "結合「三單動詞變化（主詞為第三人稱單數（he/she/it），動詞字尾加 -s/-es/-ies）」分步逆推（主詞 Mia 是第三人稱單數，所以原肯定句使用 walks；every day 提示日常習慣），最後執行「對照 She is a student. → Is she a student?，此處主要動詞是 be，不能寫 Does she is a student?。再把 Mia 換成 Mia and Leo，應改為 walk、do not walk 與 Do，確認主詞數量會影響形式」代回驗算"
+              ],
+              "answer": 3,
+              "hint": "結合「三單動詞變化」分步逆推，並務必執行「對照 She is a student. → Is she a student?，此處主要動詞是 be，不能寫 Does she is a student?。再把 Mia 換成 Mia and Leo，應改為 walk、do not walk 與 Do，確認主詞數量會影響形式」驗算。",
+              "explanation": "破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「三單動詞變化：主詞為第三人稱單數（he/she/it），動詞字尾加 -s/-es/-ies」逐步推演，最後一定要用「對照 She is a student. → Is she a student?，此處主要動詞是 be，不能寫 Does she is a student?。再把 Mia 換成 Mia and Leo，應改為 walk、do not walk 與 Do，確認主詞數量會影響形式」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！"
+            }
           }
         ],
         "knowledgeSufficiencyPatch": {
@@ -390,12 +438,14 @@
           "info.english-1.kp1",
           "q.english-1.kp1.def",
           "cq.english-1-q1",
-          "match.english-1.table"
+          "match.english-1.table",
+          "q.english-1.archetype.TypeA"
         ],
         "english-1:rule": [
           "info.english-1.kp2",
           "q.english-1.kp2.rule",
-          "q.english-1.deepening.contrast"
+          "q.english-1.deepening.contrast",
+          "q.english-1.archetype.TypeB"
         ],
         "english-1:reasoning": [
           "build.english-1.case",
@@ -410,14 +460,17 @@
           "cap.109-english-1",
           "cap.109-english-4",
           "q.english-1.cap.example",
-          "q.english-1.cap.followup"
+          "q.english-1.cap.followup",
+          "q.english-1.archetype.TypeC"
         ],
         "english-1:boss": [
           "q.english-1.kp1.def",
           "cq.english-1-q1",
           "match.english-1.table",
+          "q.english-1.archetype.TypeA",
           "q.english-1.kp2.rule",
           "q.english-1.deepening.contrast",
+          "q.english-1.archetype.TypeB",
           "build.english-1.case",
           "cq.english-1-q2",
           "q.english-1.case.check",
@@ -427,7 +480,8 @@
           "cap.109-english-1",
           "cap.109-english-4",
           "q.english-1.cap.example",
-          "q.english-1.cap.followup"
+          "q.english-1.cap.followup",
+          "q.english-1.archetype.TypeC"
         ]
       }
     },
@@ -444,6 +498,18 @@
         "example": "Look! They are playing basketball. / They usually play after school.",
         "pitfall": "be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子。",
         "task": "描述窗外正在發生的兩個動作，說明主詞如何決定 be。",
+        "unitWonder": {
+          "wonderTitle": "✨ 為什麼「現在進行式與時間表達」超有趣？生活超能力 × 秒殺口訣",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「現在進行式與時間表達」其實就在你身邊！例如：Look! They are playing basketball. / They usually play after school.。當你搞懂「肯定句（主詞+am/is/are+V-ing）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
+          "funFact": "你知道嗎？在「現在進行式與時間表達」中，高達 80% 的人最容易在「現在習慣 vs. 正在進行」搞混，或是掉進「be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子」的直覺陷阱！其實從微觀機制來看：對照判準與實例：主詞+am/is/are+V-ing。They are studying now.；不可漏掉 are。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "mnemonic": "🎵【現在進行式與時間表達 · 快樂秒殺口訣】\n① 抓基準：肯定句看仔細（主詞+am/is/are+V-ing）\n② 分左右：現在習慣對照正在進行，關鍵就在「否定句」\n③ 避陷阱：小心「be 和 V-ing 缺一不可；They pla」別中計\n④ 穩驗算：最後代回「完整句為 Ben usually studies」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在「現在進行式與時間表達」的情境裡，如果有人把「現在習慣」跟「正在進行」當成一模一樣，會發生什麼事？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子」！因為【現在習慣】是「every day 等線索常搭配現在簡單式」，而【正在進行】則是「be+V-ing 強調此時正在發生的動作」。只要用「否定句」先做區分，就能輕鬆破解！",
+          "superpower": "🌍 跨文化任意門與世界玩家",
+          "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
+          "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
+          "cheer": "知知貓頭鷹：「多會一種語言，就像在腦中多開了一個全新的世界地圖！」"
+        },
         "knowledgePoints": [
           {
             "id": "english-2-kp-1",
@@ -658,7 +724,19 @@
             "capRef": "108 課綱基礎指標【Ac-IV-1, 1-IV-1】核心題型",
             "questionPattern": "題幹直接給出「Look! They are playing basketball. / They usually play after school.」之標準條件或基本圖式，要求判別「肯定句」的正確性或直接求出單一目標量。",
             "requiredKnowledge": "必備知識點：「肯定句」——主詞+am/is/are+V-ing（課本實例檢核：They are studying now.；不可漏掉 are）。",
-            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「肯定句」判準 ➔ 第 3 步核對是否觸犯「be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子」基本防線。"
+            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「肯定句」判準 ➔ 第 3 步核對是否觸犯「be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子」基本防線。",
+            "archetypeDrill": {
+              "stem": "【Type A 基礎秒殺挑戰】在「現在進行式與時間表達」的基礎情境（如：Look! They are playing basketball. / They usually play after school.）中，若要正確運用「肯定句」快速破題，下列哪個作法最正確？",
+              "options": [
+                "忽略基準前提，誤以為在任何情況下「be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子」皆不影響結果",
+                "將「肯定句」與「正在進行」混淆，直接套用相反方向的規則",
+                "依據「肯定句」判準：主詞+am/is/are+V-ing（課本實例核對：They are studying now.；不可漏掉 are）",
+                "僅憑直覺猜測單一數值，不檢查單位與「肯定句」的成立條件"
+              ],
+              "answer": 2,
+              "hint": "回想「肯定句」的核心定義：主詞+am/is/are+V-ing。",
+              "explanation": "破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「肯定句：主詞+am/is/are+V-ing」，並以「They are studying now.；不可漏掉 are」核對、避開「be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子」，就能一秒鎖定正確答案！"
+            }
           },
           {
             "code": "Type B",
@@ -667,7 +745,19 @@
             "capRef": "康軒／翰林／南一跨版本整合應用題型",
             "questionPattern": "題幹結合實驗紀錄表、對照圖形或雙情境文本，將「現在習慣」與「正在進行」並列呈現，考驗學生能否從非連續性資訊中提煉「否定句」的變化規律。",
             "requiredKnowledge": "必備知識點：(1) 現在習慣：every day 等線索常搭配現在簡單式；(2) 正在進行：be+V-ing 強調此時正在發生的動作；(3) 轉換規則：在 be 動詞後加 not。",
-            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「否定句」區隔「現在習慣」與「正在進行」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。"
+            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「否定句」區隔「現在習慣」與「正在進行」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。",
+            "archetypeDrill": {
+              "stem": "【Type B 雙情境對照挑戰】當題目同時列出「現在習慣」與「正在進行」並要求結合「否定句」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？",
+              "options": [
+                "把「現在習慣」與「正在進行」當成完全相同的條件，直接平均兩者數據",
+                "只看圖表或題幹的最後一個數字，完全忽略「否定句」的轉換關係",
+                "掉入「be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子」陷阱，把「正在進行」的特徵張冠李戴到「現在習慣」",
+                "先鎖定控制變因，區分「現在習慣（every day 等線索常搭配現在簡單式）」與「正在進行（be+V-ing 強調此時正在發生的動作）」，再依「在 be 動詞後加 not」推導"
+              ],
+              "answer": 3,
+              "hint": "先分清楚「現在習慣」與「正在進行」的差異，再套用「否定句」。",
+              "explanation": "破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「現在習慣（every day 等線索常搭配現在簡單式）」與「正在進行（be+V-ing 強調此時正在發生的動作）」，再運用「否定句：在 be 動詞後加 not」，就不會被張冠李戴的選項騙倒！"
+            }
           },
           {
             "code": "Type C",
@@ -676,7 +766,19 @@
             "capRef": "會考前 5% A++ 頂標跨概念壓軸題型",
             "questionPattern": "題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「看情境填句：「Ben usually ___ at home, but today he ___…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。",
             "requiredKnowledge": "必備知識點：結合「肯定句」、「否定句」與「疑問句（把 be 動詞移到主詞前）」，並啟動邊界防禦機制「完整句為 Ben usually studies at home, but today he is studying at the library.。不能只看到 today 就保證用進行式，仍需看句意是否在描述正在進行的動作；時間詞是線索，不是唯一規則」。",
-            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（usually 描述習慣，主詞 Ben 是單數，第一格用 studies；字尾子音加 y 的 study 改成 studies） ➔ 第 2 步聯立「否定句」與「疑問句」推演（today 此處搭配當下正在圖書館讀書的情境，第二格用 is studying；study 加 ing 不把 y 改成 i） ➔ 第 3 步將所得結論代回原情境執行「完整句為 Ben usually studies at home, but today he is studying at the library.。不能只看到 today 就保證用進行式，仍需看句意是否在描述正在進行的動作；時間詞是線索，不是唯一規則」雙向驗算。"
+            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（usually 描述習慣，主詞 Ben 是單數，第一格用 studies；字尾子音加 y 的 study 改成 studies） ➔ 第 2 步聯立「否定句」與「疑問句」推演（today 此處搭配當下正在圖書館讀書的情境，第二格用 is studying；study 加 ing 不把 y 改成 i） ➔ 第 3 步將所得結論代回原情境執行「完整句為 Ben usually studies at home, but today he is studying at the library.。不能只看到 today 就保證用進行式，仍需看句意是否在描述正在進行的動作；時間詞是線索，不是唯一規則」雙向驗算。",
+            "archetypeDrill": {
+              "stem": "【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「看情境填句：「Ben usually ___ at home, but today he ___ at th…」，若要達成 A++ 零失誤破關，應該採取哪項策略？",
+              "options": [
+                "結合「疑問句（把 be 動詞移到主詞前）」分步逆推（usually 描述習慣，主詞 Ben 是單數，第一格用 studies；字尾子音加 y 的 study 改成 studies），最後執行「完整句為 Ben usually studies at home, but today he is studying at the library.。不能只看到 today 就保證用進行式，仍需看句意是否在描述正在進行的動作；時間詞是線索，不是唯一規則」代回驗算",
+                "直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算",
+                "只套用「肯定句」的單向公式，忽略題幹給定的邊界限制與「be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子」",
+                "認為逆向題無法用課本概念解決，放棄核對「完整句為 Ben usually studies at home, but today he is studying at the library.。不能只看到 today 就保證用進行式，仍需看句意是否在描述正在進行的動作；時間詞是線索，不是唯一規則」的檢驗條件"
+              ],
+              "answer": 0,
+              "hint": "結合「疑問句」分步逆推，並務必執行「完整句為 Ben usually studies at home, but today he is studying at the library.。不能只看到 today 就保證用進行式，仍需看句意是否在描述正在進行的動作；時間詞是線索，不是唯一規則」驗算。",
+              "explanation": "破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「疑問句：把 be 動詞移到主詞前」逐步推演，最後一定要用「完整句為 Ben usually studies at home, but today he is studying at the library.。不能只看到 today 就保證用進行式，仍需看句意是否在描述正在進行的動作；時間詞是線索，不是唯一規則」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！"
+            }
           }
         ],
         "knowledgeSufficiencyPatch": {
@@ -819,12 +921,14 @@
           "info.english-2.kp1",
           "q.english-2.kp1.def",
           "cq.english-2-q1",
-          "match.english-2.table"
+          "match.english-2.table",
+          "q.english-2.archetype.TypeA"
         ],
         "english-2:rule": [
           "info.english-2.kp2",
           "q.english-2.kp2.rule",
-          "q.english-2.deepening.contrast"
+          "q.english-2.deepening.contrast",
+          "q.english-2.archetype.TypeB"
         ],
         "english-2:reasoning": [
           "build.english-2.case",
@@ -837,14 +941,17 @@
           "info.english-2.kp3",
           "q.english-2.pitfall",
           "q.english-2.cap.example",
-          "q.english-2.cap.followup"
+          "q.english-2.cap.followup",
+          "q.english-2.archetype.TypeC"
         ],
         "english-2:boss": [
           "q.english-2.kp1.def",
           "cq.english-2-q1",
           "match.english-2.table",
+          "q.english-2.archetype.TypeA",
           "q.english-2.kp2.rule",
           "q.english-2.deepening.contrast",
+          "q.english-2.archetype.TypeB",
           "build.english-2.case",
           "cq.english-2-q2",
           "q.english-2.case.check",
@@ -852,7 +959,8 @@
           "enrich.english-2.1",
           "q.english-2.pitfall",
           "q.english-2.cap.example",
-          "q.english-2.cap.followup"
+          "q.english-2.cap.followup",
+          "q.english-2.archetype.TypeC"
         ]
       }
     },
@@ -869,6 +977,18 @@
         "example": "I visited Tainan yesterday. / Did you visit Tainan? / We are going to visit tomorrow.",
         "pitfall": "Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記。",
         "task": "用 first、then、finally 連接你上週末的三件事。",
+        "unitWonder": {
+          "wonderTitle": "✨ 為什麼「過去式、未來與敘事順序」超有趣？生活超能力 × 秒殺口訣",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「過去式、未來與敘事順序」其實就在你身邊！例如：I visited Tainan yesterday. / Did you visit Tainan? / We are going to visit tomorrow.。當你搞懂「規則過去式（動詞字尾加 -ed（played, stopped, studied））」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
+          "funFact": "你知道嗎？在「過去式、未來與敘事順序」中，高達 80% 的人最容易在「過去敘事 vs. 未來安排」搞混，或是掉進「Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記」的直覺陷阱！其實從微觀機制來看：對照判準與實例：動詞字尾加 -ed（played, stopped, studied）。Yesterday I visited my grandparents.；注意子音加 y 變 ied。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "mnemonic": "🎵【過去式、未來與敘事順序 · 快樂秒殺口訣】\n① 抓基準：規則過去式看仔細（動詞字尾加 -ed（played, stopped,）\n② 分左右：過去敘事對照未來安排，關鍵就在「不規則過去式」\n③ 避陷阱：小心「Did she went? 錯誤，應為 Did 」別中計\n④ 穩驗算：最後代回「可改述 First, Nora finished」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在「過去式、未來與敘事順序」的情境裡，如果有人把「過去敘事」跟「未來安排」當成一模一樣，會發生什麼事？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記」！因為【過去敘事】是「過去時間常用過去式表達已發生事件」，而【未來安排】則是「will、be going to 等須結合語境理解計畫或預測」。只要用「不規則過去式」先做區分，就能輕鬆破解！",
+          "superpower": "🌍 跨文化任意門與世界玩家",
+          "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
+          "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
+          "cheer": "知知貓頭鷹：「多會一種語言，就像在腦中多開了一個全新的世界地圖！」"
+        },
         "knowledgePoints": [
           {
             "id": "english-3-kp-1",
@@ -1083,7 +1203,19 @@
             "capRef": "108 課綱基礎指標【Ac-IV-1, 1-IV-1】核心題型",
             "questionPattern": "題幹直接給出「I visited Tainan yesterday. / Did you visit Tainan? / We are going to visit tomorrow.」之標準條件或基本圖式，要求判別「規則過去式」的正確性或直接求出單一目標量。",
             "requiredKnowledge": "必備知識點：「規則過去式」——動詞字尾加 -ed（played, stopped, studied）（課本實例檢核：Yesterday I visited my grandparents.；注意子音加 y 變 ied）。",
-            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「規則過去式」判準 ➔ 第 3 步核對是否觸犯「Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記」基本防線。"
+            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「規則過去式」判準 ➔ 第 3 步核對是否觸犯「Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記」基本防線。",
+            "archetypeDrill": {
+              "stem": "【Type A 基礎秒殺挑戰】在「過去式、未來與敘事順序」的基礎情境（如：I visited Tainan yesterday. / Did you visit Tainan? / We are going to visit tomorrow.）中，若要正確運用「規則過去式」快速破題，下列哪個作法最正確？",
+              "options": [
+                "忽略基準前提，誤以為在任何情況下「Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記」皆不影響結果",
+                "將「規則過去式」與「未來安排」混淆，直接套用相反方向的規則",
+                "僅憑直覺猜測單一數值，不檢查單位與「規則過去式」的成立條件",
+                "依據「規則過去式」判準：動詞字尾加 -ed（played, stopped, studied）（課本實例核對：Yesterday I visited my grandparents.；注意子音加 y 變 ied）"
+              ],
+              "answer": 3,
+              "hint": "回想「規則過去式」的核心定義：動詞字尾加 -ed（played, stopped, studied）。",
+              "explanation": "破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「規則過去式：動詞字尾加 -ed（played, stopped, studied）」，並以「Yesterday I visited my grandparents.；注意子音加 y 變 ied」核對、避開「Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記」，就能一秒鎖定正確答案！"
+            }
           },
           {
             "code": "Type B",
@@ -1092,7 +1224,19 @@
             "capRef": "康軒／翰林／南一跨版本整合應用題型",
             "questionPattern": "題幹結合實驗紀錄表、對照圖形或雙情境文本，將「過去敘事」與「未來安排」並列呈現，考驗學生能否從非連續性資訊中提煉「不規則過去式」的變化規律。",
             "requiredKnowledge": "必備知識點：(1) 過去敘事：過去時間常用過去式表達已發生事件；(2) 未來安排：will、be going to 等須結合語境理解計畫或預測；(3) 轉換規則：動詞不規則變化（went, ate, bought, saw）。",
-            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「不規則過去式」區隔「過去敘事」與「未來安排」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。"
+            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「不規則過去式」區隔「過去敘事」與「未來安排」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。",
+            "archetypeDrill": {
+              "stem": "【Type B 雙情境對照挑戰】當題目同時列出「過去敘事」與「未來安排」並要求結合「不規則過去式」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？",
+              "options": [
+                "先鎖定控制變因，區分「過去敘事（過去時間常用過去式表達已發生事件）」與「未來安排（will、be going to 等須結合語境理解計畫或預測）」，再依「動詞不規則變化（went, ate, bought, saw）」推導",
+                "把「過去敘事」與「未來安排」當成完全相同的條件，直接平均兩者數據",
+                "只看圖表或題幹的最後一個數字，完全忽略「不規則過去式」的轉換關係",
+                "掉入「Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記」陷阱，把「未來安排」的特徵張冠李戴到「過去敘事」"
+              ],
+              "answer": 0,
+              "hint": "先分清楚「過去敘事」與「未來安排」的差異，再套用「不規則過去式」。",
+              "explanation": "破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「過去敘事（過去時間常用過去式表達已發生事件）」與「未來安排（will、be going to 等須結合語境理解計畫或預測）」，再運用「不規則過去式：動詞不規則變化（went, ate, bought, saw）」，就不會被張冠李戴的選項騙倒！"
+            }
           },
           {
             "code": "Type C",
@@ -1101,7 +1245,19 @@
             "capRef": "會考前 5% A++ 頂標跨概念壓軸題型",
             "questionPattern": "題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「讀句：「After Nora finished her homework, she called…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。",
             "requiredKnowledge": "必備知識點：結合「規則過去式」、「不規則過去式」與「過去時間標記（yesterday, last night, two days ago, in 2020）」，並啟動邊界防禦機制「可改述 First, Nora finished her homework. Then she called Sam.。若寫 She didn’t called Sam，便重複標記過去；應為 She didn’t call Sam。判斷時間時，把句型與事件順序一起核對」。",
-            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（after 引導的子句表示較早完成的事，因此先完成作業，再打給 Sam） ➔ 第 2 步聯立「不規則過去式」與「過去時間標記」推演（問句為 Did Nora call Sam yesterday?，有 did 所以用 call，不寫 called） ➔ 第 3 步將所得結論代回原情境執行「可改述 First, Nora finished her homework. Then she called Sam.。若寫 She didn’t called Sam，便重複標記過去；應為 She didn’t call Sam。判斷時間時，把句型與事件順序一起核對」雙向驗算。"
+            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（after 引導的子句表示較早完成的事，因此先完成作業，再打給 Sam） ➔ 第 2 步聯立「不規則過去式」與「過去時間標記」推演（問句為 Did Nora call Sam yesterday?，有 did 所以用 call，不寫 called） ➔ 第 3 步將所得結論代回原情境執行「可改述 First, Nora finished her homework. Then she called Sam.。若寫 She didn’t called Sam，便重複標記過去；應為 She didn’t call Sam。判斷時間時，把句型與事件順序一起核對」雙向驗算。",
+            "archetypeDrill": {
+              "stem": "【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「讀句：「After Nora finished her homework, she called Sam.…」，若要達成 A++ 零失誤破關，應該採取哪項策略？",
+              "options": [
+                "直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算",
+                "結合「過去時間標記（yesterday, last night, two days ago, in 2020）」分步逆推（after 引導的子句表示較早完成的事，因此先完成作業，再打給 Sam），最後執行「可改述 First, Nora finished her homework. Then she called Sam.。若寫 She didn’t called Sam，便重複標記過去；應為 She didn’t call Sam。判斷時間時，把句型與事件順序一起核對」代回驗算",
+                "只套用「規則過去式」的單向公式，忽略題幹給定的邊界限制與「Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記」",
+                "認為逆向題無法用課本概念解決，放棄核對「可改述 First, Nora finished her homework. Then she called Sam.。若寫 She didn’t called Sam，便重複標記過去；應為 She didn’t call Sam。判斷時間時，把句型與事件順序一起核對」的檢驗條件"
+              ],
+              "answer": 1,
+              "hint": "結合「過去時間標記」分步逆推，並務必執行「可改述 First, Nora finished her homework. Then she called Sam.。若寫 She didn’t called Sam，便重複標記過去；應為 She didn’t call Sam。判斷時間時，把句型與事件順序一起核對」驗算。",
+              "explanation": "破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「過去時間標記：yesterday, last night, two days ago, in 2020」逐步推演，最後一定要用「可改述 First, Nora finished her homework. Then she called Sam.。若寫 She didn’t called Sam，便重複標記過去；應為 She didn’t call Sam。判斷時間時，把句型與事件順序一起核對」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！"
+            }
           }
         ],
         "knowledgeSufficiencyPatch": {
@@ -1244,12 +1400,14 @@
           "info.english-3.kp1",
           "q.english-3.kp1.def",
           "cq.english-3-q1",
-          "match.english-3.table"
+          "match.english-3.table",
+          "q.english-3.archetype.TypeA"
         ],
         "english-3:rule": [
           "info.english-3.kp2",
           "q.english-3.kp2.rule",
-          "q.english-3.deepening.contrast"
+          "q.english-3.deepening.contrast",
+          "q.english-3.archetype.TypeB"
         ],
         "english-3:reasoning": [
           "build.english-3.case",
@@ -1262,14 +1420,17 @@
           "info.english-3.kp3",
           "q.english-3.pitfall",
           "q.english-3.cap.example",
-          "q.english-3.cap.followup"
+          "q.english-3.cap.followup",
+          "q.english-3.archetype.TypeC"
         ],
         "english-3:boss": [
           "q.english-3.kp1.def",
           "cq.english-3-q1",
           "match.english-3.table",
+          "q.english-3.archetype.TypeA",
           "q.english-3.kp2.rule",
           "q.english-3.deepening.contrast",
+          "q.english-3.archetype.TypeB",
           "build.english-3.case",
           "cq.english-3-q2",
           "q.english-3.case.check",
@@ -1277,7 +1438,8 @@
           "enrich.english-3.1",
           "q.english-3.pitfall",
           "q.english-3.cap.example",
-          "q.english-3.cap.followup"
+          "q.english-3.cap.followup",
+          "q.english-3.archetype.TypeC"
         ]
       }
     },
@@ -1294,6 +1456,18 @@
         "example": "This bag is lighter than that one. / I enjoy reading, and I want to read more.",
         "pitfall": "不是每個動詞後都加 to；也不要寫 more taller。",
         "task": "比較兩條上學路線的距離、安全與時間，寫兩句比較句。",
+        "unitWonder": {
+          "wonderTitle": "✨ 為什麼「比較級、不定詞與動名詞」超有趣？生活超能力 × 秒殺口訣",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「比較級、不定詞與動名詞」其實就在你身邊！例如：This bag is lighter than that one. / I enjoy reading, and I want to read more.。當你搞懂「單音節規則變化（單音節字尾加 -er / -est（tall → taller → tallest；nice → nicer → nicest））」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
+          "funFact": "你知道嗎？在「比較級、不定詞與動名詞」中，高達 80% 的人最容易在「to 不定詞 vs. 動名詞」搞混，或是掉進「不是每個動詞後都加 to；也不要寫 more taller」的直覺陷阱！其實從微觀機制來看：對照判準與實例：單音節字尾加 -er / -est（tall → taller → tallest；nice → nicer → nicest）。子音+短母音+子音重複字尾：big → bigger → biggest；字尾 y 變 i+er：happy → happier。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "mnemonic": "🎵【比較級、不定詞與動名詞 · 快樂秒殺口訣】\n① 抓基準：單音節規則變化看仔細（單音節字尾加 -er / -est（tall → t）\n② 分左右：to 不定詞對照動名詞，關鍵就在「多音節與 -ly 副詞」\n③ 避陷阱：小心「不是每個動詞後都加 to；也不要寫 more t」別中計\n④ 穩驗算：最後代回「不能寫 enjoys to read 或 mor」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在「比較級、不定詞與動名詞」的情境裡，如果有人把「to 不定詞」跟「動名詞」當成一模一樣，會發生什麼事？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「不是每個動詞後都加 to；也不要寫 more taller」！因為【to 不定詞】是「有些動詞後接 to+原形，如 want to learn」，而【動名詞】則是「有些動詞後接 V-ing，如 enjoy reading」。只要用「多音節與 -ly 副詞」先做區分，就能輕鬆破解！",
+          "superpower": "🌍 跨文化任意門與世界玩家",
+          "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
+          "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
+          "cheer": "知知貓頭鷹：「多會一種語言，就像在腦中多開了一個全新的世界地圖！」"
+        },
         "knowledgePoints": [
           {
             "id": "english-4-kp-1",
@@ -1508,7 +1682,19 @@
             "capRef": "108 課綱基礎指標【Ac-IV-4, 1-IV-4】核心題型",
             "questionPattern": "題幹直接給出「This bag is lighter than that one. / I enjoy reading, and I want to read more.」之標準條件或基本圖式，要求判別「單音節規則變化」的正確性或直接求出單一目標量。",
             "requiredKnowledge": "必備知識點：「單音節規則變化」——單音節字尾加 -er / -est（tall → taller → tallest；nice → nicer → nicest）（課本實例檢核：子音+短母音+子音重複字尾：big → bigger → biggest；字尾 y 變 i+er：happy → happier）。",
-            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「單音節規則變化」判準 ➔ 第 3 步核對是否觸犯「不是每個動詞後都加 to；也不要寫 more taller」基本防線。"
+            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「單音節規則變化」判準 ➔ 第 3 步核對是否觸犯「不是每個動詞後都加 to；也不要寫 more taller」基本防線。",
+            "archetypeDrill": {
+              "stem": "【Type A 基礎秒殺挑戰】在「比較級、不定詞與動名詞」的基礎情境（如：This bag is lighter than that one. / I enjoy reading, and I want to read more.）中，若要正確運用「單音節規則變化」快速破題，下列哪個作法最正確？",
+              "options": [
+                "依據「單音節規則變化」判準：單音節字尾加 -er / -est（tall → taller → tallest；nice → nicer → nicest）（課本實例核對：子音+短母音+子音重複字尾：big → bigger → biggest；字尾 y 變 i+er：happy → happier）",
+                "忽略基準前提，誤以為在任何情況下「不是每個動詞後都加 to；也不要寫 more taller」皆不影響結果",
+                "將「單音節規則變化」與「動名詞」混淆，直接套用相反方向的規則",
+                "僅憑直覺猜測單一數值，不檢查單位與「單音節規則變化」的成立條件"
+              ],
+              "answer": 0,
+              "hint": "回想「單音節規則變化」的核心定義：單音節字尾加 -er / -est（tall → taller → tallest；nice → nicer → nicest）。",
+              "explanation": "破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「單音節規則變化：單音節字尾加 -er / -est（tall → taller → tallest；nice → nicer → nicest）」，並以「子音+短母音+子音重複字尾：big → bigger → biggest；字尾 y 變 i+er：happy → happier」核對、避開「不是每個動詞後都加 to；也不要寫 more taller」，就能一秒鎖定正確答案！"
+            }
           },
           {
             "code": "Type B",
@@ -1517,7 +1703,19 @@
             "capRef": "康軒／翰林／南一跨版本整合應用題型",
             "questionPattern": "題幹結合實驗紀錄表、對照圖形或雙情境文本，將「to 不定詞」與「動名詞」並列呈現，考驗學生能否從非連續性資訊中提煉「多音節與 -ly 副詞」的變化規律。",
             "requiredKnowledge": "必備知識點：(1) to 不定詞：有些動詞後接 to+原形，如 want to learn；(2) 動名詞：有些動詞後接 V-ing，如 enjoy reading；(3) 轉換規則：三音節以上形容詞及以 -ly 結尾之副詞前加 more / most。",
-            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「多音節與 -ly 副詞」區隔「to 不定詞」與「動名詞」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。"
+            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「多音節與 -ly 副詞」區隔「to 不定詞」與「動名詞」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。",
+            "archetypeDrill": {
+              "stem": "【Type B 雙情境對照挑戰】當題目同時列出「to 不定詞」與「動名詞」並要求結合「多音節與 -ly 副詞」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？",
+              "options": [
+                "把「to 不定詞」與「動名詞」當成完全相同的條件，直接平均兩者數據",
+                "先鎖定控制變因，區分「to 不定詞（有些動詞後接 to+原形，如 want to learn）」與「動名詞（有些動詞後接 V-ing，如 enjoy reading）」，再依「三音節以上形容詞及以 -ly 結尾之副詞前加 more / most」推導",
+                "只看圖表或題幹的最後一個數字，完全忽略「多音節與 -ly 副詞」的轉換關係",
+                "掉入「不是每個動詞後都加 to；也不要寫 more taller」陷阱，把「動名詞」的特徵張冠李戴到「to 不定詞」"
+              ],
+              "answer": 1,
+              "hint": "先分清楚「to 不定詞」與「動名詞」的差異，再套用「多音節與 -ly 副詞」。",
+              "explanation": "破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「to 不定詞（有些動詞後接 to+原形，如 want to learn）」與「動名詞（有些動詞後接 V-ing，如 enjoy reading）」，再運用「多音節與 -ly 副詞：三音節以上形容詞及以 -ly 結尾之副詞前加 more / most」，就不會被張冠李戴的選項騙倒！"
+            }
           },
           {
             "code": "Type C",
@@ -1526,7 +1724,19 @@
             "capRef": "會考前 5% A++ 頂標跨概念壓軸題型",
             "questionPattern": "題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「完成句子：「Amy enjoys ___ (read). She wants ___ (buy)…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。",
             "requiredKnowledge": "必備知識點：結合「單音節規則變化」、「多音節與 -ly 副詞」與「不規則變化（good/well → better → best；bad/badly → worse → worst；many/much → more → most）」，並啟動邊界防禦機制「不能寫 enjoys to read 或 more easier；easier 已帶比較級意義。延伸比較 This book is more useful than that one.，較長形容詞常用 more；仍要查常見不規則形式，如 good → better」。",
-            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（enjoy 後接動名詞，第一格填 reading） ➔ 第 2 步聯立「多音節與 -ly 副詞」與「不規則變化」推演（want 後接不定詞，第二格填 to buy；than 提示兩者比較，easy 改為 easier） ➔ 第 3 步將所得結論代回原情境執行「不能寫 enjoys to read 或 more easier；easier 已帶比較級意義。延伸比較 This book is more useful than that one.，較長形容詞常用 more；仍要查常見不規則形式，如 good → better」雙向驗算。"
+            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（enjoy 後接動名詞，第一格填 reading） ➔ 第 2 步聯立「多音節與 -ly 副詞」與「不規則變化」推演（want 後接不定詞，第二格填 to buy；than 提示兩者比較，easy 改為 easier） ➔ 第 3 步將所得結論代回原情境執行「不能寫 enjoys to read 或 more easier；easier 已帶比較級意義。延伸比較 This book is more useful than that one.，較長形容詞常用 more；仍要查常見不規則形式，如 good → better」雙向驗算。",
+            "archetypeDrill": {
+              "stem": "【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「完成句子：「Amy enjoys ___ (read). She wants ___ (buy) a boo…」，若要達成 A++ 零失誤破關，應該採取哪項策略？",
+              "options": [
+                "直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算",
+                "只套用「單音節規則變化」的單向公式，忽略題幹給定的邊界限制與「不是每個動詞後都加 to；也不要寫 more taller」",
+                "結合「不規則變化（good/well → better → best；bad/badly → worse → worst；many/much → more → most）」分步逆推（enjoy 後接動名詞，第一格填 reading），最後執行「不能寫 enjoys to read 或 more easier；easier 已帶比較級意義。延伸比較 This book is more useful than that one.，較長形容詞常用 more；仍要查常見不規則形式，如 good → better」代回驗算",
+                "認為逆向題無法用課本概念解決，放棄核對「不能寫 enjoys to read 或 more easier；easier 已帶比較級意義。延伸比較 This book is more useful than that one.，較長形容詞常用 more；仍要查常見不規則形式，如 good → better」的檢驗條件"
+              ],
+              "answer": 2,
+              "hint": "結合「不規則變化」分步逆推，並務必執行「不能寫 enjoys to read 或 more easier；easier 已帶比較級意義。延伸比較 This book is more useful than that one.，較長形容詞常用 more；仍要查常見不規則形式，如 good → better」驗算。",
+              "explanation": "破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「不規則變化：good/well → better → best；bad/badly → worse → worst；many/much → more → most」逐步推演，最後一定要用「不能寫 enjoys to read 或 more easier；easier 已帶比較級意義。延伸比較 This book is more useful than that one.，較長形容詞常用 more；仍要查常見不規則形式，如 good → better」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！"
+            }
           }
         ],
         "knowledgeSufficiencyPatch": {
@@ -1669,12 +1879,14 @@
           "info.english-4.kp1",
           "q.english-4.kp1.def",
           "cq.english-4-q1",
-          "match.english-4.table"
+          "match.english-4.table",
+          "q.english-4.archetype.TypeA"
         ],
         "english-4:rule": [
           "info.english-4.kp2",
           "q.english-4.kp2.rule",
-          "q.english-4.deepening.contrast"
+          "q.english-4.deepening.contrast",
+          "q.english-4.archetype.TypeB"
         ],
         "english-4:reasoning": [
           "build.english-4.case",
@@ -1687,14 +1899,17 @@
           "info.english-4.kp3",
           "q.english-4.pitfall",
           "q.english-4.cap.example",
-          "q.english-4.cap.followup"
+          "q.english-4.cap.followup",
+          "q.english-4.archetype.TypeC"
         ],
         "english-4:boss": [
           "q.english-4.kp1.def",
           "cq.english-4-q1",
           "match.english-4.table",
+          "q.english-4.archetype.TypeA",
           "q.english-4.kp2.rule",
           "q.english-4.deepening.contrast",
+          "q.english-4.archetype.TypeB",
           "build.english-4.case",
           "cq.english-4-q2",
           "q.english-4.case.check",
@@ -1702,7 +1917,8 @@
           "enrich.english-4.1",
           "q.english-4.pitfall",
           "q.english-4.cap.example",
-          "q.english-4.cap.followup"
+          "q.english-4.cap.followup",
+          "q.english-4.archetype.TypeC"
         ]
       }
     },
@@ -1719,6 +1935,18 @@
         "example": "I have lived here for three years. / The bridge was built in 2000. / The boy who wears glasses is Ben.",
         "pitfall": "現在完成式通常不和明確結束的過去時間 yesterday 搭配。",
         "task": "把「有人昨天打掃教室」改寫成以教室為主詞的英文句子。",
+        "unitWonder": {
+          "wonderTitle": "✨ 為什麼「完成式、被動與關係子句」超有趣？生活超能力 × 秒殺口訣",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「完成式、被動與關係子句」其實就在你身邊！例如：I have lived here for three years. / The bridge was built in 2000. / The boy who wears glasses is Ben.。當你搞懂「現在完成式（have/has+過去分詞，連結過去與現在）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
+          "funFact": "你知道嗎？在「完成式、被動與關係子句」中，高達 80% 的人最容易在「主動 vs. 被動」搞混，或是掉進「現在完成式通常不和明確結束的過去時間 yesterday 搭配」的直覺陷阱！其實從微觀機制來看：對照判準與實例：have/has+過去分詞，連結過去與現在。I have finished my homework.；需依語境理解現在的關聯。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "mnemonic": "🎵【完成式、被動與關係子句 · 快樂秒殺口訣】\n① 抓基準：現在完成式看仔細（have/has+過去分詞，連結過去與現在）\n② 分左右：主動對照被動，關鍵就在「被動語態」\n③ 避陷阱：小心「現在完成式通常不和明確結束的過去時間 yeste」別中計\n④ 穩驗算：最後代回「不能把 last year 直接接在表示此完成用」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在「完成式、被動與關係子句」的情境裡，如果有人把「主動」跟「被動」當成一模一樣，會發生什麼事？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「現在完成式通常不和明確結束的過去時間 yesterday 搭配」！因為【主動】是「主詞是動作執行者」，而【被動】則是「主詞是動作承受者，用 be+過去分詞」。只要用「被動語態」先做區分，就能輕鬆破解！",
+          "superpower": "🌍 跨文化任意門與世界玩家",
+          "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
+          "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
+          "cheer": "知知貓頭鷹：「多會一種語言，就像在腦中多開了一個全新的世界地圖！」"
+        },
         "knowledgePoints": [
           {
             "id": "english-5-kp-1",
@@ -1933,7 +2161,19 @@
             "capRef": "108 課綱基礎指標【Ac-IV-1, 1-IV-1】核心題型",
             "questionPattern": "題幹直接給出「I have lived here for three years. / The bridge was built in 2000. / The boy who wears glasses is Ben.」之標準條件或基本圖式，要求判別「現在完成式」的正確性或直接求出單一目標量。",
             "requiredKnowledge": "必備知識點：「現在完成式」——have/has+過去分詞，連結過去與現在（課本實例檢核：I have finished my homework.；需依語境理解現在的關聯）。",
-            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「現在完成式」判準 ➔ 第 3 步核對是否觸犯「現在完成式通常不和明確結束的過去時間 yesterday 搭配」基本防線。"
+            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「現在完成式」判準 ➔ 第 3 步核對是否觸犯「現在完成式通常不和明確結束的過去時間 yesterday 搭配」基本防線。",
+            "archetypeDrill": {
+              "stem": "【Type A 基礎秒殺挑戰】在「完成式、被動與關係子句」的基礎情境（如：I have lived here for three years. / The bridge was built in 2000. / The boy who wears glasses is Ben.）中，若要正確運用「現在完成式」快速破題，下列哪個作法最正確？",
+              "options": [
+                "忽略基準前提，誤以為在任何情況下「現在完成式通常不和明確結束的過去時間 yesterday 搭配」皆不影響結果",
+                "依據「現在完成式」判準：have/has+過去分詞，連結過去與現在（課本實例核對：I have finished my homework.；需依語境理解現在的關聯）",
+                "將「現在完成式」與「被動」混淆，直接套用相反方向的規則",
+                "僅憑直覺猜測單一數值，不檢查單位與「現在完成式」的成立條件"
+              ],
+              "answer": 1,
+              "hint": "回想「現在完成式」的核心定義：have/has+過去分詞，連結過去與現在。",
+              "explanation": "破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「現在完成式：have/has+過去分詞，連結過去與現在」，並以「I have finished my homework.；需依語境理解現在的關聯」核對、避開「現在完成式通常不和明確結束的過去時間 yesterday 搭配」，就能一秒鎖定正確答案！"
+            }
           },
           {
             "code": "Type B",
@@ -1942,7 +2182,19 @@
             "capRef": "康軒／翰林／南一跨版本整合應用題型",
             "questionPattern": "題幹結合實驗紀錄表、對照圖形或雙情境文本，將「主動」與「被動」並列呈現，考驗學生能否從非連續性資訊中提煉「被動語態」的變化規律。",
             "requiredKnowledge": "必備知識點：(1) 主動：主詞是動作執行者；(2) 被動：主詞是動作承受者，用 be+過去分詞；(3) 轉換規則：be+過去分詞，把承受動作的人事物放在主詞位置。",
-            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「被動語態」區隔「主動」與「被動」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。"
+            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「被動語態」區隔「主動」與「被動」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。",
+            "archetypeDrill": {
+              "stem": "【Type B 雙情境對照挑戰】當題目同時列出「主動」與「被動」並要求結合「被動語態」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？",
+              "options": [
+                "把「主動」與「被動」當成完全相同的條件，直接平均兩者數據",
+                "只看圖表或題幹的最後一個數字，完全忽略「被動語態」的轉換關係",
+                "先鎖定控制變因，區分「主動（主詞是動作執行者）」與「被動（主詞是動作承受者，用 be+過去分詞）」，再依「be+過去分詞，把承受動作的人事物放在主詞位置」推導",
+                "掉入「現在完成式通常不和明確結束的過去時間 yesterday 搭配」陷阱，把「被動」的特徵張冠李戴到「主動」"
+              ],
+              "answer": 2,
+              "hint": "先分清楚「主動」與「被動」的差異，再套用「被動語態」。",
+              "explanation": "破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「主動（主詞是動作執行者）」與「被動（主詞是動作承受者，用 be+過去分詞）」，再運用「被動語態：be+過去分詞，把承受動作的人事物放在主詞位置」，就不會被張冠李戴的選項騙倒！"
+            }
           },
           {
             "code": "Type C",
@@ -1951,7 +2203,19 @@
             "capRef": "會考前 5% A++ 頂標跨概念壓軸題型",
             "questionPattern": "題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「合併「The bridge was repaired last year.」「The bridg…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。",
             "requiredKnowledge": "必備知識點：結合「現在完成式」、「被動語態」與「關係子句（用子句補充或限定名詞）」，並啟動邊界防禦機制「不能把 last year 直接接在表示此完成用法的 have repaired 後；若要指出明確過去年份，改用 repaired。關係代名詞在 connects 前作主詞，不可任意省掉」。",
-            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（兩句共同名詞是 the bridge，可合併 The bridge which/that connects the two towns was repaired last year.） ➔ 第 2 步聯立「被動語態」與「關係子句」推演（was repaired 是過去被動，重點在橋接受修理；last year 是已結束時間） ➔ 第 3 步將所得結論代回原情境執行「不能把 last year 直接接在表示此完成用法的 have repaired 後；若要指出明確過去年份，改用 repaired。關係代名詞在 connects 前作主詞，不可任意省掉」雙向驗算。"
+            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（兩句共同名詞是 the bridge，可合併 The bridge which/that connects the two towns was repaired last year.） ➔ 第 2 步聯立「被動語態」與「關係子句」推演（was repaired 是過去被動，重點在橋接受修理；last year 是已結束時間） ➔ 第 3 步將所得結論代回原情境執行「不能把 last year 直接接在表示此完成用法的 have repaired 後；若要指出明確過去年份，改用 repaired。關係代名詞在 connects 前作主詞，不可任意省掉」雙向驗算。",
+            "archetypeDrill": {
+              "stem": "【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「合併「The bridge was repaired last year.」「The bridge conn…」，若要達成 A++ 零失誤破關，應該採取哪項策略？",
+              "options": [
+                "直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算",
+                "只套用「現在完成式」的單向公式，忽略題幹給定的邊界限制與「現在完成式通常不和明確結束的過去時間 yesterday 搭配」",
+                "認為逆向題無法用課本概念解決，放棄核對「不能把 last year 直接接在表示此完成用法的 have repaired 後；若要指出明確過去年份，改用 repaired。關係代名詞在 connects 前作主詞，不可任意省掉」的檢驗條件",
+                "結合「關係子句（用子句補充或限定名詞）」分步逆推（兩句共同名詞是 the bridge，可合併 The bridge which/that connects the two towns was repaired last year.），最後執行「不能把 last year 直接接在表示此完成用法的 have repaired 後；若要指出明確過去年份，改用 repaired。關係代名詞在 connects 前作主詞，不可任意省掉」代回驗算"
+              ],
+              "answer": 3,
+              "hint": "結合「關係子句」分步逆推，並務必執行「不能把 last year 直接接在表示此完成用法的 have repaired 後；若要指出明確過去年份，改用 repaired。關係代名詞在 connects 前作主詞，不可任意省掉」驗算。",
+              "explanation": "破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「關係子句：用子句補充或限定名詞」逐步推演，最後一定要用「不能把 last year 直接接在表示此完成用法的 have repaired 後；若要指出明確過去年份，改用 repaired。關係代名詞在 connects 前作主詞，不可任意省掉」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！"
+            }
           }
         ],
         "knowledgeSufficiencyPatch": {
@@ -2094,12 +2358,14 @@
           "info.english-5.kp1",
           "q.english-5.kp1.def",
           "cq.english-5-q1",
-          "match.english-5.table"
+          "match.english-5.table",
+          "q.english-5.archetype.TypeA"
         ],
         "english-5:rule": [
           "info.english-5.kp2",
           "q.english-5.kp2.rule",
-          "q.english-5.deepening.contrast"
+          "q.english-5.deepening.contrast",
+          "q.english-5.archetype.TypeB"
         ],
         "english-5:reasoning": [
           "build.english-5.case",
@@ -2112,14 +2378,17 @@
           "info.english-5.kp3",
           "q.english-5.pitfall",
           "q.english-5.cap.example",
-          "q.english-5.cap.followup"
+          "q.english-5.cap.followup",
+          "q.english-5.archetype.TypeC"
         ],
         "english-5:boss": [
           "q.english-5.kp1.def",
           "cq.english-5-q1",
           "match.english-5.table",
+          "q.english-5.archetype.TypeA",
           "q.english-5.kp2.rule",
           "q.english-5.deepening.contrast",
+          "q.english-5.archetype.TypeB",
           "build.english-5.case",
           "cq.english-5-q2",
           "q.english-5.case.check",
@@ -2127,7 +2396,8 @@
           "enrich.english-5.1",
           "q.english-5.pitfall",
           "q.english-5.cap.example",
-          "q.english-5.cap.followup"
+          "q.english-5.cap.followup",
+          "q.english-5.archetype.TypeC"
         ]
       }
     },
@@ -2144,6 +2414,18 @@
         "example": "Notice: The library closes at 5 p.m. Please return books before 4:30. 借還書截止早於關門時間。",
         "pitfall": "close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制。",
         "task": "把一則英文公告整理成 Who、What、When 三欄。",
+        "unitWonder": {
+          "wonderTitle": "✨ 為什麼「閱讀策略與情境溝通」超有趣？生活超能力 × 秒殺口訣",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「閱讀策略與情境溝通」其實就在你身邊！例如：Notice: The library closes at 5 p.m. Please return books before 4:30. 借還書截止早於關門時間。當你搞懂「主旨（先找段落重複概念與目的）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
+          "funFact": "你知道嗎？在「閱讀策略與情境溝通」中，高達 80% 的人最容易在「資訊定位 vs. 推論」搞混，或是掉進「close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制」的直覺陷阱！其實從微觀機制來看：對照判準與實例：先找段落重複概念與目的。不要用單一細節當整篇主旨。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "mnemonic": "🎵【閱讀策略與情境溝通 · 快樂秒殺口訣】\n① 抓基準：主旨看仔細（先找段落重複概念與目的）\n② 分左右：資訊定位對照推論，關鍵就在「指涉」\n③ 避陷阱：小心「close at 5 不等於 5 點仍可還書，需」別中計\n④ 穩驗算：最後代回「可用英文回答 No. DVDs must be 」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在「閱讀策略與情境溝通」的情境裡，如果有人把「資訊定位」跟「推論」當成一模一樣，會發生什麼事？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制」！因為【資訊定位】是「先看問題要人、時間、地點或原因」，而【推論】則是「答案未直接寫出時，須整合文本線索」。只要用「指涉」先做區分，就能輕鬆破解！",
+          "superpower": "🌍 跨文化任意門與世界玩家",
+          "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
+          "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
+          "cheer": "知知貓頭鷹：「多會一種語言，就像在腦中多開了一個全新的世界地圖！」"
+        },
         "knowledgePoints": [
           {
             "id": "english-6-kp-1",
@@ -2358,7 +2640,19 @@
             "capRef": "111 會考第 1 題（圖表判讀）",
             "questionPattern": "題幹直接給出「Notice: The library closes at 5 p.m. Please return books before 4:30. 借還書截止早於關門時間」之標準條件或基本圖式，要求判別「主旨」的正確性或直接求出單一目標量。",
             "requiredKnowledge": "必備知識點：「主旨」——先找段落重複概念與目的（課本實例檢核：不要用單一細節當整篇主旨）。",
-            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「主旨」判準 ➔ 第 3 步核對是否觸犯「close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制」基本防線。"
+            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「主旨」判準 ➔ 第 3 步核對是否觸犯「close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制」基本防線。",
+            "archetypeDrill": {
+              "stem": "【Type A 基礎秒殺挑戰】在「閱讀策略與情境溝通」的基礎情境（如：Notice: The library closes at 5 p.m. Please return books before 4:30. 借還書截止早於關門時間）中，若要正確運用「主旨」快速破題，下列哪個作法最正確？",
+              "options": [
+                "忽略基準前提，誤以為在任何情況下「close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制」皆不影響結果",
+                "將「主旨」與「推論」混淆，直接套用相反方向的規則",
+                "依據「主旨」判準：先找段落重複概念與目的（課本實例核對：不要用單一細節當整篇主旨）",
+                "僅憑直覺猜測單一數值，不檢查單位與「主旨」的成立條件"
+              ],
+              "answer": 2,
+              "hint": "回想「主旨」的核心定義：先找段落重複概念與目的。",
+              "explanation": "破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「主旨：先找段落重複概念與目的」，並以「不要用單一細節當整篇主旨」核對、避開「close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制」，就能一秒鎖定正確答案！"
+            }
           },
           {
             "code": "Type B",
@@ -2367,7 +2661,19 @@
             "capRef": "111 會考第 23 題（圖表判讀）",
             "questionPattern": "題幹結合實驗紀錄表、對照圖形或雙情境文本，將「資訊定位」與「推論」並列呈現，考驗學生能否從非連續性資訊中提煉「指涉」的變化規律。",
             "requiredKnowledge": "必備知識點：(1) 資訊定位：先看問題要人、時間、地點或原因；(2) 推論：答案未直接寫出時，須整合文本線索；(3) 轉換規則：追蹤代名詞對應的人事物。",
-            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「指涉」區隔「資訊定位」與「推論」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。"
+            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「指涉」區隔「資訊定位」與「推論」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。",
+            "archetypeDrill": {
+              "stem": "【Type B 雙情境對照挑戰】當題目同時列出「資訊定位」與「推論」並要求結合「指涉」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？",
+              "options": [
+                "把「資訊定位」與「推論」當成完全相同的條件，直接平均兩者數據",
+                "只看圖表或題幹的最後一個數字，完全忽略「指涉」的轉換關係",
+                "掉入「close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制」陷阱，把「推論」的特徵張冠李戴到「資訊定位」",
+                "先鎖定控制變因，區分「資訊定位（先看問題要人、時間、地點或原因）」與「推論（答案未直接寫出時，須整合文本線索）」，再依「追蹤代名詞對應的人事物」推導"
+              ],
+              "answer": 3,
+              "hint": "先分清楚「資訊定位」與「推論」的差異，再套用「指涉」。",
+              "explanation": "破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「資訊定位（先看問題要人、時間、地點或原因）」與「推論（答案未直接寫出時，須整合文本線索）」，再運用「指涉：追蹤代名詞對應的人事物」，就不會被張冠李戴的選項騙倒！"
+            }
           },
           {
             "code": "Type C",
@@ -2376,7 +2682,19 @@
             "capRef": "111 會考第 26 題（文意理解）",
             "questionPattern": "題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「原創公告：「The library closes at 5 p.m. on Friday. Bo…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。",
             "requiredKnowledge": "必備知識點：結合「主旨」、「指涉」與「猜字（用前後語境、轉折、例子推測）」，並啟動邊界防禦機制「可用英文回答 No. DVDs must be returned at the desk, which is closed at six on Friday.。不要把「有還書箱」推成所有媒體都能投入，也不要自行推定逾期費或下一次開館日期」。",
-            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（先定位時間：六點已超過五點，館內櫃檯關閉） ➔ 第 2 步聯立「指涉」與「猜字」推演（戶外箱允許 books，但轉折 but 明確排除以同樣方式歸還 DVDs，DVD 必須交櫃檯） ➔ 第 3 步將所得結論代回原情境執行「可用英文回答 No. DVDs must be returned at the desk, which is closed at six on Friday.。不要把「有還書箱」推成所有媒體都能投入，也不要自行推定逾期費或下一次開館日期」雙向驗算。"
+            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（先定位時間：六點已超過五點，館內櫃檯關閉） ➔ 第 2 步聯立「指涉」與「猜字」推演（戶外箱允許 books，但轉折 but 明確排除以同樣方式歸還 DVDs，DVD 必須交櫃檯） ➔ 第 3 步將所得結論代回原情境執行「可用英文回答 No. DVDs must be returned at the desk, which is closed at six on Friday.。不要把「有還書箱」推成所有媒體都能投入，也不要自行推定逾期費或下一次開館日期」雙向驗算。",
+            "archetypeDrill": {
+              "stem": "【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「原創公告：「The library closes at 5 p.m. on Friday. Books ca…」，若要達成 A++ 零失誤破關，應該採取哪項策略？",
+              "options": [
+                "結合「猜字（用前後語境、轉折、例子推測）」分步逆推（先定位時間：六點已超過五點，館內櫃檯關閉），最後執行「可用英文回答 No. DVDs must be returned at the desk, which is closed at six on Friday.。不要把「有還書箱」推成所有媒體都能投入，也不要自行推定逾期費或下一次開館日期」代回驗算",
+                "直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算",
+                "只套用「主旨」的單向公式，忽略題幹給定的邊界限制與「close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制」",
+                "認為逆向題無法用課本概念解決，放棄核對「可用英文回答 No. DVDs must be returned at the desk, which is closed at six on Friday.。不要把「有還書箱」推成所有媒體都能投入，也不要自行推定逾期費或下一次開館日期」的檢驗條件"
+              ],
+              "answer": 0,
+              "hint": "結合「猜字」分步逆推，並務必執行「可用英文回答 No. DVDs must be returned at the desk, which is closed at six on Friday.。不要把「有還書箱」推成所有媒體都能投入，也不要自行推定逾期費或下一次開館日期」驗算。",
+              "explanation": "破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「猜字：用前後語境、轉折、例子推測」逐步推演，最後一定要用「可用英文回答 No. DVDs must be returned at the desk, which is closed at six on Friday.。不要把「有還書箱」推成所有媒體都能投入，也不要自行推定逾期費或下一次開館日期」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！"
+            }
           }
         ],
         "knowledgeSufficiencyPatch": {
@@ -2524,12 +2842,14 @@
           "info.english-6.kp1",
           "q.english-6.kp1.def",
           "cq.english-6-q1",
-          "match.english-6.table"
+          "match.english-6.table",
+          "q.english-6.archetype.TypeA"
         ],
         "english-6:rule": [
           "info.english-6.kp2",
           "q.english-6.kp2.rule",
-          "q.english-6.deepening.contrast"
+          "q.english-6.deepening.contrast",
+          "q.english-6.archetype.TypeB"
         ],
         "english-6:reasoning": [
           "build.english-6.case",
@@ -2544,14 +2864,17 @@
           "cap.111-english-1",
           "cap.111-english-23",
           "q.english-6.cap.example",
-          "q.english-6.cap.followup"
+          "q.english-6.cap.followup",
+          "q.english-6.archetype.TypeC"
         ],
         "english-6:boss": [
           "q.english-6.kp1.def",
           "cq.english-6-q1",
           "match.english-6.table",
+          "q.english-6.archetype.TypeA",
           "q.english-6.kp2.rule",
           "q.english-6.deepening.contrast",
+          "q.english-6.archetype.TypeB",
           "build.english-6.case",
           "cq.english-6-q2",
           "q.english-6.case.check",
@@ -2561,7 +2884,8 @@
           "cap.111-english-1",
           "cap.111-english-23",
           "q.english-6.cap.example",
-          "q.english-6.cap.followup"
+          "q.english-6.cap.followup",
+          "q.english-6.archetype.TypeC"
         ]
       }
     },
@@ -2578,6 +2902,18 @@
         "example": "This is my apple, and those are your books. / Please open your book and turn to page ten. / Don’t run in the hallway!",
         "pitfall": "Do not use plural verbs with this/that. In negative imperatives, use \"Don’t\" + base verb, never \"Not\" or \"No\" (say \"Don’t touch\", not \"No touch\").",
         "task": "Write four signs for your school library using polite positive and negative imperatives.",
+        "unitWonder": {
+          "wonderTitle": "✨ 為什麼「名詞單複數、指示代名詞與祈使句」超有趣？生活超能力 × 秒殺口訣",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「名詞單複數、指示代名詞與祈使句」其實就在你身邊！例如：This is my apple, and those are your books. / Please open your book and turn to page ten. / Don’t run in the hallway!。當你搞懂「S + V（完全不及物）（動詞自身意思完整，不需受詞也不需補語）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
+          "funFact": "你知道嗎？在「名詞單複數、指示代名詞與祈使句」中，高達 80% 的人最容易在「可數名詞 vs. 不可數名詞」搞混，或是掉進「Do not use plural verbs with this/that. In negative imperatives, use \"Don’t\" + base verb, never \"Not\" or \"No\" (say \"Don’t touch\", not \"No touch\").」的直覺陷阱！其實從微觀機制來看：對照判準與實例：動詞自身意思完整，不需受詞也不需補語。Birds fly. / The baby cried loudly.（loudly 為副詞修飾動詞，非受詞）。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "mnemonic": "🎵【名詞單複數、指示代名詞與祈使句 · 快樂秒殺口訣】\n① 抓基準：S + V（完全不及物）看仔細（動詞自身意思完整，不需受詞也不需補語）\n② 分左右：可數名詞對照不可數名詞，關鍵就在「S + V + C（不完全不及物）」\n③ 避陷阱：小心「Do not use plural verbs 」別中計\n④ 穩驗算：最後代回「完整更正為 These are three bo」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在「名詞單複數、指示代名詞與祈使句」的情境裡，如果有人把「可數名詞」跟「不可數名詞」當成一模一樣，會發生什麼事？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not use plural verbs with this/that. In negative imperatives, use \"Don’t\" + base verb, never \"Not\" or \"No\" (say \"Don’t touch\", not \"No touch\").」！因為【可數名詞】是「一個用單數，多個通常需複數形」，而【不可數名詞】則是「常用量詞表達份量，不直接依一般規則加 s」。只要用「S + V + C（不完全不及物）」先做區分，就能輕鬆破解！",
+          "superpower": "🌍 跨文化任意門與世界玩家",
+          "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
+          "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
+          "cheer": "知知貓頭鷹：「多會一種語言，就像在腦中多開了一個全新的世界地圖！」"
+        },
         "knowledgePoints": [
           {
             "id": "english-7-kp-1",
@@ -2792,7 +3128,19 @@
             "capRef": "108 課綱基礎指標【Ac-IV-6, 1-IV-6】核心題型",
             "questionPattern": "題幹直接給出「This is my apple, and those are your books. / Please open your book and turn to page ten. / Don’t run in the hallway!」之標準條件或基本圖式，要求判別「S + V（完全不及物）」的正確性或直接求出單一目標量。",
             "requiredKnowledge": "必備知識點：「S + V（完全不及物）」——動詞自身意思完整，不需受詞也不需補語（課本實例檢核：Birds fly. / The baby cried loudly.（loudly 為副詞修飾動詞，非受詞））。",
-            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「S + V（完全不及物）」判準 ➔ 第 3 步核對是否觸犯「Do not use plural verbs with this/that. In negative imperatives, use \"Don’t\" + base verb, never \"Not\" or \"No\" (say \"Don’t touch\", not \"No touch\").」基本防線。"
+            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「S + V（完全不及物）」判準 ➔ 第 3 步核對是否觸犯「Do not use plural verbs with this/that. In negative imperatives, use \"Don’t\" + base verb, never \"Not\" or \"No\" (say \"Don’t touch\", not \"No touch\").」基本防線。",
+            "archetypeDrill": {
+              "stem": "【Type A 基礎秒殺挑戰】在「名詞單複數、指示代名詞與祈使句」的基礎情境（如：This is my apple, and those are your books. / Please open your book and turn to page ten. / Don’t run in the hallway!）中，若要正確運用「S + V（完全不及物）」快速破題，下列哪個作法最正確？",
+              "options": [
+                "忽略基準前提，誤以為在任何情況下「Do not use plural verbs with this/that. In negative imperatives, use \"Don’t\" + base verb, never \"Not\" or \"No\" (say \"Don’t touch\", not \"No touch\").」皆不影響結果",
+                "將「S + V（完全不及物）」與「不可數名詞」混淆，直接套用相反方向的規則",
+                "依據「S + V（完全不及物）」判準：動詞自身意思完整，不需受詞也不需補語（課本實例核對：Birds fly. / The baby cried loudly.（loudly 為副詞修飾動詞，非受詞））",
+                "僅憑直覺猜測單一數值，不檢查單位與「S + V（完全不及物）」的成立條件"
+              ],
+              "answer": 2,
+              "hint": "回想「S + V（完全不及物）」的核心定義：動詞自身意思完整，不需受詞也不需補語。",
+              "explanation": "破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「S + V（完全不及物）：動詞自身意思完整，不需受詞也不需補語」，並以「Birds fly. / The baby cried loudly.（loudly 為副詞修飾動詞，非受詞）」核對、避開「Do not use plural verbs with this/that. In negative imperatives, use \"Don’t\" + base verb, never \"Not\" or \"No\" (say \"Don’t touch\", not \"No touch\").」，就能一秒鎖定正確答案！"
+            }
           },
           {
             "code": "Type B",
@@ -2801,7 +3149,19 @@
             "capRef": "康軒／翰林／南一跨版本整合應用題型",
             "questionPattern": "題幹結合實驗紀錄表、對照圖形或雙情境文本，將「可數名詞」與「不可數名詞」並列呈現，考驗學生能否從非連續性資訊中提煉「S + V + C（不完全不及物）」的變化規律。",
             "requiredKnowledge": "必備知識點：(1) 可數名詞：一個用單數，多個通常需複數形；(2) 不可數名詞：常用量詞表達份量，不直接依一般規則加 s；(3) 轉換規則：連綴動詞需主詞補語 (SC) 補充說明主詞身分或狀態。",
-            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「S + V + C（不完全不及物）」區隔「可數名詞」與「不可數名詞」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。"
+            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「S + V + C（不完全不及物）」區隔「可數名詞」與「不可數名詞」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。",
+            "archetypeDrill": {
+              "stem": "【Type B 雙情境對照挑戰】當題目同時列出「可數名詞」與「不可數名詞」並要求結合「S + V + C（不完全不及物）」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？",
+              "options": [
+                "把「可數名詞」與「不可數名詞」當成完全相同的條件，直接平均兩者數據",
+                "只看圖表或題幹的最後一個數字，完全忽略「S + V + C（不完全不及物）」的轉換關係",
+                "掉入「Do not use plural verbs with this/that. In negative imperatives, use \"Don’t\" + base verb, never \"Not\" or \"No\" (say \"Don’t touch\", not \"No touch\").」陷阱，把「不可數名詞」的特徵張冠李戴到「可數名詞」",
+                "先鎖定控制變因，區分「可數名詞（一個用單數，多個通常需複數形）」與「不可數名詞（常用量詞表達份量，不直接依一般規則加 s）」，再依「連綴動詞需主詞補語 (SC) 補充說明主詞身分或狀態」推導"
+              ],
+              "answer": 3,
+              "hint": "先分清楚「可數名詞」與「不可數名詞」的差異，再套用「S + V + C（不完全不及物）」。",
+              "explanation": "破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「可數名詞（一個用單數，多個通常需複數形）」與「不可數名詞（常用量詞表達份量，不直接依一般規則加 s）」，再運用「S + V + C（不完全不及物）：連綴動詞需主詞補語 (SC) 補充說明主詞身分或狀態」，就不會被張冠李戴的選項騙倒！"
+            }
           },
           {
             "code": "Type C",
@@ -2810,7 +3170,19 @@
             "capRef": "會考前 5% A++ 頂標跨概念壓軸題型",
             "questionPattern": "題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「修正「This are three box of milk. Doesn’t put them…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。",
             "requiredKnowledge": "必備知識點：結合「S + V（完全不及物）」、「S + V + C（不完全不及物）」與「S + V + O（完全及物）（動詞需接受動作的對象（受詞 O））」，並啟動邊界防禦機制「完整更正為 These are three boxes of milk. Don’t put them here.。對照 This is a box of milk.：一盒時 this、is、a box 都為單數。box 的複數是 boxes；不能只改 are 而忘記指示詞或名詞」。",
-            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（three 要接複數 boxes；milk 在此以液體看待，由 boxes 表示三盒，不寫 three milks） ➔ 第 2 步聯立「S + V + C（不完全不及物）」與「S + V + O（完全及物）」推演（複數事物的指示句用 These are three boxes of milk.；these 和 are、boxes 保持一致） ➔ 第 3 步將所得結論代回原情境執行「完整更正為 These are three boxes of milk. Don’t put them here.。對照 This is a box of milk.：一盒時 this、is、a box 都為單數。box 的複數是 boxes；不能只改 are 而忘記指示詞或名詞」雙向驗算。"
+            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（three 要接複數 boxes；milk 在此以液體看待，由 boxes 表示三盒，不寫 three milks） ➔ 第 2 步聯立「S + V + C（不完全不及物）」與「S + V + O（完全及物）」推演（複數事物的指示句用 These are three boxes of milk.；these 和 are、boxes 保持一致） ➔ 第 3 步將所得結論代回原情境執行「完整更正為 These are three boxes of milk. Don’t put them here.。對照 This is a box of milk.：一盒時 this、is、a box 都為單數。box 的複數是 boxes；不能只改 are 而忘記指示詞或名詞」雙向驗算。",
+            "archetypeDrill": {
+              "stem": "【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「修正「This are three box of milk. Doesn’t put them here.」…」，若要達成 A++ 零失誤破關，應該採取哪項策略？",
+              "options": [
+                "結合「S + V + O（完全及物）（動詞需接受動作的對象（受詞 O））」分步逆推（three 要接複數 boxes；milk 在此以液體看待，由 boxes 表示三盒，不寫 three milks），最後執行「完整更正為 These are three boxes of milk. Don’t put them here.。對照 This is a box of milk.：一盒時 this、is、a box 都為單數。box 的複數是 boxes；不能只改 are 而忘記指示詞或名詞」代回驗算",
+                "直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算",
+                "只套用「S + V（完全不及物）」的單向公式，忽略題幹給定的邊界限制與「Do not use plural verbs with this/that. In negative imperatives, use \"Don’t\" + base verb, never \"Not\" or \"No\" (say \"Don’t touch\", not \"No touch\").」",
+                "認為逆向題無法用課本概念解決，放棄核對「完整更正為 These are three boxes of milk. Don’t put them here.。對照 This is a box of milk.：一盒時 this、is、a box 都為單數。box 的複數是 boxes；不能只改 are 而忘記指示詞或名詞」的檢驗條件"
+              ],
+              "answer": 0,
+              "hint": "結合「S + V + O（完全及物）」分步逆推，並務必執行「完整更正為 These are three boxes of milk. Don’t put them here.。對照 This is a box of milk.：一盒時 this、is、a box 都為單數。box 的複數是 boxes；不能只改 are 而忘記指示詞或名詞」驗算。",
+              "explanation": "破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「S + V + O（完全及物）：動詞需接受動作的對象（受詞 O）」逐步推演，最後一定要用「完整更正為 These are three boxes of milk. Don’t put them here.。對照 This is a box of milk.：一盒時 this、is、a box 都為單數。box 的複數是 boxes；不能只改 are 而忘記指示詞或名詞」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！"
+            }
           }
         ],
         "knowledgeSufficiencyPatch": {
@@ -2953,12 +3325,14 @@
           "info.english-7.kp1",
           "q.english-7.kp1.def",
           "cq.english-7-q1",
-          "match.english-7.table"
+          "match.english-7.table",
+          "q.english-7.archetype.TypeA"
         ],
         "english-7:rule": [
           "info.english-7.kp2",
           "q.english-7.kp2.rule",
-          "q.english-7.deepening.contrast"
+          "q.english-7.deepening.contrast",
+          "q.english-7.archetype.TypeB"
         ],
         "english-7:reasoning": [
           "build.english-7.case",
@@ -2971,14 +3345,17 @@
           "info.english-7.kp3",
           "q.english-7.pitfall",
           "q.english-7.cap.example",
-          "q.english-7.cap.followup"
+          "q.english-7.cap.followup",
+          "q.english-7.archetype.TypeC"
         ],
         "english-7:boss": [
           "q.english-7.kp1.def",
           "cq.english-7-q1",
           "match.english-7.table",
+          "q.english-7.archetype.TypeA",
           "q.english-7.kp2.rule",
           "q.english-7.deepening.contrast",
+          "q.english-7.archetype.TypeB",
           "build.english-7.case",
           "cq.english-7-q2",
           "q.english-7.case.check",
@@ -2986,7 +3363,8 @@
           "enrich.english-7.1",
           "q.english-7.pitfall",
           "q.english-7.cap.example",
-          "q.english-7.cap.followup"
+          "q.english-7.cap.followup",
+          "q.english-7.archetype.TypeC"
         ]
       }
     },
@@ -3003,6 +3381,18 @@
         "example": "She is always on time. / He often plays baseball after school. / Can you swim? Yes, I can. / There is a cat on the roof, and there are three dogs in the yard.",
         "pitfall": "Do not put frequency adverbs before be-verbs (say \"He is always kind\", not \"He always is kind\"). In There is/are sentences, verb agreement depends on the noun that immediately follows.",
         "task": "Write three sentences about your weekly schedule using different frequency adverbs and the correct word order.",
+        "unitWonder": {
+          "wonderTitle": "✨ 為什麼「頻率副詞、情態助動詞 can 與存在句」超有趣？生活超能力 × 秒殺口訣",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「頻率副詞、情態助動詞 can 與存在句」其實就在你身邊！例如：She is always on time. / He often plays baseball after school. / Can you swim? Yes, I can. / There is a cat on the roof, and there are three dogs in the yard.。當你搞懂「祈使句規範（省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
+          "funFact": "你知道嗎？在「頻率副詞、情態助動詞 can 與存在句」中，高達 80% 的人最容易在「頻率副詞 vs. 存在句」搞混，或是掉進「Do not put frequency adverbs before be-verbs (say \"He is always kind\", not \"He always is kind\"). In There is/are sentences, verb agreement depends on the noun that immediately follows.」的直覺陷阱！其實從微觀機制來看：對照判準與實例：省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞。Open the door, please. / Don't be late for school again.。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "mnemonic": "🎵【頻率副詞、情態助動詞 can 與存在句 · 快樂秒殺口訣】\n① 抓基準：祈使句規範看仔細（省略主詞 You，以原形動詞開頭；否定句用 Don'）\n② 分左右：頻率副詞對照存在句，關鍵就在「感嘆句結構」\n③ 避陷阱：小心「Do not put frequency adv」別中計\n④ 穩驗算：最後代回「比較 Lily has two chess se」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在「頻率副詞、情態助動詞 can 與存在句」的情境裡，如果有人把「頻率副詞」跟「存在句」當成一模一樣，會發生什麼事？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not put frequency adverbs before be-verbs (say \"He is always kind\", not \"He always is kind\"). In There is/are sentences, verb agreement depends on the noun that immediately follows.」！因為【頻率副詞】是「通常放一般動詞前、be 動詞後」，而【存在句】則是「There is/are 隨後方主要名詞單複數改變」。只要用「感嘆句結構」先做區分，就能輕鬆破解！",
+          "superpower": "🌍 跨文化任意門與世界玩家",
+          "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
+          "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
+          "cheer": "知知貓頭鷹：「多會一種語言，就像在腦中多開了一個全新的世界地圖！」"
+        },
         "knowledgePoints": [
           {
             "id": "english-8-kp-1",
@@ -3217,7 +3607,19 @@
             "capRef": "109 會考第 2 題（概念辨析）",
             "questionPattern": "題幹直接給出「She is always on time. / He often plays baseball after school. / Can you swim? Yes, I can. / There is a cat on the roof, and there are three dogs in the yard.」之標準條件或基本圖式，要求判別「祈使句規範」的正確性或直接求出單一目標量。",
             "requiredKnowledge": "必備知識點：「祈使句規範」——省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞（課本實例檢核：Open the door, please. / Don't be late for school again.）。",
-            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「祈使句規範」判準 ➔ 第 3 步核對是否觸犯「Do not put frequency adverbs before be-verbs (say \"He is always kind\", not \"He always is kind\"). In There is/are sentences, verb agreement depends on the noun that immediately follows.」基本防線。"
+            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「祈使句規範」判準 ➔ 第 3 步核對是否觸犯「Do not put frequency adverbs before be-verbs (say \"He is always kind\", not \"He always is kind\"). In There is/are sentences, verb agreement depends on the noun that immediately follows.」基本防線。",
+            "archetypeDrill": {
+              "stem": "【Type A 基礎秒殺挑戰】在「頻率副詞、情態助動詞 can 與存在句」的基礎情境（如：She is always on time. / He often plays baseball after school. / Can you swim? Yes, I can. / There is a cat on the roof, and there are three dogs in the yard.）中，若要正確運用「祈使句規範」快速破題，下列哪個作法最正確？",
+              "options": [
+                "忽略基準前提，誤以為在任何情況下「Do not put frequency adverbs before be-verbs (say \"He is always kind\", not \"He always is kind\"). In There is/are sentences, verb agreement depends on the noun that immediately follows.」皆不影響結果",
+                "將「祈使句規範」與「存在句」混淆，直接套用相反方向的規則",
+                "僅憑直覺猜測單一數值，不檢查單位與「祈使句規範」的成立條件",
+                "依據「祈使句規範」判準：省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞（課本實例核對：Open the door, please. / Don't be late for school again.）"
+              ],
+              "answer": 3,
+              "hint": "回想「祈使句規範」的核心定義：省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞。",
+              "explanation": "破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「祈使句規範：省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞」，並以「Open the door, please. / Don't be late for school again.」核對、避開「Do not put frequency adverbs before be-verbs (say \"He is always kind\", not \"He always is kind\"). In There is/are sentences, verb agreement depends on the noun that immediately follows.」，就能一秒鎖定正確答案！"
+            }
           },
           {
             "code": "Type B",
@@ -3226,7 +3628,19 @@
             "capRef": "109 會考第 3 題（概念辨析）",
             "questionPattern": "題幹結合實驗紀錄表、對照圖形或雙情境文本，將「頻率副詞」與「存在句」並列呈現，考驗學生能否從非連續性資訊中提煉「感嘆句結構」的變化規律。",
             "requiredKnowledge": "必備知識點：(1) 頻率副詞：通常放一般動詞前、be 動詞後；(2) 存在句：There is/are 隨後方主要名詞單複數改變；(3) 轉換規則：What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!。",
-            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「感嘆句結構」區隔「頻率副詞」與「存在句」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。"
+            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「感嘆句結構」區隔「頻率副詞」與「存在句」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。",
+            "archetypeDrill": {
+              "stem": "【Type B 雙情境對照挑戰】當題目同時列出「頻率副詞」與「存在句」並要求結合「感嘆句結構」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？",
+              "options": [
+                "先鎖定控制變因，區分「頻率副詞（通常放一般動詞前、be 動詞後）」與「存在句（There is/are 隨後方主要名詞單複數改變）」，再依「What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!」推導",
+                "把「頻率副詞」與「存在句」當成完全相同的條件，直接平均兩者數據",
+                "只看圖表或題幹的最後一個數字，完全忽略「感嘆句結構」的轉換關係",
+                "掉入「Do not put frequency adverbs before be-verbs (say \"He is always kind\", not \"He always is kind\"). In There is/are sentences, verb agreement depends on the noun that immediately follows.」陷阱，把「存在句」的特徵張冠李戴到「頻率副詞」"
+              ],
+              "answer": 0,
+              "hint": "先分清楚「頻率副詞」與「存在句」的差異，再套用「感嘆句結構」。",
+              "explanation": "破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「頻率副詞（通常放一般動詞前、be 動詞後）」與「存在句（There is/are 隨後方主要名詞單複數改變）」，再運用「感嘆句結構：What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!」，就不會被張冠李戴的選項騙倒！"
+            }
           },
           {
             "code": "Type C",
@@ -3235,7 +3649,19 @@
             "capRef": "109 會考第 6 題（概念辨析）",
             "questionPattern": "題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「整理三句：「Lily / usually / is / early」「she / can / p…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。",
             "requiredKnowledge": "必備知識點：結合「祈使句規範」、「感嘆句結構」與「附加問句前肯後否（直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定）」，並啟動邊界防禦機制「比較 Lily has two chess sets.：此句在說 Lily 擁有棋具，不能用 There has 代替。若寫 She never plays chess，never 表示從不；與 can play 的能力描述不矛盾，會下棋不代表常下棋」。",
-            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（第一句為 Lily is usually early.，be 動詞 is 在 usually 前；若換一般動詞，可說 Lily usually arrives early.） ➔ 第 2 步聯立「感嘆句結構」與「附加問句前肯後否」推演（第二句為 She can play chess.，can 已是情態助動詞，後面 play 不加 s，也不加 to） ➔ 第 3 步將所得結論代回原情境執行「比較 Lily has two chess sets.：此句在說 Lily 擁有棋具，不能用 There has 代替。若寫 She never plays chess，never 表示從不；與 can play 的能力描述不矛盾，會下棋不代表常下棋」雙向驗算。"
+            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（第一句為 Lily is usually early.，be 動詞 is 在 usually 前；若換一般動詞，可說 Lily usually arrives early.） ➔ 第 2 步聯立「感嘆句結構」與「附加問句前肯後否」推演（第二句為 She can play chess.，can 已是情態助動詞，後面 play 不加 s，也不加 to） ➔ 第 3 步將所得結論代回原情境執行「比較 Lily has two chess sets.：此句在說 Lily 擁有棋具，不能用 There has 代替。若寫 She never plays chess，never 表示從不；與 can play 的能力描述不矛盾，會下棋不代表常下棋」雙向驗算。",
+            "archetypeDrill": {
+              "stem": "【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「整理三句：「Lily / usually / is / early」「she / can / plays /…」，若要達成 A++ 零失誤破關，應該採取哪項策略？",
+              "options": [
+                "直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算",
+                "結合「附加問句前肯後否（直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定）」分步逆推（第一句為 Lily is usually early.，be 動詞 is 在 usually 前；若換一般動詞，可說 Lily usually arrives early.），最後執行「比較 Lily has two chess sets.：此句在說 Lily 擁有棋具，不能用 There has 代替。若寫 She never plays chess，never 表示從不；與 can play 的能力描述不矛盾，會下棋不代表常下棋」代回驗算",
+                "只套用「祈使句規範」的單向公式，忽略題幹給定的邊界限制與「Do not put frequency adverbs before be-verbs (say \"He is always kind\", not \"He always is kind\"). In There is/are sentences, verb agreement depends on the noun that immediately follows.」",
+                "認為逆向題無法用課本概念解決，放棄核對「比較 Lily has two chess sets.：此句在說 Lily 擁有棋具，不能用 There has 代替。若寫 She never plays chess，never 表示從不；與 can play 的能力描述不矛盾，會下棋不代表常下棋」的檢驗條件"
+              ],
+              "answer": 1,
+              "hint": "結合「附加問句前肯後否」分步逆推，並務必執行「比較 Lily has two chess sets.：此句在說 Lily 擁有棋具，不能用 There has 代替。若寫 She never plays chess，never 表示從不；與 can play 的能力描述不矛盾，會下棋不代表常下棋」驗算。",
+              "explanation": "破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「附加問句前肯後否：直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定」逐步推演，最後一定要用「比較 Lily has two chess sets.：此句在說 Lily 擁有棋具，不能用 There has 代替。若寫 She never plays chess，never 表示從不；與 can play 的能力描述不矛盾，會下棋不代表常下棋」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！"
+            }
           }
         ],
         "knowledgeSufficiencyPatch": {
@@ -3378,12 +3804,14 @@
           "info.english-8.kp1",
           "q.english-8.kp1.def",
           "cq.english-8-q1",
-          "match.english-8.table"
+          "match.english-8.table",
+          "q.english-8.archetype.TypeA"
         ],
         "english-8:rule": [
           "info.english-8.kp2",
           "q.english-8.kp2.rule",
-          "q.english-8.deepening.contrast"
+          "q.english-8.deepening.contrast",
+          "q.english-8.archetype.TypeB"
         ],
         "english-8:reasoning": [
           "build.english-8.case",
@@ -3398,14 +3826,17 @@
           "cap.109-english-2",
           "cap.109-english-3",
           "q.english-8.cap.example",
-          "q.english-8.cap.followup"
+          "q.english-8.cap.followup",
+          "q.english-8.archetype.TypeC"
         ],
         "english-8:boss": [
           "q.english-8.kp1.def",
           "cq.english-8-q1",
           "match.english-8.table",
+          "q.english-8.archetype.TypeA",
           "q.english-8.kp2.rule",
           "q.english-8.deepening.contrast",
+          "q.english-8.archetype.TypeB",
           "build.english-8.case",
           "cq.english-8-q2",
           "q.english-8.case.check",
@@ -3415,7 +3846,8 @@
           "cap.109-english-2",
           "cap.109-english-3",
           "q.english-8.cap.example",
-          "q.english-8.cap.followup"
+          "q.english-8.cap.followup",
+          "q.english-8.archetype.TypeC"
         ]
       }
     },
@@ -3432,6 +3864,18 @@
         "example": "I was doing my homework when the phone rang. / While Dad was cooking, Mom was reading a book. / She has a few friends, but very little free time.",
         "pitfall": "Do not confuse \"a few\" (positive: some) with \"few\" (negative: almost none), or \"a little\" (some) with \"little\" (almost none). Remember \"were\" is used for you/we/they in past continuous.",
         "task": "Describe what you and your family members were doing yesterday at 7 p.m. using past continuous and \"while\".",
+        "unitWonder": {
+          "wonderTitle": "✨ 為什麼「過去進行式、時間連接詞與數量詞」超有趣？生活超能力 × 秒殺口訣",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「過去進行式、時間連接詞與數量詞」其實就在你身邊！例如：I was doing my homework when the phone rang. / While Dad was cooking, Mom was reading a book. / She has a few friends, but very little free time.。當你搞懂「過去進行式（主詞 + was/were + V-ing）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
+          "funFact": "你知道嗎？在「過去進行式、時間連接詞與數量詞」中，高達 80% 的人最容易在「背景動作 vs. 插入事件」搞混，或是掉進「Do not confuse \"a few\" (positive: some) with \"few\" (negative: almost none), or \"a little\" (some) with \"little\" (almost none). Remember \"were\" is used for you/we/they in past continuous.」的直覺陷阱！其實從微觀機制來看：對照判準與實例：主詞 + was/were + V-ing。At 8 p.m. yesterday, I was studying.；主詞單複數決定 was/were。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "mnemonic": "🎵【過去進行式、時間連接詞與數量詞 · 快樂秒殺口訣】\n① 抓基準：過去進行式看仔細（主詞 + was/were + V-ing）\n② 分左右：背景動作對照插入事件，關鍵就在「when 與 while」\n③ 避陷阱：小心「Do not confuse \"a few\" (」別中計\n④ 穩驗算：最後代回「a little 表示有少量；little 常偏」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在「過去進行式、時間連接詞與數量詞」的情境裡，如果有人把「背景動作」跟「插入事件」當成一模一樣，會發生什麼事？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not confuse \"a few\" (positive: some) with \"few\" (negative: almost none), or \"a little\" (some) with \"little\" (almost none). Remember \"were\" is used for you/we/they in past continuous.」！因為【背景動作】是「過去進行式描述某時正在進行」，而【插入事件】則是「過去簡單式可描述打斷背景的事件」。只要用「when 與 while」先做區分，就能輕鬆破解！",
+          "superpower": "🌍 跨文化任意門與世界玩家",
+          "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
+          "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
+          "cheer": "知知貓頭鷹：「多會一種語言，就像在腦中多開了一個全新的世界地圖！」"
+        },
         "knowledgePoints": [
           {
             "id": "english-9-kp-1",
@@ -3646,7 +4090,19 @@
             "capRef": "108 課綱基礎指標【Ac-IV-8, 1-IV-8】核心題型",
             "questionPattern": "題幹直接給出「I was doing my homework when the phone rang. / While Dad was cooking, Mom was reading a book. / She has a few friends, but very little free time.」之標準條件或基本圖式，要求判別「過去進行式」的正確性或直接求出單一目標量。",
             "requiredKnowledge": "必備知識點：「過去進行式」——主詞 + was/were + V-ing（課本實例檢核：At 8 p.m. yesterday, I was studying.；主詞單複數決定 was/were）。",
-            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「過去進行式」判準 ➔ 第 3 步核對是否觸犯「Do not confuse \"a few\" (positive: some) with \"few\" (negative: almost none), or \"a little\" (some) with \"little\" (almost none). Remember \"were\" is used for you/we/they in past continuous.」基本防線。"
+            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「過去進行式」判準 ➔ 第 3 步核對是否觸犯「Do not confuse \"a few\" (positive: some) with \"few\" (negative: almost none), or \"a little\" (some) with \"little\" (almost none). Remember \"were\" is used for you/we/they in past continuous.」基本防線。",
+            "archetypeDrill": {
+              "stem": "【Type A 基礎秒殺挑戰】在「過去進行式、時間連接詞與數量詞」的基礎情境（如：I was doing my homework when the phone rang. / While Dad was cooking, Mom was reading a book. / She has a few friends, but very little free time.）中，若要正確運用「過去進行式」快速破題，下列哪個作法最正確？",
+              "options": [
+                "依據「過去進行式」判準：主詞 + was/were + V-ing（課本實例核對：At 8 p.m. yesterday, I was studying.；主詞單複數決定 was/were）",
+                "忽略基準前提，誤以為在任何情況下「Do not confuse \"a few\" (positive: some) with \"few\" (negative: almost none), or \"a little\" (some) with \"little\" (almost none). Remember \"were\" is used for you/we/they in past continuous.」皆不影響結果",
+                "將「過去進行式」與「插入事件」混淆，直接套用相反方向的規則",
+                "僅憑直覺猜測單一數值，不檢查單位與「過去進行式」的成立條件"
+              ],
+              "answer": 0,
+              "hint": "回想「過去進行式」的核心定義：主詞 + was/were + V-ing。",
+              "explanation": "破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「過去進行式：主詞 + was/were + V-ing」，並以「At 8 p.m. yesterday, I was studying.；主詞單複數決定 was/were」核對、避開「Do not confuse \"a few\" (positive: some) with \"few\" (negative: almost none), or \"a little\" (some) with \"little\" (almost none). Remember \"were\" is used for you/we/they in past continuous.」，就能一秒鎖定正確答案！"
+            }
           },
           {
             "code": "Type B",
@@ -3655,7 +4111,19 @@
             "capRef": "康軒／翰林／南一跨版本整合應用題型",
             "questionPattern": "題幹結合實驗紀錄表、對照圖形或雙情境文本，將「背景動作」與「插入事件」並列呈現，考驗學生能否從非連續性資訊中提煉「when 與 while」的變化規律。",
             "requiredKnowledge": "必備知識點：(1) 背景動作：過去進行式描述某時正在進行；(2) 插入事件：過去簡單式可描述打斷背景的事件；(3) 轉換規則：when 接瞬間過去動作；while 接持續進行動作。",
-            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「when 與 while」區隔「背景動作」與「插入事件」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。"
+            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「when 與 while」區隔「背景動作」與「插入事件」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。",
+            "archetypeDrill": {
+              "stem": "【Type B 雙情境對照挑戰】當題目同時列出「背景動作」與「插入事件」並要求結合「when 與 while」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？",
+              "options": [
+                "把「背景動作」與「插入事件」當成完全相同的條件，直接平均兩者數據",
+                "先鎖定控制變因，區分「背景動作（過去進行式描述某時正在進行）」與「插入事件（過去簡單式可描述打斷背景的事件）」，再依「when 接瞬間過去動作；while 接持續進行動作」推導",
+                "只看圖表或題幹的最後一個數字，完全忽略「when 與 while」的轉換關係",
+                "掉入「Do not confuse \"a few\" (positive: some) with \"few\" (negative: almost none), or \"a little\" (some) with \"little\" (almost none). Remember \"were\" is used for you/we/they in past continuous.」陷阱，把「插入事件」的特徵張冠李戴到「背景動作」"
+              ],
+              "answer": 1,
+              "hint": "先分清楚「背景動作」與「插入事件」的差異，再套用「when 與 while」。",
+              "explanation": "破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「背景動作（過去進行式描述某時正在進行）」與「插入事件（過去簡單式可描述打斷背景的事件）」，再運用「when 與 while：when 接瞬間過去動作；while 接持續進行動作」，就不會被張冠李戴的選項騙倒！"
+            }
           },
           {
             "code": "Type C",
@@ -3664,7 +4132,19 @@
             "capRef": "會考前 5% A++ 頂標跨概念壓軸題型",
             "questionPattern": "題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「完成「While Leo ___ (cook), the phone ___ (ring). T…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。",
             "requiredKnowledge": "必備知識點：結合「過去進行式」、「when 與 while」與「可數與不可數數量（many/a few/few 接可數複數；much/a little/little 接不可數）」，並啟動邊界防禦機制「a little 表示有少量；little 常偏向幾乎沒有，語氣不同。可將第一句改為 Leo was cooking when the phone rang.，事件關係保持不變；並非看到 when 就一定把它後面所有動詞變成進行式」。",
-            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（背景動作是當時正在煮飯，填 was cooking；電話響是一次發生的事件，填 rang） ➔ 第 2 步聯立「when 與 while」與「可數與不可數數量」推演（rice 在此不可數，使用 a little rice；a few 要修飾複數可數名詞，如 a few eggs） ➔ 第 3 步將所得結論代回原情境執行「a little 表示有少量；little 常偏向幾乎沒有，語氣不同。可將第一句改為 Leo was cooking when the phone rang.，事件關係保持不變；並非看到 when 就一定把它後面所有動詞變成進行式」雙向驗算。"
+            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（背景動作是當時正在煮飯，填 was cooking；電話響是一次發生的事件，填 rang） ➔ 第 2 步聯立「when 與 while」與「可數與不可數數量」推演（rice 在此不可數，使用 a little rice；a few 要修飾複數可數名詞，如 a few eggs） ➔ 第 3 步將所得結論代回原情境執行「a little 表示有少量；little 常偏向幾乎沒有，語氣不同。可將第一句改為 Leo was cooking when the phone rang.，事件關係保持不變；並非看到 when 就一定把它後面所有動詞變成進行式」雙向驗算。",
+            "archetypeDrill": {
+              "stem": "【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「完成「While Leo ___ (cook), the phone ___ (ring). There w…」，若要達成 A++ 零失誤破關，應該採取哪項策略？",
+              "options": [
+                "直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算",
+                "只套用「過去進行式」的單向公式，忽略題幹給定的邊界限制與「Do not confuse \"a few\" (positive: some) with \"few\" (negative: almost none), or \"a little\" (some) with \"little\" (almost none). Remember \"were\" is used for you/we/they in past continuous.」",
+                "結合「可數與不可數數量（many/a few/few 接可數複數；much/a little/little 接不可數）」分步逆推（背景動作是當時正在煮飯，填 was cooking；電話響是一次發生的事件，填 rang），最後執行「a little 表示有少量；little 常偏向幾乎沒有，語氣不同。可將第一句改為 Leo was cooking when the phone rang.，事件關係保持不變；並非看到 when 就一定把它後面所有動詞變成進行式」代回驗算",
+                "認為逆向題無法用課本概念解決，放棄核對「a little 表示有少量；little 常偏向幾乎沒有，語氣不同。可將第一句改為 Leo was cooking when the phone rang.，事件關係保持不變；並非看到 when 就一定把它後面所有動詞變成進行式」的檢驗條件"
+              ],
+              "answer": 2,
+              "hint": "結合「可數與不可數數量」分步逆推，並務必執行「a little 表示有少量；little 常偏向幾乎沒有，語氣不同。可將第一句改為 Leo was cooking when the phone rang.，事件關係保持不變；並非看到 when 就一定把它後面所有動詞變成進行式」驗算。",
+              "explanation": "破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「可數與不可數數量：many/a few/few 接可數複數；much/a little/little 接不可數」逐步推演，最後一定要用「a little 表示有少量；little 常偏向幾乎沒有，語氣不同。可將第一句改為 Leo was cooking when the phone rang.，事件關係保持不變；並非看到 when 就一定把它後面所有動詞變成進行式」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！"
+            }
           }
         ],
         "knowledgeSufficiencyPatch": {
@@ -3807,12 +4287,14 @@
           "info.english-9.kp1",
           "q.english-9.kp1.def",
           "cq.english-9-q1",
-          "match.english-9.table"
+          "match.english-9.table",
+          "q.english-9.archetype.TypeA"
         ],
         "english-9:rule": [
           "info.english-9.kp2",
           "q.english-9.kp2.rule",
-          "q.english-9.deepening.contrast"
+          "q.english-9.deepening.contrast",
+          "q.english-9.archetype.TypeB"
         ],
         "english-9:reasoning": [
           "build.english-9.case",
@@ -3825,14 +4307,17 @@
           "info.english-9.kp3",
           "q.english-9.pitfall",
           "q.english-9.cap.example",
-          "q.english-9.cap.followup"
+          "q.english-9.cap.followup",
+          "q.english-9.archetype.TypeC"
         ],
         "english-9:boss": [
           "q.english-9.kp1.def",
           "cq.english-9-q1",
           "match.english-9.table",
+          "q.english-9.archetype.TypeA",
           "q.english-9.kp2.rule",
           "q.english-9.deepening.contrast",
+          "q.english-9.archetype.TypeB",
           "build.english-9.case",
           "cq.english-9-q2",
           "q.english-9.case.check",
@@ -3840,7 +4325,8 @@
           "enrich.english-9.1",
           "q.english-9.pitfall",
           "q.english-9.cap.example",
-          "q.english-9.cap.followup"
+          "q.english-9.cap.followup",
+          "q.english-9.archetype.TypeC"
         ]
       }
     },
@@ -3857,6 +4343,18 @@
         "example": "The soup tastes delicious. / That sounds like a great idea. / I saw the bird fly into the garden. / Mount Everest is the highest mountain in the world.",
         "pitfall": "Do not use adverbs after linking verbs (say \"The flower smells sweet\", not \"sweetly\"). Do not forget the definite article \"the\" before superlatives.",
         "task": "Write a food review describing a meal using three different sensory linking verbs and one superlative statement.",
+        "unitWonder": {
+          "wonderTitle": "✨ 為什麼「連綴動詞、感官動詞與最高級比較」超有趣？生活超能力 × 秒殺口訣",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「連綴動詞、感官動詞與最高級比較」其實就在你身邊！例如：The soup tastes delicious. / That sounds like a great idea. / I saw the bird fly into the garden. / Mount Everest is the highest mountain in the world.。當你搞懂「原級同等比較（as + 形容詞/副詞原級 + as（和...一樣））」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
+          "funFact": "你知道嗎？在「連綴動詞、感官動詞與最高級比較」中，高達 80% 的人最容易在「連綴動詞 vs. 感官動詞」搞混，或是掉進「Do not use adverbs after linking verbs (say \"The flower smells sweet\", not \"sweetly\"). Do not forget the definite article \"the\" before superlatives.」的直覺陷阱！其實從微觀機制來看：對照判準與實例：as + 形容詞/副詞原級 + as（和...一樣）。He is as smart as his brother. / She sings as beautifully as a bird.。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "mnemonic": "🎵【連綴動詞、感官動詞與最高級比較 · 快樂秒殺口訣】\n① 抓基準：原級同等比較看仔細（as + 形容詞/副詞原級 + as（和...一樣））\n② 分左右：連綴動詞對照感官動詞，關鍵就在「否定同等比較」\n③ 避陷阱：小心「Do not use adverbs after」別中計\n④ 穩驗算：最後代回「三句分別考主詞補語、感官動詞後結構、最高級，不能」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在「連綴動詞、感官動詞與最高級比較」的情境裡，如果有人把「連綴動詞」跟「感官動詞」當成一模一樣，會發生什麼事？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not use adverbs after linking verbs (say \"The flower smells sweet\", not \"sweetly\"). Do not forget the definite article \"the\" before superlatives.」！因為【連綴動詞】是「後接形容詞描述主詞，如 looks happy」，而【感官動詞】則是「看見或聽見受詞做動作，可接原形或 V-ing，意義有別」。只要用「否定同等比較」先做區分，就能輕鬆破解！",
+          "superpower": "🌍 跨文化任意門與世界玩家",
+          "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
+          "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
+          "cheer": "知知貓頭鷹：「多會一種語言，就像在腦中多開了一個全新的世界地圖！」"
+        },
         "knowledgePoints": [
           {
             "id": "english-10-kp-1",
@@ -4071,7 +4569,19 @@
             "capRef": "108 課綱基礎指標【Ac-IV-9, 1-IV-9】核心題型",
             "questionPattern": "題幹直接給出「The soup tastes delicious. / That sounds like a great idea. / I saw the bird fly into the garden. / Mount Everest is the highest mountain in the world.」之標準條件或基本圖式，要求判別「原級同等比較」的正確性或直接求出單一目標量。",
             "requiredKnowledge": "必備知識點：「原級同等比較」——as + 形容詞/副詞原級 + as（和...一樣）（課本實例檢核：He is as smart as his brother. / She sings as beautifully as a bird.）。",
-            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「原級同等比較」判準 ➔ 第 3 步核對是否觸犯「Do not use adverbs after linking verbs (say \"The flower smells sweet\", not \"sweetly\"). Do not forget the definite article \"the\" before superlatives.」基本防線。"
+            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「原級同等比較」判準 ➔ 第 3 步核對是否觸犯「Do not use adverbs after linking verbs (say \"The flower smells sweet\", not \"sweetly\"). Do not forget the definite article \"the\" before superlatives.」基本防線。",
+            "archetypeDrill": {
+              "stem": "【Type A 基礎秒殺挑戰】在「連綴動詞、感官動詞與最高級比較」的基礎情境（如：The soup tastes delicious. / That sounds like a great idea. / I saw the bird fly into the garden. / Mount Everest is the highest mountain in the world.）中，若要正確運用「原級同等比較」快速破題，下列哪個作法最正確？",
+              "options": [
+                "忽略基準前提，誤以為在任何情況下「Do not use adverbs after linking verbs (say \"The flower smells sweet\", not \"sweetly\"). Do not forget the definite article \"the\" before superlatives.」皆不影響結果",
+                "依據「原級同等比較」判準：as + 形容詞/副詞原級 + as（和...一樣）（課本實例核對：He is as smart as his brother. / She sings as beautifully as a bird.）",
+                "將「原級同等比較」與「感官動詞」混淆，直接套用相反方向的規則",
+                "僅憑直覺猜測單一數值，不檢查單位與「原級同等比較」的成立條件"
+              ],
+              "answer": 1,
+              "hint": "回想「原級同等比較」的核心定義：as + 形容詞/副詞原級 + as（和...一樣）。",
+              "explanation": "破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「原級同等比較：as + 形容詞/副詞原級 + as（和...一樣）」，並以「He is as smart as his brother. / She sings as beautifully as a bird.」核對、避開「Do not use adverbs after linking verbs (say \"The flower smells sweet\", not \"sweetly\"). Do not forget the definite article \"the\" before superlatives.」，就能一秒鎖定正確答案！"
+            }
           },
           {
             "code": "Type B",
@@ -4080,7 +4590,19 @@
             "capRef": "康軒／翰林／南一跨版本整合應用題型",
             "questionPattern": "題幹結合實驗紀錄表、對照圖形或雙情境文本，將「連綴動詞」與「感官動詞」並列呈現，考驗學生能否從非連續性資訊中提煉「否定同等比較」的變化規律。",
             "requiredKnowledge": "必備知識點：(1) 連綴動詞：後接形容詞描述主詞，如 looks happy；(2) 感官動詞：看見或聽見受詞做動作，可接原形或 V-ing，意義有別；(3) 轉換規則：not as/so + 原級 + as（不及...；不如...）。",
-            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「否定同等比較」區隔「連綴動詞」與「感官動詞」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。"
+            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「否定同等比較」區隔「連綴動詞」與「感官動詞」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。",
+            "archetypeDrill": {
+              "stem": "【Type B 雙情境對照挑戰】當題目同時列出「連綴動詞」與「感官動詞」並要求結合「否定同等比較」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？",
+              "options": [
+                "把「連綴動詞」與「感官動詞」當成完全相同的條件，直接平均兩者數據",
+                "只看圖表或題幹的最後一個數字，完全忽略「否定同等比較」的轉換關係",
+                "先鎖定控制變因，區分「連綴動詞（後接形容詞描述主詞，如 looks happy）」與「感官動詞（看見或聽見受詞做動作，可接原形或 V-ing，意義有別）」，再依「not as/so + 原級 + as（不及...；不如...）」推導",
+                "掉入「Do not use adverbs after linking verbs (say \"The flower smells sweet\", not \"sweetly\"). Do not forget the definite article \"the\" before superlatives.」陷阱，把「感官動詞」的特徵張冠李戴到「連綴動詞」"
+              ],
+              "answer": 2,
+              "hint": "先分清楚「連綴動詞」與「感官動詞」的差異，再套用「否定同等比較」。",
+              "explanation": "破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「連綴動詞（後接形容詞描述主詞，如 looks happy）」與「感官動詞（看見或聽見受詞做動作，可接原形或 V-ing，意義有別）」，再運用「否定同等比較：not as/so + 原級 + as（不及...；不如...）」，就不會被張冠李戴的選項騙倒！"
+            }
           },
           {
             "code": "Type C",
@@ -4089,7 +4611,19 @@
             "capRef": "會考前 5% A++ 頂標跨概念壓軸題型",
             "questionPattern": "題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「修正「The soup tastes well. I saw Ken crossed the s…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。",
             "requiredKnowledge": "必備知識點：結合「原級同等比較」、「否定同等比較」與「越來越... (More and more)（單音節用比較級 and 比較級；多音節用 more and more + 原級）」，並啟動邊界防禦機制「三句分別考主詞補語、感官動詞後結構、最高級，不能用「全部改原形」處理。若說 Ken looks well，well 可表示身體健康，需注意單字依語境可能有不同詞性與意思」。",
-            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（soup 的味道用形容詞 good 描述，改為 The soup tastes good.；well 通常作副詞，不能在此表湯味好） ➔ 第 2 步聯立「否定同等比較」與「越來越... (More and more)」推演（感官句可寫 I saw Ken cross the street.，看見過街事件；或 saw Ken crossing，著眼正在過街的過程，不能接 crossed 當第二個限定動詞） ➔ 第 3 步將所得結論代回原情境執行「三句分別考主詞補語、感官動詞後結構、最高級，不能用「全部改原形」處理。若說 Ken looks well，well 可表示身體健康，需注意單字依語境可能有不同詞性與意思」雙向驗算。"
+            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（soup 的味道用形容詞 good 描述，改為 The soup tastes good.；well 通常作副詞，不能在此表湯味好） ➔ 第 2 步聯立「否定同等比較」與「越來越... (More and more)」推演（感官句可寫 I saw Ken cross the street.，看見過街事件；或 saw Ken crossing，著眼正在過街的過程，不能接 crossed 當第二個限定動詞） ➔ 第 3 步將所得結論代回原情境執行「三句分別考主詞補語、感官動詞後結構、最高級，不能用「全部改原形」處理。若說 Ken looks well，well 可表示身體健康，需注意單字依語境可能有不同詞性與意思」雙向驗算。",
+            "archetypeDrill": {
+              "stem": "【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「修正「The soup tastes well. I saw Ken crossed the street.…」，若要達成 A++ 零失誤破關，應該採取哪項策略？",
+              "options": [
+                "直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算",
+                "只套用「原級同等比較」的單向公式，忽略題幹給定的邊界限制與「Do not use adverbs after linking verbs (say \"The flower smells sweet\", not \"sweetly\"). Do not forget the definite article \"the\" before superlatives.」",
+                "認為逆向題無法用課本概念解決，放棄核對「三句分別考主詞補語、感官動詞後結構、最高級，不能用「全部改原形」處理。若說 Ken looks well，well 可表示身體健康，需注意單字依語境可能有不同詞性與意思」的檢驗條件",
+                "結合「越來越... (More and more)（單音節用比較級 and 比較級；多音節用 more and more + 原級）」分步逆推（soup 的味道用形容詞 good 描述，改為 The soup tastes good.；well 通常作副詞，不能在此表湯味好），最後執行「三句分別考主詞補語、感官動詞後結構、最高級，不能用「全部改原形」處理。若說 Ken looks well，well 可表示身體健康，需注意單字依語境可能有不同詞性與意思」代回驗算"
+              ],
+              "answer": 3,
+              "hint": "結合「越來越... (More and more)」分步逆推，並務必執行「三句分別考主詞補語、感官動詞後結構、最高級，不能用「全部改原形」處理。若說 Ken looks well，well 可表示身體健康，需注意單字依語境可能有不同詞性與意思」驗算。",
+              "explanation": "破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「越來越... (More and more)：單音節用比較級 and 比較級；多音節用 more and more + 原級」逐步推演，最後一定要用「三句分別考主詞補語、感官動詞後結構、最高級，不能用「全部改原形」處理。若說 Ken looks well，well 可表示身體健康，需注意單字依語境可能有不同詞性與意思」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！"
+            }
           }
         ],
         "knowledgeSufficiencyPatch": {
@@ -4232,12 +4766,14 @@
           "info.english-10.kp1",
           "q.english-10.kp1.def",
           "cq.english-10-q1",
-          "match.english-10.table"
+          "match.english-10.table",
+          "q.english-10.archetype.TypeA"
         ],
         "english-10:rule": [
           "info.english-10.kp2",
           "q.english-10.kp2.rule",
-          "q.english-10.deepening.contrast"
+          "q.english-10.deepening.contrast",
+          "q.english-10.archetype.TypeB"
         ],
         "english-10:reasoning": [
           "build.english-10.case",
@@ -4250,14 +4786,17 @@
           "info.english-10.kp3",
           "q.english-10.pitfall",
           "q.english-10.cap.example",
-          "q.english-10.cap.followup"
+          "q.english-10.cap.followup",
+          "q.english-10.archetype.TypeC"
         ],
         "english-10:boss": [
           "q.english-10.kp1.def",
           "cq.english-10-q1",
           "match.english-10.table",
+          "q.english-10.archetype.TypeA",
           "q.english-10.kp2.rule",
           "q.english-10.deepening.contrast",
+          "q.english-10.archetype.TypeB",
           "build.english-10.case",
           "cq.english-10-q2",
           "q.english-10.case.check",
@@ -4265,7 +4804,8 @@
           "enrich.english-10.1",
           "q.english-10.pitfall",
           "q.english-10.cap.example",
-          "q.english-10.cap.followup"
+          "q.english-10.cap.followup",
+          "q.english-10.archetype.TypeC"
         ]
       }
     },
@@ -4282,6 +4822,18 @@
         "example": "She bought a gift for her brother (= She bought her brother a gift). / The teacher made us clean the classroom. / I have studied English since 2020.",
         "pitfall": "Do not use \"to V\" after causative verbs (say \"Mom let me go\", not \"Mom let me to go\"). \"Since\" takes a specific starting point; \"for\" takes a duration of time.",
         "task": "Create two pairs of sentences showing dative verb transformations with \"to\" and \"for\", and one sentence using \"let\" or \"make\".",
+        "unitWonder": {
+          "wonderTitle": "✨ 為什麼「授予動詞、使役動詞與現在完成式進階」超有趣？生活超能力 × 秒殺口訣",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「授予動詞、使役動詞與現在完成式進階」其實就在你身邊！例如：She bought a gift for her brother (= She bought her brother a gift). / The teacher made us clean the classroom. / I have studied English since 2020.。當你搞懂「使役動詞（make/have/let + 受詞 + 原形動詞；get + 受詞 + to V）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
+          "funFact": "你知道嗎？在「授予動詞、使役動詞與現在完成式進階」中，高達 80% 的人最容易在「過去式 vs. 現在完成式」搞混，或是掉進「Do not use \"to V\" after causative verbs (say \"Mom let me go\", not \"Mom let me to go\"). \"Since\" takes a specific starting point; \"for\" takes a duration of time.」的直覺陷阱！其實從微觀機制來看：對照判準與實例：make/have/let + 受詞 + 原形動詞；get + 受詞 + to V。Mom made me clean my room. / Dad let him drive the car.。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "mnemonic": "🎵【授予動詞、使役動詞與現在完成式進階 · 快樂秒殺口訣】\n① 抓基準：使役動詞看仔細（make/have/let + 受詞 + 原形動詞；）\n② 分左右：過去式對照現在完成式，關鍵就在「授予動詞介系詞」\n③ 避陷阱：小心「Do not use \"to V\" after 」別中計\n④ 穩驗算：最後代回「buy 是購買事件，have 在此是持有狀態；若」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在「授予動詞、使役動詞與現在完成式進階」的情境裡，如果有人把「過去式」跟「現在完成式」當成一模一樣，會發生什麼事？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not use \"to V\" after causative verbs (say \"Mom let me go\", not \"Mom let me to go\"). \"Since\" takes a specific starting point; \"for\" takes a duration of time.」！因為【過去式】是「著重明確過去時間的事件」，而【現在完成式】則是「have/has+過去分詞，連結過去與現在」。只要用「授予動詞介系詞」先做區分，就能輕鬆破解！",
+          "superpower": "🌍 跨文化任意門與世界玩家",
+          "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
+          "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
+          "cheer": "知知貓頭鷹：「多會一種語言，就像在腦中多開了一個全新的世界地圖！」"
+        },
         "knowledgePoints": [
           {
             "id": "english-11-kp-1",
@@ -4496,7 +5048,19 @@
             "capRef": "109 會考第 8 題（概念辨析）",
             "questionPattern": "題幹直接給出「She bought a gift for her brother (= She bought her brother a gift). / The teacher made us clean the classroom. / I have studied English since 2020.」之標準條件或基本圖式，要求判別「使役動詞」的正確性或直接求出單一目標量。",
             "requiredKnowledge": "必備知識點：「使役動詞」——make/have/let + 受詞 + 原形動詞；get + 受詞 + to V（課本實例檢核：Mom made me clean my room. / Dad let him drive the car.）。",
-            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「使役動詞」判準 ➔ 第 3 步核對是否觸犯「Do not use \"to V\" after causative verbs (say \"Mom let me go\", not \"Mom let me to go\"). \"Since\" takes a specific starting point; \"for\" takes a duration of time.」基本防線。"
+            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「使役動詞」判準 ➔ 第 3 步核對是否觸犯「Do not use \"to V\" after causative verbs (say \"Mom let me go\", not \"Mom let me to go\"). \"Since\" takes a specific starting point; \"for\" takes a duration of time.」基本防線。",
+            "archetypeDrill": {
+              "stem": "【Type A 基礎秒殺挑戰】在「授予動詞、使役動詞與現在完成式進階」的基礎情境（如：She bought a gift for her brother (= She bought her brother a gift). / The teacher made us clean the classroom. / I have studied English since 2020.）中，若要正確運用「使役動詞」快速破題，下列哪個作法最正確？",
+              "options": [
+                "忽略基準前提，誤以為在任何情況下「Do not use \"to V\" after causative verbs (say \"Mom let me go\", not \"Mom let me to go\"). \"Since\" takes a specific starting point; \"for\" takes a duration of time.」皆不影響結果",
+                "將「使役動詞」與「現在完成式」混淆，直接套用相反方向的規則",
+                "依據「使役動詞」判準：make/have/let + 受詞 + 原形動詞；get + 受詞 + to V（課本實例核對：Mom made me clean my room. / Dad let him drive the car.）",
+                "僅憑直覺猜測單一數值，不檢查單位與「使役動詞」的成立條件"
+              ],
+              "answer": 2,
+              "hint": "回想「使役動詞」的核心定義：make/have/let + 受詞 + 原形動詞；get + 受詞 + to V。",
+              "explanation": "破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「使役動詞：make/have/let + 受詞 + 原形動詞；get + 受詞 + to V」，並以「Mom made me clean my room. / Dad let him drive the car.」核對、避開「Do not use \"to V\" after causative verbs (say \"Mom let me go\", not \"Mom let me to go\"). \"Since\" takes a specific starting point; \"for\" takes a duration of time.」，就能一秒鎖定正確答案！"
+            }
           },
           {
             "code": "Type B",
@@ -4505,7 +5069,19 @@
             "capRef": "109 會考第 20 題（概念辨析）",
             "questionPattern": "題幹結合實驗紀錄表、對照圖形或雙情境文本，將「過去式」與「現在完成式」並列呈現，考驗學生能否從非連續性資訊中提煉「授予動詞介系詞」的變化規律。",
             "requiredKnowledge": "必備知識點：(1) 過去式：著重明確過去時間的事件；(2) 現在完成式：have/has+過去分詞，連結過去與現在；(3) 轉換規則：give/send/show + 物 + to + 人；buy/make/cook + 物 + for + 人。",
-            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「授予動詞介系詞」區隔「過去式」與「現在完成式」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。"
+            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「授予動詞介系詞」區隔「過去式」與「現在完成式」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。",
+            "archetypeDrill": {
+              "stem": "【Type B 雙情境對照挑戰】當題目同時列出「過去式」與「現在完成式」並要求結合「授予動詞介系詞」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？",
+              "options": [
+                "把「過去式」與「現在完成式」當成完全相同的條件，直接平均兩者數據",
+                "只看圖表或題幹的最後一個數字，完全忽略「授予動詞介系詞」的轉換關係",
+                "掉入「Do not use \"to V\" after causative verbs (say \"Mom let me go\", not \"Mom let me to go\"). \"Since\" takes a specific starting point; \"for\" takes a duration of time.」陷阱，把「現在完成式」的特徵張冠李戴到「過去式」",
+                "先鎖定控制變因，區分「過去式（著重明確過去時間的事件）」與「現在完成式（have/has+過去分詞，連結過去與現在）」，再依「give/send/show + 物 + to + 人；buy/make/cook + 物 + for + 人」推導"
+              ],
+              "answer": 3,
+              "hint": "先分清楚「過去式」與「現在完成式」的差異，再套用「授予動詞介系詞」。",
+              "explanation": "破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「過去式（著重明確過去時間的事件）」與「現在完成式（have/has+過去分詞，連結過去與現在）」，再運用「授予動詞介系詞：give/send/show + 物 + to + 人；buy/make/cook + 物 + for + 人」，就不會被張冠李戴的選項騙倒！"
+            }
           },
           {
             "code": "Type C",
@@ -4514,7 +5090,19 @@
             "capRef": "109 會考第 22 題（概念辨析）",
             "questionPattern": "題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「改寫「Dad bought me a bike.」並完成「He let me ___ (ride…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。",
             "requiredKnowledge": "必備知識點：結合「使役動詞」、「授予動詞介系詞」與「現在完成式持續（have/has + p.p. 搭配 since（接時間點）或 for（接時間長度））」，並啟動邊界防禦機制「buy 是購買事件，have 在此是持有狀態；若表示持續擁有，have had 比 have bought since 更符合意思。對照 He gave a bike to me.，give 使用 to。for three years 與 since 2023 的資訊形式不同，也不能在未知道當年日期時說兩者一定等義」。",
-            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（雙受詞改為 Dad bought a bike for me.，buy 在此搭配 for，不能機械套所有動詞都用 to） ➔ 第 2 步聯立「授予動詞介系詞」與「現在完成式持續」推演（使役句為 He let me ride it.，let 後接 me 和原形 ride，不用 to ride） ➔ 第 3 步將所得結論代回原情境執行「buy 是購買事件，have 在此是持有狀態；若表示持續擁有，have had 比 have bought since 更符合意思。對照 He gave a bike to me.，give 使用 to。for three years 與 since 2023 的資訊形式不同，也不能在未知道當年日期時說兩者一定等義」雙向驗算。"
+            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（雙受詞改為 Dad bought a bike for me.，buy 在此搭配 for，不能機械套所有動詞都用 to） ➔ 第 2 步聯立「授予動詞介系詞」與「現在完成式持續」推演（使役句為 He let me ride it.，let 後接 me 和原形 ride，不用 to ride） ➔ 第 3 步將所得結論代回原情境執行「buy 是購買事件，have 在此是持有狀態；若表示持續擁有，have had 比 have bought since 更符合意思。對照 He gave a bike to me.，give 使用 to。for three years 與 since 2023 的資訊形式不同，也不能在未知道當年日期時說兩者一定等義」雙向驗算。",
+            "archetypeDrill": {
+              "stem": "【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「改寫「Dad bought me a bike.」並完成「He let me ___ (ride) it.…」，若要達成 A++ 零失誤破關，應該採取哪項策略？",
+              "options": [
+                "結合「現在完成式持續（have/has + p.p. 搭配 since（接時間點）或 for（接時間長度））」分步逆推（雙受詞改為 Dad bought a bike for me.，buy 在此搭配 for，不能機械套所有動詞都用 to），最後執行「buy 是購買事件，have 在此是持有狀態；若表示持續擁有，have had 比 have bought since 更符合意思。對照 He gave a bike to me.，give 使用 to。for three years 與 since 2023 的資訊形式不同，也不能在未知道當年日期時說兩者一定等義」代回驗算",
+                "直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算",
+                "只套用「使役動詞」的單向公式，忽略題幹給定的邊界限制與「Do not use \"to V\" after causative verbs (say \"Mom let me go\", not \"Mom let me to go\"). \"Since\" takes a specific starting point; \"for\" takes a duration of time.」",
+                "認為逆向題無法用課本概念解決，放棄核對「buy 是購買事件，have 在此是持有狀態；若表示持續擁有，have had 比 have bought since 更符合意思。對照 He gave a bike to me.，give 使用 to。for three years 與 since 2023 的資訊形式不同，也不能在未知道當年日期時說兩者一定等義」的檢驗條件"
+              ],
+              "answer": 0,
+              "hint": "結合「現在完成式持續」分步逆推，並務必執行「buy 是購買事件，have 在此是持有狀態；若表示持續擁有，have had 比 have bought since 更符合意思。對照 He gave a bike to me.，give 使用 to。for three years 與 since 2023 的資訊形式不同，也不能在未知道當年日期時說兩者一定等義」驗算。",
+              "explanation": "破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「現在完成式持續：have/has + p.p. 搭配 since（接時間點）或 for（接時間長度）」逐步推演，最後一定要用「buy 是購買事件，have 在此是持有狀態；若表示持續擁有，have had 比 have bought since 更符合意思。對照 He gave a bike to me.，give 使用 to。for three years 與 since 2023 的資訊形式不同，也不能在未知道當年日期時說兩者一定等義」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！"
+            }
           }
         ],
         "knowledgeSufficiencyPatch": {
@@ -4657,12 +5245,14 @@
           "info.english-11.kp1",
           "q.english-11.kp1.def",
           "cq.english-11-q1",
-          "match.english-11.table"
+          "match.english-11.table",
+          "q.english-11.archetype.TypeA"
         ],
         "english-11:rule": [
           "info.english-11.kp2",
           "q.english-11.kp2.rule",
-          "q.english-11.deepening.contrast"
+          "q.english-11.deepening.contrast",
+          "q.english-11.archetype.TypeB"
         ],
         "english-11:reasoning": [
           "build.english-11.case",
@@ -4677,14 +5267,17 @@
           "cap.109-english-8",
           "cap.109-english-20",
           "q.english-11.cap.example",
-          "q.english-11.cap.followup"
+          "q.english-11.cap.followup",
+          "q.english-11.archetype.TypeC"
         ],
         "english-11:boss": [
           "q.english-11.kp1.def",
           "cq.english-11-q1",
           "match.english-11.table",
+          "q.english-11.archetype.TypeA",
           "q.english-11.kp2.rule",
           "q.english-11.deepening.contrast",
+          "q.english-11.archetype.TypeB",
           "build.english-11.case",
           "cq.english-11-q2",
           "q.english-11.case.check",
@@ -4694,7 +5287,8 @@
           "cap.109-english-8",
           "cap.109-english-20",
           "q.english-11.cap.example",
-          "q.english-11.cap.followup"
+          "q.english-11.cap.followup",
+          "q.english-11.archetype.TypeC"
         ]
       }
     },
@@ -4711,6 +5305,18 @@
         "example": "You like playing soccer, don’t you? / She isn’t coming, is she? / I wonder where the post office is. / Do you know if the bus has arrived?",
         "pitfall": "In indirect questions, do not keep inversion or auxiliary do/does/did (say \"Can you tell me where he lives?\", not \"where does he live?\").",
         "task": "Convert two direct questions (e.g. \"What time does the movie start?\") into polite indirect questions starting with \"Could you tell me...\".",
+        "unitWonder": {
+          "wonderTitle": "✨ 為什麼「附加問句、名詞子句與間接問句」超有趣？生活超能力 × 秒殺口訣",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「附加問句、名詞子句與間接問句」其實就在你身邊！例如：You like playing soccer, don’t you? / She isn’t coming, is she? / I wonder where the post office is. / Do you know if the bus has arrived?。當你搞懂「直接問句（疑問詞＋倒裝結構）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
+          "funFact": "你知道嗎？在「附加問句、名詞子句與間接問句」中，高達 80% 的人最容易在「直接問句 vs. 間接問句」搞混，或是掉進「In indirect questions, do not keep inversion or auxiliary do/does/did (say \"Can you tell me where he lives?\", not \"where does he live?\").」的直覺陷阱！其實從微觀機制來看：對照判準與實例：疑問詞＋倒裝結構。Where does he live?。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "mnemonic": "🎵【附加問句、名詞子句與間接問句 · 快樂秒殺口訣】\n① 抓基準：直接問句看仔細（疑問詞＋倒裝結構）\n② 分左右：直接問句對照間接問句，關鍵就在「間接問句」\n③ 避陷阱：小心「In indirect questions, d」別中計\n④ 穩驗算：最後代回「不能寫 where does Eva live 」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在「附加問句、名詞子句與間接問句」的情境裡，如果有人把「直接問句」跟「間接問句」當成一模一樣，會發生什麼事？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「In indirect questions, do not keep inversion or auxiliary do/does/did (say \"Can you tell me where he lives?\", not \"where does he live?\").」！因為【直接問句】是「常有助動詞與主詞倒裝」，而【間接問句】則是「問句嵌入其他句子後通常改陳述語序」。只要用「間接問句」先做區分，就能輕鬆破解！",
+          "superpower": "🌍 跨文化任意門與世界玩家",
+          "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
+          "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
+          "cheer": "知知貓頭鷹：「多會一種語言，就像在腦中多開了一個全新的世界地圖！」"
+        },
         "knowledgePoints": [
           {
             "id": "english-12-kp-1",
@@ -4925,7 +5531,19 @@
             "capRef": "109 會考第 18 題（概念辨析）",
             "questionPattern": "題幹直接給出「You like playing soccer, don’t you? / She isn’t coming, is she? / I wonder where the post office is. / Do you know if the bus has arrived?」之標準條件或基本圖式，要求判別「直接問句」的正確性或直接求出單一目標量。",
             "requiredKnowledge": "必備知識點：「直接問句」——疑問詞＋倒裝結構（課本實例檢核：Where does he live?）。",
-            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「直接問句」判準 ➔ 第 3 步核對是否觸犯「In indirect questions, do not keep inversion or auxiliary do/does/did (say \"Can you tell me where he lives?\", not \"where does he live?\").」基本防線。"
+            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「直接問句」判準 ➔ 第 3 步核對是否觸犯「In indirect questions, do not keep inversion or auxiliary do/does/did (say \"Can you tell me where he lives?\", not \"where does he live?\").」基本防線。",
+            "archetypeDrill": {
+              "stem": "【Type A 基礎秒殺挑戰】在「附加問句、名詞子句與間接問句」的基礎情境（如：You like playing soccer, don’t you? / She isn’t coming, is she? / I wonder where the post office is. / Do you know if the bus has arrived?）中，若要正確運用「直接問句」快速破題，下列哪個作法最正確？",
+              "options": [
+                "忽略基準前提，誤以為在任何情況下「In indirect questions, do not keep inversion or auxiliary do/does/did (say \"Can you tell me where he lives?\", not \"where does he live?\").」皆不影響結果",
+                "將「直接問句」與「間接問句」混淆，直接套用相反方向的規則",
+                "僅憑直覺猜測單一數值，不檢查單位與「直接問句」的成立條件",
+                "依據「直接問句」判準：疑問詞＋倒裝結構（課本實例核對：Where does he live?）"
+              ],
+              "answer": 3,
+              "hint": "回想「直接問句」的核心定義：疑問詞＋倒裝結構。",
+              "explanation": "破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「直接問句：疑問詞＋倒裝結構」，並以「Where does he live?」核對、避開「In indirect questions, do not keep inversion or auxiliary do/does/did (say \"Can you tell me where he lives?\", not \"where does he live?\").」，就能一秒鎖定正確答案！"
+            }
           },
           {
             "code": "Type B",
@@ -4934,7 +5552,19 @@
             "capRef": "109 會考第 21 題（概念辨析）",
             "questionPattern": "題幹結合實驗紀錄表、對照圖形或雙情境文本，將「直接問句」與「間接問句」並列呈現，考驗學生能否從非連續性資訊中提煉「間接問句」的變化規律。",
             "requiredKnowledge": "必備知識點：(1) 直接問句：常有助動詞與主詞倒裝；(2) 間接問句：問句嵌入其他句子後通常改陳述語序；(3) 轉換規則：疑問詞＋主詞＋動詞。",
-            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「間接問句」區隔「直接問句」與「間接問句」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。"
+            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「間接問句」區隔「直接問句」與「間接問句」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。",
+            "archetypeDrill": {
+              "stem": "【Type B 雙情境對照挑戰】當題目同時列出「直接問句」與「間接問句」並要求結合「間接問句」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？",
+              "options": [
+                "先鎖定控制變因，區分「直接問句（常有助動詞與主詞倒裝）」與「間接問句（問句嵌入其他句子後通常改陳述語序）」，再依「疑問詞＋主詞＋動詞」推導",
+                "把「直接問句」與「間接問句」當成完全相同的條件，直接平均兩者數據",
+                "只看圖表或題幹的最後一個數字，完全忽略「間接問句」的轉換關係",
+                "掉入「In indirect questions, do not keep inversion or auxiliary do/does/did (say \"Can you tell me where he lives?\", not \"where does he live?\").」陷阱，把「間接問句」的特徵張冠李戴到「直接問句」"
+              ],
+              "answer": 0,
+              "hint": "先分清楚「直接問句」與「間接問句」的差異，再套用「間接問句」。",
+              "explanation": "破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「直接問句（常有助動詞與主詞倒裝）」與「間接問句（問句嵌入其他句子後通常改陳述語序）」，再運用「間接問句：疑問詞＋主詞＋動詞」，就不會被張冠李戴的選項騙倒！"
+            }
           },
           {
             "code": "Type C",
@@ -4943,7 +5573,19 @@
             "capRef": "109 會考第 29 題（概念辨析）",
             "questionPattern": "題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「合併「Can you tell me?」「Where does Eva live?」，並在「Ev…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。",
             "requiredKnowledge": "必備知識點：結合「直接問句」、「間接問句」與「是否（if/whether＋主詞＋動詞）」，並啟動邊界防禦機制「不能寫 where does Eva live 放在 tell me 後，也不能寫 doesn’t Eva 重複姓名取代常見代名詞。再比較 I wonder where Eva lives.，同樣的嵌入子句放在陳述主句後，整句通常用句號，標點須看整句功能」。",
-            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（原直接問句的 does 是為了倒裝提問；嵌入後改成 where Eva lives，主詞 Eva 在動詞前） ➔ 第 2 步聯立「間接問句」與「是否」推演（合併為 Can you tell me where Eva lives?，整句問號由外層 Can you tell me 決定） ➔ 第 3 步將所得結論代回原情境執行「不能寫 where does Eva live 放在 tell me 後，也不能寫 doesn’t Eva 重複姓名取代常見代名詞。再比較 I wonder where Eva lives.，同樣的嵌入子句放在陳述主句後，整句通常用句號，標點須看整句功能」雙向驗算。"
+            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（原直接問句的 does 是為了倒裝提問；嵌入後改成 where Eva lives，主詞 Eva 在動詞前） ➔ 第 2 步聯立「間接問句」與「是否」推演（合併為 Can you tell me where Eva lives?，整句問號由外層 Can you tell me 決定） ➔ 第 3 步將所得結論代回原情境執行「不能寫 where does Eva live 放在 tell me 後，也不能寫 doesn’t Eva 重複姓名取代常見代名詞。再比較 I wonder where Eva lives.，同樣的嵌入子句放在陳述主句後，整句通常用句號，標點須看整句功能」雙向驗算。",
+            "archetypeDrill": {
+              "stem": "【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「合併「Can you tell me?」「Where does Eva live?」，並在「Eva live…」，若要達成 A++ 零失誤破關，應該採取哪項策略？",
+              "options": [
+                "直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算",
+                "結合「是否（if/whether＋主詞＋動詞）」分步逆推（原直接問句的 does 是為了倒裝提問；嵌入後改成 where Eva lives，主詞 Eva 在動詞前），最後執行「不能寫 where does Eva live 放在 tell me 後，也不能寫 doesn’t Eva 重複姓名取代常見代名詞。再比較 I wonder where Eva lives.，同樣的嵌入子句放在陳述主句後，整句通常用句號，標點須看整句功能」代回驗算",
+                "只套用「直接問句」的單向公式，忽略題幹給定的邊界限制與「In indirect questions, do not keep inversion or auxiliary do/does/did (say \"Can you tell me where he lives?\", not \"where does he live?\").」",
+                "認為逆向題無法用課本概念解決，放棄核對「不能寫 where does Eva live 放在 tell me 後，也不能寫 doesn’t Eva 重複姓名取代常見代名詞。再比較 I wonder where Eva lives.，同樣的嵌入子句放在陳述主句後，整句通常用句號，標點須看整句功能」的檢驗條件"
+              ],
+              "answer": 1,
+              "hint": "結合「是否」分步逆推，並務必執行「不能寫 where does Eva live 放在 tell me 後，也不能寫 doesn’t Eva 重複姓名取代常見代名詞。再比較 I wonder where Eva lives.，同樣的嵌入子句放在陳述主句後，整句通常用句號，標點須看整句功能」驗算。",
+              "explanation": "破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「是否：if/whether＋主詞＋動詞」逐步推演，最後一定要用「不能寫 where does Eva live 放在 tell me 後，也不能寫 doesn’t Eva 重複姓名取代常見代名詞。再比較 I wonder where Eva lives.，同樣的嵌入子句放在陳述主句後，整句通常用句號，標點須看整句功能」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！"
+            }
           }
         ],
         "knowledgeSufficiencyPatch": {
@@ -5085,12 +5727,14 @@
           "info.english-12.kp1",
           "q.english-12.kp1.def",
           "cq.english-12-q1",
-          "match.english-12.table"
+          "match.english-12.table",
+          "q.english-12.archetype.TypeA"
         ],
         "english-12:rule": [
           "info.english-12.kp2",
           "q.english-12.kp2.rule",
-          "q.english-12.deepening.contrast"
+          "q.english-12.deepening.contrast",
+          "q.english-12.archetype.TypeB"
         ],
         "english-12:reasoning": [
           "build.english-12.case",
@@ -5105,14 +5749,17 @@
           "cap.109-english-18",
           "cap.109-english-21",
           "q.english-12.cap.example",
-          "q.english-12.cap.followup"
+          "q.english-12.cap.followup",
+          "q.english-12.archetype.TypeC"
         ],
         "english-12:boss": [
           "q.english-12.kp1.def",
           "cq.english-12-q1",
           "match.english-12.table",
+          "q.english-12.archetype.TypeA",
           "q.english-12.kp2.rule",
           "q.english-12.deepening.contrast",
+          "q.english-12.archetype.TypeB",
           "build.english-12.case",
           "cq.english-12-q2",
           "q.english-12.case.check",
@@ -5122,7 +5769,8 @@
           "cap.109-english-18",
           "cap.109-english-21",
           "q.english-12.cap.example",
-          "q.english-12.cap.followup"
+          "q.english-12.cap.followup",
+          "q.english-12.archetype.TypeC"
         ]
       }
     },
@@ -5139,6 +5787,18 @@
         "example": "We walked through the dark tunnel and came across the river. / The concert will take place at 8:00 p.m. on Friday, in Taipei Arena.",
         "pitfall": "Do not say \"on 2024\" or \"in Sunday\". Remember you walk \"through\" a forest/tunnel (3D space), but walk \"across\" a street/bridge (flat surface).",
         "task": "Write three sentences describing your morning commute to school, using at least three different prepositions of place and movement (e.g. out of, along, across, into).",
+        "unitWonder": {
+          "wonderTitle": "✨ 為什麼「介系詞與時空方位精準表達」超有趣？生活超能力 × 秒殺口訣",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「介系詞與時空方位精準表達」其實就在你身邊！例如：We walked through the dark tunnel and came across the river. / The concert will take place at 8:00 p.m. on Friday, in Taipei Arena.。當你搞懂「at（時間點、特定位置點）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
+          "funFact": "你知道嗎？在「介系詞與時空方位精準表達」中，高達 80% 的人最容易在「時間點 vs. 較長期間」搞混，或是掉進「Do not say \"on 2024\" or \"in Sunday\". Remember you walk \"through\" a forest/tunnel (3D space), but walk \"across\" a street/bridge (flat surface).」的直覺陷阱！其實從微觀機制來看：對照判準與實例：時間點、特定位置點。at 7:30 / at the bus stop。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "mnemonic": "🎵【介系詞與時空方位精準表達 · 快樂秒殺口訣】\n① 抓基準：at看仔細（時間點、特定位置點）\n② 分左右：時間點對照較長期間，關鍵就在「on」\n③ 避陷阱：小心「Do not say \"on 2024\" or 」別中計\n④ 穩驗算：最後代回「完整句為 We meet at 8:30 on 」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在「介系詞與時空方位精準表達」的情境裡，如果有人把「時間點」跟「較長期間」當成一模一樣，會發生什麼事？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not say \"on 2024\" or \"in Sunday\". Remember you walk \"through\" a forest/tunnel (3D space), but walk \"across\" a street/bridge (flat surface).」！因為【時間點】是「at 常用於鐘點，on 用於日期或特定一天」，而【較長期間】則是「in 常用於月份、年份及部分時段」。只要用「on」先做區分，就能輕鬆破解！",
+          "superpower": "🌍 跨文化任意門與世界玩家",
+          "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
+          "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
+          "cheer": "知知貓頭鷹：「多會一種語言，就像在腦中多開了一個全新的世界地圖！」"
+        },
         "knowledgePoints": [
           {
             "id": "english-13-kp-1",
@@ -5353,7 +6013,19 @@
             "capRef": "108 課綱基礎指標【Ac-IV-12, 1-IV-12】核心題型",
             "questionPattern": "題幹直接給出「We walked through the dark tunnel and came across the river. / The concert will take place at 8:00 p.m. on Friday, in Taipei Arena.」之標準條件或基本圖式，要求判別「at」的正確性或直接求出單一目標量。",
             "requiredKnowledge": "必備知識點：「at」——時間點、特定位置點（課本實例檢核：at 7:30 / at the bus stop）。",
-            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「at」判準 ➔ 第 3 步核對是否觸犯「Do not say \"on 2024\" or \"in Sunday\". Remember you walk \"through\" a forest/tunnel (3D space), but walk \"across\" a street/bridge (flat surface).」基本防線。"
+            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「at」判準 ➔ 第 3 步核對是否觸犯「Do not say \"on 2024\" or \"in Sunday\". Remember you walk \"through\" a forest/tunnel (3D space), but walk \"across\" a street/bridge (flat surface).」基本防線。",
+            "archetypeDrill": {
+              "stem": "【Type A 基礎秒殺挑戰】在「介系詞與時空方位精準表達」的基礎情境（如：We walked through the dark tunnel and came across the river. / The concert will take place at 8:00 p.m. on Friday, in Taipei Arena.）中，若要正確運用「at」快速破題，下列哪個作法最正確？",
+              "options": [
+                "忽略基準前提，誤以為在任何情況下「Do not say \"on 2024\" or \"in Sunday\". Remember you walk \"through\" a forest/tunnel (3D space), but walk \"across\" a street/bridge (flat surface).」皆不影響結果",
+                "將「at」與「較長期間」混淆，直接套用相反方向的規則",
+                "僅憑直覺猜測單一數值，不檢查單位與「at」的成立條件",
+                "依據「at」判準：時間點、特定位置點（課本實例核對：at 7:30 / at the bus stop）"
+              ],
+              "answer": 3,
+              "hint": "回想「at」的核心定義：時間點、特定位置點。",
+              "explanation": "破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「at：時間點、特定位置點」，並以「at 7:30 / at the bus stop」核對、避開「Do not say \"on 2024\" or \"in Sunday\". Remember you walk \"through\" a forest/tunnel (3D space), but walk \"across\" a street/bridge (flat surface).」，就能一秒鎖定正確答案！"
+            }
           },
           {
             "code": "Type B",
@@ -5362,7 +6034,19 @@
             "capRef": "康軒／翰林／南一跨版本整合應用題型",
             "questionPattern": "題幹結合實驗紀錄表、對照圖形或雙情境文本，將「時間點」與「較長期間」並列呈現，考驗學生能否從非連續性資訊中提煉「on」的變化規律。",
             "requiredKnowledge": "必備知識點：(1) 時間點：at 常用於鐘點，on 用於日期或特定一天；(2) 較長期間：in 常用於月份、年份及部分時段；(3) 轉換規則：日期、星期、表面。",
-            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「on」區隔「時間點」與「較長期間」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。"
+            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「on」區隔「時間點」與「較長期間」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。",
+            "archetypeDrill": {
+              "stem": "【Type B 雙情境對照挑戰】當題目同時列出「時間點」與「較長期間」並要求結合「on」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？",
+              "options": [
+                "先鎖定控制變因，區分「時間點（at 常用於鐘點，on 用於日期或特定一天）」與「較長期間（in 常用於月份、年份及部分時段）」，再依「日期、星期、表面」推導",
+                "把「時間點」與「較長期間」當成完全相同的條件，直接平均兩者數據",
+                "只看圖表或題幹的最後一個數字，完全忽略「on」的轉換關係",
+                "掉入「Do not say \"on 2024\" or \"in Sunday\". Remember you walk \"through\" a forest/tunnel (3D space), but walk \"across\" a street/bridge (flat surface).」陷阱，把「較長期間」的特徵張冠李戴到「時間點」"
+              ],
+              "answer": 0,
+              "hint": "先分清楚「時間點」與「較長期間」的差異，再套用「on」。",
+              "explanation": "破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「時間點（at 常用於鐘點，on 用於日期或特定一天）」與「較長期間（in 常用於月份、年份及部分時段）」，再運用「on：日期、星期、表面」，就不會被張冠李戴的選項騙倒！"
+            }
           },
           {
             "code": "Type C",
@@ -5371,7 +6055,19 @@
             "capRef": "會考前 5% A++ 頂標跨概念壓軸題型",
             "questionPattern": "題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「填入適當介系詞：「We meet ___ 8:30 ___ Saturday morning _…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。",
             "requiredKnowledge": "必備知識點：結合「at」、「on」與「in（較長時段、範圍內）」，並啟動邊界防禦機制「完整句為 We meet at 8:30 on Saturday morning in July. Walk across the bridge; the café is between the bank and the bookstore.。注意題目未給年份，不能推論確切日期；英文介系詞與中文「在」不一對一。另比較 in the morning 和 at night，記錄完整搭配比只背單字有用」。",
-            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（8:30 是時間點，用 at；Saturday morning 是特定星期的早晨，用 on；July 是月份，用 in） ➔ 第 2 步聯立「on」與「in」推演（走過橋面強調由一端到另一端，可用 across the bridge；若是穿過隧道內部則常用 through the tunnel） ➔ 第 3 步將所得結論代回原情境執行「完整句為 We meet at 8:30 on Saturday morning in July. Walk across the bridge; the café is between the bank and the bookstore.。注意題目未給年份，不能推論確切日期；英文介系詞與中文「在」不一對一。另比較 in the morning 和 at night，記錄完整搭配比只背單字有用」雙向驗算。"
+            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（8:30 是時間點，用 at；Saturday morning 是特定星期的早晨，用 on；July 是月份，用 in） ➔ 第 2 步聯立「on」與「in」推演（走過橋面強調由一端到另一端，可用 across the bridge；若是穿過隧道內部則常用 through the tunnel） ➔ 第 3 步將所得結論代回原情境執行「完整句為 We meet at 8:30 on Saturday morning in July. Walk across the bridge; the café is between the bank and the bookstore.。注意題目未給年份，不能推論確切日期；英文介系詞與中文「在」不一對一。另比較 in the morning 和 at night，記錄完整搭配比只背單字有用」雙向驗算。",
+            "archetypeDrill": {
+              "stem": "【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「填入適當介系詞：「We meet ___ 8:30 ___ Saturday morning ___ Jul…」，若要達成 A++ 零失誤破關，應該採取哪項策略？",
+              "options": [
+                "直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算",
+                "結合「in（較長時段、範圍內）」分步逆推（8:30 是時間點，用 at；Saturday morning 是特定星期的早晨，用 on；July 是月份，用 in），最後執行「完整句為 We meet at 8:30 on Saturday morning in July. Walk across the bridge; the café is between the bank and the bookstore.。注意題目未給年份，不能推論確切日期；英文介系詞與中文「在」不一對一。另比較 in the morning 和 at night，記錄完整搭配比只背單字有用」代回驗算",
+                "只套用「at」的單向公式，忽略題幹給定的邊界限制與「Do not say \"on 2024\" or \"in Sunday\". Remember you walk \"through\" a forest/tunnel (3D space), but walk \"across\" a street/bridge (flat surface).」",
+                "認為逆向題無法用課本概念解決，放棄核對「完整句為 We meet at 8:30 on Saturday morning in July. Walk across the bridge; the café is between the bank and the bookstore.。注意題目未給年份，不能推論確切日期；英文介系詞與中文「在」不一對一。另比較 in the morning 和 at night，記錄完整搭配比只背單字有用」的檢驗條件"
+              ],
+              "answer": 1,
+              "hint": "結合「in」分步逆推，並務必執行「完整句為 We meet at 8:30 on Saturday morning in July. Walk across the bridge; the café is between the bank and the bookstore.。注意題目未給年份，不能推論確切日期；英文介系詞與中文「在」不一對一。另比較 in the morning 和 at night，記錄完整搭配比只背單字有用」驗算。",
+              "explanation": "破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「in：較長時段、範圍內」逐步推演，最後一定要用「完整句為 We meet at 8:30 on Saturday morning in July. Walk across the bridge; the café is between the bank and the bookstore.。注意題目未給年份，不能推論確切日期；英文介系詞與中文「在」不一對一。另比較 in the morning 和 at night，記錄完整搭配比只背單字有用」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！"
+            }
           }
         ],
         "knowledgeSufficiencyPatch": {
@@ -5514,12 +6210,14 @@
           "info.english-13.kp1",
           "q.english-13.kp1.def",
           "cq.english-13-q1",
-          "match.english-13.table"
+          "match.english-13.table",
+          "q.english-13.archetype.TypeA"
         ],
         "english-13:rule": [
           "info.english-13.kp2",
           "q.english-13.kp2.rule",
-          "q.english-13.deepening.contrast"
+          "q.english-13.deepening.contrast",
+          "q.english-13.archetype.TypeB"
         ],
         "english-13:reasoning": [
           "build.english-13.case",
@@ -5532,14 +6230,17 @@
           "info.english-13.kp3",
           "q.english-13.pitfall",
           "q.english-13.cap.example",
-          "q.english-13.cap.followup"
+          "q.english-13.cap.followup",
+          "q.english-13.archetype.TypeC"
         ],
         "english-13:boss": [
           "q.english-13.kp1.def",
           "cq.english-13-q1",
           "match.english-13.table",
+          "q.english-13.archetype.TypeA",
           "q.english-13.kp2.rule",
           "q.english-13.deepening.contrast",
+          "q.english-13.archetype.TypeB",
           "build.english-13.case",
           "cq.english-13-q2",
           "q.english-13.case.check",
@@ -5547,7 +6248,8 @@
           "enrich.english-13.1",
           "q.english-13.pitfall",
           "q.english-13.cap.example",
-          "q.english-13.cap.followup"
+          "q.english-13.cap.followup",
+          "q.english-13.archetype.TypeC"
         ]
       }
     },
@@ -5564,6 +6266,18 @@
         "example": "If you study hard every day, you will make great progress. / Unless you leave now, you will miss the morning train (= If you do not leave now...).",
         "pitfall": "Do not put \"will\" inside the if-clause when expressing a future condition (say \"If tomorrow is sunny\", not \"If tomorrow will be sunny\").",
         "task": "Write two conditional rules for your school science lab using \"If you...\" and \"Unless you...\".",
+        "unitWonder": {
+          "wonderTitle": "✨ 為什麼「條件副詞子句與情態假設語氣」超有趣？生活超能力 × 秒殺口訣",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「條件副詞子句與情態假設語氣」其實就在你身邊！例如：If you study hard every day, you will make great progress. / Unless you leave now, you will miss the morning train (= If you do not leave now...).。當你搞懂「可能發生（If＋現在式，主句 will/can＋原形）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
+          "funFact": "你知道嗎？在「條件副詞子句與情態假設語氣」中，高達 80% 的人最容易在「可能條件 vs. 延伸語氣」搞混，或是掉進「Do not put \"will\" inside the if-clause when expressing a future condition (say \"If tomorrow is sunny\", not \"If tomorrow will be sunny\").」的直覺陷阱！其實從微觀機制來看：對照判準與實例：If＋現在式，主句 will/can＋原形。If it rains tomorrow, we will stay home.。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "mnemonic": "🎵【條件副詞子句與情態假設語氣 · 快樂秒殺口訣】\n① 抓基準：可能發生看仔細（If＋現在式，主句 will/can＋原形）\n② 分左右：可能條件對照延伸語氣，關鍵就在「一般規律」\n③ 避陷阱：小心「Do not put \"will\" inside」別中計\n④ 穩驗算：最後代回「不要把兩句拼成 If it will rains」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在「條件副詞子句與情態假設語氣」的情境裡，如果有人把「可能條件」跟「延伸語氣」當成一模一樣，會發生什麼事？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not put \"will\" inside the if-clause when expressing a future condition (say \"If tomorrow is sunny\", not \"If tomorrow will be sunny\").」！因為【可能條件】是「真實未來條件句常用 If+現在式，主要子句用 will」，而【延伸語氣】則是「與事實相反的假設是加深內容，須區分可能性與時間」。只要用「一般規律」先做區分，就能輕鬆破解！",
+          "superpower": "🌍 跨文化任意門與世界玩家",
+          "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
+          "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
+          "cheer": "知知貓頭鷹：「多會一種語言，就像在腦中多開了一個全新的世界地圖！」"
+        },
         "knowledgePoints": [
           {
             "id": "english-14-kp-1",
@@ -5778,7 +6492,19 @@
             "capRef": "108 課綱基礎指標【Ac-IV-13, 1-IV-13】核心題型",
             "questionPattern": "題幹直接給出「If you study hard every day, you will make great progress. / Unless you leave now, you will miss the morning train (= If you do not leave now...).」之標準條件或基本圖式，要求判別「可能發生」的正確性或直接求出單一目標量。",
             "requiredKnowledge": "必備知識點：「可能發生」——If＋現在式，主句 will/can＋原形（課本實例檢核：If it rains tomorrow, we will stay home.）。",
-            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「可能發生」判準 ➔ 第 3 步核對是否觸犯「Do not put \"will\" inside the if-clause when expressing a future condition (say \"If tomorrow is sunny\", not \"If tomorrow will be sunny\").」基本防線。"
+            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「可能發生」判準 ➔ 第 3 步核對是否觸犯「Do not put \"will\" inside the if-clause when expressing a future condition (say \"If tomorrow is sunny\", not \"If tomorrow will be sunny\").」基本防線。",
+            "archetypeDrill": {
+              "stem": "【Type A 基礎秒殺挑戰】在「條件副詞子句與情態假設語氣」的基礎情境（如：If you study hard every day, you will make great progress. / Unless you leave now, you will miss the morning train (= If you do not leave now...).）中，若要正確運用「可能發生」快速破題，下列哪個作法最正確？",
+              "options": [
+                "依據「可能發生」判準：If＋現在式，主句 will/can＋原形（課本實例核對：If it rains tomorrow, we will stay home.）",
+                "忽略基準前提，誤以為在任何情況下「Do not put \"will\" inside the if-clause when expressing a future condition (say \"If tomorrow is sunny\", not \"If tomorrow will be sunny\").」皆不影響結果",
+                "將「可能發生」與「延伸語氣」混淆，直接套用相反方向的規則",
+                "僅憑直覺猜測單一數值，不檢查單位與「可能發生」的成立條件"
+              ],
+              "answer": 0,
+              "hint": "回想「可能發生」的核心定義：If＋現在式，主句 will/can＋原形。",
+              "explanation": "破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「可能發生：If＋現在式，主句 will/can＋原形」，並以「If it rains tomorrow, we will stay home.」核對、避開「Do not put \"will\" inside the if-clause when expressing a future condition (say \"If tomorrow is sunny\", not \"If tomorrow will be sunny\").」，就能一秒鎖定正確答案！"
+            }
           },
           {
             "code": "Type B",
@@ -5787,7 +6513,19 @@
             "capRef": "康軒／翰林／南一跨版本整合應用題型",
             "questionPattern": "題幹結合實驗紀錄表、對照圖形或雙情境文本，將「可能條件」與「延伸語氣」並列呈現，考驗學生能否從非連續性資訊中提煉「一般規律」的變化規律。",
             "requiredKnowledge": "必備知識點：(1) 可能條件：真實未來條件句常用 If+現在式，主要子句用 will；(2) 延伸語氣：與事實相反的假設是加深內容，須區分可能性與時間；(3) 轉換規則：If＋現在式，主句現在式。",
-            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「一般規律」區隔「可能條件」與「延伸語氣」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。"
+            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「一般規律」區隔「可能條件」與「延伸語氣」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。",
+            "archetypeDrill": {
+              "stem": "【Type B 雙情境對照挑戰】當題目同時列出「可能條件」與「延伸語氣」並要求結合「一般規律」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？",
+              "options": [
+                "把「可能條件」與「延伸語氣」當成完全相同的條件，直接平均兩者數據",
+                "先鎖定控制變因，區分「可能條件（真實未來條件句常用 If+現在式，主要子句用 will）」與「延伸語氣（與事實相反的假設是加深內容，須區分可能性與時間）」，再依「If＋現在式，主句現在式」推導",
+                "只看圖表或題幹的最後一個數字，完全忽略「一般規律」的轉換關係",
+                "掉入「Do not put \"will\" inside the if-clause when expressing a future condition (say \"If tomorrow is sunny\", not \"If tomorrow will be sunny\").」陷阱，把「延伸語氣」的特徵張冠李戴到「可能條件」"
+              ],
+              "answer": 1,
+              "hint": "先分清楚「可能條件」與「延伸語氣」的差異，再套用「一般規律」。",
+              "explanation": "破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「可能條件（真實未來條件句常用 If+現在式，主要子句用 will）」與「延伸語氣（與事實相反的假設是加深內容，須區分可能性與時間）」，再運用「一般規律：If＋現在式，主句現在式」，就不會被張冠李戴的選項騙倒！"
+            }
           },
           {
             "code": "Type C",
@@ -5796,7 +6534,19 @@
             "capRef": "會考前 5% A++ 頂標跨概念壓軸題型",
             "questionPattern": "題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「完成「If it ___ (rain) tomorrow, we ___ (stay) home…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。",
             "requiredKnowledge": "必備知識點：結合「可能發生」、「一般規律」與「與現在事實相反（延伸）（If＋過去式，主句 would＋原形）」，並啟動邊界防禦機制「不要把兩句拼成 If it will rains，也不要忽略 it 的第三人稱單數 s。延伸判斷 If you heat ice enough, it melts. 是一般規律，兩邊可用現在式；三種情境的差別在事件真實性與時間關係，而非只是選不同助動詞」。",
-            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（第一句描述明天可能發生的條件，if 子句填 rains，主句填 will stay） ➔ 第 2 步聯立「一般規律」與「與現在事實相反（延伸）」推演（完整為 If it rains tomorrow, we will stay home.；如果把 if 子句放後面，可寫 We will stay home if it rains tomorrow.） ➔ 第 3 步將所得結論代回原情境執行「不要把兩句拼成 If it will rains，也不要忽略 it 的第三人稱單數 s。延伸判斷 If you heat ice enough, it melts. 是一般規律，兩邊可用現在式；三種情境的差別在事件真實性與時間關係，而非只是選不同助動詞」雙向驗算。"
+            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（第一句描述明天可能發生的條件，if 子句填 rains，主句填 will stay） ➔ 第 2 步聯立「一般規律」與「與現在事實相反（延伸）」推演（完整為 If it rains tomorrow, we will stay home.；如果把 if 子句放後面，可寫 We will stay home if it rains tomorrow.） ➔ 第 3 步將所得結論代回原情境執行「不要把兩句拼成 If it will rains，也不要忽略 it 的第三人稱單數 s。延伸判斷 If you heat ice enough, it melts. 是一般規律，兩邊可用現在式；三種情境的差別在事件真實性與時間關係，而非只是選不同助動詞」雙向驗算。",
+            "archetypeDrill": {
+              "stem": "【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「完成「If it ___ (rain) tomorrow, we ___ (stay) home.」，再比較…」，若要達成 A++ 零失誤破關，應該採取哪項策略？",
+              "options": [
+                "直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算",
+                "只套用「可能發生」的單向公式，忽略題幹給定的邊界限制與「Do not put \"will\" inside the if-clause when expressing a future condition (say \"If tomorrow is sunny\", not \"If tomorrow will be sunny\").」",
+                "結合「與現在事實相反（延伸）（If＋過去式，主句 would＋原形）」分步逆推（第一句描述明天可能發生的條件，if 子句填 rains，主句填 will stay），最後執行「不要把兩句拼成 If it will rains，也不要忽略 it 的第三人稱單數 s。延伸判斷 If you heat ice enough, it melts. 是一般規律，兩邊可用現在式；三種情境的差別在事件真實性與時間關係，而非只是選不同助動詞」代回驗算",
+                "認為逆向題無法用課本概念解決，放棄核對「不要把兩句拼成 If it will rains，也不要忽略 it 的第三人稱單數 s。延伸判斷 If you heat ice enough, it melts. 是一般規律，兩邊可用現在式；三種情境的差別在事件真實性與時間關係，而非只是選不同助動詞」的檢驗條件"
+              ],
+              "answer": 2,
+              "hint": "結合「與現在事實相反（延伸）」分步逆推，並務必執行「不要把兩句拼成 If it will rains，也不要忽略 it 的第三人稱單數 s。延伸判斷 If you heat ice enough, it melts. 是一般規律，兩邊可用現在式；三種情境的差別在事件真實性與時間關係，而非只是選不同助動詞」驗算。",
+              "explanation": "破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「與現在事實相反（延伸）：If＋過去式，主句 would＋原形」逐步推演，最後一定要用「不要把兩句拼成 If it will rains，也不要忽略 it 的第三人稱單數 s。延伸判斷 If you heat ice enough, it melts. 是一般規律，兩邊可用現在式；三種情境的差別在事件真實性與時間關係，而非只是選不同助動詞」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！"
+            }
           }
         ],
         "knowledgeSufficiencyPatch": {
@@ -5939,12 +6689,14 @@
           "info.english-14.kp1",
           "q.english-14.kp1.def",
           "cq.english-14-q1",
-          "match.english-14.table"
+          "match.english-14.table",
+          "q.english-14.archetype.TypeA"
         ],
         "english-14:rule": [
           "info.english-14.kp2",
           "q.english-14.kp2.rule",
-          "q.english-14.deepening.contrast"
+          "q.english-14.deepening.contrast",
+          "q.english-14.archetype.TypeB"
         ],
         "english-14:reasoning": [
           "build.english-14.case",
@@ -5957,14 +6709,17 @@
           "info.english-14.kp3",
           "q.english-14.pitfall",
           "q.english-14.cap.example",
-          "q.english-14.cap.followup"
+          "q.english-14.cap.followup",
+          "q.english-14.archetype.TypeC"
         ],
         "english-14:boss": [
           "q.english-14.kp1.def",
           "cq.english-14-q1",
           "match.english-14.table",
+          "q.english-14.archetype.TypeA",
           "q.english-14.kp2.rule",
           "q.english-14.deepening.contrast",
+          "q.english-14.archetype.TypeB",
           "build.english-14.case",
           "cq.english-14-q2",
           "q.english-14.case.check",
@@ -5972,7 +6727,8 @@
           "enrich.english-14.1",
           "q.english-14.pitfall",
           "q.english-14.cap.example",
-          "q.english-14.cap.followup"
+          "q.english-14.cap.followup",
+          "q.english-14.archetype.TypeC"
         ]
       }
     },
@@ -5989,6 +6745,18 @@
         "example": "The novel (which/that) I borrowed from the library is exciting. / This is the quiet town in which (= where) she was born. / The man whom I spoke to yesterday is our principal.",
         "pitfall": "Never place \"that\" or \"who\" directly after a preposition (write \"the house in which\", never \"the house in that\"). You cannot omit the relative pronoun when it serves as the subject.",
         "task": "Combine two sentences using relative clauses: \"This is the company.\" and \"My mother works for it.\" Show both informal preposition-at-end and formal preposition-first forms.",
+        "unitWonder": {
+          "wonderTitle": "✨ 為什麼「關係代名詞受格省略與介系詞搭配」超有趣？生活超能力 × 秒殺口訣",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「關係代名詞受格省略與介系詞搭配」其實就在你身邊！例如：The novel (which/that) I borrowed from the library is exciting. / This is the quiet town in which (= where) she was born. / The man whom I spoke to yesterday is our principal.。當你搞懂「主格（關係代名詞在子句中當主詞，通常不可省略）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
+          "funFact": "你知道嗎？在「關係代名詞受格省略與介系詞搭配」中，高達 80% 的人最容易在「主格關係代名詞 vs. 受格關係代名詞」搞混，或是掉進「Never place \"that\" or \"who\" directly after a preposition (write \"the house in which\", never \"the house in that\"). You cannot omit the relative pronoun when it serves as the subject.」的直覺陷阱！其實從微觀機制來看：對照判準與實例：關係代名詞在子句中當主詞，通常不可省略。The boy who lives here is Tom.。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "mnemonic": "🎵【關係代名詞受格省略與介系詞搭配 · 快樂秒殺口訣】\n① 抓基準：主格看仔細（關係代名詞在子句中當主詞，通常不可省略）\n② 分左右：主格關係代名詞對照受格關係代名詞，關鍵就在「受格」\n③ 避陷阱：小心「Never place \"that\" or \"w」別中計\n④ 穩驗算：最後代回「兩個女孩句子的助人方向相反，不能只看相同單字而認」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在「關係代名詞受格省略與介系詞搭配」的情境裡，如果有人把「主格關係代名詞」跟「受格關係代名詞」當成一模一樣，會發生什麼事？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Never place \"that\" or \"who\" directly after a preposition (write \"the house in which\", never \"the house in that\"). You cannot omit the relative pronoun when it serves as the subject.」！因為【主格關係代名詞】是「在關係子句當主詞，通常不能省略」，而【受格關係代名詞】則是「在限定關係子句當受詞時常可省略」。只要用「受格」先做區分，就能輕鬆破解！",
+          "superpower": "🌍 跨文化任意門與世界玩家",
+          "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
+          "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
+          "cheer": "知知貓頭鷹：「多會一種語言，就像在腦中多開了一個全新的世界地圖！」"
+        },
         "knowledgePoints": [
           {
             "id": "english-15-kp-1",
@@ -6203,7 +6971,19 @@
             "capRef": "108 課綱基礎指標【Ac-IV-14, 1-IV-14】核心題型",
             "questionPattern": "題幹直接給出「The novel (which/that) I borrowed from the library is exciting. / This is the quiet town in which (= where) she was born. / The man whom I spoke to yesterday is our principal.」之標準條件或基本圖式，要求判別「主格」的正確性或直接求出單一目標量。",
             "requiredKnowledge": "必備知識點：「主格」——關係代名詞在子句中當主詞，通常不可省略（課本實例檢核：The boy who lives here is Tom.）。",
-            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「主格」判準 ➔ 第 3 步核對是否觸犯「Never place \"that\" or \"who\" directly after a preposition (write \"the house in which\", never \"the house in that\"). You cannot omit the relative pronoun when it serves as the subject.」基本防線。"
+            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「主格」判準 ➔ 第 3 步核對是否觸犯「Never place \"that\" or \"who\" directly after a preposition (write \"the house in which\", never \"the house in that\"). You cannot omit the relative pronoun when it serves as the subject.」基本防線。",
+            "archetypeDrill": {
+              "stem": "【Type A 基礎秒殺挑戰】在「關係代名詞受格省略與介系詞搭配」的基礎情境（如：The novel (which/that) I borrowed from the library is exciting. / This is the quiet town in which (= where) she was born. / The man whom I spoke to yesterday is our principal.）中，若要正確運用「主格」快速破題，下列哪個作法最正確？",
+              "options": [
+                "忽略基準前提，誤以為在任何情況下「Never place \"that\" or \"who\" directly after a preposition (write \"the house in which\", never \"the house in that\"). You cannot omit the relative pronoun when it serves as the subject.」皆不影響結果",
+                "依據「主格」判準：關係代名詞在子句中當主詞，通常不可省略（課本實例核對：The boy who lives here is Tom.）",
+                "將「主格」與「受格關係代名詞」混淆，直接套用相反方向的規則",
+                "僅憑直覺猜測單一數值，不檢查單位與「主格」的成立條件"
+              ],
+              "answer": 1,
+              "hint": "回想「主格」的核心定義：關係代名詞在子句中當主詞，通常不可省略。",
+              "explanation": "破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「主格：關係代名詞在子句中當主詞，通常不可省略」，並以「The boy who lives here is Tom.」核對、避開「Never place \"that\" or \"who\" directly after a preposition (write \"the house in which\", never \"the house in that\"). You cannot omit the relative pronoun when it serves as the subject.」，就能一秒鎖定正確答案！"
+            }
           },
           {
             "code": "Type B",
@@ -6212,7 +6992,19 @@
             "capRef": "康軒／翰林／南一跨版本整合應用題型",
             "questionPattern": "題幹結合實驗紀錄表、對照圖形或雙情境文本，將「主格關係代名詞」與「受格關係代名詞」並列呈現，考驗學生能否從非連續性資訊中提煉「受格」的變化規律。",
             "requiredKnowledge": "必備知識點：(1) 主格關係代名詞：在關係子句當主詞，通常不能省略；(2) 受格關係代名詞：在限定關係子句當受詞時常可省略；(3) 轉換規則：限定子句中作受詞時常可省略。",
-            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「受格」區隔「主格關係代名詞」與「受格關係代名詞」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。"
+            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「受格」區隔「主格關係代名詞」與「受格關係代名詞」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。",
+            "archetypeDrill": {
+              "stem": "【Type B 雙情境對照挑戰】當題目同時列出「主格關係代名詞」與「受格關係代名詞」並要求結合「受格」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？",
+              "options": [
+                "把「主格關係代名詞」與「受格關係代名詞」當成完全相同的條件，直接平均兩者數據",
+                "只看圖表或題幹的最後一個數字，完全忽略「受格」的轉換關係",
+                "先鎖定控制變因，區分「主格關係代名詞（在關係子句當主詞，通常不能省略）」與「受格關係代名詞（在限定關係子句當受詞時常可省略）」，再依「限定子句中作受詞時常可省略」推導",
+                "掉入「Never place \"that\" or \"who\" directly after a preposition (write \"the house in which\", never \"the house in that\"). You cannot omit the relative pronoun when it serves as the subject.」陷阱，把「受格關係代名詞」的特徵張冠李戴到「主格關係代名詞」"
+              ],
+              "answer": 2,
+              "hint": "先分清楚「主格關係代名詞」與「受格關係代名詞」的差異，再套用「受格」。",
+              "explanation": "破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「主格關係代名詞（在關係子句當主詞，通常不能省略）」與「受格關係代名詞（在限定關係子句當受詞時常可省略）」，再運用「受格：限定子句中作受詞時常可省略」，就不會被張冠李戴的選項騙倒！"
+            }
           },
           {
             "code": "Type C",
@@ -6221,7 +7013,19 @@
             "capRef": "會考前 5% A++ 頂標跨概念壓軸題型",
             "questionPattern": "題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「比較「The girl who helped me is Amy.」與「The girl who…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。",
             "requiredKnowledge": "必備知識點：結合「主格」、「受格」與「介系詞（辨識動詞所需搭配）」，並啟動邊界防禦機制「兩個女孩句子的助人方向相反，不能只看相同單字而認為意思一樣。修飾範圍也要清楚：先行詞是 girl，不是句末 Amy 之後再接一串不明子句。介系詞的選擇由 sit on the chair 這個原本搭配決定」。",
-            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（第一句還原為 The girl helped me.，girl 是 helped 的主詞，所以 who 不可省略） ➔ 第 2 步聯立「受格」與「介系詞」推演（第二句還原為 I helped the girl.，girl 是受詞；限定子句可寫 The girl I helped is Amy.，也可使用 who/that） ➔ 第 3 步將所得結論代回原情境執行「兩個女孩句子的助人方向相反，不能只看相同單字而認為意思一樣。修飾範圍也要清楚：先行詞是 girl，不是句末 Amy 之後再接一串不明子句。介系詞的選擇由 sit on the chair 這個原本搭配決定」雙向驗算。"
+            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（第一句還原為 The girl helped me.，girl 是 helped 的主詞，所以 who 不可省略） ➔ 第 2 步聯立「受格」與「介系詞」推演（第二句還原為 I helped the girl.，girl 是受詞；限定子句可寫 The girl I helped is Amy.，也可使用 who/that） ➔ 第 3 步將所得結論代回原情境執行「兩個女孩句子的助人方向相反，不能只看相同單字而認為意思一樣。修飾範圍也要清楚：先行詞是 girl，不是句末 Amy 之後再接一串不明子句。介系詞的選擇由 sit on the chair 這個原本搭配決定」雙向驗算。",
+            "archetypeDrill": {
+              "stem": "【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「比較「The girl who helped me is Amy.」與「The girl whom I he…」，若要達成 A++ 零失誤破關，應該採取哪項策略？",
+              "options": [
+                "直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算",
+                "只套用「主格」的單向公式，忽略題幹給定的邊界限制與「Never place \"that\" or \"who\" directly after a preposition (write \"the house in which\", never \"the house in that\"). You cannot omit the relative pronoun when it serves as the subject.」",
+                "認為逆向題無法用課本概念解決，放棄核對「兩個女孩句子的助人方向相反，不能只看相同單字而認為意思一樣。修飾範圍也要清楚：先行詞是 girl，不是句末 Amy 之後再接一串不明子句。介系詞的選擇由 sit on the chair 這個原本搭配決定」的檢驗條件",
+                "結合「介系詞（辨識動詞所需搭配）」分步逆推（第一句還原為 The girl helped me.，girl 是 helped 的主詞，所以 who 不可省略），最後執行「兩個女孩句子的助人方向相反，不能只看相同單字而認為意思一樣。修飾範圍也要清楚：先行詞是 girl，不是句末 Amy 之後再接一串不明子句。介系詞的選擇由 sit on the chair 這個原本搭配決定」代回驗算"
+              ],
+              "answer": 3,
+              "hint": "結合「介系詞」分步逆推，並務必執行「兩個女孩句子的助人方向相反，不能只看相同單字而認為意思一樣。修飾範圍也要清楚：先行詞是 girl，不是句末 Amy 之後再接一串不明子句。介系詞的選擇由 sit on the chair 這個原本搭配決定」驗算。",
+              "explanation": "破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「介系詞：辨識動詞所需搭配」逐步推演，最後一定要用「兩個女孩句子的助人方向相反，不能只看相同單字而認為意思一樣。修飾範圍也要清楚：先行詞是 girl，不是句末 Amy 之後再接一串不明子句。介系詞的選擇由 sit on the chair 這個原本搭配決定」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！"
+            }
           }
         ],
         "knowledgeSufficiencyPatch": {
@@ -6364,12 +7168,14 @@
           "info.english-15.kp1",
           "q.english-15.kp1.def",
           "cq.english-15-q1",
-          "match.english-15.table"
+          "match.english-15.table",
+          "q.english-15.archetype.TypeA"
         ],
         "english-15:rule": [
           "info.english-15.kp2",
           "q.english-15.kp2.rule",
-          "q.english-15.deepening.contrast"
+          "q.english-15.deepening.contrast",
+          "q.english-15.archetype.TypeB"
         ],
         "english-15:reasoning": [
           "build.english-15.case",
@@ -6382,14 +7188,17 @@
           "info.english-15.kp3",
           "q.english-15.pitfall",
           "q.english-15.cap.example",
-          "q.english-15.cap.followup"
+          "q.english-15.cap.followup",
+          "q.english-15.archetype.TypeC"
         ],
         "english-15:boss": [
           "q.english-15.kp1.def",
           "cq.english-15-q1",
           "match.english-15.table",
+          "q.english-15.archetype.TypeA",
           "q.english-15.kp2.rule",
           "q.english-15.deepening.contrast",
+          "q.english-15.archetype.TypeB",
           "build.english-15.case",
           "cq.english-15-q2",
           "q.english-15.case.check",
@@ -6397,7 +7206,8 @@
           "enrich.english-15.1",
           "q.english-15.pitfall",
           "q.english-15.cap.example",
-          "q.english-15.cap.followup"
+          "q.english-15.cap.followup",
+          "q.english-15.archetype.TypeC"
         ]
       }
     },
@@ -6414,6 +7224,18 @@
         "example": "A flyer states: \"Adults $200; Students with ID $100; Free for children under 6.\" A family with two parents and a 5-year-old child pays $400.",
         "pitfall": "Do not assume information not present in the text; always verify eligibility conditions, time limits, and discounts carefully before answering.",
         "task": "Create a bilingual English poster for an imaginary campus charity fair, including date, ticket price tiers, location, and contact email.",
+        "unitWonder": {
+          "wonderTitle": "✨ 為什麼「跨文本圖表閱讀與素養克漏字」超有趣？生活超能力 × 秒殺口訣",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「跨文本圖表閱讀與素養克漏字」其實就在你身邊！例如：A flyer states: \"Adults $200; Students with ID $100; Free for children under 6.\" A family with two parents and a 5-year-old child pays $400.。當你搞懂「Skimming 略讀大意（快速閱讀文章首尾段、每段首句與小標題，掌握核心主題與主旨）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
+          "funFact": "你知道嗎？在「跨文本圖表閱讀與素養克漏字」中，高達 80% 的人最容易在「跨文本一致 vs. 語意銜接」搞混，或是掉進「Do not assume information not present in the text; always verify eligibility conditions, time limits, and discounts carefully before answering.」的直覺陷阱！其實從微觀機制來看：對照判準與實例：快速閱讀文章首尾段、每段首句與小標題，掌握核心主題與主旨。Read topic sentences first to capture the main idea before details.。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "mnemonic": "🎵【跨文本圖表閱讀與素養克漏字 · 快樂秒殺口訣】\n① 抓基準：Skimming 略讀大意看仔細（快速閱讀文章首尾段、每段首句與小標題，掌握核心主題與）\n② 分左右：跨文本一致對照語意銜接，關鍵就在「Scanning 掃讀細節」\n③ 避陷阱：小心「Do not assume informatio」別中計\n④ 穩驗算：最後代回「不能把較低票價當成唯一條件；題目也沒有說交通費，」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在「跨文本圖表閱讀與素養克漏字」的情境裡，如果有人把「跨文本一致」跟「語意銜接」當成一模一樣，會發生什麼事？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not assume information not present in the text; always verify eligibility conditions, time limits, and discounts carefully before answering.」！因為【跨文本一致】是「比較不同資料是否談同一時間、對象與單位」，而【語意銜接】則是「克漏字要同時符合語法與上下文因果或轉折」。只要用「Scanning 掃讀細節」先做區分，就能輕鬆破解！",
+          "superpower": "🌍 跨文化任意門與世界玩家",
+          "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
+          "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
+          "cheer": "知知貓頭鷹：「多會一種語言，就像在腦中多開了一個全新的世界地圖！」"
+        },
         "knowledgePoints": [
           {
             "id": "english-16-kp-1",
@@ -6628,7 +7450,19 @@
             "capRef": "111 會考第 1 題（圖表判讀）",
             "questionPattern": "題幹直接給出「A flyer states: \"Adults $200; Students with ID $100; Free for children under 6.\" A family with two parents and a 5-year-old child pays $400.」之標準條件或基本圖式，要求判別「Skimming 略讀大意」的正確性或直接求出單一目標量。",
             "requiredKnowledge": "必備知識點：「Skimming 略讀大意」——快速閱讀文章首尾段、每段首句與小標題，掌握核心主題與主旨（課本實例檢核：Read topic sentences first to capture the main idea before details.）。",
-            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「Skimming 略讀大意」判準 ➔ 第 3 步核對是否觸犯「Do not assume information not present in the text; always verify eligibility conditions, time limits, and discounts carefully before answering.」基本防線。"
+            "solvingSOP": "第 1 步先圈出題幹基準量與單位 ➔ 第 2 步直接套用「Skimming 略讀大意」判準 ➔ 第 3 步核對是否觸犯「Do not assume information not present in the text; always verify eligibility conditions, time limits, and discounts carefully before answering.」基本防線。",
+            "archetypeDrill": {
+              "stem": "【Type A 基礎秒殺挑戰】在「跨文本圖表閱讀與素養克漏字」的基礎情境（如：A flyer states: \"Adults $200; Students with ID $100; Free for children under 6.\" A family with two parents and a 5-year-old child pays $400.）中，若要正確運用「Skimming 略讀大意」快速破題，下列哪個作法最正確？",
+              "options": [
+                "忽略基準前提，誤以為在任何情況下「Do not assume information not present in the text; always verify eligibility conditions, time limits, and discounts carefully before answering.」皆不影響結果",
+                "將「Skimming 略讀大意」與「語意銜接」混淆，直接套用相反方向的規則",
+                "依據「Skimming 略讀大意」判準：快速閱讀文章首尾段、每段首句與小標題，掌握核心主題與主旨（課本實例核對：Read topic sentences first to capture the main idea before details.）",
+                "僅憑直覺猜測單一數值，不檢查單位與「Skimming 略讀大意」的成立條件"
+              ],
+              "answer": 2,
+              "hint": "回想「Skimming 略讀大意」的核心定義：快速閱讀文章首尾段、每段首句與小標題，掌握核心主題與主旨。",
+              "explanation": "破關關鍵：Type A 基礎題重在穩拿基本分！只要對準「Skimming 略讀大意：快速閱讀文章首尾段、每段首句與小標題，掌握核心主題與主旨」，並以「Read topic sentences first to capture the main idea before details.」核對、避開「Do not assume information not present in the text; always verify eligibility conditions, time limits, and discounts carefully before answering.」，就能一秒鎖定正確答案！"
+            }
           },
           {
             "code": "Type B",
@@ -6637,7 +7471,19 @@
             "capRef": "111 會考第 23 題（圖表判讀）",
             "questionPattern": "題幹結合實驗紀錄表、對照圖形或雙情境文本，將「跨文本一致」與「語意銜接」並列呈現，考驗學生能否從非連續性資訊中提煉「Scanning 掃讀細節」的變化規律。",
             "requiredKnowledge": "必備知識點：(1) 跨文本一致：比較不同資料是否談同一時間、對象與單位；(2) 語意銜接：克漏字要同時符合語法與上下文因果或轉折；(3) 轉換規則：帶著關鍵字（數字、專有名詞、年代）在文章與圖表中定位具體資訊。",
-            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「Scanning 掃讀細節」區隔「跨文本一致」與「語意銜接」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。"
+            "solvingSOP": "第 1 步標出圖表橫縱軸或雙情境的控制變因 ➔ 第 2 步以「Scanning 掃讀細節」區隔「跨文本一致」與「語意銜接」 ➔ 第 3 步刪除偷換條件或張冠李戴的誘答選項。",
+            "archetypeDrill": {
+              "stem": "【Type B 雙情境對照挑戰】當題目同時列出「跨文本一致」與「語意銜接」並要求結合「Scanning 掃讀細節」判讀圖表或情境時，哪個破題步驟能幫你穩拿 A 級分？",
+              "options": [
+                "把「跨文本一致」與「語意銜接」當成完全相同的條件，直接平均兩者數據",
+                "只看圖表或題幹的最後一個數字，完全忽略「Scanning 掃讀細節」的轉換關係",
+                "掉入「Do not assume information not present in the text; always verify eligibility conditions, time limits, and discounts carefully before answering.」陷阱，把「語意銜接」的特徵張冠李戴到「跨文本一致」",
+                "先鎖定控制變因，區分「跨文本一致（比較不同資料是否談同一時間、對象與單位）」與「語意銜接（克漏字要同時符合語法與上下文因果或轉折）」，再依「帶著關鍵字（數字、專有名詞、年代）在文章與圖表中定位具體資訊」推導"
+              ],
+              "answer": 3,
+              "hint": "先分清楚「跨文本一致」與「語意銜接」的差異，再套用「Scanning 掃讀細節」。",
+              "explanation": "破關關鍵：Type B 是從 B++ 衝上 A 級的決勝區！先切分「跨文本一致（比較不同資料是否談同一時間、對象與單位）」與「語意銜接（克漏字要同時符合語法與上下文因果或轉折）」，再運用「Scanning 掃讀細節：帶著關鍵字（數字、專有名詞、年代）在文章與圖表中定位具體資訊」，就不會被張冠李戴的選項騙倒！"
+            }
           },
           {
             "code": "Type C",
@@ -6646,7 +7492,19 @@
             "capRef": "111 會考第 26 題（文意理解）",
             "questionPattern": "題幹不直接給出正向條件，而是給予最終結果或限制範圍（如：「原創資料：A 館週一至週六 09:00–17:00，學生票 80 元；B 館每天 12:00–2…」），要求逆向反推未知條件或評估改變條件後的連鎖效應。",
             "requiredKnowledge": "必備知識點：結合「Skimming 略讀大意」、「Scanning 掃讀細節」與「Graphic Interpretation 圖表判讀（對照文章段落論點與長條圖/表格數據，檢核文字論據是否吻合）」，並啟動邊界防禦機制「不能把較低票價當成唯一條件；題目也沒有說交通費，因此若要規劃真實行程，仍須另外確認交通與最後入館時間。克漏字若接「A is cheaper, ___ it is closed on Sunday」，空格應表轉折，如 but，而非表示結果的 so。回讀全段可避免文法局部正確、整體理由卻矛盾」。",
-            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（先整理限制：星期日、晚上六點後、每人不超過 120 元；三個條件都要滿足） ➔ 第 2 步聯立「Scanning 掃讀細節」與「Graphic Interpretation 圖表判讀」推演（A 館即使便宜，也因星期日不開且平日只到五點而不符合。B 館星期日營業到八點，100 元在預算內，所以可選 B） ➔ 第 3 步將所得結論代回原情境執行「不能把較低票價當成唯一條件；題目也沒有說交通費，因此若要規劃真實行程，仍須另外確認交通與最後入館時間。克漏字若接「A is cheaper, ___ it is closed on Sunday」，空格應表轉折，如 but，而非表示結果的 so。回讀全段可避免文法局部正確、整體理由卻矛盾」雙向驗算。"
+            "solvingSOP": "第 1 步將題幹結果逆向拆解為子條件（先整理限制：星期日、晚上六點後、每人不超過 120 元；三個條件都要滿足） ➔ 第 2 步聯立「Scanning 掃讀細節」與「Graphic Interpretation 圖表判讀」推演（A 館即使便宜，也因星期日不開且平日只到五點而不符合。B 館星期日營業到八點，100 元在預算內，所以可選 B） ➔ 第 3 步將所得結論代回原情境執行「不能把較低票價當成唯一條件；題目也沒有說交通費，因此若要規劃真實行程，仍須另外確認交通與最後入館時間。克漏字若接「A is cheaper, ___ it is closed on Sunday」，空格應表轉折，如 but，而非表示結果的 so。回讀全段可避免文法局部正確、整體理由卻矛盾」雙向驗算。",
+            "archetypeDrill": {
+              "stem": "【Type C 頂標壓軸挑戰】面對逆向壓軸情境：「原創資料：A 館週一至週六 09:00–17:00，學生票 80 元；B 館每天 12:00–20:00，學…」，若要達成 A++ 零失誤破關，應該採取哪項策略？",
+              "options": [
+                "結合「Graphic Interpretation 圖表判讀（對照文章段落論點與長條圖/表格數據，檢核文字論據是否吻合）」分步逆推（先整理限制：星期日、晚上六點後、每人不超過 120 元；三個條件都要滿足），最後執行「不能把較低票價當成唯一條件；題目也沒有說交通費，因此若要規劃真實行程，仍須另外確認交通與最後入館時間。克漏字若接「A is cheaper, ___ it is closed on Sunday」，空格應表轉折，如 but，而非表示結果的 so。回讀全段可避免文法局部正確、整體理由卻矛盾」代回驗算",
+                "直接跳過中間推理步驟，用未經驗證的極端假設猜測答案並省略驗算",
+                "只套用「Skimming 略讀大意」的單向公式，忽略題幹給定的邊界限制與「Do not assume information not present in the text; always verify eligibility conditions, time limits, and discounts carefully before answering.」",
+                "認為逆向題無法用課本概念解決，放棄核對「不能把較低票價當成唯一條件；題目也沒有說交通費，因此若要規劃真實行程，仍須另外確認交通與最後入館時間。克漏字若接「A is cheaper, ___ it is closed on Sunday」，空格應表轉折，如 but，而非表示結果的 so。回讀全段可避免文法局部正確、整體理由卻矛盾」的檢驗條件"
+              ],
+              "answer": 0,
+              "hint": "結合「Graphic Interpretation 圖表判讀」分步逆推，並務必執行「不能把較低票價當成唯一條件；題目也沒有說交通費，因此若要規劃真實行程，仍須另外確認交通與最後入館時間。克漏字若接「A is cheaper, ___ it is closed on Sunday」，空格應表轉折，如 but，而非表示結果的 so。回讀全段可避免文法局部正確、整體理由卻矛盾」驗算。",
+              "explanation": "破關關鍵：Type C 壓軸題考驗逆向拆解與邊界防禦！結合「Graphic Interpretation 圖表判讀：對照文章段落論點與長條圖/表格數據，檢核文字論據是否吻合」逐步推演，最後一定要用「不能把較低票價當成唯一條件；題目也沒有說交通費，因此若要規劃真實行程，仍須另外確認交通與最後入館時間。克漏字若接「A is cheaper, ___ it is closed on Sunday」，空格應表轉折，如 but，而非表示結果的 so。回讀全段可避免文法局部正確、整體理由卻矛盾」反向代回驗算，這就是會考 A++ 滿分高手的秘密武器！"
+            }
           }
         ],
         "knowledgeSufficiencyPatch": {
@@ -6794,12 +7652,14 @@
           "info.english-16.kp1",
           "q.english-16.kp1.def",
           "cq.english-16-q1",
-          "match.english-16.table"
+          "match.english-16.table",
+          "q.english-16.archetype.TypeA"
         ],
         "english-16:rule": [
           "info.english-16.kp2",
           "q.english-16.kp2.rule",
-          "q.english-16.deepening.contrast"
+          "q.english-16.deepening.contrast",
+          "q.english-16.archetype.TypeB"
         ],
         "english-16:reasoning": [
           "build.english-16.case",
@@ -6814,14 +7674,17 @@
           "cap.111-english-1",
           "cap.111-english-23",
           "q.english-16.cap.example",
-          "q.english-16.cap.followup"
+          "q.english-16.cap.followup",
+          "q.english-16.archetype.TypeC"
         ],
         "english-16:boss": [
           "q.english-16.kp1.def",
           "cq.english-16-q1",
           "match.english-16.table",
+          "q.english-16.archetype.TypeA",
           "q.english-16.kp2.rule",
           "q.english-16.deepening.contrast",
+          "q.english-16.archetype.TypeB",
           "build.english-16.case",
           "cq.english-16-q2",
           "q.english-16.case.check",
@@ -6831,7 +7694,8 @@
           "cap.111-english-1",
           "cap.111-english-23",
           "q.english-16.cap.example",
-          "q.english-16.cap.followup"
+          "q.english-16.cap.followup",
+          "q.english-16.archetype.TypeC"
         ]
       }
     }

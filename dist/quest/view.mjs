@@ -1014,6 +1014,7 @@ function renderGuideChart(chart) {
 function renderGuideModalContent(g) {
   const tabs = [
     ['kp', '🧠 知識點與圖解'],
+    ['wonder', '✨ 趣味與口訣'],
     ['visuals', '📊 表格與圖表'],
     ['publishers', '📚 三版課本對照'],
     ['thinking', '⚡ 解題思維鏈']
@@ -1021,11 +1022,35 @@ function renderGuideModalContent(g) {
   const curTab = tabs.some(t => t[0] === ui.guideTab) ? ui.guideTab : 'kp';
 
   let tabBody = '';
-  if (curTab === 'kp') {
+  if (curTab === 'wonder') {
+    const uw = g.unitWonder;
+    tabBody = uw ? `
+      <div style="display:flex;flex-direction:column;gap:0.85rem;margin-top:0.75rem;">
+        <div class="card">
+          <div class="guide-section-badge">🌟 ${esc(uw.superpower || '學科生活超能力')}</div>
+          <h4 style="margin:0.4rem 0;">${esc(uw.wonderTitle || g.title)}</h4>
+          <p class="small" style="line-height:1.65;"><b>✨ 生活超能力連結：</b>${esc(uw.lifeConnection)}</p>
+          <p class="small" style="line-height:1.65;margin-top:0.45rem;"><b>💡 驚喜冷知識：</b>${esc(uw.funFact)}</p>
+        </div>
+        <div class="card">
+          <div class="guide-section-badge">🎵 考場秒殺記憶口訣</div>
+          <pre style="white-space:pre-wrap;font-family:inherit;font-size:0.9rem;line-height:1.65;margin:0.4rem 0 0;background:var(--bg-soft, #f8fafc);padding:0.75rem;border-radius:8px;">${esc(uw.mnemonic)}</pre>
+        </div>
+        <div class="card">
+          <div class="guide-section-badge">🧠 動腦快問快答</div>
+          <p class="small"><b>${esc(uw.curiosityQ)}</b></p>
+          <p class="small muted" style="margin-top:0.35rem;">${esc(uw.curiosityA)}</p>
+          ${uw.joyfulHack ? `<div class="info-tip-box" style="margin-top:0.5rem;"><b>🚀 快樂學好秘訣：</b><span>${esc(uw.joyfulHack)}</span></div>` : ''}
+        </div>
+      </div>
+    ` : '<p class="muted">載入中…</p>';
+  } else if (curTab === 'kp') {
+    const uw = g.unitWonder;
     tabBody = `
       <div class="guide-concept-hero card">
         <div class="guide-section-badge">🎯 108 課綱核心觀念錨定</div>
         <p style="margin:0.35rem 0 0;line-height:1.65;">${esc(g.concept || '')}</p>
+        ${uw ? `<div class="info-tip-box" style="margin-top:0.55rem;"><b>🎵 秒殺口訣速記：</b><span style="white-space:pre-wrap;">${esc(uw.mnemonic)}</span></div>` : ''}
       </div>
       <div style="display:flex;flex-direction:column;gap:0.9rem;margin-top:0.85rem;">
         ${(g.knowledgePoints || []).map((kp, idx) => {
@@ -1228,6 +1253,7 @@ function renderGuideModalContent(g) {
                   <div><b>${esc(qt.code)} · ${esc(qt.archetypeName)}</b> <span class="small muted">（${esc(qt.capRef)}）</span></div>
                   <div class="small"><b>回推必備知識點：</b>${esc(qt.requiredKnowledge)}</div>
                   <div class="small" style="color:var(--primary-ink, #193e35);"><b>⚡ 破題 SOP：</b>${esc(qt.solvingSOP)}</div>
+                  ${qt.archetypeDrill ? `<details style="margin-top:0.25rem;"><summary class="small" style="cursor:pointer;font-weight:700;">🎮 點看【${esc(qt.code)}】實戰破關挑戰與解析</summary><p class="small" style="margin:0.25rem 0;">${esc(qt.archetypeDrill.stem)}<br><b>正確判準：</b>${esc(qt.archetypeDrill.options?.[qt.archetypeDrill.answer] || '')}<br><span class="muted">${esc(qt.archetypeDrill.explanation)}</span></p></details>` : ''}
                 </div>
               `).join('')}
             </div>
