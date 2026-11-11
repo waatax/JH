@@ -9,7 +9,7 @@ import { answerText, correctionTip, questionText, repairSteps } from './coach.mj
 import { courseAtlas, nextAdventure } from './atlas.mjs?v=20261027v2';
 import { visibleLearningUnits, recommendLearning, learningEvidence } from './learning-path.mjs?v=20261103v2';
 
-const V = '20261103v2';
+const V = '20261111v1';
 const root = document.querySelector('#game');
 let storage;
 try { storage = globalThis.localStorage; } catch {}
@@ -1203,7 +1203,10 @@ function renderGuideModalContent(g) {
     const wc = g.workedCase;
     const ladder = g.zeroToTopLadder;
     const et = g.examType;
+    const qTypes = g.questionTypeList || [];
+    const patch = g.knowledgeSufficiencyPatch;
     const capWe = g.capWorkedExample;
+    const capFp = g.capFollowUpPractice;
     tabBody = `
       <div style="display:flex;flex-direction:column;gap:0.85rem;margin-top:0.75rem;">
         ${ladder ? `
@@ -1216,14 +1219,52 @@ function renderGuideModalContent(g) {
             </div>
           </div>
         ` : ''}
+        ${qTypes.length ? `
+          <div class="card">
+            <div class="guide-section-badge">🗂️ 歷屆會考（109～115）三大核心題型分類與對應知識點</div>
+            <div style="display:flex;flex-direction:column;gap:0.55rem;margin-top:0.45rem;">
+              ${qTypes.map(qt => `
+                <div class="info-tip-box" style="display:flex;flex-direction:column;gap:0.25rem;">
+                  <div><b>${esc(qt.code)} · ${esc(qt.archetypeName)}</b> <span class="small muted">（${esc(qt.capRef)}）</span></div>
+                  <div class="small"><b>回推必備知識點：</b>${esc(qt.requiredKnowledge)}</div>
+                  <div class="small" style="color:var(--primary-ink, #193e35);"><b>⚡ 破題 SOP：</b>${esc(qt.solvingSOP)}</div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        ` : ''}
+        ${patch && patch.patchPoints?.length ? `
+          <div class="card">
+            <div class="guide-section-badge">🧩 108 課綱 × 會考回推：微觀知識充足度補強講義</div>
+            <p class="small muted" style="margin:0.25rem 0;">${esc(patch.auditConclusion)}</p>
+            <div style="display:flex;flex-direction:column;gap:0.5rem;margin-top:0.4rem;">
+              ${patch.patchPoints.map(pt => `
+                <div class="info-tip-box">
+                  <b>${esc(pt.tag)}｜${esc(pt.title)}：</b>
+                  <span>${esc(pt.content)}</span>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        ` : ''}
         ${et && capWe ? `
           <div class="card">
-            <div class="guide-section-badge">🎯 會考高頻題型與五步詳解：${esc(et.typeName)}</div>
+            <div class="guide-section-badge">🎯 【實戰例題一】會考高頻題型與五步詳解：${esc(et.typeName)}</div>
             <p class="small muted" style="margin:0.25rem 0;">🔥 ${esc(et.frequency)} · 課綱指標：${esc(et.targetCodes)}</p>
             <h4 style="margin:0.4rem 0;">${esc(capWe.title)}：${esc(capWe.stem)}</h4>
             <p class="small"><b>正確答案：</b>(${String.fromCharCode(65 + (capWe.answer || 0))}) ${esc(capWe.options?.[capWe.answer || 0] || '')}</p>
             <ol class="quest-thinking-steps" style="margin-top:0.4rem;">
               ${(capWe.steps || []).map(st => `<li>${esc(st)}</li>`).join('')}
+            </ol>
+          </div>
+        ` : ''}
+        ${capFp ? `
+          <div class="card">
+            <div class="guide-section-badge">🚀 【進階練習二】歷屆會考真題／逆向遷移五步詳解</div>
+            <h4 style="margin:0.4rem 0;">${esc(capFp.title)}：${esc(capFp.stem)}</h4>
+            <p class="small"><b>正確答案：</b>(${String.fromCharCode(65 + (capFp.answer || 0))}) ${esc(capFp.options?.[capFp.answer || 0] || '')}</p>
+            <ol class="quest-thinking-steps" style="margin-top:0.4rem;">
+              ${(capFp.steps || []).map(st => `<li>${esc(st)}</li>`).join('')}
             </ol>
           </div>
         ` : ''}
