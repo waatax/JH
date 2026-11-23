@@ -86,6 +86,8 @@ await import('../dist/cap-notebook.js');
 await import('../dist/engagement.js');
 await import('../dist/knowledge-network.js');
 await import('../dist/exegesis-data.js');
+await import('../dist/ultralearning-data.js');
+await import('../dist/ultralearning.js');
 console.log('✔ All ESM modules load and evaluate cleanly.');
 
 console.log('\n========================================');

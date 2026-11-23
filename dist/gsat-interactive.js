@@ -1,6 +1,17 @@
 import {questionKey,hasAnswer,answeredCount as countGsatAnswered,sessionKey,secondsLeft,createSession,restoreSession} from './gsat-session.js';
 import {evaluateExamSession} from './gsat-grading.js';
 import {renderGsatStrategy} from './pedagogy-visuals.js';
+import {renderGsatTopTierBridge} from './ultralearning.js';
+import {units as jhUnits, questions as jhQuestions} from './curriculum.js';
+
+function readMainAcademyState() {
+  try {
+    if (typeof localStorage === 'undefined') return {};
+    return JSON.parse(localStorage.getItem('zhixing-academy-v1') || '{}') || {};
+  } catch {
+    return {};
+  }
+}
 // gsat-interactive.js - 學測歷屆各科模擬考與互動練習引擎
 // 涵蓋 108~115 學年度全考科、2,216 題官方題庫、計時模擬、多選題評分、非選自評與逐題答案核對
 
@@ -82,6 +93,8 @@ export async function gsatLandingPage(container) {
           <div class="stat"><label>題庫題目總數</label><strong>${db.total_questions} 題</strong><small>圖表、公式請以原卷 PDF 核對</small></div>
           <div class="stat"><label>官方 PDF 存檔</label><strong>174 份</strong><small>題目、答案、評分原則、答題卷</small></div>
         </div>
+
+        ${renderGsatTopTierBridge(readMainAcademyState(), jhUnits, jhQuestions)}
 
         <section class="panel">
           <p class="notice">本站顯示 PDF 轉錄資料，部分公式、圖片、題型與題目邊界仍須對照原卷。練習回饋不等於官方原始總分；非選題需人工評閱，也不以得分率推估級分。</p><h2>考科與學年度篩選</h2>

@@ -29,7 +29,7 @@ export function renderHomeRoadmap() {
           </div>
         </div>
         <div class="diagram-svg-wrap">
-          <svg class="concept-svg" viewBox="0 0 540 145" width="100%" height="auto" role="img" aria-label="三年螺旋學習進階圖">
+          <svg class="concept-svg" viewBox="0 0 540 145" width="100%" style="height:auto" role="img" aria-label="三年螺旋學習進階圖">
             <rect width="540" height="145" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
             <!-- 3 stages cards -->
             <g transform="translate(25, 20)">
@@ -272,7 +272,7 @@ export function renderCurriculumOverview() {
           </div>
         </div>
         <div class="diagram-svg-wrap">
-          <svg class="concept-svg" viewBox="0 0 540 130" width="100%" height="auto" role="img" aria-label="五階認知學習法">
+          <svg class="concept-svg" viewBox="0 0 540 130" width="100%" style="height:auto" role="img" aria-label="五階認知學習法">
             <rect width="540" height="130" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
             ${[
               ['01', '觀念錨定', '生活直覺', '#45825b', '#e6f3eb', 20],
@@ -692,7 +692,7 @@ export function renderExamStrategy() {
           </div>
         </div>
         <div class="diagram-svg-wrap">
-          <svg class="concept-svg" viewBox="0 0 540 130" width="100%" height="auto" role="img" aria-label="會考破題三部曲">
+          <svg class="concept-svg" viewBox="0 0 540 130" width="100%" style="height:auto" role="img" aria-label="會考破題三部曲">
             <rect width="540" height="130" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
             <g transform="translate(35, 20)">
               <rect width="135" height="90" rx="8" fill="#e8f3fa" stroke="#3b789e" stroke-width="1.8"/>
@@ -791,7 +791,7 @@ export function renderWritingGuide() {
           </div>
         </div>
         <div class="diagram-svg-wrap">
-          <svg class="concept-svg" viewBox="0 0 540 140" width="100%" height="auto" role="img" aria-label="作文結構思維圖">
+          <svg class="concept-svg" viewBox="0 0 540 140" width="100%" style="height:auto" role="img" aria-label="作文結構思維圖">
             <rect width="540" height="140" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
             ${[
               ['第一段 · 起', '破題點題 · 營造情境', '破題如破竹，引人入勝', '#3b789e', '#e8f3fa', 20],
@@ -904,7 +904,7 @@ export function renderReviewScience() {
           </div>
         </div>
         <div class="diagram-svg-wrap">
-          <svg class="concept-svg" viewBox="0 0 540 180" width="100%" height="auto" role="img" aria-label="遺忘曲線對比圖">
+          <svg class="concept-svg" viewBox="0 0 540 180" width="100%" style="height:auto" role="img" aria-label="遺忘曲線對比圖">
             <rect width="540" height="180" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
             <line x1="60" y1="140" x2="500" y2="140" stroke="#687b74" stroke-width="1.5"/>
             <polygon points="500,140 492,136 492,144" fill="#687b74"/>
@@ -949,7 +949,7 @@ export function renderReviewScience() {
           </div>
         </div>
         <div class="diagram-svg-wrap">
-          <svg class="concept-svg" viewBox="0 0 540 120" width="100%" height="auto" role="img" aria-label="萊特納五格箱演算法">
+          <svg class="concept-svg" viewBox="0 0 540 120" width="100%" style="height:auto" role="img" aria-label="萊特納五格箱演算法">
             <rect width="540" height="120" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
             ${[
               ['Box 1', '每日提取', '錯題/新卡', '#b84735', '#faece8', 20],
@@ -1042,7 +1042,7 @@ export function renderProgressRadar(state, subjects, units, allQuestions) {
           </div>
         </div>
         <div class="diagram-svg-wrap">
-          <svg class="concept-svg" viewBox="0 0 540 200" width="100%" height="auto" role="img" aria-label="能力向度雷達圖">
+          <svg class="concept-svg" viewBox="0 0 540 200" width="100%" style="height:auto" role="img" aria-label="能力向度雷達圖">
             <rect width="540" height="200" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
             ${[30, 60, 90].map(r => `
               <polygon points="
@@ -1361,7 +1361,7 @@ export function renderLibraryScheduleGuide() {
           </div>
         </div>
         <div class="diagram-svg-wrap">
-          <svg class="concept-svg" viewBox="0 0 720 160" width="100%" height="auto" role="img" aria-label="六學期階梯學習時程圖">
+          <svg class="concept-svg" viewBox="0 0 720 160" width="100%" style="height:auto" role="img" aria-label="六學期階梯學習時程圖">
             <rect width="720" height="160" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
             <!-- Stage 1: 7-1 -->
             <g transform="translate(15, 20)">
@@ -1515,7 +1515,7 @@ export function renderCurriculumAlignmentGuide() {
           </div>
         </div>
         <div class="diagram-svg-wrap">
-          <svg class="concept-svg" viewBox="0 0 680 145" width="100%" height="auto" role="img" aria-label="課綱代碼解碼圖">
+          <svg class="concept-svg" viewBox="0 0 680 145" width="100%" style="height:auto" role="img" aria-label="課綱代碼解碼圖">
             <rect width="680" height="145" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
             
             <!-- Math example: S-7-1 -->
@@ -1861,7 +1861,7 @@ export function renderCapReadinessGuide() {
           </div>
         </div>
         <div class="diagram-svg-wrap">
-          <svg class="concept-svg" viewBox="0 0 720 155" width="100%" height="auto" role="img" aria-label="會考四階段備戰時程圖">
+          <svg class="concept-svg" viewBox="0 0 720 155" width="100%" style="height:auto" role="img" aria-label="會考四階段備戰時程圖">
             <rect width="720" height="155" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
             <!-- Phase 1: 倒數 90 天 -->
             <g transform="translate(20, 20)">
@@ -2140,7 +2140,7 @@ export function renderThinkingFlowChart(u) {
         </div>
       </div>
       <div class="flowchart-svg-wrap">
-        <svg class="concept-svg" viewBox="0 0 560 115" width="100%" height="auto" role="img" aria-label="解題思維決策流程圖">
+        <svg class="concept-svg" viewBox="0 0 560 115" width="100%" style="height:auto" role="img" aria-label="解題思維決策流程圖">
           <rect width="560" height="115" rx="10" fill="#fbfcfb" stroke="#d6dfd9" stroke-width="1.2"/>
           
           <!-- Node 1: 審題定位 -->

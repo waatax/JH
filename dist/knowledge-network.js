@@ -4891,7 +4891,7 @@ export function renderKnowledgeMesh(u) {
 
       <!-- Interactive SVG Concept Synapse Map -->
       <div class="concept-mesh-svg-card">
-        <svg class="concept-svg" viewBox="0 0 680 180" width="100%" height="auto" role="img" aria-label="${u.title} 知識聯絡圖譜">
+        <svg class="concept-svg" viewBox="0 0 680 180" width="100%" style="height:auto" role="img" aria-label="${u.title} 知識聯絡圖譜">
           <defs>
             <linearGradient id="centerGlow-${u.id}" x1="0%" y1="0%" x2="100%" y2="100%">
               <stop offset="0%" stop-color="#2d5c48"/>

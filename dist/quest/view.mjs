@@ -33,11 +33,11 @@ const KIND_TEXT = { concept: '概念起點', rule: '判準法則', reasoning: '�
 const OFFSETS = [0, 1, 1.6, 1, 0, -1, -1.6, -1];
 
 const COMPANION_MESSAGES = [
-  '每天弄懂一個觀念，就是往前邁出紮實的一大步！',
-  '遇到題目卡關別灰心，三步思維鏈會陪你理清頭緒！',
-  '108 課綱重在理解與素養，從真實生活現象中看見學科原理！',
-  '做錯了沒關係！「課內修復」會幫你在這堂課徹底搞懂！',
-  '保持自學熱情，每天一小關，你比想像中更厲害！'
+  '《超速學習》5 分鐘法則：先啟動 1 小關，專注就會自動接手！',
+  '《Get Better at Anything》85% 甜蜜點：偶爾答錯正是大腦重塑神經迴路的黃金信號！',
+  '108 課綱重在理解與素養，把國中 188 單元練成自動化直覺，未來學測就能穩奪頂頂標！',
+  '做錯了沒關係！「課內修復」＋「交錯變異練習」能把弱點徹底轉化為考場強項！',
+  '遇見難題先停 2 分鐘自主推演，再看三步思維鏈，長期記憶效果提升三倍！'
 ];
 
 const QUEST_THEMES = [
@@ -1653,8 +1653,17 @@ function render() {
     ];
     body = `
       <h1>💪 全科鞏固練習與快篩評量</h1>
-      <p class="muted">10 題閃電快篩、錯題本溫故、科學間隔複習與全科程度定位診斷。</p>
+      <p class="muted">結合《Ultralearning》×《Get Better at Anything》：交錯變異快篩、85% 甜蜜點診斷、錯題本消剿與學測頂標聯動。</p>
       <div style="display:flex;flex-direction:column;gap:1rem;margin-top:1.25rem;">
+        <div class="card" style="border-left:4px solid var(--accent, #1e6045);">
+          <div class="guide-section-badge">🚀 超學習 × 學測頂標雙書實戰教練</div>
+          <h3 style="margin-top:0.25rem;">See（看示範）➔ Do（交錯變異）➔ Feedback（錯題修復）</h3>
+          <p class="muted small">依 Scott H. Young 學習科學：單課連刷容易產生「假性流暢」，建議每完成 2 個單元就點下方「🌟 全科隨機快篩」做跨科交錯盲測，並前往主站開啟「挖空補全・白紙回想・學測頂標藍圖」！</p>
+          <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.75rem;">
+            <a class="btn primary small" href="../#/ultralearning">🚀 開啟超學習・學測頂標總部 →</a>
+            <a class="btn ghost small" href="../#/gsat">🎓 挑戰 108–115 學測歷屆真題 →</a>
+          </div>
+        </div>
         <div class="card">
           <div class="guide-section-badge">⚡ 形成性即時評量 · 10 題閃電快篩</div>
           <h3 style="margin-top:0.25rem;">⚡ 選擇學期或領域，立即抽 10 題實戰驗收</h3>

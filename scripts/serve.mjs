@@ -12,13 +12,14 @@ const mime = {
   '.svg': 'image/svg+xml',
   '.png': 'image/png',
   '.jpg': 'image/jpeg',
+  '.webp': 'image/webp',
   '.ico': 'image/x-icon',
   '.pdf': 'application/pdf',
   '.mp3': 'audio/mpeg',
   '.wav': 'audio/wav'
 };
 
-http.createServer((req, res) => {
+const server = http.createServer((req, res) => {
   let pathname;
   try {
     pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
@@ -62,4 +63,6 @@ http.createServer((req, res) => {
     });
     res.end(data);
   });
-}).listen(4173, '127.0.0.1', () => console.log('Local: http://127.0.0.1:4173'));
+});
+const port = Number(process.env.PORT) || 4173;
+server.listen(port, '127.0.0.1', () => console.log(`Local: http://127.0.0.1:${port}`));

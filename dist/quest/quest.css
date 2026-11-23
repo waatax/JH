@@ -1970,3 +1970,13 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid 
 }
 
 
+
+/* Clear visual distinction for disabled buttons in Quest */
+.btn:disabled,
+.btn[disabled] {
+  opacity: 0.46;
+  cursor: not-allowed;
+  filter: grayscale(0.45);
+  box-shadow: none;
+  transform: none !important;
+}

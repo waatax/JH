@@ -2,6 +2,17 @@
 
 網站：https://waatax.github.io/JH/
 
+## 2026-11-23 知行超學習系統（Ultralearning OS）：融合《Ultralearning》×《Get Better at Anything》掌握國中全科 ➔ 衝刺學測頂頂標
+
+深入整合 **Scott H. Young**《*Ultralearning*》（9 大原則）與《*Get Better at Anything*》（See · Do · Feedback 12 箴言）學習科學，為任何起點的學習者重構全站學習閉環，直指**「徹底掌握國中 21 科 188 單元 ➔ 會考 5A++ ➔ 學測 14–15 級分頂頂標」**：
+
+- **🚀 超學習・學測頂標指揮總部（`#/ultralearning`）**：即時計算個人 **85% 難度甜蜜點（Sweet Spot Radar）**、**信心校準指數（Confidence Calibration）**、**前 6 大速率瓶頸單元（Direct-Then-Drill）**、**五階漸進暴露勇氣天梯（Fear Fades with Exposure）**，以及**七大學測考科 × 國中先備基石垂直升維藍圖**（直通 108–115 學測 53 卷 2,216 題真題）。
+- **🧠 單元認知負荷聚焦模式切換器（See ➔ Do ➔ Feedback）**：全站 188 單元新增「全覽深研／SEE 看懂示範／DO 補全與回想／FEEDBACK 真題避坑」分階聚焦模式，降低工作記憶負荷。
+- **🧭 全 188 單元元學習地圖 × PARI 專家思維透視 × 學測頂標銜接（`dist/ultralearning-data.js`）**：拆解每課 Concepts / Facts / Procedures、顯性化專家破題 PARI 鏈條（Precursor ➔ Action ➔ Result ➔ Interpretation），並逐課對接高中與學測頂標演化路徑。
+- **🧩 實戰內化工作坊（Copy ➔ Complete ➔ Create 挖空補全 × 掙扎計時器 × 白紙自由回想 × 個人問題本）**：全 188 課配備專屬互動式「挖空補全題（Completion Problem）」、2／5 分鐘深度思考掙扎計時器、遮蔽講義白紙回想關鍵詞覆蓋率評測，以及可匯入 `#/review` 翻牌自測的「個人問題本（Question Book）」。
+- **🔀 無提示交錯變異盲測（Interleaved Blind-Context）× 信心校準與高信心盲區優先消滅**：測驗考場支援隱藏科目與單元標題的跨章節交錯盲測、作答前信心度標記（確定／猶豫／猜測）、錯因分類元回饋，並於複習中心最優先標示「🚨 高信心卻答錯」的危險知識盲區進行反轉重學（Unlearning）。
+- **🎓 學測專區（`#/gsat`）與 🎮 JH Quest 聯動升級**：`#/gsat` 嵌入國中基礎➔學測頂標先備奠基儀表板；JH Quest 練習頁整合雙書實戰教練與超學習總部直達入口；PWA 快取升級至 `zhixing-cache-v34`。詳見 [2026-11-23 知行超學習系統全站重構報告](docs/ultralearning-redesign-2026-11-23.md)。
+
 ## 2026-11-11 國中生快樂學習與全知識點 × 可能題型制霸更新：愛上 21 門學科 × 秒殺記憶口訣 × 知識點翻翻樂與閃電三連擊 × 564 道可能題型互動破關
 
 落實**（思考 ➔ 研究 ➔ 規劃 ➔ 優化規劃 ➔ 執行規劃 ➔ 確認效果 ➔ 優化結果 ➔ 迭代）**八階閉環方法論，讓目標國中生（國一～國三）能**有趣、快樂地學好並掌握所有知識點與相關可能題型，進而真正喜歡這些知識學科**：

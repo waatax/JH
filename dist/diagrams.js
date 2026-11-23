@@ -23,7 +23,7 @@ const c = {
 };
 
 function frame(title, svgContent, width = 540, height = 210) {
-  return `<svg class="concept-svg" viewBox="0 0 ${width} ${height}" width="100%" height="auto" role="img" aria-label="${title}" xmlns="http://www.w3.org/2000/svg">
+  return `<svg class="concept-svg" viewBox="0 0 ${width} ${height}" width="100%" style="height:auto" role="img" aria-label="${title}" xmlns="http://www.w3.org/2000/svg">
     <rect width="${width}" height="${height}" rx="10" fill="${c.bg}" stroke="${c.border}" stroke-width="1.2"/>
     ${svgContent}
   </svg>`;
