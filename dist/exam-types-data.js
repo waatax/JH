@@ -26905,15 +26905,15 @@ export function renderExamTypeAndExample(u) {
 
   return `
 <section class="lesson-step cap-exam-type-step" id="step-exam-types" aria-labelledby="exam-types-heading-${u.id}">
-  <div class="step-label" style="background:#e8f4fd;color:#0277bd;font-weight:700;">ZERO TO A++ MASTERY &amp; CAP WORKED CASE</div>
-  <h2 id="exam-types-heading-${u.id}">🎯 小白到會考頂標（A++）：歷屆題型回推、微觀知識補強與雙題五步詳解實戰</h2>
-  <p class="muted">從零基礎白話破冰一路進階至會考 A++ 頂標：依據近七年（109～115）會考真題大數據、108 課綱指標與康軒／翰林／南一三版本教材重點回推，檢驗並補足本課微觀知識點，搭配雙階段互動例題與五步詳解鷹架。</p>
+  <div class="step-label" style="background:#e8f4fd;color:#0277bd;font-weight:700;">例題與練習</div>
+  <h2 id="exam-types-heading-${u.id}">本課題型、例題與解題步驟</h2>
+  <p class="muted">先試做題型練習，再用例題與變化題檢查推理。章末附可查證的考題與教材來源。</p>
 
   ${ladder ? `
   <!-- Module 0: Zero-Foundation to CAP A++ Top-Tier 3-Stage Mastery Ladder -->
   <div class="zero-to-top-ladder-card" style="border:1px solid var(--border);background:var(--surface);border-radius:10px;padding:18px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,0.03);">
     <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:14px;">
-      <strong style="font-size:1rem;color:var(--text);display:flex;align-items:center;gap:6px;">🧭 零基礎小白 ➔ 會考 A++ 頂標 三階通關藍圖</strong>
+      <strong style="font-size:1rem;color:var(--text);display:flex;align-items:center;gap:6px;">🧭 從辨認線索到獨立應用</strong>
       <span class="tag" style="background:#edf7ed;color:#1e4620;font-weight:700;font-size:0.8rem;">循序漸進 · 階梯式養成</span>
     </div>
     <div class="zero-to-top-grid" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:14px;">
@@ -26946,8 +26946,7 @@ export function renderExamTypeAndExample(u) {
   <div class="exam-type-matrix-card" style="border:1px solid var(--border);border-left:5px solid var(--brand);background:var(--surface);border-radius:10px;padding:18px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
     <div class="row" style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px;">
       <span class="tag accent" style="font-weight:700;font-size:0.95rem;">📌 ${esc(et.typeName)}</span>
-      <span class="tag" style="background:#e3f2fd;color:#0d47a1;">🔥 ${esc(et.frequency)}</span>
-      <span class="subtle" style="margin-left:auto;font-size:0.85rem;">認知層次：${esc(et.bloomLevel)} · 課綱指標：${esc(et.targetCodes)}</span>
+      <span class="subtle" style="margin-left:auto;font-size:0.85rem;">認知層次：${esc(et.bloomLevel)}</span>
     </div>
 
     <div class="exam-type-grid" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:14px;background:var(--surface-alt);padding:14px;border-radius:8px;margin-bottom:12px;">
@@ -26960,19 +26959,19 @@ export function renderExamTypeAndExample(u) {
         <p style="margin:0;font-size:0.9rem;line-height:1.55;color:var(--text-muted);">${esc(et.strategy)}</p>
       </div>
       <div class="exam-type-cell" style="grid-column:1 / -1;">
-        <strong style="color:var(--text);display:block;margin-bottom:4px;">📚 康軒 · 翰林 · 南一 跨版本教材聚焦點：</strong>
-        <p style="margin:0;font-size:0.9rem;line-height:1.55;color:var(--text-muted);white-space:pre-wrap;">${esc(et.publishersBreakdown || et.publishersFocus)}</p>
+        <strong style="color:var(--text);display:block;margin-bottom:4px;">查找課本章節</strong>
+        <p style="margin:0;font-size:0.9rem;line-height:1.55;color:var(--text-muted);white-space:pre-wrap;">章末「題型依據與教材查找」列出可核對的學年、出版社及章節。</p>
       </div>
     </div>
     
     ${et.knowledgeAuditDetail ? `
     <div class="knowledge-audit-box" style="margin-top:12px;background:var(--surface);border:1px solid var(--border);border-left:4px solid #10b981;border-radius:6px;padding:12px 14px;">
-      <strong style="color:#059669;display:block;margin-bottom:4px;font-size:0.88rem;">🔬 108 課綱 x 歷屆會考 知識點回推審計報告：</strong>
-      <div style="font-size:0.86rem;line-height:1.6;color:var(--text);white-space:pre-wrap;">${esc(et.knowledgeAuditDetail)}</div>
+      <strong style="color:#059669;display:block;margin-bottom:4px;font-size:0.88rem;">如何檢查自己是否學會</strong>
+      <div style="font-size:0.86rem;line-height:1.6;color:var(--text);white-space:pre-wrap;">先寫下你的推理，核對步驟，再試著在第二題獨立使用相同的判準。</div>
     </div>
     ` : `
     <div class="knowledge-audit-row" style="margin-top:12px;font-size:0.82rem;color:var(--text-muted);display:flex;align-items:center;gap:6px;">
-      <span>✅ <strong>課綱知識充足度檢驗：</strong>${esc(et.knowledgeAudit)}</span>
+      <span>✅ <strong>課綱知識充足度檢驗：</strong>請利用章末練習核對自己的判斷。</span>
     </div>
     `}
 
@@ -26987,10 +26986,10 @@ export function renderExamTypeAndExample(u) {
   <!-- Module 1.5A: 歷屆會考三大核心題型分類表 & 互動破關集章 (Question Archetypes Breakdown & Interactive Drills) -->
   <div class="cap-archetypes-card" style="border:1px solid var(--border);background:var(--surface);border-radius:10px;padding:18px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,0.03);">
     <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:14px;">
-      <strong style="font-size:1rem;color:var(--text);display:flex;align-items:center;gap:6px;">🗂️ 歷屆會考（109～115）三大核心題型分類與對應知識點清單</strong>
+      <strong style="font-size:1rem;color:var(--text);display:flex;align-items:center;gap:6px;">🗂️ 本課三種練習題型與知識點清單</strong>
       <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
         <span class="tag" style="background:#fff8e1;color:#e65100;font-weight:700;font-size:0.8rem;" data-unit-archetype-prog="${u.id}">🏆 題型制霸進度：0 / ${qTypes.length}</span>
-        <span class="tag" style="background:#e8eaf6;color:#283593;font-weight:700;font-size:0.8rem;">真題回推 · 互動破關</span>
+        <span class="tag" style="background:#e8eaf6;color:#283593;font-weight:700;font-size:0.8rem;">作答後核對理由</span>
       </div>
     </div>
     <div id="archetype-mastery-banner-${u.id}" style="display:none;margin-bottom:14px;padding:12px 16px;border-radius:8px;background:linear-gradient(135deg,#e8f5e9,#fff8e1);border:1px solid #81c784;color:#1b5e20;font-weight:700;font-size:0.92rem;">
@@ -27005,7 +27004,6 @@ export function renderExamTypeAndExample(u) {
             <span class="archetype-stamp-badge" data-archetype-stamp="${u.id}:${qt.code}" style="margin-left:auto;font-size:0.74rem;font-weight:700;padding:2px 8px;border-radius:12px;background:#f5f5f5;color:#616161;border:1px solid #e0e0e0;">🌱 待破關</span>
           </div>
           <strong style="font-size:0.93rem;color:var(--text);line-height:1.45;">${esc(qt.archetypeName)}</strong>
-          <div style="font-size:0.82rem;color:var(--brand);font-weight:600;">📌 代表出處：${esc(qt.capRef)}</div>
           <p style="margin:0;font-size:0.86rem;line-height:1.55;color:var(--text);"><strong>命題模式：</strong>${esc(qt.questionPattern)}</p>
           <p style="margin:0;font-size:0.86rem;line-height:1.55;color:var(--text);"><strong>回推必備知識點：</strong>${esc(qt.requiredKnowledge)}</p>
           <div style="padding-top:8px;border-top:1px dashed var(--border);font-size:0.84rem;line-height:1.5;color:#1b5e20;">
@@ -27041,10 +27039,10 @@ export function renderExamTypeAndExample(u) {
   <!-- Module 1.5B: 知識點回推充足度檢驗與微觀補強講義 (Knowledge Sufficiency Micro-Patches) -->
   <div class="knowledge-patch-card" style="border:1px solid var(--border);border-left:5px solid #8e24aa;background:var(--surface);border-radius:10px;padding:18px;margin-bottom:20px;box-shadow:0 2px 8px rgba(0,0,0,0.03);">
     <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:10px;">
-      <strong style="font-size:1rem;color:var(--text);display:flex;align-items:center;gap:6px;">🧩 課綱 × 會考真題回推：微觀知識點充足度補強講義</strong>
+      <strong style="font-size:1rem;color:var(--text);display:flex;align-items:center;gap:6px;">解題前需要掌握的知識</strong>
       <span class="tag" style="background:#f3e5f5;color:#6a1b9a;font-weight:700;font-size:0.8rem;">零知識斷層 · 100% 充足度保障</span>
     </div>
-    <p style="margin:0 0 12px 0;font-size:0.88rem;line-height:1.6;color:var(--text-muted);">${esc(patch.auditConclusion)}</p>
+    <p style="margin:0 0 12px 0;font-size:0.88rem;line-height:1.6;color:var(--text-muted);">把下列條件逐項對照題幹，再決定可以使用哪個方法。</p>
     <div class="patch-points-grid" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:12px;">
       ${patch.patchPoints.map(pt => `
         <div class="patch-point-item" style="background:var(--surface-alt);border:1px solid var(--border);border-radius:8px;padding:12px 14px;">

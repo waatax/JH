@@ -21,9 +21,9 @@ export const officialSources = {
     "pages": 61
   },
   "math": {
-    "url": "https://stv.naer.edu.tw/data/course_outline/%E6%95%B8%E5%AD%B8%E9%A0%98%E5%9F%9F%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A%EF%BC%88113%E5%B9%B43%E6%9C%88%E6%9B%B4%E6%96%B0%E7%89%88%EF%BC%89_0326.pdf",
-    "label": "數學領域課程手冊（113 年 3 月）",
-    "pages": 782
+    "url": "https://edu.law.moe.gov.tw/Download.ashx?FileID=31051&id=GL001788&type=LAW",
+    "label": "教育部發布數學領域課程綱要（107 年 7 月 26 日）",
+    "pages": 82
   },
   "social": {
     "url": "https://stv.naer.edu.tw/data/course_outline/pta_18535_6408773_60398.pdf",
@@ -63,20 +63,20 @@ export const officialAlignment = {
       {
         "code": "N-7-3",
         "kind": "學習內容",
-        "page": 363
+        "page": 38
       },
       {
         "code": "N-7-5",
         "kind": "學習內容",
-        "page": 261
+        "page": 38
       },
       {
         "code": "n-IV-2",
         "kind": "學習表現",
-        "page": 408
+        "page": 12
       }
     ],
-    "scope": ""
+    "scope": "七年級以數線、大小與距離為核心。校卷若出現絕對值方程式，另列段考延伸（N-7-5）。"
   },
   "math-2": {
     "sourceId": "math",
@@ -84,17 +84,17 @@ export const officialAlignment = {
       {
         "code": "N-7-1",
         "kind": "學習內容",
-        "page": 358
+        "page": 38
       },
       {
         "code": "N-7-2",
         "kind": "學習內容",
-        "page": 358
+        "page": 38
       },
       {
         "code": "n-IV-1",
         "kind": "學習表現",
-        "page": 405
+        "page": 12
       }
     ],
     "scope": ""
@@ -105,20 +105,20 @@ export const officialAlignment = {
       {
         "code": "N-7-3",
         "kind": "學習內容",
-        "page": 363
+        "page": 38
       },
       {
         "code": "N-7-8",
         "kind": "學習內容",
-        "page": 305
+        "page": 38
       },
       {
         "code": "n-IV-3",
         "kind": "學習表現",
-        "page": 411
+        "page": 12
       }
     ],
-    "scope": ""
+    "scope": "七年級的科學記號重在表示與比較大小；含負指數的科學記號四則運算列為延伸（N-7-8）。"
   },
   "math-4": {
     "sourceId": "math",
@@ -126,17 +126,17 @@ export const officialAlignment = {
       {
         "code": "A-7-2",
         "kind": "學習內容",
-        "page": 383
+        "page": 39
       },
       {
         "code": "A-7-3",
         "kind": "學習內容",
-        "page": 423
+        "page": 39
       },
       {
         "code": "a-IV-2",
         "kind": "學習表現",
-        "page": 423
+        "page": 13
       }
     ],
     "scope": ""
@@ -147,17 +147,17 @@ export const officialAlignment = {
       {
         "code": "A-7-4",
         "kind": "學習內容",
-        "page": 383
+        "page": 39
       },
       {
         "code": "A-7-5",
         "kind": "學習內容",
-        "page": 423
+        "page": 39
       },
       {
         "code": "a-IV-4",
         "kind": "學習表現",
-        "page": 426
+        "page": 13
       }
     ],
     "scope": ""
@@ -168,12 +168,12 @@ export const officialAlignment = {
       {
         "code": "N-7-9",
         "kind": "學習內容",
-        "page": 374
+        "page": 38
       },
       {
         "code": "n-IV-4",
         "kind": "學習表現",
-        "page": 415
+        "page": 12
       }
     ],
     "scope": ""
@@ -184,17 +184,17 @@ export const officialAlignment = {
       {
         "code": "A-7-7",
         "kind": "學習內容",
-        "page": 423
+        "page": 40
       },
       {
         "code": "A-7-8",
         "kind": "學習內容",
-        "page": 425
+        "page": 40
       },
       {
         "code": "a-IV-3",
         "kind": "學習表現",
-        "page": 431
+        "page": 13
       }
     ],
     "scope": ""
@@ -203,19 +203,24 @@ export const officialAlignment = {
     "sourceId": "math",
     "refs": [
       {
+        "code": "G-7-1",
+        "kind": "學習內容",
+        "page": 39
+      },
+      {
         "code": "A-7-6",
         "kind": "學習內容",
-        "page": 421
+        "page": 40
       },
       {
         "code": "D-7-1",
         "kind": "學習內容",
-        "page": 303
+        "page": 40
       },
       {
         "code": "d-IV-1",
         "kind": "學習表現",
-        "page": 434
+        "page": 14
       }
     ],
     "scope": ""
@@ -226,17 +231,17 @@ export const officialAlignment = {
       {
         "code": "A-8-1",
         "kind": "學習內容",
-        "page": 422
+        "page": 42
       },
       {
         "code": "A-8-3",
         "kind": "學習內容",
-        "page": 466
+        "page": 42
       },
       {
         "code": "a-IV-5",
         "kind": "學習表現",
-        "page": 463
+        "page": 13
       }
     ],
     "scope": ""
@@ -247,17 +252,17 @@ export const officialAlignment = {
       {
         "code": "N-8-1",
         "kind": "學習內容",
-        "page": 407
+        "page": 40
       },
       {
         "code": "S-8-6",
         "kind": "學習內容",
-        "page": 35
+        "page": 41
       },
       {
         "code": "s-IV-7",
         "kind": "學習表現",
-        "page": 35
+        "page": 13
       }
     ],
     "scope": ""
@@ -268,17 +273,17 @@ export const officialAlignment = {
       {
         "code": "A-8-4",
         "kind": "學習內容",
-        "page": 466
+        "page": 43
       },
       {
         "code": "A-8-5",
         "kind": "學習內容",
-        "page": 463
+        "page": 43
       },
       {
-        "code": "a-IV-5",
+        "code": "a-IV-6",
         "kind": "學習表現",
-        "page": 463
+        "page": 13
       }
     ],
     "scope": ""
@@ -289,17 +294,17 @@ export const officialAlignment = {
       {
         "code": "A-8-6",
         "kind": "學習內容",
-        "page": 466
+        "page": 43
       },
       {
         "code": "A-8-7",
         "kind": "學習內容",
-        "page": 425
+        "page": 43
       },
       {
         "code": "a-IV-6",
         "kind": "學習表現",
-        "page": 470
+        "page": 13
       }
     ],
     "scope": ""
@@ -310,20 +315,20 @@ export const officialAlignment = {
       {
         "code": "N-8-4",
         "kind": "學習內容",
-        "page": 440
+        "page": 40
       },
       {
         "code": "F-8-1",
         "kind": "學習內容",
-        "page": 423
+        "page": 43
       },
       {
         "code": "f-IV-1",
         "kind": "學習表現",
-        "page": 476
+        "page": 13
       }
     ],
-    "scope": ""
+    "scope": "核心為認識公差、由首項與公差求一般項。以兩個不相鄰且都非首項的項值反求首項或公差屬延伸（N-8-4）。"
   },
   "math-14": {
     "sourceId": "math",
@@ -331,17 +336,17 @@ export const officialAlignment = {
       {
         "code": "S-8-4",
         "kind": "學習內容",
-        "page": 34
+        "page": 41
       },
       {
         "code": "S-8-5",
         "kind": "學習內容",
-        "page": 449
+        "page": 41
       },
       {
         "code": "s-IV-9",
         "kind": "學習表現",
-        "page": 450
+        "page": 13
       }
     ],
     "scope": ""
@@ -352,22 +357,22 @@ export const officialAlignment = {
       {
         "code": "S-8-3",
         "kind": "學習內容",
-        "page": 419
+        "page": 41
       },
       {
         "code": "S-8-9",
         "kind": "學習內容",
-        "page": 448
+        "page": 41
       },
       {
         "code": "S-8-12",
         "kind": "學習內容",
-        "page": 420
+        "page": 42
       },
       {
         "code": "s-IV-3",
         "kind": "學習表現",
-        "page": 419
+        "page": 13
       }
     ],
     "scope": ""
@@ -378,17 +383,17 @@ export const officialAlignment = {
       {
         "code": "S-9-1",
         "kind": "學習內容",
-        "page": 387
+        "page": 43
       },
       {
         "code": "S-9-2",
         "kind": "學習內容",
-        "page": 445
+        "page": 44
       },
       {
         "code": "s-IV-10",
         "kind": "學習表現",
-        "page": 485
+        "page": 13
       }
     ],
     "scope": ""
@@ -399,17 +404,17 @@ export const officialAlignment = {
       {
         "code": "S-9-6",
         "kind": "學習內容",
-        "page": 391
+        "page": 44
       },
       {
         "code": "S-9-7",
         "kind": "學習內容",
-        "page": 391
+        "page": 44
       },
       {
         "code": "s-IV-14",
         "kind": "學習表現",
-        "page": 489
+        "page": 13
       }
     ],
     "scope": ""
@@ -420,20 +425,20 @@ export const officialAlignment = {
       {
         "code": "F-9-1",
         "kind": "學習內容",
-        "page": 472
+        "page": 45
       },
       {
         "code": "F-9-2",
         "kind": "學習內容",
-        "page": 462
+        "page": 45
       },
       {
         "code": "f-IV-2",
         "kind": "學習表現",
-        "page": 500
+        "page": 13
       }
     ],
-    "scope": ""
+    "scope": "九年級重在由圖形與頂點式判讀極值；一般二次函數的配方法與應用問題列為高中銜接（F-9-2）。"
   },
   "math-19": {
     "sourceId": "math",
@@ -441,17 +446,17 @@ export const officialAlignment = {
       {
         "code": "D-9-2",
         "kind": "學習內容",
-        "page": 401
+        "page": 46
       },
       {
         "code": "S-9-13",
         "kind": "學習內容",
-        "page": 350
+        "page": 34
       },
       {
         "code": "d-IV-2",
         "kind": "學習表現",
-        "page": 504
+        "page": 14
       }
     ],
     "scope": ""
@@ -470,6 +475,11 @@ export const officialAlignment = {
         "page": 16
       },
       {
+        "code": "Ba-IV-2",
+        "kind": "學習內容",
+        "page": 18
+      },
+      {
         "code": "5-IV-2",
         "kind": "學習表現",
         "page": 13
@@ -482,6 +492,11 @@ export const officialAlignment = {
     "refs": [
       {
         "code": "Ba-IV-1",
+        "kind": "學習內容",
+        "page": 18
+      },
+      {
+        "code": "Ba-IV-2",
         "kind": "學習內容",
         "page": 18
       },
@@ -689,22 +704,22 @@ export const officialAlignment = {
       {
         "code": "S-9-8",
         "kind": "學習內容",
-        "page": 493
+        "page": 44
       },
       {
         "code": "S-9-9",
         "kind": "學習內容",
-        "page": 494
+        "page": 45
       },
       {
         "code": "S-9-10",
         "kind": "學習內容",
-        "page": 493
+        "page": 45
       },
       {
         "code": "s-IV-11",
         "kind": "學習表現",
-        "page": 493
+        "page": 13
       }
     ],
     "scope": ""
@@ -917,12 +932,12 @@ export const officialAlignment = {
       {
         "code": "N-9-1",
         "kind": "學習內容",
-        "page": 482
+        "page": 43
       },
       {
         "code": "n-IV-4",
         "kind": "學習表現",
-        "page": 415
+        "page": 12
       }
     ],
     "scope": ""
@@ -933,12 +948,12 @@ export const officialAlignment = {
       {
         "code": "N-8-5",
         "kind": "學習內容",
-        "page": 442
+        "page": 40
       },
       {
         "code": "n-IV-8",
         "kind": "學習表現",
-        "page": 443
+        "page": 12
       }
     ],
     "scope": ""
@@ -949,12 +964,12 @@ export const officialAlignment = {
       {
         "code": "S-8-2",
         "kind": "學習內容",
-        "page": 445
+        "page": 41
       },
       {
         "code": "s-IV-2",
         "kind": "學習表現",
-        "page": 445
+        "page": 13
       }
     ],
     "scope": ""
@@ -965,17 +980,17 @@ export const officialAlignment = {
       {
         "code": "S-8-10",
         "kind": "學習內容",
-        "page": 448
+        "page": 42
       },
       {
         "code": "S-8-11",
         "kind": "學習內容",
-        "page": 448
+        "page": 42
       },
       {
         "code": "s-IV-8",
         "kind": "學習表現",
-        "page": 454
+        "page": 13
       }
     ],
     "scope": ""
@@ -986,17 +1001,17 @@ export const officialAlignment = {
       {
         "code": "S-9-6",
         "kind": "學習內容",
-        "page": 391
+        "page": 44
       },
       {
         "code": "S-9-7",
         "kind": "學習內容",
-        "page": 391
+        "page": 44
       },
       {
         "code": "s-IV-14",
         "kind": "學習表現",
-        "page": 489
+        "page": 13
       }
     ],
     "scope": "先掌握圓周角與切線性質；圓內外角的組合公式列為延伸推導，不以背誦公式取代幾何理由。"
@@ -1007,17 +1022,17 @@ export const officialAlignment = {
       {
         "code": "S-7-2",
         "kind": "學習內容",
-        "page": 418
+        "page": 39
       },
       {
         "code": "S-9-13",
         "kind": "學習內容",
-        "page": 350
+        "page": 34
       },
       {
         "code": "s-IV-16",
         "kind": "學習表現",
-        "page": 418
+        "page": 13
       }
     ],
     "scope": ""
@@ -1028,17 +1043,17 @@ export const officialAlignment = {
       {
         "code": "D-9-1",
         "kind": "學習內容",
-        "page": 478
+        "page": 46
       },
       {
         "code": "D-8-1",
         "kind": "學習內容",
-        "page": 434
+        "page": 43
       },
       {
         "code": "d-IV-1",
         "kind": "學習表現",
-        "page": 434
+        "page": 14
       }
     ],
     "scope": ""
@@ -2018,7 +2033,7 @@ export const officialAlignment = {
         "page": 25
       }
     ],
-    "scope": ""
+    "scope": "國中核心為可逆反應與動態平衡。勒沙特列原理的系統性分析屬高中延伸。"
   },
   "chemistry-9": {
     "sourceId": "science",

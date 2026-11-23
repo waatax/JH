@@ -4,6 +4,9 @@
 // weekly league leaderboard, unit treasure chests, and multi-modal practice.
 
 import { createCourse, createGame, isScored, shuffle, XP, HEARTS, BADGES, LEAGUES } from './engine.mjs?v=20261103v2';
+import {renderOfficialAlignment} from '../lesson-deepening.js';
+import {renderWorkshop,bindWorkshop} from '../lesson-workshop.js';
+bindWorkshop(document);
 import * as sound from './sound.mjs?v=20261029v1';
 import { answerText, correctionTip, questionText, repairSteps } from './coach.mjs?v=20261029v1';
 import { courseAtlas, nextAdventure } from './atlas.mjs?v=20261027v2';
@@ -1017,12 +1020,15 @@ function renderGuideModalContent(g) {
     ['wonder', '✨ 趣味與口訣'],
     ['visuals', '📊 表格與圖表'],
     ['publishers', '📚 三版課本對照'],
-    ['thinking', '⚡ 解題思維鏈']
+    ['thinking', '⚡ 解題思維鏈'],
+    ['workshop', '章末練習']
   ];
   const curTab = tabs.some(t => t[0] === ui.guideTab) ? ui.guideTab : 'kp';
 
   let tabBody = '';
-  if (curTab === 'wonder') {
+  if (curTab === 'workshop') {
+    tabBody = renderWorkshop(g.unitId, '../');
+  } else if (curTab === 'wonder') {
     const uw = g.unitWonder;
     tabBody = uw ? `
       <div style="display:flex;flex-direction:column;gap:0.85rem;margin-top:0.75rem;">
@@ -1211,17 +1217,7 @@ function renderGuideModalContent(g) {
             </div>
           `).join('')}
         </div>
-        ${g.officialRefs?.length ? `
-          <div class="card">
-            <div class="guide-section-badge">🏛️ 教育部 108 課綱官方指標依據</div>
-            ${g.officialRefs.map(r => `
-              <div style="margin-top:0.4rem;">
-                <b class="small">${esc(r.code)} (PDF p.${r.page})：</b>
-                <p class="small muted">${esc(r.excerpt)}</p>
-              </div>
-            `).join('')}
-          </div>
-        ` : ''}
+        ${renderOfficialAlignment({id:g.unitId,task:g.task || ''})}
       </div>
     `;
   } else if (curTab === 'thinking') {
@@ -1236,7 +1232,7 @@ function renderGuideModalContent(g) {
       <div style="display:flex;flex-direction:column;gap:0.85rem;margin-top:0.75rem;">
         ${ladder ? `
           <div class="card">
-            <div class="guide-section-badge">🧭 零基礎小白 ➔ 會考 A++ 頂標 三階通關藍圖</div>
+            <div class="guide-section-badge">🧭 從辨認線索到獨立應用</div>
             <div style="display:flex;flex-direction:column;gap:0.5rem;margin-top:0.4rem;">
               <div class="info-tip-box"><b>🌱 Step 1｜小白破冰（B 保底）：</b><span>${esc(ladder.zeroFoundation)}</span></div>
               <div class="info-tip-box"><b>⚡ Step 2｜主流破題（B++ ➔ A）：</b><span>${esc(ladder.mainstreamBtoA)}</span></div>
@@ -1246,11 +1242,11 @@ function renderGuideModalContent(g) {
         ` : ''}
         ${qTypes.length ? `
           <div class="card">
-            <div class="guide-section-badge">🗂️ 歷屆會考（109～115）三大核心題型分類與對應知識點</div>
+            <div class="guide-section-badge">🗂️ 本課三種練習題型與知識點</div>
             <div style="display:flex;flex-direction:column;gap:0.55rem;margin-top:0.45rem;">
               ${qTypes.map(qt => `
                 <div class="info-tip-box" style="display:flex;flex-direction:column;gap:0.25rem;">
-                  <div><b>${esc(qt.code)} · ${esc(qt.archetypeName)}</b> <span class="small muted">（${esc(qt.capRef)}）</span></div>
+                  <div><b>${esc(qt.code)} · ${esc(qt.archetypeName)}</b></div>
                   <div class="small"><b>回推必備知識點：</b>${esc(qt.requiredKnowledge)}</div>
                   <div class="small" style="color:var(--primary-ink, #193e35);"><b>⚡ 破題 SOP：</b>${esc(qt.solvingSOP)}</div>
                   ${qt.archetypeDrill ? `<details style="margin-top:0.25rem;"><summary class="small" style="cursor:pointer;font-weight:700;">🎮 點看【${esc(qt.code)}】實戰破關挑戰與解析</summary><p class="small" style="margin:0.25rem 0;">${esc(qt.archetypeDrill.stem)}<br><b>正確判準：</b>${esc(qt.archetypeDrill.options?.[qt.archetypeDrill.answer] || '')}<br><span class="muted">${esc(qt.archetypeDrill.explanation)}</span></p></details>` : ''}
@@ -1262,7 +1258,7 @@ function renderGuideModalContent(g) {
         ${patch && patch.patchPoints?.length ? `
           <div class="card">
             <div class="guide-section-badge">🧩 108 課綱 × 會考回推：微觀知識充足度補強講義</div>
-            <p class="small muted" style="margin:0.25rem 0;">${esc(patch.auditConclusion)}</p>
+            <p class="small muted" style="margin:0.25rem 0;">把下列條件逐項對照題幹，再決定可以使用哪個方法。</p>
             <div style="display:flex;flex-direction:column;gap:0.5rem;margin-top:0.4rem;">
               ${patch.patchPoints.map(pt => `
                 <div class="info-tip-box">
@@ -1276,7 +1272,7 @@ function renderGuideModalContent(g) {
         ${et && capWe ? `
           <div class="card">
             <div class="guide-section-badge">🎯 【實戰例題一】會考高頻題型與五步詳解：${esc(et.typeName)}</div>
-            <p class="small muted" style="margin:0.25rem 0;">🔥 ${esc(et.frequency)} · 課綱指標：${esc(et.targetCodes)}</p>
+            <p class="small muted" style="margin:0.25rem 0;">🔥 ${esc(et.frequency)}</p>
             <h4 style="margin:0.4rem 0;">${esc(capWe.title)}：${esc(capWe.stem)}</h4>
             <p class="small"><b>正確答案：</b>(${String.fromCharCode(65 + (capWe.answer || 0))}) ${esc(capWe.options?.[capWe.answer || 0] || '')}</p>
             <ol class="quest-thinking-steps" style="margin-top:0.4rem;">

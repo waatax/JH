@@ -1,0 +1,21 @@
+.chapter-workshop form {
+  border-block-start: 1px solid var(--border, #aabdb4);
+  padding-block: 1.1rem;
+}
+.chapter-workshop form > label, .chapter-workshop legend { line-height: 1.7; }
+.chapter-workshop textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  margin: .65rem 0;
+  padding: .6rem;
+}
+.chapter-workshop fieldset { border: 0; margin: 0 0 .65rem; padding: 0; }
+.chapter-workshop fieldset label { display: inline-flex; align-items: center; gap: .35rem; padding: .5rem .85rem .5rem 0; }
+.chapter-workshop .workshop-feedback { border-inline-start: 3px solid #5b917a; margin-top: .85rem; padding: .3rem .9rem; }
+.chapter-workshop .workshop-feedback[hidden] { display: none; }
+.chapter-workshop ol, .chapter-workshop ul { padding-inline-start: 1.6rem; }
+.chapter-workshop li { margin-block: .4rem; line-height: 1.65; }
+.chapter-workshop details { margin: .75rem 0; overflow-wrap: anywhere; }
+.chapter-workshop summary { cursor: pointer; font-weight: 600; }
