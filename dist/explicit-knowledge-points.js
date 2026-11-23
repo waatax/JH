@@ -5702,13 +5702,13 @@ export const explicitKnowledgePoints = {
       "id": "english-8-kp-1",
       "unitId": "english-8",
       "order": 1,
-      "title": "【知識點 1】祈使句規範",
-      "core": "祈使句規範：省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞。",
-      "mechanism": "對照判準與實例：省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞。Open the door, please. / Don't be late for school again.。",
-      "explanation": "辨認「祈使句規範」時，先說出「省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞」，再核對「Open the door, please. / Don't be late for school again.」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞｜實例與界線：Open the door, please. / Don't be late for school again.",
-      "examIntel": "自我檢核：遮住說明，試著解釋「Open the door, please. / Don't be late for school again.」與「省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞」的關係。",
-      "practicalTip": "核對本點實例與界線：Open the door, please. / Don't be late for school again.",
+      "title": "【知識點 1】頻率副詞強度與位置",
+      "core": "頻率副詞強度與位置：always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」。",
+      "mechanism": "對照判準與實例：always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」。She is always early. / He usually walks to school. / Do you often play basketball?。",
+      "explanation": "辨認「頻率副詞強度與位置」時，先說出「always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」」，再核對「She is always early. / He usually walks to school. / Do you often play basketball?」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」｜實例與界線：She is always early. / He usually walks to school. / Do you often play basketball?",
+      "examIntel": "自我檢核：遮住說明，試著解釋「She is always early. / He usually walks to school. / Do you often play basketball?」與「always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」」的關係。",
+      "practicalTip": "核對本點實例與界線：She is always early. / He usually walks to school. / Do you often play basketball?",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -5719,9 +5719,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "祈使句規範｜規則與實例",
+        "title": "頻率副詞強度與位置｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 338\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"祈使句規範：概念、規則與實例\"><title>祈使句規範</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"336\" rx=\"16\" fill=\"#f0f5fa\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2f5577\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">祈使句規範</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">省略主詞 You，以原形動詞開頭；否定句用 Don&#39;t + 原形動詞</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">Open the door, please. / Don&#39;t be late for school again.</tspan></text><text x=\"22\" y=\"324\" font-size=\"11\" fill=\"#1a3249\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"頻率副詞強度與位置：概念、規則與實例\"><title>頻率副詞強度與位置</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f5fa\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2f5577\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">頻率副詞強度與位置</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">always &gt; usually &gt; often &gt; sometimes &gt; seldom &gt; never；</tspan><tspan x=\"38\" dy=\"24\">口訣「be 動詞與助動詞之後，一般動詞之前」</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">She is always early. / He usually walks to school. / Do </tspan><tspan x=\"38\" dy=\"24\">you often play basketball?</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1a3249\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -5731,10 +5731,10 @@ export const explicitKnowledgePoints = {
           "desc": "Adverbs of frequency (always, usually, often, sometimes, never) show how often an action happens. They come before action verbs but after be-verbs. The modal verb \"can\" expresses ability or permission and is followed by a base verb. \"There is\" and \"There are\" state existence."
         },
         "extension": {
-          "title": "感嘆句結構",
+          "title": "情態助動詞 can 用法",
           "unitId": "english-8",
           "icon": "🚀",
-          "desc": "同課比較：What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!。請說明與「祈使句規範」的差別。"
+          "desc": "同課比較：can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s。請說明與「頻率副詞強度與位置」的差別。"
         },
         "crossDisciplinary": {
           "title": "字詞、語境與修辭",
@@ -5743,20 +5743,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「祈使句規範」的說明，先說出規則，再用「Open the door, please. / Don't be late for school again.」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「頻率副詞強度與位置」的說明，先說出規則，再用「She is always early. / He usually walks to school. / Do you often play basketball?」核對自己的理解。"
       }
     },
     {
       "id": "english-8-kp-2",
       "unitId": "english-8",
       "order": 2,
-      "title": "【知識點 2】感嘆句結構",
-      "core": "感嘆句結構：What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!。",
-      "mechanism": "對照判準與實例：What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!。What a beautiful girl she is! / How fast he can run!。",
-      "explanation": "辨認「感嘆句結構」時，先說出「What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!」，再核對「What a beautiful girl she is! / How fast he can run!」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!｜實例與界線：What a beautiful girl she is! / How fast he can run!",
-      "examIntel": "自我檢核：遮住說明，試著解釋「What a beautiful girl she is! / How fast he can run!」與「What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!」的關係。",
-      "practicalTip": "核對本點實例與界線：What a beautiful girl she is! / How fast he can run!",
+      "title": "【知識點 2】情態助動詞 can 用法",
+      "core": "情態助動詞 can 用法：can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s。",
+      "mechanism": "對照判準與實例：can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s。He can swim very well. / Can you open the window?（否定為 can't / cannot）。",
+      "explanation": "辨認「情態助動詞 can 用法」時，先說出「can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s」，再核對「He can swim very well. / Can you open the window?（否定為 can't / cannot）」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s｜實例與界線：He can swim very well. / Can you open the window?（否定為 can't / cannot）",
+      "examIntel": "自我檢核：遮住說明，試著解釋「He can swim very well. / Can you open the window?（否定為 can't / cannot）」與「can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s」的關係。",
+      "practicalTip": "核對本點實例與界線：He can swim very well. / Can you open the window?（否定為 can't / cannot）",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -5767,9 +5767,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "感嘆句結構｜規則與實例",
+        "title": "情態助動詞 can 用法｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"感嘆句結構：概念、規則與實例\"><title>感嘆句結構</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#f0f5fa\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2f5577\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">感嘆句結構</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S</tspan><tspan x=\"38\" dy=\"24\"> + V!</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">What a beautiful girl she is! / How fast he can run!</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#1a3249\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"情態助動詞 can 用法：概念、規則與實例\"><title>情態助動詞 can 用法</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f5fa\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2f5577\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">情態助動詞 can 用法</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單</tspan><tspan x=\"38\" dy=\"24\">數加 s</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">He can swim very well. / Can you open the window?（否定為</tspan><tspan x=\"38\" dy=\"24\"> can&#39;t / cannot）</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1a3249\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -5779,10 +5779,10 @@ export const explicitKnowledgePoints = {
           "desc": "Adverbs of frequency (always, usually, often, sometimes, never) show how often an action happens. They come before action verbs but after be-verbs. The modal verb \"can\" expresses ability or permission and is followed by a base verb. \"There is\" and \"There are\" state existence."
         },
         "extension": {
-          "title": "附加問句前肯後否",
+          "title": "There is / There are 存在句",
           "unitId": "english-8",
           "icon": "🚀",
-          "desc": "同課比較：直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定。請說明與「感嘆句結構」的差別。"
+          "desc": "同課比較：表達「某處有某人/某物」，單數或不可數名詞用 There is，複數名詞用 There are。請說明與「情態助動詞 can 用法」的差別。"
         },
         "crossDisciplinary": {
           "title": "歐洲、美洲與大洋洲",
@@ -5791,20 +5791,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「感嘆句結構」的說明，先說出規則，再用「What a beautiful girl she is! / How fast he can run!」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「情態助動詞 can 用法」的說明，先說出規則，再用「He can swim very well. / Can you open the window?（否定為 can't / cannot）」核對自己的理解。"
       }
     },
     {
       "id": "english-8-kp-3",
       "unitId": "english-8",
       "order": 3,
-      "title": "【知識點 3】附加問句前肯後否",
-      "core": "附加問句前肯後否：直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定。",
-      "mechanism": "對照判準與實例：直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定。You are a student, aren't you? / She didn't go, did she?。",
-      "explanation": "辨認「附加問句前肯後否」時，先說出「直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定」，再核對「You are a student, aren't you? / She didn't go, did she?」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定｜實例與界線：You are a student, aren't you? / She didn't go, did she?",
-      "examIntel": "自我檢核：遮住說明，試著解釋「You are a student, aren't you? / She didn't go, did she?」與「直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定」的關係。",
-      "practicalTip": "核對本點實例與界線：You are a student, aren't you? / She didn't go, did she?",
+      "title": "【知識點 3】There is / There are 存在句",
+      "core": "There is / There are 存在句：表達「某處有某人/某物」，單數或不可數名詞用 There is，複數名詞用 There are。",
+      "mechanism": "對照判準與實例：表達「某處有某人/某物」，單數或不可數名詞用 There is，複數名詞用 There are。There is a book on the desk. / There are two parks near my home.。",
+      "explanation": "辨認「There is / There are 存在句」時，先說出「表達「某處有某人/某物」，單數或不可數名詞用 There is，複數名詞用 There are」，再核對「There is a book on the desk. / There are two parks near my home.」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "表達「某處有某人/某物」，單數或不可數名詞用 There is，複數名詞用 There are｜實例與界線：There is a book on the desk. / There are two parks near my home.",
+      "examIntel": "自我檢核：遮住說明，試著解釋「There is a book on the desk. / There are two parks near my home.」與「表達「某處有某人/某物」，單數或不可數名詞用 There is，複數名詞用 There are」的關係。",
+      "practicalTip": "核對本點實例與界線：There is a book on the desk. / There are two parks near my home.",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -5815,9 +5815,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "附加問句前肯後否｜規則與實例",
+        "title": "There is / There are 存在句｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 338\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"附加問句前肯後否：概念、規則與實例\"><title>附加問句前肯後否</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"336\" rx=\"16\" fill=\"#f0f5fa\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2f5577\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">附加問句前肯後否</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">You are a student, aren&#39;t you? / She didn&#39;t go, did she?</tspan></text><text x=\"22\" y=\"324\" font-size=\"11\" fill=\"#1a3249\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"There is / There are 存在句：概念、規則與實例\"><title>There is / There are 存在句</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f5fa\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2f5577\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">There is / There are 存在句</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">表達「某處有某人/某物」，單數或不可數名詞用 There is，複數名詞</tspan><tspan x=\"38\" dy=\"24\">用 There are</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">There is a book on the desk. / There are two parks near </tspan><tspan x=\"38\" dy=\"24\">my home.</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1a3249\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -5827,10 +5827,10 @@ export const explicitKnowledgePoints = {
           "desc": "Adverbs of frequency (always, usually, often, sometimes, never) show how often an action happens. They come before action verbs but after be-verbs. The modal verb \"can\" expresses ability or permission and is followed by a base verb. \"There is\" and \"There are\" state existence."
         },
         "extension": {
-          "title": "祈使句規範",
+          "title": "頻率副詞強度與位置",
           "unitId": "english-8",
           "icon": "🚀",
-          "desc": "同課比較：省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞。請說明與「附加問句前肯後否」的差別。"
+          "desc": "同課比較：always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」。請說明與「There is / There are 存在句」的差別。"
         },
         "crossDisciplinary": {
           "title": "字詞、語境與修辭",
@@ -5839,7 +5839,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「附加問句前肯後否」的說明，先說出規則，再用「You are a student, aren't you? / She didn't go, did she?」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「There is / There are 存在句」的說明，先說出規則，再用「There is a book on the desk. / There are two parks near my home.」核對自己的理解。"
       }
     }
   ],
@@ -12126,13 +12126,13 @@ export const explicitKnowledgePoints = {
       "id": "earth-6-kp-1",
       "unitId": "earth-6",
       "order": 1,
-      "title": "【知識點 1】風化與侵蝕搬運",
-      "core": "風化與侵蝕搬運：風化（原地物理崩解與化學蝕變分解）；侵蝕（流水、風、冰川、波浪將岩屑剝蝕搬離原地）。",
-      "mechanism": "對照判準與實例：風化（原地物理崩解與化學蝕變分解）；侵蝕（流水、風、冰川、波浪將岩屑剝蝕搬離原地）。高山受水反覆結冰凍裂為物理風化；石灰岩被溶有 CO₂ 之酸性地下水溶蝕為化學風化。",
-      "explanation": "辨認「風化與侵蝕搬運」時，先說出「風化（原地物理崩解與化學蝕變分解）；侵蝕（流水、風、冰川、波浪將岩屑剝蝕搬離原地）」，再核對「高山受水反覆結冰凍裂為物理風化；石灰岩被溶有 CO₂ 之酸性地下水溶蝕為化學風化」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "風化（原地物理崩解與化學蝕變分解）；侵蝕（流水、風、冰川、波浪將岩屑剝蝕搬離原地）｜實例與界線：高山受水反覆結冰凍裂為物理風化；石灰岩被溶有 CO₂ 之酸性地下水溶蝕為化學風化",
-      "examIntel": "自我檢核：遮住說明，試著解釋「高山受水反覆結冰凍裂為物理風化；石灰岩被溶有 CO₂ 之酸性地下水溶蝕為化學風化」與「風化（原地物理崩解與化學蝕變分解）；侵蝕（流水、風、冰川、波浪將岩屑剝蝕搬離原地）」的關係。",
-      "practicalTip": "核對本點實例與界線：高山受水反覆結冰凍裂為物理風化；石灰岩被溶有 CO₂ 之酸性地下水溶蝕為化學風化",
+      "title": "【知識點 1】自然溫室效應與暖化",
+      "core": "自然溫室效應與暖化：大氣中 CO₂、CH₄、水氣等溫室氣體吸收地表長波紅外線使地球保溫；工業革命後化石燃料排放使溫室效應加劇。",
+      "mechanism": "對照判準與實例：大氣中 CO₂、CH₄、水氣等溫室氣體吸收地表長波紅外線使地球保溫；工業革命後化石燃料排放使溫室效應加劇。溫室效應本身維持地球適宜溫度，問題在於人為排放導致濃度急升引發全球暖化。",
+      "explanation": "辨認「自然溫室效應與暖化」時，先說出「大氣中 CO₂、CH₄、水氣等溫室氣體吸收地表長波紅外線使地球保溫；工業革命後化石燃料排放使溫室效應加劇」，再核對「溫室效應本身維持地球適宜溫度，問題在於人為排放導致濃度急升引發全球暖化」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "大氣中 CO₂、CH₄、水氣等溫室氣體吸收地表長波紅外線使地球保溫；工業革命後化石燃料排放使溫室效應加劇｜實例與界線：溫室效應本身維持地球適宜溫度，問題在於人為排放導致濃度急升引發全球暖化",
+      "examIntel": "自我檢核：遮住說明，試著解釋「溫室效應本身維持地球適宜溫度，問題在於人為排放導致濃度急升引發全球暖化」與「大氣中 CO₂、CH₄、水氣等溫室氣體吸收地表長波紅外線使地球保溫；工業革命後化石燃料排放使溫室效應加劇」的關係。",
+      "practicalTip": "核對本點實例與界線：溫室效應本身維持地球適宜溫度，問題在於人為排放導致濃度急升引發全球暖化",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -12143,9 +12143,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "風化與侵蝕搬運｜規則與實例",
+        "title": "自然溫室效應與暖化｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"風化與侵蝕搬運：概念、規則與實例\"><title>風化與侵蝕搬運</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">風化與侵蝕搬運</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">風化（原地物理崩解與化學蝕變分解）；侵蝕（流水、風、冰川、波浪將</tspan><tspan x=\"38\" dy=\"24\">岩屑剝蝕搬離原地）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">高山受水反覆結冰凍裂為物理風化；石灰岩被溶有 CO₂ 之酸性地下水溶</tspan><tspan x=\"38\" dy=\"24\">蝕為化學風化</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"自然溫室效應與暖化：概念、規則與實例\"><title>自然溫室效應與暖化</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">自然溫室效應與暖化</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">大氣中 CO₂、CH₄、水氣等溫室氣體吸收地表長波紅外線使地球保溫；</tspan><tspan x=\"38\" dy=\"24\">工業革命後化石燃料排放使溫室效應加劇</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">溫室效應本身維持地球適宜溫度，問題在於人為排放導致濃度急升引發全</tspan><tspan x=\"38\" dy=\"24\">球暖化</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -12155,10 +12155,10 @@ export const explicitKnowledgePoints = {
           "desc": "氣候研究須依長時間、多地點與多類資料。溫室效應是自然過程，人類增加溫室氣體可增強暖化。減緩與調適解決不同面向。"
         },
         "extension": {
-          "title": "河流三大作用地形",
+          "title": "全球暖化觀測證據",
           "unitId": "earth-6",
           "icon": "🚀",
-          "desc": "同課比較：上游侵蝕為主（V 型谷、瀑布）；中游搬運為主；下游沉積為主（沖積扇、氾濫平原、三角洲）。請說明與「風化與侵蝕搬運」的差別。"
+          "desc": "同課比較：百年全球平均氣溫上升、格陵蘭與南極冰川融化、海水熱膨脹造成海平面持續上升。請說明與「自然溫室效應與暖化」的差別。"
         },
         "crossDisciplinary": {
           "title": "媒體素養、全球化與永續消費",
@@ -12167,20 +12167,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「風化與侵蝕搬運」的說明，先說出規則，再用「高山受水反覆結冰凍裂為物理風化；石灰岩被溶有 CO₂ 之酸性地下水溶蝕為化學風化」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「自然溫室效應與暖化」的說明，先說出規則，再用「溫室效應本身維持地球適宜溫度，問題在於人為排放導致濃度急升引發全球暖化」核對自己的理解。"
       }
     },
     {
       "id": "earth-6-kp-2",
       "unitId": "earth-6",
       "order": 2,
-      "title": "【知識點 2】河流三大作用地形",
-      "core": "河流三大作用地形：上游侵蝕為主（V 型谷、瀑布）；中游搬運為主；下游沉積為主（沖積扇、氾濫平原、三角洲）。",
-      "mechanism": "對照判準與實例：上游侵蝕為主（V 型谷、瀑布）；中游搬運為主；下游沉積為主（沖積扇、氾濫平原、三角洲）。顆粒沉積具淘選分層性：流速減慢時粗砂礫石先沉積於上游中游，細粒泥砂黏土運至出海口沉積。",
-      "explanation": "辨認「河流三大作用地形」時，先說出「上游侵蝕為主（V 型谷、瀑布）；中游搬運為主；下游沉積為主（沖積扇、氾濫平原、三角洲）」，再核對「顆粒沉積具淘選分層性：流速減慢時粗砂礫石先沉積於上游中游，細粒泥砂黏土運至出海口沉積」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "上游侵蝕為主（V 型谷、瀑布）；中游搬運為主；下游沉積為主（沖積扇、氾濫平原、三角洲）｜實例與界線：顆粒沉積具淘選分層性：流速減慢時粗砂礫石先沉積於上游中游，細粒泥砂黏土運至出海口沉積",
-      "examIntel": "自我檢核：遮住說明，試著解釋「顆粒沉積具淘選分層性：流速減慢時粗砂礫石先沉積於上游中游，細粒泥砂黏土運至出海口沉積」與「上游侵蝕為主（V 型谷、瀑布）；中游搬運為主；下游沉積為主（沖積扇、氾濫平原、三角洲）」的關係。",
-      "practicalTip": "核對本點實例與界線：顆粒沉積具淘選分層性：流速減慢時粗砂礫石先沉積於上游中游，細粒泥砂黏土運至出海口沉積",
+      "title": "【知識點 2】全球暖化觀測證據",
+      "core": "全球暖化觀測證據：百年全球平均氣溫上升、格陵蘭與南極冰川融化、海水熱膨脹造成海平面持續上升。",
+      "mechanism": "對照判準與實例：百年全球平均氣溫上升、格陵蘭與南極冰川融化、海水熱膨脹造成海平面持續上升。極端熱浪、強降雨與乾旱頻率增加；海洋吸收過多 CO₂ 亦引發海洋酸化威脅珊瑚礁。",
+      "explanation": "辨認「全球暖化觀測證據」時，先說出「百年全球平均氣溫上升、格陵蘭與南極冰川融化、海水熱膨脹造成海平面持續上升」，再核對「極端熱浪、強降雨與乾旱頻率增加；海洋吸收過多 CO₂ 亦引發海洋酸化威脅珊瑚礁」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "百年全球平均氣溫上升、格陵蘭與南極冰川融化、海水熱膨脹造成海平面持續上升｜實例與界線：極端熱浪、強降雨與乾旱頻率增加；海洋吸收過多 CO₂ 亦引發海洋酸化威脅珊瑚礁",
+      "examIntel": "自我檢核：遮住說明，試著解釋「極端熱浪、強降雨與乾旱頻率增加；海洋吸收過多 CO₂ 亦引發海洋酸化威脅珊瑚礁」與「百年全球平均氣溫上升、格陵蘭與南極冰川融化、海水熱膨脹造成海平面持續上升」的關係。",
+      "practicalTip": "核對本點實例與界線：極端熱浪、強降雨與乾旱頻率增加；海洋吸收過多 CO₂ 亦引發海洋酸化威脅珊瑚礁",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -12191,9 +12191,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "河流三大作用地形｜規則與實例",
+        "title": "全球暖化觀測證據｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"河流三大作用地形：概念、規則與實例\"><title>河流三大作用地形</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">河流三大作用地形</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">上游侵蝕為主（V 型谷、瀑布）；中游搬運為主；下游沉積為主（沖積扇</tspan><tspan x=\"38\" dy=\"24\">、氾濫平原、三角洲）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">顆粒沉積具淘選分層性：流速減慢時粗砂礫石先沉積於上游中游，細粒泥</tspan><tspan x=\"38\" dy=\"24\">砂黏土運至出海口沉積</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"全球暖化觀測證據：概念、規則與實例\"><title>全球暖化觀測證據</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">全球暖化觀測證據</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">百年全球平均氣溫上升、格陵蘭與南極冰川融化、海水熱膨脹造成海平面</tspan><tspan x=\"38\" dy=\"24\">持續上升</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">極端熱浪、強降雨與乾旱頻率增加；海洋吸收過多 CO₂ 亦引發海洋酸化</tspan><tspan x=\"38\" dy=\"24\">威脅珊瑚礁</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -12203,10 +12203,10 @@ export const explicitKnowledgePoints = {
           "desc": "氣候研究須依長時間、多地點與多類資料。溫室效應是自然過程，人類增加溫室氣體可增強暖化。減緩與調適解決不同面向。"
         },
         "extension": {
-          "title": "三大岩類成因辨識",
+          "title": "氣候變遷對臺灣衝擊",
           "unitId": "earth-6",
           "icon": "🚀",
-          "desc": "同課比較：火成岩（岩漿冷卻結晶，如花崗岩、玄武岩、安山岩）；變質岩（高溫高壓再結晶變質，如大理岩、片麻岩）。請說明與「河流三大作用地形」的差別。"
+          "desc": "同課比較：臺灣豐枯水期差距擴大、強降雨致災風險升高，沿海低窪區受暴潮與海平面上升威脅。請說明與「全球暖化觀測證據」的差別。"
         },
         "crossDisciplinary": {
           "title": "全球連結與環境議題",
@@ -12215,20 +12215,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「河流三大作用地形」的說明，先說出規則，再用「顆粒沉積具淘選分層性：流速減慢時粗砂礫石先沉積於上游中游，細粒泥砂黏土運至出海口沉積」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「全球暖化觀測證據」的說明，先說出規則，再用「極端熱浪、強降雨與乾旱頻率增加；海洋吸收過多 CO₂ 亦引發海洋酸化威脅珊瑚礁」核對自己的理解。"
       }
     },
     {
       "id": "earth-6-kp-3",
       "unitId": "earth-6",
       "order": 3,
-      "title": "【知識點 3】三大岩類成因辨識",
-      "core": "三大岩類成因辨識：火成岩（岩漿冷卻結晶，如花崗岩、玄武岩、安山岩）；變質岩（高溫高壓再結晶變質，如大理岩、片麻岩）。",
-      "mechanism": "對照判準與實例：火成岩（岩漿冷卻結晶，如花崗岩、玄武岩、安山岩）；變質岩（高溫高壓再結晶變質，如大理岩、片麻岩）。沉積岩（碎屑沉積物壓密膠結成岩，如砂岩、頁岩、石灰岩），是唯一常含有「古生物化石」的岩類。",
-      "explanation": "辨認「三大岩類成因辨識」時，先說出「火成岩（岩漿冷卻結晶，如花崗岩、玄武岩、安山岩）；變質岩（高溫高壓再結晶變質，如大理岩、片麻岩）」，再核對「沉積岩（碎屑沉積物壓密膠結成岩，如砂岩、頁岩、石灰岩），是唯一常含有「古生物化石」的岩類」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "火成岩（岩漿冷卻結晶，如花崗岩、玄武岩、安山岩）；變質岩（高溫高壓再結晶變質，如大理岩、片麻岩）｜實例與界線：沉積岩（碎屑沉積物壓密膠結成岩，如砂岩、頁岩、石灰岩），是唯一常含有「古生物化石」的岩類",
-      "examIntel": "自我檢核：遮住說明，試著解釋「沉積岩（碎屑沉積物壓密膠結成岩，如砂岩、頁岩、石灰岩），是唯一常含有「古生物化石」的岩類」與「火成岩（岩漿冷卻結晶，如花崗岩、玄武岩、安山岩）；變質岩（高溫高壓再結晶變質，如大理岩、片麻岩）」的關係。",
-      "practicalTip": "核對本點實例與界線：沉積岩（碎屑沉積物壓密膠結成岩，如砂岩、頁岩、石灰岩），是唯一常含有「古生物化石」的岩類",
+      "title": "【知識點 3】氣候變遷對臺灣衝擊",
+      "core": "氣候變遷對臺灣衝擊：臺灣豐枯水期差距擴大、強降雨致災風險升高，沿海低窪區受暴潮與海平面上升威脅。",
+      "mechanism": "對照判準與實例：臺灣豐枯水期差距擴大、強降雨致災風險升高，沿海低窪區受暴潮與海平面上升威脅。農作物開花結果期錯亂、病媒蚊分布海拔升高與夏季高溫熱島效應加劇用電高峰。",
+      "explanation": "辨認「氣候變遷對臺灣衝擊」時，先說出「臺灣豐枯水期差距擴大、強降雨致災風險升高，沿海低窪區受暴潮與海平面上升威脅」，再核對「農作物開花結果期錯亂、病媒蚊分布海拔升高與夏季高溫熱島效應加劇用電高峰」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "臺灣豐枯水期差距擴大、強降雨致災風險升高，沿海低窪區受暴潮與海平面上升威脅｜實例與界線：農作物開花結果期錯亂、病媒蚊分布海拔升高與夏季高溫熱島效應加劇用電高峰",
+      "examIntel": "自我檢核：遮住說明，試著解釋「農作物開花結果期錯亂、病媒蚊分布海拔升高與夏季高溫熱島效應加劇用電高峰」與「臺灣豐枯水期差距擴大、強降雨致災風險升高，沿海低窪區受暴潮與海平面上升威脅」的關係。",
+      "practicalTip": "核對本點實例與界線：農作物開花結果期錯亂、病媒蚊分布海拔升高與夏季高溫熱島效應加劇用電高峰",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -12239,9 +12239,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "三大岩類成因辨識｜規則與實例",
+        "title": "氣候變遷對臺灣衝擊｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"三大岩類成因辨識：概念、規則與實例\"><title>三大岩類成因辨識</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">三大岩類成因辨識</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">火成岩（岩漿冷卻結晶，如花崗岩、玄武岩、安山岩）；變質岩（高溫高</tspan><tspan x=\"38\" dy=\"24\">壓再結晶變質，如大理岩、片麻岩）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">沉積岩（碎屑沉積物壓密膠結成岩，如砂岩、頁岩、石灰岩），是唯一常</tspan><tspan x=\"38\" dy=\"24\">含有「古生物化石」的岩類</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"氣候變遷對臺灣衝擊：概念、規則與實例\"><title>氣候變遷對臺灣衝擊</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">氣候變遷對臺灣衝擊</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">臺灣豐枯水期差距擴大、強降雨致災風險升高，沿海低窪區受暴潮與海平</tspan><tspan x=\"38\" dy=\"24\">面上升威脅</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">農作物開花結果期錯亂、病媒蚊分布海拔升高與夏季高溫熱島效應加劇用</tspan><tspan x=\"38\" dy=\"24\">電高峰</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -12251,10 +12251,10 @@ export const explicitKnowledgePoints = {
           "desc": "氣候研究須依長時間、多地點與多類資料。溫室效應是自然過程，人類增加溫室氣體可增強暖化。減緩與調適解決不同面向。"
         },
         "extension": {
-          "title": "風化與侵蝕搬運",
+          "title": "自然溫室效應與暖化",
           "unitId": "earth-6",
           "icon": "🚀",
-          "desc": "同課比較：風化（原地物理崩解與化學蝕變分解）；侵蝕（流水、風、冰川、波浪將岩屑剝蝕搬離原地）。請說明與「三大岩類成因辨識」的差別。"
+          "desc": "同課比較：大氣中 CO₂、CH₄、水氣等溫室氣體吸收地表長波紅外線使地球保溫；工業革命後化石燃料排放使溫室效應加劇。請說明與「氣候變遷對臺灣衝擊」的差別。"
         },
         "crossDisciplinary": {
           "title": "能源、製造與永續產品",
@@ -12263,7 +12263,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「三大岩類成因辨識」的說明，先說出規則，再用「沉積岩（碎屑沉積物壓密膠結成岩，如砂岩、頁岩、石灰岩），是唯一常含有「古生物化石」的岩類」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「氣候變遷對臺灣衝擊」的說明，先說出規則，再用「農作物開花結果期錯亂、病媒蚊分布海拔升高與夏季高溫熱島效應加劇用電高峰」核對自己的理解。"
       }
     }
   ],
@@ -13148,152 +13148,6 @@ export const explicitKnowledgePoints = {
       "id": "physics-8-kp-1",
       "unitId": "physics-8",
       "order": 1,
-      "title": "【知識點 1】液體壓力公式",
-      "core": "液體壓力公式：P = ρ · g · h（在同一均勻不可壓縮液體中，液壓僅與垂直深度 h 及液體密度 ρ 有關）。",
-      "mechanism": "對照判準與實例：P = ρ · g · h（在同一均勻不可壓縮液體中，液壓僅與垂直深度 h 及液體密度 ρ 有關）。液壓無特定方向，任一點向四面八方壓力皆相等且垂直於容器接觸面；與容器形狀寬窄無關。",
-      "explanation": "辨認「液體壓力公式」時，先說出「P = ρ · g · h（在同一均勻不可壓縮液體中，液壓僅與垂直深度 h 及液體密度 ρ 有關）」，再核對「液壓無特定方向，任一點向四面八方壓力皆相等且垂直於容器接觸面；與容器形狀寬窄無關」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "P = ρ · g · h（在同一均勻不可壓縮液體中，液壓僅與垂直深度 h 及液體密度 ρ 有關）｜實例與界線：液壓無特定方向，任一點向四面八方壓力皆相等且垂直於容器接觸面；與容器形狀寬窄無關",
-      "examIntel": "自我檢核：遮住說明，試著解釋「液壓無特定方向，任一點向四面八方壓力皆相等且垂直於容器接觸面；與容器形狀寬窄無關」與「P = ρ · g · h（在同一均勻不可壓縮液體中，液壓僅與垂直深度 h 及液體密度 ρ 有關）」的關係。",
-      "practicalTip": "核對本點實例與界線：液壓無特定方向，任一點向四面八方壓力皆相等且垂直於容器接觸面；與容器形狀寬窄無關",
-      "bloom": "理解",
-      "examWeight": 1,
-      "source": {
-        "module": "teaching.js",
-        "unitId": "physics-8",
-        "row": 0,
-        "kind": "本站原創比較表"
-      },
-      "infograph": {
-        "type": "concept-card",
-        "title": "液體壓力公式｜規則與實例",
-        "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"液體壓力公式：概念、規則與實例\"><title>液體壓力公式</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#edf5f7\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#305560\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">液體壓力公式</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">P = ρ · g · h（在同一均勻不可壓縮液體中，液壓僅與垂直深度 h </tspan><tspan x=\"38\" dy=\"24\">及液體密度 ρ 有關）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">液壓無特定方向，任一點向四面八方壓力皆相等且垂直於容器接觸面；與</tspan><tspan x=\"38\" dy=\"24\">容器形狀寬窄無關</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1b3239\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
-      },
-      "relatedKnowledge": {
-        "prerequisite": {
-          "title": "回到本課核心觀念",
-          "unitId": "physics-8",
-          "icon": "🔗",
-          "desc": "浸在流體中的物體受到向上的浮力，浮力大小等於物體所排開的流體重量（B＝V_排×D_液）。物體密度小於液體密度時上浮為浮體（B＝物重）；密度大於液體密度時下沉為沈體（B＝V_物×D_液＜物重）。"
-        },
-        "extension": {
-          "title": "連通管原理與帕斯卡定律",
-          "unitId": "physics-8",
-          "icon": "🚀",
-          "desc": "同課比較：連通管各管液面在靜止時等高；密閉流體任一點所受壓力增量，等值傳遞至流體各處。請說明與「液體壓力公式」的差別。"
-        },
-        "crossDisciplinary": {
-          "title": "岩石、板塊與地震",
-          "unitId": "earth-1",
-          "badge": "探索提問",
-          "icon": "🌐",
-          "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
-        },
-        "synapseNote": "回想練習：遮住「液體壓力公式」的說明，先說出規則，再用「液壓無特定方向，任一點向四面八方壓力皆相等且垂直於容器接觸面；與容器形狀寬窄無關」核對自己的理解。"
-      }
-    },
-    {
-      "id": "physics-8-kp-2",
-      "unitId": "physics-8",
-      "order": 2,
-      "title": "【知識點 2】連通管原理與帕斯卡定律",
-      "core": "連通管原理與帕斯卡定律：連通管各管液面在靜止時等高；密閉流體任一點所受壓力增量，等值傳遞至流體各處。",
-      "mechanism": "對照判準與實例：連通管各管液面在靜止時等高；密閉流體任一點所受壓力增量，等值傳遞至流體各處。液壓千斤頂：小活塞施小力 F₁/A₁，在大活塞 A₂ 產生巨大輸出推力 F₂ = F₁·(A₂/A₁)。",
-      "explanation": "辨認「連通管原理與帕斯卡定律」時，先說出「連通管各管液面在靜止時等高；密閉流體任一點所受壓力增量，等值傳遞至流體各處」，再核對「液壓千斤頂：小活塞施小力 F₁/A₁，在大活塞 A₂ 產生巨大輸出推力 F₂ = F₁·(A₂/A₁)」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "連通管各管液面在靜止時等高；密閉流體任一點所受壓力增量，等值傳遞至流體各處｜實例與界線：液壓千斤頂：小活塞施小力 F₁/A₁，在大活塞 A₂ 產生巨大輸出推力 F₂ = F₁·(A₂/A₁)",
-      "examIntel": "自我檢核：遮住說明，試著解釋「液壓千斤頂：小活塞施小力 F₁/A₁，在大活塞 A₂ 產生巨大輸出推力 F₂ = F₁·(A₂/A₁)」與「連通管各管液面在靜止時等高；密閉流體任一點所受壓力增量，等值傳遞至流體各處」的關係。",
-      "practicalTip": "核對本點實例與界線：液壓千斤頂：小活塞施小力 F₁/A₁，在大活塞 A₂ 產生巨大輸出推力 F₂ = F₁·(A₂/A₁)",
-      "bloom": "應用",
-      "examWeight": 1,
-      "source": {
-        "module": "teaching.js",
-        "unitId": "physics-8",
-        "row": 1,
-        "kind": "本站原創比較表"
-      },
-      "infograph": {
-        "type": "process",
-        "title": "連通管原理與帕斯卡定律｜規則與實例",
-        "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"連通管原理與帕斯卡定律：概念、規則與實例\"><title>連通管原理與帕斯卡定律</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#edf5f7\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#305560\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">連通管原理與帕斯卡定律</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">連通管各管液面在靜止時等高；密閉流體任一點所受壓力增量，等值傳遞</tspan><tspan x=\"38\" dy=\"24\">至流體各處</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">液壓千斤頂：小活塞施小力 F₁/A₁，在大活塞 A₂ 產生巨大輸出推力</tspan><tspan x=\"38\" dy=\"24\"> F₂ = F₁·(A₂/A₁)</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1b3239\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
-      },
-      "relatedKnowledge": {
-        "prerequisite": {
-          "title": "回到本課核心觀念",
-          "unitId": "physics-8",
-          "icon": "🔗",
-          "desc": "浸在流體中的物體受到向上的浮力，浮力大小等於物體所排開的流體重量（B＝V_排×D_液）。物體密度小於液體密度時上浮為浮體（B＝物重）；密度大於液體密度時下沉為沈體（B＝V_物×D_液＜物重）。"
-        },
-        "extension": {
-          "title": "托里切利實驗",
-          "unitId": "physics-8",
-          "icon": "🚀",
-          "desc": "同課比較：大氣壓力支撐 76 cm 汞柱高 (76 cm-Hg = 1 atm ≈ 1013 hPa = 1033.6 gw/cm²)。請說明與「連通管原理與帕斯卡定律」的差別。"
-        },
-        "crossDisciplinary": {
-          "title": "設計需求與工程流程",
-          "unitId": "technology-1",
-          "badge": "探索提問",
-          "icon": "🌐",
-          "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
-        },
-        "synapseNote": "回想練習：遮住「連通管原理與帕斯卡定律」的說明，先說出規則，再用「液壓千斤頂：小活塞施小力 F₁/A₁，在大活塞 A₂ 產生巨大輸出推力 F₂ = F₁·(A₂/A₁)」核對自己的理解。"
-      }
-    },
-    {
-      "id": "physics-8-kp-3",
-      "unitId": "physics-8",
-      "order": 3,
-      "title": "【知識點 3】托里切利實驗",
-      "core": "托里切利實驗：大氣壓力支撐 76 cm 汞柱高 (76 cm-Hg = 1 atm ≈ 1013 hPa = 1033.6 gw/cm²)。",
-      "mechanism": "對照判準與實例：大氣壓力支撐 76 cm 汞柱高 (76 cm-Hg = 1 atm ≈ 1013 hPa = 1033.6 gw/cm²)。水銀柱上方為接近真空之「托里切利真空」；若將玻璃管傾斜，水銀柱垂直高度仍維持 76 cm。",
-      "explanation": "辨認「托里切利實驗」時，先說出「大氣壓力支撐 76 cm 汞柱高 (76 cm-Hg = 1 atm ≈ 1013 hPa = 1033.6 gw/cm²)」，再核對「水銀柱上方為接近真空之「托里切利真空」；若將玻璃管傾斜，水銀柱垂直高度仍維持 76 cm」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "大氣壓力支撐 76 cm 汞柱高 (76 cm-Hg = 1 atm ≈ 1013 hPa = 1033.6 gw/cm²)｜實例與界線：水銀柱上方為接近真空之「托里切利真空」；若將玻璃管傾斜，水銀柱垂直高度仍維持 76 cm",
-      "examIntel": "自我檢核：遮住說明，試著解釋「水銀柱上方為接近真空之「托里切利真空」；若將玻璃管傾斜，水銀柱垂直高度仍維持 76 cm」與「大氣壓力支撐 76 cm 汞柱高 (76 cm-Hg = 1 atm ≈ 1013 hPa = 1033.6 gw/cm²)」的關係。",
-      "practicalTip": "核對本點實例與界線：水銀柱上方為接近真空之「托里切利真空」；若將玻璃管傾斜，水銀柱垂直高度仍維持 76 cm",
-      "bloom": "分析",
-      "examWeight": 1,
-      "source": {
-        "module": "teaching.js",
-        "unitId": "physics-8",
-        "row": 2,
-        "kind": "本站原創比較表"
-      },
-      "infograph": {
-        "type": "contrast",
-        "title": "托里切利實驗｜規則與實例",
-        "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"托里切利實驗：概念、規則與實例\"><title>托里切利實驗</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#edf5f7\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#305560\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">托里切利實驗</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">大氣壓力支撐 76 cm 汞柱高 (76 cm-Hg = 1 atm ≈ 1013 hPa = </tspan><tspan x=\"38\" dy=\"24\">1033.6 gw/cm²)</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">水銀柱上方為接近真空之「托里切利真空」；若將玻璃管傾斜，水銀柱垂</tspan><tspan x=\"38\" dy=\"24\">直高度仍維持 76 cm</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1b3239\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
-      },
-      "relatedKnowledge": {
-        "prerequisite": {
-          "title": "回到本課核心觀念",
-          "unitId": "physics-8",
-          "icon": "🔗",
-          "desc": "浸在流體中的物體受到向上的浮力，浮力大小等於物體所排開的流體重量（B＝V_排×D_液）。物體密度小於液體密度時上浮為浮體（B＝物重）；密度大於液體密度時下沉為沈體（B＝V_物×D_液＜物重）。"
-        },
-        "extension": {
-          "title": "液體壓力公式",
-          "unitId": "physics-8",
-          "icon": "🚀",
-          "desc": "同課比較：P = ρ · g · h（在同一均勻不可壓縮液體中，液壓僅與垂直深度 h 及液體密度 ρ 有關）。請說明與「托里切利實驗」的差別。"
-        },
-        "crossDisciplinary": {
-          "title": "運輸、消化與恆定",
-          "unitId": "biology-3",
-          "badge": "探索提問",
-          "icon": "🌐",
-          "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
-        },
-        "synapseNote": "回想練習：遮住「托里切利實驗」的說明，先說出規則，再用「水銀柱上方為接近真空之「托里切利真空」；若將玻璃管傾斜，水銀柱垂直高度仍維持 76 cm」核對自己的理解。"
-      }
-    }
-  ],
-  "physics-9": [
-    {
-      "id": "physics-9-kp-1",
-      "unitId": "physics-9",
-      "order": 1,
       "title": "【知識點 1】阿基米德原理",
       "core": "阿基米德原理：物體在流體中所受向上浮力，等於其所排開流體的重量：B = ρ液 · V排 · g。",
       "mechanism": "對照判準與實例：物體在流體中所受向上浮力，等於其所排開流體的重量：B = ρ液 · V排 · g。物體在空氣中重 W，浸入水中秤得視重 W'，則浮力 B = W - W'（視重減輕量）。",
@@ -13305,7 +13159,7 @@ export const explicitKnowledgePoints = {
       "examWeight": 1,
       "source": {
         "module": "teaching.js",
-        "unitId": "physics-9",
+        "unitId": "physics-8",
         "row": 0,
         "kind": "本站原創比較表"
       },
@@ -13318,19 +13172,19 @@ export const explicitKnowledgePoints = {
       "relatedKnowledge": {
         "prerequisite": {
           "title": "回到本課核心觀念",
-          "unitId": "physics-9",
+          "unitId": "physics-8",
           "icon": "🔗",
-          "desc": "靜止液體中任意一點的液體壓力 P＝h×D（h為液面深度，D為液體密度），壓力方向垂直於接觸面且各方向相等。連通管各管液面等高；帕斯卡原理指出密閉液體傳遞壓力大小不變。托里切利實驗以水銀柱測定 1 大氣壓（1 atm＝76 cm-Hg＝1033.6 gw/cm²）。"
+          "desc": "浸在流體中的物體受到向上的浮力，浮力大小等於物體所排開的流體重量（B＝V_排×D_液）。物體密度小於液體密度時上浮為浮體（B＝物重）；密度大於液體密度時下沉為沈體（B＝V_物×D_液＜物重）。"
         },
         "extension": {
           "title": "沉體浮力條件",
-          "unitId": "physics-9",
+          "unitId": "physics-8",
           "icon": "🚀",
           "desc": "同課比較：物體密度大於液體密度 (ρ物 > ρ液)，物體下沉至底，此時排開體積等於物體全部體積 (V排 = V物)。請說明與「阿基米德原理」的差別。"
         },
         "crossDisciplinary": {
-          "title": "天氣、鋒面與臺灣季風",
-          "unitId": "earth-3",
+          "title": "岩石、板塊與地震",
+          "unitId": "earth-1",
           "badge": "探索提問",
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
@@ -13339,8 +13193,8 @@ export const explicitKnowledgePoints = {
       }
     },
     {
-      "id": "physics-9-kp-2",
-      "unitId": "physics-9",
+      "id": "physics-8-kp-2",
+      "unitId": "physics-8",
       "order": 2,
       "title": "【知識點 2】沉體浮力條件",
       "core": "沉體浮力條件：物體密度大於液體密度 (ρ物 > ρ液)，物體下沉至底，此時排開體積等於物體全部體積 (V排 = V物)。",
@@ -13353,7 +13207,7 @@ export const explicitKnowledgePoints = {
       "examWeight": 1,
       "source": {
         "module": "teaching.js",
-        "unitId": "physics-9",
+        "unitId": "physics-8",
         "row": 1,
         "kind": "本站原創比較表"
       },
@@ -13366,19 +13220,19 @@ export const explicitKnowledgePoints = {
       "relatedKnowledge": {
         "prerequisite": {
           "title": "回到本課核心觀念",
-          "unitId": "physics-9",
+          "unitId": "physics-8",
           "icon": "🔗",
-          "desc": "靜止液體中任意一點的液體壓力 P＝h×D（h為液面深度，D為液體密度），壓力方向垂直於接觸面且各方向相等。連通管各管液面等高；帕斯卡原理指出密閉液體傳遞壓力大小不變。托里切利實驗以水銀柱測定 1 大氣壓（1 atm＝76 cm-Hg＝1033.6 gw/cm²）。"
+          "desc": "浸在流體中的物體受到向上的浮力，浮力大小等於物體所排開的流體重量（B＝V_排×D_液）。物體密度小於液體密度時上浮為浮體（B＝物重）；密度大於液體密度時下沉為沈體（B＝V_物×D_液＜物重）。"
         },
         "extension": {
           "title": "浮體平衡條件",
-          "unitId": "physics-9",
+          "unitId": "physics-8",
           "icon": "🚀",
           "desc": "同課比較：物體密度小於液體密度 (ρ物 < ρ液)，物體漂浮平衡，向上浮力剛好等於物體總重 (B = W物)。請說明與「沉體浮力條件」的差別。"
         },
         "crossDisciplinary": {
-          "title": "運輸、消化與恆定",
-          "unitId": "biology-3",
+          "title": "設計需求與工程流程",
+          "unitId": "technology-1",
           "badge": "探索提問",
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
@@ -13387,8 +13241,8 @@ export const explicitKnowledgePoints = {
       }
     },
     {
-      "id": "physics-9-kp-3",
-      "unitId": "physics-9",
+      "id": "physics-8-kp-3",
+      "unitId": "physics-8",
       "order": 3,
       "title": "【知識點 3】浮體平衡條件",
       "core": "浮體平衡條件：物體密度小於液體密度 (ρ物 < ρ液)，物體漂浮平衡，向上浮力剛好等於物體總重 (B = W物)。",
@@ -13401,7 +13255,7 @@ export const explicitKnowledgePoints = {
       "examWeight": 1,
       "source": {
         "module": "teaching.js",
-        "unitId": "physics-9",
+        "unitId": "physics-8",
         "row": 2,
         "kind": "本站原創比較表"
       },
@@ -13414,15 +13268,161 @@ export const explicitKnowledgePoints = {
       "relatedKnowledge": {
         "prerequisite": {
           "title": "回到本課核心觀念",
+          "unitId": "physics-8",
+          "icon": "🔗",
+          "desc": "浸在流體中的物體受到向上的浮力，浮力大小等於物體所排開的流體重量（B＝V_排×D_液）。物體密度小於液體密度時上浮為浮體（B＝物重）；密度大於液體密度時下沉為沈體（B＝V_物×D_液＜物重）。"
+        },
+        "extension": {
+          "title": "阿基米德原理",
+          "unitId": "physics-8",
+          "icon": "🚀",
+          "desc": "同課比較：物體在流體中所受向上浮力，等於其所排開流體的重量：B = ρ液 · V排 · g。請說明與「浮體平衡條件」的差別。"
+        },
+        "crossDisciplinary": {
+          "title": "運輸、消化與恆定",
+          "unitId": "biology-3",
+          "badge": "探索提問",
+          "icon": "🌐",
+          "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
+        },
+        "synapseNote": "回想練習：遮住「浮體平衡條件」的說明，先說出規則，再用「木塊浮於水面：ρ水 · V排 · g = ρ木 · V物 · g；露出液面體積與液體密度成反比」核對自己的理解。"
+      }
+    }
+  ],
+  "physics-9": [
+    {
+      "id": "physics-9-kp-1",
+      "unitId": "physics-9",
+      "order": 1,
+      "title": "【知識點 1】液體壓力公式",
+      "core": "液體壓力公式：P = ρ · g · h（在同一均勻不可壓縮液體中，液壓僅與垂直深度 h 及液體密度 ρ 有關）。",
+      "mechanism": "對照判準與實例：P = ρ · g · h（在同一均勻不可壓縮液體中，液壓僅與垂直深度 h 及液體密度 ρ 有關）。液壓無特定方向，任一點向四面八方壓力皆相等且垂直於容器接觸面；與容器形狀寬窄無關。",
+      "explanation": "辨認「液體壓力公式」時，先說出「P = ρ · g · h（在同一均勻不可壓縮液體中，液壓僅與垂直深度 h 及液體密度 ρ 有關）」，再核對「液壓無特定方向，任一點向四面八方壓力皆相等且垂直於容器接觸面；與容器形狀寬窄無關」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "P = ρ · g · h（在同一均勻不可壓縮液體中，液壓僅與垂直深度 h 及液體密度 ρ 有關）｜實例與界線：液壓無特定方向，任一點向四面八方壓力皆相等且垂直於容器接觸面；與容器形狀寬窄無關",
+      "examIntel": "自我檢核：遮住說明，試著解釋「液壓無特定方向，任一點向四面八方壓力皆相等且垂直於容器接觸面；與容器形狀寬窄無關」與「P = ρ · g · h（在同一均勻不可壓縮液體中，液壓僅與垂直深度 h 及液體密度 ρ 有關）」的關係。",
+      "practicalTip": "核對本點實例與界線：液壓無特定方向，任一點向四面八方壓力皆相等且垂直於容器接觸面；與容器形狀寬窄無關",
+      "bloom": "理解",
+      "examWeight": 1,
+      "source": {
+        "module": "teaching.js",
+        "unitId": "physics-9",
+        "row": 0,
+        "kind": "本站原創比較表"
+      },
+      "infograph": {
+        "type": "concept-card",
+        "title": "液體壓力公式｜規則與實例",
+        "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"液體壓力公式：概念、規則與實例\"><title>液體壓力公式</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#edf5f7\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#305560\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">液體壓力公式</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">P = ρ · g · h（在同一均勻不可壓縮液體中，液壓僅與垂直深度 h </tspan><tspan x=\"38\" dy=\"24\">及液體密度 ρ 有關）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">液壓無特定方向，任一點向四面八方壓力皆相等且垂直於容器接觸面；與</tspan><tspan x=\"38\" dy=\"24\">容器形狀寬窄無關</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1b3239\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+      },
+      "relatedKnowledge": {
+        "prerequisite": {
+          "title": "回到本課核心觀念",
           "unitId": "physics-9",
           "icon": "🔗",
           "desc": "靜止液體中任意一點的液體壓力 P＝h×D（h為液面深度，D為液體密度），壓力方向垂直於接觸面且各方向相等。連通管各管液面等高；帕斯卡原理指出密閉液體傳遞壓力大小不變。托里切利實驗以水銀柱測定 1 大氣壓（1 atm＝76 cm-Hg＝1033.6 gw/cm²）。"
         },
         "extension": {
-          "title": "阿基米德原理",
+          "title": "連通管原理與帕斯卡定律",
           "unitId": "physics-9",
           "icon": "🚀",
-          "desc": "同課比較：物體在流體中所受向上浮力，等於其所排開流體的重量：B = ρ液 · V排 · g。請說明與「浮體平衡條件」的差別。"
+          "desc": "同課比較：連通管各管液面在靜止時等高；密閉流體任一點所受壓力增量，等值傳遞至流體各處。請說明與「液體壓力公式」的差別。"
+        },
+        "crossDisciplinary": {
+          "title": "天氣、鋒面與臺灣季風",
+          "unitId": "earth-3",
+          "badge": "探索提問",
+          "icon": "🌐",
+          "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
+        },
+        "synapseNote": "回想練習：遮住「液體壓力公式」的說明，先說出規則，再用「液壓無特定方向，任一點向四面八方壓力皆相等且垂直於容器接觸面；與容器形狀寬窄無關」核對自己的理解。"
+      }
+    },
+    {
+      "id": "physics-9-kp-2",
+      "unitId": "physics-9",
+      "order": 2,
+      "title": "【知識點 2】連通管原理與帕斯卡定律",
+      "core": "連通管原理與帕斯卡定律：連通管各管液面在靜止時等高；密閉流體任一點所受壓力增量，等值傳遞至流體各處。",
+      "mechanism": "對照判準與實例：連通管各管液面在靜止時等高；密閉流體任一點所受壓力增量，等值傳遞至流體各處。液壓千斤頂：小活塞施小力 F₁/A₁，在大活塞 A₂ 產生巨大輸出推力 F₂ = F₁·(A₂/A₁)。",
+      "explanation": "辨認「連通管原理與帕斯卡定律」時，先說出「連通管各管液面在靜止時等高；密閉流體任一點所受壓力增量，等值傳遞至流體各處」，再核對「液壓千斤頂：小活塞施小力 F₁/A₁，在大活塞 A₂ 產生巨大輸出推力 F₂ = F₁·(A₂/A₁)」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "連通管各管液面在靜止時等高；密閉流體任一點所受壓力增量，等值傳遞至流體各處｜實例與界線：液壓千斤頂：小活塞施小力 F₁/A₁，在大活塞 A₂ 產生巨大輸出推力 F₂ = F₁·(A₂/A₁)",
+      "examIntel": "自我檢核：遮住說明，試著解釋「液壓千斤頂：小活塞施小力 F₁/A₁，在大活塞 A₂ 產生巨大輸出推力 F₂ = F₁·(A₂/A₁)」與「連通管各管液面在靜止時等高；密閉流體任一點所受壓力增量，等值傳遞至流體各處」的關係。",
+      "practicalTip": "核對本點實例與界線：液壓千斤頂：小活塞施小力 F₁/A₁，在大活塞 A₂ 產生巨大輸出推力 F₂ = F₁·(A₂/A₁)",
+      "bloom": "應用",
+      "examWeight": 1,
+      "source": {
+        "module": "teaching.js",
+        "unitId": "physics-9",
+        "row": 1,
+        "kind": "本站原創比較表"
+      },
+      "infograph": {
+        "type": "process",
+        "title": "連通管原理與帕斯卡定律｜規則與實例",
+        "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"連通管原理與帕斯卡定律：概念、規則與實例\"><title>連通管原理與帕斯卡定律</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#edf5f7\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#305560\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">連通管原理與帕斯卡定律</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">連通管各管液面在靜止時等高；密閉流體任一點所受壓力增量，等值傳遞</tspan><tspan x=\"38\" dy=\"24\">至流體各處</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">液壓千斤頂：小活塞施小力 F₁/A₁，在大活塞 A₂ 產生巨大輸出推力</tspan><tspan x=\"38\" dy=\"24\"> F₂ = F₁·(A₂/A₁)</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1b3239\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+      },
+      "relatedKnowledge": {
+        "prerequisite": {
+          "title": "回到本課核心觀念",
+          "unitId": "physics-9",
+          "icon": "🔗",
+          "desc": "靜止液體中任意一點的液體壓力 P＝h×D（h為液面深度，D為液體密度），壓力方向垂直於接觸面且各方向相等。連通管各管液面等高；帕斯卡原理指出密閉液體傳遞壓力大小不變。托里切利實驗以水銀柱測定 1 大氣壓（1 atm＝76 cm-Hg＝1033.6 gw/cm²）。"
+        },
+        "extension": {
+          "title": "托里切利實驗",
+          "unitId": "physics-9",
+          "icon": "🚀",
+          "desc": "同課比較：大氣壓力支撐 76 cm 汞柱高 (76 cm-Hg = 1 atm ≈ 1013 hPa = 1033.6 gw/cm²)。請說明與「連通管原理與帕斯卡定律」的差別。"
+        },
+        "crossDisciplinary": {
+          "title": "運輸、消化與恆定",
+          "unitId": "biology-3",
+          "badge": "探索提問",
+          "icon": "🌐",
+          "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
+        },
+        "synapseNote": "回想練習：遮住「連通管原理與帕斯卡定律」的說明，先說出規則，再用「液壓千斤頂：小活塞施小力 F₁/A₁，在大活塞 A₂ 產生巨大輸出推力 F₂ = F₁·(A₂/A₁)」核對自己的理解。"
+      }
+    },
+    {
+      "id": "physics-9-kp-3",
+      "unitId": "physics-9",
+      "order": 3,
+      "title": "【知識點 3】托里切利實驗",
+      "core": "托里切利實驗：大氣壓力支撐 76 cm 汞柱高 (76 cm-Hg = 1 atm ≈ 1013 hPa = 1033.6 gw/cm²)。",
+      "mechanism": "對照判準與實例：大氣壓力支撐 76 cm 汞柱高 (76 cm-Hg = 1 atm ≈ 1013 hPa = 1033.6 gw/cm²)。水銀柱上方為接近真空之「托里切利真空」；若將玻璃管傾斜，水銀柱垂直高度仍維持 76 cm。",
+      "explanation": "辨認「托里切利實驗」時，先說出「大氣壓力支撐 76 cm 汞柱高 (76 cm-Hg = 1 atm ≈ 1013 hPa = 1033.6 gw/cm²)」，再核對「水銀柱上方為接近真空之「托里切利真空」；若將玻璃管傾斜，水銀柱垂直高度仍維持 76 cm」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "大氣壓力支撐 76 cm 汞柱高 (76 cm-Hg = 1 atm ≈ 1013 hPa = 1033.6 gw/cm²)｜實例與界線：水銀柱上方為接近真空之「托里切利真空」；若將玻璃管傾斜，水銀柱垂直高度仍維持 76 cm",
+      "examIntel": "自我檢核：遮住說明，試著解釋「水銀柱上方為接近真空之「托里切利真空」；若將玻璃管傾斜，水銀柱垂直高度仍維持 76 cm」與「大氣壓力支撐 76 cm 汞柱高 (76 cm-Hg = 1 atm ≈ 1013 hPa = 1033.6 gw/cm²)」的關係。",
+      "practicalTip": "核對本點實例與界線：水銀柱上方為接近真空之「托里切利真空」；若將玻璃管傾斜，水銀柱垂直高度仍維持 76 cm",
+      "bloom": "分析",
+      "examWeight": 1,
+      "source": {
+        "module": "teaching.js",
+        "unitId": "physics-9",
+        "row": 2,
+        "kind": "本站原創比較表"
+      },
+      "infograph": {
+        "type": "contrast",
+        "title": "托里切利實驗｜規則與實例",
+        "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"托里切利實驗：概念、規則與實例\"><title>托里切利實驗</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#edf5f7\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#305560\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">托里切利實驗</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">大氣壓力支撐 76 cm 汞柱高 (76 cm-Hg = 1 atm ≈ 1013 hPa = </tspan><tspan x=\"38\" dy=\"24\">1033.6 gw/cm²)</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">水銀柱上方為接近真空之「托里切利真空」；若將玻璃管傾斜，水銀柱垂</tspan><tspan x=\"38\" dy=\"24\">直高度仍維持 76 cm</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1b3239\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+      },
+      "relatedKnowledge": {
+        "prerequisite": {
+          "title": "回到本課核心觀念",
+          "unitId": "physics-9",
+          "icon": "🔗",
+          "desc": "靜止液體中任意一點的液體壓力 P＝h×D（h為液面深度，D為液體密度），壓力方向垂直於接觸面且各方向相等。連通管各管液面等高；帕斯卡原理指出密閉液體傳遞壓力大小不變。托里切利實驗以水銀柱測定 1 大氣壓（1 atm＝76 cm-Hg＝1033.6 gw/cm²）。"
+        },
+        "extension": {
+          "title": "液體壓力公式",
+          "unitId": "physics-9",
+          "icon": "🚀",
+          "desc": "同課比較：P = ρ · g · h（在同一均勻不可壓縮液體中，液壓僅與垂直深度 h 及液體密度 ρ 有關）。請說明與「托里切利實驗」的差別。"
         },
         "crossDisciplinary": {
           "title": "結構、機構與材料",
@@ -13431,7 +13431,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「浮體平衡條件」的說明，先說出規則，再用「木塊浮於水面：ρ水 · V排 · g = ρ木 · V物 · g；露出液面體積與液體密度成反比」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「托里切利實驗」的說明，先說出規則，再用「水銀柱上方為接近真空之「托里切利真空」；若將玻璃管傾斜，水銀柱垂直高度仍維持 76 cm」核對自己的理解。"
       }
     }
   ],
@@ -13586,13 +13586,13 @@ export const explicitKnowledgePoints = {
       "id": "physics-11-kp-1",
       "unitId": "physics-11",
       "order": 1,
-      "title": "【知識點 1】電荷",
-      "core": "電荷：同號相斥、異號相吸。",
-      "mechanism": "對照判準與實例：同號相斥、異號相吸。帶電物也可吸引中性物，不能只憑吸引判斷異號。",
-      "explanation": "辨認「電荷」時，先說出「同號相斥、異號相吸」，再核對「帶電物也可吸引中性物，不能只憑吸引判斷異號」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "同號相斥、異號相吸｜實例與界線：帶電物也可吸引中性物，不能只憑吸引判斷異號",
-      "examIntel": "自我檢核：遮住說明，試著解釋「帶電物也可吸引中性物，不能只憑吸引判斷異號」與「同號相斥、異號相吸」的關係。",
-      "practicalTip": "核對本點實例與界線：帶電物也可吸引中性物，不能只憑吸引判斷異號",
+      "title": "【知識點 1】摩擦起電與電子轉移",
+      "core": "摩擦起電與電子轉移：絕緣體互相摩擦時發生「電子」轉移（質子不動）：得到電子帶負電，失去電子帶正電。",
+      "mechanism": "對照判準與實例：絕緣體互相摩擦時發生「電子」轉移（質子不動）：得到電子帶負電，失去電子帶正電。毛皮摩擦塑膠尺使尺帶負電；絲絹摩擦玻璃棒使玻璃棒帶正電；電量總和守恆。",
+      "explanation": "辨認「摩擦起電與電子轉移」時，先說出「絕緣體互相摩擦時發生「電子」轉移（質子不動）：得到電子帶負電，失去電子帶正電」，再核對「毛皮摩擦塑膠尺使尺帶負電；絲絹摩擦玻璃棒使玻璃棒帶正電；電量總和守恆」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "絕緣體互相摩擦時發生「電子」轉移（質子不動）：得到電子帶負電，失去電子帶正電｜實例與界線：毛皮摩擦塑膠尺使尺帶負電；絲絹摩擦玻璃棒使玻璃棒帶正電；電量總和守恆",
+      "examIntel": "自我檢核：遮住說明，試著解釋「毛皮摩擦塑膠尺使尺帶負電；絲絹摩擦玻璃棒使玻璃棒帶正電；電量總和守恆」與「絕緣體互相摩擦時發生「電子」轉移（質子不動）：得到電子帶負電，失去電子帶正電」的關係。",
+      "practicalTip": "核對本點實例與界線：毛皮摩擦塑膠尺使尺帶負電；絲絹摩擦玻璃棒使玻璃棒帶正電；電量總和守恆",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -13603,9 +13603,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "電荷｜規則與實例",
+        "title": "摩擦起電與電子轉移｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 338\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"電荷：概念、規則與實例\"><title>電荷</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"336\" rx=\"16\" fill=\"#edf5f7\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#305560\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">電荷</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">同號相斥、異號相吸</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">帶電物也可吸引中性物，不能只憑吸引判斷異號</tspan></text><text x=\"22\" y=\"324\" font-size=\"11\" fill=\"#1b3239\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"摩擦起電與電子轉移：概念、規則與實例\"><title>摩擦起電與電子轉移</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#edf5f7\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#305560\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">摩擦起電與電子轉移</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">絕緣體互相摩擦時發生「電子」轉移（質子不動）：得到電子帶負電，失</tspan><tspan x=\"38\" dy=\"24\">去電子帶正電</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">毛皮摩擦塑膠尺使尺帶負電；絲絹摩擦玻璃棒使玻璃棒帶正電；電量總和</tspan><tspan x=\"38\" dy=\"24\">守恆</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1b3239\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -13615,10 +13615,10 @@ export const explicitKnowledgePoints = {
           "desc": "物質由帶正電質子與帶負電電子組成。摩擦使電子在不同物體間轉移，得電子者帶負電，失電子者帶正電。同性電荷相斥，異性電荷相吸。帶電體靠近不帶電導體會產生靜電感應。庫侖定律：兩電荷間的靜電力大小與電量乘積成正比，與距離平方成反比。"
         },
         "extension": {
-          "title": "電流磁效應",
+          "title": "靜電感應與感應起電",
           "unitId": "physics-11",
           "icon": "🚀",
-          "desc": "同課比較：電流周圍有磁場。請說明與「電荷」的差別。"
+          "desc": "同課比較：帶電體靠近導體（不接觸）使導體近端感應異性電、遠端感應同性電；若配合接地再移開帶電體可永久帶異性電。請說明與「摩擦起電與電子轉移」的差別。"
         },
         "crossDisciplinary": {
           "title": "原子結構與週期表",
@@ -13627,20 +13627,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「電荷」的說明，先說出規則，再用「帶電物也可吸引中性物，不能只憑吸引判斷異號」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「摩擦起電與電子轉移」的說明，先說出規則，再用「毛皮摩擦塑膠尺使尺帶負電；絲絹摩擦玻璃棒使玻璃棒帶正電；電量總和守恆」核對自己的理解。"
       }
     },
     {
       "id": "physics-11-kp-2",
       "unitId": "physics-11",
       "order": 2,
-      "title": "【知識點 2】電流磁效應",
-      "core": "電流磁效應：電流周圍有磁場。",
-      "mechanism": "對照判準與實例：電流周圍有磁場。線圈方向、電流方向會影響電磁鐵磁極。",
-      "explanation": "辨認「電流磁效應」時，先說出「電流周圍有磁場」，再核對「線圈方向、電流方向會影響電磁鐵磁極」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "電流周圍有磁場｜實例與界線：線圈方向、電流方向會影響電磁鐵磁極",
-      "examIntel": "自我檢核：遮住說明，試著解釋「線圈方向、電流方向會影響電磁鐵磁極」與「電流周圍有磁場」的關係。",
-      "practicalTip": "核對本點實例與界線：線圈方向、電流方向會影響電磁鐵磁極",
+      "title": "【知識點 2】靜電感應與感應起電",
+      "core": "靜電感應與感應起電：帶電體靠近導體（不接觸）使導體近端感應異性電、遠端感應同性電；若配合接地再移開帶電體可永久帶異性電。",
+      "mechanism": "對照判準與實例：帶電體靠近導體（不接觸）使導體近端感應異性電、遠端感應同性電；若配合接地再移開帶電體可永久帶異性電。接觸起電使導體帶同性電；感應起電（含接地）則使導體帶相反電性。",
+      "explanation": "辨認「靜電感應與感應起電」時，先說出「帶電體靠近導體（不接觸）使導體近端感應異性電、遠端感應同性電；若配合接地再移開帶電體可永久帶異性電」，再核對「接觸起電使導體帶同性電；感應起電（含接地）則使導體帶相反電性」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "帶電體靠近導體（不接觸）使導體近端感應異性電、遠端感應同性電；若配合接地再移開帶電體可永久帶異性電｜實例與界線：接觸起電使導體帶同性電；感應起電（含接地）則使導體帶相反電性",
+      "examIntel": "自我檢核：遮住說明，試著解釋「接觸起電使導體帶同性電；感應起電（含接地）則使導體帶相反電性」與「帶電體靠近導體（不接觸）使導體近端感應異性電、遠端感應同性電；若配合接地再移開帶電體可永久帶異性電」的關係。",
+      "practicalTip": "核對本點實例與界線：接觸起電使導體帶同性電；感應起電（含接地）則使導體帶相反電性",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -13651,9 +13651,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "電流磁效應｜規則與實例",
+        "title": "靜電感應與感應起電｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 338\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"電流磁效應：概念、規則與實例\"><title>電流磁效應</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"336\" rx=\"16\" fill=\"#edf5f7\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#305560\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">電流磁效應</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">電流周圍有磁場</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">線圈方向、電流方向會影響電磁鐵磁極</tspan></text><text x=\"22\" y=\"324\" font-size=\"11\" fill=\"#1b3239\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"靜電感應與感應起電：概念、規則與實例\"><title>靜電感應與感應起電</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#edf5f7\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#305560\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">靜電感應與感應起電</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">帶電體靠近導體（不接觸）使導體近端感應異性電、遠端感應同性電；若</tspan><tspan x=\"38\" dy=\"24\">配合接地再移開帶電體可永久帶異性電</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">接觸起電使導體帶同性電；感應起電（含接地）則使導體帶相反電性</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#1b3239\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -13663,10 +13663,10 @@ export const explicitKnowledgePoints = {
           "desc": "物質由帶正電質子與帶負電電子組成。摩擦使電子在不同物體間轉移，得電子者帶負電，失電子者帶正電。同性電荷相斥，異性電荷相吸。帶電體靠近不帶電導體會產生靜電感應。庫侖定律：兩電荷間的靜電力大小與電量乘積成正比，與距離平方成反比。"
         },
         "extension": {
-          "title": "電動機原理",
+          "title": "庫侖靜電力定律",
           "unitId": "physics-11",
           "icon": "🚀",
-          "desc": "同課比較：磁場中的載流線圈受力轉動。請說明與「電流磁效應」的差別。"
+          "desc": "同課比較：兩點電荷間靜電力 F = k·q₁q₂ / r²：與兩電量乘積成正比，與距離平方成反比。請說明與「靜電感應與感應起電」的差別。"
         },
         "crossDisciplinary": {
           "title": "天氣、鋒面與臺灣季風",
@@ -13675,20 +13675,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「電流磁效應」的說明，先說出規則，再用「線圈方向、電流方向會影響電磁鐵磁極」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「靜電感應與感應起電」的說明，先說出規則，再用「接觸起電使導體帶同性電；感應起電（含接地）則使導體帶相反電性」核對自己的理解。"
       }
     },
     {
       "id": "physics-11-kp-3",
       "unitId": "physics-11",
       "order": 3,
-      "title": "【知識點 3】電動機原理",
-      "core": "電動機原理：磁場中的載流線圈受力轉動。",
-      "mechanism": "對照判準與實例：磁場中的載流線圈受力轉動。電能轉為機械能。",
-      "explanation": "辨認「電動機原理」時，先說出「磁場中的載流線圈受力轉動」，再核對「電能轉為機械能」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "磁場中的載流線圈受力轉動｜實例與界線：電能轉為機械能",
-      "examIntel": "自我檢核：遮住說明，試著解釋「電能轉為機械能」與「磁場中的載流線圈受力轉動」的關係。",
-      "practicalTip": "核對本點實例與界線：電能轉為機械能",
+      "title": "【知識點 3】庫侖靜電力定律",
+      "core": "庫侖靜電力定律：兩點電荷間靜電力 F = k·q₁q₂ / r²：與兩電量乘積成正比，與距離平方成反比。",
+      "mechanism": "對照判準與實例：兩點電荷間靜電力 F = k·q₁q₂ / r²：與兩電量乘積成正比，與距離平方成反比。同性電相斥、異性電相吸；距離增為 2 倍，靜電力減為原本的 1/4。",
+      "explanation": "辨認「庫侖靜電力定律」時，先說出「兩點電荷間靜電力 F = k·q₁q₂ / r²：與兩電量乘積成正比，與距離平方成反比」，再核對「同性電相斥、異性電相吸；距離增為 2 倍，靜電力減為原本的 1/4」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "兩點電荷間靜電力 F = k·q₁q₂ / r²：與兩電量乘積成正比，與距離平方成反比｜實例與界線：同性電相斥、異性電相吸；距離增為 2 倍，靜電力減為原本的 1/4",
+      "examIntel": "自我檢核：遮住說明，試著解釋「同性電相斥、異性電相吸；距離增為 2 倍，靜電力減為原本的 1/4」與「兩點電荷間靜電力 F = k·q₁q₂ / r²：與兩電量乘積成正比，與距離平方成反比」的關係。",
+      "practicalTip": "核對本點實例與界線：同性電相斥、異性電相吸；距離增為 2 倍，靜電力減為原本的 1/4",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -13699,9 +13699,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "電動機原理｜規則與實例",
+        "title": "庫侖靜電力定律｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 338\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"電動機原理：概念、規則與實例\"><title>電動機原理</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"336\" rx=\"16\" fill=\"#edf5f7\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#305560\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">電動機原理</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">磁場中的載流線圈受力轉動</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">電能轉為機械能</tspan></text><text x=\"22\" y=\"324\" font-size=\"11\" fill=\"#1b3239\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"庫侖靜電力定律：概念、規則與實例\"><title>庫侖靜電力定律</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#edf5f7\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#305560\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">庫侖靜電力定律</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">兩點電荷間靜電力 F = k·q₁q₂ / r²：與兩電量乘積成正比，與距離</tspan><tspan x=\"38\" dy=\"24\">平方成反比</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#487b8a\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#305560\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1b3239\"><tspan x=\"38\" dy=\"0\">同性電相斥、異性電相吸；距離增為 2 倍，靜電力減為原本的 1/4</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#1b3239\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -13711,10 +13711,10 @@ export const explicitKnowledgePoints = {
           "desc": "物質由帶正電質子與帶負電電子組成。摩擦使電子在不同物體間轉移，得電子者帶負電，失電子者帶正電。同性電荷相斥，異性電荷相吸。帶電體靠近不帶電導體會產生靜電感應。庫侖定律：兩電荷間的靜電力大小與電量乘積成正比，與距離平方成反比。"
         },
         "extension": {
-          "title": "電荷",
+          "title": "摩擦起電與電子轉移",
           "unitId": "physics-11",
           "icon": "🚀",
-          "desc": "同課比較：同號相斥、異號相吸。請說明與「電動機原理」的差別。"
+          "desc": "同課比較：絕緣體互相摩擦時發生「電子」轉移（質子不動）：得到電子帶負電，失去電子帶正電。請說明與「庫侖靜電力定律」的差別。"
         },
         "crossDisciplinary": {
           "title": "能源、製造與永續產品",
@@ -13723,7 +13723,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「電動機原理」的說明，先說出規則，再用「電能轉為機械能」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「庫侖靜電力定律」的說明，先說出規則，再用「同性電相斥、異性電相吸；距離增為 2 倍，靜電力減為原本的 1/4」核對自己的理解。"
       }
     }
   ],
@@ -15338,13 +15338,13 @@ export const explicitKnowledgePoints = {
       "id": "earth-10-kp-1",
       "unitId": "earth-10",
       "order": 1,
-      "title": "【知識點 1】月球自轉公轉同步",
-      "core": "月球自轉公轉同步：月球自轉週期等於繞地公轉週期（約 27.3 天），受潮汐鎖定，在地球上永遠只能看見同一面。",
-      "mechanism": "對照判準與實例：月球自轉週期等於繞地公轉週期（約 27.3 天），受潮汐鎖定，在地球上永遠只能看見同一面。月球面向地球的半球受陽光照射比例每日改變，產生由新月到滿月的規律月相週期（朔望月約 29.5 天）。",
-      "explanation": "辨認「月球自轉公轉同步」時，先說出「月球自轉週期等於繞地公轉週期（約 27.3 天），受潮汐鎖定，在地球上永遠只能看見同一面」，再核對「月球面向地球的半球受陽光照射比例每日改變，產生由新月到滿月的規律月相週期（朔望月約 29.5 天）」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "月球自轉週期等於繞地公轉週期（約 27.3 天），受潮汐鎖定，在地球上永遠只能看見同一面｜實例與界線：月球面向地球的半球受陽光照射比例每日改變，產生由新月到滿月的規律月相週期（朔望月約 29.5 天）",
-      "examIntel": "自我檢核：遮住說明，試著解釋「月球面向地球的半球受陽光照射比例每日改變，產生由新月到滿月的規律月相週期（朔望月約 29.5 天）」與「月球自轉週期等於繞地公轉週期（約 27.3 天），受潮汐鎖定，在地球上永遠只能看見同一面」的關係。",
-      "practicalTip": "核對本點實例與界線：月球面向地球的半球受陽光照射比例每日改變，產生由新月到滿月的規律月相週期（朔望月約 29.5 天）",
+      "title": "【知識點 1】引潮力與兩側同時滿潮",
+      "core": "引潮力與兩側同時滿潮：月球（為主）與太陽對地球不同部位萬有引力差，加上地月共轉離心力，使面向與背向月球兩側同時隆起滿潮。",
+      "mechanism": "對照判準與實例：月球（為主）與太陽對地球不同部位萬有引力差，加上地月共轉離心力，使面向與背向月球兩側同時隆起滿潮。月球距離地球遠近於太陽，故月球引潮力約為太陽的 2 倍以上。",
+      "explanation": "辨認「引潮力與兩側同時滿潮」時，先說出「月球（為主）與太陽對地球不同部位萬有引力差，加上地月共轉離心力，使面向與背向月球兩側同時隆起滿潮」，再核對「月球距離地球遠近於太陽，故月球引潮力約為太陽的 2 倍以上」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "月球（為主）與太陽對地球不同部位萬有引力差，加上地月共轉離心力，使面向與背向月球兩側同時隆起滿潮｜實例與界線：月球距離地球遠近於太陽，故月球引潮力約為太陽的 2 倍以上",
+      "examIntel": "自我檢核：遮住說明，試著解釋「月球距離地球遠近於太陽，故月球引潮力約為太陽的 2 倍以上」與「月球（為主）與太陽對地球不同部位萬有引力差，加上地月共轉離心力，使面向與背向月球兩側同時隆起滿潮」的關係。",
+      "practicalTip": "核對本點實例與界線：月球距離地球遠近於太陽，故月球引潮力約為太陽的 2 倍以上",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -15355,9 +15355,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "月球自轉公轉同步｜規則與實例",
+        "title": "引潮力與兩側同時滿潮｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"月球自轉公轉同步：概念、規則與實例\"><title>月球自轉公轉同步</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">月球自轉公轉同步</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">月球自轉週期等於繞地公轉週期（約 27.3 天），受潮汐鎖定，在地球上</tspan><tspan x=\"38\" dy=\"24\">永遠只能看見同一面</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">月球面向地球的半球受陽光照射比例每日改變，產生由新月到滿月的規律</tspan><tspan x=\"38\" dy=\"24\">月相週期（朔望月約 29.5 天）</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"引潮力與兩側同時滿潮：概念、規則與實例\"><title>引潮力與兩側同時滿潮</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">引潮力與兩側同時滿潮</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">月球（為主）與太陽對地球不同部位萬有引力差，加上地月共轉離心力，</tspan><tspan x=\"38\" dy=\"24\">使面向與背向月球兩側同時隆起滿潮</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">月球距離地球遠近於太陽，故月球引潮力約為太陽的 2 倍以上</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -15367,10 +15367,10 @@ export const explicitKnowledgePoints = {
           "desc": "潮汐主要是月球與太陽對地球海水的引潮力（萬有引力差）引起的週期性升降。海水面升到最高為滿潮，降到最低為乾潮，滿潮與乾潮之水位差為潮差。新月（農曆初一）與滿月（農曆十五）時太陽、地球、月球三者大致成一直線，引潮力相加形成「大潮」；上弦月與下弦月時日地月成垂直直角，引潮力部分抵消形成「小潮」。"
         },
         "extension": {
-          "title": "四大代表月相判讀",
+          "title": "半日潮週期與順延規律",
           "unitId": "earth-10",
           "icon": "🚀",
-          "desc": "同課比較：初一朔（月在日地中間，不可見）；初七八上弦月（西半亮半圓）；十五望滿月（整面亮）；廿二三下弦月（東半亮）。請說明與「月球自轉公轉同步」的差別。"
+          "desc": "同課比較：地球自轉同時月球亦同向公轉，同地點相鄰兩次滿潮間隔約 12 小時 25 分鐘。請說明與「引潮力與兩側同時滿潮」的差別。"
         },
         "crossDisciplinary": {
           "title": "運動、力與牛頓定律",
@@ -15379,20 +15379,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「月球自轉公轉同步」的說明，先說出規則，再用「月球面向地球的半球受陽光照射比例每日改變，產生由新月到滿月的規律月相週期（朔望月約 29.5 天）」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「引潮力與兩側同時滿潮」的說明，先說出規則，再用「月球距離地球遠近於太陽，故月球引潮力約為太陽的 2 倍以上」核對自己的理解。"
       }
     },
     {
       "id": "earth-10-kp-2",
       "unitId": "earth-10",
       "order": 2,
-      "title": "【知識點 2】四大代表月相判讀",
-      "core": "四大代表月相判讀：初一朔（月在日地中間，不可見）；初七八上弦月（西半亮半圓）；十五望滿月（整面亮）；廿二三下弦月（東半亮）。",
-      "mechanism": "對照判準與實例：初一朔（月在日地中間，不可見）；初七八上弦月（西半亮半圓）；十五望滿月（整面亮）；廿二三下弦月（東半亮）。上弦月正午升起半夜落入西方；滿月傍晚自東方升起整夜可見；下弦月半夜升起中午西落。",
-      "explanation": "辨認「四大代表月相判讀」時，先說出「初一朔（月在日地中間，不可見）；初七八上弦月（西半亮半圓）；十五望滿月（整面亮）；廿二三下弦月（東半亮）」，再核對「上弦月正午升起半夜落入西方；滿月傍晚自東方升起整夜可見；下弦月半夜升起中午西落」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "初一朔（月在日地中間，不可見）；初七八上弦月（西半亮半圓）；十五望滿月（整面亮）；廿二三下弦月（東半亮）｜實例與界線：上弦月正午升起半夜落入西方；滿月傍晚自東方升起整夜可見；下弦月半夜升起中午西落",
-      "examIntel": "自我檢核：遮住說明，試著解釋「上弦月正午升起半夜落入西方；滿月傍晚自東方升起整夜可見；下弦月半夜升起中午西落」與「初一朔（月在日地中間，不可見）；初七八上弦月（西半亮半圓）；十五望滿月（整面亮）；廿二三下弦月（東半亮）」的關係。",
-      "practicalTip": "核對本點實例與界線：上弦月正午升起半夜落入西方；滿月傍晚自東方升起整夜可見；下弦月半夜升起中午西落",
+      "title": "【知識點 2】半日潮週期與順延規律",
+      "core": "半日潮週期與順延規律：地球自轉同時月球亦同向公轉，同地點相鄰兩次滿潮間隔約 12 小時 25 分鐘。",
+      "mechanism": "對照判準與實例：地球自轉同時月球亦同向公轉，同地點相鄰兩次滿潮間隔約 12 小時 25 分鐘。每日滿潮時間約比前一天延遲 50 分鐘；多數海岸一天經歷兩次滿潮與兩次乾潮。",
+      "explanation": "辨認「半日潮週期與順延規律」時，先說出「地球自轉同時月球亦同向公轉，同地點相鄰兩次滿潮間隔約 12 小時 25 分鐘」，再核對「每日滿潮時間約比前一天延遲 50 分鐘；多數海岸一天經歷兩次滿潮與兩次乾潮」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "地球自轉同時月球亦同向公轉，同地點相鄰兩次滿潮間隔約 12 小時 25 分鐘｜實例與界線：每日滿潮時間約比前一天延遲 50 分鐘；多數海岸一天經歷兩次滿潮與兩次乾潮",
+      "examIntel": "自我檢核：遮住說明，試著解釋「每日滿潮時間約比前一天延遲 50 分鐘；多數海岸一天經歷兩次滿潮與兩次乾潮」與「地球自轉同時月球亦同向公轉，同地點相鄰兩次滿潮間隔約 12 小時 25 分鐘」的關係。",
+      "practicalTip": "核對本點實例與界線：每日滿潮時間約比前一天延遲 50 分鐘；多數海岸一天經歷兩次滿潮與兩次乾潮",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -15403,9 +15403,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "四大代表月相判讀｜規則與實例",
+        "title": "半日潮週期與順延規律｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"四大代表月相判讀：概念、規則與實例\"><title>四大代表月相判讀</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">四大代表月相判讀</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">初一朔（月在日地中間，不可見）；初七八上弦月（西半亮半圓）；十五</tspan><tspan x=\"38\" dy=\"24\">望滿月（整面亮）；廿二三下弦月（東半亮）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">上弦月正午升起半夜落入西方；滿月傍晚自東方升起整夜可見；下弦月半</tspan><tspan x=\"38\" dy=\"24\">夜升起中午西落</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"半日潮週期與順延規律：概念、規則與實例\"><title>半日潮週期與順延規律</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">半日潮週期與順延規律</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">地球自轉同時月球亦同向公轉，同地點相鄰兩次滿潮間隔約 12 小時 25</tspan><tspan x=\"38\" dy=\"24\"> 分鐘</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">每日滿潮時間約比前一天延遲 50 分鐘；多數海岸一天經歷兩次滿潮與兩</tspan><tspan x=\"38\" dy=\"24\">次乾潮</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -15415,10 +15415,10 @@ export const explicitKnowledgePoints = {
           "desc": "潮汐主要是月球與太陽對地球海水的引潮力（萬有引力差）引起的週期性升降。海水面升到最高為滿潮，降到最低為乾潮，滿潮與乾潮之水位差為潮差。新月（農曆初一）與滿月（農曆十五）時太陽、地球、月球三者大致成一直線，引潮力相加形成「大潮」；上弦月與下弦月時日地月成垂直直角，引潮力部分抵消形成「小潮」。"
         },
         "extension": {
-          "title": "日食條件與類型",
+          "title": "大潮與小潮對應月相",
           "unitId": "earth-10",
           "icon": "🚀",
-          "desc": "同課比較：月球運行至日地中間（朔）且三者排成一直線，月球本影落在地表產生日食（日全食、日環食、日偏食）。請說明與「四大代表月相判讀」的差別。"
+          "desc": "同課比較：農曆初一（朔）與十五（望）日月地成一直線，引潮力疊加成「大潮」（潮差最大）。請說明與「半日潮週期與順延規律」的差別。"
         },
         "crossDisciplinary": {
           "title": "臺灣地形、氣候與災害",
@@ -15427,20 +15427,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「四大代表月相判讀」的說明，先說出規則，再用「上弦月正午升起半夜落入西方；滿月傍晚自東方升起整夜可見；下弦月半夜升起中午西落」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「半日潮週期與順延規律」的說明，先說出規則，再用「每日滿潮時間約比前一天延遲 50 分鐘；多數海岸一天經歷兩次滿潮與兩次乾潮」核對自己的理解。"
       }
     },
     {
       "id": "earth-10-kp-3",
       "unitId": "earth-10",
       "order": 3,
-      "title": "【知識點 3】日食條件與類型",
-      "core": "日食條件與類型：月球運行至日地中間（朔）且三者排成一直線，月球本影落在地表產生日食（日全食、日環食、日偏食）。",
-      "mechanism": "對照判準與實例：月球運行至日地中間（朔）且三者排成一直線，月球本影落在地表產生日食（日全食、日環食、日偏食）。日食僅在地球白晝局部本影區域可見，月球視直徑隨近地點遠地點微幅改變決定全食或環食。",
-      "explanation": "辨認「日食條件與類型」時，先說出「月球運行至日地中間（朔）且三者排成一直線，月球本影落在地表產生日食（日全食、日環食、日偏食）」，再核對「日食僅在地球白晝局部本影區域可見，月球視直徑隨近地點遠地點微幅改變決定全食或環食」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "月球運行至日地中間（朔）且三者排成一直線，月球本影落在地表產生日食（日全食、日環食、日偏食）｜實例與界線：日食僅在地球白晝局部本影區域可見，月球視直徑隨近地點遠地點微幅改變決定全食或環食",
-      "examIntel": "自我檢核：遮住說明，試著解釋「日食僅在地球白晝局部本影區域可見，月球視直徑隨近地點遠地點微幅改變決定全食或環食」與「月球運行至日地中間（朔）且三者排成一直線，月球本影落在地表產生日食（日全食、日環食、日偏食）」的關係。",
-      "practicalTip": "核對本點實例與界線：日食僅在地球白晝局部本影區域可見，月球視直徑隨近地點遠地點微幅改變決定全食或環食",
+      "title": "【知識點 3】大潮與小潮對應月相",
+      "core": "大潮與小潮對應月相：農曆初一（朔）與十五（望）日月地成一直線，引潮力疊加成「大潮」（潮差最大）。",
+      "mechanism": "對照判準與實例：農曆初一（朔）與十五（望）日月地成一直線，引潮力疊加成「大潮」（潮差最大）。農曆初七八（上弦）與廿二三（下弦）日月成 90°，引潮力部分抵銷成「小潮」（潮差最小）。",
+      "explanation": "辨認「大潮與小潮對應月相」時，先說出「農曆初一（朔）與十五（望）日月地成一直線，引潮力疊加成「大潮」（潮差最大）」，再核對「農曆初七八（上弦）與廿二三（下弦）日月成 90°，引潮力部分抵銷成「小潮」（潮差最小）」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "農曆初一（朔）與十五（望）日月地成一直線，引潮力疊加成「大潮」（潮差最大）｜實例與界線：農曆初七八（上弦）與廿二三（下弦）日月成 90°，引潮力部分抵銷成「小潮」（潮差最小）",
+      "examIntel": "自我檢核：遮住說明，試著解釋「農曆初七八（上弦）與廿二三（下弦）日月成 90°，引潮力部分抵銷成「小潮」（潮差最小）」與「農曆初一（朔）與十五（望）日月地成一直線，引潮力疊加成「大潮」（潮差最大）」的關係。",
+      "practicalTip": "核對本點實例與界線：農曆初七八（上弦）與廿二三（下弦）日月成 90°，引潮力部分抵銷成「小潮」（潮差最小）",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -15451,9 +15451,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "日食條件與類型｜規則與實例",
+        "title": "大潮與小潮對應月相｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"日食條件與類型：概念、規則與實例\"><title>日食條件與類型</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">日食條件與類型</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">月球運行至日地中間（朔）且三者排成一直線，月球本影落在地表產生日</tspan><tspan x=\"38\" dy=\"24\">食（日全食、日環食、日偏食）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">日食僅在地球白晝局部本影區域可見，月球視直徑隨近地點遠地點微幅改</tspan><tspan x=\"38\" dy=\"24\">變決定全食或環食</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"大潮與小潮對應月相：概念、規則與實例\"><title>大潮與小潮對應月相</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">大潮與小潮對應月相</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">農曆初一（朔）與十五（望）日月地成一直線，引潮力疊加成「大潮」（</tspan><tspan x=\"38\" dy=\"24\">潮差最大）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">農曆初七八（上弦）與廿二三（下弦）日月成 90°，引潮力部分抵銷成「</tspan><tspan x=\"38\" dy=\"24\">小潮」（潮差最小）</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -15463,10 +15463,10 @@ export const explicitKnowledgePoints = {
           "desc": "潮汐主要是月球與太陽對地球海水的引潮力（萬有引力差）引起的週期性升降。海水面升到最高為滿潮，降到最低為乾潮，滿潮與乾潮之水位差為潮差。新月（農曆初一）與滿月（農曆十五）時太陽、地球、月球三者大致成一直線，引潮力相加形成「大潮」；上弦月與下弦月時日地月成垂直直角，引潮力部分抵消形成「小潮」。"
         },
         "extension": {
-          "title": "月球自轉公轉同步",
+          "title": "引潮力與兩側同時滿潮",
           "unitId": "earth-10",
           "icon": "🚀",
-          "desc": "同課比較：月球自轉週期等於繞地公轉週期（約 27.3 天），受潮汐鎖定，在地球上永遠只能看見同一面。請說明與「日食條件與類型」的差別。"
+          "desc": "同課比較：月球（為主）與太陽對地球不同部位萬有引力差，加上地月共轉離心力，使面向與背向月球兩側同時隆起滿潮。請說明與「大潮與小潮對應月相」的差別。"
         },
         "crossDisciplinary": {
           "title": "分類、生態系與能量流動",
@@ -15475,7 +15475,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「日食條件與類型」的說明，先說出規則，再用「日食僅在地球白晝局部本影區域可見，月球視直徑隨近地點遠地點微幅改變決定全食或環食」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「大潮與小潮對應月相」的說明，先說出規則，再用「農曆初七八（上弦）與廿二三（下弦）日月成 90°，引潮力部分抵銷成「小潮」（潮差最小）」核對自己的理解。"
       }
     }
   ],
@@ -15484,13 +15484,13 @@ export const explicitKnowledgePoints = {
       "id": "biology-13-kp-1",
       "unitId": "biology-13",
       "order": 1,
-      "title": "【知識點 1】內分泌腺體特性",
-      "core": "內分泌腺體特性：無導管腺體，分泌激素（荷爾蒙）直接釋入血液循環，作用於特定目標器官（標的細胞）。",
-      "mechanism": "對照判準與實例：無導管腺體，分泌激素（荷爾蒙）直接釋入血液循環，作用於特定目標器官（標的細胞）。外分泌腺（如汗腺、唾液腺、胰液消化導管）具導管；胰臟兼具外分泌與內分泌功能。",
-      "explanation": "辨認「內分泌腺體特性」時，先說出「無導管腺體，分泌激素（荷爾蒙）直接釋入血液循環，作用於特定目標器官（標的細胞）」，再核對「外分泌腺（如汗腺、唾液腺、胰液消化導管）具導管；胰臟兼具外分泌與內分泌功能」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "無導管腺體，分泌激素（荷爾蒙）直接釋入血液循環，作用於特定目標器官（標的細胞）｜實例與界線：外分泌腺（如汗腺、唾液腺、胰液消化導管）具導管；胰臟兼具外分泌與內分泌功能",
-      "examIntel": "自我檢核：遮住說明，試著解釋「外分泌腺（如汗腺、唾液腺、胰液消化導管）具導管；胰臟兼具外分泌與內分泌功能」與「無導管腺體，分泌激素（荷爾蒙）直接釋入血液循環，作用於特定目標器官（標的細胞）」的關係。",
-      "practicalTip": "核對本點實例與界線：外分泌腺（如汗腺、唾液腺、胰液消化導管）具導管；胰臟兼具外分泌與內分泌功能",
+      "title": "【知識點 1】大腦皮質（意識與思考）",
+      "core": "大腦皮質（意識與思考）：左右大腦半球交叉控制對側身體；主管語言、記憶、思考、情感與各類感覺形成。",
+      "mechanism": "對照判準與實例：左右大腦半球交叉控制對側身體；主管語言、記憶、思考、情感與各類感覺形成。聽覺、視覺與痛覺皆在大腦產生；左手受傷的痛覺與隨意動作由右大腦處理。",
+      "explanation": "辨認「大腦皮質（意識與思考）」時，先說出「左右大腦半球交叉控制對側身體；主管語言、記憶、思考、情感與各類感覺形成」，再核對「聽覺、視覺與痛覺皆在大腦產生；左手受傷的痛覺與隨意動作由右大腦處理」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "左右大腦半球交叉控制對側身體；主管語言、記憶、思考、情感與各類感覺形成｜實例與界線：聽覺、視覺與痛覺皆在大腦產生；左手受傷的痛覺與隨意動作由右大腦處理",
+      "examIntel": "自我檢核：遮住說明，試著解釋「聽覺、視覺與痛覺皆在大腦產生；左手受傷的痛覺與隨意動作由右大腦處理」與「左右大腦半球交叉控制對側身體；主管語言、記憶、思考、情感與各類感覺形成」的關係。",
+      "practicalTip": "核對本點實例與界線：聽覺、視覺與痛覺皆在大腦產生；左手受傷的痛覺與隨意動作由右大腦處理",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -15501,9 +15501,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "內分泌腺體特性｜規則與實例",
+        "title": "大腦皮質（意識與思考）｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"內分泌腺體特性：概念、規則與實例\"><title>內分泌腺體特性</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#edf7f2\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#295d46\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">內分泌腺體特性</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">無導管腺體，分泌激素（荷爾蒙）直接釋入血液循環，作用於特定目標器</tspan><tspan x=\"38\" dy=\"24\">官（標的細胞）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">外分泌腺（如汗腺、唾液腺、胰液消化導管）具導管；胰臟兼具外分泌與</tspan><tspan x=\"38\" dy=\"24\">內分泌功能</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#153628\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"大腦皮質（意識與思考）：概念、規則與實例\"><title>大腦皮質（意識與思考）</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#edf7f2\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#295d46\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">大腦皮質（意識與思考）</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">左右大腦半球交叉控制對側身體；主管語言、記憶、思考、情感與各類感</tspan><tspan x=\"38\" dy=\"24\">覺形成</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">聽覺、視覺與痛覺皆在大腦產生；左手受傷的痛覺與隨意動作由右大腦處</tspan><tspan x=\"38\" dy=\"24\">理</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#153628\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -15513,10 +15513,10 @@ export const explicitKnowledgePoints = {
           "desc": "中樞神經系統由腦與脊髓組成，周圍神經系統包含腦神經與脊神經。腦部分為大腦（掌管感覺、運動、記憶、思考、語言等意識活動）、小腦（協調骨骼肌活動、維持身體平衡）與腦幹（控制呼吸、心跳、血壓等維持生命之反射中樞，又稱生命中樞）。若腦幹功能喪失即判定腦死。"
         },
         "extension": {
-          "title": "血糖恆定雙重調節",
+          "title": "小腦（平衡與肌肉協調）",
           "unitId": "biology-13",
           "icon": "🚀",
-          "desc": "同課比較：進食後血糖升高 → 胰島分泌「胰島素」促使血糖轉化為肝醣儲存；飢餓時分泌「升糖素」分解肝醣。請說明與「內分泌腺體特性」的差別。"
+          "desc": "同課比較：協調全身骨骼肌精細運動與身體姿勢平衡，受酒精麻醉時走路會搖晃不穩。請說明與「大腦皮質（意識與思考）」的差別。"
         },
         "crossDisciplinary": {
           "title": "認識自我與情緒表達",
@@ -15525,20 +15525,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「內分泌腺體特性」的說明，先說出規則，再用「外分泌腺（如汗腺、唾液腺、胰液消化導管）具導管；胰臟兼具外分泌與內分泌功能」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「大腦皮質（意識與思考）」的說明，先說出規則，再用「聽覺、視覺與痛覺皆在大腦產生；左手受傷的痛覺與隨意動作由右大腦處理」核對自己的理解。"
       }
     },
     {
       "id": "biology-13-kp-2",
       "unitId": "biology-13",
       "order": 2,
-      "title": "【知識點 2】血糖恆定雙重調節",
-      "core": "血糖恆定雙重調節：進食後血糖升高 → 胰島分泌「胰島素」促使血糖轉化為肝醣儲存；飢餓時分泌「升糖素」分解肝醣。",
-      "mechanism": "對照判準與實例：進食後血糖升高 → 胰島分泌「胰島素」促使血糖轉化為肝醣儲存；飢餓時分泌「升糖素」分解肝醣。腎上腺素在緊急壓力時分泌，亦可迅速升高血糖以應付危急戰鬥或逃跑反應。",
-      "explanation": "辨認「血糖恆定雙重調節」時，先說出「進食後血糖升高 → 胰島分泌「胰島素」促使血糖轉化為肝醣儲存；飢餓時分泌「升糖素」分解肝醣」，再核對「腎上腺素在緊急壓力時分泌，亦可迅速升高血糖以應付危急戰鬥或逃跑反應」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "進食後血糖升高 → 胰島分泌「胰島素」促使血糖轉化為肝醣儲存；飢餓時分泌「升糖素」分解肝醣｜實例與界線：腎上腺素在緊急壓力時分泌，亦可迅速升高血糖以應付危急戰鬥或逃跑反應",
-      "examIntel": "自我檢核：遮住說明，試著解釋「腎上腺素在緊急壓力時分泌，亦可迅速升高血糖以應付危急戰鬥或逃跑反應」與「進食後血糖升高 → 胰島分泌「胰島素」促使血糖轉化為肝醣儲存；飢餓時分泌「升糖素」分解肝醣」的關係。",
-      "practicalTip": "核對本點實例與界線：腎上腺素在緊急壓力時分泌，亦可迅速升高血糖以應付危急戰鬥或逃跑反應",
+      "title": "【知識點 2】小腦（平衡與肌肉協調）",
+      "core": "小腦（平衡與肌肉協調）：協調全身骨骼肌精細運動與身體姿勢平衡，受酒精麻醉時走路會搖晃不穩。",
+      "mechanism": "對照判準與實例：協調全身骨骼肌精細運動與身體姿勢平衡，受酒精麻醉時走路會搖晃不穩。體操選手、騎腳踏車與鳥類飛行皆仰賴發達的小腦維持高度平衡。",
+      "explanation": "辨認「小腦（平衡與肌肉協調）」時，先說出「協調全身骨骼肌精細運動與身體姿勢平衡，受酒精麻醉時走路會搖晃不穩」，再核對「體操選手、騎腳踏車與鳥類飛行皆仰賴發達的小腦維持高度平衡」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "協調全身骨骼肌精細運動與身體姿勢平衡，受酒精麻醉時走路會搖晃不穩｜實例與界線：體操選手、騎腳踏車與鳥類飛行皆仰賴發達的小腦維持高度平衡",
+      "examIntel": "自我檢核：遮住說明，試著解釋「體操選手、騎腳踏車與鳥類飛行皆仰賴發達的小腦維持高度平衡」與「協調全身骨骼肌精細運動與身體姿勢平衡，受酒精麻醉時走路會搖晃不穩」的關係。",
+      "practicalTip": "核對本點實例與界線：體操選手、騎腳踏車與鳥類飛行皆仰賴發達的小腦維持高度平衡",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -15549,9 +15549,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "血糖恆定雙重調節｜規則與實例",
+        "title": "小腦（平衡與肌肉協調）｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"血糖恆定雙重調節：概念、規則與實例\"><title>血糖恆定雙重調節</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#edf7f2\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#295d46\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">血糖恆定雙重調節</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">進食後血糖升高 → 胰島分泌「胰島素」促使血糖轉化為肝醣儲存；飢餓</tspan><tspan x=\"38\" dy=\"24\">時分泌「升糖素」分解肝醣</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">腎上腺素在緊急壓力時分泌，亦可迅速升高血糖以應付危急戰鬥或逃跑反</tspan><tspan x=\"38\" dy=\"24\">應</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#153628\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 338\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"小腦（平衡與肌肉協調）：概念、規則與實例\"><title>小腦（平衡與肌肉協調）</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"336\" rx=\"16\" fill=\"#edf7f2\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#295d46\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">小腦（平衡與肌肉協調）</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">協調全身骨骼肌精細運動與身體姿勢平衡，受酒精麻醉時走路會搖晃不穩</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">體操選手、騎腳踏車與鳥類飛行皆仰賴發達的小腦維持高度平衡</tspan></text><text x=\"22\" y=\"324\" font-size=\"11\" fill=\"#153628\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -15561,10 +15561,10 @@ export const explicitKnowledgePoints = {
           "desc": "中樞神經系統由腦與脊髓組成，周圍神經系統包含腦神經與脊神經。腦部分為大腦（掌管感覺、運動、記憶、思考、語言等意識活動）、小腦（協調骨骼肌活動、維持身體平衡）與腦幹（控制呼吸、心跳、血壓等維持生命之反射中樞，又稱生命中樞）。若腦幹功能喪失即判定腦死。"
         },
         "extension": {
-          "title": "甲狀腺素與腦垂腺",
+          "title": "腦幹（生命中樞）",
           "unitId": "biology-13",
           "icon": "🚀",
-          "desc": "同課比較：腦垂腺分泌促甲狀腺素 (TSH) 調節甲狀腺；甲狀腺素分泌過多負回饋抑制 TSH。請說明與「血糖恆定雙重調節」的差別。"
+          "desc": "同課比較：控制心跳、呼吸、血壓、吞嚥、眨眼與咳嗽等維持生命不可或缺的反射活動。請說明與「小腦（平衡與肌肉協調）」的差別。"
         },
         "crossDisciplinary": {
           "title": "演算法與問題拆解",
@@ -15573,20 +15573,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「血糖恆定雙重調節」的說明，先說出規則，再用「腎上腺素在緊急壓力時分泌，亦可迅速升高血糖以應付危急戰鬥或逃跑反應」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「小腦（平衡與肌肉協調）」的說明，先說出規則，再用「體操選手、騎腳踏車與鳥類飛行皆仰賴發達的小腦維持高度平衡」核對自己的理解。"
       }
     },
     {
       "id": "biology-13-kp-3",
       "unitId": "biology-13",
       "order": 3,
-      "title": "【知識點 3】甲狀腺素與腦垂腺",
-      "core": "甲狀腺素與腦垂腺：腦垂腺分泌促甲狀腺素 (TSH) 調節甲狀腺；甲狀腺素分泌過多負回饋抑制 TSH。",
-      "mechanism": "對照判準與實例：腦垂腺分泌促甲狀腺素 (TSH) 調節甲狀腺；甲狀腺素分泌過多負回饋抑制 TSH。幼年缺乏甲狀腺素導致呆小症；成年分泌過多引發甲狀腺機能亢進（代謝過快、消瘦突眼）。",
-      "explanation": "辨認「甲狀腺素與腦垂腺」時，先說出「腦垂腺分泌促甲狀腺素 (TSH) 調節甲狀腺；甲狀腺素分泌過多負回饋抑制 TSH」，再核對「幼年缺乏甲狀腺素導致呆小症；成年分泌過多引發甲狀腺機能亢進（代謝過快、消瘦突眼）」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "腦垂腺分泌促甲狀腺素 (TSH) 調節甲狀腺；甲狀腺素分泌過多負回饋抑制 TSH｜實例與界線：幼年缺乏甲狀腺素導致呆小症；成年分泌過多引發甲狀腺機能亢進（代謝過快、消瘦突眼）",
-      "examIntel": "自我檢核：遮住說明，試著解釋「幼年缺乏甲狀腺素導致呆小症；成年分泌過多引發甲狀腺機能亢進（代謝過快、消瘦突眼）」與「腦垂腺分泌促甲狀腺素 (TSH) 調節甲狀腺；甲狀腺素分泌過多負回饋抑制 TSH」的關係。",
-      "practicalTip": "核對本點實例與界線：幼年缺乏甲狀腺素導致呆小症；成年分泌過多引發甲狀腺機能亢進（代謝過快、消瘦突眼）",
+      "title": "【知識點 3】腦幹（生命中樞）",
+      "core": "腦幹（生命中樞）：控制心跳、呼吸、血壓、吞嚥、眨眼與咳嗽等維持生命不可或缺的反射活動。",
+      "mechanism": "對照判準與實例：控制心跳、呼吸、血壓、吞嚥、眨眼與咳嗽等維持生命不可或缺的反射活動。腦幹受損將直接危及生命，醫學上以「腦幹功能不可逆喪失」作為腦死判定核心。",
+      "explanation": "辨認「腦幹（生命中樞）」時，先說出「控制心跳、呼吸、血壓、吞嚥、眨眼與咳嗽等維持生命不可或缺的反射活動」，再核對「腦幹受損將直接危及生命，醫學上以「腦幹功能不可逆喪失」作為腦死判定核心」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "控制心跳、呼吸、血壓、吞嚥、眨眼與咳嗽等維持生命不可或缺的反射活動｜實例與界線：腦幹受損將直接危及生命，醫學上以「腦幹功能不可逆喪失」作為腦死判定核心",
+      "examIntel": "自我檢核：遮住說明，試著解釋「腦幹受損將直接危及生命，醫學上以「腦幹功能不可逆喪失」作為腦死判定核心」與「控制心跳、呼吸、血壓、吞嚥、眨眼與咳嗽等維持生命不可或缺的反射活動」的關係。",
+      "practicalTip": "核對本點實例與界線：腦幹受損將直接危及生命，醫學上以「腦幹功能不可逆喪失」作為腦死判定核心",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -15597,9 +15597,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "甲狀腺素與腦垂腺｜規則與實例",
+        "title": "腦幹（生命中樞）｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"甲狀腺素與腦垂腺：概念、規則與實例\"><title>甲狀腺素與腦垂腺</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#edf7f2\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#295d46\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">甲狀腺素與腦垂腺</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">腦垂腺分泌促甲狀腺素 (TSH) 調節甲狀腺；甲狀腺素分泌過多負回饋抑</tspan><tspan x=\"38\" dy=\"24\">制 TSH</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">幼年缺乏甲狀腺素導致呆小症；成年分泌過多引發甲狀腺機能亢進（代謝</tspan><tspan x=\"38\" dy=\"24\">過快、消瘦突眼）</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#153628\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"腦幹（生命中樞）：概念、規則與實例\"><title>腦幹（生命中樞）</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#edf7f2\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#295d46\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">腦幹（生命中樞）</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">控制心跳、呼吸、血壓、吞嚥、眨眼與咳嗽等維持生命不可或缺的反射活</tspan><tspan x=\"38\" dy=\"24\">動</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#3f8768\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#295d46\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#153628\"><tspan x=\"38\" dy=\"0\">腦幹受損將直接危及生命，醫學上以「腦幹功能不可逆喪失」作為腦死判</tspan><tspan x=\"38\" dy=\"24\">定核心</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#153628\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -15609,10 +15609,10 @@ export const explicitKnowledgePoints = {
           "desc": "中樞神經系統由腦與脊髓組成，周圍神經系統包含腦神經與脊神經。腦部分為大腦（掌管感覺、運動、記憶、思考、語言等意識活動）、小腦（協調骨骼肌活動、維持身體平衡）與腦幹（控制呼吸、心跳、血壓等維持生命之反射中樞，又稱生命中樞）。若腦幹功能喪失即判定腦死。"
         },
         "extension": {
-          "title": "內分泌腺體特性",
+          "title": "大腦皮質（意識與思考）",
           "unitId": "biology-13",
           "icon": "🚀",
-          "desc": "同課比較：無導管腺體，分泌激素（荷爾蒙）直接釋入血液循環，作用於特定目標器官（標的細胞）。請說明與「甲狀腺素與腦垂腺」的差別。"
+          "desc": "同課比較：左右大腦半球交叉控制對側身體；主管語言、記憶、思考、情感與各類感覺形成。請說明與「腦幹（生命中樞）」的差別。"
         },
         "crossDisciplinary": {
           "title": "動作學習與自我監測",
@@ -15621,7 +15621,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「甲狀腺素與腦垂腺」的說明，先說出規則，再用「幼年缺乏甲狀腺素導致呆小症；成年分泌過多引發甲狀腺機能亢進（代謝過快、消瘦突眼）」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「腦幹（生命中樞）」的說明，先說出規則，再用「腦幹受損將直接危及生命，醫學上以「腦幹功能不可逆喪失」作為腦死判定核心」核對自己的理解。"
       }
     }
   ],
@@ -16506,13 +16506,13 @@ export const explicitKnowledgePoints = {
       "id": "earth-12-kp-1",
       "unitId": "earth-12",
       "order": 1,
-      "title": "【知識點 1】引潮力物理成因",
-      "core": "引潮力物理成因：月球與太陽對地球不同部位引力大小不均勻，以及地球繞共同質心公轉慣性離心力之合力。",
-      "mechanism": "對照判準與實例：月球與太陽對地球不同部位引力大小不均勻，以及地球繞共同質心公轉慣性離心力之合力。面向月球側引力最大隆起成滿潮；背向月球側慣性離心力相對占優亦隆起成滿潮，地球兩側同時漲潮。",
-      "explanation": "辨認「引潮力物理成因」時，先說出「月球與太陽對地球不同部位引力大小不均勻，以及地球繞共同質心公轉慣性離心力之合力」，再核對「面向月球側引力最大隆起成滿潮；背向月球側慣性離心力相對占優亦隆起成滿潮，地球兩側同時漲潮」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "月球與太陽對地球不同部位引力大小不均勻，以及地球繞共同質心公轉慣性離心力之合力｜實例與界線：面向月球側引力最大隆起成滿潮；背向月球側慣性離心力相對占優亦隆起成滿潮，地球兩側同時漲潮",
-      "examIntel": "自我檢核：遮住說明，試著解釋「面向月球側引力最大隆起成滿潮；背向月球側慣性離心力相對占優亦隆起成滿潮，地球兩側同時漲潮」與「月球與太陽對地球不同部位引力大小不均勻，以及地球繞共同質心公轉慣性離心力之合力」的關係。",
-      "practicalTip": "核對本點實例與界線：面向月球側引力最大隆起成滿潮；背向月球側慣性離心力相對占優亦隆起成滿潮，地球兩側同時漲潮",
+      "title": "【知識點 1】日食成因與三大類型",
+      "core": "日食成因與三大類型：月球位於日地之間（農曆初一朔）且三者共線，月球影子投射於地表；分日全食、日環食、日偏食。",
+      "mechanism": "對照判準與實例：月球位於日地之間（農曆初一朔）且三者共線，月球影子投射於地表；分日全食、日環食、日偏食。月球繞地軌道呈橢圓：近地點視直徑較大易發生日全食，遠地點視直徑較小則形成日環食。",
+      "explanation": "辨認「日食成因與三大類型」時，先說出「月球位於日地之間（農曆初一朔）且三者共線，月球影子投射於地表；分日全食、日環食、日偏食」，再核對「月球繞地軌道呈橢圓：近地點視直徑較大易發生日全食，遠地點視直徑較小則形成日環食」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "月球位於日地之間（農曆初一朔）且三者共線，月球影子投射於地表；分日全食、日環食、日偏食｜實例與界線：月球繞地軌道呈橢圓：近地點視直徑較大易發生日全食，遠地點視直徑較小則形成日環食",
+      "examIntel": "自我檢核：遮住說明，試著解釋「月球繞地軌道呈橢圓：近地點視直徑較大易發生日全食，遠地點視直徑較小則形成日環食」與「月球位於日地之間（農曆初一朔）且三者共線，月球影子投射於地表；分日全食、日環食、日偏食」的關係。",
+      "practicalTip": "核對本點實例與界線：月球繞地軌道呈橢圓：近地點視直徑較大易發生日全食，遠地點視直徑較小則形成日環食",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -16523,9 +16523,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "引潮力物理成因｜規則與實例",
+        "title": "日食成因與三大類型｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"引潮力物理成因：概念、規則與實例\"><title>引潮力物理成因</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">引潮力物理成因</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">月球與太陽對地球不同部位引力大小不均勻，以及地球繞共同質心公轉慣</tspan><tspan x=\"38\" dy=\"24\">性離心力之合力</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">面向月球側引力最大隆起成滿潮；背向月球側慣性離心力相對占優亦隆起</tspan><tspan x=\"38\" dy=\"24\">成滿潮，地球兩側同時漲潮</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"日食成因與三大類型：概念、規則與實例\"><title>日食成因與三大類型</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">日食成因與三大類型</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">月球位於日地之間（農曆初一朔）且三者共線，月球影子投射於地表；分</tspan><tspan x=\"38\" dy=\"24\">日全食、日環食、日偏食</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">月球繞地軌道呈橢圓：近地點視直徑較大易發生日全食，遠地點視直徑較</tspan><tspan x=\"38\" dy=\"24\">小則形成日環食</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -16535,10 +16535,10 @@ export const explicitKnowledgePoints = {
           "desc": "日食與月食是光直線傳播造成的陰影遮蔽現象。日食發生在農曆初一（朔/新月），月球運行至太陽與地球之間，月球陰影落在地球上；月食發生在農曆十五（望/滿月），地球運行至太陽與月球之間，月球進入地球陰影中。因黃道面與白道面夾角約 5°，並非每月初一十五皆有日月食。太陽系八大行星分為類地行星（水金地火，岩石質、密度大）與類木行星（木土天海，氣體冰質、體積大）。"
         },
         "extension": {
-          "title": "半日潮週期規律",
+          "title": "月食成因與紅月亮現象",
           "unitId": "earth-12",
           "icon": "🚀",
-          "desc": "同課比較：地球自轉因月球繞地公轉同向延遲，同地點相鄰兩次滿潮間隔約為 12 小時 25 分鐘。請說明與「引潮力物理成因」的差別。"
+          "desc": "同課比較：地球位於日月之間（農曆十五望）且月球進入地球本影；全食時全球夜晚面皆可同時觀賞。請說明與「日食成因與三大類型」的差別。"
         },
         "crossDisciplinary": {
           "title": "相似形與比例推理",
@@ -16547,20 +16547,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「引潮力物理成因」的說明，先說出規則，再用「面向月球側引力最大隆起成滿潮；背向月球側慣性離心力相對占優亦隆起成滿潮，地球兩側同時漲潮」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「日食成因與三大類型」的說明，先說出規則，再用「月球繞地軌道呈橢圓：近地點視直徑較大易發生日全食，遠地點視直徑較小則形成日環食」核對自己的理解。"
       }
     },
     {
       "id": "earth-12-kp-2",
       "unitId": "earth-12",
       "order": 2,
-      "title": "【知識點 2】半日潮週期規律",
-      "core": "半日潮週期規律：地球自轉因月球繞地公轉同向延遲，同地點相鄰兩次滿潮間隔約為 12 小時 25 分鐘。",
-      "mechanism": "對照判準與實例：地球自轉因月球繞地公轉同向延遲，同地點相鄰兩次滿潮間隔約為 12 小時 25 分鐘。每天漲退潮時間約向後順延 50 分鐘；一天通常經歷兩次漲潮（滿潮）與兩次退潮（乾潮）。",
-      "explanation": "辨認「半日潮週期規律」時，先說出「地球自轉因月球繞地公轉同向延遲，同地點相鄰兩次滿潮間隔約為 12 小時 25 分鐘」，再核對「每天漲退潮時間約向後順延 50 分鐘；一天通常經歷兩次漲潮（滿潮）與兩次退潮（乾潮）」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "地球自轉因月球繞地公轉同向延遲，同地點相鄰兩次滿潮間隔約為 12 小時 25 分鐘｜實例與界線：每天漲退潮時間約向後順延 50 分鐘；一天通常經歷兩次漲潮（滿潮）與兩次退潮（乾潮）",
-      "examIntel": "自我檢核：遮住說明，試著解釋「每天漲退潮時間約向後順延 50 分鐘；一天通常經歷兩次漲潮（滿潮）與兩次退潮（乾潮）」與「地球自轉因月球繞地公轉同向延遲，同地點相鄰兩次滿潮間隔約為 12 小時 25 分鐘」的關係。",
-      "practicalTip": "核對本點實例與界線：每天漲退潮時間約向後順延 50 分鐘；一天通常經歷兩次漲潮（滿潮）與兩次退潮（乾潮）",
+      "title": "【知識點 2】月食成因與紅月亮現象",
+      "core": "月食成因與紅月亮現象：地球位於日月之間（農曆十五望）且月球進入地球本影；全食時全球夜晚面皆可同時觀賞。",
+      "mechanism": "對照判準與實例：地球位於日月之間（農曆十五望）且月球進入地球本影；全食時全球夜晚面皆可同時觀賞。月全食時陽光經地球大氣層散射短波藍光，僅剩長波紅光折射至月面而呈現暗紅色血月。",
+      "explanation": "辨認「月食成因與紅月亮現象」時，先說出「地球位於日月之間（農曆十五望）且月球進入地球本影；全食時全球夜晚面皆可同時觀賞」，再核對「月全食時陽光經地球大氣層散射短波藍光，僅剩長波紅光折射至月面而呈現暗紅色血月」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "地球位於日月之間（農曆十五望）且月球進入地球本影；全食時全球夜晚面皆可同時觀賞｜實例與界線：月全食時陽光經地球大氣層散射短波藍光，僅剩長波紅光折射至月面而呈現暗紅色血月",
+      "examIntel": "自我檢核：遮住說明，試著解釋「月全食時陽光經地球大氣層散射短波藍光，僅剩長波紅光折射至月面而呈現暗紅色血月」與「地球位於日月之間（農曆十五望）且月球進入地球本影；全食時全球夜晚面皆可同時觀賞」的關係。",
+      "practicalTip": "核對本點實例與界線：月全食時陽光經地球大氣層散射短波藍光，僅剩長波紅光折射至月面而呈現暗紅色血月",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -16571,9 +16571,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "半日潮週期規律｜規則與實例",
+        "title": "月食成因與紅月亮現象｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"半日潮週期規律：概念、規則與實例\"><title>半日潮週期規律</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">半日潮週期規律</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">地球自轉因月球繞地公轉同向延遲，同地點相鄰兩次滿潮間隔約為 12 小</tspan><tspan x=\"38\" dy=\"24\">時 25 分鐘</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">每天漲退潮時間約向後順延 50 分鐘；一天通常經歷兩次漲潮（滿潮）與</tspan><tspan x=\"38\" dy=\"24\">兩次退潮（乾潮）</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"月食成因與紅月亮現象：概念、規則與實例\"><title>月食成因與紅月亮現象</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">月食成因與紅月亮現象</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">地球位於日月之間（農曆十五望）且月球進入地球本影；全食時全球夜晚</tspan><tspan x=\"38\" dy=\"24\">面皆可同時觀賞</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">月全食時陽光經地球大氣層散射短波藍光，僅剩長波紅光折射至月面而呈</tspan><tspan x=\"38\" dy=\"24\">現暗紅色血月</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -16583,10 +16583,10 @@ export const explicitKnowledgePoints = {
           "desc": "日食與月食是光直線傳播造成的陰影遮蔽現象。日食發生在農曆初一（朔/新月），月球運行至太陽與地球之間，月球陰影落在地球上；月食發生在農曆十五（望/滿月），地球運行至太陽與月球之間，月球進入地球陰影中。因黃道面與白道面夾角約 5°，並非每月初一十五皆有日月食。太陽系八大行星分為類地行星（水金地火，岩石質、密度大）與類木行星（木土天海，氣體冰質、體積大）。"
         },
         "extension": {
-          "title": "大潮（朔望大潮）",
+          "title": "類地行星 vs 類木行星",
           "unitId": "earth-12",
           "icon": "🚀",
-          "desc": "同課比較：農曆初一（朔）與十五（望），日地月排成一直線，太陽引潮力與月球引潮力疊加同向最大。請說明與「半日潮週期規律」的差別。"
+          "desc": "同課比較：類地行星（水、金、地、火）：體積小、密度大、岩石金屬表面、衛星少無光環。請說明與「月食成因與紅月亮現象」的差別。"
         },
         "crossDisciplinary": {
           "title": "光的反射、折射與成像",
@@ -16595,20 +16595,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「半日潮週期規律」的說明，先說出規則，再用「每天漲退潮時間約向後順延 50 分鐘；一天通常經歷兩次漲潮（滿潮）與兩次退潮（乾潮）」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「月食成因與紅月亮現象」的說明，先說出規則，再用「月全食時陽光經地球大氣層散射短波藍光，僅剩長波紅光折射至月面而呈現暗紅色血月」核對自己的理解。"
       }
     },
     {
       "id": "earth-12-kp-3",
       "unitId": "earth-12",
       "order": 3,
-      "title": "【知識點 3】大潮（朔望大潮）",
-      "core": "大潮（朔望大潮）：農曆初一（朔）與十五（望），日地月排成一直線，太陽引潮力與月球引潮力疊加同向最大。",
-      "mechanism": "對照判準與實例：農曆初一（朔）與十五（望），日地月排成一直線，太陽引潮力與月球引潮力疊加同向最大。潮差（滿潮與乾潮水位差）達到最大；此時滿潮水位特別高，沿海低窪地區需慎防海水倒灌。",
-      "explanation": "辨認「大潮（朔望大潮）」時，先說出「農曆初一（朔）與十五（望），日地月排成一直線，太陽引潮力與月球引潮力疊加同向最大」，再核對「潮差（滿潮與乾潮水位差）達到最大；此時滿潮水位特別高，沿海低窪地區需慎防海水倒灌」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "農曆初一（朔）與十五（望），日地月排成一直線，太陽引潮力與月球引潮力疊加同向最大｜實例與界線：潮差（滿潮與乾潮水位差）達到最大；此時滿潮水位特別高，沿海低窪地區需慎防海水倒灌",
-      "examIntel": "自我檢核：遮住說明，試著解釋「潮差（滿潮與乾潮水位差）達到最大；此時滿潮水位特別高，沿海低窪地區需慎防海水倒灌」與「農曆初一（朔）與十五（望），日地月排成一直線，太陽引潮力與月球引潮力疊加同向最大」的關係。",
-      "practicalTip": "核對本點實例與界線：潮差（滿潮與乾潮水位差）達到最大；此時滿潮水位特別高，沿海低窪地區需慎防海水倒灌",
+      "title": "【知識點 3】類地行星 vs 類木行星",
+      "core": "類地行星 vs 類木行星：類地行星（水、金、地、火）：體積小、密度大、岩石金屬表面、衛星少無光環。",
+      "mechanism": "對照判準與實例：類地行星（水、金、地、火）：體積小、密度大、岩石金屬表面、衛星少無光環。類木行星（木、土、天、海）：體積龐大、密度小、氣體與冰為主、衛星多且皆具行星環。",
+      "explanation": "辨認「類地行星 vs 類木行星」時，先說出「類地行星（水、金、地、火）：體積小、密度大、岩石金屬表面、衛星少無光環」，再核對「類木行星（木、土、天、海）：體積龐大、密度小、氣體與冰為主、衛星多且皆具行星環」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "類地行星（水、金、地、火）：體積小、密度大、岩石金屬表面、衛星少無光環｜實例與界線：類木行星（木、土、天、海）：體積龐大、密度小、氣體與冰為主、衛星多且皆具行星環",
+      "examIntel": "自我檢核：遮住說明，試著解釋「類木行星（木、土、天、海）：體積龐大、密度小、氣體與冰為主、衛星多且皆具行星環」與「類地行星（水、金、地、火）：體積小、密度大、岩石金屬表面、衛星少無光環」的關係。",
+      "practicalTip": "核對本點實例與界線：類木行星（木、土、天、海）：體積龐大、密度小、氣體與冰為主、衛星多且皆具行星環",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -16619,9 +16619,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "大潮（朔望大潮）｜規則與實例",
+        "title": "類地行星 vs 類木行星｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"大潮（朔望大潮）：概念、規則與實例\"><title>大潮（朔望大潮）</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">大潮（朔望大潮）</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">農曆初一（朔）與十五（望），日地月排成一直線，太陽引潮力與月球引</tspan><tspan x=\"38\" dy=\"24\">潮力疊加同向最大</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">潮差（滿潮與乾潮水位差）達到最大；此時滿潮水位特別高，沿海低窪地</tspan><tspan x=\"38\" dy=\"24\">區需慎防海水倒灌</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"類地行星 vs 類木行星：概念、規則與實例\"><title>類地行星 vs 類木行星</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f4fa\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#374b72\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">類地行星 vs 類木行星</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">類地行星（水、金、地、火）：體積小、密度大、岩石金屬表面、衛星少</tspan><tspan x=\"38\" dy=\"24\">無光環</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#546e9f\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#374b72\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1e2b44\"><tspan x=\"38\" dy=\"0\">類木行星（木、土、天、海）：體積龐大、密度小、氣體與冰為主、衛星</tspan><tspan x=\"38\" dy=\"24\">多且皆具行星環</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1e2b44\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -16631,10 +16631,10 @@ export const explicitKnowledgePoints = {
           "desc": "日食與月食是光直線傳播造成的陰影遮蔽現象。日食發生在農曆初一（朔/新月），月球運行至太陽與地球之間，月球陰影落在地球上；月食發生在農曆十五（望/滿月），地球運行至太陽與月球之間，月球進入地球陰影中。因黃道面與白道面夾角約 5°，並非每月初一十五皆有日月食。太陽系八大行星分為類地行星（水金地火，岩石質、密度大）與類木行星（木土天海，氣體冰質、體積大）。"
         },
         "extension": {
-          "title": "引潮力物理成因",
+          "title": "日食成因與三大類型",
           "unitId": "earth-12",
           "icon": "🚀",
-          "desc": "同課比較：月球與太陽對地球不同部位引力大小不均勻，以及地球繞共同質心公轉慣性離心力之合力。請說明與「大潮（朔望大潮）」的差別。"
+          "desc": "同課比較：月球位於日地之間（農曆初一朔）且三者共線，月球影子投射於地表；分日全食、日環食、日偏食。請說明與「類地行星 vs 類木行星」的差別。"
         },
         "crossDisciplinary": {
           "title": "古代文明到近代歐洲",
@@ -16643,7 +16643,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「大潮（朔望大潮）」的說明，先說出規則，再用「潮差（滿潮與乾潮水位差）達到最大；此時滿潮水位特別高，沿海低窪地區需慎防海水倒灌」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「類地行星 vs 類木行星」的說明，先說出規則，再用「類木行星（木、土、天、海）：體積龐大、密度小、氣體與冰為主、衛星多且皆具行星環」核對自己的理解。"
       }
     }
   ],
@@ -18112,13 +18112,13 @@ export const explicitKnowledgePoints = {
       "id": "geography-3-kp-1",
       "unitId": "geography-3",
       "order": 1,
-      "title": "【知識點 1】北回歸線劃分熱帶與副熱帶",
-      "core": "北回歸線劃分熱帶與副熱帶：北回歸線 (23.5°N) 橫貫嘉義花蓮，以南屬熱帶季風氣候，以北屬副熱帶季風氣候。",
-      "mechanism": "對照判準與實例：北回歸線 (23.5°N) 橫貫嘉義花蓮，以南屬熱帶季風氣候，以北屬副熱帶季風氣候。平地常年溫暖，年均溫在 20°C 以上；冬季受東北季風影響，北部多雨濕冷，中南部晴朗乾旱。",
-      "explanation": "辨認「北回歸線劃分熱帶與副熱帶」時，先說出「北回歸線 (23.5°N) 橫貫嘉義花蓮，以南屬熱帶季風氣候，以北屬副熱帶季風氣候」，再核對「平地常年溫暖，年均溫在 20°C 以上；冬季受東北季風影響，北部多雨濕冷，中南部晴朗乾旱」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "北回歸線 (23.5°N) 橫貫嘉義花蓮，以南屬熱帶季風氣候，以北屬副熱帶季風氣候｜實例與界線：平地常年溫暖，年均溫在 20°C 以上；冬季受東北季風影響，北部多雨濕冷，中南部晴朗乾旱",
-      "examIntel": "自我檢核：遮住說明，試著解釋「平地常年溫暖，年均溫在 20°C 以上；冬季受東北季風影響，北部多雨濕冷，中南部晴朗乾旱」與「北回歸線 (23.5°N) 橫貫嘉義花蓮，以南屬熱帶季風氣候，以北屬副熱帶季風氣候」的關係。",
-      "practicalTip": "核對本點實例與界線：平地常年溫暖，年均溫在 20°C 以上；冬季受東北季風影響，北部多雨濕冷，中南部晴朗乾旱",
+      "title": "【知識點 1】人口分布與空間集中",
+      "core": "人口分布與空間集中：受地形與交通影響，臺灣人口高度集中於西部平原與北部都會區，東部與山區人口密度顯著偏低。",
+      "mechanism": "對照判準與實例：受地形與交通影響，臺灣人口高度集中於西部平原與北部都會區，東部與山區人口密度顯著偏低。判讀人口密度需同時看總人口與面積，不能只以單一縣市人口數推斷空間擁擠程度。",
+      "explanation": "辨認「人口分布與空間集中」時，先說出「受地形與交通影響，臺灣人口高度集中於西部平原與北部都會區，東部與山區人口密度顯著偏低」，再核對「判讀人口密度需同時看總人口與面積，不能只以單一縣市人口數推斷空間擁擠程度」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "受地形與交通影響，臺灣人口高度集中於西部平原與北部都會區，東部與山區人口密度顯著偏低｜實例與界線：判讀人口密度需同時看總人口與面積，不能只以單一縣市人口數推斷空間擁擠程度",
+      "examIntel": "自我檢核：遮住說明，試著解釋「判讀人口密度需同時看總人口與面積，不能只以單一縣市人口數推斷空間擁擠程度」與「受地形與交通影響，臺灣人口高度集中於西部平原與北部都會區，東部與山區人口密度顯著偏低」的關係。",
+      "practicalTip": "核對本點實例與界線：判讀人口密度需同時看總人口與面積，不能只以單一縣市人口數推斷空間擁擠程度",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -18129,9 +18129,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "北回歸線劃分熱帶與副熱帶｜規則與實例",
+        "title": "人口分布與空間集中｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"北回歸線劃分熱帶與副熱帶：概念、規則與實例\"><title>北回歸線劃分熱帶與副熱帶</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">北回歸線劃分熱帶與副熱帶</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">北回歸線 (23.5°N) 橫貫嘉義花蓮，以南屬熱帶季風氣候，以北屬副熱</tspan><tspan x=\"38\" dy=\"24\">帶季風氣候</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">平地常年溫暖，年均溫在 20°C 以上；冬季受東北季風影響，北部多雨濕</tspan><tspan x=\"38\" dy=\"24\">冷，中南部晴朗乾旱</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"人口分布與空間集中：概念、規則與實例\"><title>人口分布與空間集中</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">人口分布與空間集中</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">受地形與交通影響，臺灣人口高度集中於西部平原與北部都會區，東部與</tspan><tspan x=\"38\" dy=\"24\">山區人口密度顯著偏低</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">判讀人口密度需同時看總人口與面積，不能只以單一縣市人口數推斷空間</tspan><tspan x=\"38\" dy=\"24\">擁擠程度</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -18141,10 +18141,10 @@ export const explicitKnowledgePoints = {
           "desc": "人口變化受出生、死亡與遷移影響。產業分工與交通、技術、資本和市場相關；都市化改變生活機會與空間使用。"
         },
         "extension": {
-          "title": "冬夏季風交替機制",
+          "title": "人口結構轉型與金字塔",
           "unitId": "geography-3",
           "icon": "🚀",
-          "desc": "同課比較：冬季東北季風（發源蒙古大陸冷高壓，吹經東海吸收水氣，北部東北部迎風面多雨）。請說明與「北回歸線劃分熱帶與副熱帶」的差別。"
+          "desc": "同課比較：由高出生高死亡進入低出生低死亡，人口金字塔由金字塔型轉為縮減彈頭型，面臨少子化與超高齡化。請說明與「人口分布與空間集中」的差別。"
         },
         "crossDisciplinary": {
           "title": "史料判讀與早期臺灣",
@@ -18153,20 +18153,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「北回歸線劃分熱帶與副熱帶」的說明，先說出規則，再用「平地常年溫暖，年均溫在 20°C 以上；冬季受東北季風影響，北部多雨濕冷，中南部晴朗乾旱」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「人口分布與空間集中」的說明，先說出規則，再用「判讀人口密度需同時看總人口與面積，不能只以單一縣市人口數推斷空間擁擠程度」核對自己的理解。"
       }
     },
     {
       "id": "geography-3-kp-2",
       "unitId": "geography-3",
       "order": 2,
-      "title": "【知識點 2】冬夏季風交替機制",
-      "core": "冬夏季風交替機制：冬季東北季風（發源蒙古大陸冷高壓，吹經東海吸收水氣，北部東北部迎風面多雨）。",
-      "mechanism": "對照判準與實例：冬季東北季風（發源蒙古大陸冷高壓，吹經東海吸收水氣，北部東北部迎風面多雨）。夏季西南季風（發源印度洋與南海，溫暖潮濕，全島高溫多對流午後雷陣雨，山區降水豐沛）。",
-      "explanation": "辨認「冬夏季風交替機制」時，先說出「冬季東北季風（發源蒙古大陸冷高壓，吹經東海吸收水氣，北部東北部迎風面多雨）」，再核對「夏季西南季風（發源印度洋與南海，溫暖潮濕，全島高溫多對流午後雷陣雨，山區降水豐沛）」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "冬季東北季風（發源蒙古大陸冷高壓，吹經東海吸收水氣，北部東北部迎風面多雨）｜實例與界線：夏季西南季風（發源印度洋與南海，溫暖潮濕，全島高溫多對流午後雷陣雨，山區降水豐沛）",
-      "examIntel": "自我檢核：遮住說明，試著解釋「夏季西南季風（發源印度洋與南海，溫暖潮濕，全島高溫多對流午後雷陣雨，山區降水豐沛）」與「冬季東北季風（發源蒙古大陸冷高壓，吹經東海吸收水氣，北部東北部迎風面多雨）」的關係。",
-      "practicalTip": "核對本點實例與界線：夏季西南季風（發源印度洋與南海，溫暖潮濕，全島高溫多對流午後雷陣雨，山區降水豐沛）",
+      "title": "【知識點 2】人口結構轉型與金字塔",
+      "core": "人口結構轉型與金字塔：由高出生高死亡進入低出生低死亡，人口金字塔由金字塔型轉為縮減彈頭型，面臨少子化與超高齡化。",
+      "mechanism": "對照判準與實例：由高出生高死亡進入低出生低死亡，人口金字塔由金字塔型轉為縮減彈頭型，面臨少子化與超高齡化。扶養比＝(幼年＋老年人口)÷青壯年人口×100%；青壯年勞動負擔隨高齡化持續上升。",
+      "explanation": "辨認「人口結構轉型與金字塔」時，先說出「由高出生高死亡進入低出生低死亡，人口金字塔由金字塔型轉為縮減彈頭型，面臨少子化與超高齡化」，再核對「扶養比＝(幼年＋老年人口)÷青壯年人口×100%；青壯年勞動負擔隨高齡化持續上升」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "由高出生高死亡進入低出生低死亡，人口金字塔由金字塔型轉為縮減彈頭型，面臨少子化與超高齡化｜實例與界線：扶養比＝(幼年＋老年人口)÷青壯年人口×100%；青壯年勞動負擔隨高齡化持續上升",
+      "examIntel": "自我檢核：遮住說明，試著解釋「扶養比＝(幼年＋老年人口)÷青壯年人口×100%；青壯年勞動負擔隨高齡化持續上升」與「由高出生高死亡進入低出生低死亡，人口金字塔由金字塔型轉為縮減彈頭型，面臨少子化與超高齡化」的關係。",
+      "practicalTip": "核對本點實例與界線：扶養比＝(幼年＋老年人口)÷青壯年人口×100%；青壯年勞動負擔隨高齡化持續上升",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -18177,9 +18177,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "冬夏季風交替機制｜規則與實例",
+        "title": "人口結構轉型與金字塔｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"冬夏季風交替機制：概念、規則與實例\"><title>冬夏季風交替機制</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">冬夏季風交替機制</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">冬季東北季風（發源蒙古大陸冷高壓，吹經東海吸收水氣，北部東北部迎</tspan><tspan x=\"38\" dy=\"24\">風面多雨）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">夏季西南季風（發源印度洋與南海，溫暖潮濕，全島高溫多對流午後雷陣</tspan><tspan x=\"38\" dy=\"24\">雨，山區降水豐沛）</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"人口結構轉型與金字塔：概念、規則與實例\"><title>人口結構轉型與金字塔</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">人口結構轉型與金字塔</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">由高出生高死亡進入低出生低死亡，人口金字塔由金字塔型轉為縮減彈頭</tspan><tspan x=\"38\" dy=\"24\">型，面臨少子化與超高齡化</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">扶養比＝(幼年＋老年人口)÷青壯年人口×100%；青壯年勞動負擔隨高齡</tspan><tspan x=\"38\" dy=\"24\">化持續上升</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -18189,10 +18189,10 @@ export const explicitKnowledgePoints = {
           "desc": "人口變化受出生、死亡與遷移影響。產業分工與交通、技術、資本和市場相關；都市化改變生活機會與空間使用。"
         },
         "extension": {
-          "title": "降雨時空極端不均",
+          "title": "三級產業結構升級",
           "unitId": "geography-3",
           "icon": "🚀",
-          "desc": "同課比較：年降雨量高達 2,500 mm 為世界平均 3 倍，但空間分布山地多平原少、迎風坡多背風坡少。請說明與「冬夏季風交替機制」的差別。"
+          "desc": "同課比較：第一級農林漁牧轉向精緻與休閒農業；第二級工業升級為半導體與精密製造；第三級服務業占就業大宗。請說明與「人口結構轉型與金字塔」的差別。"
         },
         "crossDisciplinary": {
           "title": "天氣、鋒面與臺灣季風",
@@ -18201,20 +18201,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「冬夏季風交替機制」的說明，先說出規則，再用「夏季西南季風（發源印度洋與南海，溫暖潮濕，全島高溫多對流午後雷陣雨，山區降水豐沛）」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「人口結構轉型與金字塔」的說明，先說出規則，再用「扶養比＝(幼年＋老年人口)÷青壯年人口×100%；青壯年勞動負擔隨高齡化持續上升」核對自己的理解。"
       }
     },
     {
       "id": "geography-3-kp-3",
       "unitId": "geography-3",
       "order": 3,
-      "title": "【知識點 3】降雨時空極端不均",
-      "core": "降雨時空極端不均：年降雨量高達 2,500 mm 為世界平均 3 倍，但空間分布山地多平原少、迎風坡多背風坡少。",
-      "mechanism": "對照判準與實例：年降雨量高達 2,500 mm 為世界平均 3 倍，但空間分布山地多平原少、迎風坡多背風坡少。南部地區乾濕季分明（雨季 5-10 月占全年 80% 以上，冬春乾旱嚴重，降雨時間高度集中）。",
-      "explanation": "辨認「降雨時空極端不均」時，先說出「年降雨量高達 2,500 mm 為世界平均 3 倍，但空間分布山地多平原少、迎風坡多背風坡少」，再核對「南部地區乾濕季分明（雨季 5-10 月占全年 80% 以上，冬春乾旱嚴重，降雨時間高度集中）」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "年降雨量高達 2,500 mm 為世界平均 3 倍，但空間分布山地多平原少、迎風坡多背風坡少｜實例與界線：南部地區乾濕季分明（雨季 5-10 月占全年 80% 以上，冬春乾旱嚴重，降雨時間高度集中）",
-      "examIntel": "自我檢核：遮住說明，試著解釋「南部地區乾濕季分明（雨季 5-10 月占全年 80% 以上，冬春乾旱嚴重，降雨時間高度集中）」與「年降雨量高達 2,500 mm 為世界平均 3 倍，但空間分布山地多平原少、迎風坡多背風坡少」的關係。",
-      "practicalTip": "核對本點實例與界線：南部地區乾濕季分明（雨季 5-10 月占全年 80% 以上，冬春乾旱嚴重，降雨時間高度集中）",
+      "title": "【知識點 3】三級產業結構升級",
+      "core": "三級產業結構升級：第一級農林漁牧轉向精緻與休閒農業；第二級工業升級為半導體與精密製造；第三級服務業占就業大宗。",
+      "mechanism": "對照判準與實例：第一級農林漁牧轉向精緻與休閒農業；第二級工業升級為半導體與精密製造；第三級服務業占就業大宗。新竹、中部、南部科學園區串聯臺灣高科技產業走廊，帶動就業與高鐵一日生活圈。",
+      "explanation": "辨認「三級產業結構升級」時，先說出「第一級農林漁牧轉向精緻與休閒農業；第二級工業升級為半導體與精密製造；第三級服務業占就業大宗」，再核對「新竹、中部、南部科學園區串聯臺灣高科技產業走廊，帶動就業與高鐵一日生活圈」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "第一級農林漁牧轉向精緻與休閒農業；第二級工業升級為半導體與精密製造；第三級服務業占就業大宗｜實例與界線：新竹、中部、南部科學園區串聯臺灣高科技產業走廊，帶動就業與高鐵一日生活圈",
+      "examIntel": "自我檢核：遮住說明，試著解釋「新竹、中部、南部科學園區串聯臺灣高科技產業走廊，帶動就業與高鐵一日生活圈」與「第一級農林漁牧轉向精緻與休閒農業；第二級工業升級為半導體與精密製造；第三級服務業占就業大宗」的關係。",
+      "practicalTip": "核對本點實例與界線：新竹、中部、南部科學園區串聯臺灣高科技產業走廊，帶動就業與高鐵一日生活圈",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -18225,9 +18225,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "降雨時空極端不均｜規則與實例",
+        "title": "三級產業結構升級｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"降雨時空極端不均：概念、規則與實例\"><title>降雨時空極端不均</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">降雨時空極端不均</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">年降雨量高達 2,500 mm 為世界平均 3 倍，但空間分布山地多平原少</tspan><tspan x=\"38\" dy=\"24\">、迎風坡多背風坡少</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">南部地區乾濕季分明（雨季 5-10 月占全年 80% 以上，冬春乾旱嚴重，</tspan><tspan x=\"38\" dy=\"24\">降雨時間高度集中）</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"三級產業結構升級：概念、規則與實例\"><title>三級產業結構升級</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">三級產業結構升級</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">第一級農林漁牧轉向精緻與休閒農業；第二級工業升級為半導體與精密製</tspan><tspan x=\"38\" dy=\"24\">造；第三級服務業占就業大宗</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">新竹、中部、南部科學園區串聯臺灣高科技產業走廊，帶動就業與高鐵一</tspan><tspan x=\"38\" dy=\"24\">日生活圈</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -18237,10 +18237,10 @@ export const explicitKnowledgePoints = {
           "desc": "人口變化受出生、死亡與遷移影響。產業分工與交通、技術、資本和市場相關；都市化改變生活機會與空間使用。"
         },
         "extension": {
-          "title": "北回歸線劃分熱帶與副熱帶",
+          "title": "人口分布與空間集中",
           "unitId": "geography-3",
           "icon": "🚀",
-          "desc": "同課比較：北回歸線 (23.5°N) 橫貫嘉義花蓮，以南屬熱帶季風氣候，以北屬副熱帶季風氣候。請說明與「降雨時空極端不均」的差別。"
+          "desc": "同課比較：受地形與交通影響，臺灣人口高度集中於西部平原與北部都會區，東部與山區人口密度顯著偏低。請說明與「三級產業結構升級」的差別。"
         },
         "crossDisciplinary": {
           "title": "史料判讀與早期臺灣",
@@ -18249,7 +18249,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「降雨時空極端不均」的說明，先說出規則，再用「南部地區乾濕季分明（雨季 5-10 月占全年 80% 以上，冬春乾旱嚴重，降雨時間高度集中）」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「三級產業結構升級」的說明，先說出規則，再用「新竹、中部、南部科學園區串聯臺灣高科技產業走廊，帶動就業與高鐵一日生活圈」核對自己的理解。"
       }
     }
   ],
@@ -20448,13 +20448,13 @@ export const explicitKnowledgePoints = {
       "id": "geography-9-kp-1",
       "unitId": "geography-9",
       "order": 1,
-      "title": "【知識點 1】氣候自然帶對稱分布",
-      "core": "氣候自然帶對稱分布：赤道為熱帶雨林，向南北兩側依序對稱過渡為熱帶莽原、熱帶沙漠與地中海氣候。",
-      "mechanism": "對照判準與實例：赤道為熱帶雨林，向南北兩側依序對稱過渡為熱帶莽原、熱帶沙漠與地中海氣候。地形以古老結晶岩高原為主，海岸線平直少天然良港，河川多急湍瀑布不利內河航運。",
-      "explanation": "辨認「氣候自然帶對稱分布」時，先說出「赤道為熱帶雨林，向南北兩側依序對稱過渡為熱帶莽原、熱帶沙漠與地中海氣候」，再核對「地形以古老結晶岩高原為主，海岸線平直少天然良港，河川多急湍瀑布不利內河航運」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "赤道為熱帶雨林，向南北兩側依序對稱過渡為熱帶莽原、熱帶沙漠與地中海氣候｜實例與界線：地形以古老結晶岩高原為主，海岸線平直少天然良港，河川多急湍瀑布不利內河航運",
-      "examIntel": "自我檢核：遮住說明，試著解釋「地形以古老結晶岩高原為主，海岸線平直少天然良港，河川多急湍瀑布不利內河航運」與「赤道為熱帶雨林，向南北兩側依序對稱過渡為熱帶莽原、熱帶沙漠與地中海氣候」的關係。",
-      "practicalTip": "核對本點實例與界線：地形以古老結晶岩高原為主，海岸線平直少天然良港，河川多急湍瀑布不利內河航運",
+      "title": "【知識點 1】冬夏季風交替機制",
+      "core": "冬夏季風交替機制：海陸比熱差異造成季節性風向反轉：夏吹海洋暖濕季風多雨，冬吹大陸乾冷季風少雨。",
+      "mechanism": "對照判準與實例：海陸比熱差異造成季節性風向反轉：夏吹海洋暖濕季風多雨，冬吹大陸乾冷季風少雨。東亞與南亞雨熱同期利於農作；若季風遲到或過強則易引發嚴重旱災與水患。",
+      "explanation": "辨認「冬夏季風交替機制」時，先說出「海陸比熱差異造成季節性風向反轉：夏吹海洋暖濕季風多雨，冬吹大陸乾冷季風少雨」，再核對「東亞與南亞雨熱同期利於農作；若季風遲到或過強則易引發嚴重旱災與水患」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "海陸比熱差異造成季節性風向反轉：夏吹海洋暖濕季風多雨，冬吹大陸乾冷季風少雨｜實例與界線：東亞與南亞雨熱同期利於農作；若季風遲到或過強則易引發嚴重旱災與水患",
+      "examIntel": "自我檢核：遮住說明，試著解釋「東亞與南亞雨熱同期利於農作；若季風遲到或過強則易引發嚴重旱災與水患」與「海陸比熱差異造成季節性風向反轉：夏吹海洋暖濕季風多雨，冬吹大陸乾冷季風少雨」的關係。",
+      "practicalTip": "核對本點實例與界線：東亞與南亞雨熱同期利於農作；若季風遲到或過強則易引發嚴重旱災與水患",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -20465,9 +20465,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "氣候自然帶對稱分布｜規則與實例",
+        "title": "冬夏季風交替機制｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"氣候自然帶對稱分布：概念、規則與實例\"><title>氣候自然帶對稱分布</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">氣候自然帶對稱分布</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">赤道為熱帶雨林，向南北兩側依序對稱過渡為熱帶莽原、熱帶沙漠與地中</tspan><tspan x=\"38\" dy=\"24\">海氣候</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">地形以古老結晶岩高原為主，海岸線平直少天然良港，河川多急湍瀑布不</tspan><tspan x=\"38\" dy=\"24\">利內河航運</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"冬夏季風交替機制：概念、規則與實例\"><title>冬夏季風交替機制</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">冬夏季風交替機制</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">海陸比熱差異造成季節性風向反轉：夏吹海洋暖濕季風多雨，冬吹大陸乾</tspan><tspan x=\"38\" dy=\"24\">冷季風少雨</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">東亞與南亞雨熱同期利於農作；若季風遲到或過強則易引發嚴重旱災與水</tspan><tspan x=\"38\" dy=\"24\">患</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -20477,10 +20477,10 @@ export const explicitKnowledgePoints = {
           "desc": "東亞、南亞與東南亞受海陸比熱差異影響形成顯著的季風氣候（夏季吹向大陸帶來豐沛暖濕水氣，冬季吹向海洋寒冷乾燥）。季風亞洲雨熱同期的氣候特點極度有利於水稻種植，造就精耕細作的集約農業與世界最高人口密度聚居區。印度河、恆河、黃河與長江流域孕育了深厚悠久的人類古典文明。"
         },
         "extension": {
-          "title": "熱帶莽原乾濕分明",
+          "title": "水稻農業與高人口密度",
           "unitId": "geography-9",
           "icon": "🚀",
-          "desc": "同課比較：夏受赤道低壓壟罩為雨季，草木繁茂；冬受副熱帶高壓控制為乾季，草木枯黃。請說明與「氣候自然帶對稱分布」的差別。"
+          "desc": "同課比較：夏季高溫多雨配合沖積平原肥沃土壤，適合精耕細作的水稻栽培並支撐龐大人口。請說明與「冬夏季風交替機制」的差別。"
         },
         "crossDisciplinary": {
           "title": "史料判讀與早期臺灣",
@@ -20489,20 +20489,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「氣候自然帶對稱分布」的說明，先說出規則，再用「地形以古老結晶岩高原為主，海岸線平直少天然良港，河川多急湍瀑布不利內河航運」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「冬夏季風交替機制」的說明，先說出規則，再用「東亞與南亞雨熱同期利於農作；若季風遲到或過強則易引發嚴重旱災與水患」核對自己的理解。"
       }
     },
     {
       "id": "geography-9-kp-2",
       "unitId": "geography-9",
       "order": 2,
-      "title": "【知識點 2】熱帶莽原乾濕分明",
-      "core": "熱帶莽原乾濕分明：夏受赤道低壓壟罩為雨季，草木繁茂；冬受副熱帶高壓控制為乾季，草木枯黃。",
-      "mechanism": "對照判準與實例：夏受赤道低壓壟罩為雨季，草木繁茂；冬受副熱帶高壓控制為乾季，草木枯黃。野生動物隨雨帶季節性長途遷徙；游牧與傳統農業依乾濕季輪替。",
-      "explanation": "辨認「熱帶莽原乾濕分明」時，先說出「夏受赤道低壓壟罩為雨季，草木繁茂；冬受副熱帶高壓控制為乾季，草木枯黃」，再核對「野生動物隨雨帶季節性長途遷徙；游牧與傳統農業依乾濕季輪替」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "夏受赤道低壓壟罩為雨季，草木繁茂；冬受副熱帶高壓控制為乾季，草木枯黃｜實例與界線：野生動物隨雨帶季節性長途遷徙；游牧與傳統農業依乾濕季輪替",
-      "examIntel": "自我檢核：遮住說明，試著解釋「野生動物隨雨帶季節性長途遷徙；游牧與傳統農業依乾濕季輪替」與「夏受赤道低壓壟罩為雨季，草木繁茂；冬受副熱帶高壓控制為乾季，草木枯黃」的關係。",
-      "practicalTip": "核對本點實例與界線：野生動物隨雨帶季節性長途遷徙；游牧與傳統農業依乾濕季輪替",
+      "title": "【知識點 2】水稻農業與高人口密度",
+      "core": "水稻農業與高人口密度：夏季高溫多雨配合沖積平原肥沃土壤，適合精耕細作的水稻栽培並支撐龐大人口。",
+      "mechanism": "對照判準與實例：夏季高溫多雨配合沖積平原肥沃土壤，適合精耕細作的水稻栽培並支撐龐大人口。長江中下游平原、印度恆河平原與湄公河三角洲皆為世界高密度人口聚落。",
+      "explanation": "辨認「水稻農業與高人口密度」時，先說出「夏季高溫多雨配合沖積平原肥沃土壤，適合精耕細作的水稻栽培並支撐龐大人口」，再核對「長江中下游平原、印度恆河平原與湄公河三角洲皆為世界高密度人口聚落」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "夏季高溫多雨配合沖積平原肥沃土壤，適合精耕細作的水稻栽培並支撐龐大人口｜實例與界線：長江中下游平原、印度恆河平原與湄公河三角洲皆為世界高密度人口聚落",
+      "examIntel": "自我檢核：遮住說明，試著解釋「長江中下游平原、印度恆河平原與湄公河三角洲皆為世界高密度人口聚落」與「夏季高溫多雨配合沖積平原肥沃土壤，適合精耕細作的水稻栽培並支撐龐大人口」的關係。",
+      "practicalTip": "核對本點實例與界線：長江中下游平原、印度恆河平原與湄公河三角洲皆為世界高密度人口聚落",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -20513,9 +20513,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "熱帶莽原乾濕分明｜規則與實例",
+        "title": "水稻農業與高人口密度｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"熱帶莽原乾濕分明：概念、規則與實例\"><title>熱帶莽原乾濕分明</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">熱帶莽原乾濕分明</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">夏受赤道低壓壟罩為雨季，草木繁茂；冬受副熱帶高壓控制為乾季，草木</tspan><tspan x=\"38\" dy=\"24\">枯黃</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">野生動物隨雨帶季節性長途遷徙；游牧與傳統農業依乾濕季輪替</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"水稻農業與高人口密度：概念、規則與實例\"><title>水稻農業與高人口密度</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">水稻農業與高人口密度</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">夏季高溫多雨配合沖積平原肥沃土壤，適合精耕細作的水稻栽培並支撐龐</tspan><tspan x=\"38\" dy=\"24\">大人口</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">長江中下游平原、印度恆河平原與湄公河三角洲皆為世界高密度人口聚落</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -20525,10 +20525,10 @@ export const explicitKnowledgePoints = {
           "desc": "東亞、南亞與東南亞受海陸比熱差異影響形成顯著的季風氣候（夏季吹向大陸帶來豐沛暖濕水氣，冬季吹向海洋寒冷乾燥）。季風亞洲雨熱同期的氣候特點極度有利於水稻種植，造就精耕細作的集約農業與世界最高人口密度聚居區。印度河、恆河、黃河與長江流域孕育了深厚悠久的人類古典文明。"
         },
         "extension": {
-          "title": "殖民遺緒單一作物經濟",
+          "title": "古文明搖籃發源條件",
           "unitId": "geography-9",
           "icon": "🚀",
-          "desc": "同課比較：歷史殖民時期開闢可可、咖啡、油棕或銅金鑽石礦產，出口初級原料。請說明與「熱帶莽原乾濕分明」的差別。"
+          "desc": "同課比較：大河定期氾濫帶來肥沃沖積土與灌溉水源，孕育黃河長江與印度河古文明。請說明與「水稻農業與高人口密度」的差別。"
         },
         "crossDisciplinary": {
           "title": "天氣、鋒面與臺灣季風",
@@ -20537,20 +20537,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「熱帶莽原乾濕分明」的說明，先說出規則，再用「野生動物隨雨帶季節性長途遷徙；游牧與傳統農業依乾濕季輪替」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「水稻農業與高人口密度」的說明，先說出規則，再用「長江中下游平原、印度恆河平原與湄公河三角洲皆為世界高密度人口聚落」核對自己的理解。"
       }
     },
     {
       "id": "geography-9-kp-3",
       "unitId": "geography-9",
       "order": 3,
-      "title": "【知識點 3】殖民遺緒單一作物經濟",
-      "core": "殖民遺緒單一作物經濟：歷史殖民時期開闢可可、咖啡、油棕或銅金鑽石礦產，出口初級原料。",
-      "mechanism": "對照判準與實例：歷史殖民時期開闢可可、咖啡、油棕或銅金鑽石礦產，出口初級原料。國際大宗物資價格波動嚴重影響國家外匯；國內糧食自給不足引發飢荒風險。",
-      "explanation": "辨認「殖民遺緒單一作物經濟」時，先說出「歷史殖民時期開闢可可、咖啡、油棕或銅金鑽石礦產，出口初級原料」，再核對「國際大宗物資價格波動嚴重影響國家外匯；國內糧食自給不足引發飢荒風險」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "歷史殖民時期開闢可可、咖啡、油棕或銅金鑽石礦產，出口初級原料｜實例與界線：國際大宗物資價格波動嚴重影響國家外匯；國內糧食自給不足引發飢荒風險",
-      "examIntel": "自我檢核：遮住說明，試著解釋「國際大宗物資價格波動嚴重影響國家外匯；國內糧食自給不足引發飢荒風險」與「歷史殖民時期開闢可可、咖啡、油棕或銅金鑽石礦產，出口初級原料」的關係。",
-      "practicalTip": "核對本點實例與界線：國際大宗物資價格波動嚴重影響國家外匯；國內糧食自給不足引發飢荒風險",
+      "title": "【知識點 3】古文明搖籃發源條件",
+      "core": "古文明搖籃發源條件：大河定期氾濫帶來肥沃沖積土與灌溉水源，孕育黃河長江與印度河古文明。",
+      "mechanism": "對照判準與實例：大河定期氾濫帶來肥沃沖積土與灌溉水源，孕育黃河長江與印度河古文明。文字、曆法、水利工程與早期城邦制度皆隨大河農業盈餘逐步發展成熟。",
+      "explanation": "辨認「古文明搖籃發源條件」時，先說出「大河定期氾濫帶來肥沃沖積土與灌溉水源，孕育黃河長江與印度河古文明」，再核對「文字、曆法、水利工程與早期城邦制度皆隨大河農業盈餘逐步發展成熟」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "大河定期氾濫帶來肥沃沖積土與灌溉水源，孕育黃河長江與印度河古文明｜實例與界線：文字、曆法、水利工程與早期城邦制度皆隨大河農業盈餘逐步發展成熟",
+      "examIntel": "自我檢核：遮住說明，試著解釋「文字、曆法、水利工程與早期城邦制度皆隨大河農業盈餘逐步發展成熟」與「大河定期氾濫帶來肥沃沖積土與灌溉水源，孕育黃河長江與印度河古文明」的關係。",
+      "practicalTip": "核對本點實例與界線：文字、曆法、水利工程與早期城邦制度皆隨大河農業盈餘逐步發展成熟",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -20561,9 +20561,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "殖民遺緒單一作物經濟｜規則與實例",
+        "title": "古文明搖籃發源條件｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"殖民遺緒單一作物經濟：概念、規則與實例\"><title>殖民遺緒單一作物經濟</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">殖民遺緒單一作物經濟</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">歷史殖民時期開闢可可、咖啡、油棕或銅金鑽石礦產，出口初級原料</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">國際大宗物資價格波動嚴重影響國家外匯；國內糧食自給不足引發飢荒風</tspan><tspan x=\"38\" dy=\"24\">險</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 338\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"古文明搖籃發源條件：概念、規則與實例\"><title>古文明搖籃發源條件</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"336\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">古文明搖籃發源條件</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">大河定期氾濫帶來肥沃沖積土與灌溉水源，孕育黃河長江與印度河古文明</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">文字、曆法、水利工程與早期城邦制度皆隨大河農業盈餘逐步發展成熟</tspan></text><text x=\"22\" y=\"324\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -20573,10 +20573,10 @@ export const explicitKnowledgePoints = {
           "desc": "東亞、南亞與東南亞受海陸比熱差異影響形成顯著的季風氣候（夏季吹向大陸帶來豐沛暖濕水氣，冬季吹向海洋寒冷乾燥）。季風亞洲雨熱同期的氣候特點極度有利於水稻種植，造就精耕細作的集約農業與世界最高人口密度聚居區。印度河、恆河、黃河與長江流域孕育了深厚悠久的人類古典文明。"
         },
         "extension": {
-          "title": "氣候自然帶對稱分布",
+          "title": "冬夏季風交替機制",
           "unitId": "geography-9",
           "icon": "🚀",
-          "desc": "同課比較：赤道為熱帶雨林，向南北兩側依序對稱過渡為熱帶莽原、熱帶沙漠與地中海氣候。請說明與「殖民遺緒單一作物經濟」的差別。"
+          "desc": "同課比較：海陸比熱差異造成季節性風向反轉：夏吹海洋暖濕季風多雨，冬吹大陸乾冷季風少雨。請說明與「古文明搖籃發源條件」的差別。"
         },
         "crossDisciplinary": {
           "title": "史料判讀與早期臺灣",
@@ -20585,7 +20585,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「殖民遺緒單一作物經濟」的說明，先說出規則，再用「國際大宗物資價格波動嚴重影響國家外匯；國內糧食自給不足引發飢荒風險」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「古文明搖籃發源條件」的說明，先說出規則，再用「文字、曆法、水利工程與早期城邦制度皆隨大河農業盈餘逐步發展成熟」核對自己的理解。"
       }
     }
   ],
@@ -21762,13 +21762,13 @@ export const explicitKnowledgePoints = {
       "id": "geography-12-kp-1",
       "unitId": "geography-12",
       "order": 1,
-      "title": "【知識點 1】溫帶海洋性氣候成因",
-      "core": "溫帶海洋性氣候成因：盛行西風吹拂加上北大西洋暖流增溫增濕，高緯度但終年溫和多雨。",
-      "mechanism": "對照判準與實例：盛行西風吹拂加上北大西洋暖流增溫增濕，高緯度但終年溫和多雨。年溫差小、無乾季，利於畜牧業與乳製品發展；向東深入內陸漸轉為溫帶大陸性氣候。",
-      "explanation": "辨認「溫帶海洋性氣候成因」時，先說出「盛行西風吹拂加上北大西洋暖流增溫增濕，高緯度但終年溫和多雨」，再核對「年溫差小、無乾季，利於畜牧業與乳製品發展；向東深入內陸漸轉為溫帶大陸性氣候」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "盛行西風吹拂加上北大西洋暖流增溫增濕，高緯度但終年溫和多雨｜實例與界線：年溫差小、無乾季，利於畜牧業與乳製品發展；向東深入內陸漸轉為溫帶大陸性氣候",
-      "examIntel": "自我檢核：遮住說明，試著解釋「年溫差小、無乾季，利於畜牧業與乳製品發展；向東深入內陸漸轉為溫帶大陸性氣候」與「盛行西風吹拂加上北大西洋暖流增溫增濕，高緯度但終年溫和多雨」的關係。",
-      "practicalTip": "核對本點實例與界線：年溫差小、無乾季，利於畜牧業與乳製品發展；向東深入內陸漸轉為溫帶大陸性氣候",
+      "title": "【知識點 1】乾燥氣候與水資源調適",
+      "core": "乾燥氣候與水資源調適：副熱帶高壓籠罩與深居內陸背風形成熱帶沙漠與溫帶乾燥氣候，蒸發量遠大於降水量。",
+      "mechanism": "對照判準與實例：副熱帶高壓籠罩與深居內陸背風形成熱帶沙漠與溫帶乾燥氣候，蒸發量遠大於降水量。傳統農業依賴綠洲與地下灌溉工程「坎兒井」減少蒸發；現代發展滴灌與海水淡化。",
+      "explanation": "辨認「乾燥氣候與水資源調適」時，先說出「副熱帶高壓籠罩與深居內陸背風形成熱帶沙漠與溫帶乾燥氣候，蒸發量遠大於降水量」，再核對「傳統農業依賴綠洲與地下灌溉工程「坎兒井」減少蒸發；現代發展滴灌與海水淡化」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "副熱帶高壓籠罩與深居內陸背風形成熱帶沙漠與溫帶乾燥氣候，蒸發量遠大於降水量｜實例與界線：傳統農業依賴綠洲與地下灌溉工程「坎兒井」減少蒸發；現代發展滴灌與海水淡化",
+      "examIntel": "自我檢核：遮住說明，試著解釋「傳統農業依賴綠洲與地下灌溉工程「坎兒井」減少蒸發；現代發展滴灌與海水淡化」與「副熱帶高壓籠罩與深居內陸背風形成熱帶沙漠與溫帶乾燥氣候，蒸發量遠大於降水量」的關係。",
+      "practicalTip": "核對本點實例與界線：傳統農業依賴綠洲與地下灌溉工程「坎兒井」減少蒸發；現代發展滴灌與海水淡化",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -21779,9 +21779,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "溫帶海洋性氣候成因｜規則與實例",
+        "title": "乾燥氣候與水資源調適｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"溫帶海洋性氣候成因：概念、規則與實例\"><title>溫帶海洋性氣候成因</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">溫帶海洋性氣候成因</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">盛行西風吹拂加上北大西洋暖流增溫增濕，高緯度但終年溫和多雨</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">年溫差小、無乾季，利於畜牧業與乳製品發展；向東深入內陸漸轉為溫帶</tspan><tspan x=\"38\" dy=\"24\">大陸性氣候</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"乾燥氣候與水資源調適：概念、規則與實例\"><title>乾燥氣候與水資源調適</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">乾燥氣候與水資源調適</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">副熱帶高壓籠罩與深居內陸背風形成熱帶沙漠與溫帶乾燥氣候，蒸發量遠</tspan><tspan x=\"38\" dy=\"24\">大於降水量</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">傳統農業依賴綠洲與地下灌溉工程「坎兒井」減少蒸發；現代發展滴灌與</tspan><tspan x=\"38\" dy=\"24\">海水淡化</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -21791,10 +21791,10 @@ export const explicitKnowledgePoints = {
           "desc": "西亞與中亞位居歐亞非三洲樞紐，受副熱帶高壓籠罩與深居內陸影響，以熱帶與溫帶沙漠、草原氣候為主，水資源極為珍貴（坎兒井、尼羅河與幼發拉底河底格里斯河灌溉）。此區為伊斯蘭教發源地（麥加為聖地），居民多數信奉伊斯蘭教（遵守古蘭經戒律，禁食豬肉與飲酒、每日朝拜、女性戴希賈布）。波斯灣沿岸蘊藏全球最豐富的石油與天然氣，主導 OPEC 石油組織，亦引發深刻的大國地緣政治衝突。"
         },
         "extension": {
-          "title": "南歐地中海型氣候",
+          "title": "伊斯蘭文化與宗教脈絡",
           "unitId": "geography-12",
           "icon": "🚀",
-          "desc": "同課比較：夏受副熱帶高壓壟罩炎熱乾燥，冬受西風帶南移溫和多雨。請說明與「溫帶海洋性氣候成因」的差別。"
+          "desc": "同課比較：發源於阿拉伯半島，以《古蘭經》為經典，五功規範日常信仰與生活秩序。請說明與「乾燥氣候與水資源調適」的差別。"
         },
         "crossDisciplinary": {
           "title": "史料判讀與早期臺灣",
@@ -21803,20 +21803,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「溫帶海洋性氣候成因」的說明，先說出規則，再用「年溫差小、無乾季，利於畜牧業與乳製品發展；向東深入內陸漸轉為溫帶大陸性氣候」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「乾燥氣候與水資源調適」的說明，先說出規則，再用「傳統農業依賴綠洲與地下灌溉工程「坎兒井」減少蒸發；現代發展滴灌與海水淡化」核對自己的理解。"
       }
     },
     {
       "id": "geography-12-kp-2",
       "unitId": "geography-12",
       "order": 2,
-      "title": "【知識點 2】南歐地中海型氣候",
-      "core": "南歐地中海型氣候：夏受副熱帶高壓壟罩炎熱乾燥，冬受西風帶南移溫和多雨。",
-      "mechanism": "對照判準與實例：夏受副熱帶高壓壟罩炎熱乾燥，冬受西風帶南移溫和多雨。發展耐旱果作（油橄欖、葡萄、柑橘），並發展夏季濱海避暑觀光。",
-      "explanation": "辨認「南歐地中海型氣候」時，先說出「夏受副熱帶高壓壟罩炎熱乾燥，冬受西風帶南移溫和多雨」，再核對「發展耐旱果作（油橄欖、葡萄、柑橘），並發展夏季濱海避暑觀光」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "夏受副熱帶高壓壟罩炎熱乾燥，冬受西風帶南移溫和多雨｜實例與界線：發展耐旱果作（油橄欖、葡萄、柑橘），並發展夏季濱海避暑觀光",
-      "examIntel": "自我檢核：遮住說明，試著解釋「發展耐旱果作（油橄欖、葡萄、柑橘），並發展夏季濱海避暑觀光」與「夏受副熱帶高壓壟罩炎熱乾燥，冬受西風帶南移溫和多雨」的關係。",
-      "practicalTip": "核對本點實例與界線：發展耐旱果作（油橄欖、葡萄、柑橘），並發展夏季濱海避暑觀光",
+      "title": "【知識點 2】伊斯蘭文化與宗教脈絡",
+      "core": "伊斯蘭文化與宗教脈絡：發源於阿拉伯半島，以《古蘭經》為經典，五功規範日常信仰與生活秩序。",
+      "mechanism": "對照判準與實例：發源於阿拉伯半島，以《古蘭經》為經典，五功規範日常信仰與生活秩序。麥加為朝聖聖地；耶路撒冷同時為猶太教、基督教與伊斯蘭教三大一神教共同聖城。",
+      "explanation": "辨認「伊斯蘭文化與宗教脈絡」時，先說出「發源於阿拉伯半島，以《古蘭經》為經典，五功規範日常信仰與生活秩序」，再核對「麥加為朝聖聖地；耶路撒冷同時為猶太教、基督教與伊斯蘭教三大一神教共同聖城」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "發源於阿拉伯半島，以《古蘭經》為經典，五功規範日常信仰與生活秩序｜實例與界線：麥加為朝聖聖地；耶路撒冷同時為猶太教、基督教與伊斯蘭教三大一神教共同聖城",
+      "examIntel": "自我檢核：遮住說明，試著解釋「麥加為朝聖聖地；耶路撒冷同時為猶太教、基督教與伊斯蘭教三大一神教共同聖城」與「發源於阿拉伯半島，以《古蘭經》為經典，五功規範日常信仰與生活秩序」的關係。",
+      "practicalTip": "核對本點實例與界線：麥加為朝聖聖地；耶路撒冷同時為猶太教、基督教與伊斯蘭教三大一神教共同聖城",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -21827,9 +21827,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "南歐地中海型氣候｜規則與實例",
+        "title": "伊斯蘭文化與宗教脈絡｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 338\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"南歐地中海型氣候：概念、規則與實例\"><title>南歐地中海型氣候</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"336\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">南歐地中海型氣候</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">夏受副熱帶高壓壟罩炎熱乾燥，冬受西風帶南移溫和多雨</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">發展耐旱果作（油橄欖、葡萄、柑橘），並發展夏季濱海避暑觀光</tspan></text><text x=\"22\" y=\"324\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"伊斯蘭文化與宗教脈絡：概念、規則與實例\"><title>伊斯蘭文化與宗教脈絡</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">伊斯蘭文化與宗教脈絡</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">發源於阿拉伯半島，以《古蘭經》為經典，五功規範日常信仰與生活秩序</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">麥加為朝聖聖地；耶路撒冷同時為猶太教、基督教與伊斯蘭教三大一神教</tspan><tspan x=\"38\" dy=\"24\">共同聖城</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -21839,10 +21839,10 @@ export const explicitKnowledgePoints = {
           "desc": "西亞與中亞位居歐亞非三洲樞紐，受副熱帶高壓籠罩與深居內陸影響，以熱帶與溫帶沙漠、草原氣候為主，水資源極為珍貴（坎兒井、尼羅河與幼發拉底河底格里斯河灌溉）。此區為伊斯蘭教發源地（麥加為聖地），居民多數信奉伊斯蘭教（遵守古蘭經戒律，禁食豬肉與飲酒、每日朝拜、女性戴希賈布）。波斯灣沿岸蘊藏全球最豐富的石油與天然氣，主導 OPEC 石油組織，亦引發深刻的大國地緣政治衝突。"
         },
         "extension": {
-          "title": "工業區位與萊茵河流域",
+          "title": "波斯灣石油與 OPEC 影響",
           "unitId": "geography-12",
           "icon": "🚀",
-          "desc": "同課比較：早期依煤鐵礦藏分布（如德國魯爾區、英國中部），現代轉向沿海港口與高科技聚落。請說明與「南歐地中海型氣候」的差別。"
+          "desc": "同課比較：波斯灣周邊蘊藏全球高比例石油與天然氣資源，石油輸出國組織 (OPEC) 影響國際油價。請說明與「伊斯蘭文化與宗教脈絡」的差別。"
         },
         "crossDisciplinary": {
           "title": "天氣、鋒面與臺灣季風",
@@ -21851,20 +21851,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「南歐地中海型氣候」的說明，先說出規則，再用「發展耐旱果作（油橄欖、葡萄、柑橘），並發展夏季濱海避暑觀光」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「伊斯蘭文化與宗教脈絡」的說明，先說出規則，再用「麥加為朝聖聖地；耶路撒冷同時為猶太教、基督教與伊斯蘭教三大一神教共同聖城」核對自己的理解。"
       }
     },
     {
       "id": "geography-12-kp-3",
       "unitId": "geography-12",
       "order": 3,
-      "title": "【知識點 3】工業區位與萊茵河流域",
-      "core": "工業區位與萊茵河流域：早期依煤鐵礦藏分布（如德國魯爾區、英國中部），現代轉向沿海港口與高科技聚落。",
-      "mechanism": "對照判準與實例：早期依煤鐵礦藏分布（如德國魯爾區、英國中部），現代轉向沿海港口與高科技聚落。萊茵河串聯內陸重工業與鹿特丹國際大港，為歐洲經貿黃金水道。",
-      "explanation": "辨認「工業區位與萊茵河流域」時，先說出「早期依煤鐵礦藏分布（如德國魯爾區、英國中部），現代轉向沿海港口與高科技聚落」，再核對「萊茵河串聯內陸重工業與鹿特丹國際大港，為歐洲經貿黃金水道」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "早期依煤鐵礦藏分布（如德國魯爾區、英國中部），現代轉向沿海港口與高科技聚落｜實例與界線：萊茵河串聯內陸重工業與鹿特丹國際大港，為歐洲經貿黃金水道",
-      "examIntel": "自我檢核：遮住說明，試著解釋「萊茵河串聯內陸重工業與鹿特丹國際大港，為歐洲經貿黃金水道」與「早期依煤鐵礦藏分布（如德國魯爾區、英國中部），現代轉向沿海港口與高科技聚落」的關係。",
-      "practicalTip": "核對本點實例與界線：萊茵河串聯內陸重工業與鹿特丹國際大港，為歐洲經貿黃金水道",
+      "title": "【知識點 3】波斯灣石油與 OPEC 影響",
+      "core": "波斯灣石油與 OPEC 影響：波斯灣周邊蘊藏全球高比例石油與天然氣資源，石油輸出國組織 (OPEC) 影響國際油價。",
+      "mechanism": "對照判準與實例：波斯灣周邊蘊藏全球高比例石油與天然氣資源，石油輸出國組織 (OPEC) 影響國際油價。荷姆茲海峽為全球最重要油輪戰略通道，區域政局波動直接牽動全球通膨與能源安全。",
+      "explanation": "辨認「波斯灣石油與 OPEC 影響」時，先說出「波斯灣周邊蘊藏全球高比例石油與天然氣資源，石油輸出國組織 (OPEC) 影響國際油價」，再核對「荷姆茲海峽為全球最重要油輪戰略通道，區域政局波動直接牽動全球通膨與能源安全」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "波斯灣周邊蘊藏全球高比例石油與天然氣資源，石油輸出國組織 (OPEC) 影響國際油價｜實例與界線：荷姆茲海峽為全球最重要油輪戰略通道，區域政局波動直接牽動全球通膨與能源安全",
+      "examIntel": "自我檢核：遮住說明，試著解釋「荷姆茲海峽為全球最重要油輪戰略通道，區域政局波動直接牽動全球通膨與能源安全」與「波斯灣周邊蘊藏全球高比例石油與天然氣資源，石油輸出國組織 (OPEC) 影響國際油價」的關係。",
+      "practicalTip": "核對本點實例與界線：荷姆茲海峽為全球最重要油輪戰略通道，區域政局波動直接牽動全球通膨與能源安全",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -21875,9 +21875,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "工業區位與萊茵河流域｜規則與實例",
+        "title": "波斯灣石油與 OPEC 影響｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"工業區位與萊茵河流域：概念、規則與實例\"><title>工業區位與萊茵河流域</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">工業區位與萊茵河流域</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">早期依煤鐵礦藏分布（如德國魯爾區、英國中部），現代轉向沿海港口與</tspan><tspan x=\"38\" dy=\"24\">高科技聚落</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">萊茵河串聯內陸重工業與鹿特丹國際大港，為歐洲經貿黃金水道</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"波斯灣石油與 OPEC 影響：概念、規則與實例\"><title>波斯灣石油與 OPEC 影響</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#eef6f3\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2e5d4d\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">波斯灣石油與 OPEC 影響</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">波斯灣周邊蘊藏全球高比例石油與天然氣資源，石油輸出國組織 (OPEC)</tspan><tspan x=\"38\" dy=\"24\"> 影響國際油價</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#458570\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2e5d4d\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#18362c\"><tspan x=\"38\" dy=\"0\">荷姆茲海峽為全球最重要油輪戰略通道，區域政局波動直接牽動全球通膨</tspan><tspan x=\"38\" dy=\"24\">與能源安全</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#18362c\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -21887,10 +21887,10 @@ export const explicitKnowledgePoints = {
           "desc": "西亞與中亞位居歐亞非三洲樞紐，受副熱帶高壓籠罩與深居內陸影響，以熱帶與溫帶沙漠、草原氣候為主，水資源極為珍貴（坎兒井、尼羅河與幼發拉底河底格里斯河灌溉）。此區為伊斯蘭教發源地（麥加為聖地），居民多數信奉伊斯蘭教（遵守古蘭經戒律，禁食豬肉與飲酒、每日朝拜、女性戴希賈布）。波斯灣沿岸蘊藏全球最豐富的石油與天然氣，主導 OPEC 石油組織，亦引發深刻的大國地緣政治衝突。"
         },
         "extension": {
-          "title": "溫帶海洋性氣候成因",
+          "title": "乾燥氣候與水資源調適",
           "unitId": "geography-12",
           "icon": "🚀",
-          "desc": "同課比較：盛行西風吹拂加上北大西洋暖流增溫增濕，高緯度但終年溫和多雨。請說明與「工業區位與萊茵河流域」的差別。"
+          "desc": "同課比較：副熱帶高壓籠罩與深居內陸背風形成熱帶沙漠與溫帶乾燥氣候，蒸發量遠大於降水量。請說明與「波斯灣石油與 OPEC 影響」的差別。"
         },
         "crossDisciplinary": {
           "title": "史料判讀與早期臺灣",
@@ -21899,7 +21899,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「工業區位與萊茵河流域」的說明，先說出規則，再用「萊茵河串聯內陸重工業與鹿特丹國際大港，為歐洲經貿黃金水道」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「波斯灣石油與 OPEC 影響」的說明，先說出規則，再用「荷姆茲海峽為全球最重要油輪戰略通道，區域政局波動直接牽動全球通膨與能源安全」核對自己的理解。"
       }
     }
   ],
@@ -22054,13 +22054,13 @@ export const explicitKnowledgePoints = {
       "id": "civics-10-kp-1",
       "unitId": "civics-10",
       "order": 1,
-      "title": "【知識點 1】文化多元主義價值",
-      "core": "文化多元主義價值：尊重不同族群在語言、歷史記憶、宗教信仰、風俗生活習慣上的差異與主體性。",
-      "mechanism": "對照判準與實例：尊重不同族群在語言、歷史記憶、宗教信仰、風俗生活習慣上的差異與主體性。各族群文化無優劣貴賤之分，反對主流族群以強勢姿態推行「同化主義」，提倡共存共榮之多元文化論。",
-      "explanation": "辨認「文化多元主義價值」時，先說出「尊重不同族群在語言、歷史記憶、宗教信仰、風俗生活習慣上的差異與主體性」，再核對「各族群文化無優劣貴賤之分，反對主流族群以強勢姿態推行「同化主義」，提倡共存共榮之多元文化論」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "尊重不同族群在語言、歷史記憶、宗教信仰、風俗生活習慣上的差異與主體性｜實例與界線：各族群文化無優劣貴賤之分，反對主流族群以強勢姿態推行「同化主義」，提倡共存共榮之多元文化論",
-      "examIntel": "自我檢核：遮住說明，試著解釋「各族群文化無優劣貴賤之分，反對主流族群以強勢姿態推行「同化主義」，提倡共存共榮之多元文化論」與「尊重不同族群在語言、歷史記憶、宗教信仰、風俗生活習慣上的差異與主體性」的關係。",
-      "practicalTip": "核對本點實例與界線：各族群文化無優劣貴賤之分，反對主流族群以強勢姿態推行「同化主義」，提倡共存共榮之多元文化論",
+      "title": "【知識點 1】中央與地方均權制度",
+      "core": "中央與地方均權制度：依事務性質劃分權限：國防外交屬中央，與在地民生密切相關之環境清潔、公園建設與地方交通屬地方自治。",
+      "mechanism": "對照判準與實例：依事務性質劃分權限：國防外交屬中央，與在地民生密切相關之環境清潔、公園建設與地方交通屬地方自治。地方自治團體具備公法人地位，擁有自主財政收入來源與制定自治條例之權限。",
+      "explanation": "辨認「中央與地方均權制度」時，先說出「依事務性質劃分權限：國防外交屬中央，與在地民生密切相關之環境清潔、公園建設與地方交通屬地方自治」，再核對「地方自治團體具備公法人地位，擁有自主財政收入來源與制定自治條例之權限」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "依事務性質劃分權限：國防外交屬中央，與在地民生密切相關之環境清潔、公園建設與地方交通屬地方自治｜實例與界線：地方自治團體具備公法人地位，擁有自主財政收入來源與制定自治條例之權限",
+      "examIntel": "自我檢核：遮住說明，試著解釋「地方自治團體具備公法人地位，擁有自主財政收入來源與制定自治條例之權限」與「依事務性質劃分權限：國防外交屬中央，與在地民生密切相關之環境清潔、公園建設與地方交通屬地方自治」的關係。",
+      "practicalTip": "核對本點實例與界線：地方自治團體具備公法人地位，擁有自主財政收入來源與制定自治條例之權限",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -22071,9 +22071,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "文化多元主義價值｜規則與實例",
+        "title": "中央與地方均權制度｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"文化多元主義價值：概念、規則與實例\"><title>文化多元主義價值</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#fbf2ed\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#7d4d34\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">文化多元主義價值</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">尊重不同族群在語言、歷史記憶、宗教信仰、風俗生活習慣上的差異與主</tspan><tspan x=\"38\" dy=\"24\">體性</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">各族群文化無優劣貴賤之分，反對主流族群以強勢姿態推行「同化主義」</tspan><tspan x=\"38\" dy=\"24\">，提倡共存共榮之多元文化論</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#4d2b1a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"中央與地方均權制度：概念、規則與實例\"><title>中央與地方均權制度</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#fbf2ed\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#7d4d34\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">中央與地方均權制度</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">依事務性質劃分權限：國防外交屬中央，與在地民生密切相關之環境清潔</tspan><tspan x=\"38\" dy=\"24\">、公園建設與地方交通屬地方自治</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">地方自治團體具備公法人地位，擁有自主財政收入來源與制定自治條例之</tspan><tspan x=\"38\" dy=\"24\">權限</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#4d2b1a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -22083,10 +22083,10 @@ export const explicitKnowledgePoints = {
           "desc": "地方自治落實主權在民與因地制宜，由住民自主處理地方公共事務。地方政府採「行政、立法二元代表制」：行政機關（縣市政府、鄉鎮市區公所）執行地方政務與公共設施；立法機關（縣市議會、鄉鎮市民代表會）行使議決地方自治條例、審查地方預算與監督行政施政之權。公民可透過地方公民投票、里民大會與社區發展協會參與公共決策。"
         },
         "extension": {
-          "title": "打破文化位階與偏見",
+          "title": "地方行政與立法制衡",
           "unitId": "civics-10",
           "icon": "🚀",
-          "desc": "同課比較：主流強勢群體常將自身審美觀、語言腔調或生活型態定為「高雅文明」，貶低少數非主流文化為「落後粗俗」。請說明與「文化多元主義價值」的差別。"
+          "desc": "同課比較：直轄市／縣市政府（行政機關，執行地方施政）與直轄市／縣市議會（立法機關，審查地方預算與監督施政）。請說明與「中央與地方均權制度」的差別。"
         },
         "crossDisciplinary": {
           "title": "戰後臺灣與民主化",
@@ -22095,20 +22095,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「文化多元主義價值」的說明，先說出規則，再用「各族群文化無優劣貴賤之分，反對主流族群以強勢姿態推行「同化主義」，提倡共存共榮之多元文化論」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「中央與地方均權制度」的說明，先說出規則，再用「地方自治團體具備公法人地位，擁有自主財政收入來源與制定自治條例之權限」核對自己的理解。"
       }
     },
     {
       "id": "civics-10-kp-2",
       "unitId": "civics-10",
       "order": 2,
-      "title": "【知識點 2】打破文化位階與偏見",
-      "core": "打破文化位階與偏見：主流強勢群體常將自身審美觀、語言腔調或生活型態定為「高雅文明」，貶低少數非主流文化為「落後粗俗」。",
-      "mechanism": "對照判準與實例：主流強勢群體常將自身審美觀、語言腔調或生活型態定為「高雅文明」，貶低少數非主流文化為「落後粗俗」。深刻反思生活中的微歧視 (Microaggression)，消除文化位階霸權，建立平等對話與互惠理解基礎。",
-      "explanation": "辨認「打破文化位階與偏見」時，先說出「主流強勢群體常將自身審美觀、語言腔調或生活型態定為「高雅文明」，貶低少數非主流文化為「落後粗俗」」，再核對「深刻反思生活中的微歧視 (Microaggression)，消除文化位階霸權，建立平等對話與互惠理解基礎」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "主流強勢群體常將自身審美觀、語言腔調或生活型態定為「高雅文明」，貶低少數非主流文化為「落後粗俗」｜實例與界線：深刻反思生活中的微歧視 (Microaggression)，消除文化位階霸權，建立平等對話與互惠理解基礎",
-      "examIntel": "自我檢核：遮住說明，試著解釋「深刻反思生活中的微歧視 (Microaggression)，消除文化位階霸權，建立平等對話與互惠理解基礎」與「主流強勢群體常將自身審美觀、語言腔調或生活型態定為「高雅文明」，貶低少數非主流文化為「落後粗俗」」的關係。",
-      "practicalTip": "核對本點實例與界線：深刻反思生活中的微歧視 (Microaggression)，消除文化位階霸權，建立平等對話與互惠理解基礎",
+      "title": "【知識點 2】地方行政與立法制衡",
+      "core": "地方行政與立法制衡：直轄市／縣市政府（行政機關，執行地方施政）與直轄市／縣市議會（立法機關，審查地方預算與監督施政）。",
+      "mechanism": "對照判準與實例：直轄市／縣市政府（行政機關，執行地方施政）與直轄市／縣市議會（立法機關，審查地方預算與監督施政）。地方議員可對縣市長與局處首長提出質詢並審核年度預算，防止地方行政權力濫用。",
+      "explanation": "辨認「地方行政與立法制衡」時，先說出「直轄市／縣市政府（行政機關，執行地方施政）與直轄市／縣市議會（立法機關，審查地方預算與監督施政）」，再核對「地方議員可對縣市長與局處首長提出質詢並審核年度預算，防止地方行政權力濫用」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "直轄市／縣市政府（行政機關，執行地方施政）與直轄市／縣市議會（立法機關，審查地方預算與監督施政）｜實例與界線：地方議員可對縣市長與局處首長提出質詢並審核年度預算，防止地方行政權力濫用",
+      "examIntel": "自我檢核：遮住說明，試著解釋「地方議員可對縣市長與局處首長提出質詢並審核年度預算，防止地方行政權力濫用」與「直轄市／縣市政府（行政機關，執行地方施政）與直轄市／縣市議會（立法機關，審查地方預算與監督施政）」的關係。",
+      "practicalTip": "核對本點實例與界線：地方議員可對縣市長與局處首長提出質詢並審核年度預算，防止地方行政權力濫用",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -22119,9 +22119,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "打破文化位階與偏見｜規則與實例",
+        "title": "地方行政與立法制衡｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"打破文化位階與偏見：概念、規則與實例\"><title>打破文化位階與偏見</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#fbf2ed\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#7d4d34\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">打破文化位階與偏見</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">主流強勢群體常將自身審美觀、語言腔調或生活型態定為「高雅文明」，</tspan><tspan x=\"38\" dy=\"24\">貶低少數非主流文化為「落後粗俗」</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">深刻反思生活中的微歧視 (Microaggression)，消除文化位階霸權，建</tspan><tspan x=\"38\" dy=\"24\">立平等對話與互惠理解基礎</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#4d2b1a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"地方行政與立法制衡：概念、規則與實例\"><title>地方行政與立法制衡</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#fbf2ed\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#7d4d34\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">地方行政與立法制衡</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">直轄市／縣市政府（行政機關，執行地方施政）與直轄市／縣市議會（立</tspan><tspan x=\"38\" dy=\"24\">法機關，審查地方預算與監督施政）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">地方議員可對縣市長與局處首長提出質詢並審核年度預算，防止地方行政</tspan><tspan x=\"38\" dy=\"24\">權力濫用</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#4d2b1a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -22131,10 +22131,10 @@ export const explicitKnowledgePoints = {
           "desc": "地方自治落實主權在民與因地制宜，由住民自主處理地方公共事務。地方政府採「行政、立法二元代表制」：行政機關（縣市政府、鄉鎮市區公所）執行地方政務與公共設施；立法機關（縣市議會、鄉鎮市民代表會）行使議決地方自治條例、審查地方預算與監督行政施政之權。公民可透過地方公民投票、里民大會與社區發展協會參與公共決策。"
         },
         "extension": {
-          "title": "原住民族權利法制保障",
+          "title": "社區參與與參與式預算",
           "unitId": "civics-10",
           "icon": "🚀",
-          "desc": "同課比較：《憲法增修條文》第十條明定國家肯定多元文化並積極維護發展原住民族語言及文化。請說明與「打破文化位階與偏見」的差別。"
+          "desc": "同課比較：居民透過社區發展協會、里民大會與參與式預算直接討論並表決社區經費優先用途。請說明與「地方行政與立法制衡」的差別。"
         },
         "crossDisciplinary": {
           "title": "一元一次不等式",
@@ -22143,20 +22143,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「打破文化位階與偏見」的說明，先說出規則，再用「深刻反思生活中的微歧視 (Microaggression)，消除文化位階霸權，建立平等對話與互惠理解基礎」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「地方行政與立法制衡」的說明，先說出規則，再用「地方議員可對縣市長與局處首長提出質詢並審核年度預算，防止地方行政權力濫用」核對自己的理解。"
       }
     },
     {
       "id": "civics-10-kp-3",
       "unitId": "civics-10",
       "order": 3,
-      "title": "【知識點 3】原住民族權利法制保障",
-      "core": "原住民族權利法制保障：《憲法增修條文》第十條明定國家肯定多元文化並積極維護發展原住民族語言及文化。",
-      "mechanism": "對照判準與實例：《憲法增修條文》第十條明定國家肯定多元文化並積極維護發展原住民族語言及文化。依《原住民族基本法》保障其土地自主權、傳統領域資源利用、母語雙語教育與部落諮商同意權。",
-      "explanation": "辨認「原住民族權利法制保障」時，先說出「《憲法增修條文》第十條明定國家肯定多元文化並積極維護發展原住民族語言及文化」，再核對「依《原住民族基本法》保障其土地自主權、傳統領域資源利用、母語雙語教育與部落諮商同意權」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "《憲法增修條文》第十條明定國家肯定多元文化並積極維護發展原住民族語言及文化｜實例與界線：依《原住民族基本法》保障其土地自主權、傳統領域資源利用、母語雙語教育與部落諮商同意權",
-      "examIntel": "自我檢核：遮住說明，試著解釋「依《原住民族基本法》保障其土地自主權、傳統領域資源利用、母語雙語教育與部落諮商同意權」與「《憲法增修條文》第十條明定國家肯定多元文化並積極維護發展原住民族語言及文化」的關係。",
-      "practicalTip": "核對本點實例與界線：依《原住民族基本法》保障其土地自主權、傳統領域資源利用、母語雙語教育與部落諮商同意權",
+      "title": "【知識點 3】社區參與與參與式預算",
+      "core": "社區參與與參與式預算：居民透過社區發展協會、里民大會與參與式預算直接討論並表決社區經費優先用途。",
+      "mechanism": "對照判準與實例：居民透過社區發展協會、里民大會與參與式預算直接討論並表決社區經費優先用途。主動關注鄰里交通、無障礙設施與公共空間維護，是最貼近日常生活的民主實踐。",
+      "explanation": "辨認「社區參與與參與式預算」時，先說出「居民透過社區發展協會、里民大會與參與式預算直接討論並表決社區經費優先用途」，再核對「主動關注鄰里交通、無障礙設施與公共空間維護，是最貼近日常生活的民主實踐」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "居民透過社區發展協會、里民大會與參與式預算直接討論並表決社區經費優先用途｜實例與界線：主動關注鄰里交通、無障礙設施與公共空間維護，是最貼近日常生活的民主實踐",
+      "examIntel": "自我檢核：遮住說明，試著解釋「主動關注鄰里交通、無障礙設施與公共空間維護，是最貼近日常生活的民主實踐」與「居民透過社區發展協會、里民大會與參與式預算直接討論並表決社區經費優先用途」的關係。",
+      "practicalTip": "核對本點實例與界線：主動關注鄰里交通、無障礙設施與公共空間維護，是最貼近日常生活的民主實踐",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -22167,9 +22167,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "原住民族權利法制保障｜規則與實例",
+        "title": "社區參與與參與式預算｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"原住民族權利法制保障：概念、規則與實例\"><title>原住民族權利法制保障</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#fbf2ed\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#7d4d34\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">原住民族權利法制保障</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">《憲法增修條文》第十條明定國家肯定多元文化並積極維護發展原住民族</tspan><tspan x=\"38\" dy=\"24\">語言及文化</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">依《原住民族基本法》保障其土地自主權、傳統領域資源利用、母語雙語</tspan><tspan x=\"38\" dy=\"24\">教育與部落諮商同意權</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#4d2b1a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"社區參與與參與式預算：概念、規則與實例\"><title>社區參與與參與式預算</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#fbf2ed\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#7d4d34\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">社區參與與參與式預算</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">居民透過社區發展協會、里民大會與參與式預算直接討論並表決社區經費</tspan><tspan x=\"38\" dy=\"24\">優先用途</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#b07150\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#7d4d34\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#4d2b1a\"><tspan x=\"38\" dy=\"0\">主動關注鄰里交通、無障礙設施與公共空間維護，是最貼近日常生活的民</tspan><tspan x=\"38\" dy=\"24\">主實踐</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#4d2b1a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -22179,10 +22179,10 @@ export const explicitKnowledgePoints = {
           "desc": "地方自治落實主權在民與因地制宜，由住民自主處理地方公共事務。地方政府採「行政、立法二元代表制」：行政機關（縣市政府、鄉鎮市區公所）執行地方政務與公共設施；立法機關（縣市議會、鄉鎮市民代表會）行使議決地方自治條例、審查地方預算與監督行政施政之權。公民可透過地方公民投票、里民大會與社區發展協會參與公共決策。"
         },
         "extension": {
-          "title": "文化多元主義價值",
+          "title": "中央與地方均權制度",
           "unitId": "civics-10",
           "icon": "🚀",
-          "desc": "同課比較：尊重不同族群在語言、歷史記憶、宗教信仰、風俗生活習慣上的差異與主體性。請說明與「原住民族權利法制保障」的差別。"
+          "desc": "同課比較：依事務性質劃分權限：國防外交屬中央，與在地民生密切相關之環境清潔、公園建設與地方交通屬地方自治。請說明與「社區參與與參與式預算」的差別。"
         },
         "crossDisciplinary": {
           "title": "戰後臺灣與民主化",
@@ -22191,7 +22191,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「原住民族權利法制保障」的說明，先說出規則，再用「依《原住民族基本法》保障其土地自主權、傳統領域資源利用、母語雙語教育與部落諮商同意權」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「社區參與與參與式預算」的說明，先說出規則，再用「主動關注鄰里交通、無障礙設施與公共空間維護，是最貼近日常生活的民主實踐」核對自己的理解。"
       }
     }
   ],
@@ -24828,13 +24828,13 @@ export const explicitKnowledgePoints = {
       "id": "health-2-kp-1",
       "unitId": "health-2",
       "order": 1,
-      "title": "【知識點 1】情緒覺察與接納認知",
-      "core": "情緒覺察與接納認知：情緒無好壞對錯之分，每一種情緒（憤怒、焦慮、悲傷、嫉妒）都是大腦傳遞內在需求的信號。",
-      "mechanism": "對照判準與實例：情緒無好壞對錯之分，每一種情緒（憤怒、焦慮、悲傷、嫉妒）都是大腦傳遞內在需求的信號。命名情緒以馴服情緒 (Name it to tame it)；允許自己有脆弱悲傷時刻，以不批判態度溫柔覺察當下。",
-      "explanation": "辨認「情緒覺察與接納認知」時，先說出「情緒無好壞對錯之分，每一種情緒（憤怒、焦慮、悲傷、嫉妒）都是大腦傳遞內在需求的信號」，再核對「命名情緒以馴服情緒 (Name it to tame it)；允許自己有脆弱悲傷時刻，以不批判態度溫柔覺察當下」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "情緒無好壞對錯之分，每一種情緒（憤怒、焦慮、悲傷、嫉妒）都是大腦傳遞內在需求的信號｜實例與界線：命名情緒以馴服情緒 (Name it to tame it)；允許自己有脆弱悲傷時刻，以不批判態度溫柔覺察當下",
-      "examIntel": "自我檢核：遮住說明，試著解釋「命名情緒以馴服情緒 (Name it to tame it)；允許自己有脆弱悲傷時刻，以不批判態度溫柔覺察當下」與「情緒無好壞對錯之分，每一種情緒（憤怒、焦慮、悲傷、嫉妒）都是大腦傳遞內在需求的信號」的關係。",
-      "practicalTip": "核對本點實例與界線：命名情緒以馴服情緒 (Name it to tame it)；允許自己有脆弱悲傷時刻，以不批判態度溫柔覺察當下",
+      "title": "【知識點 1】六大類食物與我的餐盤",
+      "core": "六大類食物與我的餐盤：全穀雜糧、豆魚蛋肉、乳品、蔬菜、水果、油脂與堅果種子六大類缺一不可。",
+      "mechanism": "對照判準與實例：全穀雜糧、豆魚蛋肉、乳品、蔬菜、水果、油脂與堅果種子六大類缺一不可。口訣：每天早晚一杯奶、每餐水果拳頭大、菜比水果多一點、飯跟蔬菜一樣多、豆魚蛋肉一掌心、堅果一茶匙。",
+      "explanation": "辨認「六大類食物與我的餐盤」時，先說出「全穀雜糧、豆魚蛋肉、乳品、蔬菜、水果、油脂與堅果種子六大類缺一不可」，再核對「口訣：每天早晚一杯奶、每餐水果拳頭大、菜比水果多一點、飯跟蔬菜一樣多、豆魚蛋肉一掌心、堅果一茶匙」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "全穀雜糧、豆魚蛋肉、乳品、蔬菜、水果、油脂與堅果種子六大類缺一不可｜實例與界線：口訣：每天早晚一杯奶、每餐水果拳頭大、菜比水果多一點、飯跟蔬菜一樣多、豆魚蛋肉一掌心、堅果一茶匙",
+      "examIntel": "自我檢核：遮住說明，試著解釋「口訣：每天早晚一杯奶、每餐水果拳頭大、菜比水果多一點、飯跟蔬菜一樣多、豆魚蛋肉一掌心、堅果一茶匙」與「全穀雜糧、豆魚蛋肉、乳品、蔬菜、水果、油脂與堅果種子六大類缺一不可」的關係。",
+      "practicalTip": "核對本點實例與界線：口訣：每天早晚一杯奶、每餐水果拳頭大、菜比水果多一點、飯跟蔬菜一樣多、豆魚蛋肉一掌心、堅果一茶匙",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -24845,9 +24845,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "情緒覺察與接納認知｜規則與實例",
+        "title": "六大類食物與我的餐盤｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"情緒覺察與接納認知：概念、規則與實例\"><title>情緒覺察與接納認知</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf4ee\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#775330\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">情緒覺察與接納認知</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">情緒無好壞對錯之分，每一種情緒（憤怒、焦慮、悲傷、嫉妒）都是大腦</tspan><tspan x=\"38\" dy=\"24\">傳遞內在需求的信號</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">命名情緒以馴服情緒 (Name it to tame it)；允許自己有脆弱悲傷時</tspan><tspan x=\"38\" dy=\"24\">刻，以不批判態度溫柔覺察當下</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#482f18\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"六大類食物與我的餐盤：概念、規則與實例\"><title>六大類食物與我的餐盤</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf4ee\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#775330\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">六大類食物與我的餐盤</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">全穀雜糧、豆魚蛋肉、乳品、蔬菜、水果、油脂與堅果種子六大類缺一不</tspan><tspan x=\"38\" dy=\"24\">可</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">口訣：每天早晚一杯奶、每餐水果拳頭大、菜比水果多一點、飯跟蔬菜一</tspan><tspan x=\"38\" dy=\"24\">樣多、豆魚蛋肉一掌心、堅果一茶匙</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#482f18\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -24857,10 +24857,10 @@ export const explicitKnowledgePoints = {
           "desc": "飲食選擇需考慮多樣性、適量與生活情境。閱讀包裝要確認每份含量、每包份數與營養標示，不以廣告口號代替資料。"
         },
         "extension": {
-          "title": "壓力生理與心理反應",
+          "title": "食品營養標示換算",
           "unitId": "health-2",
           "icon": "🚀",
-          "desc": "同課比較：面臨壓力事件大腦杏仁核發動警報，交感神經興奮釋放腎上腺素與皮質醇，引發心跳加速呼吸急促。請說明與「情緒覺察與接納認知」的差別。"
+          "desc": "同課比較：先核對「每一份量」與「本包裝含幾份」，整包吃完須將熱量、糖與鈉全部乘以份數。請說明與「六大類食物與我的餐盤」的差別。"
         },
         "crossDisciplinary": {
           "title": "正負數與絕對值",
@@ -24869,20 +24869,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「情緒覺察與接納認知」的說明，先說出規則，再用「命名情緒以馴服情緒 (Name it to tame it)；允許自己有脆弱悲傷時刻，以不批判態度溫柔覺察當下」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「六大類食物與我的餐盤」的說明，先說出規則，再用「口訣：每天早晚一杯奶、每餐水果拳頭大、菜比水果多一點、飯跟蔬菜一樣多、豆魚蛋肉一掌心、堅果一茶匙」核對自己的理解。"
       }
     },
     {
       "id": "health-2-kp-2",
       "unitId": "health-2",
       "order": 2,
-      "title": "【知識點 2】壓力生理與心理反應",
-      "core": "壓力生理與心理反應：面臨壓力事件大腦杏仁核發動警報，交感神經興奮釋放腎上腺素與皮質醇，引發心跳加速呼吸急促。",
-      "mechanism": "對照判準與實例：面臨壓力事件大腦杏仁核發動警報，交感神經興奮釋放腎上腺素與皮質醇，引發心跳加速呼吸急促。短暫急性壓力有助於激發潛能集中注意力；長期慢性壓力會壓制免疫系統導致失眠憂鬱與身心耗竭。",
-      "explanation": "辨認「壓力生理與心理反應」時，先說出「面臨壓力事件大腦杏仁核發動警報，交感神經興奮釋放腎上腺素與皮質醇，引發心跳加速呼吸急促」，再核對「短暫急性壓力有助於激發潛能集中注意力；長期慢性壓力會壓制免疫系統導致失眠憂鬱與身心耗竭」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "面臨壓力事件大腦杏仁核發動警報，交感神經興奮釋放腎上腺素與皮質醇，引發心跳加速呼吸急促｜實例與界線：短暫急性壓力有助於激發潛能集中注意力；長期慢性壓力會壓制免疫系統導致失眠憂鬱與身心耗竭",
-      "examIntel": "自我檢核：遮住說明，試著解釋「短暫急性壓力有助於激發潛能集中注意力；長期慢性壓力會壓制免疫系統導致失眠憂鬱與身心耗竭」與「面臨壓力事件大腦杏仁核發動警報，交感神經興奮釋放腎上腺素與皮質醇，引發心跳加速呼吸急促」的關係。",
-      "practicalTip": "核對本點實例與界線：短暫急性壓力有助於激發潛能集中注意力；長期慢性壓力會壓制免疫系統導致失眠憂鬱與身心耗竭",
+      "title": "【知識點 2】食品營養標示換算",
+      "core": "食品營養標示換算：先核對「每一份量」與「本包裝含幾份」，整包吃完須將熱量、糖與鈉全部乘以份數。",
+      "mechanism": "對照判準與實例：先核對「每一份量」與「本包裝含幾份」，整包吃完須將熱量、糖與鈉全部乘以份數。切忌只看每份 120 大卡就誤以為整包低熱量，若含 4 份則總熱量高達 480 大卡。",
+      "explanation": "辨認「食品營養標示換算」時，先說出「先核對「每一份量」與「本包裝含幾份」，整包吃完須將熱量、糖與鈉全部乘以份數」，再核對「切忌只看每份 120 大卡就誤以為整包低熱量，若含 4 份則總熱量高達 480 大卡」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "先核對「每一份量」與「本包裝含幾份」，整包吃完須將熱量、糖與鈉全部乘以份數｜實例與界線：切忌只看每份 120 大卡就誤以為整包低熱量，若含 4 份則總熱量高達 480 大卡",
+      "examIntel": "自我檢核：遮住說明，試著解釋「切忌只看每份 120 大卡就誤以為整包低熱量，若含 4 份則總熱量高達 480 大卡」與「先核對「每一份量」與「本包裝含幾份」，整包吃完須將熱量、糖與鈉全部乘以份數」的關係。",
+      "practicalTip": "核對本點實例與界線：切忌只看每份 120 大卡就誤以為整包低熱量，若含 4 份則總熱量高達 480 大卡",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -24893,9 +24893,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "壓力生理與心理反應｜規則與實例",
+        "title": "食品營養標示換算｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"壓力生理與心理反應：概念、規則與實例\"><title>壓力生理與心理反應</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf4ee\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#775330\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">壓力生理與心理反應</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">面臨壓力事件大腦杏仁核發動警報，交感神經興奮釋放腎上腺素與皮質醇</tspan><tspan x=\"38\" dy=\"24\">，引發心跳加速呼吸急促</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">短暫急性壓力有助於激發潛能集中注意力；長期慢性壓力會壓制免疫系統</tspan><tspan x=\"38\" dy=\"24\">導致失眠憂鬱與身心耗竭</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#482f18\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"食品營養標示換算：概念、規則與實例\"><title>食品營養標示換算</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf4ee\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#775330\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">食品營養標示換算</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">先核對「每一份量」與「本包裝含幾份」，整包吃完須將熱量、糖與鈉全</tspan><tspan x=\"38\" dy=\"24\">部乘以份數</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">切忌只看每份 120 大卡就誤以為整包低熱量，若含 4 份則總熱量高達 </tspan><tspan x=\"38\" dy=\"24\">480 大卡</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#482f18\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -24905,10 +24905,10 @@ export const explicitKnowledgePoints = {
           "desc": "飲食選擇需考慮多樣性、適量與生活情境。閱讀包裝要確認每份含量、每包份數與營養標示，不以廣告口號代替資料。"
         },
         "extension": {
-          "title": "建設性壓力調適策略",
+          "title": "成分表排序與高糖高鈉警訊",
           "unitId": "health-2",
           "icon": "🚀",
-          "desc": "同課比較：運動宣洩釋放腦內啡與多巴胺；正念腹式呼吸冥想平衡自律神經；從事藝術塗鴉創作或親近自然綠色療癒。請說明與「壓力生理與心理反應」的差別。"
+          "desc": "同課比較：食品成分表依「含量由多到少」排列，排越前面代表添加比例越高。請說明與「食品營養標示換算」的差別。"
         },
         "crossDisciplinary": {
           "title": "說明文、圖表與資訊整合",
@@ -24917,20 +24917,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「壓力生理與心理反應」的說明，先說出規則，再用「短暫急性壓力有助於激發潛能集中注意力；長期慢性壓力會壓制免疫系統導致失眠憂鬱與身心耗竭」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「食品營養標示換算」的說明，先說出規則，再用「切忌只看每份 120 大卡就誤以為整包低熱量，若含 4 份則總熱量高達 480 大卡」核對自己的理解。"
       }
     },
     {
       "id": "health-2-kp-3",
       "unitId": "health-2",
       "order": 3,
-      "title": "【知識點 3】建設性壓力調適策略",
-      "core": "建設性壓力調適策略：運動宣洩釋放腦內啡與多巴胺；正念腹式呼吸冥想平衡自律神經；從事藝術塗鴉創作或親近自然綠色療癒。",
-      "mechanism": "對照判準與實例：運動宣洩釋放腦內啡與多巴胺；正念腹式呼吸冥想平衡自律神經；從事藝術塗鴉創作或親近自然綠色療癒。認知重構 (Cognitive reframing)：將「災難化思考」轉化為「挑戰性思維」，專注於自己可控制之部分。",
-      "explanation": "辨認「建設性壓力調適策略」時，先說出「運動宣洩釋放腦內啡與多巴胺；正念腹式呼吸冥想平衡自律神經；從事藝術塗鴉創作或親近自然綠色療癒」，再核對「認知重構 (Cognitive reframing)：將「災難化思考」轉化為「挑戰性思維」，專注於自己可控制之部分」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "運動宣洩釋放腦內啡與多巴胺；正念腹式呼吸冥想平衡自律神經；從事藝術塗鴉創作或親近自然綠色療癒｜實例與界線：認知重構 (Cognitive reframing)：將「災難化思考」轉化為「挑戰性思維」，專注於自己可控制之部分",
-      "examIntel": "自我檢核：遮住說明，試著解釋「認知重構 (Cognitive reframing)：將「災難化思考」轉化為「挑戰性思維」，專注於自己可控制之部分」與「運動宣洩釋放腦內啡與多巴胺；正念腹式呼吸冥想平衡自律神經；從事藝術塗鴉創作或親近自然綠色療癒」的關係。",
-      "practicalTip": "核對本點實例與界線：認知重構 (Cognitive reframing)：將「災難化思考」轉化為「挑戰性思維」，專注於自己可控制之部分",
+      "title": "【知識點 3】成分表排序與高糖高鈉警訊",
+      "core": "成分表排序與高糖高鈉警訊：食品成分表依「含量由多到少」排列，排越前面代表添加比例越高。",
+      "mechanism": "對照判準與實例：食品成分表依「含量由多到少」排列，排越前面代表添加比例越高。成人與青少年每日鈉建議攝取上限 2,400 mg；留意精緻糖、反式脂肪與超加工食品添加物。",
+      "explanation": "辨認「成分表排序與高糖高鈉警訊」時，先說出「食品成分表依「含量由多到少」排列，排越前面代表添加比例越高」，再核對「成人與青少年每日鈉建議攝取上限 2,400 mg；留意精緻糖、反式脂肪與超加工食品添加物」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "食品成分表依「含量由多到少」排列，排越前面代表添加比例越高｜實例與界線：成人與青少年每日鈉建議攝取上限 2,400 mg；留意精緻糖、反式脂肪與超加工食品添加物",
+      "examIntel": "自我檢核：遮住說明，試著解釋「成人與青少年每日鈉建議攝取上限 2,400 mg；留意精緻糖、反式脂肪與超加工食品添加物」與「食品成分表依「含量由多到少」排列，排越前面代表添加比例越高」的關係。",
+      "practicalTip": "核對本點實例與界線：成人與青少年每日鈉建議攝取上限 2,400 mg；留意精緻糖、反式脂肪與超加工食品添加物",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -24941,9 +24941,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "建設性壓力調適策略｜規則與實例",
+        "title": "成分表排序與高糖高鈉警訊｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"建設性壓力調適策略：概念、規則與實例\"><title>建設性壓力調適策略</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf4ee\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#775330\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">建設性壓力調適策略</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">運動宣洩釋放腦內啡與多巴胺；正念腹式呼吸冥想平衡自律神經；從事藝</tspan><tspan x=\"38\" dy=\"24\">術塗鴉創作或親近自然綠色療癒</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">認知重構 (Cognitive reframing)：將「災難化思考」轉化為「挑戰</tspan><tspan x=\"38\" dy=\"24\">性思維」，專注於自己可控制之部分</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#482f18\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"成分表排序與高糖高鈉警訊：概念、規則與實例\"><title>成分表排序與高糖高鈉警訊</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#faf4ee\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#775330\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">成分表排序與高糖高鈉警訊</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">食品成分表依「含量由多到少」排列，排越前面代表添加比例越高</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a7794d\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#775330\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#482f18\"><tspan x=\"38\" dy=\"0\">成人與青少年每日鈉建議攝取上限 2,400 mg；留意精緻糖、反式脂肪與</tspan><tspan x=\"38\" dy=\"24\">超加工食品添加物</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#482f18\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -24953,10 +24953,10 @@ export const explicitKnowledgePoints = {
           "desc": "飲食選擇需考慮多樣性、適量與生活情境。閱讀包裝要確認每份含量、每包份數與營養標示，不以廣告口號代替資料。"
         },
         "extension": {
-          "title": "情緒覺察與接納認知",
+          "title": "六大類食物與我的餐盤",
           "unitId": "health-2",
           "icon": "🚀",
-          "desc": "同課比較：情緒無好壞對錯之分，每一種情緒（憤怒、焦慮、悲傷、嫉妒）都是大腦傳遞內在需求的信號。請說明與「建設性壓力調適策略」的差別。"
+          "desc": "同課比較：全穀雜糧、豆魚蛋肉、乳品、蔬菜、水果、油脂與堅果種子六大類缺一不可。請說明與「成分表排序與高糖高鈉警訊」的差別。"
         },
         "crossDisciplinary": {
           "title": "正負數與絕對值",
@@ -24965,7 +24965,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「建設性壓力調適策略」的說明，先說出規則，再用「認知重構 (Cognitive reframing)：將「災難化思考」轉化為「挑戰性思維」，專注於自己可控制之部分」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「成分表排序與高糖高鈉警訊」的說明，先說出規則，再用「成人與青少年每日鈉建議攝取上限 2,400 mg；留意精緻糖、反式脂肪與超加工食品添加物」核對自己的理解。"
       }
     }
   ],
@@ -25558,13 +25558,13 @@ export const explicitKnowledgePoints = {
       "id": "home-1-kp-1",
       "unitId": "home-1",
       "order": 1,
-      "title": "【知識點 1】六大類食物均衡攝取",
-      "core": "六大類食物均衡攝取：全穀雜糧類（碳水化合物主要能量來源）；豆魚蛋肉類（優質蛋白質組織建構修復）；蔬菜類與水果類（維生素、礦物質與膳食纖維）。",
-      "mechanism": "對照判準與實例：全穀雜糧類（碳水化合物主要能量來源）；豆魚蛋肉類（優質蛋白質組織建構修復）；蔬菜類與水果類（維生素、礦物質與膳食纖維）。乳品類（鈣質強化骨骼牙齒）；油脂與堅果種子類（必需脂肪酸與脂溶性維生素吸收）。",
-      "explanation": "辨認「六大類食物均衡攝取」時，先說出「全穀雜糧類（碳水化合物主要能量來源）；豆魚蛋肉類（優質蛋白質組織建構修復）；蔬菜類與水果類（維生素、礦物質與膳食纖維）」，再核對「乳品類（鈣質強化骨骼牙齒）；油脂與堅果種子類（必需脂肪酸與脂溶性維生素吸收）」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "全穀雜糧類（碳水化合物主要能量來源）；豆魚蛋肉類（優質蛋白質組織建構修復）；蔬菜類與水果類（維生素、礦物質與膳食纖維）｜實例與界線：乳品類（鈣質強化骨骼牙齒）；油脂與堅果種子類（必需脂肪酸與脂溶性維生素吸收）",
-      "examIntel": "自我檢核：遮住說明，試著解釋「乳品類（鈣質強化骨骼牙齒）；油脂與堅果種子類（必需脂肪酸與脂溶性維生素吸收）」與「全穀雜糧類（碳水化合物主要能量來源）；豆魚蛋肉類（優質蛋白質組織建構修復）；蔬菜類與水果類（維生素、礦物質與膳食纖維）」的關係。",
-      "practicalTip": "核對本點實例與界線：乳品類（鈣質強化骨骼牙齒）；油脂與堅果種子類（必需脂肪酸與脂溶性維生素吸收）",
+      "title": "【知識點 1】家庭資源與無形勞動",
+      "core": "家庭資源與無形勞動：家庭資源分人力（時間、技能、體力）與非人力（金錢、空間、設備）；家務包含採買規劃與照顧等無形負擔。",
+      "mechanism": "對照判準與實例：家庭資源分人力（時間、技能、體力）與非人力（金錢、空間、設備）；家務包含採買規劃與照顧等無形負擔。「幫忙做家事」暗示家務只屬某一人；共同生活者應依能力與時間平等協商分擔責任。",
+      "explanation": "辨認「家庭資源與無形勞動」時，先說出「家庭資源分人力（時間、技能、體力）與非人力（金錢、空間、設備）；家務包含採買規劃與照顧等無形負擔」，再核對「「幫忙做家事」暗示家務只屬某一人；共同生活者應依能力與時間平等協商分擔責任」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "家庭資源分人力（時間、技能、體力）與非人力（金錢、空間、設備）；家務包含採買規劃與照顧等無形負擔｜實例與界線：「幫忙做家事」暗示家務只屬某一人；共同生活者應依能力與時間平等協商分擔責任",
+      "examIntel": "自我檢核：遮住說明，試著解釋「「幫忙做家事」暗示家務只屬某一人；共同生活者應依能力與時間平等協商分擔責任」與「家庭資源分人力（時間、技能、體力）與非人力（金錢、空間、設備）；家務包含採買規劃與照顧等無形負擔」的關係。",
+      "practicalTip": "核對本點實例與界線：「幫忙做家事」暗示家務只屬某一人；共同生活者應依能力與時間平等協商分擔責任",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -25575,9 +25575,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "六大類食物均衡攝取｜規則與實例",
+        "title": "家庭資源與無形勞動｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"六大類食物均衡攝取：概念、規則與實例\"><title>六大類食物均衡攝取</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">六大類食物均衡攝取</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">全穀雜糧類（碳水化合物主要能量來源）；豆魚蛋肉類（優質蛋白質組織</tspan><tspan x=\"38\" dy=\"24\">建構修復）；蔬菜類與水果類（維生素、礦物質與膳食纖維）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">乳品類（鈣質強化骨骼牙齒）；油脂與堅果種子類（必需脂肪酸與脂溶性</tspan><tspan x=\"38\" dy=\"24\">維生素吸收）</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"家庭資源與無形勞動：概念、規則與實例\"><title>家庭資源與無形勞動</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">家庭資源與無形勞動</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">家庭資源分人力（時間、技能、體力）與非人力（金錢、空間、設備）；</tspan><tspan x=\"38\" dy=\"24\">家務包含採買規劃與照顧等無形負擔</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">「幫忙做家事」暗示家務只屬某一人；共同生活者應依能力與時間平等協</tspan><tspan x=\"38\" dy=\"24\">商分擔責任</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -25587,10 +25587,10 @@ export const explicitKnowledgePoints = {
           "desc": "家庭工作可依時間、能力與需求協商分配，不應固定由某性別承擔。生活管理包含整理、採買、計畫與照顧，也需要評估無形負擔。"
         },
         "extension": {
-          "title": "「我的餐盤」口訣比例",
+          "title": "時間管理四象限法則",
           "unitId": "home-1",
           "icon": "🚀",
-          "desc": "同課比較：每天早晚一杯奶、每餐水果拳頭大、菜比水果多一點、飯跟蔬菜一樣多、豆魚蛋肉一掌心、堅果種子一茶匙。請說明與「六大類食物均衡攝取」的差別。"
+          "desc": "同課比較：區分緊急且重要、重要但不緊急（讀書計畫、運動、家庭相處）、緊急不重要與不緊急不重要。請說明與「家庭資源與無形勞動」的差別。"
         },
         "crossDisciplinary": {
           "title": "正負數與絕對值",
@@ -25599,20 +25599,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「六大類食物均衡攝取」的說明，先說出規則，再用「乳品類（鈣質強化骨骼牙齒）；油脂與堅果種子類（必需脂肪酸與脂溶性維生素吸收）」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「家庭資源與無形勞動」的說明，先說出規則，再用「「幫忙做家事」暗示家務只屬某一人；共同生活者應依能力與時間平等協商分擔責任」核對自己的理解。"
       }
     },
     {
       "id": "home-1-kp-2",
       "unitId": "home-1",
       "order": 2,
-      "title": "【知識點 2】「我的餐盤」口訣比例",
-      "core": "「我的餐盤」口訣比例：每天早晚一杯奶、每餐水果拳頭大、菜比水果多一點、飯跟蔬菜一樣多、豆魚蛋肉一掌心、堅果種子一茶匙。",
-      "mechanism": "對照判準與實例：每天早晚一杯奶、每餐水果拳頭大、菜比水果多一點、飯跟蔬菜一樣多、豆魚蛋肉一掌心、堅果種子一茶匙。餐盤中深綠色與深黃紅色蔬菜應占 1/3 以上，全穀雜糧盡量選擇未精製糙米燕麥地瓜。",
-      "explanation": "辨認「「我的餐盤」口訣比例」時，先說出「每天早晚一杯奶、每餐水果拳頭大、菜比水果多一點、飯跟蔬菜一樣多、豆魚蛋肉一掌心、堅果種子一茶匙」，再核對「餐盤中深綠色與深黃紅色蔬菜應占 1/3 以上，全穀雜糧盡量選擇未精製糙米燕麥地瓜」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "每天早晚一杯奶、每餐水果拳頭大、菜比水果多一點、飯跟蔬菜一樣多、豆魚蛋肉一掌心、堅果種子一茶匙｜實例與界線：餐盤中深綠色與深黃紅色蔬菜應占 1/3 以上，全穀雜糧盡量選擇未精製糙米燕麥地瓜",
-      "examIntel": "自我檢核：遮住說明，試著解釋「餐盤中深綠色與深黃紅色蔬菜應占 1/3 以上，全穀雜糧盡量選擇未精製糙米燕麥地瓜」與「每天早晚一杯奶、每餐水果拳頭大、菜比水果多一點、飯跟蔬菜一樣多、豆魚蛋肉一掌心、堅果種子一茶匙」的關係。",
-      "practicalTip": "核對本點實例與界線：餐盤中深綠色與深黃紅色蔬菜應占 1/3 以上，全穀雜糧盡量選擇未精製糙米燕麥地瓜",
+      "title": "【知識點 2】時間管理四象限法則",
+      "core": "時間管理四象限法則：區分緊急且重要、重要但不緊急（讀書計畫、運動、家庭相處）、緊急不重要與不緊急不重要。",
+      "mechanism": "對照判準與實例：區分緊急且重要、重要但不緊急（讀書計畫、運動、家庭相處）、緊急不重要與不緊急不重要。優先安排「重要但不緊急」事項，能大幅降低考前熬夜與生活失序的長期壓力。",
+      "explanation": "辨認「時間管理四象限法則」時，先說出「區分緊急且重要、重要但不緊急（讀書計畫、運動、家庭相處）、緊急不重要與不緊急不重要」，再核對「優先安排「重要但不緊急」事項，能大幅降低考前熬夜與生活失序的長期壓力」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "區分緊急且重要、重要但不緊急（讀書計畫、運動、家庭相處）、緊急不重要與不緊急不重要｜實例與界線：優先安排「重要但不緊急」事項，能大幅降低考前熬夜與生活失序的長期壓力",
+      "examIntel": "自我檢核：遮住說明，試著解釋「優先安排「重要但不緊急」事項，能大幅降低考前熬夜與生活失序的長期壓力」與「區分緊急且重要、重要但不緊急（讀書計畫、運動、家庭相處）、緊急不重要與不緊急不重要」的關係。",
+      "practicalTip": "核對本點實例與界線：優先安排「重要但不緊急」事項，能大幅降低考前熬夜與生活失序的長期壓力",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -25623,9 +25623,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "「我的餐盤」口訣比例｜規則與實例",
+        "title": "時間管理四象限法則｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"「我的餐盤」口訣比例：概念、規則與實例\"><title>「我的餐盤」口訣比例</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">「我的餐盤」口訣比例</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">每天早晚一杯奶、每餐水果拳頭大、菜比水果多一點、飯跟蔬菜一樣多、</tspan><tspan x=\"38\" dy=\"24\">豆魚蛋肉一掌心、堅果種子一茶匙</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">餐盤中深綠色與深黃紅色蔬菜應占 1/3 以上，全穀雜糧盡量選擇未精製</tspan><tspan x=\"38\" dy=\"24\">糙米燕麥地瓜</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"時間管理四象限法則：概念、規則與實例\"><title>時間管理四象限法則</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">時間管理四象限法則</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">區分緊急且重要、重要但不緊急（讀書計畫、運動、家庭相處）、緊急不</tspan><tspan x=\"38\" dy=\"24\">重要與不緊急不重要</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">優先安排「重要但不緊急」事項，能大幅降低考前熬夜與生活失序的長期</tspan><tspan x=\"38\" dy=\"24\">壓力</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -25635,10 +25635,10 @@ export const explicitKnowledgePoints = {
           "desc": "家庭工作可依時間、能力與需求協商分配，不應固定由某性別承擔。生活管理包含整理、採買、計畫與照顧，也需要評估無形負擔。"
         },
         "extension": {
-          "title": "食品營養標籤識讀",
+          "title": "家庭分工破除性別刻板",
           "unitId": "home-1",
           "icon": "🚀",
-          "desc": "同課比較：檢視「每份」熱量與營養素含量，換算「本包裝含幾份」計算總攝取熱量。請說明與「「我的餐盤」口訣比例」的差別。"
+          "desc": "同課比較：家務分工不應固定由特定性別承擔，應透過家庭會議盤點工作清單並輪替檢討。請說明與「時間管理四象限法則」的差別。"
         },
         "crossDisciplinary": {
           "title": "說明文、圖表與資訊整合",
@@ -25647,20 +25647,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「「我的餐盤」口訣比例」的說明，先說出規則，再用「餐盤中深綠色與深黃紅色蔬菜應占 1/3 以上，全穀雜糧盡量選擇未精製糙米燕麥地瓜」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「時間管理四象限法則」的說明，先說出規則，再用「優先安排「重要但不緊急」事項，能大幅降低考前熬夜與生活失序的長期壓力」核對自己的理解。"
       }
     },
     {
       "id": "home-1-kp-3",
       "unitId": "home-1",
       "order": 3,
-      "title": "【知識點 3】食品營養標籤識讀",
-      "core": "食品營養標籤識讀：檢視「每份」熱量與營養素含量，換算「本包裝含幾份」計算總攝取熱量。",
-      "mechanism": "對照判準與實例：檢視「每份」熱量與營養素含量，換算「本包裝含幾份」計算總攝取熱量。成分表按「含量多到少」依序排列；緊盯鈉含量（每日建議上限 2400 mg）與添加精緻糖含量比例。",
-      "explanation": "辨認「食品營養標籤識讀」時，先說出「檢視「每份」熱量與營養素含量，換算「本包裝含幾份」計算總攝取熱量」，再核對「成分表按「含量多到少」依序排列；緊盯鈉含量（每日建議上限 2400 mg）與添加精緻糖含量比例」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "檢視「每份」熱量與營養素含量，換算「本包裝含幾份」計算總攝取熱量｜實例與界線：成分表按「含量多到少」依序排列；緊盯鈉含量（每日建議上限 2400 mg）與添加精緻糖含量比例",
-      "examIntel": "自我檢核：遮住說明，試著解釋「成分表按「含量多到少」依序排列；緊盯鈉含量（每日建議上限 2400 mg）與添加精緻糖含量比例」與「檢視「每份」熱量與營養素含量，換算「本包裝含幾份」計算總攝取熱量」的關係。",
-      "practicalTip": "核對本點實例與界線：成分表按「含量多到少」依序排列；緊盯鈉含量（每日建議上限 2400 mg）與添加精緻糖含量比例",
+      "title": "【知識點 3】家庭分工破除性別刻板",
+      "core": "家庭分工破除性別刻板：家務分工不應固定由特定性別承擔，應透過家庭會議盤點工作清單並輪替檢討。",
+      "mechanism": "對照判準與實例：家務分工不應固定由特定性別承擔，應透過家庭會議盤點工作清單並輪替檢討。安排晚餐不只烹調，還包含盤點食材、預算採買、備料與餐後清潔，分工須看見完整流程。",
+      "explanation": "辨認「家庭分工破除性別刻板」時，先說出「家務分工不應固定由特定性別承擔，應透過家庭會議盤點工作清單並輪替檢討」，再核對「安排晚餐不只烹調，還包含盤點食材、預算採買、備料與餐後清潔，分工須看見完整流程」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "家務分工不應固定由特定性別承擔，應透過家庭會議盤點工作清單並輪替檢討｜實例與界線：安排晚餐不只烹調，還包含盤點食材、預算採買、備料與餐後清潔，分工須看見完整流程",
+      "examIntel": "自我檢核：遮住說明，試著解釋「安排晚餐不只烹調，還包含盤點食材、預算採買、備料與餐後清潔，分工須看見完整流程」與「家務分工不應固定由特定性別承擔，應透過家庭會議盤點工作清單並輪替檢討」的關係。",
+      "practicalTip": "核對本點實例與界線：安排晚餐不只烹調，還包含盤點食材、預算採買、備料與餐後清潔，分工須看見完整流程",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -25671,9 +25671,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "食品營養標籤識讀｜規則與實例",
+        "title": "家庭分工破除性別刻板｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"食品營養標籤識讀：概念、規則與實例\"><title>食品營養標籤識讀</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">食品營養標籤識讀</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">檢視「每份」熱量與營養素含量，換算「本包裝含幾份」計算總攝取熱量</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">成分表按「含量多到少」依序排列；緊盯鈉含量（每日建議上限 2400 m</tspan><tspan x=\"38\" dy=\"24\">g）與添加精緻糖含量比例</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"家庭分工破除性別刻板：概念、規則與實例\"><title>家庭分工破除性別刻板</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">家庭分工破除性別刻板</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">家務分工不應固定由特定性別承擔，應透過家庭會議盤點工作清單並輪替</tspan><tspan x=\"38\" dy=\"24\">檢討</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">安排晚餐不只烹調，還包含盤點食材、預算採買、備料與餐後清潔，分工</tspan><tspan x=\"38\" dy=\"24\">須看見完整流程</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -25683,10 +25683,10 @@ export const explicitKnowledgePoints = {
           "desc": "家庭工作可依時間、能力與需求協商分配，不應固定由某性別承擔。生活管理包含整理、採買、計畫與照顧，也需要評估無形負擔。"
         },
         "extension": {
-          "title": "六大類食物均衡攝取",
+          "title": "家庭資源與無形勞動",
           "unitId": "home-1",
           "icon": "🚀",
-          "desc": "同課比較：全穀雜糧類（碳水化合物主要能量來源）；豆魚蛋肉類（優質蛋白質組織建構修復）；蔬菜類與水果類（維生素、礦物質與膳食纖維）。請說明與「食品營養標籤識讀」的差別。"
+          "desc": "同課比較：家庭資源分人力（時間、技能、體力）與非人力（金錢、空間、設備）；家務包含採買規劃與照顧等無形負擔。請說明與「家庭分工破除性別刻板」的差別。"
         },
         "crossDisciplinary": {
           "title": "正負數與絕對值",
@@ -25695,7 +25695,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「食品營養標籤識讀」的說明，先說出規則，再用「成分表按「含量多到少」依序排列；緊盯鈉含量（每日建議上限 2400 mg）與添加精緻糖含量比例」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「家庭分工破除性別刻板」的說明，先說出規則，再用「安排晚餐不只烹調，還包含盤點食材、預算採買、備料與餐後清潔，分工須看見完整流程」核對自己的理解。"
       }
     }
   ],
@@ -25704,13 +25704,13 @@ export const explicitKnowledgePoints = {
       "id": "home-2-kp-1",
       "unitId": "home-2",
       "order": 1,
-      "title": "【知識點 1】家庭資源兩大類別",
-      "core": "家庭資源兩大類別：人力資源（知識技能、時間體力、家庭成員情感與創造力）；非人力資源（金錢財富、房產汽車、公共社區設施）。",
-      "mechanism": "對照判準與實例：人力資源（知識技能、時間體力、家庭成員情感與創造力）；非人力資源（金錢財富、房產汽車、公共社區設施）。資源具備有限性與替代性，妥善盤點調配可大幅提升家庭生活福祉與抗風險韌性。",
-      "explanation": "辨認「家庭資源兩大類別」時，先說出「人力資源（知識技能、時間體力、家庭成員情感與創造力）；非人力資源（金錢財富、房產汽車、公共社區設施）」，再核對「資源具備有限性與替代性，妥善盤點調配可大幅提升家庭生活福祉與抗風險韌性」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "人力資源（知識技能、時間體力、家庭成員情感與創造力）；非人力資源（金錢財富、房產汽車、公共社區設施）｜實例與界線：資源具備有限性與替代性，妥善盤點調配可大幅提升家庭生活福祉與抗風險韌性",
-      "examIntel": "自我檢核：遮住說明，試著解釋「資源具備有限性與替代性，妥善盤點調配可大幅提升家庭生活福祉與抗風險韌性」與「人力資源（知識技能、時間體力、家庭成員情感與創造力）；非人力資源（金錢財富、房產汽車、公共社區設施）」的關係。",
-      "practicalTip": "核對本點實例與界線：資源具備有限性與替代性，妥善盤點調配可大幅提升家庭生活福祉與抗風險韌性",
+      "title": "【知識點 1】均衡餐盤與烹調衛生",
+      "core": "均衡餐盤與烹調衛生：生熟食刀具砧板分開使用防交叉汙染；留意冷藏 (0–7°C) 與冷凍 (−18°C) 溫控與保存期限。",
+      "mechanism": "對照判準與實例：生熟食刀具砧板分開使用防交叉汙染；留意冷藏 (0–7°C) 與冷凍 (−18°C) 溫控與保存期限。選購食材認明 CAS、TAP 產銷履歷與有機標章，善用原型食材減少高油高鹽加工品。",
+      "explanation": "辨認「均衡餐盤與烹調衛生」時，先說出「生熟食刀具砧板分開使用防交叉汙染；留意冷藏 (0–7°C) 與冷凍 (−18°C) 溫控與保存期限」，再核對「選購食材認明 CAS、TAP 產銷履歷與有機標章，善用原型食材減少高油高鹽加工品」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "生熟食刀具砧板分開使用防交叉汙染；留意冷藏 (0–7°C) 與冷凍 (−18°C) 溫控與保存期限｜實例與界線：選購食材認明 CAS、TAP 產銷履歷與有機標章，善用原型食材減少高油高鹽加工品",
+      "examIntel": "自我檢核：遮住說明，試著解釋「選購食材認明 CAS、TAP 產銷履歷與有機標章，善用原型食材減少高油高鹽加工品」與「生熟食刀具砧板分開使用防交叉汙染；留意冷藏 (0–7°C) 與冷凍 (−18°C) 溫控與保存期限」的關係。",
+      "practicalTip": "核對本點實例與界線：選購食材認明 CAS、TAP 產銷履歷與有機標章，善用原型食材減少高油高鹽加工品",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -25721,9 +25721,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "家庭資源兩大類別｜規則與實例",
+        "title": "均衡餐盤與烹調衛生｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"家庭資源兩大類別：概念、規則與實例\"><title>家庭資源兩大類別</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">家庭資源兩大類別</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">人力資源（知識技能、時間體力、家庭成員情感與創造力）；非人力資源</tspan><tspan x=\"38\" dy=\"24\">（金錢財富、房產汽車、公共社區設施）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">資源具備有限性與替代性，妥善盤點調配可大幅提升家庭生活福祉與抗風</tspan><tspan x=\"38\" dy=\"24\">險韌性</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"均衡餐盤與烹調衛生：概念、規則與實例\"><title>均衡餐盤與烹調衛生</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">均衡餐盤與烹調衛生</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">生熟食刀具砧板分開使用防交叉汙染；留意冷藏 (0–7°C) 與冷凍 (−1</tspan><tspan x=\"38\" dy=\"24\">8°C) 溫控與保存期限</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">選購食材認明 CAS、TAP 產銷履歷與有機標章，善用原型食材減少高油</tspan><tspan x=\"38\" dy=\"24\">高鹽加工品</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -25733,10 +25733,10 @@ export const explicitKnowledgePoints = {
           "desc": "生活技能需要讀懂標示、選擇工具並安排流程。食材處理注意清潔與生熟分開；衣物照護依纖維特性及洗標，不是一律高溫。"
         },
         "extension": {
-          "title": "時間管理四象限法",
+          "title": "天然與人造織物特性",
           "unitId": "home-2",
           "icon": "🚀",
-          "desc": "同課比較：緊急且重要（危機事故立即處理）；重要但不緊急（讀書計畫、規律運動、生涯規劃、情感經營）。請說明與「家庭資源兩大類別」的差別。"
+          "desc": "同課比較：天然纖維（棉麻透氣吸汗易皺；羊毛蠶絲保暖親膚但怕高溫縮水）；合成纖維（聚酯、尼龍快乾耐磨但較悶熱）。請說明與「均衡餐盤與烹調衛生」的差別。"
         },
         "crossDisciplinary": {
           "title": "正負數與絕對值",
@@ -25745,20 +25745,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「家庭資源兩大類別」的說明，先說出規則，再用「資源具備有限性與替代性，妥善盤點調配可大幅提升家庭生活福祉與抗風險韌性」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「均衡餐盤與烹調衛生」的說明，先說出規則，再用「選購食材認明 CAS、TAP 產銷履歷與有機標章，善用原型食材減少高油高鹽加工品」核對自己的理解。"
       }
     },
     {
       "id": "home-2-kp-2",
       "unitId": "home-2",
       "order": 2,
-      "title": "【知識點 2】時間管理四象限法",
-      "core": "時間管理四象限法：緊急且重要（危機事故立即處理）；重要但不緊急（讀書計畫、規律運動、生涯規劃、情感經營）。",
-      "mechanism": "對照判準與實例：緊急且重要（危機事故立即處理）；重要但不緊急（讀書計畫、規律運動、生涯規劃、情感經營）。不重要但緊急（多數打擾電話即時訊息）；不重要且不緊急（沉迷滑手機廢物追劇；應嚴格減少避免）。",
-      "explanation": "辨認「時間管理四象限法」時，先說出「緊急且重要（危機事故立即處理）；重要但不緊急（讀書計畫、規律運動、生涯規劃、情感經營）」，再核對「不重要但緊急（多數打擾電話即時訊息）；不重要且不緊急（沉迷滑手機廢物追劇；應嚴格減少避免）」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "緊急且重要（危機事故立即處理）；重要但不緊急（讀書計畫、規律運動、生涯規劃、情感經營）｜實例與界線：不重要但緊急（多數打擾電話即時訊息）；不重要且不緊急（沉迷滑手機廢物追劇；應嚴格減少避免）",
-      "examIntel": "自我檢核：遮住說明，試著解釋「不重要但緊急（多數打擾電話即時訊息）；不重要且不緊急（沉迷滑手機廢物追劇；應嚴格減少避免）」與「緊急且重要（危機事故立即處理）；重要但不緊急（讀書計畫、規律運動、生涯規劃、情感經營）」的關係。",
-      "practicalTip": "核對本點實例與界線：不重要但緊急（多數打擾電話即時訊息）；不重要且不緊急（沉迷滑手機廢物追劇；應嚴格減少避免）",
+      "title": "【知識點 2】天然與人造織物特性",
+      "core": "天然與人造織物特性：天然纖維（棉麻透氣吸汗易皺；羊毛蠶絲保暖親膚但怕高溫縮水）；合成纖維（聚酯、尼龍快乾耐磨但較悶熱）。",
+      "mechanism": "對照判準與實例：天然纖維（棉麻透氣吸汗易皺；羊毛蠶絲保暖親膚但怕高溫縮水）；合成纖維（聚酯、尼龍快乾耐磨但較悶熱）。依氣候與活動需求挑選衣物材質，運動排汗適合機能聚酯，日常親膚適合純棉混紡。",
+      "explanation": "辨認「天然與人造織物特性」時，先說出「天然纖維（棉麻透氣吸汗易皺；羊毛蠶絲保暖親膚但怕高溫縮水）；合成纖維（聚酯、尼龍快乾耐磨但較悶熱）」，再核對「依氣候與活動需求挑選衣物材質，運動排汗適合機能聚酯，日常親膚適合純棉混紡」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "天然纖維（棉麻透氣吸汗易皺；羊毛蠶絲保暖親膚但怕高溫縮水）；合成纖維（聚酯、尼龍快乾耐磨但較悶熱）｜實例與界線：依氣候與活動需求挑選衣物材質，運動排汗適合機能聚酯，日常親膚適合純棉混紡",
+      "examIntel": "自我檢核：遮住說明，試著解釋「依氣候與活動需求挑選衣物材質，運動排汗適合機能聚酯，日常親膚適合純棉混紡」與「天然纖維（棉麻透氣吸汗易皺；羊毛蠶絲保暖親膚但怕高溫縮水）；合成纖維（聚酯、尼龍快乾耐磨但較悶熱）」的關係。",
+      "practicalTip": "核對本點實例與界線：依氣候與活動需求挑選衣物材質，運動排汗適合機能聚酯，日常親膚適合純棉混紡",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -25769,9 +25769,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "時間管理四象限法｜規則與實例",
+        "title": "天然與人造織物特性｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"時間管理四象限法：概念、規則與實例\"><title>時間管理四象限法</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">時間管理四象限法</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">緊急且重要（危機事故立即處理）；重要但不緊急（讀書計畫、規律運動</tspan><tspan x=\"38\" dy=\"24\">、生涯規劃、情感經營）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">不重要但緊急（多數打擾電話即時訊息）；不重要且不緊急（沉迷滑手機</tspan><tspan x=\"38\" dy=\"24\">廢物追劇；應嚴格減少避免）</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"天然與人造織物特性：概念、規則與實例\"><title>天然與人造織物特性</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">天然與人造織物特性</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">天然纖維（棉麻透氣吸汗易皺；羊毛蠶絲保暖親膚但怕高溫縮水）；合成</tspan><tspan x=\"38\" dy=\"24\">纖維（聚酯、尼龍快乾耐磨但較悶熱）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">依氣候與活動需求挑選衣物材質，運動排汗適合機能聚酯，日常親膚適合</tspan><tspan x=\"38\" dy=\"24\">純棉混紡</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -25781,10 +25781,10 @@ export const explicitKnowledgePoints = {
           "desc": "生活技能需要讀懂標示、選擇工具並安排流程。食材處理注意清潔與生熟分開；衣物照護依纖維特性及洗標，不是一律高溫。"
         },
         "extension": {
-          "title": "青少年理性理財思維",
+          "title": "國際洗滌保養標籤識讀",
           "unitId": "home-2",
           "icon": "🚀",
-          "desc": "同課比較：區分「需要 (Need)」與「想要 (Want)」；建立預算規劃與零用錢記帳習慣，落實「收入 - 儲蓄 = 支出」。請說明與「時間管理四象限法」的差別。"
+          "desc": "同課比較：水洗槽（水溫/手洗）、三角形（漂白限制）、正方形圓圈（烘乾）、熨斗（燙溫）、圓形（乾洗）。請說明與「天然與人造織物特性」的差別。"
         },
         "crossDisciplinary": {
           "title": "說明文、圖表與資訊整合",
@@ -25793,20 +25793,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「時間管理四象限法」的說明，先說出規則，再用「不重要但緊急（多數打擾電話即時訊息）；不重要且不緊急（沉迷滑手機廢物追劇；應嚴格減少避免）」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「天然與人造織物特性」的說明，先說出規則，再用「依氣候與活動需求挑選衣物材質，運動排汗適合機能聚酯，日常親膚適合純棉混紡」核對自己的理解。"
       }
     },
     {
       "id": "home-2-kp-3",
       "unitId": "home-2",
       "order": 3,
-      "title": "【知識點 3】青少年理性理財思維",
-      "core": "青少年理性理財思維：區分「需要 (Need)」與「想要 (Want)」；建立預算規劃與零用錢記帳習慣，落實「收入 - 儲蓄 = 支出」。",
-      "mechanism": "對照判準與實例：區分「需要 (Need)」與「想要 (Want)」；建立預算規劃與零用錢記帳習慣，落實「收入 - 儲蓄 = 支出」。避免衝動消費與同儕攀比，了解複利累積威力與消費信貸潛在風險，奠定長期財務獨立基石。",
-      "explanation": "辨認「青少年理性理財思維」時，先說出「區分「需要 (Need)」與「想要 (Want)」；建立預算規劃與零用錢記帳習慣，落實「收入 - 儲蓄 = 支出」」，再核對「避免衝動消費與同儕攀比，了解複利累積威力與消費信貸潛在風險，奠定長期財務獨立基石」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "區分「需要 (Need)」與「想要 (Want)」；建立預算規劃與零用錢記帳習慣，落實「收入 - 儲蓄 = 支出」｜實例與界線：避免衝動消費與同儕攀比，了解複利累積威力與消費信貸潛在風險，奠定長期財務獨立基石",
-      "examIntel": "自我檢核：遮住說明，試著解釋「避免衝動消費與同儕攀比，了解複利累積威力與消費信貸潛在風險，奠定長期財務獨立基石」與「區分「需要 (Need)」與「想要 (Want)」；建立預算規劃與零用錢記帳習慣，落實「收入 - 儲蓄 = 支出」」的關係。",
-      "practicalTip": "核對本點實例與界線：避免衝動消費與同儕攀比，了解複利累積威力與消費信貸潛在風險，奠定長期財務獨立基石",
+      "title": "【知識點 3】國際洗滌保養標籤識讀",
+      "core": "國際洗滌保養標籤識讀：水洗槽（水溫/手洗）、三角形（漂白限制）、正方形圓圈（烘乾）、熨斗（燙溫）、圓形（乾洗）。",
+      "mechanism": "對照判準與實例：水洗槽（水溫/手洗）、三角形（漂白限制）、正方形圓圈（烘乾）、熨斗（燙溫）、圓形（乾洗）。洗前先讀洗標與翻面裝袋，深淺色分開洗滌避免染色，延長衣物壽命。",
+      "explanation": "辨認「國際洗滌保養標籤識讀」時，先說出「水洗槽（水溫/手洗）、三角形（漂白限制）、正方形圓圈（烘乾）、熨斗（燙溫）、圓形（乾洗）」，再核對「洗前先讀洗標與翻面裝袋，深淺色分開洗滌避免染色，延長衣物壽命」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "水洗槽（水溫/手洗）、三角形（漂白限制）、正方形圓圈（烘乾）、熨斗（燙溫）、圓形（乾洗）｜實例與界線：洗前先讀洗標與翻面裝袋，深淺色分開洗滌避免染色，延長衣物壽命",
+      "examIntel": "自我檢核：遮住說明，試著解釋「洗前先讀洗標與翻面裝袋，深淺色分開洗滌避免染色，延長衣物壽命」與「水洗槽（水溫/手洗）、三角形（漂白限制）、正方形圓圈（烘乾）、熨斗（燙溫）、圓形（乾洗）」的關係。",
+      "practicalTip": "核對本點實例與界線：洗前先讀洗標與翻面裝袋，深淺色分開洗滌避免染色，延長衣物壽命",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -25817,9 +25817,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "青少年理性理財思維｜規則與實例",
+        "title": "國際洗滌保養標籤識讀｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"青少年理性理財思維：概念、規則與實例\"><title>青少年理性理財思維</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">青少年理性理財思維</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">區分「需要 (Need)」與「想要 (Want)」；建立預算規劃與零用錢記帳</tspan><tspan x=\"38\" dy=\"24\">習慣，落實「收入 - 儲蓄 = 支出」</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">避免衝動消費與同儕攀比，了解複利累積威力與消費信貸潛在風險，奠定</tspan><tspan x=\"38\" dy=\"24\">長期財務獨立基石</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"國際洗滌保養標籤識讀：概念、規則與實例\"><title>國際洗滌保養標籤識讀</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">國際洗滌保養標籤識讀</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">水洗槽（水溫/手洗）、三角形（漂白限制）、正方形圓圈（烘乾）、熨</tspan><tspan x=\"38\" dy=\"24\">斗（燙溫）、圓形（乾洗）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">洗前先讀洗標與翻面裝袋，深淺色分開洗滌避免染色，延長衣物壽命</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -25829,10 +25829,10 @@ export const explicitKnowledgePoints = {
           "desc": "生活技能需要讀懂標示、選擇工具並安排流程。食材處理注意清潔與生熟分開；衣物照護依纖維特性及洗標，不是一律高溫。"
         },
         "extension": {
-          "title": "家庭資源兩大類別",
+          "title": "均衡餐盤與烹調衛生",
           "unitId": "home-2",
           "icon": "🚀",
-          "desc": "同課比較：人力資源（知識技能、時間體力、家庭成員情感與創造力）；非人力資源（金錢財富、房產汽車、公共社區設施）。請說明與「青少年理性理財思維」的差別。"
+          "desc": "同課比較：生熟食刀具砧板分開使用防交叉汙染；留意冷藏 (0–7°C) 與冷凍 (−18°C) 溫控與保存期限。請說明與「國際洗滌保養標籤識讀」的差別。"
         },
         "crossDisciplinary": {
           "title": "正負數與絕對值",
@@ -25841,7 +25841,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「青少年理性理財思維」的說明，先說出規則，再用「避免衝動消費與同儕攀比，了解複利累積威力與消費信貸潛在風險，奠定長期財務獨立基石」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「國際洗滌保養標籤識讀」的說明，先說出規則，再用「洗前先讀洗標與翻面裝袋，深淺色分開洗滌避免染色，延長衣物壽命」核對自己的理解。"
       }
     }
   ],
@@ -25850,13 +25850,13 @@ export const explicitKnowledgePoints = {
       "id": "home-3-kp-1",
       "unitId": "home-3",
       "order": 1,
-      "title": "【知識點 1】常見織物纖維分類",
-      "core": "常見織物纖維分類：天然纖維（植物纖維如棉麻吸濕透氣易皺；動物纖維如羊毛蠶絲保暖親膚但易縮水遇熱變性）。",
-      "mechanism": "對照判準與實例：天然纖維（植物纖維如棉麻吸濕透氣易皺；動物纖維如羊毛蠶絲保暖親膚但易縮水遇熱變性）。人造化學纖維（合成纖維如聚酯纖維、尼龍耐磨抗皺快乾但易起毛球靜電與悶熱）。",
-      "explanation": "辨認「常見織物纖維分類」時，先說出「天然纖維（植物纖維如棉麻吸濕透氣易皺；動物纖維如羊毛蠶絲保暖親膚但易縮水遇熱變性）」，再核對「人造化學纖維（合成纖維如聚酯纖維、尼龍耐磨抗皺快乾但易起毛球靜電與悶熱）」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "天然纖維（植物纖維如棉麻吸濕透氣易皺；動物纖維如羊毛蠶絲保暖親膚但易縮水遇熱變性）｜實例與界線：人造化學纖維（合成纖維如聚酯纖維、尼龍耐磨抗皺快乾但易起毛球靜電與悶熱）",
-      "examIntel": "自我檢核：遮住說明，試著解釋「人造化學纖維（合成纖維如聚酯纖維、尼龍耐磨抗皺快乾但易起毛球靜電與悶熱）」與「天然纖維（植物纖維如棉麻吸濕透氣易皺；動物纖維如羊毛蠶絲保暖親膚但易縮水遇熱變性）」的關係。",
-      "practicalTip": "核對本點實例與界線：人造化學纖維（合成纖維如聚酯纖維、尼龍耐磨抗皺快乾但易起毛球靜電與悶熱）",
+      "title": "【知識點 1】區分需要 (Need) 與想要 (Want)",
+      "core": "區分需要 (Need) 與想要 (Want)：消費前先問自己「沒買會影響生活嗎？」，避免受限時促銷、網紅業配或同儕比較引發衝動消費。",
+      "mechanism": "對照判準與實例：消費前先問自己「沒買會影響生活嗎？」，避免受限時促銷、網紅業配或同儕比較引發衝動消費。落實「收入 − 儲蓄 ＝ 支出」預算原則，建立零用錢記帳習慣以看見真實金流。",
+      "explanation": "辨認「區分需要 (Need) 與想要 (Want)」時，先說出「消費前先問自己「沒買會影響生活嗎？」，避免受限時促銷、網紅業配或同儕比較引發衝動消費」，再核對「落實「收入 − 儲蓄 ＝ 支出」預算原則，建立零用錢記帳習慣以看見真實金流」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "消費前先問自己「沒買會影響生活嗎？」，避免受限時促銷、網紅業配或同儕比較引發衝動消費｜實例與界線：落實「收入 − 儲蓄 ＝ 支出」預算原則，建立零用錢記帳習慣以看見真實金流",
+      "examIntel": "自我檢核：遮住說明，試著解釋「落實「收入 − 儲蓄 ＝ 支出」預算原則，建立零用錢記帳習慣以看見真實金流」與「消費前先問自己「沒買會影響生活嗎？」，避免受限時促銷、網紅業配或同儕比較引發衝動消費」的關係。",
+      "practicalTip": "核對本點實例與界線：落實「收入 − 儲蓄 ＝ 支出」預算原則，建立零用錢記帳習慣以看見真實金流",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -25867,9 +25867,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "常見織物纖維分類｜規則與實例",
+        "title": "區分需要 (Need) 與想要 (Want)｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"常見織物纖維分類：概念、規則與實例\"><title>常見織物纖維分類</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">常見織物纖維分類</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">天然纖維（植物纖維如棉麻吸濕透氣易皺；動物纖維如羊毛蠶絲保暖親膚</tspan><tspan x=\"38\" dy=\"24\">但易縮水遇熱變性）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">人造化學纖維（合成纖維如聚酯纖維、尼龍耐磨抗皺快乾但易起毛球靜電</tspan><tspan x=\"38\" dy=\"24\">與悶熱）</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"區分需要 (Need) 與想要 (Want)：概念、規則與實例\"><title>區分需要 (Need) 與想要 (Want)</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">區分需要 (Need) 與想要 (Want)</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">消費前先問自己「沒買會影響生活嗎？」，避免受限時促銷、網紅業配或</tspan><tspan x=\"38\" dy=\"24\">同儕比較引發衝動消費</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">落實「收入 − 儲蓄 ＝ 支出」預算原則，建立零用錢記帳習慣以看見真</tspan><tspan x=\"38\" dy=\"24\">實金流</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -25879,10 +25879,10 @@ export const explicitKnowledgePoints = {
           "desc": "消費前區分需要與想要，考量預算、使用頻率、維修與總成本。紀錄可幫助發現支出模式，目標需保留調整空間。"
         },
         "extension": {
-          "title": "國際洗滌保養標籤識讀",
+          "title": "比價與消費權益保護",
           "unitId": "home-3",
           "icon": "🚀",
-          "desc": "同課比較：水洗槽符號（水洗溫度、手洗標示）；三角形（漂白限制，打叉嚴禁氯漂）；正方形內圓形（烘乾限制）。請說明與「常見織物纖維分類」的差別。"
+          "desc": "同課比較：計算單位價格（每公克／每毫升價格）比對大小包裝與組合折扣，別被大字標價誤導。請說明與「區分需要 (Need) 與想要 (Want)」的差別。"
         },
         "crossDisciplinary": {
           "title": "正負數與絕對值",
@@ -25891,20 +25891,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「常見織物纖維分類」的說明，先說出規則，再用「人造化學纖維（合成纖維如聚酯纖維、尼龍耐磨抗皺快乾但易起毛球靜電與悶熱）」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「區分需要 (Need) 與想要 (Want)」的說明，先說出規則，再用「落實「收入 − 儲蓄 ＝ 支出」預算原則，建立零用錢記帳習慣以看見真實金流」核對自己的理解。"
       }
     },
     {
       "id": "home-3-kp-2",
       "unitId": "home-3",
       "order": 2,
-      "title": "【知識點 2】國際洗滌保養標籤識讀",
-      "core": "國際洗滌保養標籤識讀：水洗槽符號（水洗溫度、手洗標示）；三角形（漂白限制，打叉嚴禁氯漂）；正方形內圓形（烘乾限制）。",
-      "mechanism": "對照判準與實例：水洗槽符號（水洗溫度、手洗標示）；三角形（漂白限制，打叉嚴禁氯漂）；正方形內圓形（烘乾限制）。熨斗符號（熨燙溫度限制點數）；圓形（乾洗限制標示；不可水洗高檔毛料送專業乾洗）。",
-      "explanation": "辨認「國際洗滌保養標籤識讀」時，先說出「水洗槽符號（水洗溫度、手洗標示）；三角形（漂白限制，打叉嚴禁氯漂）；正方形內圓形（烘乾限制）」，再核對「熨斗符號（熨燙溫度限制點數）；圓形（乾洗限制標示；不可水洗高檔毛料送專業乾洗）」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "水洗槽符號（水洗溫度、手洗標示）；三角形（漂白限制，打叉嚴禁氯漂）；正方形內圓形（烘乾限制）｜實例與界線：熨斗符號（熨燙溫度限制點數）；圓形（乾洗限制標示；不可水洗高檔毛料送專業乾洗）",
-      "examIntel": "自我檢核：遮住說明，試著解釋「熨斗符號（熨燙溫度限制點數）；圓形（乾洗限制標示；不可水洗高檔毛料送專業乾洗）」與「水洗槽符號（水洗溫度、手洗標示）；三角形（漂白限制，打叉嚴禁氯漂）；正方形內圓形（烘乾限制）」的關係。",
-      "practicalTip": "核對本點實例與界線：熨斗符號（熨燙溫度限制點數）；圓形（乾洗限制標示；不可水洗高檔毛料送專業乾洗）",
+      "title": "【知識點 2】比價與消費權益保護",
+      "core": "比價與消費權益保護：計算單位價格（每公克／每毫升價格）比對大小包裝與組合折扣，別被大字標價誤導。",
+      "mechanism": "對照判準與實例：計算單位價格（每公克／每毫升價格）比對大小包裝與組合折扣，別被大字標價誤導。網購七日鑑賞期、退換貨憑證與發票保存皆為重要消費防身術，遇糾紛可善用 1950 消保專線。",
+      "explanation": "辨認「比價與消費權益保護」時，先說出「計算單位價格（每公克／每毫升價格）比對大小包裝與組合折扣，別被大字標價誤導」，再核對「網購七日鑑賞期、退換貨憑證與發票保存皆為重要消費防身術，遇糾紛可善用 1950 消保專線」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "計算單位價格（每公克／每毫升價格）比對大小包裝與組合折扣，別被大字標價誤導｜實例與界線：網購七日鑑賞期、退換貨憑證與發票保存皆為重要消費防身術，遇糾紛可善用 1950 消保專線",
+      "examIntel": "自我檢核：遮住說明，試著解釋「網購七日鑑賞期、退換貨憑證與發票保存皆為重要消費防身術，遇糾紛可善用 1950 消保專線」與「計算單位價格（每公克／每毫升價格）比對大小包裝與組合折扣，別被大字標價誤導」的關係。",
+      "practicalTip": "核對本點實例與界線：網購七日鑑賞期、退換貨憑證與發票保存皆為重要消費防身術，遇糾紛可善用 1950 消保專線",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -25915,9 +25915,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "國際洗滌保養標籤識讀｜規則與實例",
+        "title": "比價與消費權益保護｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"國際洗滌保養標籤識讀：概念、規則與實例\"><title>國際洗滌保養標籤識讀</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">國際洗滌保養標籤識讀</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">水洗槽符號（水洗溫度、手洗標示）；三角形（漂白限制，打叉嚴禁氯漂</tspan><tspan x=\"38\" dy=\"24\">）；正方形內圓形（烘乾限制）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">熨斗符號（熨燙溫度限制點數）；圓形（乾洗限制標示；不可水洗高檔毛</tspan><tspan x=\"38\" dy=\"24\">料送專業乾洗）</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"比價與消費權益保護：概念、規則與實例\"><title>比價與消費權益保護</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">比價與消費權益保護</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">計算單位價格（每公克／每毫升價格）比對大小包裝與組合折扣，別被大</tspan><tspan x=\"38\" dy=\"24\">字標價誤導</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">網購七日鑑賞期、退換貨憑證與發票保存皆為重要消費防身術，遇糾紛可</tspan><tspan x=\"38\" dy=\"24\">善用 1950 消保專線</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -25927,10 +25927,10 @@ export const explicitKnowledgePoints = {
           "desc": "消費前區分需要與想要，考量預算、使用頻率、維修與總成本。紀錄可幫助發現支出模式，目標需保留調整空間。"
         },
         "extension": {
-          "title": "衣物污漬化學處理",
+          "title": "數位支付與理財風險",
           "unitId": "home-3",
           "icon": "🚀",
-          "desc": "同課比較：油性污漬用洗碗精或界面活性劑局部乳化分解；蛋白質血漬切忌用熱水（會使蛋白質凝固變性），須用冷水清洗。請說明與「國際洗滌保養標籤識讀」的差別。"
+          "desc": "同課比較：行動支付與先買後付容易降低花錢痛感，須設定每週支出上限並定期對帳。請說明與「比價與消費權益保護」的差別。"
         },
         "crossDisciplinary": {
           "title": "說明文、圖表與資訊整合",
@@ -25939,20 +25939,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「國際洗滌保養標籤識讀」的說明，先說出規則，再用「熨斗符號（熨燙溫度限制點數）；圓形（乾洗限制標示；不可水洗高檔毛料送專業乾洗）」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「比價與消費權益保護」的說明，先說出規則，再用「網購七日鑑賞期、退換貨憑證與發票保存皆為重要消費防身術，遇糾紛可善用 1950 消保專線」核對自己的理解。"
       }
     },
     {
       "id": "home-3-kp-3",
       "unitId": "home-3",
       "order": 3,
-      "title": "【知識點 3】衣物污漬化學處理",
-      "core": "衣物污漬化學處理：油性污漬用洗碗精或界面活性劑局部乳化分解；蛋白質血漬切忌用熱水（會使蛋白質凝固變性），須用冷水清洗。",
-      "mechanism": "對照判準與實例：油性污漬用洗碗精或界面活性劑局部乳化分解；蛋白質血漬切忌用熱水（會使蛋白質凝固變性），須用冷水清洗。深淺色衣物分開洗滌防染色；細緻衣物與拉鍊衣物裝入洗衣袋保護，延長衣物使用壽命。",
-      "explanation": "辨認「衣物污漬化學處理」時，先說出「油性污漬用洗碗精或界面活性劑局部乳化分解；蛋白質血漬切忌用熱水（會使蛋白質凝固變性），須用冷水清洗」，再核對「深淺色衣物分開洗滌防染色；細緻衣物與拉鍊衣物裝入洗衣袋保護，延長衣物使用壽命」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "油性污漬用洗碗精或界面活性劑局部乳化分解；蛋白質血漬切忌用熱水（會使蛋白質凝固變性），須用冷水清洗｜實例與界線：深淺色衣物分開洗滌防染色；細緻衣物與拉鍊衣物裝入洗衣袋保護，延長衣物使用壽命",
-      "examIntel": "自我檢核：遮住說明，試著解釋「深淺色衣物分開洗滌防染色；細緻衣物與拉鍊衣物裝入洗衣袋保護，延長衣物使用壽命」與「油性污漬用洗碗精或界面活性劑局部乳化分解；蛋白質血漬切忌用熱水（會使蛋白質凝固變性），須用冷水清洗」的關係。",
-      "practicalTip": "核對本點實例與界線：深淺色衣物分開洗滌防染色；細緻衣物與拉鍊衣物裝入洗衣袋保護，延長衣物使用壽命",
+      "title": "【知識點 3】數位支付與理財風險",
+      "core": "數位支付與理財風險：行動支付與先買後付容易降低花錢痛感，須設定每週支出上限並定期對帳。",
+      "mechanism": "對照判準與實例：行動支付與先買後付容易降低花錢痛感，須設定每週支出上限並定期對帳。了解複利與長期儲蓄累積威力，絕不輕信高報酬零風險之網路投資詐騙。",
+      "explanation": "辨認「數位支付與理財風險」時，先說出「行動支付與先買後付容易降低花錢痛感，須設定每週支出上限並定期對帳」，再核對「了解複利與長期儲蓄累積威力，絕不輕信高報酬零風險之網路投資詐騙」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "行動支付與先買後付容易降低花錢痛感，須設定每週支出上限並定期對帳｜實例與界線：了解複利與長期儲蓄累積威力，絕不輕信高報酬零風險之網路投資詐騙",
+      "examIntel": "自我檢核：遮住說明，試著解釋「了解複利與長期儲蓄累積威力，絕不輕信高報酬零風險之網路投資詐騙」與「行動支付與先買後付容易降低花錢痛感，須設定每週支出上限並定期對帳」的關係。",
+      "practicalTip": "核對本點實例與界線：了解複利與長期儲蓄累積威力，絕不輕信高報酬零風險之網路投資詐騙",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -25963,9 +25963,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "衣物污漬化學處理｜規則與實例",
+        "title": "數位支付與理財風險｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"衣物污漬化學處理：概念、規則與實例\"><title>衣物污漬化學處理</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">衣物污漬化學處理</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">油性污漬用洗碗精或界面活性劑局部乳化分解；蛋白質血漬切忌用熱水（</tspan><tspan x=\"38\" dy=\"24\">會使蛋白質凝固變性），須用冷水清洗</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">深淺色衣物分開洗滌防染色；細緻衣物與拉鍊衣物裝入洗衣袋保護，延長</tspan><tspan x=\"38\" dy=\"24\">衣物使用壽命</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 338\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"數位支付與理財風險：概念、規則與實例\"><title>數位支付與理財風險</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"336\" rx=\"16\" fill=\"#faf1f1\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#774c4c\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">數位支付與理財風險</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">行動支付與先買後付容易降低花錢痛感，須設定每週支出上限並定期對帳</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#a97070\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#774c4c\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#472b2b\"><tspan x=\"38\" dy=\"0\">了解複利與長期儲蓄累積威力，絕不輕信高報酬零風險之網路投資詐騙</tspan></text><text x=\"22\" y=\"324\" font-size=\"11\" fill=\"#472b2b\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -25975,10 +25975,10 @@ export const explicitKnowledgePoints = {
           "desc": "消費前區分需要與想要，考量預算、使用頻率、維修與總成本。紀錄可幫助發現支出模式，目標需保留調整空間。"
         },
         "extension": {
-          "title": "常見織物纖維分類",
+          "title": "區分需要 (Need) 與想要 (Want)",
           "unitId": "home-3",
           "icon": "🚀",
-          "desc": "同課比較：天然纖維（植物纖維如棉麻吸濕透氣易皺；動物纖維如羊毛蠶絲保暖親膚但易縮水遇熱變性）。請說明與「衣物污漬化學處理」的差別。"
+          "desc": "同課比較：消費前先問自己「沒買會影響生活嗎？」，避免受限時促銷、網紅業配或同儕比較引發衝動消費。請說明與「數位支付與理財風險」的差別。"
         },
         "crossDisciplinary": {
           "title": "正負數與絕對值",
@@ -25987,7 +25987,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「衣物污漬化學處理」的說明，先說出規則，再用「深淺色衣物分開洗滌防染色；細緻衣物與拉鍊衣物裝入洗衣袋保護，延長衣物使用壽命」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「數位支付與理財風險」的說明，先說出規則，再用「了解複利與長期儲蓄累積威力，絕不輕信高報酬零風險之網路投資詐騙」核對自己的理解。"
       }
     }
   ],
@@ -26142,13 +26142,13 @@ export const explicitKnowledgePoints = {
       "id": "scout-2-kp-1",
       "unitId": "scout-2",
       "order": 1,
-      "title": "【知識點 1】平結 (Reef Knot)",
-      "core": "平結 (Reef Knot)：用於連接兩條「粗細相同」的繩索，結形扁平易解，常用於急救三角巾包紮固定。",
-      "mechanism": "對照判準與實例：用於連接兩條「粗細相同」的繩索，結形扁平易解，常用於急救三角巾包紮固定。兩端繩頭「左壓右、右壓左」；切記粗細不同的繩索不可用平結連接，極易滑脫鬆散。",
-      "explanation": "辨認「平結 (Reef Knot)」時，先說出「用於連接兩條「粗細相同」的繩索，結形扁平易解，常用於急救三角巾包紮固定」，再核對「兩端繩頭「左壓右、右壓左」；切記粗細不同的繩索不可用平結連接，極易滑脫鬆散」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "用於連接兩條「粗細相同」的繩索，結形扁平易解，常用於急救三角巾包紮固定｜實例與界線：兩端繩頭「左壓右、右壓左」；切記粗細不同的繩索不可用平結連接，極易滑脫鬆散",
-      "examIntel": "自我檢核：遮住說明，試著解釋「兩端繩頭「左壓右、右壓左」；切記粗細不同的繩索不可用平結連接，極易滑脫鬆散」與「用於連接兩條「粗細相同」的繩索，結形扁平易解，常用於急救三角巾包紮固定」的關係。",
-      "practicalTip": "核對本點實例與界線：兩端繩頭「左壓右、右壓左」；切記粗細不同的繩索不可用平結連接，極易滑脫鬆散",
+      "title": "【知識點 1】指北針與地圖定向",
+      "core": "指北針與地圖定向：指北針磁針紅端恆指磁北；將地圖正北與指北針北向對齊完成定向，再判讀行進方位角。",
+      "mechanism": "對照判準與實例：指北針磁針紅端恆指磁北；將地圖正北與指北針北向對齊完成定向，再判讀行進方位角。搭配等高線山脊、山谷、溪流與明顯地標交叉核對所在位置，切勿只依直覺猜路。",
+      "explanation": "辨認「指北針與地圖定向」時，先說出「指北針磁針紅端恆指磁北；將地圖正北與指北針北向對齊完成定向，再判讀行進方位角」，再核對「搭配等高線山脊、山谷、溪流與明顯地標交叉核對所在位置，切勿只依直覺猜路」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "指北針磁針紅端恆指磁北；將地圖正北與指北針北向對齊完成定向，再判讀行進方位角｜實例與界線：搭配等高線山脊、山谷、溪流與明顯地標交叉核對所在位置，切勿只依直覺猜路",
+      "examIntel": "自我檢核：遮住說明，試著解釋「搭配等高線山脊、山谷、溪流與明顯地標交叉核對所在位置，切勿只依直覺猜路」與「指北針磁針紅端恆指磁北；將地圖正北與指北針北向對齊完成定向，再判讀行進方位角」的關係。",
+      "practicalTip": "核對本點實例與界線：搭配等高線山脊、山谷、溪流與明顯地標交叉核對所在位置，切勿只依直覺猜路",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -26159,9 +26159,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "平結 (Reef Knot)｜規則與實例",
+        "title": "指北針與地圖定向｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"平結 (Reef Knot)：概念、規則與實例\"><title>平結 (Reef Knot)</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f2f7ef\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#445b34\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">平結 (Reef Knot)</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">用於連接兩條「粗細相同」的繩索，結形扁平易解，常用於急救三角巾包</tspan><tspan x=\"38\" dy=\"24\">紮固定</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">兩端繩頭「左壓右、右壓左」；切記粗細不同的繩索不可用平結連接，極</tspan><tspan x=\"38\" dy=\"24\">易滑脫鬆散</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#25351a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"指北針與地圖定向：概念、規則與實例\"><title>指北針與地圖定向</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f2f7ef\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#445b34\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">指北針與地圖定向</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">指北針磁針紅端恆指磁北；將地圖正北與指北針北向對齊完成定向，再判</tspan><tspan x=\"38\" dy=\"24\">讀行進方位角</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">搭配等高線山脊、山谷、溪流與明顯地標交叉核對所在位置，切勿只依直</tspan><tspan x=\"38\" dy=\"24\">覺猜路</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#25351a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -26171,10 +26171,10 @@ export const explicitKnowledgePoints = {
           "desc": "定向需要把地圖與實地對上，辨認方向、地標及距離。指南針是輔助工具，也要理解附近金屬或磁場可能干擾讀值。"
         },
         "extension": {
-          "title": "接繩結與雙半結",
+          "title": "自然環境線索觀察",
           "unitId": "scout-2",
           "icon": "🚀",
-          "desc": "同課比較：接繩結（專門用於連接兩條「粗細不同」之繩索）；雙半結（用於將繩子固定在柱子或樹幹上，越拉越緊易打好解）。請說明與「平結 (Reef Knot)」的差別。"
+          "desc": "同課比較：觀察雲層變化、風向、地表坡度與植物潮濕度，及早發現天候轉壞或落石滑坡風險。請說明與「指北針與地圖定向」的差別。"
         },
         "crossDisciplinary": {
           "title": "正負數與絕對值",
@@ -26183,20 +26183,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「平結 (Reef Knot)」的說明，先說出規則，再用「兩端繩頭「左壓右、右壓左」；切記粗細不同的繩索不可用平結連接，極易滑脫鬆散」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「指北針與地圖定向」的說明，先說出規則，再用「搭配等高線山脊、山谷、溪流與明顯地標交叉核對所在位置，切勿只依直覺猜路」核對自己的理解。"
       }
     },
     {
       "id": "scout-2-kp-2",
       "unitId": "scout-2",
       "order": 2,
-      "title": "【知識點 2】接繩結與雙半結",
-      "core": "接繩結與雙半結：接繩結（專門用於連接兩條「粗細不同」之繩索）；雙半結（用於將繩子固定在柱子或樹幹上，越拉越緊易打好解）。",
-      "mechanism": "對照判準與實例：接繩結（專門用於連接兩條「粗細不同」之繩索）；雙半結（用於將繩子固定在柱子或樹幹上，越拉越緊易打好解）。營繩調整鬆緊常搭配雙半結或營繩結使用，確保帳篷外帳迎風拉力平衡。",
-      "explanation": "辨認「接繩結與雙半結」時，先說出「接繩結（專門用於連接兩條「粗細不同」之繩索）；雙半結（用於將繩子固定在柱子或樹幹上，越拉越緊易打好解）」，再核對「營繩調整鬆緊常搭配雙半結或營繩結使用，確保帳篷外帳迎風拉力平衡」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "接繩結（專門用於連接兩條「粗細不同」之繩索）；雙半結（用於將繩子固定在柱子或樹幹上，越拉越緊易打好解）｜實例與界線：營繩調整鬆緊常搭配雙半結或營繩結使用，確保帳篷外帳迎風拉力平衡",
-      "examIntel": "自我檢核：遮住說明，試著解釋「營繩調整鬆緊常搭配雙半結或營繩結使用，確保帳篷外帳迎風拉力平衡」與「接繩結（專門用於連接兩條「粗細不同」之繩索）；雙半結（用於將繩子固定在柱子或樹幹上，越拉越緊易打好解）」的關係。",
-      "practicalTip": "核對本點實例與界線：營繩調整鬆緊常搭配雙半結或營繩結使用，確保帳篷外帳迎風拉力平衡",
+      "title": "【知識點 2】自然環境線索觀察",
+      "core": "自然環境線索觀察：觀察雲層變化、風向、地表坡度與植物潮濕度，及早發現天候轉壞或落石滑坡風險。",
+      "mechanism": "對照判準與實例：觀察雲層變化、風向、地表坡度與植物潮濕度，及早發現天候轉壞或落石滑坡風險。夜間可藉北斗七星或仙后座定位北極星辨認北方；山區午後易起霧須預留折返緩衝時間。",
+      "explanation": "辨認「自然環境線索觀察」時，先說出「觀察雲層變化、風向、地表坡度與植物潮濕度，及早發現天候轉壞或落石滑坡風險」，再核對「夜間可藉北斗七星或仙后座定位北極星辨認北方；山區午後易起霧須預留折返緩衝時間」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "觀察雲層變化、風向、地表坡度與植物潮濕度，及早發現天候轉壞或落石滑坡風險｜實例與界線：夜間可藉北斗七星或仙后座定位北極星辨認北方；山區午後易起霧須預留折返緩衝時間",
+      "examIntel": "自我檢核：遮住說明，試著解釋「夜間可藉北斗七星或仙后座定位北極星辨認北方；山區午後易起霧須預留折返緩衝時間」與「觀察雲層變化、風向、地表坡度與植物潮濕度，及早發現天候轉壞或落石滑坡風險」的關係。",
+      "practicalTip": "核對本點實例與界線：夜間可藉北斗七星或仙后座定位北極星辨認北方；山區午後易起霧須預留折返緩衝時間",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -26207,9 +26207,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "接繩結與雙半結｜規則與實例",
+        "title": "自然環境線索觀察｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"接繩結與雙半結：概念、規則與實例\"><title>接繩結與雙半結</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#f2f7ef\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#445b34\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">接繩結與雙半結</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">接繩結（專門用於連接兩條「粗細不同」之繩索）；雙半結（用於將繩子</tspan><tspan x=\"38\" dy=\"24\">固定在柱子或樹幹上，越拉越緊易打好解）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">營繩調整鬆緊常搭配雙半結或營繩結使用，確保帳篷外帳迎風拉力平衡</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#25351a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"自然環境線索觀察：概念、規則與實例\"><title>自然環境線索觀察</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f2f7ef\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#445b34\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">自然環境線索觀察</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">觀察雲層變化、風向、地表坡度與植物潮濕度，及早發現天候轉壞或落石</tspan><tspan x=\"38\" dy=\"24\">滑坡風險</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">夜間可藉北斗七星或仙后座定位北極星辨認北方；山區午後易起霧須預留</tspan><tspan x=\"38\" dy=\"24\">折返緩衝時間</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#25351a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -26219,10 +26219,10 @@ export const explicitKnowledgePoints = {
           "desc": "定向需要把地圖與實地對上，辨認方向、地標及距離。指南針是輔助工具，也要理解附近金屬或磁場可能干擾讀值。"
         },
         "extension": {
-          "title": "稱人結 (Bowline Knot)",
+          "title": "迷途應變 STOP 原則",
           "unitId": "scout-2",
           "icon": "🚀",
-          "desc": "同課比較：「繩結之王」，能在繩端打出大小固定且永不收緊滑脫的強固安全環圈。請說明與「接繩結與雙半結」的差別。"
+          "desc": "同課比較：S（Stop 立即停步冷靜）、T（Think 思考檢視裝備）、O（Observe 觀察地形避難處）、P（Plan 擬定待援計畫）。請說明與「自然環境線索觀察」的差別。"
         },
         "crossDisciplinary": {
           "title": "說明文、圖表與資訊整合",
@@ -26231,20 +26231,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「接繩結與雙半結」的說明，先說出規則，再用「營繩調整鬆緊常搭配雙半結或營繩結使用，確保帳篷外帳迎風拉力平衡」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「自然環境線索觀察」的說明，先說出規則，再用「夜間可藉北斗七星或仙后座定位北極星辨認北方；山區午後易起霧須預留折返緩衝時間」核對自己的理解。"
       }
     },
     {
       "id": "scout-2-kp-3",
       "unitId": "scout-2",
       "order": 3,
-      "title": "【知識點 3】稱人結 (Bowline Knot)",
-      "core": "稱人結 (Bowline Knot)：「繩結之王」，能在繩端打出大小固定且永不收緊滑脫的強固安全環圈。",
-      "mechanism": "對照判準與實例：「繩結之王」，能在繩端打出大小固定且永不收緊滑脫的強固安全環圈。用於野外攀岩下降、人體吊掛急救吊帶、固定船隻纜繩；受巨大拉力後依然能輕鬆拆解。",
-      "explanation": "辨認「稱人結 (Bowline Knot)」時，先說出「「繩結之王」，能在繩端打出大小固定且永不收緊滑脫的強固安全環圈」，再核對「用於野外攀岩下降、人體吊掛急救吊帶、固定船隻纜繩；受巨大拉力後依然能輕鬆拆解」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "「繩結之王」，能在繩端打出大小固定且永不收緊滑脫的強固安全環圈｜實例與界線：用於野外攀岩下降、人體吊掛急救吊帶、固定船隻纜繩；受巨大拉力後依然能輕鬆拆解",
-      "examIntel": "自我檢核：遮住說明，試著解釋「用於野外攀岩下降、人體吊掛急救吊帶、固定船隻纜繩；受巨大拉力後依然能輕鬆拆解」與「「繩結之王」，能在繩端打出大小固定且永不收緊滑脫的強固安全環圈」的關係。",
-      "practicalTip": "核對本點實例與界線：用於野外攀岩下降、人體吊掛急救吊帶、固定船隻纜繩；受巨大拉力後依然能輕鬆拆解",
+      "title": "【知識點 3】迷途應變 STOP 原則",
+      "core": "迷途應變 STOP 原則：S（Stop 立即停步冷靜）、T（Think 思考檢視裝備）、O（Observe 觀察地形避難處）、P（Plan 擬定待援計畫）。",
+      "mechanism": "對照判準與實例：S（Stop 立即停步冷靜）、T（Think 思考檢視裝備）、O（Observe 觀察地形避難處）、P（Plan 擬定待援計畫）。迷路切忌盲目往溪谷下切（易遇斷崖瀑布與失溫），應退回明顯路徑或高處稜線原地待援。",
+      "explanation": "辨認「迷途應變 STOP 原則」時，先說出「S（Stop 立即停步冷靜）、T（Think 思考檢視裝備）、O（Observe 觀察地形避難處）、P（Plan 擬定待援計畫）」，再核對「迷路切忌盲目往溪谷下切（易遇斷崖瀑布與失溫），應退回明顯路徑或高處稜線原地待援」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "S（Stop 立即停步冷靜）、T（Think 思考檢視裝備）、O（Observe 觀察地形避難處）、P（Plan 擬定待援計畫）｜實例與界線：迷路切忌盲目往溪谷下切（易遇斷崖瀑布與失溫），應退回明顯路徑或高處稜線原地待援",
+      "examIntel": "自我檢核：遮住說明，試著解釋「迷路切忌盲目往溪谷下切（易遇斷崖瀑布與失溫），應退回明顯路徑或高處稜線原地待援」與「S（Stop 立即停步冷靜）、T（Think 思考檢視裝備）、O（Observe 觀察地形避難處）、P（Plan 擬定待援計畫）」的關係。",
+      "practicalTip": "核對本點實例與界線：迷路切忌盲目往溪谷下切（易遇斷崖瀑布與失溫），應退回明顯路徑或高處稜線原地待援",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -26255,9 +26255,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "稱人結 (Bowline Knot)｜規則與實例",
+        "title": "迷途應變 STOP 原則｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"稱人結 (Bowline Knot)：概念、規則與實例\"><title>稱人結 (Bowline Knot)</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#f2f7ef\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#445b34\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">稱人結 (Bowline Knot)</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">「繩結之王」，能在繩端打出大小固定且永不收緊滑脫的強固安全環圈</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">用於野外攀岩下降、人體吊掛急救吊帶、固定船隻纜繩；受巨大拉力後依</tspan><tspan x=\"38\" dy=\"24\">然能輕鬆拆解</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#25351a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"迷途應變 STOP 原則：概念、規則與實例\"><title>迷途應變 STOP 原則</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f2f7ef\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#445b34\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">迷途應變 STOP 原則</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">S（Stop 立即停步冷靜）、T（Think 思考檢視裝備）、O（Observe </tspan><tspan x=\"38\" dy=\"24\">觀察地形避難處）、P（Plan 擬定待援計畫）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">迷路切忌盲目往溪谷下切（易遇斷崖瀑布與失溫），應退回明顯路徑或高</tspan><tspan x=\"38\" dy=\"24\">處稜線原地待援</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#25351a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -26267,10 +26267,10 @@ export const explicitKnowledgePoints = {
           "desc": "定向需要把地圖與實地對上，辨認方向、地標及距離。指南針是輔助工具，也要理解附近金屬或磁場可能干擾讀值。"
         },
         "extension": {
-          "title": "平結 (Reef Knot)",
+          "title": "指北針與地圖定向",
           "unitId": "scout-2",
           "icon": "🚀",
-          "desc": "同課比較：用於連接兩條「粗細相同」的繩索，結形扁平易解，常用於急救三角巾包紮固定。請說明與「稱人結 (Bowline Knot)」的差別。"
+          "desc": "同課比較：指北針磁針紅端恆指磁北；將地圖正北與指北針北向對齊完成定向，再判讀行進方位角。請說明與「迷途應變 STOP 原則」的差別。"
         },
         "crossDisciplinary": {
           "title": "正負數與絕對值",
@@ -26279,7 +26279,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「稱人結 (Bowline Knot)」的說明，先說出規則，再用「用於野外攀岩下降、人體吊掛急救吊帶、固定船隻纜繩；受巨大拉力後依然能輕鬆拆解」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「迷途應變 STOP 原則」的說明，先說出規則，再用「迷路切忌盲目往溪谷下切（易遇斷崖瀑布與失溫），應退回明顯路徑或高處稜線原地待援」核對自己的理解。"
       }
     }
   ],
@@ -26288,13 +26288,13 @@ export const explicitKnowledgePoints = {
       "id": "scout-3-kp-1",
       "unitId": "scout-3",
       "order": 1,
-      "title": "【知識點 1】指北針與地圖定向",
-      "core": "指北針與地圖定向：指北針磁針紅端恆指磁北；將地圖北向與指北針調整一致完成定向 (Map orientation)。",
-      "mechanism": "對照判準與實例：指北針磁針紅端恆指磁北；將地圖北向與指北針調整一致完成定向 (Map orientation)。利用等高線地標地形比對現地特徵，找出自身前進方位角；夜間利用北極星（北斗七星或仙后座）指引正北。",
-      "explanation": "辨認「指北針與地圖定向」時，先說出「指北針磁針紅端恆指磁北；將地圖北向與指北針調整一致完成定向 (Map orientation)」，再核對「利用等高線地標地形比對現地特徵，找出自身前進方位角；夜間利用北極星（北斗七星或仙后座）指引正北」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "指北針磁針紅端恆指磁北；將地圖北向與指北針調整一致完成定向 (Map orientation)｜實例與界線：利用等高線地標地形比對現地特徵，找出自身前進方位角；夜間利用北極星（北斗七星或仙后座）指引正北",
-      "examIntel": "自我檢核：遮住說明，試著解釋「利用等高線地標地形比對現地特徵，找出自身前進方位角；夜間利用北極星（北斗七星或仙后座）指引正北」與「指北針磁針紅端恆指磁北；將地圖北向與指北針調整一致完成定向 (Map orientation)」的關係。",
-      "practicalTip": "核對本點實例與界線：利用等高線地標地形比對現地特徵，找出自身前進方位角；夜間利用北極星（北斗七星或仙后座）指引正北",
+      "title": "【知識點 1】無痕山林 (LNT) 七大原則",
+      "core": "無痕山林 (LNT) 七大原則：事前規劃、在可承受地點行走紮營、垃圾全數帶下山、保持原貌、減低用火衝擊、尊重野生動植物、禮讓他人。",
+      "mechanism": "對照判準與實例：事前規劃、在可承受地點行走紮營、垃圾全數帶下山、保持原貌、減低用火衝擊、尊重野生動植物、禮讓他人。不為拍照餵食、捕捉或採集野生生物；果皮廚餘亦會干擾高山生態，皆須帶下山。",
+      "explanation": "辨認「無痕山林 (LNT) 七大原則」時，先說出「事前規劃、在可承受地點行走紮營、垃圾全數帶下山、保持原貌、減低用火衝擊、尊重野生動植物、禮讓他人」，再核對「不為拍照餵食、捕捉或採集野生生物；果皮廚餘亦會干擾高山生態，皆須帶下山」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "事前規劃、在可承受地點行走紮營、垃圾全數帶下山、保持原貌、減低用火衝擊、尊重野生動植物、禮讓他人｜實例與界線：不為拍照餵食、捕捉或採集野生生物；果皮廚餘亦會干擾高山生態，皆須帶下山",
+      "examIntel": "自我檢核：遮住說明，試著解釋「不為拍照餵食、捕捉或採集野生生物；果皮廚餘亦會干擾高山生態，皆須帶下山」與「事前規劃、在可承受地點行走紮營、垃圾全數帶下山、保持原貌、減低用火衝擊、尊重野生動植物、禮讓他人」的關係。",
+      "practicalTip": "核對本點實例與界線：不為拍照餵食、捕捉或採集野生生物；果皮廚餘亦會干擾高山生態，皆須帶下山",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -26305,9 +26305,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "指北針與地圖定向｜規則與實例",
+        "title": "無痕山林 (LNT) 七大原則｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"指北針與地圖定向：概念、規則與實例\"><title>指北針與地圖定向</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f2f7ef\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#445b34\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">指北針與地圖定向</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">指北針磁針紅端恆指磁北；將地圖北向與指北針調整一致完成定向 (Map </tspan><tspan x=\"38\" dy=\"24\">orientation)</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">利用等高線地標地形比對現地特徵，找出自身前進方位角；夜間利用北極</tspan><tspan x=\"38\" dy=\"24\">星（北斗七星或仙后座）指引正北</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#25351a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"無痕山林 (LNT) 七大原則：概念、規則與實例\"><title>無痕山林 (LNT) 七大原則</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f2f7ef\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#445b34\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">無痕山林 (LNT) 七大原則</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">事前規劃、在可承受地點行走紮營、垃圾全數帶下山、保持原貌、減低用</tspan><tspan x=\"38\" dy=\"24\">火衝擊、尊重野生動植物、禮讓他人</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">不為拍照餵食、捕捉或採集野生生物；果皮廚餘亦會干擾高山生態，皆須</tspan><tspan x=\"38\" dy=\"24\">帶下山</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#25351a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -26317,10 +26317,10 @@ export const explicitKnowledgePoints = {
           "desc": "戶外活動應減少對環境與他人的影響。服務學習包含理解需求、計畫、行動、反思與回饋，避免只為拍照而提供不符合需求的服務。"
         },
         "extension": {
-          "title": "求救信號傳遞規範",
+          "title": "實用童軍繩結應用",
           "unitId": "scout-3",
           "icon": "🚀",
-          "desc": "同課比較：國際山難通用求救信號：一分鐘發出 6 次信號（鳴笛、哨音、手電筒閃光、反光鏡反射），間隔一分鐘重複。請說明與「指北針與地圖定向」的差別。"
+          "desc": "同課比較：平結（接同粗細繩與急救三角巾）；接繩結（接不同粗細繩）；雙半結（固定於木柱）；稱人結（固定不滑脫安全環）。請說明與「無痕山林 (LNT) 七大原則」的差別。"
         },
         "crossDisciplinary": {
           "title": "正負數與絕對值",
@@ -26329,20 +26329,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「指北針與地圖定向」的說明，先說出規則，再用「利用等高線地標地形比對現地特徵，找出自身前進方位角；夜間利用北極星（北斗七星或仙后座）指引正北」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「無痕山林 (LNT) 七大原則」的說明，先說出規則，再用「不為拍照餵食、捕捉或採集野生生物；果皮廚餘亦會干擾高山生態，皆須帶下山」核對自己的理解。"
       }
     },
     {
       "id": "scout-3-kp-2",
       "unitId": "scout-3",
       "order": 2,
-      "title": "【知識點 2】求救信號傳遞規範",
-      "core": "求救信號傳遞規範：國際山難通用求救信號：一分鐘發出 6 次信號（鳴笛、哨音、手電筒閃光、反光鏡反射），間隔一分鐘重複。",
-      "mechanism": "對照判準與實例：國際山難通用求救信號：一分鐘發出 6 次信號（鳴笛、哨音、手電筒閃光、反光鏡反射），間隔一分鐘重複。地面擺放大型「SOS」或「X」型亮色求救標誌導引搜救直升機；三處狼煙在空中呈等距三角排列。",
-      "explanation": "辨認「求救信號傳遞規範」時，先說出「國際山難通用求救信號：一分鐘發出 6 次信號（鳴笛、哨音、手電筒閃光、反光鏡反射），間隔一分鐘重複」，再核對「地面擺放大型「SOS」或「X」型亮色求救標誌導引搜救直升機；三處狼煙在空中呈等距三角排列」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "國際山難通用求救信號：一分鐘發出 6 次信號（鳴笛、哨音、手電筒閃光、反光鏡反射），間隔一分鐘重複｜實例與界線：地面擺放大型「SOS」或「X」型亮色求救標誌導引搜救直升機；三處狼煙在空中呈等距三角排列",
-      "examIntel": "自我檢核：遮住說明，試著解釋「地面擺放大型「SOS」或「X」型亮色求救標誌導引搜救直升機；三處狼煙在空中呈等距三角排列」與「國際山難通用求救信號：一分鐘發出 6 次信號（鳴笛、哨音、手電筒閃光、反光鏡反射），間隔一分鐘重複」的關係。",
-      "practicalTip": "核對本點實例與界線：地面擺放大型「SOS」或「X」型亮色求救標誌導引搜救直升機；三處狼煙在空中呈等距三角排列",
+      "title": "【知識點 2】實用童軍繩結應用",
+      "core": "實用童軍繩結應用：平結（接同粗細繩與急救三角巾）；接繩結（接不同粗細繩）；雙半結（固定於木柱）；稱人結（固定不滑脫安全環）。",
+      "mechanism": "對照判準與實例：平結（接同粗細繩與急救三角巾）；接繩結（接不同粗細繩）；雙半結（固定於木柱）；稱人結（固定不滑脫安全環）。繩結打得正確且易解才是好結；粗細不同繩索若誤用平結極易滑脫發生危險。",
+      "explanation": "辨認「實用童軍繩結應用」時，先說出「平結（接同粗細繩與急救三角巾）；接繩結（接不同粗細繩）；雙半結（固定於木柱）；稱人結（固定不滑脫安全環）」，再核對「繩結打得正確且易解才是好結；粗細不同繩索若誤用平結極易滑脫發生危險」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "平結（接同粗細繩與急救三角巾）；接繩結（接不同粗細繩）；雙半結（固定於木柱）；稱人結（固定不滑脫安全環）｜實例與界線：繩結打得正確且易解才是好結；粗細不同繩索若誤用平結極易滑脫發生危險",
+      "examIntel": "自我檢核：遮住說明，試著解釋「繩結打得正確且易解才是好結；粗細不同繩索若誤用平結極易滑脫發生危險」與「平結（接同粗細繩與急救三角巾）；接繩結（接不同粗細繩）；雙半結（固定於木柱）；稱人結（固定不滑脫安全環）」的關係。",
+      "practicalTip": "核對本點實例與界線：繩結打得正確且易解才是好結；粗細不同繩索若誤用平結極易滑脫發生危險",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -26353,9 +26353,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "求救信號傳遞規範｜規則與實例",
+        "title": "實用童軍繩結應用｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"求救信號傳遞規範：概念、規則與實例\"><title>求救信號傳遞規範</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f2f7ef\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#445b34\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">求救信號傳遞規範</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">國際山難通用求救信號：一分鐘發出 6 次信號（鳴笛、哨音、手電筒閃</tspan><tspan x=\"38\" dy=\"24\">光、反光鏡反射），間隔一分鐘重複</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">地面擺放大型「SOS」或「X」型亮色求救標誌導引搜救直升機；三處狼煙</tspan><tspan x=\"38\" dy=\"24\">在空中呈等距三角排列</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#25351a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"實用童軍繩結應用：概念、規則與實例\"><title>實用童軍繩結應用</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f2f7ef\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#445b34\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">實用童軍繩結應用</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">平結（接同粗細繩與急救三角巾）；接繩結（接不同粗細繩）；雙半結（</tspan><tspan x=\"38\" dy=\"24\">固定於木柱）；稱人結（固定不滑脫安全環）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">繩結打得正確且易解才是好結；粗細不同繩索若誤用平結極易滑脫發生危</tspan><tspan x=\"38\" dy=\"24\">險</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#25351a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -26365,10 +26365,10 @@ export const explicitKnowledgePoints = {
           "desc": "戶外活動應減少對環境與他人的影響。服務學習包含理解需求、計畫、行動、反思與回饋，避免只為拍照而提供不符合需求的服務。"
         },
         "extension": {
-          "title": "迷途處置原則 (STOP)",
+          "title": "服務行動規劃與評估",
           "unitId": "scout-3",
           "icon": "🚀",
-          "desc": "同課比較：S (Stop 立即停止前進保持冷靜)；T (Think 思考冷靜評估現狀)；O (Observe 觀察周遭環境水源與避難地形)；P (Plan 擬定避難求生計畫)。請說明與「求救信號傳遞規範」的差別。"
+          "desc": "同課比較：先調查社區或環境真實需求，設定具體可行目標、分工與安全檢核，再執行與回饋反思。請說明與「實用童軍繩結應用」的差別。"
         },
         "crossDisciplinary": {
           "title": "說明文、圖表與資訊整合",
@@ -26377,20 +26377,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「求救信號傳遞規範」的說明，先說出規則，再用「地面擺放大型「SOS」或「X」型亮色求救標誌導引搜救直升機；三處狼煙在空中呈等距三角排列」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「實用童軍繩結應用」的說明，先說出規則，再用「繩結打得正確且易解才是好結；粗細不同繩索若誤用平結極易滑脫發生危險」核對自己的理解。"
       }
     },
     {
       "id": "scout-3-kp-3",
       "unitId": "scout-3",
       "order": 3,
-      "title": "【知識點 3】迷途處置原則 (STOP)",
-      "core": "迷途處置原則 (STOP)：S (Stop 立即停止前進保持冷靜)；T (Think 思考冷靜評估現狀)；O (Observe 觀察周遭環境水源與避難地形)；P (Plan 擬定避難求生計畫)。",
-      "mechanism": "對照判準與實例：S (Stop 立即停止前進保持冷靜)；T (Think 思考冷靜評估現狀)；O (Observe 觀察周遭環境水源與避難地形)；P (Plan 擬定避難求生計畫)。迷路時「切忌盲目往溪谷下切」（溪谷斷崖瀑布密布阻隔無法攀爬且易失溫），應回到稜線或留在原地待援。",
-      "explanation": "辨認「迷途處置原則 (STOP)」時，先說出「S (Stop 立即停止前進保持冷靜)；T (Think 思考冷靜評估現狀)；O (Observe 觀察周遭環境水源與避難地形)；P (Plan 擬定避難求生計畫)」，再核對「迷路時「切忌盲目往溪谷下切」（溪谷斷崖瀑布密布阻隔無法攀爬且易失溫），應回到稜線或留在原地待援」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "S (Stop 立即停止前進保持冷靜)；T (Think 思考冷靜評估現狀)；O (Observe 觀察周遭環境水源與避難地形)；P (Plan 擬定避難求生計畫)｜實例與界線：迷路時「切忌盲目往溪谷下切」（溪谷斷崖瀑布密布阻隔無法攀爬且易失溫），應回到稜線或留在原地待援",
-      "examIntel": "自我檢核：遮住說明，試著解釋「迷路時「切忌盲目往溪谷下切」（溪谷斷崖瀑布密布阻隔無法攀爬且易失溫），應回到稜線或留在原地待援」與「S (Stop 立即停止前進保持冷靜)；T (Think 思考冷靜評估現狀)；O (Observe 觀察周遭環境水源與避難地形)；P (Plan 擬定避難求生計畫)」的關係。",
-      "practicalTip": "核對本點實例與界線：迷路時「切忌盲目往溪谷下切」（溪谷斷崖瀑布密布阻隔無法攀爬且易失溫），應回到稜線或留在原地待援",
+      "title": "【知識點 3】服務行動規劃與評估",
+      "core": "服務行動規劃與評估：先調查社區或環境真實需求，設定具體可行目標、分工與安全檢核，再執行與回饋反思。",
+      "mechanism": "對照判準與實例：先調查社區或環境真實需求，設定具體可行目標、分工與安全檢核，再執行與回饋反思。服務學習不是單向施捨，而是與在地夥伴合作解決問題並建立長期守護責任。",
+      "explanation": "辨認「服務行動規劃與評估」時，先說出「先調查社區或環境真實需求，設定具體可行目標、分工與安全檢核，再執行與回饋反思」，再核對「服務學習不是單向施捨，而是與在地夥伴合作解決問題並建立長期守護責任」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "先調查社區或環境真實需求，設定具體可行目標、分工與安全檢核，再執行與回饋反思｜實例與界線：服務學習不是單向施捨，而是與在地夥伴合作解決問題並建立長期守護責任",
+      "examIntel": "自我檢核：遮住說明，試著解釋「服務學習不是單向施捨，而是與在地夥伴合作解決問題並建立長期守護責任」與「先調查社區或環境真實需求，設定具體可行目標、分工與安全檢核，再執行與回饋反思」的關係。",
+      "practicalTip": "核對本點實例與界線：服務學習不是單向施捨，而是與在地夥伴合作解決問題並建立長期守護責任",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -26401,9 +26401,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "迷途處置原則 (STOP)｜規則與實例",
+        "title": "服務行動規劃與評估｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 410\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"迷途處置原則 (STOP)：概念、規則與實例\"><title>迷途處置原則 (STOP)</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"408\" rx=\"16\" fill=\"#f2f7ef\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#445b34\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">迷途處置原則 (STOP)</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">S (Stop 立即停止前進保持冷靜)；T (Think 思考冷靜評估現狀)；O </tspan><tspan x=\"38\" dy=\"24\">(Observe 觀察周遭環境水源與避難地形)；P (Plan 擬定避難求生計畫</tspan><tspan x=\"38\" dy=\"24\">)</tspan></text><rect x=\"20\" y=\"274\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"299\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">實例與界線</text><text x=\"38\" y=\"325\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">迷路時「切忌盲目往溪谷下切」（溪谷斷崖瀑布密布阻隔無法攀爬且易失</tspan><tspan x=\"38\" dy=\"24\">溫），應回到稜線或留在原地待援</tspan></text><text x=\"22\" y=\"396\" font-size=\"11\" fill=\"#25351a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"服務行動規劃與評估：概念、規則與實例\"><title>服務行動規劃與評估</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f2f7ef\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#445b34\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">服務行動規劃與評估</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">先調查社區或環境真實需求，設定具體可行目標、分工與安全檢核，再執</tspan><tspan x=\"38\" dy=\"24\">行與回饋反思</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#658351\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#445b34\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#25351a\"><tspan x=\"38\" dy=\"0\">服務學習不是單向施捨，而是與在地夥伴合作解決問題並建立長期守護責</tspan><tspan x=\"38\" dy=\"24\">任</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#25351a\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -26413,10 +26413,10 @@ export const explicitKnowledgePoints = {
           "desc": "戶外活動應減少對環境與他人的影響。服務學習包含理解需求、計畫、行動、反思與回饋，避免只為拍照而提供不符合需求的服務。"
         },
         "extension": {
-          "title": "指北針與地圖定向",
+          "title": "無痕山林 (LNT) 七大原則",
           "unitId": "scout-3",
           "icon": "🚀",
-          "desc": "同課比較：指北針磁針紅端恆指磁北；將地圖北向與指北針調整一致完成定向 (Map orientation)。請說明與「迷途處置原則 (STOP)」的差別。"
+          "desc": "同課比較：事前規劃、在可承受地點行走紮營、垃圾全數帶下山、保持原貌、減低用火衝擊、尊重野生動植物、禮讓他人。請說明與「服務行動規劃與評估」的差別。"
         },
         "crossDisciplinary": {
           "title": "正負數與絕對值",
@@ -26425,7 +26425,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「迷途處置原則 (STOP)」的說明，先說出規則，再用「迷路時「切忌盲目往溪谷下切」（溪谷斷崖瀑布密布阻隔無法攀爬且易失溫），應回到稜線或留在原地待援」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「服務行動規劃與評估」的說明，先說出規則，再用「服務學習不是單向施捨，而是與在地夥伴合作解決問題並建立長期守護責任」核對自己的理解。"
       }
     }
   ],
@@ -27164,13 +27164,13 @@ export const explicitKnowledgePoints = {
       "id": "local-3-kp-1",
       "unitId": "local-3",
       "order": 1,
-      "title": "【知識點 1】生活哲理俗諺意涵",
-      "core": "生活哲理俗諺意涵：「食果子，拜樹頭；食米飯，敬田頭」體現飲水思源感恩自然惜福精神。",
-      "mechanism": "對照判準與實例：「食果子，拜樹頭；食米飯，敬田頭」體現飲水思源感恩自然惜福精神。「一枝草，一點露；天無絕人之路」勉勵逆境奮鬥天生我材必有用之堅韌生命韌性。",
-      "explanation": "辨認「生活哲理俗諺意涵」時，先說出「「食果子，拜樹頭；食米飯，敬田頭」體現飲水思源感恩自然惜福精神」，再核對「「一枝草，一點露；天無絕人之路」勉勵逆境奮鬥天生我材必有用之堅韌生命韌性」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "「食果子，拜樹頭；食米飯，敬田頭」體現飲水思源感恩自然惜福精神｜實例與界線：「一枝草，一點露；天無絕人之路」勉勵逆境奮鬥天生我材必有用之堅韌生命韌性",
-      "examIntel": "自我檢核：遮住說明，試著解釋「「一枝草，一點露；天無絕人之路」勉勵逆境奮鬥天生我材必有用之堅韌生命韌性」與「「食果子，拜樹頭；食米飯，敬田頭」體現飲水思源感恩自然惜福精神」的關係。",
-      "practicalTip": "核對本點實例與界線：「一枝草，一點露；天無絕人之路」勉勵逆境奮鬥天生我材必有用之堅韌生命韌性",
+      "title": "【知識點 1】手語五大構成要素",
+      "core": "手語五大構成要素：手形（手指形狀）、位置（身體與空間位置）、動作（移動路徑）、方向（掌心朝向）與非手控特徵。",
+      "mechanism": "對照判準與實例：手形（手指形狀）、位置（身體與空間位置）、動作（移動路徑）、方向（掌心朝向）與非手控特徵。五要素中只要改變其中一項，就可能變成完全不同的詞彙，精準度與口語聲調同等重要。",
+      "explanation": "辨認「手語五大構成要素」時，先說出「手形（手指形狀）、位置（身體與空間位置）、動作（移動路徑）、方向（掌心朝向）與非手控特徵」，再核對「五要素中只要改變其中一項，就可能變成完全不同的詞彙，精準度與口語聲調同等重要」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "手形（手指形狀）、位置（身體與空間位置）、動作（移動路徑）、方向（掌心朝向）與非手控特徵｜實例與界線：五要素中只要改變其中一項，就可能變成完全不同的詞彙，精準度與口語聲調同等重要",
+      "examIntel": "自我檢核：遮住說明，試著解釋「五要素中只要改變其中一項，就可能變成完全不同的詞彙，精準度與口語聲調同等重要」與「手形（手指形狀）、位置（身體與空間位置）、動作（移動路徑）、方向（掌心朝向）與非手控特徵」的關係。",
+      "practicalTip": "核對本點實例與界線：五要素中只要改變其中一項，就可能變成完全不同的詞彙，精準度與口語聲調同等重要",
       "bloom": "理解",
       "examWeight": 1,
       "source": {
@@ -27181,9 +27181,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "concept-card",
-        "title": "生活哲理俗諺意涵｜規則與實例",
+        "title": "手語五大構成要素｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"生活哲理俗諺意涵：概念、規則與實例\"><title>生活哲理俗諺意涵</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#fbf7f1\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#6f5b3a\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">生活哲理俗諺意涵</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">「食果子，拜樹頭；食米飯，敬田頭」體現飲水思源感恩自然惜福精神</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">「一枝草，一點露；天無絕人之路」勉勵逆境奮鬥天生我材必有用之堅韌</tspan><tspan x=\"38\" dy=\"24\">生命韌性</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#433620\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"手語五大構成要素：概念、規則與實例\"><title>手語五大構成要素</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#fbf7f1\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#6f5b3a\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">手語五大構成要素</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">手形（手指形狀）、位置（身體與空間位置）、動作（移動路徑）、方向</tspan><tspan x=\"38\" dy=\"24\">（掌心朝向）與非手控特徵</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">五要素中只要改變其中一項，就可能變成完全不同的詞彙，精準度與口語</tspan><tspan x=\"38\" dy=\"24\">聲調同等重要</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#433620\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -27193,10 +27193,10 @@ export const explicitKnowledgePoints = {
           "desc": "手語透過手形、位置、動作、方向及非手部訊號組織意義，有自身語法。不同地區手語不一定相同，應向可靠教材與熟悉該語言者學習。"
         },
         "extension": {
-          "title": "民間傳奇故事導讀",
+          "title": "非手控特徵的語法功能",
           "unitId": "local-3",
           "icon": "🚀",
-          "desc": "同課比較：林投姐（揭露社會不公女性悲情復仇）；廖添丁（義賊劫富濟貧反抗殖民統治集體心理投射）。請說明與「生活哲理俗諺意涵」的差別。"
+          "desc": "同課比較：眉毛揚起或皺起、眼神注視、點頭搖頭與口型表情，都是臺灣手語不可或缺的語法標記。請說明與「手語五大構成要素」的差別。"
         },
         "crossDisciplinary": {
           "title": "正負數與絕對值",
@@ -27205,20 +27205,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「生活哲理俗諺意涵」的說明，先說出規則，再用「「一枝草，一點露；天無絕人之路」勉勵逆境奮鬥天生我材必有用之堅韌生命韌性」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「手語五大構成要素」的說明，先說出規則，再用「五要素中只要改變其中一項，就可能變成完全不同的詞彙，精準度與口語聲調同等重要」核對自己的理解。"
       }
     },
     {
       "id": "local-3-kp-2",
       "unitId": "local-3",
       "order": 2,
-      "title": "【知識點 2】民間傳奇故事導讀",
-      "core": "民間傳奇故事導讀：林投姐（揭露社會不公女性悲情復仇）；廖添丁（義賊劫富濟貧反抗殖民統治集體心理投射）。",
-      "mechanism": "對照判準與實例：林投姐（揭露社會不公女性悲情復仇）；廖添丁（義賊劫富濟貧反抗殖民統治集體心理投射）。嘉慶君遊臺灣、蛇郎君、白賊七民間智慧趣味寓言，蘊含民眾對正義道德與智慧的嚮往。",
-      "explanation": "辨認「民間傳奇故事導讀」時，先說出「林投姐（揭露社會不公女性悲情復仇）；廖添丁（義賊劫富濟貧反抗殖民統治集體心理投射）」，再核對「嘉慶君遊臺灣、蛇郎君、白賊七民間智慧趣味寓言，蘊含民眾對正義道德與智慧的嚮往」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "林投姐（揭露社會不公女性悲情復仇）；廖添丁（義賊劫富濟貧反抗殖民統治集體心理投射）｜實例與界線：嘉慶君遊臺灣、蛇郎君、白賊七民間智慧趣味寓言，蘊含民眾對正義道德與智慧的嚮往",
-      "examIntel": "自我檢核：遮住說明，試著解釋「嘉慶君遊臺灣、蛇郎君、白賊七民間智慧趣味寓言，蘊含民眾對正義道德與智慧的嚮往」與「林投姐（揭露社會不公女性悲情復仇）；廖添丁（義賊劫富濟貧反抗殖民統治集體心理投射）」的關係。",
-      "practicalTip": "核對本點實例與界線：嘉慶君遊臺灣、蛇郎君、白賊七民間智慧趣味寓言，蘊含民眾對正義道德與智慧的嚮往",
+      "title": "【知識點 2】非手控特徵的語法功能",
+      "core": "非手控特徵的語法功能：眉毛揚起或皺起、眼神注視、點頭搖頭與口型表情，都是臺灣手語不可或缺的語法標記。",
+      "mechanism": "對照判準與實例：眉毛揚起或皺起、眼神注視、點頭搖頭與口型表情，都是臺灣手語不可或缺的語法標記。疑問句、否定句與程度強調高度仰賴表情與眼神；缺乏表情會讓手語語意模糊不清。",
+      "explanation": "辨認「非手控特徵的語法功能」時，先說出「眉毛揚起或皺起、眼神注視、點頭搖頭與口型表情，都是臺灣手語不可或缺的語法標記」，再核對「疑問句、否定句與程度強調高度仰賴表情與眼神；缺乏表情會讓手語語意模糊不清」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "眉毛揚起或皺起、眼神注視、點頭搖頭與口型表情，都是臺灣手語不可或缺的語法標記｜實例與界線：疑問句、否定句與程度強調高度仰賴表情與眼神；缺乏表情會讓手語語意模糊不清",
+      "examIntel": "自我檢核：遮住說明，試著解釋「疑問句、否定句與程度強調高度仰賴表情與眼神；缺乏表情會讓手語語意模糊不清」與「眉毛揚起或皺起、眼神注視、點頭搖頭與口型表情，都是臺灣手語不可或缺的語法標記」的關係。",
+      "practicalTip": "核對本點實例與界線：疑問句、否定句與程度強調高度仰賴表情與眼神；缺乏表情會讓手語語意模糊不清",
       "bloom": "應用",
       "examWeight": 1,
       "source": {
@@ -27229,9 +27229,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "process",
-        "title": "民間傳奇故事導讀｜規則與實例",
+        "title": "非手控特徵的語法功能｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"民間傳奇故事導讀：概念、規則與實例\"><title>民間傳奇故事導讀</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#fbf7f1\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#6f5b3a\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">民間傳奇故事導讀</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">林投姐（揭露社會不公女性悲情復仇）；廖添丁（義賊劫富濟貧反抗殖民</tspan><tspan x=\"38\" dy=\"24\">統治集體心理投射）</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">嘉慶君遊臺灣、蛇郎君、白賊七民間智慧趣味寓言，蘊含民眾對正義道德</tspan><tspan x=\"38\" dy=\"24\">與智慧的嚮往</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#433620\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"非手控特徵的語法功能：概念、規則與實例\"><title>非手控特徵的語法功能</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#fbf7f1\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#6f5b3a\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">非手控特徵的語法功能</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">眉毛揚起或皺起、眼神注視、點頭搖頭與口型表情，都是臺灣手語不可或</tspan><tspan x=\"38\" dy=\"24\">缺的語法標記</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">疑問句、否定句與程度強調高度仰賴表情與眼神；缺乏表情會讓手語語意</tspan><tspan x=\"38\" dy=\"24\">模糊不清</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#433620\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -27241,10 +27241,10 @@ export const explicitKnowledgePoints = {
           "desc": "手語透過手形、位置、動作、方向及非手部訊號組織意義，有自身語法。不同地區手語不一定相同，應向可靠教材與熟悉該語言者學習。"
         },
         "extension": {
-          "title": "歲時節慶民俗儀式",
+          "title": "自然手語獨立語法結構",
           "unitId": "local-3",
           "icon": "🚀",
-          "desc": "同課比較：農曆春節過年（圍爐走春）、元宵節（平溪天燈、鹽水蜂炮）、清明掃墓培墓敬祖。請說明與「民間傳奇故事導讀」的差別。"
+          "desc": "同課比較：臺灣手語（TSL）是自然視覺語言，具獨特的主題優先語序與空間指涉，不是把華語逐字照比。請說明與「非手控特徵的語法功能」的差別。"
         },
         "crossDisciplinary": {
           "title": "說明文、圖表與資訊整合",
@@ -27253,20 +27253,20 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「民間傳奇故事導讀」的說明，先說出規則，再用「嘉慶君遊臺灣、蛇郎君、白賊七民間智慧趣味寓言，蘊含民眾對正義道德與智慧的嚮往」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「非手控特徵的語法功能」的說明，先說出規則，再用「疑問句、否定句與程度強調高度仰賴表情與眼神；缺乏表情會讓手語語意模糊不清」核對自己的理解。"
       }
     },
     {
       "id": "local-3-kp-3",
       "unitId": "local-3",
       "order": 3,
-      "title": "【知識點 3】歲時節慶民俗儀式",
-      "core": "歲時節慶民俗儀式：農曆春節過年（圍爐走春）、元宵節（平溪天燈、鹽水蜂炮）、清明掃墓培墓敬祖。",
-      "mechanism": "對照判準與實例：農曆春節過年（圍爐走春）、元宵節（平溪天燈、鹽水蜂炮）、清明掃墓培墓敬祖。端午節（划龍舟、掛艾草菖蒲辟邪防瘟）、中元普渡（悲憫無主孤魂孤魂野鬼之博愛胸懷）、冬至（搓湯圓象徵圓滿添歲）。",
-      "explanation": "辨認「歲時節慶民俗儀式」時，先說出「農曆春節過年（圍爐走春）、元宵節（平溪天燈、鹽水蜂炮）、清明掃墓培墓敬祖」，再核對「端午節（划龍舟、掛艾草菖蒲辟邪防瘟）、中元普渡（悲憫無主孤魂孤魂野鬼之博愛胸懷）、冬至（搓湯圓象徵圓滿添歲）」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-      "formula": "農曆春節過年（圍爐走春）、元宵節（平溪天燈、鹽水蜂炮）、清明掃墓培墓敬祖｜實例與界線：端午節（划龍舟、掛艾草菖蒲辟邪防瘟）、中元普渡（悲憫無主孤魂孤魂野鬼之博愛胸懷）、冬至（搓湯圓象徵圓滿添歲）",
-      "examIntel": "自我檢核：遮住說明，試著解釋「端午節（划龍舟、掛艾草菖蒲辟邪防瘟）、中元普渡（悲憫無主孤魂孤魂野鬼之博愛胸懷）、冬至（搓湯圓象徵圓滿添歲）」與「農曆春節過年（圍爐走春）、元宵節（平溪天燈、鹽水蜂炮）、清明掃墓培墓敬祖」的關係。",
-      "practicalTip": "核對本點實例與界線：端午節（划龍舟、掛艾草菖蒲辟邪防瘟）、中元普渡（悲憫無主孤魂孤魂野鬼之博愛胸懷）、冬至（搓湯圓象徵圓滿添歲）",
+      "title": "【知識點 3】自然手語獨立語法結構",
+      "core": "自然手語獨立語法結構：臺灣手語（TSL）是自然視覺語言，具獨特的主題優先語序與空間指涉，不是把華語逐字照比。",
+      "mechanism": "對照判準與實例：臺灣手語（TSL）是自然視覺語言，具獨特的主題優先語序與空間指涉，不是把華語逐字照比。空間可同時定位多個人物與動作方向，呈現高效率的立體視覺敘事。",
+      "explanation": "辨認「自然手語獨立語法結構」時，先說出「臺灣手語（TSL）是自然視覺語言，具獨特的主題優先語序與空間指涉，不是把華語逐字照比」，再核對「空間可同時定位多個人物與動作方向，呈現高效率的立體視覺敘事」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+      "formula": "臺灣手語（TSL）是自然視覺語言，具獨特的主題優先語序與空間指涉，不是把華語逐字照比｜實例與界線：空間可同時定位多個人物與動作方向，呈現高效率的立體視覺敘事",
+      "examIntel": "自我檢核：遮住說明，試著解釋「空間可同時定位多個人物與動作方向，呈現高效率的立體視覺敘事」與「臺灣手語（TSL）是自然視覺語言，具獨特的主題優先語序與空間指涉，不是把華語逐字照比」的關係。",
+      "practicalTip": "核對本點實例與界線：空間可同時定位多個人物與動作方向，呈現高效率的立體視覺敘事",
       "bloom": "分析",
       "examWeight": 1,
       "source": {
@@ -27277,9 +27277,9 @@ export const explicitKnowledgePoints = {
       },
       "infograph": {
         "type": "contrast",
-        "title": "歲時節慶民俗儀式｜規則與實例",
+        "title": "自然手語獨立語法結構｜規則與實例",
         "caption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"歲時節慶民俗儀式：概念、規則與實例\"><title>歲時節慶民俗儀式</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#fbf7f1\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#6f5b3a\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">歲時節慶民俗儀式</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">農曆春節過年（圍爐走春）、元宵節（平溪天燈、鹽水蜂炮）、清明掃墓</tspan><tspan x=\"38\" dy=\"24\">培墓敬祖</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">端午節（划龍舟、掛艾草菖蒲辟邪防瘟）、中元普渡（悲憫無主孤魂孤魂</tspan><tspan x=\"38\" dy=\"24\">野鬼之博愛胸懷）、冬至（搓湯圓象徵圓滿添歲）</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#433620\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"自然手語獨立語法結構：概念、規則與實例\"><title>自然手語獨立語法結構</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#fbf7f1\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#6f5b3a\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">自然手語獨立語法結構</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">臺灣手語（TSL）是自然視覺語言，具獨特的主題優先語序與空間指涉，</tspan><tspan x=\"38\" dy=\"24\">不是把華語逐字照比</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#9d8256\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#6f5b3a\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#433620\"><tspan x=\"38\" dy=\"0\">空間可同時定位多個人物與動作方向，呈現高效率的立體視覺敘事</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#433620\">閱讀順序示意 · 不代表因果或數值比例</text></svg>"
       },
       "relatedKnowledge": {
         "prerequisite": {
@@ -27289,10 +27289,10 @@ export const explicitKnowledgePoints = {
           "desc": "手語透過手形、位置、動作、方向及非手部訊號組織意義，有自身語法。不同地區手語不一定相同，應向可靠教材與熟悉該語言者學習。"
         },
         "extension": {
-          "title": "生活哲理俗諺意涵",
+          "title": "手語五大構成要素",
           "unitId": "local-3",
           "icon": "🚀",
-          "desc": "同課比較：「食果子，拜樹頭；食米飯，敬田頭」體現飲水思源感恩自然惜福精神。請說明與「歲時節慶民俗儀式」的差別。"
+          "desc": "同課比較：手形（手指形狀）、位置（身體與空間位置）、動作（移動路徑）、方向（掌心朝向）與非手控特徵。請說明與「自然手語獨立語法結構」的差別。"
         },
         "crossDisciplinary": {
           "title": "正負數與絕對值",
@@ -27301,7 +27301,7 @@ export const explicitKnowledgePoints = {
           "icon": "🌐",
           "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
         },
-        "synapseNote": "回想練習：遮住「歲時節慶民俗儀式」的說明，先說出規則，再用「端午節（划龍舟、掛艾草菖蒲辟邪防瘟）、中元普渡（悲憫無主孤魂孤魂野鬼之博愛胸懷）、冬至（搓湯圓象徵圓滿添歲）」核對自己的理解。"
+        "synapseNote": "回想練習：遮住「自然手語獨立語法結構」的說明，先說出規則，再用「空間可同時定位多個人物與動作方向，呈現高效率的立體視覺敘事」核對自己的理解。"
       }
     }
   ],

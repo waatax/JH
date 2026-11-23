@@ -17,11 +17,11 @@
         "task": "用英文寫三句你的週間習慣，再改寫成另一位同學的習慣。",
         "unitWonder": {
           "wonderTitle": "✨ 為什麼「句子骨架與現在式」超有趣？生活超能力 × 秒殺口訣",
-          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「句子骨架與現在式」其實就在你身邊！例如：She is a student. / She plays tennis every Sunday. 否定：She does not play tennis.。當你搞懂「五大句型（S+V, S+V+O, S+V+C, S+V+O+O, S+V+O+C）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
-          "funFact": "你知道嗎？在「句子骨架與現在式」中，高達 80% 的人最容易在「主詞一致 vs. 助動詞後」搞混，或是掉進「does 後面的主要動詞回原形，不寫 does not plays」的直覺陷阱！其實從微觀機制來看：對照判準與實例：S+V, S+V+O, S+V+C, S+V+O+O, S+V+O+C。The sun rises. (S+V)；She is a doctor. (S+V+C)。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "lifeConnection": "跟國外網友聊日常習慣、用英文分享剛發生的新鮮事，或看懂影集角色時間軸切換時，「句子骨架與現在式」其實正在背後運作！舉個直接的例子：She is a student. / She plays tennis every Sunday. 否定：She does not play tennis.。只要抓住「五大句型（S+V, S+V+O, S+V+C, S+V+O+O, S+V+O+C）」，你就能像跨文化任意門與世界玩家一樣，把課本規則直接變現成生活判斷力！",
+          "funFact": "⚡ 專家看世界的小秘密：在「句子骨架與現在式」裡，真正決定成敗的關鍵往往不是背更多細節，而是分清【主詞一致】和【助動詞後】的界線！記得防呆原則：對照 She is a student. → Is she a student?，此處主要動詞是 be，不能寫 Does she is a student?。再把 Mia 換成 Mia and Leo，應改為 walk、do not walk 與 Do，確認主詞數量會影響形式。，思考速度與準確度立刻翻倍。",
           "mnemonic": "🎵【句子骨架與現在式 · 快樂秒殺口訣】\n① 抓基準：五大句型看仔細（S+V, S+V+O, S+V+C, S+V+O+O）\n② 分左右：主詞一致對照助動詞後，關鍵就在「現在簡單式」\n③ 避陷阱：小心「does 後面的主要動詞回原形，不寫 does 」別中計\n④ 穩驗算：最後代回「對照 She is a student. → I」拿滿分！",
-          "curiosityQ": "🤔 腦筋急轉彎：在「句子骨架與現在式」的情境裡，如果有人把「主詞一致」跟「助動詞後」當成一模一樣，會發生什麼事？",
-          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「does 後面的主要動詞回原形，不寫 does not plays」！因為【主詞一致】是「現在簡單式第三人稱單數肯定句通常加 s」，而【助動詞後】則是「does 或 doesn't 後的主要動詞用原形」。只要用「現在簡單式」先做區分，就能輕鬆破解！",
+          "curiosityQ": "🕵️ 生活偵探考驗：在「句子骨架與現在式」的實戰現場（例如：She is a student. / She plays tennis every Sunday. 否定：She does not play tennis.），為什麼不能只憑表面直覺下結論，必須先確認「五大句型」？",
+          "curiosityA": "🎉 偵探破解：因為直覺常會忽略「does 後面的主要動詞回原形，不寫 does not plays」！依據核心判準「S+V, S+V+O, S+V+C, S+V+O+O, S+V+O+C」，搭配最後一步檢核「對照 She is a student. → Is she a student?，此處主要動詞是 be，不能寫 Does she is a student?。再把 Mia 換成 Mia and Leo，應改為 walk、do not walk 與 Do，確認主詞數量會影響形式。」，才能確保推理站得住腳！",
           "superpower": "🌍 跨文化任意門與世界玩家",
           "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
           "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
@@ -500,11 +500,11 @@
         "task": "描述窗外正在發生的兩個動作，說明主詞如何決定 be。",
         "unitWonder": {
           "wonderTitle": "✨ 為什麼「現在進行式與時間表達」超有趣？生活超能力 × 秒殺口訣",
-          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「現在進行式與時間表達」其實就在你身邊！例如：Look! They are playing basketball. / They usually play after school.。當你搞懂「肯定句（主詞+am/is/are+V-ing）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
-          "funFact": "你知道嗎？在「現在進行式與時間表達」中，高達 80% 的人最容易在「現在習慣 vs. 正在進行」搞混，或是掉進「be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子」的直覺陷阱！其實從微觀機制來看：對照判準與實例：主詞+am/is/are+V-ing。They are studying now.；不可漏掉 are。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "lifeConnection": "跟國外網友聊日常習慣、用英文分享剛發生的新鮮事，或看懂影集角色時間軸切換時，「現在進行式與時間表達」其實正在背後運作！舉個直接的例子：Look! They are playing basketball. / They usually play after school.。只要抓住「肯定句（主詞+am/is/are+V-ing）」，你就能像跨文化任意門與世界玩家一樣，把課本規則直接變現成生活判斷力！",
+          "funFact": "💡 概念透視鏡：面對「現在進行式與時間表達」，最常讓人掉坑的正是「be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子」。只要先檢查「否定句（在 be 動詞後加 not）」，你會驚訝地發現原本看似複雜的考題與生活現象，其實都遵守同一套簡潔邏輯！",
           "mnemonic": "🎵【現在進行式與時間表達 · 快樂秒殺口訣】\n① 抓基準：肯定句看仔細（主詞+am/is/are+V-ing）\n② 分左右：現在習慣對照正在進行，關鍵就在「否定句」\n③ 避陷阱：小心「be 和 V-ing 缺一不可；They pla」別中計\n④ 穩驗算：最後代回「完整句為 Ben usually studies」拿滿分！",
-          "curiosityQ": "🤔 腦筋急轉彎：在「現在進行式與時間表達」的情境裡，如果有人把「現在習慣」跟「正在進行」當成一模一樣，會發生什麼事？",
-          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子」！因為【現在習慣】是「every day 等線索常搭配現在簡單式」，而【正在進行】則是「be+V-ing 強調此時正在發生的動作」。只要用「否定句」先做區分，就能輕鬆破解！",
+          "curiosityQ": "🔄 逆向思考挑戰：假如你要當小老師，只用 20 秒提醒同學在「現在進行式與時間表達」最容易搞混的地方，你會把哪兩件事擺在一起對比？",
+          "curiosityA": "🎉 滿分講解：一定要對比【現在習慣（every day 等線索常搭配現在簡單式）】與【正在進行（be+V-ing 強調此時正在發生的動作）】，並特別強調「be 和 V-ing 缺一不可；They playing 不是完整的現在進行式句子」，讓同學一次把觀念徹底釐清！",
           "superpower": "🌍 跨文化任意門與世界玩家",
           "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
           "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
@@ -979,11 +979,11 @@
         "task": "用 first、then、finally 連接你上週末的三件事。",
         "unitWonder": {
           "wonderTitle": "✨ 為什麼「過去式、未來與敘事順序」超有趣？生活超能力 × 秒殺口訣",
-          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「過去式、未來與敘事順序」其實就在你身邊！例如：I visited Tainan yesterday. / Did you visit Tainan? / We are going to visit tomorrow.。當你搞懂「規則過去式（動詞字尾加 -ed（played, stopped, studied））」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
-          "funFact": "你知道嗎？在「過去式、未來與敘事順序」中，高達 80% 的人最容易在「過去敘事 vs. 未來安排」搞混，或是掉進「Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記」的直覺陷阱！其實從微觀機制來看：對照判準與實例：動詞字尾加 -ed（played, stopped, studied）。Yesterday I visited my grandparents.；注意子音加 y 變 ied。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "lifeConnection": "跟國外網友聊日常習慣、用英文分享剛發生的新鮮事，或看懂影集角色時間軸切換時，「過去式、未來與敘事順序」其實正在背後運作！舉個直接的例子：I visited Tainan yesterday. / Did you visit Tainan? / We are going to visit tomorrow.。只要抓住「規則過去式（動詞字尾加 -ed（played, stopped, studied））」，你就能像跨文化任意門與世界玩家一樣，把課本規則直接變現成生活判斷力！",
+          "funFact": "🔍 反直覺冷知識：多數人第一次遇到「過去式、未來與敘事順序」，會下意識落入「Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記」的錯覺！其實把【過去敘事】與【未來安排】並排對照就會發現：動詞字尾加 -ed（played, stopped, studied），一秒就能看透表象底層的真實規律。",
           "mnemonic": "🎵【過去式、未來與敘事順序 · 快樂秒殺口訣】\n① 抓基準：規則過去式看仔細（動詞字尾加 -ed（played, stopped,）\n② 分左右：過去敘事對照未來安排，關鍵就在「不規則過去式」\n③ 避陷阱：小心「Did she went? 錯誤，應為 Did 」別中計\n④ 穩驗算：最後代回「可改述 First, Nora finished」拿滿分！",
-          "curiosityQ": "🤔 腦筋急轉彎：在「過去式、未來與敘事順序」的情境裡，如果有人把「過去敘事」跟「未來安排」當成一模一樣，會發生什麼事？",
-          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記」！因為【過去敘事】是「過去時間常用過去式表達已發生事件」，而【未來安排】則是「will、be going to 等須結合語境理解計畫或預測」。只要用「不規則過去式」先做區分，就能輕鬆破解！",
+          "curiosityQ": "🤔 腦筋急轉彎：在處理「過去式、未來與敘事順序」時，如果有人把「過去敘事」的規則直接套到「未來安排」身上，結果會出現什麼離譜破綻？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Did she went? 錯誤，應為 Did she go?；went 已表示過去，不能重複標記」！因為【過去敘事】重點在「過去時間常用過去式表達已發生事件」，而【未來安排】則是「will、be going to 等須結合語境理解計畫或預測」。先用「不規則過去式」切分界線，就能避開錯誤！",
           "superpower": "🌍 跨文化任意門與世界玩家",
           "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
           "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
@@ -1458,11 +1458,11 @@
         "task": "比較兩條上學路線的距離、安全與時間，寫兩句比較句。",
         "unitWonder": {
           "wonderTitle": "✨ 為什麼「比較級、不定詞與動名詞」超有趣？生活超能力 × 秒殺口訣",
-          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「比較級、不定詞與動名詞」其實就在你身邊！例如：This bag is lighter than that one. / I enjoy reading, and I want to read more.。當你搞懂「單音節規則變化（單音節字尾加 -er / -est（tall → taller → tallest；nice → nicer → nicest））」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
-          "funFact": "你知道嗎？在「比較級、不定詞與動名詞」中，高達 80% 的人最容易在「to 不定詞 vs. 動名詞」搞混，或是掉進「不是每個動詞後都加 to；也不要寫 more taller」的直覺陷阱！其實從微觀機制來看：對照判準與實例：單音節字尾加 -er / -est（tall → taller → tallest；nice → nicer → nicest）。子音+短母音+子音重複字尾：big → bigger → biggest；字尾 y 變 i+er：happy → happier。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "lifeConnection": "看懂遊戲更新公告與英文食譜指示、精準表達旅遊路線與時間點，或寫出流暢自然的英文長句時，「比較級、不定詞與動名詞」其實正在背後運作！舉個直接的例子：This bag is lighter than that one. / I enjoy reading, and I want to read more.。只要抓住「單音節規則變化（單音節字尾加 -er / -est（tall → taller → tallest；nice → nicer → nicest））」，你就能像跨文化任意門與世界玩家一樣，把課本規則直接變現成生活判斷力！",
+          "funFact": "⚡ 專家看世界的小秘密：在「比較級、不定詞與動名詞」裡，真正決定成敗的關鍵往往不是背更多細節，而是分清【to 不定詞】和【動名詞】的界線！記得防呆原則：不能寫 enjoys to read 或 more easier；easier 已帶比較級意義。延伸比較 This book is more useful than that one.，較長形容詞常用 more；仍要查常見不規則形式，如 good → better。，思考速度與準確度立刻翻倍。",
           "mnemonic": "🎵【比較級、不定詞與動名詞 · 快樂秒殺口訣】\n① 抓基準：單音節規則變化看仔細（單音節字尾加 -er / -est（tall → t）\n② 分左右：to 不定詞對照動名詞，關鍵就在「多音節與 -ly 副詞」\n③ 避陷阱：小心「不是每個動詞後都加 to；也不要寫 more t」別中計\n④ 穩驗算：最後代回「不能寫 enjoys to read 或 mor」拿滿分！",
-          "curiosityQ": "🤔 腦筋急轉彎：在「比較級、不定詞與動名詞」的情境裡，如果有人把「to 不定詞」跟「動名詞」當成一模一樣，會發生什麼事？",
-          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「不是每個動詞後都加 to；也不要寫 more taller」！因為【to 不定詞】是「有些動詞後接 to+原形，如 want to learn」，而【動名詞】則是「有些動詞後接 V-ing，如 enjoy reading」。只要用「多音節與 -ly 副詞」先做區分，就能輕鬆破解！",
+          "curiosityQ": "🕵️ 生活偵探考驗：在「比較級、不定詞與動名詞」的實戰現場（例如：This bag is lighter than that one. / I enjoy reading, and I want to read more.），為什麼不能只憑表面直覺下結論，必須先確認「單音節規則變化」？",
+          "curiosityA": "🎉 偵探破解：因為直覺常會忽略「不是每個動詞後都加 to；也不要寫 more taller」！依據核心判準「單音節字尾加 -er / -est（tall → taller → tallest；nice → nicer → nicest）」，搭配最後一步檢核「不能寫 enjoys to read 或 more easier；easier 已帶比較級意義。延伸比較 This book is more useful than that one.，較長形容詞常用 more；仍要查常見不規則形式，如 good → better。」，才能確保推理站得住腳！",
           "superpower": "🌍 跨文化任意門與世界玩家",
           "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
           "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
@@ -1937,11 +1937,11 @@
         "task": "把「有人昨天打掃教室」改寫成以教室為主詞的英文句子。",
         "unitWonder": {
           "wonderTitle": "✨ 為什麼「完成式、被動與關係子句」超有趣？生活超能力 × 秒殺口訣",
-          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「完成式、被動與關係子句」其實就在你身邊！例如：I have lived here for three years. / The bridge was built in 2000. / The boy who wears glasses is Ben.。當你搞懂「現在完成式（have/has+過去分詞，連結過去與現在）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
-          "funFact": "你知道嗎？在「完成式、被動與關係子句」中，高達 80% 的人最容易在「主動 vs. 被動」搞混，或是掉進「現在完成式通常不和明確結束的過去時間 yesterday 搭配」的直覺陷阱！其實從微觀機制來看：對照判準與實例：have/has+過去分詞，連結過去與現在。I have finished my homework.；需依語境理解現在的關聯。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "lifeConnection": "跟國外網友聊日常習慣、用英文分享剛發生的新鮮事，或看懂影集角色時間軸切換時，「完成式、被動與關係子句」其實正在背後運作！舉個直接的例子：I have lived here for three years. / The bridge was built in 2000. / The boy who wears glasses is Ben.。只要抓住「現在完成式（have/has+過去分詞，連結過去與現在）」，你就能像跨文化任意門與世界玩家一樣，把課本規則直接變現成生活判斷力！",
+          "funFact": "💡 概念透視鏡：面對「完成式、被動與關係子句」，最常讓人掉坑的正是「現在完成式通常不和明確結束的過去時間 yesterday 搭配」。只要先檢查「被動語態（be+過去分詞，把承受動作的人事物放在主詞位置）」，你會驚訝地發現原本看似複雜的考題與生活現象，其實都遵守同一套簡潔邏輯！",
           "mnemonic": "🎵【完成式、被動與關係子句 · 快樂秒殺口訣】\n① 抓基準：現在完成式看仔細（have/has+過去分詞，連結過去與現在）\n② 分左右：主動對照被動，關鍵就在「被動語態」\n③ 避陷阱：小心「現在完成式通常不和明確結束的過去時間 yeste」別中計\n④ 穩驗算：最後代回「不能把 last year 直接接在表示此完成用」拿滿分！",
-          "curiosityQ": "🤔 腦筋急轉彎：在「完成式、被動與關係子句」的情境裡，如果有人把「主動」跟「被動」當成一模一樣，會發生什麼事？",
-          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「現在完成式通常不和明確結束的過去時間 yesterday 搭配」！因為【主動】是「主詞是動作執行者」，而【被動】則是「主詞是動作承受者，用 be+過去分詞」。只要用「被動語態」先做區分，就能輕鬆破解！",
+          "curiosityQ": "🔄 逆向思考挑戰：假如你要當小老師，只用 20 秒提醒同學在「完成式、被動與關係子句」最容易搞混的地方，你會把哪兩件事擺在一起對比？",
+          "curiosityA": "🎉 滿分講解：一定要對比【主動（主詞是動作執行者）】與【被動（主詞是動作承受者，用 be+過去分詞）】，並特別強調「現在完成式通常不和明確結束的過去時間 yesterday 搭配」，讓同學一次把觀念徹底釐清！",
           "superpower": "🌍 跨文化任意門與世界玩家",
           "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
           "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
@@ -2416,11 +2416,11 @@
         "task": "把一則英文公告整理成 Who、What、When 三欄。",
         "unitWonder": {
           "wonderTitle": "✨ 為什麼「閱讀策略與情境溝通」超有趣？生活超能力 × 秒殺口訣",
-          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「閱讀策略與情境溝通」其實就在你身邊！例如：Notice: The library closes at 5 p.m. Please return books before 4:30. 借還書截止早於關門時間。當你搞懂「主旨（先找段落重複概念與目的）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
-          "funFact": "你知道嗎？在「閱讀策略與情境溝通」中，高達 80% 的人最容易在「資訊定位 vs. 推論」搞混，或是掉進「close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制」的直覺陷阱！其實從微觀機制來看：對照判準與實例：先找段落重複概念與目的。不要用單一細節當整篇主旨。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「閱讀策略與情境溝通」其實正在背後運作！舉個直接的例子：Notice: The library closes at 5 p.m. Please return books before 4:30. 借還書截止早於關門時間。只要抓住「主旨（先找段落重複概念與目的）」，你就能像跨文化任意門與世界玩家一樣，把課本規則直接變現成生活判斷力！",
+          "funFact": "🔍 反直覺冷知識：多數人第一次遇到「閱讀策略與情境溝通」，會下意識落入「close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制」的錯覺！其實把【資訊定位】與【推論】並排對照就會發現：先找段落重複概念與目的，一秒就能看透表象底層的真實規律。",
           "mnemonic": "🎵【閱讀策略與情境溝通 · 快樂秒殺口訣】\n① 抓基準：主旨看仔細（先找段落重複概念與目的）\n② 分左右：資訊定位對照推論，關鍵就在「指涉」\n③ 避陷阱：小心「close at 5 不等於 5 點仍可還書，需」別中計\n④ 穩驗算：最後代回「可用英文回答 No. DVDs must be 」拿滿分！",
-          "curiosityQ": "🤔 腦筋急轉彎：在「閱讀策略與情境溝通」的情境裡，如果有人把「資訊定位」跟「推論」當成一模一樣，會發生什麼事？",
-          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制」！因為【資訊定位】是「先看問題要人、時間、地點或原因」，而【推論】則是「答案未直接寫出時，須整合文本線索」。只要用「指涉」先做區分，就能輕鬆破解！",
+          "curiosityQ": "🤔 腦筋急轉彎：在處理「閱讀策略與情境溝通」時，如果有人把「資訊定位」的規則直接套到「推論」身上，結果會出現什麼離譜破綻？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「close at 5 不等於 5 點仍可還書，需同時讀到 before 4:30 的限制」！因為【資訊定位】重點在「先看問題要人、時間、地點或原因」，而【推論】則是「答案未直接寫出時，須整合文本線索」。先用「指涉」切分界線，就能避開錯誤！",
           "superpower": "🌍 跨文化任意門與世界玩家",
           "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
           "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
@@ -2904,11 +2904,11 @@
         "task": "Write four signs for your school library using polite positive and negative imperatives.",
         "unitWonder": {
           "wonderTitle": "✨ 為什麼「名詞單複數、指示代名詞與祈使句」超有趣？生活超能力 × 秒殺口訣",
-          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「名詞單複數、指示代名詞與祈使句」其實就在你身邊！例如：This is my apple, and those are your books. / Please open your book and turn to page ten. / Don’t run in the hallway!。當你搞懂「S + V（完全不及物）（動詞自身意思完整，不需受詞也不需補語）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
-          "funFact": "你知道嗎？在「名詞單複數、指示代名詞與祈使句」中，高達 80% 的人最容易在「可數名詞 vs. 不可數名詞」搞混，或是掉進「Do not use plural verbs with this/that. In negative imperatives, use \"Don’t\" + base verb, never \"Not\" or \"No\" (say \"Don’t touch\", not \"No touch\").」的直覺陷阱！其實從微觀機制來看：對照判準與實例：動詞自身意思完整，不需受詞也不需補語。Birds fly. / The baby cried loudly.（loudly 為副詞修飾動詞，非受詞）。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「名詞單複數、指示代名詞與祈使句」其實正在背後運作！舉個直接的例子：This is my apple, and those are your books. / Please open your book and turn to page ten. / Don’t run in the hallway!。只要抓住「S + V（完全不及物）（動詞自身意思完整，不需受詞也不需補語）」，你就能像跨文化任意門與世界玩家一樣，把課本規則直接變現成生活判斷力！",
+          "funFact": "💡 概念透視鏡：面對「名詞單複數、指示代名詞與祈使句」，最常讓人掉坑的正是「Do not use plural verbs with this/that. In negative imperatives, use \"Don’t\" + base verb, never \"Not\" or \"No\" (say \"Don’t touch\", not \"No touch\").」。只要先檢查「S + V + C（不完全不及物）（連綴動詞需主詞補語 (SC) 補充說明主詞身分或狀態）」，你會驚訝地發現原本看似複雜的考題與生活現象，其實都遵守同一套簡潔邏輯！",
           "mnemonic": "🎵【名詞單複數、指示代名詞與祈使句 · 快樂秒殺口訣】\n① 抓基準：S + V（完全不及物）看仔細（動詞自身意思完整，不需受詞也不需補語）\n② 分左右：可數名詞對照不可數名詞，關鍵就在「S + V + C（不完全不及物）」\n③ 避陷阱：小心「Do not use plural verbs 」別中計\n④ 穩驗算：最後代回「完整更正為 These are three bo」拿滿分！",
-          "curiosityQ": "🤔 腦筋急轉彎：在「名詞單複數、指示代名詞與祈使句」的情境裡，如果有人把「可數名詞」跟「不可數名詞」當成一模一樣，會發生什麼事？",
-          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not use plural verbs with this/that. In negative imperatives, use \"Don’t\" + base verb, never \"Not\" or \"No\" (say \"Don’t touch\", not \"No touch\").」！因為【可數名詞】是「一個用單數，多個通常需複數形」，而【不可數名詞】則是「常用量詞表達份量，不直接依一般規則加 s」。只要用「S + V + C（不完全不及物）」先做區分，就能輕鬆破解！",
+          "curiosityQ": "🔄 逆向思考挑戰：假如你要當小老師，只用 20 秒提醒同學在「名詞單複數、指示代名詞與祈使句」最容易搞混的地方，你會把哪兩件事擺在一起對比？",
+          "curiosityA": "🎉 滿分講解：一定要對比【可數名詞（一個用單數，多個通常需複數形）】與【不可數名詞（常用量詞表達份量，不直接依一般規則加 s）】，並特別強調「Do not use plural verbs with this/that. In negative imperatives, use \"Don’t\" + base verb, never \"Not\" or \"No\" (say \"Don’t touch\", not \"No touch\").」，讓同學一次把觀念徹底釐清！",
           "superpower": "🌍 跨文化任意門與世界玩家",
           "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
           "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
@@ -3383,11 +3383,11 @@
         "task": "Write three sentences about your weekly schedule using different frequency adverbs and the correct word order.",
         "unitWonder": {
           "wonderTitle": "✨ 為什麼「頻率副詞、情態助動詞 can 與存在句」超有趣？生活超能力 × 秒殺口訣",
-          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「頻率副詞、情態助動詞 can 與存在句」其實就在你身邊！例如：She is always on time. / He often plays baseball after school. / Can you swim? Yes, I can. / There is a cat on the roof, and there are three dogs in the yard.。當你搞懂「祈使句規範（省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
-          "funFact": "你知道嗎？在「頻率副詞、情態助動詞 can 與存在句」中，高達 80% 的人最容易在「頻率副詞 vs. 存在句」搞混，或是掉進「Do not put frequency adverbs before be-verbs (say \"He is always kind\", not \"He always is kind\"). In There is/are sentences, verb agreement depends on the noun that immediately follows.」的直覺陷阱！其實從微觀機制來看：對照判準與實例：省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞。Open the door, please. / Don't be late for school again.。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
-          "mnemonic": "🎵【頻率副詞、情態助動詞 can 與存在句 · 快樂秒殺口訣】\n① 抓基準：祈使句規範看仔細（省略主詞 You，以原形動詞開頭；否定句用 Don'）\n② 分左右：頻率副詞對照存在句，關鍵就在「感嘆句結構」\n③ 避陷阱：小心「Do not put frequency adv」別中計\n④ 穩驗算：最後代回「比較 Lily has two chess se」拿滿分！",
-          "curiosityQ": "🤔 腦筋急轉彎：在「頻率副詞、情態助動詞 can 與存在句」的情境裡，如果有人把「頻率副詞」跟「存在句」當成一模一樣，會發生什麼事？",
-          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not put frequency adverbs before be-verbs (say \"He is always kind\", not \"He always is kind\"). In There is/are sentences, verb agreement depends on the noun that immediately follows.」！因為【頻率副詞】是「通常放一般動詞前、be 動詞後」，而【存在句】則是「There is/are 隨後方主要名詞單複數改變」。只要用「感嘆句結構」先做區分，就能輕鬆破解！",
+          "lifeConnection": "看懂遊戲更新公告與英文食譜指示、精準表達旅遊路線與時間點，或寫出流暢自然的英文長句時，「頻率副詞、情態助動詞 can 與存在句」其實正在背後運作！舉個直接的例子：She is always on time. / He often plays baseball after school. / Can you swim? Yes, I can. / There is a cat on the roof, and there are three dogs in the yard.。只要抓住「頻率副詞強度與位置（always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」）」，你就能像跨文化任意門與世界玩家一樣，把課本規則直接變現成生活判斷力！",
+          "funFact": "🔍 反直覺冷知識：多數人第一次遇到「頻率副詞、情態助動詞 can 與存在句」，會下意識落入「Do not put frequency adverbs before be-verbs (say \"He is always kind\", not \"He always is kind\"). In There is/are sentences, verb agreement depends on the noun that immediately follows.」的錯覺！其實把【頻率副詞】與【存在句】並排對照就會發現：always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」，一秒就能看透表象底層的真實規律。",
+          "mnemonic": "🎵【頻率副詞、情態助動詞 can 與存在句 · 快樂秒殺口訣】\n① 抓基準：頻率副詞強度與位置看仔細（always > usually > often >）\n② 分左右：頻率副詞對照存在句，關鍵就在「情態助動詞 can 用法」\n③ 避陷阱：小心「Do not put frequency adv」別中計\n④ 穩驗算：最後代回「比較 Lily has two chess se」拿滿分！",
+          "curiosityQ": "🤔 腦筋急轉彎：在處理「頻率副詞、情態助動詞 can 與存在句」時，如果有人把「頻率副詞」的規則直接套到「存在句」身上，結果會出現什麼離譜破綻？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not put frequency adverbs before be-verbs (say \"He is always kind\", not \"He always is kind\"). In There is/are sentences, verb agreement depends on the noun that immediately follows.」！因為【頻率副詞】重點在「通常放一般動詞前、be 動詞後」，而【存在句】則是「There is/are 隨後方主要名詞單複數改變」。先用「情態助動詞 can 用法」切分界線，就能避開錯誤！",
           "superpower": "🌍 跨文化任意門與世界玩家",
           "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
           "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
@@ -3397,17 +3397,17 @@
           {
             "id": "english-8-kp-1",
             "order": 1,
-            "title": "【知識點 1】祈使句規範",
-            "core": "祈使句規範：省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞。",
-            "mechanism": "對照判準與實例：省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞。Open the door, please. / Don't be late for school again.。",
-            "explanation": "辨認「祈使句規範」時，先說出「省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞」，再核對「Open the door, please. / Don't be late for school again.」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-            "formula": "省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞｜實例與界線：Open the door, please. / Don't be late for school again.",
-            "examIntel": "自我檢核：遮住說明，試著解釋「Open the door, please. / Don't be late for school again.」與「省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞」的關係。",
-            "tip": "核對本點實例與界線：Open the door, please. / Don't be late for school again.",
+            "title": "【知識點 1】頻率副詞強度與位置",
+            "core": "頻率副詞強度與位置：always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」。",
+            "mechanism": "對照判準與實例：always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」。She is always early. / He usually walks to school. / Do you often play basketball?。",
+            "explanation": "辨認「頻率副詞強度與位置」時，先說出「always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」」，再核對「She is always early. / He usually walks to school. / Do you often play basketball?」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+            "formula": "always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」｜實例與界線：She is always early. / He usually walks to school. / Do you often play basketball?",
+            "examIntel": "自我檢核：遮住說明，試著解釋「She is always early. / He usually walks to school. / Do you often play basketball?」與「always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」」的關係。",
+            "tip": "核對本點實例與界線：She is always early. / He usually walks to school. / Do you often play basketball?",
             "bloom": "理解",
             "examWeight": 1,
-            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 338\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"祈使句規範：概念、規則與實例\"><title>祈使句規範</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"336\" rx=\"16\" fill=\"#f0f5fa\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2f5577\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">祈使句規範</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">省略主詞 You，以原形動詞開頭；否定句用 Don&#39;t + 原形動詞</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">Open the door, please. / Don&#39;t be late for school again.</tspan></text><text x=\"22\" y=\"324\" font-size=\"11\" fill=\"#1a3249\">閱讀順序示意 · 不代表因果或數值比例</text></svg>",
-            "infographTitle": "祈使句規範｜規則與實例",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"頻率副詞強度與位置：概念、規則與實例\"><title>頻率副詞強度與位置</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f5fa\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2f5577\">知識點 1 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">頻率副詞強度與位置</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">always &gt; usually &gt; often &gt; sometimes &gt; seldom &gt; never；</tspan><tspan x=\"38\" dy=\"24\">口訣「be 動詞與助動詞之後，一般動詞之前」</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">She is always early. / He usually walks to school. / Do </tspan><tspan x=\"38\" dy=\"24\">you often play basketball?</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1a3249\">閱讀順序示意 · 不代表因果或數值比例</text></svg>",
+            "infographTitle": "頻率副詞強度與位置｜規則與實例",
             "infographCaption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
             "source": {
               "module": "teaching.js",
@@ -3423,10 +3423,10 @@
                 "desc": "Adverbs of frequency (always, usually, often, sometimes, never) show how often an action happens. They come before action verbs but after be-verbs. The modal verb \"can\" expresses ability or permission and is followed by a base verb. \"There is\" and \"There are\" state existence."
               },
               "extension": {
-                "title": "感嘆句結構",
+                "title": "情態助動詞 can 用法",
                 "unitId": "english-8",
                 "icon": "🚀",
-                "desc": "同課比較：What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!。請說明與「祈使句規範」的差別。"
+                "desc": "同課比較：can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s。請說明與「頻率副詞強度與位置」的差別。"
               },
               "crossDisciplinary": {
                 "title": "字詞、語境與修辭",
@@ -3435,23 +3435,23 @@
                 "icon": "🌐",
                 "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
               },
-              "synapseNote": "回想練習：遮住「祈使句規範」的說明，先說出規則，再用「Open the door, please. / Don't be late for school again.」核對自己的理解。"
+              "synapseNote": "回想練習：遮住「頻率副詞強度與位置」的說明，先說出規則，再用「She is always early. / He usually walks to school. / Do you often play basketball?」核對自己的理解。"
             }
           },
           {
             "id": "english-8-kp-2",
             "order": 2,
-            "title": "【知識點 2】感嘆句結構",
-            "core": "感嘆句結構：What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!。",
-            "mechanism": "對照判準與實例：What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!。What a beautiful girl she is! / How fast he can run!。",
-            "explanation": "辨認「感嘆句結構」時，先說出「What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!」，再核對「What a beautiful girl she is! / How fast he can run!」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-            "formula": "What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!｜實例與界線：What a beautiful girl she is! / How fast he can run!",
-            "examIntel": "自我檢核：遮住說明，試著解釋「What a beautiful girl she is! / How fast he can run!」與「What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!」的關係。",
-            "tip": "核對本點實例與界線：What a beautiful girl she is! / How fast he can run!",
+            "title": "【知識點 2】情態助動詞 can 用法",
+            "core": "情態助動詞 can 用法：can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s。",
+            "mechanism": "對照判準與實例：can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s。He can swim very well. / Can you open the window?（否定為 can't / cannot）。",
+            "explanation": "辨認「情態助動詞 can 用法」時，先說出「can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s」，再核對「He can swim very well. / Can you open the window?（否定為 can't / cannot）」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+            "formula": "can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s｜實例與界線：He can swim very well. / Can you open the window?（否定為 can't / cannot）",
+            "examIntel": "自我檢核：遮住說明，試著解釋「He can swim very well. / Can you open the window?（否定為 can't / cannot）」與「can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s」的關係。",
+            "tip": "核對本點實例與界線：He can swim very well. / Can you open the window?（否定為 can't / cannot）",
             "bloom": "應用",
             "examWeight": 1,
-            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 362\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"感嘆句結構：概念、規則與實例\"><title>感嘆句結構</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"360\" rx=\"16\" fill=\"#f0f5fa\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2f5577\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">感嘆句結構</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S</tspan><tspan x=\"38\" dy=\"24\"> + V!</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">What a beautiful girl she is! / How fast he can run!</tspan></text><text x=\"22\" y=\"348\" font-size=\"11\" fill=\"#1a3249\">閱讀順序示意 · 不代表因果或數值比例</text></svg>",
-            "infographTitle": "感嘆句結構｜規則與實例",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"情態助動詞 can 用法：概念、規則與實例\"><title>情態助動詞 can 用法</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f5fa\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2f5577\">知識點 2 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">情態助動詞 can 用法</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單</tspan><tspan x=\"38\" dy=\"24\">數加 s</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">He can swim very well. / Can you open the window?（否定為</tspan><tspan x=\"38\" dy=\"24\"> can&#39;t / cannot）</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1a3249\">閱讀順序示意 · 不代表因果或數值比例</text></svg>",
+            "infographTitle": "情態助動詞 can 用法｜規則與實例",
             "infographCaption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
             "source": {
               "module": "teaching.js",
@@ -3467,10 +3467,10 @@
                 "desc": "Adverbs of frequency (always, usually, often, sometimes, never) show how often an action happens. They come before action verbs but after be-verbs. The modal verb \"can\" expresses ability or permission and is followed by a base verb. \"There is\" and \"There are\" state existence."
               },
               "extension": {
-                "title": "附加問句前肯後否",
+                "title": "There is / There are 存在句",
                 "unitId": "english-8",
                 "icon": "🚀",
-                "desc": "同課比較：直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定。請說明與「感嘆句結構」的差別。"
+                "desc": "同課比較：表達「某處有某人/某物」，單數或不可數名詞用 There is，複數名詞用 There are。請說明與「情態助動詞 can 用法」的差別。"
               },
               "crossDisciplinary": {
                 "title": "歐洲、美洲與大洋洲",
@@ -3479,23 +3479,23 @@
                 "icon": "🌐",
                 "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
               },
-              "synapseNote": "回想練習：遮住「感嘆句結構」的說明，先說出規則，再用「What a beautiful girl she is! / How fast he can run!」核對自己的理解。"
+              "synapseNote": "回想練習：遮住「情態助動詞 can 用法」的說明，先說出規則，再用「He can swim very well. / Can you open the window?（否定為 can't / cannot）」核對自己的理解。"
             }
           },
           {
             "id": "english-8-kp-3",
             "order": 3,
-            "title": "【知識點 3】附加問句前肯後否",
-            "core": "附加問句前肯後否：直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定。",
-            "mechanism": "對照判準與實例：直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定。You are a student, aren't you? / She didn't go, did she?。",
-            "explanation": "辨認「附加問句前肯後否」時，先說出「直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定」，再核對「You are a student, aren't you? / She didn't go, did she?」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
-            "formula": "直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定｜實例與界線：You are a student, aren't you? / She didn't go, did she?",
-            "examIntel": "自我檢核：遮住說明，試著解釋「You are a student, aren't you? / She didn't go, did she?」與「直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定」的關係。",
-            "tip": "核對本點實例與界線：You are a student, aren't you? / She didn't go, did she?",
+            "title": "【知識點 3】There is / There are 存在句",
+            "core": "There is / There are 存在句：表達「某處有某人/某物」，單數或不可數名詞用 There is，複數名詞用 There are。",
+            "mechanism": "對照判準與實例：表達「某處有某人/某物」，單數或不可數名詞用 There is，複數名詞用 There are。There is a book on the desk. / There are two parks near my home.。",
+            "explanation": "辨認「There is / There are 存在句」時，先說出「表達「某處有某人/某物」，單數或不可數名詞用 There is，複數名詞用 There are」，再核對「There is a book on the desk. / There are two parks near my home.」。請用自己的話說明例子如何對應判準，並指出使用時需要注意的限制。",
+            "formula": "表達「某處有某人/某物」，單數或不可數名詞用 There is，複數名詞用 There are｜實例與界線：There is a book on the desk. / There are two parks near my home.",
+            "examIntel": "自我檢核：遮住說明，試著解釋「There is a book on the desk. / There are two parks near my home.」與「表達「某處有某人/某物」，單數或不可數名詞用 There is，複數名詞用 There are」的關係。",
+            "tip": "核對本點實例與界線：There is a book on the desk. / There are two parks near my home.",
             "bloom": "分析",
             "examWeight": 1,
-            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 338\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"附加問句前肯後否：概念、規則與實例\"><title>附加問句前肯後否</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"336\" rx=\"16\" fill=\"#f0f5fa\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2f5577\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">附加問句前肯後否</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定</tspan></text><rect x=\"20\" y=\"226\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"251\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">實例與界線</text><text x=\"38\" y=\"277\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">You are a student, aren&#39;t you? / She didn&#39;t go, did she?</tspan></text><text x=\"22\" y=\"324\" font-size=\"11\" fill=\"#1a3249\">閱讀順序示意 · 不代表因果或數值比例</text></svg>",
-            "infographTitle": "附加問句前肯後否｜規則與實例",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 386\" class=\"kp-svg-infograph\" role=\"img\" aria-label=\"There is / There are 存在句：概念、規則與實例\"><title>There is / There are 存在句</title><desc>依同一筆原創比較表整理。依序閱讀，不表示因果循環或數值比例。</desc><rect x=\"1\" y=\"1\" width=\"598\" height=\"384\" rx=\"16\" fill=\"#f0f5fa\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"22\" y=\"32\" font-size=\"15\" font-weight=\"700\" fill=\"#2f5577\">知識點 3 / 概念閱讀卡</text><rect x=\"20\" y=\"58\" width=\"560\" height=\"72\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"83\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">概念</text><text x=\"38\" y=\"109\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">There is / There are 存在句</tspan></text><rect x=\"20\" y=\"142\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#ffffff\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"167\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">規則與特徵</text><text x=\"38\" y=\"193\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">表達「某處有某人/某物」，單數或不可數名詞用 There is，複數名詞</tspan><tspan x=\"38\" dy=\"24\">用 There are</tspan></text><rect x=\"20\" y=\"250\" width=\"560\" height=\"96\" rx=\"12\" fill=\"#fff9e9\" stroke=\"#4879a5\" stroke-opacity=\".3\"/><text x=\"38\" y=\"275\" font-size=\"12\" font-weight=\"700\" fill=\"#2f5577\">實例與界線</text><text x=\"38\" y=\"301\" font-size=\"16\" fill=\"#1a3249\"><tspan x=\"38\" dy=\"0\">There is a book on the desk. / There are two parks near </tspan><tspan x=\"38\" dy=\"24\">my home.</tspan></text><text x=\"22\" y=\"372\" font-size=\"11\" fill=\"#1a3249\">閱讀順序示意 · 不代表因果或數值比例</text></svg>",
+            "infographTitle": "There is / There are 存在句｜規則與實例",
             "infographCaption": "依同一筆比較表整理概念、規則與實例。卡片排列是閱讀順序，不表示科學因果、循環或數值比例。",
             "source": {
               "module": "teaching.js",
@@ -3511,10 +3511,10 @@
                 "desc": "Adverbs of frequency (always, usually, often, sometimes, never) show how often an action happens. They come before action verbs but after be-verbs. The modal verb \"can\" expresses ability or permission and is followed by a base verb. \"There is\" and \"There are\" state existence."
               },
               "extension": {
-                "title": "祈使句規範",
+                "title": "頻率副詞強度與位置",
                 "unitId": "english-8",
                 "icon": "🚀",
-                "desc": "同課比較：省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞。請說明與「附加問句前肯後否」的差別。"
+                "desc": "同課比較：always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」。請說明與「There is / There are 存在句」的差別。"
               },
               "crossDisciplinary": {
                 "title": "字詞、語境與修辭",
@@ -3523,32 +3523,32 @@
                 "icon": "🌐",
                 "desc": "比較兩課使用的對象與條件，找出相同與不同處。關聯僅供探索，不表示規則可以直接互用。"
               },
-              "synapseNote": "回想練習：遮住「附加問句前肯後否」的說明，先說出規則，再用「You are a student, aren't you? / She didn't go, did she?」核對自己的理解。"
+              "synapseNote": "回想練習：遮住「There is / There are 存在句」的說明，先說出規則，再用「There is a book on the desk. / There are two parks near my home.」核對自己的理解。"
             }
           }
         ],
         "table": {
-          "title": "特殊句型：祈使句、感嘆句與附加問句規則",
+          "title": "頻率副詞、情態助動詞 can 與 There is / There are 存在句",
           "rows": [
             [
-              "祈使句規範",
-              "省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞",
-              "Open the door, please. / Don't be late for school again."
+              "頻率副詞強度與位置",
+              "always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」",
+              "She is always early. / He usually walks to school. / Do you often play basketball?"
             ],
             [
-              "感嘆句結構",
-              "What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!",
-              "What a beautiful girl she is! / How fast he can run!"
+              "情態助動詞 can 用法",
+              "can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s",
+              "He can swim very well. / Can you open the window?（否定為 can't / cannot）"
             ],
             [
-              "附加問句前肯後否",
-              "直述句肯定，附加問句用否定縮寫；直述句否定，附加問句用肯定",
-              "You are a student, aren't you? / She didn't go, did she?"
+              "There is / There are 存在句",
+              "表達「某處有某人/某物」，單數或不可數名詞用 There is，複數名詞用 There are",
+              "There is a book on the desk. / There are two parks near my home."
             ],
             [
-              "特殊附加問句",
-              "祈使句附加問句用 will you?；Let's 開頭用 shall we?；I am... 用 aren't I?",
-              "Let's go for a walk, shall we? / Have a seat, will you?"
+              "高頻易錯防線",
+              "切忌受中文影響誤寫 There have...；否定或疑問句中 any 常取代 some",
+              "正確：Are there any apples in the fridge?（錯誤：There have two apples.）"
             ]
           ]
         },
@@ -3736,9 +3736,9 @@
         "publisherGuide": {
           "tocKeywords": [
             "頻率副詞、情態助動詞 can 與存在句",
-            "祈使句規範",
-            "感嘆句結構",
-            "附加問句前肯後否",
+            "頻率副詞強度與位置",
+            "情態助動詞 can 用法",
+            "There is / There are 存在句",
             "頻率副詞"
           ],
           "publishers": [
@@ -3749,16 +3749,16 @@
               "styleTag": "本站建議：從實例理解",
               "documented": [],
               "chapterStatus": "guided",
-              "coreFocus": "祈使句規範：省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞。",
-              "studyStrategy": "先從生活實例「She is always on time. / He often plays baseball after school. / Can you swim? Yes, I can. / There is a cat on the roof, and there are three dogs in the yard.。」建立直觀圖像，再核對「祈使句規範」的成立條件：省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞。",
-              "examCheckpoint": "核對本點實例與界線：Open the door, please. / Don't be late for school again.",
+              "coreFocus": "頻率副詞強度與位置：always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」。",
+              "studyStrategy": "先從生活實例「She is always on time. / He often plays baseball after school. / Can you swim? Yes, I can. / There is a cat on the roof, and there are three dogs in the yard.。」建立直觀圖像，再核對「頻率副詞強度與位置」的成立條件：always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」。",
+              "examCheckpoint": "核對本點實例與界線：She is always early. / He usually walks to school. / Do you often play basketball?",
               "publisher": "康軒",
               "accent": "#1b6ca8",
               "tint": "#eef7fc",
               "chapters": [],
-              "focus": "祈使句規範：省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞。",
-              "strategy": "先從生活實例「She is always on time. / He often plays baseball after school. / Can you swim? Yes, I can. / There is a cat on the roof, and there are three dogs in the yard.。」建立直觀圖像，再核對「祈使句規範」的成立條件：省略主詞 You，以原形動詞開頭；否定句用 Don't + 原形動詞。",
-              "checkpoint": "核對本點實例與界線：Open the door, please. / Don't be late for school again."
+              "focus": "頻率副詞強度與位置：always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」。",
+              "strategy": "先從生活實例「She is always on time. / He often plays baseball after school. / Can you swim? Yes, I can. / There is a cat on the roof, and there are three dogs in the yard.。」建立直觀圖像，再核對「頻率副詞強度與位置」的成立條件：always > usually > often > sometimes > seldom > never；口訣「be 動詞與助動詞之後，一般動詞之前」。",
+              "checkpoint": "核對本點實例與界線：She is always early. / He usually walks to school. / Do you often play basketball?"
             },
             {
               "id": "翰林",
@@ -3767,16 +3767,16 @@
               "styleTag": "本站建議：比較判準",
               "documented": [],
               "chapterStatus": "guided",
-              "coreFocus": "What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!｜實例與界線：What a beautiful girl she is! / How fast he can run!",
+              "coreFocus": "can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s｜實例與界線：He can swim very well. / Can you open the window?（否定為 can't / cannot）",
               "studyStrategy": "把握「頻率副詞」與「存在句」的嚴謹定義分界：頻率副詞為「通常放一般動詞前、be 動詞後」；存在句為「There is/are 隨後方主要名詞單複數改變」。",
-              "examCheckpoint": "自我檢核：遮住說明，試著解釋「What a beautiful girl she is! / How fast he can run!」與「What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!」的關係。",
+              "examCheckpoint": "自我檢核：遮住說明，試著解釋「He can swim very well. / Can you open the window?（否定為 can't / cannot）」與「can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s」的關係。",
               "publisher": "翰林",
               "accent": "#2b6a4f",
               "tint": "#eef8f3",
               "chapters": [],
-              "focus": "What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!｜實例與界線：What a beautiful girl she is! / How fast he can run!",
+              "focus": "can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s｜實例與界線：He can swim very well. / Can you open the window?（否定為 can't / cannot）",
               "strategy": "把握「頻率副詞」與「存在句」的嚴謹定義分界：頻率副詞為「通常放一般動詞前、be 動詞後」；存在句為「There is/are 隨後方主要名詞單複數改變」。",
-              "checkpoint": "自我檢核：遮住說明，試著解釋「What a beautiful girl she is! / How fast he can run!」與「What + a/an + adj + 單數名詞 + S + V! / How + adj/adv + S + V!」的關係。"
+              "checkpoint": "自我檢核：遮住說明，試著解釋「He can swim very well. / Can you open the window?（否定為 can't / cannot）」與「can 表示能力、許可或請求，後方一律接「原形動詞」，不隨第三人稱單數加 s」的關係。"
             },
             {
               "id": "南一",
@@ -3866,11 +3866,11 @@
         "task": "Describe what you and your family members were doing yesterday at 7 p.m. using past continuous and \"while\".",
         "unitWonder": {
           "wonderTitle": "✨ 為什麼「過去進行式、時間連接詞與數量詞」超有趣？生活超能力 × 秒殺口訣",
-          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「過去進行式、時間連接詞與數量詞」其實就在你身邊！例如：I was doing my homework when the phone rang. / While Dad was cooking, Mom was reading a book. / She has a few friends, but very little free time.。當你搞懂「過去進行式（主詞 + was/were + V-ing）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
-          "funFact": "你知道嗎？在「過去進行式、時間連接詞與數量詞」中，高達 80% 的人最容易在「背景動作 vs. 插入事件」搞混，或是掉進「Do not confuse \"a few\" (positive: some) with \"few\" (negative: almost none), or \"a little\" (some) with \"little\" (almost none). Remember \"were\" is used for you/we/they in past continuous.」的直覺陷阱！其實從微觀機制來看：對照判準與實例：主詞 + was/were + V-ing。At 8 p.m. yesterday, I was studying.；主詞單複數決定 was/were。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "lifeConnection": "跟國外網友聊日常習慣、用英文分享剛發生的新鮮事，或看懂影集角色時間軸切換時，「過去進行式、時間連接詞與數量詞」其實正在背後運作！舉個直接的例子：I was doing my homework when the phone rang. / While Dad was cooking, Mom was reading a book. / She has a few friends, but very little free time.。只要抓住「過去進行式（主詞 + was/were + V-ing）」，你就能像跨文化任意門與世界玩家一樣，把課本規則直接變現成生活判斷力！",
+          "funFact": "⚡ 專家看世界的小秘密：在「過去進行式、時間連接詞與數量詞」裡，真正決定成敗的關鍵往往不是背更多細節，而是分清【背景動作】和【插入事件】的界線！記得防呆原則：a little 表示有少量；little 常偏向幾乎沒有，語氣不同。可將第一句改為 Leo was cooking when the phone rang.，事件關係保持不變；並非看到 when 就一定把它後面所有動詞變成進行式。，思考速度與準確度立刻翻倍。",
           "mnemonic": "🎵【過去進行式、時間連接詞與數量詞 · 快樂秒殺口訣】\n① 抓基準：過去進行式看仔細（主詞 + was/were + V-ing）\n② 分左右：背景動作對照插入事件，關鍵就在「when 與 while」\n③ 避陷阱：小心「Do not confuse \"a few\" (」別中計\n④ 穩驗算：最後代回「a little 表示有少量；little 常偏」拿滿分！",
-          "curiosityQ": "🤔 腦筋急轉彎：在「過去進行式、時間連接詞與數量詞」的情境裡，如果有人把「背景動作」跟「插入事件」當成一模一樣，會發生什麼事？",
-          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not confuse \"a few\" (positive: some) with \"few\" (negative: almost none), or \"a little\" (some) with \"little\" (almost none). Remember \"were\" is used for you/we/they in past continuous.」！因為【背景動作】是「過去進行式描述某時正在進行」，而【插入事件】則是「過去簡單式可描述打斷背景的事件」。只要用「when 與 while」先做區分，就能輕鬆破解！",
+          "curiosityQ": "🕵️ 生活偵探考驗：在「過去進行式、時間連接詞與數量詞」的實戰現場（例如：I was doing my homework when the phone rang. / While Dad was cooking, Mom was reading a book. / She has a few friends, but very little free time.），為什麼不能只憑表面直覺下結論，必須先確認「過去進行式」？",
+          "curiosityA": "🎉 偵探破解：因為直覺常會忽略「Do not confuse \"a few\" (positive: some) with \"few\" (negative: almost none), or \"a little\" (some) with \"little\" (almost none). Remember \"were\" is used for you/we/they in past continuous.」！依據核心判準「主詞 + was/were + V-ing」，搭配最後一步檢核「a little 表示有少量；little 常偏向幾乎沒有，語氣不同。可將第一句改為 Leo was cooking when the phone rang.，事件關係保持不變；並非看到 when 就一定把它後面所有動詞變成進行式。」，才能確保推理站得住腳！",
           "superpower": "🌍 跨文化任意門與世界玩家",
           "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
           "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
@@ -4345,11 +4345,11 @@
         "task": "Write a food review describing a meal using three different sensory linking verbs and one superlative statement.",
         "unitWonder": {
           "wonderTitle": "✨ 為什麼「連綴動詞、感官動詞與最高級比較」超有趣？生活超能力 × 秒殺口訣",
-          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「連綴動詞、感官動詞與最高級比較」其實就在你身邊！例如：The soup tastes delicious. / That sounds like a great idea. / I saw the bird fly into the garden. / Mount Everest is the highest mountain in the world.。當你搞懂「原級同等比較（as + 形容詞/副詞原級 + as（和...一樣））」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
-          "funFact": "你知道嗎？在「連綴動詞、感官動詞與最高級比較」中，高達 80% 的人最容易在「連綴動詞 vs. 感官動詞」搞混，或是掉進「Do not use adverbs after linking verbs (say \"The flower smells sweet\", not \"sweetly\"). Do not forget the definite article \"the\" before superlatives.」的直覺陷阱！其實從微觀機制來看：對照判準與實例：as + 形容詞/副詞原級 + as（和...一樣）。He is as smart as his brother. / She sings as beautifully as a bird.。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "lifeConnection": "看懂遊戲更新公告與英文食譜指示、精準表達旅遊路線與時間點，或寫出流暢自然的英文長句時，「連綴動詞、感官動詞與最高級比較」其實正在背後運作！舉個直接的例子：The soup tastes delicious. / That sounds like a great idea. / I saw the bird fly into the garden. / Mount Everest is the highest mountain in the world.。只要抓住「原級同等比較（as + 形容詞/副詞原級 + as（和...一樣））」，你就能像跨文化任意門與世界玩家一樣，把課本規則直接變現成生活判斷力！",
+          "funFact": "💡 概念透視鏡：面對「連綴動詞、感官動詞與最高級比較」，最常讓人掉坑的正是「Do not use adverbs after linking verbs (say \"The flower smells sweet\", not \"sweetly\"). Do not forget the definite article \"the\" before superlatives.」。只要先檢查「否定同等比較（not as/so + 原級 + as（不及...；不如...））」，你會驚訝地發現原本看似複雜的考題與生活現象，其實都遵守同一套簡潔邏輯！",
           "mnemonic": "🎵【連綴動詞、感官動詞與最高級比較 · 快樂秒殺口訣】\n① 抓基準：原級同等比較看仔細（as + 形容詞/副詞原級 + as（和...一樣））\n② 分左右：連綴動詞對照感官動詞，關鍵就在「否定同等比較」\n③ 避陷阱：小心「Do not use adverbs after」別中計\n④ 穩驗算：最後代回「三句分別考主詞補語、感官動詞後結構、最高級，不能」拿滿分！",
-          "curiosityQ": "🤔 腦筋急轉彎：在「連綴動詞、感官動詞與最高級比較」的情境裡，如果有人把「連綴動詞」跟「感官動詞」當成一模一樣，會發生什麼事？",
-          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not use adverbs after linking verbs (say \"The flower smells sweet\", not \"sweetly\"). Do not forget the definite article \"the\" before superlatives.」！因為【連綴動詞】是「後接形容詞描述主詞，如 looks happy」，而【感官動詞】則是「看見或聽見受詞做動作，可接原形或 V-ing，意義有別」。只要用「否定同等比較」先做區分，就能輕鬆破解！",
+          "curiosityQ": "🔄 逆向思考挑戰：假如你要當小老師，只用 20 秒提醒同學在「連綴動詞、感官動詞與最高級比較」最容易搞混的地方，你會把哪兩件事擺在一起對比？",
+          "curiosityA": "🎉 滿分講解：一定要對比【連綴動詞（後接形容詞描述主詞，如 looks happy）】與【感官動詞（看見或聽見受詞做動作，可接原形或 V-ing，意義有別）】，並特別強調「Do not use adverbs after linking verbs (say \"The flower smells sweet\", not \"sweetly\"). Do not forget the definite article \"the\" before superlatives.」，讓同學一次把觀念徹底釐清！",
           "superpower": "🌍 跨文化任意門與世界玩家",
           "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
           "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
@@ -4824,11 +4824,11 @@
         "task": "Create two pairs of sentences showing dative verb transformations with \"to\" and \"for\", and one sentence using \"let\" or \"make\".",
         "unitWonder": {
           "wonderTitle": "✨ 為什麼「授予動詞、使役動詞與現在完成式進階」超有趣？生活超能力 × 秒殺口訣",
-          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「授予動詞、使役動詞與現在完成式進階」其實就在你身邊！例如：She bought a gift for her brother (= She bought her brother a gift). / The teacher made us clean the classroom. / I have studied English since 2020.。當你搞懂「使役動詞（make/have/let + 受詞 + 原形動詞；get + 受詞 + to V）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
-          "funFact": "你知道嗎？在「授予動詞、使役動詞與現在完成式進階」中，高達 80% 的人最容易在「過去式 vs. 現在完成式」搞混，或是掉進「Do not use \"to V\" after causative verbs (say \"Mom let me go\", not \"Mom let me to go\"). \"Since\" takes a specific starting point; \"for\" takes a duration of time.」的直覺陷阱！其實從微觀機制來看：對照判準與實例：make/have/let + 受詞 + 原形動詞；get + 受詞 + to V。Mom made me clean my room. / Dad let him drive the car.。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "lifeConnection": "跟國外網友聊日常習慣、用英文分享剛發生的新鮮事，或看懂影集角色時間軸切換時，「授予動詞、使役動詞與現在完成式進階」其實正在背後運作！舉個直接的例子：She bought a gift for her brother (= She bought her brother a gift). / The teacher made us clean the classroom. / I have studied English since 2020.。只要抓住「使役動詞（make/have/let + 受詞 + 原形動詞；get + 受詞 + to V）」，你就能像跨文化任意門與世界玩家一樣，把課本規則直接變現成生活判斷力！",
+          "funFact": "🔍 反直覺冷知識：多數人第一次遇到「授予動詞、使役動詞與現在完成式進階」，會下意識落入「Do not use \"to V\" after causative verbs (say \"Mom let me go\", not \"Mom let me to go\"). \"Since\" takes a specific starting point; \"for\" takes a duration of time.」的錯覺！其實把【過去式】與【現在完成式】並排對照就會發現：make/have/let + 受詞 + 原形動詞；get + 受詞 + to V，一秒就能看透表象底層的真實規律。",
           "mnemonic": "🎵【授予動詞、使役動詞與現在完成式進階 · 快樂秒殺口訣】\n① 抓基準：使役動詞看仔細（make/have/let + 受詞 + 原形動詞；）\n② 分左右：過去式對照現在完成式，關鍵就在「授予動詞介系詞」\n③ 避陷阱：小心「Do not use \"to V\" after 」別中計\n④ 穩驗算：最後代回「buy 是購買事件，have 在此是持有狀態；若」拿滿分！",
-          "curiosityQ": "🤔 腦筋急轉彎：在「授予動詞、使役動詞與現在完成式進階」的情境裡，如果有人把「過去式」跟「現在完成式」當成一模一樣，會發生什麼事？",
-          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not use \"to V\" after causative verbs (say \"Mom let me go\", not \"Mom let me to go\"). \"Since\" takes a specific starting point; \"for\" takes a duration of time.」！因為【過去式】是「著重明確過去時間的事件」，而【現在完成式】則是「have/has+過去分詞，連結過去與現在」。只要用「授予動詞介系詞」先做區分，就能輕鬆破解！",
+          "curiosityQ": "🤔 腦筋急轉彎：在處理「授予動詞、使役動詞與現在完成式進階」時，如果有人把「過去式」的規則直接套到「現在完成式」身上，結果會出現什麼離譜破綻？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not use \"to V\" after causative verbs (say \"Mom let me go\", not \"Mom let me to go\"). \"Since\" takes a specific starting point; \"for\" takes a duration of time.」！因為【過去式】重點在「著重明確過去時間的事件」，而【現在完成式】則是「have/has+過去分詞，連結過去與現在」。先用「授予動詞介系詞」切分界線，就能避開錯誤！",
           "superpower": "🌍 跨文化任意門與世界玩家",
           "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
           "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
@@ -5307,11 +5307,11 @@
         "task": "Convert two direct questions (e.g. \"What time does the movie start?\") into polite indirect questions starting with \"Could you tell me...\".",
         "unitWonder": {
           "wonderTitle": "✨ 為什麼「附加問句、名詞子句與間接問句」超有趣？生活超能力 × 秒殺口訣",
-          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「附加問句、名詞子句與間接問句」其實就在你身邊！例如：You like playing soccer, don’t you? / She isn’t coming, is she? / I wonder where the post office is. / Do you know if the bus has arrived?。當你搞懂「直接問句（疑問詞＋倒裝結構）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
-          "funFact": "你知道嗎？在「附加問句、名詞子句與間接問句」中，高達 80% 的人最容易在「直接問句 vs. 間接問句」搞混，或是掉進「In indirect questions, do not keep inversion or auxiliary do/does/did (say \"Can you tell me where he lives?\", not \"where does he live?\").」的直覺陷阱！其實從微觀機制來看：對照判準與實例：疑問詞＋倒裝結構。Where does he live?。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "lifeConnection": "看懂遊戲更新公告與英文食譜指示、精準表達旅遊路線與時間點，或寫出流暢自然的英文長句時，「附加問句、名詞子句與間接問句」其實正在背後運作！舉個直接的例子：You like playing soccer, don’t you? / She isn’t coming, is she? / I wonder where the post office is. / Do you know if the bus has arrived?。只要抓住「直接問句（疑問詞＋倒裝結構）」，你就能像跨文化任意門與世界玩家一樣，把課本規則直接變現成生活判斷力！",
+          "funFact": "⚡ 專家看世界的小秘密：在「附加問句、名詞子句與間接問句」裡，真正決定成敗的關鍵往往不是背更多細節，而是分清【直接問句】和【間接問句】的界線！記得防呆原則：不能寫 where does Eva live 放在 tell me 後，也不能寫 doesn’t Eva 重複姓名取代常見代名詞。再比較 I wonder where Eva lives.，同樣的嵌入子句放在陳述主句後，整句通常用句號，標點須看整句功能。，思考速度與準確度立刻翻倍。",
           "mnemonic": "🎵【附加問句、名詞子句與間接問句 · 快樂秒殺口訣】\n① 抓基準：直接問句看仔細（疑問詞＋倒裝結構）\n② 分左右：直接問句對照間接問句，關鍵就在「間接問句」\n③ 避陷阱：小心「In indirect questions, d」別中計\n④ 穩驗算：最後代回「不能寫 where does Eva live 」拿滿分！",
-          "curiosityQ": "🤔 腦筋急轉彎：在「附加問句、名詞子句與間接問句」的情境裡，如果有人把「直接問句」跟「間接問句」當成一模一樣，會發生什麼事？",
-          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「In indirect questions, do not keep inversion or auxiliary do/does/did (say \"Can you tell me where he lives?\", not \"where does he live?\").」！因為【直接問句】是「常有助動詞與主詞倒裝」，而【間接問句】則是「問句嵌入其他句子後通常改陳述語序」。只要用「間接問句」先做區分，就能輕鬆破解！",
+          "curiosityQ": "🕵️ 生活偵探考驗：在「附加問句、名詞子句與間接問句」的實戰現場（例如：You like playing soccer, don’t you? / She isn’t coming, is she? / I wonder where the post office is. / Do you know if the bus has arrived?），為什麼不能只憑表面直覺下結論，必須先確認「直接問句」？",
+          "curiosityA": "🎉 偵探破解：因為直覺常會忽略「In indirect questions, do not keep inversion or auxiliary do/does/did (say \"Can you tell me where he lives?\", not \"where does he live?\").」！依據核心判準「疑問詞＋倒裝結構」，搭配最後一步檢核「不能寫 where does Eva live 放在 tell me 後，也不能寫 doesn’t Eva 重複姓名取代常見代名詞。再比較 I wonder where Eva lives.，同樣的嵌入子句放在陳述主句後，整句通常用句號，標點須看整句功能。」，才能確保推理站得住腳！",
           "superpower": "🌍 跨文化任意門與世界玩家",
           "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
           "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
@@ -5789,11 +5789,11 @@
         "task": "Write three sentences describing your morning commute to school, using at least three different prepositions of place and movement (e.g. out of, along, across, into).",
         "unitWonder": {
           "wonderTitle": "✨ 為什麼「介系詞與時空方位精準表達」超有趣？生活超能力 × 秒殺口訣",
-          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「介系詞與時空方位精準表達」其實就在你身邊！例如：We walked through the dark tunnel and came across the river. / The concert will take place at 8:00 p.m. on Friday, in Taipei Arena.。當你搞懂「at（時間點、特定位置點）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
-          "funFact": "你知道嗎？在「介系詞與時空方位精準表達」中，高達 80% 的人最容易在「時間點 vs. 較長期間」搞混，或是掉進「Do not say \"on 2024\" or \"in Sunday\". Remember you walk \"through\" a forest/tunnel (3D space), but walk \"across\" a street/bridge (flat surface).」的直覺陷阱！其實從微觀機制來看：對照判準與實例：時間點、特定位置點。at 7:30 / at the bus stop。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "lifeConnection": "看懂遊戲更新公告與英文食譜指示、精準表達旅遊路線與時間點，或寫出流暢自然的英文長句時，「介系詞與時空方位精準表達」其實正在背後運作！舉個直接的例子：We walked through the dark tunnel and came across the river. / The concert will take place at 8:00 p.m. on Friday, in Taipei Arena.。只要抓住「at（時間點、特定位置點）」，你就能像跨文化任意門與世界玩家一樣，把課本規則直接變現成生活判斷力！",
+          "funFact": "⚡ 專家看世界的小秘密：在「介系詞與時空方位精準表達」裡，真正決定成敗的關鍵往往不是背更多細節，而是分清【時間點】和【較長期間】的界線！記得防呆原則：完整句為 We meet at 8:30 on Saturday morning in July. Walk across the bridge; the café is between the bank and the bookstore.。注意題目未給年份，不能推論確切日期；英文介系詞與中文「在」不一對一。另比較 in the morning 和 at night，記錄完整搭配比只背單字有用。，思考速度與準確度立刻翻倍。",
           "mnemonic": "🎵【介系詞與時空方位精準表達 · 快樂秒殺口訣】\n① 抓基準：at看仔細（時間點、特定位置點）\n② 分左右：時間點對照較長期間，關鍵就在「on」\n③ 避陷阱：小心「Do not say \"on 2024\" or 」別中計\n④ 穩驗算：最後代回「完整句為 We meet at 8:30 on 」拿滿分！",
-          "curiosityQ": "🤔 腦筋急轉彎：在「介系詞與時空方位精準表達」的情境裡，如果有人把「時間點」跟「較長期間」當成一模一樣，會發生什麼事？",
-          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not say \"on 2024\" or \"in Sunday\". Remember you walk \"through\" a forest/tunnel (3D space), but walk \"across\" a street/bridge (flat surface).」！因為【時間點】是「at 常用於鐘點，on 用於日期或特定一天」，而【較長期間】則是「in 常用於月份、年份及部分時段」。只要用「on」先做區分，就能輕鬆破解！",
+          "curiosityQ": "🕵️ 生活偵探考驗：在「介系詞與時空方位精準表達」的實戰現場（例如：We walked through the dark tunnel and came across the river. / The concert will take place at 8:00 p.m. on Friday, in Taipei Arena.），為什麼不能只憑表面直覺下結論，必須先確認「at」？",
+          "curiosityA": "🎉 偵探破解：因為直覺常會忽略「Do not say \"on 2024\" or \"in Sunday\". Remember you walk \"through\" a forest/tunnel (3D space), but walk \"across\" a street/bridge (flat surface).」！依據核心判準「時間點、特定位置點」，搭配最後一步檢核「完整句為 We meet at 8:30 on Saturday morning in July. Walk across the bridge; the café is between the bank and the bookstore.。注意題目未給年份，不能推論確切日期；英文介系詞與中文「在」不一對一。另比較 in the morning 和 at night，記錄完整搭配比只背單字有用。」，才能確保推理站得住腳！",
           "superpower": "🌍 跨文化任意門與世界玩家",
           "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
           "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
@@ -6268,11 +6268,11 @@
         "task": "Write two conditional rules for your school science lab using \"If you...\" and \"Unless you...\".",
         "unitWonder": {
           "wonderTitle": "✨ 為什麼「條件副詞子句與情態假設語氣」超有趣？生活超能力 × 秒殺口訣",
-          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「條件副詞子句與情態假設語氣」其實就在你身邊！例如：If you study hard every day, you will make great progress. / Unless you leave now, you will miss the morning train (= If you do not leave now...).。當你搞懂「可能發生（If＋現在式，主句 will/can＋原形）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
-          "funFact": "你知道嗎？在「條件副詞子句與情態假設語氣」中，高達 80% 的人最容易在「可能條件 vs. 延伸語氣」搞混，或是掉進「Do not put \"will\" inside the if-clause when expressing a future condition (say \"If tomorrow is sunny\", not \"If tomorrow will be sunny\").」的直覺陷阱！其實從微觀機制來看：對照判準與實例：If＋現在式，主句 will/can＋原形。If it rains tomorrow, we will stay home.。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "lifeConnection": "看懂遊戲更新公告與英文食譜指示、精準表達旅遊路線與時間點，或寫出流暢自然的英文長句時，「條件副詞子句與情態假設語氣」其實正在背後運作！舉個直接的例子：If you study hard every day, you will make great progress. / Unless you leave now, you will miss the morning train (= If you do not leave now...).。只要抓住「可能發生（If＋現在式，主句 will/can＋原形）」，你就能像跨文化任意門與世界玩家一樣，把課本規則直接變現成生活判斷力！",
+          "funFact": "💡 概念透視鏡：面對「條件副詞子句與情態假設語氣」，最常讓人掉坑的正是「Do not put \"will\" inside the if-clause when expressing a future condition (say \"If tomorrow is sunny\", not \"If tomorrow will be sunny\").」。只要先檢查「一般規律（If＋現在式，主句現在式）」，你會驚訝地發現原本看似複雜的考題與生活現象，其實都遵守同一套簡潔邏輯！",
           "mnemonic": "🎵【條件副詞子句與情態假設語氣 · 快樂秒殺口訣】\n① 抓基準：可能發生看仔細（If＋現在式，主句 will/can＋原形）\n② 分左右：可能條件對照延伸語氣，關鍵就在「一般規律」\n③ 避陷阱：小心「Do not put \"will\" inside」別中計\n④ 穩驗算：最後代回「不要把兩句拼成 If it will rains」拿滿分！",
-          "curiosityQ": "🤔 腦筋急轉彎：在「條件副詞子句與情態假設語氣」的情境裡，如果有人把「可能條件」跟「延伸語氣」當成一模一樣，會發生什麼事？",
-          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not put \"will\" inside the if-clause when expressing a future condition (say \"If tomorrow is sunny\", not \"If tomorrow will be sunny\").」！因為【可能條件】是「真實未來條件句常用 If+現在式，主要子句用 will」，而【延伸語氣】則是「與事實相反的假設是加深內容，須區分可能性與時間」。只要用「一般規律」先做區分，就能輕鬆破解！",
+          "curiosityQ": "🔄 逆向思考挑戰：假如你要當小老師，只用 20 秒提醒同學在「條件副詞子句與情態假設語氣」最容易搞混的地方，你會把哪兩件事擺在一起對比？",
+          "curiosityA": "🎉 滿分講解：一定要對比【可能條件（真實未來條件句常用 If+現在式，主要子句用 will）】與【延伸語氣（與事實相反的假設是加深內容，須區分可能性與時間）】，並特別強調「Do not put \"will\" inside the if-clause when expressing a future condition (say \"If tomorrow is sunny\", not \"If tomorrow will be sunny\").」，讓同學一次把觀念徹底釐清！",
           "superpower": "🌍 跨文化任意門與世界玩家",
           "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
           "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
@@ -6747,11 +6747,11 @@
         "task": "Combine two sentences using relative clauses: \"This is the company.\" and \"My mother works for it.\" Show both informal preposition-at-end and formal preposition-first forms.",
         "unitWonder": {
           "wonderTitle": "✨ 為什麼「關係代名詞受格省略與介系詞搭配」超有趣？生活超能力 × 秒殺口訣",
-          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「關係代名詞受格省略與介系詞搭配」其實就在你身邊！例如：The novel (which/that) I borrowed from the library is exciting. / This is the quiet town in which (= where) she was born. / The man whom I spoke to yesterday is our principal.。當你搞懂「主格（關係代名詞在子句中當主詞，通常不可省略）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
-          "funFact": "你知道嗎？在「關係代名詞受格省略與介系詞搭配」中，高達 80% 的人最容易在「主格關係代名詞 vs. 受格關係代名詞」搞混，或是掉進「Never place \"that\" or \"who\" directly after a preposition (write \"the house in which\", never \"the house in that\"). You cannot omit the relative pronoun when it serves as the subject.」的直覺陷阱！其實從微觀機制來看：對照判準與實例：關係代名詞在子句中當主詞，通常不可省略。The boy who lives here is Tom.。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "lifeConnection": "看懂遊戲更新公告與英文食譜指示、精準表達旅遊路線與時間點，或寫出流暢自然的英文長句時，「關係代名詞受格省略與介系詞搭配」其實正在背後運作！舉個直接的例子：The novel (which/that) I borrowed from the library is exciting. / This is the quiet town in which (= where) she was born. / The man whom I spoke to yesterday is our principal.。只要抓住「主格（關係代名詞在子句中當主詞，通常不可省略）」，你就能像跨文化任意門與世界玩家一樣，把課本規則直接變現成生活判斷力！",
+          "funFact": "🔍 反直覺冷知識：多數人第一次遇到「關係代名詞受格省略與介系詞搭配」，會下意識落入「Never place \"that\" or \"who\" directly after a preposition (write \"the house in which\", never \"the house in that\"). You cannot omit the relative pronoun when it serves as the subject.」的錯覺！其實把【主格關係代名詞】與【受格關係代名詞】並排對照就會發現：關係代名詞在子句中當主詞，通常不可省略，一秒就能看透表象底層的真實規律。",
           "mnemonic": "🎵【關係代名詞受格省略與介系詞搭配 · 快樂秒殺口訣】\n① 抓基準：主格看仔細（關係代名詞在子句中當主詞，通常不可省略）\n② 分左右：主格關係代名詞對照受格關係代名詞，關鍵就在「受格」\n③ 避陷阱：小心「Never place \"that\" or \"w」別中計\n④ 穩驗算：最後代回「兩個女孩句子的助人方向相反，不能只看相同單字而認」拿滿分！",
-          "curiosityQ": "🤔 腦筋急轉彎：在「關係代名詞受格省略與介系詞搭配」的情境裡，如果有人把「主格關係代名詞」跟「受格關係代名詞」當成一模一樣，會發生什麼事？",
-          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Never place \"that\" or \"who\" directly after a preposition (write \"the house in which\", never \"the house in that\"). You cannot omit the relative pronoun when it serves as the subject.」！因為【主格關係代名詞】是「在關係子句當主詞，通常不能省略」，而【受格關係代名詞】則是「在限定關係子句當受詞時常可省略」。只要用「受格」先做區分，就能輕鬆破解！",
+          "curiosityQ": "🤔 腦筋急轉彎：在處理「關係代名詞受格省略與介系詞搭配」時，如果有人把「主格關係代名詞」的規則直接套到「受格關係代名詞」身上，結果會出現什麼離譜破綻？",
+          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Never place \"that\" or \"who\" directly after a preposition (write \"the house in which\", never \"the house in that\"). You cannot omit the relative pronoun when it serves as the subject.」！因為【主格關係代名詞】重點在「在關係子句當主詞，通常不能省略」，而【受格關係代名詞】則是「在限定關係子句當受詞時常可省略」。先用「受格」切分界線，就能避開錯誤！",
           "superpower": "🌍 跨文化任意門與世界玩家",
           "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
           "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",
@@ -7226,11 +7226,11 @@
         "task": "Create a bilingual English poster for an imaginary campus charity fair, including date, ticket price tiers, location, and contact email.",
         "unitWonder": {
           "wonderTitle": "✨ 為什麼「跨文本圖表閱讀與素養克漏字」超有趣？生活超能力 × 秒殺口訣",
-          "lifeConnection": "在看外國影集、打國際服遊戲或出國旅遊看英文告示時，「跨文本圖表閱讀與素養克漏字」其實就在你身邊！例如：A flyer states: \"Adults $200; Students with ID $100; Free for children under 6.\" A family with two parents and a 5-year-old child pays $400.。當你搞懂「Skimming 略讀大意（快速閱讀文章首尾段、每段首句與小標題，掌握核心主題與主旨）」，你就能像跨文化任意門與世界玩家一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！",
-          "funFact": "你知道嗎？在「跨文本圖表閱讀與素養克漏字」中，高達 80% 的人最容易在「跨文本一致 vs. 語意銜接」搞混，或是掉進「Do not assume information not present in the text; always verify eligibility conditions, time limits, and discounts carefully before answering.」的直覺陷阱！其實從微觀機制來看：對照判準與實例：快速閱讀文章首尾段、每段首句與小標題，掌握核心主題與主旨。Read topic sentences first to capture the main idea before details.。。只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！",
+          "lifeConnection": "看懂手機地圖定位經緯度、拆穿新聞截斷縱軸的誤導圖表，或精算遊戲抽卡保底與民調分布時，「跨文本圖表閱讀與素養克漏字」其實正在背後運作！舉個直接的例子：A flyer states: \"Adults $200; Students with ID $100; Free for children under 6.\" A family with two parents and a 5-year-old child pays $400.。只要抓住「Skimming 略讀大意（快速閱讀文章首尾段、每段首句與小標題，掌握核心主題與主旨）」，你就能像跨文化任意門與世界玩家一樣，把課本規則直接變現成生活判斷力！",
+          "funFact": "⚡ 專家看世界的小秘密：在「跨文本圖表閱讀與素養克漏字」裡，真正決定成敗的關鍵往往不是背更多細節，而是分清【跨文本一致】和【語意銜接】的界線！記得防呆原則：不能把較低票價當成唯一條件；題目也沒有說交通費，因此若要規劃真實行程，仍須另外確認交通與最後入館時間。克漏字若接「A is cheaper, ___ it is closed on Sunday」，空格應表轉折，如 but，而非表示結果的 so。回讀全段可避免文法局部正確、整體理由卻矛盾。，思考速度與準確度立刻翻倍。",
           "mnemonic": "🎵【跨文本圖表閱讀與素養克漏字 · 快樂秒殺口訣】\n① 抓基準：Skimming 略讀大意看仔細（快速閱讀文章首尾段、每段首句與小標題，掌握核心主題與）\n② 分左右：跨文本一致對照語意銜接，關鍵就在「Scanning 掃讀細節」\n③ 避陷阱：小心「Do not assume informatio」別中計\n④ 穩驗算：最後代回「不能把較低票價當成唯一條件；題目也沒有說交通費，」拿滿分！",
-          "curiosityQ": "🤔 腦筋急轉彎：在「跨文本圖表閱讀與素養克漏字」的情境裡，如果有人把「跨文本一致」跟「語意銜接」當成一模一樣，會發生什麼事？",
-          "curiosityA": "🎉 答案揭曉：那就會踩中本課頭號陷阱「Do not assume information not present in the text; always verify eligibility conditions, time limits, and discounts carefully before answering.」！因為【跨文本一致】是「比較不同資料是否談同一時間、對象與單位」，而【語意銜接】則是「克漏字要同時符合語法與上下文因果或轉折」。只要用「Scanning 掃讀細節」先做區分，就能輕鬆破解！",
+          "curiosityQ": "🕵️ 生活偵探考驗：在「跨文本圖表閱讀與素養克漏字」的實戰現場（例如：A flyer states: \"Adults $200; Students with ID $100; Free for children under 6.\" A family with two parents and a 5-year-old child pays $400.），為什麼不能只憑表面直覺下結論，必須先確認「Skimming 略讀大意」？",
+          "curiosityA": "🎉 偵探破解：因為直覺常會忽略「Do not assume information not present in the text; always verify eligibility conditions, time limits, and discounts carefully before answering.」！依據核心判準「快速閱讀文章首尾段、每段首句與小標題，掌握核心主題與主旨」，搭配最後一步檢核「不能把較低票價當成唯一條件；題目也沒有說交通費，因此若要規劃真實行程，仍須另外確認交通與最後入館時間。克漏字若接「A is cheaper, ___ it is closed on Sunday」，空格應表轉折，如 but，而非表示結果的 so。回讀全段可避免文法局部正確、整體理由卻矛盾。」，才能確保推理站得住腳！",
           "superpower": "🌍 跨文化任意門與世界玩家",
           "whyLoveIt": "英語是打開全世界遊戲伺服器、國外 YouTuber 頻道、歐美影集與未來旅行的「萬用鑰匙」！當你把文法當成組裝樂高積木的規則，就能輕鬆跟全世界交朋友。",
           "joyfulHack": "別死背單字表！先抓句子的「時間線索（時態）」和「主角動作（動詞）」，像拼樂高一樣把句子拆開再組合，克漏字與閱讀測驗秒破關！",

@@ -374,6 +374,7 @@
 /* Progressive Focus Filtering via data-cognitive-mode */
 .lesson[data-cognitive-mode="see"] #step-kp-playground,
 .lesson[data-cognitive-mode="see"] #step-ultra-do,
+.lesson[data-cognitive-mode="see"] #step-realworld,
 .lesson[data-cognitive-mode="see"] #step-exam-types,
 .lesson[data-cognitive-mode="see"] #step-pitfall,
 .lesson[data-cognitive-mode="see"] #step-practice,
@@ -401,7 +402,8 @@
 .lesson[data-cognitive-mode="feedback"] #step-diagram,
 .lesson[data-cognitive-mode="feedback"] #step-kp-playground,
 .lesson[data-cognitive-mode="feedback"] #step-solve,
-.lesson[data-cognitive-mode="feedback"] #step-ultra-do {
+.lesson[data-cognitive-mode="feedback"] #step-ultra-do,
+.lesson[data-cognitive-mode="feedback"] #step-realworld {
   display: none !important;
 }
 

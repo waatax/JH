@@ -268,6 +268,67 @@ const subjectLoveProfiles = {
   }
 };
 
+// Topic-specific everyday Taiwan teen life-hook matcher (eliminating repetitive subject boilerplate!)
+const TOPIC_LIFE_HOOKS = [
+  [/正負數|絕對值/, '查看阿里山清晨氣溫升降、計算高樓電梯地下室到頂樓的樓層差，或核對電子錢包收支餘額時'],
+  [/因數|倍數|質因數/, '規劃兩班公車何時同時進站、把不同口味點心剛好平分給全班，或設計網銀密碼加密原理時'],
+  [/分數|科學記號/, '調整甜點食譜份量比例、判讀手機晶片 3 奈米製程尺度，或讀懂天文望遠鏡遙遠星系距離時'],
+  [/方程式|聯立/, '計算超商第二件六折與滿額折扣哪個省、規劃團購分攤費用，或反推手遊升級所需經驗值時'],
+  [/比例|正比|反比|連比/, '依人數縮放珍珠奶茶黃金比例、估算固定路程開快一點能省幾分鐘，或換算地圖真實距離時'],
+  [/不等式/, '在有限零用錢預算下決定最多能買幾件商品、計算安全載重上限，或估算段考至少要考幾分才達標時'],
+  [/坐標|圖表|統計|機率|盒狀圖/, '看懂手機地圖定位經緯度、拆穿新聞截斷縱軸的誤導圖表，或精算遊戲抽卡保底與民調分布時'],
+  [/乘法公式|多項式|因式分解/, '快速心算 99×101、拆解長方形設計圖面積重組，或化簡複雜工程計算式時'],
+  [/平方根|畢氏定理/, '測量 55 吋電視螢幕實際長寬尺寸、規劃校園最短斜向捷徑，或判定書櫃轉角是不是標準直角時'],
+  [/數列|級數|一次函數/, '比較兩種手機資費與計程車跳表方案、規劃每週遞增存錢目標，或推算劇院座位總數時'],
+  [/全等|相似|多邊形|四邊形|三心/, '利用陽光影長免爬樹測出大樓高度、設計最穩固的橋樑桁架結構，或用折紙找出重心平衡點時'],
+  [/圓|切線|圓周角|弦切角|立體/, '調整足球射門視角、計算摩天輪俯瞰角度，或估算飲料杯包裝紙面積與真實容量時'],
+  [/二次函數|極值/, '分析籃球三分球最佳出手弧線、幫園遊會攤位算出「定價多少元能賺最多淨利」的最佳點時'],
+  [/文言|虛字|諸子|寓言/, '讀懂成語典故的精簡邏輯、像破譯古人版「極簡縮寫梗」一樣還原對話主詞與言外之意時'],
+  [/修辭|詩歌|近體詩|詞曲|散文|小說/, '欣賞流行歌詞的意象鋪陳、看穿動漫台詞的雙關伏筆與角色反轉，或寫出讓人一眼記住的動人段落時'],
+  [/說明文|議論|批判|寫作|應用文/, '識破社群平台帶風向的偽證據貼文、撰寫得體的電子郵件與請柬，或在報告中用數據有條理說服聽眾時'],
+  [/六書|標點|語法/, '從漢字偏旁秒猜生字讀音與意思、用對標點符號避免傳訊息引發誤會，或提升長句閱讀速度時'],
+  [/現在式|進行式|過去式|未來|完成式|時態/, '跟國外網友聊日常習慣、用英文分享剛發生的新鮮事，或看懂影集角色時間軸切換時'],
+  [/比較級|最高級|子句|被動|介系詞|假設|句型|副詞|助動詞/, '看懂遊戲更新公告與英文食譜指示、精準表達旅遊路線與時間點，或寫出流暢自然的英文長句時'],
+  [/細胞|顯微鏡|滲透|酵素|消化/, '觀察醃漬小黃瓜為何出水變脆、理解為何咬米飯越嚼越甜，或明白運動飲料如何快速補水時'],
+  [/光合|呼吸|運輸|神經|內分泌|恆定|排泄/, '感受手碰到熱水一瞬間縮回的反射弧、明白為何跑步會喘氣流汗，或了解熬夜如何打亂荷爾蒙節律時'],
+  [/生殖|遺傳|孟德爾|演化|生態|多樣性/, '推算捲舌與血型等家族遺傳特徵、看懂食物鏈毒素累積警訊，或思考守護臺灣濕地物種多樣性時'],
+  [/測量|密度|聲音|波動/, '用鋁箔紙摺出能載重的小船、調整吉他弦鬆緊改變音高，或用閃電與雷聲時間差估算雷雨距離時'],
+  [/光|反射|折射|透鏡|面鏡/, '理解近視與老花眼鏡鏡片差異、手機鏡頭對焦原理，或看懂插進水杯的吸管為何看似折斷時'],
+  [/溫度|熱量|熱傳播/, '挑選出門保冰最久的保溫瓶、理解夏天穿淺色衣服較涼爽，或感受海邊日夜風向變化的原因時'],
+  [/運動|力|牛頓|摩擦|功|能量|機械|動能/, '體驗捷運突然煞車身體前傾的慣性、選擇開瓶器或剪刀省力支點，或計算車速加倍後的煞車距離時'],
+  [/浮力|阿基米德|壓力|大氣壓力/, '觀察合歡山高山上洋芋片包裝袋鼓起、理解死海為何能輕鬆漂浮，或看懂潛水艇如何控制沉浮時'],
+  [/靜電|電路|電流|磁|電磁|發電機/, '預防冬天穿脫毛衣靜電啪啪響、避免延長線插滿高功率電器跳電，或了解無線充電與風力發電原理時'],
+  [/物質|原子|週期表|反應式|質量守恆|莫耳/, '拆解暖暖包發熱與烘焙蘇打膨脹的微觀粒子重組，或依比例精準調配清潔與實驗配方時'],
+  [/溶液|濃度|溶解度|酸鹼|中和|電解質|滴定/, '理解為何冰汽水比溫汽水氣泡多、吃胃藥緩解胃酸過多原理，或分辨食醋與小蘇打水的酸鹼性質時'],
+  [/氧化還原|有機|聚合物|反應速率|平衡|空氣|氣體/, '解釋蘋果切開變褐色、延長食物冷藏保鮮期，或辨識耐熱塑膠與可回收寶特瓶的材質差異時'],
+  [/岩石|板塊|地震|地層|造山/, '走訪太魯閣峽谷與野柳地景、判讀地震速報的 P 波與 S 波時間差，並做好居家防震準備時'],
+  [/水循環|天氣|鋒面|季風|氣團|颱風|氣候變遷/, '看懂氣象局地面天氣圖與颱風路徑潛勢、判斷明天要不要帶傘，並理解全球暖化下的節能減碳行動時'],
+  [/地球運動|四季|月相|潮汐|日食|月食|太陽系|星空/, '抬頭看月亮位置推估農曆日期、規劃海邊潮間帶退潮探險時間，或欣賞血月與流星雨天文奇觀時'],
+  [/臺灣|荷西|鄭氏|清領|日治|戰後|原住民/, '漫步安平古堡、大稻埕與鹿港老街，從建築騎樓、茶葉樟腦與地名讀懂臺灣四百年的海洋身世時'],
+  [/中國|東亞|明清|近代|辛亥|歐洲|工業革命|冷戰|希臘|羅馬/, '看歷史劇、玩文明策略遊戲或看新聞分析國際局勢，一眼串起貿易航線、科技革命與制度變遷的骨牌效應時'],
+  [/地圖|比例尺|等高線|地形|人口|產業|都市|交通/, '規劃登山步道避開陡坡地形、看懂臺灣高鐵生活圈與少子化趨勢，或從產地名產反推在地氣候水文時'],
+  [/亞洲|非洲|歐洲|美洲|西亞|中亞|大洋洲|澳洲|全球/, '看懂國際油價漲跌新聞、追蹤一支手機橫跨五大洲的供應鏈分工，或規劃跨時區出國旅行時'],
+  [/自我|家庭|公共|民主|人權|法治|少年|民法|刑法|中央|地方/, '面對網購退貨糾紛、網路留言法律界線、校園學生自治提案或關注公民投票與地方創生議題時'],
+  [/機會成本|市場|競爭|外部效果|國際貿易|比較利益|媒體/, '權衡考前讀書與玩遊戲的機會成本、識破演算法同溫層假新聞，或看懂漲價排隊背後的供需法則時'],
+  [/色彩|構圖|透視|藝術|節奏|拍號|音色|音樂|舞臺|戲劇|展演/, '拍出黃金三分法神級照片、設計吸睛簡報配色、抓準節奏遊戲拍點，或上台大方展現聲音與肢體魅力時'],
+  [/演算法|變數|迴圈|資訊安全|設計|機構|能源/, '拆解遊戲邏輯與除錯、設定雙重驗證防範釣魚簡訊、善用齒輪連桿原理修東西或動手打造生活原型時'],
+  [/健康|飲食|運動|體適能|球類|家庭合作|衣物|消費|童軍|定向|無痕|輔導|生涯|手語|本土/, '看懂飲料營養標示與衣物洗標、管理零用錢與讀書時間、規劃安全露營路線，或尊重多元語言文化溝通時']
+];
+
+function resolveLifeHook(u, fallbackPrefix) {
+  const hay = `${u.title} ${u.concept}`;
+  for (const [rx, hook] of TOPIC_LIFE_HOOKS) {
+    if (rx.test(hay)) return hook;
+  }
+  return fallbackPrefix;
+}
+
+const unitsBySubject = {};
+for (const u of units) {
+  if (!unitsBySubject[u.subject]) unitsBySubject[u.subject] = [];
+  unitsBySubject[u.subject].push(u);
+}
+
 // 2. Build Unit Wonder & Knowledge Playground Data for all 188 Units
 const unitWonderData = {};
 
@@ -279,6 +340,7 @@ units.forEach((u, idx) => {
   const r0 = rows[0] || ['核心定義', u.concept, u.example];
   const r1 = rows[1] || ['關鍵判準', u.concept, u.example];
   const r2 = rows[2] || ['實戰檢核', u.pitfall, u.task];
+  const r3 = rows[3] || r2;
   const ld = lessonDeepening[u.id] || { leftLabel: '基礎觀念', left: u.concept, rightLabel: '易混淆點', right: u.pitfall };
   const wc = workedCases[u.id] || { problem: u.example, steps: [u.concept], check: u.pitfall };
   const kps = explicitKnowledgePoints[u.id] || [];
@@ -286,16 +348,37 @@ units.forEach((u, idx) => {
   const firstConcept = clean(u.concept.split('。')[0]);
   const firstExample = clean(u.example.split('。')[0]);
   const firstPitfall = clean(u.pitfall.split('。')[0]);
+  const lifeHook = resolveLifeHook(u, profile.lifeHookPrefix);
 
   const wonderTitle = `✨ 為什麼「${u.title}」超有趣？生活超能力 × 秒殺口訣`;
-  const lifeConnection = `${profile.lifeHookPrefix}，「${u.title}」其實就在你身邊！例如：${firstExample}。當你搞懂「${r0[0]}（${clean(r0[1])}）」，你就能像${profile.superpower.replace(/^[^\s]+\s*/, '')}一樣，一眼看穿背後的規律，再也不會被表面現象騙倒！`;
+  const lifeConnection = `${lifeHook}，「${u.title}」其實正在背後運作！舉個直接的例子：${firstExample}。只要抓住「${clean(r0[0])}（${clean(r0[1])}）」，你就能像${profile.superpower.replace(/^[^\s]+\s*/, '')}一樣，把課本規則直接變現成生活判斷力！`;
 
-  const funFact = `你知道嗎？在「${u.title}」中，高達 80% 的人最容易在「${ld.leftLabel} vs. ${ld.rightLabel}」搞混，或是掉進「${firstPitfall}」的直覺陷阱！${kps[0] ? `其實從微觀機制來看：${clean(kps[0].mechanism)}。` : ''}只要抓住這個小秘密，你就能比別人快 3 倍看穿題目！`;
+  const funFactStyles = [
+    `🔍 反直覺冷知識：多數人第一次遇到「${u.title}」，會下意識落入「${firstPitfall}」的錯覺！其實把【${ld.leftLabel}】與【${ld.rightLabel}】並排對照就會發現：${clean(r0[1])}，一秒就能看透表象底層的真實規律。`,
+    `⚡ 專家看世界的小秘密：在「${u.title}」裡，真正決定成敗的關鍵往往不是背更多細節，而是分清【${ld.leftLabel}】和【${ld.rightLabel}】的界線！記得防呆原則：${clean(wc.check)}，思考速度與準確度立刻翻倍。`,
+    `💡 概念透視鏡：面對「${u.title}」，最常讓人掉坑的正是「${firstPitfall}」。只要先檢查「${clean(r1[0])}（${clean(r1[1])}）」，你會驚訝地發現原本看似複雜的考題與生活現象，其實都遵守同一套簡潔邏輯！`
+  ];
+  const funFact = funFactStyles[idx % funFactStyles.length];
 
-  const mnemonic = `🎵【${u.title} · 快樂秒殺口訣】\n① 抓基準：${r0[0]}看仔細（${clean(r0[1]).slice(0, 26)}）\n② 分左右：${ld.leftLabel}對照${ld.rightLabel}，關鍵就在「${r1[0]}」\n③ 避陷阱：小心「${firstPitfall.slice(0, 24)}」別中計\n④ 穩驗算：最後代回「${clean(wc.check).slice(0, 24)}」拿滿分！`;
+  const mnemonic = `🎵【${u.title} · 快樂秒殺口訣】\n① 抓基準：${clean(r0[0])}看仔細（${clean(r0[1]).slice(0, 26)}）\n② 分左右：${ld.leftLabel}對照${ld.rightLabel}，關鍵就在「${clean(r1[0])}」\n③ 避陷阱：小心「${firstPitfall.slice(0, 24)}」別中計\n④ 穩驗算：最後代回「${clean(wc.check).slice(0, 24)}」拿滿分！`;
 
-  const curiosityQ = `🤔 腦筋急轉彎：在「${u.title}」的情境裡，如果有人把「${ld.leftLabel}」跟「${ld.rightLabel}」當成一模一樣，會發生什麼事？`;
-  const curiosityA = `🎉 答案揭曉：那就會踩中本課頭號陷阱「${firstPitfall}」！因為【${ld.leftLabel}】是「${clean(ld.left)}」，而【${ld.rightLabel}】則是「${clean(ld.right)}」。只要用「${r1[0]}」先做區分，就能輕鬆破解！`;
+  const curiosityTemplates = [
+    {
+      q: `🤔 腦筋急轉彎：在處理「${u.title}」時，如果有人把「${ld.leftLabel}」的規則直接套到「${ld.rightLabel}」身上，結果會出現什麼離譜破綻？`,
+      a: `🎉 答案揭曉：那就會踩中本課頭號陷阱「${firstPitfall}」！因為【${ld.leftLabel}】重點在「${clean(ld.left)}」，而【${ld.rightLabel}】則是「${clean(ld.right)}」。先用「${clean(r1[0])}」切分界線，就能避開錯誤！`
+    },
+    {
+      q: `🕵️ 生活偵探考驗：在「${u.title}」的實戰現場（例如：${firstExample}），為什麼不能只憑表面直覺下結論，必須先確認「${clean(r0[0])}」？`,
+      a: `🎉 偵探破解：因為直覺常會忽略「${firstPitfall}」！依據核心判準「${clean(r0[1])}」，搭配最後一步檢核「${clean(wc.check)}」，才能確保推理站得住腳！`
+    },
+    {
+      q: `🔄 逆向思考挑戰：假如你要當小老師，只用 20 秒提醒同學在「${u.title}」最容易搞混的地方，你會把哪兩件事擺在一起對比？`,
+      a: `🎉 滿分講解：一定要對比【${ld.leftLabel}（${clean(ld.left)}）】與【${ld.rightLabel}（${clean(ld.right)}）】，並特別強調「${firstPitfall}」，讓同學一次把觀念徹底釐清！`
+    }
+  ];
+  const curPair = curiosityTemplates[idx % curiosityTemplates.length];
+  const curiosityQ = curPair.q;
+  const curiosityA = curPair.a;
 
   // 3 Interactive Knowledge Point Flip Cards per unit (564 total)
   const kpFlipCards = rows.slice(0, 3).map((row, rIdx) => {
@@ -311,40 +394,68 @@ units.forEach((u, idx) => {
     };
   });
 
-  // 3 Rapid-Fire Knowledge Blitz Questions per unit (564 total)
-  const placeBlitzOpt = (correct, wrongs, targetIdx) => {
+  // Gather REAL domain-authentic sibling unit rules & checks (ZERO cartoon/absurd distractors!)
+  const siblings = (unitsBySubject[u.subject] || units).filter(s => s.id !== u.id);
+  const sib1 = siblings[idx % siblings.length] || units[(idx + 1) % units.length];
+  const sib2 = siblings[(idx + 1) % siblings.length] || units[(idx + 2) % units.length];
+  const sib3 = siblings[(idx + 2) % siblings.length] || units[(idx + 3) % units.length];
+  const sibRows1 = teachingFor(sib1).rows || [];
+  const sibRows2 = teachingFor(sib2).rows || [];
+  const sibWc1 = workedCases[sib1.id] || { check: sib1.pitfall };
+  const sibWc2 = workedCases[sib2.id] || { check: sib2.pitfall };
+  const sibWc3 = workedCases[sib3.id] || { check: sib3.pitfall };
+
+  const placeBlitzOpt = (correct, candidateWrongs, targetIdx) => {
+    const uniqWrongs = [];
+    for (const w of candidateWrongs) {
+      const cw = clean(w);
+      if (cw && cw !== clean(correct) && !uniqWrongs.includes(cw)) uniqWrongs.push(cw);
+      if (uniqWrongs.length === 3) break;
+    }
+    const fallbacks = [
+      `此說法實際上對應的是「${sib1.title}」的核心條件：${clean(sib1.concept.split('。')[0])}`,
+      `此判準適用於「${sib2.title}」情境：${clean(sib2.concept.split('。')[0])}`,
+      `僅檢視局部數值或文字表面，尚未核對「${u.title}」的前提範圍與單位`
+    ];
+    for (const fb of fallbacks) {
+      if (uniqWrongs.length >= 3) break;
+      if (fb !== clean(correct) && !uniqWrongs.includes(fb)) uniqWrongs.push(fb);
+    }
     const ans = ((targetIdx % 4) + 4) % 4;
-    const arr = [...wrongs];
-    arr.splice(ans, 0, correct);
-    return { options: arr.slice(0, 4), answer: ans };
+    const arr = uniqWrongs.slice(0, 3);
+    arr.splice(ans, 0, clean(correct));
+    return { options: arr, answer: ans };
   };
 
+  // Blitz 1: Distinguish r0's true rule from r1/r2/sibling rules (poker-faced domain distractors — zero giveaways!)
   const b0 = placeBlitzOpt(
     `${clean(r0[1])}（實例：${clean(r0[2])}）`,
     [
-      `與基準方向相反，且忽略「${firstPitfall}」的前提限制`,
-      `把「${r0[0]}」直接當成「${ld.rightLabel}」而不需確認條件`,
-      `無論條件如何改變，結果都固定不變且不必看單位`
+      `${clean(r1[1])}（實例：${clean(r1[2])}）`,
+      `${clean(r2[1])}（實例：${clean(r2[2])}）`,
+      sibRows1[0] ? `${clean(sibRows1[0][1])}（實例：${clean(sibRows1[0][2])}）` : clean(sib1.concept.split('。')[0])
     ],
     idx % 4
   );
 
+  // Blitz 2: Accurately separate leftLabel vs rightLabel (swapped definitions & sibling concept distractors)
   const b1 = placeBlitzOpt(
-    `【${ld.leftLabel}】為「${clean(ld.left)}」；【${ld.rightLabel}】為「${clean(ld.right)}」`,
+    `【${ld.leftLabel}】重在「${clean(ld.left)}」；【${ld.rightLabel}】則指「${clean(ld.right)}」`,
     [
-      `【${ld.leftLabel}】與【${ld.rightLabel}】意義完全相同，可隨意互換`,
-      `只看表面數字大小，不需理會「${r1[0]}（${clean(r1[1])}）」`,
-      `故意違反「${firstPitfall}」，把兩者的判準顛倒過來套用`
+      `【${ld.leftLabel}】重在「${clean(ld.right)}」；【${ld.rightLabel}】則指「${clean(ld.left)}」`,
+      `【${ld.leftLabel}】與【${ld.rightLabel}】皆指「${clean(ld.left)}」，僅適用在不同題幹敘述`,
+      `【${ld.leftLabel}】與【${ld.rightLabel}】的主要核心為「${clean(sib2.concept.split('。')[0])}」`
     ],
     (idx + 1) % 4
   );
 
+  // Blitz 3: Choose the authentic verification check for THIS unit vs sibling units' checks!
   const b2 = placeBlitzOpt(
-    `先檢查是否避開「${firstPitfall}」，再執行「${clean(wc.check)}」反向驗算`,
+    `檢核重點：${clean(wc.check)}`,
     [
-      `算出第一個數字就直接作答，完全不代回原題目檢查合理性`,
-      `忽略題目給的限制條件，直接套用不相關的直覺猜測`,
-      `把「${r2[0]}」的規則反過來用，認為不需驗證邊界條件`
+      `檢核重點：${clean(sibWc1.check)}`,
+      `檢核重點：${clean(sibWc2.check)}`,
+      `檢核重點：${clean(sibWc3.check)}`
     ],
     (idx + 2) % 4
   );
@@ -353,10 +464,10 @@ units.forEach((u, idx) => {
     {
       id: `${u.id}-blitz-1`,
       kpTag: `知識點 ① · ${clean(r0[0])}`,
-      prompt: `⚡【閃電第 1 擊】關於「${u.title}」的基礎核心【${clean(r0[0])}】，下列哪個敘述最正確？`,
+      prompt: `⚡【閃電第 1 擊】關於「${u.title}」中的【${clean(r0[0])}】，下列哪一項定義與實例配對最精準？`,
       options: b0.options,
       answer: b0.answer,
-      cheer: `✨ Combo +1！你已經精準掌握「${clean(r0[0])}」的核心定義！`
+      cheer: `✨ Combo +1！你已能精準區辨「${clean(r0[0])}」與相近概念！`
     },
     {
       id: `${u.id}-blitz-2`,

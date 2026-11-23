@@ -1,5 +1,29 @@
-// dist/labs.js - Zhixing Academy Interactive Conceptual Simulations
+// dist/labs.js - Zhixing Academy Interactive Conceptual Simulations (14 Interactive Labs across 8 Subjects)
 const $ = s => document.querySelector(s);
+
+export const LAB_CATALOG = [
+  { id: 'lab-quadratic', title: '二次函數拋物線與極值', subject: 'math', icon: '📈', units: ['math-18'], desc: '調整 a、h、k，親眼看見頂點平移與最大利潤／投籃拋物線！' },
+  { id: 'lab-linear', title: '一次函數與生活資費決策', subject: 'math', icon: '💰', units: ['math-4', 'math-5', 'math-6', 'math-7', 'math-8', 'math-13'], desc: '比較兩種月租／計程車方案，找黃金交叉點做出最省錢決策！' },
+  { id: 'lab-prob', title: '機率、期望值與大數法則', subject: 'math', icon: '🎲', units: ['math-19', 'math-27'], desc: '一鍵實測 10～1,000 次抽卡與擲骰，親眼驗證頻率收斂並破除賭徒謬誤！' },
+  { id: 'lab-vt', title: 'v-t 速度時間圖與安全煞車距離', subject: 'physics', icon: '🚗', units: ['physics-5', 'physics-10', 'physics-15'], desc: '用 v-t 圖面積即時算出反應距離＋煞車距離，看懂為何超速風險是平方倍暴增！' },
+  { id: 'lab-circuit', title: '歐姆定律與家電電路功率', subject: 'physics', icon: '⚡', units: ['physics-7', 'physics-11', 'physics-12', 'physics-13'], desc: '調整電壓 V 與電阻 R，觀察電流 I 與電功率 P 變化！' },
+  { id: 'lab-lever', title: '槓桿原理與力矩平衡', subject: 'physics', icon: '⚖️', units: ['physics-6'], desc: '調整兩側施力與力臂長，體驗省力槓桿與力矩平衡！' },
+  { id: 'lab-lens', title: '凸透鏡三條光線與虛實成像', subject: 'physics', icon: '🔍', units: ['physics-3', 'physics-14'], desc: '拖動物距 p 跨過 2f 與 f，即時觀察倒立實像變成正立放大鏡虛像！' },
+  { id: 'lab-buoyancy', title: '阿基米德浮力與吃水線模擬', subject: 'physics', icon: '⛵', units: ['physics-8', 'physics-9'], desc: '改變物體與液體密度，即時觀測沉浮、吃水深度與視重變化！' },
+  { id: 'lab-titration', title: '酸鹼中和滴定與 pH 變色曲線', subject: 'chemistry', icon: '🧪', units: ['chemistry-4', 'chemistry-5', 'chemistry-9', 'chemistry-10'], desc: '逐毫升滴入 NaOH 觀察 pH 當量點突躍與指示劑色彩漸層！' },
+  { id: 'lab-punnett', title: '孟德爾遺傳與棋盤方格機率', subject: 'biology', icon: '🧬', units: ['biology-5', 'biology-10', 'biology-11'], desc: '自由組合雙親基因型，即時呈現子代基因型與表現型比例！' },
+  { id: 'lab-moon', title: '日地月相對位置與月相盈虧', subject: 'earth', icon: '🌙', units: ['earth-4', 'earth-10', 'earth-12'], desc: '滑動農曆天數 0–29.5 天，同步看懂太空俯視與地球觀測月相！' },
+  { id: 'lab-tense', title: '英語四大時態與主詞動詞呼應', subject: 'english', icon: '🗣️', units: ['english-1', 'english-2', 'english-3', 'english-5', 'english-8', 'english-9', 'english-11'], desc: '切換主詞與時間維度，即時聽原音朗讀與語法解析！' },
+  { id: 'lab-supply', title: '市場供需曲線、價格均衡與限價衝擊', subject: 'civics', icon: '📊', units: ['civics-5', 'civics-9', 'civics-12'], desc: '移動需求／供給曲線與政府限價，親眼看見短缺排隊與過剩滯銷如何形成！' },
+  { id: 'lab-search', title: '線性搜尋 vs 二分搜尋演算法視覺化', subject: 'computing', icon: '💻', units: ['computing-1', 'computing-2', 'computing-3'], desc: '挑選目標數字，同步對比逐格查找與折半搜尋的步驟效率差距！' }
+];
+
+export function getLabsForUnit(unit) {
+  if (!unit) return [];
+  const exact = LAB_CATALOG.filter(l => l.units.includes(unit.id));
+  if (exact.length) return exact;
+  return LAB_CATALOG.filter(l => l.subject === unit.subject).slice(0, 1);
+}
 
 function range(id, label, min, max, value, step) {
   return `<label class="row" for="${id}" style="margin-top:16px"><span>${label}</span><strong data-value="${id}">${value}</strong></label><input id="${id}" type="range" min="${min}" max="${max}" value="${value}" step="${step}">`;
@@ -7,9 +31,12 @@ function range(id, label, min, max, value, step) {
 
 export function renderLabs(main, speak) {
   main.innerHTML = `
-    <div class="eyebrow">PREDICT · EXPLORE · EXPLAIN</div>
-    <h1>先猜一猜，再動手驗證。</h1>
-    <p class="muted">改變變因，觀察即時回饋，將抽象公式轉化為直觀物理與幾何意象。</p>
+    <div class="eyebrow">PREDICT · EXPLORE · EXPLAIN · APPLY</div>
+    <h1>先猜一猜，再動手驗證與應用。</h1>
+    <p class="muted">全站 14 座互動概念實驗室（跨 8 科）：改變變因、觀察即時回饋，把抽象公式轉化為真實生活決策直覺。</p>
+    <div class="filters" style="margin:12px 0 18px;" aria-label="快速跳轉互動實驗室">
+      ${LAB_CATALOG.map(l => `<button type="button" class="chip lab-jump-chip" data-lab-jump="${l.id}">${l.icon} ${l.title.split('與')[0]}</button>`).join('')}
+    </div>
 
     <section class="panel" style="margin-bottom:24px;">
       <div class="row" style="align-items:center;margin-bottom:10px;">
@@ -55,7 +82,7 @@ export function renderLabs(main, speak) {
       </div>
       <div class="table-wrap">
         <table class="teaching-table">
-          <caption>互動實驗室 · 七大模擬模組之操縱變因、控制變因與應變變因對照表</caption>
+          <caption>互動實驗室 · 14 大跨科模擬模組之操縱變因與應變變因精選對照表</caption>
           <thead>
             <tr>
               <th scope="col">實驗模擬主題</th>
@@ -108,7 +135,7 @@ export function renderLabs(main, speak) {
 
     <div class="unit-grid">
       <!-- 1. Quadratic Function -->
-      <section class="panel">
+      <section class="panel" id="lab-quadratic">
         <span class="tag">數學 · 二次函數</span>
         <h2 style="margin-top:15px">讓函數的圖形動起來</h2>
         <p class="muted">y＝a(x−h)²＋k。先預測頂點位置與開口方向，再滑動觀察。</p>
@@ -121,7 +148,7 @@ export function renderLabs(main, speak) {
       </section>
 
       <!-- 2. Electric Circuit -->
-      <section class="panel">
+      <section class="panel" id="lab-circuit">
         <span class="tag">自然 · 電與電路</span>
         <h2 style="margin-top:15px">固定電壓，改變電阻</h2>
         <p class="muted">歐姆定律 V＝I×R。電阻加倍時，電流會如何減半？</p>
@@ -134,7 +161,7 @@ export function renderLabs(main, speak) {
       </section>
 
       <!-- 3. Lever Torque -->
-      <section class="panel">
+      <section class="panel" id="lab-lever">
         <span class="tag">自然 · 力矩平衡</span>
         <h2 style="margin-top:15px">讓槓桿左右平衡</h2>
         <p class="muted">力矩＝施力×力臂。逆時針力矩等於順時針力矩時槓桿靜止平衡。</p>
@@ -148,7 +175,7 @@ export function renderLabs(main, speak) {
       </section>
 
       <!-- 4. Convex Lens Optics -->
-      <section class="panel">
+      <section class="panel" id="lab-lens">
         <span class="tag">自然 · 凸透鏡幾何光路</span>
         <h2 style="margin-top:15px">蠟燭成像：虛實與大小動態變化</h2>
         <p class="muted">定焦距 f＝20 cm。拖動物距，即時繪製三條特殊光線並求出像的位置。</p>
@@ -159,7 +186,7 @@ export function renderLabs(main, speak) {
       </section>
 
       <!-- 5. Acid-Base Titration & pH -->
-      <section class="panel">
+      <section class="panel" id="lab-titration">
         <span class="tag">自然 · 酸鹼滴定與 pH</span>
         <h2 style="margin-top:15px">酸鹼中和與指示劑色彩連續漸層</h2>
         <p class="muted">20 mL 的 0.1M HCl 鹽酸，逐漸滴入 0.1M NaOH 鹼液，觀察 pH 突躍與指示劑變色。</p>
@@ -170,7 +197,7 @@ export function renderLabs(main, speak) {
       </section>
 
       <!-- 6. Buoyancy & Density -->
-      <section class="panel">
+      <section class="panel" id="lab-buoyancy">
         <span class="tag">自然 · 浮力與阿基米德</span>
         <h2 style="margin-top:15px">物體沈浮與吃水線動態模擬</h2>
         <p class="muted">改變物體密度與液體密度，觀察排開液體體積與浮力、視重磅秤讀數。</p>
@@ -182,7 +209,7 @@ export function renderLabs(main, speak) {
       </section>
 
       <!-- 7. English Tense -->
-      <section class="panel">
+      <section class="panel" id="lab-tense">
         <span class="tag">英語 · 時態變化</span>
         <h2 style="margin-top:15px">一句話，四種時間維度</h2>
         <p class="muted">觀察主詞、動詞變化和時間副詞如何精確呼應。</p>
@@ -206,7 +233,7 @@ export function renderLabs(main, speak) {
       </section>
 
       <!-- 8. Moon Phase Astronomical Geometry -->
-      <section class="panel">
+      <section class="panel" id="lab-moon">
         <span class="tag">地科 · 月相盈虧</span>
         <h2 style="margin-top:15px">日地月相對位置與月相變化</h2>
         <p class="muted">月球公轉軌道幾何位置，決定地球上觀測者看見的明亮面積與月相名稱。</p>
@@ -217,7 +244,7 @@ export function renderLabs(main, speak) {
       </section>
 
       <!-- 9. Mendelian Punnett Square -->
-      <section class="panel">
+      <section class="panel" id="lab-punnett">
         <span class="tag">生物 · 孟德爾遺傳</span>
         <h2 style="margin-top:15px">基因分離律與棋盤方格模擬</h2>
         <p class="muted">選擇雙親基因型，即時計算子代基因型比例 (TT:Tt:tt) 與表現型比例 (高莖:矮莖)。</p>
@@ -238,6 +265,74 @@ export function renderLabs(main, speak) {
         <div id="punnett-plot"></div>
         <div class="lab-output" id="punnett-output" aria-live="polite"></div>
         <a class="source-link" href="#/lesson/biology-11">回到孟德爾遺傳法則課程 →</a>
+      </section>
+
+      <!-- 10. Linear Function & Real-Life Plan Decision -->
+      <section class="panel" id="lab-linear">
+        <span class="tag accent">數學 · 一次函數生活資費決策</span>
+        <h2 style="margin-top:15px">兩種方案哪個省？找黃金交叉點</h2>
+        <p class="muted">比較「低月租高單價 (方案 A)」與「高月租低單價 (方案 B)」，用聯立方程式與一次函數一眼找出最划算決策！</p>
+        ${range('lin-a1', '方案 A 每次費率 a₁（元/次）', 20, 100, 60, 5)}
+        ${range('lin-b2', '方案 B 基本月費 b₂（元）', 100, 600, 300, 50)}
+        ${range('lin-a2', '方案 B 每次費率 a₂（元/次）', 5, 60, 20, 5)}
+        ${range('lin-x', '本月預計使用次數 x（次）', 1, 20, 10, 1)}
+        <div id="linear-plot"></div>
+        <div class="lab-output" id="linear-output" aria-live="polite"></div>
+        <a class="source-link" href="#/lesson/math-13">回到一次函數與等差數列課程 →</a>
+      </section>
+
+      <!-- 11. Probability & Law of Large Numbers -->
+      <section class="panel" id="lab-prob">
+        <span class="tag accent">數學 · 機率與大數法則模擬器</span>
+        <h2 style="margin-top:15px">實測抽卡／中獎機率：驗證大數法則</h2>
+        <p class="muted">設定理論中獎率 p%，實際模擬 10～1,000 次獨立試驗，親眼觀察頻率如何收斂，破除「連槓十次下次必中」的賭徒謬誤！</p>
+        ${range('prob-p', '理論中獎機率 p（%）', 5, 80, 20, 5)}
+        <div class="actions" style="margin:12px 0;">
+          <button type="button" class="button small" id="prob-run-10">試抽 10 次</button>
+          <button type="button" class="button small secondary" id="prob-run-100">模擬 100 次</button>
+          <button type="button" class="button small secondary" id="prob-run-1000">大數模擬 1,000 次</button>
+          <button type="button" class="button small ghost" id="prob-reset">重置紀錄</button>
+        </div>
+        <div id="prob-plot"></div>
+        <div class="lab-output" id="prob-output" aria-live="polite"></div>
+        <a class="source-link" href="#/lesson/math-19">回到統計、機率與空間圖形課程 →</a>
+      </section>
+
+      <!-- 12. Physics v-t Graph & Braking Distance -->
+      <section class="panel" id="lab-vt">
+        <span class="tag accent">物理 · v-t 圖與道路安全煞車距離</span>
+        <h2 style="margin-top:15px">車速加倍，停車距離為何暴增？</h2>
+        <p class="muted">v-t 圖下方面積＝位移！分成「等速反應距離（矩形面積）」與「等減速煞車距離（三角形面積）」，親眼看見超速的危險。</p>
+        ${range('vt-speed', '初始車速 v₀（km/h）', 20, 120, 60, 10)}
+        ${range('vt-react', '駕駛反應時間 t₁（秒）', 0.3, 1.5, 0.7, 0.1)}
+        ${range('vt-decel', '煞車減速度 a（m/s²，乾地約 6、雨天約 3）', 2, 8, 6, 1)}
+        <div id="vt-plot"></div>
+        <div class="lab-output" id="vt-output" aria-live="polite"></div>
+        <a class="source-link" href="#/lesson/physics-5">回到運動、力與牛頓定律課程 →</a>
+      </section>
+
+      <!-- 13. Civics Market Supply & Demand Equilibrium -->
+      <section class="panel" id="lab-supply">
+        <span class="tag accent">公民 · 市場供需均衡與限價衝擊</span>
+        <h2 style="margin-top:15px">熱門商品為何會漲價或大排長龍？</h2>
+        <p class="muted">移動需求與供給曲線，或設定政府價格上限，即時觀測均衡價格 P*、均衡數量 Q*、短缺（排隊搶購）與過剩（滯銷庫存）。</p>
+        ${range('sd-demand', '需求變動（負＝退燒、正＝爆紅搶購）', -30, 30, 0, 5)}
+        ${range('sd-supply', '供給變動（負＝原料缺貨、正＝技術量產）', -30, 30, 0, 5)}
+        ${range('sd-cap', '市場管制售價（0＝自由市場不限價）', 0, 100, 0, 10)}
+        <div id="supply-plot"></div>
+        <div class="lab-output" id="supply-output" aria-live="polite"></div>
+        <a class="source-link" href="#/lesson/civics-5">回到選擇、機會成本與市場課程 →</a>
+      </section>
+
+      <!-- 14. Computing Linear vs Binary Search Visualizer -->
+      <section class="panel" id="lab-search">
+        <span class="tag accent">資訊科技 · 線性 vs 二分搜尋演算法</span>
+        <h2 style="margin-top:15px">演算法差距：為什麼二分搜尋快好幾倍？</h2>
+        <p class="muted">在 16 筆已排序資料中尋找目標數字，同步比較「線性逐筆查找 O(n)」與「二分折半搜尋 O(log₂n)」的探訪路徑與比較次數！</p>
+        ${range('algo-target', '選擇要搜尋的目標數值（已排序陣列）', 4, 64, 48, 4)}
+        <div id="search-plot"></div>
+        <div class="lab-output" id="search-output" aria-live="polite"></div>
+        <a class="source-link" href="#/lesson/computing-1">回到演算法與問題拆解課程 →</a>
       </section>
     </div>
 
@@ -310,6 +405,36 @@ export function renderLabs(main, speak) {
               <td>分離律與自由配合律；配子結合機率乘法原理</td>
               <td>家族遺傳譜系圖分析、ABO 血型遺傳機率、優生保健篩檢</td>
             </tr>
+            <tr>
+              <th scope="row">一次函數生活資費決策</th>
+              <td>各方案費率 a、基本月費 b、使用次數 x</td>
+              <td>y₁＝a₁x vs y₂＝b₂＋a₂x；交點 x*＝b₂/(a₁−a₂)</td>
+              <td>電信月租、計程車與會員卡方案比價、段考與會考應用建模</td>
+            </tr>
+            <tr>
+              <th scope="row">機率與大數法則模擬</th>
+              <td>理論機率 p（%）、獨立重複試驗次數 n</td>
+              <td>實驗頻率 f/n 隨 n 增大收斂至理論機率 p</td>
+              <td>手遊抽卡保底期望值、破除賭徒謬誤、統計抽樣誤差觀念</td>
+            </tr>
+            <tr>
+              <th scope="row">v-t 圖與道路煞車距離</th>
+              <td>初始車速 v₀、反應時間 t₁、減速度 a</td>
+              <td>d_總＝v₀t₁＋v₀²/(2a)（矩形＋三角形面積）</td>
+              <td>車速加倍煞車距離暴增 4 倍、雨天安全車距與牛頓力學應用</td>
+            </tr>
+            <tr>
+              <th scope="row">市場供需曲線與限價</th>
+              <td>需求變動 ΔD、供給變動 ΔS、價格管制 P_cap</td>
+              <td>市場均衡 Q_d(P*)＝Q_s(P*)；限價過低生短缺、過高生過剩</td>
+              <td>熱門商品搶購排隊與黃牛成因、公民與學測社會核心經濟分析</td>
+            </tr>
+            <tr>
+              <th scope="row">線性 vs 二分搜尋演算法</th>
+              <td>已排序陣列目標值 target（16 筆資料）</td>
+              <td>線性搜尋 O(n) 逐格查 vs 二分搜尋 O(log₂n) 折半查</td>
+              <td>查字典、資料庫索引與大數據檢索效率差距直覺化</td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -329,7 +454,88 @@ export function renderLabs(main, speak) {
   if ($('#punnett-p1')) $('#punnett-p1').onchange = update;
   if ($('#punnett-p2')) $('#punnett-p2').onchange = update;
   $('#tense-audio').onclick = () => speak($('#tense-output').textContent);
+
+  // Quick-jump chips & #/labs?lab=<id> deep-link highlight
+  main.querySelectorAll('[data-lab-jump]').forEach(btn => {
+    btn.onclick = () => {
+      const target = document.getElementById(btn.dataset.labJump);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        target.classList.add('highlight-pulse');
+        setTimeout(() => target.classList.remove('highlight-pulse'), 1600);
+      }
+    };
+  });
+
+  // Probability simulator state & buttons
+  let probHistory = [];
+  let probTotal = 0;
+  let probHits = 0;
+  const renderProb = () => {
+    const pPct = Number($('#prob-p')?.value || 20);
+    const p = pPct / 100;
+    const empPct = probTotal ? (probHits / probTotal) * 100 : 0;
+    if ($('#prob-output')) {
+      $('#prob-output').textContent = probTotal
+        ? `累計模擬 ${probTotal} 次｜中獎 ${probHits} 次｜實驗頻率 ${empPct.toFixed(1)}% vs 理論機率 ${pPct}%（差值 ${Math.abs(empPct - pPct).toFixed(1)}%）`
+        : `理論機率 ${pPct}%（期望每 ${(100 / pPct).toFixed(1)} 次中 1 次）。點擊上方按鈕開始真實隨機試驗！`;
+    }
+    if ($('#prob-plot')) {
+      const pts = probHistory.map((val, idx) => {
+        const x = 36 + (idx / Math.max(1, probHistory.length - 1)) * 340;
+        const y = 145 - (val / 100) * 120;
+        return `${x.toFixed(1)},${y.toFixed(1)}`;
+      }).join(' ');
+      const ty = 145 - (pPct / 100) * 120;
+      $('#prob-plot').innerHTML = `<svg class="lab-svg" viewBox="0 0 400 175" role="img" aria-label="機率大數法則收斂折線圖">
+        <rect x="36" y="20" width="340" height="125" fill="#fbfcfb" stroke="#d6dfd9"/>
+        <line x1="36" y1="${ty.toFixed(1)}" x2="376" y2="${ty.toFixed(1)}" stroke="#b84735" stroke-width="1.8" stroke-dasharray="5,4"/>
+        <text x="372" y="${Math.max(32, ty - 5).toFixed(1)}" font-size="9" font-weight="700" fill="#b84735" text-anchor="end">理論機率 ${pPct}%</text>
+        ${pts ? `<polyline points="${pts}" fill="none" stroke="#2d654e" stroke-width="2.5"/>` : '<text x="206" y="88" font-size="11" fill="#687b74" text-anchor="middle">按下「試抽 10 次」或「大數模擬 1,000 次」觀察收斂曲線</text>'}
+        <text x="28" y="28" font-size="9" fill="#687b74" text-anchor="end">100%</text>
+        <text x="28" y="88" font-size="9" fill="#687b74" text-anchor="end">50%</text>
+        <text x="28" y="148" font-size="9" fill="#687b74" text-anchor="end">0%</text>
+        <text x="206" y="166" font-size="9" fill="#687b74" text-anchor="middle">試驗累計次數（次數越多，綠線越貼近紅色理論虛線）</text>
+      </svg>`;
+    }
+  };
+  const runTrials = n => {
+    const p = Number($('#prob-p')?.value || 20) / 100;
+    const step = Math.max(1, Math.floor(n / 40));
+    for (let i = 1; i <= n; i++) {
+      probTotal++;
+      if (Math.random() < p) probHits++;
+      if (i % step === 0 || i === n) {
+        probHistory.push((probHits / probTotal) * 100);
+        if (probHistory.length > 80) probHistory.shift();
+      }
+    }
+    renderProb();
+  };
+  if ($('#prob-run-10')) $('#prob-run-10').onclick = () => runTrials(10);
+  if ($('#prob-run-100')) $('#prob-run-100').onclick = () => runTrials(100);
+  if ($('#prob-run-1000')) $('#prob-run-1000').onclick = () => runTrials(1000);
+  if ($('#prob-reset')) $('#prob-reset').onclick = () => { probHistory = []; probTotal = 0; probHits = 0; renderProb(); };
+  if ($('#prob-p')) $('#prob-p').addEventListener('input', () => { probHistory = []; probTotal = 0; probHits = 0; renderProb(); });
+
   update();
+  renderProb();
+
+  // Auto-scroll to deep-linked lab if ?lab=lab-xxx is in URL hash
+  try {
+    const qStr = (location.hash.split('?')[1] || '');
+    const targetLabId = new URLSearchParams(qStr).get('lab');
+    if (targetLabId) {
+      const el = document.getElementById(targetLabId);
+      if (el) {
+        setTimeout(() => {
+          el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          el.classList.add('highlight-pulse');
+          setTimeout(() => el.classList.remove('highlight-pulse'), 2000);
+        }, 120);
+      }
+    }
+  } catch {}
 }
 
 function update() {
@@ -667,6 +873,147 @@ function update() {
           <text x="15" y="48" font-size="10" fill="#223832">顯性高莖：${(dominantCount/4*100).toFixed(0)}%</text>
           <text x="15" y="68" font-size="10" fill="#b84735">隱性矮莖：${(recessiveCount/4*100).toFixed(0)}%</text>
         </g>
+      </svg>`;
+    }
+  }
+
+  // 10. Linear Function Real-Life Plan Comparison
+  if ($('#lin-a1')) {
+    const a1 = num('lin-a1'), b2 = num('lin-b2'), a2 = num('lin-a2'), xUse = num('lin-x');
+    const costA = a1 * xUse;
+    const costB = b2 + a2 * xUse;
+    const crossX = a1 !== a2 ? b2 / (a1 - a2) : null;
+    const maxCost = Math.max(a1 * 20, b2 + a2 * 20, 600);
+    const lx = x => 44 + (x / 20) * 336;
+    const ly = c => 165 - (c / maxCost) * 140;
+    const winner = costA < costB ? `選方案 A 省 ${costB - costA} 元` : (costB < costA ? `選方案 B 省 ${costA - costB} 元` : '兩方案費用完全相同！');
+    if ($('#linear-output')) {
+      $('#linear-output').textContent = `使用 ${xUse} 次：方案 A＝${costA} 元 vs 方案 B＝${costB} 元 ➔ ${winner}${crossX && crossX > 0 ? `（黃金交叉點約 ${crossX.toFixed(1)} 次）` : ''}`;
+    }
+    if ($('#linear-plot')) {
+      $('#linear-plot').innerHTML = `<svg class="lab-svg" viewBox="0 0 400 190" role="img" aria-label="一次函數方案比較圖">
+        <rect x="44" y="18" width="336" height="147" fill="#fbfcfb" stroke="#d6dfd9"/>
+        <line x1="${lx(0)}" y1="${ly(0).toFixed(1)}" x2="${lx(20)}" y2="${ly(a1 * 20).toFixed(1)}" stroke="#2b6cb0" stroke-width="2.6"/>
+        <line x1="${lx(0)}" y1="${ly(b2).toFixed(1)}" x2="${lx(20)}" y2="${ly(b2 + a2 * 20).toFixed(1)}" stroke="#c05621" stroke-width="2.6"/>
+        <line x1="${lx(xUse).toFixed(1)}" y1="18" x2="${lx(xUse).toFixed(1)}" y2="165" stroke="#2f855a" stroke-width="1.5" stroke-dasharray="4,3"/>
+        <circle cx="${lx(xUse).toFixed(1)}" cy="${ly(costA).toFixed(1)}" r="4.5" fill="#2b6cb0"/>
+        <circle cx="${lx(xUse).toFixed(1)}" cy="${ly(costB).toFixed(1)}" r="4.5" fill="#c05621"/>
+        ${crossX && crossX > 0 && crossX <= 20 ? `<circle cx="${lx(crossX).toFixed(1)}" cy="${ly(a1 * crossX).toFixed(1)}" r="5.5" fill="#d69e2e" stroke="#1a352a" stroke-width="1.5"/>` : ''}
+        <text x="52" y="34" font-size="9.5" font-weight="700" fill="#2b6cb0">━ 方案 A: y = ${a1}x</text>
+        <text x="168" y="34" font-size="9.5" font-weight="700" fill="#c05621">━ 方案 B: y = ${b2} + ${a2}x</text>
+        <text x="212" y="182" font-size="9" fill="#687b74" text-anchor="middle">本月使用次數 x（0 ～ 20 次）</text>
+      </svg>`;
+    }
+  }
+
+  // 12. Physics v-t Graph & Braking Distance
+  if ($('#vt-speed')) {
+    const kmh = num('vt-speed'), tReact = num('vt-react'), decel = num('vt-decel');
+    const v0 = kmh / 3.6;
+    const tBrake = v0 / decel;
+    const tTotal = tReact + tBrake;
+    const dReact = v0 * tReact;
+    const dBrake = 0.5 * v0 * tBrake;
+    const dTotal = dReact + dBrake;
+    const maxT = Math.max(tTotal * 1.15, 6);
+    const maxV = 36;
+    const vx = t => 42 + (t / maxT) * 336;
+    const vy = v => 155 - (v / maxV) * 130;
+    if ($('#vt-output')) {
+      $('#vt-output').textContent = `初速 ${kmh} km/h (${v0.toFixed(1)} m/s)｜反應距離 ${dReact.toFixed(1)} m ＋ 煞車距離 ${dBrake.toFixed(1)} m ＝ 總停車距離 ${dTotal.toFixed(1)} m（耗時 ${tTotal.toFixed(1)} 秒）`;
+    }
+    if ($('#vt-plot')) {
+      $('#vt-plot').innerHTML = `<svg class="lab-svg" viewBox="0 0 400 185" role="img" aria-label="v-t 速度時間圖與停車距離面積">
+        <rect x="42" y="20" width="336" height="135" fill="#fbfcfb" stroke="#d6dfd9"/>
+        <rect x="${vx(0)}" y="${vy(v0).toFixed(1)}" width="${(vx(tReact) - vx(0)).toFixed(1)}" height="${(155 - vy(v0)).toFixed(1)}" fill="rgba(43,108,176,0.22)" stroke="#2b6cb0"/>
+        <polygon points="${vx(tReact).toFixed(1)},${vy(v0).toFixed(1)} ${vx(tTotal).toFixed(1)},155 ${vx(tReact).toFixed(1)},155" fill="rgba(197,48,48,0.22)" stroke="#c53030"/>
+        <polyline points="${vx(0)},${vy(v0).toFixed(1)} ${vx(tReact).toFixed(1)},${vy(v0).toFixed(1)} ${vx(tTotal).toFixed(1)},155" fill="none" stroke="#1e3c30" stroke-width="2.6"/>
+        <text x="${((vx(0) + vx(tReact)) / 2).toFixed(1)}" y="${Math.min(148, vy(v0) + 18).toFixed(1)}" font-size="8.5" font-weight="700" fill="#2b6cb0" text-anchor="middle">反應 ${dReact.toFixed(0)}m</text>
+        <text x="${(vx(tReact) + (vx(tTotal) - vx(tReact)) * 0.35).toFixed(1)}" y="${Math.min(148, (vy(v0) + 155) / 2 + 12).toFixed(1)}" font-size="9" font-weight="700" fill="#c53030" text-anchor="middle">煞車 ${dBrake.toFixed(0)}m</text>
+        <text x="36" y="${vy(v0).toFixed(1)}" font-size="8.5" fill="#223832" text-anchor="end">${v0.toFixed(0)}</text>
+        <text x="210" y="176" font-size="9" fill="#687b74" text-anchor="middle">時間 t（秒）· 面積＝總位移 ${dTotal.toFixed(1)} 公尺</text>
+      </svg>`;
+    }
+  }
+
+  // 13. Civics Market Supply & Demand Equilibrium
+  if ($('#sd-demand')) {
+    const dShift = num('sd-demand'), sShift = num('sd-supply'), pCap = num('sd-cap');
+    // Demand: P = 100 + dShift - Q ; Supply: P = 20 - sShift + Q
+    // Equilibrium: 100 + dShift - Q = 20 - sShift + Q => 2Q = 80 + dShift + sShift
+    const qEq = Math.max(5, Math.min(95, (80 + dShift + sShift) / 2));
+    const pEq = Math.max(5, Math.min(95, 100 + dShift - qEq));
+    const sx = q => 48 + (q / 100) * 320;
+    const sy = p => 160 - (p / 110) * 135;
+    let capMsg = `自由市場達成均衡：均衡價格 P*＝${pEq.toFixed(0)} 元 · 均衡數量 Q*＝${qEq.toFixed(0)} 單位`;
+    let capLine = '';
+    if (pCap > 0) {
+      const qD = Math.max(0, Math.min(100, 100 + dShift - pCap));
+      const qS = Math.max(0, Math.min(100, pCap - (20 - sShift)));
+      capLine = `<line x1="48" y1="${sy(pCap).toFixed(1)}" x2="368" y2="${sy(pCap).toFixed(1)}" stroke="#805ad5" stroke-width="2" stroke-dasharray="5,3"/>`;
+      if (qD > qS) {
+        capMsg = `限價 ${pCap} 元（低於均衡價 ${pEq.toFixed(0)}）：需求量 ${qD.toFixed(0)} ＞ 供給量 ${qS.toFixed(0)} ➔ 🚨 供不應求「短缺 ${(qD - qS).toFixed(0)} 單位」（出現排隊搶購與黃牛！）`;
+      } else if (qS > qD) {
+        capMsg = `管制價 ${pCap} 元（高於均衡價 ${pEq.toFixed(0)}）：供給量 ${qS.toFixed(0)} ＞ 需求量 ${qD.toFixed(0)} ➔ 📦 供過於求「過剩 ${(qS - qD).toFixed(0)} 單位」（出現庫存滯銷！）`;
+      } else {
+        capMsg = `管制價 ${pCap} 元恰好等於市場均衡價，市場出清！`;
+      }
+    }
+    if ($('#supply-output')) $('#supply-output').textContent = capMsg;
+    if ($('#supply-plot')) {
+      $('#supply-plot').innerHTML = `<svg class="lab-svg" viewBox="0 0 400 185" role="img" aria-label="市場供需曲線與均衡價格圖">
+        <rect x="48" y="18" width="320" height="142" fill="#fbfcfb" stroke="#d6dfd9"/>
+        <line x1="${sx(5)}" y1="${sy(Math.min(108, Math.max(2, 95 + dShift))).toFixed(1)}" x2="${sx(95)}" y2="${sy(Math.min(108, Math.max(2, 5 + dShift))).toFixed(1)}" stroke="#c53030" stroke-width="2.6"/>
+        <line x1="${sx(5)}" y1="${sy(Math.min(108, Math.max(2, 25 - sShift))).toFixed(1)}" x2="${sx(95)}" y2="${sy(Math.min(108, Math.max(2, 115 - sShift))).toFixed(1)}" stroke="#2b6cb0" stroke-width="2.6"/>
+        ${capLine}
+        <circle cx="${sx(qEq).toFixed(1)}" cy="${sy(pEq).toFixed(1)}" r="5.5" fill="#2f855a" stroke="#ffffff" stroke-width="2"/>
+        <text x="${(sx(qEq) + 8).toFixed(1)}" y="${(sy(pEq) - 6).toFixed(1)}" font-size="9.5" font-weight="800" fill="#2f855a">E(${qEq.toFixed(0)}, $${pEq.toFixed(0)})</text>
+        <text x="60" y="34" font-size="9" font-weight="700" fill="#c53030">━ 需求線 D</text>
+        <text x="145" y="34" font-size="9" font-weight="700" fill="#2b6cb0">━ 供給線 S</text>
+        <text x="38" y="30" font-size="9" fill="#687b74" text-anchor="end">價 P</text>
+        <text x="208" y="177" font-size="9" fill="#687b74" text-anchor="middle">交易數量 Q</text>
+      </svg>`;
+    }
+  }
+
+  // 14. Computing Linear vs Binary Search Visualizer
+  if ($('#algo-target')) {
+    const arr = Array.from({ length: 16 }, (_, i) => (i + 1) * 4);
+    const target = num('algo-target');
+    const linPath = [];
+    for (let i = 0; i < arr.length; i++) {
+      linPath.push(i);
+      if (arr[i] === target) break;
+    }
+    const binPath = [];
+    let lo = 0, hi = arr.length - 1;
+    while (lo <= hi) {
+      const mid = Math.floor((lo + hi) / 2);
+      binPath.push(mid);
+      if (arr[mid] === target) break;
+      if (arr[mid] < target) lo = mid + 1;
+      else hi = mid - 1;
+    }
+    if ($('#search-output')) {
+      $('#search-output').textContent = `目標值 ${target}：線性搜尋檢查 ${linPath.length} 次 vs 二分搜尋僅需 ${binPath.length} 次（節省 ${Math.max(0, linPath.length - binPath.length)} 步，資料量 100 萬筆時二分搜尋最多只要 20 步！）`;
+    }
+    if ($('#search-plot')) {
+      const drawRow = (label, path, yOff, hitColor) => {
+        const visited = new Set(path);
+        const foundIdx = path[path.length - 1];
+        return `<text x="10" y="${yOff + 12}" font-size="9.5" font-weight="800" fill="#223832">${label}（共 ${path.length} 步）</text>` +
+          arr.map((v, idx) => {
+            const x = 10 + idx * 23.8;
+            const isFound = idx === foundIdx;
+            const isVis = visited.has(idx);
+            const fill = isFound ? '#2f855a' : (isVis ? hitColor : '#f4f7f5');
+            const fg = isFound || isVis ? '#ffffff' : '#5a6f64';
+            return `<rect x="${x.toFixed(1)}" y="${yOff + 18}" width="21" height="24" rx="4" fill="${fill}" stroke="#cbd9cf"/><text x="${(x + 10.5).toFixed(1)}" y="${yOff + 34}" font-size="8.5" font-weight="700" fill="${fg}" text-anchor="middle">${v}</text>`;
+          }).join('');
+      };
+      $('#search-plot').innerHTML = `<svg class="lab-svg" viewBox="0 0 400 132" role="img" aria-label="線性搜尋與二分搜尋步數比較">
+        ${drawRow('線性搜尋 O(n)', linPath, 6, '#dd6b20')}
+        ${drawRow('二分搜尋 O(log₂n)', binPath, 68, '#2b6cb0')}
       </svg>`;
     }
   }

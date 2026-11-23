@@ -1,0 +1,228 @@
+/* dist/realworld-apps.css
+ * Styling for 4-Pillar Mastery Engine (學會 · 學好 · 有興趣 · 會應用) & #/apply Hub
+ * Supports all 4 reading themes (sage / paper / dark / day) and mobile-first layouts.
+ */
+
+.rwa-pillar-strip {
+  background: var(--surface, #ffffff);
+  border: 1.5px solid var(--border, #d2dfd6);
+  border-radius: 18px;
+  padding: 18px 22px;
+  margin: 18px 0 22px;
+}
+.rwa-pillar-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.rwa-pillar-card {
+  border: 1px solid var(--border, #d5e2d9);
+  border-radius: 14px;
+  padding: 12px 14px;
+  background: var(--tint, #f5f9f6);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.rwa-pillar-card.pillar-learn { border-top: 3px solid #2b6cb0; }
+.rwa-pillar-card.pillar-master { border-top: 3px solid #2c7a45; }
+.rwa-pillar-card.pillar-interest { border-top: 3px solid #b7791f; }
+.rwa-pillar-card.pillar-apply { border-top: 3px solid #805ad5; }
+.rwa-pillar-card strong { font-size: 0.88rem; white-space: nowrap; }
+.rwa-pillar-card progress { width: 100%; height: 8px; }
+.rwa-pillar-card small { font-size: 0.78rem; color: var(--muted, #576d62); line-height: 1.4; }
+.rwa-pct { font-weight: 800; font-size: 0.9rem; color: var(--accent, #1e5b42); white-space: nowrap; }
+
+/* Lesson Real-World Transfer Studio */
+.rwa-intuition-box {
+  background: linear-gradient(135deg, rgba(43, 108, 176, 0.08), rgba(44, 122, 69, 0.06));
+  border-left: 4px solid #2b6cb0;
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin: 12px 0 14px;
+}
+.rwa-box-head { font-size: 0.94rem; margin-bottom: 6px; color: var(--text, #163026); }
+.rwa-intuition-box p { margin: 0; line-height: 1.75; font-size: 0.96rem; }
+
+.rwa-lab-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 14px 18px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--tint, #eef6f0), rgba(128, 90, 213, 0.08));
+  border: 1.5px solid var(--border, #c8dad0);
+  margin-bottom: 14px;
+}
+.rwa-decision-card {
+  border: 1.5px solid var(--border, #d2dfd6);
+  border-radius: 16px;
+  padding: 16px 18px;
+  background: var(--surface, #ffffff);
+  margin-bottom: 14px;
+}
+.rwa-scene {
+  background: var(--tint, #f4f8f5);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin: 10px 0 12px;
+  line-height: 1.7;
+  font-size: 0.94rem;
+}
+.rwa-options { display: flex; flex-direction: column; gap: 8px; }
+.rwa-feedback {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+.rwa-feedback.correct { background: #e8f6ec; color: #19562a; border: 1px solid #9ad0a8; }
+.rwa-feedback.wrong { background: #fdf0ec; color: #8c2a19; border: 1px solid #e7afa3; }
+
+.rwa-bottom-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+.rwa-mission-card,
+.rwa-career-card {
+  border: 1px solid var(--border, #d4e1d8);
+  border-radius: 14px;
+  padding: 14px 16px;
+  background: var(--surface, #ffffff);
+}
+.rwa-career-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+.rwa-career-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: var(--tint, #eef5ef);
+  color: var(--text, #1a352a);
+  border: 1px solid var(--border, #cedcd2);
+}
+
+/* #/apply Hub Page */
+.rwa-hub-hero {
+  background: linear-gradient(135deg, #1d4e68 0%, #1d5a43 100%);
+  color: #f4fbf8;
+  border-radius: 20px;
+  padding: 26px 28px;
+  margin-bottom: 20px;
+}
+.rwa-hub-hero .eyebrow { color: #d6fa77; }
+.rwa-hub-hero h1 { color: #ffffff; margin: 8px 0 10px; font-size: clamp(1.45rem, 2.4vw, 2.05rem); }
+.rwa-hub-hero p { color: rgba(244, 251, 248, 0.92); line-height: 1.75; margin: 0; max-width: 78ch; }
+.rwa-hub-hero .button {
+  background: #d6fa77;
+  color: #123326;
+  border: 1.5px solid #d6fa77;
+  font-weight: 800;
+}
+.rwa-hub-hero .button:hover {
+  background: #e4ff9a;
+  color: #0d271c;
+}
+.rwa-hub-hero .button.secondary {
+  background: rgba(255, 255, 255, 0.14);
+  color: #ffffff;
+  border: 1.5px solid rgba(255, 255, 255, 0.6);
+}
+.rwa-hub-hero .button.secondary:hover {
+  background: rgba(255, 255, 255, 0.24);
+  color: #ffffff;
+}
+
+.rwa-lab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+.rwa-lab-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1.5px solid var(--border, #d2dfd6);
+  background: var(--surface, #ffffff);
+  color: var(--text, #163026);
+  text-decoration: none;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+.rwa-lab-tile:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent, #226147);
+}
+.rwa-lab-tile .subtle { white-space: nowrap; flex-shrink: 0; }
+.rwa-lab-tile p { margin: 0; font-size: 0.82rem; color: var(--muted, #576d62); line-height: 1.5; }
+
+.rwa-unit-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.rwa-unit-card {
+  border: 1px solid var(--border, #d4e1d8);
+  border-radius: 14px;
+  padding: 16px;
+  background: var(--surface, #ffffff);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.rwa-unit-card h3 { margin: 4px 0; font-size: 1.02rem; }
+.rwa-unit-card h3 a { color: inherit; text-decoration: none; }
+.rwa-unit-card h3 a:hover { text-decoration: underline; }
+.rwa-unit-intuition { margin: 0; font-size: 0.85rem; color: var(--muted, #52685d); line-height: 1.6; flex: 1; }
+
+/* Dark Mode Overrides */
+[data-theme="dark"] .rwa-pillar-strip,
+[data-theme="dark"] .rwa-decision-card,
+[data-theme="dark"] .rwa-mission-card,
+[data-theme="dark"] .rwa-career-card,
+[data-theme="dark"] .rwa-lab-tile,
+[data-theme="dark"] .rwa-unit-card {
+  background: #18231f;
+  border-color: #2d423a;
+  color: #e6f2ec;
+}
+[data-theme="dark"] .rwa-pillar-card,
+[data-theme="dark"] .rwa-scene,
+[data-theme="dark"] .rwa-career-pill,
+[data-theme="dark"] .rwa-lab-banner {
+  background: #131d19;
+  border-color: #2b3f37;
+  color: #e2f2ea;
+}
+[data-theme="dark"] .rwa-intuition-box {
+  background: rgba(43, 108, 176, 0.16);
+  color: #e6f2ec;
+}
+[data-theme="dark"] .rwa-box-head { color: #eef7f2; }
+[data-theme="dark"] .rwa-pct { color: #9de8b2; }
+[data-theme="dark"] .rwa-feedback.correct { background: #143622; color: #b9f0c8; border-color: #2e6b44; }
+[data-theme="dark"] .rwa-feedback.wrong { background: #3b1c17; color: #f6bfb4; border-color: #7d3629; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .rwa-pillar-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rwa-unit-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rwa-bottom-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .rwa-pillar-grid,
+  .rwa-unit-grid { grid-template-columns: 1fr; }
+  .rwa-hub-hero { padding: 20px 18px; }
+}
