@@ -30,6 +30,13 @@ for (const [id, prompt, solution] of rows(repairs, scienceRepairs, socialLifeRep
 }
 
 const schoolPapers = {
+  zhishanStatistics: ['至善國中 110 學年九下第一次定期評量・數學','https://school.tc.edu.tw/open-message/193521/get-file/6281e80ac174b32bb7203ce8.pdf'],
+  sanduoChinese: ['三多國中 112 學年九下第一次段考・國文','https://www.sdjh.ntpc.edu.tw/var/file/0/1000/attach/76/pta_2770_9597127_65858.pdf'],
+  guochangChinese: ['國昌國中 114 學年九上第三次段考・國文','https://www.kcjh.kh.edu.tw/upload/190/104_34764/3-%E5%9C%8B%E6%96%87_4.pdf'],
+  guochangEnglish: ['國昌國中 109 學年七上第一次定期評量・英語','https://www.kcjh.kh.edu.tw/upload/190/104_34764/%E4%B8%80%E5%B9%B4%E7%B4%9A%E8%8B%B1%E6%96%87-%E9%A1%8C%E7%9B%AE%E5%8D%B7%2B%E7%AD%94%E6%A1%88%28%E7%AD%94%E6%A1%88%E7%94%A8%E5%88%97%E5%8D%B0%E7%AC%A6%E5%90%88%29.pdf'],
+  xikunArts: ['溪崑國中 114 學年七年級學期成績補行評量題庫・藝術','https://www.ckjhs.ntpc.edu.tw/app/index.php?Action=downloadfile&file=WVhSMFlXTm9MelV6TDNCMFlWODBOalExWHpnME5ETTNNMTh6TWpneU9DNXdaR1k9&fname=WW54RPOKIC44VXMPVS0430WTVWB42514RKFGB1NOQP25CC40ZWROGH540054FGSSZTCCCDOOA404GDJGYWNK4000WSRK14ICJDYTDDQP14B0VS45ECGC45RKDGLK4410DGA0TS14QOKO40ICDGB024MP013504CCZWB4CDSWYSA4GHQKICCCZXZXIG10QKZWXSJGVX2020UWRKMK21GDNLRK'],
+  xikunComputing7: ['溪崑國中 114 學年七年級學期成績補行評量題庫・科技','https://www.ckjhs.ntpc.edu.tw/app/index.php?Action=downloadfile&file=WVhSMFlXTm9MelV6TDNCMFlWODBOalF5WHpRM05EY3dOekJmTXpJNE1qY3VjR1Jt&fname=WW54RPOKIC44VXMPVS0430WTVWB42514RKFGB1NOQP25CC40ZWROGH540054FGSSZTCCCDOOA404GDJGYWNK4000WSRK14ICNPYT4040WSB0POVWECOK24OKMK4044ZXDGA0TS14QOKO40ICDGB024MP013504CCZWB4CDSWYSA4GHQKICCCZXZXIG10QKZWXSJGVX2020UWRKMK21GDNLRK'],
+  xikunComputing8: ['溪崑國中 114 學年八年級學期成績補行評量題庫・科技','https://www.ckjhs.ntpc.edu.tw/app/index.php?Action=downloadfile&file=WVhSMFlXTm9MelV6TDNCMFlWODBOalF6WHprd01UQTVPVFZmTXpJNE1qY3VjR1Jt&fname=WW54RPOKIC44VXMPVS0430WTVWB42514RKFGB1NOQP25CC40ZWROGH540054FGSSZTCCCDOOA404GDJGYWNK4000WSRKB1ICNPYT4040WSB0POVWECOK24OKMK4044ZXDGA0TS14QOKO40ICDGB024MP013504CCZWB4CDSWYSA4GHQKICCCZXZXIG10QKZWXSJGVX2020UWRKMK21GDNLRK'],
   yichangBio: ['宜昌國中 111 學年七上第一次段考・翰林自然','https://www.ycjh.hlc.edu.tw/modules/tad_uploader/index.php?cat_sn=383&cfsn=2327&op=dlfile&name=111-1-%E7%AC%AC1%E6%AC%A1%E6%AE%B5%E8%80%837%E5%B9%B4%E7%B4%9A%E8%87%AA%E7%84%B6%E7%A7%91%E9%A1%8C%E7%9B%AE-%E9%BB%83%E7%91%9E%E7%91%9B.pdf'],
   yichangPhys: ['宜昌國中 112 學年八上第二次定期評量・自然','https://www.ycjh.hlc.edu.tw/modules/tad_uploader/index.php?cat_sn=419&cfsn=2677&op=dlfile&name=112-1-%E7%AC%AC2%E6%AC%A1%E6%AE%B5%E8%80%838%E5%B9%B4%E7%B4%9A%E8%87%AA%E7%84%B6%E7%A7%91%E9%A1%8C%E7%9B%AE%E8%88%87%E7%AD%94%E6%A1%88-%E6%9E%97%E9%9D%9C%E5%AB%BB.pdf'],
   hongdao: ['弘道國中 111 學年八上第二次定期評量・理化','https://www.htjh.tp.edu.tw/wp-content/uploads/doc/t210/111-1%20%E7%AC%AC%E4%BA%8C%E6%AE%B5%E8%80%83%E5%85%AB%E5%B9%B4%E7%B4%9A%E7%90%86%E5%8C%96.pdf'],
@@ -39,6 +46,17 @@ const schoolPapers = {
   zhongzheng: ['高雄中正高中國中部 113 學年七下第三次月考・社會','https://www.cchs.kh.edu.tw/ischool/wr/file/1/3392/59e256572b56402608d29a1929f39fc0.pdf']
 };
 export const schoolExamples = {
+  'math-18':['zhishanStatistics','選擇 3、7','先從頂點式判斷開口方向及對稱軸。開口向下時最高點在頂點，若題目只允許某些輸入，還要檢查頂點是否在範圍內。'],
+  'math-27':['zhishanStatistics','選擇 22、23','先對齊圖的刻度，再分別比較中位數、全距與四分位距。盒子內的資料分布還須查原始數據，不能從盒內某小區間直接讀人數。'],
+  'chinese-3':['sanduoChinese','選擇 17、18','遇到省略先恢復人物與動作的關係。再以候選人或整件事替換「之」，重讀上下句以核對指涉。'],
+  'chinese-9':['guochangChinese','23','先以句數區分近體詩的外形，再逐項判斷押韻與對仗。律詩的中間兩聯須對仗；絕句沒有一律對仗的要求。'],
+  'chinese-10':['sanduoChinese','選擇 6、7','曲牌提供格律線索，作品的季節和情感須從內文意象找證據。比較同寫秋景的兩曲，仍可能看出不同情志。'],
+  'english-7':['guochangEnglish','改寫 46、48','當主詞是 Those tables，改成問句時將 are 移到主詞前，保留指示詞與名詞的複數搭配。'],
+  'visual-1':['xikunArts','視覺藝術 1、2','大小、明暗與色相差異都可以形成對比。明度是深淺或亮暗的程度，彩度是色彩鮮豔的程度。'],
+  'performing-1':['xikunArts','表演藝術 2、4','先標出觀眾在哪些方向以辨舞台型式，再觀察肢體在高、中、低的空間層次如何變化。'],
+  'computing-1':['xikunComputing7','6、7','月份決定輸出，需要選擇結構。在每一個判斷節點標明條件成立和不成立的去向，再用每季交界的月份測試，確認各輸入只得到一個結果。'],
+  'computing-2':['xikunComputing7','6、8','決策節點依條件選下一步，變數保留目前的值。追蹤迴圈時逐次寫下判斷前後的變數值，才能看出停止條件。'],
+  'computing-3':['xikunComputing8','2、3','先分辨資訊近用、著作授權和個資公開同意各涉及哪種權益，再核對資料用途與可見範圍。'],
   'biology-1':['yichangBio','2、3、18','先按標本厚薄與要看的細節選擇顯微鏡，再區分倍率、亮度和焦距的調節。'],
   'biology-7':['yichangBio','41、非選擇題一','比對其他條件相同的兩組。數據只能指出受測條件中哪一組反應較快。'],
   'biology-14':['yichangBio','17','由唾液能加速澱粉分解、對另一種多醣卻無同樣作用，辨認酵素的專一性。'],

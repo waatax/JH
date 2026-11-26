@@ -11,7 +11,7 @@ import { renderWorkshop, schoolExamples, workshops } from '../dist/lesson-worksh
 import { workshopSources } from '../dist/workshop-sources.js';
 
 const read = name => JSON.parse(fs.readFileSync(name, 'utf8'));
-const baseline = new Map(read('docs/expansion-report.json').units.map(u => [u.id,u.after]));
+const baseline = read('docs/workshop-text-baseline.json');
 const bank = new Map(read('dist/cap-bank.json').questions.map(q => [q.id,q]));
 const count = strings => [...strings.join('').replace(/\s/g,'')].length;
 const prompts = new Set();
@@ -33,8 +33,8 @@ const rows = units.map(unit => {
   const chars = count([w.type,w.teaching,...allTasks.flatMap(t=>[t.prompt,...t.steps]),w.check.answer]);
   return {
     id, title:unit.title, type:w.type, priorActivities:before, newActivities:allTasks.length,
-    activityGrowthPercent:percent(allTasks.length,before), priorTextCharacters:baseline.get(id),
-    newWorkshopCharacters:chars, textAdditionPercent:percent(chars,baseline.get(id)),
+    activityGrowthPercent:percent(allTasks.length,before), priorTextCharacters:baseline.charactersByUnit[id],
+    newWorkshopCharacters:chars, textAdditionPercent:percent(chars,baseline.charactersByUnit[id]),
     newSolutionSteps:allTasks.reduce((sum,t)=>sum+t.steps.length,0),
     outline: outline.refs.map(r=>r.code), exam:sources.exams.map(q=>q.id),
     school: schoolExamples[id]?.slice(0,2) || null,
@@ -45,7 +45,7 @@ const total = key => rows.reduce((sum,r)=>sum+r[key],0);
 const baselineCharacters = total('priorTextCharacters');
 const newCharacters = total('newWorkshopCharacters');
 const report = {
-  baselineCommit:'7473e77b2f2f24e3d34c6d737388baea2ef1d42d',
+  baselineCommit:baseline.commit,
   definitions:{
     activities:'同一單元的兩道基礎題、三道題型演練、例題及變化題、案例、遷移題、好奇提問與三道快問快答，各計一次。跨頁重現、翻卡、介面操作、外連真題不計。',
     text:'舊字數採該提交既有 expansion-report 的 after；新字數只計本站本次撰寫的章末題型名稱、教學、題幹、判斷正解與解析，排除引文、連結及介面。此欄為新增字量相對舊教材的比率。',
@@ -69,6 +69,7 @@ if (process.argv.includes('--write-report')) fs.writeFileSync(reportPath, JSON.s
 
 test('Each teaching unit gains at least 30% more practical activities and has an auditable baseline', () => {
   assert.deepEqual(Object.keys(workshops).sort(), units.map(u=>u.id).sort());
+  assert.deepEqual(Object.keys(baseline.charactersByUnit).sort(), units.map(u=>u.id).sort());
   assert.deepEqual(report,read(reportPath));
   for (const r of rows) {
     assert.equal(r.priorActivities,13,r.id);
