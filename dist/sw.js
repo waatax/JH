@@ -1,5 +1,5 @@
 // Service Worker for Zhixing Junior Academy (知行學院)
-const CACHE_NAME = 'zhixing-cache-v36';
+const CACHE_NAME = 'zhixing-cache-v37';
 
 const STATIC_ASSETS = [
   './',
@@ -12,6 +12,7 @@ const STATIC_ASSETS = [
   './realworld-apps.js',
   './realworld-apps-data.js',
   './app.js',
+  './lesson-illustrations.js',
   './exam-types-data.js',
   './workshop-checks-social-life.js',
   './workshop-checks.js',

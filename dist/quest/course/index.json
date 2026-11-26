@@ -1,8 +1,8 @@
 {
   "version": "2026-11-05.v3",
-  "generatedAt": "2026-11-23T06:45:13.116Z",
+  "generatedAt": "2026-11-26T15:48:32.987Z",
   "totalUnits": 188,
-  "totalItems": 5408,
+  "totalItems": 5409,
   "publisherCoverage": [
     {
       "name": "康軒",
@@ -20118,7 +20118,7 @@
               "kind": "boss",
               "title": "名校段考模考",
               "icon": "📝",
-              "size": 5
+              "size": 6
             }
           ]
         },

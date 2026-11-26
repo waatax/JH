@@ -1,6 +1,6 @@
 // 108 課綱國中全科（國一至國三）段考 期中 期末考 知識點 預備講義與考題交叉比對資料庫
-// 涵蓋 17 場段考、5 大考科、108課綱條目、均一教育平台對齊、三大版本範圍、段考真題解析、避坑防線與48小時檢核清單
-// 自動構建於 2026-10-20
+// 涵蓋 17 場段考、5 大考科、教育部 108 課綱官方領綱核驗條目、均一教育平台對齊、三大版本範圍、段考真題解析、避坑防線、48小時檢核清單與本站精講單元雙向連結
+// 已全面通過教育部國民中小學十二年國教最新領綱 PDF 條目核驗（2026-11-26）
 
 export const periodicExams = [
   {
@@ -15,7 +15,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "康軒：第1課 夏夜、第2課 雅量、語文常識(一) 工具書與標點符號；翰林：第1課 雅量、第2課 夏夜、語文常識(一) 標點符號；南一：第1課 夏夜、第2課 做一隻手扒雞、語文常識(一) 工具書",
-        "naerCode": "Ad-IV-1 篇章篇幅、Ac-IV-1 常用標點符號用法與修辭辨識、Bb-IV-3 記敘文本之事件脈絡",
+        "naerCode": "學習內容：Ab-IV-1、Ab-IV-5、Ba-IV-2（字詞、語境與修辭）；Ac-IV-1、Ac-IV-2（標點符號、句型結構與語法邏輯）｜學習表現：5-IV-2、6-IV-1",
         "junyiAlignment": "均一 [七上國文] -> 標點符號使用規則、記敘文閱讀理解、六書構造初階概念",
         "coreKnowledge": [
           {
@@ -54,7 +54,6 @@ export const periodicExams = [
           },
           {
             "id": "7-1-1-ch-q2",
-            "sourceSchool: ": "新北市中正國中段考精選",
             "question": "文字學中「獨體為字，合體為文」。下列漢字中，何者「全部」屬於六書中的「指事」字？",
             "options": [
               "日、月、山、川",
@@ -64,7 +63,8 @@ export const periodicExams = [
             ],
             "answer": 1,
             "solution": "選項 B「本」（木加一橫指根）、「末」（木上加一橫指樹梢）、「刃」（刀上加一點指刀鋒）、「上」（橫線上一短橫指上方）皆為指事字。選項 A 皆為象形字；選項 C 皆為會意字；選項 D 皆為形聲字。",
-            "thinkingTrap": "常誤將「本、末、刃」看成有偏旁而誤判為合體字，實則其主體為象形字加抽象指示符號，仍屬獨體指事。"
+            "thinkingTrap": "常誤將「本、末、刃」看成有偏旁而誤判為合體字，實則其主體為象形字加抽象指示符號，仍屬獨體指事。",
+            "sourceSchool": "新北市中正國中段考精選"
           }
         ],
         "pitfallAlerts": [
@@ -85,13 +85,23 @@ export const periodicExams = [
           "能正確指出象形字與指事字的根本差異（實體輪廓 vs 抽象符號）",
           "熟悉明喻、隱喻、借喻的結構式判別法則",
           "能快速掌握記敘文中人事物發生的時間、地點、起因與轉折"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-1",
+            "title": "字詞、語境與修辭"
+          },
+          {
+            "id": "chinese-8",
+            "title": "標點符號、句型結構與語法邏輯"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "康軒：Unit 1 Nice to Meet You ~ Unit 2 Welcome to My Family；翰林：Unit 1 Greetings & Names ~ Unit 2 Where Are You From?；南一：Starter ~ Unit 2 Who Is That Girl?",
-        "naerCode": "Ac-IV-2 基礎句型結構（主詞+be動詞）、Ab-IV-1 字母與自然發音規律、Ac-IV-4 祈使句與代名詞用法",
+        "naerCode": "學習內容：Ad-IV-1（句子骨架與現在式）；Ad-IV-1（名詞單複數、指示代名詞與祈使句）｜學習表現：3-IV-6",
         "junyiAlignment": "均一 [七上英語] -> be動詞現在式(am/is/are)、人稱代名詞主格與所有格、祈使句",
         "coreKnowledge": [
           {
@@ -161,13 +171,23 @@ export const periodicExams = [
           "牢記 This/That 問用 It 答，These/Those 問用 They 答",
           "祈使句動詞一律還原為原形動詞（Be/Do/Open/Don't）",
           "please 置於句尾有逗號，置於句首無逗號"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-1",
+            "title": "句子骨架與現在式"
+          },
+          {
+            "id": "english-7",
+            "title": "名詞單複數、指示代名詞與祈使句"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
         "editionScope": "康軒：第一章 數與數線（1-1 正負數與絕對值、1-2 整數的加減、1-3 整數的乘除與四則運算、1-4 指數律與科學記號前篇）；翰林與南一進度相同。",
-        "naerCode": "N-7-1 負數與數線、N-7-2 絕對值之意義與數線上兩點距離、N-7-3 整數的四則運算與運算律、N-7-5 指數律",
+        "naerCode": "學習內容：N-7-3、N-7-5（正負數與絕對值）；N-7-8（分數運算與科學記號）｜學習表現：n-IV-2、n-IV-3",
         "junyiAlignment": "均一 [七上數學] -> 負數的意義、數線上相反數與絕對值、整數加減乘除、指數律基本性質",
         "coreKnowledge": [
           {
@@ -237,13 +257,23 @@ export const periodicExams = [
           "牢記兩點距離公式：|a − b| ＝ 大數 − 小數",
           "四則運算規則：先乘除後加減，有括號先算括號內",
           "徹底辨明 −a² 與 (−a)² 之計算結果差異"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-1",
+            "title": "正負數與絕對值"
+          },
+          {
+            "id": "math-3",
+            "title": "分數運算與科學記號"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (生物)",
         "editionScope": "康軒：第一章 生命的特性（1-1 生命現象、1-2 細胞的構造、1-3 物質進出細胞、1-4 顯微鏡的使用與操作）；翰林與南一章節對應一致。",
-        "naerCode": "INa-IV-1 生物圈與生命特徵、INb-IV-1 動植物細胞構造比較、INb-IV-2 擴散作用與滲透作用、INg-IV-1 顯微鏡之成像與放大倍率",
+        "naerCode": "學習內容：Da-IV-1、Da-IV-2（細胞與顯微鏡）；Bc-IV-1（物質進出細胞與酵素催化作用）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [七上生物] -> 細胞的構造與功能、動植物細胞差異、複式顯微鏡操作、物質進出細胞",
         "coreKnowledge": [
           {
@@ -313,13 +343,23 @@ export const periodicExams = [
           "牢記複式顯微鏡物像移動方向：物像偏哪，玻片就往哪移",
           "低倍轉高倍四變化：視野變暗、範圍變小、細胞變大、景深變淺",
           "紅血球在低張破裂、等張不變、高張萎縮之滲透反應"
+        ],
+        "linkedUnits": [
+          {
+            "id": "biology-1",
+            "title": "細胞與顯微鏡"
+          },
+          {
+            "id": "biology-7",
+            "title": "物質進出細胞與酵素催化作用"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：臺灣史前文化與原住民族；地理：經緯度座標、時區推算與地圖要素；公民：自我成長、性別平等與人際互動。",
-        "naerCode": "歷社4a 史前文化分期演進、地1a 經緯網與全球時區推算、公1a 性別平等意識與友善校園",
+        "naerCode": "學習內容：歷Ba-IV-1（史料判讀與早期臺灣）；歷Ba-IV-2（臺灣南島語族與多元原住民族文化）；地Aa-IV-1（地圖、比例尺與經緯度）；公Bb-IV-1、公Dc-IV-1（自我、群體與多元文化）；公Bk-IV-1（少年法律保護與權益維護）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [七上社會] -> 臺灣史前三大時代、經緯度與絕對位置、性別光譜與性別刻板印象",
         "coreKnowledge": [
           {
@@ -389,6 +429,28 @@ export const periodicExams = [
           "時區換算鐵則：同半球經度減，跨半球經度加，除以15得時差，東加西減",
           "牢記經線指示南北、定時間；緯線指示東西、定氣候帶",
           "釐清性別刻板印象（觀念）與性別歧視（實質不平等待遇）的界線"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-1",
+            "title": "史料判讀與早期臺灣"
+          },
+          {
+            "id": "history-9",
+            "title": "臺灣南島語族與多元原住民族文化"
+          },
+          {
+            "id": "geography-1",
+            "title": "地圖、比例尺與經緯度"
+          },
+          {
+            "id": "civics-1",
+            "title": "自我、群體與多元文化"
+          },
+          {
+            "id": "civics-7",
+            "title": "少年法律保護與權益維護"
+          }
         ]
       }
     }
@@ -405,7 +467,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "康軒：第3課 詩歌選（登鸛雀樓、黃鶴樓送孟浩然之廣陵）、第4課 母親的教誨（胡適）；翰林：第3課 詩歌選、第4課 母親的教誨；南一：第3課 近體詩選（楓橋夜泊、過故人莊）、第4課 母親的教誨",
-        "naerCode": "Ac-IV-1 傳統近體詩格律押韻平仄對仗、Ad-IV-2 抒情寫景詩歌情景交融美感、Bb-IV-1 親情溫暖與母愛身教品格形塑",
+        "naerCode": "學習內容：Ab-IV-1、Ab-IV-5、Ba-IV-2（字詞、語境與修辭）；Ad-IV-3（古典近體詩：絕句與律詩格律賞析）｜學習表現：5-IV-2",
         "junyiAlignment": "均一 [七上國文] -> 近體詩律詩絕句格律判定、絕句押韻平仄規則、情景交融寫景抒情技巧、胡適回憶母親身教感懷",
         "coreKnowledge": [
           {
@@ -462,13 +524,23 @@ export const periodicExams = [
           "律詩中間兩聯（頷聯第3,4句、頸聯第5,6句）必須嚴格對仗",
           "精熟情景交融技巧：孤帆遠影碧空盡，借代修辭與深沉離別情懷",
           "掌握胡適《母親的教誨》排比感恩句式與慈母嚴父身教特色"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-1",
+            "title": "字詞、語境與修辭"
+          },
+          {
+            "id": "chinese-9",
+            "title": "古典近體詩：絕句與律詩格律賞析"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "康軒：Unit 3 What are you doing? / Unit 4 There is a cat on the desk；翰林：Unit 3 Present Continuous Tense / Unit 4 Imperatives；南一：Unit 3 Present Progressive / Unit 4 There is/are",
-        "naerCode": "Ac-IV-1 現在進行式（S + be + V-ing）句型與時間副詞搭配、Ac-IV-2 存在句（There is / There are）與介系詞地方片語、Ac-IV-3 祈使句（命令/請求/禁止 Don't V / Please）",
+        "naerCode": "學習內容：Ad-IV-1（現在進行式與時間表達）；Ad-IV-1（名詞單複數、指示代名詞與祈使句）｜學習表現：3-IV-6",
         "junyiAlignment": "均一 [七上英語] -> 現在進行式動詞加 ing 規則、There is 單數與 There are 複數判斷、祈使句原形動詞開頭與 Please 位置",
         "coreKnowledge": [
           {
@@ -525,13 +597,23 @@ export const periodicExams = [
           "There is 後接單數/不可數；There are 接複數；嚴禁寫 There have",
           "存在句鄰近原則：be 動詞單複數由緊鄰的第一個名詞決定",
           "祈使句省略 You，句首一律原形動詞；否定用 Don't V；please 放在句尾需加逗號"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-2",
+            "title": "現在進行式與時間表達"
+          },
+          {
+            "id": "english-7",
+            "title": "名詞單複數、指示代名詞與祈使句"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
         "editionScope": "康軒：第二章 分數的運算（2-1 質因數分解與標準分解式、2-2 最大公因數與最小公倍數、2-3 分數的加減運算、2-4 分數的乘除與乘方）；翰林與南一進度相同。",
-        "naerCode": "N-7-2 質數與合數判別、質因數分解與標準分解式、N-7-3 最大公因數（GCD）與最小公倍數（LCM）求法（短除法、標準分解式）、N-7-4 互質之定義（最大公因數為 1）、N-7-5 正負分數的四則運算與乘方性質",
+        "naerCode": "學習內容：N-7-1、N-7-2（因數、倍數與質因數分解）；N-7-3、N-7-8（分數運算與科學記號）｜學習表現：n-IV-1、n-IV-3",
         "junyiAlignment": "均一 [七上數學] -> 短除法求 GCD 與 LCM、質因數分解樹狀圖、兩數乘積等於最大公因數乘最小公倍數、分數通分與負分數去括號",
         "coreKnowledge": [
           {
@@ -588,13 +670,23 @@ export const periodicExams = [
           "GCD 挑共同且低次方；LCM 挑全部且高次方；a × b = GCD(a,b) × LCM(a,b)",
           "兩數互質定義：最大公因數為 1（兩數不需各自是質數）",
           "分數四則乘除先約分，除以分數等於乘以倒數；注意負分數括號乘方正負"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-2",
+            "title": "因數、倍數與質因數分解"
+          },
+          {
+            "id": "math-3",
+            "title": "分數運算與科學記號"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (生物)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：生物：第二章 養分與能量（2-1 食物中的養分與能量測定、2-2 酵素的特性與專一性、2-3 植物的光合作用光反應與碳反應）；翰林與南一進度相同。",
-        "naerCode": "INb-IV-3 生物體主要養分（醣類/蛋白質/脂質/維生素/礦物質/水）及其檢驗方法、INb-IV-4 酵素（酶）的主要成分（蛋白質）、受質專一性與受溫度酸鹼值影響之活性曲線、INb-IV-5 綠色植物光合作用之原料（水/二氧化碳）、產物（葡萄糖/氧氣/水）與光反應碳反應之能量轉換",
+        "naerCode": "學習內容：Bc-IV-2、Bc-IV-3（養分、光合作用與呼吸作用）；Db-IV-1、Bc-IV-1（人體消化器官與各類消化酵素專一性作用）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [七上生物] -> 碘液驗澱粉本氏液隔水加熱驗糖、酵素活性與最適溫度 pH、光合作用光反應產生氧氣暗反應固定二氧化碳、葉綠體構造",
         "coreKnowledge": [
           {
@@ -651,13 +743,23 @@ export const periodicExams = [
           "三大熱量營養素：醣 4 kcal/g、蛋白質 4 kcal/g、脂質 9 kcal/g（水與維生素無熱量）",
           "酵素本質為蛋白質，具專一性，可重複使用；高溫變性永久失活，低溫僅抑制活性",
           "光反應分解水產生氧氣；暗反應消耗能量固定二氧化碳合成葡萄糖"
+        ],
+        "linkedUnits": [
+          {
+            "id": "biology-2",
+            "title": "養分、光合作用與呼吸作用"
+          },
+          {
+            "id": "biology-14",
+            "title": "人體消化器官與各類消化酵素專一性作用"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：大航海時代與荷西時期臺灣（荷蘭東印度公司在臺南建立熱蘭遮城、西班牙在北臺灣建立聖多明哥城、赤崁漢人郭懷一事件）、鄭氏治臺與陳永華文教發展（軍屯政策、全臺首學孔廟）；地理：臺灣五大地形特徵（山地/丘陵/台地/盆地/平原）、等高線地形圖判讀（等高線閉合中心高為山峰、疏緩密陡、V字尖端朝高處為山谷集水、朝低處為山脊分水嶺）；公民：家庭型態演變（核心家庭、折衷家庭、擴展家庭、單親、隔代、新住民家庭）、現代家庭面臨的親權與照護課題（家庭暴力防治法、民法親屬編男女平等原則）。",
-        "naerCode": "歷社1a 大航海時代臺灣轉口貿易與荷西鄭氏競逐、地1b 臺灣地形分區五大單元與等高線判讀技術、公1b 家庭型態多樣性與家庭法律權利義務",
+        "naerCode": "學習內容：歷Bb-IV-1、歷Bb-IV-2（海洋交流、荷西與鄭氏）；地Ab-IV-2、地Ac-IV-2、地Ac-IV-4（臺灣地形、氣候與災害）；地Ab-IV-1、地Ac-IV-3（等高線地形圖判讀與臺灣水文環境）；公Bb-IV-1、公Dc-IV-1（自我、群體與多元文化）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [七上社會] -> 熱蘭遮城與普羅民遮城位置、鄭成功驅荷與陳永華治臺策、等高線疏密山峰山谷判讀、核心家庭與折衷家庭差異",
         "coreKnowledge": [
           {
@@ -714,6 +816,24 @@ export const periodicExams = [
           "等高線判讀：密陡疏緩；V 字指向高處為山谷(集水有河流)、指向低處為山脊",
           "家庭型態：核心家庭(夫妻+子女)、折衷家庭(三代同堂)、大家庭(擴展親屬)",
           "家庭暴力防治法由「法院」核發保護令；親權行使以未成年子女最佳利益為考量"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-2",
+            "title": "海洋交流、荷西與鄭氏"
+          },
+          {
+            "id": "geography-2",
+            "title": "臺灣地形、氣候與災害"
+          },
+          {
+            "id": "geography-8",
+            "title": "等高線地形圖判讀與臺灣水文環境"
+          },
+          {
+            "id": "civics-1",
+            "title": "自我、群體與多元文化"
+          }
         ]
       }
     }
@@ -730,7 +850,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "康軒：第5課 論語選（學而篇、為政篇）、語文常識(二) 漢字造字法則（六書：象形、指事、會意、形聲）；翰林：第5課 論語選、語文常識(二) 漢字六書；南一：第5課 論語選、語文常識(二) 六書",
-        "naerCode": "Ac-IV-3 論語語錄體之仁愛孝弟思想、Ab-IV-1 漢字造字原則六書（象形/指事/會意/形聲）結構分析、Ad-IV-4 寓言論理與為學求真態度",
+        "naerCode": "學習內容：Ab-IV-3（六書原則與漢字形義流變）；Ad-IV-4、Cc-IV-1（先秦諸子寓言與哲理散文）｜學習表現：4-IV-2、5-IV-2",
         "junyiAlignment": "均一 [七上國文] -> 論語孔子為學與待人語錄、六書獨體文與合體字判斷、象形指事會意形聲高頻字對照",
         "coreKnowledge": [
           {
@@ -787,13 +907,23 @@ export const periodicExams = [
           "本、末、刃皆為「指事字」（在象形字上附加符號提示特定部位）",
           "背誦《論語》經典：學而不思則罔，思而不學則殆（學思並重）",
           "掌握孔子通假字：學而時習之不亦「說」乎（通悅）、「是知也」（通智）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-7",
+            "title": "六書原則與漢字形義流變"
+          },
+          {
+            "id": "chinese-13",
+            "title": "先秦諸子寓言與哲理散文"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "康軒：Unit 5 How often do you exercise? / Unit 6 What time is it?；翰林：Unit 5 Adverbs of Frequency / Unit 6 Dates and Ordinal Numbers；南一：Unit 5 Frequency Adverbs / Unit 6 Time & Days",
-        "naerCode": "Ac-IV-4 頻率副詞（always, usually, often, sometimes, seldom, never）語法位置、Ac-IV-5 詢問時間與頻率句型（What time, How often, How many times）、Ac-IV-6 日期表達法與介系詞（in 年月, on 具體日期/星期, at 幾點幾分）",
+        "naerCode": "學習內容：Ad-IV-1（頻率副詞、情態助動詞 can 與存在句）；B-IV-5（介系詞與時空方位精準表達）｜學習表現：3-IV-6、4-IV-5",
         "junyiAlignment": "均一 [七上英語] -> 頻率副詞簡答句位置、How often 句型回答 once/twice a week、序數 first second third 變化、in on at 時間介系詞大統整",
         "coreKnowledge": [
           {
@@ -850,13 +980,23 @@ export const periodicExams = [
           "頻率副詞簡答句必須放在助動詞前（Yes, I usually do）",
           "How often 詢問頻率，回答用 once a week, twice a month, three times a day",
           "時間介系詞：at 幾點/night；on 具體某天(星期/月日/節日)；in 月份/季節/年份/早中晚"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-8",
+            "title": "頻率副詞、情態助動詞 can 與存在句"
+          },
+          {
+            "id": "english-13",
+            "title": "介系詞與時空方位精準表達"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
         "editionScope": "康軒：第三章 一元一次方程式（3-1 以符號代表數與代數式化簡、3-2 等量公理與移項法則、3-3 一元一次方程式的應用問題）；翰林與南一進度相同。",
-        "naerCode": "A-7-1 以英文字母代表數、代數式符號簡記法（乘號省略、數字放字母前）、A-7-2 代數式之化簡（同類項合併、去括號分配律）、A-7-3 等量公理與移項法則解一元一次方程式、A-7-4 列一元一次方程式解決生活情境應用題（年齡/買賣利潤/速率距離/追趕與相遇）",
+        "naerCode": "學習內容：A-7-2、A-7-3（一元一次方程式）｜學習表現：a-IV-2",
         "junyiAlignment": "均一 [七上數學] -> 代數式化簡去括號正負變號、等量公理解方程式、移項變號法則、年齡與利潤折扣應用題列式",
         "coreKnowledge": [
           {
@@ -913,13 +1053,19 @@ export const periodicExams = [
           "分數型代數式相減，通分時分子整體務必加安全括號變號",
           "解方程式去分母：等號兩邊所有項（包含無分母整數）必須「同乘最小公倍數」",
           "應用題年齡差永遠不變；打折是乘 0.x，利潤 = 售價 − 成本"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-4",
+            "title": "一元一次方程式"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (生物)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：生物：第三章 生物体內的運輸（3-1 植物體內水分與養分的運輸：木質部與韌皮部、形成層；3-2 人體血液與循環系統：心臟四腔室、動脈靜脈微血管、體循環與肺循環；3-3 淋巴循環系統）；翰林與南一進度相同。",
-        "naerCode": "INb-IV-6 維管束構造（木質部在內運水、韌皮部在外運養分）、蒸散作用為植物水分上升之主要動力、INb-IV-7 人體血液循環（心臟、血管瓣膜、血液成分）、體循環與肺循環之微血管氣體物質交換路徑、INb-IV-8 淋巴系統（淋巴液/淋巴管/淋巴結）防禦免疫功能",
+        "naerCode": "學習內容：Db-IV-1、Db-IV-2、Dc-IV-4（運輸、消化與恆定）；Db-IV-6、Db-IV-8（植物的體內運輸與水分恆定）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [七上生物] -> 木質部運水韌皮部運養分口訣、氣孔開閉調節、心臟左心室壁最厚主動脈、體循環肺循環血流路徑動脈血靜脈血判斷",
         "coreKnowledge": [
           {
@@ -976,13 +1122,23 @@ export const periodicExams = [
           "心臟構造上房下室、左右相反；左心室心肌最厚推動體循環",
           "體循環由左心室出發回右心房；肺循環由右心室出發回左心房",
           "肺動脈流缺氧血、肺靜脈流充氧血；成熟紅血球與血小板無細胞核"
+        ],
+        "linkedUnits": [
+          {
+            "id": "biology-3",
+            "title": "運輸、消化與恆定"
+          },
+          {
+            "id": "biology-8",
+            "title": "植物的體內運輸與水分恆定"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：清領前期治臺政策（渡臺禁令、劃界封山、防臺甚於治臺）、土地開墾與水利設施（瑠公圳、八堡圳、曹公圳）、原漢互動與分類械鬥消長；地理：臺灣氣候特徵（緯度北回歸線劃分熱帶與副熱帶、冬夏季風轉換、雨量空間分布：東北季風迎風面、梅雨、颱風雨、夏季午後對流雨）、臺灣水資源困境（河川短小流急荒溪型、降雨時空不均與水庫蓄水）；公民：學校生活與班級自治（開會程序：動議/附議、表決多數決與少數服從多數、學生權益與申訴救濟機制）、社區營造與社區參與（地方創生、社區意識建立）。",
-        "naerCode": "歷社1b 清領前期消極治臺三大禁令、水利水圳開墾與移民社會融合、地1c 臺灣季風氣候降水成因與水資源荒溪型調適、公1c 民主開會程序學生自主參與與社區營造永續",
+        "naerCode": "學習內容：歷Ca-IV-1、歷Ea-IV-1（清領與日治時期的變遷）；地Ab-IV-2、地Ac-IV-2、地Ac-IV-4（臺灣地形、氣候與災害）；地Ab-IV-1、地Ac-IV-3（等高線地形圖判讀與臺灣水文環境）；公Ba-IV-1、公Ca-IV-3（家庭、學校與公共參與）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [七上社會] -> 渡臺禁令限制劃界封山、八堡圳施世榜曹公圳曹謹、臺灣降雨四大類型雨量分布圖、開會動議附議多數決法定程序",
         "coreKnowledge": [
           {
@@ -1039,6 +1195,24 @@ export const periodicExams = [
           "三大水圳：彰化八堡圳(施世榜濁水溪)、臺北瑠公圳(郭錫瑠)、高雄曹公圳(曹謹官辦)",
           "臺灣四大降雨：東北季風雨(宜蘭基隆冬雨)、梅雨(5-6月滯留鋒)、颱風雨、午後雷陣雨",
           "會議規範程序：一人動議、他人附議；多數決；秩序問題管程序、權宜問題管環境"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-3",
+            "title": "清領與日治時期的變遷"
+          },
+          {
+            "id": "geography-2",
+            "title": "臺灣地形、氣候與災害"
+          },
+          {
+            "id": "geography-8",
+            "title": "等高線地形圖判讀與臺灣水文環境"
+          },
+          {
+            "id": "civics-2",
+            "title": "家庭、學校與公共參與"
+          }
         ]
       }
     }
@@ -1055,7 +1229,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "康軒：第1課 吃冰的滋味、第2課 差不多先生傳、語文常識(一) 書法字體演變；翰林：第1課 吃冰的滋味、第2課 差不多先生傳；南一：第1課 吃冰的滋味、第2課 差不多先生傳",
-        "naerCode": "Ab-IV-2 書法五大書體演變、Bb-IV-3 記敘文本之事件脈絡、Ad-IV-1 幽默諷刺寫作手法與批判閱讀",
+        "naerCode": "學習內容：Ba-IV-1、Ba-IV-2、Ad-IV-1（敘事閱讀與人物推論）；Ab-IV-3（六書原則與漢字形義流變）｜學習表現：5-IV-2、4-IV-2",
         "junyiAlignment": "均一 [七下國文] -> 書法五大書體特徵辨析、胡適傳記諷刺風格、童年飲食生活記敘",
         "coreKnowledge": [
           {
@@ -1125,13 +1299,23 @@ export const periodicExams = [
           "掌握隸書（蠶頭雁尾）、楷書（方正端莊）、行書（王羲之蘭亭集序）特徵",
           "能精準辨識反諷修辭（表面稱許實則諷刺）",
           "區分視覺、味覺、嗅覺、觸覺等不同感官摹寫技巧"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-2",
+            "title": "敘事閱讀與人物推論"
+          },
+          {
+            "id": "chinese-7",
+            "title": "六書原則與漢字形義流變"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "康軒：Unit 1 What Did You Do Yesterday? ~ Unit 2 How Was Your Vacation?；翰林：Unit 1 Where Were You? ~ Unit 2 Did You Have Fun?；南一：Unit 1 My Weekend ~ Unit 2 The Trip to Tainan",
-        "naerCode": "Ac-IV-2 過去簡單式（規則動詞加 ed、不規則動詞變化）、Ac-IV-3 過去時間副詞（yesterday, last night, two days ago）、Ac-IV-5 過去式 be 動詞 was/were 與助動詞 did 的問答",
+        "naerCode": "學習內容：Ad-IV-1（過去式、未來與敘事順序）；Ad-IV-1（頻率副詞、情態助動詞 can 與存在句）｜學習表現：3-IV-6",
         "junyiAlignment": "均一 [七下英語] -> 過去式動詞規則變化與不規則三態、過去時間副詞搭配、Did you...? 疑問句與簡答",
         "coreKnowledge": [
           {
@@ -1202,13 +1386,23 @@ export const periodicExams = [
           "牢記 did / didn't 出現時動詞一律還原原形",
           "掌握三大過去時間副詞信號（yesterday, last..., ...ago）",
           "能正確判斷過去式 be 動詞 was（單數）與 were（複數）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-3",
+            "title": "過去式、未來與敘事順序"
+          },
+          {
+            "id": "english-8",
+            "title": "頻率副詞、情態助動詞 can 與存在句"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
         "editionScope": "康軒：第一章 二元一次聯立方程式（1-1 二元一次方程式、1-2 解二元一次聯立方程式、1-3 應用問題）；翰林與南一進度相同。",
-        "naerCode": "A-7-5 二元一次方程式之意義與列式、A-7-6 代入消去法與加減消去法解聯立方程式、A-7-7 二元一次應用問題（年齡、速率、工程、配比）",
+        "naerCode": "學習內容：A-7-4、A-7-5（二元一次聯立方程式）｜學習表現：a-IV-4",
         "junyiAlignment": "均一 [七下數學] -> 二元一次聯立方程式解法（代入消去法、加減消去法）、聯立方程式應用題建模",
         "coreKnowledge": [
           {
@@ -1278,13 +1472,19 @@ export const periodicExams = [
           "牢記兩式相減時各項變號規則，避免符號失誤",
           "理解聯立方程組恰有一解、無解、無限多解之係數比幾何判定",
           "應用題認清題目最後所問之目標量（差值、總和、比例）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-5",
+            "title": "二元一次聯立方程式"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (生物)",
         "editionScope": "康軒：第四章 生物的協調與恆定（4-1 神經系統、4-2 內分泌系統、4-3 植物的感應）；翰林與南一章節對應一致。",
-        "naerCode": "INb-IV-9 神經系統傳導途徑與反射、INb-IV-10 內分泌腺體與激素調節、INb-IV-11 植物向性與膨壓反應",
+        "naerCode": "學習內容：Dc-IV-1、Dc-IV-2（神經、內分泌與反應）；Dc-IV-1（人體神經系統與腦部構造分工）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [七下生物] -> 中樞神經與周圍神經、意識動作 vs 反射動作路徑、人體主要內分泌腺（胰島、甲狀腺、腎上腺）、植物向光性",
         "coreKnowledge": [
           {
@@ -1354,13 +1554,23 @@ export const periodicExams = [
           "掌握膝跳反射與縮手反射的神經元傳導路徑（不經大腦）",
           "掌握六大內分泌腺分泌之激素及其生理功能（胰島素降血糖、升糖素升血糖）",
           "理解向性（生長素不均、緩慢不可逆）與膨壓（水分進出、快速可逆）之差別"
+        ],
+        "linkedUnits": [
+          {
+            "id": "biology-4",
+            "title": "神經、內分泌與反應"
+          },
+          {
+            "id": "biology-13",
+            "title": "人體神經系統與腦部構造分工"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：清領後期臺灣開港通商與近代化建設；地理：臺灣人口成長、人口分布與年齡結構金字塔；公民：社區營造、非營利組織與公民社會公共參與。",
-        "naerCode": "歷社4d 開港通商與茶糖樟腦出口轉型、地1d 臺灣人口結構高齡化少子化趨勢、公1d 社區意識發展與地方公共利益",
+        "naerCode": "學習內容：歷Ca-IV-2（清領開港通商與臺灣近代化建設）；地Ad-IV-1、地Ae-IV-2、地Af-IV-2（臺灣人口、產業與都市）；公Ba-IV-1、公Ca-IV-3（家庭、學校與公共參與）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [七下社會] -> 清領後期通商洋行設立、人口金字塔三大類型判別、扶養比計算與社區參與",
         "coreKnowledge": [
           {
@@ -1430,6 +1640,20 @@ export const periodicExams = [
           "掌握沈葆楨（牡丹社開山撫番）與劉銘傳（首任巡撫鐵路電報郵政）重要建樹",
           "牢記人口金字塔三型態與高齡化標準：7% 高齡化、14% 高齡、20% 超高齡",
           "理解扶養比公式中分子（幼年+老年）與分母（青壯年）之意義"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-13",
+            "title": "清領開港通商與臺灣近代化建設"
+          },
+          {
+            "id": "geography-3",
+            "title": "臺灣人口、產業與都市"
+          },
+          {
+            "id": "civics-2",
+            "title": "家庭、學校與公共參與"
+          }
         ]
       }
     }
@@ -1446,7 +1670,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "康軒：第3課 背影、第4課 母親的教誨、語文常識(二) 句型結構；翰林：第3課 背影、第4課 紙船印象；南一：第3課 背影、第4課 母親的教誨",
-        "naerCode": "Ac-IV-1 四大基本句型（敘事句、有無句、表態句、判斷句）、Ad-IV-1 抒情散文親情主題、Bb-IV-3 記敘文本之象徵寄託",
+        "naerCode": "學習內容：Ba-IV-1、Ba-IV-2、Ad-IV-1（敘事閱讀與人物推論）；Ac-IV-1、Ac-IV-2（標點符號、句型結構與語法邏輯）；Bb-IV-1、Bb-IV-5（現代記敘抒情散文與意象營造）｜學習表現：5-IV-2、6-IV-1、6-IV-2",
         "junyiAlignment": "均一 [七下國文] -> 中文四大句型判別規則、朱自清《背影》親情意象、胡適《母親的教誨》人格教育",
         "coreKnowledge": [
           {
@@ -1516,13 +1740,27 @@ export const periodicExams = [
           "能精準判別繫詞（是、乃、為、即、非）並定位斷語",
           "理解朱自清《背影》四次流淚的心境轉折與象徵物寄託",
           "掌握胡適母親教誨中的教育智慧（留尊嚴、嚴且慈）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-2",
+            "title": "敘事閱讀與人物推論"
+          },
+          {
+            "id": "chinese-8",
+            "title": "標點符號、句型結構與語法邏輯"
+          },
+          {
+            "id": "chinese-14",
+            "title": "現代記敘抒情散文與意象營造"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "康軒：Unit 3 What Were You Doing at Eight? ~ Unit 4 How Much Sugar Do You Need?；翰林：Unit 3 What Was He Doing? ~ Unit 4 How Much Milk?；南一：Unit 3 The Power Outage ~ Unit 4 Cooking Fun",
-        "naerCode": "Ac-IV-2 過去進行式（was/were + V-ing）、Ac-IV-3 連接詞 when 與 while 之時態搭配、Ac-IV-4 可數與不可數名詞數量詞（many, much, a lot of, a few, a little）",
+        "naerCode": "學習內容：Ad-IV-1（過去進行式、時間連接詞與數量詞）；Ad-IV-1（授予動詞、使役動詞與現在完成式進階）｜學習表現：3-IV-6",
         "junyiAlignment": "均一 [七下英語] -> 過去進行式核心概念、when/while 連接兩過去動作、可數不可數名詞數量詞配對",
         "coreKnowledge": [
           {
@@ -1592,13 +1830,23 @@ export const periodicExams = [
           "掌握 when + 過去簡單式（短動作）與 while + 過去進行式（長動作）",
           "分清可數修飾語（many, a few）與不可數修飾語（much, a little）",
           "不可數名詞提問數量用 How much，可數名詞提問數量用 How many"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-9",
+            "title": "過去進行式、時間連接詞與數量詞"
+          },
+          {
+            "id": "english-11",
+            "title": "授予動詞、使役動詞與現在完成式進階"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
         "editionScope": "康軒：第二章 直角坐標與二元一次方程式的圖形（2-1 平面直角坐標系、2-2 二元一次方程式的圖形）；翰林與南一進度相同。",
-        "naerCode": "A-7-8 直角坐標系之象限與點坐標、A-7-9 二元一次方程式 ax + by = c 的圖形為一直線、A-7-10 兩直線的交點坐標與幾何意義",
+        "naerCode": "學習內容：G-7-1、A-7-6、D-7-1（坐標與資料圖表）；A-7-4、A-7-5（二元一次聯立方程式）｜學習表現：d-IV-1、a-IV-4",
         "junyiAlignment": "均一 [七下數學] -> 直角坐標象限判斷、繪製直線方程式圖形（兩點決定一直線）、求兩直線交點",
         "coreKnowledge": [
           {
@@ -1668,13 +1916,23 @@ export const periodicExams = [
           "熟記對稱點坐標：關於x軸對稱y變號，關於y軸對稱x變號，關於原點皆變號",
           "掌握點 (a,b) 到 x 軸距離為 |b|，到 y 軸距離為 |a|",
           "兩直線交點坐標求法：聯立解二元一次方程式"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-8",
+            "title": "坐標與資料圖表"
+          },
+          {
+            "id": "math-5",
+            "title": "二元一次聯立方程式"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (生物)",
         "editionScope": "康軒：第四章 生物的協調與恆定（4-4 呼吸與氣體交換、4-5 排泄與體內水分恆定、4-6 體溫與血糖的恆定）；翰林與南一章節對應一致。",
-        "naerCode": "INb-IV-12 人體呼吸運動與氣體交換、INb-IV-13 泌尿排泄系統與含氮廢物代謝、INb-IV-14 體溫與體液恆定調節機制",
+        "naerCode": "學習內容：Db-IV-3、Dc-IV-4（動物呼吸系統與排泄泌尿作用）；Db-IV-1、Db-IV-2（運輸、消化與恆定）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [七下生物] -> 呼吸運動胸腔體積與壓力變化、泌尿系統腎臟過濾、外溫動物 vs 內溫動物體溫調節",
         "coreKnowledge": [
           {
@@ -1744,13 +2002,23 @@ export const periodicExams = [
           "牢記呼吸中樞在腦幹，受血液中二氧化碳濃度刺激調節",
           "掌握含氮廢物處理：肝臟合成尿素，腎臟排泄尿素",
           "分清寒冷與炎熱時皮膚血管收縮/舒張與骨骼肌打顫產熱機制"
+        ],
+        "linkedUnits": [
+          {
+            "id": "biology-9",
+            "title": "動物呼吸系統與排泄泌尿作用"
+          },
+          {
+            "id": "biology-3",
+            "title": "運輸、消化與恆定"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：馬關條約割臺、日治初期統治體制、警察與保甲制度、「理蕃」政策；地理：臺灣農業轉型、工業發展歷程與高科技產業；公民：地方自治組織架構、地方財政與地方創生。",
-        "naerCode": "歷社4e 馬關條約與日治初期武裝抗日政策、地1e 臺灣產業結構變遷與工業區升級、公1e 地方行政機關與立法機關職權監督",
+        "naerCode": "學習內容：歷Ca-IV-1、歷Ea-IV-1（清領與日治時期的變遷）；地Ad-IV-1、地Ae-IV-2、地Af-IV-2（臺灣人口、產業與都市）；公Be-IV-3、公Ca-IV-2（地方自治、社區參與與地方創生）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [七下社會] -> 日治總督府專制政治與六三法、臺灣由農業到高科技轉型歷程、地方議會與地方政府職權",
         "coreKnowledge": [
           {
@@ -1820,6 +2088,20 @@ export const periodicExams = [
           "掌握臺灣產業發展四階段：1950進口替代 -> 1960出口擴張 -> 1970十大建設 -> 1980高科技轉型",
           "地方自治二元結構：行政機關（首長）vs 立法機關（議會/代表會監督預算）",
           "地方政府自籌財源與中央統籌分配稅款之意義"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-3",
+            "title": "清領與日治時期的變遷"
+          },
+          {
+            "id": "geography-3",
+            "title": "臺灣人口、產業與都市"
+          },
+          {
+            "id": "civics-10",
+            "title": "地方自治、社區參與與地方創生"
+          }
         ]
       }
     }
@@ -1836,7 +2118,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "康軒：第5課 世說新語選、第6課 兒時記趣延伸、語文常識複習；翰林：第5課 世說新語選、第6課 孩子！請聽我說；南一：第5課 世說新語選、第6課 風箏",
-        "naerCode": "Ac-IV-3 設問修辭三大類型（提問、激問、懸問）、Ad-IV-1 魏晉筆記小說志人世說新語、Bb-IV-3 文言散文對話人物刻畫",
+        "naerCode": "學習內容：Ab-IV-6、Ab-IV-7（文言文的省略與虛字）；Ba-IV-1、Ba-IV-2、Ad-IV-1（敘事閱讀與人物推論）｜學習表現：5-IV-4、5-IV-2",
         "junyiAlignment": "均一 [七下國文] -> 劉義慶《世說新語》魏晉名士風骨、設問修辭精確判別、文言虛詞閱讀推論",
         "coreKnowledge": [
           {
@@ -1906,13 +2188,23 @@ export const periodicExams = [
           "設問三法判準：自問自答為提問、答案在反面為激問、真問無答為懸問",
           "牢記「家大舍小令他人」稱謂禮儀原則",
           "掌握陳元方「無信、無禮」之思維邏輯分析"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-3",
+            "title": "文言文的省略與虛字"
+          },
+          {
+            "id": "chinese-2",
+            "title": "敘事閱讀與人物推論"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "康軒：Unit 5 What Will You Do Tomorrow? ~ Unit 6 You Should Wear a Mask；翰林：Unit 5 Future Plans ~ Unit 6 Health & Rules；南一：Unit 5 Summer Vacation Plans ~ Unit 6 Stay Safe",
-        "naerCode": "Ac-IV-2 未來式（will + VRT 與 be going to + VRT）、Ac-IV-4 情態助動詞（must, have to, should, can, may）、Ac-IV-6 天氣表達與未來時間副詞（tomorrow, next week, soon）",
+        "naerCode": "學習內容：Ad-IV-1（過去式、未來與敘事順序）；Ad-IV-1（頻率副詞、情態助動詞 can 與存在句）｜學習表現：3-IV-6",
         "junyiAlignment": "均一 [七下英語] -> 未來式 will 與 be going to 區別、情態助動詞義務與建議、天氣詢問與未來規劃",
         "coreKnowledge": [
           {
@@ -1982,13 +2274,23 @@ export const periodicExams = [
           "能精準辨識 must not（禁止）與 don't have to（不必）之語意分界",
           "天氣問句黃金律：How is the weather? ＝ What is the weather like?",
           "熟記情態助動詞後方動詞 100% 保持原形"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-3",
+            "title": "過去式、未來與敘事順序"
+          },
+          {
+            "id": "english-8",
+            "title": "頻率副詞、情態助動詞 can 與存在句"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
         "editionScope": "康軒：第三章 比例與比例式（3-1 比例式與連比、3-2 正比與反比）；第四章 一元一次不等式（4-1 不等式的解與圖示、4-2 不等式的應用）；翰林與南一進度相同。",
-        "naerCode": "N-7-7 比、比例式與連比之性質、N-7-8 正比與反比生活數學模型、A-7-11 一元一次不等式移項運算與數線圖示、A-7-12 不等式生活情境應用",
+        "naerCode": "學習內容：N-7-9（比例、正比與反比）；N-9-1（連比與比例式的應用）；A-7-7、A-7-8（一元一次不等式）｜學習表現：n-IV-4、a-IV-3",
         "junyiAlignment": "均一 [七下數學] -> 比例式內外項相乘性質、正比 y=kx 與反比 xy=k 判斷、一元一次不等式同乘除負數變號、不等式數線圖形",
         "coreKnowledge": [
           {
@@ -2058,13 +2360,27 @@ export const periodicExams = [
           "掌握連比 a:b:c 之設比例常數解題法（a=kr, b=mr, c=nr）",
           "正比模型 y=kx（比值固定，過原點）vs 反比模型 xy=k（乘積固定）",
           "不等式同乘除負數必反轉不等號（≥ 變 ≤，> 變 <）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-6",
+            "title": "比例、正比與反比"
+          },
+          {
+            "id": "math-21",
+            "title": "連比與比例式的應用"
+          },
+          {
+            "id": "math-7",
+            "title": "一元一次不等式"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (生物)",
         "editionScope": "康軒：第五章 生殖與遺傳（5-1 細胞分裂與減數分裂、5-2 有性生殖與無性生殖、5-3 遺傳法則與性別性聯遺傳）；第六章 演化與生態（6-1 演化學說、6-2 生態系能量流動）；翰林與南一章節對應一致。",
-        "naerCode": "INb-IV-15 細胞分裂與減數分裂染色體套數變化、INb-IV-16 孟德爾遺傳法則與棋盤方格法、INc-IV-2 達爾文天擇說與生物多樣性、INd-IV-1 生態系能量傳遞10%定律",
+        "naerCode": "學習內容：Ga-IV-1、Ga-IV-6、Gb-IV-1（生殖、遺傳與演化）；Da-IV-4（細胞分裂、減數分裂與生殖）；Ga-IV-2（孟德爾遺傳法則與性別性聯遺傳）；Gc-IV-1、Bd-IV-3（分類、生態系與能量流動）；Gc-IV-2、Lb-IV-3（生物多樣性、保育與環境永續）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [七下生物] -> 細胞分裂 vs 減數分裂完整步驟、單性雜交棋盤方格法、顯性與隱性、達爾文天擇說四步驟、生態塔與物質循環",
         "coreKnowledge": [
           {
@@ -2134,13 +2450,35 @@ export const periodicExams = [
           "熟練單性雜交棋盤方格法：Tt × Tt 得 3:1，Tt × tt 得 1:1",
           "理解達爾文天擇說：個體變異先隨機存在，環境僅負責天擇篩選",
           "掌握生態系能量流動 10% 定律（能量單向遞減，物質循環再生）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "biology-5",
+            "title": "生殖、遺傳與演化"
+          },
+          {
+            "id": "biology-10",
+            "title": "細胞分裂、減數分裂與生殖"
+          },
+          {
+            "id": "biology-11",
+            "title": "孟德爾遺傳法則與性別性聯遺傳"
+          },
+          {
+            "id": "biology-6",
+            "title": "分類、生態系與能量流動"
+          },
+          {
+            "id": "biology-12",
+            "title": "生物多樣性、保育與環境永續"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：日治中期內地延長主義、政治社會運動、皇民化運動、戰後二二八與民主化；地理：臺灣交通運輸網絡、區域城鄉均衡與國家公園生態保育；公民：多元文化、文化位階反思與弱勢權利保障。",
-        "naerCode": "歷社4f 日治政治社會運動與戰後民主憲政轉型、地1f 臺灣交通網與國土保育策略、公1f 多元文化融合與原住民族自決權",
+        "naerCode": "學習內容：歷Fa-IV-1、歷Fa-IV-2（戰後臺灣與民主化）；地Af-IV-1、地Af-IV-3（臺灣交通網絡與城鄉區域均衡發展）；公Bb-IV-1、公Dc-IV-1（自我、群體與多元文化）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [七下社會] -> 臺灣文化協會與蔣渭水、環島交通路網、文化相對主義與文化平權",
         "coreKnowledge": [
           {
@@ -2210,6 +2548,20 @@ export const periodicExams = [
           "戰後臺灣民主化歷程：二二八 -> 戒嚴 -> 解嚴(1987) -> 廢動勘(1991) -> 總統直選(1996)",
           "臺灣九座國家公園之地質特色與地理位置熟練對照",
           "多元文化核心價值：文化相對主義、反對文化位階、保障弱勢平權"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-4",
+            "title": "戰後臺灣與民主化"
+          },
+          {
+            "id": "geography-11",
+            "title": "臺灣交通網絡與城鄉區域均衡發展"
+          },
+          {
+            "id": "civics-1",
+            "title": "自我、群體與多元文化"
+          }
         ]
       }
     }
@@ -2226,7 +2578,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "康軒：第1課 近體詩選（登鸛雀樓、黃鶴樓送孟浩然之廣陵）、第2課 為學一首示子姪、語文常識(一) 韻文常識；翰林：第1課 近體詩選、第2課 為學；南一：第1課 近體詩選、第2課 碧沉西瓜",
-        "naerCode": "Ab-IV-1 韻文文體格律（絕句與律詩）、Ac-IV-1 借代修辭與文意理解、Bb-IV-1 詩歌意象營造與情意抒發",
+        "naerCode": "學習內容：Ad-IV-3（古典近體詩：絕句與律詩格律賞析）；Ab-IV-6、Ab-IV-7（文言文的省略與虛字）｜學習表現：5-IV-2、5-IV-4",
         "junyiAlignment": "均一 [八上國文] -> 近體詩格律大觀（句數、字數、平仄、押韻、對仗）、彭端淑《為學》立志說理",
         "coreKnowledge": [
           {
@@ -2296,13 +2648,23 @@ export const periodicExams = [
           "精熟古代年齡借代：及笄(15)、弱冠(20)、而立(30)、不惑(40)、知命(50)、花甲(60)、古稀(70)",
           "精熟人物與事物借代：杏林(醫)、杏壇(教)、布衣(平民)、巾幗(女)、桑梓(家鄉)",
           "掌握《為學》以蜀鄙二僧為對比論據之核心思維"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-9",
+            "title": "古典近體詩：絕句與律詩格律賞析"
+          },
+          {
+            "id": "chinese-3",
+            "title": "文言文的省略與虛字"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "康軒：Unit 1 Which Is Better? ~ Unit 2 The Weather Is Getting Colder；翰林：Unit 1 Comparisons ~ Unit 2 Animals in Danger；南一：Unit 1 Who Is Taller? ~ Unit 2 Life in the Past",
-        "naerCode": "Ac-IV-2 形容詞與副詞比較級（-er / more + adj/adv）、Ac-IV-3 同級比較句型（as + adj/adv + as）、Ac-IV-5 兩者比較選擇疑問句（Which/Who is + 比較級, A or B?）",
+        "naerCode": "學習內容：Ad-IV-1（比較級、不定詞與動名詞）；Ad-IV-1（過去進行式、時間連接詞與數量詞）｜學習表現：3-IV-6",
         "junyiAlignment": "均一 [八上英語] -> 形容詞比較級規則與不規則變化、副詞比較級、as...as 句型與 than 的搭配",
         "coreKnowledge": [
           {
@@ -2372,13 +2734,23 @@ export const periodicExams = [
           "牢記 as...as 中間只能放原級（形容詞或副詞原形）",
           "牢記修飾比較級四大詞：much, even, far, a lot（嚴禁使用 very）",
           "掌握比較對象對等原則：單數用 that of，複數用 those of"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-4",
+            "title": "比較級、不定詞與動名詞"
+          },
+          {
+            "id": "english-9",
+            "title": "過去進行式、時間連接詞與數量詞"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
         "editionScope": "康軒：第一章 乘法公式與多項式（1-1 乘法公式、1-2 多項式的加減、1-3 多項式的乘除運算與除法原理）；翰林與南一進度相同。",
-        "naerCode": "A-8-1 乘法公式之幾何面積詮釋與代數變形、A-8-2 多項式之定義與同類項加減、A-8-3 多項式之乘除與除法原理 A = B × Q + R",
+        "naerCode": "學習內容：A-8-1、A-8-3（乘法公式與多項式）｜學習表現：a-IV-5",
         "junyiAlignment": "均一 [八上數學] -> 乘法公式（平方差、完全平方）、多項式直式橫式乘除法、除法原理與餘式次數關係",
         "coreKnowledge": [
           {
@@ -2448,13 +2820,19 @@ export const periodicExams = [
           "多項式除法直式操作：降冪排列、缺項補零",
           "掌握除法原理：A = B × Q + R，餘式次數必小於除式次數",
           "非多項式型態檢驗：未知數不可在分母、根號與絕對值內"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-9",
+            "title": "乘法公式與多項式"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (理化)",
         "editionScope": "康軒：第一章 基本測量與物質（1-1 長度與體積測量、1-2 質量與密度）；第二章 波動與聲音（2-1 波的傳播、2-2 聲音的產生與傳播、2-3 聲音的三要素、2-4 超聲波與回聲）；翰林與南一進度相同。",
-        "naerCode": "INa-IV-2 測量估計值與密度公式 D=M/V、INb-IV-1 波動特性橫波縱波與波速公式 v=fλ、INb-IV-2 聲音三要素與回聲反射測距",
+        "naerCode": "學習內容：Ea-IV-1、Ea-IV-2（測量、密度與實驗變因）；Ka-IV-1、Ka-IV-5（聲音與波動）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [八上理化] -> 測量最小刻度與估計值、密度圖形 M-V 斜率判讀、橫波波長振幅週期計算、聲音響度音調音色",
         "coreKnowledge": [
           {
@@ -2524,13 +2902,23 @@ export const periodicExams = [
           "密度公式 D=M/V，同物質密度固定，M-V 圖通過原點斜率代表密度",
           "波速公式 v = f × λ，波速由介質決定，同一介質波速固定",
           "回聲測距距離公式 S = (v × t) / 2 牢記除以 2"
+        ],
+        "linkedUnits": [
+          {
+            "id": "physics-1",
+            "title": "測量、密度與實驗變因"
+          },
+          {
+            "id": "physics-2",
+            "title": "聲音與波動"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：中國史前文化、先秦封建宗法與百家爭鳴；地理：中國地理位置、地形三大階梯分界、主要高原盆地平原；公民：現代民主政治的核心原則、國民主權、政黨政治與利益團體。",
-        "naerCode": "歷社5a 先秦封建禮樂與諸子百家思潮、地2a 中國地形三大階梯空間特徵、公2a 現代民主政治運作原則與政黨競爭",
+        "naerCode": "學習內容：歷Ha-IV-1（中國古代國家形成與封建帝制）；地Bd-IV-1、地Bd-IV-3（東亞與區域差異）；公Be-IV-2（民主政治與權力分立）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [八上社會] -> 先秦宗法封建崩潰、春秋戰國儒墨道法思想、中國地形三階梯分界山脈、責任政治與投票四原則",
         "coreKnowledge": [
           {
@@ -2600,6 +2988,20 @@ export const periodicExams = [
           "掌握中國地形三階梯分界山脈（崑崙祁連橫斷；大興安嶺太行巫山雪峰）",
           "四大高原地貌特徵：青藏（雪山）、內蒙古（坦蕩）、黃土（千溝萬壑）、雲貴（喀斯特）",
           "熟記公民投票四大原則（普通、平等、直接、無記名）及政黨 vs 利益團體差異"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-10",
+            "title": "中國古代國家形成與封建帝制"
+          },
+          {
+            "id": "geography-4",
+            "title": "東亞與區域差異"
+          },
+          {
+            "id": "civics-3",
+            "title": "民主政治與權力分立"
+          }
         ]
       }
     }
@@ -2616,7 +3018,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "康軒：第3課 買櫝還珠與自相矛盾（諸子寓言選）、第4課 田園之秋選、語文常識(二) 文言虛詞；翰林：第3課 寓言選、第4課 田園之秋選；南一：第3課 寓言選、第4課 生之歌選",
-        "naerCode": "Ab-IV-1 諸子散文寓言諷喻手法、Ac-IV-3 文言常用虛詞用法（之乎者也矣焉哉）、Bb-IV-2 論說哲理與生活智慧",
+        "naerCode": "學習內容：Ab-IV-6、Ab-IV-7（文言文的省略與虛字）；Ad-IV-4、Cc-IV-1（先秦諸子寓言與哲理散文）｜學習表現：5-IV-4、5-IV-2",
         "junyiAlignment": "均一 [八上國文] -> 先秦諸子寓言哲理分析、文言文虛字「之」四大用法判別、陳冠學《田園之秋》農村自然文學",
         "coreKnowledge": [
           {
@@ -2686,13 +3088,23 @@ export const periodicExams = [
           "掌握文言虛詞「之」四大用法：動詞(去)、代名詞(他它)、助詞(的)、倒裝助詞",
           "掌握《田園之秋》農村散文中的雷雨感官摹寫與修辭美學",
           "能精準辨識成語「買櫝還珠」之反義詞（去粗取精、去華就實）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-3",
+            "title": "文言文的省略與虛字"
+          },
+          {
+            "id": "chinese-13",
+            "title": "先秦諸子寓言與哲理散文"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "康軒：Unit 3 The Most Dangerous Animal ~ Unit 4 I Enjoy Playing the Guitar；翰林：Unit 3 The Best Movie ~ Unit 4 Healthy Habits；南一：Unit 3 The Tallest Boy ~ Unit 4 Keeping Fit",
-        "naerCode": "Ac-IV-2 形容詞與副詞最高級（-est / most + adj/adv）、Ac-IV-3 不定詞（to V）與動名詞（V-ing）作主詞與受詞、Ac-IV-5 特殊動詞搭配規則（enjoy, practice, finish + V-ing；want, decide + to V）",
+        "naerCode": "學習內容：Ad-IV-1（比較級、不定詞與動名詞）；Ad-IV-1（連綴動詞、感官動詞與最高級比較）｜學習表現：3-IV-6",
         "junyiAlignment": "均一 [八上英語] -> 最高級變化規則與範圍介系詞(in/of)、動名詞 vs 不定詞受詞判別、stop/remember/forget 接不同受詞之語意差異",
         "coreKnowledge": [
           {
@@ -2762,13 +3174,23 @@ export const periodicExams = [
           "牢記必接動名詞動詞口訣：enjoy, practice, finish, keep, mind, quit",
           "牢記必接不定詞動詞口訣：want, decide, plan, hope, learn, need",
           "精準區分 stop to V（停下去做）與 stop V-ing（停止做）之根本對立"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-4",
+            "title": "比較級、不定詞與動名詞"
+          },
+          {
+            "id": "english-10",
+            "title": "連綴動詞、感官動詞與最高級比較"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
         "editionScope": "康軒：第二章 平方根與畢氏定理（2-1 平方根的意義與運算、2-2 根式的運算與化簡、2-3 畢氏定理與應用）；翰林與南一進度相同。",
-        "naerCode": "N-8-1 平方根之意義、正負平方根與符號 √、N-8-2 根式之乘除有理化與同類根式加減、S-8-6 畢氏定理（勾股定理）及其生活幾何應用",
+        "naerCode": "學習內容：N-8-1、S-8-6（平方根與畢氏定理）；A-8-4、A-8-5（因式分解）｜學習表現：s-IV-7、a-IV-6",
         "junyiAlignment": "均一 [八上數學] -> 平方根與完全平方數、最簡根式化簡與分母有理化、畢氏定理斜邊股長計算、常見畢氏數組合",
         "coreKnowledge": [
           {
@@ -2838,13 +3260,23 @@ export const periodicExams = [
           "掌握最簡根式化簡與分母有理化（單項同乘、雙項乘平方差）",
           "熟記畢氏定理 a²+b²=c² 及常用畢氏數組：(3,4,5), (5,12,13), (7,24,25), (8,15,17)",
           "特殊直角三角形邊長比：45°-45°-90° (1:1:√2) 與 30°-60°-90° (1:√3:2)"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-10",
+            "title": "平方根與畢氏定理"
+          },
+          {
+            "id": "math-11",
+            "title": "因式分解"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (理化)",
         "editionScope": "康軒：第三章 光與視覺（3-1 光的傳播與光速、3-2 光的反射與面鏡、3-3 光的折射與透鏡、3-4 光學儀器與視覺矯正、3-5 光的色散與顏色）；翰林與南一進度相同。",
-        "naerCode": "INb-IV-3 光的反射定律與平面鏡成像特性、INb-IV-4 光的折射定律與凸透鏡凹透鏡成像規律、INb-IV-5 近視眼遠視眼成因與光學鏡片矯正",
+        "naerCode": "學習內容：Ka-IV-8、Ka-IV-9（光的反射、折射與成像）；Ka-IV-8、Ka-IV-9（光的折射定律與透鏡成像規律）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [八上理化] -> 針孔成像原理、平面鏡對稱虛像、凸透鏡六大成像位置與光路圖、凹透鏡正立縮小虛像",
         "coreKnowledge": [
           {
@@ -2914,13 +3346,23 @@ export const periodicExams = [
           "熟記凸透鏡六大成像規律（大於2f倒縮實、2f倒等實、f~2f倒放實、小於f正放虛）",
           "凹透鏡永遠成正立縮小虛像（近視眼鏡發散矯正）",
           "折射定律規律：快入慢偏向法線（折射角小），慢入快偏離法線（折射角大）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "physics-3",
+            "title": "光的反射、折射與成像"
+          },
+          {
+            "id": "physics-14",
+            "title": "光的折射定律與透鏡成像規律"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：秦漢大一統帝國、中央集權、絲綢之路與東西文化交流；地理：中國三大氣候類型、秦嶺淮河重要分界、長江黃河水利問題；公民：權力分立原則、總統直選與中央五院職權分工制衡。",
-        "naerCode": "歷社5b 秦漢中央集權與絲路貿易交流、地2b 秦嶺淮河環境分界與南北區域差異、公2b 中央政府體制與五院職權分工制衡",
+        "naerCode": "學習內容：歷Ha-IV-1、歷Ha-IV-2（中國與東亞：制度及文化交流）；地Bd-IV-1、地Bd-IV-3（東亞與區域差異）；公Be-IV-2、公Be-IV-3（中央政府體制與五院職權分工制衡）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [八上社會] -> 秦始皇度量衡車軌統一、漢武帝鹽鐵專賣推恩令、秦嶺淮河南北一月等溫線、總統立法院行政院制衡",
         "coreKnowledge": [
           {
@@ -2990,6 +3432,20 @@ export const periodicExams = [
           "漢武帝治國四維：推恩令、鹽鐵專賣、獨尊儒術、張騫通西域絲路",
           "秦嶺淮河一線重要指標：一月0℃、年雨量800mm、水田旱作分界",
           "中央政府制衡機制：行政院覆議、立法院不信任案、司法院憲法法庭"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-5",
+            "title": "中國與東亞：制度及文化交流"
+          },
+          {
+            "id": "geography-4",
+            "title": "東亞與區域差異"
+          },
+          {
+            "id": "civics-11",
+            "title": "中央政府體制與五院職權分工制衡"
+          }
         ]
       }
     }
@@ -3006,7 +3462,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "康軒：第5課 空城計（三國演義選）、第6課 記承天夜遊、語文常識複習；翰林：第5課 空城計、第6課 記承天夜遊；南一：第5課 空城計、第6課 記承天夜遊",
-        "naerCode": "Ad-IV-1 章回小說名篇情節佈局、Ac-IV-1 小說三要素（人物、情節、環境背景）、Bb-IV-3 蘇軾文言小品貶謫心境閒人寄託",
+        "naerCode": "學習內容：Ad-IV-3、Ca-IV-1（詞曲賞析與古代生活文化）；Ad-IV-4（古典小說選讀與人性刻畫）｜學習表現：5-IV-2",
         "junyiAlignment": "均一 [八上國文] -> 羅貫中《三國演義》歷史演義小說、諸葛亮空城計心理戰智謀、蘇軾《記承天夜遊》曠達襟懷",
         "coreKnowledge": [
           {
@@ -3076,13 +3532,23 @@ export const periodicExams = [
           "掌握《空城計》情節起承轉合與諸葛亮心理戰智慧",
           "掌握《記承天夜遊》「積水空明、藻荇交橫」譬喻意象及「閒人」深層寄託",
           "理解小說三要素（人物塑造、情節鋪排、環境烘托）在篇章中的運用"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-10",
+            "title": "詞曲賞析與古代生活文化"
+          },
+          {
+            "id": "chinese-11",
+            "title": "古典小說選讀與人性刻畫"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "康軒：Unit 5 Who Sent You the Postcard? ~ Unit 6 I Saw a Monster in My Dream；翰林：Unit 5 Gifts & Special Days ~ Unit 6 Senses & Magic；南一：Unit 5 Giving Gifts ~ Unit 6 What Did You See?",
-        "naerCode": "Ac-IV-2 授與動詞雙賓動詞句型（give to vs buy for）、Ac-IV-3 感官動詞（see, hear, watch, listen to, feel + 原形動詞 / V-ing）、Ac-IV-4 使役動詞（make, have, let + 原形動詞；get + to V）",
+        "naerCode": "學習內容：Ad-IV-1（連綴動詞、感官動詞與最高級比較）；Ad-IV-1（授予動詞、使役動詞與現在完成式進階）｜學習表現：3-IV-6",
         "junyiAlignment": "均一 [八上英語] -> 授與動詞介系詞配對(to/for)、感官動詞受詞補語(原形強調事實/V-ing強調當下進行)、使役動詞用法",
         "coreKnowledge": [
           {
@@ -3152,13 +3618,23 @@ export const periodicExams = [
           "直接受詞為代名詞時只能後置：Give it to me（不可說 Give me it）",
           "感官動詞（see, hear, watch）後接原形（全貌）或 V-ing（進行中），絕不接 to",
           "使役動詞 make/have/let 接原形動詞；唯獨 get 接 to V"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-10",
+            "title": "連綴動詞、感官動詞與最高級比較"
+          },
+          {
+            "id": "english-11",
+            "title": "授予動詞、使役動詞與現在完成式進階"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
         "editionScope": "康軒：第三章 因式分解（3-1 提公因式與分組分解、3-2 利用乘法公式因式分解、3-3 十字交乘法）；第四章 一元二次方程式（4-1 因式分解法解方程式、4-2 配方法與公式解、4-3 應用問題）；翰林與南一進度相同。",
-        "naerCode": "A-8-4 因式分解之意義與四種技巧（提公因式、乘法公式、十字交乘）、A-8-5 一元二次方程式解法（因式分解、配方法、公式解）、A-8-6 判別式 D=b²-4ac 之應用與根的性質",
+        "naerCode": "學習內容：A-8-4、A-8-5（因式分解）；A-8-6、A-8-7（一元二次方程式）｜學習表現：a-IV-6",
         "junyiAlignment": "均一 [八上數學] -> 十字交乘法技巧、因式分解法解二次方程式、配方法標準化頂點式、公式解推導與判別式",
         "coreKnowledge": [
           {
@@ -3228,13 +3704,23 @@ export const periodicExams = [
           "掌握一元二次方程式三種解法：十字交乘法、配方法、公式解",
           "牢記公式解 x = [−b ± √(b²−4ac)] / (2a) 與判別式 D = b²−4ac 性質",
           "理解重根即 D = 0，解方程式切勿同除未知數避免漏解"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-11",
+            "title": "因式分解"
+          },
+          {
+            "id": "math-12",
+            "title": "一元二次方程式"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (理化)",
         "editionScope": "康軒：第四章 溫度與熱（4-1 溫度與溫標、4-2 熱量與比熱、4-3 熱的傳播方式）；第五章 物質的結構（5-1 元素與化合物、5-2 原子結構與週期表、5-3 空氣成分與氣體製備）；翰林與南一進度相同。",
-        "naerCode": "INb-IV-6 熱量計算公式 H=msΔT 與比熱特性、INb-IV-7 熱傳播三種方式傳導對流輻射、INa-IV-1 原子結構質子中子電子與元素週期表同族特性",
+        "naerCode": "學習內容：Bb-IV-1、Bb-IV-3、Bb-IV-4（溫度、熱量與熱傳播）；Ab-IV-1、Ab-IV-4（物質分類與粒子模型）；Aa-IV-1、Aa-IV-4（原子結構與週期表）；Fa-IV-3、Ca-IV-2（空氣成分與常見氣體實驗室製備）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [八上理化] -> 溫標換算公式、熱平衡混合溫度計算、比熱物理意義、原子序質量數核外電子排列、氧氣與二氧化碳實驗室製備",
         "coreKnowledge": [
           {
@@ -3304,13 +3790,31 @@ export const periodicExams = [
           "掌握比熱物理意義：水比熱大（難熱難冷），砂石比熱小（易熱易冷）",
           "分清熱傳播三途徑：傳導（固體）、對流（流體）、輻射（真空光速）",
           "原子微觀結構：原子序 = 質子數 = 電子數；質量數 = 質子數 + 中子數"
+        ],
+        "linkedUnits": [
+          {
+            "id": "physics-4",
+            "title": "溫度、熱量與熱傳播"
+          },
+          {
+            "id": "chemistry-1",
+            "title": "物質分類與粒子模型"
+          },
+          {
+            "id": "chemistry-2",
+            "title": "原子結構與週期表"
+          },
+          {
+            "id": "chemistry-13",
+            "title": "空氣成分與常見氣體實驗室製備"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：魏晉南北朝世族門閥與胡漢融合、隋唐中央制度三省六部與科舉、東亞文化圈；地理：中國三大經濟地帶與四大區域特色、東北亞日本南韓自然與人文；公民：地方政府自治法規與預算監督、公民投票法直接民權運作。",
-        "naerCode": "歷社5c 魏晉隋唐制度變遷與東亞文化圈傳播、地2c 中國區域發展差異與東北亞產業經貿、公2c 地方治理自主性與公民直接民權實踐",
+        "naerCode": "學習內容：歷Ha-IV-1、歷Ha-IV-2（中國與東亞：制度及文化交流）；地Bd-IV-1、地Bd-IV-3（東亞與區域差異）；公Be-IV-3、公Ca-IV-2（地方自治、社區參與與地方創生）；公Be-IV-2（民主政治與權力分立）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [八上社會] -> 九品官人法世族壟斷、隋唐三省六部科舉制度打破門閥、日本南韓經濟特點、公投提案連署投票門檻",
         "coreKnowledge": [
           {
@@ -3380,6 +3884,24 @@ export const periodicExams = [
           "掌握三省六部運作順序：中書起草 -> 門下審核 -> 尚書執行（六部）",
           "理解東亞文化圈四大要素：漢字、儒學、律令、大乘佛教",
           "掌握《公民投票法》規範：18歲公投門檻、預算租稅人事不得公投、同意票達1/4且多於反對票"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-5",
+            "title": "中國與東亞：制度及文化交流"
+          },
+          {
+            "id": "geography-4",
+            "title": "東亞與區域差異"
+          },
+          {
+            "id": "civics-10",
+            "title": "地方自治、社區參與與地方創生"
+          },
+          {
+            "id": "civics-3",
+            "title": "民主政治與權力分立"
+          }
         ]
       }
     }
@@ -3396,7 +3918,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "康軒：第1課 詞選（南鄉子、水調歌頭）、第2課 元曲選（天淨沙秋思、沉醉東風）、語文常識(一) 詞曲常識與節慶文化；翰林：第1課 詞選、第2課 曲選；南一：第1課 詞選、第2課 曲選",
-        "naerCode": "Ab-IV-1 韻文文體格律（詞與曲之特徵）、Ac-IV-1 古代節慶習俗意象對應、Bb-IV-1 宋詞元曲意境開展與情思賞析",
+        "naerCode": "學習內容：Ad-IV-3、Ca-IV-1（詞曲賞析與古代生活文化）；Bb-IV-1、Bb-IV-5（現代記敘抒情散文與意象營造）｜學習表現：5-IV-2、6-IV-2",
         "junyiAlignment": "均一 [八下國文] -> 詞為詩餘曲為詞餘、蘇軾辛棄疾豪放詞風、馬致遠秋思意象、傳統節慶民俗詩詞",
         "coreKnowledge": [
           {
@@ -3466,13 +3988,23 @@ export const periodicExams = [
           "精熟宋詞兩大流派：豪放派（蘇軾、辛棄疾）與婉約派（李清照、柳永）",
           "歲時節令物象全熟記：春節(桃符)、元宵(燈謎花燈)、端午(菖蒲艾草雄黃)、重陽(登高茱萸菊花)",
           "理解馬致遠《天淨沙秋思》九種意象並置疊加之藝術技巧"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-10",
+            "title": "詞曲賞析與古代生活文化"
+          },
+          {
+            "id": "chinese-14",
+            "title": "現代記敘抒情散文與意象營造"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "康軒：Unit 1 Have You Ever Been to Kenting? ~ Unit 2 I Have Lived Here for Ten Years；翰林：Unit 1 Experiences ~ Unit 2 Changes；南一：Unit 1 Have You Tried Stinky Tofu? ~ Unit 2 Memories",
-        "naerCode": "Ac-IV-2 現在完成式結構（have/has + 過去分詞 p.p.）、Ac-IV-3 現在完成式四大用法（經驗、完成、持續、結果）、Ac-IV-4 時間標記副詞（already, yet, ever, never, since + 時間點, for + 一段時間）",
+        "naerCode": "學習內容：Ad-IV-1（完成式、被動與關係子句）；Ad-IV-1（授予動詞、使役動詞與現在完成式進階）｜學習表現：3-IV-6",
         "junyiAlignment": "均一 [八下英語] -> 現在完成式動詞三態 p.p.、四大用法情境對照、since 與 for 之嚴格文法區分、現在完成式 vs 過去簡單式",
         "coreKnowledge": [
           {
@@ -3542,13 +4074,23 @@ export const periodicExams = [
           "分清 have been to（去過已回）與 have gone to（去而未歸）",
           "牢記 since（接時間點/過去子句）與 for（接一段時間）之精確替換",
           "already 用於肯定，yet 用於否定句與疑問句句尾"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-5",
+            "title": "完成式、被動與關係子句"
+          },
+          {
+            "id": "english-11",
+            "title": "授予動詞、使役動詞與現在完成式進階"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
         "editionScope": "康軒：第一章 等差數列與等差級數（1-1 等差數列、1-2 等差級數）；第二章 函數與線型函數（2-1 函數的觀念、2-2 線型函數圖形）；翰林與南一進度相同。",
-        "naerCode": "A-8-7 等差數列一般項公式 an = a1 + (n-1)d、A-8-8 等差級數前 n 項和公式 Sn = n(a1+an)/2、F-8-1 函數概念與線型函數 y=ax+b",
+        "naerCode": "學習內容：N-8-4、F-8-1（等差數列與一次函數）；N-8-5（等差級數與求和公式）｜學習表現：f-IV-1、n-IV-8",
         "junyiAlignment": "均一 [八下數學] -> 等差數列首項公差求項數、等差中項公式、等差級數高斯求和模型、線型函數與常數函數",
         "coreKnowledge": [
           {
@@ -3618,13 +4160,23 @@ export const periodicExams = [
           "等差中項公式：若 a, b, c 成等差，則 b = (a+c)/2",
           "等差級數兩大公式：Sn = n(a1+an)/2 與 Sn = n[2a1+(n-1)d]/2",
           "函數判定準則：可一對一、可多對一，絕不可一對多（垂直線非函數）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-13",
+            "title": "等差數列與一次函數"
+          },
+          {
+            "id": "math-22",
+            "title": "等差級數與求和公式"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (理化)",
         "editionScope": "康軒：第一章 化學反應（1-1 化學反應式與平衡、1-2 質量守恆定律、1-3 莫耳數與化學計量）；翰林與南一進度相同。",
-        "naerCode": "INb-IV-8 化學反應式平衡與質量守恆定律、INb-IV-9 莫耳數概念與亞佛加厥數 6×10²³、INb-IV-10 係數比等於分子數比與莫耳數比之化學計量",
+        "naerCode": "學習內容：Ja-IV-1、Ja-IV-4（反應式與質量守恆）；Aa-IV-2（莫耳數概念與化學反應計量）；Jb-IV-4（溶液、濃度與溶解度）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [八下理化] -> 化學反應式代數平衡法、密閉容器質量守恆驗證、莫耳數三向換算（粒子數、質量、莫耳數）、化學計量計算題",
         "coreKnowledge": [
           {
@@ -3694,13 +4246,27 @@ export const periodicExams = [
           "理解質量守恆定律：密閉容器守恆；開放容器需計入逸散或吸入氣體質量",
           "熟記莫耳換算：莫耳數 = 質量/分子量 = 粒子數/(6×10²³)",
           "牢記係數比 = 莫耳數比 = 分子數比 ≠ 質量比"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chemistry-3",
+            "title": "反應式與質量守恆"
+          },
+          {
+            "id": "chemistry-14",
+            "title": "莫耳數概念與化學反應計量"
+          },
+          {
+            "id": "chemistry-4",
+            "title": "溶液、濃度與溶解度"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：宋代文人政治與商業革命、草原民族元朝橫跨歐亞帝國；地理：東南亞自然環境、中南半島與南洋群島、熱帶栽培業與東協；公民：憲法最高性、人民基本權利體系、比例原則與人權限制。",
-        "naerCode": "歷社5d 宋代商業都市繁榮與元代蒙古帝國、地2d 東南亞熱帶季風與熱帶栽培業地理特徵、公2d 憲法位階保障與比例原則合憲性審查",
+        "naerCode": "學習內容：歷Ha-IV-1、歷Ha-IV-2（中國與東亞：制度及文化交流）；地Be-IV-1、地Bf-IV-1（季風亞洲與世界文明搖籃）；公Ad-IV-1、公Bi-IV-3（人權、法治與正當程序）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [八下社會] -> 宋代重文輕武與交子紙幣、東南亞馬六甲海峽咽喉、憲法平等自由受益參政權、比例原則四大子原則",
         "coreKnowledge": [
           {
@@ -3770,6 +4336,20 @@ export const periodicExams = [
           "東南亞地理分區：中南半島（熱帶季風山河相間水稻）vs 南洋群島（熱帶雨林火山地震熱帶栽培業）",
           "憲法法規位階：憲法 > 法律 > 命令",
           "熟記比例原則四大子原則：目的正當性、適當性、必要性（最小侵害）、狹義比例性（衡平）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-5",
+            "title": "中國與東亞：制度及文化交流"
+          },
+          {
+            "id": "geography-9",
+            "title": "季風亞洲與世界文明搖籃"
+          },
+          {
+            "id": "civics-4",
+            "title": "人權、法治與正當程序"
+          }
         ]
       }
     }
@@ -3786,7 +4366,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "康軒：第3課 下雨天，真好、第4課 聲音鐘、語文常識(二) 修辭深化與圖表整合；翰林：第3課 聲音鐘、第4課 傘；南一：第3課 聲音鐘、第4課 下雨天，真好",
-        "naerCode": "Ac-IV-1 修辭格綜合辨析（轉化、倒裝、互文、映襯）、Ad-IV-1 現代抒情散文聽覺聲景營造、Bb-IV-4 說明文與圖表數據資訊轉化",
+        "naerCode": "學習內容：Bc-IV-2、Bc-IV-3（說明文、圖表與資訊整合）；Bb-IV-1、Bb-IV-5（現代記敘抒情散文與意象營造）｜學習表現：5-IV-4、6-IV-2",
         "junyiAlignment": "均一 [八下國文] -> 琦君散文懷舊抒情風格、黃春明《聲音鐘》生活語言美學、互文修辭判讀技巧",
         "coreKnowledge": [
           {
@@ -3856,13 +4436,23 @@ export const periodicExams = [
           "理解黃春明《聲音鐘》中人情溫度 vs 機械鐘錶之對比",
           "掌握說明文與科普長文圖表數據之客觀判讀步驟（排除未提及之過度推論）",
           "能靈活運用聽覺摹寫營造生動生活情境"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-4",
+            "title": "說明文、圖表與資訊整合"
+          },
+          {
+            "id": "chinese-14",
+            "title": "現代記敘抒情散文與意象營造"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "康軒：Unit 3 The Paper Was Invented in China ~ Unit 4 English Is Spoken Around the World；翰林：Unit 3 Inventions & History ~ Unit 4 Nature & Earth；南一：Unit 3 Great Inventions ~ Unit 4 What Is It Made Of?",
-        "naerCode": "Ac-IV-2 被動語態核心結構（主詞 + be動詞 + 過去分詞 p.p. + by 受詞）、Ac-IV-3 各時態被動語態變化（現在式、過去式、未來式、現在進行式、現在完成式、情態助動詞被動）、Ac-IV-5 介系詞搭配（be made of 原料可見 vs be made from 原料質變）",
+        "naerCode": "學習內容：Ad-IV-1（完成式、被動與關係子句）；Ad-IV-1（連綴動詞、感官動詞與最高級比較）｜學習表現：3-IV-6",
         "junyiAlignment": "均一 [八下英語] -> 被動語態主受詞轉換四部曲、各時態 be動詞變化公式、by + 動作執行者省略時機",
         "coreKnowledge": [
           {
@@ -3933,13 +4523,23 @@ export const periodicExams = [
           "掌握各時態被動變化（現在 is/are + p.p.、過去 was/were + p.p.、進行 being + p.p.、完成 been + p.p.）",
           "分清製作材質：看得出原料用 be made of，化學質變看不出用 be made from",
           "牢記無生命物品承受動作必定使用被動語態"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-5",
+            "title": "完成式、被動與關係子句"
+          },
+          {
+            "id": "english-10",
+            "title": "連綴動詞、感官動詞與最高級比較"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
         "editionScope": "康軒：第三章 幾何圖形與尺規作圖（3-1 內角與外角、3-2 尺規作圖）；第四章 三角形全等（4-1 全等圖形與三角形全等判準 SSS/SAS/ASA/AAS/RHS、4-2 全等的應用與幾何證明）；翰林與南一進度相同。",
-        "naerCode": "S-8-1 多邊形內角和公式 (n-2)×180° 與外角和恆為 360°、S-8-2 尺規作圖原理（垂直平分線、角平分線）、S-8-3 三角形全等性質五大判準與嚴謹幾何證明",
+        "naerCode": "學習內容：S-8-2（多邊形的內角和與外角和）；S-8-4、S-8-5（三角形全等與幾何推理）｜學習表現：s-IV-2、s-IV-9",
         "junyiAlignment": "均一 [八下數學] -> 多邊形內外角定理、垂直平分線與角平分線尺規作圖弧線判別、全等五大證明步驟、對應邊對應角相等",
         "coreKnowledge": [
           {
@@ -4009,13 +4609,23 @@ export const periodicExams = [
           "尺規作圖四大法原理：中垂線（菱形）、角平分線（SSS全等）",
           "掌握五大三角形全等判準：SSS, SAS, ASA, AAS, RHS",
           "徹底防範兩大非全等陷阱：AAA（只保證相似）與 SSA（非全等）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-23",
+            "title": "多邊形的內角和與外角和"
+          },
+          {
+            "id": "math-14",
+            "title": "三角形全等與幾何推理"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (理化)",
         "editionScope": "康軒：第二章 水溶液與化學反應（2-1 電解質與解離說、2-2 酸與鹼的性質、2-3 酸鹼的濃度與 pH 值、2-4 酸鹼中和反應與生活鹽類）；第三章 反應速率與平衡（3-1 反應速率測定與影響因素）；翰林與南一進度相同。",
-        "naerCode": "INb-IV-11 電解質定義與阿瑞尼斯解離說水溶液呈電中性、INb-IV-12 酸鹼鹽之性質pH值與酸鹼中和放熱反應、INb-IV-13 反應速率五大影響變因（本質/濃度/接觸面積/溫度/催化劑）",
+        "naerCode": "學習內容：Jb-IV-1、Jb-IV-2（電解質與阿瑞尼斯解離說）；Jd-IV-2、Jd-IV-6（酸鹼、鹽類與中和）；Jd-IV-3（酸鹼滴定與常見生活鹽類）；Je-IV-1（反應速率與影響因素）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [八下理化] -> 電解質解離離子反應式、常見強酸強鹼物理化學性質、pH值與氫離子濃度對應、硫代硫酸鈉遮十字反應速率實驗",
         "coreKnowledge": [
           {
@@ -4085,13 +4695,31 @@ export const periodicExams = [
           "牢記濃硫酸稀釋鐵則：酸入水，慢慢倒，沿玻棒",
           "掌握酸鹼中和放熱 H+ + OH- -> H2O 及滴定實驗酚酞由無色變粉紅",
           "理解反應速率五大變因與碰撞學說（催化劑只加速，不增加最終總產量）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chemistry-9",
+            "title": "電解質與阿瑞尼斯解離說"
+          },
+          {
+            "id": "chemistry-5",
+            "title": "酸鹼、鹽類與中和"
+          },
+          {
+            "id": "chemistry-10",
+            "title": "酸鹼滴定與常見生活鹽類"
+          },
+          {
+            "id": "chemistry-7",
+            "title": "反應速率與影響因素"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：明清君主專制、鄭和下西洋、西學東漸與清代邊疆統治；地理：南亞印度自然與人文、西亞中亞乾燥氣候與伊斯蘭石油地緣政治；公民：現代民法三大原則、行為能力年齡滿18歲、財產權與侵權責任。",
-        "naerCode": "歷社5e 明清專制集權與中西文化交流傳播、地2e 南亞季風環境與西亞石油宗教地緣、公2e 現代民法契約自由與民事行為責任能力",
+        "naerCode": "學習內容：歷Ia-IV-1、歷Ib-IV-1（明清社會變遷與西力東漸）；地Bf-IV-1、地Bf-IV-2、地Bf-IV-3（西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治）；公Bj-IV-1、公Bi-IV-1、公Bh-IV-1（現代法治體系：民法、刑法與行政法）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [八下社會] -> 明太祖廢丞相錦衣衛、印度季風水旱災與種姓制度、民法滿18歲完全行為能力、侵權行為損害賠償要件",
         "coreKnowledge": [
           {
@@ -4161,6 +4789,20 @@ export const periodicExams = [
           "南亞印度地理：熱帶季風雨旱季、德干高原鐵礦、印度教文化",
           "西亞地緣關鍵：熱帶沙漠缺水、波斯灣石油、荷姆茲海峽、伊斯蘭教",
           "掌握民法行為能力三階梯：無行為能力(<7歲)、限制行為能力(7~18歲效力未定)、完全行為能力(滿18歲)"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-11",
+            "title": "明清社會變遷與西力東漸"
+          },
+          {
+            "id": "geography-12",
+            "title": "西亞中亞乾燥氣候、伊斯蘭文化與石油地緣政治"
+          },
+          {
+            "id": "civics-8",
+            "title": "現代法治體系：民法、刑法與行政法"
+          }
         ]
       }
     }
@@ -4177,7 +4819,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "康軒：第5課 列子選（杞人憂天、楊布打狗）、第6課 現代詩選、語文常識複習；翰林：第5課 列子選、第6課 現代詩選；南一：第5課 列子選、第6課 現代詩選",
-        "naerCode": "Ab-IV-1 先秦道家寓言哲思寄託、Ac-IV-1 現代新詩意象營造與跳躍節奏、Bb-IV-2 邏輯推理與論證謬誤辨識",
+        "naerCode": "學習內容：Ad-IV-4、Cc-IV-1（先秦諸子寓言與哲理散文）；Bd-IV-1、Bd-IV-2（議論、論據與批判閱讀）｜學習表現：5-IV-2、5-IV-4",
         "junyiAlignment": "均一 [八下國文] -> 《列子》寓言諷諭智慧、現代詩跳躍意象解讀、論證謬誤辨析",
         "coreKnowledge": [
           {
@@ -4247,13 +4889,23 @@ export const periodicExams = [
           "掌握鄭愁予《錯誤》意象解析與「美麗的錯誤」映襯修辭精髓",
           "熟記批判閱讀四大常見邏輯謬誤：以偏概全、假因果、人身攻擊、訴諸無知",
           "理解成語杞人憂天（貶義）與未雨綢繆（褒義）之嚴格界線"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-13",
+            "title": "先秦諸子寓言與哲理散文"
+          },
+          {
+            "id": "chinese-5",
+            "title": "議論、論據與批判閱讀"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "康軒：Unit 5 If It Rains Tomorrow, We Won't Go ~ Unit 6 Although He Is Poor, He Is Happy；翰林：Unit 5 Weather & Plans ~ Unit 6 Choices & Feelings；南一：Unit 5 Conditional Sentences ~ Unit 6 Connecting Ideas",
-        "naerCode": "Ac-IV-2 條件副詞子句（If 條件句，副詞子句用現在簡單式代替未來式）、Ac-IV-3 時間副詞子句（when, while, before, after, as soon as）、Ac-IV-4 讓步與原因連接詞（although, though, because, so 兩兩不聯用禁忌）",
+        "naerCode": "學習內容：Ad-IV-1（條件副詞子句與情態假設語氣）；Ad-IV-1（過去進行式、時間連接詞與數量詞）｜學習表現：3-IV-6",
         "junyiAlignment": "均一 [八下英語] -> If 條件句「現在代未來」鐵律、時間副詞子句前後時態呼應、although 與 but 絕對不共存規範",
         "coreKnowledge": [
           {
@@ -4324,13 +4976,23 @@ export const periodicExams = [
           "時間副詞子句（when, before, after, as soon as）同樣遵守「現在代未來」",
           "天條：Although 絕不與 but 聯用；Because 絕不與 so 聯用",
           "熟記 though 置於句尾作副詞（然而）的特殊用法"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-14",
+            "title": "條件副詞子句與情態假設語氣"
+          },
+          {
+            "id": "english-9",
+            "title": "過去進行式、時間連接詞與數量詞"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
         "editionScope": "康軒：第四章 平行與四邊形（4-1 平行線與截角性質、4-2 平行四邊形的性質、4-3 特殊四邊形與梯形）；翰林與南一進度相同。",
-        "naerCode": "S-8-4 平行線截角性質（同位角相等、內錯角相等、同側內角互補）與平行判定、S-8-5 平行四邊形、菱形、矩形、正方形、等腰梯形幾何論證與面積",
+        "naerCode": "學習內容：S-8-3、S-8-9、S-8-12（平行線、四邊形與尺規）；S-8-10、S-8-11（特殊四邊形與對角線幾何性質）｜學習表現：s-IV-3、s-IV-8",
         "junyiAlignment": "均一 [八下數學] -> 兩直線平行截角性質、平行四邊形對角線平分性質、菱形對角線互相垂直、等腰梯形對角線相等",
         "coreKnowledge": [
           {
@@ -4400,13 +5062,23 @@ export const periodicExams = [
           "平行四邊形五大性質（對邊等長平行、對角相等、對角線互相平分）",
           "特殊四邊形對角線：矩形等長平分、菱形垂直平分、正方形垂直等長平分",
           "菱形與箏形面積公式：(對角線1 × 對角線2) / 2"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-15",
+            "title": "平行線、四邊形與尺規"
+          },
+          {
+            "id": "math-24",
+            "title": "特殊四邊形與對角線幾何性質"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (理化)",
         "editionScope": "康軒：第三章 反應速率與平衡（3-2 化學平衡與勒沙特列原理）；第四章 氧化還原與化學反應（4-1 氧化與還原、4-2 金屬與金屬氧化物的反應、4-3 生活中的氧化還原）；第五章 有機化合物（5-1 認識有機物、5-2 常見有機化合物、5-3 聚合物與肥皂）；第六章 力與壓力（6-1 力與平衡、6-2 摩擦力、6-3 壓力與浮力）；翰林與南一進度相同。",
-        "naerCode": "INb-IV-14 可逆反應與動態化學平衡、INb-IV-15 氧化還原得失氧/電子與金屬活性順序、INb-IV-16 有機化合物烴醇酸酯聚合物與皂化反應、INc-IV-3 固體液體大氣壓力與阿基米德浮力原理",
+        "naerCode": "學習內容：Je-IV-2、Je-IV-3（化學平衡與勒沙特列原理）；Jc-IV-1、Jf-IV-2（氧化還原、有機物與材料）；Jf-IV-1（常見有機化合物與石化燃料）；Jf-IV-4（聚合物與生活材料安全）；Eb-IV-4、Eb-IV-10（摩擦力、正向力與牛頓第一運動定律深化）；Eb-IV-5、Ec-IV-1（液體壓力與大氣壓力）；Eb-IV-6（浮力與阿基米德原理）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [八下理化] -> 勒沙特列原理平衡移動、金屬活性大小順序口訣、高爐煉鐵反應式、有機物分類檢驗、浮力兩大公式（浮體浮力=物重，沉體浮力=排開液重）",
         "coreKnowledge": [
           {
@@ -4482,13 +5154,43 @@ export const periodicExams = [
           "金屬活性順序口訣：鉀鈉鈣鎂鋁、碳鋅鐵錫鉛、氫銅汞銀鉑金",
           "有機物與皂化實驗：酒精助互溶，飽和食鹽水進行鹽析分離肥皂",
           "掌握浮體浮力 = 物重（B=W）；沉體浮力 = 排開液重（B=V沒×d液）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chemistry-8",
+            "title": "化學平衡與勒沙特列原理"
+          },
+          {
+            "id": "chemistry-6",
+            "title": "氧化還原、有機物與材料"
+          },
+          {
+            "id": "chemistry-11",
+            "title": "常見有機化合物與石化燃料"
+          },
+          {
+            "id": "chemistry-12",
+            "title": "聚合物與生活材料安全"
+          },
+          {
+            "id": "physics-10",
+            "title": "摩擦力、正向力與牛頓第一運動定律深化"
+          },
+          {
+            "id": "physics-9",
+            "title": "液體壓力與大氣壓力"
+          },
+          {
+            "id": "physics-8",
+            "title": "浮力與阿基米德原理"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：晚清列強侵略自強運動、戊戌變法辛亥革命、五四新文化運動；地理：非洲自然環境、氣候帶對稱分布、沙漠化與殖民經濟轉型；公民：現代刑法罪刑法定原則、責任能力年齡滿18歲、少年事件處理法與行政救濟流程。",
-        "naerCode": "歷社5f 晚清救亡圖存變革與民國初年新文化運動、地2f 非洲地形氣候環境特徵與單一經濟、公2f 刑法犯罪成立要件與少年事件行政訴願救濟",
+        "naerCode": "學習內容：歷Ib-IV-1、歷Ib-IV-2（近代東亞與帝國主義）；歷Ka-IV-1、歷Kb-IV-2（辛亥革命與中華民國建立到對日抗戰）；地Be-IV-2、地Bf-IV-2、地Bg-IV-2（亞洲、非洲與文化地景）；公Bj-IV-1、公Bi-IV-1、公Bh-IV-1（現代法治體系：民法、刑法與行政法）；公Bk-IV-1（少年法律保護與權益維護）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [八下社會] -> 鴉片戰爭至辛丑條約條約特權、自強運動與戊戌變法對比、罪刑法定主義三階層、少年保護管束與行政救濟訴願",
         "coreKnowledge": [
           {
@@ -4558,6 +5260,28 @@ export const periodicExams = [
           "非洲自然特徵：高原大陸、東非大裂谷、氣候以赤道為中心南北對稱分布",
           "熟記刑法責任能力年齡三階梯：<14歲不罰、14~18歲得減輕、滿18歲完全責任能力",
           "行政救濟二部曲流程：行政處分不服 -> 上級機關「訴願」 -> 不服再向行政法院「行政訴訟」"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-6",
+            "title": "近代東亞與帝國主義"
+          },
+          {
+            "id": "history-14",
+            "title": "辛亥革命與中華民國建立到對日抗戰"
+          },
+          {
+            "id": "geography-5",
+            "title": "亞洲、非洲與文化地景"
+          },
+          {
+            "id": "civics-8",
+            "title": "現代法治體系：民法、刑法與行政法"
+          },
+          {
+            "id": "civics-7",
+            "title": "少年法律保護與權益維護"
+          }
         ]
       }
     }
@@ -4574,7 +5298,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "康軒：第1課 生於憂患死於安樂（孟子選）、第2課 勤訓；翰林：第1課 生於憂患死於安樂、第2課 勤訓；南一：第1課 生於憂患死於安樂、第2課 勤訓",
-        "naerCode": "Ad-IV-2 論說文論點論據開展、Ac-IV-3 文言排比對偶論證氣勢、Bb-IV-2 憂患意識與逆境生命淬鍊",
+        "naerCode": "學習內容：Bd-IV-1、Bd-IV-2（議論、論據與批判閱讀）；Ad-IV-4、Cc-IV-1（先秦諸子寓言與哲理散文）｜學習表現：5-IV-4、5-IV-2",
         "junyiAlignment": "均一 [九上國文] -> 孟子論說散文雄辯氣勢、生於憂患死於安樂論點提煉、勤訓勉學修己",
         "coreKnowledge": [
           {
@@ -4644,13 +5368,23 @@ export const periodicExams = [
           "精熟篇中文言通假字：曾(增)、衡(橫)、拂(弼)",
           "掌握使動用法概念：苦其心志、勞其筋骨、餓其體膚",
           "理解論說文三大論證方法：舉例論證、正反對比論證、引用論證"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-5",
+            "title": "議論、論據與批判閱讀"
+          },
+          {
+            "id": "chinese-13",
+            "title": "先秦諸子寓言與哲理散文"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "康軒：Unit 1 The Girl Who Is Wearing Glasses ~ Unit 2 The Book That You Lent Me；翰林：Unit 1 People & Relationships ~ Unit 2 Things That Changed the World；南一：Unit 1 Who Is That Person? ~ Unit 2 The Smart Gadgets",
-        "naerCode": "Ac-IV-2 關係代名詞主格（who, which, that）引導關係子句（形容詞子句）、Ac-IV-3 先行詞為人（who/that）vs 為物（which/that）判定、Ac-IV-4 關係子句中動詞與先行詞單複數一致性、Ac-IV-5 只能使用 that 的特殊限制",
+        "naerCode": "學習內容：Ad-IV-1（完成式、被動與關係子句）；Ad-IV-1（關係代名詞受格省略與介系詞搭配）｜學習表現：3-IV-6",
         "junyiAlignment": "均一 [九上英語] -> 關係代名詞主格功能、兩句合併為關係子句步驟、先行詞與動詞一致性檢驗、只能用 that 四大情境",
         "coreKnowledge": [
           {
@@ -4721,13 +5455,23 @@ export const periodicExams = [
           "掌握主格關係代名詞絕對「不可省略」之文法規範",
           "關係子句動詞單複數必須與先行詞嚴格保持一致",
           "牢記只能用 that 四大情境：人和動物同在、最高級、序數、the only / the same"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-5",
+            "title": "完成式、被動與關係子句"
+          },
+          {
+            "id": "english-15",
+            "title": "關係代名詞受格省略與介系詞搭配"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
         "editionScope": "康軒：第一章 相似形（1-1 比例線段、1-2 相似多邊形、1-3 三角形相似判定 AA/SAS/SSS、1-4 相似三角形的應用）；翰林與南一進度相同。",
-        "naerCode": "S-9-1 平行線截比例線段性質與分比性質、S-9-2 相似多邊形之定義（對應角相等、對應邊成比例）、S-9-3 三角形相似三大判準（AA, SAS, SSS）與母子相似定理、S-9-4 相似多邊形周長比與面積比（邊長平方比）",
+        "naerCode": "學習內容：S-9-1、S-9-2（相似形與比例推理）｜學習表現：s-IV-10",
         "junyiAlignment": "均一 [九上數學] -> 平行線截比例線段圖形、三角形 AA 相似判定條件、直角三角形母子相似乘積公式、邊長比與面積平方比計算",
         "coreKnowledge": [
           {
@@ -4797,13 +5541,19 @@ export const periodicExams = [
           "掌握三角形相似三大判準：AA, SAS, SSS",
           "熟記直角三角形母子相似四大公式：左股平方、右股平方、高平方、兩股積=斜邊×高",
           "相似多邊形性質：邊長比 m:n <=> 周長比 m:n <=> 面積比 m²:n²"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-16",
+            "title": "相似形與比例推理"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (理化+地科)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：理化：第一章 直線運動（1-1 位置位移與路程、1-2 速度與速率、1-3 等加速度運動三大公式與圖形）；地科：第一章 變動的地球（1-1 地質年代與化石、1-2 岩石與礦物、1-3 地表地質作用）；翰林與南一進度相同。",
-        "naerCode": "INc-IV-4 直線運動物理量x-t與v-t圖斜率面積意義、INc-IV-5 等加速度運動三大公式計算、INe-IV-1 地層相對年代判讀（疊置/截切定律）與三大岩石循環",
+        "naerCode": "學習內容：Eb-IV-8、Eb-IV-10、Eb-IV-11（運動、力與牛頓定律）；Fa-IV-2、Ia-IV-2、Ia-IV-4（岩石、板塊與地震）；Hb-IV-1、Hb-IV-2（地層順序與地質歷史判讀）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [九上理化+地科] -> x-t圖折線與v-t圖斜率面積、等加速度運動三公式速解、沉積岩火成岩變質岩判別、地層截切年代早晚推斷",
         "coreKnowledge": [
           {
@@ -4873,13 +5623,27 @@ export const periodicExams = [
           "等加速度三大公式熟練默寫：v = v0+at ； Δx = v0t+(1/2)at² ； v² = v0²+2aΔx",
           "地質截切定律：被截切者較老，切人者較新；疊置定律下老上新",
           "指準化石年代：三葉蟲（古生代）、菊石與恐龍（中生代）；指相化石：珊瑚（溫暖淺海）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "physics-5",
+            "title": "運動、力與牛頓定律"
+          },
+          {
+            "id": "earth-1",
+            "title": "岩石、板塊與地震"
+          },
+          {
+            "id": "earth-7",
+            "title": "地層順序與地質歷史判讀"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：西亞美索不達米亞與埃及文明、希臘城邦民主哲學、亞歷山大東征與希臘化文化；地理：歐洲地形三大單元、溫帶海洋性與地中海型氣候、西歐經濟與歐盟；公民：經濟學核心課題稀少性、機會成本、生產可能曲線 PPC、需求法則與供給法則市場均衡。",
-        "naerCode": "歷社6a 古代近東與希臘古典文明制度思想、地3a 歐洲地形氣候特徵與歐盟經濟整合、公3a 稀少性機會成本與市場供需價格調節機能",
+        "naerCode": "學習內容：歷Na-IV-1、歷Na-IV-2、歷Oa-IV-1（古代文明到近代歐洲）；歷Na-IV-2（古希臘羅馬古典文明與民主法律）；地Bh-IV-1、地Bi-IV-1、地Bc-IV-1（歐洲、美洲與大洋洲）；公Bl-IV-1、公Bl-IV-2、公Bl-IV-4（選擇、機會成本與市場）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [九上社會] -> 美索不達米亞漢摩拉比法典、希臘城邦雅典民主斯巴達軍國、西歐溫帶海洋性與南歐地中海型氣候、機會成本與供需均衡曲線",
         "coreKnowledge": [
           {
@@ -4949,6 +5713,24 @@ export const periodicExams = [
           "歐洲三大氣候：西歐溫帶海洋性（終年溫和有雨）、南歐地中海型（夏乾冬雨）、東歐大陸性",
           "機會成本定義：放棄的選擇中價值最高者（絕不可加總）",
           "熟記需求法則（價漲量跌反向）與供給法則（價漲量增同向），相交於市場均衡點"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-7",
+            "title": "古代文明到近代歐洲"
+          },
+          {
+            "id": "history-12",
+            "title": "古希臘羅馬古典文明與民主法律"
+          },
+          {
+            "id": "geography-6",
+            "title": "歐洲、美洲與大洋洲"
+          },
+          {
+            "id": "civics-5",
+            "title": "選擇、機會成本與市場"
+          }
         ]
       }
     }
@@ -4965,7 +5747,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "康軒：第3課 智取生辰綱（水滸傳選）、第4課 湖心亭看雪（張岱）；翰林：第3課 水滸傳選、第4課 晚遊六橋待月記；南一：第3課 劉姥姥進大觀園（紅樓夢選）、第4課 湖心亭看雪",
-        "naerCode": "Ac-IV-4 古典章回小說情節鋪排與人物刻劃、Bb-IV-4 傳統敘事與人物英雄特質、Ad-IV-1 借景抒情與白描手法",
+        "naerCode": "學習內容：Ad-IV-4（古典小說選讀與人性刻畫）；Ba-IV-1、Ba-IV-2、Ad-IV-1（敘事閱讀與人物推論）｜學習表現：5-IV-2",
         "junyiAlignment": "均一 [九上國文] -> 中國古典小說發展流變、四大奇書常識、張岱晚明小品文藝術、白描手法與癡人癡情",
         "coreKnowledge": [
           {
@@ -5022,13 +5804,23 @@ export const periodicExams = [
           "精確分辨明代四大奇書（三國、水滸、西遊、金瓶梅，無紅樓夢！）",
           "理解張岱《湖心亭看雪》白描手法與微觀量詞（一痕、一點、一芥、兩三粒）",
           "掌握章回小說人物塑造技巧：直接對話、動作神態、側面烘托"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-11",
+            "title": "古典小說選讀與人性刻畫"
+          },
+          {
+            "id": "chinese-2",
+            "title": "敘事閱讀與人物推論"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "康軒：Unit 3 The girl whose hair is long / The man who you saw；翰林：Unit 3 The movie which we watched；南一：Unit 3 Relative Pronouns (Object & Possessive)",
-        "naerCode": "Ac-IV-3 關係代名詞受格（whom/who/which/that）省略用法、Ac-IV-4 介系詞提前與關係代名詞所有格 whose 句型、B-IV-2 資訊整合與複合句長篇素養閱讀",
+        "naerCode": "學習內容：Ad-IV-1（關係代名詞受格省略與介系詞搭配）；Ae-IV-2、D-IV-2（跨文本圖表閱讀與素養克漏字）｜學習表現：3-IV-6、3-IV-4",
         "junyiAlignment": "均一 [九上英語] -> 關係代名詞受格的判別與省略條件、whose 所有格句型轉換、介系詞放子句末尾 vs 提前規則",
         "coreKnowledge": [
           {
@@ -5085,13 +5877,23 @@ export const periodicExams = [
           "嚴禁介系詞後面接 that（in that 必錯，只能 in which 或 with whom）",
           "抓出關係子句受詞代名詞重複地雷（bought it -> 必須刪除 it）",
           "熟記 whose 後面名詞不可加 the/a，人與物皆可使用 whose"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-15",
+            "title": "關係代名詞受格省略與介系詞搭配"
+          },
+          {
+            "id": "english-16",
+            "title": "跨文本圖表閱讀與素養克漏字"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
         "editionScope": "康軒：第二章 圓（2-1 點線圓的位置關係、2-2 圓心角圓周角與弦切角、2-3 圓內角與圓外角）；翰林與南一進度相同。",
-        "naerCode": "S-9-5 圓的切線性質（切線垂直過切點的半徑、圓外一點到圓之兩切線段長相等）、S-9-6 圓心角與圓周角關係定理（同弧所對圓周角等於圓心角之一半）、S-9-7 弦切角、圓內角與圓外角求角度公式、S-9-8 圓內接四邊形對角互補性質",
+        "naerCode": "學習內容：S-9-6、S-9-7（圓、切線與圓周角）；S-9-6、S-9-7（弦切角、圓內角與圓外角定理）｜學習表現：s-IV-14",
         "junyiAlignment": "均一 [九上數學] -> 圓心角圓周角對應弧度度數換算、直徑所對圓周角必為 90 度、圓內接四邊形對角互補、弦切角等於所夾弧度之一半",
         "coreKnowledge": [
           {
@@ -5148,13 +5950,23 @@ export const periodicExams = [
           "精熟圓周角定理：同弧所對圓周角 = (1/2) 圓心角",
           "圓內角 = (弧1 + 弧2) / 2 ； 圓外角 = (大弧 − 小弧) / 2",
           "圓內接四邊形對角互補（和為 180°）；切線垂直切點半徑"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-17",
+            "title": "圓、切線與圓周角"
+          },
+          {
+            "id": "math-25",
+            "title": "弦切角、圓內角與圓外角定理"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (理化+地科)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：理化：第二章 力與運動（2-1 牛頓第一運動定律慣性、2-2 牛頓第二運動定律 F=ma、2-3 牛頓第三運動定律作用力與反作用力、2-4 圓周運動與萬有引力）；地科：第二章 板塊構造與地質構造（2-1 大陸漂移到板塊構造、2-2 三大板塊邊界、2-3 地震波與臺灣板塊環境）；翰林與南一進度相同。",
-        "naerCode": "INc-IV-6 牛頓三大運動定律物理概念與生活例證、INc-IV-7 萬有引力定律（F = GMm/r²）與向心力、INe-IV-2 韋格納大陸漂移、海底擴張與板塊構造學說演進、INe-IV-3 聚合型/張裂型/錯動型板塊邊界之地質特徵與臺灣地震構造",
+        "naerCode": "學習內容：Eb-IV-8、Eb-IV-10、Eb-IV-11（運動、力與牛頓定律）；Ia-IV-2、Ia-IV-3（板塊構造學說與臺灣造山運動）；Ia-IV-4（地震波傳播特性與臺灣活動斷層防震防災）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [九上理化+地科] -> 慣性現象生活實例、F=ma 單位牛頓與動態受力計算、作用力與反作用力成對特性、三大板塊邊界地形（海溝褶皺山脈洋脊轉形斷層）",
         "coreKnowledge": [
           {
@@ -5211,13 +6023,27 @@ export const periodicExams = [
           "牛二公式：F = ma（F 單位牛頓 N，m 為 kg，a 為 m/s²）",
           "牛三：大小相等反向共線，但「作用於不同物體，絕不互相抵消」",
           "板塊三大邊界：張裂（中洋脊裂谷）、聚合（海溝褶皺山脈）、錯動（無火山）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "physics-5",
+            "title": "運動、力與牛頓定律"
+          },
+          {
+            "id": "earth-8",
+            "title": "板塊構造學說與臺灣造山運動"
+          },
+          {
+            "id": "earth-11",
+            "title": "地震波傳播特性與臺灣活動斷層防震防災"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：羅馬共和至羅馬帝國興衰、基督教的興起與演變、中古歐洲封建莊園與行會體系、東羅馬拜占庭帝國與伊斯蘭文明擴張；地理：歐洲氣候分區與農牧業特色、北歐與南歐經濟產業、俄羅斯地形資源；公民：市場失靈與外部性（外部效益與外部成本）、公共財的兩大特性（共享性與非排他性）、政府解決外部問題之手段（課稅與補貼）。",
-        "naerCode": "歷社6b 古典羅馬制度法學、中古歐洲基督教封建文明、地3b 歐洲區域發展差異與農牧業調適、公3b 市場機能失靈外部性與公共財悲局",
+        "naerCode": "學習內容：歷Na-IV-2（古希臘羅馬古典文明與民主法律）；歷Na-IV-1、歷Oa-IV-1（古代文明到近代歐洲）；地Bh-IV-1、地Bi-IV-1、地Bc-IV-1（歐洲、美洲與大洋洲）；公Cf-IV-1、公Cf-IV-3（市場競爭、外部效果與政府管制）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [九上社會] -> 羅馬從共和走向帝國與萬民法、中古歐洲采邑封建制度與莊園經濟、歐洲乳酪小麥柑橘農業區位、外部效益與外部成本之圖形與政策干預",
         "coreKnowledge": [
           {
@@ -5274,6 +6100,24 @@ export const periodicExams = [
           "中古西歐三大支柱：封建采邑、自給自足莊園農奴、羅馬天主教教會",
           "歐洲農業三大帶：西歐酪農業、南歐地中海耐旱農業、東歐穀物小麥",
           "外部成本政府課稅、外部效益政府補貼；公共財非排他非競爭防搭便車"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-12",
+            "title": "古希臘羅馬古典文明與民主法律"
+          },
+          {
+            "id": "history-7",
+            "title": "古代文明到近代歐洲"
+          },
+          {
+            "id": "geography-6",
+            "title": "歐洲、美洲與大洋洲"
+          },
+          {
+            "id": "civics-9",
+            "title": "市場競爭、外部效果與政府管制"
+          }
         ]
       }
     }
@@ -5290,7 +6134,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "康軒：第5課 飛魚季（廖鴻基）、第6課 諫逐客書（李斯選段）/ 文學批評；翰林：第5課 飛魚季、第6課 寄弟墨書；南一：第5課 海洋悲歌、第6課 諫逐客書",
-        "naerCode": "Ad-IV-3 現代自然生態文學觀察感知、Ac-IV-2 古典駢散結合說理雄辯文體、Bb-IV-5 跨文化包容與在地永續共存",
+        "naerCode": "學習內容：Bb-IV-3、Ca-IV-2（臺灣自然生態、海洋與在地文學）；Bd-IV-1、Bd-IV-2（議論、論據與批判閱讀）｜學習表現：5-IV-2、5-IV-4",
         "junyiAlignment": "均一 [九上國文] -> 臺灣海洋文學發韌廖鴻基、飛魚季達悟族文化生態智慧、李斯諫逐客書排比鋪陳說理技巧",
         "coreKnowledge": [
           {
@@ -5347,13 +6191,23 @@ export const periodicExams = [
           "背誦李斯《諫逐客書》核心名句：泰山不讓土壤，河海不擇細流",
           "理解李斯說理對比：四代君王用客稱霸 vs 秦王享用異國聲色寶物",
           "精準辨識文言賓語前置倒裝句（何陋之有、唯利是圖）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-15",
+            "title": "臺灣自然生態、海洋與在地文學"
+          },
+          {
+            "id": "chinese-5",
+            "title": "議論、論據與批判閱讀"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "康軒：Unit 5 Do you know where he lives? / I believe that...；翰林：Unit 5 Noun Clauses with That / Whether / If；南一：Unit 5 Indirect Questions",
-        "naerCode": "Ac-IV-5 that 引導的名詞子句（當主詞/及物動詞受詞）、Ac-IV-6 whether / if 引導的名詞子句（表示是否）、Ac-IV-7 間接問句語序（疑問詞 + 主詞 + 動詞直述句結構）",
+        "naerCode": "學習內容：Ad-IV-1（附加問句、名詞子句與間接問句）｜學習表現：3-IV-6",
         "junyiAlignment": "均一 [九上英語] -> that名詞子句當受詞與主詞、whether與if用法限制、間接問句助動詞do/does/did消去與動詞時態還原",
         "coreKnowledge": [
           {
@@ -5410,13 +6264,19 @@ export const periodicExams = [
           "徹底消除間接問句中的 do / does / did，並精確還原動詞第三人稱單數與過去式",
           "牢記 whether 專屬四大特權：whether or not、介系詞後、句首當主詞、whether to V",
           "that 名詞子句當受詞可省略，當主詞時絕對不可省略"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-12",
+            "title": "附加問句、名詞子句與間接問句"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
         "editionScope": "康軒：第三章 幾何證明與三角形的三心（3-1 推理證明與外角定理、3-2 三角形的外心、內心與重心）；翰林與南一進度相同。",
-        "naerCode": "S-9-9 幾何推理證明的格式與代數幾何嚴謹推理、S-9-10 三角形外心性質（三邊中垂線交點、外心到三頂點等距離 OA=OB=OC、直角三角形外心在斜邊中點）、S-9-11 三角形內心性質（三內角平分線交點、內心到三邊等距離、面積公式 A = (1/2)r(a+b+c)）、S-9-12 三角形重心性質（三中線交點、重心分割中線長度為 2:1、六個小三角形面積均等分）",
+        "naerCode": "學習內容：S-9-8、S-9-9、S-9-10（三角形的外心、內心與重心）；S-8-4、S-8-5（三角形全等與幾何推理）｜學習表現：s-IV-11、s-IV-9",
         "junyiAlignment": "均一 [九上數學] -> 三角形外心坐標與直角三角形斜邊中點、內切圓半徑與三角形面積連鎖公式、重心中線 2:1 比例速解、正三角形三心合一",
         "coreKnowledge": [
           {
@@ -5473,13 +6333,23 @@ export const periodicExams = [
           "內心：三內角平分線交點，到三邊等距；面積 = (1/2)·r·周長；直角 r=(a+b-c)/2",
           "重心：三中線交點；頂點到底比例 2:1；六等分小三角形面積完全相等 (1/6)",
           "正三角形三心合一（外心、內心、重心重疊於同一點）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-20",
+            "title": "三角形的外心、內心與重心"
+          },
+          {
+            "id": "math-14",
+            "title": "三角形全等與幾何推理"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (理化+地科)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：理化：第三章 功與能（3-1 功與功率 W=Fs, P=W/t、3-2 動能位能與力學能守恆、3-3 簡單機械：槓桿/滑輪/輪軸/斜面）；地科：第三章 變化多端的大氣（3-1 大氣結構與氣壓風向、3-2 空氣中的水氣與雲雨、3-3 鋒面系統與天氣圖判讀）；翰林與南一進度相同。",
-        "naerCode": "INc-IV-8 功的物理定義（W = F·s·cosθ）與功率（瓦特 W）、INc-IV-9 力學能守恆定律（動能 Ek + 位能 Ep = 定值）、INc-IV-10 槓桿原理與簡單機械省力省時省功分析、INe-IV-4 大氣垂直分層（對流層氣溫直減率）、INe-IV-5 氣壓梯度與科氏力偏轉、INe-IV-6 冷鋒/暖鋒/滯留鋒符號與天氣變化",
+        "naerCode": "學習內容：Ba-IV-5、Ba-IV-7、Eb-IV-7（功、能量與簡單機械）；Ba-IV-7（動能、重力位能與力學能守恆定律）；Ia-IV-1、Ic-IV-1（水循環、海洋與地形）；Ib-IV-1、Ib-IV-4、Ib-IV-6（天氣、鋒面與臺灣季風）；Ib-IV-5（大氣氣團、鋒面系統與天氣災害）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [九上理化+地科] -> 功為零的三大狀況（位移為零、垂直不作功、慣性）、動能與重力位能互換計算、動滑輪省力與斜面機械利益、冷鋒過境前後氣溫氣壓風向轉變、地面天氣圖高低氣壓中心",
         "coreKnowledge": [
           {
@@ -5536,13 +6406,35 @@ export const periodicExams = [
           "力學能守恆：動能 Ek + 位能 Ep = 定值；機械絕不省功",
           "動滑輪省一半力但費 2 倍距離；定滑輪改變方向不省力",
           "冷鋒藍三角伴隨陣雨降溫；滯留鋒交錯徘徊致梅雨；高壓順鐘下沉天晴"
+        ],
+        "linkedUnits": [
+          {
+            "id": "physics-6",
+            "title": "功、能量與簡單機械"
+          },
+          {
+            "id": "physics-15",
+            "title": "動能、重力位能與力學能守恆定律"
+          },
+          {
+            "id": "earth-2",
+            "title": "水循環、海洋與地形"
+          },
+          {
+            "id": "earth-3",
+            "title": "天氣、鋒面與臺灣季風"
+          },
+          {
+            "id": "earth-9",
+            "title": "大氣氣團、鋒面系統與天氣災害"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：近代歐洲誕生三大變革：文藝復興（人文主義義大利半島興起）、地理大發現與新航路開闢（哥倫布/達伽馬/麥哲倫）、宗教改革（馬丁路德九十五條論綱、喀爾文預選說、英國國教派）、十七世紀科學革命（哥白尼日心說、牛頓運動定律）；地理：俄羅斯與獨立國協地大物博、北極海航道戰略；公民：貨幣的本質演變與四大功能、比較利益法則與國際貿易分工、自由貿易與貿易保護主義（關稅壁壘）。",
-        "naerCode": "歷社7a 文藝復興人文主義、大航海時代美洲白銀流入與物種大交換、地3c 歐洲極圈資源與航道地緣政治、公3c 貨幣四大功能與李嘉圖比較利益絕對優勢",
+        "naerCode": "學習內容：歷Na-IV-1、歷Na-IV-2、歷Oa-IV-1（古代文明到近代歐洲）；地Bi-IV-2、地Bi-IV-3（美國與北美洲區域發展特色）；公Dd-IV-1、公Bl-IV-3（國際貿易、比較利益法則與全球分工）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [九上社會] -> 文藝復興三傑達文西米開朗基羅拉斐爾、新航路開闢玉米馬鈴薯傳入歐亞、貨幣四功能判別、比較利益法則機會成本計算表格",
         "coreKnowledge": [
           {
@@ -5599,6 +6491,20 @@ export const periodicExams = [
           "大航海時代達伽馬至印度、哥倫布抵美洲、麥哲倫環球；哥倫布物種大交換",
           "精準判讀貨幣四大功能：價值標準(標價)、交易媒介(付款)、價值儲存(存款)、延期支付(借貸分期)",
           "比較利益嚴格由「機會成本較低者」決定，專業化分工互利雙贏"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-7",
+            "title": "古代文明到近代歐洲"
+          },
+          {
+            "id": "geography-10",
+            "title": "美國與北美洲區域發展特色"
+          },
+          {
+            "id": "civics-12",
+            "title": "國際貿易、比較利益法則與全球分工"
+          }
         ]
       }
     }
@@ -5615,7 +6521,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "康軒：應用文（書信格式稱謂、題辭、對聯）；翰林：應用文專題（書信便條、題辭判讀、對聯格律）；南一：應用文（應用文生活常識、信件題辭對聯）。文言選讀：座右銘、陋室銘綜合複習。",
-        "naerCode": "Ac-IV-5 實用應用文書信啟封詞提稱語、Ac-IV-6 傳統題辭涵義婚喪喜慶歸類、Ac-IV-7 對聯格律平仄仄起平收判讀",
+        "naerCode": "學習內容：Be-IV-2（應用文全覽：書信、題辭、對聯與柬帖規範）｜學習表現：6-IV-2",
         "junyiAlignment": "均一 [九下國文] -> 書信結構與稱謂信封格式、祖父母父母長輩晚輩提稱語、題辭賀壽婚嫁落成哀輓分類、對聯上下聯平仄判定",
         "coreKnowledge": [
           {
@@ -5672,13 +6578,19 @@ export const periodicExams = [
           "敬稱他人用「令」（令尊令堂），謙稱自家用「家」（家父家母）",
           "精熟生活題辭：懸壺濟世(醫院)、美輪美奐(新居)、弄璋(生男)、弄瓦(生女)",
           "對聯鐵律「仄起平收」：上聯尾字仄聲貼右邊，下聯尾字平聲貼左邊"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-12",
+            "title": "應用文全覽：書信、題辭、對聯與柬帖規範"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "康軒：Unit 1 Tag Questions / Emotions；翰林：Unit 1 Tag Questions and Emotion Adjectives；南一：Unit 1 Question Tags & Sensory Verbs",
-        "naerCode": "Ac-IV-8 附加問句基本規則（前肯後否、前否後肯）、Ac-IV-9 附加問句特殊句型（祈使句 will you / won't you、Let's shall we、I am aren't I）、Ac-IV-10 情緒動詞轉分詞形容詞（-ing 修飾事物引起情緒 vs -ed 修飾人感受情緒）",
+        "naerCode": "學習內容：Ad-IV-1（附加問句、名詞子句與間接問句）；B-IV-2、D-IV-1（閱讀策略與情境溝通）｜學習表現：3-IV-6、3-IV-8",
         "junyiAlignment": "均一 [九下英語] -> 附加問句前肯後否與時態一致、祈使句附加問句速記、boring vs bored 與 tiring vs tired 辨析",
         "coreKnowledge": [
           {
@@ -5735,13 +6647,23 @@ export const periodicExams = [
           "隱含否定字眼（seldom, never, few, little）後方必接「肯定」附加問句",
           "祈使句接 will you；Let's 接 shall we；There is 接 isn't there",
           "情緒形容詞秒殺：物令人感到用 -ing，人自己感到用 -ed（搭配固定介系詞 in/at/of）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-12",
+            "title": "附加問句、名詞子句與間接問句"
+          },
+          {
+            "id": "english-6",
+            "title": "閱讀策略與情境溝通"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
-        "editionScope": "康軒：第一章 二次函數（1-1 二次函數的意義與圖形、1-2 二次函數的標準式與配方法、1-3 二次函數的極值與應用）；翰林與南一進度相同。",
-        "naerCode": "F-9-1 二次函數 y = ax² 的圖形特徵（對稱軸 x=0、頂點 (0,0)、a>0 開口向上有最小值、a<0 開口向下有最大值）、F-9-2 二次函數標準式 y = a(x - h)² + k 與平移變換（左加右減、上加下減）、F-9-3 配方法化為標準式求頂點與最大/最小值、F-9-4 判別式 b² - 4ac 與 x 軸交點個數關係",
+        "editionScope": "康軒／翰林／南一：九下第一章 二次函數（1-1 二次函數的圖形與平移 y＝a(x−h)²＋k、1-2 二次函數的最大值與最小值）。【108課綱最新邊界提醒：國中九年級部定核心（F-9-1、F-9-2）聚焦由圖形與頂點式判讀開口、對稱軸與極值；一般式配方法與圍籬應用題已移至高一數學 F-10-1，僅部分學校列為段考補充延伸，教育會考不考一般式配方】。",
+        "naerCode": "學習內容：F-9-1、F-9-2（二次函數與極值）｜學習表現：f-IV-2",
         "junyiAlignment": "均一 [九下數學] -> 拋物線開口方向與開口大小（|a| 越大開口越窄）、二次函數配方法三步驟、上下左右平移坐標轉換、利潤最大化應用題",
         "coreKnowledge": [
           {
@@ -5757,13 +6679,27 @@ export const periodicExams = [
             "rule": "平移口訣刻進大腦：括號內「左加右減」，括號外「上加下減」！"
           },
           {
-            "title": "配方法三步驟與判別式 b² − 4ac 幾何意義",
-            "takeaway": "將一般式 y = ax² + bx + c 轉換為標準式 y = a(x − h)² + k 的標準配方程序：",
+            "title": "【段考延伸補充 · 高一銜接】一般式配方法與 x 軸交點判讀（非會考範圍）",
+            "takeaway": "108 課綱部定範圍以頂點式 y = a(x − h)² + k 判讀極值與對稱性為主；若各校段考補充一般式 y = ax² + bx + c，可透過對稱點中點求對稱軸 x = h 或配方核對：",
             "details": "配方法三部曲：\\n1. 提公因數：將前兩項提出 a -> y = a(x² + (b/a)x) + c；\\n2. 補一次項係數一半的平方：在括號內補上 (b/2a)²，括號外減去 a·(b/2a)²；\\n3. 寫成完全平方式：y = a(x + b/2a)² + (4ac − b²)/4a。頂點為 (−b/2a, (4ac − b²)/4a)；\\n4. 與 x 軸交點個數（令 y = 0，解 ax² + bx + c = 0）：\\n   - D = b² − 4ac > 0 -> 與 x 軸交於「相異兩點」；\\n   - D = b² − 4ac = 0 -> 與 x 軸「相切於一點（頂點在 x 軸上）」；\\n   - D = b² − 4ac < 0 -> 與 x 軸「不相交（整條懸浮在 x 軸上方或完全在下方）」。",
             "rule": "判別式 b² − 4ac > 0 兩交點；= 0 相切一點；< 0 與 x 軸完全不相交！"
           }
         ],
         "examPaperQuestions": [
+          {
+            "id": "9-2-1-ma-q0",
+            "sourceSchool": "新北市永和國中九下第一次段考精選（108課綱標準題型）",
+            "question": "將二次函數 y ＝ −3(x ＋ 1)² ＋ 4 的圖形向右平移 3 個單位、再向下平移 6 個單位後，可得新二次函數圖形。關於新二次函數的敘述，下列何者正確？",
+            "options": [
+              "頂點為 (2, −2)，且當 x ＝ 2 時有最大值 −2",
+              "頂點為 (2, −2)，且當 x ＝ 2 時有最小值 −2",
+              "頂點為 (−4, −2)，且對稱軸為 x ＝ −4",
+              "頂點為 (2, 10)，且圖形與 x 軸有兩個交點"
+            ],
+            "answer": 0,
+            "solution": "1. 原頂點為 (−1, 4)，開口係數 a ＝ −3（平移不改變開口方向與大小）；\n2. 向右平移 3 個單位：新頂點 x 坐標 h ＝ −1 ＋ 3 ＝ 2；\n3. 向下平移 6 個單位：新頂點 y 坐標 k ＝ 4 − 6 ＝ −2，故新函數為 y ＝ −3(x − 2)² − 2；\n4. 因 a ＝ −3 ＜ 0，開口向下，故在 x ＝ 2 時有最大值 −2（且最大值 −2 ＜ 0，整條拋物線位於 x 軸下方，與 x 軸無交點）。故選 (A)。",
+            "thinkingTrap": "學生常直接套用括號加減卻弄反原頂點符號（原式 x＋1 代表原頂點 x＝−1 而非 ＋1），或忽略 a＜0 開口向下應為最大值。"
+          },
           {
             "id": "9-2-1-ma-q1",
             "sourceSchool": "臺北市介壽國中段考精選",
@@ -5798,13 +6734,19 @@ export const periodicExams = [
           "a > 0 開口向上有最小值 k；a < 0 開口向下有最大值 k；|a| 越大開口越窄",
           "平移變換口訣：括號內「左加右減」，括號外「上加下減」",
           "配方法切記括號內補平方，括號外必須減去「a × 補數」"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-18",
+            "title": "二次函數與極值"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (理化+地科)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：理化：第四章 電的認識（4-1 靜電現象與庫侖定律、4-2 電壓電流與歐姆定律、4-3 電阻串聯與並聯、4-4 電功與電功率 P=IV、家庭用電安全）；地科：第四章 天文與太空（4-1 晝夜與四季成因、4-2 月相變化與日食月食、4-3 潮汐與生活）；翰林與南一進度相同。",
-        "naerCode": "INc-IV-11 靜電感應與接觸起電、庫侖定律（F 與距離平方成反比）、INc-IV-12 歐姆定律 V=IR 與串並聯電路分壓分流特徵、INc-IV-13 電功率（P = IV = I²R = V²/R）與用電度數計算、INe-IV-7 地球公轉自轉、地軸傾斜 23.5 度與四季晝夜長短變化、INe-IV-8 月球公轉與月相（朔/望/上弦/下弦）及日月食成因",
+        "naerCode": "學習內容：Kc-IV-1、Kc-IV-2（靜電現象與庫侖定律）；Kc-IV-7、Kc-IV-8、Kc-IV-4（電路、電功率與磁作用）；Id-IV-3、Fb-IV-4（地球運動、四季與月相）；Ic-IV-4（天體引力、潮汐現象與月相變化）；Fb-IV-1、Fb-IV-3（日食、月食天象成因與太陽系天體探索）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [九下理化+地科] -> 串聯電流相等分壓、並聯電壓相等分流、短路危機與無熔絲開關、月相黃金八方位速解法、日食月食發生在朔望",
         "coreKnowledge": [
           {
@@ -5861,13 +6803,35 @@ export const periodicExams = [
           "電功率公式：P = IV = I²R = V²/R；一度電 = 1 kWh = 3.6 × 10⁶ 焦耳",
           "四季成因：地軸傾斜 23.5° 公轉，夏至直射北回歸線晝長夜短",
           "月相記法：上弦月亮右邊(D型)、下弦月亮左邊(C型)；日食在朔(初一)、月食在望(十五)"
+        ],
+        "linkedUnits": [
+          {
+            "id": "physics-11",
+            "title": "靜電現象與庫侖定律"
+          },
+          {
+            "id": "physics-7",
+            "title": "電路、電功率與磁作用"
+          },
+          {
+            "id": "earth-4",
+            "title": "地球運動、四季與月相"
+          },
+          {
+            "id": "earth-10",
+            "title": "天體引力、潮汐現象與月相變化"
+          },
+          {
+            "id": "earth-12",
+            "title": "日食、月食天象成因與太陽系天體探索"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：十八世紀啟蒙運動思想家（洛克/孟德斯鳩/盧梭/伏爾泰）、近代三大民主革命（英國光榮革命與權利法案、美國獨立運動與獨立宣言、法國大革命與人權宣言、拿破崙帝國）；地理：大洋洲與兩極地區環境特徵、澳洲與紐西蘭農牧生態；公民：第四權媒體素養與假訊息辨識、現代勞動權益保障（勞動基準法、工會法、勞動三權：團結權/協商權/爭議權）。",
-        "naerCode": "歷社7b 啟蒙運動理性自由主義、英美法近代民主革命憲政實踐、地3d 澳洲多元生態與全球氣候變遷衝擊、公3d 媒體識讀批判思考與勞工權利三權保障",
+        "naerCode": "學習內容：歷Na-IV-1、歷Na-IV-2、歷Oa-IV-1（古代文明到近代歐洲）；地Bc-IV-1、地Bc-IV-2、地Bc-IV-3（澳洲、紐西蘭與大洋洲島嶼地理環境）；公Cb-IV-2、公Dd-IV-2（媒體素養、全球化與永續消費）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [九下社會] -> 孟德斯鳩三權分立洛克天賦人權、法國大革命人權宣言與巴士底監獄、澳洲大堡礁生態與混合農業、勞動基準法基本工資勞動三權",
         "coreKnowledge": [
           {
@@ -5924,6 +6888,20 @@ export const periodicExams = [
           "英美法三大民主革命里程碑：英國權利法案、美國獨立宣言、法國人權宣言",
           "勞基法保障最低工資與工時；勞動三權：團結權(組工會)、協商權、爭議權(罷工)",
           "媒體第四權監督政府，閱聽人應具備事實查核與媒體識讀素養防範假新聞"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-7",
+            "title": "古代文明到近代歐洲"
+          },
+          {
+            "id": "geography-13",
+            "title": "澳洲、紐西蘭與大洋洲島嶼地理環境"
+          },
+          {
+            "id": "civics-6",
+            "title": "媒體素養、全球化與永續消費"
+          }
         ]
       }
     }
@@ -5940,7 +6918,7 @@ export const periodicExams = [
         "subjectId": "chinese",
         "subjectName": "國語文",
         "editionScope": "全冊綜合總複習：會考寫作測驗六級分審題立意謀篇技巧、現代白話長篇素養文本對讀、跨領域科普人文資訊整合理論、文言文寓言與史傳對讀剖析。",
-        "naerCode": "Ac-IV-1 跨文類文本統整與批判反思、Ad-IV-4 議論文結構破題立論駁論結尾、Bb-IV-6 全球在地化永續發展與人文關懷生命哲學",
+        "naerCode": "學習內容：Ad-IV-1、Ba-IV-2（會考寫作審題、立意與層次開展）；Bc-IV-2、Bc-IV-3（說明文、圖表與資訊整合）；Ad-IV-2、Ad-IV-3（詩歌賞析與寫作組織）｜學習表現：6-IV-3、5-IV-4、6-IV-2",
         "junyiAlignment": "均一 [國中會考總複習] -> 會考寫作引導審題六級分關鍵、長篇素養閱讀文意歸納推論技巧、文言實詞虛詞常考大彙整",
         "coreKnowledge": [
           {
@@ -5997,13 +6975,27 @@ export const periodicExams = [
           "長篇素養閱讀解題策略：先審題抓關鍵字 -> 定位段落轉折詞（然而/但是）-> 交叉驗證排除誘答",
           "精準分辨五大文言虛詞：之（動詞前往/代名詞/介詞的/倒裝助詞）、於（在/比/被）、以（用/因）",
           "跨領域科普與人文對讀：掌握圖表文轉譯能力，絕不作超出文本支持的過度推論"
+        ],
+        "linkedUnits": [
+          {
+            "id": "chinese-16",
+            "title": "會考寫作審題、立意與層次開展"
+          },
+          {
+            "id": "chinese-4",
+            "title": "說明文、圖表與資訊整合"
+          },
+          {
+            "id": "chinese-6",
+            "title": "詩歌賞析與寫作組織"
+          }
         ]
       },
       "english": {
         "subjectId": "english",
         "subjectName": "英語文",
         "editionScope": "全冊綜合總複習：會考歷屆經典素養題型、克漏字上下文時態語意銜接、長篇跨領域閱讀理解（主旨/推論/圖表/作者態度）、長難句結構剖析。",
-        "naerCode": "Ac-IV-1 複合句與時態邏輯連貫綜合應用、Ac-IV-2 閱讀策略（略讀Skimming/掃讀Scanning/上下文猜字Context Clues）、B-IV-5 跨學科英文圖表分析與邏輯批判思考",
+        "naerCode": "學習內容：B-IV-2、D-IV-1（閱讀策略與情境溝通）；Ae-IV-2、D-IV-2（跨文本圖表閱讀與素養克漏字）｜學習表現：3-IV-8、3-IV-4",
         "junyiAlignment": "均一 [國中會考英語總複習] -> 會考閱讀克漏字高頻陷阱題、長篇閱讀圖表對照解題術、常見混淆單字與介系詞片語大統整",
         "coreKnowledge": [
           {
@@ -6060,13 +7052,23 @@ export const periodicExams = [
           "完成式三大標誌：since + 過去時間點、for + 一段時間、already / yet",
           "長篇閱讀主旨題：看第一段首尾句與最後結論段；推論題必須有原文線索，不可腦補",
           "生字推測策略：善用前後文對比詞（however/unlike）與舉例說明（such as/that is）"
+        ],
+        "linkedUnits": [
+          {
+            "id": "english-6",
+            "title": "閱讀策略與情境溝通"
+          },
+          {
+            "id": "english-16",
+            "title": "跨文本圖表閱讀與素養克漏字"
+          }
         ]
       },
       "math": {
         "subjectId": "math",
         "subjectName": "數學",
         "editionScope": "康軒：第二章 立體圖形與統計機率（2-1 角柱角錐圓柱圓錐表面積與體積、2-2 三視圖與空間概念、2-3 盒狀圖與百分位數、2-4 機率與抽樣統計）；翰林與南一進度相同。",
-        "naerCode": "S-9-13 柱體與錐體表面積與體積計算（柱體底面積×高；錐體 (1/3)×底面積×高）、S-9-14 空間圖形之三視圖（前視圖/俯視圖/右視圖）與小正方體數量推求、D-9-1 數值資料百分位數、四分位數（Q1, Q2, Q3）與四分位距（IQR = Q3 - Q1）、D-9-2 盒狀圖判讀、全距與資料分散程度、D-9-3 樹狀圖與古典機率（P = 有利結果/所有可能結果）",
+        "naerCode": "學習內容：S-7-2、S-9-13（立體圖形、三視圖與表面積體積）；D-9-1、D-8-1（盒狀圖、四分位距與累積次數分配）；D-9-2（統計、機率與空間圖形）｜學習表現：s-IV-16、d-IV-1、d-IV-2",
         "junyiAlignment": "均一 [九下數學] -> 錐體體積三分之一底面積乘高、三視圖還原小立方體積木顆數、盒狀圖中位數與四分位距 IQR 判讀、機率樹狀圖與骰子抽球問題",
         "coreKnowledge": [
           {
@@ -6123,13 +7125,27 @@ export const periodicExams = [
           "圓柱側面積展開長方形（長為 2πr，寬為 h）；圓錐側面積展開扇形（πrL）",
           "盒狀圖五數：Min, Q1, Q2(中位數), Q3, Max；四分位距 IQR = Q3 − Q1",
           "古典機率 P = 有利結果/所有可能；注意「抽後放回」與「不放回」之樣本空間變化"
+        ],
+        "linkedUnits": [
+          {
+            "id": "math-26",
+            "title": "立體圖形、三視圖與表面積體積"
+          },
+          {
+            "id": "math-27",
+            "title": "盒狀圖、四分位距與累積次數分配"
+          },
+          {
+            "id": "math-19",
+            "title": "統計、機率與空間圖形"
+          }
         ]
       },
       "science": {
         "subjectId": "science",
         "subjectName": "自然科學 (理化+地科)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：理化：第五章 電與磁（5-1 電流的磁效應與安培右手定則、5-2 載流導線在磁場中受力與馬達、5-3 電磁感應與發電機、5-4 交流電與變壓器）；地科：第五章 全球氣候變遷與永續發展（5-1 溫室效應與全球暖化、5-2 聖嬰與反聖嬰現象、5-3 臺灣天然災害與環境保育）；翰林與南一進度相同。",
-        "naerCode": "INc-IV-14 厄斯特實驗電流磁效應、安培右手定則（長直導線、螺線管）、INc-IV-15 載流導線在磁場受力（右手開掌定則）與直流馬達電動機原理、INc-IV-16 法拉第電磁感應、冷次定律（來拒去留感應電流）與發電機、INe-IV-9 溫室氣體（CO2, CH4）與溫室效應全球暖化衝擊、INe-IV-10 聖嬰現象（東太平洋異常增溫、西太平洋乾旱）、臺灣土石流山崩天然災害與 SDGs 永續調適",
+        "naerCode": "學習內容：Kc-IV-4（電流的磁效應與電磁鐵）；Kc-IV-6（電磁感應與發電機）；Ed-IV-1、Fb-IV-1（太陽系、星空與尺度）；Lb-IV-2（氣候變遷與永續探究）｜學習表現：tr-IV-1",
         "junyiAlignment": "均一 [九下理化+地科] -> 安培右手螺旋握法判定 N 極、開掌定則大拇指四指掌心受力方向、冷次定律阻礙磁場變化電流方向、馬達與發電機能量轉換對照、聖嬰現象沃克環流反常",
         "coreKnowledge": [
           {
@@ -6186,13 +7202,31 @@ export const periodicExams = [
           "右手開掌定則：大拇指電流、四指磁場、掌心受力方向（馬達：電能轉動能）",
           "法拉第與冷次定律：磁生電，來拒去留阻礙磁場變化（發電機：動能轉電能）",
           "聖嬰年東南信風減弱，東太平洋（秘魯）暴雨西太平洋（澳洲）乾旱；高壓輸電降電流防損耗"
+        ],
+        "linkedUnits": [
+          {
+            "id": "physics-12",
+            "title": "電流的磁效應與電磁鐵"
+          },
+          {
+            "id": "physics-13",
+            "title": "電磁感應與發電機"
+          },
+          {
+            "id": "earth-5",
+            "title": "太陽系、星空與尺度"
+          },
+          {
+            "id": "earth-6",
+            "title": "氣候變遷與永續探究"
+          }
         ]
       },
       "social": {
         "subjectId": "social",
         "subjectName": "社會 (歷史/地理/公民)",
         "editionScope": "三大版本（康軒/翰林/南一）核心進度對照：歷史：第一次與第二次工業革命、帝國主義殖民爭奪、第一次世界大戰與巴黎和會、經濟大恐慌與極權政治興起（法西斯/納粹）、第二次世界大戰、冷戰美蘇對峙至當代全球化局勢；地理：全球氣候與環境議題（荒漠化/雨林消失/全球暖化）、世界重要海峽與地緣經濟；公民：現代國際組織分類（政府間組織 IGO vs 非政府組織 INGO）、國際衝突與全球治理、永續發展目標 SDGs 實踐。",
-        "naerCode": "歷社7c 工業革命資本主義殖民擴張、兩次大戰冷戰體系至全球化、地3e 全球生態環境危機與資源爭奪、公3e 國際組織分類IGO與INGO、全球公民責任與SDGs",
+        "naerCode": "學習內容：歷Qa-IV-2、歷Qc-IV-2、歷Qc-IV-3（工業革命、世界大戰與全球化）；歷Lb-IV-1（二次大戰後冷戰對峙與全球解殖潮）；地Cb-IV-2、地Bi-IV-4（全球連結與環境議題）；公Cb-IV-2、公Dd-IV-2（媒體素養、全球化與永續消費）｜學習表現：歷1b-IV-1、地1a-IV-1、公1a-IV-1",
         "junyiAlignment": "均一 [九下社會] -> 工業革命蒸氣機鐵路煤炭棉紡織、二戰軸心國同盟國、聯合國五大常任理事國、WTO與WHO及無國界醫生綠色和平特徵",
         "coreKnowledge": [
           {
@@ -6249,6 +7283,24 @@ export const periodicExams = [
           "兩次大戰：一戰凡爾賽條約國際聯盟(無制裁力)；二戰聯合國安理會五常任一票否決權",
           "國際組織分類：政府間 IGO (聯合國/WHO/WTO) vs 非政府 INGO (無國界醫生/綠色和平)",
           "SDGs 17 項永續指標兼顧環境、經濟與社會；全球暖化減碳調適為當代核心課題"
+        ],
+        "linkedUnits": [
+          {
+            "id": "history-8",
+            "title": "工業革命、世界大戰與全球化"
+          },
+          {
+            "id": "history-15",
+            "title": "二次大戰後冷戰對峙與全球解殖潮"
+          },
+          {
+            "id": "geography-7",
+            "title": "全球連結與環境議題"
+          },
+          {
+            "id": "civics-6",
+            "title": "媒體素養、全球化與永續消費"
+          }
         ]
       }
     }

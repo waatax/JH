@@ -219,6 +219,17 @@ export function renderPeriodicExamsPage(container, targetId) {
             <p class="alignment-card-content">${escapeHtml(subjectData.junyiAlignment)}</p>
           </div>
         </div>
+
+        ${Array.isArray(subjectData.linkedUnits) && subjectData.linkedUnits.length ? `
+        <div class="periodic-linked-units-bar no-print" style="margin-top:14px;padding:12px 14px;border-radius:8px;background:var(--surface-alt);border:1px solid var(--border);display:flex;flex-wrap:wrap;align-items:center;gap:8px;">
+          <strong style="font-size:0.88rem;color:var(--text);">🔗 對應本站 108 課綱精講單元（一鍵回推複習知識點與例題）：</strong>
+          ${subjectData.linkedUnits.map(lu => `
+            <a href="#/lesson/${escapeHtml(lu.id)}" class="button small secondary" style="text-decoration:none;font-size:0.82rem;padding:4px 10px;">
+              📖 ${escapeHtml(lu.title)} →
+            </a>
+          `).join('')}
+        </div>
+        ` : ''}
       </div>
 
       <!-- SECTION 1: CORE KNOWLEDGE BASE -->

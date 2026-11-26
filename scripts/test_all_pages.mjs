@@ -74,6 +74,7 @@ await import('../dist/sources.js');
 await import('../dist/engine.js');
 await import('../dist/labs.js');
 await import('../dist/diagrams.js');
+await import('../dist/lesson-illustrations.js');
 await import('../dist/teaching.js');
 await import('../dist/explicit-knowledge-points.js');
 await import('../dist/worked-cases.js');

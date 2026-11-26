@@ -8161,6 +8161,391 @@ summary {
   font-weight: 700;
 }
 
+/* ==========================================================================
+   視覺插圖解說圖示與段考×會考進階卡片樣式 (2026 Illustrated Visual System)
+   ========================================================================== */
+:root, html[data-theme="sage"], html[data-theme="day"] {
+  --svg-bg: #f8fbf9;
+  --svg-bg-end: #eff6f2;
+  --svg-card: #ffffff;
+  --svg-border: #d6dfd9;
+  --svg-grid: #e5eee8;
+  --svg-ink: #19332a;
+  --svg-muted: #536c62;
+  --svg-tint-green: #eef8f2;
+  --svg-tint-teal: #e6f7f5;
+  --svg-tint-blue: #edf5fc;
+  --svg-tint-amber: #fff7ea;
+  --svg-tint-red: #fdeeed;
+  --svg-green: #15803d;
+  --svg-teal: #0f766e;
+  --svg-blue: #0369a1;
+  --svg-amber: #b45309;
+  --svg-red: #b91c1c;
+}
+html[data-theme="paper"] {
+  --svg-bg: #fbf8ef;
+  --svg-bg-end: #f3ecda;
+  --svg-card: #fffdf7;
+  --svg-border: #dfd4bc;
+  --svg-grid: #ede5d1;
+  --svg-ink: #2c2217;
+  --svg-muted: #6e5e4d;
+  --svg-tint-green: #f0f6ec;
+  --svg-tint-teal: #ebf5f2;
+  --svg-tint-blue: #edf3f9;
+  --svg-tint-amber: #fdf2dc;
+  --svg-tint-red: #fcedea;
+  --svg-green: #166534;
+  --svg-teal: #0f766e;
+  --svg-blue: #1d4ed8;
+  --svg-amber: #92400e;
+  --svg-red: #b91c1c;
+}
+html[data-theme="dark"] {
+  --svg-bg: #16211e;
+  --svg-bg-end: #1c2a26;
+  --svg-card: #1f2e29;
+  --svg-border: #31473e;
+  --svg-grid: #243630;
+  --svg-ink: #e4f0e9;
+  --svg-muted: #9eb7ac;
+  --svg-tint-green: #193326;
+  --svg-tint-teal: #153130;
+  --svg-tint-blue: #182b3b;
+  --svg-tint-amber: #332714;
+  --svg-tint-red: #361d1e;
+  --svg-green: #6ee7b7;
+  --svg-teal: #5eead4;
+  --svg-blue: #7dd3fc;
+  --svg-amber: #fcd34d;
+  --svg-red: #fca5a5;
+}
+
+.lesson-title-illustrated {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 10px 0 8px;
+}
+.lesson-title-illustrated h1 {
+  margin: 0 0 4px 0;
+}
+.lesson-title-illustrated .intro {
+  margin: 0;
+}
+.subject-vector-icon {
+  flex-shrink: 0;
+  filter: drop-shadow(0 2px 6px rgba(25, 62, 53, 0.1));
+}
+
+.visual-explainer-card,
+.exam-roadmap-svg-card {
+  margin: 18px 0 20px;
+  padding: 16px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--card-shadow);
+}
+.visual-explainer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.visual-head-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.visual-kicker {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  text-transform: uppercase;
+}
+.visual-title {
+  display: block;
+  font-size: 1.02rem;
+  color: var(--text);
+  line-height: 1.4;
+}
+.visual-head-badges {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.visual-code-pill,
+.visual-grade-pill {
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--text);
+}
+.visual-svg-canvas {
+  overflow-x: auto;
+  border-radius: 12px;
+}
+.visual-legend-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+.visual-legend-items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.v-legend-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 600;
+}
+.v-dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+.visual-quick-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.visual-mini-link {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+}
+.visual-mini-link:hover {
+  border-color: var(--brand);
+  background: var(--surface-hover);
+}
+
+.supp-visual-strip {
+  margin: 10px 0 14px;
+  overflow-x: auto;
+}
+.supp-code {
+  display: inline-block;
+  padding: 1px 6px;
+  margin: 0 2px;
+  border-radius: 5px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88em;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  color: var(--brand);
+}
+[data-theme="dark"] .supp-code {
+  color: var(--lime);
+}
+
+.five-step-svg-strip {
+  margin-bottom: 14px;
+  overflow-x: auto;
+}
+.solution-step-item-rich {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+.step-icon-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.solution-step-body {
+  flex: 1;
+  min-width: 0;
+  line-height: 1.7;
+  font-size: 0.92rem;
+  color: var(--text);
+  white-space: pre-wrap;
+}
+
+.school-archetypes-card {
+  border: 1px solid var(--border);
+  border-left: 5px solid #00897b;
+  background: var(--surface);
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 20px;
+  box-shadow: var(--card-shadow);
+}
+.school-archetypes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 14px;
+}
+.school-archetype-item {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-top: 3px solid #00897b;
+  border-radius: 9px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.exam-periodic-card {
+  border: 1px solid var(--border);
+  border-left: 5px solid #d97706;
+  border-radius: 10px;
+  background: var(--surface);
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+.periodic-link-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--warning-bg);
+  color: var(--warning-text);
+  border: 1px solid var(--warning-border);
+  text-decoration: none;
+}
+.periodic-link-pill:hover {
+  filter: brightness(0.96);
+}
+.exam-digest-card {
+  border: 1px solid var(--border);
+  border-left: 5px solid #2e7d32;
+  background: var(--surface);
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 20px;
+  box-shadow: var(--card-shadow);
+}
+.oral-checkpoints-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.oral-checkpoint-item {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+.oral-checkpoint-item summary {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: var(--text);
+  line-height: 1.5;
+}
+.oral-checkpoint-item p {
+  margin: 8px 0 0;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border);
+  font-size: 0.86rem;
+  line-height: 1.65;
+  color: var(--text);
+}
+.exam-constructed-card {
+  border: 1px solid var(--border);
+  border-left: 5px solid #7b1fa2;
+  border-radius: 12px;
+  background: var(--surface);
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: var(--card-shadow);
+}
+.constructed-subq-list {
+  margin: 0 0 12px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--text);
+}
+.constructed-draft-box {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1.5px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--text);
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  resize: vertical;
+}
+.rubric-svg-strip {
+  overflow-x: auto;
+  margin-bottom: 10px;
+}
+.constructed-model-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid #2e7d32;
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  font-size: 0.88rem;
+  color: var(--text);
+}
+.constructed-deduction-box {
+  background: var(--warning-bg);
+  border: 1px solid var(--warning-border);
+  border-left: 4px solid var(--warning-accent);
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 0.86rem;
+  color: var(--text);
+}
+@media (max-width: 640px) {
+  .lesson-title-illustrated {
+    gap: 10px;
+  }
+  .visual-explainer-card,
+  .exam-roadmap-svg-card {
+    padding: 12px;
+  }
+}
+
 
 
 
