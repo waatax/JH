@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="知行學院國中課綱重點筆記，包含核心觀念、示範、自測和 A4 列印版。">
+  <title>盒狀圖、四分位距與累積次數分配｜知行學院</title>
+  <link rel="stylesheet" href="../notes.css">
+  <script src="../notes.js" defer></script>
+</head>
+<body>
+<a class="skip screen-only" href="#main">跳到主要內容</a>
+<header class="masthead screen-only"><nav class="shell" aria-label="網站導覽">
+  <a class="brand" href="../../">知行學院</a>
+  <a href="../index.html#catalog">章節目錄</a>
+  <a href="../index.html#downloads">下載整學期</a>
+  <a href="../index.html#sources">資料來源</a>
+</nav></header>
+<main id="main" class="shell note-shell">
+  <div class="actions note-actions screen-only">
+    <a class="button" download href="../pdf/math-27.pdf">下載本章 A4 PDF</a>
+    <button class="button outline" type="button" id="print-note" hidden>列印網頁</button>
+    <a href="../index.html?subject=math#catalog">回同科目目錄</a>
+  </div>
+  <article class="note">
+  <header>
+    <p class="metadata">數學 · 國三下學期 · 章節筆記</p>
+    <h1>盒狀圖、四分位距與累積次數分配</h1>
+    <p class="core">將數據由小到大排序後分成四等份，分割點為第一四分位數 Q₁（25%）、第二四分位數 Q₂（中位數，50%）與第三四分位數 Q₃（75%）。四分位距 IQR＝Q₃−Q₁，代表中間 50% 資料的分散程度，受極端值影響小。盒狀圖由五數綜合（最小值、Q₁、Q₂、Q₃、最大值）繪製而成。</p>
+  </header>
+  <section>
+    <h2>章節重點</h2>
+    <dl class="key-points"><div class="point"><dt>百分位數定義</dt><dd>將 n 筆資料由小到大排序，第 p 百分位數記為 P_p<span>計算 n × p%：若為整數 k，取第 k 筆與第 k+1 筆平均；若非整數，無條件進位取該整數項</span></dd></div><div class="point"><dt>四分位數</dt><dd>Q1 = P25（第 25 百分位數）、Q2 = P50（中位數）、Q3 = P75（第 75 百分位數）<span>將整體資料由小到大等分為四個數量大致相等的區間（各約占 25% 筆數）</span></dd></div><div class="point"><dt>全距與四分位距 (IQR)</dt><dd>全距 = 最大值 - 最小值；四分位距 IQR = Q3 - Q1<span>全距易受極端值干擾；IQR 描述中間 50% 資料的分散程度，更具穩定性</span></dd></div></dl>
+  </section>
+  <section>
+    <h2>示範與推理</h2>
+    <p>甲組五數摘要為 40、55、65、75、100；乙組為 45、60、65、70、95。比較兩組中位數、全距與四分位距。</p>
+    <ol class="steps"><li>兩組中位數皆 65，不能因此說整體分布相同。</li><li>甲全距 100−40＝60、四分位距 75−55＝20。</li><li>乙全距 95−45＝50、四分位距 70−60＝10，因此本例兩種尺度都是甲較分散。</li></ol>
+    <p class="pitfall"><strong>易錯提醒</strong>　盒狀圖盒子較長的一側表示「資料較分散」，不代表該區間內的「資料個數比較多」；每一段區間包含的資料數量大約皆為總資料數的四分之一（25%）。</p>
+  </section>
+  <section>
+    <h2>闔上筆記，試著回想</h2>
+    <ol class="questions"><li>資料由小到大排序後，代表集中於中央 50% 數據分散範圍的統計量是？<ul class="options"><li>A．全距（Range）</li><li>B．四分位距（IQR）</li><li>C．算術平均數</li><li>D．眾數</li></ul></li><li>收集全班最近一次測驗成績，排序後計算 Q₁、Q₂、Q₃ 及四分位距 IQR，並畫出一幅水平盒狀圖。</li></ol>
+    <div class="writing-lines" aria-hidden="true"><span></span><span></span></div>
+    <details class="answer-panel">
+      <summary>參考解答與自評</summary>
+      <div class="answer-body"><p>第 1 題　B（四分位距（IQR））。四分位距 IQR＝Q₃−Q₁，涵蓋了排序後排在中間 50% 的資料範圍，能有效排除極端值干擾。</p><p>第 2 題　用上方的章節重點自評。寫出答案，標明依據，並核對所用條件、單位或情境是否適合。</p></div>
+    </details>
+  </section>
+  <footer>
+    <p><strong>課綱依據</strong>　<a href="https://edu.law.moe.gov.tw/Download.ashx?FileID=31051&amp;id=GL001788&amp;type=LAW">教育部發布數學領域課程綱要（107 年 7 月 26 日）</a>　<a href="https://edu.law.moe.gov.tw/Download.ashx?FileID=31051&amp;id=GL001788&amp;type=LAW#page=46">D-9-1（PDF 46 頁）</a>、<a href="https://edu.law.moe.gov.tw/Download.ashx?FileID=31051&amp;id=GL001788&amp;type=LAW#page=43">D-8-1（PDF 43 頁）</a>、<a href="https://edu.law.moe.gov.tw/Download.ashx?FileID=31051&amp;id=GL001788&amp;type=LAW#page=14">d-IV-1（PDF 14 頁）</a></p>
+
+    <p><strong>補充學習</strong>　<a href="https://www.junyiacademy.org/topics/math-9">均一｜9 年級數學</a></p>
+    <p>知行學院重點筆記 · 建議學期依本站編排</p>
+    <p class="note-links screen-only"><strong>相關課程</strong>　<a href="../../#/lesson/math-27">盒狀圖、四分位距與累積次數分配</a></p>
+    <p class="note-links screen-only"><strong>相關補強</strong>　<a href="./math-data-summary.html">統計數據、集中趨勢與極端值</a>、<a href="./math-chance.html">等可能結果與實驗相對頻率</a></p>
+  </footer>
+</article>
+</main>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="知行學院國中課綱重點筆記，包含核心觀念、示範、自測和 A4 列印版。">
+  <title>演算法與問題拆解｜知行學院</title>
+  <link rel="stylesheet" href="../notes.css">
+  <script src="../notes.js" defer></script>
+</head>
+<body>
+<a class="skip screen-only" href="#main">跳到主要內容</a>
+<header class="masthead screen-only"><nav class="shell" aria-label="網站導覽">
+  <a class="brand" href="../../">知行學院</a>
+  <a href="../index.html#catalog">章節目錄</a>
+  <a href="../index.html#downloads">下載整學期</a>
+  <a href="../index.html#sources">資料來源</a>
+</nav></header>
+<main id="main" class="shell note-shell">
+  <div class="actions note-actions screen-only">
+    <a class="button" download href="../pdf/computing-1.pdf">下載本章 A4 PDF</a>
+    <button class="button outline" type="button" id="print-note" hidden>列印網頁</button>
+    <a href="../index.html?subject=computing#catalog">回同科目目錄</a>
+  </div>
+  <article class="note">
+  <header>
+    <p class="metadata">資訊科技 · 國一上學期 · 章節筆記</p>
+    <h1>演算法與問題拆解</h1>
+    <p class="core">演算法是解決問題的明確步驟，應可執行、可檢驗並在合理條件下結束。可把大問題拆成輸入、處理、輸出與較小任務。</p>
+  </header>
+  <section>
+    <h2>章節重點</h2>
+    <dl class="key-points"><div class="point"><dt>問題拆解 (Decomposition)</dt><dd>將龐大複雜難解的整體問題，有條理地分解為若干個較小、獨立且易於處理的子問題<span>開發外送系統：拆解為地圖定位模組、菜單結帳模組、外送員派單系統、評分回饋模組分頭擊破</span></dd></div><div class="point"><dt>模式識別 (Pattern Recognition)</dt><dd>觀察不同子問題或過往經驗之間的相似規律、共同趨勢與重複特徵<span>發現學生成績排名、圖書館圖書編目、購物網站價格排序，皆可共通套用「數值排序演算法」解決</span></dd></div><div class="point"><dt>抽象化 (Abstraction)</dt><dd>過濾抽離掉不重要的枝節細節，僅聚焦保留與問題核心關聯最密切的關鍵屬性與規則<span>捷運路線圖省略真實曲折地理彎道與比例尺，僅抽象保留各站轉乘站點拓撲連通關係</span></dd></div></dl>
+  </section>
+  <section>
+    <h2>示範與推理</h2>
+    <p>設計從三個分數找最大值的流程，為何不能只比較前兩個？</p>
+    <ol class="steps"><li>先把第一個分數設為目前最大值。</li><li>依序比較第二、第三個，若新分數更大才更新；相等時保留即可。</li><li>全部比較後輸出目前最大值，例如 72、91、85 會輸出 91。</li></ol>
+    <p class="pitfall"><strong>易錯提醒</strong>　「做得更好」不夠明確，電腦需要可判斷的規則。</p>
+  </section>
+  <section>
+    <h2>闔上筆記，試著回想</h2>
+    <ol class="questions"><li>演算法最需要哪項特性？<ul class="options"><li>A．步驟模糊</li><li>B．規則明確可執行</li><li>C．永不結束</li><li>D．只能寫英文</li></ul></li><li>用流程圖畫出判斷奇偶的演算法，包含輸入與兩種輸出。</li></ol>
+    <div class="writing-lines" aria-hidden="true"><span></span><span></span></div>
+    <details class="answer-panel">
+      <summary>參考解答與自評</summary>
+      <div class="answer-body"><p>第 1 題　B（規則明確可執行）。明確步驟才能被執行和驗證。</p><p>第 2 題　用上方的章節重點自評。寫出答案，標明依據，並核對所用條件、單位或情境是否適合。</p></div>
+    </details>
+  </section>
+  <footer>
+    <p><strong>課綱依據</strong>　<a href="https://stv.naer.edu.tw/data/course_outline/pta_18529_8438379_60115.pdf">十二年國教科技課程綱要</a>　<a href="https://stv.naer.edu.tw/data/course_outline/pta_18529_8438379_60115.pdf#page=14">資A-IV-1（PDF 14 頁）</a>、<a href="https://stv.naer.edu.tw/data/course_outline/pta_18529_8438379_60115.pdf#page=11">運t-IV-4（PDF 11 頁）</a></p>
+
+
+    <p>知行學院重點筆記 · 建議學期依本站編排</p>
+    <p class="note-links screen-only"><strong>相關課程</strong>　<a href="../../#/lesson/computing-1">演算法與問題拆解</a></p>
+    <p class="note-links screen-only"><strong>相關補強</strong>　<a href="./computing-data.html">數位資料、陣列與資料清理</a></p>
+  </footer>
+</article>
+</main>
+</body>
+</html>

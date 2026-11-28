@@ -93,6 +93,8 @@ await import('../dist/realworld-apps-data.js');
 await import('../dist/realworld-apps.js');
 console.log('✔ All ESM modules load and evaluate cleanly.');
 
+await import('./check-curriculum-notes.mjs');
+
 console.log('\n========================================');
 console.log('🎉 STATIC ASSET AND MODULE CHECKS PASSED (not browser tests)');
 console.log('========================================');
