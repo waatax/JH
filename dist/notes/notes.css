@@ -86,6 +86,24 @@ h2 { font-size: 1.25rem; }
 .note footer { border-top: 1px solid var(--line); padding-top: .65rem; color: var(--muted); font-size: .9375rem; }
 .note footer p + p { margin-top: .25rem; }
 .note-links { margin-top: 1rem; }
+.cap-intro-actions { margin-block: .85rem; }
+.cap-note { margin-top: 1.25rem; scroll-margin-top: 1rem; }
+.cap-note header .quiet { margin-top: .4rem; }
+.cap-note h2 { margin-top: .2rem; }
+.cap-card { margin-block: .85rem; padding: 1rem 1.1rem; border: 1px solid var(--line); border-radius: .35rem; background: #fff; scroll-margin-top: 1rem; }
+.cap-card h3 { margin: .18rem 0 .55rem; font-size: 1.16rem; line-height: 1.35; }
+.cap-card > p + p { margin-top: .35rem; }
+.cap-question { margin-top: .65rem; padding: .5rem .65rem; background: var(--wash); }
+.cap-sources { margin-top: .55rem; font-size: .9375rem; color: var(--muted); }
+.cap-sources ul { display: flex; flex-wrap: wrap; gap: .15rem 1rem; padding: 0; margin: .2rem 0 0; list-style: none; }
+.cap-sources li { overflow-wrap: anywhere; }
+.cap-guide { max-width: 62rem; }
+.group-nav { margin: 0 0 1.2rem; padding-block: .55rem; border-block: 1px solid var(--line); }
+.cap-group { margin: 1.75rem 0 2.25rem; scroll-margin-top: 1rem; }
+.paper-list { margin-bottom: 1rem; }
+.paper-list div { padding-block: .5rem; border-bottom: 1px solid var(--line); }
+.paper-list h3 { display: inline; margin-right: .45rem; font-size: 1rem; }
+.paper-list p { display: inline; }
 @media (max-width: 43rem) {
   .filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .list-row { grid-template-columns: minmax(0, 1fr) auto; }
@@ -122,4 +140,12 @@ h2 { font-size: 1.25rem; }
   .answer-panel .answer-body { display: block !important; }
   .note footer, .metadata { font-size: 9pt; }
   .note footer { padding-top: .45rem; }
+  .cap-note { margin-top: 0; }
+  .cap-note h2 { font-size: 18pt; }
+  .cap-note header .quiet { font-size: 9pt; }
+  .cap-card { padding: .48rem 0 0; margin: .65rem 0 0; border: 0; border-top: 1px solid #777; border-radius: 0; break-inside: avoid; }
+  .cap-card h3 { font-size: 12.75pt; margin: .05rem 0 .2rem; }
+  .cap-card .metadata, .cap-sources { font-size: 9pt; }
+  .cap-question { padding: .2rem 0 0; margin-top: .35rem; }
+  .cap-sources ul { gap: .12rem .65rem; }
 }

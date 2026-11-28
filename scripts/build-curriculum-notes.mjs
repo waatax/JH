@@ -1,12 +1,14 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createRequire } from 'node:module';
-import { fileURLToPath, pathToFileURL } from 'node:url';
+import { fileURLToPath } from 'node:url';
 import { units, subjects, subjectById, unitById } from '../dist/curriculum.js';
 import { officialAlignment, officialSources } from '../dist/official-alignment-data.js';
 import { teachingTables } from '../dist/teaching.js';
 import { workedCases } from '../dist/worked-cases.js';
 import { addedNotes } from './curriculum-note-supplements.mjs';
+import { capGroups, capPatterns } from './cap-note-patterns.mjs';
+import { archivedYears, capIndexUrl, capReferences, capYears } from './cap-note-sources.mjs';
 
 const root = fileURLToPath(new URL('../dist/notes/', import.meta.url));
 const tmp = fileURLToPath(new URL('../tmp/pdfs/curriculum-notes/', import.meta.url));
@@ -69,6 +71,41 @@ const baseNotes = units.map(unit => {
 });
 
 const revisedNotes = {
+  'math-8': { points: [
+    ['點與軸', '有序數對先 x 再 y。水平直線固定 y，鉛直直線固定 x。', '坐標軸上的點不屬於任何象限。'],
+    ['交叉分類', '先讀列標籤、欄標籤和單位，再圈要加的交叉格。', '排除 A 或 B 後，只保留兩個條件都不符合的格。'],
+    ['資料摘要', '平均以總和除以總筆數。中位數須先排序。', '圖表若截短縱軸，用數值比較，並分清總數、變動數與比例。'],
+  ] },
+  'math-9': { points: [
+    ['乘法公式', '和或差的平方要計入交叉項 ±2ab。平方差 (a＋b)(a−b)＝a²−b²。', '先辨識公式，再展開檢查。'],
+    ['合併與減法', '只合併同次方的項。減去多項式時改變括號內各項符號。', '空缺的冪次可當作係數 0，便於直式對齊。'],
+    ['多項式除法', '每輪由首項相除，再乘回並減去。餘式次數須低於除式。', '用「除式×商式＋餘式」重建被除式。'],
+  ] },
+  'english-9': { points: [
+    ['過去進行', '用 was／were＋V-ing 說明過去某時正在持續的動作。', 'I was walking when the phone rang.'],
+    ['時間關係', '先找過去的參照時點，再辨認正在進行與已完成的事件。', 'when 可導入事件或時段。不能只看連接詞，就決定兩個動詞的時態。'],
+    ['數量詞', '依名詞是可數或不可數、以及語意範圍選數量詞。', 'a few books、a little water。'],
+  ] },
+  'biology-8': { points: [
+    ['水的路徑', '根吸水，木質部運水至葉，主要由氣孔逸出。', '被切斷的枝條可由切口吸水，並非由氣孔大量向下吸水。'],
+    ['有機養分', '韌皮部由來源輸送有機養分到使用或儲存處。', '依器官的生長與儲存需求決定方向。'],
+    ['裝置讀值', '同管徑下氣泡位移可估計吸水量，位移除以時間才可比速度。', '吸水是蒸散的間接指標，先核對是否控制風、光及枝條條件。'],
+  ] },
+  'physics-4': { points: [
+    ['狀態與傳遞', '溫度描述冷熱。熱量是因溫差而傳遞的能量。', '同溫的少量水與大量水，再升高一樣溫度所需熱量不同。'],
+    ['比熱與升溫', '同質量同物態，比熱較大，吸收等量熱時升溫較少。', '要判升溫快慢比較 ΔT／Δt，不能只看最後溫度。'],
+    ['傳熱方式', '傳導經接觸，對流伴隨流體移動，輻射不必依賴物質介質。', '對照題目中熱量傳遞的媒介和方向。'],
+  ] },
+  'chemistry-7': { points: [
+    ['速率的意義', '用單位時間內消耗或生成的量描述反應快慢。', '比較同長時間的變化量，或取同一時段的平均斜率。'],
+    ['因素與控制', '溫度、濃度、固體接觸面積及催化劑都可能影響速率。', '一次只改待驗因素，控制其餘條件。'],
+    ['速率與最終量', '相同反應物若都充分反應，快慢不同也可能產生等量產物。', '圖線初段斜率和最後平台是兩種資訊。'],
+  ] },
+  'chemistry-8': { points: [
+    ['可逆反應', '在適當條件下，生成物也能向反應物方向轉變。', '將正向與逆向當作同時可發生的兩個過程。'],
+    ['動態平衡', '正逆反應速率相等，各物質的巨觀量可維持穩定。', '濃度穩定不表示各物質濃度一樣，也不表示反應停止。'],
+    ['判讀曲線', '先讀坐標是速率、濃度或生成量，再比較穩定值或斜率。', '曲線平坦還可能來自反應物用完。要結合可逆與系統條件才能下結論。'],
+  ] },
   'local-4': { points: [
     ['記下語境', '記錄誰在什麼情境使用這個詞、故事或歌謠。', '可記下學校或家庭中不同世代的說法與脈絡。'],
     ['保存來源', '記錄語別、教材名稱及頁次，使用他人的聲音或影像前先取得同意。', '用文字或口述皆可，依語別及教材調整。'],
@@ -102,6 +139,13 @@ for (const note of supplementNotes) for (const unitId of note.links) {
   if (!supplementsByUnit.has(unitId)) supplementsByUnit.set(unitId, []);
   supplementsByUnit.get(unitId).push(note);
 }
+const capByNote = new Map(notes.map(note => {
+  const rank = pattern => note.id === 'english-listening' && pattern.id === 'listening-update' ? 0 : pattern.chapterIds.length;
+  const patterns = capPatterns.filter(pattern => pattern.chapterIds.includes(note.id)).sort((a, b) => rank(a) - rank(b));
+  return [note.id, patterns];
+}));
+const noteById = new Map(notes.map(note => [note.id, note]));
+const capNoteCount = [...capByNote.values()].filter(patterns => patterns.length > 0).length;
 
 function layout(title, body, { prefix = './', printOnly = false, inlineCss = '' } = {}) {
   return `<!doctype html>
@@ -125,9 +169,43 @@ function masthead(prefix) {
 <header class="masthead screen-only"><nav class="shell" aria-label="網站導覽">
   <a class="brand" href="${prefix}../">知行學院</a>
   <a href="${prefix}index.html#catalog">章節目錄</a>
+  <a href="${prefix}cap.html">會考題型</a>
   <a href="${prefix}index.html#downloads">下載整學期</a>
   <a href="${prefix}index.html#sources">資料來源</a>
 </nav></header>`;
+}
+
+function capCard(pattern, { prefix, printOnly = false, guide = false }) {
+  const items = pattern.refs.map(id => capReferences.get(id));
+  const references = items.slice(0, guide ? items.length : 3);
+  const sourceRoot = printOnly ? rootUrl : guide ? '../' : '../../';
+  const refs = references.map(ref => `<li>${link(`${sourceRoot}${ref.pdf}#page=${ref.page}`, `${ref.title}｜PDF 第 ${ref.page} 頁`)}${!printOnly && ref.analysis ? ` · ${link(sourceRoot + ref.analysis, '官方分析')}` : ''}${!printOnly && ref.practice ? ` · ${link(sourceRoot + ref.practice, ref.hasDetailedDerivation ? '練習與本站解析' : '線上作答')}` : ''}</li>`).join('');
+  return `<section class="cap-card"${guide ? ` id="${pattern.id}"` : ''}>
+  <p class="metadata">${capGroups[pattern.group]}</p>
+  <h3>${esc(pattern.title)}</h3>
+  <p><strong>看到什麼</strong>　${esc(pattern.clue)}</p>
+  <ol class="steps">${pattern.steps.map(step => `<li>${esc(step)}</li>`).join('')}</ol>
+  <p class="pitfall"><strong>易錯辨識</strong>　${esc(pattern.trap)}</p>
+  <p class="cap-question"><strong>原創變式</strong>　${esc(pattern.prompt)}</p>
+  ${!guide ? '<div class="writing-lines" aria-hidden="true"><span></span><span></span></div>' : ''}
+  <details class="answer-panel cap-answer"${printOnly ? ' open' : ''}>
+    <summary>查看變式解答</summary><div class="answer-body"><p>${esc(pattern.answer)}</p></div>
+  </details>
+  <div class="cap-sources"><strong>歷屆考法參照</strong><ul>${refs}</ul>${!guide && items.length > references.length ? `<p>${link(`${printOnly ? `${rootUrl}notes/` : prefix}cap.html#${pattern.id}`, '更多題本參照')}</p>` : ''}</div>
+  ${guide && !printOnly ? `<p class="cap-sources"><strong>回章節讀觀念</strong>　${pattern.chapterIds.map(id => link(`./chapters/${id}.html#cap-prep`, noteById.get(id).title)).join('、')}</p>` : ''}
+</section>`;
+}
+
+function chapterCap(note, printOnly = false) {
+  const patterns = capByNote.get(note.id);
+  if (!patterns.length) return '';
+  return `<article class="note cap-note" id="cap-prep">
+  <header><p class="metadata">${esc(subjectById[note.subject].name)} · ${esc(note.title)}</p>
+  <h2>會考題型與變式演練</h2>
+  <p class="quiet">先用章節觀念作答原創變式，再開同類歷屆題。題型可能結合其他章節。</p></header>
+  ${(printOnly ? patterns.slice(0, 2) : patterns).map(pattern => capCard(pattern, { prefix: '../', printOnly })).join('\n')}
+  ${printOnly && patterns.length > 2 ? `<p class="cap-sources">${link(`${rootUrl}notes/chapters/${note.id}.html#cap-prep`, '線上看本章其他會考題型')}</p>` : ''}
+</article>`;
 }
 
 function noteArticle(note, printOnly = false) {
@@ -182,15 +260,19 @@ function notePage(note) {
   <div class="actions note-actions screen-only">
     <a class="button" download href="../pdf/${note.id}.pdf">下載本章 A4 PDF</a>
     <button class="button outline" type="button" id="print-note" hidden>列印網頁</button>
+    ${capByNote.get(note.id).length ? '<a href="#cap-prep">本章會考題型</a>' : ''}
     <a href="../index.html?subject=${note.subject}#catalog">回同科目目錄</a>
   </div>
   ${noteArticle(note)}
+  ${chapterCap(note)}
 </main>`, { prefix });
 }
 
 function renderRow(note) {
   const subject = subjectById[note.subject];
-  const search = [note.id, note.title, subject.name, subject.domain, ...note.refs.map(ref => ref.code)]
+  const patterns = capByNote.get(note.id);
+  const search = [note.id, note.title, subject.name, subject.domain, ...note.refs.map(ref => ref.code),
+    ...patterns.map(pattern => pattern.title), ...(patterns.length ? ['會考'] : [])]
     .join(' ').normalize('NFKC').toLowerCase();
   return `<li class="list-row" data-subject="${note.subject}" data-term="${note.grade}-${note.term}" data-kind="${note.kind}" data-search="${esc(search)}">
     <span class="quiet">${esc(subject.name)}${note.kind === 'supplement' ? ' · 補強' : ''}</span>
@@ -207,6 +289,7 @@ function indexPage() {
     <h1>國中課綱重點筆記</h1>
     <p class="lede">從觀念、示範到自測。按學期或科目找章節，線上閱讀或下載 A4 列印。</p>
     <p class="metadata">八大領域 · ${subjects.length} 門站內科目 · ${baseNotes.length} 章 · ${addedNotes.length} 份課綱補強</p>
+    <div class="actions cap-intro-actions"><a class="button" href="./cap.html">讀會考題型與變式</a><a class="button outline" download href="./pdf/cap-guide.pdf">下載會考題型 PDF</a></div>
     <dl class="study-guide">${guide.map(([label, body]) => `<div><dt>${esc(label)}</dt><dd>${esc(body)}</dd></div>`).join('')}</dl>
     <p class="quiet">回想與間隔複習參考${link(learningGuideUrl, '美國教育科學研究院學習實務指南')}。各校教材編排可依版本與教師進度調整。</p>
   </header>
@@ -241,8 +324,32 @@ function indexPage() {
 <footer class="site-footer shell">知行學院｜國中全科學習</footer>`);
 }
 
+function capPage() {
+  const entries = Object.entries(capGroups);
+  return layout('歷屆會考題型與變式演練', `${masthead('./')}
+<main id="main" class="shell cap-guide">
+  <header class="intro">
+    <p class="overline">民國 109–115 年國中教育會考</p>
+    <h1>歷屆會考題型與變式演練</h1>
+    <p class="lede">先找題幹線索，確認出手條件，自己做一道變式，再回正式題本驗證會不會遷移。</p>
+    <p class="metadata">${capPatterns.length} 種練法 · ${capNoteCount} 份章節筆記已連結 · ${capReferences.size} 筆正式試題參照</p>
+    <div class="actions cap-intro-actions"><a class="button" download href="./pdf/cap-guide.pdf">下載會考題型 A4 PDF</a><a class="button outline" href="#papers">依年份找題本與答案</a></div>
+    <p class="quiet">參照為代表題目及寫作題本。解題步驟、變式與答法由本站編寫，依題本的完整題組、圖表和錄音作答。</p>
+  </header>
+  <nav class="actions group-nav" aria-label="依考科跳到題型">${entries.map(([id, title]) => `<a href="#group-${id}">${title}</a>`).join('')}</nav>
+  ${entries.map(([id, title]) => `<section class="cap-group" id="group-${id}"><h2>${title}</h2>${capPatterns.filter(pattern => pattern.group === id).map(pattern => capCard(pattern, { prefix: './', guide: true })).join('\n')}</section>`).join('\n')}
+  <section class="source-list" id="papers"><h2>正式題本、參考答案與試題說明</h2>
+  <div class="paper-list">${capYears.map(year => `<div><h3>${year.year} 年</h3><p>${year.items.map(item => link(`../${item.pdf}`, item.label)).join(' · ')} · ${link(`../${year.answers}`, '參考答案')} · ${link(`../${year.notes}`, '試題說明')} · ${link(year.source, '官方年度索引')}</p></div>`).join('\n')}</div>
+  <p class="quiet">較早年度的題本可用來加練題型。跨年度練習時，確認施測課綱及當時法規。</p>
+  <p>${archivedYears.map(item => link(item.source, `${item.year} ${item.year === 102 ? '年試辦' : '年'}`)).join(' · ')} · ${link(capIndexUrl, '會考官方歷屆試題入口')}</p>
+  </section>
+</main>
+<footer class="site-footer shell">知行學院｜國中全科學習</footer>`);
+}
+
 await fs.mkdir(path.join(root, 'chapters'), { recursive: true });
 await fs.writeFile(path.join(root, 'index.html'), indexPage());
+await fs.writeFile(path.join(root, 'cap.html'), capPage());
 await Promise.all(notes.map(note => fs.writeFile(path.join(root, 'chapters', `${note.id}.html`), notePage(note))));
 
 if (process.argv.includes('--pdf')) {
@@ -259,11 +366,18 @@ if (process.argv.includes('--pdf')) {
     id: `semester-${s.key}`, title: `${s.label}重點筆記`,
     chapters: notes.filter(note => note.grade === s.grade && note.term === s.term),
   });
+  const guidePages = Object.keys(capGroups).flatMap(group => {
+    const patterns = capPatterns.filter(pattern => pattern.group === group);
+    return Array.from({ length: Math.ceil(patterns.length / 2) }, (_, i) => patterns.slice(i * 2, i * 2 + 2));
+  });
+  jobs.push({ id: 'cap-guide', title: '歷屆會考題型與變式演練', guidePages });
   try {
     await Promise.all(Array.from({ length: 4 }, async (_, offset) => {
       const page = await browser.newPage();
       for (const job of jobs.filter((_, index) => index % 4 === offset)) {
-        await page.setContent(layout(job.title, `<main>${job.chapters.map(note => noteArticle(note, true)).join('\n')}</main>`, { inlineCss: css, printOnly: true }));
+        const articles = job.chapters ? job.chapters.map(note => noteArticle(note, true) + chapterCap(note, true))
+          : job.guidePages.map(patterns => `<article class="note cap-note"><header><p class="metadata">知行學院 · 歷屆會考題型與變式演練</p></header>${patterns.map(pattern => capCard(pattern, { prefix: '../', printOnly: true, guide: true })).join('\n')}</article>`);
+        await page.setContent(layout(job.title, `<main>${articles.join('\n')}</main>`, { inlineCss: css, printOnly: true }));
         await page.evaluate(() => document.fonts.ready);
         await page.pdf({
           path: path.join(root, 'pdf', `${job.id}.pdf`), preferCSSPageSize: true,
@@ -277,4 +391,4 @@ if (process.argv.includes('--pdf')) {
   }
 }
 
-console.log(`Notes built: ${baseNotes.length} chapters and ${addedNotes.length} supplements across ${semesters.length} semesters`);
+console.log(`Notes built: ${notes.length} chapters and supplements, ${capNoteCount} with CAP practice, ${capPatterns.length} CAP patterns`);

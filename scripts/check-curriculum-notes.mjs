@@ -4,15 +4,27 @@ import { units, subjects, subjectById } from '../dist/curriculum.js';
 import { officialAlignment, officialSources } from '../dist/official-alignment-data.js';
 import { lessonResources } from '../dist/study-library.js';
 import { addedNotes } from './curriculum-note-supplements.mjs';
+import { capGroups, capPatterns } from './cap-note-patterns.mjs';
+import { capReferences, capYears } from './cap-note-sources.mjs';
 
 const root = new URL('../dist/notes/', import.meta.url);
 const read = (relative, encoding) => fs.readFileSync(new URL(relative, root), encoding);
 const catalog = read('index.html', 'utf8');
+const capGuide = read('cap.html', 'utf8');
 const notes = [...units, ...addedNotes];
+const capSubject = {
+  chinese: 'chinese', english: 'english', math: 'math', biology: 'science', chemistry: 'science', physics: 'science', earth: 'science',
+  history: 'social', geography: 'social', civics: 'social',
+};
+const capCourseNotes = notes.filter(note => capSubject[note.subject]);
+const capIds = new Set(capPatterns.flatMap(pattern => pattern.chapterIds));
 assert.equal(new Set(notes.map(note => note.id)).size, notes.length, 'duplicate note ID');
 assert.equal(new Set(notes.map(note => subjectById[note.subject].domain)).size, 8);
 assert.equal(new Set(notes.map(note => note.subject)).size, subjects.length);
 assert.equal(new Set(addedNotes.map(note => subjectById[note.subject].domain)).size, 8);
+assert.deepEqual([...capIds].sort(), capCourseNotes.map(note => note.id).sort(), 'CAP chapter coverage does not include unrelated subjects');
+assert.equal(new Set(capPatterns.map(pattern => pattern.id)).size, capPatterns.length);
+assert.equal(new Set(capPatterns.map(pattern => pattern.prompt)).size, capPatterns.length);
 
 function checkPdf(id, pages) {
   const pdf = read(`pdf/${id}.pdf`, 'latin1');
@@ -29,14 +41,48 @@ for (const note of notes) {
   }
   assert.ok(html.includes(`href="../pdf/${note.id}.pdf"`), `${note.id} download link`);
   assert.ok(!html.includes('<details class="answer-panel" open>'), `${note.id} answer should start collapsed`);
-  checkPdf(note.id, 1);
+  assert.equal(html.includes('id="cap-prep"'), capIds.has(note.id), `${note.id} CAP section`);
+  for (const pattern of capPatterns.filter(p => p.chapterIds.includes(note.id))) {
+    assert.ok(html.includes(escapeHtml(pattern.title)), `${note.id}: ${pattern.id} missing`);
+  }
+  checkPdf(note.id, capIds.has(note.id) ? 2 : 1);
 }
 
 for (const grade of [7, 8, 9]) for (const term of [1, 2]) {
   const id = `semester-${grade}-${term}`;
-  const count = notes.filter(note => note.grade === grade && note.term === term).length;
+  const count = notes.filter(note => note.grade === grade && note.term === term)
+    .reduce((total, note) => total + (capIds.has(note.id) ? 2 : 1), 0);
   assert.ok(catalog.includes(`href="./pdf/${id}.pdf"`), `${id} download link`);
   checkPdf(id, count);
+}
+
+function escapeHtml(text) {
+  const entities = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+  return text.replace(/[&<>"']/g, char => entities[char]);
+}
+
+assert.ok(catalog.includes('href="./cap.html"') && capGuide.includes('href="./pdf/cap-guide.pdf"'));
+checkPdf('cap-guide', Object.keys(capGroups).reduce((pages, group) => pages + Math.ceil(capPatterns.filter(pattern => pattern.group === group).length / 2), 0));
+for (const [id, label] of Object.entries(capGroups)) assert.ok(capGuide.includes(`id="group-${id}"><h2>${label}</h2>`));
+for (const pattern of capPatterns) {
+  assert.ok(pattern.steps.length >= 3 && pattern.prompt.length > 15 && pattern.answer.length > 15);
+  assert.ok(capGuide.includes(`id="${pattern.id}"`));
+  assert.ok(pattern.refs.length >= 2 && new Set(pattern.refs).size === pattern.refs.length);
+  for (const id of pattern.refs) {
+    const ref = capReferences.get(id);
+    assert.equal(ref.subject, pattern.group, `${pattern.id} reference ${id}`);
+    assert.ok(capGuide.includes(`href="../${ref.pdf}#page=${ref.page}"`));
+    if (ref.analysis) assert.ok(capGuide.includes(`href="../${ref.analysis}"`));
+  }
+}
+const referencedPapers = new Set([...capReferences.values()].map(ref => `${ref.year}-${ref.subject}`));
+for (const year of capYears) for (const subject of Object.keys(capGroups)) {
+  if (year.year === 109 && subject === 'listening') continue;
+  assert.ok(referencedPapers.has(`${year.year}-${subject}`), `Missing targeted example for ${year.year} ${subject}`);
+}
+const capBank = JSON.parse(read('../cap-bank.json', 'utf8'));
+for (const q of capBank.questions.filter(q => (q.subject === 'math' && [114, 115].includes(q.year)) || (q.subject === 'science' && q.year === 115))) {
+  assert.ok(capReferences.has(q.id), `Missing item from the fully referenced paper: ${q.id}`);
 }
 
 for (const note of units) {
@@ -67,4 +113,4 @@ const expected = Object.entries(ranges).flatMap(([grade, strands]) => Object.ent
   Array.from({ length: count }, (_, i) => `${strand}-${grade}-${i + 1}`)));
 assert.equal(expected.length, 73);
 assert.deepEqual([...mapped].sort(), expected.sort(), 'mathematics official learning-content index');
-console.log(`✔ Curriculum notes verified: ${notes.length} HTML/PDF pairs, 6 semester packs, 73 math content references.`);
+console.log(`✔ Curriculum notes verified: ${notes.length} HTML/PDF pairs, ${capIds.size} CAP chapters, ${capPatterns.length} patterns, ${capReferences.size} verified links, 73 math content references.`);

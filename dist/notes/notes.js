@@ -61,17 +61,19 @@ if (filters) {
   filterNotes();
 }
 
-const answers = document.querySelector('.answer-panel');
+const answers = Array.from(document.querySelectorAll('.answer-panel'));
 const print = document.querySelector('#print-note');
-if (print && answers) {
-  let wasOpen;
+if (print) {
   print.hidden = false;
   print.addEventListener('click', () => window.print());
+}
+if (answers.length) {
+  let wasOpen = [];
   window.addEventListener('beforeprint', () => {
-    wasOpen = answers.open;
-    answers.open = true;
+    wasOpen = answers.map(answer => answer.open);
+    for (const answer of answers) answer.open = true;
   });
   window.addEventListener('afterprint', () => {
-    answers.open = wasOpen;
+    answers.forEach((answer, index) => { answer.open = wasOpen[index] ?? answer.open; });
   });
 }
